@@ -42,7 +42,7 @@ If you have any questions, you can also check out our FAQ section below or join 
    - Romanian (ro_RO)
    
 **4) What languages are currently added to the repo but are incomplete?**
-   - Persian (fa_FA)
+   - Farsi/Persian (fa_FA)
 
 **5) Do I need permission to contribute?**
    - Nope! Anyone can contribute, just be sure to follow our rules and formatting guidelines above.
