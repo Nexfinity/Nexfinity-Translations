@@ -1,0 +1,2439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="cooldown" xml:space="preserve">
+    <value>Questo comando è in ricarica per: {0}</value>
+  </data>
+  <data name="module_disabled" xml:space="preserve">
+    <value>Questo modulo è stato disabilitato in questa gilda dagli amministratori del server.</value>
+  </data>
+  <data name="command_disabled" xml:space="preserve">
+    <value>Questo comando è temporaneamente disabilitato per gli aggiornamenti.</value>
+  </data>
+  <data name="error_generic_1" xml:space="preserve">
+    <value>Un errore sconosciuto si è verificato!</value>
+  </data>
+  <data name="error_generic_2" xml:space="preserve">
+    <value>Si è verificato un errore sconosciuto. Sei pregato di segnalare nel nostro supporto Discord: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="error_generic_3" xml:space="preserve">
+    <value>Un errore sconosciuto si è verificato. Il server è online? Hai scelto il tipo di server corretto?</value>
+  </data>
+  <data name="error_generic_4" xml:space="preserve">
+    <value>Errore:</value>
+  </data>
+  <data name="error_generic_5" xml:space="preserve">
+    <value>Sotto-comando in arrivo.</value>
+  </data>
+  <data name="error_command_disabled" xml:space="preserve">
+    <value>**Errore:** Comando disabilitato.</value>
+  </data>
+  <data name="error_ssl" xml:space="preserve">
+    <value>Errore SSL, sei pregato di riprovare.</value>
+  </data>
+  <data name="error_limit_rate" xml:space="preserve">
+    <value>Limite del tasso raggiunto.</value>
+  </data>
+  <data name="error_limit_characters_10" xml:space="preserve">
+    <value>Il testo deve essere inferiore a 10 caratteri.</value>
+  </data>
+  <data name="error_limit_characters_200" xml:space="preserve">
+    <value>Sei pregato di inserire una domanda inferiore a 200 caratteri.</value>
+  </data>
+  <data name="error_limit_characters_200_2" xml:space="preserve">
+    <value>Sei pregato di inserire un suggerimento inferiore a 200 caratteri.</value>
+  </data>
+  <data name="error_limit_characters_500" xml:space="preserve">
+    <value>Il testo deve essere di lunghezza inferiore a 500 caratteri.</value>
+  </data>
+  <data name="error_missing_text" xml:space="preserve">
+    <value>Devi fornire del testo.</value>
+  </data>
+  <data name="error_missing_query" xml:space="preserve">
+    <value>Devi fornire una query di ricerca.</value>
+  </data>
+  <data name="error_missing_warn_id" xml:space="preserve">
+    <value>Devi inserire un ID di avviso!</value>
+  </data>
+  <data name="error_missing_server_info" xml:space="preserve">
+    <value>Devi fornire un IP del server ed una porta.</value>
+  </data>
+  <data name="error_missing_user_name_1" xml:space="preserve">
+    <value>Devi inserire un nome utente!</value>
+  </data>
+  <data name="error_missing_user_name_2" xml:space="preserve">
+    <value>Devi inserire due nomi utente!</value>
+  </data>
+  <data name="error_missing_user_id" xml:space="preserve">
+    <value>Devi inserire un id utente!</value>
+  </data>
+  <data name="error_missing_steam_id_1" xml:space="preserve">
+    <value>Sei pregato di inserire un id utente steam valido! Trova gli ID utente a: https://steamid.io/lookup/</value>
+  </data>
+  <data name="error_missing_steam_id_2" xml:space="preserve">
+    <value>Ricorda, gli ID di Steam64 si possono trovare a: https://steamid.io/lookup/</value>
+  </data>
+  <data name="error_missing_role_name" xml:space="preserve">
+    <value>Devi fornire un nome ruolo!</value>
+  </data>
+  <data name="error_missing_role_mention" xml:space="preserve">
+    <value>Devi taggare un ruolo!</value>
+  </data>
+  <data name="error_missing_perm_manageroles" xml:space="preserve">
+    <value>Non hai i permessi ManageRoles!</value>
+  </data>
+  <data name="error_missing_perm_manageserver" xml:space="preserve">
+    <value>Non hai i permessi ManageServer!</value>
+  </data>
+  <data name="error_missing_perm_managechannels" xml:space="preserve">
+    <value>Non hai i permessi ManageChannels!</value>
+  </data>
+  <data name="error_missing_perm_managenicks" xml:space="preserve">
+    <value>Non hai i permessi ManageNickname!</value>
+  </data>
+  <data name="error_missing_perm_managemessage_1" xml:space="preserve">
+    <value>Non hai i permessi ManageMessage!</value>
+  </data>
+  <data name="error_missing_perm_managemessage_2" xml:space="preserve">
+    <value>Non ho il permesso ManageMessage!</value>
+  </data>
+  <data name="error_missing_perm_moderator" xml:space="preserve">
+    <value>Devi avere i permessi di moderatore del server per usare questo comando. [Più Info](https://docs.cakeybot.app/setup/faq#what-is-considered-a-server-moderator)</value>
+  </data>
+  <data name="error_missing_perm_emoji" xml:space="preserve">
+    <value>Non hai i permessi ManageEmoji!</value>
+  </data>
+  <data name="error_missing_perm_administrator" xml:space="preserve">
+    <value>Non hai i permessi di Amministratore!</value>
+  </data>
+  <data name="error_missing_perm_kick" xml:space="preserve">
+    <value>Non hai i permessi di kick!</value>
+  </data>
+  <data name="error_missing_perm_ban" xml:space="preserve">
+    <value>Non hai il permesso di bandire!</value>
+  </data>
+  <data name="error_missing_perm_unban" xml:space="preserve">
+    <value>Non hai il permesso di riammissione!</value>
+  </data>
+  <data name="error_missing_perm_mute" xml:space="preserve">
+    <value>Non hai il permesso MuteMembers!</value>
+  </data>
+  <data name="error_missing_perm_self_emoji" xml:space="preserve">
+    <value>Non ho il permesso ManageEmoji!</value>
+  </data>
+  <data name="error_missing_perm_self_react" xml:space="preserve">
+    <value>Non ho il permesso di aggiungere reazioni!</value>
+  </data>
+  <data name="error_missing_perm_self_kick" xml:space="preserve">
+    <value>Non ho i permessi di kick!</value>
+  </data>
+  <data name="error_missing_perm_self_ban" xml:space="preserve">
+    <value>Non ho i permessi di bandire!</value>
+  </data>
+  <data name="error_missing_perm_self_unban" xml:space="preserve">
+    <value>Non ho i permessi di riammettere!</value>
+  </data>
+  <data name="error_missing_perm_self_manageroles" xml:space="preserve">
+    <value>Non ho i permessi ManageRoles!</value>
+  </data>
+  <data name="error_missing_perm_self_managechannels" xml:space="preserve">
+    <value>Non ho i permessi ManageChannel!</value>
+  </data>
+  <data name="error_missing_perm_self_manageguild" xml:space="preserve">
+    <value>Non ho i permessi ManageGuild! (Obbligatorio per vedere gli inviti della gilda)</value>
+  </data>
+  <data name="error_missing_perm_self_managenicks" xml:space="preserve">
+    <value>Non hai i permessi ManageNickname!</value>
+  </data>
+  <data name="error_missing_perm_self_kick_admin" xml:space="preserve">
+    <value>Non posso kickare un Amministratore!</value>
+  </data>
+  <data name="error_missing_perm_self_ban_admin" xml:space="preserve">
+    <value>Non posso bandire un Amministratore!</value>
+  </data>
+  <data name="error_missing_perm_self_ban_soft_admin" xml:space="preserve">
+    <value>Non posso soft bandire un Amministratore!</value>
+  </data>
+  <data name="error_missing_perm_self_mute_admin" xml:space="preserve">
+    <value>Non posso mutare un Amministratore!</value>
+  </data>
+  <data name="error_missing_perm_self_warn_admin" xml:space="preserve">
+    <value>Non posso avvisare un Amministratore!</value>
+  </data>
+  <data name="error_missing_file_image_3" xml:space="preserve">
+    <value>Impossibile trovare alcuna immagine valida negli ultimi 3 messaggi.</value>
+  </data>
+  <data name="error_missing_file_image_5" xml:space="preserve">
+    <value>Impossibile trovare alcuna immagine valida negli ultimi 5 messaggi.</value>
+  </data>
+  <data name="error_missing_messages" xml:space="preserve">
+    <value>Nessun messaggio trovato per l&#39;utente dato.</value>
+  </data>
+  <data name="error_failed_image_download" xml:space="preserve">
+    <value>Impossibile scaricare l&#39;immagine.</value>
+  </data>
+  <data name="error_failed_image_modify" xml:space="preserve">
+    <value>Impossibile modificare l&#39;immagine.</value>
+  </data>
+  <data name="error_failed_image_upload" xml:space="preserve">
+    <value>Nessun permesso di caricare file qui.</value>
+  </data>
+  <data name="error_failed_joke" xml:space="preserve">
+    <value>Impossibile ottenere lo scherzo.</value>
+  </data>
+  <data name="error_failed_fortune" xml:space="preserve">
+    <value>Impossibile ottenere fortuna.</value>
+  </data>
+  <data name="error_failed_weather" xml:space="preserve">
+    <value>Impossibile ottenere il dato, hai digitato correttamente il nome della città?</value>
+  </data>
+  <data name="error_failed_currency" xml:space="preserve">
+    <value>Impossibile ottenere il dato, hai digitato correttamente le valute?</value>
+  </data>
+  <data name="error_failed_video" xml:space="preserve">
+    <value>Impossibile trovare un video. *Query di ricerca più brevi funzionano meglio.*</value>
+  </data>
+  <data name="error_failed_image" xml:space="preserve">
+    <value>Impossibile trovare un&#39;immagine. *Query di ricerca più brevi funzionano meglio.*</value>
+  </data>
+  <data name="error_failed_article" xml:space="preserve">
+    <value>Impossibile trovare un articolo.</value>
+  </data>
+  <data name="error_failed_message" xml:space="preserve">
+    <value>Impossibile trovare il messaggio.</value>
+  </data>
+  <data name="error_failed_kick" xml:space="preserve">
+    <value>Impossibile kickare utente.</value>
+  </data>
+  <data name="error_failed_ban" xml:space="preserve">
+    <value>Impossibile bandire l&#39;utente.</value>
+  </data>
+  <data name="error_failed_ban_soft" xml:space="preserve">
+    <value>Impossibile soft bandire l&#39;utente.</value>
+  </data>
+  <data name="error_failed_unban" xml:space="preserve">
+    <value>Impossibile riammettere l&#39;utente.</value>
+  </data>
+  <data name="error_failed_unban_not_banned_1" xml:space="preserve">
+    <value>Non sono bandito!</value>
+  </data>
+  <data name="error_failed_unban_not_banned_2" xml:space="preserve">
+    <value>L&#39;id utente dato non è bandito.</value>
+  </data>
+  <data name="error_failed_unmute_not_muted" xml:space="preserve">
+    <value>L&#39;utente non è mutato. Se lo è, assicurati di impostare il ruolo muto con `!setting` o nominalo `Muted`.</value>
+  </data>
+  <data name="error_failed_playlist_save" xml:space="preserve">
+    <value>Impossibile salvare le canzoni alla playlist. La playlist esiste già?</value>
+  </data>
+  <data name="error_failed_playlist_load" xml:space="preserve">
+    <value>Impossibile trovare la playlist. Hai digitato correttamente il nome?</value>
+  </data>
+  <data name="error_failed_playlist_delete" xml:space="preserve">
+    <value>Impossibile eliminare la tua playlist `{0}`. La playlist esiste?</value>
+  </data>
+  <data name="error_role_1" xml:space="preserve">
+    <value>Non posso aggiornare quel ruolo, è superiore al mio massimo ruolo.</value>
+  </data>
+  <data name="error_role_2" xml:space="preserve">
+    <value>Non puoi aggiornare quel ruolo, è superiore del tuo massimo ruolo.</value>
+  </data>
+  <data name="error_role_kick_1" xml:space="preserve">
+    <value>Non puoi kickare qualcuno superiore a te nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_kick_2" xml:space="preserve">
+    <value>Non posso kickare qualcuno sopra di me nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_ban_1" xml:space="preserve">
+    <value>Non puoi bandire qualcuno superiore a te nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_ban_2" xml:space="preserve">
+    <value>Non posso bandire qualcuno superiore a me nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_ban_soft_1" xml:space="preserve">
+    <value>Non puoi soft bandire qualcuno superiore a te nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_ban_soft_2" xml:space="preserve">
+    <value>Non posso soft bandire qualcuno superiore a me nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_mute_1" xml:space="preserve">
+    <value>Non puoi mutare qualcuno superiore a te nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_mute_2" xml:space="preserve">
+    <value>Non posso mutare qualcuno superiore a me nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_mute_3" xml:space="preserve">
+    <value>Non posso usare il ruolo muta, è superiore del mio massimo ruolo.</value>
+  </data>
+  <data name="error_role_warn_1" xml:space="preserve">
+    <value>Non puoi avvisare qualcuno superiore a te nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_warn_2" xml:space="preserve">
+    <value>Non posso avvisare qualcuno superiore a me nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_unwarn_1" xml:space="preserve">
+    <value>Non puoi rimuovere l&#39;avviso di qualcuno superiore a te nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_role_unwarn_2" xml:space="preserve">
+    <value>Non posso rimuovere l&#39;avviso di qualcuno superiore a me nella gerarchia dei ruoli!</value>
+  </data>
+  <data name="error_invalid_color_hex" xml:space="preserve">
+    <value>Devi usare un codice esadecimale valido!</value>
+  </data>
+  <data name="error_invalid_dice" xml:space="preserve">
+    <value>Sei pregato di inserire un numero valido (1-15) o inserisci un tiro di dado DND.</value>
+  </data>
+  <data name="error_invalid_user_missing" xml:space="preserve">
+    <value>Il nome utente non esiste!</value>
+  </data>
+  <data name="error_invalid_user_guild" xml:space="preserve">
+    <value>Utente non valido. (Utente della gilda non valido)</value>
+  </data>
+  <data name="error_invalid_unknown_city" xml:space="preserve">
+    <value>Nome città sconosciuto.</value>
+  </data>
+  <data name="error_invalid_invite" xml:space="preserve">
+    <value>Sei pregato di inserire un codice di invito valido.</value>
+  </data>
+  <data name="error_invalid_base64" xml:space="preserve">
+    <value>Sei pregato di fornire una stringa base64 valida.</value>
+  </data>
+  <data name="error_invalid_playlist" xml:space="preserve">
+    <value>Devi inserire un nome della playlist valido.</value>
+  </data>
+  <data name="error_usage_poll" xml:space="preserve">
+    <value>Sei pregato di inserire una domanda valida. Uso: `!poll &lt;question&gt;| &lt;answer1&gt;| &lt;answer2&gt;| &lt;answer3&gt;| etc&gt;`</value>
+  </data>
+  <data name="error_usage_suggestion" xml:space="preserve">
+    <value>Sei pregato di inserire un suggerimento valido.
+!suggestion &lt;title&gt;| &lt;description&gt;</value>
+  </data>
+  <data name="error_usage_rps" xml:space="preserve">
+    <value>Sei pregato di inserire una mossa valida: `!rps &lt; rock | paper | scissors &gt;`</value>
+  </data>
+  <data name="error_usage_8ball" xml:space="preserve">
+    <value>Sei pregato di inserire una domanda.</value>
+  </data>
+  <data name="error_usage_query" xml:space="preserve">
+    <value>Uso proprio: !query &lt;pe | pc&gt; &lt;ip:port&gt;</value>
+  </data>
+  <data name="error_usage_query_type" xml:space="preserve">
+    <value>Sei pregato di inserire PC o PE come tipo di server.</value>
+  </data>
+  <data name="error_usage_role" xml:space="preserve">
+    <value>Uso: `!role &lt;add | remove&gt; &lt;user&gt; &lt;role&gt;`</value>
+  </data>
+  <data name="error_usage_emoji" xml:space="preserve">
+    <value>Uso: `!emoji &lt;add | delete | info | list | roles | update&gt;`</value>
+  </data>
+  <data name="error_usage_emoji_2" xml:space="preserve">
+    <value>Uso: `!emoji info &lt;emoji ID&gt;`</value>
+  </data>
+  <data name="error_usage_playlist" xml:space="preserve">
+    <value>Uso: !playlist &lt;save/create | list | load | delete/remove&gt; &lt;name&gt;</value>
+  </data>
+  <data name="error_usage_verify" xml:space="preserve">
+    <value>Uso: `{0}verify setup &lt;role&gt;`</value>
+  </data>
+  <data name="error_usage_verify_set" xml:space="preserve">
+    <value>Non è stato impostato alcun ruolo di verifica. Impostane uno usando: `{0}verify setup &lt;role&gt;`</value>
+  </data>
+  <data name="error_verify" xml:space="preserve">
+    <value>Impossibile impostare il ruolo di verifica.</value>
+  </data>
+  <data name="success_verify" xml:space="preserve">
+    <value>Imposta correttamente il ruolo di verifica su: `{0}`.</value>
+  </data>
+  <data name="error_max_values_20" xml:space="preserve">
+    <value>Puoi avere solo fino a 20 valori.</value>
+  </data>
+  <data name="success_role_added" xml:space="preserve">
+    <value>Aggiunto con successo `{0}` a {1}.</value>
+  </data>
+  <data name="success_role_removed" xml:space="preserve">
+    <value>Rimosso con successo `{0}` da {1}.</value>
+  </data>
+  <data name="success_role_updated_color" xml:space="preserve">
+    <value>`{0}` aggiornato con successo. (Colore: {1})</value>
+  </data>
+  <data name="success_role_updated_hoisted" xml:space="preserve">
+    <value>`{0}` aggiornato con successo. (Promosso: {1} » {2})</value>
+  </data>
+  <data name="success_role_updated_mentionable" xml:space="preserve">
+    <value>`{0}` aggiornato con successo. (Menzionabile: {1} » {2})</value>
+  </data>
+  <data name="success_suggestion_created" xml:space="preserve">
+    <value>Il tuo suggerimento è stato creato con successo in &lt;#427382255342714880&gt;.</value>
+  </data>
+  <data name="games_suggestion_suggestion" xml:space="preserve">
+    <value>Suggerimento:</value>
+  </data>
+  <data name="games_suggestion_vote" xml:space="preserve">
+    <value>Voto:</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
+    <value>Titolo:</value>
+  </data>
+  <data name="games_suggestion_description" xml:space="preserve">
+    <value>Descrizione:</value>
+  </data>
+  <data name="games_suggestion_created" xml:space="preserve">
+    <value>Suggerimento creato da {0}#{1}</value>
+  </data>
+  <data name="games_8ball_results" xml:space="preserve">
+    <value>Risultati:</value>
+  </data>
+  <data name="games_8ball_question" xml:space="preserve">
+    <value>Domanda:</value>
+  </data>
+  <data name="games_8ball_answer" xml:space="preserve">
+    <value>Risposta:</value>
+  </data>
+  <data name="games_poll_vote" xml:space="preserve">
+    <value>Vota:</value>
+  </data>
+  <data name="games_poll_created" xml:space="preserve">
+    <value>Sondaggio creato da {0}#{1}</value>
+  </data>
+  <data name="games_coin_heads" xml:space="preserve">
+    <value>Teste</value>
+  </data>
+  <data name="games_coin_tails" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="games_coin_results" xml:space="preserve">
+    <value>Risultati:</value>
+  </data>
+  <data name="games_coin_flipped" xml:space="preserve">
+    <value>Hai capovolto:</value>
+  </data>
+  <data name="games_dice_total" xml:space="preserve">
+    <value>Totale:</value>
+  </data>
+  <data name="games_dice_result_single" xml:space="preserve">
+    <value>Hai tirato un dado. Risultato:</value>
+  </data>
+  <data name="games_dice_result_multiple" xml:space="preserve">
+    <value>Dado #{i1} Risultati:</value>
+  </data>
+  <data name="games_dice_result_rolled" xml:space="preserve">
+    <value>Tirato un {0}</value>
+  </data>
+  <data name="games_rps_rock" xml:space="preserve">
+    <value>sasso</value>
+  </data>
+  <data name="games_rps_paper" xml:space="preserve">
+    <value>carta</value>
+  </data>
+  <data name="games_rps_scissors" xml:space="preserve">
+    <value>forbici</value>
+  </data>
+  <data name="games_rps_outcome_1" xml:space="preserve">
+    <value>Scelgo {0}; {1} batte {2}. Io vinco!</value>
+  </data>
+  <data name="games_rps_outcome_2" xml:space="preserve">
+    <value>Scelgo {0}; {1} batte {2}. Tu vinci!</value>
+  </data>
+  <data name="games_rps_outcome_3" xml:space="preserve">
+    <value>Scelgo {0}. Entrambi abbiamo scelto {1}, è un pareggio!</value>
+  </data>
+  <data name="games_giveaway_error_1" xml:space="preserve">
+    <value>**Errore:** Gli omaggi devono durare meno di 1 ora.</value>
+  </data>
+  <data name="games_giveaway_error_2" xml:space="preserve">
+    <value>**Errore:** Gli omaggi devono durare almeno 1 minuto.</value>
+  </data>
+  <data name="games_giveaway_title" xml:space="preserve">
+    <value>:tada: **OMAGGIO** :tada:</value>
+  </data>
+  <data name="games_giveaway_hours_1" xml:space="preserve">
+    <value>**Informazioni:**
+● Prezzo: &#39;{0}&#39;
+● Importo del vincitore: {1}
+● Tempo rimanente: {2} ore
+
+Reagisci con :tada: per accedere al giveaway!</value>
+  </data>
+  <data name="games_giveaway_hours_2" xml:space="preserve">
+    <value>**Informazioni:**
+● Prezzo: &#39;{0}&#39;
+● Importo del vincitore: {1}
+● Tempo rimanente: {2} ore {3} minuti
+
+Reagisci con :tada: per accedere al giveaway!</value>
+  </data>
+  <data name="games_giveaway_minutes_1" xml:space="preserve">
+    <value>**Informazioni:**
+● Prezzo: &#39;{0}&#39;
+● Importo del vincitore: {1}
+● Tempo rimanente: {2} minuti
+
+Reagisci con :tada: per accedere al giveaway!</value>
+  </data>
+  <data name="games_giveaway_minutes_2" xml:space="preserve">
+    <value>**Information:**
+● Prize: `{0}`
+● Winner amount: {1}
+● Time remaining: {2} minutes {3} seconds
+
+React with :tada: to enter the giveaway!</value>
+  </data>
+  <data name="games_giveaway_seconds" xml:space="preserve">
+    <value>**Information:**
+● Prize: `{0}`
+● Winner amount: {1}
+● Time remaining: {2} seconds
+
+React with :tada: to enter the giveaway!</value>
+  </data>
+  <data name="games_giveaway_winner" xml:space="preserve">
+    <value>***Congratulazioni!***
+{0}, hai vinto il premio: `{1}`!</value>
+  </data>
+  <data name="games_giveaway_winner_none" xml:space="preserve">
+    <value>Non ci sono vincitori oggi :(</value>
+  </data>
+  <data name="games_giveaway_winner_limit" xml:space="preserve">
+    <value>Il numero dei vincitori deve essere almeno 1 e non più di 15.</value>
+  </data>
+  <data name="games_trivia_title" xml:space="preserve">
+    <value>{0}&#39;s Trivia Question</value>
+  </data>
+  <data name="games_trivia_footer" xml:space="preserve">
+    <value>Digita la lettera della risposta corretta • Domanda #{0}</value>
+  </data>
+  <data name="games_trivia_instructions" xml:space="preserve">
+    <value>*Hai 10 secondi per rispondere con la lettera corretta.*
+
+</value>
+  </data>
+  <data name="games_trivia_difficulty" xml:space="preserve">
+    <value>Difficoltà</value>
+  </data>
+  <data name="games_trivia_category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="games_trivia_timeout" xml:space="preserve">
+    <value>Nessuna risposta fornita entro i 15s. Risposta corretta: &#39;{0}&#39;</value>
+  </data>
+  <data name="games_trivia_invalid" xml:space="preserve">
+    <value>Risposta non valida fornita. La prossima volta fornisci solo la lettera. Risposta corretta: &#39;{0}&#39;</value>
+  </data>
+  <data name="games_trivia_valid" xml:space="preserve">
+    <value>Le risposte valide sono: &#39;A&#39;, &#39;B&#39;, &#39;C&#39; o &#39;D&#39;.</value>
+  </data>
+  <data name="games_trivia_correct" xml:space="preserve">
+    <value>Ci hai azzeccato! :D</value>
+  </data>
+  <data name="games_trivia_incorrect" xml:space="preserve">
+    <value>Oh no, hai sbagliato. Risposta corretta: &#39;{0}&#39;</value>
+  </data>
+  <data name="games_trivia_load_failed" xml:space="preserve">
+    <value>Failed to load any trivia questions. Please try again later.</value>
+  </data>
+  <data name="afk" xml:space="preserve">
+    <value>{0} è attualmente AFK, Motivo: `{1}`</value>
+  </data>
+  <data name="afk_not_active_1" xml:space="preserve">
+    <value>Attualmente non sei AFK.</value>
+  </data>
+  <data name="afk_not_active_2" xml:space="preserve">
+    <value>Questo utente non è attualmente AFK.</value>
+  </data>
+  <data name="afk_active" xml:space="preserve">
+    <value>Sei attualmente AFK con il messaggio: `{0}`</value>
+  </data>
+  <data name="afk_limit" xml:space="preserve">
+    <value>I messaggi AFK devono essere inferiori a 100 caratteri.</value>
+  </data>
+  <data name="afk_failed" xml:space="preserve">
+    <value>Impossibile configurare il messaggio AFK.</value>
+  </data>
+  <data name="afk_set" xml:space="preserve">
+    <value>Sei stato impostato in AFK con successo col messaggio: `{0}`</value>
+  </data>
+  <data name="afk_removed_1" xml:space="preserve">
+    <value>Sei stato rimosso con successo da AFK.</value>
+  </data>
+  <data name="afk_removed_2" xml:space="preserve">
+    <value>{0} rimosso con successo da AFK.</value>
+  </data>
+  <data name="afk_updated" xml:space="preserve">
+    <value>Aggiornato con successo il tuo messaggio AFK in: `{0}`</value>
+  </data>
+  <data name="afk_permission" xml:space="preserve">
+    <value>Devi avere il permesso di ManageServer o Amministratore per rimuovere lo stato AFK di un altro utente.</value>
+  </data>
+  <data name="mod_kick_self" xml:space="preserve">
+    <value>Non puoi kickare te stesso!</value>
+  </data>
+  <data name="mod_kick_self_bot" xml:space="preserve">
+    <value>Non posso kickarmi da solo!</value>
+  </data>
+  <data name="mod_kick_success" xml:space="preserve">
+    <value>{0}#{1} è stato kickato con successo.</value>
+  </data>
+  <data name="mod_kick_dm" xml:space="preserve">
+    <value>Sei stato kickato da `{0}` da `{1}` per: `{2}`</value>
+  </data>
+  <data name="mod_unban_success" xml:space="preserve">
+    <value>{0}#{1} è stato riammesso con successo.</value>
+  </data>
+  <data name="mod_ban_self" xml:space="preserve">
+    <value>Non puoi bandirti!</value>
+  </data>
+  <data name="mod_ban_self_bot" xml:space="preserve">
+    <value>Non posso bandirmi!</value>
+  </data>
+  <data name="mod_ban_success" xml:space="preserve">
+    <value>{0}#{1} bandito con successo.</value>
+  </data>
+  <data name="mod_ban_dm" xml:space="preserve">
+    <value>Sei stato bandito da `{0}` da `{1}` per: `{2}`</value>
+  </data>
+  <data name="mod_ban_temp_error" xml:space="preserve">
+    <value>I ban temporanei devono essere di 1 mese o meno.</value>
+  </data>
+  <data name="mod_ban_temp_success" xml:space="preserve">
+    <value>{0}#{1} has been successfully banned until {2}d{3}h{4}m.</value>
+  </data>
+  <data name="mod_ban_soft_self" xml:space="preserve">
+    <value>Non puoi soft bandirti!</value>
+  </data>
+  <data name="mod_ban_soft_self_bot" xml:space="preserve">
+    <value>Non posso soft bandirmi!</value>
+  </data>
+  <data name="mod_ban_soft_success" xml:space="preserve">
+    <value>{0}#{1} è stato soft bandito. (Ora possono rientrare)</value>
+  </data>
+  <data name="mod_ban_soft_dm" xml:space="preserve">
+    <value>Sei stato soft bandito da `{0}` da `{1}` per: `{2}` (Puoi rientrare)</value>
+  </data>
+  <data name="mod_mute_self" xml:space="preserve">
+    <value>Non puoi silenziarti!</value>
+  </data>
+  <data name="mod_mute_self_bot" xml:space="preserve">
+    <value>Non posso mutarmi!</value>
+  </data>
+  <data name="mod_mute_success" xml:space="preserve">
+    <value>{0}#{1} è stato mutato con successo.</value>
+  </data>
+  <data name="mod_mute_dm" xml:space="preserve">
+    <value>Sei stato mutato in `{0}` da `{1}` per: `{2}`</value>
+  </data>
+  <data name="mod_mute_temp_error" xml:space="preserve">
+    <value>Temp mutes must be 1 month or less.</value>
+  </data>
+  <data name="mod_mute_temp_success" xml:space="preserve">
+    <value>{0}#{1} has been successfully muted until {2}d{3}h{4}m.</value>
+  </data>
+  <data name="mod_mute_role_error" xml:space="preserve">
+    <value>Unable to find or create a mute role.</value>
+  </data>
+  <data name="mod_unmute_self_bot" xml:space="preserve">
+    <value>Non posso rimuovermi il muto!</value>
+  </data>
+  <data name="mod_unmute_success" xml:space="preserve">
+    <value>{0}#{1} è stato riattivato con successo.</value>
+  </data>
+  <data name="mod_warn_reason" xml:space="preserve">
+    <value>Devi inserire un motivo!</value>
+  </data>
+  <data name="mod_warn_self" xml:space="preserve">
+    <value>Non puoi avvisarti da solo!</value>
+  </data>
+  <data name="mod_warn_self_bot" xml:space="preserve">
+    <value>Non posso avvisarmi da solo!</value>
+  </data>
+  <data name="mod_warn_success" xml:space="preserve">
+    <value>{0}#{1} è stato correttamente avvisato per: `{2}`.
+**Avvisi Totali:** {3}</value>
+  </data>
+  <data name="mod_warn_dm" xml:space="preserve">
+    <value>Sei stato avvisato in `{0}` da `{1}` per: `{2}`</value>
+  </data>
+  <data name="mod_unwarn_self" xml:space="preserve">
+    <value>Non puoi rimuovere da solo l&#39;avviso!</value>
+  </data>
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
+    <value>Non posso rimuovere da solo l&#39;avviso!</value>
+  </data>
+  <data name="mod_unwarn_success" xml:space="preserve">
+    <value>Avviso rimosso correttamente da: `{0}#{1}`</value>
+  </data>
+  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <value>L&#39;utente non ha avvertimenti da rimuovere.</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
+    <value>L&#39;ID avviso fornito non è valido.</value>
+  </data>
+  <data name="mod_clearwarnings_success" xml:space="preserve">
+    <value>Hai cancellato con successo tutti gli avvisi da `{0}#{1}`</value>
+  </data>
+  <data name="mod_purge_amount" xml:space="preserve">
+    <value>Devi inserire la quantità di messaggi da eliminare!</value>
+  </data>
+  <data name="mod_purge_amount_max" xml:space="preserve">
+    <value>Puoi eliminare solo fino a 100 messaggi per volta!</value>
+  </data>
+  <data name="mod_purge_none_1" xml:space="preserve">
+    <value>Niente da eliminare!</value>
+  </data>
+  <data name="mod_purge_none_2" xml:space="preserve">
+    <value>Nessun messaggio trovato che soddisfi il criterio dato.</value>
+  </data>
+  <data name="mod_purge_success" xml:space="preserve">
+    <value>**{0} messaggi eliminati da {1} in &lt;#{2}&gt;**</value>
+  </data>
+  <data name="mod_purge_disabled" xml:space="preserve">
+    <value>**Eliminazione avanzata disabilitata attualmente a causa di problemi.**</value>
+  </data>
+  <data name="mod_purge_url" xml:space="preserve">
+    <value>Messaggi Eliminati:</value>
+  </data>
+  <data name="mod_dehoist_start" xml:space="preserve">
+    <value>&lt;:CB_Check:437024001596981248&gt; Rimuovendo i paranchi per i soprannomi, questo può richiedere del tempo. 
+ Nota: un messaggio verrà inviato al completamento.</value>
+  </data>
+  <data name="mod_dehoist_success" xml:space="preserve">
+    <value>`{0}` membri correttamente retrocessi.</value>
+  </data>
+  <data name="mod_unnick_start" xml:space="preserve">
+    <value>&lt;:CB_Check:437024001596981248&gt; La rimozione dei nickname dell&#39;utente può richiedere del tempo. 
+ Nota: un messaggio verrà inviato al completamento.</value>
+  </data>
+  <data name="mod_unnick_success" xml:space="preserve">
+    <value>Rimosso con successo il nick dei membri `{0}`.</value>
+  </data>
+  <data name="mod_slowmode_success" xml:space="preserve">
+    <value>Modalità lenta per il canale: `{0}` aggiornata a `{1}h{2}m{3}s`.</value>
+  </data>
+  <data name="time_error_invalid" xml:space="preserve">
+    <value>Sei pregato di inserire un orario valido.</value>
+  </data>
+  <data name="time_error_invalid_6h" xml:space="preserve">
+    <value>(Meno di 6 ore)</value>
+  </data>
+  <data name="time_error_large" xml:space="preserve">
+    <value>Orario fornito troppo grande.</value>
+  </data>
+  <data name="time_error_negative" xml:space="preserve">
+    <value>Il tempo non può essere negativo o inferiore a zero.</value>
+  </data>
+  <data name="info_about_description" xml:space="preserve">
+    <value>**Informazioni:**``` Un bot avanzato, personalizzabile, costruito direttamente per competere con Dyno e Rythm. Cakey Bot è costruito per combinare capacità musicali potenti con una moltitudine di funzioni di utilità. Cakey Bot combina le caratteristiche che solitamente richiedono molti bot in un singolo bot. Rendendo la gestione della gilda più semplice e rapida.```
+</value>
+  </data>
+  <data name="info_about_vote" xml:space="preserve">
+    <value>:star: Like Cakey Bot? Well, show your support and donate at:
+</value>
+  </data>
+  <data name="info_ping" xml:space="preserve">
+    <value>Battito Cardiaco - Frammento #{0}: {1}ms</value>
+  </data>
+  <data name="info_ping_avg" xml:space="preserve">
+    <value>Media Battito Cardiaco:</value>
+  </data>
+  <data name="info_created_date" xml:space="preserve">
+    <value>Creato il {0}. Questo è {1} giorni fa!</value>
+  </data>
+  <data name="info_joined_date" xml:space="preserve">
+    <value>Unito a Discord il {0}. Questo è {1} giorni fa!</value>
+  </data>
+  <data name="info_days ago" xml:space="preserve">
+    <value>{0} days ago.</value>
+  </data>
+  <data name="info_boosters_extra" xml:space="preserve">
+    <value>+{0} altri utenti.</value>
+  </data>
+  <data name="info_boosters_error" xml:space="preserve">
+    <value>Nessun booster trovato.</value>
+  </data>
+  <data name="info_string_1" xml:space="preserve">
+    <value>Membri Totali</value>
+  </data>
+  <data name="info_string_2" xml:space="preserve">
+    <value>Umani</value>
+  </data>
+  <data name="info_string_3" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="info_string_4" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="info_string_5" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="info_string_6" xml:space="preserve">
+    <value>Bandito</value>
+  </data>
+  <data name="info_string_7" xml:space="preserve">
+    <value>Proprietario</value>
+  </data>
+  <data name="info_string_8" xml:space="preserve">
+    <value>Membri</value>
+  </data>
+  <data name="info_string_9" xml:space="preserve">
+    <value>Regione</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
+    <value>Ruoli</value>
+  </data>
+  <data name="info_string_11" xml:space="preserve">
+    <value>Canali</value>
+  </data>
+  <data name="info_string_12" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="info_string_13" xml:space="preserve">
+    <value>Canale AFK</value>
+  </data>
+  <data name="info_string_14" xml:space="preserve">
+    <value>Nessun Canale AFK</value>
+  </data>
+  <data name="info_string_15" xml:space="preserve">
+    <value>Emoji Totali</value>
+  </data>
+  <data name="info_string_16" xml:space="preserve">
+    <value>Elenco dei Ruoli</value>
+  </data>
+  <data name="info_string_17" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="info_string_18" xml:space="preserve">
+    <value>Caratteristiche VIP</value>
+  </data>
+  <data name="info_string_19" xml:space="preserve">
+    <value>Avatar di {0}</value>
+  </data>
+  <data name="info_string_20" xml:space="preserve">
+    <value>Informazioni Utente di {0}</value>
+  </data>
+  <data name="info_string_21" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="info_string_22" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="info_string_23" xml:space="preserve">
+    <value>Nickname</value>
+  </data>
+  <data name="info_string_24" xml:space="preserve">
+    <value>Discriminatore</value>
+  </data>
+  <data name="info_string_25" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="info_string_26" xml:space="preserve">
+    <value>Unito alla Gilda</value>
+  </data>
+  <data name="info_string_27" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="info_string_28" xml:space="preserve">
+    <value>Umano</value>
+  </data>
+  <data name="info_string_29" xml:space="preserve">
+    <value>Bot o Umano?</value>
+  </data>
+  <data name="info_string_30" xml:space="preserve">
+    <value>Potenziare?</value>
+  </data>
+  <data name="info_string_31" xml:space="preserve">
+    <value>È mutato?</value>
+  </data>
+  <data name="info_string_32" xml:space="preserve">
+    <value>È Assordato?</value>
+  </data>
+  <data name="info_string_33" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="info_string_34" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="info_string_35" xml:space="preserve">
+    <value>Riconoscimenti</value>
+  </data>
+  <data name="info_string_36" xml:space="preserve">
+    <value>Invitatore</value>
+  </data>
+  <data name="info_string_37" xml:space="preserve">
+    <value>Canale</value>
+  </data>
+  <data name="info_string_38" xml:space="preserve">
+    <value>Conto Membri</value>
+  </data>
+  <data name="info_string_39" xml:space="preserve">
+    <value>Utenti</value>
+  </data>
+  <data name="info_string_40" xml:space="preserve">
+    <value>Data di Creazione</value>
+  </data>
+  <data name="info_string_41" xml:space="preserve">
+    <value>È Temporaneo?</value>
+  </data>
+  <data name="info_string_42" xml:space="preserve">
+    <value>Età Massima</value>
+  </data>
+  <data name="info_string_43" xml:space="preserve">
+    <value>Non Scade Mai</value>
+  </data>
+  <data name="info_string_44" xml:space="preserve">
+    <value>Canali Totali</value>
+  </data>
+  <data name="info_string_45" xml:space="preserve">
+    <value>Emoji Totali</value>
+  </data>
+  <data name="info_string_46" xml:space="preserve">
+    <value>Richiesto da {0}#{1}</value>
+  </data>
+  <data name="info_string_47" xml:space="preserve">
+    <value>Elenco Ban:</value>
+  </data>
+  <data name="info_string_48" xml:space="preserve">
+    <value>Nessun Permesso</value>
+  </data>
+  <data name="info_string_49" xml:space="preserve">
+    <value>Unisciti alla Posizione</value>
+  </data>
+  <data name="info_string_50" xml:space="preserve">
+    <value>Ruoli Totali</value>
+  </data>
+  <data name="info_string_51" xml:space="preserve">
+    <value>Avvisi</value>
+  </data>
+  <data name="info_string_52" xml:space="preserve">
+    <value>{0} avvisi in {2} gilde.</value>
+  </data>
+  <data name="info_string_53" xml:space="preserve">
+    <value>Informazioni di Contatto:</value>
+  </data>
+  <data name="info_string_54" xml:space="preserve">
+    <value>Collaboratori:</value>
+  </data>
+  <data name="info_string_55" xml:space="preserve">
+    <value>{0} / {1} ({2} Slot Rimanenti)</value>
+  </data>
+  <data name="info_string_56" xml:space="preserve">
+    <value>Nome utente:</value>
+  </data>
+  <data name="info_string_57" xml:space="preserve">
+    <value>Motivo:</value>
+  </data>
+  <data name="info_string_58" xml:space="preserve">
+    <value>Nessun Motivo</value>
+  </data>
+  <data name="info_string_59" xml:space="preserve">
+    <value>Moderatore:</value>
+  </data>
+  <data name="info_string_60" xml:space="preserve">
+    <value>Utente Avvisato:</value>
+  </data>
+  <data name="info_string_61" xml:space="preserve">
+    <value>Totale Avvisi:</value>
+  </data>
+  <data name="info_string_62" xml:space="preserve">
+    <value>Cliccami</value>
+  </data>
+  <data name="info_string_63" xml:space="preserve">
+    <value>Clicca Qui Per Ulteriori Informazioni</value>
+  </data>
+  <data name="info_string_64" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="info_string_65" xml:space="preserve">
+    <value>Orario:</value>
+  </data>
+  <data name="info_string_66" xml:space="preserve">
+    <value>Avvisi Totali:</value>
+  </data>
+  <data name="info_string_67" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="info_string_68" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="info_string_69" xml:space="preserve">
+    <value>Discriminators must be between 0000 and 9999.</value>
+  </data>
+  <data name="info_string_70" xml:space="preserve">
+    <value>Discriminators must be 4 digits long.</value>
+  </data>
+  <data name="info_string_71" xml:space="preserve">
+    <value>No users found with that discriminator.</value>
+  </data>
+  <data name="info_string_72" xml:space="preserve">
+    <value>```{0} text, {1} voice```</value>
+  </data>
+  <data name="info_string_73" xml:space="preserve">
+    <value>```Proprietario del Server```</value>
+  </data>
+  <data name="info_string_74" xml:space="preserve">
+    <value>```Admin del Server```</value>
+  </data>
+  <data name="info_string_75" xml:space="preserve">
+    <value>```Moderatore del Server```</value>
+  </data>
+  <data name="info_string_76" xml:space="preserve">
+    <value>Puoi anche donare per mostrare il tuo supporto!</value>
+  </data>
+  <data name="info_string_77" xml:space="preserve">
+    <value>{0} Boosters</value>
+  </data>
+  <data name="weather_coordinates" xml:space="preserve">
+    <value>Coordinate</value>
+  </data>
+  <data name="weather_weather" xml:space="preserve">
+    <value>Meteo</value>
+  </data>
+  <data name="weather_description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="weather_country" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="weather_clouds" xml:space="preserve">
+    <value>Nuvole</value>
+  </data>
+  <data name="weather_wind_speed" xml:space="preserve">
+    <value>Velocità Vento</value>
+  </data>
+  <data name="weather_wind_direction" xml:space="preserve">
+    <value>Direzione Vento</value>
+  </data>
+  <data name="weather_sun_rise" xml:space="preserve">
+    <value>Alba</value>
+  </data>
+  <data name="weather_sun_set" xml:space="preserve">
+    <value>Tramonto</value>
+  </data>
+  <data name="emoji_string_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="emoji_string_name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="emoji_string_uploaded" xml:space="preserve">
+    <value>Carica Da:</value>
+  </data>
+  <data name="emoji_string_animated" xml:space="preserve">
+    <value>È animato?</value>
+  </data>
+  <data name="emoji_string_url" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="emoji_missing_id" xml:space="preserve">
+    <value>Sei pregato di inserire un id emoji.</value>
+  </data>
+  <data name="emoji_invalid_name" xml:space="preserve">
+    <value>Sei pregato di inserire un nome valido.</value>
+  </data>
+  <data name="emoji_success" xml:space="preserve">
+    <value>Nome emoji aggiornato con successo: `{0}`</value>
+  </data>
+  <data name="roleinfo" xml:space="preserve">
+    <value>Info Ruolo {0}</value>
+  </data>
+  <data name="roleinfo_color" xml:space="preserve">
+    <value>Colore</value>
+  </data>
+  <data name="roleinfo_created_at" xml:space="preserve">
+    <value>Creato Il</value>
+  </data>
+  <data name="roleinfo_position" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="roleinfo_ishoisted" xml:space="preserve">
+    <value>È Promosso?</value>
+  </data>
+  <data name="roleinfo_ismanaged" xml:space="preserve">
+    <value>È Gestito?</value>
+  </data>
+  <data name="roleinfo_ismentionable" xml:space="preserve">
+    <value>È Menzionabile?</value>
+  </data>
+  <data name="roleinfo_members" xml:space="preserve">
+    <value>Membri [{0}]</value>
+  </data>
+  <data name="misc_anime_start" xml:space="preserve">
+    <value>Data di Inizio:</value>
+  </data>
+  <data name="misc_anime_end" xml:space="preserve">
+    <value>Data di Fine:</value>
+  </data>
+  <data name="misc_anime_status" xml:space="preserve">
+    <value>Stato:</value>
+  </data>
+  <data name="misc_anime_status_airing" xml:space="preserve">
+    <value>Airing</value>
+  </data>
+  <data name="misc_anime_status_ended" xml:space="preserve">
+    <value>Concluso</value>
+  </data>
+  <data name="misc_anime_episodes" xml:space="preserve">
+    <value>Episodi:</value>
+  </data>
+  <data name="misc_anime_rating" xml:space="preserve">
+    <value>Valutazione:</value>
+  </data>
+  <data name="misc_anime_synopsis" xml:space="preserve">
+    <value>Sinossi:</value>
+  </data>
+  <data name="misc_anime_footer" xml:space="preserve">
+    <value>ID Anime: {0} • Punteggio: {1}</value>
+  </data>
+  <data name="misc_manga_status_ip" xml:space="preserve">
+    <value>In Corso</value>
+  </data>
+  <data name="misc_manga_status_completed" xml:space="preserve">
+    <value>Completato</value>
+  </data>
+  <data name="misc_manga_volumes" xml:space="preserve">
+    <value>Volumi:</value>
+  </data>
+  <data name="misc_manga_chapters" xml:space="preserve">
+    <value>Capitoli:</value>
+  </data>
+  <data name="misc_manga_footer" xml:space="preserve">
+    <value>ID Manga: {0} • Punteggio: {1}</value>
+  </data>
+  <data name="misc_bgg_name" xml:space="preserve">
+    <value>**Nome:** {0}
+</value>
+  </data>
+  <data name="misc_bgg_name_alt" xml:space="preserve">
+    <value>**Nome Alternativo:** {0}</value>
+  </data>
+  <data name="misc_bgg_players" xml:space="preserve">
+    <value>**Players:** Min: {0} - Max: {1}
+</value>
+  </data>
+  <data name="misc_bgg_players_min" xml:space="preserve">
+    <value>Min. Players:</value>
+  </data>
+  <data name="misc_bgg_playtime" xml:space="preserve">
+    <value>**Playtime:** Min: {0} - Max: {1}</value>
+  </data>
+  <data name="misc_bgg_release" xml:space="preserve">
+    <value>Data di Uscita:</value>
+  </data>
+  <data name="misc_bgg_footer" xml:space="preserve">
+    <value>ID di Gioco: {0} • Fonte: https://boardamegeek.com/</value>
+  </data>
+  <data name="misc_convert_result" xml:space="preserve">
+    <value>Risultato:</value>
+  </data>
+  <data name="misc_convert_rate" xml:space="preserve">
+    <value>Tasso di Scambio:</value>
+  </data>
+  <data name="misc_convert_usage" xml:space="preserve">
+    <value>Uso: `!convert &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
+  </data>
+  <data name="misc_fact" xml:space="preserve">
+    <value>Fatto Casuale:</value>
+  </data>
+  <data name="misc_fact_failed" xml:space="preserve">
+    <value>Impossibile ottenere un valore.</value>
+  </data>
+  <data name="misc_fact_invalid" xml:space="preserve">
+    <value>Tipo di valore non valido. **Tipi Validi:** Cane, Gatto, Panda, Volpe, Uccello, Koala, Canguro, Procione, Elefante, Giraffa, Balena</value>
+  </data>
+  <data name="misc_pizza" xml:space="preserve">
+    <value>Ecco qui: {0}</value>
+  </data>
+  <data name="misc_reminder_error_1" xml:space="preserve">
+    <value>Devi inserire una stringa per ricordarti.</value>
+  </data>
+  <data name="misc_reminder_error_2" xml:space="preserve">
+    <value>I promemoria devono contenere meno di 200 caratteri.</value>
+  </data>
+  <data name="misc_reminder_error_3" xml:space="preserve">
+    <value>I promemoria devono essere tra meno di 1 mese da adesso.</value>
+  </data>
+  <data name="misc_reminder_success" xml:space="preserve">
+    <value>Imposta con successo un promemoria per `{0}` tra {1}h{2}m{3}s.</value>
+  </data>
+  <data name="misc_reminder_remind" xml:space="preserve">
+    <value>Imposta con successo un promemoria per `{0}` tra {1}h{2}m{3}s.</value>
+  </data>
+  <data name="misc_covid_for_global" xml:space="preserve">
+    <value>Statistiche del COVID-19 GLOBALI</value>
+  </data>
+  <data name="misc_covid_for_country" xml:space="preserve">
+    <value>Statistiche COVID-19 per {0}</value>
+  </data>
+  <data name="misc_covid_cases" xml:space="preserve">
+    <value>Casi</value>
+  </data>
+  <data name="misc_covid_deaths" xml:space="preserve">
+    <value>Morti</value>
+  </data>
+  <data name="misc_covid_recovered" xml:space="preserve">
+    <value>Guariti</value>
+  </data>
+  <data name="misc_covid_active" xml:space="preserve">
+    <value>Attivo</value>
+  </data>
+  <data name="misc_covid_cases_today" xml:space="preserve">
+    <value>Casi Oggi</value>
+  </data>
+  <data name="misc_covid_deaths_today" xml:space="preserve">
+    <value>Morti Oggi</value>
+  </data>
+  <data name="misc_covid_advice" xml:space="preserve">
+    <value>Consiglio per il Pubblico</value>
+  </data>
+  <data name="misc_imdb_rating" xml:space="preserve">
+    <value>Valutazione di IMDb:</value>
+  </data>
+  <data name="misc_imdb_language" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="misc_imdb_content_rating" xml:space="preserve">
+    <value>Content Rating:</value>
+  </data>
+  <data name="misc_imdb_countries" xml:space="preserve">
+    <value>Countries:</value>
+  </data>
+  <data name="misc_imdb_companies" xml:space="preserve">
+    <value>Companies:</value>
+  </data>
+  <data name="misc_imdb_genres" xml:space="preserve">
+    <value>Genres:</value>
+  </data>
+  <data name="misc_imdb_stars" xml:space="preserve">
+    <value>Stars:</value>
+  </data>
+  <data name="misc_imdb_writers" xml:space="preserve">
+    <value>Writers:</value>
+  </data>
+  <data name="misc_imdb_directors" xml:space="preserve">
+    <value>Directors:</value>
+  </data>
+  <data name="misc_imdb_awards" xml:space="preserve">
+    <value>Awards:</value>
+  </data>
+  <data name="misc_imdb_metacritic" xml:space="preserve">
+    <value>Metacritic Rating:</value>
+  </data>
+  <data name="misc_imdb_produced" xml:space="preserve">
+    <value>Produced:</value>
+  </data>
+  <data name="misc_imdb_name_birth" xml:space="preserve">
+    <value>Birth Date:</value>
+  </data>
+  <data name="misc_imdb_name_death" xml:space="preserve">
+    <value>Death Date:</value>
+  </data>
+  <data name="misc_imdb_name_roles" xml:space="preserve">
+    <value>Role(s):</value>
+  </data>
+  <data name="misc_imdb_name_known" xml:space="preserve">
+    <value>Known For:</value>
+  </data>
+  <data name="misc_imdb_name_movies" xml:space="preserve">
+    <value>Movies:</value>
+  </data>
+  <data name="misc_pokemon_failed" xml:space="preserve">
+    <value>Sorry, I could not find that Pokemon.</value>
+  </data>
+  <data name="misc_pokemon_format_1" xml:space="preserve">
+    <value>HP: {0}  -  Speed: {1}
+</value>
+  </data>
+  <data name="misc_pokemon_format_2" xml:space="preserve">
+    <value>Attack: {0}  -  Defense: {1}
+</value>
+  </data>
+  <data name="misc_pokemon_format_3" xml:space="preserve">
+    <value>Sp Attack: {0}  -  Sp Defense: {1}
+</value>
+  </data>
+  <data name="misc_pokemon_format_4" xml:space="preserve">
+    <value>Total: {0}</value>
+  </data>
+  <data name="misc_pokemon_species" xml:space="preserve">
+    <value>Species:</value>
+  </data>
+  <data name="misc_pokemon_abilities" xml:space="preserve">
+    <value>Abilities:</value>
+  </data>
+  <data name="misc_pokemon_height" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="misc_pokemon_weight" xml:space="preserve">
+    <value>Weight:</value>
+  </data>
+  <data name="misc_pokemon_gender" xml:space="preserve">
+    <value>Gender:</value>
+  </data>
+  <data name="misc_pokemon_base_exp" xml:space="preserve">
+    <value>Base Exp:</value>
+  </data>
+  <data name="misc_pokemon_egg_groups" xml:space="preserve">
+    <value>Egg Groups:</value>
+  </data>
+  <data name="misc_pokemon_evolution" xml:space="preserve">
+    <value>Evolution Line: (Stage: {0})</value>
+  </data>
+  <data name="misc_pokemon_stats" xml:space="preserve">
+    <value>Stats:</value>
+  </data>
+  <data name="misc_trailer" xml:space="preserve">
+    <value>{0} Trailer: &lt;{1}&gt;</value>
+  </data>
+  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <value>Devi essere in un canale vocale.</value>
+  </data>
+  <data name="music_error_voice_channel_2" xml:space="preserve">
+    <value>Non posso unirmi a quel canale vocale.</value>
+  </data>
+  <data name="music_error_voice_channel_3" xml:space="preserve">
+    <value>Non posso parlare in quel canale vocale.</value>
+  </data>
+  <data name="music_error_voice_channel_4" xml:space="preserve">
+    <value>Sono già in quel canale.</value>
+  </data>
+  <data name="music_error_voice_channel_5" xml:space="preserve">
+    <value>Devo essere in un canale vocale. Usa `!join` per convocarmi.</value>
+  </data>
+  <data name="music_error_voice_channel_6" xml:space="preserve">
+    <value>Devi essere nello stesso canale del bot. Prova ad usare`!join` o `!move`</value>
+  </data>
+  <data name="music_error_player" xml:space="preserve">
+    <value>Il giocatore non esiste, sei pregato di digitare `!join` di nuovo.</value>
+  </data>
+  <data name="music_error_play" xml:space="preserve">
+    <value>Errore caricando la traccia: ```{0}```</value>
+  </data>
+  <data name="music_error_timespan" xml:space="preserve">
+    <value>La durata della coda è troppo lunga. Sei pregato di cancellare le canzoni dalla coda prima di aggiungerne altre.</value>
+  </data>
+  <data name="music_error_lavalink" xml:space="preserve">
+    <value>L&#39;istanza LavaLink è crashata. Sei pregato di segnalare nel nostro </value>
+  </data>
+  <data name="music_join" xml:space="preserve">
+    <value>Mi sono unito: `{0}`.</value>
+  </data>
+  <data name="music_disconnect" xml:space="preserve">
+    <value>Disconnesso correttamente!</value>
+  </data>
+  <data name="music_disconnect_error_1" xml:space="preserve">
+    <value>Non puoi disconnettere Cakey Bot in questa gilda.</value>
+  </data>
+  <data name="music_disconnect_error_2" xml:space="preserve">
+    <value>Devi essere l&#39;unico utente nel canale vocale o non hai i permessi mod per disconnettere Cakey Bot se una canzone è in riproduzione.</value>
+  </data>
+  <data name="music_move" xml:space="preserve">
+    <value>Spostato da `{0}` a `{1}`.</value>
+  </data>
+  <data name="music_move_error" xml:space="preserve">
+    <value>Non puoi spostare Cakey Bot da un canale mentre una canzone è in riproduzione.</value>
+  </data>
+  <data name="music_jump" xml:space="preserve">
+    <value>Spostato correttamente a:
+[{0}]({1}) _{2}/{3}_</value>
+  </data>
+  <data name="music_duplicates" xml:space="preserve">
+    <value>Tracce duplicate rimosse con successo dalla coda. Nuova coda:
+{0}</value>
+  </data>
+  <data name="music_cleanup" xml:space="preserve">
+    <value>Coda riordinata correttamente. Nuova coda:
+{0}</value>
+  </data>
+  <data name="music_shuffle" xml:space="preserve">
+    <value>Coda rimescolata correttamente.</value>
+  </data>
+  <data name="music_loop" xml:space="preserve">
+    <value>Stato di loop della canzone impostato su: `{0}`.</value>
+  </data>
+  <data name="music_looping" xml:space="preserve">
+    <value>in loop</value>
+  </data>
+  <data name="music_looping_disabled" xml:space="preserve">
+    <value>non in loop</value>
+  </data>
+  <data name="music_bb" xml:space="preserve">
+    <value>Stato di potenziamento dei bassi della canzone impostato a: `{0}`.</value>
+  </data>
+  <data name="music_boosted" xml:space="preserve">
+    <value>potenziato</value>
+  </data>
+  <data name="music_boosted_disabled" xml:space="preserve">
+    <value>non potenziato</value>
+  </data>
+  <data name="music_remove" xml:space="preserve">
+    <value>`{0}` - `{1}` rimossi correttamente dalla coda.</value>
+  </data>
+  <data name="music_restart_1" xml:space="preserve">
+    <value>Una canzone deve essere in riproduzione per riavviare.</value>
+  </data>
+  <data name="music_restart_2" xml:space="preserve">
+    <value>Ho ricominciato la canzone dall&#39;inizio.</value>
+  </data>
+  <data name="music_seek_1" xml:space="preserve">
+    <value>Una canzone deve essere in riproduzione per modificarne la posizione.</value>
+  </data>
+  <data name="music_seek_3" xml:space="preserve">
+    <value>Sono passato al tempo: `{0}`</value>
+  </data>
+  <data name="music_ff_1" xml:space="preserve">
+    <value>Una canzone deve essere in riproduzione per andare avanti veloce.</value>
+  </data>
+  <data name="music_ff_2" xml:space="preserve">
+    <value>Sono andato avanti velocemente a: `{0}` ({1} avanti)</value>
+  </data>
+  <data name="music_rewind_1" xml:space="preserve">
+    <value>Una canzone deve essere in riproduzione per riavvolgere.</value>
+  </data>
+  <data name="music_rewind_2" xml:space="preserve">
+    <value>Ho riavvolto a: `{0}` ({1} indietro)</value>
+  </data>
+  <data name="music_pause_1" xml:space="preserve">
+    <value>Una canzone deve essere in riproduzione per metterla in pausa.</value>
+  </data>
+  <data name="music_pause_2" xml:space="preserve">
+    <value>La canzone è già in pausa. Puoi riprendere con `!resume`</value>
+  </data>
+  <data name="music_pause_3" xml:space="preserve">
+    <value>Canzone messa correttamente in pausa.</value>
+  </data>
+  <data name="music_resume_1" xml:space="preserve">
+    <value>Canzone ripresa correttamente.</value>
+  </data>
+  <data name="music_resume_2" xml:space="preserve">
+    <value>La canzone non è in pausa. Puoi mettere la canzone in pausa con `!pause`</value>
+  </data>
+  <data name="music_lyrics_1" xml:space="preserve">
+    <value>Devi digitare il nome di una canzone da cercare. (o avere un brano attualmente in riproduzione)</value>
+  </data>
+  <data name="music_lyrics_2" xml:space="preserve">
+    <value>Testi Per {0}: 
+
+{1}</value>
+  </data>
+  <data name="music_lyrics_3" xml:space="preserve">
+    <value>Nessun testo trovato.</value>
+  </data>
+  <data name="music_volume_1" xml:space="preserve">
+    <value>Una canzone deve essere in riproduzione per modificarne il volume.</value>
+  </data>
+  <data name="music_volume_2" xml:space="preserve">
+    <value>Il volume deve essere compreso tra 0 e 100.</value>
+  </data>
+  <data name="music_volume_3" xml:space="preserve">
+    <value>Volume impostato correttamente a: `{0}`</value>
+  </data>
+  <data name="music_volume_4" xml:space="preserve">
+    <value>Volume Attuale: `{0}`</value>
+  </data>
+  <data name="music_skip_1" xml:space="preserve">
+    <value>`{0}` saltata.</value>
+  </data>
+  <data name="music_skip_2" xml:space="preserve">
+    <value>`{0}` saltata.
+&lt;:CB_NowPlaying:586387464743157770&gt; Now Playing: `{1}`</value>
+  </data>
+  <data name="music_skip_3" xml:space="preserve">
+    <value>Nessuna canzone in riproduzione al momento.</value>
+  </data>
+  <data name="music_skip_4" xml:space="preserve">
+    <value>Non ci sono altri elementi rimasti nella coda.</value>
+  </data>
+  <data name="music_voteskip_1" xml:space="preserve">
+    <value>Hai già votato per saltare, servono {0} altri voti.</value>
+  </data>
+  <data name="music_voteskip_2" xml:space="preserve">
+    <value>Hai già votato per saltare, servono {0} altri voti.</value>
+  </data>
+  <data name="music_voteskip_3" xml:space="preserve">
+    <value>Hai già votato per saltare, è stato rimosso. Puoi riaggiungerlo digitando di nuovo `!skip`. Servono {0} altri voti.</value>
+  </data>
+  <data name="music_voteskip_4" xml:space="preserve">
+    <value>Il voto è a {0}/{1}.</value>
+  </data>
+  <data name="music_url" xml:space="preserve">
+    <value>Devi inserire il nome di una canzone o l&#39;url di Youtube.</value>
+  </data>
+  <data name="music_no_results" xml:space="preserve">
+    <value>Nessun risultato trovato.</value>
+  </data>
+  <data name="music_invalid_track_1" xml:space="preserve">
+    <value>ID Traccia esterno all&#39;intervallo valido. Digita `!queue` per vedere gli ID traccia validi.</value>
+  </data>
+  <data name="music_invalid_track_2" xml:space="preserve">
+    <value>L&#39;id coda traccia deve essere valido.</value>
+  </data>
+  <data name="music_limit_queue" xml:space="preserve">
+    <value>La coda può contenere solo 100 canzoni, sei pregato di rimuoverne alcuni prima di aggiungerne altri.</value>
+  </data>
+  <data name="music_limit_playlist" xml:space="preserve">
+    <value>Le playlist possono contenere solo fino a 50 canzoni, sei pregato di scegliere una playlist più piccola.</value>
+  </data>
+  <data name="music_add_1" xml:space="preserve">
+    <value>Aggiunte `{0}` canzoni alla coda.</value>
+  </data>
+  <data name="music_add_2" xml:space="preserve">
+    <value>`{0}` è stata aggiunta alla coda.</value>
+  </data>
+  <data name="music_now_playing_1" xml:space="preserve">
+    <value>In Riproduzione: `{0}`</value>
+  </data>
+  <data name="music_volume" xml:space="preserve">
+    <value>Volume: `{0}`</value>
+  </data>
+  <data name="music_livestream" xml:space="preserve">
+    <value>Il comando è disabilitato durante la riproduzione di uno streaming live.</value>
+  </data>
+  <data name="music_playlist_list" xml:space="preserve">
+    <value>Trovate {0} playlist:
+```{1}```</value>
+  </data>
+  <data name="music_playlist_success_save" xml:space="preserve">
+    <value>{0} canzoni salvate correttamente nella tua playlist `{1}`.</value>
+  </data>
+  <data name="music_playlist_success_load" xml:space="preserve">
+    <value>{0} canzoni caricate correttamente nella tua playlist `{1}`.</value>
+  </data>
+  <data name="music_playlist_success_delete" xml:space="preserve">
+    <value>La tua playlist `{0}` è stata eliminata correttamente.</value>
+  </data>
+  <data name="music_locate" xml:space="preserve">
+    <value> Cakey Bot sta attualmente riproducendo musica in `{0}`.</value>
+  </data>
+  <data name="music_cancel_1" xml:space="preserve">
+    <value>Ricerca annullata correttamente.</value>
+  </data>
+  <data name="music_cancel_2" xml:space="preserve">
+    <value>Digita il numero per selezionare una canzone o &#39;annulla&#39;/&#39;nessuno&#39; per annullare la selezione.</value>
+  </data>
+  <data name="music_string_1" xml:space="preserve">
+    <value>Posizione Coda:</value>
+  </data>
+  <data name="music_string_2" xml:space="preserve">
+    <value>Tempo Stimato Alla Riproduzione:</value>
+  </data>
+  <data name="music_string_3" xml:space="preserve">
+    <value>Nessuna traccia in coda.</value>
+  </data>
+  <data name="music_string_4" xml:space="preserve">
+    <value>+{0} altre canzoni.</value>
+  </data>
+  <data name="music_string_5" xml:space="preserve">
+    <value>Devi inserire un valore di orario.</value>
+  </data>
+  <data name="music_string_6" xml:space="preserve">
+    <value>Orario non valido.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
+    <value>Tempo esterno alla lunghezza del video, riprova.</value>
+  </data>
+  <data name="music_string_8" xml:space="preserve">
+    <value>Una canzone deve essere attualmente in riproduzione per usare questo comando, prova `!play` invece.</value>
+  </data>
+  <data name="music_string_9" xml:space="preserve">
+    <value>Nessuna traccia in riproduzione al momento.</value>
+  </data>
+  <data name="music_string_10" xml:space="preserve">
+    <value>Autore</value>
+  </data>
+  <data name="music_string_11" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="music_string_12" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="music_string_13" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="music_string_14" xml:space="preserve">
+    <value>In Pausa?</value>
+  </data>
+  <data name="music_string_15" xml:space="preserve">
+    <value>Diretta Live?</value>
+  </data>
+  <data name="music_string_16" xml:space="preserve">
+    <value>Vota Salti</value>
+  </data>
+  <data name="music_string_17" xml:space="preserve">
+    <value>Coda:</value>
+  </data>
+  <data name="music_string_18" xml:space="preserve">
+    <value>Ora in Riproduzione:</value>
+  </data>
+  <data name="music_string_19" xml:space="preserve">
+    <value>Richiesto Da</value>
+  </data>
+  <data name="music_string_20" xml:space="preserve">
+    <value>In loop?</value>
+  </data>
+  <data name="music_string_21" xml:space="preserve">
+    <value>Potenziamento Bassi?</value>
+  </data>
+  <data name="music_unknown_author" xml:space="preserve">
+    <value>Autore sconosciuto</value>
+  </data>
+  <data name="music_unknown_title" xml:space="preserve">
+    <value>Titolo sconosciuto</value>
+  </data>
+  <data name="music_embed_success_1" xml:space="preserve">
+    <value>Il canale di richiesta del brano (&lt;#{0}&gt;) è stato creato. Se lo desideri, puoi rinominare o spostare il canale.
+</value>
+  </data>
+  <data name="music_embed_success_2" xml:space="preserve">
+    <value>Non eliminare alcun messaggio nel canale di richiesta del brano. In tal caso, sarà necessario eseguire nuovamente l&#39;installazione.</value>
+  </data>
+  <data name="music_embed_queue_1" xml:space="preserve">
+    <value>Iscriviti a un canale vocale e cerca un brano per nome o URL digitandolo in questo canale.</value>
+  </data>
+  <data name="music_embed_queue_2" xml:space="preserve">
+    <value>Fonti supportate: Youtube, Youtube Livestreams, Twitch, Bandcamp, Vimeo, Soundcloud, Vlare.tv, Direct URL/File Web *&#39;(Formati MP3 e MP4)&#39;* e Spotify *&#39;(SPERIMENTALE)&#39;*.</value>
+  </data>
+  <data name="music_embed_react_1" xml:space="preserve">
+    <value>Metti in pausa / riprendi un brano</value>
+  </data>
+  <data name="music_embed_react_2" xml:space="preserve">
+    <value>Cancella la coda</value>
+  </data>
+  <data name="music_embed_react_3" xml:space="preserve">
+    <value>Salta la canzone</value>
+  </data>
+  <data name="music_embed_react_4" xml:space="preserve">
+    <value>Mischia la coda</value>
+  </data>
+  <data name="music_embed_react_5" xml:space="preserve">
+    <value>Ripeti il brano corrente</value>
+  </data>
+  <data name="music_embed_react_6" xml:space="preserve">
+    <value>Riavvia il brano corrente</value>
+  </data>
+  <data name="music_logger_trackend" xml:space="preserve">
+    <value>Riproduzione terminata: `{0}` 
+&lt;:CB_NowPlaying:586387464743157770&gt; In riproduzione: `{1}`</value>
+  </data>
+  <data name="music_logger_error" xml:space="preserve">
+    <value>La traccia si è bloccata durante il tentativo di giocare.</value>
+  </data>
+  <data name="music_logger_disconnect" xml:space="preserve">
+    <value>Tutti gli utenti hanno lasciato il canale vocale, il bot si disconnetterà in 30 secondi.</value>
+  </data>
+  <data name="music_grab_error" xml:space="preserve">
+    <value>A song must be playing to grab it.</value>
+  </data>
+  <data name="music_grab_dm" xml:space="preserve">
+    <value>Successfully sent song info to your DMs.</value>
+  </data>
+  <data name="music_grab_dm_failed" xml:space="preserve">
+    <value>Failed to send DM, please check your settings.</value>
+  </data>
+  <data name="music_equalizer_none" xml:space="preserve">
+    <value>No equalizer bands have been set.</value>
+  </data>
+  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <value>Valid bands are 0 through 14</value>
+  </data>
+  <data name="music_equalizer_invalid_2" xml:space="preserve">
+    <value>Valid gain values are between -0.25 and 1.0</value>
+  </data>
+  <data name="music_equalizer_success" xml:space="preserve">
+    <value>Successfully set band #{0} to `{1}`</value>
+  </data>
+  <data name="roles_persistent" xml:space="preserve">
+    <value>Il ruolo `{0}` è stato {1} {2} correttamente.</value>
+  </data>
+  <data name="roles_persistent_1" xml:space="preserve">
+    <value>aggiunto a</value>
+  </data>
+  <data name="roles_persistent_2" xml:space="preserve">
+    <value>rimosso da</value>
+  </data>
+  <data name="gif_error_1" xml:space="preserve">
+    <value>Impossibile trovare alcuna gif. :frowning:</value>
+  </data>
+  <data name="gif_error_2" xml:space="preserve">
+    <value>Impossibile trovare alcune gif che fossero SFW :frowning:</value>
+  </data>
+  <data name="cmd_usage" xml:space="preserve">
+    <value>Il prefisso per questo server è: `{0}`
+Puoi modificare il prefisso a: https://cakeybot.app o con `{0}setting prefix &lt;new prefix&gt;`</value>
+  </data>
+  <data name="cmd_error_param" xml:space="preserve">
+    <value>Ha un numero di parametri scorretto.</value>
+  </data>
+  <data name="cmd_error_username" xml:space="preserve">
+    <value>Devi fornire un nome utente valido.</value>
+  </data>
+  <data name="cmd_error_number" xml:space="preserve">
+    <value>Devi fornire un numero valido.</value>
+  </data>
+  <data name="cmd_error_input" xml:space="preserve">
+    <value>Devi fornire un input valido.</value>
+  </data>
+  <data name="cmd_error_matches" xml:space="preserve">
+    <value>Multiple matches were found. Possible matches:
+```{0}
+{1}```</value>
+  </data>
+  <data name="cmd_error_unknown_1" xml:space="preserve">
+    <value>Si è verificato un errore sconosciuto.</value>
+  </data>
+  <data name="cmd_error_unknown_2" xml:space="preserve">
+    <value>Unknown error, please report in our support Discord: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="cmd_error_song_request" xml:space="preserve">
+    <value>You can not run commands in the song request channel.</value>
+  </data>
+  <data name="cmd_error_timeout_1" xml:space="preserve">
+    <value>Timed out while trying to run the command.</value>
+  </data>
+  <data name="cmd_error_timeout_2" xml:space="preserve">
+    <value>Request timed out, please try again later.</value>
+  </data>
+  <data name="cmd_error_requests" xml:space="preserve">
+    <value>Received too many requests. Please try again later.</value>
+  </data>
+  <data name="audit_string_1" xml:space="preserve">
+    <value>Utente Unito:</value>
+  </data>
+  <data name="audit_string_2" xml:space="preserve">
+    <value>Profilo Creato Il:</value>
+  </data>
+  <data name="audit_string_3" xml:space="preserve">
+    <value>Utente ha Abbandonato:</value>
+  </data>
+  <data name="audit_string_4" xml:space="preserve">
+    <value>segnato</value>
+  </data>
+  <data name="audit_string_5" xml:space="preserve">
+    <value>sbloccato</value>
+  </data>
+  <data name="audit_string_6" xml:space="preserve">
+    <value>**Messaggio {0} in** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_7" xml:space="preserve">
+    <value>**Messaggio modificato in** &lt;#{0}&gt;</value>
+  </data>
+  <data name="audit_string_8" xml:space="preserve">
+    <value>Prima:</value>
+  </data>
+  <data name="audit_string_9" xml:space="preserve">
+    <value>Dopo:</value>
+  </data>
+  <data name="audit_string_10" xml:space="preserve">
+    <value>Messaggio:</value>
+  </data>
+  <data name="audit_string_11" xml:space="preserve">
+    <value>URL Immagine:</value>
+  </data>
+  <data name="audit_string_12" xml:space="preserve">
+    <value>**Messaggio inviato da &lt;@{0}{0}&gt; eliminato in** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_13" xml:space="preserve">
+    <value>&lt;@{0}&gt;**&#39;s nickname modificato**</value>
+  </data>
+  <data name="audit_string_14" xml:space="preserve">
+    <value>&lt;@{0}&gt;** ha avuto revocato il ruolo `{1}`.**</value>
+  </data>
+  <data name="audit_string_15" xml:space="preserve">
+    <value>&lt;@{0}&gt;** ha ricevuto il ruolo `{1}`.**</value>
+  </data>
+  <data name="audit_string_16" xml:space="preserve">
+    <value>Membro Bandito</value>
+  </data>
+  <data name="audit_string_17" xml:space="preserve">
+    <value>Membro Riammesso</value>
+  </data>
+  <data name="audit_string_18" xml:space="preserve">
+    <value>Ruolo Creato:</value>
+  </data>
+  <data name="audit_string_19" xml:space="preserve">
+    <value>Nome Ruolo:</value>
+  </data>
+  <data name="audit_string_20" xml:space="preserve">
+    <value>Colore Ruolo:</value>
+  </data>
+  <data name="audit_string_21" xml:space="preserve">
+    <value>Promosso:</value>
+  </data>
+  <data name="audit_string_22" xml:space="preserve">
+    <value>Menzionabile:</value>
+  </data>
+  <data name="audit_string_23" xml:space="preserve">
+    <value>Permessi:</value>
+  </data>
+  <data name="audit_string_24" xml:space="preserve">
+    <value>Ruolo Aggiornato:</value>
+  </data>
+  <data name="audit_string_25" xml:space="preserve">
+    <value>ID Ruolo:</value>
+  </data>
+  <data name="audit_string_26" xml:space="preserve">
+    <value>Ruolo Eliminato:</value>
+  </data>
+  <data name="audit_string_27" xml:space="preserve">
+    <value>Canale Creato:</value>
+  </data>
+  <data name="audit_string_28" xml:space="preserve">
+    <value>Canale Aggiornato:</value>
+  </data>
+  <data name="audit_string_29" xml:space="preserve">
+    <value>Nome Canale:</value>
+  </data>
+  <data name="audit_string_30" xml:space="preserve">
+    <value>Argomento:</value>
+  </data>
+  <data name="audit_string_31" xml:space="preserve">
+    <value>È NSFW?:</value>
+  </data>
+  <data name="audit_string_32" xml:space="preserve">
+    <value>Rallentatore:</value>
+  </data>
+  <data name="audit_string_33" xml:space="preserve">
+    <value>Sotto la Categoria:</value>
+  </data>
+  <data name="audit_string_34" xml:space="preserve">
+    <value>Canale Eliminato:</value>
+  </data>
+  <data name="audit_string_35" xml:space="preserve">
+    <value>Livello del Livello:</value>
+  </data>
+  <data name="audit_string_36" xml:space="preserve">
+    <value>Salta A:</value>
+  </data>
+  <data name="audit_string_37" xml:space="preserve">
+    <value>**{0} messaggi eliminati in blocco in** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_38" xml:space="preserve">
+    <value>Sovrascrivi Permesso</value>
+  </data>
+  <data name="audit_string_39" xml:space="preserve">
+    <value>Modificato</value>
+  </data>
+  <data name="audit_string_40" xml:space="preserve">
+    <value>**Guild Boost Count Updated:**</value>
+  </data>
+  <data name="audit_string_41" xml:space="preserve">
+    <value>Suspicious Account</value>
+  </data>
+  <data name="audit_string_42" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="audit_string_43" xml:space="preserve">
+    <value>swapped voice channels.</value>
+  </data>
+  <data name="audit_string_44" xml:space="preserve">
+    <value> a voice channel.</value>
+  </data>
+  <data name="audit_string_45" xml:space="preserve">
+    <value>joined</value>
+  </data>
+  <data name="audit_string_46" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="audit_string_47" xml:space="preserve">
+    <value>**{0} has {1}**</value>
+  </data>
+  <data name="audit_string_48" xml:space="preserve">
+    <value>Last Nickname:</value>
+  </data>
+  <data name="audit_string_49" xml:space="preserve">
+    <value>Invite Link Created: [{0}](https://discord.com/invite/{1})</value>
+  </data>
+  <data name="audit_string_50" xml:space="preserve">
+    <value>Widget</value>
+  </data>
+  <data name="audit_string_51" xml:space="preserve">
+    <value>Invite Link Deleted: `{0}`</value>
+  </data>
+  <data name="util_server_offline" xml:space="preserve">
+    <value>The server is offline or is not responding to queries.</value>
+  </data>
+  <data name="util_server_name" xml:space="preserve">
+    <value>Nome/MOTD:</value>
+  </data>
+  <data name="util_server_status" xml:space="preserve">
+    <value>Stato:</value>
+  </data>
+  <data name="util_server_count" xml:space="preserve">
+    <value>Conto Giocatore:</value>
+  </data>
+  <data name="util_server_version" xml:space="preserve">
+    <value>Versione:</value>
+  </data>
+  <data name="util_server_software" xml:space="preserve">
+    <value>Software:</value>
+  </data>
+  <data name="util_b64_result_1" xml:space="preserve">
+    <value>Risultato Immagine Crittografia Base64: {0}</value>
+  </data>
+  <data name="util_b64_result_2" xml:space="preserve">
+    <value>Risultato Crittografia Base64: ```{0}```</value>
+  </data>
+  <data name="util_b64_result_3" xml:space="preserve">
+    <value>Risultato Decodifica Base64: ```{0}```</value>
+  </data>
+  <data name="util_md5_result" xml:space="preserve">
+    <value>Risultato hash MD5: ```{0}```</value>
+  </data>
+  <data name="util_sha1_result" xml:space="preserve">
+    <value>Risultato hash SHA1: ```{0}```</value>
+  </data>
+  <data name="util_sha256_result" xml:space="preserve">
+    <value>Risultato hash SHA256: ```{0}```</value>
+  </data>
+  <data name="util_sha512_result" xml:space="preserve">
+    <value>Risultato hash SHA512: ```{0}```</value>
+  </data>
+  <data name="util_hash_result" xml:space="preserve">
+    <value>Risultati Hash:
+
+**Crittografia Base64 In Uscita:**```{0}```**Uscita Hash MD5:**```{1}```**Uscita Hash SHA1:**```{2}```**Uscita Hash SHA256:**```{3}```**Uscita Hash SHA512:**```{4}```</value>
+  </data>
+  <data name="util_steam_level" xml:space="preserve">
+    <value>Livello</value>
+  </data>
+  <data name="util_steam_badges" xml:space="preserve">
+    <value>Distintivi</value>
+  </data>
+  <data name="util_steam_games" xml:space="preserve">
+    <value>Giochi</value>
+  </data>
+  <data name="util_steam_groups" xml:space="preserve">
+    <value>Gruppi</value>
+  </data>
+  <data name="util_steam_friends" xml:space="preserve">
+    <value>Amici</value>
+  </data>
+  <data name="util_steam_vac" xml:space="preserve">
+    <value>VAC Bandito</value>
+  </data>
+  <data name="util_steam_hidden" xml:space="preserve">
+    <value>Nascosto</value>
+  </data>
+  <data name="util_steam_realname" xml:space="preserve">
+    <value>Nome Reale:</value>
+  </data>
+  <data name="util_steam_limited" xml:space="preserve">
+    <value>Account Limitato</value>
+  </data>
+  <data name="util_steam_info" xml:space="preserve">
+    <value>Informazioni Steam di {0}</value>
+  </data>
+  <data name="util_math_compute" xml:space="preserve">
+    <value>Tempo di Calcolo: {0}s</value>
+  </data>
+  <data name="embed_footer_id_user" xml:space="preserve">
+    <value>ID Utente:</value>
+  </data>
+  <data name="embed_footer_id_guild" xml:space="preserve">
+    <value>ID Gilda:</value>
+  </data>
+  <data name="embed_footer_id_channel" xml:space="preserve">
+    <value>ID Canale:</value>
+  </data>
+  <data name="embed_footer_about" xml:space="preserve">
+    <value>Sviluppato da Discord.Net implementando Victoria</value>
+  </data>
+  <data name="embed_footer_shard" xml:space="preserve">
+    <value>Frammento #{0}</value>
+  </data>
+  <data name="embed_footer_music_playlist" xml:space="preserve">
+    <value>Playlist aggiunta da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_added" xml:space="preserve">
+    <value>Aggiunta da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_cancel" xml:space="preserve">
+    <value>Annullata da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_resume" xml:space="preserve">
+    <value>Ripresa da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_pause" xml:space="preserve">
+    <value>In Pausa da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_skip" xml:space="preserve">
+    <value>Salta vota da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_clean" xml:space="preserve">
+    <value>Pulito da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_remove" xml:space="preserve">
+    <value>Rimosso da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_jump" xml:space="preserve">
+    <value>Salta la canzone, richiesto da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_shuffle" xml:space="preserve">
+    <value>Rimescolato da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_loop" xml:space="preserve">
+    <value>Loop attivato/disattivato da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_bb" xml:space="preserve">
+    <value>Potenziamento bassi attivato/disattivato da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_clear" xml:space="preserve">
+    <value>Pulito da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_restart" xml:space="preserve">
+    <value>Riavviato da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_ff" xml:space="preserve">
+    <value>Avanzamento rapido richiesto da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_rewind" xml:space="preserve">
+    <value>Riavvolgimento richiesto da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_set" xml:space="preserve">
+    <value>Impostato da {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_smove" xml:space="preserve">
+    <value>Spostamento richiesto da {0}#{1}</value>
+  </data>
+  <data name="core_help_1" xml:space="preserve">
+    <value>Il prefisso per questa gilda è `{0}`
+Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link `Comandi Bot` sotto. Se ti serve aiuto nel capire qualcosa, dai un&#39;occhiata al nostro link `FAQ` (Domande Frequenti).</value>
+  </data>
+  <data name="core_useful_links" xml:space="preserve">
+    <value>Link Utili</value>
+  </data>
+  <data name="core_bot_commands" xml:space="preserve">
+    <value>Comandi Bot</value>
+  </data>
+  <data name="core_dashboard" xml:space="preserve">
+    <value>Pannello di Controllo Web</value>
+  </data>
+  <data name="core_docs" xml:space="preserve">
+    <value>Doc/FAQ</value>
+  </data>
+  <data name="core_support_discord" xml:space="preserve">
+    <value>Supporto Discord</value>
+  </data>
+  <data name="core_bot_invite" xml:space="preserve">
+    <value>Link Invito al Bot</value>
+  </data>
+  <data name="core_donate" xml:space="preserve">
+    <value>Dona</value>
+  </data>
+  <data name="core_error" xml:space="preserve">
+    <value>Errore: Cakey Bot richiede di incorporare i permessi per funzionare a pieno.</value>
+  </data>
+  <data name="core_system_message" xml:space="preserve">
+    <value>*System Message*</value>
+  </data>
+  <data name="core_cmd_search_1" xml:space="preserve">
+    <value>Spiacenti, non posso trovare un comando come `{0}`.</value>
+  </data>
+  <data name="core_cmd_search_2" xml:space="preserve">
+    <value>Ecco alcuni comandi simili a `{0}`.</value>
+  </data>
+  <data name="core_cmd_info_alias" xml:space="preserve">
+    <value>Alias:</value>
+  </data>
+  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <value>Parametri:</value>
+  </data>
+  <data name="core_cmd_info_usage" xml:space="preserve">
+    <value>Uso:</value>
+  </data>
+  <data name="core_cmd_info_module" xml:space="preserve">
+    <value>Modulo:</value>
+  </data>
+  <data name="core_cmd_missing" xml:space="preserve">
+    <value>Devi fornire un comando per cui vuoi essere aiutato.</value>
+  </data>
+  <data name="core_setting_usage" xml:space="preserve">
+    <value>Usa il comando `{0}setting &lt;option&gt;` per vedere ulteriori informazioni su quell&#39;opzione.</value>
+  </data>
+  <data name="core_setting_usage_prefix" xml:space="preserve">
+    <value>`{0}setting prefix [Nuovo Prefisso]`</value>
+  </data>
+  <data name="core_setting_usage_announce" xml:space="preserve">
+    <value>Uso: `{0}setting announcements [join | leave | ban] [Message]`</value>
+  </data>
+  <data name="core_setting_usage_mute" xml:space="preserve">
+    <value>`{0}setting muterole [Nuovo Ruolo]`</value>
+  </data>
+  <data name="core_setting_usage_autorole" xml:space="preserve">
+    <value>`{0}setting autorole [Nuovo Ruolo]`</value>
+  </data>
+  <data name="core_setting_usage_log" xml:space="preserve">
+    <value>`{0}setting log [Nuovo Canale]`</value>
+  </data>
+  <data name="core_setting_usage_modules" xml:space="preserve">
+    <value>`{0}setting modules [Nome Modulo]`</value>
+  </data>
+  <data name="core_setting_description_prefix" xml:space="preserve">
+    <value>Modifica il prefisso a cui corrisponde Cakey Bot.</value>
+  </data>
+  <data name="core_setting_description_announce" xml:space="preserve">
+    <value>Modifica il canale in cui Cakey Bot posta annunci e messaggi.
+Puoi usare le variabili in `{0}variables` per personalizzare il tuo messaggio!</value>
+  </data>
+  <data name="core_setting_description_mute" xml:space="preserve">
+    <value>Modifica il ruolo che Cakey Bot dà agli utenti mutati.</value>
+  </data>
+  <data name="core_setting_description_autorole" xml:space="preserve">
+    <value>Modifica il ruolo che Cakey Bot da ai nuovi utenti che si uniscono.</value>
+  </data>
+  <data name="core_setting_description_log" xml:space="preserve">
+    <value>Modifica il canale in cui Cakey Bot posta i registri.</value>
+  </data>
+  <data name="core_setting_description_modules" xml:space="preserve">
+    <value>Ti consente di attivare o disattivare certe parti di Cakey Bot.</value>
+  </data>
+  <data name="core_setting_prefix" xml:space="preserve">
+    <value>Prefisso</value>
+  </data>
+  <data name="core_setting_prefix_current" xml:space="preserve">
+    <value>Prefisso Corrente:</value>
+  </data>
+  <data name="core_setting_prefix_update" xml:space="preserve">
+    <value>Modifica/Aggiorna Prefisso:</value>
+  </data>
+  <data name="core_setting_log" xml:space="preserve">
+    <value>Registro Canale</value>
+  </data>
+  <data name="core_setting_log_current" xml:space="preserve">
+    <value>Registro Canale Corrente:</value>
+  </data>
+  <data name="core_setting_log_update" xml:space="preserve">
+    <value>Modifica/Aggiorna Registro Canale:</value>
+  </data>
+  <data name="core_setting_mute" xml:space="preserve">
+    <value>Ruolo Muto</value>
+  </data>
+  <data name="core_setting_mute_current" xml:space="preserve">
+    <value>Ruolo Muto Corrente:</value>
+  </data>
+  <data name="core_setting_mute_update" xml:space="preserve">
+    <value>Modifica/Aggiorna Ruolo Muto:</value>
+  </data>
+  <data name="core_setting_auto" xml:space="preserve">
+    <value>Auto-Ruolo</value>
+  </data>
+  <data name="core_setting_auto_current" xml:space="preserve">
+    <value>Auto-Ruolo Corrente:</value>
+  </data>
+  <data name="core_setting_auto_update" xml:space="preserve">
+    <value>Modifica/Aggiorna Auto-Ruolo:</value>
+  </data>
+  <data name="core_setting_toggle" xml:space="preserve">
+    <value>Attiva/Disattiva Moduli</value>
+  </data>
+  <data name="core_setting_modules_current" xml:space="preserve">
+    <value>Impostazioni Correnti:</value>
+  </data>
+  <data name="core_setting_modules_update" xml:space="preserve">
+    <value>Attiva/Disattiva Moduli:</value>
+  </data>
+  <data name="core_setting_modules_disabled" xml:space="preserve">
+    <value>The ability to toggle modules has been moved to the </value>
+  </data>
+  <data name="core_setting_announcements" xml:space="preserve">
+    <value>Annunci</value>
+  </data>
+  <data name="core_setting_announcements_current_join" xml:space="preserve">
+    <value>Messaggio Partecipazione Corrente:</value>
+  </data>
+  <data name="core_setting_announcements_current_leave" xml:space="preserve">
+    <value>Messaggio di Abbandono Corrente:</value>
+  </data>
+  <data name="core_setting_announcements_current_ban" xml:space="preserve">
+    <value>Messaggio di Ban Corrente:</value>
+  </data>
+  <data name="core_setting_announcements_current_channel" xml:space="preserve">
+    <value>Canale di Annuncio Corrente:</value>
+  </data>
+  <data name="core_setting_announcements_update_channel_1" xml:space="preserve">
+    <value>Modifica/Aggiorna Canale di Annuncio:</value>
+  </data>
+  <data name="core_setting_announcements_update_channel_2" xml:space="preserve">
+    <value>`{0}setting announcements [Nuovo Canale]`</value>
+  </data>
+  <data name="core_setting_announcements_update_msg_1" xml:space="preserve">
+    <value>Modifica/Aggiorna Messaggi Annuncio:</value>
+  </data>
+  <data name="core_setting_announcements_update_msg_2" xml:space="preserve">
+    <value>`{0}setting announcements [join | leave | ban] [Message]`</value>
+  </data>
+  <data name="core_setting_announcements_update_msg_error" xml:space="preserve">
+    <value>You need to set new announcement messages with `{0}setting announcements [join | leave | ban] [message]`.</value>
+  </data>
+  <data name="core_setting_updated_prefix" xml:space="preserve">
+    <value>Il prefisso per questo server è stato aggiornato in: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_log_1" xml:space="preserve">
+    <value>`{0}setting log [Nuovo Canale]`</value>
+  </data>
+  <data name="core_setting_updated_log_2" xml:space="preserve">
+    <value>Il registro del canale per questo server è stato rimosso.</value>
+  </data>
+  <data name="core_setting_updated_log_3" xml:space="preserve">
+    <value>Il registro del canale per questo server è stato aggiornato in: &lt;#{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_announcements_1" xml:space="preserve">
+    <value>Il canale degli annunci per questo server è stato rimosso.</value>
+  </data>
+  <data name="core_setting_updated_announcements_2" xml:space="preserve">
+    <value>Il canale degli annunci per questo server è stato aggiornato in: &lt;#{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_announcements_join" xml:space="preserve">
+    <value>Il messaggio di partecipazione per questo server è stato aggiornato a: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_announcements_ban" xml:space="preserve">
+    <value>Il messaggio di ban per questo server è stato aggiornato a: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_announcements_leave" xml:space="preserve">
+    <value>Il messaggio di abbandono per questo server è stato aggiornato a: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_mute_1" xml:space="preserve">
+    <value>Il ruolo muto per questo server è stato rimosso.</value>
+  </data>
+  <data name="core_setting_updated_mute_2" xml:space="preserve">
+    <value>Il ruolo muto per questo server è stato aggiornato a: &lt;@&amp;{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_module" xml:space="preserve">
+    <value>Il modulo `{0}` per questo server è stato aggiornato a: {1}</value>
+  </data>
+  <data name="core_setting_updated_auto_1" xml:space="preserve">
+    <value>L&#39;auto-ruolo per questo server è stato rimosso.</value>
+  </data>
+  <data name="core_setting_updated_auto_2" xml:space="preserve">
+    <value>L&#39;auto-ruolo per questo server è stato aggiornato a: &lt;@&amp;{0}&gt;</value>
+  </data>
+  <data name="core_invite" xml:space="preserve">
+    <value>Vuoi invitarmi alla tua gilda? Clicca il link sotto!</value>
+  </data>
+  <data name="core_feedback_blacklisted" xml:space="preserve">
+    <value>Sei stato inserito nella lista nera da questo comando. :(</value>
+  </data>
+  <data name="core_stats_1" xml:space="preserve">
+    <value>Conto Server</value>
+  </data>
+  <data name="core_stats_2" xml:space="preserve">
+    <value>Categorie Totali</value>
+  </data>
+  <data name="core_stats_3" xml:space="preserve">
+    <value>Canali di Testo</value>
+  </data>
+  <data name="core_stats_4" xml:space="preserve">
+    <value>Canali Vocali</value>
+  </data>
+  <data name="core_announce_usage" xml:space="preserve">
+    <value>Uso: `!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
+  </data>
+  <data name="core_announce_footer" xml:space="preserve">
+    <value>Annuncio</value>
+  </data>
+  <data name="core_sr_usage" xml:space="preserve">
+    <value>Uso: `!sr &lt;add | remove | use | unuse | list&gt; &lt;ruoli&gt;`</value>
+  </data>
+  <data name="core_sr_added_1" xml:space="preserve">
+    <value>Il ruolo è stato già aggiunto.</value>
+  </data>
+  <data name="core_sr_added_2" xml:space="preserve">
+    <value>Auto-ruolo aggiunto correttamente.</value>
+  </data>
+  <data name="core_sr_added_3" xml:space="preserve">
+    <value>Il ruolo richiesto ti è stato correttamente aggiunto.</value>
+  </data>
+  <data name="core_sr_removed_1" xml:space="preserve">
+    <value>Auto-ruolo rimosso correttamente.</value>
+  </data>
+  <data name="core_sr_removed_2" xml:space="preserve">
+    <value>Il ruolo richiesto è stato correttamente rimosso da te.</value>
+  </data>
+  <data name="core_sr_none" xml:space="preserve">
+    <value>Nessun ruolo disponibile.</value>
+  </data>
+  <data name="core_sr_error_invalid" xml:space="preserve">
+    <value>Il ruolo non è elencato come auto-ruolo.</value>
+  </data>
+  <data name="core_sr_error_missing" xml:space="preserve">
+    <value>Il ruolo non esiste più.</value>
+  </data>
+  <data name="core_sr_error_have" xml:space="preserve">
+    <value>Hai già questo ruolo.</value>
+  </data>
+  <data name="core_sr_error_have_not" xml:space="preserve">
+    <value>Non hai questo ruolo.</value>
+  </data>
+  <data name="core_invalid_channel" xml:space="preserve">
+    <value>Devi fornire un nome del canale valido!</value>
+  </data>
+  <data name="core_debug_required_core" xml:space="preserve">
+    <value>**Permessi: (nucleo)**
+</value>
+  </data>
+  <data name="core_debug_optional_mod" xml:space="preserve">
+    <value>**Autorizzazioni opzionali: (Richieste per la moderazione)**
+</value>
+  </data>
+  <data name="core_debug_optional_misc" xml:space="preserve">
+    <value>**Autorizzazioni facoltative: (Richieste per le utenze/varie)**
+</value>
+  </data>
+  <data name="core_debug_optional_music" xml:space="preserve">
+    <value>**Autorizzazioni facoltative: (Richieste per la musica)**
+</value>
+  </data>
+  <data name="core_debug_unused" xml:space="preserve">
+    <value>**Autorizzazioni inutilizzate:**
+</value>
+  </data>
+  <data name="core_debug_wildcard" xml:space="preserve">
+    <value>**Permessi Wildcard:**
+</value>
+  </data>
+  <data name="core_limited" xml:space="preserve">
+    <value>Cakey Bot is currently having technical issues. Some features are disabled or limited temporarily.</value>
+  </data>
+  <data name="core_string_1" xml:space="preserve">
+    <value>Command Info</value>
+  </data>
+  <data name="urban_error" xml:space="preserve">
+    <value>Impossibile trovare la voce di Urban Dictionary. Prova più tardi o provane un&#39;altra.</value>
+  </data>
+  <data name="automod_string_caps" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere &gt;{0}% di lettere maiuscole.</value>
+  </data>
+  <data name="automod_string_blacklist_word" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere una parola nella lista nera.</value>
+  </data>
+  <data name="automod_string_discordinvite" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere un link di invito a discord.</value>
+  </data>
+  <data name="automod_string_url" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere un url/link.</value>
+  </data>
+  <data name="automod_string_mentions" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere &gt;{0} menzioni</value>
+  </data>
+  <data name="automod_string_emote" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere &gt;{0} emoji.</value>
+  </data>
+  <data name="automod_string_spoiler" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere uno spoiler.</value>
+  </data>
+  <data name="automod_string_selfbot" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato perché era un messaggio self-bot.</value>
+  </data>
+  <data name="automod_string_duplicate_char" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere &gt;{0}% caratteri doppi.</value>
+  </data>
+  <data name="automod_string_duplicate_word" xml:space="preserve">
+    <value>Il tuo messaggio è stato eliminato per contenere &gt;{0} parole duplicate.</value>
+  </data>
+  <data name="automod_check_mass_caps" xml:space="preserve">
+    <value>Capitalizzazione di Massa</value>
+  </data>
+  <data name="automod_check_blacklist" xml:space="preserve">
+    <value>Parola nella Lista Nera</value>
+  </data>
+  <data name="automod_check_discord_invite" xml:space="preserve">
+    <value>Link di Invito Discord</value>
+  </data>
+  <data name="automod_check_website_url" xml:space="preserve">
+    <value>URL/Link Sito Web</value>
+  </data>
+  <data name="automod_check_mass_mentions" xml:space="preserve">
+    <value>Menzioni di Massa</value>
+  </data>
+  <data name="automod_check_emoji_spam" xml:space="preserve">
+    <value>Spam Emoji</value>
+  </data>
+  <data name="automod_check_spoilers" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="automod_check_self_bot" xml:space="preserve">
+    <value>Messaggio Auto-Bot</value>
+  </data>
+  <data name="automod_check_duplicate_char" xml:space="preserve">
+    <value>Caratteri Doppi</value>
+  </data>
+  <data name="automod_check_duplicate_word" xml:space="preserve">
+    <value>Parole Doppie</value>
+  </data>
+  <data name="automod_check_auto_dehoist" xml:space="preserve">
+    <value>Auto Dehoist</value>
+  </data>
+  <data name="automod_embed_violation" xml:space="preserve">
+    <value>Violazione:</value>
+  </data>
+  <data name="automod_embed_value" xml:space="preserve">
+    <value>Valore:</value>
+  </data>
+  <data name="automod_embed_channel" xml:space="preserve">
+    <value>Canale:</value>
+  </data>
+  <data name="github_results" xml:space="preserve">
+    <value>Showing lines {0} - {1} of `{2}`</value>
+  </data>
+  <data name="quoter_by_title" xml:space="preserve">
+    <value>Quoted By:</value>
+  </data>
+  <data name="quoter_by_value" xml:space="preserve">
+    <value>{0} from &lt;#{1}&gt; in {2}</value>
+  </data>
+</root>

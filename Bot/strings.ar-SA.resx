@@ -1,0 +1,2046 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="cooldown" xml:space="preserve">
+    <value>إنتظر {0} قبل إعادة القيام بهذا الأمر.</value>
+  </data>
+  <data name="module_disabled" xml:space="preserve">
+    <value>تم تعطيل هذه الوحدة من قبل مشرفي الخادم.</value>
+  </data>
+  <data name="command_disabled" xml:space="preserve">
+    <value>تم تعطيل هذا الأمر مؤقتًا للحصول على التحديثات.</value>
+  </data>
+  <data name="error_generic_1" xml:space="preserve">
+    <value>لقد حصل خطأ غير معروف سببه!</value>
+  </data>
+  <data name="error_generic_2" xml:space="preserve">
+    <value>حدث خطأ غير معروف. يرجى الإبلاغ في Discord الخاص بالدعم: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="error_generic_3" xml:space="preserve">
+    <value>لقد حصل خطأ غير معروف سببه. هل السيرفر يعمل؟ هل اخترت نوع السيرفر الصحيح؟</value>
+  </data>
+  <data name="error_generic_4" xml:space="preserve">
+    <value>خطأ:</value>
+  </data>
+  <data name="error_generic_5" xml:space="preserve">
+    <value>القيادة الفرعية ستاتي قريبا.</value>
+  </data>
+  <data name="error_command_disabled" xml:space="preserve">
+    <value>**حصل خطأ.** هذا الأمر موقّف.</value>
+  </data>
+  <data name="error_ssl" xml:space="preserve">
+    <value>حصل خطأ SLL. الرجاء المحاولة في وقت لاحق.</value>
+  </data>
+  <data name="error_limit_rate" xml:space="preserve">
+    <value>لقد تم بلوغ حد السرعة المحدد.</value>
+  </data>
+  <data name="error_limit_characters_10" xml:space="preserve">
+    <value>يجب أن يكون النص أقل من 10 أحرف.</value>
+  </data>
+  <data name="error_limit_characters_200" xml:space="preserve">
+    <value>الرجاء إدخال سؤال أقل من 200 حرف.</value>
+  </data>
+  <data name="error_limit_characters_200_2" xml:space="preserve">
+    <value>الرجاء إدخال اقتراح أقل من 200 حرف.</value>
+  </data>
+  <data name="error_limit_characters_500" xml:space="preserve">
+    <value>يجب أن يكون النص أقل من 500 حرف.</value>
+  </data>
+  <data name="error_missing_text" xml:space="preserve">
+    <value>يجب عليك تقديم نص قصير.</value>
+  </data>
+  <data name="error_missing_query" xml:space="preserve">
+    <value>يجب عليك تقديم استعلام بحث.</value>
+  </data>
+  <data name="error_missing_warn_id" xml:space="preserve">
+    <value>يجب عليك إدخال معرف تحذير!</value>
+  </data>
+  <data name="error_missing_server_info" xml:space="preserve">
+    <value>يجب عليك إدخال السيرفر IP و Port.</value>
+  </data>
+  <data name="error_missing_user_name_1" xml:space="preserve">
+    <value>يجب عليك إدخال إسم شخص!</value>
+  </data>
+  <data name="error_missing_user_name_2" xml:space="preserve">
+    <value>يجب عليك إدخال إسم شخصين!</value>
+  </data>
+  <data name="error_missing_user_id" xml:space="preserve">
+    <value>يجب عليك إدخال معرف مستخدم!</value>
+  </data>
+  <data name="error_missing_steam_id_1" xml:space="preserve">
+    <value>الرجاء إدخال معرف مستخدم Steam صالح! ابحث عن معرفات المستخدمين على: https://steamid.io/lookup/</value>
+  </data>
+  <data name="error_missing_steam_id_2" xml:space="preserve">
+    <value>تذكر أنه يمكن العثور على معرفات Steam64 على: https://steamid.io/lookup/</value>
+  </data>
+  <data name="error_missing_role_name" xml:space="preserve">
+    <value>يجب عليك تقديم اسم دور!</value>
+  </data>
+  <data name="error_missing_role_mention" xml:space="preserve">
+    <value>يجب عليك كتابة اسم دور!</value>
+  </data>
+  <data name="error_missing_perm_manageroles" xml:space="preserve">
+    <value>ليس لديك إذن إدارة الأدوار!</value>
+  </data>
+  <data name="error_missing_perm_manageserver" xml:space="preserve">
+    <value>ليس لديك إذن إدارة السيرفر!</value>
+  </data>
+  <data name="error_missing_perm_managechannels" xml:space="preserve">
+    <value>ليس لديك إذن إدارة القنوات!</value>
+  </data>
+  <data name="error_missing_perm_managenicks" xml:space="preserve">
+    <value>ليس لديك إذن إدارة الكنيات!</value>
+  </data>
+  <data name="error_missing_perm_managemessage_1" xml:space="preserve">
+    <value>ليس لديك إذن إدارة الرسائل!</value>
+  </data>
+  <data name="error_missing_perm_managemessage_2" xml:space="preserve">
+    <value>ليس لديّ إذن إدارة الرسائل!</value>
+  </data>
+  <data name="error_missing_perm_moderator" xml:space="preserve">
+    <value>يجب أن يكون لديك اذن مششرف لاستتخدام هذا الأمر. لمزيد من المعلومات:(https://docs.cakeybot.app/setup/faq#what-is-considered-a-server-moderator)</value>
+  </data>
+  <data name="error_missing_perm_emoji" xml:space="preserve">
+    <value>ليس لديك إذن إدارة رموز &quot;Emoji&quot;!</value>
+  </data>
+  <data name="error_missing_perm_administrator" xml:space="preserve">
+    <value>ليس لديك إذن مدير!</value>
+  </data>
+  <data name="error_missing_perm_kick" xml:space="preserve">
+    <value>ليس لديك إذن الطرد!</value>
+  </data>
+  <data name="error_missing_perm_ban" xml:space="preserve">
+    <value>ليس لديك إذن الحظر!</value>
+  </data>
+  <data name="error_missing_perm_unban" xml:space="preserve">
+    <value>ليس لديك إذن إلغاء الحظر!</value>
+  </data>
+  <data name="error_missing_perm_mute" xml:space="preserve">
+    <value>ليس لديك إذن الكتم!</value>
+  </data>
+  <data name="error_missing_perm_self_emoji" xml:space="preserve">
+    <value>ليس لدي إذن ManageEmoji!</value>
+  </data>
+  <data name="error_missing_perm_self_react" xml:space="preserve">
+    <value>ليس لدي إذن لإضافة ردود!</value>
+  </data>
+  <data name="error_missing_perm_self_kick" xml:space="preserve">
+    <value>ليس لديّ إذن الطّرد!</value>
+  </data>
+  <data name="error_missing_perm_self_ban" xml:space="preserve">
+    <value>ليس لديّ إذن الحظر!</value>
+  </data>
+  <data name="error_missing_perm_self_unban" xml:space="preserve">
+    <value>ليس لدي إذن إلغاء الحظر!</value>
+  </data>
+  <data name="error_missing_perm_self_manageroles" xml:space="preserve">
+    <value>ليس لديّ إذن إدارة الأدوار!</value>
+  </data>
+  <data name="error_missing_perm_self_managechannels" xml:space="preserve">
+    <value>ليس لدي إذن لي إدارة القنوات!</value>
+  </data>
+  <data name="error_missing_perm_self_manageguild" xml:space="preserve">
+    <value>ليس لدي أذنات إدارة النقابة! (مطلوب نظر دعوات نقابة)</value>
+  </data>
+  <data name="error_missing_perm_self_managenicks" xml:space="preserve">
+    <value>ليس لديك إذن إدارة الكنيات!</value>
+  </data>
+  <data name="error_missing_perm_self_kick_admin" xml:space="preserve">
+    <value>لا يمكنني طرد مسؤول!</value>
+  </data>
+  <data name="error_missing_perm_self_ban_admin" xml:space="preserve">
+    <value>لا يمكنني فرض حظر مسؤول!</value>
+  </data>
+  <data name="error_missing_perm_self_ban_soft_admin" xml:space="preserve">
+    <value>لا استطيع حظر لينة Administrator!</value>
+  </data>
+  <data name="error_missing_perm_self_mute_admin" xml:space="preserve">
+    <value>لا يمكنني كتم مسؤول!</value>
+  </data>
+  <data name="error_missing_perm_self_warn_admin" xml:space="preserve">
+    <value>لا يمكنني تحذير مسؤول!</value>
+  </data>
+  <data name="error_missing_file_image_3" xml:space="preserve">
+    <value>لم أستطع العثور على أي صور صالحة في الرسائل الثلاث الماضية.</value>
+  </data>
+  <data name="error_missing_file_image_5" xml:space="preserve">
+    <value>لم أستطع العثور على أي صور صالحة في الرسائل الخمسة الماضية.</value>
+  </data>
+  <data name="error_missing_messages" xml:space="preserve">
+    <value>لم استطع العثور على رسائل للمستخدم المحدد.</value>
+  </data>
+  <data name="error_failed_image_download" xml:space="preserve">
+    <value>لقد فشلت في تنزيل الصورة.</value>
+  </data>
+  <data name="error_failed_image_modify" xml:space="preserve">
+    <value>لقد فشلت في تعديل الصورة.</value>
+  </data>
+  <data name="error_failed_image_upload" xml:space="preserve">
+    <value>ليس لدي الإذن لتحميل ملفات هنا.</value>
+  </data>
+  <data name="error_failed_joke" xml:space="preserve">
+    <value>لقد فشلت في العثور على نكتة.</value>
+  </data>
+  <data name="error_failed_fortune" xml:space="preserve">
+    <value>فشل في الحصول على الثروة.</value>
+  </data>
+  <data name="error_failed_weather" xml:space="preserve">
+    <value>لقد فشلتُ في الحصول على البيانات ، هل كتبتَ اسم المدينة بشكل صحيح؟</value>
+  </data>
+  <data name="error_failed_currency" xml:space="preserve">
+    <value>لقد فشلتُ في الحصول على البيانات ، هل قمتَ بكتابة العملات بشكل صحيح؟</value>
+  </data>
+  <data name="error_failed_video" xml:space="preserve">
+    <value>لقد فشلت في العثور على الفيديو. *استعلامات البحث الأقصر تعمل بشكل أفضل.*</value>
+  </data>
+  <data name="error_failed_image" xml:space="preserve">
+    <value>لفد فشلت في العثور على الصورة. *استعلامات البحث الأقصر تعمل بشكل أفضل.*</value>
+  </data>
+  <data name="error_failed_article" xml:space="preserve">
+    <value>لقد فشلت في العثور على المقالة.</value>
+  </data>
+  <data name="error_failed_message" xml:space="preserve">
+    <value>فشل في العثور على رسالة.</value>
+  </data>
+  <data name="error_failed_kick" xml:space="preserve">
+    <value>لقد فشلتُ في طرد هذا الشخص.</value>
+  </data>
+  <data name="error_failed_ban" xml:space="preserve">
+    <value>لقد فشلت في حظر هذا الشخص.</value>
+  </data>
+  <data name="error_failed_ban_soft" xml:space="preserve">
+    <value>فشلت في حظر المستخدم لينة.</value>
+  </data>
+  <data name="error_failed_unban" xml:space="preserve">
+    <value>لقد فشلتُ في الغاء حظر هذا الشخص.</value>
+  </data>
+  <data name="error_failed_unban_not_banned_1" xml:space="preserve">
+    <value>أنا لستُ محظوراً!</value>
+  </data>
+  <data name="error_failed_unban_not_banned_2" xml:space="preserve">
+    <value>معرف المستخدم هذا غير محظور.</value>
+  </data>
+  <data name="error_failed_unmute_not_muted" xml:space="preserve">
+    <value>هذا المستخدم غير مكتوم. إذا كان مكتوماً ، تأكد من تعيين دور كتم الصوت باستخدام `!setting` أو تسميته `Muted`.</value>
+  </data>
+  <data name="error_failed_playlist_save" xml:space="preserve">
+    <value>فشل في حفظ الأغاني إلى قائمة التشغيل. هل قائمة التشغيل موجودة بالفعل؟</value>
+  </data>
+  <data name="error_failed_playlist_load" xml:space="preserve">
+    <value>فشل العثور علي قائمه التشغيل. هل قمت بكتابه الاسم بشكل صحيح ؟</value>
+  </data>
+  <data name="error_failed_playlist_delete" xml:space="preserve">
+    <value>فشل في حذف `{0}` التشغيل. هل قائمة التشغيل موجودة؟</value>
+  </data>
+  <data name="error_role_1" xml:space="preserve">
+    <value>لا يمكنني تعديل هذا الدور ، فهو أعلى من أعلى دور لي.</value>
+  </data>
+  <data name="error_role_2" xml:space="preserve">
+    <value>لا يمكنك تعديل هذا الدور ، فهو أعلى من أعلى دور لديك.</value>
+  </data>
+  <data name="error_role_kick_1" xml:space="preserve">
+    <value>لا يمكنك طرد شخص فوقك في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_kick_2" xml:space="preserve">
+    <value>لا يمكنني طرد شخص فوقي في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_ban_1" xml:space="preserve">
+    <value>لا يمكنك حظر شخص فوقك في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_ban_2" xml:space="preserve">
+    <value>لا يمكنني حظر شخص فوقي في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_ban_soft_1" xml:space="preserve">
+    <value>لا تستطيع حظر لينة شخص فوقك في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_ban_soft_2" xml:space="preserve">
+    <value>لا اتستطيع حظر لينة شخص فوقي في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_mute_1" xml:space="preserve">
+    <value>لا يمكنك كتم شخص فوقك في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_mute_2" xml:space="preserve">
+    <value>لا أستطيع كتم شخص فوقي في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_mute_3" xml:space="preserve">
+    <value>لا يمكنني استخدام دور كتم الصوت ، فهو أعلى من أعلى دور لي.</value>
+  </data>
+  <data name="error_role_warn_1" xml:space="preserve">
+    <value>لا يمكنك تحذير شخص فوقك في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_warn_2" xml:space="preserve">
+    <value>لا أستطيع تحذير شخص ما فوقي في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_role_unwarn_1" xml:space="preserve">
+    <value>لا تستطيع إزالة تحذير شخص فوقك في التسلسل الهرمي للإدوار!</value>
+  </data>
+  <data name="error_role_unwarn_2" xml:space="preserve">
+    <value>لا اتستطيع إزالة تحذير شخص فوقي في التسلسل الهرمي للأدوار!</value>
+  </data>
+  <data name="error_invalid_color_hex" xml:space="preserve">
+    <value>يجب عليك استخدام رمز hex صالح!</value>
+  </data>
+  <data name="error_invalid_dice" xml:space="preserve">
+    <value>يرجى إدخال رقم صالح (1-15) أو إدخال لفافة النرد من DND.</value>
+  </data>
+  <data name="error_invalid_user_missing" xml:space="preserve">
+    <value>اسم المستخدم هذا غير موجود!</value>
+  </data>
+  <data name="error_invalid_unknown_city" xml:space="preserve">
+    <value>اسم المدينة هذا غير معروف.</value>
+  </data>
+  <data name="error_invalid_invite" xml:space="preserve">
+    <value>الرجاء إدخال رمز دعوة صالح.</value>
+  </data>
+  <data name="error_invalid_base64" xml:space="preserve">
+    <value>يرجى تقديم سلسلة base64 صالحة.</value>
+  </data>
+  <data name="error_invalid_playlist" xml:space="preserve">
+    <value>يجب إدخال اسم قائمة تشغيل صالح.</value>
+  </data>
+  <data name="error_usage_poll" xml:space="preserve">
+    <value>الرجاء إدخال سؤال واضح. الطريقة: &#39;!poll question answer1 | answer2 | answer3 | etc&#39;</value>
+  </data>
+  <data name="error_usage_suggestion" xml:space="preserve">
+    <value>الرجاء إدخال إقتراح واضح. 
+! suggestion title | description</value>
+  </data>
+  <data name="error_usage_rps" xml:space="preserve">
+    <value>‏‎الرجاء إدخال خطوة صالحة: ` rps &amp;lt!; صخرة |  ورقة |  مقص &gt;`</value>
+  </data>
+  <data name="error_usage_8ball" xml:space="preserve">
+    <value>الرجاء ادخال سؤال.</value>
+  </data>
+  <data name="error_usage_query" xml:space="preserve">
+    <value>الاستخدام السليم: !query &lt;pe | pc&gt; &lt;ip:port&gt;</value>
+  </data>
+  <data name="error_usage_query_type" xml:space="preserve">
+    <value>الرجاء ادخال نوع السيرفر PE أو PC.</value>
+  </data>
+  <data name="error_usage_role" xml:space="preserve">
+    <value>الاستعمال:`!role &lt;add | remove&gt; &lt;user&gt; &lt;role&gt;`</value>
+  </data>
+  <data name="error_usage_emoji" xml:space="preserve">
+    <value>الاستخدام: `!emoj &lt;add | delete | info | list | roles | update&gt;`</value>
+  </data>
+  <data name="error_usage_emoji_2" xml:space="preserve">
+    <value>الاستعمال: `emoji info! رمز تعبيري &lt;emoji ID&gt;`</value>
+  </data>
+  <data name="error_usage_playlist" xml:space="preserve">
+    <value>الاستخدام: playlist!&lt;save/create | list | load | delete/remove&gt; &lt;name&gt;</value>
+  </data>
+  <data name="error_usage_verify" xml:space="preserve">
+    <value>الاستخدام: `{0}verify setup &lt;role&gt;`</value>
+  </data>
+  <data name="error_usage_verify_set" xml:space="preserve">
+    <value>لم يتم تحديد دور التحقق. قم بتعيين واحد باستخدام: `{0}verify setup &lt;role&gt;`</value>
+  </data>
+  <data name="error_verify" xml:space="preserve">
+    <value>فشل في تحديد دور لتأكيد.</value>
+  </data>
+  <data name="success_verify" xml:space="preserve">
+    <value>تم بنجاح تعيين دور التاكيد على: `{0}`.</value>
+  </data>
+  <data name="error_max_values_20" xml:space="preserve">
+    <value>يمكن ان يكون لديك ما يصل إلى 20 قيمه فقط.</value>
+  </data>
+  <data name="success_role_added" xml:space="preserve">
+    <value>تمت إضافة `{0}` إلى {1} بنجاح.</value>
+  </data>
+  <data name="success_role_removed" xml:space="preserve">
+    <value>تمت إزالة `{0}` بنجاح من {1}.</value>
+  </data>
+  <data name="success_role_updated_color" xml:space="preserve">
+    <value>‎تم التحديث بنجاح `{0}`. (Color: {1})</value>
+  </data>
+  <data name="success_role_updated_hoisted" xml:space="preserve">
+    <value>‎تم التحديث بنجاح`{0}`. (Hoisted: {1} » {2})</value>
+  </data>
+  <data name="success_role_updated_mentionable" xml:space="preserve">
+    <value>‎تم التحديث بنجاح `{0}`. (Mentionable: {1} » {2})</value>
+  </data>
+  <data name="success_suggestion_created" xml:space="preserve">
+    <value>‎تم إنشاء اقتراحك بنجاح في &lt;#427382255342714880&gt;.</value>
+  </data>
+  <data name="games_suggestion_suggestion" xml:space="preserve">
+    <value>الاقتراحات:</value>
+  </data>
+  <data name="games_suggestion_vote" xml:space="preserve">
+    <value>تصويت:</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
+    <value>عنوان:</value>
+  </data>
+  <data name="games_suggestion_description" xml:space="preserve">
+    <value>الوصف:</value>
+  </data>
+  <data name="games_suggestion_created" xml:space="preserve">
+    <value>‎اقتراح تم إنشاؤه بواسطة {0}#{1}</value>
+  </data>
+  <data name="games_8ball_results" xml:space="preserve">
+    <value>النتائج:</value>
+  </data>
+  <data name="games_8ball_question" xml:space="preserve">
+    <value>سؤال:</value>
+  </data>
+  <data name="games_8ball_answer" xml:space="preserve">
+    <value>إجابة:</value>
+  </data>
+  <data name="games_poll_vote" xml:space="preserve">
+    <value>تصويت:</value>
+  </data>
+  <data name="games_poll_created" xml:space="preserve">
+    <value>تصويت تم إنشاؤه بواسطة {0}#{1}</value>
+  </data>
+  <data name="games_coin_heads" xml:space="preserve">
+    <value>رؤساء</value>
+  </data>
+  <data name="games_coin_tails" xml:space="preserve">
+    <value>ذيول</value>
+  </data>
+  <data name="games_coin_results" xml:space="preserve">
+    <value>النتائج:</value>
+  </data>
+  <data name="games_coin_flipped" xml:space="preserve">
+    <value>لقد انقلبت:</value>
+  </data>
+  <data name="games_dice_total" xml:space="preserve">
+    <value>الإجمالي:</value>
+  </data>
+  <data name="games_dice_result_single" xml:space="preserve">
+    <value>انت توالت يموت. نتيجة:</value>
+  </data>
+  <data name="games_dice_result_multiple" xml:space="preserve">
+    <value>موت {i1}# النتائج:</value>
+  </data>
+  <data name="games_dice_result_rolled" xml:space="preserve">
+    <value>توالت {0}</value>
+  </data>
+  <data name="games_rps_rock" xml:space="preserve">
+    <value>حجر</value>
+  </data>
+  <data name="games_rps_paper" xml:space="preserve">
+    <value>ورقة</value>
+  </data>
+  <data name="games_rps_scissors" xml:space="preserve">
+    <value>مقص</value>
+  </data>
+  <data name="games_rps_outcome_1" xml:space="preserve">
+    <value>اخترت {0}؛{1} يدق {2}. انا فزت!</value>
+  </data>
+  <data name="games_rps_outcome_2" xml:space="preserve">
+    <value>اخترت {0}؛{1} يدق {2}. انت فزت!</value>
+  </data>
+  <data name="games_rps_outcome_3" xml:space="preserve">
+    <value>اخترت {0}. اختار كلانا {1}، إنها ربطة عنق!</value>
+  </data>
+  <data name="games_giveaway_error_1" xml:space="preserve">
+    <value>** خطأ: ** يجب أن تستمر الهباتن أقل من ساعة واحدة.</value>
+  </data>
+  <data name="games_giveaway_error_2" xml:space="preserve">
+    <value>** خطأ: ** يجب أن تستمر الهباتن 1 دقيقة على الأقل.</value>
+  </data>
+  <data name="games_giveaway_title" xml:space="preserve">
+    <value>:tada: **الهبة**:tada:</value>
+  </data>
+  <data name="games_giveaway_hours_1" xml:space="preserve">
+    <value>** المعلومات: ** 
+ ● الجائزة: `{0}` 
+ ● كمية الفائزين: {1} 
+ ● الوقت المتبقي: {2} ساعات 
+ 
+ رد بـ:tada: للدخول في هدية الترويجية!</value>
+  </data>
+  <data name="games_giveaway_hours_2" xml:space="preserve">
+    <value>** المعلومات: ** 
+ ● الجائزة: `{0}` 
+ ● كمية الفائزين: {1} 
+ ● الوقت المتبقي: {2} ساعات {3} دقيقة 
+ 
+ رد بـ:tada: لدخول في هدية الترويجية!</value>
+  </data>
+  <data name="games_giveaway_minutes_1" xml:space="preserve">
+    <value>** المعلومات: ** 
+ ● الجائزة: `{0}` 
+ ● كمية الفائزين: {1} 
+ ● الوقت المتبقي: {2} دقائق 
+ 
+ رد بـ:tada: للدخول في هدية الترويجية!</value>
+  </data>
+  <data name="games_giveaway_minutes_2" xml:space="preserve">
+    <value>** المعلومات: ** 
+ ● الجائزة: `{0}` 
+ ● كمية الفائزين: {1} 
+ ● الوقت المتبقي: {2} دقائق {3} ثانية 
+ 
+ رد بـ:tada: لإدخال في هدية الترويجية!</value>
+  </data>
+  <data name="games_giveaway_seconds" xml:space="preserve">
+    <value>** المعلومات: ** 
+ ● الجائزة: `{0}` 
+ ● كمية الفائزين: {1} 
+ ● الوقت المتبقي: {2} ثانية 
+ 
+ رد بـ:tada: للدخول في هدية الترويجية!</value>
+  </data>
+  <data name="games_giveaway_winner" xml:space="preserve">
+    <value>***مبروك!***{0}, لقد فزت بالجائزة:`{1}`!</value>
+  </data>
+  <data name="games_giveaway_winner_none" xml:space="preserve">
+    <value>لا يوجد رابحون اليوم :(</value>
+  </data>
+  <data name="games_giveaway_winner_limit" xml:space="preserve">
+    <value>يجب أن يكون عدد الفائزين 1 على الأقل ولا يزيد عن 15.</value>
+  </data>
+  <data name="afk" xml:space="preserve">
+    <value>{0} حاليًا AFK ، السبب: `{1}`</value>
+  </data>
+  <data name="afk_not_active_1" xml:space="preserve">
+    <value>أنت لست حاليًا AFK.</value>
+  </data>
+  <data name="afk_not_active_2" xml:space="preserve">
+    <value>هذا المستخدم ليس AFK حاليًا.</value>
+  </data>
+  <data name="afk_active" xml:space="preserve">
+    <value>أنت حاليًا AFK مع الرسالة: `{0}`</value>
+  </data>
+  <data name="afk_limit" xml:space="preserve">
+    <value>يجب أن تكون رسائل AFK أقل من 100 حرف.</value>
+  </data>
+  <data name="afk_failed" xml:space="preserve">
+    <value>فشل في ضبط رسالة AFK.</value>
+  </data>
+  <data name="afk_set" xml:space="preserve">
+    <value>لقد تم ضبطك بنجاح على AFK مع الرسالة: `{0}`</value>
+  </data>
+  <data name="afk_removed_1" xml:space="preserve">
+    <value>تمت ازالتك بنجاح من AFK.</value>
+  </data>
+  <data name="afk_removed_2" xml:space="preserve">
+    <value>تمت إزالته {0} من AFK بنجاح.</value>
+  </data>
+  <data name="afk_updated" xml:space="preserve">
+    <value>تم تحديث رسالة AFK بنجاح إلى: `{0}`</value>
+  </data>
+  <data name="afk_permission" xml:space="preserve">
+    <value>يجب أن يكون لديك إذن ManageServer أو Administrator permission لإزالة حالة AFK لمستخدم آخر.</value>
+  </data>
+  <data name="mod_kick_self" xml:space="preserve">
+    <value>لا يمكنك ترد نفسك!</value>
+  </data>
+  <data name="mod_kick_self_bot" xml:space="preserve">
+    <value>لا أستطيع ترد نفسي!</value>
+  </data>
+  <data name="mod_kick_success" xml:space="preserve">
+    <value>{0}#{1} تم ترد بنجاح.</value>
+  </data>
+  <data name="mod_kick_dm" xml:space="preserve">
+    <value>لقد تم تردك من `{0}` بواسطة `{1}` على: `{2}`</value>
+  </data>
+  <data name="mod_unban_success" xml:space="preserve">
+    <value>{0}#{1} تم إلغاء حظره بنجاح.</value>
+  </data>
+  <data name="mod_ban_self" xml:space="preserve">
+    <value>لا يمكنك حظر نفسك!</value>
+  </data>
+  <data name="mod_ban_self_bot" xml:space="preserve">
+    <value>لا يمكنيني حظر نفسي!</value>
+  </data>
+  <data name="mod_ban_success" xml:space="preserve">
+    <value>{0}#{1} تم حظر بنجاح.</value>
+  </data>
+  <data name="mod_ban_dm" xml:space="preserve">
+    <value>لقد تم حظرك من `{0}` بواسطة `{1}` على: `{2}`</value>
+  </data>
+  <data name="mod_ban_soft_self" xml:space="preserve">
+    <value>لا يمكنك لينة حظر نفسك!</value>
+  </data>
+  <data name="mod_ban_soft_self_bot" xml:space="preserve">
+    <value>لا استطيع لينة حظر نفسي!</value>
+  </data>
+  <data name="mod_ban_soft_success" xml:space="preserve">
+    <value>{0}#{1} تم حظره بشكل لينة. (يمكنهم الآن الانضمام مرة أخرى)</value>
+  </data>
+  <data name="mod_ban_soft_dm" xml:space="preserve">
+    <value>لقد تم لينة تحظيرك من استخدام `{0} `بواسطة` {1} `على:` {2} `(يمكنك الانضمام)</value>
+  </data>
+  <data name="mod_mute_self" xml:space="preserve">
+    <value>لا يمكنك كتم نفسك!</value>
+  </data>
+  <data name="mod_mute_self_bot" xml:space="preserve">
+    <value>لا أستطيع كتم نفسي!</value>
+  </data>
+  <data name="mod_mute_success" xml:space="preserve">
+    <value>{0}#{1} تم كتم بنجاح.</value>
+  </data>
+  <data name="mod_mute_dm" xml:space="preserve">
+    <value>تم كتم في `{0}` بواسطة `{1}` على: `{2}`</value>
+  </data>
+  <data name="mod_unmute_self_bot" xml:space="preserve">
+    <value>لا أستطيع الغاء كتم نفسي!</value>
+  </data>
+  <data name="mod_unmute_success" xml:space="preserve">
+    <value>{0}#{1} تم إلغاء كتمه بنجاح.</value>
+  </data>
+  <data name="mod_warn_reason" xml:space="preserve">
+    <value>يجب عليك إدخال سبب!</value>
+  </data>
+  <data name="mod_warn_self" xml:space="preserve">
+    <value>لا يمكنك تحذير نفسك!</value>
+  </data>
+  <data name="mod_warn_self_bot" xml:space="preserve">
+    <value>لا أستطيع تحذير نفسي!</value>
+  </data>
+  <data name="mod_warn_success" xml:space="preserve">
+    <value>{0}#{1} تم تحذيره بنجاح من: `{2}`. 
+ ** مجموع التحذيرات: ** {3}</value>
+  </data>
+  <data name="mod_warn_dm" xml:space="preserve">
+    <value>تم تحذيرك في `{0}`بواسطة `{1}`على:`{2}`</value>
+  </data>
+  <data name="mod_unwarn_self" xml:space="preserve">
+    <value>لا يمكنك أن الغاء تحذر نفسك!</value>
+  </data>
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
+    <value>لا أستطيع أن الغاء أحذر نفسي!</value>
+  </data>
+  <data name="mod_unwarn_success" xml:space="preserve">
+    <value>تمت إزالة التحذير بنجاح من: `{0}#{1}`</value>
+  </data>
+  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <value>ليس لدى المستخدم أي تحذيرات لإزالتها.</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
+    <value>معرف التحذير ID المقدم غير صالح.</value>
+  </data>
+  <data name="mod_clearwarnings_success" xml:space="preserve">
+    <value>تم مسح جميع التحذيرات من `{0}#{1}` بنجاح</value>
+  </data>
+  <data name="mod_purge_amount" xml:space="preserve">
+    <value>يجب عليك إدخال كمية الرسائل لحدف!</value>
+  </data>
+  <data name="mod_purge_amount_max" xml:space="preserve">
+    <value>يمكنك فقط حذف ما يصل إلى 100 رسالة في وقت واحد!</value>
+  </data>
+  <data name="mod_purge_none_1" xml:space="preserve">
+    <value>لا شيء لحذفه!</value>
+  </data>
+  <data name="mod_purge_none_2" xml:space="preserve">
+    <value>لم يتم العثور على أيه رسائل تفي بمعايير معينه.</value>
+  </data>
+  <data name="mod_purge_success" xml:space="preserve">
+    <value>**{0} حذف الرسائل بواسطة {1} in &lt;#{2}&gt;**</value>
+  </data>
+  <data name="mod_purge_disabled" xml:space="preserve">
+    <value>** حذف متقدم معطّل حاليًا بسبب مشاكل. **</value>
+  </data>
+  <data name="mod_purge_url" xml:space="preserve">
+    <value>الرسائل المحذوفة:</value>
+  </data>
+  <data name="mod_dehoist_start" xml:space="preserve">
+    <value>&lt;:CB_Check:437024001596981248&gt; إزالة رافعات الألقاب ، قد يستغرق ذلك بعض الوقت. 
+ ملاحظة: سيتم إرسال رسالة عند الانتهاء.</value>
+  </data>
+  <data name="mod_dehoist_success" xml:space="preserve">
+    <value>نجح في إزالة أعضاء `{0}`.</value>
+  </data>
+  <data name="mod_unnick_start" xml:space="preserve">
+    <value>&lt;:CB_Check:437024001596981248&gt; إزالة رافعات الألقاب ، قد يستغرق ذلك بعض الوقت. 
+ ملاحظة: سيتم إرسال رسالة عند الانتهاء.</value>
+  </data>
+  <data name="mod_unnick_success" xml:space="preserve">
+    <value>تمت إزالة الأسماء من أعضاء `{0}` بنجاح.</value>
+  </data>
+  <data name="mod_slowmode_success" xml:space="preserve">
+    <value>بطيء الوضع للقناة: `{0}` تم تحديثه إلى `{1} س {2} د {3} ث`.</value>
+  </data>
+  <data name="time_error_invalid" xml:space="preserve">
+    <value>يرجى إدخال وقت صحيح.</value>
+  </data>
+  <data name="time_error_invalid_6h" xml:space="preserve">
+    <value>(أقل من 6 ساعات)</value>
+  </data>
+  <data name="time_error_large" xml:space="preserve">
+    <value>الوقت المتاح كبير جدا.</value>
+  </data>
+  <data name="time_error_negative" xml:space="preserve">
+    <value>الوقت لا يمكن أن يكون سلبيا أو أقل من الصفر.</value>
+  </data>
+  <data name="info_about_description" xml:space="preserve">
+    <value>** حول: ** ```روبوت متقدم وقابل للتخصيص تم تصميمه للتنافس مباشرة مع Dyno و Rythm. تم تصميم Cakey Bot للجمع بين إمكانيات الموسيقى القوية مع العديد من ميزات الأدوات. يجمع Cakey Bot بين الميزات التي تتطلب عادة روبوتات متعددة في روبوت واحد. جعل إدارة النقابة أكثر بساطة وأسرع. ``` 
+</value>
+  </data>
+  <data name="info_about_vote" xml:space="preserve">
+    <value>:star: حب كيكى بوت؟ حسنًا ، أظهر دعمك والتصويت على: 
+</value>
+  </data>
+  <data name="info_ping" xml:space="preserve">
+    <value>نبضات - شظية #{0}: {1} مللي ثانية</value>
+  </data>
+  <data name="info_ping_avg" xml:space="preserve">
+    <value>نبضات متوسط:</value>
+  </data>
+  <data name="info_created_date" xml:space="preserve">
+    <value>تم إنشاؤه في {0}. لقد مضى {1} يومًا!</value>
+  </data>
+  <data name="info_joined_date" xml:space="preserve">
+    <value>انضم إلى Discord في {0}. هذا هو {1} أيام!</value>
+  </data>
+  <data name="info_boosters_extra" xml:space="preserve">
+    <value>+{0} المزيد من المستخدمين.</value>
+  </data>
+  <data name="info_boosters_error" xml:space="preserve">
+    <value>لم يتم العثور على التعزيز.</value>
+  </data>
+  <data name="info_string_1" xml:space="preserve">
+    <value>مجموع الأعضاء</value>
+  </data>
+  <data name="info_string_2" xml:space="preserve">
+    <value>البشر</value>
+  </data>
+  <data name="info_string_3" xml:space="preserve">
+    <value>بوت</value>
+  </data>
+  <data name="info_string_4" xml:space="preserve">
+    <value>اونلاين</value>
+  </data>
+  <data name="info_string_5" xml:space="preserve">
+    <value>غير متصل</value>
+  </data>
+  <data name="info_string_6" xml:space="preserve">
+    <value>محظور</value>
+  </data>
+  <data name="info_string_7" xml:space="preserve">
+    <value>مالك</value>
+  </data>
+  <data name="info_string_8" xml:space="preserve">
+    <value>أعضاء</value>
+  </data>
+  <data name="info_string_9" xml:space="preserve">
+    <value>منطقة</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
+    <value>الأدوار</value>
+  </data>
+  <data name="info_string_11" xml:space="preserve">
+    <value>قنوات</value>
+  </data>
+  <data name="info_string_12" xml:space="preserve">
+    <value>التصنيفات</value>
+  </data>
+  <data name="info_string_13" xml:space="preserve">
+    <value>قناة AFK</value>
+  </data>
+  <data name="info_string_14" xml:space="preserve">
+    <value>لا قناة AFK</value>
+  </data>
+  <data name="info_string_15" xml:space="preserve">
+    <value>مجموع رموز تعبيرية</value>
+  </data>
+  <data name="info_string_16" xml:space="preserve">
+    <value>قائمة الدور</value>
+  </data>
+  <data name="info_string_17" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="info_string_18" xml:space="preserve">
+    <value>مميزات VIP</value>
+  </data>
+  <data name="info_string_19" xml:space="preserve">
+    <value>الصورة الرمزية لـ {0}</value>
+  </data>
+  <data name="info_string_20" xml:space="preserve">
+    <value>{0} معلومات المستخدم</value>
+  </data>
+  <data name="info_string_21" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="info_string_22" xml:space="preserve">
+    <value>نشاط</value>
+  </data>
+  <data name="info_string_23" xml:space="preserve">
+    <value>الإسم المستعار</value>
+  </data>
+  <data name="info_string_24" xml:space="preserve">
+    <value>مميز</value>
+  </data>
+  <data name="info_string_25" xml:space="preserve">
+    <value>الصورة الشخصية</value>
+  </data>
+  <data name="info_string_26" xml:space="preserve">
+    <value>انضم إلى النقابة</value>
+  </data>
+  <data name="info_string_27" xml:space="preserve">
+    <value>بوت</value>
+  </data>
+  <data name="info_string_28" xml:space="preserve">
+    <value>إنسان</value>
+  </data>
+  <data name="info_string_29" xml:space="preserve">
+    <value>بوت أو الإنسان؟</value>
+  </data>
+  <data name="info_string_30" xml:space="preserve">
+    <value>تسريع؟</value>
+  </data>
+  <data name="info_string_31" xml:space="preserve">
+    <value>هل تم كتم ؟</value>
+  </data>
+  <data name="info_string_32" xml:space="preserve">
+    <value>هو وصمت؟</value>
+  </data>
+  <data name="info_string_33" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="info_string_34" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="info_string_35" xml:space="preserve">
+    <value>شكر وتقدير</value>
+  </data>
+  <data name="info_string_36" xml:space="preserve">
+    <value>الداعي</value>
+  </data>
+  <data name="info_string_37" xml:space="preserve">
+    <value>قناة</value>
+  </data>
+  <data name="info_string_38" xml:space="preserve">
+    <value>عد الأعضاء</value>
+  </data>
+  <data name="info_string_39" xml:space="preserve">
+    <value>يستخدم</value>
+  </data>
+  <data name="info_string_40" xml:space="preserve">
+    <value>وقت الإنشاء</value>
+  </data>
+  <data name="info_string_41" xml:space="preserve">
+    <value>هو مؤقت؟</value>
+  </data>
+  <data name="info_string_42" xml:space="preserve">
+    <value>ماكس العمر</value>
+  </data>
+  <data name="info_string_43" xml:space="preserve">
+    <value>لا تنتهي أبدا</value>
+  </data>
+  <data name="info_string_44" xml:space="preserve">
+    <value>مجموع القنوات</value>
+  </data>
+  <data name="info_string_45" xml:space="preserve">
+    <value>مجموع رموز تعبيرية</value>
+  </data>
+  <data name="info_string_46" xml:space="preserve">
+    <value>مطلوب بواسطة {0}#{1}</value>
+  </data>
+  <data name="info_string_47" xml:space="preserve">
+    <value>قائمة الحظر:</value>
+  </data>
+  <data name="info_string_48" xml:space="preserve">
+    <value>لا يوجد إذن</value>
+  </data>
+  <data name="info_string_49" xml:space="preserve">
+    <value>الانضمام الموقع</value>
+  </data>
+  <data name="info_string_50" xml:space="preserve">
+    <value>مجموع الأدوار</value>
+  </data>
+  <data name="info_string_51" xml:space="preserve">
+    <value>تحذيرات</value>
+  </data>
+  <data name="info_string_52" xml:space="preserve">
+    <value>{0} تحذير {1} في {2} النقابة {3}.</value>
+  </data>
+  <data name="info_string_53" xml:space="preserve">
+    <value>معلومات عن جهة الاتصال:</value>
+  </data>
+  <data name="info_string_54" xml:space="preserve">
+    <value>المساهمون:</value>
+  </data>
+  <data name="info_string_55" xml:space="preserve">
+    <value>{0} / {1} ({2} فتحات باقي)</value>
+  </data>
+  <data name="info_string_56" xml:space="preserve">
+    <value>اسم المستخدم:</value>
+  </data>
+  <data name="info_string_57" xml:space="preserve">
+    <value>السبب:</value>
+  </data>
+  <data name="info_string_58" xml:space="preserve">
+    <value>بدون سبب</value>
+  </data>
+  <data name="info_string_59" xml:space="preserve">
+    <value>المُشرف:</value>
+  </data>
+  <data name="info_string_60" xml:space="preserve">
+    <value>تم تحذير المستخدم:</value>
+  </data>
+  <data name="info_string_61" xml:space="preserve">
+    <value>تحذير الإجمالي:</value>
+  </data>
+  <data name="info_string_62" xml:space="preserve">
+    <value>انقرني</value>
+  </data>
+  <data name="info_string_63" xml:space="preserve">
+    <value>انقر هنا لمزيد من المعلومات</value>
+  </data>
+  <data name="info_string_64" xml:space="preserve">
+    <value>النوع:</value>
+  </data>
+  <data name="info_string_65" xml:space="preserve">
+    <value>الوقت:</value>
+  </data>
+  <data name="info_string_66" xml:space="preserve">
+    <value>إجمالي الإنذارات:</value>
+  </data>
+  <data name="info_string_67" xml:space="preserve">
+    <value>غير معروف</value>
+  </data>
+  <data name="info_string_68" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="weather_coordinates" xml:space="preserve">
+    <value>إحداثيات</value>
+  </data>
+  <data name="weather_weather" xml:space="preserve">
+    <value>الطقس</value>
+  </data>
+  <data name="weather_description" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="weather_country" xml:space="preserve">
+    <value>البلد</value>
+  </data>
+  <data name="weather_clouds" xml:space="preserve">
+    <value>الغيوم</value>
+  </data>
+  <data name="weather_wind_speed" xml:space="preserve">
+    <value>سرعة الرياح</value>
+  </data>
+  <data name="weather_wind_direction" xml:space="preserve">
+    <value>اتجاه الرياح</value>
+  </data>
+  <data name="weather_sun_rise" xml:space="preserve">
+    <value>شروق الشمس</value>
+  </data>
+  <data name="weather_sun_set" xml:space="preserve">
+    <value>غروب الشمس</value>
+  </data>
+  <data name="emoji_string_id" xml:space="preserve">
+    <value>رقم تسجيل</value>
+  </data>
+  <data name="emoji_string_name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="emoji_string_uploaded" xml:space="preserve">
+    <value>تحميل بواسطة:</value>
+  </data>
+  <data name="emoji_string_animated" xml:space="preserve">
+    <value>الرسوم المتحركة ؟</value>
+  </data>
+  <data name="emoji_string_url" xml:space="preserve">
+    <value>العنوان الشبكي:</value>
+  </data>
+  <data name="emoji_missing_id" xml:space="preserve">
+    <value>الرجاء إدخال معرف الرموز التعبيرية.</value>
+  </data>
+  <data name="emoji_invalid_name" xml:space="preserve">
+    <value>الرجاء إدخال إسم صحيح.</value>
+  </data>
+  <data name="emoji_success" xml:space="preserve">
+    <value>تحديث بنجاح اسم رمز تعبيري ل: `{0}`</value>
+  </data>
+  <data name="roleinfo" xml:space="preserve">
+    <value>{0} معلومات الدور</value>
+  </data>
+  <data name="roleinfo_color" xml:space="preserve">
+    <value>لون</value>
+  </data>
+  <data name="roleinfo_created_at" xml:space="preserve">
+    <value>أنشئت في</value>
+  </data>
+  <data name="roleinfo_position" xml:space="preserve">
+    <value>الموقع</value>
+  </data>
+  <data name="roleinfo_ishoisted" xml:space="preserve">
+    <value>هو يرفع؟</value>
+  </data>
+  <data name="roleinfo_ismanaged" xml:space="preserve">
+    <value>يدار؟</value>
+  </data>
+  <data name="roleinfo_ismentionable" xml:space="preserve">
+    <value>هل يذكر؟</value>
+  </data>
+  <data name="roleinfo_members" xml:space="preserve">
+    <value>الأعضاء [{0}]</value>
+  </data>
+  <data name="misc_convert_result" xml:space="preserve">
+    <value>نتيجة:</value>
+  </data>
+  <data name="misc_convert_rate" xml:space="preserve">
+    <value>سعر الصرف:</value>
+  </data>
+  <data name="misc_fact" xml:space="preserve">
+    <value>حقيقة عشوائي:</value>
+  </data>
+  <data name="misc_pizza" xml:space="preserve">
+    <value>هنا حيث تذهب: {0}</value>
+  </data>
+  <data name="misc_reminder_error_1" xml:space="preserve">
+    <value>يجب عليك إدخال سلسلة لتذكير نفسك بها.</value>
+  </data>
+  <data name="misc_reminder_error_2" xml:space="preserve">
+    <value>يجب ألا يزيد عدد التذكيرات عن 200 حرف.</value>
+  </data>
+  <data name="misc_reminder_error_3" xml:space="preserve">
+    <value>يجب أن تكون التذكيرات على بعد أقل من شهر واحد من الآن.</value>
+  </data>
+  <data name="misc_reminder_success" xml:space="preserve">
+    <value>تم بنجاح تعيين تذكير لـ `{0}` خلال {1} س {2} د {3} ث.</value>
+  </data>
+  <data name="misc_reminder_remind" xml:space="preserve">
+    <value>تم بنجاح تعيين تذكير لـ `{0}` خلال {1} س {2} د {3} ث.</value>
+  </data>
+  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <value>يجب أن تكون في قناة صوتية.</value>
+  </data>
+  <data name="music_error_voice_channel_2" xml:space="preserve">
+    <value>لا أستطيع الانضمام إلى تلك القناة الصوتية.</value>
+  </data>
+  <data name="music_error_voice_channel_3" xml:space="preserve">
+    <value>لا أستطيع التحدث في تلك القناة الصوتية.</value>
+  </data>
+  <data name="music_error_voice_channel_4" xml:space="preserve">
+    <value>أنا بالفعل في هذه القناة.</value>
+  </data>
+  <data name="music_error_voice_channel_5" xml:space="preserve">
+    <value>يجب أن أكون في قناة صوتية. استخدم `join!` لاستدعائي.</value>
+  </data>
+  <data name="music_error_voice_channel_6" xml:space="preserve">
+    <value>يجب أن تكون في نفس القناة مثل الروبوت. حاول استخدام `join!` أو` move!`</value>
+  </data>
+  <data name="music_error_player" xml:space="preserve">
+    <value>المشغل غير موجود ، يرجى كتابة `join!` مرة أخرى.</value>
+  </data>
+  <data name="music_error_play" xml:space="preserve">
+    <value>خطأ أثناء تحميل المسار: ```{0}```</value>
+  </data>
+  <data name="music_join" xml:space="preserve">
+    <value>لقد انضممت إلى: `{0}`.</value>
+  </data>
+  <data name="music_disconnect" xml:space="preserve">
+    <value>تم قطع الاتصال بنجاح!</value>
+  </data>
+  <data name="music_disconnect_error_1" xml:space="preserve">
+    <value>لا يمكنك فصل Cakey Bot في هذه النقابة.</value>
+  </data>
+  <data name="music_disconnect_error_2" xml:space="preserve">
+    <value>يجب أن تكون المستخدم الوحيد في القناة الصوتية أو يجب أن يكون لديك أذونات Mod permissions لفصل Cakey Bot إذا تم تشغيل أغنية.</value>
+  </data>
+  <data name="music_move" xml:space="preserve">
+    <value>تم النقل من `{0}` إلى `{1}`.</value>
+  </data>
+  <data name="music_move_error" xml:space="preserve">
+    <value>لا يمكنك نقل Cakey Bot من قناة أثناء تشغيل أغنية.</value>
+  </data>
+  <data name="music_jump" xml:space="preserve">
+    <value>قفز بنجاح ل:
+[{0}] ({1}) _{2}/{3}_</value>
+  </data>
+  <data name="music_duplicates" xml:space="preserve">
+    <value>تمت إزالة المسارات المكررة بنجاح من قائمة الانتظار. قائمة انتظار جديدة: {0}
+</value>
+  </data>
+  <data name="music_cleanup" xml:space="preserve">
+    <value>تنظيفها بنجاح في قائمة الانتظار. قائمة انتظار جديدة: {0}
+</value>
+  </data>
+  <data name="music_shuffle" xml:space="preserve">
+    <value>تعديل قائمه الانتظار بنجاح.</value>
+  </data>
+  <data name="music_loop" xml:space="preserve">
+    <value>تم ضبط حالة حلقة الأغنية على: `{0}`.</value>
+  </data>
+  <data name="music_looping" xml:space="preserve">
+    <value>حلقات</value>
+  </data>
+  <data name="music_looping_disabled" xml:space="preserve">
+    <value>لا حلقات</value>
+  </data>
+  <data name="music_bb" xml:space="preserve">
+    <value>تم تعيين حالة تعزيز صوت الجهير على: `{0}`.</value>
+  </data>
+  <data name="music_boosted" xml:space="preserve">
+    <value>عزز</value>
+  </data>
+  <data name="music_boosted_disabled" xml:space="preserve">
+    <value>لم تعزز</value>
+  </data>
+  <data name="music_remove" xml:space="preserve">
+    <value>إزالة بنجاح `{0}` - `{1}` من قائمة الانتظار.</value>
+  </data>
+  <data name="music_restart_1" xml:space="preserve">
+    <value>يجب ان يكون تشغيل الاغنيه لأعاده التشغيل.</value>
+  </data>
+  <data name="music_restart_2" xml:space="preserve">
+    <value>لقد قمت باعاده تشغيل الاغنيه في البداية.</value>
+  </data>
+  <data name="music_seek_1" xml:space="preserve">
+    <value>يجب ان يتم تشغيل أغنيه لتعديل موقفها.</value>
+  </data>
+  <data name="music_seek_3" xml:space="preserve">
+    <value>لقد سعيت إلى ذلك الوقت: `{0}`</value>
+  </data>
+  <data name="music_ff_1" xml:space="preserve">
+    <value>يجب ان تعزف الاغنيه للامام بسرعة.</value>
+  </data>
+  <data name="music_ff_2" xml:space="preserve">
+    <value>لقد أرسلت بسرعة إلى: `{0}` ({1} قدما)</value>
+  </data>
+  <data name="music_rewind_1" xml:space="preserve">
+    <value>يجب ان يتم تشغيل أغنيه لترجيع.</value>
+  </data>
+  <data name="music_rewind_2" xml:space="preserve">
+    <value>لقد rewinded ل: `{0}` ({1} وراء)</value>
+  </data>
+  <data name="music_pause_1" xml:space="preserve">
+    <value>يجب ان يتم تشغيل الاغنيه لإيقافها مؤقتا.</value>
+  </data>
+  <data name="music_pause_2" xml:space="preserve">
+    <value>تم إيقاف الاغنيه بالفعل. يمكنك استئناف مع `resume!`</value>
+  </data>
+  <data name="music_pause_3" xml:space="preserve">
+    <value>تم إيقاف الاغنيه بنجاح.</value>
+  </data>
+  <data name="music_resume_1" xml:space="preserve">
+    <value>استانفت الاغنيه بنجاح.</value>
+  </data>
+  <data name="music_resume_2" xml:space="preserve">
+    <value>لم يتم إيقاف الاغنيه مؤقتا. يمكنك وقفه الاغنيه مع `pause!`</value>
+  </data>
+  <data name="music_lyrics_1" xml:space="preserve">
+    <value>يجب عليك كتابة اسم أغنية للبحث عنها. (أو لديك أغنية قيد التشغيل حاليًا)</value>
+  </data>
+  <data name="music_lyrics_2" xml:space="preserve">
+    <value>كلمات {0}: 
+
+ {1}</value>
+  </data>
+  <data name="music_lyrics_3" xml:space="preserve">
+    <value>لم يتم العثور علي كلمات.</value>
+  </data>
+  <data name="music_volume_1" xml:space="preserve">
+    <value>يجب تشغيل أغنية لتعديل حجم الصوت.</value>
+  </data>
+  <data name="music_volume_2" xml:space="preserve">
+    <value>يجب ان يكون حجم الصوت بين 0 و 100.</value>
+  </data>
+  <data name="music_volume_3" xml:space="preserve">
+    <value>تم ضبط مستوى الصوت بنجاح على: `{0}`</value>
+  </data>
+  <data name="music_volume_4" xml:space="preserve">
+    <value>الحجم الحالي: `{0}`</value>
+  </data>
+  <data name="music_skip_1" xml:space="preserve">
+    <value>`{0}` تم تخطي.</value>
+  </data>
+  <data name="music_skip_2" xml:space="preserve">
+    <value>`{0}` تم تخطي.
+&lt;: CB_NowPlaying: 586387464743157770&gt; التشغيل الأن: `{1}`</value>
+  </data>
+  <data name="music_skip_3" xml:space="preserve">
+    <value>لا توجد أغنيه قيد التشغيل حاليا.</value>
+  </data>
+  <data name="music_skip_4" xml:space="preserve">
+    <value>لا توجد أي عناصر متبقية في قائمة الانتظار.</value>
+  </data>
+  <data name="music_voteskip_1" xml:space="preserve">
+    <value>لقد صوتت بالفعل لتخطي ، {0} المزيد من الأصوات{1} مطلوب.</value>
+  </data>
+  <data name="music_voteskip_2" xml:space="preserve">
+    <value>لقد قمت بالتصويت لتخطي، {0} المزيد من الأصوات{1} المطلوبة.</value>
+  </data>
+  <data name="music_voteskip_3" xml:space="preserve">
+    <value>لقد قمت بالتصويت بالفعل للتخطي ، لقد تمت إزالته. يمكنك إعادة إضافته بكتابة `skip!` مرة أخرى. {0} المزيد من الأصوات{1} المطلوبة.</value>
+  </data>
+  <data name="music_voteskip_4" xml:space="preserve">
+    <value>والتصويت في {0}/{1}.</value>
+  </data>
+  <data name="music_url" xml:space="preserve">
+    <value>يجب إدخال اسم أغنية أو رابط YouTube.</value>
+  </data>
+  <data name="music_no_results" xml:space="preserve">
+    <value>لم يتم العثور على أي نتيجة.</value>
+  </data>
+  <data name="music_invalid_track_1" xml:space="preserve">
+    <value>معرف المسار خارج النطاق الصالح. اكتب `queue!` لرؤية معرّفات المسارات الصالحة.</value>
+  </data>
+  <data name="music_invalid_track_2" xml:space="preserve">
+    <value>يجب ان يكون معرف قائمه انتظار المسار صالحا.</value>
+  </data>
+  <data name="music_limit_queue" xml:space="preserve">
+    <value>يمكن أن تحتوي قائمة الانتظار على ما يصل إلى 100 أغنية فقط ، يرجى إزالة بعضها قبل الإضافة.</value>
+  </data>
+  <data name="music_limit_playlist" xml:space="preserve">
+    <value>يمكن أن تحتوي قوائم التشغيل على ما يصل إلى 50 أغنية فقط ، يرجى اختيار قائمة تشغيل أصغر.</value>
+  </data>
+  <data name="music_add_1" xml:space="preserve">
+    <value>أضاف`{0}` الأغاني إلى قائمه الانتظار.</value>
+  </data>
+  <data name="music_add_2" xml:space="preserve">
+    <value>`{0}` تمت اضافته إلى قائمه الانتظار.</value>
+  </data>
+  <data name="music_now_playing_1" xml:space="preserve">
+    <value>الآن التشغيل: `{0}`</value>
+  </data>
+  <data name="music_volume" xml:space="preserve">
+    <value>الصوت: `{0}`</value>
+  </data>
+  <data name="music_livestream" xml:space="preserve">
+    <value>تم تعطيل الأمر اثناء تشغيل البث مباشر.</value>
+  </data>
+  <data name="music_playlist_list" xml:space="preserve">
+    <value>وجدت {0} العازفين:
+```{1}```</value>
+  </data>
+  <data name="music_playlist_success_save" xml:space="preserve">
+    <value>تم الحفظ بنجاح {0} الأغاني الخاصة بك `{1}`تشغيل.</value>
+  </data>
+  <data name="music_playlist_success_load" xml:space="preserve">
+    <value>تم تحميله بنجاح {0} الأغاني من الخاص `{1}`تشغيل.</value>
+  </data>
+  <data name="music_playlist_success_delete" xml:space="preserve">
+    <value>حذف بنجاح الخاص بك `{0}`تشغيل.</value>
+  </data>
+  <data name="music_locate" xml:space="preserve">
+    <value> يلعب Cakey Bot حاليًا موسيقى في `{0}`.</value>
+  </data>
+  <data name="music_cancel_1" xml:space="preserve">
+    <value>تم إلغاء البحث بنجاح.</value>
+  </data>
+  <data name="music_cancel_2" xml:space="preserve">
+    <value>اكتب الرقم لتحديد أغنية أو `cancel` / `none` لإلغاء التحديد.</value>
+  </data>
+  <data name="music_string_1" xml:space="preserve">
+    <value>موقف قائمة الانتظار:</value>
+  </data>
+  <data name="music_string_2" xml:space="preserve">
+    <value>Est. الوقت حتى التشغيل:</value>
+  </data>
+  <data name="music_string_3" xml:space="preserve">
+    <value>لا توجد مسارات في قائمه الانتظار.</value>
+  </data>
+  <data name="music_string_4" xml:space="preserve">
+    <value>+{0} المزيد من الأغاني.</value>
+  </data>
+  <data name="music_string_5" xml:space="preserve">
+    <value>يجب عليك إدخال قيمة الوقت.</value>
+  </data>
+  <data name="music_string_6" xml:space="preserve">
+    <value>وقت غير صالح.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
+    <value>الوقت خارج عن طول الفيديو ، أعد المحاولة.</value>
+  </data>
+  <data name="music_string_8" xml:space="preserve">
+    <value>يجب أن يتم تشغيل أغنية حاليًا لاستخدام هذا الأمر ، جرِّب `play!` بدلاً من ذلك.</value>
+  </data>
+  <data name="music_string_9" xml:space="preserve">
+    <value>لا يوجد مسار اللعب الآن.</value>
+  </data>
+  <data name="music_string_10" xml:space="preserve">
+    <value>مؤلف</value>
+  </data>
+  <data name="music_string_11" xml:space="preserve">
+    <value>الموقع</value>
+  </data>
+  <data name="music_string_12" xml:space="preserve">
+    <value>مستوى الصوت</value>
+  </data>
+  <data name="music_string_13" xml:space="preserve">
+    <value>مصدر</value>
+  </data>
+  <data name="music_string_14" xml:space="preserve">
+    <value>توقف؟</value>
+  </data>
+  <data name="music_string_15" xml:space="preserve">
+    <value>البث المباشر؟</value>
+  </data>
+  <data name="music_string_16" xml:space="preserve">
+    <value>التصويت ليتخطى</value>
+  </data>
+  <data name="music_string_17" xml:space="preserve">
+    <value>قائمه انتظار:</value>
+  </data>
+  <data name="music_string_18" xml:space="preserve">
+    <value>الان التشغيل:</value>
+  </data>
+  <data name="music_string_19" xml:space="preserve">
+    <value>مطلوب من</value>
+  </data>
+  <data name="music_string_20" xml:space="preserve">
+    <value>حلقات؟</value>
+  </data>
+  <data name="music_string_21" xml:space="preserve">
+    <value>تحسين معزز؟</value>
+  </data>
+  <data name="music_unknown_author" xml:space="preserve">
+    <value>مؤلف مجهول</value>
+  </data>
+  <data name="music_unknown_title" xml:space="preserve">
+    <value>عنوان غير معروف</value>
+  </data>
+  <data name="music_embed_success_1" xml:space="preserve">
+    <value>تم إنشاء قناة طلب الأغنية (;lt;#{0}&amp;gt&amp;) يمكنك إعادة تسمية القناة أو نقلها إذا أردت. n\</value>
+  </data>
+  <data name="music_embed_success_2" xml:space="preserve">
+    <value>يرجى عدم حذف أي رسائل في قناة طلب الأغنية. إذا قمت بذلك ، ستحتاج إلى تشغيل الإعداد مرة أخرى.</value>
+  </data>
+  <data name="music_embed_queue_1" xml:space="preserve">
+    <value>انضم إلى قناة صوتية وابحث عن أغنية بالاسم أو عنوان Url بكتابتها في هذه القناة.</value>
+  </data>
+  <data name="music_embed_queue_2" xml:space="preserve">
+    <value>المصادر المتوفوة: Youtube, Youtube Livestreams, Twitch, Bandcamp, Vimeo, Soundcloud, Vlare.tv, لينك مباشر / فايل ويب*`(MP3 &amp; MP4 Formats)`* &amp; Spotify *`(تجريبي)`*.</value>
+  </data>
+  <data name="music_embed_react_1" xml:space="preserve">
+    <value>وقف/استئناف أغنية</value>
+  </data>
+  <data name="music_embed_react_2" xml:space="preserve">
+    <value>محو قائمة الانتظار</value>
+  </data>
+  <data name="music_embed_react_3" xml:space="preserve">
+    <value>تخطي الأغنية</value>
+  </data>
+  <data name="music_embed_react_4" xml:space="preserve">
+    <value>خلط قائمة الانتظار</value>
+  </data>
+  <data name="music_embed_react_5" xml:space="preserve">
+    <value>قمت بتكرار الأغنية الحالية</value>
+  </data>
+  <data name="music_embed_react_6" xml:space="preserve">
+    <value>أعادة تشغيل الأغنية الحالية</value>
+  </data>
+  <data name="music_logger_trackend" xml:space="preserve">
+    <value>تم الانتهاء من التشغيل: `{0}`
+&lt;:CB_NowPlaying:586387464743157770&gt; الآن: `{1}`</value>
+  </data>
+  <data name="music_logger_error" xml:space="preserve">
+    <value>عُلقت المسار أثناء محاولة اللتشغيل.</value>
+  </data>
+  <data name="music_logger_disconnect" xml:space="preserve">
+    <value>غادر جميع المستخدمين القناة الصوتية ، سيتم قطع بوت في 30 ثانية.</value>
+  </data>
+  <data name="roles_persistent" xml:space="preserve">
+    <value>دور `{0}`تم بنجاح {1} {2}.</value>
+  </data>
+  <data name="roles_persistent_1" xml:space="preserve">
+    <value>أضافه إلى</value>
+  </data>
+  <data name="roles_persistent_2" xml:space="preserve">
+    <value>أزاله من</value>
+  </data>
+  <data name="gif_error_1" xml:space="preserve">
+    <value>لا يمكن العثور على أي صور متحركة. :frowning:</value>
+  </data>
+  <data name="gif_error_2" xml:space="preserve">
+    <value>لا يمكن العثور على أي صور متحركة :frowning:</value>
+  </data>
+  <data name="cmd_usage" xml:space="preserve">
+    <value>Prefix لهذا الخادم هو: `{0}`
+يمكنك تغيير بادئة في: https://cakeybot.app أو مع `{0}وضع بادئة &lt;new prefix&gt;`</value>
+  </data>
+  <data name="cmd_error_param" xml:space="preserve">
+    <value>لديه عدد غير صحيح من المعلمات.</value>
+  </data>
+  <data name="cmd_error_username" xml:space="preserve">
+    <value>يجب تقديم اسم مستخدم صالح.</value>
+  </data>
+  <data name="cmd_error_number" xml:space="preserve">
+    <value>يجب تقديم رقم صحيح.</value>
+  </data>
+  <data name="cmd_error_input" xml:space="preserve">
+    <value>يجب عليك تقديم مدخلات صالحة.</value>
+  </data>
+  <data name="cmd_error_matches" xml:space="preserve">
+    <value>تم العثور على مطابقات متعددة ، يرجى الإبلاغ في دعمنا الديسكورد: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="cmd_error_unknown_1" xml:space="preserve">
+    <value>حدث خطأ غير معروف.</value>
+  </data>
+  <data name="cmd_error_unknown_2" xml:space="preserve">
+    <value>خطأ غير معروف ، يرجى الإبلاغ في الديسكورد الخاص بالدعم: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="audit_string_1" xml:space="preserve">
+    <value>دخل المستخدم السيرفر:</value>
+  </data>
+  <data name="audit_string_2" xml:space="preserve">
+    <value>تم إنشاء الحساب في:</value>
+  </data>
+  <data name="audit_string_3" xml:space="preserve">
+    <value>خرج المستخدم:</value>
+  </data>
+  <data name="audit_string_4" xml:space="preserve">
+    <value>مثبت</value>
+  </data>
+  <data name="audit_string_5" xml:space="preserve">
+    <value>تم إلغاء تثبيت</value>
+  </data>
+  <data name="audit_string_6" xml:space="preserve">
+    <value>* * رسالة {0} في * * &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_7" xml:space="preserve">
+    <value>* * الرسالة التي تم تحريرها في * * &lt;#{0}&gt;</value>
+  </data>
+  <data name="audit_string_8" xml:space="preserve">
+    <value>قبل:</value>
+  </data>
+  <data name="audit_string_9" xml:space="preserve">
+    <value>بعد:</value>
+  </data>
+  <data name="audit_string_10" xml:space="preserve">
+    <value>رسالة:</value>
+  </data>
+  <data name="audit_string_11" xml:space="preserve">
+    <value>رابط الصورة:</value>
+  </data>
+  <data name="audit_string_12" xml:space="preserve">
+    <value>** الرسالة المرسلة بواسطة &lt;@{0}&gt; محذوفة في ** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_13" xml:space="preserve">
+    <value>**تم تغيير الاسم المستعار** &lt;@{0}&gt;</value>
+  </data>
+  <data name="audit_string_14" xml:space="preserve">
+    <value>&lt;@{0}&gt;** كان عنده ال `{1}` أزالة الدور. **</value>
+  </data>
+  <data name="audit_string_15" xml:space="preserve">
+    <value>&lt;@{0}&gt;** أعطيت `{1}` الدور. **</value>
+  </data>
+  <data name="audit_string_16" xml:space="preserve">
+    <value>عضو محظور</value>
+  </data>
+  <data name="audit_string_17" xml:space="preserve">
+    <value>عضو غير محظور</value>
+  </data>
+  <data name="audit_string_18" xml:space="preserve">
+    <value>تم إنشاء الرتبة:</value>
+  </data>
+  <data name="audit_string_19" xml:space="preserve">
+    <value>إسم الدور:</value>
+  </data>
+  <data name="audit_string_20" xml:space="preserve">
+    <value>لون الدور:</value>
+  </data>
+  <data name="audit_string_21" xml:space="preserve">
+    <value>رفعت:</value>
+  </data>
+  <data name="audit_string_22" xml:space="preserve">
+    <value>مذكور:</value>
+  </data>
+  <data name="audit_string_23" xml:space="preserve">
+    <value>الصلاحيات:</value>
+  </data>
+  <data name="audit_string_24" xml:space="preserve">
+    <value>تم تحديث الرتبة:</value>
+  </data>
+  <data name="audit_string_25" xml:space="preserve">
+    <value>رقم تسجيل الدور:</value>
+  </data>
+  <data name="audit_string_26" xml:space="preserve">
+    <value>تم حذف الرتبة:</value>
+  </data>
+  <data name="audit_string_27" xml:space="preserve">
+    <value>تم انشاء قناة جديدة:</value>
+  </data>
+  <data name="audit_string_28" xml:space="preserve">
+    <value>تم تحديث القناة:</value>
+  </data>
+  <data name="audit_string_29" xml:space="preserve">
+    <value>اسم القناة:</value>
+  </data>
+  <data name="audit_string_30" xml:space="preserve">
+    <value>الموضوع:</value>
+  </data>
+  <data name="audit_string_31" xml:space="preserve">
+    <value>هل NSFW ؟:</value>
+  </data>
+  <data name="audit_string_32" xml:space="preserve">
+    <value>وضع بطيء:</value>
+  </data>
+  <data name="audit_string_33" xml:space="preserve">
+    <value>تحت الفئة:</value>
+  </data>
+  <data name="audit_string_34" xml:space="preserve">
+    <value>تم حذف القناة:</value>
+  </data>
+  <data name="audit_string_35" xml:space="preserve">
+    <value>مستوى الطبقة:</value>
+  </data>
+  <data name="audit_string_36" xml:space="preserve">
+    <value>انتقل إلى:</value>
+  </data>
+  <data name="audit_string_37" xml:space="preserve">
+    <value>**{0} تم حذف رسالة في ** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_38" xml:space="preserve">
+    <value>تجاوزات الأذونات</value>
+  </data>
+  <data name="audit_string_39" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="util_server_name" xml:space="preserve">
+    <value>اسم الشركة:</value>
+  </data>
+  <data name="util_server_status" xml:space="preserve">
+    <value>الحالة:</value>
+  </data>
+  <data name="util_server_count" xml:space="preserve">
+    <value>عدد اللاعبين:</value>
+  </data>
+  <data name="util_server_version" xml:space="preserve">
+    <value>الإصدار:</value>
+  </data>
+  <data name="util_server_software" xml:space="preserve">
+    <value>برنامج:</value>
+  </data>
+  <data name="util_b64_result_1" xml:space="preserve">
+    <value>Base64 تشفير نتيجة الصورة: {0}</value>
+  </data>
+  <data name="util_b64_result_2" xml:space="preserve">
+    <value>Base64 ترميز النتيجة: ```{0}```</value>
+  </data>
+  <data name="util_b64_result_3" xml:space="preserve">
+    <value>Base64 في فك شفرة النتيجة: ```{0}```</value>
+  </data>
+  <data name="util_md5_result" xml:space="preserve">
+    <value>MD5 نتيجة تجزئة: ```{0}```</value>
+  </data>
+  <data name="util_sha1_result" xml:space="preserve">
+    <value>نتيجة SHA1 التجزئة: ```{0}```</value>
+  </data>
+  <data name="util_sha256_result" xml:space="preserve">
+    <value>SHA256 نتيجة تجزئة: ```{0}```</value>
+  </data>
+  <data name="util_sha512_result" xml:space="preserve">
+    <value>SHA512 نتيجة تجزئة: ```{0}```</value>
+  </data>
+  <data name="util_hash_result" xml:space="preserve">
+    <value>تجزئة النتائج:
+
+** باستخدام Base64 شفر إخراج: ** ```{0}``` ** MD5 التجزئة إخراج: ** ```{1}``` ** SHA1 تجزئة إخراج: ** `` `{2}``` ** SHA256 التجزئة إخراج: ** ```{3}``` ** SHA512 التجزئة إخراج: ** ```{4}```</value>
+  </data>
+  <data name="util_steam_level" xml:space="preserve">
+    <value>مستوى</value>
+  </data>
+  <data name="util_steam_badges" xml:space="preserve">
+    <value>شارات</value>
+  </data>
+  <data name="util_steam_games" xml:space="preserve">
+    <value>ألعاب</value>
+  </data>
+  <data name="util_steam_groups" xml:space="preserve">
+    <value>مجموعات</value>
+  </data>
+  <data name="util_steam_friends" xml:space="preserve">
+    <value>اصحاب</value>
+  </data>
+  <data name="util_steam_vac" xml:space="preserve">
+    <value>حظر التيار المتردد</value>
+  </data>
+  <data name="util_steam_hidden" xml:space="preserve">
+    <value>مخفي</value>
+  </data>
+  <data name="util_steam_realname" xml:space="preserve">
+    <value>الاسم الحقيقي:</value>
+  </data>
+  <data name="util_steam_limited" xml:space="preserve">
+    <value>الحساب محدود</value>
+  </data>
+  <data name="util_steam_info" xml:space="preserve">
+    <value>{0} معلومات البخار</value>
+  </data>
+  <data name="util_math_compute" xml:space="preserve">
+    <value>وقت الحساب: {0}ث</value>
+  </data>
+  <data name="embed_footer_id_user" xml:space="preserve">
+    <value>رمز المستخدم:</value>
+  </data>
+  <data name="embed_footer_id_guild" xml:space="preserve">
+    <value>معرف النقابة:</value>
+  </data>
+  <data name="embed_footer_id_channel" xml:space="preserve">
+    <value>معرف القناة:</value>
+  </data>
+  <data name="embed_footer_about" xml:space="preserve">
+    <value>مدعوم من Discord.Net تنفيذ فيكتوريا</value>
+  </data>
+  <data name="embed_footer_shard" xml:space="preserve">
+    <value>شارد #{0}</value>
+  </data>
+  <data name="embed_footer_music_playlist" xml:space="preserve">
+    <value>تمت إضافة قائمة التشغيل بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_added" xml:space="preserve">
+    <value>تمّ إضافتها بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_cancel" xml:space="preserve">
+    <value>تم الإلغاء بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_resume" xml:space="preserve">
+    <value>تم استئنافها بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_pause" xml:space="preserve">
+    <value>متوقفة بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_skip" xml:space="preserve">
+    <value>تخطي التصويت من {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_clean" xml:space="preserve">
+    <value>تنظيف بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_remove" xml:space="preserve">
+    <value>تمت الإزالة بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_jump" xml:space="preserve">
+    <value>الانتقال إلى الاغنيه المطلوبة من قبل {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_shuffle" xml:space="preserve">
+    <value>خلط من قبل {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_loop" xml:space="preserve">
+    <value>حلقة تبديل بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_bb" xml:space="preserve">
+    <value>تعزيز باس تبديل من قبل {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_clear" xml:space="preserve">
+    <value>تم اتنظيف بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_restart" xml:space="preserve">
+    <value>تم إعادة التشغيل بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_ff" xml:space="preserve">
+    <value>التقدم السريع المطلوب من قبل {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_rewind" xml:space="preserve">
+    <value>الترجيع المطلوب من قبل {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_set" xml:space="preserve">
+    <value>تعيين بواسطة {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_smove" xml:space="preserve">
+    <value>نقل المطلوبة من قبل {0}#{1}</value>
+  </data>
+  <data name="core_help_1" xml:space="preserve">
+    <value>‎بادئة هذه النقابة هي `{0}`
+ إذا كنت تبحث عن قائمة بأوامر بوت وكيفية عملها ، فانقر فوق رابط `Bot Commands` أدناه. إذا كنت بحاجة إلى مساعدة‎لمعرفة شيء ما ، فراجع ارتباطنا `FAQ`.</value>
+  </data>
+  <data name="core_useful_links" xml:space="preserve">
+    <value>روابط مفيدة</value>
+  </data>
+  <data name="core_bot_commands" xml:space="preserve">
+    <value>اوامر بوت</value>
+  </data>
+  <data name="core_dashboard" xml:space="preserve">
+    <value>لوحة تحكم الويب</value>
+  </data>
+  <data name="core_docs" xml:space="preserve">
+    <value>مستندات/أسئلة وأجوبة</value>
+  </data>
+  <data name="core_support_discord" xml:space="preserve">
+    <value>دعم Discord</value>
+  </data>
+  <data name="core_bot_invite" xml:space="preserve">
+    <value>دعوة بوت رابط</value>
+  </data>
+  <data name="core_donate" xml:space="preserve">
+    <value>تبرع</value>
+  </data>
+  <data name="core_error" xml:space="preserve">
+    <value>خطأ: يتطلب Cakey Bot تضمين أذونات للعمل بشكل كامل.</value>
+  </data>
+  <data name="core_cmd_search_1" xml:space="preserve">
+    <value>عفوًا، لم أتمكن من العثور على أمر مثل `{0}`.</value>
+  </data>
+  <data name="core_cmd_search_2" xml:space="preserve">
+    <value>إليك بعض الأوامر مثل `{0}`.</value>
+  </data>
+  <data name="core_cmd_info_alias" xml:space="preserve">
+    <value>اسماء مستعارة:</value>
+  </data>
+  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <value>المعلمات:</value>
+  </data>
+  <data name="core_cmd_info_usage" xml:space="preserve">
+    <value>الاستعمال:</value>
+  </data>
+  <data name="core_cmd_info_module" xml:space="preserve">
+    <value>وحدة:</value>
+  </data>
+  <data name="core_cmd_missing" xml:space="preserve">
+    <value>يجب عليك توفير أمر تريد لعرض مساعدة له.</value>
+  </data>
+  <data name="core_setting_usage" xml:space="preserve">
+    <value>استخدم إعداد الأمر `{0}lt;option&gt;l&amp;` لعرض مزيد من المعلومات حول هذا الخيار.</value>
+  </data>
+  <data name="core_setting_usage_prefix" xml:space="preserve">
+    <value>`{0} بادئة الإعداد [بادئة جديدة]`</value>
+  </data>
+  <data name="core_setting_usage_announce" xml:space="preserve">
+    <value>‎إستعمال: `{0}setting announcements [join | leave | ban] [Message]`</value>
+  </data>
+  <data name="core_setting_usage_mute" xml:space="preserve">
+    <value>`{0}الإعداد muterole [دور جديد]`</value>
+  </data>
+  <data name="core_setting_usage_autorole" xml:space="preserve">
+    <value>`{0} إعداد autorole [دور جديد]`</value>
+  </data>
+  <data name="core_setting_usage_log" xml:space="preserve">
+    <value>`{0} سجل الإعداد [قناة جديدة]`</value>
+  </data>
+  <data name="core_setting_usage_modules" xml:space="preserve">
+    <value>`{0} وحدات إعداد [اسم الوحدة النمطية]`</value>
+  </data>
+  <data name="core_setting_description_prefix" xml:space="preserve">
+    <value>يغير prefix التي يستجيب لها Cakey Bot.</value>
+  </data>
+  <data name="core_setting_description_announce" xml:space="preserve">
+    <value>يغير القناة التي تنشر بها Cakey Bot الإعلانات والرسائل. 
+ يمكنك استخدام المتغيرات في `{0} المتغيرات` لتخصيص رسالتك!</value>
+  </data>
+  <data name="core_setting_description_mute" xml:space="preserve">
+    <value>يغير الدور الذي يعطيه Cakey Bot للمستخدمين الصامتين.</value>
+  </data>
+  <data name="core_setting_description_autorole" xml:space="preserve">
+    <value>يغير الدور الذي يتعطي Cakey Bot للمستخدمين الجدد عند الانضمام.</value>
+  </data>
+  <data name="core_setting_description_log" xml:space="preserve">
+    <value>يغير القناة التي تنشرها Cakey Bot وتسجيل الدخول إليها.</value>
+  </data>
+  <data name="core_setting_description_modules" xml:space="preserve">
+    <value>يسمح لك بتبديل أجزاء معينه من Cakey Bot أو إيقاف تشغيله.</value>
+  </data>
+  <data name="core_setting_prefix" xml:space="preserve">
+    <value>البادئة</value>
+  </data>
+  <data name="core_setting_prefix_current" xml:space="preserve">
+    <value>البادئة الحالية:</value>
+  </data>
+  <data name="core_setting_prefix_update" xml:space="preserve">
+    <value>تغيير/تحديث البادئة:</value>
+  </data>
+  <data name="core_setting_log" xml:space="preserve">
+    <value>سجل القناة</value>
+  </data>
+  <data name="core_setting_log_current" xml:space="preserve">
+    <value>قناة السجل الحالية:</value>
+  </data>
+  <data name="core_setting_log_update" xml:space="preserve">
+    <value>تغيير / تحديث قناة السجل:</value>
+  </data>
+  <data name="core_setting_mute" xml:space="preserve">
+    <value>كتم الدور</value>
+  </data>
+  <data name="core_setting_mute_current" xml:space="preserve">
+    <value>دور كتم الحالي:</value>
+  </data>
+  <data name="core_setting_mute_update" xml:space="preserve">
+    <value>تغيير/ تحديث دور كتم:</value>
+  </data>
+  <data name="core_setting_auto" xml:space="preserve">
+    <value>تلقائي دور</value>
+  </data>
+  <data name="core_setting_auto_current" xml:space="preserve">
+    <value>الدور التلقائي الحالي:</value>
+  </data>
+  <data name="core_setting_auto_update" xml:space="preserve">
+    <value>تغيير/ تحديث الدور التلقائي:</value>
+  </data>
+  <data name="core_setting_toggle" xml:space="preserve">
+    <value>تبديل وحدات</value>
+  </data>
+  <data name="core_setting_modules_current" xml:space="preserve">
+    <value>الإعدادات الحالية:</value>
+  </data>
+  <data name="core_setting_modules_update" xml:space="preserve">
+    <value>تبديل وحدات:</value>
+  </data>
+  <data name="core_setting_announcements" xml:space="preserve">
+    <value>الإعلانات</value>
+  </data>
+  <data name="core_setting_announcements_current_join" xml:space="preserve">
+    <value>رسالة الانضمام الحالية:</value>
+  </data>
+  <data name="core_setting_announcements_current_leave" xml:space="preserve">
+    <value>رسالة تغادر الحالية:</value>
+  </data>
+  <data name="core_setting_announcements_current_ban" xml:space="preserve">
+    <value>رسالة الحظر الحالية:</value>
+  </data>
+  <data name="core_setting_announcements_current_channel" xml:space="preserve">
+    <value>قناة الإعلان الحالية:</value>
+  </data>
+  <data name="core_setting_announcements_update_channel_1" xml:space="preserve">
+    <value>تغيير/تحديث قناة الإعلان:</value>
+  </data>
+  <data name="core_setting_announcements_update_channel_2" xml:space="preserve">
+    <value>`{0} إعداد الإعلانات [قناة جديدة]`</value>
+  </data>
+  <data name="core_setting_announcements_update_msg_1" xml:space="preserve">
+    <value>تغيير / تحديث رسائل الإعلان:</value>
+  </data>
+  <data name="core_setting_announcements_update_msg_2" xml:space="preserve">
+    <value>‎إستعمال: `{0}setting announcements [join | leave | ban] [Message]`</value>
+  </data>
+  <data name="core_setting_updated_prefix" xml:space="preserve">
+    <value>تم تحديث البادئة لهذا الخادم إلى: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_log_1" xml:space="preserve">
+    <value>`{0} سجل الإعداد [قناة جديدة]`</value>
+  </data>
+  <data name="core_setting_updated_log_2" xml:space="preserve">
+    <value>تمت إزالة قناة السجل لهذا الخادم.</value>
+  </data>
+  <data name="core_setting_updated_log_3" xml:space="preserve">
+    <value>تم تحديث قناة السجل لهذا الخادم إلى:&lt;#{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_announcements_1" xml:space="preserve">
+    <value>تمت إزالة قناة الإعلانات لهذا الخادم.</value>
+  </data>
+  <data name="core_setting_updated_announcements_2" xml:space="preserve">
+    <value>تم تحديث قناة الإعلانات لهذا الخادم إلى: &lt;#{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_announcements_join" xml:space="preserve">
+    <value>تم تحديث رسالة الانضمام لهذا الخادم إلى: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_announcements_ban" xml:space="preserve">
+    <value>تم تحديث رسالة الحظر لهذا الخادم إلى: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_announcements_leave" xml:space="preserve">
+    <value>تم تحديث رسالة تغادر لهذا الخادم إلى: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_mute_1" xml:space="preserve">
+    <value>تمت إزالة دور كتم لهذا الخادم.</value>
+  </data>
+  <data name="core_setting_updated_mute_2" xml:space="preserve">
+    <value>تم تحديث دور كتم الصوت لهذا الخادم إلى: &lt;@&amp;{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_module" xml:space="preserve">
+    <value>تم تحديث الوحدة النمطية `{0}` لهذا الخادم إلى: {1}</value>
+  </data>
+  <data name="core_setting_updated_auto_1" xml:space="preserve">
+    <value>تمت إزالة الدور التلقائي لهذا الخادم.</value>
+  </data>
+  <data name="core_setting_updated_auto_2" xml:space="preserve">
+    <value>تم تحديث الدور التلقائي لهذا الخادم إلى: &lt;@&amp;{0}&gt;</value>
+  </data>
+  <data name="core_invite" xml:space="preserve">
+    <value>تريد أن تدعوني إلى نقابتك؟ إضغط على الرابط في الأسفل!</value>
+  </data>
+  <data name="core_feedback_blacklisted" xml:space="preserve">
+    <value>لقد تم إدراجك في القائمة السوداء من هذا الأمر. :(</value>
+  </data>
+  <data name="core_stats_1" xml:space="preserve">
+    <value>خادم العد</value>
+  </data>
+  <data name="core_stats_2" xml:space="preserve">
+    <value>مجموع الفئات</value>
+  </data>
+  <data name="core_stats_3" xml:space="preserve">
+    <value>قنوات النص</value>
+  </data>
+  <data name="core_stats_4" xml:space="preserve">
+    <value>قنوات الصوت</value>
+  </data>
+  <data name="core_announce_usage" xml:space="preserve">
+    <value>الاستعمال: `!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
+  </data>
+  <data name="core_announce_footer" xml:space="preserve">
+    <value>إعلان</value>
+  </data>
+  <data name="core_sr_usage" xml:space="preserve">
+    <value>الاستعمال: `sr &lt;add | remove | use | unuse | list&gt; &lt;role&amp;gt!;`</value>
+  </data>
+  <data name="core_sr_added_1" xml:space="preserve">
+    <value>تمت إضافة الدور بالفعل.</value>
+  </data>
+  <data name="core_sr_added_2" xml:space="preserve">
+    <value>وأضاف دور الذات بنجاح.</value>
+  </data>
+  <data name="core_sr_added_3" xml:space="preserve">
+    <value>أضاف بنجاح الدور المطلوب لك.</value>
+  </data>
+  <data name="core_sr_removed_1" xml:space="preserve">
+    <value>إزالة دور الذات بنجاح.</value>
+  </data>
+  <data name="core_sr_removed_2" xml:space="preserve">
+    <value>نجح في إزالة الدور المطلوب منك.</value>
+  </data>
+  <data name="core_sr_none" xml:space="preserve">
+    <value>لا الأدوار المتاحة.</value>
+  </data>
+  <data name="core_sr_error_invalid" xml:space="preserve">
+    <value>لم يتم سرد الدور ذاتي.</value>
+  </data>
+  <data name="core_sr_error_missing" xml:space="preserve">
+    <value>الدور لم يعد موجودا.</value>
+  </data>
+  <data name="core_sr_error_have" xml:space="preserve">
+    <value>لديك بالفعل هذا الدور.</value>
+  </data>
+  <data name="core_sr_error_have_not" xml:space="preserve">
+    <value>ليس لديك هذا الدور.</value>
+  </data>
+  <data name="core_invalid_channel" xml:space="preserve">
+    <value>يجب تقديم اسم قناة صالح!</value>
+  </data>
+  <data name="core_debug_required_core" xml:space="preserve">
+    <value>‎** الأذونات المطلوبة: (core)** 
+</value>
+  </data>
+  <data name="core_debug_optional_mod" xml:space="preserve">
+    <value>**أذونات اختيارية: (مطلوب للإشراف)** 
+</value>
+  </data>
+  <data name="core_debug_optional_misc" xml:space="preserve">
+    <value>**أذونات اختيارية: (مطلوب للأدوات المساعدة / متفرقات)**
+</value>
+  </data>
+  <data name="core_debug_optional_music" xml:space="preserve">
+    <value>**أذونات اختيارية: (مطلوب للموسيقى)**
+</value>
+  </data>
+  <data name="core_debug_unused" xml:space="preserve">
+    <value>**الأذونات غير المستخدمة: **
+</value>
+  </data>
+  <data name="core_debug_wildcard" xml:space="preserve">
+    <value>**أذونات البدل:**n\</value>
+  </data>
+  <data name="urban_error" xml:space="preserve">
+    <value>تعذّر العثور على إدخال Urban Dictionary. حاول لاحقًا أو جرب واحدة أخرى.</value>
+  </data>
+  <data name="automod_string_caps" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتوا &gt;{0}% من الأحرف الكبيرة.</value>
+  </data>
+  <data name="automod_string_blacklist_word" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتواءها على كلمة مدرجة في القائمة السوداء.</value>
+  </data>
+  <data name="automod_string_discordinvite" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتواء رابط دعوة discord.</value>
+  </data>
+  <data name="automod_string_url" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتواء url/link.</value>
+  </data>
+  <data name="automod_string_mentions" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتواء &gt;{0} على مذكورة.</value>
+  </data>
+  <data name="automod_string_emote" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتواء&gt; {0} الرموز التعبيرية.</value>
+  </data>
+  <data name="automod_string_spoiler" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتواء spoiler.</value>
+  </data>
+  <data name="automod_string_selfbot" xml:space="preserve">
+    <value>تم حذف رسالتك لأنها كانت رسالة ذاتية أو self-bot.</value>
+  </data>
+  <data name="automod_string_duplicate_char" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتواء&gt; {0}٪ حروف مكررة.</value>
+  </data>
+  <data name="automod_string_duplicate_word" xml:space="preserve">
+    <value>تم حذف رسالتك لاحتواء &gt;  {0} كلمات مكررة.</value>
+  </data>
+  <data name="automod_check_mass_caps" xml:space="preserve">
+    <value>مقدار كبير من الاحرف الكبيرة</value>
+  </data>
+  <data name="automod_check_blacklist" xml:space="preserve">
+    <value>كلمة القائمة الممنوعاة</value>
+  </data>
+  <data name="automod_check_discord_invite" xml:space="preserve">
+    <value>Discord دعوة الرابط</value>
+  </data>
+  <data name="automod_check_website_url" xml:space="preserve">
+    <value>عنوان URL/link</value>
+  </data>
+  <data name="automod_check_mass_mentions" xml:space="preserve">
+    <value>مقدار كبير تذكيراة</value>
+  </data>
+  <data name="automod_check_emoji_spam" xml:space="preserve">
+    <value>الإيموجي مكرر أو غيرمرغوب فيها</value>
+  </data>
+  <data name="automod_check_spoilers" xml:space="preserve">
+    <value>المفسدين</value>
+  </data>
+  <data name="automod_check_self_bot" xml:space="preserve">
+    <value>رسالة self-bot</value>
+  </data>
+  <data name="automod_check_duplicate_char" xml:space="preserve">
+    <value>الاحرف مكررة</value>
+  </data>
+  <data name="automod_check_duplicate_word" xml:space="preserve">
+    <value>كلمات مكررة</value>
+  </data>
+  <data name="automod_embed_violation" xml:space="preserve">
+    <value>انتهاك:</value>
+  </data>
+  <data name="automod_embed_value" xml:space="preserve">
+    <value>القيمة:</value>
+  </data>
+  <data name="automod_embed_channel" xml:space="preserve">
+    <value>قناة:</value>
+  </data>
+</root>

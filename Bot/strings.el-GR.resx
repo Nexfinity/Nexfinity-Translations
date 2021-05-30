@@ -1,0 +1,2049 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="cooldown" xml:space="preserve">
+    <value>Αυτή η εντολή είναι σε διακοπή για: {0}</value>
+  </data>
+  <data name="module_disabled" xml:space="preserve">
+    <value>Αυτή η μονάδα είναι απενεργοποιημένη σε αυτό τον σέρβερ απο τους διαχειριστές.</value>
+  </data>
+  <data name="command_disabled" xml:space="preserve">
+    <value>Αυτή η εντολή είναι προσωρινά απενεργοποιημένη για ενημερώσεις.</value>
+  </data>
+  <data name="error_generic_1" xml:space="preserve">
+    <value>Ενα άγνωστο πρόβλημα προέκυψε!</value>
+  </data>
+  <data name="error_generic_2" xml:space="preserve">
+    <value>Παρουσιάστηκε άγνωστο σφάλμα. Παρακαλούμε να το αναφέρετε στην υποστήριξή μας στο Discord μας: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="error_generic_3" xml:space="preserve">
+    <value>Ένα άγνωστο πρόβλημα προέκυψε. Είναι ο διακομιστής ανοικτός; Διαλέξατε το σωστό τύπο διακομιστή;</value>
+  </data>
+  <data name="error_generic_4" xml:space="preserve">
+    <value>Λάθος:</value>
+  </data>
+  <data name="error_generic_5" xml:space="preserve">
+    <value>Υπο-εντολή έρχεται σύντομα.</value>
+  </data>
+  <data name="error_command_disabled" xml:space="preserve">
+    <value>**Πρόβλημα.** Εντολή απενεργοποιημένη.</value>
+  </data>
+  <data name="error_ssl" xml:space="preserve">
+    <value>Πρόβλημα SSL, παρακαλώ δοκιμάστε αργότερα.</value>
+  </data>
+  <data name="error_limit_rate" xml:space="preserve">
+    <value>Φτάσατε το ανώτατο όριο.</value>
+  </data>
+  <data name="error_limit_characters_10" xml:space="preserve">
+    <value>Το κείμενο πρέπει να είναι λιγότερο από 10 χαρακτήρες.</value>
+  </data>
+  <data name="error_limit_characters_200" xml:space="preserve">
+    <value>Παρακαλώ γράψτε μια ερώτηση λιγότερο απο 200 λέξεις.</value>
+  </data>
+  <data name="error_limit_characters_200_2" xml:space="preserve">
+    <value>Παρακαλώ γράψτε μια πρόταση λιγότερο απο 200 λέξεις.</value>
+  </data>
+  <data name="error_limit_characters_500" xml:space="preserve">
+    <value>Το κείμενο πρέπει να είναι λιγότερο απο 500 λέξεις.</value>
+  </data>
+  <data name="error_missing_text" xml:space="preserve">
+    <value>Πρέπει να δώσετε κάποιο κείμενο.</value>
+  </data>
+  <data name="error_missing_query" xml:space="preserve">
+    <value>Πρέπει να δώσετε ένα ερώτημα αναζήτησης.</value>
+  </data>
+  <data name="error_missing_warn_id" xml:space="preserve">
+    <value>Πρέπει να γράψετε ένα ID προειδοποίησης!</value>
+  </data>
+  <data name="error_missing_server_info" xml:space="preserve">
+    <value>Πρέπει να γράψετε έναν IP και θύρα διακομιστή.</value>
+  </data>
+  <data name="error_missing_user_name_1" xml:space="preserve">
+    <value>Πρέπει να γράψετε ένα όνομα!</value>
+  </data>
+  <data name="error_missing_user_name_2" xml:space="preserve">
+    <value>Πρέπει να γράψετε 2 ονόματα!</value>
+  </data>
+  <data name="error_missing_user_id" xml:space="preserve">
+    <value>Πρέπει να γράψετε ένα ID χρήστη!</value>
+  </data>
+  <data name="error_missing_steam_id_1" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε ένα έγκυρο ID χρήστη Steam! Βρείτε ID χρηστών εδω: https://steamid.io/lookup/</value>
+  </data>
+  <data name="error_missing_steam_id_2" xml:space="preserve">
+    <value>Θυμηθείτε, ID Steam64 μπορούν να βρεθούν εδώ: https://steamid.io/lookup/</value>
+  </data>
+  <data name="error_missing_role_name" xml:space="preserve">
+    <value>Πρέπει να γράψετε ένα όνομα ρόλου!</value>
+  </data>
+  <data name="error_missing_role_mention" xml:space="preserve">
+    <value>Πρέπει να επισημάνετε έναν ρόλο!</value>
+  </data>
+  <data name="error_missing_perm_manageroles" xml:space="preserve">
+    <value>Δεν έχεις πρόσβαση στο ManageRoles!</value>
+  </data>
+  <data name="error_missing_perm_manageserver" xml:space="preserve">
+    <value>Δεν έχεις πρόσβαση στο ManageServer!</value>
+  </data>
+  <data name="error_missing_perm_managechannels" xml:space="preserve">
+    <value>Δεν έχεις πρόσβαση στο ManageChannels!</value>
+  </data>
+  <data name="error_missing_perm_managenicks" xml:space="preserve">
+    <value>Δεν έχεις πρόσβαση στο ManageNickname!</value>
+  </data>
+  <data name="error_missing_perm_managemessage_1" xml:space="preserve">
+    <value>Δεν έχεις πρόσβαση στο ManageMessage!</value>
+  </data>
+  <data name="error_missing_perm_managemessage_2" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση στο ManageMessages!</value>
+  </data>
+  <data name="error_missing_perm_moderator" xml:space="preserve">
+    <value>Πρέπει να έχεις δικαιώματα Mod διακομιστή για να χρησιμοποιήσεις αυτή την εντολή. [Περισσότερες πληροφορίες](https://docs.cakeybot.app/setup/faq#what-is-considered-a-server-moderator)</value>
+  </data>
+  <data name="error_missing_perm_emoji" xml:space="preserve">
+    <value>Δεν έχεις πρόσβαση στο ManageEmoji!</value>
+  </data>
+  <data name="error_missing_perm_administrator" xml:space="preserve">
+    <value>Δεν έχεις δικαιώματα διαχειριστή!</value>
+  </data>
+  <data name="error_missing_perm_kick" xml:space="preserve">
+    <value>Δεν έχεις άδεια να κάνεις kick χρήστες!</value>
+  </data>
+  <data name="error_missing_perm_ban" xml:space="preserve">
+    <value>Δεν έχεις άδεια να κάνεις ban χρήστες!</value>
+  </data>
+  <data name="error_missing_perm_unban" xml:space="preserve">
+    <value>Δεν έχεις άδεια να κάνεις unban χρήστες!</value>
+  </data>
+  <data name="error_missing_perm_mute" xml:space="preserve">
+    <value>Δεν έχεις πρόσβαση στο MuteMembers!</value>
+  </data>
+  <data name="error_missing_perm_self_emoji" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση στο ManageEmoji!</value>
+  </data>
+  <data name="error_missing_perm_self_react" xml:space="preserve">
+    <value>Δεν εχώ δικαίωμα να προσθέσω αντιδράσεις!</value>
+  </data>
+  <data name="error_missing_perm_self_kick" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση σε δικαιώματα kick!</value>
+  </data>
+  <data name="error_missing_perm_self_ban" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση σε δικαιώματα ban!</value>
+  </data>
+  <data name="error_missing_perm_self_unban" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση σε δικαιώματα unban!</value>
+  </data>
+  <data name="error_missing_perm_self_manageroles" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση στο ManageRoles!</value>
+  </data>
+  <data name="error_missing_perm_self_managechannels" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση στο ManageChannel!</value>
+  </data>
+  <data name="error_missing_perm_self_manageguild" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση στο ManageGuild! (Απαιτείται για προβολή των προσκλήσεων διακομιστή)</value>
+  </data>
+  <data name="error_missing_perm_self_managenicks" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση στο ManageNickname!</value>
+  </data>
+  <data name="error_missing_perm_self_kick_admin" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω kick έναν διαχειριστή!</value>
+  </data>
+  <data name="error_missing_perm_self_ban_admin" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω ban έναν διαχειριστή!</value>
+  </data>
+  <data name="error_missing_perm_self_ban_soft_admin" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω soft ban έναν διαχειριστή!</value>
+  </data>
+  <data name="error_missing_perm_self_mute_admin" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω mute έναν διαχειριστή!</value>
+  </data>
+  <data name="error_missing_perm_self_warn_admin" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω προειδοποιήσω έναν διαχειριστή!</value>
+  </data>
+  <data name="error_missing_file_image_3" xml:space="preserve">
+    <value>Δεν μπόρεσα να βρώ κάποια έγκυρη εικόνα στα τελευταία 3 μυνήματα.</value>
+  </data>
+  <data name="error_missing_file_image_5" xml:space="preserve">
+    <value>Δεν μπόρεσα να βρώ κάποια έγκυρη εικόνα στα τελευταία 5 μυνήματα.</value>
+  </data>
+  <data name="error_missing_messages" xml:space="preserve">
+    <value>Δεν βρέθηκαν μυνήματα για τον επιλεγμένο χρήστη.</value>
+  </data>
+  <data name="error_failed_image_download" xml:space="preserve">
+    <value>Αποτυχία λήψης εικόνας.</value>
+  </data>
+  <data name="error_failed_image_modify" xml:space="preserve">
+    <value>Αποτυχία επεξεργασίας εικόνας.</value>
+  </data>
+  <data name="error_failed_image_upload" xml:space="preserve">
+    <value>Δεν έχω πρόσβαση να στείλω φωτογραφίες εδώ.</value>
+  </data>
+  <data name="error_failed_joke" xml:space="preserve">
+    <value>Αποτυχία βρίσκοντας αστείο.</value>
+  </data>
+  <data name="error_failed_fortune" xml:space="preserve">
+    <value>Αποτυχία βρίσκοντας τύχη.</value>
+  </data>
+  <data name="error_failed_weather" xml:space="preserve">
+    <value>Αποτυχία λαμβάνοντας δεδομένα, έγραψες το όνομα της πόλης σωστά;</value>
+  </data>
+  <data name="error_failed_currency" xml:space="preserve">
+    <value>Αποτυχία λαμβάνοντας δεδομένα, έγραψες το νόμισμα σωστά;</value>
+  </data>
+  <data name="error_failed_video" xml:space="preserve">
+    <value>Αποτυχία βρίσκοντας βίντεο. *Μικρότερες αναζήτησεις δουλεύουν καλύτερα.*</value>
+  </data>
+  <data name="error_failed_image" xml:space="preserve">
+    <value>Αποτυχία βρίσκοντας εικόνα. *Μικρότερες αναζήτησεις δουλεύουν καλύτερα.*</value>
+  </data>
+  <data name="error_failed_article" xml:space="preserve">
+    <value>Αποτυχία βρίσκοντας άρθρο.</value>
+  </data>
+  <data name="error_failed_message" xml:space="preserve">
+    <value>Απέτυχε η εύρεση του μηνύματος.</value>
+  </data>
+  <data name="error_failed_kick" xml:space="preserve">
+    <value>Αποτυχία κάνοντας kick τον επιλεγμένο χρήστη.</value>
+  </data>
+  <data name="error_failed_ban" xml:space="preserve">
+    <value>Αποτυχία κάνοντας ban τον επιλεγμένο χρήστη.</value>
+  </data>
+  <data name="error_failed_ban_soft" xml:space="preserve">
+    <value>Αποτυχία κάνοντας soft ban τον επιλεγμένο χρήστη.</value>
+  </data>
+  <data name="error_failed_unban" xml:space="preserve">
+    <value>Αποτυχία κάνοντας unban τον επιλεγμένο χρήστη.</value>
+  </data>
+  <data name="error_failed_unban_not_banned_1" xml:space="preserve">
+    <value>Δεν είμαι banned!</value>
+  </data>
+  <data name="error_failed_unban_not_banned_2" xml:space="preserve">
+    <value>Το επιλεγμένο ID χρήστη δεν είναι banned.</value>
+  </data>
+  <data name="error_failed_unmute_not_muted" xml:space="preserve">
+    <value>Ο χρήστης δεν είναι muted. Αν είναι, να είσαι σίγουρος να επιλέξεις έναν ρόλο με `!setting` ή ονόμασε το ρόλο `Muted`.</value>
+  </data>
+  <data name="error_failed_playlist_save" xml:space="preserve">
+    <value>Αποτυχία αποθήκευσης τραγουδιών στη λίστα αναπαραγωγής. Η λίστα αναπαραγωγής υπάρχει ήδη;</value>
+  </data>
+  <data name="error_failed_playlist_load" xml:space="preserve">
+    <value>Αποτυχία εύρεσης λίστας αναπαραγωγής. Πληκτρολογήσατε σωστά το όνομα;</value>
+  </data>
+  <data name="error_failed_playlist_delete" xml:space="preserve">
+    <value>Απέτυχε η διαγραφή σας `{0}` playlist. Η λίστα αναπαραγωγής υπάρχει;</value>
+  </data>
+  <data name="error_role_1" xml:space="preserve">
+    <value>Δεν μπορώ να ενημερώσω αυτόν τον ρόλο, είναι ανώτερος του ρόλου μου.</value>
+  </data>
+  <data name="error_role_2" xml:space="preserve">
+    <value>Δεν μπορείς να ενημερώσεις αυτόν τον ρόλο, είναι ανώτερος του ρόλου σου.</value>
+  </data>
+  <data name="error_role_kick_1" xml:space="preserve">
+    <value>Δεν μπορείς να κανείς kick κάποιον ανώτερο σου!</value>
+  </data>
+  <data name="error_role_kick_2" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω kick κάποιον ανώτερο μου!</value>
+  </data>
+  <data name="error_role_ban_1" xml:space="preserve">
+    <value>Δεν μπορείς να κανείς ban κάποιον ανώτερο σου!</value>
+  </data>
+  <data name="error_role_ban_2" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω ban κάποιον ανώτερο μου!</value>
+  </data>
+  <data name="error_role_ban_soft_1" xml:space="preserve">
+    <value>Δεν μπορείς να κανείς soft ban κάποιον ανώτερο σου!</value>
+  </data>
+  <data name="error_role_ban_soft_2" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω soft ban κάποιον ανώτερο μου!</value>
+  </data>
+  <data name="error_role_mute_1" xml:space="preserve">
+    <value>Δεν μπορείς να κανείς mute κάποιον ανώτερο σου!</value>
+  </data>
+  <data name="error_role_mute_2" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω mute κάποιον ανώτερο μου!</value>
+  </data>
+  <data name="error_role_mute_3" xml:space="preserve">
+    <value>Δεν μπορώ να χρησιμοποιήσω τον Muted ρόλο/τίτλο, είναι ανώτερος από τον τίτλο/ρόλο μου.</value>
+  </data>
+  <data name="error_role_warn_1" xml:space="preserve">
+    <value>Δεν μπορείς να προειδοποιήσεις κάποιον ανώτερο σου!</value>
+  </data>
+  <data name="error_role_warn_2" xml:space="preserve">
+    <value>Δεν μπορώ να προειδοποιήσω κάποιον ανώτερο μου!</value>
+  </data>
+  <data name="error_role_unwarn_1" xml:space="preserve">
+    <value>Δεν μπορείς να αφαιρέσεις μια προειδοποιήση από κάποιον ανωτερό σου!</value>
+  </data>
+  <data name="error_role_unwarn_2" xml:space="preserve">
+    <value>Δεν μπορώ να αφαιρέσω προειδοποιήσεις από κάποιον ανωτερό μου!</value>
+  </data>
+  <data name="error_invalid_color_hex" xml:space="preserve">
+    <value>Πρέπει να γράψεις έναν έγκυρο κωδικό hex!</value>
+  </data>
+  <data name="error_invalid_dice" xml:space="preserve">
+    <value>Καταχωρίστε έναν έγκυρο αριθμό (1-15) ή εισαγάγετε ένα ρολό ζεύξης DND.</value>
+  </data>
+  <data name="error_invalid_user_missing" xml:space="preserve">
+    <value>Ο χρήστης δεν υπάρχει!</value>
+  </data>
+  <data name="error_invalid_unknown_city" xml:space="preserve">
+    <value>Άγνωστο όνομα πόλης.</value>
+  </data>
+  <data name="error_invalid_invite" xml:space="preserve">
+    <value>Παρακαλώ γράψτε ένα έγκυρο κωδικό πρόσκλησης.</value>
+  </data>
+  <data name="error_invalid_base64" xml:space="preserve">
+    <value>Παρακαλώ γράψτε ένα έγκυρο base64 string.</value>
+  </data>
+  <data name="error_invalid_playlist" xml:space="preserve">
+    <value>Πρέπει να εισαγάγετε ένα έγκυρο όνομα λίστας αναπαραγωγής.</value>
+  </data>
+  <data name="error_usage_poll" xml:space="preserve">
+    <value>Παρακαλώ γράψτε μια έγκυρη ερώτηση. Χρήση: `!poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; \ &lt;answer3&gt; | etc&gt;`</value>
+  </data>
+  <data name="error_usage_suggestion" xml:space="preserve">
+    <value>Παρακαλώ γράψτε μια έγκυρη πρόταση. 
+!suggestion &lt;title&gt; | &lt;description&gt;</value>
+  </data>
+  <data name="error_usage_rps" xml:space="preserve">
+    <value>Παρακαλώ γράψτε μια έγκυρη κίνηση. `!rps &lt; rock | paper | scissors &gt;`</value>
+  </data>
+  <data name="error_usage_8ball" xml:space="preserve">
+    <value>Παρακαλώ γράψτε μια ερώτηση.</value>
+  </data>
+  <data name="error_usage_query" xml:space="preserve">
+    <value>Σωστή χρήση: !query &lt;pe | pc&gt; &lt;ip:port&gt;</value>
+  </data>
+  <data name="error_usage_query_type" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε τύπο διακομιστή PC ή PE.</value>
+  </data>
+  <data name="error_usage_role" xml:space="preserve">
+    <value>Χρήση: `!role &lt;add | remove&gt; &lt;user&gt; &lt;role&gt;`</value>
+  </data>
+  <data name="error_usage_emoji" xml:space="preserve">
+    <value>Χρήση: `emoji &lt;add | delete | info | list | roles | update&gt;`</value>
+  </data>
+  <data name="error_usage_emoji_2" xml:space="preserve">
+    <value>Χρήση: `!emoji info &lt;emoji id&gt;`</value>
+  </data>
+  <data name="error_usage_playlist" xml:space="preserve">
+    <value>Χρήση: !playlist &lt;save/create | list | load | delete/remove&gt; &lt;name&gt;</value>
+  </data>
+  <data name="error_usage_verify" xml:space="preserve">
+    <value>Χρήση: `{0}verify setup &lt;role&gt;`</value>
+  </data>
+  <data name="error_usage_verify_set" xml:space="preserve">
+    <value>Δεν έχει οριστεί ρόλος επαλήθευσης. Ορίστε ένα χρησιμοποιώντας: `{0}verify setup &lt;role&gt;`</value>
+  </data>
+  <data name="error_verify" xml:space="preserve">
+    <value>Απέτυχε ο ορισμός του ρόλου επαλήθευσης.</value>
+  </data>
+  <data name="success_verify" xml:space="preserve">
+    <value>Ορίστηκε με επιτυχία ο ρόλος επαλήθευσης σε: `{0}`.</value>
+  </data>
+  <data name="error_max_values_20" xml:space="preserve">
+    <value>Μπορείς μόνο να έχεις μέχρι 20 αξίες.</value>
+  </data>
+  <data name="success_role_added" xml:space="preserve">
+    <value>Προστέθηκε με επιτυχία το `{0} `στο {1}.</value>
+  </data>
+  <data name="success_role_removed" xml:space="preserve">
+    <value>Διαγράφτηκε με επιτυχία το `{0}` απο το {1}.</value>
+  </data>
+  <data name="success_role_updated_color" xml:space="preserve">
+    <value>Ενημερώθηκε με επιτυχία το `{0}`. (Χρώμα: {1})</value>
+  </data>
+  <data name="success_role_updated_hoisted" xml:space="preserve">
+    <value>Ενημερώθηκε με επιτυχία το `{0}`. (Ανυψώθηκε: {1} » {2})</value>
+  </data>
+  <data name="success_role_updated_mentionable" xml:space="preserve">
+    <value>Ενημερώθηκε με επιτυχία το `{0}`. (Μπορεί να επισημανθεί: {1} » {2})</value>
+  </data>
+  <data name="success_suggestion_created" xml:space="preserve">
+    <value>Η πρότασή σας δημιουργήθηκε με επιτυχία στο &lt;#427382255342714880&gt;.</value>
+  </data>
+  <data name="games_suggestion_suggestion" xml:space="preserve">
+    <value>Πρόταση:</value>
+  </data>
+  <data name="games_suggestion_vote" xml:space="preserve">
+    <value>Ψήφος:</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
+    <value>Τίτλος:</value>
+  </data>
+  <data name="games_suggestion_description" xml:space="preserve">
+    <value>Περιγραφή:</value>
+  </data>
+  <data name="games_suggestion_created" xml:space="preserve">
+    <value>Πρόταση που δημιουργήθηκε από {0}#{1}</value>
+  </data>
+  <data name="games_8ball_results" xml:space="preserve">
+    <value>Αποτελέσματα:</value>
+  </data>
+  <data name="games_8ball_question" xml:space="preserve">
+    <value>Ερώτηση:</value>
+  </data>
+  <data name="games_8ball_answer" xml:space="preserve">
+    <value>Απάντηση:</value>
+  </data>
+  <data name="games_poll_vote" xml:space="preserve">
+    <value>Ψήφος:</value>
+  </data>
+  <data name="games_poll_created" xml:space="preserve">
+    <value>Δημοσκόπηση δημιουργήθηκε από {0}#{1}</value>
+  </data>
+  <data name="games_coin_heads" xml:space="preserve">
+    <value>Κορόνα</value>
+  </data>
+  <data name="games_coin_tails" xml:space="preserve">
+    <value>Γράμματα</value>
+  </data>
+  <data name="games_coin_results" xml:space="preserve">
+    <value>Αποτελέσματα:</value>
+  </data>
+  <data name="games_coin_flipped" xml:space="preserve">
+    <value>Αντικαταστήσατε:</value>
+  </data>
+  <data name="games_dice_total" xml:space="preserve">
+    <value>Συνολικά:</value>
+  </data>
+  <data name="games_dice_result_single" xml:space="preserve">
+    <value>Ρίξατε ένα ζάρι. Αποτέλεσμα:</value>
+  </data>
+  <data name="games_dice_result_multiple" xml:space="preserve">
+    <value>Ζάρι #{i1} Αποτελέσματα:</value>
+  </data>
+  <data name="games_dice_result_rolled" xml:space="preserve">
+    <value>Ρίξατε ένα {0}</value>
+  </data>
+  <data name="games_rps_rock" xml:space="preserve">
+    <value>πέτρα</value>
+  </data>
+  <data name="games_rps_paper" xml:space="preserve">
+    <value>χαρτί</value>
+  </data>
+  <data name="games_rps_scissors" xml:space="preserve">
+    <value>ψαλίδι</value>
+  </data>
+  <data name="games_rps_outcome_1" xml:space="preserve">
+    <value>Διαλέξα {0}; Το {1} νικάει {2}. Νίκησα!</value>
+  </data>
+  <data name="games_rps_outcome_2" xml:space="preserve">
+    <value>Διαλέξα {0}; Το {1} νικάει {2}. Νίκησες!</value>
+  </data>
+  <data name="games_rps_outcome_3" xml:space="preserve">
+    <value>Διάλεξα {0}. Και οι δύο μας διαλέξαμε {1}, είναι ισοπαλία!</value>
+  </data>
+  <data name="games_giveaway_error_1" xml:space="preserve">
+    <value>**Σφάλμα:** Οι διαγωνισμοί πρέπει να διαρκούν λιγότερο από 1 ώρα.</value>
+  </data>
+  <data name="games_giveaway_error_2" xml:space="preserve">
+    <value>**Σφάλμα:** Οι διαγωνισμοί πρέπει να διαρκούν τουλάχιστον 1 λεπτό.</value>
+  </data>
+  <data name="games_giveaway_title" xml:space="preserve">
+    <value>:tada: **ΔΙΑΓΩΝΙΣΜΟΣ** :tada:</value>
+  </data>
+  <data name="games_giveaway_hours_1" xml:space="preserve">
+    <value>**Πληροφορίες:**
+● Βραβείο: `{0}`
+● Ποσό νικητή: {1}
+● Χρόνος που απομένει: {2} ώρες
+
+Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
+  </data>
+  <data name="games_giveaway_hours_2" xml:space="preserve">
+    <value>**Πληροφορίες:**
+● Βραβείο: `{0}`
+● Ποσό νικητή: {1}
+● Χρόνος που απομένει: {2} ώρες {3} λεπτά
+
+Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
+  </data>
+  <data name="games_giveaway_minutes_1" xml:space="preserve">
+    <value>**Πληροφορίες:**
+● Βραβείο: `{0}`
+● Ποσό νικητή: {1}
+● Χρόνος που απομένει: {2} λεπτά
+
+Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
+  </data>
+  <data name="games_giveaway_minutes_2" xml:space="preserve">
+    <value>**Πληροφορίες:**
+● Βραβείο: `{0}`
+● Ποσό νικητή: {1}
+● Χρόνος που απομένει: {2} λεπτά {3} δευτερόλεπτα
+
+Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
+  </data>
+  <data name="games_giveaway_seconds" xml:space="preserve">
+    <value>**Πληροφορίες:**
+● Βραβείο: `{0}`
+● Ποσό νικητή: {1}
+● Χρόνος που απομένει: {2} δευτερόλεπτα
+
+Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
+  </data>
+  <data name="games_giveaway_winner" xml:space="preserve">
+    <value>***Συγχαρητήρια!***
+{0}, νίκησες το βραβείο: `{1}`!</value>
+  </data>
+  <data name="games_giveaway_winner_none" xml:space="preserve">
+    <value>Δεν υπάρχουν νικητές σήμερα :(</value>
+  </data>
+  <data name="games_giveaway_winner_limit" xml:space="preserve">
+    <value>Ο αριθμός των νικητών πρέπει να είναι τουλάχιστον 1 και όχι περισσότερο από 15.</value>
+  </data>
+  <data name="afk" xml:space="preserve">
+    <value>Ο χρήστης {0} είναι αυτή την στιγμή AFK, Λόγος: `{1}`</value>
+  </data>
+  <data name="afk_not_active_1" xml:space="preserve">
+    <value>Αυτή την στιγμή δεν είσαι AFK.</value>
+  </data>
+  <data name="afk_not_active_2" xml:space="preserve">
+    <value>Αυτός ο χρήστης δεν είναι AFK αυτή την στιγμή.</value>
+  </data>
+  <data name="afk_active" xml:space="preserve">
+    <value>Είσαι αυτή την στιγμή AFK με το μύνημα: `{0}`</value>
+  </data>
+  <data name="afk_limit" xml:space="preserve">
+    <value>Μυνήματα AFK πρέπει να είναι μικρότερα απο 100 λέξεις.</value>
+  </data>
+  <data name="afk_failed" xml:space="preserve">
+    <value>Αποτυχία ρυθμίζοντας το μύνημα AFK.</value>
+  </data>
+  <data name="afk_set" xml:space="preserve">
+    <value>Έχεις ρυθμίσει με επιτυχία το μύνημα AFK σε: `{0}`</value>
+  </data>
+  <data name="afk_removed_1" xml:space="preserve">
+    <value>Σε αφαίρεσα με επιτυχία από AFK.</value>
+  </data>
+  <data name="afk_removed_2" xml:space="preserve">
+    <value>Αφαίρεσα με επιτυχία το AFK του χρήστη {0}.</value>
+  </data>
+  <data name="afk_updated" xml:space="preserve">
+    <value>Ρύθμισα με επιτυχία το μύνημα AFK σου σε: `{0}`</value>
+  </data>
+  <data name="afk_permission" xml:space="preserve">
+    <value>Πρέπει να έχεις πρόσβαση σε δικαιώματα διαχειριστή ή στο ManageServer για να αφαιρέσεις την κατάσταση AFK ενός άλλου χρήστη.</value>
+  </data>
+  <data name="mod_kick_self" xml:space="preserve">
+    <value>Δεν μπορείς να κάνεις kick τον εαυτό σου!</value>
+  </data>
+  <data name="mod_kick_self_bot" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω kick τον εαυτό μου!</value>
+  </data>
+  <data name="mod_kick_success" xml:space="preserve">
+    <value>Ο χρήστης {0}#{1} έχει γίνει kick με επιτυχία.</value>
+  </data>
+  <data name="mod_kick_dm" xml:space="preserve">
+    <value>Έγινες kicked από τον σέρβερ `{0}` από τον `{1}` γιά: `{2}`</value>
+  </data>
+  <data name="mod_unban_success" xml:space="preserve">
+    <value>{0}#{1} έχει γίνει unbanned με επιτυχία.</value>
+  </data>
+  <data name="mod_ban_self" xml:space="preserve">
+    <value>Δεν μπορείς να κάνεις ban τον εαυτό σου!</value>
+  </data>
+  <data name="mod_ban_self_bot" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω ban τον εαυτό μου!</value>
+  </data>
+  <data name="mod_ban_success" xml:space="preserve">
+    <value>Ο χρήστης {0}#{1} έχει γίνει ban με επιτυχία.</value>
+  </data>
+  <data name="mod_ban_dm" xml:space="preserve">
+    <value>Έγινες banned από τον σέρβερ `{0}` από τον `{1}` για: `{2}`</value>
+  </data>
+  <data name="mod_ban_soft_self" xml:space="preserve">
+    <value>Δεν μπορείς να κάνεις soft ban τον εαυτό σου!</value>
+  </data>
+  <data name="mod_ban_soft_self_bot" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω softban τον εαυτό μου!</value>
+  </data>
+  <data name="mod_ban_soft_success" xml:space="preserve">
+    <value>Ο χρήστης {0}#{1} έγινε soft ban. (Μπορεί τώρα να ξαναμπεί)</value>
+  </data>
+  <data name="mod_ban_soft_dm" xml:space="preserve">
+    <value>Έγινες soft banned από τον σέρβερ `{0}` από τον `{1}` για: `{2}` (Μπορείς να ξαναμπείς)</value>
+  </data>
+  <data name="mod_mute_self" xml:space="preserve">
+    <value>Δεν μπορείς να κάνεις mute τον εαυτό σου!</value>
+  </data>
+  <data name="mod_mute_self_bot" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω mute τον εαυτό μου!</value>
+  </data>
+  <data name="mod_mute_success" xml:space="preserve">
+    <value>Ο χρήστης {0}#{1} έχει γίνει muted με επιτυχία.</value>
+  </data>
+  <data name="mod_mute_dm" xml:space="preserve">
+    <value>Έγινες muted στον σέρβερ `{0}` από τον `{1}` γιά: `{2}`</value>
+  </data>
+  <data name="mod_unmute_self_bot" xml:space="preserve">
+    <value>Δεν μπορώ να κάνω unmute τον εαυτό μου!</value>
+  </data>
+  <data name="mod_unmute_success" xml:space="preserve">
+    <value>Ο χρήστης {0}#{1} έχει γίνει unmuted με επιτυχία.</value>
+  </data>
+  <data name="mod_warn_reason" xml:space="preserve">
+    <value>Πρέπει να γράψεις έναν λόγο!</value>
+  </data>
+  <data name="mod_warn_self" xml:space="preserve">
+    <value>Δεν μπορείς να προειδοποιήσεις τον εαυτό σου!</value>
+  </data>
+  <data name="mod_warn_self_bot" xml:space="preserve">
+    <value>Δεν μπορώ να προειδοποιήσω τον εαυτό μου!</value>
+  </data>
+  <data name="mod_warn_success" xml:space="preserve">
+    <value>{0}#{1} έχει προειδοποιηθεί με επιτυχία για: `{2}`.
+**Συνολικές προειδοποιήσεις:** {3}</value>
+  </data>
+  <data name="mod_warn_dm" xml:space="preserve">
+    <value>Έχεις προειδοποιηθεί στον σέρβερ `{0}` από τον `{1}` για: `{2}`</value>
+  </data>
+  <data name="mod_unwarn_self" xml:space="preserve">
+    <value>Δεν μπορείς να αφαιρέσεις μια προειδοποίηση από τον εαυτό σου!</value>
+  </data>
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
+    <value>Δεν μπορώ να αφαιρέσω μια προειδοποίηση τον εαυτό μου!</value>
+  </data>
+  <data name="mod_unwarn_success" xml:space="preserve">
+    <value>Η προειδοποίηση έχει αφαιρεθεί με επιτυχία από τον χρήστη `{0}#{1}`</value>
+  </data>
+  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <value>Ο χρήστης δεν έχει προειδοποιήσεις για κατάργηση.</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
+    <value>Το αναγνωριστικό προειδοποίησης δεν είναι έγκυρο.</value>
+  </data>
+  <data name="mod_clearwarnings_success" xml:space="preserve">
+    <value>Η εκκαθάριση όλων των προειδοποιήσεων ολοκληρώθηκε με επιτυχία από το `{0}#{1}`</value>
+  </data>
+  <data name="mod_purge_amount" xml:space="preserve">
+    <value>Πρέπει να γράψεις την ποσότητα μυνημάτων που θές να διαγράψεις!</value>
+  </data>
+  <data name="mod_purge_amount_max" xml:space="preserve">
+    <value>Μπορείς να διαγράψεις μόνο μέχρι 100 μυνήματα ανά φορά!</value>
+  </data>
+  <data name="mod_purge_none_1" xml:space="preserve">
+    <value>Δεν υπάρχει τίποτα για διαγραφή!</value>
+  </data>
+  <data name="mod_purge_none_2" xml:space="preserve">
+    <value>Δεν βρέθηκαν μυνήματα με τα επιλεγμένα κριτήρια.</value>
+  </data>
+  <data name="mod_purge_success" xml:space="preserve">
+    <value>**{0} μυνήματα διαγράφτηκαν από τον χρήστη {1} στο &lt;#{2}&gt;**</value>
+  </data>
+  <data name="mod_purge_disabled" xml:space="preserve">
+    <value>**Η προϊγμένη διαγραφή είναι απενεργοποιημένη λόγο προβλημάτων.**</value>
+  </data>
+  <data name="mod_purge_url" xml:space="preserve">
+    <value>Διαγραμμένα μηνύματα:</value>
+  </data>
+  <data name="mod_dehoist_start" xml:space="preserve">
+    <value>&lt;:CB_Check:437024001596981248&gt; Καταργώντας τα ψευδώνυμα των χρηστών, αυτό μπορεί να διαρκέσει λίγο.
+Σημείωση: Ένα μήνυμα θα σταλεί μετά την ολοκλήρωση.</value>
+  </data>
+  <data name="mod_dehoist_success" xml:space="preserve">
+    <value>Αφαίρεσα με επιτυχία την ανύψωση από `{0}` μέλη.</value>
+  </data>
+  <data name="mod_unnick_start" xml:space="preserve">
+    <value>&lt;:CB_Check:437024001596981248&gt; Καταργώντας τα ψευδώνυμα των χρηστών, αυτό μπορεί να διαρκέσει λίγο.
+Σημείωση: Ένα μήνυμα θα σταλεί μετά την ολοκλήρωση.</value>
+  </data>
+  <data name="mod_unnick_success" xml:space="preserve">
+    <value>Καταργήθηκε με επιτυχία το ψευδώνυμο από `{0}` μέλη.</value>
+  </data>
+  <data name="mod_slowmode_success" xml:space="preserve">
+    <value>Η αργή λειτουργία για το κανάλι: `{0}`έχει ενημερωθεί σε`{1}h{2}m{3}s`.</value>
+  </data>
+  <data name="time_error_invalid" xml:space="preserve">
+    <value>Παρακαλούμε εισάγετε μια έγκυρη ώρα.</value>
+  </data>
+  <data name="time_error_invalid_6h" xml:space="preserve">
+    <value>(Λιγότερο από 6 ώρες)</value>
+  </data>
+  <data name="time_error_large" xml:space="preserve">
+    <value>Η ώρα που παρέχεται είναι πολύ μεγάλη.</value>
+  </data>
+  <data name="time_error_negative" xml:space="preserve">
+    <value>Η ώρα δεν μπορεί να είναι αρνητική ή λιγότερη από το 0.</value>
+  </data>
+  <data name="info_about_description" xml:space="preserve">
+    <value>**Σχετικά:**``` Ένα προηγμένο, επεξεργαζόμενο bot φτιαγμένο για να ανταγωνιστεί άμεσα το Dyno και το Rythm. Το Cakey Bot φτιάχτηκε για να συνδυάσει ισχυρές μουσικές δυνατότητες με μια πληθώρα χαρακτηριστικών χρησιμότητας. Το Cakey Bot συνδυάζει τα χαρακτηριστικά που συνήθως χρειάζονται πολλαπλά bots, όλα σε ένα. Καθιστώντας τη διαχείριση του σέρβερ απλούστερη και ταχύτερη. ```
+</value>
+  </data>
+  <data name="info_about_vote" xml:space="preserve">
+    <value>:star: Σας αρέσει το Cakey Bot? Δείξτε την υποστήριξη σας και ψηφίστε το στο:
+</value>
+  </data>
+  <data name="info_ping" xml:space="preserve">
+    <value>Παλμός - Shard #{0}: {1}ms</value>
+  </data>
+  <data name="info_ping_avg" xml:space="preserve">
+    <value>Μέσος καρδιακός ρυθμός:</value>
+  </data>
+  <data name="info_created_date" xml:space="preserve">
+    <value>Φτιάχτηκε στις {0}. Φτιάχτηκε {1} ημέρες πριν!</value>
+  </data>
+  <data name="info_joined_date" xml:space="preserve">
+    <value>Μπήκε στο Discord στις {0}. Μπήκε {1} ημέρες πριν!</value>
+  </data>
+  <data name="info_boosters_extra" xml:space="preserve">
+    <value>+{0} περισσότερους χρήστες.</value>
+  </data>
+  <data name="info_boosters_error" xml:space="preserve">
+    <value>Δεν βρέθηκαν ενισχυτές.</value>
+  </data>
+  <data name="info_string_1" xml:space="preserve">
+    <value>Συνολικά Μέλη</value>
+  </data>
+  <data name="info_string_2" xml:space="preserve">
+    <value>Άνθρωποι</value>
+  </data>
+  <data name="info_string_3" xml:space="preserve">
+    <value>Bots</value>
+  </data>
+  <data name="info_string_4" xml:space="preserve">
+    <value>Xρήστες σε σύνδεση</value>
+  </data>
+  <data name="info_string_5" xml:space="preserve">
+    <value>Offline χρήστες</value>
+  </data>
+  <data name="info_string_6" xml:space="preserve">
+    <value>Banned χρήστες</value>
+  </data>
+  <data name="info_string_7" xml:space="preserve">
+    <value>Ιδιοκτήτης</value>
+  </data>
+  <data name="info_string_8" xml:space="preserve">
+    <value>Μέλη</value>
+  </data>
+  <data name="info_string_9" xml:space="preserve">
+    <value>Περιοχή</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
+    <value>Ρόλοι</value>
+  </data>
+  <data name="info_string_11" xml:space="preserve">
+    <value>Κανάλια</value>
+  </data>
+  <data name="info_string_12" xml:space="preserve">
+    <value>Κατηγορίες</value>
+  </data>
+  <data name="info_string_13" xml:space="preserve">
+    <value>Κανάλι AFK</value>
+  </data>
+  <data name="info_string_14" xml:space="preserve">
+    <value>Δεν υπάρχει Κανάλι AFK</value>
+  </data>
+  <data name="info_string_15" xml:space="preserve">
+    <value>Συνολικά emojis</value>
+  </data>
+  <data name="info_string_16" xml:space="preserve">
+    <value>Λίστα ρόλων</value>
+  </data>
+  <data name="info_string_17" xml:space="preserve">
+    <value>Κανένα</value>
+  </data>
+  <data name="info_string_18" xml:space="preserve">
+    <value>Χαρακτηριστικά VIP</value>
+  </data>
+  <data name="info_string_19" xml:space="preserve">
+    <value>Το εικονίδιο του χρήστη {0}</value>
+  </data>
+  <data name="info_string_20" xml:space="preserve">
+    <value>Οι πληροφορίες του χρήστη {0}</value>
+  </data>
+  <data name="info_string_21" xml:space="preserve">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="info_string_22" xml:space="preserve">
+    <value>Δραστηριότητα</value>
+  </data>
+  <data name="info_string_23" xml:space="preserve">
+    <value>Ψευδώνυμο</value>
+  </data>
+  <data name="info_string_24" xml:space="preserve">
+    <value>Διακριτικό</value>
+  </data>
+  <data name="info_string_25" xml:space="preserve">
+    <value>Εικονίδιο</value>
+  </data>
+  <data name="info_string_26" xml:space="preserve">
+    <value>Μπήκε στον σέρβερ</value>
+  </data>
+  <data name="info_string_27" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="info_string_28" xml:space="preserve">
+    <value>Άνθρωπος</value>
+  </data>
+  <data name="info_string_29" xml:space="preserve">
+    <value>Bot ή άνθρωπος;</value>
+  </data>
+  <data name="info_string_30" xml:space="preserve">
+    <value>Ενίσχυει;</value>
+  </data>
+  <data name="info_string_31" xml:space="preserve">
+    <value>Είναι muted;</value>
+  </data>
+  <data name="info_string_32" xml:space="preserve">
+    <value>Είναι Κουφαμένος;</value>
+  </data>
+  <data name="info_string_33" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="info_string_34" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="info_string_35" xml:space="preserve">
+    <value>Γνώσεις</value>
+  </data>
+  <data name="info_string_36" xml:space="preserve">
+    <value>Προσκλήθηκε από τον χρήστη</value>
+  </data>
+  <data name="info_string_37" xml:space="preserve">
+    <value>Κανάλι</value>
+  </data>
+  <data name="info_string_38" xml:space="preserve">
+    <value>Καταμέτρηση μελών</value>
+  </data>
+  <data name="info_string_39" xml:space="preserve">
+    <value>Χρήσεις</value>
+  </data>
+  <data name="info_string_40" xml:space="preserve">
+    <value>Ώρα που δημιουργήθηκε</value>
+  </data>
+  <data name="info_string_41" xml:space="preserve">
+    <value>Είναι προσωρινό;</value>
+  </data>
+  <data name="info_string_42" xml:space="preserve">
+    <value>Μέγιστη ηλικία</value>
+  </data>
+  <data name="info_string_43" xml:space="preserve">
+    <value>Δεν λήγει ποτέ</value>
+  </data>
+  <data name="info_string_44" xml:space="preserve">
+    <value>Συνολικά Κανάλια</value>
+  </data>
+  <data name="info_string_45" xml:space="preserve">
+    <value>Συνολικά emoji</value>
+  </data>
+  <data name="info_string_46" xml:space="preserve">
+    <value>Ζητήθηκε από {0}#{1}</value>
+  </data>
+  <data name="info_string_47" xml:space="preserve">
+    <value>Λίστα κατάταξης:</value>
+  </data>
+  <data name="info_string_48" xml:space="preserve">
+    <value>Χωρίς Άδεια</value>
+  </data>
+  <data name="info_string_49" xml:space="preserve">
+    <value>Θέση συμμετοχής</value>
+  </data>
+  <data name="info_string_50" xml:space="preserve">
+    <value>Συνολικοί ρόλοι</value>
+  </data>
+  <data name="info_string_51" xml:space="preserve">
+    <value>Προειδοποιήσεις</value>
+  </data>
+  <data name="info_string_52" xml:space="preserve">
+    <value>{0} προειδοποίηση{1} σε {2} διακομιστή{3}.</value>
+  </data>
+  <data name="info_string_53" xml:space="preserve">
+    <value>Στοιχεία Επικοινωνίας:</value>
+  </data>
+  <data name="info_string_54" xml:space="preserve">
+    <value>Συνεισφέροντες:</value>
+  </data>
+  <data name="info_string_55" xml:space="preserve">
+    <value>{0} / {1} ({2} θέσεις απόμειναν)</value>
+  </data>
+  <data name="info_string_56" xml:space="preserve">
+    <value>Όνομα χρήστη:</value>
+  </data>
+  <data name="info_string_57" xml:space="preserve">
+    <value>Λόγος:</value>
+  </data>
+  <data name="info_string_58" xml:space="preserve">
+    <value>Χωρίς λόγο</value>
+  </data>
+  <data name="info_string_59" xml:space="preserve">
+    <value>Επόπτης:</value>
+  </data>
+  <data name="info_string_60" xml:space="preserve">
+    <value>Προειδοποίηση χρήστη:</value>
+  </data>
+  <data name="info_string_61" xml:space="preserve">
+    <value>Σύνολο προειδοποιήσεων:</value>
+  </data>
+  <data name="info_string_62" xml:space="preserve">
+    <value>Κανε click εδώ</value>
+  </data>
+  <data name="info_string_63" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για περισσότερες πληροφορίες</value>
+  </data>
+  <data name="info_string_64" xml:space="preserve">
+    <value>Τύπος:</value>
+  </data>
+  <data name="info_string_65" xml:space="preserve">
+    <value>Χρόνος:</value>
+  </data>
+  <data name="info_string_66" xml:space="preserve">
+    <value>Σύνολο προειδοποιήσεων:</value>
+  </data>
+  <data name="info_string_67" xml:space="preserve">
+    <value>Άγνωστο</value>
+  </data>
+  <data name="info_string_68" xml:space="preserve">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="weather_coordinates" xml:space="preserve">
+    <value>Συντεταγμένες</value>
+  </data>
+  <data name="weather_weather" xml:space="preserve">
+    <value>Καιρός</value>
+  </data>
+  <data name="weather_description" xml:space="preserve">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="weather_country" xml:space="preserve">
+    <value>Χώρα</value>
+  </data>
+  <data name="weather_clouds" xml:space="preserve">
+    <value>Σύννεφα</value>
+  </data>
+  <data name="weather_wind_speed" xml:space="preserve">
+    <value>Ταχύτητα ανέμων</value>
+  </data>
+  <data name="weather_wind_direction" xml:space="preserve">
+    <value>Κατεύθυνση ανέμου</value>
+  </data>
+  <data name="weather_sun_rise" xml:space="preserve">
+    <value>Ανατολή ηλίου</value>
+  </data>
+  <data name="weather_sun_set" xml:space="preserve">
+    <value>Ηλιοβασίλεμα</value>
+  </data>
+  <data name="emoji_string_id" xml:space="preserve">
+    <value>Αναγνωριστικό</value>
+  </data>
+  <data name="emoji_string_name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="emoji_string_uploaded" xml:space="preserve">
+    <value>Μεταφόρτωση από:</value>
+  </data>
+  <data name="emoji_string_animated" xml:space="preserve">
+    <value>IsAnimated;</value>
+  </data>
+  <data name="emoji_string_url" xml:space="preserve">
+    <value>Διεύθυνση Url:</value>
+  </data>
+  <data name="emoji_missing_id" xml:space="preserve">
+    <value>Καταχωρίστε ένα αναγνωριστικό emoji.</value>
+  </data>
+  <data name="emoji_invalid_name" xml:space="preserve">
+    <value>Παρακαλώ δώστε ένα έγκυρο όνομα.</value>
+  </data>
+  <data name="emoji_success" xml:space="preserve">
+    <value>Ενημερώσατε με επιτυχία το όνομα emoji σε: `{0}`</value>
+  </data>
+  <data name="roleinfo" xml:space="preserve">
+    <value>{0} Πληροφορίες ρόλου</value>
+  </data>
+  <data name="roleinfo_color" xml:space="preserve">
+    <value>Χρώμα</value>
+  </data>
+  <data name="roleinfo_created_at" xml:space="preserve">
+    <value>Δημιουργήθηκε στις</value>
+  </data>
+  <data name="roleinfo_position" xml:space="preserve">
+    <value>Θέση</value>
+  </data>
+  <data name="roleinfo_ishoisted" xml:space="preserve">
+    <value>Είναι ανυψωμένο;</value>
+  </data>
+  <data name="roleinfo_ismanaged" xml:space="preserve">
+    <value>Διαχειρίζεται;</value>
+  </data>
+  <data name="roleinfo_ismentionable" xml:space="preserve">
+    <value>Είναι ευδιάκριτο;</value>
+  </data>
+  <data name="roleinfo_members" xml:space="preserve">
+    <value>Μέλη [{0}]</value>
+  </data>
+  <data name="misc_convert_result" xml:space="preserve">
+    <value>Αποτέλεσμα:</value>
+  </data>
+  <data name="misc_convert_rate" xml:space="preserve">
+    <value>Συνάλλαγμα:</value>
+  </data>
+  <data name="misc_fact" xml:space="preserve">
+    <value>Τυχαίο Γεγονός:</value>
+  </data>
+  <data name="misc_pizza" xml:space="preserve">
+    <value>Εδώ πηγαίνετε: {0}</value>
+  </data>
+  <data name="misc_reminder_error_1" xml:space="preserve">
+    <value>Πρέπει να γράψεις κάτι για να υπενθυμίσεις τον εαυτό σου.</value>
+  </data>
+  <data name="misc_reminder_error_2" xml:space="preserve">
+    <value>Οί υπενθυμίσεις πρέπει να είναι μικρότερες από 200 χαρακτήρες.</value>
+  </data>
+  <data name="misc_reminder_error_3" xml:space="preserve">
+    <value>Οί υπενθυμίσεις πρέπει να απέχουν λιγότερο από 1 μήνα.</value>
+  </data>
+  <data name="misc_reminder_success" xml:space="preserve">
+    <value>Επιτυχία ρύθμισης υπενθύμισης για `{0}` σε {1} ώρα, {2} λεπτά και {3} δευτερόλεπτα.</value>
+  </data>
+  <data name="misc_reminder_remind" xml:space="preserve">
+    <value>Επιτυχία ρύθμισης υπενθύμισης για `{0}` σε {1} ώρα, {2} λεπτά και {3} δευτερόλεπτα.</value>
+  </data>
+  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <value>Πρέπει να είσαι σε ένα κανάλια ομιλίας.</value>
+  </data>
+  <data name="music_error_voice_channel_2" xml:space="preserve">
+    <value>Δεν μπορώ να μπω σε αυτό το κανάλι ομιλίας.</value>
+  </data>
+  <data name="music_error_voice_channel_3" xml:space="preserve">
+    <value>Δεν μπορώ να μιλήσω σε αυτό το κανάλι ομιλίας.</value>
+  </data>
+  <data name="music_error_voice_channel_4" xml:space="preserve">
+    <value>Είμαι ήδη μέσα σε αυτό το κανάλι.</value>
+  </data>
+  <data name="music_error_voice_channel_5" xml:space="preserve">
+    <value>Πρέπει να είμαι σε ένα κανάλι ομιλίας. Γράψτε `!join` για να με καλέσετε.</value>
+  </data>
+  <data name="music_error_voice_channel_6" xml:space="preserve">
+    <value>Πρέπει να είσαι στο ίδιο κανάλι με το bot. Δοκίμασε να γράψεις `!join` ή `!move`</value>
+  </data>
+  <data name="music_error_player" xml:space="preserve">
+    <value>Ο παίκτης μουσικής δεν υπάρχει, παρακαλώ γράψτε `!join` πάλι.</value>
+  </data>
+  <data name="music_error_play" xml:space="preserve">
+    <value>Σφάλμα κατά τη φόρτωση κομματιού: ```{0}```</value>
+  </data>
+  <data name="music_join" xml:space="preserve">
+    <value>Μπήκα στο κανάλι: `{0}`.</value>
+  </data>
+  <data name="music_disconnect" xml:space="preserve">
+    <value>Επιτυχία αποσύνδεσης!</value>
+  </data>
+  <data name="music_disconnect_error_1" xml:space="preserve">
+    <value>Δεν μπορείτε να αποσυνδέσετε το Cakey Bot σε αυτόν τον διακομιστή.</value>
+  </data>
+  <data name="music_disconnect_error_2" xml:space="preserve">
+    <value>Πρέπει να είστε ο μόνος χρήστης στο κανάλι φωνής ή πρέπει να έχετε δικαιώματα Mod για να αποσυνδέσετε το Cakey Bot εάν παίζει κάποιο τραγούδι.</value>
+  </data>
+  <data name="music_move" xml:space="preserve">
+    <value>Μετακινήθηκα από το κανάλι `{0}` στο `{1}`.</value>
+  </data>
+  <data name="music_move_error" xml:space="preserve">
+    <value>Δεν μπορείτε να μετακινήσετε το Cakey Bot από ένα κανάλι ενώ παίζει ένα τραγούδι.</value>
+  </data>
+  <data name="music_jump" xml:space="preserve">
+    <value>Μετακινήθηκα στο:
+[{0}]({1}) _{2}/{3}_</value>
+  </data>
+  <data name="music_duplicates" xml:space="preserve">
+    <value>Αφαίρεσα με επιτυχία δίπλα ίδια τραγούδια από την σειρά. Νέα σειρά:
+{0}</value>
+  </data>
+  <data name="music_cleanup" xml:space="preserve">
+    <value>Επιτυχής εκκαθάριση της ουράς. Νέα ουρά:
+{0}</value>
+  </data>
+  <data name="music_shuffle" xml:space="preserve">
+    <value>Με επιτυχία ανακάτεψα την σειρά.</value>
+  </data>
+  <data name="music_loop" xml:space="preserve">
+    <value>Η κατάσταση βρόχου τραγουδιού είναι ρυθμισμένη σε: `{0}`.</value>
+  </data>
+  <data name="music_looping" xml:space="preserve">
+    <value>βρόχο</value>
+  </data>
+  <data name="music_looping_disabled" xml:space="preserve">
+    <value>χωρίς βρόχο</value>
+  </data>
+  <data name="music_bb" xml:space="preserve">
+    <value>Η κατάσταση αύξησης μπάσων τραγουδιού έχει οριστεί σε: `{0}`.</value>
+  </data>
+  <data name="music_boosted" xml:space="preserve">
+    <value>ενισχυμένο</value>
+  </data>
+  <data name="music_boosted_disabled" xml:space="preserve">
+    <value>δεν ενισχύεται</value>
+  </data>
+  <data name="music_remove" xml:space="preserve">
+    <value>Αφαίρεσα με επιτυχία το τραγούδι `{0}` - `{1}` από την σειρά.</value>
+  </data>
+  <data name="music_restart_1" xml:space="preserve">
+    <value>Ένα τραγούδι πρέπει να παίζει για να επανεκκινήσω.</value>
+  </data>
+  <data name="music_restart_2" xml:space="preserve">
+    <value>Έχω επανεκκινήσει το τραγούδι από την αρχή.</value>
+  </data>
+  <data name="music_seek_1" xml:space="preserve">
+    <value>Ένα τραγούδι πρέπει να παίζει για να τροποποιήσεις την θέση του.</value>
+  </data>
+  <data name="music_seek_3" xml:space="preserve">
+    <value>Επιζήτησα στην ώρα: `{0}`</value>
+  </data>
+  <data name="music_ff_1" xml:space="preserve">
+    <value>Ένα τραγούδι πρέπει να παίζει για να γίνει γρήγορη προώθηση.</value>
+  </data>
+  <data name="music_ff_2" xml:space="preserve">
+    <value>Έχω προωθήσει στον χρόνο: `{0}` ({1} μπροστά)</value>
+  </data>
+  <data name="music_rewind_1" xml:space="preserve">
+    <value>Ένα τραγούδι πρέπει να παίζει για να κάνω επαναφορά.</value>
+  </data>
+  <data name="music_rewind_2" xml:space="preserve">
+    <value>Έχω κάνει επαναφορά στο χρόνο: `{0}` ({1} πίσω)</value>
+  </data>
+  <data name="music_pause_1" xml:space="preserve">
+    <value>Ένα τραγούδι πρέπει να παίζει για να κάνω παύση.</value>
+  </data>
+  <data name="music_pause_2" xml:space="preserve">
+    <value>Το τραγούδι είναι ήδη σε παύση. Μπορείς να το συνεχίσεις γράφοντας `!resume`</value>
+  </data>
+  <data name="music_pause_3" xml:space="preserve">
+    <value>Έβαλα σε παύση το τραγούδι με επιτυχία.</value>
+  </data>
+  <data name="music_resume_1" xml:space="preserve">
+    <value>Συνέχισα το τραγούδι με επιτυχία.</value>
+  </data>
+  <data name="music_resume_2" xml:space="preserve">
+    <value>Το τραγούδι δεν είναι σε παύση. Μπορείς να το βάλεις σε παύση γράφοντας `!pause`</value>
+  </data>
+  <data name="music_lyrics_1" xml:space="preserve">
+    <value>Πρέπει να γράψεις ένα όνομα τραγουδιού για να αναζητήσεις. (ή να έχεις ένα τραγούδι να παίζει αυτή την στιγμή)</value>
+  </data>
+  <data name="music_lyrics_2" xml:space="preserve">
+    <value>Στίχοι για το τραγούδι {0}: 
+
+{1}</value>
+  </data>
+  <data name="music_lyrics_3" xml:space="preserve">
+    <value>Δεν βρέθηκαν στίχοι.</value>
+  </data>
+  <data name="music_volume_1" xml:space="preserve">
+    <value>Ένα τραγούδι πρέπει να παίζει για να τροποποιήσεις τον ήχο του.</value>
+  </data>
+  <data name="music_volume_2" xml:space="preserve">
+    <value>Ο ήχος πρέπει να είναι μεταξύ το 0 και το 100.</value>
+  </data>
+  <data name="music_volume_3" xml:space="preserve">
+    <value>Ο ήχος μπήκε με επιτυχία στο: `{0}`</value>
+  </data>
+  <data name="music_volume_4" xml:space="preserve">
+    <value>Τρέχουσα ένταση: `{0}`</value>
+  </data>
+  <data name="music_skip_1" xml:space="preserve">
+    <value>Το τραγούδι `{0}` έχει παραλειφθεί.</value>
+  </data>
+  <data name="music_skip_2" xml:space="preserve">
+    <value>Το `{0}` έχει παραλειφθεί.
+&lt;: CB_NowPlaying: 586387464743157770&gt; Τώρα παίζετε: `{1}`</value>
+  </data>
+  <data name="music_skip_3" xml:space="preserve">
+    <value>Δεν παίζει κανένα τραγούδι αυτή την στιγμή.</value>
+  </data>
+  <data name="music_skip_4" xml:space="preserve">
+    <value>Δεν υπάρχει κανένα άλλο τραγούδι στην σειρά.</value>
+  </data>
+  <data name="music_voteskip_1" xml:space="preserve">
+    <value>Έχεις ήδη ψηφίσει για παράληψη, {0} περισσότερες ψήφους{1} χρειάζονται.</value>
+  </data>
+  <data name="music_voteskip_2" xml:space="preserve">
+    <value>Ψήφησες για παράληψη, {0} περισσότερες ψήφους{1} χρειάζονται.</value>
+  </data>
+  <data name="music_voteskip_3" xml:space="preserve">
+    <value>Έχετε ήδη ψηφιστεί να παραλείψετε, έχει αφαιρεθεί. Μπορείτε να το προσθέσετε ξανά γράφωντας `!skip` ξανά. {0} περισσότερες ψήφους{1} χρειάζονται.</value>
+  </data>
+  <data name="music_voteskip_4" xml:space="preserve">
+    <value>Η ψηφοφορία είναι στα {0}/{1}.</value>
+  </data>
+  <data name="music_url" xml:space="preserve">
+    <value>Πρέπει να γράψεις ένα όνομα τραγουδιού ή σύνδεσμο YouTube.</value>
+  </data>
+  <data name="music_no_results" xml:space="preserve">
+    <value>Δεν βρέθηκαν αποτελέσματα.</value>
+  </data>
+  <data name="music_invalid_track_1" xml:space="preserve">
+    <value>Το ID κομματιού είναι έξω από το έγκυρο εύρος. Γράψε `!queue` για να δεις έγκυρα ID κομματιών.</value>
+  </data>
+  <data name="music_invalid_track_2" xml:space="preserve">
+    <value>Το ID σειράς κομματιού πρέπει να είναι έγκυρο.</value>
+  </data>
+  <data name="music_limit_queue" xml:space="preserve">
+    <value>Η σειρά μπορεί να κρατήσει μέχρι 100 τραγούδια, παρακαλώ αφαιρέστε κάποια πριν βάλετε κι άλλα.</value>
+  </data>
+  <data name="music_limit_playlist" xml:space="preserve">
+    <value>Οι λίστες αναπαραγωγής μπορούν να έχουν μέχρι 50 τραγούδια, παρακαλώ διαλέξτε μια μικρότερη λίστα αναπαραγωγής.</value>
+  </data>
+  <data name="music_add_1" xml:space="preserve">
+    <value>Προστέθηκαν `{0}` τραγούδια στην σειρά.</value>
+  </data>
+  <data name="music_add_2" xml:space="preserve">
+    <value>Το τραγούδι `{0}` έχει προστεθεί στην σειρά.</value>
+  </data>
+  <data name="music_now_playing_1" xml:space="preserve">
+    <value>Τώρα παίζει: `{0}`</value>
+  </data>
+  <data name="music_volume" xml:space="preserve">
+    <value>Ήχος: `{0}`</value>
+  </data>
+  <data name="music_livestream" xml:space="preserve">
+    <value>Η εντολή απενεργοποιείται ενώ αναπαράγεται μια ζωντανή ροή.</value>
+  </data>
+  <data name="music_playlist_list" xml:space="preserve">
+    <value>Βρέθηκαν {0} λίστες αναπαραγωγής:
+```{1}```</value>
+  </data>
+  <data name="music_playlist_success_save" xml:space="preserve">
+    <value>Η αποθήκευση {0} τραγουδιών στην λίστα αναπαραγωγής `{1}` με επιτυχία.</value>
+  </data>
+  <data name="music_playlist_success_load" xml:space="preserve">
+    <value>Η φόρτωση {0} τραγουδιών από την λίστα αναπαραγωγής `{1}` έγινε με επιτυχία.</value>
+  </data>
+  <data name="music_playlist_success_delete" xml:space="preserve">
+    <value>Διαγράφηκε με επιτυχία η λίστα αναπαραγωγής `{0}`.</value>
+  </data>
+  <data name="music_locate" xml:space="preserve">
+    <value> Το Cakey Bot παίζει μουσική στο `{0}`.</value>
+  </data>
+  <data name="music_cancel_1" xml:space="preserve">
+    <value>Επιτυχία ακύρωση αναζήτησης.</value>
+  </data>
+  <data name="music_cancel_2" xml:space="preserve">
+    <value>Γράψτε έναν από τους αριθμούς για να διαλέξτε ένα τραγούδι ή γράψτε &#39;cancel&#39; /&#39;none&#39; για να ακυρώσετε την επιλογή.</value>
+  </data>
+  <data name="music_string_1" xml:space="preserve">
+    <value>Θέση στην σειρά:</value>
+  </data>
+  <data name="music_string_2" xml:space="preserve">
+    <value>Εκτιμώμενος χρόνος μέχρι το τραγούδι:</value>
+  </data>
+  <data name="music_string_3" xml:space="preserve">
+    <value>Δεν υπάρχουν τραγούδια στην σειρά.</value>
+  </data>
+  <data name="music_string_4" xml:space="preserve">
+    <value>Υπάρχουν άλλα {0} τραγούδια.</value>
+  </data>
+  <data name="music_string_5" xml:space="preserve">
+    <value>Πρέπει να γράψετε μια τιμή ώρας.</value>
+  </data>
+  <data name="music_string_6" xml:space="preserve">
+    <value>Ο χρόνος δεν είναι έγκυρος.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
+    <value>Ο χρόνος είναι εκτός του μήκους του βίντεο, προσπαθήστε ξανά.</value>
+  </data>
+  <data name="music_string_8" xml:space="preserve">
+    <value>Ένα τραγούδι πρέπει να παίζει αυτή την στιγμή για να χρησιμοποιήσετε αυτή την εντολή, προσπαθήστε `!play` αντί.</value>
+  </data>
+  <data name="music_string_9" xml:space="preserve">
+    <value>Δεν υπάρχει αναπαραγωγή κομματιού αυτήν τη στιγμή.</value>
+  </data>
+  <data name="music_string_10" xml:space="preserve">
+    <value>Συγγραφέας</value>
+  </data>
+  <data name="music_string_11" xml:space="preserve">
+    <value>Θέση</value>
+  </data>
+  <data name="music_string_12" xml:space="preserve">
+    <value>Ένταση</value>
+  </data>
+  <data name="music_string_13" xml:space="preserve">
+    <value>Πηγή</value>
+  </data>
+  <data name="music_string_14" xml:space="preserve">
+    <value>Είναι σε πάυση;</value>
+  </data>
+  <data name="music_string_15" xml:space="preserve">
+    <value>Απευθείας μετάδοση;</value>
+  </data>
+  <data name="music_string_16" xml:space="preserve">
+    <value>Ψήφοι παράλειψης</value>
+  </data>
+  <data name="music_string_17" xml:space="preserve">
+    <value>Σειρά:</value>
+  </data>
+  <data name="music_string_18" xml:space="preserve">
+    <value>Παίζει Τώρα:</value>
+  </data>
+  <data name="music_string_19" xml:space="preserve">
+    <value>Ζητήθηκε από</value>
+  </data>
+  <data name="music_string_20" xml:space="preserve">
+    <value>Βρόχο;</value>
+  </data>
+  <data name="music_string_21" xml:space="preserve">
+    <value>Έχει ενισχυθεί το μπάσο;</value>
+  </data>
+  <data name="music_unknown_author" xml:space="preserve">
+    <value>Άγνωστος δημιουργός</value>
+  </data>
+  <data name="music_unknown_title" xml:space="preserve">
+    <value>Άγνωστος τίτλος</value>
+  </data>
+  <data name="music_embed_success_1" xml:space="preserve">
+    <value>Το κανάλι αίτησης τραγουδιού (&lt;#{0}&gt;) έχει δημιουργηθεί. Μπορείτε να μετονομάσετε ή να μετακινήσετε το κανάλι, εάν θέλετε.
+</value>
+  </data>
+  <data name="music_embed_success_2" xml:space="preserve">
+    <value>Μην διαγράψετε μηνύματα στο κανάλι αίτησης τραγουδιού. Εάν το κάνετε, θα πρέπει να εκτελέσετε ξανά τη ρύθμιση.</value>
+  </data>
+  <data name="music_embed_queue_1" xml:space="preserve">
+    <value>Μπείτε σε ένα Κανάλι Ομιλίας και αναζητήστε ένα τραγούδι με το όνομα ή το URL πληκτρολογώντας το σε αυτό το κανάλι.</value>
+  </data>
+  <data name="music_embed_queue_2" xml:space="preserve">
+    <value>Υποστηριζόμενες πηγές: YouTube, YouTube Livestreams, Twitch, Bandcamp, Mixer, Vimeo, Soundcloud, Vlare.tv, Συνδεσμός/Αρχείο Ιστού *`(MP3 &amp; Μορφές MP4)`* &amp; Spotify *`(ΠΕΙΡΑΜΑΤΙΚΟ)`*.</value>
+  </data>
+  <data name="music_embed_react_1" xml:space="preserve">
+    <value>Παύση/Συνέχιση τραγουδιού</value>
+  </data>
+  <data name="music_embed_react_2" xml:space="preserve">
+    <value>Καθαρισμός λίστας αναπαραγωγής</value>
+  </data>
+  <data name="music_embed_react_3" xml:space="preserve">
+    <value>Παράλειψη του τραγουδιού</value>
+  </data>
+  <data name="music_embed_react_4" xml:space="preserve">
+    <value>Ανακάτεμα σειράς της ουράς</value>
+  </data>
+  <data name="music_embed_react_5" xml:space="preserve">
+    <value>Επανάληψη του τρέχοντος τραγουδιού</value>
+  </data>
+  <data name="music_embed_react_6" xml:space="preserve">
+    <value>Επανάληψη του τρέχοντος τραγουδιού</value>
+  </data>
+  <data name="music_logger_trackend" xml:space="preserve">
+    <value>Τελείωσε το:`{0}`
+&lt;:CB_NowPlaying:586387464743157770&gt; Τώρα παίζει: `{1}`</value>
+  </data>
+  <data name="music_logger_error" xml:space="preserve">
+    <value>Το τραγούδι κόλλησε προσπαθώντας να παίξει.</value>
+  </data>
+  <data name="music_logger_disconnect" xml:space="preserve">
+    <value>Όλοι οι χρήστες αποσυνδέθηκαν από το κανάλι φωνής, το bot θα αποσυνδεθεί σε 30 δευτερόλεπτα.</value>
+  </data>
+  <data name="roles_persistent" xml:space="preserve">
+    <value>Ο ρόλος του `{0}`ήταν επιτυχής {1} {2}.</value>
+  </data>
+  <data name="roles_persistent_1" xml:space="preserve">
+    <value>προστέθηκε</value>
+  </data>
+  <data name="roles_persistent_2" xml:space="preserve">
+    <value>αφαιρέθηκε από</value>
+  </data>
+  <data name="gif_error_1" xml:space="preserve">
+    <value>Δεν μπόρεσα να βρω κάποιο gif. :frowning:</value>
+  </data>
+  <data name="gif_error_2" xml:space="preserve">
+    <value>Δεν μπόρεσα να βρω κάποιο gif που ήταν SFW. :frowning:</value>
+  </data>
+  <data name="cmd_usage" xml:space="preserve">
+    <value>Το πρόθεμα αυτού του σέρβερ είναι: `{0}`
+Μπορείς να το αλλάξεις στο: https://cakeybot.app ή γράφοντας `{0}setting prefix &lt;new prefix&gt;`</value>
+  </data>
+  <data name="cmd_error_param" xml:space="preserve">
+    <value>Έχει λάθος αριθμό παραμέτρων.</value>
+  </data>
+  <data name="cmd_error_username" xml:space="preserve">
+    <value>Πρέπει να γράψεις ένα έγκυρο όνομα χρήστη.</value>
+  </data>
+  <data name="cmd_error_number" xml:space="preserve">
+    <value>Πρέπει να γράψεις ένα έγκυρο νούμερο.</value>
+  </data>
+  <data name="cmd_error_input" xml:space="preserve">
+    <value>Πρέπει να δώσετε έγκυρη εισαγωγή.</value>
+  </data>
+  <data name="cmd_error_matches" xml:space="preserve">
+    <value>Βρέθηκαν πολλαπλές αντιστοιχίες, παρακαλούμε να το αναφέρετε στην υποστήριξή μας στο Discord μας: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="cmd_error_unknown_1" xml:space="preserve">
+    <value>Ένα άγνωστο πρόβλημα προέκυψε.</value>
+  </data>
+  <data name="cmd_error_unknown_2" xml:space="preserve">
+    <value>Άγνωστο λάθος, παρακαλούμε να το αναφέρετε στην υποστήριξή μας στο Discord μας: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="audit_string_1" xml:space="preserve">
+    <value>Ο χρήστης μπήκε:</value>
+  </data>
+  <data name="audit_string_2" xml:space="preserve">
+    <value>Ο λογαριασμός δημιουργήθηκε στις:</value>
+  </data>
+  <data name="audit_string_3" xml:space="preserve">
+    <value>Ο χρήστης βγήκε:</value>
+  </data>
+  <data name="audit_string_4" xml:space="preserve">
+    <value>Καρφιτσωμένο</value>
+  </data>
+  <data name="audit_string_5" xml:space="preserve">
+    <value>Ξεκάρφιτσώθηκε</value>
+  </data>
+  <data name="audit_string_6" xml:space="preserve">
+    <value>**Μήνυμα {0} στο** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_7" xml:space="preserve">
+    <value>**Μήνυμα τροποποιήθηκε στο** &lt;#{0}&gt;</value>
+  </data>
+  <data name="audit_string_8" xml:space="preserve">
+    <value>Πριν:</value>
+  </data>
+  <data name="audit_string_9" xml:space="preserve">
+    <value>Μετά:</value>
+  </data>
+  <data name="audit_string_10" xml:space="preserve">
+    <value>Μήνυμα:</value>
+  </data>
+  <data name="audit_string_11" xml:space="preserve">
+    <value>Σύνδεσμος Εικόνας:</value>
+  </data>
+  <data name="audit_string_12" xml:space="preserve">
+    <value>**Μήνυμα σταλμένο από τον χρήστη &lt; @{0}&gt; διαγράφτηκε στο** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_13" xml:space="preserve">
+    <value>**Του χρήστη** &lt;@{0}&gt; **άλλαξε το ψευδώνυμο**</value>
+  </data>
+  <data name="audit_string_14" xml:space="preserve">
+    <value>**Ο χρήστης** &lt;@{0}&gt; **είχε αφαιρεθεί ο ρόλος `{1}`.**</value>
+  </data>
+  <data name="audit_string_15" xml:space="preserve">
+    <value>**Ο χρήστης** &lt;@{0}&gt; **δόθηκε τον ρόλο `{1}`.**</value>
+  </data>
+  <data name="audit_string_16" xml:space="preserve">
+    <value>Banned Μέλος</value>
+  </data>
+  <data name="audit_string_17" xml:space="preserve">
+    <value>Unbanned Μέλος</value>
+  </data>
+  <data name="audit_string_18" xml:space="preserve">
+    <value>Ο ρόλος δημιουργήθηκε:</value>
+  </data>
+  <data name="audit_string_19" xml:space="preserve">
+    <value>Όνομα ρόλου:</value>
+  </data>
+  <data name="audit_string_20" xml:space="preserve">
+    <value>Χρώμα ρόλου:</value>
+  </data>
+  <data name="audit_string_21" xml:space="preserve">
+    <value>Υψώθηκε:</value>
+  </data>
+  <data name="audit_string_22" xml:space="preserve">
+    <value>Μπορεί να επισημανθεί:</value>
+  </data>
+  <data name="audit_string_23" xml:space="preserve">
+    <value>Δικαιώματα:</value>
+  </data>
+  <data name="audit_string_24" xml:space="preserve">
+    <value>Ο ρόλος ενημερώθηκε:</value>
+  </data>
+  <data name="audit_string_25" xml:space="preserve">
+    <value>ID ρόλου:</value>
+  </data>
+  <data name="audit_string_26" xml:space="preserve">
+    <value>Ο ρόλος διαγράφτηκε:</value>
+  </data>
+  <data name="audit_string_27" xml:space="preserve">
+    <value>Κανάλι δημιουργήθηκε:</value>
+  </data>
+  <data name="audit_string_28" xml:space="preserve">
+    <value>Το κανάλι ενημερώθηκε:</value>
+  </data>
+  <data name="audit_string_29" xml:space="preserve">
+    <value>Όνομα καναλιού:</value>
+  </data>
+  <data name="audit_string_30" xml:space="preserve">
+    <value>Θέμα:</value>
+  </data>
+  <data name="audit_string_31" xml:space="preserve">
+    <value>Είναι NSFW;:</value>
+  </data>
+  <data name="audit_string_32" xml:space="preserve">
+    <value>Αργή λειτουργία:</value>
+  </data>
+  <data name="audit_string_33" xml:space="preserve">
+    <value>Υπό την κατηγορία:</value>
+  </data>
+  <data name="audit_string_34" xml:space="preserve">
+    <value>Το κανάλι διαγράφηκε:</value>
+  </data>
+  <data name="audit_string_35" xml:space="preserve">
+    <value>Επίπεδο βαθμίδας:</value>
+  </data>
+  <data name="audit_string_36" xml:space="preserve">
+    <value>Μετάβαση σε:</value>
+  </data>
+  <data name="audit_string_37" xml:space="preserve">
+    <value>**{0} μαζικά μηνύματα διαγράφηκαν στο ** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_38" xml:space="preserve">
+    <value>Παρακάμψεις δικαιωμάτων</value>
+  </data>
+  <data name="audit_string_39" xml:space="preserve">
+    <value>Τροποποιήθηκε</value>
+  </data>
+  <data name="util_server_name" xml:space="preserve">
+    <value>Όνομα / MOTD:</value>
+  </data>
+  <data name="util_server_status" xml:space="preserve">
+    <value>Κατάσταση:</value>
+  </data>
+  <data name="util_server_count" xml:space="preserve">
+    <value>Αριθμός Παικτών:</value>
+  </data>
+  <data name="util_server_version" xml:space="preserve">
+    <value>Έκδοση:</value>
+  </data>
+  <data name="util_server_software" xml:space="preserve">
+    <value>Λογισμικό:</value>
+  </data>
+  <data name="util_b64_result_1" xml:space="preserve">
+    <value>Κωδικοποίηση Base64 αποτελέσματα εικόνας: {0}</value>
+  </data>
+  <data name="util_b64_result_2" xml:space="preserve">
+    <value>Κωδικοποίηση Base64 αποτελέσματα: ```{0}```</value>
+  </data>
+  <data name="util_b64_result_3" xml:space="preserve">
+    <value>Αποκωδικοποίηση Base64 αποτελέσματα: ```{0}```</value>
+  </data>
+  <data name="util_md5_result" xml:space="preserve">
+    <value>Κατακερματισμός MD5 αποτελέσματα: ```{0}```</value>
+  </data>
+  <data name="util_sha1_result" xml:space="preserve">
+    <value>Κατακερματισμός SHA1 αποτελέσματα: ```{0}```</value>
+  </data>
+  <data name="util_sha256_result" xml:space="preserve">
+    <value>Κατακερματισμός SHA256 αποτελέσματα: ```{0}```</value>
+  </data>
+  <data name="util_sha512_result" xml:space="preserve">
+    <value>Κατακερματισμός SHA512 αποτελέσματα: ```{0}```</value>
+  </data>
+  <data name="util_hash_result" xml:space="preserve">
+    <value>Αποτελέσματα κατακερματισμού:
+
+**Base64 κωδικοποίηση εξόδου: **```{0}```** Κατακερματισμός MD5 εξόδου:**```{1}```**Κατακερματισμός SHA1 εξόδου:**```{2}```**Κατακρματισμός SHA256 εξόδου:**```{3}```**Κατακερματισμός SHA512 εξόδου:**```{4}```</value>
+  </data>
+  <data name="util_steam_level" xml:space="preserve">
+    <value>Επίπεδο</value>
+  </data>
+  <data name="util_steam_badges" xml:space="preserve">
+    <value>Σήματα</value>
+  </data>
+  <data name="util_steam_games" xml:space="preserve">
+    <value>Παιχνίδια</value>
+  </data>
+  <data name="util_steam_groups" xml:space="preserve">
+    <value>Ομάδες</value>
+  </data>
+  <data name="util_steam_friends" xml:space="preserve">
+    <value>Φίλοι</value>
+  </data>
+  <data name="util_steam_vac" xml:space="preserve">
+    <value>Αποκλεισμός VAC</value>
+  </data>
+  <data name="util_steam_hidden" xml:space="preserve">
+    <value>Κρυφό</value>
+  </data>
+  <data name="util_steam_realname" xml:space="preserve">
+    <value>Αληθινό όνομα:</value>
+  </data>
+  <data name="util_steam_limited" xml:space="preserve">
+    <value>Περιορισμένος λογαριασμός</value>
+  </data>
+  <data name="util_steam_info" xml:space="preserve">
+    <value>Πληροφορίες Steam του χρήστη {0}</value>
+  </data>
+  <data name="util_math_compute" xml:space="preserve">
+    <value>Υπολογισμός χρόνου: {0}s</value>
+  </data>
+  <data name="embed_footer_id_user" xml:space="preserve">
+    <value>Αναγνωριστικό Χρήστη:</value>
+  </data>
+  <data name="embed_footer_id_guild" xml:space="preserve">
+    <value>Αναγνωριστικό Διακομιστή:</value>
+  </data>
+  <data name="embed_footer_id_channel" xml:space="preserve">
+    <value>Αναγνωριστικό καναλιού:</value>
+  </data>
+  <data name="embed_footer_about" xml:space="preserve">
+    <value>Τροφοδοτείται από το Discord.Net που υλοποιεί τη Victoria</value>
+  </data>
+  <data name="embed_footer_shard" xml:space="preserve">
+    <value>Θραύσμα #{0}</value>
+  </data>
+  <data name="embed_footer_music_playlist" xml:space="preserve">
+    <value>Η λίστα αναπαραγωγής προστέθηκε από {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_added" xml:space="preserve">
+    <value>Προστέθηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_cancel" xml:space="preserve">
+    <value>Ακύρωση από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_resume" xml:space="preserve">
+    <value>Συνεχίστηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_pause" xml:space="preserve">
+    <value>Παύση από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_skip" xml:space="preserve">
+    <value>Παράλειψη ψήφου από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_clean" xml:space="preserve">
+    <value>Καθαρίστηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_remove" xml:space="preserve">
+    <value>Αφαιρέθηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_jump" xml:space="preserve">
+    <value>Μετάβαση στο τραγούδι που ζητήθηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_shuffle" xml:space="preserve">
+    <value>Ανακάτευση από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_loop" xml:space="preserve">
+    <value>Εναλλαγή βρόχου από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_bb" xml:space="preserve">
+    <value>Η Ενίσχυση μπάσων άλλαξε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_clear" xml:space="preserve">
+    <value>Καθαρίστηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_restart" xml:space="preserve">
+    <value>Επανεκκίνηση από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_ff" xml:space="preserve">
+    <value>Ταχεία προώθηση που ζητήθηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_rewind" xml:space="preserve">
+    <value>Η επαναφορά ζητήθηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_set" xml:space="preserve">
+    <value>Ορίστηκε από τον {0}#{1}</value>
+  </data>
+  <data name="embed_footer_music_smove" xml:space="preserve">
+    <value>Μεταφορά ζητήθηκε από τον {0}#{1}</value>
+  </data>
+  <data name="core_help_1" xml:space="preserve">
+    <value>Το πρόθεμα για αυτον τον διακομιστή είναι `{0}`
+ Αν ψάχνεις για μια λίστα για τις εντολές και πώς λειτουργούν, κάνε click στο `Λίστα εντολών` κάτω. Αν ψάχνεις βοήθεια για να καταλάβεις κατι τσέκαρε το `Έγγραφα / Συχνές ερωτήσεις` κάτω.</value>
+  </data>
+  <data name="core_useful_links" xml:space="preserve">
+    <value>Χρήσιμοι Σύνδεσμοι</value>
+  </data>
+  <data name="core_bot_commands" xml:space="preserve">
+    <value>Λίστα εντολών</value>
+  </data>
+  <data name="core_dashboard" xml:space="preserve">
+    <value>Πίνακας ελέγχου</value>
+  </data>
+  <data name="core_docs" xml:space="preserve">
+    <value>Έγγραφα / Συχνές ερωτήσεις</value>
+  </data>
+  <data name="core_support_discord" xml:space="preserve">
+    <value>Discord Διακομιστής Υποστήριξης</value>
+  </data>
+  <data name="core_bot_invite" xml:space="preserve">
+    <value>Προσκλητήριος Σύνδεσμος</value>
+  </data>
+  <data name="core_donate" xml:space="preserve">
+    <value>Κάντε Δωρεά</value>
+  </data>
+  <data name="core_error" xml:space="preserve">
+    <value>Σφάλμα: Το Cakey Bot απαιτεί δικαιώματα embed για πλήρη λειτουργία.</value>
+  </data>
+  <data name="core_cmd_search_1" xml:space="preserve">
+    <value>Δυστυχώς, δεν μπορώ να βρω μια εντολή όπως το `{0}`.</value>
+  </data>
+  <data name="core_cmd_search_2" xml:space="preserve">
+    <value>Ωρίστε μερικές εντολές όπως το `{0}`.</value>
+  </data>
+  <data name="core_cmd_info_alias" xml:space="preserve">
+    <value>Ψευδώνυμα:</value>
+  </data>
+  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <value>Παράμετροι:</value>
+  </data>
+  <data name="core_cmd_info_usage" xml:space="preserve">
+    <value>Χρήση:</value>
+  </data>
+  <data name="core_cmd_info_module" xml:space="preserve">
+    <value>Μονάδα:</value>
+  </data>
+  <data name="core_cmd_missing" xml:space="preserve">
+    <value>Πρέπει να δώσετε μια εντολή για την οποία θέλετε να δείτε βοήθεια.</value>
+  </data>
+  <data name="core_setting_usage" xml:space="preserve">
+    <value>Χρησιμοποιήστε την εντολή `{0}setting &lt;option&gt;` για να δείτε περισσότερες πληροφορίες σχετικά με αυτή την επιλογή.</value>
+  </data>
+  <data name="core_setting_usage_prefix" xml:space="preserve">
+    <value>`{0}setting prefix [Νέο πρόθεμα]`</value>
+  </data>
+  <data name="core_setting_usage_announce" xml:space="preserve">
+    <value>Χρήση: `{0}setting announcements [join | leave |ban] [Message]`</value>
+  </data>
+  <data name="core_setting_usage_mute" xml:space="preserve">
+    <value>`{0}setting muterole [Νέος Ρόλος]`</value>
+  </data>
+  <data name="core_setting_usage_autorole" xml:space="preserve">
+    <value>`{0}setting autorole [Νέος Ρόλος]`</value>
+  </data>
+  <data name="core_setting_usage_log" xml:space="preserve">
+    <value>`{0}setting log [Νέο κανάλι]`</value>
+  </data>
+  <data name="core_setting_usage_modules" xml:space="preserve">
+    <value>`{0}setting modules [Όνομα μονάδας]`</value>
+  </data>
+  <data name="core_setting_description_prefix" xml:space="preserve">
+    <value>Αλλάζει το πρόθεμα στο οποίο ανταποκρίνεται το Cakey Bot.</value>
+  </data>
+  <data name="core_setting_description_announce" xml:space="preserve">
+    <value>Αλλάζει το κανάλι στο οποίο οι αναρτήσεις του Cakey Bot ανακοινώνονται και τα μηνύματα.
+Μπορείτε να χρησιμοποιήσετε μεταβλητές σε `{0}` μεταβλητές για να προσαρμόσετε το μήνυμά σας!</value>
+  </data>
+  <data name="core_setting_description_mute" xml:space="preserve">
+    <value>Αλλάζει το ρόλο που δίνει ο cakey bot σε χρήστες με σίγαση.</value>
+  </data>
+  <data name="core_setting_description_autorole" xml:space="preserve">
+    <value>Αλλάζει το ρόλο που δίνει το Cakey Bot στους νέους χρήστες που μπαίνουν.</value>
+  </data>
+  <data name="core_setting_description_log" xml:space="preserve">
+    <value>Αλλάζει το κανάλι στο οποίο η Cakey Bot αναρτάει τα αρχεία καταγραφής.</value>
+  </data>
+  <data name="core_setting_description_modules" xml:space="preserve">
+    <value>Σας επιτρέπει να ενεργοποιείτε ή να απενεργοποιείτε ορισμένα τμήματα του Cakey Bot.</value>
+  </data>
+  <data name="core_setting_prefix" xml:space="preserve">
+    <value>Πρόθεμα</value>
+  </data>
+  <data name="core_setting_prefix_current" xml:space="preserve">
+    <value>Τρέχον πρόθεμα:</value>
+  </data>
+  <data name="core_setting_prefix_update" xml:space="preserve">
+    <value>Αλλαγή / ενημέρωση πρόθεμα:</value>
+  </data>
+  <data name="core_setting_log" xml:space="preserve">
+    <value>Κανάλι καταγραφής</value>
+  </data>
+  <data name="core_setting_log_current" xml:space="preserve">
+    <value>Τρέχον κανάλι καταγραφής:</value>
+  </data>
+  <data name="core_setting_log_update" xml:space="preserve">
+    <value>Αλλαγή/ενημέρωση καναλιού καταγραφής:</value>
+  </data>
+  <data name="core_setting_mute" xml:space="preserve">
+    <value>Ρόλος Σίγασης</value>
+  </data>
+  <data name="core_setting_mute_current" xml:space="preserve">
+    <value>Τρέχων ρόλος σίγασης:</value>
+  </data>
+  <data name="core_setting_mute_update" xml:space="preserve">
+    <value>Αλλαγή/Ενημέρωση ρόλου σίγασης:</value>
+  </data>
+  <data name="core_setting_auto" xml:space="preserve">
+    <value>Αυτόματος ρόλος</value>
+  </data>
+  <data name="core_setting_auto_current" xml:space="preserve">
+    <value>Τρέχων αυτόματος ρόλος:</value>
+  </data>
+  <data name="core_setting_auto_update" xml:space="preserve">
+    <value>Αλλαγή/ενημέρωση αυτόματου ρόλου:</value>
+  </data>
+  <data name="core_setting_toggle" xml:space="preserve">
+    <value>Εναλλαγή μονάδων</value>
+  </data>
+  <data name="core_setting_modules_current" xml:space="preserve">
+    <value>Τρέχουσες ρυθμίσεις:</value>
+  </data>
+  <data name="core_setting_modules_update" xml:space="preserve">
+    <value>Εναλλαγή μονάδων:</value>
+  </data>
+  <data name="core_setting_announcements" xml:space="preserve">
+    <value>Ανακοινώσεις</value>
+  </data>
+  <data name="core_setting_announcements_current_join" xml:space="preserve">
+    <value>Τρέχον μήνυμα σύνδεσης:</value>
+  </data>
+  <data name="core_setting_announcements_current_leave" xml:space="preserve">
+    <value>Τρέχον μήνυμα αποχώρησης:</value>
+  </data>
+  <data name="core_setting_announcements_current_ban" xml:space="preserve">
+    <value>Τρέχον μήνυμα ban:</value>
+  </data>
+  <data name="core_setting_announcements_current_channel" xml:space="preserve">
+    <value>Τρέχον κανάλι ανακοίνωσης:</value>
+  </data>
+  <data name="core_setting_announcements_update_channel_1" xml:space="preserve">
+    <value>Αλλαγή/ενημέρωση καναλιού ανακοινώσεων:</value>
+  </data>
+  <data name="core_setting_announcements_update_channel_2" xml:space="preserve">
+    <value>`{0}setting announcements [Νέο Κανάλι]`</value>
+  </data>
+  <data name="core_setting_announcements_update_msg_1" xml:space="preserve">
+    <value>Αλλαγή/ενημέρωση μηνυμάτων ανακοίνωσης:</value>
+  </data>
+  <data name="core_setting_announcements_update_msg_2" xml:space="preserve">
+    <value>`{0}setting announcements [join | leave | ban] [Message]`</value>
+  </data>
+  <data name="core_setting_updated_prefix" xml:space="preserve">
+    <value>Το πρόθεμα για αυτόν τον διακομιστή έχει ενημερωθεί σε: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_log_1" xml:space="preserve">
+    <value>`{0}setting log [Νέο Κανάλι]`</value>
+  </data>
+  <data name="core_setting_updated_log_2" xml:space="preserve">
+    <value>Το κανάλι καταγραφής για αυτόν τον διακομιστή έχει καταργηθεί.</value>
+  </data>
+  <data name="core_setting_updated_log_3" xml:space="preserve">
+    <value>Το κανάλι καταγραφής αυτού του διακομιστή έχει ενημερωθεί στο: &lt;#{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_announcements_1" xml:space="preserve">
+    <value>Το κανάλι ανακοινώσεων για αυτόν τον διακομιστή έχει καταργηθεί.</value>
+  </data>
+  <data name="core_setting_updated_announcements_2" xml:space="preserve">
+    <value>Το κανάλι ανακοινώσεων για αυτόν τον διακομιστή έχει ενημερωθεί στο: &lt;#{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_announcements_join" xml:space="preserve">
+    <value>Το μήνυμα σύνδεσης για αύτον τον διακομιστή έχει ενημερωθεί σε: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_announcements_ban" xml:space="preserve">
+    <value>Το μήνυμα ban για αυτόν τον διακομιστή έχει ενημερωθεί σε: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_announcements_leave" xml:space="preserve">
+    <value>Το μήνυμα αποχώρησης για αυτόν τον διακομιστή έχει ενημερωθεί σε: `{0}`</value>
+  </data>
+  <data name="core_setting_updated_mute_1" xml:space="preserve">
+    <value>Ο ρόλος σίγασης για αυτόν το διακομιστή καταργήθηκε.</value>
+  </data>
+  <data name="core_setting_updated_mute_2" xml:space="preserve">
+    <value>Ο ρόλος σίγασης για αυτόν το διακομιστή έχει ενημερωθεί στο: &lt;@&amp;{0}&gt;</value>
+  </data>
+  <data name="core_setting_updated_module" xml:space="preserve">
+    <value>Η μονάδα `{0}` για αυτόν το διακομιστή έχει ενημερωθεί σε: {1}</value>
+  </data>
+  <data name="core_setting_updated_auto_1" xml:space="preserve">
+    <value>Ο αυτόματος ρόλος για αυτόν το διακομιστή καταργήθηκε.</value>
+  </data>
+  <data name="core_setting_updated_auto_2" xml:space="preserve">
+    <value>Ο ρόλος αυτόματου για αυτόν το διακομιστή έχει ενημερωθεί σε: &lt;@&amp;{0}&gt;</value>
+  </data>
+  <data name="core_invite" xml:space="preserve">
+    <value>Θέλεις να με καλέσεις στο διακομιστή σου; Κάνε click στον παρακάτω σύνδεσμο!</value>
+  </data>
+  <data name="core_feedback_blacklisted" xml:space="preserve">
+    <value>Είσαι στη μαύρη λίστα για αυτή την εντολή. :(</value>
+  </data>
+  <data name="core_stats_1" xml:space="preserve">
+    <value>Καταμέτρηση μελών</value>
+  </data>
+  <data name="core_stats_2" xml:space="preserve">
+    <value>Σύνολο κατηγοριών</value>
+  </data>
+  <data name="core_stats_3" xml:space="preserve">
+    <value>Κανάλια κειμένου</value>
+  </data>
+  <data name="core_stats_4" xml:space="preserve">
+    <value>Κανάλια ομιλίας</value>
+  </data>
+  <data name="core_announce_usage" xml:space="preserve">
+    <value>Χρήση: `!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
+  </data>
+  <data name="core_announce_footer" xml:space="preserve">
+    <value>Ανακοίνωση</value>
+  </data>
+  <data name="core_sr_usage" xml:space="preserve">
+    <value>Χρήση: `!sr &lt;add | remove | use | unuse | list&gt; &lt;role&gt;`</value>
+  </data>
+  <data name="core_sr_added_1" xml:space="preserve">
+    <value>Ο ρόλος έχει ήδη προστεθεί.</value>
+  </data>
+  <data name="core_sr_added_2" xml:space="preserve">
+    <value>Επιτυχής προσθήκη αυτορόλου.</value>
+  </data>
+  <data name="core_sr_added_3" xml:space="preserve">
+    <value>Με επιτυχία προστέθηκε ο ρόλος που ζητήσατε.</value>
+  </data>
+  <data name="core_sr_removed_1" xml:space="preserve">
+    <value>Καταργήθηκε με επιτυχία ο αυτορόλος.</value>
+  </data>
+  <data name="core_sr_removed_2" xml:space="preserve">
+    <value>Καταργήσατε επιτυχώς τον απαιτούμενο ρόλο από εσάς.</value>
+  </data>
+  <data name="core_sr_none" xml:space="preserve">
+    <value>Δεν υπάρχουν διαθέσιμοι ρόλοι.</value>
+  </data>
+  <data name="core_sr_error_invalid" xml:space="preserve">
+    <value>Ο ρόλος δεν αναφέρεται ως αυτορόλος.</value>
+  </data>
+  <data name="core_sr_error_missing" xml:space="preserve">
+    <value>Ο ρόλος δεν υπάρχει πλέον.</value>
+  </data>
+  <data name="core_sr_error_have" xml:space="preserve">
+    <value>Έχεις ήδη αυτόν τον ρόλο.</value>
+  </data>
+  <data name="core_sr_error_have_not" xml:space="preserve">
+    <value>Δεν έχεις αυτόν τον ρόλο.</value>
+  </data>
+  <data name="core_invalid_channel" xml:space="preserve">
+    <value>Πρέπει να δώσετε ένα έγκυρο όνομα καναλιού!</value>
+  </data>
+  <data name="core_debug_required_core" xml:space="preserve">
+    <value>** Απαιτείται permisisons: (Core) **
+</value>
+  </data>
+  <data name="core_debug_optional_mod" xml:space="preserve">
+    <value>** Προαιρετικά δικαιώματα: (απαιτείται για τη μετριοπάθεια) **
+</value>
+  </data>
+  <data name="core_debug_optional_misc" xml:space="preserve">
+    <value>** Προαιρετικά δικαιώματα: (απαιτείται για βοηθητικά προγράμματα/misc) **
+</value>
+  </data>
+  <data name="core_debug_optional_music" xml:space="preserve">
+    <value>** Προαιρετικά δικαιώματα: (απαιτείται για τη μουσική) **
+</value>
+  </data>
+  <data name="core_debug_unused" xml:space="preserve">
+    <value>** Αχρησιμοποίητα δικαιώματα: **
+</value>
+  </data>
+  <data name="core_debug_wildcard" xml:space="preserve">
+    <value>** Δικαιώματα μπαλαντέρ: **
+</value>
+  </data>
+  <data name="urban_error" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η εύρεση καταχώρησης σας στο Urban Dictionary. Δοκιμάστε αργότερα ή δοκιμάστε άλλο.</value>
+  </data>
+  <data name="automod_string_caps" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε &gt;{0}% κεφαλαίων γραμμάτων.</value>
+  </data>
+  <data name="automod_string_blacklist_word" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε μια λέξη στη μαύρη λίστα.</value>
+  </data>
+  <data name="automod_string_discordinvite" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε σύνδεσμο πρόσκλησης.</value>
+  </data>
+  <data name="automod_string_url" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε url / σύνδεσμο.</value>
+  </data>
+  <data name="automod_string_mentions" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε &gt;{0} αναφορές χρηστών</value>
+  </data>
+  <data name="automod_string_emote" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε &gt;{0} emotes.</value>
+  </data>
+  <data name="automod_string_spoiler" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε ένα σπόιλερ.</value>
+  </data>
+  <data name="automod_string_selfbot" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε επειδή ήταν ένα μήνυμα self-bot.</value>
+  </data>
+  <data name="automod_string_duplicate_char" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε &gt;{0}% ίδιες λέξεις.</value>
+  </data>
+  <data name="automod_string_duplicate_word" xml:space="preserve">
+    <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε &gt;{0} ίδιες λέξεις.</value>
+  </data>
+  <data name="automod_check_mass_caps" xml:space="preserve">
+    <value>Μαζική κεφαλαιοποίηση</value>
+  </data>
+  <data name="automod_check_blacklist" xml:space="preserve">
+    <value>Μαύρη λίστα λέξεων</value>
+  </data>
+  <data name="automod_check_discord_invite" xml:space="preserve">
+    <value>Σύνδεσμος πρόσκλησης</value>
+  </data>
+  <data name="automod_check_website_url" xml:space="preserve">
+    <value>Διεύθυνση URL/Σύνδεσμος</value>
+  </data>
+  <data name="automod_check_mass_mentions" xml:space="preserve">
+    <value>Μαζικές αναφορές χρηστών</value>
+  </data>
+  <data name="automod_check_emoji_spam" xml:space="preserve">
+    <value>Emoji Σπάμ</value>
+  </data>
+  <data name="automod_check_spoilers" xml:space="preserve">
+    <value>Σπόιλερς</value>
+  </data>
+  <data name="automod_check_self_bot" xml:space="preserve">
+    <value>Μήνυμα self-bot</value>
+  </data>
+  <data name="automod_check_duplicate_char" xml:space="preserve">
+    <value>Ίδιοι χαρακτήρες</value>
+  </data>
+  <data name="automod_check_duplicate_word" xml:space="preserve">
+    <value>Ίδιες λέξεις</value>
+  </data>
+  <data name="automod_embed_violation" xml:space="preserve">
+    <value>Παραβίαση:</value>
+  </data>
+  <data name="automod_embed_value" xml:space="preserve">
+    <value>Τιμή:</value>
+  </data>
+  <data name="automod_embed_channel" xml:space="preserve">
+    <value>Κανάλι:</value>
+  </data>
+</root>
