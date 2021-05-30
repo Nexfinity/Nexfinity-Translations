@@ -1,4 +1,4 @@
-# CakeyBot Translations
+# Cakey Bot Translations
 [![Discord](https://discord.com/api/guilds/408424043482447872/widget.png)](https://discord.gg/Y3VdQAD)
 
 The goal of this repo is to allow anyone to contribute to Cakey Bot's translations easily and quickly. You do not have to ask permission to contribute, just make your chanegs and create a pull request! Please be sure to follow our Formatting and Translation rules below. This helps keep consistency accross all languages. 
