@@ -29,7 +29,7 @@ If you have any questions, you can also check out our FAQ section below or join 
    - Website: This folder contains all translations that are used on Cakey Bot's [Web Dashboard](https://cakeybot.app/dashboard/public).
      - Note: Website also has subfolders for each language type, where as the Bot folder does not.
 
-**3) What languages are currently added?**
+**3) What languages are currently fully supported on the website/bot?**
    - English (en)
    - Dutch (nl_NL)
    - German (de_DE)
@@ -40,6 +40,9 @@ If you have any questions, you can also check out our FAQ section below or join 
    - Italian (it_IT)
    - Arabic (ar_SA)
    - Romanian (ro_RO)
+   
+**4) What languages are currently added to the repo but are incomplete?**
+   - Persian (fa_FA)
 
-**4) Do I need permission to contribute?**
+**5) Do I need permission to contribute?**
    - Nope! Anyone can contribute, just be sure to follow our rules and formatting guidelines above.
