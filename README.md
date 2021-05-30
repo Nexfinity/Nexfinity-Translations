@@ -25,7 +25,16 @@ Website: This folder contains all translations that are used on Cakey Bot's web 
 => Note: Website also has subfolders for each language type, where as the Bot folder does not.
 
 3) What languages are currently added?
-* TBD
+* English (en)
+* Dutch (nl_NL)
+* German (de_DE)
+* Korean (ko_KR)
+* Greek (el_GR)
+* Swedish (sv_SE)
+* Turkish (tr_TR)
+* Italian (it_IT)
+* Arabic (ar_SA)
+* Romanian (ro_RO)
 
 4) Do I need permission to contribute?
 Nope! Anyone can contribute, just be sure to follow our rules and formatting guidelines above.
