@@ -26,7 +26,7 @@ If you have any questions, you can also check out our FAQ section below or join 
 
 **2) What do the folders mean?**
    - Bot: This folder contains all translations that are used in the Cakey Bot itself on [Discord](https://discord.gg/Y3VdQAD).
-   - Website: This folder contains all translations that are used on Cakey Bot's [web dashboard](https://cakeybot.app/dashboard/public).
+   - Website: This folder contains all translations that are used on Cakey Bot's [Web Dashboard](https://cakeybot.app/dashboard/public).
      - Note: Website also has subfolders for each language type, where as the Bot folder does not.
 
 **3) What languages are currently added?**
