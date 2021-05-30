@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -58,7 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
   <data name="cooldown" xml:space="preserve">
     <value>This command is on cooldown for: {0}</value>
   </data>
@@ -83,7 +141,7 @@
   <data name="error_generic_5" xml:space="preserve">
     <value>Sub-command coming soon.</value>
   </data>
-    <data name="error_ssl" xml:space="preserve">
+  <data name="error_ssl" xml:space="preserve">
     <value>SSL Error, please try again later.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -135,91 +193,91 @@
     <value>You must tag a role!</value>
   </data>
   <data name="error_missing_perm_manageroles" xml:space="preserve">
-    <value>You don&#39;t have ManageRoles permission!</value>
+    <value>You don't have ManageRoles permission!</value>
   </data>
   <data name="error_missing_perm_manageserver" xml:space="preserve">
-    <value>You don&#39;t have ManageServer permission!</value>
+    <value>You don't have ManageServer permission!</value>
   </data>
   <data name="error_missing_perm_managechannels" xml:space="preserve">
-    <value>You don&#39;t have ManageChannels permission!</value>
+    <value>You don't have ManageChannels permission!</value>
   </data>
   <data name="error_missing_perm_managenicks" xml:space="preserve">
-    <value>You don&#39;t have ManageNickname permissions!</value>
+    <value>You don't have ManageNickname permissions!</value>
   </data>
   <data name="error_missing_perm_managemessage_1" xml:space="preserve">
-    <value>You don&#39;t have ManageMessage permission!</value>
+    <value>You don't have ManageMessage permission!</value>
   </data>
   <data name="error_missing_perm_managemessage_2" xml:space="preserve">
-    <value>I don&#39;t have ManageMessage permission!</value>
+    <value>I don't have ManageMessage permission!</value>
   </data>
   <data name="error_missing_perm_moderator" xml:space="preserve">
     <value>You must have server moderator permissions to use this command. [More Info](https://docs.cakeybot.app/setup/faq#what-is-considered-a-server-moderator)</value>
   </data>
   <data name="error_missing_perm_emoji" xml:space="preserve">
-    <value>You don&#39;t have ManageEmoji permission!</value>
+    <value>You don't have ManageEmoji permission!</value>
   </data>
   <data name="error_missing_perm_administrator" xml:space="preserve">
-    <value>You don&#39;t have Administrator permission!</value>
+    <value>You don't have Administrator permission!</value>
   </data>
   <data name="error_missing_perm_kick" xml:space="preserve">
-    <value>You don&#39;t have kick permissions!</value>
+    <value>You don't have kick permissions!</value>
   </data>
   <data name="error_missing_perm_ban" xml:space="preserve">
-    <value>You don&#39;t have ban permission!</value>
+    <value>You don't have ban permission!</value>
   </data>
   <data name="error_missing_perm_unban" xml:space="preserve">
-    <value>You don&#39;t have unban permission!</value>
+    <value>You don't have unban permission!</value>
   </data>
   <data name="error_missing_perm_mute" xml:space="preserve">
-    <value>You don&#39;t have MuteMembers permission!</value>
+    <value>You don't have MuteMembers permission!</value>
   </data>
   <data name="error_missing_perm_self_emoji" xml:space="preserve">
-    <value>I don&#39;t have ManageEmoji permission!</value>
+    <value>I don't have ManageEmoji permission!</value>
   </data>
   <data name="error_missing_perm_self_react" xml:space="preserve">
-    <value>I don&#39;t have permission to add reactions!</value>
+    <value>I don't have permission to add reactions!</value>
   </data>
   <data name="error_missing_perm_self_kick" xml:space="preserve">
-    <value>I don&#39;t have kick permissions!</value>
+    <value>I don't have kick permissions!</value>
   </data>
   <data name="error_missing_perm_self_ban" xml:space="preserve">
-    <value>I don&#39;t have ban permissions!</value>
+    <value>I don't have ban permissions!</value>
   </data>
   <data name="error_missing_perm_self_unban" xml:space="preserve">
-    <value>I don&#39;t have unban permissions!</value>
+    <value>I don't have unban permissions!</value>
   </data>
   <data name="error_missing_perm_self_manageroles" xml:space="preserve">
-    <value>I don&#39;t have ManageRoles permissions!</value>
+    <value>I don't have ManageRoles permissions!</value>
   </data>
   <data name="error_missing_perm_self_managechannels" xml:space="preserve">
-    <value>I don&#39;t have ManageChannel permissions!</value>
+    <value>I don't have ManageChannel permissions!</value>
   </data>
   <data name="error_missing_perm_self_manageguild" xml:space="preserve">
-    <value>I don&#39;t have ManageGuild permissions! (Required to view guild invites)</value>
+    <value>I don't have ManageGuild permissions! (Required to view guild invites)</value>
   </data>
   <data name="error_missing_perm_self_managenicks" xml:space="preserve">
-    <value>I don&#39;t have ManageNickname permissions!</value>
+    <value>I don't have ManageNickname permissions!</value>
   </data>
   <data name="error_missing_perm_self_kick_admin" xml:space="preserve">
-    <value>I can&#39;t kick an Administrator!</value>
+    <value>I can't kick an Administrator!</value>
   </data>
   <data name="error_missing_perm_self_ban_admin" xml:space="preserve">
-    <value>I can&#39;t ban an Administrator!</value>
+    <value>I can't ban an Administrator!</value>
   </data>
   <data name="error_missing_perm_self_ban_soft_admin" xml:space="preserve">
-    <value>I can&#39;t soft ban an Administrator!</value>
+    <value>I can't soft ban an Administrator!</value>
   </data>
   <data name="error_missing_perm_self_mute_admin" xml:space="preserve">
-    <value>I can&#39;t mute an Administrator!</value>
+    <value>I can't mute an Administrator!</value>
   </data>
   <data name="error_missing_perm_self_warn_admin" xml:space="preserve">
-    <value>I can&#39;t warn an Administrator!</value>
+    <value>I can't warn an Administrator!</value>
   </data>
   <data name="error_missing_file_image_3" xml:space="preserve">
-    <value>Couldn&#39;t find any valid images in the past 3 messages.</value>
+    <value>Couldn't find any valid images in the past 3 messages.</value>
   </data>
   <data name="error_missing_file_image_5" xml:space="preserve">
-    <value>Couldn&#39;t find any valid images in the past 5 messages.</value>
+    <value>Couldn't find any valid images in the past 5 messages.</value>
   </data>
   <data name="error_missing_messages" xml:space="preserve">
     <value>No messages found for the given user.</value>
@@ -270,13 +328,13 @@
     <value>Failed to unban user.</value>
   </data>
   <data name="error_failed_unban_not_banned_1" xml:space="preserve">
-    <value>I&#39;m not banned!</value>
+    <value>I'm not banned!</value>
   </data>
   <data name="error_failed_unban_not_banned_2" xml:space="preserve">
     <value>Given user id is not banned.</value>
   </data>
   <data name="error_failed_unmute_not_muted" xml:space="preserve">
-    <value>User isn&#39;t muted. If they are, make sure to set the mute role with `!setting` or name it `Muted`.</value>
+    <value>User isn't muted. If they are, make sure to set the mute role with `!setting` or name it `Muted`.</value>
   </data>
   <data name="error_failed_playlist_save" xml:space="preserve">
     <value>Failed to save songs to playlist. Does the playlist already exist?</value>
@@ -288,49 +346,49 @@
     <value>Failed to delete your `{0}` playlist. Does the playlist exist?</value>
   </data>
   <data name="error_role_1" xml:space="preserve">
-    <value>I can&#39;t update that role, it&#39;s higher than my highest role.</value>
+    <value>I can't update that role, it's higher than my highest role.</value>
   </data>
   <data name="error_role_2" xml:space="preserve">
-    <value>You can&#39;t update that role, it&#39;s higher than your highest role.</value>
+    <value>You can't update that role, it's higher than your highest role.</value>
   </data>
   <data name="error_role_kick_1" xml:space="preserve">
-    <value>You can&#39;t kick someone above you in the role hierarchy!</value>
+    <value>You can't kick someone above you in the role hierarchy!</value>
   </data>
   <data name="error_role_kick_2" xml:space="preserve">
-    <value>I can&#39;t kick someone above me in the role hierarchy!</value>
+    <value>I can't kick someone above me in the role hierarchy!</value>
   </data>
   <data name="error_role_ban_1" xml:space="preserve">
-    <value>You can&#39;t ban someone above you in the role hierarchy!</value>
+    <value>You can't ban someone above you in the role hierarchy!</value>
   </data>
   <data name="error_role_ban_2" xml:space="preserve">
-    <value>I can&#39;t ban someone above me in the role hierarchy!</value>
+    <value>I can't ban someone above me in the role hierarchy!</value>
   </data>
   <data name="error_role_ban_soft_1" xml:space="preserve">
-    <value>You can&#39;t soft ban someone above you in the role hierarchy!</value>
+    <value>You can't soft ban someone above you in the role hierarchy!</value>
   </data>
   <data name="error_role_ban_soft_2" xml:space="preserve">
-    <value>I can&#39;t soft ban someone above me in the role hierarchy!</value>
+    <value>I can't soft ban someone above me in the role hierarchy!</value>
   </data>
   <data name="error_role_mute_1" xml:space="preserve">
-    <value>You can&#39;t mute someone above you in the role hierarchy!</value>
+    <value>You can't mute someone above you in the role hierarchy!</value>
   </data>
   <data name="error_role_mute_2" xml:space="preserve">
-    <value>I can&#39;t mute someone above me in the role hierarchy!</value>
+    <value>I can't mute someone above me in the role hierarchy!</value>
   </data>
   <data name="error_role_mute_3" xml:space="preserve">
-    <value>I can&#39;t use the mute role, it&#39;s higher than my highest role.</value>
+    <value>I can't use the mute role, it's higher than my highest role.</value>
   </data>
   <data name="error_role_warn_1" xml:space="preserve">
-    <value>You can&#39;t warn someone above you in the role hierarchy!</value>
+    <value>You can't warn someone above you in the role hierarchy!</value>
   </data>
   <data name="error_role_warn_2" xml:space="preserve">
-    <value>I can&#39;t warn someone above me in the role hierarchy!</value>
+    <value>I can't warn someone above me in the role hierarchy!</value>
   </data>
   <data name="error_role_unwarn_1" xml:space="preserve">
-    <value>You can&#39;t unwarn someone above you in the role hierarchy!</value>
+    <value>You can't unwarn someone above you in the role hierarchy!</value>
   </data>
   <data name="error_role_unwarn_2" xml:space="preserve">
-    <value>I can&#39;t unwarn someone above me in the role hierarchy!</value>
+    <value>I can't unwarn someone above me in the role hierarchy!</value>
   </data>
   <data name="error_invalid_color_hex" xml:space="preserve">
     <value>You must use a valid hex code!</value>
@@ -417,7 +475,7 @@
   <data name="success_role_updated_mentionable" xml:space="preserve">
     <value>Successfully updated `{0}`. (Mentionable: {1} » {2})</value>
   </data>
-    <data name="games_suggestion_suggestion" xml:space="preserve">
+  <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>Suggestion:</value>
   </data>
   <data name="games_suggestion_vote" xml:space="preserve">
@@ -487,7 +545,7 @@
     <value>I chose {0}; {1} beats {2}. You win!</value>
   </data>
   <data name="games_rps_outcome_3" xml:space="preserve">
-    <value>I chose {0}. Both of us chose {1}, it&#39;s a tie!</value>
+    <value>I chose {0}. Both of us chose {1}, it's a tie!</value>
   </data>
   <data name="games_giveaway_error_1" xml:space="preserve">
     <value>**Error:** Giveaways must last less than 1 hour.</value>
@@ -549,7 +607,7 @@ React with :tada: to enter the giveaway!</value>
     <value>Number of winners must be at least 1 and no more than 15.</value>
   </data>
   <data name="games_trivia_title" xml:space="preserve">
-    <value>{0}&#39;s Trivia Question</value>
+    <value>{0}'s Trivia Question</value>
   </data>
   <data name="games_trivia_footer" xml:space="preserve">
     <value>Type the letter of the correct answer • Question #{0}</value>
@@ -608,19 +666,19 @@ React with :tada: to enter the giveaway!</value>
     <value>Successfully removed you from AFK.</value>
   </data>
   <data name="afk_removed_2" xml:space="preserve">
-    <value>Successfully removed {0}&#39;s AFK.</value>
+    <value>Successfully removed {0}'s AFK.</value>
   </data>
   <data name="afk_updated" xml:space="preserve">
     <value>Successfully updated your AFK message to: `{0}`</value>
   </data>
   <data name="afk_permission" xml:space="preserve">
-    <value>You must have ManageServer or Administrator permission to remove another user&#39;s AFK status.</value>
+    <value>You must have ManageServer or Administrator permission to remove another user's AFK status.</value>
   </data>
   <data name="mod_kick_self" xml:space="preserve">
-    <value>You can&#39;t kick yourself!</value>
+    <value>You can't kick yourself!</value>
   </data>
   <data name="mod_kick_self_bot" xml:space="preserve">
-    <value>I can&#39;t kick myself!</value>
+    <value>I can't kick myself!</value>
   </data>
   <data name="mod_kick_success" xml:space="preserve">
     <value>{0}#{1} has been successfully kicked.</value>
@@ -632,10 +690,10 @@ React with :tada: to enter the giveaway!</value>
     <value>{0}#{1} has been successfully unbanned.</value>
   </data>
   <data name="mod_ban_self" xml:space="preserve">
-    <value>You can&#39;t ban yourself!</value>
+    <value>You can't ban yourself!</value>
   </data>
   <data name="mod_ban_self_bot" xml:space="preserve">
-    <value>I can&#39;t ban myself!</value>
+    <value>I can't ban myself!</value>
   </data>
   <data name="mod_ban_success" xml:space="preserve">
     <value>{0}#{1} has been successfully banned.</value>
@@ -650,10 +708,10 @@ React with :tada: to enter the giveaway!</value>
     <value>{0}#{1} has been successfully banned until {2}d{3}h{4}m.</value>
   </data>
   <data name="mod_ban_soft_self" xml:space="preserve">
-    <value>You can&#39;t soft ban yourself!</value>
+    <value>You can't soft ban yourself!</value>
   </data>
   <data name="mod_ban_soft_self_bot" xml:space="preserve">
-    <value>I can&#39;t soft ban myself!</value>
+    <value>I can't soft ban myself!</value>
   </data>
   <data name="mod_ban_soft_success" xml:space="preserve">
     <value>{0}#{1} has been soft banned. (They can now rejoin)</value>
@@ -662,10 +720,10 @@ React with :tada: to enter the giveaway!</value>
     <value>You were soft banned from `{0}` by `{1}` for: `{2}` (You may rejoin)</value>
   </data>
   <data name="mod_mute_self" xml:space="preserve">
-    <value>You can&#39;t mute yourself!</value>
+    <value>You can't mute yourself!</value>
   </data>
   <data name="mod_mute_self_bot" xml:space="preserve">
-    <value>I can&#39;t mute myself!</value>
+    <value>I can't mute myself!</value>
   </data>
   <data name="mod_mute_success" xml:space="preserve">
     <value>{0}#{1} has been successfully muted.</value>
@@ -683,7 +741,7 @@ React with :tada: to enter the giveaway!</value>
     <value>Unable to find or create a mute role.</value>
   </data>
   <data name="mod_unmute_self_bot" xml:space="preserve">
-    <value>I can&#39;t unmute myself!</value>
+    <value>I can't unmute myself!</value>
   </data>
   <data name="mod_unmute_success" xml:space="preserve">
     <value>{0}#{1} has been successfully unmuted.</value>
@@ -692,10 +750,10 @@ React with :tada: to enter the giveaway!</value>
     <value>You must enter a reason!</value>
   </data>
   <data name="mod_warn_self" xml:space="preserve">
-    <value>You can&#39;t warn yourself!</value>
+    <value>You can't warn yourself!</value>
   </data>
   <data name="mod_warn_self_bot" xml:space="preserve">
-    <value>I can&#39;t warn myself!</value>
+    <value>I can't warn myself!</value>
   </data>
   <data name="mod_warn_success" xml:space="preserve">
     <value>{0}#{1} has been successfully warned for: `{2}`.
@@ -705,10 +763,10 @@ React with :tada: to enter the giveaway!</value>
     <value>You were warned in `{0}` by `{1}` for: `{2}`</value>
   </data>
   <data name="mod_unwarn_self" xml:space="preserve">
-    <value>You can&#39;t unwarn yourself!</value>
+    <value>You can't unwarn yourself!</value>
   </data>
   <data name="mod_unwarn_self_bot" xml:space="preserve">
-    <value>I can&#39;t unwarn myself!</value>
+    <value>I can't unwarn myself!</value>
   </data>
   <data name="mod_unwarn_success" xml:space="preserve">
     <value>Warning has successfully been removed from: `{0}#{1}`</value>
@@ -787,13 +845,10 @@ Note: A message will be sent upon completion.</value>
     <value>Heartbeat Average:</value>
   </data>
   <data name="info_created_date" xml:space="preserve">
-    <value>Created on {0}. That&#39;s {1} days ago!</value>
+    <value>Created on {0}. That's {1} days ago!</value>
   </data>
   <data name="info_joined_date" xml:space="preserve">
     <value>Joined Discord on {0}. That is {1} days ago!</value>
-  </data>
-  <data name="info_days ago" xml:space="preserve">
-    <value>{0} days ago.</value>
   </data>
   <data name="info_boosters_extra" xml:space="preserve">
     <value>+{0} more users.</value>
@@ -856,10 +911,10 @@ Note: A message will be sent upon completion.</value>
     <value>VIP Features</value>
   </data>
   <data name="info_string_19" xml:space="preserve">
-    <value>{0}&#39;s Avatar</value>
+    <value>{0}'s Avatar</value>
   </data>
   <data name="info_string_20" xml:space="preserve">
-    <value>{0}&#39;s User Info</value>
+    <value>{0}'s User Info</value>
   </data>
   <data name="info_string_21" xml:space="preserve">
     <value>Status</value>
@@ -1005,7 +1060,7 @@ Note: A message will be sent upon completion.</value>
   <data name="info_string_68" xml:space="preserve">
     <value>Error</value>
   </data>
-    <data name="info_string_72" xml:space="preserve">
+  <data name="info_string_72" xml:space="preserve">
     <value>```{0} text, {1} voice```</value>
   </data>
   <data name="info_string_73" xml:space="preserve">
@@ -1050,7 +1105,7 @@ Note: A message will be sent upon completion.</value>
   <data name="weather_sun_set" xml:space="preserve">
     <value>Sunset</value>
   </data>
-    <data name="emoji_string_name" xml:space="preserve">
+  <data name="emoji_string_name" xml:space="preserve">
     <value>Name</value>
   </data>
   <data name="emoji_string_uploaded" xml:space="preserve">
@@ -1286,7 +1341,7 @@ Note: A message will be sent upon completion.</value>
 </value>
   </data>
   <data name="misc_pokemon_format_3" xml:space="preserve">
-    <value>Sp Attack: {0}  -  Sp Defense: {1}
+      <value>Sp Attack: {0}  -  Sp Defense: {1}
 </value>
   </data>
   <data name="misc_pokemon_format_4" xml:space="preserve">
@@ -1326,10 +1381,10 @@ Note: A message will be sent upon completion.</value>
     <value>You must be in a voice channel.</value>
   </data>
   <data name="music_error_voice_channel_2" xml:space="preserve">
-    <value>I can&#39;t join that voice channel.</value>
+    <value>I can't join that voice channel.</value>
   </data>
   <data name="music_error_voice_channel_3" xml:space="preserve">
-    <value>I can&#39;t speak in that voice channel.</value>
+    <value>I can't speak in that voice channel.</value>
   </data>
   <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>I am already in that channel.</value>
@@ -1341,7 +1396,7 @@ Note: A message will be sent upon completion.</value>
     <value>You must be in the same channel as the bot. Try using `!join` or `!move`</value>
   </data>
   <data name="music_error_player" xml:space="preserve">
-    <value>Player doesn&#39;t exist, please type `!join` again.</value>
+    <value>Player doesn't exist, please type `!join` again.</value>
   </data>
   <data name="music_error_play" xml:space="preserve">
     <value>Error while loading track: ```{0}```</value>
@@ -1358,7 +1413,7 @@ Note: A message will be sent upon completion.</value>
   <data name="music_disconnect" xml:space="preserve">
     <value>Successfully disconnected!</value>
   </data>
-    <data name="music_disconnect_error_2" xml:space="preserve">
+  <data name="music_disconnect_error_2" xml:space="preserve">
     <value>You must be the only user in the voice channel or you must have mod permissions to disconnect Cakey Bot if a song is playing.</value>
   </data>
   <data name="music_move" xml:space="preserve">
@@ -1410,7 +1465,7 @@ Note: A message will be sent upon completion.</value>
     <value>I have restarted the song at the beginning.</value>
   </data>
   <data name="music_seek_1" xml:space="preserve">
-    <value>A song must be playing to modify it&#39;s position.</value>
+    <value>A song must be playing to modify it's position.</value>
   </data>
   <data name="music_seek_3" xml:space="preserve">
     <value>I have sought to the time: `{0}`</value>
@@ -1454,7 +1509,7 @@ Note: A message will be sent upon completion.</value>
     <value>No lyrics found.</value>
   </data>
   <data name="music_volume_1" xml:space="preserve">
-    <value>A song must be playing to modify it&#39;s volume.</value>
+    <value>A song must be playing to modify it's volume.</value>
   </data>
   <data name="music_volume_2" xml:space="preserve">
     <value>Volume must be between 0 and 100.</value>
@@ -1462,7 +1517,7 @@ Note: A message will be sent upon completion.</value>
   <data name="music_volume_3" xml:space="preserve">
     <value>Volume successfully set to: `{0}`</value>
   </data>
-    <data name="music_skip_1" xml:space="preserve">
+  <data name="music_skip_1" xml:space="preserve">
     <value>`{0}` has been skipped.</value>
   </data>
   <data name="music_skip_2" xml:space="preserve">
@@ -1475,7 +1530,7 @@ Note: A message will be sent upon completion.</value>
   <data name="music_skip_4" xml:space="preserve">
     <value>There are no more items left in queue.</value>
   </data>
-    <data name="music_voteskip_2" xml:space="preserve">
+  <data name="music_voteskip_2" xml:space="preserve">
     <value>You have voted to skip, {0} more vote{1} required.</value>
   </data>
   <data name="music_voteskip_3" xml:space="preserve">
@@ -1537,7 +1592,7 @@ Note: A message will be sent upon completion.</value>
     <value>Successfully canceled search.</value>
   </data>
   <data name="music_cancel_2" xml:space="preserve">
-    <value>Type the number to select a song or &#39;cancel&#39;/&#39;none&#39; to cancel the selection.</value>
+    <value>Type the number to select a song or 'cancel'/'none' to cancel the selection.</value>
   </data>
   <data name="music_string_1" xml:space="preserve">
     <value>Queue Position:</value>
@@ -1558,7 +1613,7 @@ Note: A message will be sent upon completion.</value>
     <value>Invalid time.</value>
   </data>
   <data name="music_string_7" xml:space="preserve">
-    <value>Time is outside of video&#39;s length, try again.</value>
+    <value>Time is outside of video's length, try again.</value>
   </data>
   <data name="music_string_8" xml:space="preserve">
     <value>A song must currently be playing to use this command, try `!play` instead.</value>
@@ -1680,10 +1735,10 @@ Note: A message will be sent upon completion.</value>
     <value>removed from</value>
   </data>
   <data name="gif_error_1" xml:space="preserve">
-    <value>Couldn&#39;t find any gifs. :frowning:</value>
+    <value>Couldn't find any gifs. :frowning:</value>
   </data>
   <data name="gif_error_2" xml:space="preserve">
-    <value>Couldn&#39;t find any gifs that were SFW :frowning:</value>
+    <value>Couldn't find any gifs that were SFW :frowning:</value>
   </data>
   <data name="cmd_usage" xml:space="preserve">
     <value>The prefix for this server is: `{0}`
@@ -1761,7 +1816,7 @@ You can change the prefix at: https://cakeybot.app or with `{0}setting prefix &l
     <value>**Message sent by &lt;@{0}&gt; deleted in** &lt;#{1}&gt;</value>
   </data>
   <data name="audit_string_13" xml:space="preserve">
-    <value>&lt;@{0}&gt;**&#39;s nickname changed**</value>
+    <value>&lt;@{0}&gt;**'s nickname changed**</value>
   </data>
   <data name="audit_string_14" xml:space="preserve">
     <value>&lt;@{0}&gt;** had the `{1}` role removed.**</value>
@@ -1933,7 +1988,7 @@ You can change the prefix at: https://cakeybot.app or with `{0}setting prefix &l
   <data name="util_steam_groups" xml:space="preserve">
     <value>Groups</value>
   </data>
-    <data name="util_steam_vac" xml:space="preserve">
+  <data name="util_steam_vac" xml:space="preserve">
     <value>VAC Banned</value>
   </data>
   <data name="util_steam_hidden" xml:space="preserve">
@@ -1946,7 +2001,7 @@ You can change the prefix at: https://cakeybot.app or with `{0}setting prefix &l
     <value>Limited Account</value>
   </data>
   <data name="util_steam_info" xml:space="preserve">
-    <value>{0}&#39;s Steam Info</value>
+    <value>{0}'s Steam Info</value>
   </data>
   <data name="util_math_compute" xml:space="preserve">
     <value>Compute Time: {0}s</value>
@@ -2052,7 +2107,7 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
     <value>*System Message*</value>
   </data>
   <data name="core_cmd_search_1" xml:space="preserve">
-    <value>Sorry, I couldn&#39;t find a command like `{0}`.</value>
+    <value>Sorry, I couldn't find a command like `{0}`.</value>
   </data>
   <data name="core_cmd_search_2" xml:space="preserve">
     <value>Here are some commands like `{0}`.</value>
@@ -2078,10 +2133,10 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
   <data name="core_setting_usage_prefix" xml:space="preserve">
     <value>`{0}setting prefix [New Prefix]`</value>
   </data>
-    <data name="core_setting_description_prefix" xml:space="preserve">
+  <data name="core_setting_description_prefix" xml:space="preserve">
     <value>Changes the prefix that Cakey Bot responds to.</value>
   </data>
-    <data name="core_setting_prefix" xml:space="preserve">
+  <data name="core_setting_prefix" xml:space="preserve">
     <value>Prefix</value>
   </data>
   <data name="core_setting_prefix_current" xml:space="preserve">
@@ -2090,13 +2145,13 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
   <data name="core_setting_prefix_update" xml:space="preserve">
     <value>Change/Update Prefix:</value>
   </data>
-    <data name="core_setting_modules_current" xml:space="preserve">
+  <data name="core_setting_modules_current" xml:space="preserve">
     <value>Current Settings:</value>
   </data>
-    <data name="core_setting_updated_prefix" xml:space="preserve">
+  <data name="core_setting_updated_prefix" xml:space="preserve">
     <value>The prefix for this server has been updated to: `{0}`</value>
   </data>
-    <data name="core_invite" xml:space="preserve">
+  <data name="core_invite" xml:space="preserve">
     <value>Want to invite me to your guild? Click the link below!</value>
   </data>
   <data name="core_feedback_blacklisted" xml:space="preserve">
@@ -2142,7 +2197,7 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
     <value>No roles available.</value>
   </data>
   <data name="core_sr_error_invalid" xml:space="preserve">
-    <value>Role isn&#39;t listed as a self role.</value>
+    <value>Role isn't listed as a self role.</value>
   </data>
   <data name="core_sr_error_missing" xml:space="preserve">
     <value>Role no longer exists.</value>
@@ -2151,7 +2206,7 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
     <value>You already have this role.</value>
   </data>
   <data name="core_sr_error_have_not" xml:space="preserve">
-    <value>You don&#39;t have this role.</value>
+    <value>You don't have this role.</value>
   </data>
   <data name="core_invalid_channel" xml:space="preserve">
     <value>You must provide a valid channel name!</value>
@@ -2187,7 +2242,7 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
     <value>Command Info</value>
   </data>
   <data name="urban_error" xml:space="preserve">
-    <value>Couldn&#39;t find Urban Dictionary entry. Try later or try another one.</value>
+    <value>Couldn't find Urban Dictionary entry. Try later or try another one.</value>
   </data>
   <data name="automod_string_caps" xml:space="preserve">
     <value>Your message was deleted for containing &gt;{0}% of capital letters.</value>

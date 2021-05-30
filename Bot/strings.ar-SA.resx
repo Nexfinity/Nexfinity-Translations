@@ -1892,4 +1892,380 @@
   <data name="automod_embed_channel" xml:space="preserve">
     <value>قناة:</value>
   </data>
+    <data name="audit_string_40" xml:space="preserve">
+        <value>**Guild Boost Count Updated:**</value>
+    </data>
+    <data name="audit_string_41" xml:space="preserve">
+        <value>Suspicious Account</value>
+    </data>
+    <data name="audit_string_42" xml:space="preserve">
+        <value>User:</value>
+    </data>
+    <data name="audit_string_43" xml:space="preserve">
+        <value>swapped voice channels.</value>
+    </data>
+    <data name="audit_string_44" xml:space="preserve">
+        <value> a voice channel.</value>
+    </data>
+    <data name="audit_string_45" xml:space="preserve">
+        <value>joined</value>
+    </data>
+    <data name="audit_string_46" xml:space="preserve">
+        <value>left</value>
+    </data>
+    <data name="automod_check_stickers" xml:space="preserve">
+        <value>Stickers</value>
+    </data>
+    <data name="util_server_offline" xml:space="preserve">
+        <value>The server is offline or is not responding to queries.</value>
+    </data>
+    <data name="quoter_by_value" xml:space="preserve">
+        <value>{0} from &lt;#{1}&gt; in {2}</value>
+    </data>
+    <data name="quoter_by_title" xml:space="preserve">
+        <value>Quoted By:</value>
+    </data>
+    <data name="audit_string_47" xml:space="preserve">
+        <value>**{0} has {1}**</value>
+    </data>
+    <data name="audit_string_48" xml:space="preserve">
+        <value>Last Nickname:</value>
+    </data>
+    <data name="audit_string_49" xml:space="preserve">
+        <value>Invite Link Created: [{0}](https://discord.com/invite/{1})</value>
+    </data>
+    <data name="audit_string_51" xml:space="preserve">
+        <value>Invite Link Deleted: `{0}`</value>
+    </data>
+    <data name="automod_check_auto_dehoist" xml:space="preserve">
+        <value>Auto Dehoist</value>
+    </data>
+    <data name="audit_string_50" xml:space="preserve">
+        <value>Widget</value>
+    </data>
+    <data name="cmd_error_requests" xml:space="preserve">
+        <value>Received too many requests. Please try again later.</value>
+    </data>
+    <data name="automod_string_stickers" xml:space="preserve">
+        <value>Your message was deleted because it contained stickers.</value>
+    </data>
+    <data name="core_limited" xml:space="preserve">
+        <value>Cakey Bot is currently having technical issues. Some features are disabled or limited temporarily.</value>
+    </data>
+    <data name="cmd_error_song_request" xml:space="preserve">
+        <value>You can not run commands in the song request channel.</value>
+    </data>
+    <data name="cmd_error_timeout_1" xml:space="preserve">
+        <value>Timed out while trying to run the command.</value>
+    </data>
+    <data name="cmd_error_timeout_2" xml:space="preserve">
+        <value>Request timed out, please try again later.</value>
+    </data>
+    <data name="core_string_1" xml:space="preserve">
+        <value>Command Info</value>
+    </data>
+    <data name="core_system_message" xml:space="preserve">
+        <value>*System Message*</value>
+    </data>
+    <data name="error_invalid_user_guild" xml:space="preserve">
+        <value>User is invalid. (Invalid guild user)</value>
+    </data>
+    <data name="music_equalizer_invalid_1" xml:space="preserve">
+        <value>Valid bands are 0 through 14</value>
+    </data>
+    <data name="music_equalizer_invalid_2" xml:space="preserve">
+        <value>Valid gain values are between -0.25 and 1.0</value>
+    </data>
+    <data name="music_equalizer_none" xml:space="preserve">
+        <value>No equalizer bands have been set.</value>
+    </data>
+    <data name="music_equalizer_success" xml:space="preserve">
+        <value>Successfully set band #{0} to `{1}`</value>
+    </data>
+    <data name="music_error_lavalink" xml:space="preserve">
+        <value>LavaLink instance crashed. Please report in our </value>
+    </data>
+    <data name="music_error_timespan" xml:space="preserve">
+        <value>Timespan of queue is too long. Please clear songs from the queue before adding more.</value>
+    </data>
+    <data name="music_grab_dm" xml:space="preserve">
+        <value>Successfully sent song info to your DMs.</value>
+    </data>
+    <data name="music_grab_dm_failed" xml:space="preserve">
+        <value>Failed to send DM, please check your settings.</value>
+    </data>
+    <data name="music_grab_error" xml:space="preserve">
+        <value>A song must be playing to grab it.</value>
+    </data>
+    <data name="mod_mute_role_error" xml:space="preserve">
+        <value>Unable to find or create a mute role.</value>
+    </data>
+    <data name="mod_mute_temp_success" xml:space="preserve">
+        <value>{0}#{1} has been successfully muted until {2}d{3}h{4}m.</value>
+    </data>
+    <data name="mod_mute_temp_error" xml:space="preserve">
+        <value>Temp mutes must be 1 month or less.</value>
+    </data>
+    <data name="mod_ban_temp_error" xml:space="preserve">
+        <value>Temp bans must be 1 month or less.</value>
+    </data>
+    <data name="mod_ban_temp_success" xml:space="preserve">
+        <value>{0}#{1} has been successfully banned until {2}d{3}h{4}m.</value>
+    </data>
+    <data name="misc_trailer" xml:space="preserve">
+        <value>{0} Trailer: &lt;{1}&gt;</value>
+    </data>
+    <data name="games_trivia_category" xml:space="preserve">
+        <value>Category</value>
+    </data>
+    <data name="games_trivia_correct" xml:space="preserve">
+        <value>You got it right! :D</value>
+    </data>
+    <data name="games_trivia_difficulty" xml:space="preserve">
+        <value>Difficulty</value>
+    </data>
+    <data name="games_trivia_footer" xml:space="preserve">
+        <value>Type the letter of the correct answer • Question #{0}</value>
+    </data>
+    <data name="games_trivia_incorrect" xml:space="preserve">
+        <value>Oh no, you got it wrong. Correct answer: `{0}`</value>
+    </data>
+    <data name="games_trivia_invalid" xml:space="preserve">
+        <value>Invalid answer was provided. Next time only provide the letter. Correct answer: `{0}`</value>
+    </data>
+    <data name="games_trivia_instructions" xml:space="preserve">
+        <value>*You have 10 seconds to answer with the correct letter.*
+
+</value>
+    </data>
+    <data name="games_trivia_load_failed" xml:space="preserve">
+        <value>Failed to load any trivia questions. Please try again later.</value>
+    </data>
+    <data name="games_trivia_title" xml:space="preserve">
+        <value>{0}'s Trivia Question</value>
+    </data>
+    <data name="games_trivia_valid" xml:space="preserve">
+        <value>Valid answers are: `A`, `B`, `C`, or `D`.</value>
+    </data>
+    <data name="github_results" xml:space="preserve">
+        <value>Showing lines {0} - {1} of `{2}`</value>
+    </data>
+    <data name="games_trivia_timeout" xml:space="preserve">
+        <value>No answer was provided within 15s. Correct answer: `{0}`</value>
+    </data>
+    <data name="info_string_72" xml:space="preserve">
+        <value>```{0} text, {1} voice```</value>
+    </data>
+    <data name="info_string_73" xml:space="preserve">
+        <value>```Server Owner```</value>
+    </data>
+    <data name="info_string_74" xml:space="preserve">
+        <value>```Server Admin```</value>
+    </data>
+    <data name="info_string_75" xml:space="preserve">
+        <value>```Server Moderator```</value>
+    </data>
+    <data name="info_string_76" xml:space="preserve">
+        <value>You can also donate to show your support!</value>
+    </data>
+    <data name="info_string_77" xml:space="preserve">
+        <value>{0} Boosters</value>
+    </data>
+    <data name="misc_anime_end" xml:space="preserve">
+        <value>End Date:</value>
+    </data>
+    <data name="misc_anime_episodes" xml:space="preserve">
+        <value>Episodes:</value>
+    </data>
+    <data name="misc_anime_footer" xml:space="preserve">
+        <value>Anime ID: {0} • Score: {1}</value>
+    </data>
+    <data name="misc_anime_rating" xml:space="preserve">
+        <value>Rating:</value>
+    </data>
+    <data name="misc_anime_start" xml:space="preserve">
+        <value>Start Date:</value>
+    </data>
+    <data name="misc_anime_status" xml:space="preserve">
+        <value>Status:</value>
+    </data>
+    <data name="misc_anime_status_airing" xml:space="preserve">
+        <value>Airing</value>
+    </data>
+    <data name="misc_anime_status_ended" xml:space="preserve">
+        <value>Ended</value>
+    </data>
+    <data name="misc_anime_synopsis" xml:space="preserve">
+        <value>Synopsis:</value>
+    </data>
+    <data name="misc_bgg_footer" xml:space="preserve">
+        <value>Game ID: {0} • Source: https://boardgamegeek.com/</value>
+    </data>
+    <data name="misc_bgg_name" xml:space="preserve">
+        <value>**Name:** {0}
+</value>
+    </data>
+    <data name="misc_bgg_name_alt" xml:space="preserve">
+        <value>**Alt. Name:** {0}</value>
+    </data>
+    <data name="misc_bgg_players" xml:space="preserve">
+        <value>**Players:** Min: {0} - Max: {1}
+</value>
+    </data>
+    <data name="misc_bgg_players_min" xml:space="preserve">
+        <value>Min. Players:</value>
+    </data>
+    <data name="misc_bgg_playtime" xml:space="preserve">
+        <value>**Playtime:** Min: {0} - Max: {1}</value>
+    </data>
+    <data name="misc_bgg_release" xml:space="preserve">
+        <value>Release Date:</value>
+    </data>
+    <data name="misc_convert_usage" xml:space="preserve">
+        <value>Usage: `!convert &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
+    </data>
+    <data name="misc_covid_advice" xml:space="preserve">
+        <value>Advice for Public</value>
+    </data>
+    <data name="misc_covid_active" xml:space="preserve">
+        <value>Active</value>
+    </data>
+    <data name="misc_covid_cases" xml:space="preserve">
+        <value>Cases</value>
+    </data>
+    <data name="misc_covid_cases_today" xml:space="preserve">
+        <value>Cases Today</value>
+    </data>
+    <data name="misc_covid_deaths" xml:space="preserve">
+        <value>Deaths</value>
+    </data>
+    <data name="misc_covid_for_country" xml:space="preserve">
+        <value>COVID-19 Statistics for {0}</value>
+    </data>
+    <data name="misc_covid_deaths_today" xml:space="preserve">
+        <value>Deaths Today</value>
+    </data>
+    <data name="misc_covid_for_global" xml:space="preserve">
+        <value>COVID-19 Statistics for GLOBAL</value>
+    </data>
+    <data name="misc_covid_recovered" xml:space="preserve">
+        <value>Recovered</value>
+    </data>
+    <data name="misc_fact_failed" xml:space="preserve">
+        <value>Failed to get a fact.</value>
+    </data>
+    <data name="misc_fact_invalid" xml:space="preserve">
+        <value>Invalid fact type. **Valid Types:** Dog, Cat, Panda, Fox, Bird, Koala, Kangaroo, Raccoon, Elephant, Giraffe, Whale</value>
+    </data>
+    <data name="misc_imdb_awards" xml:space="preserve">
+        <value>Awards:</value>
+    </data>
+    <data name="misc_imdb_companies" xml:space="preserve">
+        <value>Companies:</value>
+    </data>
+    <data name="misc_imdb_content_rating" xml:space="preserve">
+        <value>Content Rating:</value>
+    </data>
+    <data name="misc_imdb_countries" xml:space="preserve">
+        <value>Countries:</value>
+    </data>
+    <data name="misc_imdb_directors" xml:space="preserve">
+        <value>Directors:</value>
+    </data>
+    <data name="misc_imdb_genres" xml:space="preserve">
+        <value>Genres:</value>
+    </data>
+    <data name="misc_imdb_language" xml:space="preserve">
+        <value>Language:</value>
+    </data>
+    <data name="misc_imdb_metacritic" xml:space="preserve">
+        <value>Metacritic Rating:</value>
+    </data>
+    <data name="misc_imdb_name_birth" xml:space="preserve">
+        <value>Birth Date:</value>
+    </data>
+    <data name="misc_imdb_name_death" xml:space="preserve">
+        <value>Death Date:</value>
+    </data>
+    <data name="misc_imdb_name_known" xml:space="preserve">
+        <value>Known For:</value>
+    </data>
+    <data name="misc_imdb_name_movies" xml:space="preserve">
+        <value>Movies:</value>
+    </data>
+    <data name="misc_imdb_name_roles" xml:space="preserve">
+        <value>Role(s):</value>
+    </data>
+    <data name="misc_imdb_produced" xml:space="preserve">
+        <value>Produced:</value>
+    </data>
+    <data name="misc_imdb_rating" xml:space="preserve">
+        <value>IMDb Rating:</value>
+    </data>
+    <data name="misc_imdb_writers" xml:space="preserve">
+        <value>Writers:</value>
+    </data>
+    <data name="misc_imdb_stars" xml:space="preserve">
+        <value>Stars:</value>
+    </data>
+    <data name="misc_manga_footer" xml:space="preserve">
+        <value>Manga ID: {0} • Score: {1}</value>
+    </data>
+    <data name="misc_manga_chapters" xml:space="preserve">
+        <value>Chapters:</value>
+    </data>
+    <data name="misc_pokemon_failed" xml:space="preserve">
+        <value>Sorry, I could not find that pokemon.</value>
+    </data>
+    <data name="misc_pokemon_evolution" xml:space="preserve">
+        <value>Evolution Line: (Stage: {0})</value>
+    </data>
+    <data name="misc_pokemon_egg_groups" xml:space="preserve">
+        <value>Egg Groups:</value>
+    </data>
+    <data name="misc_pokemon_base_exp" xml:space="preserve">
+        <value>Base Exp:</value>
+    </data>
+    <data name="misc_pokemon_abilities" xml:space="preserve">
+        <value>Abilities:</value>
+    </data>
+    <data name="misc_manga_volumes" xml:space="preserve">
+        <value>Volumes:</value>
+    </data>
+    <data name="misc_manga_status_ip" xml:space="preserve">
+        <value>In-Progress</value>
+    </data>
+    <data name="misc_manga_status_completed" xml:space="preserve">
+        <value>Completed</value>
+    </data>
+    <data name="misc_pokemon_format_1" xml:space="preserve">
+        <value>HP: {0}  -  Speed: {1}
+</value>
+    </data>
+    <data name="misc_pokemon_format_2" xml:space="preserve">
+        <value>Attack: {0}  -  Defense: {1}
+</value>
+    </data>
+    <data name="misc_pokemon_format_3" xml:space="preserve">
+        <value>Sp Attack: {0}  -  Sp Defense: {1}
+</value>
+    </data>
+    <data name="misc_pokemon_format_4" xml:space="preserve">
+        <value>Total: {0}</value>
+    </data>
+    <data name="misc_pokemon_gender" xml:space="preserve">
+        <value>Gender:</value>
+    </data>
+    <data name="misc_pokemon_height" xml:space="preserve">
+        <value>Height:</value>
+    </data>
+    <data name="misc_pokemon_species" xml:space="preserve">
+        <value>Species:</value>
+    </data>
+    <data name="misc_pokemon_stats" xml:space="preserve">
+        <value>Stats:</value>
+    </data>
+    <data name="misc_pokemon_weight" xml:space="preserve">
+        <value>Weight:</value>
+    </data>
 </root>
