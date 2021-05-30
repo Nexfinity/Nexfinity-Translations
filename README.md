@@ -16,9 +16,10 @@ If you have any questions, you can also check out our FAQ section below or join 
 1) Please do not insert unnecessary punctuation into strings, unless it is required for that language
 2) Any string that contains ` symbols, please leave them in the same position and don't remove them. Also do not change them to other symbols like ' or ", these are used to highlight certain text or to prevent "@everyone" pings from being used/abused. Removing or changeing these could break formatting in Cakey Bot
 3) If you encounter any placeholders like {0}, {1}, etc, keep them in the string. These are automatically replaced in the bot with text so `Requested by {0}#{1}` when used in the bot will be replaced with like `Requested by MrCake#1337`
-4) If you need more context/info about how/where a string is used to provide an accurate translation, you can create a discussion or issue here on Github or you can join our [Discord](https://discord.gg/Y3VdQAD) and a reviewer will provide further info/screenshots.
+4) If you need more context/info about how/where a string is used to provide an accurate translation, you can create a discussion or issue here on GitHub or you can join our [Discord](https://discord.gg/Y3VdQAD) and a reviewer will provide further info/screenshots.
 5) Do not translation the string identifiers, these are often on the left side of the string and act as unique identifiers for the strings.
 6) Do not translate commands. Cakey Bot only accepts base commands in english. For example if the translaiton string is `Usage: !userinfo <user>`, you can translate the `Usage:` and `<user>` parts, but you must leave the command (`!userinfo`) in english.
+7) Do not translate brand names (e.g. Discord, YouTube) and be sure to keep any capitalization on them.
 
 # FAQ
 **1) What if I don't see a section for my language?**
