@@ -316,6 +316,7 @@ return [
 "bot-settings-tooltip-6" => "사용자의 AFK 상태가 자동으로 제거되기 전에 활성화되어 있을 시간을 설정합니다(영구 AFK 상태의 경우 -1로 설정).",
 "bot-settings-tooltip-7" => "사용자가 !verify 명령을 실행할 때 사용자에게 부여되는 역할입니다.",
 "bot-settings-tooltip-8" => "사용자가 이 길드에서 !query 명령을 실행할 때 사용되는 이미지입니다. null로 두면 기본 이미지를 사용합니다.",
+"bot-settings-tooltip-9" => "사용자가 참여할 때 Cakey Bot이 사용자에게 추가할 역할을 설정합니다. 'none'이 설정된 경우, Cakey Bot이 어떤 역할도 할당하지 않습니다.",
 "bot-settings-tooltip-10" => "사용자가 길드를 나갔다가 다시 참여할 경우 Cakey Bot이 뮤트 역할을 자동으로 다시 적용하게 합니다.",
 "music-queue-table-1" => "제목",
 "music-queue-table-2" => "작성자",
