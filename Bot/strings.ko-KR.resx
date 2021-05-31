@@ -391,7 +391,7 @@
     <value>사용법: `{0}verify setup &lt;역할&gt;`</value>
   </data>
   <data name="error_usage_verify_set" xml:space="preserve">
-    <value>확인 역할이 설정되지 않았습니다. 다음 명령을 사용해 역할을 설정하세요: `{0}verify setup &lt;역할&gt;`</value>
+    <value>확인 역할이 설정되지 않았습니다. 다음 명령을 사용하여 역할을 설정하세요: `{0}verify setup &lt;역할&gt;`</value>
   </data>
   <data name="error_verify" xml:space="preserve">
     <value>확인 역할을 설정하지 못했습니다.</value>
@@ -1015,7 +1015,7 @@
     <value>```서버 운영자```</value>
   </data>
   <data name="info_string_76" xml:space="preserve">
-    <value>지지를 보여주기 위해 기부할 수도 있습니다!</value>
+    <value>지지를 보여주기 위해 후원할 수도 있습니다!</value>
   </data>
   <data name="info_string_77" xml:space="preserve">
     <value>부스터 {0}명</value>
@@ -1476,7 +1476,7 @@
     <value>건너뛰기로 투표했습니다(더 필요한 투표수: {0}).</value>
   </data>
   <data name="music_voteskip_3" xml:space="preserve">
-    <value>이미 건너뛰기로 투표했기에 사용자의 투표가 제거되었습니다. `!skip`을 다시 입력해 투표를 다시 추가할 수 있습니다. 투표는 {0}표 더 필요합니다.</value>
+    <value>이미 건너뛰기로 투표했기에 사용자의 투표가 제거되었습니다. `!skip`을 다시 입력하여 투표를 다시 추가할 수 있습니다. 투표는 {0}표 더 필요합니다.</value>
   </data>
   <data name="music_voteskip_4" xml:space="preserve">
     <value>투표가 {0}/{1}입니다.</value>
@@ -1488,7 +1488,7 @@
     <value>결과가 없습니다.</value>
   </data>
   <data name="music_invalid_track_1" xml:space="preserve">
-    <value>트랙 ID가 올바른 범위를 벗어납니다. `!queue`를 입력해 올바른 트랙 ID를 확인하세요.</value>
+    <value>트랙 ID가 올바른 범위를 벗어납니다. `!queue`를 입력하여 올바른 트랙 ID를 확인하세요.</value>
   </data>
   <data name="music_invalid_track_2" xml:space="preserve">
     <value>트랙 대기열 ID는 올발라야 합니다.</value>
@@ -1613,7 +1613,7 @@
     <value>노래 요청 채널에서 메시지를 삭제하지 마세요. 삭제할 경우 설정을 다시 실행해야 합니다.</value>
   </data>
   <data name="music_embed_queue_1" xml:space="preserve">
-    <value>음성 채널에 참여하고 이 채널에서 이름이나 URL을 입력해 이름이나 URL로 노래를 검색할 수 있습니다.</value>
+    <value>음성 채널에 참여하고 이 채널에서 이름이나 URL을 입력하여 이름이나 URL로 노래를 검색할 수 있습니다.</value>
   </data>
   <data name="music_embed_queue_2" xml:space="preserve">
     <value>지원되는 출처: YouTube, YouTube 실시간 스트림, Twitch, Bandcamp, Vimeo, SoundCloud, Vlare.tv, 직접 URL/웹 파일 *`(MP3 및 MP4 형식)`* 및 Spotify *`(실험적)`*.</value>
@@ -2070,7 +2070,7 @@
     <value>도움말을 보려는 명령어를 지정해야 합니다.</value>
   </data>
   <data name="core_setting_usage" xml:space="preserve">
-    <value>`{0}setting &lt;옵션&gt;` 명령을 사용해 해당 옵션에 대한 자세한 정보를 볼 수 있습니다.</value>
+    <value>`{0}setting &lt;옵션&gt;` 명령을 사용하여 해당 옵션에 대한 자세한 정보를 볼 수 있습니다.</value>
   </data>
   <data name="core_setting_usage_prefix" xml:space="preserve">
     <value>`{0}setting prefix [새로운 접두사]`</value>
@@ -2210,6 +2210,9 @@
   <data name="automod_string_selfbot" xml:space="preserve">
     <value>셀프 봇 메시지이기에 메시지가 삭제되었습니다.</value>
   </data>
+  <data name="automod_string_stickers" xml:space="preserve">
+    <value>메시지가 스티커를 포함하기에 삭제되었습니다.</value>
+  </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
     <value>메시지에 중복된 문자가 &gt;{0}% 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
@@ -2240,6 +2243,9 @@
   <data name="automod_check_self_bot" xml:space="preserve">
     <value>셀프 봇 메시지</value>
   </data>
+  <data name="automod_check_stickers" xml:space="preserve">
+    <value>스티커</value>
+  </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
     <value>중복된 문자</value>
   </data>
@@ -2267,10 +2273,4 @@
   <data name="quoter_by_value" xml:space="preserve">
     <value>{2}의 &lt;#{1}&gt;에서 {0}</value>
   </data>
-    <data name="automod_check_stickers" xml:space="preserve">
-        <value>Stickers</value>
-    </data>
-    <data name="automod_string_stickers" xml:space="preserve">
-        <value>Your message was deleted because it contained stickers.</value>
-    </data>
 </root>
