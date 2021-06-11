@@ -48,6 +48,7 @@ our [Discord](https://discord.gg/Y3VdQAD) and ask.
 8. If you are unsure how you should format a specific string you can look at
    another language's file or you can open up a discussion. (You can also ask on
    our [Discord](https://discord.gg/Y3VdQAD))
+9. Don't translate emojis or emotes. This will cause them to break and display incorrectly to users.
 
 # FAQ
 
