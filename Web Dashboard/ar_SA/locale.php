@@ -425,5 +425,6 @@ return [
 "music-blacklist-clear" => "Successfully cleared music blacklist.",
 "music-blacklist-title" => "Title Blacklist",
 "music-blacklist-tooltip" => "Prevent playing songs whose title include any of these words.",
+"premium-bot-token" => "Successfully updated bot token.",
 ];
 ?>

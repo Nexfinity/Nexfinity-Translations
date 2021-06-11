@@ -425,5 +425,6 @@ return [
 "music-blacklist-clear" => "음악 블랙리스트를 성공적으로 지웠습니다.",
 "music-blacklist-title" => "제목 블랙리스트",
 "music-blacklist-tooltip" => "제목에 다음 단어가 포함된 노래 재생을 금지합니다.",
+"premium-bot-token" => "Successfully updated bot token.",
 ];
 ?>
