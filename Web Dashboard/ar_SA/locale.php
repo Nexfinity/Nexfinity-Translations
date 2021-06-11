@@ -400,13 +400,13 @@ return [
 "audit-bot-language" => "Updated bot language: :data",
 "audit-verify" => "Updated verify role: :data",
 "audit-quoter" => "Updated auto quoter: :data",
-"audit-github" => "Updated github previewer: :data",
+"audit-github" => "Updated GitHub Previewer: :data",
 "audit-afk-time" => "Updated max AFK time: :data",
 "audit-afk-status" => "Updated AFK status: :data",
 "audit-persistent-mutes" => "Updated persistent mutes: :data",
 "audit-cc-delete" => "Deleted custom command.",
 "audit-cc-disabled" => "Disabled custom command: :data",
-"audit-cc-enabled" => "Disabled custom command: :data",
+"audit-cc-enabled" => "Enabled custom command: :data",
 "audit-cc-added" => "Added custom command.",
 "audit-cc-updated" => "Updated custom command: :data",
 "audit-report" => "Updated report channel: :data",
@@ -430,6 +430,6 @@ return [
 "premium-bot-title-1" => "Bot token:",
 "premium-bot-title-2" => "Bot status:",
 "premium-white-label-title" => "White Label Services",
-"premium-white-label-locked" => "You must susbcribe to our White Label patreon tier to unlock this.",
+"premium-white-label-locked" => "You must subscribe to our White Label Patreon tier to unlock this.",
 ];
 ?>
