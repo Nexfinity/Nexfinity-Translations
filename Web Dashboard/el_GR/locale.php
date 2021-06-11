@@ -426,5 +426,10 @@ return [
 "music-blacklist-title" => "Title Blacklist",
 "music-blacklist-tooltip" => "Prevent playing songs whose title include any of these words.",
 "premium-bot-token" => "Successfully updated bot token.",
+"premium-bot-status" => "Successfully updated bot status.",
+"premium-bot-title-1" => "Bot token:",
+"premium-bot-title-2" => "Bot status:",
+"premium-white-label-title" => "White Label Services",
+"premium-white-label-locked" => "You must susbcribe to our White Label patreon tier to unlock this.",
 ];
 ?>

@@ -426,5 +426,10 @@ return [
 "music-blacklist-title" => "제목 블랙리스트",
 "music-blacklist-tooltip" => "제목에 다음 단어가 포함된 노래 재생을 금지합니다.",
 "premium-bot-token" => "Successfully updated bot token.",
+"premium-bot-status" => "Successfully updated bot status.",
+"premium-bot-title-1" => "Bot token:",
+"premium-bot-title-2" => "Bot status:",
+"premium-white-label-title" => "White Label Services",
+"premium-white-label-locked" => "You must susbcribe to our White Label patreon tier to unlock this.",
 ];
 ?>
