@@ -431,5 +431,6 @@ return [
 "premium-bot-title-2" => "Bot status:",
 "premium-white-label-title" => "White Label Services",
 "premium-white-label-locked" => "You must subscribe to our White Label Patreon tier to unlock this.",
+"premium-guild" => "Premium Guild",
 ];
 ?>

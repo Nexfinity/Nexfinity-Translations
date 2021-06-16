@@ -431,5 +431,6 @@ return [
 "premium-bot-title-2" => "봇 상태:",
 "premium-white-label-title" => "화이트 레이블 서비스",
 "premium-white-label-locked" => "잠금을 해제하려면 화이트 레이블 Patreon 계층을 구독해야 합니다.",
+"premium-guild" => "Premium Guild",
 ];
 ?>

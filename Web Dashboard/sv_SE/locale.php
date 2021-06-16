@@ -431,5 +431,6 @@ return [
 "premium-bot-title-2" => "Bot-status:",
 "premium-white-label-title" => "White Label-tjänster",
 "premium-white-label-locked" => "Du måste prenumerera till vår White Label-tier på Patreon för att låsa upp detta.",
+"premium-guild" => "Premium Guild",
 ];
 ?>
