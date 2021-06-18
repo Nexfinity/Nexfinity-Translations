@@ -434,5 +434,6 @@ return [
 "premium-guild" => "Premium Guild",
 "premium-subscription-id" => "Subscription ID",
 "premium-type" => "Type",
+"premium-order-id" => "Order ID",
 ];
 ?>
