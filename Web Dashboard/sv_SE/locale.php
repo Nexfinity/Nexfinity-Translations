@@ -432,5 +432,7 @@ return [
 "premium-white-label-title" => "White Label-tjänster",
 "premium-white-label-locked" => "Du måste prenumerera till vår White Label-tier på Patreon för att låsa upp detta.",
 "premium-guild" => "Premiumserver",
+"premium-subscription-id" => "Subscription ID",
+"premium-type" => "Type",
 ];
 ?>

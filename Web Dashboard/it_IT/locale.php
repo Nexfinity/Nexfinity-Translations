@@ -432,5 +432,7 @@ return [
 "premium-white-label-title" => "White Label Services",
 "premium-white-label-locked" => "You must subscribe to our White Label Patreon tier to unlock this.",
 "premium-guild" => "Premium Guild",
+"premium-subscription-id" => "Subscription ID",
+"premium-type" => "Type",
 ];
 ?>

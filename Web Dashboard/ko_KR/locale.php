@@ -432,5 +432,7 @@ return [
 "premium-white-label-title" => "화이트 레이블 서비스",
 "premium-white-label-locked" => "잠금을 해제하려면 화이트 레이블 Patreon 계층을 구독해야 합니다.",
 "premium-guild" => "Premium 길드",
+"premium-subscription-id" => "Subscription ID",
+"premium-type" => "Type",
 ];
 ?>
