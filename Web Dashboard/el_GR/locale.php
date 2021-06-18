@@ -435,5 +435,10 @@ return [
 "premium-subscription-id" => "Subscription ID",
 "premium-type" => "Type",
 "premium-order-id" => "Order ID",
+"alert-new" => " New",
+"alert-title" => "Dashboard Notifications",
+"alert-footer" => "Click Alerts to Open URLs",
+"nav-plan-premium" => "Premium Plan",
+"nav-plan-free" => "Free Plan",
 ];
 ?>

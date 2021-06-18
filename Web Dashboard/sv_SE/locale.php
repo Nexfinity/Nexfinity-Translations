@@ -435,5 +435,10 @@ return [
 "premium-subscription-id" => "Prenumerations-ID",
 "premium-type" => "Typ",
 "premium-order-id" => "Beställnings-ID",
+"alert-new" => " New",
+"alert-title" => "Dashboard Notifications",
+"alert-footer" => "Click Alerts to Open URLs",
+"nav-plan-premium" => "Premium Plan",
+"nav-plan-free" => "Free Plan",
 ];
 ?>
