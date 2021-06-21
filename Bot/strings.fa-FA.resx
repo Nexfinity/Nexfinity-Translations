@@ -1463,11 +1463,11 @@ Note: A message will be sent upon completion.</value>
     <value>Volume successfully set to: `{0}`</value>
   </data>
     <data name="music_skip_1" xml:space="preserve">
-    <value>`{0}` has been skipped.</value>
+    <value>[{0}]({1}) [ {2} ] has been skipped.</value>
   </data>
   <data name="music_skip_2" xml:space="preserve">
-    <value>`{0}` has been skipped.
-&lt;:CB_NowPlaying:586387464743157770&gt; Now Playing: `{1}`</value>
+    <value>Skipped [{0}]({1}) [ {2} ] 
+&lt;:CB_NowPlaying:586387464743157770&gt; Now Playing: [{3}]({4}) [ {5} ]</value>
   </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>No song is currently playing.</value>
@@ -1506,10 +1506,10 @@ Note: A message will be sent upon completion.</value>
     <value>Added `{0}` songs to the queue.</value>
   </data>
   <data name="music_add_2" xml:space="preserve">
-    <value>`{0}` has been added to the queue.</value>
+    <value>[{0}]({1}) [ {2} ] has been added to the queue.</value>
   </data>
   <data name="music_now_playing_1" xml:space="preserve">
-    <value>Now Playing: `{0}`</value>
+    <value>Now Playing: [{0}]({1}) [ {2} ]</value>
   </data>
   <data name="music_volume" xml:space="preserve">
     <value>Volume: `{0}`</value>
@@ -1640,8 +1640,8 @@ Note: A message will be sent upon completion.</value>
     <value>Restart the current song</value>
   </data>
   <data name="music_logger_trackend" xml:space="preserve">
-    <value>Finished playing: `{0}`
-&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: `{1}`</value>
+    <value>Finished Playing: [{0}]({1}) [ {2} ] 
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [ {5} ]</value>
   </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>Track got stuck while trying to play.</value>

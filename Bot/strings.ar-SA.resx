@@ -1182,12 +1182,12 @@
     <value>تم ضبط مستوى الصوت بنجاح على: `{0}`</value>
   </data>
     <data name="music_skip_1" xml:space="preserve">
-    <value>`{0}` تم تخطي.</value>
-  </data>
-  <data name="music_skip_2" xml:space="preserve">
-    <value>`{0}` تم تخطي.
-&lt;: CB_NowPlaying: 586387464743157770&gt; التشغيل الأن: `{1}`</value>
-  </data>
+        <value>[{0}]({1}) [ {2} ] has been skipped.</value>
+    </data>
+    <data name="music_skip_2" xml:space="preserve">
+        <value>Skipped [{0}]({1}) [ {2} ]
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [ {5} ]</value>
+    </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>لا توجد أغنيه قيد التشغيل حاليا.</value>
   </data>
@@ -1224,12 +1224,12 @@
   <data name="music_add_1" xml:space="preserve">
     <value>أضاف`{0}` الأغاني إلى قائمه الانتظار.</value>
   </data>
-  <data name="music_add_2" xml:space="preserve">
-    <value>`{0}` تمت اضافته إلى قائمه الانتظار.</value>
-  </data>
-  <data name="music_now_playing_1" xml:space="preserve">
-    <value>الآن التشغيل: `{0}`</value>
-  </data>
+    <data name="music_add_2" xml:space="preserve">
+        <value>[{0}]({1}) [ {2} ] has been added to the queue.</value>
+    </data>
+    <data name="music_now_playing_1" xml:space="preserve">
+        <value>Now playing: [{0}]({1}) [ {2} ]</value>
+    </data>
   <data name="music_volume" xml:space="preserve">
     <value>الصوت: `{0}`</value>
   </data>
@@ -1357,10 +1357,10 @@
   <data name="music_embed_react_6" xml:space="preserve">
     <value>أعادة تشغيل الأغنية الحالية</value>
   </data>
-  <data name="music_logger_trackend" xml:space="preserve">
-    <value>تم الانتهاء من التشغيل: `{0}`
-&lt;:CB_NowPlaying:586387464743157770&gt; الآن: `{1}`</value>
-  </data>
+    <data name="music_logger_trackend" xml:space="preserve">
+        <value>Finished playing: [{0}]({1}) [ {2} ]
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [ {5} ]</value>
+    </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>عُلقت المسار أثناء محاولة اللتشغيل.</value>
   </data>

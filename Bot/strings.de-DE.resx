@@ -1183,12 +1183,12 @@ Hinweis: Eine Nachricht wird bei der Fertigstellung versendet.</value>
     <value>Lautstärke wurde erfolgreich auf: `{0}` gesetzt</value>
   </data>
     <data name="music_skip_1" xml:space="preserve">
-    <value>`{0}` wurde übersprungen.</value>
-  </data>
-  <data name="music_skip_2" xml:space="preserve">
-    <value>`{0}`wurde übersprungen.
-&lt;:CB_NowPlaying:586387464743157770&gt; Aktuelle Wiedergabe: `{1}`</value>
-  </data>
+        <value>[{0}]({1}) [ {2} ] has been skipped.</value>
+    </data>
+    <data name="music_skip_2" xml:space="preserve">
+        <value>Skipped [{0}]({1}) [ {2} ]
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [ {5} ]</value>
+    </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>Derzeit wird kein Song abgespielt.</value>
   </data>
@@ -1225,12 +1225,12 @@ Hinweis: Eine Nachricht wird bei der Fertigstellung versendet.</value>
   <data name="music_add_1" xml:space="preserve">
     <value>`{0}` Titel wurden zur Warteschlange hinzugefügt.</value>
   </data>
-  <data name="music_add_2" xml:space="preserve">
-    <value>`{0}` wurde zur Warteschlange hinzugefügt.</value>
-  </data>
-  <data name="music_now_playing_1" xml:space="preserve">
-    <value>`{0}` wird abgespielt</value>
-  </data>
+    <data name="music_add_2" xml:space="preserve">
+        <value>[{0}]({1}) [ {2} ] has been added to the queue.</value>
+    </data>
+    <data name="music_now_playing_1" xml:space="preserve">
+        <value>Now playing: [{0}]({1}) [ {2} ]</value>
+    </data>
   <data name="music_volume" xml:space="preserve">
     <value>Lautstärke: `{0}`</value>
   </data>
@@ -1359,10 +1359,10 @@ Hinweis: Eine Nachricht wird bei der Fertigstellung versendet.</value>
   <data name="music_embed_react_6" xml:space="preserve">
     <value>Aktuellen Song neu starten</value>
   </data>
-  <data name="music_logger_trackend" xml:space="preserve">
-    <value>Abspielen von `{0}`
-&lt;:CB_NowPlaying:586387464743157770&gt; beendet. Jetzt läuft: `{1}`</value>
-  </data>
+    <data name="music_logger_trackend" xml:space="preserve">
+        <value>Finished playing: [{0}]({1}) [ {2} ]
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [ {5} ]</value>
+    </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>Der Song hängt fest während des abspielens.</value>
   </data>

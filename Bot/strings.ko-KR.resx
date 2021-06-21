@@ -1459,13 +1459,13 @@
   <data name="music_volume_3" xml:space="preserve">
     <value>음량을 다음으로 성공적으로 설정했습니다: `{0}`</value>
   </data>
-  <data name="music_skip_1" xml:space="preserve">
-    <value>`{0}`을(를) 건너뛰었습니다.</value>
-  </data>
-  <data name="music_skip_2" xml:space="preserve">
-    <value>`{0}`을(를) 건너뛰었습니다.
-&lt;:CB_NowPlaying:586387464743157770&gt; `{1}` 재생 중</value>
-  </data>
+    <data name="music_skip_1" xml:space="preserve">
+        <value>[{0}]({1}) [ {2} ] has been skipped.</value>
+    </data>
+    <data name="music_skip_2" xml:space="preserve">
+        <value>Skipped [{0}]({1}) [ {2} ]
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [ {5} ]</value>
+    </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>재생 중인 노래가 없습니다.</value>
   </data>
@@ -1502,12 +1502,12 @@
   <data name="music_add_1" xml:space="preserve">
     <value>노래 `{0}`곡을 대기열에 추가했습니다.</value>
   </data>
-  <data name="music_add_2" xml:space="preserve">
-    <value>`{0}`이(가) 대기열에 추가되었습니다.</value>
-  </data>
-  <data name="music_now_playing_1" xml:space="preserve">
-    <value>`{0}` 재생 중</value>
-  </data>
+    <data name="music_add_2" xml:space="preserve">
+        <value>[{0}]({1}) [ {2} ] has been added to the queue.</value>
+    </data>
+    <data name="music_now_playing_1" xml:space="preserve">
+        <value>Now playing: [{0}]({1}) [ {2} ]</value>
+    </data>
   <data name="music_volume" xml:space="preserve">
     <value>음량: `{0}`</value>
   </data>
@@ -1636,10 +1636,10 @@
   <data name="music_embed_react_6" xml:space="preserve">
     <value>현재 노래 다시 시작</value>
   </data>
-  <data name="music_logger_trackend" xml:space="preserve">
-    <value>`{0}` 재생 완료
-&lt;:CB_NowPlaying:586387464743157770&gt; `{1}` 재생 중</value>
-  </data>
+    <data name="music_logger_trackend" xml:space="preserve">
+        <value>Finished playing: [{0}]({1}) [ {2} ]
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [ {5} ]</value>
+    </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>트랙을 재생하려고 하는 동안 트랙이 멈췄습니다.</value>
   </data>
