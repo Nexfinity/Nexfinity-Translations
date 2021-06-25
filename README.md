@@ -69,19 +69,19 @@ our [Discord](https://discord.gg/Y3VdQAD) and ask.
 **3) What languages are currently fully supported on the website/bot?**
 
 - English (en)
-- Dutch (nl_NL)
-- German (de_DE)
-- Korean (ko_KR)
-- Greek (el_GR)
-- Swedish (sv_SE)
-- Turkish (tr_TR)
-- Italian (it_IT)
-- Arabic (ar_SA)
-- Romanian (ro_RO)
+- Dutch (nl_NL) [Nederlands]
+- German (de_DE) [Deutsch]
+- Korean (ko_KR) [한국어]
+- Greek (el_GR) [ελληνικά]
+- Swedish (sv_SE) [Svenska]
+- Turkish (tr_TR) [Türkçe]
+- Italian (it_IT) [Italiano]
+- Arabic (ar_SA) [العربية]
+- Romanian (ro_RO) [Limba română]
 
 **4) What languages are currently added to the repo but are incomplete?**
 
-- Farsi/Persian (fa_FA)
+- Farsi/Persian (fa_FA) [فارسى]
 
 **5) Do I need permission to contribute?**
 
