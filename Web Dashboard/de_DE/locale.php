@@ -271,7 +271,7 @@ return [
 "text-generic-unknown-role" => "Unknown Role",
 "text-generic-unknown-channel" => "Unknown Channel",
 "text-generic-confirmation" => "Are you sure you want to delete this?",
-"music-error" => "Lautstärke miuss zwischen 1 oder 100 liegen.",
+"music-error" => "Lautstärke muss zwischen 1 oder 100 liegen.",
 "maxAfkTime-error" => "The time must be between -1 and 10080.",
 "text-generic-updated" => "Successfully updated values.",
 "text-generic-reference-placeholder" => "Placeholder Reference",
