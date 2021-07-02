@@ -1,504 +1,504 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+        <xsd:element name="root" msdata:IsDataSet="true">
             <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="metadata">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" use="required" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                            <xsd:attribute ref="xml:space" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="assembly">
+                        <xsd:complexType>
+                            <xsd:attribute name="alias" type="xsd:string" />
+                            <xsd:attribute name="name" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                            <xsd:attribute ref="xml:space" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
             </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
 
-  <data name="cooldown" xml:space="preserve">
+    <data name="cooldown" xml:space="preserve">
     <value>이 명령어는 다음 시간 동안 사용할 수 없습니다: {0}</value>
   </data>
-  <data name="module_disabled" xml:space="preserve">
+    <data name="module_disabled" xml:space="preserve">
     <value>이 모듈은 이 길드에서 서버 관리자가 비활성화했습니다.</value>
   </data>
-  <data name="command_disabled" xml:space="preserve">
+    <data name="command_disabled" xml:space="preserve">
     <value>이 명령어는 업데이트를 위해 일시적으로 비활성화되었습니다.</value>
   </data>
-  <data name="error_generic_1" xml:space="preserve">
+    <data name="error_generic_1" xml:space="preserve">
     <value>알 수 없는 오류가 발생했습니다!</value>
   </data>
-  <data name="error_generic_2" xml:space="preserve">
+    <data name="error_generic_2" xml:space="preserve">
     <value>알 수 없는 오류가 발생했습니다. 지원 Discord에서 보고해주세요: https://discord.gg/EUssVK5</value>
   </data>
-  <data name="error_generic_3" xml:space="preserve">
+    <data name="error_generic_3" xml:space="preserve">
     <value>알 수 없는 오류가 발생했습니다. 서버가 온라인 상태이거나 올바른 서버 유형을 선택했는지 확인하세요.</value>
   </data>
-  <data name="error_generic_4" xml:space="preserve">
+    <data name="error_generic_4" xml:space="preserve">
     <value>오류:</value>
   </data>
-  <data name="error_generic_5" xml:space="preserve">
+    <data name="error_generic_5" xml:space="preserve">
     <value>하위 명령은 출시 예정입니다.</value>
   </data>
-  <data name="error_ssl" xml:space="preserve">
+    <data name="error_ssl" xml:space="preserve">
     <value>SSL 오류가 발생했습니다, 나중에 다시 시도해주세요.</value>
   </data>
-  <data name="error_limit_rate" xml:space="preserve">
+    <data name="error_limit_rate" xml:space="preserve">
     <value>속도 제한에 도달했습니다.</value>
   </data>
-  <data name="error_limit_characters_10" xml:space="preserve">
+    <data name="error_limit_characters_10" xml:space="preserve">
     <value>텍스트는 10자 이하여야 합니다.</value>
   </data>
-  <data name="error_limit_characters_200" xml:space="preserve">
+    <data name="error_limit_characters_200" xml:space="preserve">
     <value>200자 이하의 질문을 입력하세요.</value>
   </data>
-  <data name="error_limit_characters_200_2" xml:space="preserve">
+    <data name="error_limit_characters_200_2" xml:space="preserve">
     <value>200자 이하의 제안을 입력하세요.</value>
   </data>
-  <data name="error_limit_characters_500" xml:space="preserve">
+    <data name="error_limit_characters_500" xml:space="preserve">
     <value>텍스트는 500자 이하여야 합니다.</value>
   </data>
-  <data name="error_missing_text" xml:space="preserve">
+    <data name="error_missing_text" xml:space="preserve">
     <value>텍스트를 지정해야 합니다.</value>
   </data>
-  <data name="error_missing_query" xml:space="preserve">
+    <data name="error_missing_query" xml:space="preserve">
     <value>검색 쿼리를 지정해야 합니다.</value>
   </data>
-  <data name="error_missing_warn_id" xml:space="preserve">
+    <data name="error_missing_warn_id" xml:space="preserve">
     <value>경고 ID를 입력해야 합니다!</value>
   </data>
-  <data name="error_missing_server_info" xml:space="preserve">
+    <data name="error_missing_server_info" xml:space="preserve">
     <value>서버 IP와 포트를 지정해야 합니다.</value>
   </data>
-  <data name="error_missing_user_name_1" xml:space="preserve">
+    <data name="error_missing_user_name_1" xml:space="preserve">
     <value>사용자명을 입력해야 합니다!</value>
   </data>
-  <data name="error_missing_user_name_2" xml:space="preserve">
+    <data name="error_missing_user_name_2" xml:space="preserve">
     <value>사용자명 2개를 입력해야 합니다!</value>
   </data>
-  <data name="error_missing_user_id" xml:space="preserve">
+    <data name="error_missing_user_id" xml:space="preserve">
     <value>사용자 ID를 입력해야 합니다!</value>
   </data>
-  <data name="error_missing_steam_id_1" xml:space="preserve">
+    <data name="error_missing_steam_id_1" xml:space="preserve">
     <value>올바른 Steam 사용자 ID를 입력하세요! 사용자 ID를 다음 웹사이트에서 찾아보세요: https://steamid.io/lookup/</value>
   </data>
-  <data name="error_missing_steam_id_2" xml:space="preserve">
+    <data name="error_missing_steam_id_2" xml:space="preserve">
     <value>Steam64 ID는 다음 웹사이트에서 찾을 수 있습니다: https://steamid.io/lookup/</value>
   </data>
-  <data name="error_missing_role_name" xml:space="preserve">
+    <data name="error_missing_role_name" xml:space="preserve">
     <value>역할 이름을 지정해야 합니다!</value>
   </data>
-  <data name="error_missing_role_mention" xml:space="preserve">
+    <data name="error_missing_role_mention" xml:space="preserve">
     <value>역할을 태그해야 합니다!</value>
   </data>
-  <data name="error_missing_perm_manageroles" xml:space="preserve">
+    <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>역할 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_manageserver" xml:space="preserve">
+    <data name="error_missing_perm_manageserver" xml:space="preserve">
     <value>서버 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_managechannels" xml:space="preserve">
+    <data name="error_missing_perm_managechannels" xml:space="preserve">
     <value>채널 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_managenicks" xml:space="preserve">
+    <data name="error_missing_perm_managenicks" xml:space="preserve">
     <value>닉네임 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_managemessage_1" xml:space="preserve">
+    <data name="error_missing_perm_managemessage_1" xml:space="preserve">
     <value>메시지 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_managemessage_2" xml:space="preserve">
+    <data name="error_missing_perm_managemessage_2" xml:space="preserve">
     <value>제게 메시지 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_moderator" xml:space="preserve">
+    <data name="error_missing_perm_moderator" xml:space="preserve">
     <value>이 명령어를 사용하려면 서버 운영자 권한이 있어야 합니다. [자세한 정보](https://docs.cakeybot.app/setup/faq#what-is-considered-a-server-moderator)</value>
   </data>
-  <data name="error_missing_perm_emoji" xml:space="preserve">
+    <data name="error_missing_perm_emoji" xml:space="preserve">
     <value>이모지 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_administrator" xml:space="preserve">
+    <data name="error_missing_perm_administrator" xml:space="preserve">
     <value>관리자 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_kick" xml:space="preserve">
+    <data name="error_missing_perm_kick" xml:space="preserve">
     <value>추방 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_ban" xml:space="preserve">
+    <data name="error_missing_perm_ban" xml:space="preserve">
     <value>차단 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_unban" xml:space="preserve">
+    <data name="error_missing_perm_unban" xml:space="preserve">
     <value>차단 해제 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_mute" xml:space="preserve">
+    <data name="error_missing_perm_mute" xml:space="preserve">
     <value>멤버 뮤트 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_emoji" xml:space="preserve">
+    <data name="error_missing_perm_self_emoji" xml:space="preserve">
     <value>제게 이모지 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_react" xml:space="preserve">
+    <data name="error_missing_perm_self_react" xml:space="preserve">
     <value>제게 반응을 추가할 수 있는 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_kick" xml:space="preserve">
+    <data name="error_missing_perm_self_kick" xml:space="preserve">
     <value>제게 추방 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_ban" xml:space="preserve">
+    <data name="error_missing_perm_self_ban" xml:space="preserve">
     <value>제게 차단 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_unban" xml:space="preserve">
+    <data name="error_missing_perm_self_unban" xml:space="preserve">
     <value>제게 차단 해제 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_manageroles" xml:space="preserve">
+    <data name="error_missing_perm_self_manageroles" xml:space="preserve">
     <value>제게 역할 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_managechannels" xml:space="preserve">
+    <data name="error_missing_perm_self_managechannels" xml:space="preserve">
     <value>제게 채널 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_manageguild" xml:space="preserve">
+    <data name="error_missing_perm_self_manageguild" xml:space="preserve">
     <value>제게 길드 관리 권한이 없습니다! (길드 초대를 보는 데 필요합니다)</value>
   </data>
-  <data name="error_missing_perm_self_managenicks" xml:space="preserve">
+    <data name="error_missing_perm_self_managenicks" xml:space="preserve">
     <value>제게 닉네임 관리 권한이 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_kick_admin" xml:space="preserve">
+    <data name="error_missing_perm_self_kick_admin" xml:space="preserve">
     <value>제가 관리자는 추방할 수 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_ban_admin" xml:space="preserve">
+    <data name="error_missing_perm_self_ban_admin" xml:space="preserve">
     <value>제가 관리자는 차단할 수 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_ban_soft_admin" xml:space="preserve">
+    <data name="error_missing_perm_self_ban_soft_admin" xml:space="preserve">
     <value>제가 관리자는 소프트 차단할 수 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_mute_admin" xml:space="preserve">
+    <data name="error_missing_perm_self_mute_admin" xml:space="preserve">
     <value>제가 관리자는 뮤트할 수 없습니다!</value>
   </data>
-  <data name="error_missing_perm_self_warn_admin" xml:space="preserve">
+    <data name="error_missing_perm_self_warn_admin" xml:space="preserve">
     <value>제가 관리자에게는 경고를 줄 수 없습니다!</value>
   </data>
-  <data name="error_missing_file_image_3" xml:space="preserve">
+    <data name="error_missing_file_image_3" xml:space="preserve">
     <value>지난 메시지 3개에서 올바른 이미지를 찾을 수 없습니다.</value>
   </data>
-  <data name="error_missing_file_image_5" xml:space="preserve">
+    <data name="error_missing_file_image_5" xml:space="preserve">
     <value>지난 메시지 5개에서 올바른 이미지를 찾을 수 없습니다.</value>
   </data>
-  <data name="error_missing_messages" xml:space="preserve">
+    <data name="error_missing_messages" xml:space="preserve">
     <value>지정한 사용자의 메시지가 없습니다.</value>
   </data>
-  <data name="error_failed_image_download" xml:space="preserve">
+    <data name="error_failed_image_download" xml:space="preserve">
     <value>이미지를 다운로드하지 못했습니다.</value>
   </data>
-  <data name="error_failed_image_modify" xml:space="preserve">
+    <data name="error_failed_image_modify" xml:space="preserve">
     <value>이미지를 수정하지 못했습니다.</value>
   </data>
-  <data name="error_failed_image_upload" xml:space="preserve">
+    <data name="error_failed_image_upload" xml:space="preserve">
     <value>여기에 파일을 업로드할 수 있는 권한이 없습니다.</value>
   </data>
-  <data name="error_failed_joke" xml:space="preserve">
+    <data name="error_failed_joke" xml:space="preserve">
     <value>농담을 가져오지 못했습니다.</value>
   </data>
-  <data name="error_failed_fortune" xml:space="preserve">
+    <data name="error_failed_fortune" xml:space="preserve">
     <value>운세를 가져오지 못했습니다.</value>
   </data>
-  <data name="error_failed_weather" xml:space="preserve">
+    <data name="error_failed_weather" xml:space="preserve">
     <value>데이터를 가져오지 못했습니다, 시 이름을 올바르게 입력했는지 확인하세요.</value>
   </data>
-  <data name="error_failed_currency" xml:space="preserve">
+    <data name="error_failed_currency" xml:space="preserve">
     <value>데이터를 가져오지 못했습니다, 통화를 올바르게 입력했는지 확인하세요.</value>
   </data>
-  <data name="error_failed_video" xml:space="preserve">
+    <data name="error_failed_video" xml:space="preserve">
     <value>동영상을 찾지 못했습니다. *검색 쿼리가 짧을수록 효과적입니다.*</value>
   </data>
-  <data name="error_failed_image" xml:space="preserve">
+    <data name="error_failed_image" xml:space="preserve">
     <value>이미지를 찾지 못했습니다. *검색 쿼리가 짧을수록 효과적입니다.*</value>
   </data>
-  <data name="error_failed_article" xml:space="preserve">
+    <data name="error_failed_article" xml:space="preserve">
     <value>문서를 찾지 못했습니다.</value>
   </data>
-  <data name="error_failed_message" xml:space="preserve">
+    <data name="error_failed_message" xml:space="preserve">
     <value>메시지를 찾지 못했습니다.</value>
   </data>
-  <data name="error_failed_kick" xml:space="preserve">
+    <data name="error_failed_kick" xml:space="preserve">
     <value>사용자를 추방하지 못했습니다.</value>
   </data>
-  <data name="error_failed_ban" xml:space="preserve">
+    <data name="error_failed_ban" xml:space="preserve">
     <value>사용자를 차단하지 못했습니다.</value>
   </data>
-  <data name="error_failed_ban_soft" xml:space="preserve">
+    <data name="error_failed_ban_soft" xml:space="preserve">
     <value>사용자를 소프트 차단하지 못했습니다.</value>
   </data>
-  <data name="error_failed_unban" xml:space="preserve">
+    <data name="error_failed_unban" xml:space="preserve">
     <value>사용자의 차단을 해제하지 못했습니다.</value>
   </data>
-  <data name="error_failed_unban_not_banned_1" xml:space="preserve">
+    <data name="error_failed_unban_not_banned_1" xml:space="preserve">
     <value>저 차단되어 있지 않다고요!</value>
   </data>
-  <data name="error_failed_unban_not_banned_2" xml:space="preserve">
+    <data name="error_failed_unban_not_banned_2" xml:space="preserve">
     <value>지정한 사용자 ID는 차단되어 있지 않습니다.</value>
   </data>
-  <data name="error_failed_unmute_not_muted" xml:space="preserve">
+    <data name="error_failed_unmute_not_muted" xml:space="preserve">
     <value>사용자가 뮤트되어 있지 않습니다. 뮤트되어 있는 것이 맞는다면 `!setting`으로 뮤트 역할을 설정하거나 역할 이름을 `Muted`로 지정하세요.</value>
   </data>
-  <data name="error_failed_playlist_save" xml:space="preserve">
+    <data name="error_failed_playlist_save" xml:space="preserve">
     <value>노래를 재생 목록에 저장하지 못했습니다. 재생 목록이 이미 존재하는지 확인하세요.</value>
   </data>
-  <data name="error_failed_playlist_load" xml:space="preserve">
+    <data name="error_failed_playlist_load" xml:space="preserve">
     <value>재생 목록을 찾지 못했습니다. 이름을 올바르게 입력했는지 확인하세요.</value>
   </data>
-  <data name="error_failed_playlist_delete" xml:space="preserve">
+    <data name="error_failed_playlist_delete" xml:space="preserve">
     <value>`{0}` 재생 목록을 삭제하지 못했습니다. 재생 목록이 존재하는지 확인하세요.</value>
   </data>
-  <data name="error_role_1" xml:space="preserve">
+    <data name="error_role_1" xml:space="preserve">
     <value>해당 역할이 제 가장 높은 역할보다 높기에 역할을 갱신할 수 없습니다.</value>
   </data>
-  <data name="error_role_2" xml:space="preserve">
+    <data name="error_role_2" xml:space="preserve">
     <value>해당 역할이 사용자의 가장 높은 역할보다 높기에 역할을 갱신할 수 없습니다.</value>
   </data>
-  <data name="error_role_kick_1" xml:space="preserve">
+    <data name="error_role_kick_1" xml:space="preserve">
     <value>역할 계층에서 사용자보다 위에 있는 사람은 추방할 수 없습니다!</value>
   </data>
-  <data name="error_role_kick_2" xml:space="preserve">
+    <data name="error_role_kick_2" xml:space="preserve">
     <value>역할 계층에서 저보다 위에 있는 사람은 추방할 수 없습니다!</value>
   </data>
-  <data name="error_role_ban_1" xml:space="preserve">
+    <data name="error_role_ban_1" xml:space="preserve">
     <value>역할 계층에서 사용자보다 위에 있는 사람은 차단할 수 없습니다!</value>
   </data>
-  <data name="error_role_ban_2" xml:space="preserve">
+    <data name="error_role_ban_2" xml:space="preserve">
     <value>역할 계층에서 저보다 위에 있는 사람은 차단할 수 없습니다!</value>
   </data>
-  <data name="error_role_ban_soft_1" xml:space="preserve">
+    <data name="error_role_ban_soft_1" xml:space="preserve">
     <value>역할 계층에서 사용자보다 위에 있는 사람은 소프트 차단할 수 없습니다!</value>
   </data>
-  <data name="error_role_ban_soft_2" xml:space="preserve">
+    <data name="error_role_ban_soft_2" xml:space="preserve">
     <value>역할 계층에서 저보다 위에 있는 사람은 소프트 차단할 수 없습니다!</value>
   </data>
-  <data name="error_role_mute_1" xml:space="preserve">
+    <data name="error_role_mute_1" xml:space="preserve">
     <value>역할 계층에서 사용자보다 위에 있는 사람은 뮤트할 수 없습니다!</value>
   </data>
-  <data name="error_role_mute_2" xml:space="preserve">
+    <data name="error_role_mute_2" xml:space="preserve">
     <value>역할 계층에서 저보다 위에 있는 사람은 뮤트할 수 없습니다!</value>
   </data>
-  <data name="error_role_mute_3" xml:space="preserve">
+    <data name="error_role_mute_3" xml:space="preserve">
     <value>뮤트 역할이 제 가장 높은 역할보다 높기에 역할을 사용할 수 없습니다.</value>
   </data>
-  <data name="error_role_warn_1" xml:space="preserve">
+    <data name="error_role_warn_1" xml:space="preserve">
     <value>역할 계층에서 사용자보다 위에 있는 사람에게는 경고를 줄 수 없습니다!</value>
   </data>
-  <data name="error_role_warn_2" xml:space="preserve">
+    <data name="error_role_warn_2" xml:space="preserve">
     <value>역할 계층에서 저보다 위에 있는 사람에게는 경고를 줄 수 없습니다!</value>
   </data>
-  <data name="error_role_unwarn_1" xml:space="preserve">
+    <data name="error_role_unwarn_1" xml:space="preserve">
     <value>역할 계층에서 사용자보다 위에 있는 사람의 경고는 해제할 수 없습니다!</value>
   </data>
-  <data name="error_role_unwarn_2" xml:space="preserve">
+    <data name="error_role_unwarn_2" xml:space="preserve">
     <value>역할 계층에서 저보다 위에 있는 사람의 경고는 해제할 수 없습니다!</value>
   </data>
-  <data name="error_invalid_color_hex" xml:space="preserve">
+    <data name="error_invalid_color_hex" xml:space="preserve">
     <value>올바른 헥스 코드를 사용해야 합니다!</value>
   </data>
-  <data name="error_invalid_dice" xml:space="preserve">
+    <data name="error_invalid_dice" xml:space="preserve">
     <value>올바른 수(1-15)를 입력하거나 DND 주사위 던지기를 입력하세요.</value>
   </data>
-  <data name="error_invalid_user_missing" xml:space="preserve">
+    <data name="error_invalid_user_missing" xml:space="preserve">
     <value>존재하지 않는 사용자명입니다!</value>
   </data>
-  <data name="error_invalid_user_guild" xml:space="preserve">
+    <data name="error_invalid_user_guild" xml:space="preserve">
     <value>사용자가 잘못되었습니다. (잘못된 길드 사용자입니다)</value>
   </data>
-  <data name="error_invalid_unknown_city" xml:space="preserve">
+    <data name="error_invalid_unknown_city" xml:space="preserve">
     <value>알 수 없는 시 이름입니다.</value>
   </data>
-  <data name="error_invalid_invite" xml:space="preserve">
+    <data name="error_invalid_invite" xml:space="preserve">
     <value>올바른 초대 코드를 입력하세요.</value>
   </data>
-  <data name="error_invalid_base64" xml:space="preserve">
+    <data name="error_invalid_base64" xml:space="preserve">
     <value>올바른 Base64 문자열을 지정하세요.</value>
   </data>
-  <data name="error_invalid_playlist" xml:space="preserve">
+    <data name="error_invalid_playlist" xml:space="preserve">
     <value>올바른 재생 목록 이름을 입력해야 합니다.</value>
   </data>
-  <data name="error_usage_poll" xml:space="preserve">
+    <data name="error_usage_poll" xml:space="preserve">
     <value>올바른 질문을 입력하세요. 사용법: `!poll &lt;질문&gt; | &lt;대답 1&gt; | &lt;대답 2&gt; | &lt;대답 3&gt; | 등&gt;`</value>
   </data>
-  <data name="error_usage_suggestion" xml:space="preserve">
+    <data name="error_usage_suggestion" xml:space="preserve">
     <value>올바른 제안을 입력하세요.
 !suggestion &lt;제목&gt; | &lt;설명&gt;</value>
   </data>
-  <data name="error_usage_rps" xml:space="preserve">
+    <data name="error_usage_rps" xml:space="preserve">
     <value>올바른 패를 입력하세요: `!rps &lt; rock | paper | scissors &gt;`</value>
   </data>
-  <data name="error_usage_8ball" xml:space="preserve">
+    <data name="error_usage_8ball" xml:space="preserve">
     <value>질문을 입력하세요.</value>
   </data>
-  <data name="error_usage_query" xml:space="preserve">
+    <data name="error_usage_query" xml:space="preserve">
     <value>적절한 사용법: !query &lt;pe | pc&gt; &lt;ip:port&gt;</value>
   </data>
-  <data name="error_usage_query_type" xml:space="preserve">
+    <data name="error_usage_query_type" xml:space="preserve">
     <value>PC 또는 PE를 서버 유형으로 입력하세요.</value>
   </data>
-  <data name="error_usage_role" xml:space="preserve">
+    <data name="error_usage_role" xml:space="preserve">
     <value>사용법: `!role &lt;add | remove&gt; &lt;사용자&gt; &lt;역할&gt;`</value>
   </data>
-  <data name="error_usage_emoji" xml:space="preserve">
+    <data name="error_usage_emoji" xml:space="preserve">
     <value>사용법: `!emoji &lt;add | delete | info | list | roles | update&gt;`</value>
   </data>
-  <data name="error_usage_emoji_2" xml:space="preserve">
+    <data name="error_usage_emoji_2" xml:space="preserve">
     <value>사용법: `!emoji info &lt;이모지 ID&gt;`</value>
   </data>
-  <data name="error_usage_playlist" xml:space="preserve">
+    <data name="error_usage_playlist" xml:space="preserve">
     <value>사용법: !playlist &lt;save/create | list | load | delete/remove&gt; &lt;이름&gt;</value>
   </data>
-  <data name="error_usage_verify" xml:space="preserve">
+    <data name="error_usage_verify" xml:space="preserve">
     <value>사용법: `{0}verify setup &lt;역할&gt;`</value>
   </data>
-  <data name="error_usage_verify_set" xml:space="preserve">
+    <data name="error_usage_verify_set" xml:space="preserve">
     <value>확인 역할이 설정되지 않았습니다. 다음 명령을 사용하여 역할을 설정하세요: `{0}verify setup &lt;역할&gt;`</value>
   </data>
-  <data name="error_verify" xml:space="preserve">
+    <data name="error_verify" xml:space="preserve">
     <value>확인 역할을 설정하지 못했습니다.</value>
   </data>
-  <data name="success_verify" xml:space="preserve">
+    <data name="success_verify" xml:space="preserve">
     <value>확인 역할을 다음으로 성공적으로 설정했습니다: `{0}`.</value>
   </data>
-  <data name="error_max_values_20" xml:space="preserve">
+    <data name="error_max_values_20" xml:space="preserve">
     <value>값은 최대 20개까지만 사용할 수 있습니다.</value>
   </data>
-  <data name="success_role_added" xml:space="preserve">
+    <data name="success_role_added" xml:space="preserve">
     <value>{1}에게 `{0}`을(를) 성공적으로 추가했습니다.</value>
   </data>
-  <data name="success_role_removed" xml:space="preserve">
+    <data name="success_role_removed" xml:space="preserve">
     <value>{1}에게서 `{0}`을(를) 성공적으로 제거했습니다.</value>
   </data>
-  <data name="success_role_updated_color" xml:space="preserve">
+    <data name="success_role_updated_color" xml:space="preserve">
     <value>`{0}`을(를) 성공적으로 갱신했습니다. (색: {1})</value>
   </data>
-  <data name="success_role_updated_hoisted" xml:space="preserve">
+    <data name="success_role_updated_hoisted" xml:space="preserve">
     <value>`{0}`을(를) 성공적으로 갱신했습니다. (별도 표시: {1} » {2})</value>
   </data>
-  <data name="success_role_updated_mentionable" xml:space="preserve">
+    <data name="success_role_updated_mentionable" xml:space="preserve">
     <value>`{0}`을(를) 성공적으로 갱신했습니다. (멘션 가능: {1} » {2})</value>
   </data>
-  <data name="games_suggestion_suggestion" xml:space="preserve">
+    <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>제안:</value>
   </data>
-  <data name="games_suggestion_vote" xml:space="preserve">
+    <data name="games_suggestion_vote" xml:space="preserve">
     <value>투표:</value>
   </data>
-  <data name="games_suggestion_title" xml:space="preserve">
+    <data name="games_suggestion_title" xml:space="preserve">
     <value>제목:</value>
   </data>
-  <data name="games_suggestion_description" xml:space="preserve">
+    <data name="games_suggestion_description" xml:space="preserve">
     <value>설명:</value>
   </data>
-  <data name="games_suggestion_created" xml:space="preserve">
+    <data name="games_suggestion_created" xml:space="preserve">
     <value>{0}#{1}이(가) 만든 제안</value>
   </data>
-  <data name="games_8ball_results" xml:space="preserve">
+    <data name="games_8ball_results" xml:space="preserve">
     <value>결과:</value>
   </data>
-  <data name="games_8ball_question" xml:space="preserve">
+    <data name="games_8ball_question" xml:space="preserve">
     <value>질문:</value>
   </data>
-  <data name="games_8ball_answer" xml:space="preserve">
+    <data name="games_8ball_answer" xml:space="preserve">
     <value>대답:</value>
   </data>
-  <data name="games_poll_vote" xml:space="preserve">
+    <data name="games_poll_vote" xml:space="preserve">
     <value>투표:</value>
   </data>
-  <data name="games_poll_created" xml:space="preserve">
+    <data name="games_poll_created" xml:space="preserve">
     <value>{0}#{1}이(가) 만든 의견 조사</value>
   </data>
-  <data name="games_coin_heads" xml:space="preserve">
+    <data name="games_coin_heads" xml:space="preserve">
     <value>앞면</value>
   </data>
-  <data name="games_coin_tails" xml:space="preserve">
+    <data name="games_coin_tails" xml:space="preserve">
     <value>뒷면</value>
   </data>
-  <data name="games_coin_results" xml:space="preserve">
+    <data name="games_coin_results" xml:space="preserve">
     <value>결과:</value>
   </data>
-  <data name="games_coin_flipped" xml:space="preserve">
+    <data name="games_coin_flipped" xml:space="preserve">
     <value>던져서 나온 면:</value>
   </data>
-  <data name="games_dice_total" xml:space="preserve">
+    <data name="games_dice_total" xml:space="preserve">
     <value>합계:</value>
   </data>
-  <data name="games_dice_result_single" xml:space="preserve">
+    <data name="games_dice_result_single" xml:space="preserve">
     <value>주사위를 던졌습니다. 결과:</value>
   </data>
-  <data name="games_dice_result_multiple" xml:space="preserve">
+    <data name="games_dice_result_multiple" xml:space="preserve">
     <value>주사위 #{i1} 결과:</value>
   </data>
-  <data name="games_dice_result_rolled" xml:space="preserve">
+    <data name="games_dice_result_rolled" xml:space="preserve">
     <value>{0}이(가) 나옴</value>
   </data>
-  <data name="games_rps_rock" xml:space="preserve">
+    <data name="games_rps_rock" xml:space="preserve">
     <value>바위</value>
   </data>
-  <data name="games_rps_paper" xml:space="preserve">
+    <data name="games_rps_paper" xml:space="preserve">
     <value>보</value>
   </data>
-  <data name="games_rps_scissors" xml:space="preserve">
+    <data name="games_rps_scissors" xml:space="preserve">
     <value>가위</value>
   </data>
-  <data name="games_rps_outcome_1" xml:space="preserve">
+    <data name="games_rps_outcome_1" xml:space="preserve">
     <value>저는 {0}을(를) 선택했어요. {1}은(는) {2}을(를) 이기죠. 제가 승리했네요!</value>
   </data>
-  <data name="games_rps_outcome_2" xml:space="preserve">
+    <data name="games_rps_outcome_2" xml:space="preserve">
     <value>저는 {0}을(를) 선택했어요. {1}은(는) {2}을(를) 이기죠. 플레이어가 승리했네요!</value>
   </data>
-  <data name="games_rps_outcome_3" xml:space="preserve">
+    <data name="games_rps_outcome_3" xml:space="preserve">
     <value>저는 {0}을(를) 선택했어요. 저희 둘 다 {1}을(를) 선택했기에 무승부이네요!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
+    <data name="games_giveaway_error_1" xml:space="preserve">
     <value>**오류:** 경품 행사는 1시간 이하 지속되어야 합니다.</value>
   </data>
-  <data name="games_giveaway_error_2" xml:space="preserve">
+    <data name="games_giveaway_error_2" xml:space="preserve">
     <value>**오류:** 경품 행사는 1분 이상 지속되어야 합니다.</value>
   </data>
-  <data name="games_giveaway_title" xml:space="preserve">
+    <data name="games_giveaway_title" xml:space="preserve">
     <value>:tada: **경품 행사** :tada:</value>
   </data>
-  <data name="games_giveaway_hours_1" xml:space="preserve">
+    <data name="games_giveaway_hours_1" xml:space="preserve">
     <value>**정보:**
 ● 경품: `{0}`
 ● 우승자 수: {1}
@@ -506,7 +506,7 @@
 
 경품 행사에 참여하려면 :tada:으로 반응하세요!</value>
   </data>
-  <data name="games_giveaway_hours_2" xml:space="preserve">
+    <data name="games_giveaway_hours_2" xml:space="preserve">
     <value>**정보:**
 ● 경품: `{0}`
 ● 우승자 수: {1}
@@ -514,7 +514,7 @@
 
 경품 행사에 참여하려면 :tada:으로 반응하세요!</value>
   </data>
-  <data name="games_giveaway_minutes_1" xml:space="preserve">
+    <data name="games_giveaway_minutes_1" xml:space="preserve">
     <value>**정보:**
 ● 경품: `{0}`
 ● 우승자 수: {1}
@@ -522,7 +522,7 @@
 
 경품 행사에 참여하려면 :tada:으로 반응하세요!</value>
   </data>
-  <data name="games_giveaway_minutes_2" xml:space="preserve">
+    <data name="games_giveaway_minutes_2" xml:space="preserve">
     <value>**정보:**
 ● 경품: `{0}`
 ● 우승자 수: {1}
@@ -530,7 +530,7 @@
 
 경품 행사에 참여하려면 :tada:으로 반응하세요!</value>
   </data>
-  <data name="games_giveaway_seconds" xml:space="preserve">
+    <data name="games_giveaway_seconds" xml:space="preserve">
     <value>**정보:**
 ● 경품: `{0}`
 ● 우승자 수: {1}
@@ -538,1820 +538,1820 @@
 
 경품 행사에 참여하려면 :tada:으로 반응하세요!</value>
   </data>
-  <data name="games_giveaway_winner" xml:space="preserve">
+    <data name="games_giveaway_winner" xml:space="preserve">
     <value>***축하합니다!***
 {0} 님, 경품 행사에 당첨되셨습니다! 경품: `{1}`</value>
   </data>
-  <data name="games_giveaway_winner_none" xml:space="preserve">
+    <data name="games_giveaway_winner_none" xml:space="preserve">
     <value>오늘은 당첨자가 없네요 :(</value>
   </data>
-  <data name="games_giveaway_winner_limit" xml:space="preserve">
+    <data name="games_giveaway_winner_limit" xml:space="preserve">
     <value>당첨자 수는 1명 이상 15명 이하여야 합니다.</value>
   </data>
-  <data name="games_trivia_title" xml:space="preserve">
+    <data name="games_trivia_title" xml:space="preserve">
     <value>{0}의 잡학 질문</value>
   </data>
-  <data name="games_trivia_footer" xml:space="preserve">
+    <data name="games_trivia_footer" xml:space="preserve">
     <value>정답의 문자를 입력하세요 • 질문 #{0}</value>
   </data>
-  <data name="games_trivia_instructions" xml:space="preserve">
+    <data name="games_trivia_instructions" xml:space="preserve">
     <value>*10초 이내에 정확한 문자로 답하세요.*
 
 </value>
   </data>
-  <data name="games_trivia_difficulty" xml:space="preserve">
+    <data name="games_trivia_difficulty" xml:space="preserve">
     <value>난이도</value>
   </data>
-  <data name="games_trivia_category" xml:space="preserve">
+    <data name="games_trivia_category" xml:space="preserve">
     <value>범주</value>
   </data>
-  <data name="games_trivia_timeout" xml:space="preserve">
+    <data name="games_trivia_timeout" xml:space="preserve">
     <value>15초 이내에 대답이 제공되지 않았습니다. 정답: `{0}`</value>
   </data>
-  <data name="games_trivia_invalid" xml:space="preserve">
+    <data name="games_trivia_invalid" xml:space="preserve">
     <value>잘못된 대답이 제공되었습니다. 다음번에는 문자만 제공하세요. 정답: `{0}`</value>
   </data>
-  <data name="games_trivia_valid" xml:space="preserve">
+    <data name="games_trivia_valid" xml:space="preserve">
     <value>올바른 대답은 다음과 같습니다: `A`, `B`, `C`, `D`.</value>
   </data>
-  <data name="games_trivia_correct" xml:space="preserve">
+    <data name="games_trivia_correct" xml:space="preserve">
     <value>정답입니다! :D</value>
   </data>
-  <data name="games_trivia_incorrect" xml:space="preserve">
+    <data name="games_trivia_incorrect" xml:space="preserve">
     <value>이런, 틀렸습니다. 정답: `{0}`</value>
   </data>
-  <data name="games_trivia_load_failed" xml:space="preserve">
+    <data name="games_trivia_load_failed" xml:space="preserve">
     <value>잡학 질문을 불러오지 못했습니다. 나중에 다시 시도해주세요.</value>
   </data>
-  <data name="afk" xml:space="preserve">
+    <data name="afk" xml:space="preserve">
     <value>{0}이(가) 현재 잠수 상태입니다, 이유: `{1}`</value>
   </data>
-  <data name="afk_not_active_1" xml:space="preserve">
+    <data name="afk_not_active_1" xml:space="preserve">
     <value>현재 잠수 상태가 아닙니다.</value>
   </data>
-  <data name="afk_not_active_2" xml:space="preserve">
+    <data name="afk_not_active_2" xml:space="preserve">
     <value>해당 사용자는 현재 잠수 상태가 아닙니다.</value>
   </data>
-  <data name="afk_active" xml:space="preserve">
+    <data name="afk_active" xml:space="preserve">
     <value>현재 잠수 상태입니다. 메시지: `{0}`</value>
   </data>
-  <data name="afk_limit" xml:space="preserve">
+    <data name="afk_limit" xml:space="preserve">
     <value>잠수 메시지는 100자 이하여야 합니다.</value>
   </data>
-  <data name="afk_failed" xml:space="preserve">
+    <data name="afk_failed" xml:space="preserve">
     <value>잠수 메시지를 설정하지 못했습니다.</value>
   </data>
-  <data name="afk_set" xml:space="preserve">
+    <data name="afk_set" xml:space="preserve">
     <value>잠수 상태로 성공적으로 설정되었습니다. 메시지: `{0}`</value>
   </data>
-  <data name="afk_removed_1" xml:space="preserve">
+    <data name="afk_removed_1" xml:space="preserve">
     <value>잠수 상태를 성공적으로 제거했습니다.</value>
   </data>
-  <data name="afk_removed_2" xml:space="preserve">
+    <data name="afk_removed_2" xml:space="preserve">
     <value>{0}의 잠수 상태를 성공적으로 제거했습니다.</value>
   </data>
-  <data name="afk_updated" xml:space="preserve">
+    <data name="afk_updated" xml:space="preserve">
     <value>잠수 메시지를 다음으로 성공적으로 갱신했습니다: `{0}`</value>
   </data>
-  <data name="afk_permission" xml:space="preserve">
+    <data name="afk_permission" xml:space="preserve">
     <value>서버 관리 권한 또는 관리자 권한이 있어야 다른 사용자의 잠수 상태를 제거할 수 있습니다.</value>
   </data>
-  <data name="mod_kick_self" xml:space="preserve">
+    <data name="mod_kick_self" xml:space="preserve">
     <value>자기 자신은 추방할 수 없습니다!</value>
   </data>
-  <data name="mod_kick_self_bot" xml:space="preserve">
+    <data name="mod_kick_self_bot" xml:space="preserve">
     <value>제가 저 자신은 추방할 수 없습니다!</value>
   </data>
-  <data name="mod_kick_success" xml:space="preserve">
+    <data name="mod_kick_success" xml:space="preserve">
     <value>{0}#{1}이(가) 성공적으로 추방되었습니다.</value>
   </data>
-  <data name="mod_kick_dm" xml:space="preserve">
+    <data name="mod_kick_dm" xml:space="preserve">
     <value>`{0}`에서 `{1}`에게 다음 사유로 추방당했습니다: `{2}`</value>
   </data>
-  <data name="mod_unban_success" xml:space="preserve">
+    <data name="mod_unban_success" xml:space="preserve">
     <value>{0}#{1}의 차단이 성공적으로 해제되었습니다.</value>
   </data>
-  <data name="mod_ban_self" xml:space="preserve">
+    <data name="mod_ban_self" xml:space="preserve">
     <value>자기 자신은 차단할 수 없습니다!</value>
   </data>
-  <data name="mod_ban_self_bot" xml:space="preserve">
+    <data name="mod_ban_self_bot" xml:space="preserve">
     <value>제가 저 자신은 차단할 수 없습니다!</value>
   </data>
-  <data name="mod_ban_success" xml:space="preserve">
+    <data name="mod_ban_success" xml:space="preserve">
     <value>{0}#{1}이(가) 성공적으로 차단되었습니다.</value>
   </data>
-  <data name="mod_ban_dm" xml:space="preserve">
+    <data name="mod_ban_dm" xml:space="preserve">
     <value>`{0}`에서 `{1}`에게 다음 사유로 차단당했습니다: `{2}`</value>
   </data>
-  <data name="mod_ban_temp_error" xml:space="preserve">
+    <data name="mod_ban_temp_error" xml:space="preserve">
     <value>일시 차단은 1개월 이하여야 합니다.</value>
   </data>
-  <data name="mod_ban_temp_success" xml:space="preserve">
+    <data name="mod_ban_temp_success" xml:space="preserve">
     <value>{0}#{1}이(가) {2}일{3}시간{4}분까지 성공적으로 차단되었습니다.</value>
   </data>
-  <data name="mod_ban_soft_self" xml:space="preserve">
+    <data name="mod_ban_soft_self" xml:space="preserve">
     <value>자기 자신은 소프트 차단할 수 없습니다!</value>
   </data>
-  <data name="mod_ban_soft_self_bot" xml:space="preserve">
+    <data name="mod_ban_soft_self_bot" xml:space="preserve">
     <value>제가 저 자신은 소프트 차단할 수 없습니다!</value>
   </data>
-  <data name="mod_ban_soft_success" xml:space="preserve">
+    <data name="mod_ban_soft_success" xml:space="preserve">
     <value>{0}#{1}이(가) 소프트 차단되었습니다. (이제 다시 참여할 수 있습니다)</value>
   </data>
-  <data name="mod_ban_soft_dm" xml:space="preserve">
+    <data name="mod_ban_soft_dm" xml:space="preserve">
     <value>`{0}`에서 `{1}`에게 다음 사유로 소프트 차단당했습니다: `{2}` (다시 참여할 수 있습니다)</value>
   </data>
-  <data name="mod_mute_self" xml:space="preserve">
+    <data name="mod_mute_self" xml:space="preserve">
     <value>자기 자신은 뮤트할 수 없습니다!</value>
   </data>
-  <data name="mod_mute_self_bot" xml:space="preserve">
+    <data name="mod_mute_self_bot" xml:space="preserve">
     <value>제가 저 자신은 뮤트할 수 없습니다!</value>
   </data>
-  <data name="mod_mute_success" xml:space="preserve">
+    <data name="mod_mute_success" xml:space="preserve">
     <value>{0}#{1}이(가) 성공적으로 뮤트되었습니다.</value>
   </data>
-  <data name="mod_mute_dm" xml:space="preserve">
+    <data name="mod_mute_dm" xml:space="preserve">
     <value>`{0}`에서 `{1}`에게 다음 사유로 뮤트당했습니다: `{2}`</value>
   </data>
-  <data name="mod_mute_temp_error" xml:space="preserve">
+    <data name="mod_mute_temp_error" xml:space="preserve">
     <value>일시 뮤트는 1개월 이하여야 합니다.</value>
   </data>
-  <data name="mod_mute_temp_success" xml:space="preserve">
+    <data name="mod_mute_temp_success" xml:space="preserve">
     <value>{0}#{1}이(가) {2}일{3}시간{4}분까지 성공적으로 뮤트되었습니다.</value>
   </data>
-  <data name="mod_mute_role_error" xml:space="preserve">
+    <data name="mod_mute_role_error" xml:space="preserve">
     <value>뮤트 역할을 찾거나 만들 수 없습니다.</value>
   </data>
-  <data name="mod_unmute_self_bot" xml:space="preserve">
+    <data name="mod_unmute_self_bot" xml:space="preserve">
     <value>제가 저 자신의 뮤트는 해제할 수 없습니다!</value>
   </data>
-  <data name="mod_unmute_success" xml:space="preserve">
+    <data name="mod_unmute_success" xml:space="preserve">
     <value>{0}#{1}의 뮤트가 성공적으로 해제되었습니다.</value>
   </data>
-  <data name="mod_warn_reason" xml:space="preserve">
+    <data name="mod_warn_reason" xml:space="preserve">
     <value>사유를 입력해야 합니다!</value>
   </data>
-  <data name="mod_warn_self" xml:space="preserve">
+    <data name="mod_warn_self" xml:space="preserve">
     <value>자기 자신에게는 경고를 줄 수 없습니다!</value>
   </data>
-  <data name="mod_warn_self_bot" xml:space="preserve">
+    <data name="mod_warn_self_bot" xml:space="preserve">
     <value>제가 저 자신에게는 경고를 줄 수 없습니다!</value>
   </data>
-  <data name="mod_warn_success" xml:space="preserve">
+    <data name="mod_warn_success" xml:space="preserve">
     <value>{0}#{1}이(가) 다음 사유로 경고를 성공적으로 받았습니다: `{2}`.
 **총 경고:** {3}개</value>
   </data>
-  <data name="mod_warn_dm" xml:space="preserve">
+    <data name="mod_warn_dm" xml:space="preserve">
     <value>`{0}`에서 `{1}`에게 다음 사유로 경고를 받았습니다: `{2}`</value>
   </data>
-  <data name="mod_unwarn_self" xml:space="preserve">
+    <data name="mod_unwarn_self" xml:space="preserve">
     <value>자기 자신의 경고는 해제할 수 없습니다!</value>
   </data>
-  <data name="mod_unwarn_self_bot" xml:space="preserve">
+    <data name="mod_unwarn_self_bot" xml:space="preserve">
     <value>제가 저 자신의 경고는 해제할 수 없습니다!</value>
   </data>
-  <data name="mod_unwarn_success" xml:space="preserve">
+    <data name="mod_unwarn_success" xml:space="preserve">
     <value>`{0}#{1}`에게서 경고가 성공적으로 제거되었습니다.</value>
   </data>
-  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <data name="mod_unwarn_error_none" xml:space="preserve">
     <value>사용자에게서 제거할 경고가 없습니다.</value>
   </data>
-  <data name="mod_unwarn_error_invalid" xml:space="preserve">
+    <data name="mod_unwarn_error_invalid" xml:space="preserve">
     <value>지정한 경고 ID가 올바르지 않습니다.</value>
   </data>
-  <data name="mod_clearwarnings_success" xml:space="preserve">
+    <data name="mod_clearwarnings_success" xml:space="preserve">
     <value>`{0}#{1}`에게서 모든 경고를 성공적으로 지웠습니다</value>
   </data>
-  <data name="mod_purge_amount" xml:space="preserve">
+    <data name="mod_purge_amount" xml:space="preserve">
     <value>지울 메시지의 양을 입력해야 합니다!</value>
   </data>
-  <data name="mod_purge_amount_max" xml:space="preserve">
+    <data name="mod_purge_amount_max" xml:space="preserve">
     <value>메시지는 한 번에 최대 100개까지만 지울 수 있습니다!</value>
   </data>
-  <data name="mod_purge_none_1" xml:space="preserve">
+    <data name="mod_purge_none_1" xml:space="preserve">
     <value>삭제할 항목이 없습니다!</value>
   </data>
-  <data name="mod_purge_none_2" xml:space="preserve">
+    <data name="mod_purge_none_2" xml:space="preserve">
     <value>지정한 기준에 맞는 메시지가 없습니다.</value>
   </data>
-  <data name="mod_purge_success" xml:space="preserve">
+    <data name="mod_purge_success" xml:space="preserve">
     <value>**&lt;#{2}&gt;에서 {1}이(가) 메시지 {0}개를 지웠습니다**</value>
   </data>
-  <data name="mod_purge_disabled" xml:space="preserve">
+    <data name="mod_purge_disabled" xml:space="preserve">
     <value>**고급 지우기는 문제로 인해 현재 비활성화되어 있습니다.**</value>
   </data>
-  <data name="mod_purge_url" xml:space="preserve">
+    <data name="mod_purge_url" xml:space="preserve">
     <value>삭제된 메시지:</value>
   </data>
-  <data name="mod_dehoist_start" xml:space="preserve">
+    <data name="mod_dehoist_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; 닉네임 별도 표시를 제거하는 중입니다, 잠시 시간이 걸릴 수 있습니다.
 참고: 완료 시 메시지가 전송됩니다.</value>
   </data>
-  <data name="mod_dehoist_success" xml:space="preserve">
+    <data name="mod_dehoist_success" xml:space="preserve">
     <value>멤버 `{0}`명을 별도 표시하지 않도록 성공적으로 설정했습니다.</value>
   </data>
-  <data name="mod_unnick_start" xml:space="preserve">
+    <data name="mod_unnick_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; 사용자 닉네임을 제거하는 중입니다, 잠시 시간이 걸릴 수 있습니다.
 참고: 완료 시 메시지가 전송됩니다.</value>
   </data>
-  <data name="mod_unnick_success" xml:space="preserve">
+    <data name="mod_unnick_success" xml:space="preserve">
     <value>멤버 `{0}`명의 닉을 성공적으로 제거했습니다.</value>
   </data>
-  <data name="mod_slowmode_success" xml:space="preserve">
+    <data name="mod_slowmode_success" xml:space="preserve">
     <value>`{0}` 채널의 슬로우 모드가 `{1}시간 {2}분 {3}초`로 갱신되었습니다.</value>
   </data>
-  <data name="time_error_invalid" xml:space="preserve">
+    <data name="time_error_invalid" xml:space="preserve">
     <value>올바른 시간을 입력하세요.</value>
   </data>
-  <data name="time_error_invalid_6h" xml:space="preserve">
+    <data name="time_error_invalid_6h" xml:space="preserve">
     <value>(6시간 이하)</value>
   </data>
-  <data name="time_error_large" xml:space="preserve">
+    <data name="time_error_large" xml:space="preserve">
     <value>지정한 시간이 너무 큽니다.</value>
   </data>
-  <data name="time_error_negative" xml:space="preserve">
+    <data name="time_error_negative" xml:space="preserve">
     <value>시간은 음수이거나 0보다 작을 수 없습니다.</value>
   </data>
-  <data name="info_about_description" xml:space="preserve">
+    <data name="info_about_description" xml:space="preserve">
     <value>**정보:**```Dyno 및 Rythm과 직접 경쟁하기 위해 만들어진 고급 맞춤형 봇입니다. Cakey Bot은 강력한 음악 기능과 다양한 유틸리티 기능을 합치기 위해 만들어졌습니다. Cakey Bot은 일반적으로 여러 봇이 필요한 기능을 봇 하나로 합칩니다. 길드 관리를 보다 간단하고 빠르게.```
 </value>
   </data>
-  <data name="info_about_vote" xml:space="preserve">
+    <data name="info_about_vote" xml:space="preserve">
     <value>:star: Cakey Bot이 마음에 드시나요? 다음 웹사이트에서 지지를 보여주고 투표하세요.
 </value>
   </data>
-  <data name="info_ping" xml:space="preserve">
+    <data name="info_ping" xml:space="preserve">
     <value>하트비트 - 샤드 #{0}: {1}밀리초</value>
   </data>
-  <data name="info_ping_avg" xml:space="preserve">
+    <data name="info_ping_avg" xml:space="preserve">
     <value>하트비트 평균:</value>
   </data>
-  <data name="info_created_date" xml:space="preserve">
+    <data name="info_created_date" xml:space="preserve">
     <value>{0}에 만들어졌네요. 바로 {1}일 전이랍니다!</value>
   </data>
-  <data name="info_joined_date" xml:space="preserve">
+    <data name="info_joined_date" xml:space="preserve">
     <value>{0}에 Discord에 가입했네요. 바로 {1}일 전이랍니다!</value>
   </data>
-  <data name="info_boosters_extra" xml:space="preserve">
+    <data name="info_boosters_extra" xml:space="preserve">
     <value>사용자 {0}명이 더 있습니다.</value>
   </data>
-  <data name="info_boosters_error" xml:space="preserve">
+    <data name="info_boosters_error" xml:space="preserve">
     <value>부스터가 없습니다.</value>
   </data>
-  <data name="info_string_1" xml:space="preserve">
+    <data name="info_string_1" xml:space="preserve">
     <value>총 멤버 수</value>
   </data>
-  <data name="info_string_2" xml:space="preserve">
+    <data name="info_string_2" xml:space="preserve">
     <value>사람</value>
   </data>
-  <data name="info_string_3" xml:space="preserve">
+    <data name="info_string_3" xml:space="preserve">
     <value>봇</value>
   </data>
-  <data name="info_string_4" xml:space="preserve">
+    <data name="info_string_4" xml:space="preserve">
     <value>온라인</value>
   </data>
-  <data name="info_string_5" xml:space="preserve">
+    <data name="info_string_5" xml:space="preserve">
     <value>오프라인</value>
   </data>
-  <data name="info_string_6" xml:space="preserve">
+    <data name="info_string_6" xml:space="preserve">
     <value>차단됨</value>
   </data>
-  <data name="info_string_7" xml:space="preserve">
+    <data name="info_string_7" xml:space="preserve">
     <value>소유자</value>
   </data>
-  <data name="info_string_8" xml:space="preserve">
+    <data name="info_string_8" xml:space="preserve">
     <value>멤버</value>
   </data>
-  <data name="info_string_9" xml:space="preserve">
+    <data name="info_string_9" xml:space="preserve">
     <value>지역</value>
   </data>
-  <data name="info_string_10" xml:space="preserve">
+    <data name="info_string_10" xml:space="preserve">
     <value>역할</value>
   </data>
-  <data name="info_string_11" xml:space="preserve">
+    <data name="info_string_11" xml:space="preserve">
     <value>채널</value>
   </data>
-  <data name="info_string_12" xml:space="preserve">
+    <data name="info_string_12" xml:space="preserve">
     <value>범주</value>
   </data>
-  <data name="info_string_13" xml:space="preserve">
+    <data name="info_string_13" xml:space="preserve">
     <value>잠수 채널</value>
   </data>
-  <data name="info_string_14" xml:space="preserve">
+    <data name="info_string_14" xml:space="preserve">
     <value>잠수 채널 없음</value>
   </data>
-  <data name="info_string_15" xml:space="preserve">
+    <data name="info_string_15" xml:space="preserve">
     <value>총 이모지 수</value>
   </data>
-  <data name="info_string_16" xml:space="preserve">
+    <data name="info_string_16" xml:space="preserve">
     <value>역할 목록</value>
   </data>
-  <data name="info_string_17" xml:space="preserve">
+    <data name="info_string_17" xml:space="preserve">
     <value>없음</value>
   </data>
-  <data name="info_string_18" xml:space="preserve">
+    <data name="info_string_18" xml:space="preserve">
     <value>VIP 기능</value>
   </data>
-  <data name="info_string_19" xml:space="preserve">
+    <data name="info_string_19" xml:space="preserve">
     <value>{0}의 아바타</value>
   </data>
-  <data name="info_string_20" xml:space="preserve">
+    <data name="info_string_20" xml:space="preserve">
     <value>{0}의 사용자 정보</value>
   </data>
-  <data name="info_string_21" xml:space="preserve">
+    <data name="info_string_21" xml:space="preserve">
     <value>상태</value>
   </data>
-  <data name="info_string_22" xml:space="preserve">
+    <data name="info_string_22" xml:space="preserve">
     <value>활동</value>
   </data>
-  <data name="info_string_23" xml:space="preserve">
+    <data name="info_string_23" xml:space="preserve">
     <value>닉네임</value>
   </data>
-  <data name="info_string_24" xml:space="preserve">
+    <data name="info_string_24" xml:space="preserve">
     <value>판별자</value>
   </data>
-  <data name="info_string_25" xml:space="preserve">
+    <data name="info_string_25" xml:space="preserve">
     <value>아바타</value>
   </data>
-  <data name="info_string_26" xml:space="preserve">
+    <data name="info_string_26" xml:space="preserve">
     <value>길드 참여 날짜</value>
   </data>
-  <data name="info_string_27" xml:space="preserve">
+    <data name="info_string_27" xml:space="preserve">
     <value>봇</value>
   </data>
-  <data name="info_string_28" xml:space="preserve">
+    <data name="info_string_28" xml:space="preserve">
     <value>사람</value>
   </data>
-  <data name="info_string_29" xml:space="preserve">
+    <data name="info_string_29" xml:space="preserve">
     <value>봇 또는 사람?</value>
   </data>
-  <data name="info_string_30" xml:space="preserve">
+    <data name="info_string_30" xml:space="preserve">
     <value>부스트 중?</value>
   </data>
-  <data name="info_string_31" xml:space="preserve">
+    <data name="info_string_31" xml:space="preserve">
     <value>음소거됨?</value>
   </data>
-  <data name="info_string_32" xml:space="preserve">
+    <data name="info_string_32" xml:space="preserve">
     <value>헤드셋 음소거됨?</value>
   </data>
-  <data name="info_string_33" xml:space="preserve">
+    <data name="info_string_33" xml:space="preserve">
     <value>예</value>
   </data>
-  <data name="info_string_34" xml:space="preserve">
+    <data name="info_string_34" xml:space="preserve">
     <value>아니요</value>
   </data>
-  <data name="info_string_35" xml:space="preserve">
+    <data name="info_string_35" xml:space="preserve">
     <value>자격</value>
   </data>
-  <data name="info_string_36" xml:space="preserve">
+    <data name="info_string_36" xml:space="preserve">
     <value>초대자</value>
   </data>
-  <data name="info_string_37" xml:space="preserve">
+    <data name="info_string_37" xml:space="preserve">
     <value>채널</value>
   </data>
-  <data name="info_string_38" xml:space="preserve">
+    <data name="info_string_38" xml:space="preserve">
     <value>멤버 수</value>
   </data>
-  <data name="info_string_39" xml:space="preserve">
+    <data name="info_string_39" xml:space="preserve">
     <value>사용 횟수</value>
   </data>
-  <data name="info_string_40" xml:space="preserve">
+    <data name="info_string_40" xml:space="preserve">
     <value>만든 시간</value>
   </data>
-  <data name="info_string_41" xml:space="preserve">
+    <data name="info_string_41" xml:space="preserve">
     <value>일시?</value>
   </data>
-  <data name="info_string_42" xml:space="preserve">
+    <data name="info_string_42" xml:space="preserve">
     <value>최대 사용 기간</value>
   </data>
-  <data name="info_string_43" xml:space="preserve">
+    <data name="info_string_43" xml:space="preserve">
     <value>만료되지 않음</value>
   </data>
-  <data name="info_string_44" xml:space="preserve">
+    <data name="info_string_44" xml:space="preserve">
     <value>총 채널 수</value>
   </data>
-  <data name="info_string_45" xml:space="preserve">
+    <data name="info_string_45" xml:space="preserve">
     <value>총 이모지 수</value>
   </data>
-  <data name="info_string_46" xml:space="preserve">
+    <data name="info_string_46" xml:space="preserve">
     <value>{0}#{1}이(가) 요청함</value>
   </data>
-  <data name="info_string_47" xml:space="preserve">
+    <data name="info_string_47" xml:space="preserve">
     <value>차단 목록:</value>
   </data>
-  <data name="info_string_48" xml:space="preserve">
+    <data name="info_string_48" xml:space="preserve">
     <value>권한 없음</value>
   </data>
-  <data name="info_string_49" xml:space="preserve">
+    <data name="info_string_49" xml:space="preserve">
     <value>참여 순위</value>
   </data>
-  <data name="info_string_50" xml:space="preserve">
+    <data name="info_string_50" xml:space="preserve">
     <value>총 역할 수</value>
   </data>
-  <data name="info_string_51" xml:space="preserve">
+    <data name="info_string_51" xml:space="preserve">
     <value>경고</value>
   </data>
-  <data name="info_string_52" xml:space="preserve">
+    <data name="info_string_52" xml:space="preserve">
     <value>길드 {2}개에서 경고 {0}개를 받았습니다.</value>
   </data>
-  <data name="info_string_53" xml:space="preserve">
+    <data name="info_string_53" xml:space="preserve">
     <value>연락처 정보:</value>
   </data>
-  <data name="info_string_54" xml:space="preserve">
+    <data name="info_string_54" xml:space="preserve">
     <value>기여자:</value>
   </data>
-  <data name="info_string_55" xml:space="preserve">
+    <data name="info_string_55" xml:space="preserve">
     <value>{1} 중 {0}(슬롯 {2}개 남음)</value>
   </data>
-  <data name="info_string_56" xml:space="preserve">
+    <data name="info_string_56" xml:space="preserve">
     <value>사용자명:</value>
   </data>
-  <data name="info_string_57" xml:space="preserve">
+    <data name="info_string_57" xml:space="preserve">
     <value>이유:</value>
   </data>
-  <data name="info_string_58" xml:space="preserve">
+    <data name="info_string_58" xml:space="preserve">
     <value>이유 없음</value>
   </data>
-  <data name="info_string_59" xml:space="preserve">
+    <data name="info_string_59" xml:space="preserve">
     <value>운영자:</value>
   </data>
-  <data name="info_string_60" xml:space="preserve">
+    <data name="info_string_60" xml:space="preserve">
     <value>사용자가 경고를 받음:</value>
   </data>
-  <data name="info_string_61" xml:space="preserve">
+    <data name="info_string_61" xml:space="preserve">
     <value>경고 합계:</value>
   </data>
-  <data name="info_string_62" xml:space="preserve">
+    <data name="info_string_62" xml:space="preserve">
     <value>여기를 클릭하세요</value>
   </data>
-  <data name="info_string_63" xml:space="preserve">
+    <data name="info_string_63" xml:space="preserve">
     <value>자세한 정보를 확인하려면 여기를 클릭하세요</value>
   </data>
-  <data name="info_string_64" xml:space="preserve">
+    <data name="info_string_64" xml:space="preserve">
     <value>유형:</value>
   </data>
-  <data name="info_string_65" xml:space="preserve">
+    <data name="info_string_65" xml:space="preserve">
     <value>시간:</value>
   </data>
-  <data name="info_string_66" xml:space="preserve">
+    <data name="info_string_66" xml:space="preserve">
     <value>총 경고 수:</value>
   </data>
-  <data name="info_string_67" xml:space="preserve">
+    <data name="info_string_67" xml:space="preserve">
     <value>알 수 없음</value>
   </data>
-  <data name="info_string_68" xml:space="preserve">
+    <data name="info_string_68" xml:space="preserve">
     <value>오류</value>
   </data>
-  <data name="info_string_72" xml:space="preserve">
+    <data name="info_string_72" xml:space="preserve">
     <value>```텍스트 {0}개, 음성 {1}개```</value>
   </data>
-  <data name="info_string_73" xml:space="preserve">
+    <data name="info_string_73" xml:space="preserve">
     <value>```서버 소유자```</value>
   </data>
-  <data name="info_string_74" xml:space="preserve">
+    <data name="info_string_74" xml:space="preserve">
     <value>```서버 관리자```</value>
   </data>
-  <data name="info_string_75" xml:space="preserve">
+    <data name="info_string_75" xml:space="preserve">
     <value>```서버 운영자```</value>
   </data>
-  <data name="info_string_76" xml:space="preserve">
+    <data name="info_string_76" xml:space="preserve">
     <value>후원하여 지지를 보여줄 수도 있습니다!</value>
   </data>
-  <data name="info_string_77" xml:space="preserve">
+    <data name="info_string_77" xml:space="preserve">
     <value>부스터 {0}명</value>
   </data>
-  <data name="weather_coordinates" xml:space="preserve">
+    <data name="weather_coordinates" xml:space="preserve">
     <value>좌표</value>
   </data>
-  <data name="weather_weather" xml:space="preserve">
+    <data name="weather_weather" xml:space="preserve">
     <value>날씨</value>
   </data>
-  <data name="weather_description" xml:space="preserve">
+    <data name="weather_description" xml:space="preserve">
     <value>설명</value>
   </data>
-  <data name="weather_country" xml:space="preserve">
+    <data name="weather_country" xml:space="preserve">
     <value>국가</value>
   </data>
-  <data name="weather_clouds" xml:space="preserve">
+    <data name="weather_clouds" xml:space="preserve">
     <value>구름</value>
   </data>
-  <data name="weather_wind_speed" xml:space="preserve">
+    <data name="weather_wind_speed" xml:space="preserve">
     <value>풍속</value>
   </data>
-  <data name="weather_wind_direction" xml:space="preserve">
+    <data name="weather_wind_direction" xml:space="preserve">
     <value>풍향</value>
   </data>
-  <data name="weather_sun_rise" xml:space="preserve">
+    <data name="weather_sun_rise" xml:space="preserve">
     <value>일출</value>
   </data>
-  <data name="weather_sun_set" xml:space="preserve">
+    <data name="weather_sun_set" xml:space="preserve">
     <value>일몰</value>
   </data>
-  <data name="emoji_string_name" xml:space="preserve">
+    <data name="emoji_string_name" xml:space="preserve">
     <value>이름</value>
   </data>
-  <data name="emoji_string_uploaded" xml:space="preserve">
+    <data name="emoji_string_uploaded" xml:space="preserve">
     <value>업로더:</value>
   </data>
-  <data name="emoji_string_animated" xml:space="preserve">
+    <data name="emoji_string_animated" xml:space="preserve">
     <value>애니메이션?</value>
   </data>
-  <data name="emoji_string_url" xml:space="preserve">
+    <data name="emoji_string_url" xml:space="preserve">
     <value>URL:</value>
   </data>
-  <data name="emoji_missing_id" xml:space="preserve">
+    <data name="emoji_missing_id" xml:space="preserve">
     <value>이모지 ID를 입력하세요.</value>
   </data>
-  <data name="emoji_invalid_name" xml:space="preserve">
+    <data name="emoji_invalid_name" xml:space="preserve">
     <value>올바른 이름을 입력하세요.</value>
   </data>
-  <data name="emoji_success" xml:space="preserve">
+    <data name="emoji_success" xml:space="preserve">
     <value>이모지 이름을 다음으로 성공적으로 갱신했습니다: `{0}`</value>
   </data>
-  <data name="roleinfo" xml:space="preserve">
+    <data name="roleinfo" xml:space="preserve">
     <value>{0} 역할 정보</value>
   </data>
-  <data name="roleinfo_color" xml:space="preserve">
+    <data name="roleinfo_color" xml:space="preserve">
     <value>색</value>
   </data>
-  <data name="roleinfo_created_at" xml:space="preserve">
+    <data name="roleinfo_created_at" xml:space="preserve">
     <value>생성일</value>
   </data>
-  <data name="roleinfo_position" xml:space="preserve">
+    <data name="roleinfo_position" xml:space="preserve">
     <value>순위</value>
   </data>
-  <data name="roleinfo_ishoisted" xml:space="preserve">
+    <data name="roleinfo_ishoisted" xml:space="preserve">
     <value>별도 표시됨?</value>
   </data>
-  <data name="roleinfo_ismanaged" xml:space="preserve">
+    <data name="roleinfo_ismanaged" xml:space="preserve">
     <value>관리됨?</value>
   </data>
-  <data name="roleinfo_ismentionable" xml:space="preserve">
+    <data name="roleinfo_ismentionable" xml:space="preserve">
     <value>멘션 가능?</value>
   </data>
-  <data name="roleinfo_members" xml:space="preserve">
+    <data name="roleinfo_members" xml:space="preserve">
     <value>멤버 [{0}]</value>
   </data>
-  <data name="misc_anime_start" xml:space="preserve">
+    <data name="misc_anime_start" xml:space="preserve">
     <value>시작 날짜:</value>
   </data>
-  <data name="misc_anime_end" xml:space="preserve">
+    <data name="misc_anime_end" xml:space="preserve">
     <value>종료 날짜:</value>
   </data>
-  <data name="misc_anime_status" xml:space="preserve">
+    <data name="misc_anime_status" xml:space="preserve">
     <value>상태:</value>
   </data>
-  <data name="misc_anime_status_airing" xml:space="preserve">
+    <data name="misc_anime_status_airing" xml:space="preserve">
     <value>방영 중</value>
   </data>
-  <data name="misc_anime_status_ended" xml:space="preserve">
+    <data name="misc_anime_status_ended" xml:space="preserve">
     <value>종영됨</value>
   </data>
-  <data name="misc_anime_episodes" xml:space="preserve">
+    <data name="misc_anime_episodes" xml:space="preserve">
     <value>에피소드:</value>
   </data>
-  <data name="misc_anime_rating" xml:space="preserve">
+    <data name="misc_anime_rating" xml:space="preserve">
     <value>평점:</value>
   </data>
-  <data name="misc_anime_synopsis" xml:space="preserve">
+    <data name="misc_anime_synopsis" xml:space="preserve">
     <value>줄거리:</value>
   </data>
-  <data name="misc_anime_footer" xml:space="preserve">
+    <data name="misc_anime_footer" xml:space="preserve">
     <value>아니메 ID: {0} • 점수: {1}</value>
   </data>
-  <data name="misc_manga_status_ip" xml:space="preserve">
+    <data name="misc_manga_status_ip" xml:space="preserve">
     <value>진행 중</value>
   </data>
-  <data name="misc_manga_status_completed" xml:space="preserve">
+    <data name="misc_manga_status_completed" xml:space="preserve">
     <value>완결됨</value>
   </data>
-  <data name="misc_manga_volumes" xml:space="preserve">
+    <data name="misc_manga_volumes" xml:space="preserve">
     <value>권:</value>
   </data>
-  <data name="misc_manga_chapters" xml:space="preserve">
+    <data name="misc_manga_chapters" xml:space="preserve">
     <value>장:</value>
   </data>
-  <data name="misc_manga_footer" xml:space="preserve">
+    <data name="misc_manga_footer" xml:space="preserve">
     <value>만화 ID: {0} • 점수: {1}</value>
   </data>
-  <data name="misc_bgg_name" xml:space="preserve">
+    <data name="misc_bgg_name" xml:space="preserve">
     <value>**이름:** {0}
 </value>
   </data>
-  <data name="misc_bgg_name_alt" xml:space="preserve">
+    <data name="misc_bgg_name_alt" xml:space="preserve">
     <value>**대체 이름:** {0}</value>
   </data>
-  <data name="misc_bgg_players" xml:space="preserve">
+    <data name="misc_bgg_players" xml:space="preserve">
     <value>**플레이어 수:** 최소: {0} - 최대: {1}
 </value>
   </data>
-  <data name="misc_bgg_players_min" xml:space="preserve">
+    <data name="misc_bgg_players_min" xml:space="preserve">
     <value>최소 플레이어 수:</value>
   </data>
-  <data name="misc_bgg_playtime" xml:space="preserve">
+    <data name="misc_bgg_playtime" xml:space="preserve">
     <value>**플레이타임:** 최소: {0} - 최대: {1}</value>
   </data>
-  <data name="misc_bgg_release" xml:space="preserve">
+    <data name="misc_bgg_release" xml:space="preserve">
     <value>출시 날짜:</value>
   </data>
-  <data name="misc_bgg_footer" xml:space="preserve">
+    <data name="misc_bgg_footer" xml:space="preserve">
     <value>게임 ID: {0} • 출처: https://boardgamegeek.com/</value>
   </data>
-  <data name="misc_convert_result" xml:space="preserve">
+    <data name="misc_convert_result" xml:space="preserve">
     <value>결과:</value>
   </data>
-  <data name="misc_convert_rate" xml:space="preserve">
+    <data name="misc_convert_rate" xml:space="preserve">
     <value>환율:</value>
   </data>
-  <data name="misc_convert_usage" xml:space="preserve">
+    <data name="misc_convert_usage" xml:space="preserve">
     <value>사용법: `!convert &lt;통화&gt; &lt;통화2&gt; &lt;선택:양&gt;`</value>
   </data>
-  <data name="misc_fact" xml:space="preserve">
+    <data name="misc_fact" xml:space="preserve">
     <value>재미있는 사실:</value>
   </data>
-  <data name="misc_fact_failed" xml:space="preserve">
+    <data name="misc_fact_failed" xml:space="preserve">
     <value>사실을 가져오지 못했습니다.</value>
   </data>
-  <data name="misc_fact_invalid" xml:space="preserve">
+    <data name="misc_fact_invalid" xml:space="preserve">
     <value>잘못된 사실 유형입니다. **올바른 유형:** Dog, Cat, Panda, Fox, Bird, Koala, Kangaroo, Raccoon, Elephant, Giraffe, Whale</value>
   </data>
-  <data name="misc_pizza" xml:space="preserve">
+    <data name="misc_pizza" xml:space="preserve">
     <value>여기 있어요: {0}</value>
   </data>
-  <data name="misc_reminder_error_1" xml:space="preserve">
+    <data name="misc_reminder_error_1" xml:space="preserve">
     <value>자기 자신을 미리 알릴 문자열을 입력해야 합니다.</value>
   </data>
-  <data name="misc_reminder_error_2" xml:space="preserve">
+    <data name="misc_reminder_error_2" xml:space="preserve">
     <value>미리 알림은 200자 이하여야 합니다.</value>
   </data>
-  <data name="misc_reminder_error_3" xml:space="preserve">
+    <data name="misc_reminder_error_3" xml:space="preserve">
     <value>미리 알림은 지금으로부터 1개월 이내여야 합니다.</value>
   </data>
-  <data name="misc_reminder_success" xml:space="preserve">
+    <data name="misc_reminder_success" xml:space="preserve">
     <value>`{0}`에 대해 {1}시간 {2}분 {3}초 후에 미리 알리도록 성공적으로 설정했습니다.</value>
   </data>
-  <data name="misc_reminder_remind" xml:space="preserve">
+    <data name="misc_reminder_remind" xml:space="preserve">
     <value>`{0}`에 대해 {1}시간 {2}분 {3}초 후에 미리 알리도록 성공적으로 설정했습니다.</value>
   </data>
-  <data name="misc_covid_for_global" xml:space="preserve">
+    <data name="misc_covid_for_global" xml:space="preserve">
     <value>전 세계 코로나19 통계</value>
   </data>
-  <data name="misc_covid_for_country" xml:space="preserve">
+    <data name="misc_covid_for_country" xml:space="preserve">
     <value>{0} 코로나19 통계</value>
   </data>
-  <data name="misc_covid_cases" xml:space="preserve">
+    <data name="misc_covid_cases" xml:space="preserve">
     <value>확진자</value>
   </data>
-  <data name="misc_covid_deaths" xml:space="preserve">
+    <data name="misc_covid_deaths" xml:space="preserve">
     <value>사망자</value>
   </data>
-  <data name="misc_covid_recovered" xml:space="preserve">
+    <data name="misc_covid_recovered" xml:space="preserve">
     <value>완치자</value>
   </data>
-  <data name="misc_covid_active" xml:space="preserve">
+    <data name="misc_covid_active" xml:space="preserve">
     <value>치료 중</value>
   </data>
-  <data name="misc_covid_cases_today" xml:space="preserve">
+    <data name="misc_covid_cases_today" xml:space="preserve">
     <value>오늘 확진자</value>
   </data>
-  <data name="misc_covid_deaths_today" xml:space="preserve">
+    <data name="misc_covid_deaths_today" xml:space="preserve">
     <value>오늘 사망자</value>
   </data>
-  <data name="misc_covid_advice" xml:space="preserve">
+    <data name="misc_covid_advice" xml:space="preserve">
     <value>대중을 위한 권고 사항</value>
   </data>
-  <data name="misc_imdb_rating" xml:space="preserve">
+    <data name="misc_imdb_rating" xml:space="preserve">
     <value>IMDb 평점:</value>
   </data>
-  <data name="misc_imdb_language" xml:space="preserve">
+    <data name="misc_imdb_language" xml:space="preserve">
     <value>언어:</value>
   </data>
-  <data name="misc_imdb_content_rating" xml:space="preserve">
+    <data name="misc_imdb_content_rating" xml:space="preserve">
     <value>콘텐츠 등급:</value>
   </data>
-  <data name="misc_imdb_countries" xml:space="preserve">
+    <data name="misc_imdb_countries" xml:space="preserve">
     <value>국가:</value>
   </data>
-  <data name="misc_imdb_companies" xml:space="preserve">
+    <data name="misc_imdb_companies" xml:space="preserve">
     <value>회사:</value>
   </data>
-  <data name="misc_imdb_genres" xml:space="preserve">
+    <data name="misc_imdb_genres" xml:space="preserve">
     <value>장르:</value>
   </data>
-  <data name="misc_imdb_stars" xml:space="preserve">
+    <data name="misc_imdb_stars" xml:space="preserve">
     <value>주연:</value>
   </data>
-  <data name="misc_imdb_writers" xml:space="preserve">
+    <data name="misc_imdb_writers" xml:space="preserve">
     <value>각본:</value>
   </data>
-  <data name="misc_imdb_directors" xml:space="preserve">
+    <data name="misc_imdb_directors" xml:space="preserve">
     <value>감독:</value>
   </data>
-  <data name="misc_imdb_awards" xml:space="preserve">
+    <data name="misc_imdb_awards" xml:space="preserve">
     <value>수상:</value>
   </data>
-  <data name="misc_imdb_metacritic" xml:space="preserve">
+    <data name="misc_imdb_metacritic" xml:space="preserve">
     <value>Metacritic 평점:</value>
   </data>
-  <data name="misc_imdb_produced" xml:space="preserve">
+    <data name="misc_imdb_produced" xml:space="preserve">
     <value>작품:</value>
   </data>
-  <data name="misc_imdb_name_birth" xml:space="preserve">
+    <data name="misc_imdb_name_birth" xml:space="preserve">
     <value>생년월일:</value>
   </data>
-  <data name="misc_imdb_name_death" xml:space="preserve">
+    <data name="misc_imdb_name_death" xml:space="preserve">
     <value>사망년월일:</value>
   </data>
-  <data name="misc_imdb_name_roles" xml:space="preserve">
+    <data name="misc_imdb_name_roles" xml:space="preserve">
     <value>역할:</value>
   </data>
-  <data name="misc_imdb_name_known" xml:space="preserve">
+    <data name="misc_imdb_name_known" xml:space="preserve">
     <value>다음으로 알려져 있음:</value>
   </data>
-  <data name="misc_imdb_name_movies" xml:space="preserve">
+    <data name="misc_imdb_name_movies" xml:space="preserve">
     <value>영화:</value>
   </data>
-  <data name="misc_pokemon_failed" xml:space="preserve">
+    <data name="misc_pokemon_failed" xml:space="preserve">
     <value>죄송합니다, 해당 포켓몬을 찾을 수 없습니다.</value>
   </data>
-  <data name="misc_pokemon_format_1" xml:space="preserve">
+    <data name="misc_pokemon_format_1" xml:space="preserve">
     <value>HP: {0}  -  스피드: {1}
 </value>
   </data>
-  <data name="misc_pokemon_format_2" xml:space="preserve">
+    <data name="misc_pokemon_format_2" xml:space="preserve">
     <value>공격: {0}  -  방어: {1}
 </value>
   </data>
-  <data name="misc_pokemon_format_3" xml:space="preserve">
+    <data name="misc_pokemon_format_3" xml:space="preserve">
     <value>특수공격: {0}  -  특수방어: {1}
 </value>
   </data>
-  <data name="misc_pokemon_format_4" xml:space="preserve">
+    <data name="misc_pokemon_format_4" xml:space="preserve">
     <value>합계: {0}</value>
   </data>
-  <data name="misc_pokemon_species" xml:space="preserve">
+    <data name="misc_pokemon_species" xml:space="preserve">
     <value>분류:</value>
   </data>
-  <data name="misc_pokemon_abilities" xml:space="preserve">
+    <data name="misc_pokemon_abilities" xml:space="preserve">
     <value>특성:</value>
   </data>
-  <data name="misc_pokemon_height" xml:space="preserve">
+    <data name="misc_pokemon_height" xml:space="preserve">
     <value>키:</value>
   </data>
-  <data name="misc_pokemon_weight" xml:space="preserve">
+    <data name="misc_pokemon_weight" xml:space="preserve">
     <value>몸무게:</value>
   </data>
-  <data name="misc_pokemon_gender" xml:space="preserve">
+    <data name="misc_pokemon_gender" xml:space="preserve">
     <value>성별:</value>
   </data>
-  <data name="misc_pokemon_base_exp" xml:space="preserve">
+    <data name="misc_pokemon_base_exp" xml:space="preserve">
     <value>기본 경험치:</value>
   </data>
-  <data name="misc_pokemon_egg_groups" xml:space="preserve">
+    <data name="misc_pokemon_egg_groups" xml:space="preserve">
     <value>알그룹:</value>
   </data>
-  <data name="misc_pokemon_evolution" xml:space="preserve">
+    <data name="misc_pokemon_evolution" xml:space="preserve">
     <value>진화 라인: (단계: {0})</value>
   </data>
-  <data name="misc_pokemon_stats" xml:space="preserve">
+    <data name="misc_pokemon_stats" xml:space="preserve">
     <value>스탯:</value>
   </data>
-  <data name="misc_trailer" xml:space="preserve">
+    <data name="misc_trailer" xml:space="preserve">
     <value>{0} 예고편: &lt;{1}&gt;</value>
   </data>
-  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <data name="music_error_voice_channel_1" xml:space="preserve">
     <value>음성 채널에 있어야 합니다.</value>
   </data>
-  <data name="music_error_voice_channel_2" xml:space="preserve">
+    <data name="music_error_voice_channel_2" xml:space="preserve">
     <value>제가 해당 음성 채널에 참여할 수 없습니다.</value>
   </data>
-  <data name="music_error_voice_channel_3" xml:space="preserve">
+    <data name="music_error_voice_channel_3" xml:space="preserve">
     <value>제가 해당 음성 채널에서 말할 수 없습니다.</value>
   </data>
-  <data name="music_error_voice_channel_4" xml:space="preserve">
+    <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>제가 이미 해당 채널에 있습니다.</value>
   </data>
-  <data name="music_error_voice_channel_5" xml:space="preserve">
+    <data name="music_error_voice_channel_5" xml:space="preserve">
     <value>제가 음성 채널에 있어야 합니다. `!join`으로 저를 소환하세요.</value>
   </data>
-  <data name="music_error_voice_channel_6" xml:space="preserve">
+    <data name="music_error_voice_channel_6" xml:space="preserve">
     <value>봇과 같은 채널에 있어야 합니다. `!join` 또는 `!move`를 사용해보세요</value>
   </data>
-  <data name="music_error_player" xml:space="preserve">
+    <data name="music_error_player" xml:space="preserve">
     <value>플레이어가 존재하지 않습니다, `!join`을 다시 입력하세요.</value>
   </data>
-  <data name="music_error_play" xml:space="preserve">
+    <data name="music_error_play" xml:space="preserve">
     <value>트랙을 불러오는 동안 오류가 발생했습니다: ```{0}```</value>
   </data>
-  <data name="music_error_timespan" xml:space="preserve">
+    <data name="music_error_timespan" xml:space="preserve">
     <value>대기열의 시간 간격이 너무 깁니다. 노래를 추가하기 전에 대기열에서 노래를 지우세요.</value>
   </data>
-  <data name="music_error_lavalink" xml:space="preserve">
+    <data name="music_error_lavalink" xml:space="preserve">
     <value>LavaLink 인스턴스가 충돌했습니다. 다음에서 보고해주세요: </value>
   </data>
-  <data name="music_join" xml:space="preserve">
+    <data name="music_join" xml:space="preserve">
     <value>다음 채널에 참여했습니다: `{0}`.</value>
   </data>
-  <data name="music_disconnect" xml:space="preserve">
+    <data name="music_disconnect" xml:space="preserve">
     <value>연결을 성공적으로 끊었습니다!</value>
   </data>
-  <data name="music_disconnect_error_2" xml:space="preserve">
+    <data name="music_disconnect_error_2" xml:space="preserve">
     <value>노래가 재생 중인 경우 Cakey Bot의 연결을 끊으려면 음성 채널에 있는 유일한 사용자이거나 운영자 권한이 있어야 합니다.</value>
   </data>
-  <data name="music_move" xml:space="preserve">
+    <data name="music_move" xml:space="preserve">
     <value>`{0}`에서 `{1}`(으)로 이동했습니다.</value>
   </data>
-  <data name="music_move_error" xml:space="preserve">
+    <data name="music_move_error" xml:space="preserve">
     <value>노래가 재생되는 동안에는 채널에서 Cakey Bot을 이동시킬 수 없습니다.</value>
   </data>
-  <data name="music_jump" xml:space="preserve">
+    <data name="music_jump" xml:space="preserve">
     <value>다음으로 성공적으로 이동했습니다:
 [{0}]({1}) _{2}/{3}_</value>
   </data>
-  <data name="music_duplicates" xml:space="preserve">
+    <data name="music_duplicates" xml:space="preserve">
     <value>대기열에서 중복된 트랙을 성공적으로 제거했습니다. 새 대기열:
 {0}</value>
   </data>
-  <data name="music_cleanup" xml:space="preserve">
+    <data name="music_cleanup" xml:space="preserve">
     <value>대기열을 성공적으로 정리했습니다. 새 대기열:
 {0}</value>
   </data>
-  <data name="music_shuffle" xml:space="preserve">
+    <data name="music_shuffle" xml:space="preserve">
     <value>대기열 순서를 성공적으로 섞었습니다.</value>
   </data>
-  <data name="music_loop" xml:space="preserve">
+    <data name="music_loop" xml:space="preserve">
     <value>노래 반복 상태를 다음으로 설정했습니다: `{0}`.</value>
   </data>
-  <data name="music_looping" xml:space="preserve">
+    <data name="music_looping" xml:space="preserve">
     <value>반복함</value>
   </data>
-  <data name="music_looping_disabled" xml:space="preserve">
+    <data name="music_looping_disabled" xml:space="preserve">
     <value>반복 안 함</value>
   </data>
-  <data name="music_bb" xml:space="preserve">
+    <data name="music_bb" xml:space="preserve">
     <value>노래 저음 증폭 상태를 다음으로 설정했습니다: `{0}`.</value>
   </data>
-  <data name="music_boosted" xml:space="preserve">
+    <data name="music_boosted" xml:space="preserve">
     <value>증폭함</value>
   </data>
-  <data name="music_boosted_disabled" xml:space="preserve">
+    <data name="music_boosted_disabled" xml:space="preserve">
     <value>증폭 안 함</value>
   </data>
-  <data name="music_remove" xml:space="preserve">
+    <data name="music_remove" xml:space="preserve">
     <value>대기열에서 `{0}` - `{1}`을(를) 성공적으로 제거했습니다.</value>
   </data>
-  <data name="music_restart_1" xml:space="preserve">
+    <data name="music_restart_1" xml:space="preserve">
     <value>노래를 다시 시작하려면 노래가 재생 중이어야 합니다.</value>
   </data>
-  <data name="music_restart_2" xml:space="preserve">
+    <data name="music_restart_2" xml:space="preserve">
     <value>노래를 처음 부분으로 되돌렸습니다.</value>
   </data>
-  <data name="music_seek_1" xml:space="preserve">
+    <data name="music_seek_1" xml:space="preserve">
     <value>노래의 위치를 수정하려면 노래가 재생 중이어야 합니다.</value>
   </data>
-  <data name="music_seek_3" xml:space="preserve">
+    <data name="music_seek_3" xml:space="preserve">
     <value>다음 시간을 찾았습니다: `{0}`</value>
   </data>
-  <data name="music_ff_1" xml:space="preserve">
+    <data name="music_ff_1" xml:space="preserve">
     <value>노래를 빨리 감으려면 노래가 재생 중이어야 합니다.</value>
   </data>
-  <data name="music_ff_2" xml:space="preserve">
+    <data name="music_ff_2" xml:space="preserve">
     <value>다음 시간으로 빨리 감았습니다: `{0}` ({1} 앞으로)</value>
   </data>
-  <data name="music_rewind_1" xml:space="preserve">
+    <data name="music_rewind_1" xml:space="preserve">
     <value>노래를 되감으려면 노래가 재생 중이어야 합니다.</value>
   </data>
-  <data name="music_rewind_2" xml:space="preserve">
+    <data name="music_rewind_2" xml:space="preserve">
     <value>다음 시간으로 되감았습니다: `{0}` ({1} 뒤로)</value>
   </data>
-  <data name="music_pause_1" xml:space="preserve">
+    <data name="music_pause_1" xml:space="preserve">
     <value>노래를 일시 정지하려면 노래가 재생 중이어야 합니다.</value>
   </data>
-  <data name="music_pause_2" xml:space="preserve">
+    <data name="music_pause_2" xml:space="preserve">
     <value>노래가 이미 일시 정지되어 있습니다. `!resume`으로 다시 시작할 수 있습니다</value>
   </data>
-  <data name="music_pause_3" xml:space="preserve">
+    <data name="music_pause_3" xml:space="preserve">
     <value>노래를 성공적으로 일시 정지했습니다.</value>
   </data>
-  <data name="music_resume_1" xml:space="preserve">
+    <data name="music_resume_1" xml:space="preserve">
     <value>노래를 성공적으로 다시 시작했습니다.</value>
   </data>
-  <data name="music_resume_2" xml:space="preserve">
+    <data name="music_resume_2" xml:space="preserve">
     <value>노래가 일시 정지되어 있지 않습니다. `!pause`로 노래를 일시 정지할 수 있습니다</value>
   </data>
-  <data name="music_lyrics_1" xml:space="preserve">
+    <data name="music_lyrics_1" xml:space="preserve">
     <value>검색할 노래 이름을 입력하거나 현재 재생 중인 노래가 있어야 합니다.</value>
   </data>
-  <data name="music_lyrics_2" xml:space="preserve">
+    <data name="music_lyrics_2" xml:space="preserve">
     <value>{0}의 가사: 
 
 {1}</value>
   </data>
-  <data name="music_lyrics_3" xml:space="preserve">
+    <data name="music_lyrics_3" xml:space="preserve">
     <value>가사가 없습니다.</value>
   </data>
-  <data name="music_volume_1" xml:space="preserve">
+    <data name="music_volume_1" xml:space="preserve">
     <value>노래의 음량을 수정하려면 노래가 재생 중이어야 합니다.</value>
   </data>
-  <data name="music_volume_2" xml:space="preserve">
-    <value>음량은 1에서 100 사이여야 합니다.</value>
-  </data>
-  <data name="music_volume_3" xml:space="preserve">
+    <data name="music_volume_2" xml:space="preserve">
+        <value>음량은 3에서 100 사이여야 합니다.</value>
+    </data>
+    <data name="music_volume_3" xml:space="preserve">
     <value>음량을 다음으로 성공적으로 설정했습니다: `{0}`</value>
   </data>
-  <data name="music_skip_1" xml:space="preserve">
+    <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [ {2} ]을(를) 건너뛰었습니다.</value>
   </data>
-  <data name="music_skip_2" xml:space="preserve">
+    <data name="music_skip_2" xml:space="preserve">
     <value>[{0}]({1}) [ {2} ]을(를) 건너뛰었습니다
 &lt;:CB_NowPlaying:586387464743157770&gt; [{3}]({4}) [ {5} ] 재생 중</value>
   </data>
-  <data name="music_skip_3" xml:space="preserve">
+    <data name="music_skip_3" xml:space="preserve">
     <value>재생 중인 노래가 없습니다.</value>
   </data>
-  <data name="music_skip_4" xml:space="preserve">
+    <data name="music_skip_4" xml:space="preserve">
     <value>대기열에 항목이 더 이상 없습니다.</value>
   </data>
-  <data name="music_voteskip_2" xml:space="preserve">
+    <data name="music_voteskip_2" xml:space="preserve">
     <value>건너뛰기로 투표했습니다(더 필요한 투표수: {0}).</value>
   </data>
-  <data name="music_voteskip_3" xml:space="preserve">
+    <data name="music_voteskip_3" xml:space="preserve">
     <value>이미 건너뛰기로 투표했기에 사용자의 투표가 제거되었습니다. `!skip`을 다시 입력하여 투표를 다시 추가할 수 있습니다. 투표는 {0}표 더 필요합니다.</value>
   </data>
-  <data name="music_voteskip_4" xml:space="preserve">
+    <data name="music_voteskip_4" xml:space="preserve">
     <value>투표가 {0}/{1}입니다.</value>
   </data>
-  <data name="music_url" xml:space="preserve">
+    <data name="music_url" xml:space="preserve">
     <value>노래 이름이나 YouTube URL을 입력해야 합니다.</value>
   </data>
-  <data name="music_no_results" xml:space="preserve">
+    <data name="music_no_results" xml:space="preserve">
     <value>결과가 없습니다.</value>
   </data>
-  <data name="music_invalid_track_1" xml:space="preserve">
+    <data name="music_invalid_track_1" xml:space="preserve">
     <value>트랙 ID가 올바른 범위를 벗어납니다. `!queue`를 입력하여 올바른 트랙 ID를 확인하세요.</value>
   </data>
-  <data name="music_invalid_track_2" xml:space="preserve">
+    <data name="music_invalid_track_2" xml:space="preserve">
     <value>트랙 대기열 ID는 올발라야 합니다.</value>
   </data>
-  <data name="music_limit_queue" xml:space="preserve">
+    <data name="music_limit_queue" xml:space="preserve">
     <value>대기열에는 노래를 최대 100곡까지만 담을 수 있습니다, 노래를 추가하기 전에 일부 노래를 제거하세요.</value>
   </data>
-  <data name="music_limit_playlist" xml:space="preserve">
+    <data name="music_limit_playlist" xml:space="preserve">
     <value>재생 목록은 노래를 최대 50곡까지만 포함할 수 있습니다, 더 작은 재생 목록을 선택하세요.</value>
   </data>
-  <data name="music_add_1" xml:space="preserve">
+    <data name="music_add_1" xml:space="preserve">
     <value>노래 `{0}`곡을 대기열에 추가했습니다.</value>
   </data>
-  <data name="music_add_2" xml:space="preserve">
+    <data name="music_add_2" xml:space="preserve">
     <value>[{0}]({1}) [ {2} ]이(가) 대기열에 추가되었습니다.</value>
   </data>
-  <data name="music_now_playing_1" xml:space="preserve">
+    <data name="music_now_playing_1" xml:space="preserve">
     <value>[{0}]({1}) [ {2} ] 재생 중</value>
   </data>
-  <data name="music_volume" xml:space="preserve">
+    <data name="music_volume" xml:space="preserve">
     <value>음량: `{0}`</value>
   </data>
-  <data name="music_livestream" xml:space="preserve">
+    <data name="music_livestream" xml:space="preserve">
     <value>실시간 스트림이 재생되는 동안에는 명령어가 비활성화됩니다.</value>
   </data>
-  <data name="music_playlist_list" xml:space="preserve">
+    <data name="music_playlist_list" xml:space="preserve">
     <value>재생 목록 {0}개를 찾았습니다.
 ```{1}```</value>
   </data>
-  <data name="music_playlist_success_save" xml:space="preserve">
+    <data name="music_playlist_success_save" xml:space="preserve">
     <value>노래 {0}곡을 `{1}` 재생 목록에 성공적으로 저장했습니다.</value>
   </data>
-  <data name="music_playlist_success_load" xml:space="preserve">
+    <data name="music_playlist_success_load" xml:space="preserve">
     <value>노래 {0}곡을 `{1}` 재생 목록에서 성공적으로 불러왔습니다.</value>
   </data>
-  <data name="music_playlist_success_delete" xml:space="preserve">
+    <data name="music_playlist_success_delete" xml:space="preserve">
     <value>`{0}` 재생 목록을 성공적으로 삭제했습니다.</value>
   </data>
-  <data name="music_locate" xml:space="preserve">
+    <data name="music_locate" xml:space="preserve">
     <value> Cakey Bot이 `{0}`에서 현재 음악을 재생하고 있습니다.</value>
   </data>
-  <data name="music_cancel_1" xml:space="preserve">
+    <data name="music_cancel_1" xml:space="preserve">
     <value>검색을 성공적으로 취소했습니다.</value>
   </data>
-  <data name="music_cancel_2" xml:space="preserve">
+    <data name="music_cancel_2" xml:space="preserve">
     <value>노래를 선택하려면 번호를 입력하고 선택을 취소하려면 &#39;cancel&#39;/&#39;none&#39;을 입력하세요.</value>
   </data>
-  <data name="music_string_1" xml:space="preserve">
+    <data name="music_string_1" xml:space="preserve">
     <value>대기열 위치:</value>
   </data>
-  <data name="music_string_2" xml:space="preserve">
+    <data name="music_string_2" xml:space="preserve">
     <value>재생까지 남은 예상 시간:</value>
   </data>
-  <data name="music_string_3" xml:space="preserve">
+    <data name="music_string_3" xml:space="preserve">
     <value>대기열에 트랙이 없습니다.</value>
   </data>
-  <data name="music_string_4" xml:space="preserve">
+    <data name="music_string_4" xml:space="preserve">
     <value>노래 {0}곡이 더 남았습니다.</value>
   </data>
-  <data name="music_string_5" xml:space="preserve">
+    <data name="music_string_5" xml:space="preserve">
     <value>시간 값을 입력해야 합니다.</value>
   </data>
-  <data name="music_string_6" xml:space="preserve">
+    <data name="music_string_6" xml:space="preserve">
     <value>잘못된 시간입니다.</value>
   </data>
-  <data name="music_string_7" xml:space="preserve">
+    <data name="music_string_7" xml:space="preserve">
     <value>시간이 동영상의 길이를 벗어납니다, 다시 시도하세요.</value>
   </data>
-  <data name="music_string_8" xml:space="preserve">
+    <data name="music_string_8" xml:space="preserve">
     <value>이 명령어를 사용하려면 현재 노래가 재생 중이어야 합니다, 대신 `!play`를 사용해보세요.</value>
   </data>
-  <data name="music_string_9" xml:space="preserve">
+    <data name="music_string_9" xml:space="preserve">
     <value>현재 재생 중인 트랙이 없습니다.</value>
   </data>
-  <data name="music_string_10" xml:space="preserve">
+    <data name="music_string_10" xml:space="preserve">
     <value>작성자</value>
   </data>
-  <data name="music_string_11" xml:space="preserve">
+    <data name="music_string_11" xml:space="preserve">
     <value>위치</value>
   </data>
-  <data name="music_string_12" xml:space="preserve">
+    <data name="music_string_12" xml:space="preserve">
     <value>음량</value>
   </data>
-  <data name="music_string_13" xml:space="preserve">
+    <data name="music_string_13" xml:space="preserve">
     <value>출처</value>
   </data>
-  <data name="music_string_14" xml:space="preserve">
+    <data name="music_string_14" xml:space="preserve">
     <value>일시 정지됨?</value>
   </data>
-  <data name="music_string_15" xml:space="preserve">
+    <data name="music_string_15" xml:space="preserve">
     <value>실시간 스트림?</value>
   </data>
-  <data name="music_string_16" xml:space="preserve">
+    <data name="music_string_16" xml:space="preserve">
     <value>건너뛰기 투표</value>
   </data>
-  <data name="music_string_17" xml:space="preserve">
+    <data name="music_string_17" xml:space="preserve">
     <value>대기열:</value>
   </data>
-  <data name="music_string_18" xml:space="preserve">
+    <data name="music_string_18" xml:space="preserve">
     <value>재생 중인 노래:</value>
   </data>
-  <data name="music_string_19" xml:space="preserve">
+    <data name="music_string_19" xml:space="preserve">
     <value>요청한 사용자</value>
   </data>
-  <data name="music_string_20" xml:space="preserve">
+    <data name="music_string_20" xml:space="preserve">
     <value>반복 중?</value>
   </data>
-  <data name="music_string_21" xml:space="preserve">
+    <data name="music_string_21" xml:space="preserve">
     <value>저음 증폭됨?</value>
   </data>
-  <data name="music_unknown_author" xml:space="preserve">
+    <data name="music_unknown_author" xml:space="preserve">
     <value>알 수 없는 작성자</value>
   </data>
-  <data name="music_unknown_title" xml:space="preserve">
+    <data name="music_unknown_title" xml:space="preserve">
     <value>알 수 없는 제목</value>
   </data>
-  <data name="music_embed_success_1" xml:space="preserve">
+    <data name="music_embed_success_1" xml:space="preserve">
     <value>노래 요청 채널(&lt;#{0}&gt;)이 만들어졌습니다. 원하는 경우 채널의 이름을 바꾸거나 채널을 이동할 수 있습니다.
 </value>
   </data>
-  <data name="music_embed_success_2" xml:space="preserve">
+    <data name="music_embed_success_2" xml:space="preserve">
     <value>노래 요청 채널에서 메시지를 삭제하지 마세요. 삭제할 경우 설정을 다시 실행해야 합니다.</value>
   </data>
-  <data name="music_embed_queue_1" xml:space="preserve">
+    <data name="music_embed_queue_1" xml:space="preserve">
     <value>음성 채널에 참여하고 이 채널에서 이름이나 URL을 입력하여 이름이나 URL로 노래를 검색할 수 있습니다.</value>
   </data>
-  <data name="music_embed_queue_2" xml:space="preserve">
+    <data name="music_embed_queue_2" xml:space="preserve">
     <value>지원되는 출처: YouTube, YouTube 실시간 스트림, Twitch, Bandcamp, Vimeo, SoundCloud, Vlare.tv, 직접 URL/웹 파일 *`(MP3 및 MP4 형식)`* 및 Spotify *`(실험적)`*.</value>
   </data>
-  <data name="music_embed_react_1" xml:space="preserve">
+    <data name="music_embed_react_1" xml:space="preserve">
     <value>노래 일시 정지/다시 시작</value>
   </data>
-  <data name="music_embed_react_2" xml:space="preserve">
+    <data name="music_embed_react_2" xml:space="preserve">
     <value>대기열 지우기</value>
   </data>
-  <data name="music_embed_react_3" xml:space="preserve">
+    <data name="music_embed_react_3" xml:space="preserve">
     <value>노래 건너뛰기</value>
   </data>
-  <data name="music_embed_react_4" xml:space="preserve">
+    <data name="music_embed_react_4" xml:space="preserve">
     <value>대기열 순서 섞기</value>
   </data>
-  <data name="music_embed_react_5" xml:space="preserve">
+    <data name="music_embed_react_5" xml:space="preserve">
     <value>현재 노래 반복</value>
   </data>
-  <data name="music_embed_react_6" xml:space="preserve">
+    <data name="music_embed_react_6" xml:space="preserve">
     <value>현재 노래 다시 시작</value>
   </data>
-  <data name="music_logger_trackend" xml:space="preserve">
+    <data name="music_logger_trackend" xml:space="preserve">
     <value>[{0}]({1}) [ {2} ] 재생 완료
 &lt;:CB_NowPlaying:586387464743157770&gt; [{3}]({4}) [ {5} ] 재생 중</value>
   </data>
-  <data name="music_logger_error" xml:space="preserve">
+    <data name="music_logger_error" xml:space="preserve">
     <value>트랙을 재생하려고 하는 동안 트랙이 멈췄습니다.</value>
   </data>
-  <data name="music_logger_disconnect" xml:space="preserve">
+    <data name="music_logger_disconnect" xml:space="preserve">
     <value>모든 사용자가 음성 채널에서 나갔기에 봇의 연결을 30초 후 끊습니다.</value>
   </data>
-  <data name="music_grab_error" xml:space="preserve">
+    <data name="music_grab_error" xml:space="preserve">
     <value>노래를 가져오려면 노래가 재생 중이어야 합니다.</value>
   </data>
-  <data name="music_grab_dm" xml:space="preserve">
+    <data name="music_grab_dm" xml:space="preserve">
     <value>노래 정보를 DM에 성공적으로 전송했습니다.</value>
   </data>
-  <data name="music_grab_dm_failed" xml:space="preserve">
+    <data name="music_grab_dm_failed" xml:space="preserve">
     <value>DM을 전송하지 못했습니다, 설정을 확인해주세요.</value>
   </data>
-  <data name="music_equalizer_none" xml:space="preserve">
+    <data name="music_equalizer_none" xml:space="preserve">
     <value>이퀄라이저 대역이 설정되지 않았습니다.</value>
   </data>
-  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <data name="music_equalizer_invalid_1" xml:space="preserve">
     <value>올바른 대역은 0에서 14 사이입니다</value>
   </data>
-  <data name="music_equalizer_invalid_2" xml:space="preserve">
+    <data name="music_equalizer_invalid_2" xml:space="preserve">
     <value>올바른 게인 값은 -0.25에서 0 사이입니다</value>
   </data>
-  <data name="music_equalizer_success" xml:space="preserve">
+    <data name="music_equalizer_success" xml:space="preserve">
     <value>대역 #{0}을(를) `{1}`(으)로 성공적으로 설정했습니다</value>
   </data>
-  <data name="roles_persistent" xml:space="preserve">
+    <data name="roles_persistent" xml:space="preserve">
     <value>`{0}` 역할이 {2}{1}.</value>
   </data>
-  <data name="roles_persistent_1" xml:space="preserve">
+    <data name="roles_persistent_1" xml:space="preserve">
     <value>에게 성공적으로 추가되었습니다</value>
   </data>
-  <data name="roles_persistent_2" xml:space="preserve">
+    <data name="roles_persistent_2" xml:space="preserve">
     <value>에게서 성공적으로 제거되었습니다</value>
   </data>
-  <data name="gif_error_1" xml:space="preserve">
+    <data name="gif_error_1" xml:space="preserve">
     <value>GIF를 찾을 수 없습니다. :frowning:</value>
   </data>
-  <data name="gif_error_2" xml:space="preserve">
+    <data name="gif_error_2" xml:space="preserve">
     <value>전 연령에 적합한 GIF를 찾을 수 없습니다. :frowning:</value>
   </data>
-  <data name="cmd_usage" xml:space="preserve">
+    <data name="cmd_usage" xml:space="preserve">
     <value>이 서버의 접두사는 `{0}`입니다
 접두사는 https://cakeybot.app 에서 변경하거나 `{0}setting prefix &lt;새 접두사&gt;`로 변경할 수 있습니다</value>
   </data>
-  <data name="cmd_error_param" xml:space="preserve">
+    <data name="cmd_error_param" xml:space="preserve">
     <value>매개 변수 수가 잘못되었습니다.</value>
   </data>
-  <data name="cmd_error_username" xml:space="preserve">
+    <data name="cmd_error_username" xml:space="preserve">
     <value>올바른 사용자명을 지정해야 합니다.</value>
   </data>
-  <data name="cmd_error_number" xml:space="preserve">
+    <data name="cmd_error_number" xml:space="preserve">
     <value>올바른 수를 지정해야 합니다.</value>
   </data>
-  <data name="cmd_error_input" xml:space="preserve">
+    <data name="cmd_error_input" xml:space="preserve">
     <value>올바른 값을 지정해야 합니다.</value>
   </data>
-  <data name="cmd_error_matches" xml:space="preserve">
+    <data name="cmd_error_matches" xml:space="preserve">
     <value>일치하는 항목이 여러 개 있습니다. 가능한 일치 항목:
 ```{0}
 {1}```</value>
   </data>
-  <data name="cmd_error_unknown_1" xml:space="preserve">
+    <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>알 수 없는 오류가 발생했습니다.</value>
   </data>
-  <data name="cmd_error_unknown_2" xml:space="preserve">
+    <data name="cmd_error_unknown_2" xml:space="preserve">
     <value>알 수 없는 오류가 발생했습니다, 지원 Discord에서 보고해주세요: https://discord.gg/EUssVK5</value>
   </data>
-  <data name="cmd_error_song_request" xml:space="preserve">
+    <data name="cmd_error_song_request" xml:space="preserve">
     <value>노래 요청 채널에서는 명령을 실행할 수 없습니다.</value>
   </data>
-  <data name="cmd_error_timeout_1" xml:space="preserve">
+    <data name="cmd_error_timeout_1" xml:space="preserve">
     <value>명령 실행을 시도하는 동안 시간 초과되었습니다.</value>
   </data>
-  <data name="cmd_error_timeout_2" xml:space="preserve">
+    <data name="cmd_error_timeout_2" xml:space="preserve">
     <value>요청 시간이 초과되었습니다, 나중에 다시 시도해주세요.</value>
   </data>
-  <data name="cmd_error_requests" xml:space="preserve">
+    <data name="cmd_error_requests" xml:space="preserve">
     <value>너무 많은 요청을 수신했습니다. 나중에 다시 시도해주세요.</value>
   </data>
-  <data name="audit_string_1" xml:space="preserve">
+    <data name="audit_string_1" xml:space="preserve">
     <value>사용자 참여함:</value>
   </data>
-  <data name="audit_string_2" xml:space="preserve">
+    <data name="audit_string_2" xml:space="preserve">
     <value>계정이 만들어진 날짜:</value>
   </data>
-  <data name="audit_string_3" xml:space="preserve">
+    <data name="audit_string_3" xml:space="preserve">
     <value>사용자 나감:</value>
   </data>
-  <data name="audit_string_4" xml:space="preserve">
+    <data name="audit_string_4" xml:space="preserve">
     <value>고정됨</value>
   </data>
-  <data name="audit_string_5" xml:space="preserve">
+    <data name="audit_string_5" xml:space="preserve">
     <value>고정 해제됨</value>
   </data>
-  <data name="audit_string_6" xml:space="preserve">
+    <data name="audit_string_6" xml:space="preserve">
     <value>&lt;#{1}&gt;**에서 메시지가 {0}**</value>
   </data>
-  <data name="audit_string_7" xml:space="preserve">
+    <data name="audit_string_7" xml:space="preserve">
     <value>&lt;#{0}&gt;**에서 메시지가 수정됨**</value>
   </data>
-  <data name="audit_string_8" xml:space="preserve">
+    <data name="audit_string_8" xml:space="preserve">
     <value>이전:</value>
   </data>
-  <data name="audit_string_9" xml:space="preserve">
+    <data name="audit_string_9" xml:space="preserve">
     <value>이후:</value>
   </data>
-  <data name="audit_string_10" xml:space="preserve">
+    <data name="audit_string_10" xml:space="preserve">
     <value>메시지:</value>
   </data>
-  <data name="audit_string_11" xml:space="preserve">
+    <data name="audit_string_11" xml:space="preserve">
     <value>이미지 URL:</value>
   </data>
-  <data name="audit_string_12" xml:space="preserve">
+    <data name="audit_string_12" xml:space="preserve">
     <value>&lt;#{1}&gt;**에서 &lt;@{0}&gt;이(가) 보낸 메시지가 삭제됨**</value>
   </data>
-  <data name="audit_string_13" xml:space="preserve">
+    <data name="audit_string_13" xml:space="preserve">
     <value>&lt;@{0}&gt;**의 닉네임이 변경됨**</value>
   </data>
-  <data name="audit_string_14" xml:space="preserve">
+    <data name="audit_string_14" xml:space="preserve">
     <value>&lt;@{0}&gt;**에게서 `{1}` 역할이 제거되었습니다.**</value>
   </data>
-  <data name="audit_string_15" xml:space="preserve">
+    <data name="audit_string_15" xml:space="preserve">
     <value>&lt;@{0}&gt;**에게 `{1}` 역할이 부여되었습니다.**</value>
   </data>
-  <data name="audit_string_16" xml:space="preserve">
+    <data name="audit_string_16" xml:space="preserve">
     <value>멤버 차단됨</value>
   </data>
-  <data name="audit_string_17" xml:space="preserve">
+    <data name="audit_string_17" xml:space="preserve">
     <value>멤버 차단 해제됨</value>
   </data>
-  <data name="audit_string_18" xml:space="preserve">
+    <data name="audit_string_18" xml:space="preserve">
     <value>역할 만들어짐:</value>
   </data>
-  <data name="audit_string_19" xml:space="preserve">
+    <data name="audit_string_19" xml:space="preserve">
     <value>역할 이름:</value>
   </data>
-  <data name="audit_string_20" xml:space="preserve">
+    <data name="audit_string_20" xml:space="preserve">
     <value>역할 색:</value>
   </data>
-  <data name="audit_string_21" xml:space="preserve">
+    <data name="audit_string_21" xml:space="preserve">
     <value>별도 표시:</value>
   </data>
-  <data name="audit_string_22" xml:space="preserve">
+    <data name="audit_string_22" xml:space="preserve">
     <value>멘션 가능:</value>
   </data>
-  <data name="audit_string_23" xml:space="preserve">
+    <data name="audit_string_23" xml:space="preserve">
     <value>권한:</value>
   </data>
-  <data name="audit_string_24" xml:space="preserve">
+    <data name="audit_string_24" xml:space="preserve">
     <value>역할 갱신됨:</value>
   </data>
-  <data name="audit_string_25" xml:space="preserve">
+    <data name="audit_string_25" xml:space="preserve">
     <value>역할 ID:</value>
   </data>
-  <data name="audit_string_26" xml:space="preserve">
+    <data name="audit_string_26" xml:space="preserve">
     <value>역할 삭제됨:</value>
   </data>
-  <data name="audit_string_27" xml:space="preserve">
+    <data name="audit_string_27" xml:space="preserve">
     <value>채널 만들어짐:</value>
   </data>
-  <data name="audit_string_28" xml:space="preserve">
+    <data name="audit_string_28" xml:space="preserve">
     <value>채널 갱신됨:</value>
   </data>
-  <data name="audit_string_29" xml:space="preserve">
+    <data name="audit_string_29" xml:space="preserve">
     <value>채널 이름:</value>
   </data>
-  <data name="audit_string_30" xml:space="preserve">
+    <data name="audit_string_30" xml:space="preserve">
     <value>주제:</value>
   </data>
-  <data name="audit_string_31" xml:space="preserve">
+    <data name="audit_string_31" xml:space="preserve">
     <value>연령 제한?</value>
   </data>
-  <data name="audit_string_32" xml:space="preserve">
+    <data name="audit_string_32" xml:space="preserve">
     <value>슬로우 모드:</value>
   </data>
-  <data name="audit_string_33" xml:space="preserve">
+    <data name="audit_string_33" xml:space="preserve">
     <value>범주:</value>
   </data>
-  <data name="audit_string_34" xml:space="preserve">
+    <data name="audit_string_34" xml:space="preserve">
     <value>채널 삭제됨:</value>
   </data>
-  <data name="audit_string_35" xml:space="preserve">
+    <data name="audit_string_35" xml:space="preserve">
     <value>계층 수준:</value>
   </data>
-  <data name="audit_string_36" xml:space="preserve">
+    <data name="audit_string_36" xml:space="preserve">
     <value>다음으로 이동:</value>
   </data>
-  <data name="audit_string_37" xml:space="preserve">
+    <data name="audit_string_37" xml:space="preserve">
     <value>&lt;#{1}&gt;**에서 메시지 {0}개가 일괄 삭제됨**</value>
   </data>
-  <data name="audit_string_38" xml:space="preserve">
+    <data name="audit_string_38" xml:space="preserve">
     <value>권한 재정의</value>
   </data>
-  <data name="audit_string_39" xml:space="preserve">
+    <data name="audit_string_39" xml:space="preserve">
     <value>수정됨</value>
   </data>
-  <data name="audit_string_40" xml:space="preserve">
+    <data name="audit_string_40" xml:space="preserve">
     <value>**길드 부스트 수 갱신됨:**</value>
   </data>
-  <data name="audit_string_41" xml:space="preserve">
+    <data name="audit_string_41" xml:space="preserve">
     <value>의심스러운 계정</value>
   </data>
-  <data name="audit_string_42" xml:space="preserve">
+    <data name="audit_string_42" xml:space="preserve">
     <value>사용자:</value>
   </data>
-  <data name="audit_string_43" xml:space="preserve">
+    <data name="audit_string_43" xml:space="preserve">
     <value>음성 채널을 전환했습니다.</value>
   </data>
-  <data name="audit_string_44" xml:space="preserve">
+    <data name="audit_string_44" xml:space="preserve">
     <value> 음성 채널.</value>
   </data>
-  <data name="audit_string_45" xml:space="preserve">
+    <data name="audit_string_45" xml:space="preserve">
     <value>다음에 참여했습니다:</value>
   </data>
-  <data name="audit_string_46" xml:space="preserve">
+    <data name="audit_string_46" xml:space="preserve">
     <value>다음을 나갔습니다:</value>
   </data>
-  <data name="audit_string_47" xml:space="preserve">
+    <data name="audit_string_47" xml:space="preserve">
     <value>**{0}이(가) {1}**</value>
   </data>
-  <data name="audit_string_48" xml:space="preserve">
+    <data name="audit_string_48" xml:space="preserve">
     <value>마지막 닉네임:</value>
   </data>
-  <data name="audit_string_49" xml:space="preserve">
+    <data name="audit_string_49" xml:space="preserve">
     <value>초대 링크 만들어짐: [{0}](https://discord.com/invite/{1})</value>
   </data>
-  <data name="audit_string_50" xml:space="preserve">
+    <data name="audit_string_50" xml:space="preserve">
     <value>위젯</value>
   </data>
-  <data name="audit_string_51" xml:space="preserve">
+    <data name="audit_string_51" xml:space="preserve">
     <value>초대 링크 삭제됨: `{0}`</value>
   </data>
-  <data name="util_server_offline" xml:space="preserve">
+    <data name="util_server_offline" xml:space="preserve">
     <value>서버가 오프라인 상태이거나 쿼리에 응답하고 있지 않습니다.</value>
   </data>
-  <data name="util_server_name" xml:space="preserve">
+    <data name="util_server_name" xml:space="preserve">
     <value>이름/MOTD:</value>
   </data>
-  <data name="util_server_status" xml:space="preserve">
+    <data name="util_server_status" xml:space="preserve">
     <value>상태:</value>
   </data>
-  <data name="util_server_count" xml:space="preserve">
+    <data name="util_server_count" xml:space="preserve">
     <value>플레이어 수:</value>
   </data>
-  <data name="util_server_version" xml:space="preserve">
+    <data name="util_server_version" xml:space="preserve">
     <value>버전:</value>
   </data>
-  <data name="util_server_software" xml:space="preserve">
+    <data name="util_server_software" xml:space="preserve">
     <value>소프트웨어:</value>
   </data>
-  <data name="util_b64_result_1" xml:space="preserve">
+    <data name="util_b64_result_1" xml:space="preserve">
     <value>Base64 인코드 이미지 결과: {0}</value>
   </data>
-  <data name="util_b64_result_2" xml:space="preserve">
+    <data name="util_b64_result_2" xml:space="preserve">
     <value>Base64 인코드 결과: ```{0}```</value>
   </data>
-  <data name="util_b64_result_3" xml:space="preserve">
+    <data name="util_b64_result_3" xml:space="preserve">
     <value>Base64 디코드 결과: ```{0}```</value>
   </data>
-  <data name="util_md5_result" xml:space="preserve">
+    <data name="util_md5_result" xml:space="preserve">
     <value>MD5 해시 결과: ```{0}```</value>
   </data>
-  <data name="util_sha1_result" xml:space="preserve">
+    <data name="util_sha1_result" xml:space="preserve">
     <value>SHA1 해시 결과: ```{0}```</value>
   </data>
-  <data name="util_sha256_result" xml:space="preserve">
+    <data name="util_sha256_result" xml:space="preserve">
     <value>SHA256 해시 결과: ```{0}```</value>
   </data>
-  <data name="util_sha512_result" xml:space="preserve">
+    <data name="util_sha512_result" xml:space="preserve">
     <value>SHA512 해시 결과: ```{0}```</value>
   </data>
-  <data name="util_hash_result" xml:space="preserve">
+    <data name="util_hash_result" xml:space="preserve">
     <value>해시 결과:
 
 **Base64 인코드 출력:**```{0}```**MD5 해시 출력:**```{1}```**SHA1 해시 출력:**```{2}```**SHA256 해시 출력:**```{3}```**SHA512 해시 출력:**```{4}```</value>
   </data>
-  <data name="util_steam_level" xml:space="preserve">
+    <data name="util_steam_level" xml:space="preserve">
     <value>레벨</value>
   </data>
-  <data name="util_steam_badges" xml:space="preserve">
+    <data name="util_steam_badges" xml:space="preserve">
     <value>배지</value>
   </data>
-  <data name="util_steam_games" xml:space="preserve">
+    <data name="util_steam_games" xml:space="preserve">
     <value>게임</value>
   </data>
-  <data name="util_steam_groups" xml:space="preserve">
+    <data name="util_steam_groups" xml:space="preserve">
     <value>그룹</value>
   </data>
-  <data name="util_steam_vac" xml:space="preserve">
+    <data name="util_steam_vac" xml:space="preserve">
     <value>VAC 차단됨</value>
   </data>
-  <data name="util_steam_hidden" xml:space="preserve">
+    <data name="util_steam_hidden" xml:space="preserve">
     <value>숨김</value>
   </data>
-  <data name="util_steam_realname" xml:space="preserve">
+    <data name="util_steam_realname" xml:space="preserve">
     <value>실명:</value>
   </data>
-  <data name="util_steam_limited" xml:space="preserve">
+    <data name="util_steam_limited" xml:space="preserve">
     <value>제한된 계정</value>
   </data>
-  <data name="util_steam_info" xml:space="preserve">
+    <data name="util_steam_info" xml:space="preserve">
     <value>{0}의 Steam 정보</value>
   </data>
-  <data name="util_math_compute" xml:space="preserve">
+    <data name="util_math_compute" xml:space="preserve">
     <value>계산 시간: {0}초</value>
   </data>
-  <data name="embed_footer_id_user" xml:space="preserve">
+    <data name="embed_footer_id_user" xml:space="preserve">
     <value>사용자 ID:</value>
   </data>
-  <data name="embed_footer_id_guild" xml:space="preserve">
+    <data name="embed_footer_id_guild" xml:space="preserve">
     <value>길드 ID:</value>
   </data>
-  <data name="embed_footer_id_channel" xml:space="preserve">
+    <data name="embed_footer_id_channel" xml:space="preserve">
     <value>채널 ID:</value>
   </data>
-  <data name="embed_footer_about" xml:space="preserve">
+    <data name="embed_footer_about" xml:space="preserve">
     <value>Victoria를 구현하는 Discord.Net 사용</value>
   </data>
-  <data name="embed_footer_shard" xml:space="preserve">
+    <data name="embed_footer_shard" xml:space="preserve">
     <value>샤드 #{0}</value>
   </data>
-  <data name="embed_footer_music_playlist" xml:space="preserve">
+    <data name="embed_footer_music_playlist" xml:space="preserve">
     <value>{0}#{1}이(가) 재생 목록을 추가함</value>
   </data>
-  <data name="embed_footer_music_added" xml:space="preserve">
+    <data name="embed_footer_music_added" xml:space="preserve">
     <value>{0}#{1}이(가) 추가함</value>
   </data>
-  <data name="embed_footer_music_cancel" xml:space="preserve">
+    <data name="embed_footer_music_cancel" xml:space="preserve">
     <value>{0}#{1}이(가) 취소함</value>
   </data>
-  <data name="embed_footer_music_resume" xml:space="preserve">
+    <data name="embed_footer_music_resume" xml:space="preserve">
     <value>{0}#{1}이(가) 다시 시작함</value>
   </data>
-  <data name="embed_footer_music_pause" xml:space="preserve">
+    <data name="embed_footer_music_pause" xml:space="preserve">
     <value>{0}#{1}이(가) 일시 정지함</value>
   </data>
-  <data name="embed_footer_music_skip" xml:space="preserve">
+    <data name="embed_footer_music_skip" xml:space="preserve">
     <value>{0}#{1}이(가) 건너뛰기로 투표함</value>
   </data>
-  <data name="embed_footer_music_clean" xml:space="preserve">
+    <data name="embed_footer_music_clean" xml:space="preserve">
     <value>{0}#{1}이(가) 정리함</value>
   </data>
-  <data name="embed_footer_music_remove" xml:space="preserve">
+    <data name="embed_footer_music_remove" xml:space="preserve">
     <value>{0}#{1}이(가) 제거함</value>
   </data>
-  <data name="embed_footer_music_jump" xml:space="preserve">
+    <data name="embed_footer_music_jump" xml:space="preserve">
     <value>{0}#{1}이(가) 노래 이동를 요청함</value>
   </data>
-  <data name="embed_footer_music_shuffle" xml:space="preserve">
+    <data name="embed_footer_music_shuffle" xml:space="preserve">
     <value>{0}#{1}이(가) 순서를 섞음</value>
   </data>
-  <data name="embed_footer_music_loop" xml:space="preserve">
+    <data name="embed_footer_music_loop" xml:space="preserve">
     <value>{0}#{1}이(가) 반복을 전환함</value>
   </data>
-  <data name="embed_footer_music_bb" xml:space="preserve">
+    <data name="embed_footer_music_bb" xml:space="preserve">
     <value>{0}#{1}이(가) 저음 증폭을 전환함</value>
   </data>
-  <data name="embed_footer_music_clear" xml:space="preserve">
+    <data name="embed_footer_music_clear" xml:space="preserve">
     <value>{0}#{1}이(가) 지움</value>
   </data>
-  <data name="embed_footer_music_restart" xml:space="preserve">
+    <data name="embed_footer_music_restart" xml:space="preserve">
     <value>{0}#{1}이(가) 다시 시작함</value>
   </data>
-  <data name="embed_footer_music_ff" xml:space="preserve">
+    <data name="embed_footer_music_ff" xml:space="preserve">
     <value>{0}#{1}이(가) 빨리 감기를 요청함</value>
   </data>
-  <data name="embed_footer_music_rewind" xml:space="preserve">
+    <data name="embed_footer_music_rewind" xml:space="preserve">
     <value>{0}#{1}이(가) 되감기를 요청함</value>
   </data>
-  <data name="embed_footer_music_set" xml:space="preserve">
+    <data name="embed_footer_music_set" xml:space="preserve">
     <value>{0}#{1}이(가) 설정함</value>
   </data>
-  <data name="embed_footer_music_smove" xml:space="preserve">
+    <data name="embed_footer_music_smove" xml:space="preserve">
     <value>{0}#{1}이(가) 이동을 요청함</value>
   </data>
-  <data name="core_help_1" xml:space="preserve">
+    <data name="core_help_1" xml:space="preserve">
     <value>이 길드의 접두사는 `{0}`입니다
 봇 명령어 목록 및 작동 방식을 찾고 있다면 아래 `봇 명령어` 링크를 클릭하세요. 도움이 필요하다면 `자주 하는 질문` 링크를 확인하세요.</value>
   </data>
-  <data name="core_useful_links" xml:space="preserve">
+    <data name="core_useful_links" xml:space="preserve">
     <value>유용한 링크</value>
   </data>
-  <data name="core_bot_commands" xml:space="preserve">
+    <data name="core_bot_commands" xml:space="preserve">
     <value>봇 명령어</value>
   </data>
-  <data name="core_dashboard" xml:space="preserve">
+    <data name="core_dashboard" xml:space="preserve">
     <value>웹 대시보드</value>
   </data>
-  <data name="core_docs" xml:space="preserve">
+    <data name="core_docs" xml:space="preserve">
     <value>설명서/자주 하는 질문</value>
   </data>
-  <data name="core_support_discord" xml:space="preserve">
+    <data name="core_support_discord" xml:space="preserve">
     <value>지원 Discord</value>
   </data>
-  <data name="core_bot_invite" xml:space="preserve">
+    <data name="core_bot_invite" xml:space="preserve">
     <value>봇 초대 링크</value>
   </data>
     <data name="core_donate" xml:space="preserve">
         <value>Premium</value>
     </data>
-  <data name="core_error" xml:space="preserve">
+    <data name="core_error" xml:space="preserve">
     <value>오류: Cakey Bot이 완전히 작동하려면 삽입 권한이 필요합니다.</value>
   </data>
-  <data name="core_system_message" xml:space="preserve">
+    <data name="core_system_message" xml:space="preserve">
     <value>*시스템 메시지*</value>
   </data>
-  <data name="core_cmd_search_1" xml:space="preserve">
+    <data name="core_cmd_search_1" xml:space="preserve">
     <value>죄송합니다, `{0}`과(와) 같은 명령어를 찾지 못했습니다.</value>
   </data>
-  <data name="core_cmd_search_2" xml:space="preserve">
+    <data name="core_cmd_search_2" xml:space="preserve">
     <value>다음은 `{0}`과(와) 같은 몇 가지 명령어입니다.</value>
   </data>
-  <data name="core_cmd_info_alias" xml:space="preserve">
+    <data name="core_cmd_info_alias" xml:space="preserve">
     <value>별칭:</value>
   </data>
-  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <data name="core_cmd_info_parameters" xml:space="preserve">
     <value>매개 변수:</value>
   </data>
-  <data name="core_cmd_info_usage" xml:space="preserve">
+    <data name="core_cmd_info_usage" xml:space="preserve">
     <value>사용법:</value>
   </data>
-  <data name="core_cmd_info_module" xml:space="preserve">
+    <data name="core_cmd_info_module" xml:space="preserve">
     <value>모듈:</value>
   </data>
-  <data name="core_cmd_missing" xml:space="preserve">
+    <data name="core_cmd_missing" xml:space="preserve">
     <value>도움말을 보려는 명령어를 지정해야 합니다.</value>
   </data>
-  <data name="core_setting_usage" xml:space="preserve">
+    <data name="core_setting_usage" xml:space="preserve">
     <value>`{0}setting &lt;옵션&gt;` 명령을 사용하여 해당 옵션에 대한 자세한 정보를 볼 수 있습니다.</value>
   </data>
-  <data name="core_setting_usage_prefix" xml:space="preserve">
+    <data name="core_setting_usage_prefix" xml:space="preserve">
     <value>`{0}setting prefix [새 접두사]`</value>
   </data>
-  <data name="core_setting_description_prefix" xml:space="preserve">
+    <data name="core_setting_description_prefix" xml:space="preserve">
     <value>Cakey Bot이 응답하는 접두사를 변경합니다.</value>
   </data>
-  <data name="core_setting_prefix" xml:space="preserve">
+    <data name="core_setting_prefix" xml:space="preserve">
     <value>접두사</value>
   </data>
-  <data name="core_setting_prefix_current" xml:space="preserve">
+    <data name="core_setting_prefix_current" xml:space="preserve">
     <value>현재 접두사:</value>
   </data>
-  <data name="core_setting_prefix_update" xml:space="preserve">
+    <data name="core_setting_prefix_update" xml:space="preserve">
     <value>접두사 변경/갱신:</value>
   </data>
-  <data name="core_setting_modules_current" xml:space="preserve">
+    <data name="core_setting_modules_current" xml:space="preserve">
     <value>현재 설정:</value>
   </data>
-  <data name="core_setting_updated_prefix" xml:space="preserve">
+    <data name="core_setting_updated_prefix" xml:space="preserve">
     <value>이 서버의 접두사가 다음으로 갱신되었습니다: `{0}`</value>
   </data>
-  <data name="core_invite" xml:space="preserve">
+    <data name="core_invite" xml:space="preserve">
     <value>Cakey Bot을 길드에 초대하고 싶으신가요? 아래 링크를 클릭하세요!</value>
   </data>
-  <data name="core_feedback_blacklisted" xml:space="preserve">
+    <data name="core_feedback_blacklisted" xml:space="preserve">
     <value>이 명령어의 블랙리스트에 올랐습니다. :(</value>
   </data>
-  <data name="core_stats_1" xml:space="preserve">
+    <data name="core_stats_1" xml:space="preserve">
     <value>서버 수</value>
   </data>
-  <data name="core_stats_2" xml:space="preserve">
+    <data name="core_stats_2" xml:space="preserve">
     <value>총 범주 수</value>
   </data>
-  <data name="core_stats_3" xml:space="preserve">
+    <data name="core_stats_3" xml:space="preserve">
     <value>텍스트 채널</value>
   </data>
-  <data name="core_stats_4" xml:space="preserve">
+    <data name="core_stats_4" xml:space="preserve">
     <value>음성 채널</value>
   </data>
-  <data name="core_announce_usage" xml:space="preserve">
+    <data name="core_announce_usage" xml:space="preserve">
     <value>사용법: `!announce &lt;헥스/색&gt; | &lt;제목&gt; | &lt;설명&gt;`</value>
   </data>
-  <data name="core_announce_footer" xml:space="preserve">
+    <data name="core_announce_footer" xml:space="preserve">
     <value>공지 사항</value>
   </data>
-  <data name="core_sr_usage" xml:space="preserve">
+    <data name="core_sr_usage" xml:space="preserve">
     <value>사용법: `!sr &lt;add | remove | use | unuse | list&gt; &lt;역할&gt;`</value>
   </data>
-  <data name="core_sr_added_1" xml:space="preserve">
+    <data name="core_sr_added_1" xml:space="preserve">
     <value>역할이 이미 추가되었습니다.</value>
   </data>
-  <data name="core_sr_added_2" xml:space="preserve">
+    <data name="core_sr_added_2" xml:space="preserve">
     <value>셀프 역할을 성공적으로 추가했습니다.</value>
   </data>
-  <data name="core_sr_added_3" xml:space="preserve">
+    <data name="core_sr_added_3" xml:space="preserve">
     <value>요청한 역할을 사용자에게 성공적으로 추가했습니다.</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
+    <data name="core_sr_removed_1" xml:space="preserve">
     <value>셀프 역할을 성공적으로 제거했습니다.</value>
   </data>
-  <data name="core_sr_removed_2" xml:space="preserve">
+    <data name="core_sr_removed_2" xml:space="preserve">
     <value>요청한 역할을 사용자에게서 성공적으로 제거했습니다.</value>
   </data>
-  <data name="core_sr_none" xml:space="preserve">
+    <data name="core_sr_none" xml:space="preserve">
     <value>사용 가능한 역할이 없습니다.</value>
   </data>
-  <data name="core_sr_error_invalid" xml:space="preserve">
+    <data name="core_sr_error_invalid" xml:space="preserve">
     <value>역할이 셀프 역할로 나열되어 있지 않습니다.</value>
   </data>
-  <data name="core_sr_error_missing" xml:space="preserve">
+    <data name="core_sr_error_missing" xml:space="preserve">
     <value>역할이 더 이상 존재하지 않습니다.</value>
   </data>
-  <data name="core_sr_error_have" xml:space="preserve">
+    <data name="core_sr_error_have" xml:space="preserve">
     <value>사용자에게 이미 이 역할이 있습니다.</value>
   </data>
-  <data name="core_sr_error_have_not" xml:space="preserve">
+    <data name="core_sr_error_have_not" xml:space="preserve">
     <value>사용자에게 이 역할이 없습니다.</value>
   </data>
-  <data name="core_invalid_channel" xml:space="preserve">
+    <data name="core_invalid_channel" xml:space="preserve">
     <value>올바른 채널 이름을 지정해야 합니다!</value>
   </data>
-  <data name="core_debug_required_core" xml:space="preserve">
+    <data name="core_debug_required_core" xml:space="preserve">
     <value>**필요한 권한: (핵심)**
 </value>
   </data>
-  <data name="core_debug_optional_mod" xml:space="preserve">
+    <data name="core_debug_optional_mod" xml:space="preserve">
     <value>**선택적 권한: (운영에 필요)**
 </value>
   </data>
-  <data name="core_debug_optional_misc" xml:space="preserve">
+    <data name="core_debug_optional_misc" xml:space="preserve">
     <value>**선택적 권한: (유틸리티/기타에 필요)**
 </value>
   </data>
-  <data name="core_debug_optional_music" xml:space="preserve">
+    <data name="core_debug_optional_music" xml:space="preserve">
     <value>**선택적 권한: (음악에 필요)**
 </value>
   </data>
-  <data name="core_debug_unused" xml:space="preserve">
+    <data name="core_debug_unused" xml:space="preserve">
     <value>**사용되지 않는 권한:**
 </value>
   </data>
-  <data name="core_debug_wildcard" xml:space="preserve">
+    <data name="core_debug_wildcard" xml:space="preserve">
     <value>**와일드카드 권한:**
 </value>
   </data>
-  <data name="core_limited" xml:space="preserve">
+    <data name="core_limited" xml:space="preserve">
     <value>Cakey Bot에 기술적인 문제가 생겼습니다. 일부 기능이 일시적으로 비활성화되거나 제한됩니다.</value>
   </data>
-  <data name="core_string_1" xml:space="preserve">
+    <data name="core_string_1" xml:space="preserve">
     <value>명령어 정보</value>
   </data>
-  <data name="urban_error" xml:space="preserve">
+    <data name="urban_error" xml:space="preserve">
     <value>Urban Dictionary 항목을 찾을 수 없습니다. 나중에 다시 시도하거나 다른 것을 시도해보세요.</value>
   </data>
-  <data name="automod_string_caps" xml:space="preserve">
+    <data name="automod_string_caps" xml:space="preserve">
     <value>메시지에 대문자가 &gt;{0}% 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_blacklist_word" xml:space="preserve">
+    <data name="automod_string_blacklist_word" xml:space="preserve">
     <value>메시지에 블랙리스트에 오른 단어가 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_discordinvite" xml:space="preserve">
+    <data name="automod_string_discordinvite" xml:space="preserve">
     <value>메시지에 Discord 초대 링크가 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_url" xml:space="preserve">
+    <data name="automod_string_url" xml:space="preserve">
     <value>메시지에 URL/링크가 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_mentions" xml:space="preserve">
+    <data name="automod_string_mentions" xml:space="preserve">
     <value>메시지에 멘션 &gt;{0}개가 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_emote" xml:space="preserve">
+    <data name="automod_string_emote" xml:space="preserve">
     <value>메시지에 이모지 &gt;{0}개가 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_spoiler" xml:space="preserve">
+    <data name="automod_string_spoiler" xml:space="preserve">
     <value>메시지에 스포일러가 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_selfbot" xml:space="preserve">
+    <data name="automod_string_selfbot" xml:space="preserve">
     <value>셀프 봇 메시지이기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_stickers" xml:space="preserve">
+    <data name="automod_string_stickers" xml:space="preserve">
     <value>스티커를 포함하기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_duplicate_char" xml:space="preserve">
+    <data name="automod_string_duplicate_char" xml:space="preserve">
     <value>메시지에 중복된 문자가 &gt;{0}% 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_string_duplicate_word" xml:space="preserve">
+    <data name="automod_string_duplicate_word" xml:space="preserve">
     <value>메시지에 중복된 단어 &gt;{0}개가 포함되어 있기에 메시지가 삭제되었습니다.</value>
   </data>
-  <data name="automod_check_mass_caps" xml:space="preserve">
+    <data name="automod_check_mass_caps" xml:space="preserve">
     <value>대량 대문자 표시</value>
   </data>
-  <data name="automod_check_blacklist" xml:space="preserve">
+    <data name="automod_check_blacklist" xml:space="preserve">
     <value>블랙리스트에 오른 단어</value>
   </data>
-  <data name="automod_check_discord_invite" xml:space="preserve">
+    <data name="automod_check_discord_invite" xml:space="preserve">
     <value>Discord 초대 링크</value>
   </data>
-  <data name="automod_check_website_url" xml:space="preserve">
+    <data name="automod_check_website_url" xml:space="preserve">
     <value>웹사이트 URL/링크</value>
   </data>
-  <data name="automod_check_mass_mentions" xml:space="preserve">
+    <data name="automod_check_mass_mentions" xml:space="preserve">
     <value>대량 멘션</value>
   </data>
-  <data name="automod_check_emoji_spam" xml:space="preserve">
+    <data name="automod_check_emoji_spam" xml:space="preserve">
     <value>이모지 스팸</value>
   </data>
-  <data name="automod_check_spoilers" xml:space="preserve">
+    <data name="automod_check_spoilers" xml:space="preserve">
     <value>스포일러</value>
   </data>
-  <data name="automod_check_self_bot" xml:space="preserve">
+    <data name="automod_check_self_bot" xml:space="preserve">
     <value>셀프 봇 메시지</value>
   </data>
-  <data name="automod_check_stickers" xml:space="preserve">
+    <data name="automod_check_stickers" xml:space="preserve">
     <value>스티커</value>
   </data>
-  <data name="automod_check_duplicate_char" xml:space="preserve">
+    <data name="automod_check_duplicate_char" xml:space="preserve">
     <value>중복된 문자</value>
   </data>
-  <data name="automod_check_duplicate_word" xml:space="preserve">
+    <data name="automod_check_duplicate_word" xml:space="preserve">
     <value>중복된 단어</value>
   </data>
-  <data name="automod_check_auto_dehoist" xml:space="preserve">
+    <data name="automod_check_auto_dehoist" xml:space="preserve">
     <value>자동 별도 표시 제거</value>
   </data>
-  <data name="automod_embed_violation" xml:space="preserve">
+    <data name="automod_embed_violation" xml:space="preserve">
     <value>위반 사항:</value>
   </data>
-  <data name="automod_embed_value" xml:space="preserve">
+    <data name="automod_embed_value" xml:space="preserve">
     <value>값:</value>
   </data>
-  <data name="automod_embed_channel" xml:space="preserve">
+    <data name="automod_embed_channel" xml:space="preserve">
     <value>채널:</value>
   </data>
-  <data name="github_results" xml:space="preserve">
+    <data name="github_results" xml:space="preserve">
     <value>`{2}`의 줄 {0} - {1} 표시 중</value>
   </data>
-  <data name="quoter_by_title" xml:space="preserve">
+    <data name="quoter_by_title" xml:space="preserve">
     <value>인용한 사용자:</value>
   </data>
-  <data name="quoter_by_value" xml:space="preserve">
+    <data name="quoter_by_value" xml:space="preserve">
     <value>{2}의 &lt;#{1}&gt;에서 {0}</value>
   </data>
-  <data name="misc_no_content" xml:space="preserve">
+    <data name="misc_no_content" xml:space="preserve">
     <value>콘텐츠 없음</value>
   </data>
-  <data name="misc_covid_help" xml:space="preserve">
+    <data name="misc_covid_help" xml:space="preserve">
     <value>코로나19를 멈출 수 있도록 도와주세요</value>
   </data>
-  <data name="textman_invalid_output" xml:space="preserve">
+    <data name="textman_invalid_output" xml:space="preserve">
     <value>올바른 출력이 없습니다.</value>
   </data>
-  <data name="info_premium" xml:space="preserve">
+    <data name="info_premium" xml:space="preserve">
     <value>:star: Cakey Bot이 마음에 드시나요? 이제 후원하여 Premium을 이용할 수 있습니다.</value>
   </data>
-  <data name="info_uptime" xml:space="preserve">
+    <data name="info_uptime" xml:space="preserve">
     <value>작동 시간: {0}</value>
   </data>
-  <data name="info_open_image" xml:space="preserve">
+    <data name="info_open_image" xml:space="preserve">
     <value>이미지 열기</value>
   </data>
-  <data name="info_target_user" xml:space="preserve">
+    <data name="info_target_user" xml:space="preserve">
     <value>대상 사용자</value>
   </data>
-  <data name="game_ttt_in_progress" xml:space="preserve">
+    <data name="game_ttt_in_progress" xml:space="preserve">
     <value>게임이 이미 진행 중입니다, 새 게임을 만들기 전에 게임을 완료하세요.</value>
   </data>
-  <data name="game_ttt_title" xml:space="preserve">
+    <data name="game_ttt_title" xml:space="preserve">
     <value>삼목 게임</value>
   </data>
-  <data name="game_player_1" xml:space="preserve">
+    <data name="game_player_1" xml:space="preserve">
     <value>플레이어 1</value>
   </data>
-  <data name="game_player_2" xml:space="preserve">
+    <data name="game_player_2" xml:space="preserve">
     <value>플레이어 2</value>
   </data>
-  <data name="game_current_move" xml:space="preserve">
+    <data name="game_current_move" xml:space="preserve">
     <value>현재 차례</value>
   </data>
-  <data name="game_flip_again" xml:space="preserve">
+    <data name="game_flip_again" xml:space="preserve">
     <value>다시 뒤집기</value>
   </data>
-  <data name="moderation_report_yourself" xml:space="preserve">
+    <data name="moderation_report_yourself" xml:space="preserve">
     <value>자기 자신은 신고할 수 없습니다!</value>
   </data>
-  <data name="moderation_report_myself" xml:space="preserve">
+    <data name="moderation_report_myself" xml:space="preserve">
     <value>제가 저 자신은 신고할 수 없습니다!</value>
   </data>
-  <data name="moderation_report_channel_missing" xml:space="preserve">
+    <data name="moderation_report_channel_missing" xml:space="preserve">
     <value>신고 채널이 아직 설정되지 않았습니다.</value>
   </data>
-  <data name="moderation_report_channel_invalid" xml:space="preserve">
+    <data name="moderation_report_channel_invalid" xml:space="preserve">
     <value>대상 채널이 잘못되었거나 더 이상 존재하지 않습니다.</value>
   </data>
-  <data name="moderation_report_reported_success" xml:space="preserve">
+    <data name="moderation_report_reported_success" xml:space="preserve">
     <value>사용자가 성공적으로 신고되었습니다.</value>
   </data>
-  <data name="moderation_report_reported" xml:space="preserve">
+    <data name="moderation_report_reported" xml:space="preserve">
     <value>{0}이(가) &lt;#{2}&gt;에서 {1}을(를) 신고했습니다</value>
   </data>
-  <data name="moderation_audit_messages_100" xml:space="preserve">
+    <data name="moderation_audit_messages_100" xml:space="preserve">
     <value>채널의 마지막 메시지 100개: &lt;{0}&gt;</value>
   </data>
-  <data name="moderation_report_perms" xml:space="preserve">
+    <data name="moderation_report_perms" xml:space="preserve">
     <value>제게 대상 채널에 대한 메시지 보내기 권한이 없습니다.</value>
   </data>
-  <data name="misc_afk_list" xml:space="preserve">
+    <data name="misc_afk_list" xml:space="preserve">
     <value>여기에서 잠수 상태인 사용자 목록을 볼 수 있습니다: {0}/afk-list \n참고: \"서버 관리\" 접근 권한이 필요합니다.</value>
   </data>
-  <data name="button_invalid" xml:space="preserve">
+    <data name="button_invalid" xml:space="preserve">
     <value>이 버튼은 더 이상 올바르지 않습니다. :(</value>
   </data>
-  <data name="game_ttt_expired" xml:space="preserve">
+    <data name="game_ttt_expired" xml:space="preserve">
     <value>이 게임은 이미 만료되었습니다. `!tictactoe &lt;선택 사항:사용자&gt;`로 새 게임을 만들 수 있습니다.</value>
   </data>
-  <data name="game_ttt_taken" xml:space="preserve">
+    <data name="game_ttt_taken" xml:space="preserve">
     <value>이 자리는 이미 사용 중입니다.</value>
   </data>
-  <data name="game_ttt_winner" xml:space="preserve">
+    <data name="game_ttt_winner" xml:space="preserve">
     <value>승자</value>
   </data>
-  <data name="game_ttt_wait_turn" xml:space="preserve">
+    <data name="game_ttt_wait_turn" xml:space="preserve">
     <value>수를 두려면 차례를 기다려야 합니다!</value>
   </data>
 </root>
