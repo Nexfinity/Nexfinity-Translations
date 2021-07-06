@@ -440,5 +440,17 @@ return [
 "alert-footer" => "URL을 열려면 알림을 클릭하세요",
 "nav-plan-premium" => "Premium 플랜",
 "nav-plan-free" => "무료 플랜",
+"premium-music-bots" => "Multiple music bots and the BETA bot are only available for premium servers.",
+"premium-servers-1" => "You have :data premium subscription(s).",
+"premium-servers-2" => "You have :data server(s) using premium.",
+"premium-servers-3" => "You have :data premium subscription(s) left to assign.",
+"premium-servers-amount" => "AMOUNT OF SERVERS:",
+"premium-pricing" => "Price: $:data/month",
+"premium-servers-count" => ":data/10 Premium Servers",
+"or" => "or",
+"premium-deactivate" => "Deactivate",
+"premium-single" => "purchase a single month at a time.",
+"premium-subscription" => "Subscription:",
+"premium-bulk-discount" => "You get a bulk discount if you purchase 5 or more servers at once!",
 ];
 ?>
