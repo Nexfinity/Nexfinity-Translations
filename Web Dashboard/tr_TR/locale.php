@@ -105,7 +105,7 @@ return [
 "dashboard-sidebar-8" => "Text-Voice Channel Link",
 "dashboard-sidebar-9" => "Müzik",
 "dashboard-sidebar-10" => "Kayıtlar",
-"dashboard-sidebar-11" => "Uyarıları",
+"dashboard-sidebar-11" => "Uyarılar",
 "dashboard-sidebar-12" => "Dokümantasyon",
 "dashboard-sidebar-13" => "Bot Ayarları",
 "dashboard-sidebar-14" => "Kategorileri Aç/Kapa",
