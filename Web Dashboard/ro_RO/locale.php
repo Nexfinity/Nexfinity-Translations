@@ -221,10 +221,10 @@ return [
 "cc-delete" => "Ştergeţi",
 "cc-clone" => "Clone",
 "cc-delete-2" => "Șterge Comanda",
-"ar-delete" => "Șterge Răspunsul"
+"ar-delete" => "Șterge Răspunsul",
 "pr-delete" => "Delete Persistent Role",
 "pr-success" => "Successfully deleted the persistent role.",
-"pr-error" => "Persistent role does not belong to current guild.",,
+"pr-error" => "Persistent role does not belong to current guild.",
 "cc-text-1" => "Puteţi localiza întreaga noastră documentație",
 "cc-text-2" => "aici",
 "cc-text-3" => "Câteva lucruri de notat:",

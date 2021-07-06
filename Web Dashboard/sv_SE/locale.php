@@ -173,7 +173,7 @@ return [
 "dashboard-clone-command" => "Klona kommando",
 "dashboard-new-response" => "Lägg till nytt autosvar",
 "dashboard-edit-response" => "Uppdatera autosvar",
-"dashboard-clone-response" => "Klona autosvar"
+"dashboard-clone-response" => "Klona autosvar",
 "dashboard-modules-title-1" => "(F) Åtgärds/granskningslogg",
 "dashboard-modules-title-2" => "(F) Tillkännagivanden",
 "dashboard-modules-title-3" => "(F) Automoderering",

@@ -80,7 +80,7 @@ return [
 "dashboard-title-14" => "Logs",
 "dashboard-title-15" => "Warnings",
 "dashboard-title-16" => "Auto Message",
-"dashboard-title-17" => "Music"
+"dashboard-title-17" => "Music",
 "dashboard-table-1" => "ID",
 "dashboard-table-2" => "User ID",
 "dashboard-table-3" => "Guild ID",
