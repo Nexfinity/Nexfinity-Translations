@@ -79,11 +79,7 @@ our [Discord](https://discord.gg/Y3VdQAD) and ask.
 - Arabic (ar_SA) [العربية]
 - Romanian (ro_RO) [Limba română]
 
-**4) What languages are currently added to the repo but are incomplete?**
-
-- Farsi/Persian (fa_FA) [فارسى]
-
-**5) Do I need permission to contribute?**
+**4) Do I need permission to contribute?**
 
 - Nope! Anyone can contribute, just be sure to follow our rules and formatting
   guidelines above.

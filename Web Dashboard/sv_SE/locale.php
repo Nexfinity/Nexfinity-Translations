@@ -453,5 +453,8 @@ return [
 "premium-subscription" => "Subscription:",
 "premium-bulk-discount" => "You get a bulk discount if you purchase 5 or more servers at once!",
 "dashboard-automod-18" => "Min. Characters To Trigger",
+"bot-settings-snipe" => "Snipe Command",
+"audit-snipe-status" => "Updated snipe status: :data",
+"bot-settings-snipeStatus" => "Successfully updated the snipe command status.",
 ];
 ?>

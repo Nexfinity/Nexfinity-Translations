@@ -453,5 +453,8 @@ return [
 "premium-bulk-discount" => "Eğer tek seferde 5 veya 5'ten fazla premium sunucu alırsanız toplu indirim yapılır!",
 "nav-plan-free" => "Bedava Plan",
 "dashboard-automod-18" => "Min. Characters To Trigger",
+"bot-settings-snipe" => "Snipe Command",
+"audit-snipe-status" => "Updated snipe status: :data",
+"bot-settings-snipeStatus" => "Successfully updated the snipe command status.",
 ];
 ?>
