@@ -10,7 +10,7 @@ return [
 "sidebar-Discord-join" => "Alătură-te Discord-ului nostru",
 "description-home-1" => "Cakey Bot are 10 limbi diferite! Poți schimba limba care Cakey Bot o folosește pe serverul tău, actualizând-o pe panoul nostru web. Dacă doriți să contribuiți la limbile lui Cakey Bot, puteți consulta proiectul nostru pe Crowdin.",
 "description-home-2" => "Cakey Bot este un bot complet personalizabil pentru serverul vostru de Discord care folosește un tablou de bord web pentru a utiliza comanda !setting. Cakey Bot a fost construit pentru a fi ca un bot popular cum ar fi Dyno, dar mai bine, și pentru a combina caracteristicile puternice ale popularului bot Rythm. Întotdeauna adăugăm caracteristici noi și încercăm să îmbunătățim botul. Dacă aveți sugestii alătură-te serverului nostru de Discord sau folosește comanda !feedback [suggestion].",
-"description-home-3" => "Botul Cakey are încredere în {0} de servere și {1} de utilizatori, vă invităm să îl încercați, și sper că vă va plăcea! Dacă îți place bot-ul nostru, nu ezita să ne donezi și fii sigur că le spui prietenilor tăi despre Cakey Bot!",
+"description-home-3" => "Botul Cakey are încredere în :data de servere și {1} de utilizatori, vă invităm să îl încercați, și sper că vă va plăcea! Dacă îți place bot-ul nostru, nu ezita să ne donezi și fii sigur că le spui prietenilor tăi despre Cakey Bot!",
 "description-home-4" => "Pentru a începe cu Cakey Bot, autentifică-te folosind Discord și selectează un server pentru a personaliza.",
 "description-home-5" => "Amintiți-vă: Trebuie să aveți \"ManageServer\" sau \"Administrator\" pe server pentru a schimba orice setare.",
 "description-donate-PayPal" => "Apăsați Aici pentru a Dona pe PayPal",
@@ -452,5 +452,6 @@ return [
 "premium-single" => "purchase a single month at a time.",
 "premium-subscription" => "Subscription:",
 "premium-bulk-discount" => "You get a bulk discount if you purchase 5 or more servers at once!",
+"dashboard-automod-18" => "Min. Characters To Trigger",
 ];
 ?>

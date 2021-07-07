@@ -10,7 +10,7 @@ return [
 "sidebar-Discord-join" => "Unisciti al Nostro Discord",
 "description-home-1" => "Cakey Bot supporta 10 lingue diverse! Puoi modificare quali lingue Cakey Bot usa nella tua gilda aggiornandolo nella tua dashboard web. Se vorresti contribuire alle lingue di Cakey Bot puoi dare un'occhiata al nostro progetto di Crowdin qui.",
 "description-home-2" => "Cakey Bot è un bot totalmente personalizzabile per il tuo server di Discord che usa un pannello di controllo web facile da usare nonché un comando !setting estremamente facile da usare. Cakey Bot è stato creato per essere come il popolare bot Dyno ma migliore, combinando le potenti funzionalità del popolare bot Rythm. Aggiungiamo funzionalità sempre nuove e proviamo a migliorare il bot. Se hai suggerimenti unisciti al nostro server di Discord o usa il comando !feedback [suggestion].",
-"description-home-3" => "Cakey Bot è fidato da {0} server e {1} utenti, ti invitiamo a provarlo e speriamo ti piaccia! Se ti piace il nostro bot, sentiti libero di donarci ed assicurati di parlare ai tuoi amici di Cakey Bot!",
+"description-home-3" => "Cakey Bot è fidato da :data server e {1} utenti, ti invitiamo a provarlo e speriamo ti piaccia! Se ti piace il nostro bot, sentiti libero di donarci ed assicurati di parlare ai tuoi amici di Cakey Bot!",
 "description-home-4" => "Per iniziare con Cakey Bot, accedi usando Discord poi seleziona un server da personalizzare.",
 "description-home-5" => "NOTA: Devi avere \"ManageServer\" o \"Administrator\" nella gilda per modificare qualsiasi impostazione.",
 "description-donate-PayPal" => "Clicca Qui per Donare su PayPal",
@@ -452,5 +452,6 @@ return [
 "premium-single" => "purchase a single month at a time.",
 "premium-subscription" => "Subscription:",
 "premium-bulk-discount" => "You get a bulk discount if you purchase 5 or more servers at once!",
+"dashboard-automod-18" => "Min. Characters To Trigger",
 ];
 ?>

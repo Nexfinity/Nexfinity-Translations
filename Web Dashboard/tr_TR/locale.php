@@ -10,7 +10,7 @@ return [
 "sidebar-Discord-join" => "Discord Sunucumuza Katıl",
 "description-home-1" => "Cakey Bot 10 farklı dili destekliyor! Cakey Bot'un sunucunda kullandığı dili yönetim panelimizden güncelleyerek değiştirebilirsin. Ayrıca Cakey Bot'un konuştuğu dillere katkıda bulunmak istersen, Crowdin projemize göz at.",
 "description-home-2" => "Cakey Bot is a fully customizable bot for your Discord server that uses an easy to use web dashboard as well as an extremely easy to use !setting command. Cakey Bot was built to be like the popular bot Dyno but better as well as combining the powerful features of the popular Rythm bot. We are always adding new features and trying to improve the bot. If you have suggestions join our Discord server or use the !feedback [suggestion] command.",
-"description-home-3" => "{0} sunucu ve {1} kullanıcı, Cakey Bot'a güveniyor. Seni de denemeye davet ediyoruz ve beğeneceğini umuyoruz! Eğer botumuzu beğendiysen, bağış yapmaktan çekinme ve arkadaşlarına Cakey Bot'tan bahset!",
+"description-home-3" => ":data sunucu ve {1} kullanıcı, Cakey Bot'a güveniyor. Seni de denemeye davet ediyoruz ve beğeneceğini umuyoruz! Eğer botumuzu beğendiysen, bağış yapmaktan çekinme ve arkadaşlarına Cakey Bot'tan bahset!",
 "description-home-4" => "Cakey Bot'u kullanmaya başlamak için, Discord kullanarak giriş yap ve düzenlemek için bir sunucu seç.",
 "description-home-5" => "NOT: Herhangi bir sunucu ayarını değiştirmek için \"Sunucuyu Yönet\" veya \"Yönetici\" yetkisine sahip olmalısın.",
 "description-donate-PayPal" => "PayPal'den Bağış Yapmak İçin Tıkla",
@@ -452,5 +452,6 @@ return [
 "premium-subscription" => "Abonelik:",
 "premium-bulk-discount" => "Eğer tek seferde 5 veya 5'ten fazla premium sunucu alırsanız toplu indirim yapılır!",
 "nav-plan-free" => "Bedava Plan",
+"dashboard-automod-18" => "Min. Characters To Trigger",
 ];
 ?>
