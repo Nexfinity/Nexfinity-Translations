@@ -457,5 +457,6 @@ return [
 "audit-snipe-status" => "Updated snipe status: :data",
 "bot-settings-snipeStatus" => "Successfully updated the snipe command status.",
 "auto-mod-comma-list" => "Comma separated list",
+"dashboard-automod-19" => "Zalgo Text",
 ];
 ?>
