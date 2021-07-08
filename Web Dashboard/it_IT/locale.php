@@ -458,5 +458,11 @@ return [
 "bot-settings-snipeStatus" => "Successfully updated the snipe command status.",
 "auto-mod-comma-list" => "Comma separated list",
 "dashboard-automod-19" => "Zalgo Text",
+"misc-string-new" => "NEW",
+"misc-string-beta" => "BETA",
+"misc-string-optional" => "Optional Permissions:",
+"misc-string-required" => "Required Permissions:",
+"dashboard-automod-20" => "Stickers",
+"dashboard-automod-21" => "Spoilers",
 ];
 ?>
