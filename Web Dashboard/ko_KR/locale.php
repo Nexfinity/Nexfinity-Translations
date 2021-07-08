@@ -357,7 +357,7 @@ return [
 "audit-tooltip" => "감사 로깅을 비활성화하려면 'none'을 선택합니다.",
 "temporary-actions-title-1" => "만료 날짜",
 "admin-dashboard" => "관리자 대시보드",
-"admin-guilds" => "길드",
+"admin-servers" => "길드",
 "admin-subscriptions" => "구독",
 "moderation-report-channel" => "신고 채널",
 "moderation-log-channel" => "로그 채널",
@@ -368,7 +368,7 @@ return [
 "auto-mod-clear-word-success" => "블랙리스트에 오른 모든 단어를 성공적으로 지웠습니다.",
 "auto-mod-delete-word-success" => "블랙리스트에 오른 단어를 성공적으로 삭제했습니다.",
 "auto-mod-add-website-success" => "웹사이트를 성공적으로 추가했습니다.",
-"auto-mod-delete-website-success" => "웹사이트를 성공적으로 삭제했습니다.",
+"auto-mod-clear-website-success" => "Successfully cleared all websites.",
 "auto-mod-add" => "추가",
 "auto-mod-title-1" => "설정",
 "auto-mod-title-2" => "블랙리스트에 오른 단어 추가",
@@ -431,7 +431,7 @@ return [
 "premium-bot-title-2" => "봇 상태:",
 "premium-white-label-title" => "화이트 레이블 서비스",
 "premium-white-label-locked" => "잠금을 해제하려면 화이트 레이블 Patreon 계층을 구독해야 합니다.",
-"premium-guild" => "Premium 길드",
+"premium-server" => "Premium 길드",
 "premium-subscription-id" => "구독 ID",
 "premium-type" => "유형",
 "premium-order-id" => "주문 ID",
@@ -456,5 +456,6 @@ return [
 "bot-settings-snipe" => "Snipe Command",
 "audit-snipe-status" => "Updated snipe status: :data",
 "bot-settings-snipeStatus" => "Successfully updated the snipe command status.",
+"auto-mod-comma-list" => "Comma separated list",
 ];
 ?>
