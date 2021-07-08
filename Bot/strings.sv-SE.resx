@@ -63,7 +63,7 @@
     <value>Detta kommando är på cooldown för: {0}</value>
   </data>
   <data name="module_disabled" xml:space="preserve">
-    <value>Denna modul har inaktiverats i denna guild av serverns admins.</value>
+    <value>Denna modul har inaktiverats av serverns admins.</value>
   </data>
   <data name="command_disabled" xml:space="preserve">
     <value>Detta kommando är tillfälligt inaktiverat för uppdateringar.</value>
@@ -874,7 +874,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Avatar</value>
   </data>
   <data name="info_string_26" xml:space="preserve">
-    <value>Gick med i guild</value>
+    <value>Gick med i server</value>
   </data>
   <data name="info_string_27" xml:space="preserve">
     <value>Bot</value>
@@ -1453,19 +1453,19 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_volume_1" xml:space="preserve">
     <value>En låt måste spelas för att modifiera dess volym.</value>
   </data>
-    <data name="music_volume_2" xml:space="preserve">
-        <value>Volym måste vara mellan 0 och 300.</value>
-    </data>
+  <data name="music_volume_2" xml:space="preserve">
+    <value>Volym måste vara mellan 0 och 300.</value>
+  </data>
   <data name="music_volume_3" xml:space="preserve">
     <value>Volym framgångsrikt satt till: `{0}`</value>
   </data>
-    <data name="music_skip_1" xml:space="preserve">
-        <value>[{0}]({1}) [{2}] has been skipped.</value>
-    </data>
-    <data name="music_skip_2" xml:space="preserve">
-        <value>Skipped [{0}]({1}) [{2}]
-&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
-    </data>
+  <data name="music_skip_1" xml:space="preserve">
+    <value>[{0}]({1}) [{2}] har redan skippats.</value>
+  </data>
+  <data name="music_skip_2" xml:space="preserve">
+    <value>Skippade [{0}]({1}) [{2}]
+&lt;:CB_NowPlaying:586387464743157770&gt; Nu spelas: [{3}]({4}) [{5}]</value>
+  </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>Ingen låt spelas för närvarande.</value>
   </data>
@@ -1502,12 +1502,12 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_add_1" xml:space="preserve">
     <value>La till `{0}` låtar till kön.</value>
   </data>
-    <data name="music_add_2" xml:space="preserve">
-        <value>[{0}]({1}) [{2}] has been added to the queue.</value>
-    </data>
-    <data name="music_now_playing_1" xml:space="preserve">
-        <value>Now playing: [{0}]({1}) [{2}]</value>
-    </data>
+  <data name="music_add_2" xml:space="preserve">
+    <value>[{0}]({1}) [{2}] har lagts till i kön.</value>
+  </data>
+  <data name="music_now_playing_1" xml:space="preserve">
+    <value>Nu spelas: [{0}]({1}) [{2}]</value>
+  </data>
   <data name="music_volume" xml:space="preserve">
     <value>Volym: `{0}`</value>
   </data>
@@ -1636,10 +1636,10 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_embed_react_6" xml:space="preserve">
     <value>Starta om nuvarande låt</value>
   </data>
-    <data name="music_logger_trackend" xml:space="preserve">
-        <value>Finished playing: [{0}]({1}) [{2}]
-&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
-    </data>
+  <data name="music_logger_trackend" xml:space="preserve">
+    <value>Slutade spela: [{0}]({1}) [{2}]
+&lt;:CB_NowPlaying:586387464743157770&gt; Nu spelas: [{3}]({4}) [{5}]</value>
+  </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>Spåret fastnade vid försök att spela.</value>
   </data>
@@ -2039,9 +2039,9 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="core_bot_invite" xml:space="preserve">
     <value>Botinbjudningslänk</value>
   </data>
-    <data name="core_donate" xml:space="preserve">
-        <value>Premium</value>
-    </data>
+  <data name="core_donate" xml:space="preserve">
+    <value>Premium</value>
+  </data>
   <data name="core_error" xml:space="preserve">
     <value>Fel: Cakey Bot kräver inbäddningsbehörigheter för att fungera fullt ut.</value>
   </data>
@@ -2354,10 +2354,10 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="game_ttt_wait_turn" xml:space="preserve">
     <value>Du måste vänta på din tur innan du gör ett drag!</value>
   </data>
-    <data name="automod_string_zalgo" xml:space="preserve">
-        <value>Your message was deleted because it contained zalgo text.</value>
-    </data>
-    <data name="automod_check_zalgo" xml:space="preserve">
-        <value>Zalgo Text</value>
-    </data>
+  <data name="automod_string_zalgo" xml:space="preserve">
+    <value>Ditt meddelande togs bort då det innehöll zalgo-text.</value>
+  </data>
+  <data name="automod_check_zalgo" xml:space="preserve">
+    <value>Zalgo-text</value>
+  </data>
 </root>
