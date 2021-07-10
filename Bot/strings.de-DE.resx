@@ -486,52 +486,20 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>Ich habe {0} gewählt. Wir beide haben {1} gewählt. Unentschieden!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Fehler:** Giveaways müssen weniger als 1 Stunde andauern.</value>
-  </data>
+    <data name="games_giveaway_error_1" xml:space="preserve">
+        <value>**Error:** Giveaways must last less than 1 day.</value>
+    </data>
   <data name="games_giveaway_error_2" xml:space="preserve">
     <value>**Fehler:** Giveaways müssen mindestens 1 Minute andauern.</value>
   </data>
   <data name="games_giveaway_title" xml:space="preserve">
     <value>:tada: **Gewinnspiel** :tada:</value>
   </data>
-  <data name="games_giveaway_hours_1" xml:space="preserve">
+    <data name="games_giveaway" xml:space="preserve">
     <value>**Information:**
 ● Prize: `{0}`
 ● Winner amount: {1}
-● Time remaining: {2} hours
-
-React with :tada: to enter the giveaway!</value>
-  </data>
-  <data name="games_giveaway_hours_2" xml:space="preserve">
-    <value>**Information:**
-● Prize: `{0}`
-● Winner amount: {1}
-● Time remaining: {2} hours {3} minutes
-
-React with :tada: to enter the giveaway!</value>
-  </data>
-  <data name="games_giveaway_minutes_1" xml:space="preserve">
-    <value>**Information:**
-● Prize: `{0}`
-● Winner amount: {1}
-● Time remaining: {2} minutes
-
-React with :tada: to enter the giveaway!</value>
-  </data>
-  <data name="games_giveaway_minutes_2" xml:space="preserve">
-    <value>**Information:**
-● Prize: `{0}`
-● Winner amount: {1}
-● Time remaining: {2} minutes {3} seconds
-
-React with :tada: to enter the giveaway!</value>
-  </data>
-  <data name="games_giveaway_seconds" xml:space="preserve">
-    <value>**Information:**
-● Prize: `{0}`
-● Winner amount: {1}
-● Time remaining: {2} seconds
+● Giveaway ends {2}
 
 React with :tada: to enter the giveaway!</value>
   </data>
@@ -1042,13 +1010,10 @@ Hinweis: Eine Nachricht wird bei der Fertigstellung versendet.</value>
   <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Erinnerungen dürfen nicht weiter als 1 Monat in der Zukunft liegen.</value>
   </data>
-  <data name="misc_reminder_success" xml:space="preserve">
-    <value>Erinnerung erfolgreich gesetzt für `{0}` in {1}h{2}m{3}s.</value>
-  </data>
-  <data name="misc_reminder_remind" xml:space="preserve">
-    <value>Erinnerung erfolgreich gesetzt für `{0}` in {1}h{2}m{3}s.</value>
-  </data>
-  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <data name="misc_reminder_success" xml:space="preserve">
+        <value>Successfully set a reminder for `{0}` {1}.</value>
+    </data>
+    <data name="music_error_voice_channel_1" xml:space="preserve">
     <value>Du musst in einem Sprach-Kanal sein.</value>
   </data>
   <data name="music_error_voice_channel_2" xml:space="preserve">
@@ -2004,7 +1969,7 @@ Wenn du nach einer Liste der Bot-Befehle suchst und wie sie funktionieren, klick
         <value>Unable to find or create a mute role.</value>
     </data>
     <data name="mod_mute_temp_success" xml:space="preserve">
-        <value>{0}#{1} has been successfully muted until {2}d{3}h{4}m.</value>
+        <value>{0}#{1} will be unmuted &lt;t:{2}:R&gt;</value>
     </data>
     <data name="mod_mute_temp_error" xml:space="preserve">
         <value>Temp mutes must be 1 month or less.</value>
@@ -2013,7 +1978,7 @@ Wenn du nach einer Liste der Bot-Befehle suchst und wie sie funktionieren, klick
         <value>Temp bans must be 1 month or less.</value>
     </data>
     <data name="mod_ban_temp_success" xml:space="preserve">
-        <value>{0}#{1} has been successfully banned until {2}d{3}h{4}m.</value>
+        <value>{0}#{1} will be unbanned &lt;t:{2}:R&gt;</value>
     </data>
     <data name="misc_trailer" xml:space="preserve">
         <value>{0} Trailer: &lt;{1}&gt;</value>

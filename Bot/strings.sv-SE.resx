@@ -63,7 +63,7 @@
     <value>Detta kommando är på cooldown för: {0}</value>
   </data>
   <data name="module_disabled" xml:space="preserve">
-    <value>Denna modul har inaktiverats av serverns admins.</value>
+    <value>Denna modul har inaktiverats i denna guild av serverns admins.</value>
   </data>
   <data name="command_disabled" xml:space="preserve">
     <value>Detta kommando är tillfälligt inaktiverat för uppdateringar.</value>
@@ -489,54 +489,22 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>Jag tog {0}. Båda av oss tog {1}, det är oavgjort!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Fel:** Giveaways måste vara mindre än 1 timme.</value>
-  </data>
+    <data name="games_giveaway_error_1" xml:space="preserve">
+        <value>**Error:** Giveaways must last less than 1 day.</value>
+    </data>
   <data name="games_giveaway_error_2" xml:space="preserve">
     <value>**Fel:** Giveaways måste vara minst en minut.</value>
   </data>
   <data name="games_giveaway_title" xml:space="preserve">
     <value>:tada: **GIVEAWAY** :tada:</value>
   </data>
-  <data name="games_giveaway_hours_1" xml:space="preserve">
+    <data name="games_giveaway" xml:space="preserve">
     <value>**Information:**
-● Pris: `{0}`
-● Vinnarbelopp: {1}
-● Tid kvar: {2} timmar
+● Prize: `{0}`
+● Winner amount: {1}
+● Giveaway ends {2}
 
-Reagera med :tada: för att gå med i utdelningen!</value>
-  </data>
-  <data name="games_giveaway_hours_2" xml:space="preserve">
-    <value>**Information:**
-● Pris: `{0}`
-● Vinnarbelopp: {1}
-● Tid kvar: {2} timmar {3} minuter
-
-Reagera med :tada: för att gå med i utdelningen!</value>
-  </data>
-  <data name="games_giveaway_minutes_1" xml:space="preserve">
-    <value>**Information:**
-● Pris: `{0}`
-● Vinnarbelopp: {1}
-● Tid kvar: {2} minuter
-
-Reagera med :tada: för att gå med i utdelningen!</value>
-  </data>
-  <data name="games_giveaway_minutes_2" xml:space="preserve">
-    <value>**Information:**
-● Pris: `{0}`
-● Vinnarbelopp: {1}
-● Tid kvar: {2} minuter {3} sekunder
-
-Reagera med :tada: för att gå med i utdelningen!</value>
-  </data>
-  <data name="games_giveaway_seconds" xml:space="preserve">
-    <value>**Information:**
-● Pris: `{0}`
-● Vinnarbelopp: {1}
-● Tid kvar: {2} sekunder
-
-Reagera med :tada: för att gå med i utdelningen!</value>
+React with :tada: to enter the giveaway!</value>
   </data>
   <data name="games_giveaway_winner" xml:space="preserve">
     <value>***Grattis!***
@@ -646,9 +614,9 @@ Reagera med :tada: för att gå med i utdelningen!</value>
   <data name="mod_ban_temp_error" xml:space="preserve">
     <value>Tillfälliga bannlysningar får inte överskrida en månad.</value>
   </data>
-  <data name="mod_ban_temp_success" xml:space="preserve">
-    <value>{0}#{1} bannlystes framgångsrikt tills om {2}d{3}h{4}m.</value>
-  </data>
+    <data name="mod_ban_temp_success" xml:space="preserve">
+        <value>{0}#{1} will be unbanned &lt;t:{2}:R&gt;</value>
+    </data>
   <data name="mod_ban_soft_self" xml:space="preserve">
     <value>Du kan inte mjukbannlysa dig själv!</value>
   </data>
@@ -676,9 +644,9 @@ Reagera med :tada: för att gå med i utdelningen!</value>
   <data name="mod_mute_temp_error" xml:space="preserve">
     <value>Tillfälliga tystningar får inte överskrida en månad.</value>
   </data>
-  <data name="mod_mute_temp_success" xml:space="preserve">
-    <value>{0}#{1} tystades framgångsrikt tills om {2}d{3}h{4}m.</value>
-  </data>
+    <data name="mod_mute_temp_success" xml:space="preserve">
+        <value>{0}#{1} will be unmuted &lt;t:{2}:R&gt;</value>
+    </data>
   <data name="mod_mute_role_error" xml:space="preserve">
     <value>Kunde inte hitta eller skapa en tystningsroll.</value>
   </data>
@@ -874,7 +842,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Avatar</value>
   </data>
   <data name="info_string_26" xml:space="preserve">
-    <value>Gick med i server</value>
+    <value>Gick med i guild</value>
   </data>
   <data name="info_string_27" xml:space="preserve">
     <value>Bot</value>
@@ -1187,13 +1155,10 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Påminnelser bör äga rum inom en månad från i dag.</value>
   </data>
-  <data name="misc_reminder_success" xml:space="preserve">
-    <value>Satte framgångsrikt en påminnelse för `{0}` om {1}h{2}m{3}s.</value>
-  </data>
-  <data name="misc_reminder_remind" xml:space="preserve">
-    <value>Satte framgångsrikt en påminnelse för `{0}` om {1}h{2}m{3}s.</value>
-  </data>
-  <data name="misc_covid_for_global" xml:space="preserve">
+    <data name="misc_reminder_success" xml:space="preserve">
+        <value>Successfully set a reminder for `{0}` {1}.</value>
+    </data>
+    <data name="misc_covid_for_global" xml:space="preserve">
     <value>Global COVID-19-statistik</value>
   </data>
   <data name="misc_covid_for_country" xml:space="preserve">
@@ -1453,19 +1418,19 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_volume_1" xml:space="preserve">
     <value>En låt måste spelas för att modifiera dess volym.</value>
   </data>
-  <data name="music_volume_2" xml:space="preserve">
-    <value>Volym måste vara mellan 0 och 300.</value>
-  </data>
+    <data name="music_volume_2" xml:space="preserve">
+        <value>Volym måste vara mellan 0 och 300.</value>
+    </data>
   <data name="music_volume_3" xml:space="preserve">
     <value>Volym framgångsrikt satt till: `{0}`</value>
   </data>
-  <data name="music_skip_1" xml:space="preserve">
-    <value>[{0}]({1}) [{2}] har redan skippats.</value>
-  </data>
-  <data name="music_skip_2" xml:space="preserve">
-    <value>Skippade [{0}]({1}) [{2}]
-&lt;:CB_NowPlaying:586387464743157770&gt; Nu spelas: [{3}]({4}) [{5}]</value>
-  </data>
+    <data name="music_skip_1" xml:space="preserve">
+        <value>[{0}]({1}) [{2}] has been skipped.</value>
+    </data>
+    <data name="music_skip_2" xml:space="preserve">
+        <value>Skipped [{0}]({1}) [{2}]
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
+    </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>Ingen låt spelas för närvarande.</value>
   </data>
@@ -1502,12 +1467,12 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_add_1" xml:space="preserve">
     <value>La till `{0}` låtar till kön.</value>
   </data>
-  <data name="music_add_2" xml:space="preserve">
-    <value>[{0}]({1}) [{2}] har lagts till i kön.</value>
-  </data>
-  <data name="music_now_playing_1" xml:space="preserve">
-    <value>Nu spelas: [{0}]({1}) [{2}]</value>
-  </data>
+    <data name="music_add_2" xml:space="preserve">
+        <value>[{0}]({1}) [{2}] has been added to the queue.</value>
+    </data>
+    <data name="music_now_playing_1" xml:space="preserve">
+        <value>Now playing: [{0}]({1}) [{2}]</value>
+    </data>
   <data name="music_volume" xml:space="preserve">
     <value>Volym: `{0}`</value>
   </data>
@@ -1636,10 +1601,10 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_embed_react_6" xml:space="preserve">
     <value>Starta om nuvarande låt</value>
   </data>
-  <data name="music_logger_trackend" xml:space="preserve">
-    <value>Slutade spela: [{0}]({1}) [{2}]
-&lt;:CB_NowPlaying:586387464743157770&gt; Nu spelas: [{3}]({4}) [{5}]</value>
-  </data>
+    <data name="music_logger_trackend" xml:space="preserve">
+        <value>Finished playing: [{0}]({1}) [{2}]
+&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
+    </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>Spåret fastnade vid försök att spela.</value>
   </data>
@@ -2039,9 +2004,9 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="core_bot_invite" xml:space="preserve">
     <value>Botinbjudningslänk</value>
   </data>
-  <data name="core_donate" xml:space="preserve">
-    <value>Premium</value>
-  </data>
+    <data name="core_donate" xml:space="preserve">
+        <value>Premium</value>
+    </data>
   <data name="core_error" xml:space="preserve">
     <value>Fel: Cakey Bot kräver inbäddningsbehörigheter för att fungera fullt ut.</value>
   </data>
@@ -2354,10 +2319,10 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="game_ttt_wait_turn" xml:space="preserve">
     <value>Du måste vänta på din tur innan du gör ett drag!</value>
   </data>
-  <data name="automod_string_zalgo" xml:space="preserve">
-    <value>Ditt meddelande togs bort då det innehöll zalgo-text.</value>
-  </data>
-  <data name="automod_check_zalgo" xml:space="preserve">
-    <value>Zalgo-text</value>
-  </data>
+    <data name="automod_string_zalgo" xml:space="preserve">
+        <value>Your message was deleted because it contained zalgo text.</value>
+    </data>
+    <data name="automod_check_zalgo" xml:space="preserve">
+        <value>Zalgo Text</value>
+    </data>
 </root>

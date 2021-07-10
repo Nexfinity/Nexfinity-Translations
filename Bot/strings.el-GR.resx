@@ -486,54 +486,22 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>Διάλεξα {0}. Και οι δύο μας διαλέξαμε {1}, είναι ισοπαλία!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Σφάλμα:** Οι διαγωνισμοί πρέπει να διαρκούν λιγότερο από 1 ώρα.</value>
-  </data>
+    <data name="games_giveaway_error_1" xml:space="preserve">
+        <value>**Error:** Giveaways must last less than 1 day.</value>
+    </data>
   <data name="games_giveaway_error_2" xml:space="preserve">
     <value>**Σφάλμα:** Οι διαγωνισμοί πρέπει να διαρκούν τουλάχιστον 1 λεπτό.</value>
   </data>
   <data name="games_giveaway_title" xml:space="preserve">
     <value>:tada: **ΔΙΑΓΩΝΙΣΜΟΣ** :tada:</value>
   </data>
-  <data name="games_giveaway_hours_1" xml:space="preserve">
-    <value>**Πληροφορίες:**
-● Βραβείο: `{0}`
-● Ποσό νικητή: {1}
-● Χρόνος που απομένει: {2} ώρες
+    <data name="games_giveaway" xml:space="preserve">
+    <value>**Information:**
+● Prize: `{0}`
+● Winner amount: {1}
+● Giveaway ends {2}
 
-Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
-  </data>
-  <data name="games_giveaway_hours_2" xml:space="preserve">
-    <value>**Πληροφορίες:**
-● Βραβείο: `{0}`
-● Ποσό νικητή: {1}
-● Χρόνος που απομένει: {2} ώρες {3} λεπτά
-
-Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
-  </data>
-  <data name="games_giveaway_minutes_1" xml:space="preserve">
-    <value>**Πληροφορίες:**
-● Βραβείο: `{0}`
-● Ποσό νικητή: {1}
-● Χρόνος που απομένει: {2} λεπτά
-
-Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
-  </data>
-  <data name="games_giveaway_minutes_2" xml:space="preserve">
-    <value>**Πληροφορίες:**
-● Βραβείο: `{0}`
-● Ποσό νικητή: {1}
-● Χρόνος που απομένει: {2} λεπτά {3} δευτερόλεπτα
-
-Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
-  </data>
-  <data name="games_giveaway_seconds" xml:space="preserve">
-    <value>**Πληροφορίες:**
-● Βραβείο: `{0}`
-● Ποσό νικητή: {1}
-● Χρόνος που απομένει: {2} δευτερόλεπτα
-
-Αντιδράστε με :tada: για να συμμετάσχετε στο giveaway!</value>
+React with :tada: to enter the giveaway!</value>
   </data>
   <data name="games_giveaway_winner" xml:space="preserve">
     <value>***Συγχαρητήρια!***
@@ -1042,13 +1010,10 @@
   <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Οί υπενθυμίσεις πρέπει να απέχουν λιγότερο από 1 μήνα.</value>
   </data>
-  <data name="misc_reminder_success" xml:space="preserve">
-    <value>Επιτυχία ρύθμισης υπενθύμισης για `{0}` σε {1} ώρα, {2} λεπτά και {3} δευτερόλεπτα.</value>
-  </data>
-  <data name="misc_reminder_remind" xml:space="preserve">
-    <value>Επιτυχία ρύθμισης υπενθύμισης για `{0}` σε {1} ώρα, {2} λεπτά και {3} δευτερόλεπτα.</value>
-  </data>
-  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <data name="misc_reminder_success" xml:space="preserve">
+        <value>Successfully set a reminder for `{0}` {1}.</value>
+    </data>
+    <data name="music_error_voice_channel_1" xml:space="preserve">
     <value>Πρέπει να είσαι σε ένα κανάλια ομιλίας.</value>
   </data>
   <data name="music_error_voice_channel_2" xml:space="preserve">
@@ -2004,7 +1969,7 @@
         <value>Unable to find or create a mute role.</value>
     </data>
     <data name="mod_mute_temp_success" xml:space="preserve">
-        <value>{0}#{1} has been successfully muted until {2}d{3}h{4}m.</value>
+        <value>{0}#{1} will be unmuted &lt;t:{2}:R&gt;</value>
     </data>
     <data name="mod_mute_temp_error" xml:space="preserve">
         <value>Temp mutes must be 1 month or less.</value>
@@ -2013,7 +1978,7 @@
         <value>Temp bans must be 1 month or less.</value>
     </data>
     <data name="mod_ban_temp_success" xml:space="preserve">
-        <value>{0}#{1} has been successfully banned until {2}d{3}h{4}m.</value>
+        <value>{0}#{1} will be unbanned &lt;t:{2}:R&gt;</value>
     </data>
     <data name="misc_trailer" xml:space="preserve">
         <value>{0} Trailer: &lt;{1}&gt;</value>

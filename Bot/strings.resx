@@ -489,7 +489,7 @@
     <value>I chose {0}. Both of us chose {1}, it's a tie!</value>
   </data>
   <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Error:** Giveaways must last less than 1 hour.</value>
+    <value>**Error:** Giveaways must last less than 1 day.</value>
   </data>
   <data name="games_giveaway_error_2" xml:space="preserve">
     <value>**Error:** Giveaways must last at least 1 minute.</value>
@@ -497,43 +497,11 @@
   <data name="games_giveaway_title" xml:space="preserve">
     <value>:tada: **GIVEAWAY** :tada:</value>
   </data>
-  <data name="games_giveaway_hours_1" xml:space="preserve">
+  <data name="games_giveaway" xml:space="preserve">
     <value>**Information:**
 ● Prize: `{0}`
 ● Winner amount: {1}
-● Time remaining: {2} hours
-
-React with :tada: to enter the giveaway!</value>
-  </data>
-  <data name="games_giveaway_hours_2" xml:space="preserve">
-    <value>**Information:**
-● Prize: `{0}`
-● Winner amount: {1}
-● Time remaining: {2} hours {3} minutes
-
-React with :tada: to enter the giveaway!</value>
-  </data>
-  <data name="games_giveaway_minutes_1" xml:space="preserve">
-    <value>**Information:**
-● Prize: `{0}`
-● Winner amount: {1}
-● Time remaining: {2} minutes
-
-React with :tada: to enter the giveaway!</value>
-  </data>
-  <data name="games_giveaway_minutes_2" xml:space="preserve">
-    <value>**Information:**
-● Prize: `{0}`
-● Winner amount: {1}
-● Time remaining: {2} minutes {3} seconds
-
-React with :tada: to enter the giveaway!</value>
-  </data>
-  <data name="games_giveaway_seconds" xml:space="preserve">
-    <value>**Information:**
-● Prize: `{0}`
-● Winner amount: {1}
-● Time remaining: {2} seconds
+● Giveaway ends {2}
 
 React with :tada: to enter the giveaway!</value>
   </data>
@@ -645,9 +613,9 @@ React with :tada: to enter the giveaway!</value>
   <data name="mod_ban_temp_error" xml:space="preserve">
     <value>Temp bans must be 1 month or less.</value>
   </data>
-  <data name="mod_ban_temp_success" xml:space="preserve">
-    <value>{0}#{1} has been successfully banned until {2}d{3}h{4}m.</value>
-  </data>
+    <data name="mod_ban_temp_success" xml:space="preserve">
+        <value>{0}#{1} will be unbanned &lt;t:{2}:R&gt;</value>
+    </data>
   <data name="mod_ban_soft_self" xml:space="preserve">
     <value>You can't soft ban yourself!</value>
   </data>
@@ -675,9 +643,9 @@ React with :tada: to enter the giveaway!</value>
   <data name="mod_mute_temp_error" xml:space="preserve">
     <value>Temp mutes must be 1 month or less.</value>
   </data>
-  <data name="mod_mute_temp_success" xml:space="preserve">
-    <value>{0}#{1} has been successfully muted until {2}d{3}h{4}m.</value>
-  </data>
+    <data name="mod_mute_temp_success" xml:space="preserve">
+        <value>{0}#{1} will be unmuted &lt;t:{2}:R&gt;</value>
+    </data>
   <data name="mod_mute_role_error" xml:space="preserve">
     <value>Unable to find or create a mute role.</value>
   </data>
@@ -1186,13 +1154,10 @@ Note: A message will be sent upon completion.</value>
   <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Reminders must be less than 1 month away from now.</value>
   </data>
-  <data name="misc_reminder_success" xml:space="preserve">
-    <value>Successfully set a reminder for `{0}` in {1}h{2}m{3}s.</value>
-  </data>
-  <data name="misc_reminder_remind" xml:space="preserve">
-    <value>Successfully set a reminder for `{0}` in {1}h{2}m{3}s.</value>
-  </data>
-  <data name="misc_covid_for_global" xml:space="preserve">
+    <data name="misc_reminder_success" xml:space="preserve">
+        <value>Successfully set a reminder for `{0}` {1}.</value>
+    </data>
+    <data name="misc_covid_for_global" xml:space="preserve">
     <value>COVID-19 Statistics for GLOBAL</value>
   </data>
   <data name="misc_covid_for_country" xml:space="preserve">

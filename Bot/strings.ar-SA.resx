@@ -486,54 +486,22 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>اخترت {0}. اختار كلانا {1}، إنها ربطة عنق!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>** خطأ: ** يجب أن تستمر الهباتن أقل من ساعة واحدة.</value>
-  </data>
+    <data name="games_giveaway_error_1" xml:space="preserve">
+        <value>**Error:** Giveaways must last less than 1 day.</value>
+    </data>
   <data name="games_giveaway_error_2" xml:space="preserve">
     <value>** خطأ: ** يجب أن تستمر الهباتن 1 دقيقة على الأقل.</value>
   </data>
   <data name="games_giveaway_title" xml:space="preserve">
     <value>:tada: **الهبة**:tada:</value>
   </data>
-  <data name="games_giveaway_hours_1" xml:space="preserve">
-    <value>** المعلومات: ** 
- ● الجائزة: `{0}` 
- ● كمية الفائزين: {1} 
- ● الوقت المتبقي: {2} ساعات 
- 
- رد بـ:tada: للدخول في هدية الترويجية!</value>
-  </data>
-  <data name="games_giveaway_hours_2" xml:space="preserve">
-    <value>** المعلومات: ** 
- ● الجائزة: `{0}` 
- ● كمية الفائزين: {1} 
- ● الوقت المتبقي: {2} ساعات {3} دقيقة 
- 
- رد بـ:tada: لدخول في هدية الترويجية!</value>
-  </data>
-  <data name="games_giveaway_minutes_1" xml:space="preserve">
-    <value>** المعلومات: ** 
- ● الجائزة: `{0}` 
- ● كمية الفائزين: {1} 
- ● الوقت المتبقي: {2} دقائق 
- 
- رد بـ:tada: للدخول في هدية الترويجية!</value>
-  </data>
-  <data name="games_giveaway_minutes_2" xml:space="preserve">
-    <value>** المعلومات: ** 
- ● الجائزة: `{0}` 
- ● كمية الفائزين: {1} 
- ● الوقت المتبقي: {2} دقائق {3} ثانية 
- 
- رد بـ:tada: لإدخال في هدية الترويجية!</value>
-  </data>
-  <data name="games_giveaway_seconds" xml:space="preserve">
-    <value>** المعلومات: ** 
- ● الجائزة: `{0}` 
- ● كمية الفائزين: {1} 
- ● الوقت المتبقي: {2} ثانية 
- 
- رد بـ:tada: للدخول في هدية الترويجية!</value>
+    <data name="games_giveaway" xml:space="preserve">
+    <value>**Information:**
+● Prize: `{0}`
+● Winner amount: {1}
+● Giveaway ends {2}
+
+React with :tada: to enter the giveaway!</value>
   </data>
   <data name="games_giveaway_winner" xml:space="preserve">
     <value>***مبروك!***{0}, لقد فزت بالجائزة:`{1}`!</value>
@@ -1041,13 +1009,10 @@
   <data name="misc_reminder_error_3" xml:space="preserve">
     <value>يجب أن تكون التذكيرات على بعد أقل من شهر واحد من الآن.</value>
   </data>
-  <data name="misc_reminder_success" xml:space="preserve">
-    <value>تم بنجاح تعيين تذكير لـ `{0}` خلال {1} س {2} د {3} ث.</value>
-  </data>
-  <data name="misc_reminder_remind" xml:space="preserve">
-    <value>تم بنجاح تعيين تذكير لـ `{0}` خلال {1} س {2} د {3} ث.</value>
-  </data>
-  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <data name="misc_reminder_success" xml:space="preserve">
+        <value>Successfully set a reminder for `{0}` {1}.</value>
+    </data>
+    <data name="music_error_voice_channel_1" xml:space="preserve">
     <value>يجب أن تكون في قناة صوتية.</value>
   </data>
   <data name="music_error_voice_channel_2" xml:space="preserve">
@@ -2001,7 +1966,7 @@
         <value>Unable to find or create a mute role.</value>
     </data>
     <data name="mod_mute_temp_success" xml:space="preserve">
-        <value>{0}#{1} has been successfully muted until {2}d{3}h{4}m.</value>
+        <value>{0}#{1} will be unmuted &lt;t:{2}:R&gt;</value>
     </data>
     <data name="mod_mute_temp_error" xml:space="preserve">
         <value>Temp mutes must be 1 month or less.</value>
@@ -2010,7 +1975,7 @@
         <value>Temp bans must be 1 month or less.</value>
     </data>
     <data name="mod_ban_temp_success" xml:space="preserve">
-        <value>{0}#{1} has been successfully banned until {2}d{3}h{4}m.</value>
+        <value>{0}#{1} will be unbanned &lt;t:{2}:R&gt;</value>
     </data>
     <data name="misc_trailer" xml:space="preserve">
         <value>{0} Trailer: &lt;{1}&gt;</value>
