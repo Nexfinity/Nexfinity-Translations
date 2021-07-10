@@ -10,7 +10,7 @@ return [
 "sidebar-Discord-join" => "Join Our Discord",
 "description-home-1" => "Cakey Bot supports 10 different languages! You can change what language Cakey Bot uses in your server by updating it in our web dashboard. If you would like to contribute to Cakey Bot's languages you can check out our Crowdin project here.",
 "description-home-2" => "Cakey Bot is a fully customizable bot for your Discord server that uses an easy to use web dashboard as well as an extremely easy to use !setting command. Cakey Bot was built to be like the popular bot Dyno but better as well as combining the powerful features of the popular Rythm bot. We are always adding new features and trying to improve the bot. If you have suggestions join our Discord server or use the !feedback [suggestion] command.",
-"description-home-3" => "Cakey Bot is trusted by :data servers and {1} users, we invite you to try it out, and hope you enjoy! If you like our bot feel free to donate to us and be sure to tell your friends about Cakey Bot!",
+"description-home-3" => "Cakey Bot is trusted by :data servers and :data2 users, we invite you to try it out, and hope you enjoy! If you like our bot feel free to donate to us and be sure to tell your friends about Cakey Bot!",
 "description-home-4" => "To get started with Cakey Bot, login using Discord then select a server to customize.",
 "description-home-5" => "NOTE: You must have \"ManageServer\" or \"Administrator\" in the server to change any settings.",
 "description-donate-PayPal" => "Click Here to Donate on PayPal",

@@ -10,7 +10,7 @@ return [
 "sidebar-Discord-join" => "Discord 참여",
 "description-home-1" => "Cakey Bot은 서로 다른 언어 10개를 지원합니다! 웹 대시보드에서 갱신하여 Cakey Bot이 길드에서 사용하는 언어를 변경할 수 있습니다. Cakey Bot의 언어에 기여하고 싶다면 여기에서 Crowdin 프로젝트를 확인할 수 있습니다.",
 "description-home-2" => "Cakey Bot은 사용하기 쉬운 웹 대시보드뿐만 아니라 사용하기 매우 쉬운 !setting 명령을 사용하는 여러분의 Discord 서버를 위한 완전한 맞춤형 봇입니다. Cakey Bot은 인기 있는 봇 Dyno와 비슷하지만 더 좋으면서, 인기 있는 Rythm 봇의 강력한 기능을 합치기 위해 만들어졌습니다. 저희는 항상 새로운 기능을 추가하고 있고 봇을 개선하기 위해 노력하고 있습니다. 제안이 있다면 Discord 서버에 참여하거나 !feedback [제안] 명령을 사용하세요.",
-"description-home-3" => "Cakey Bot은 서버 :data개와 사용자 {1}명으로부터 신뢰를 받고 있습니다. 사용해보시고 즐기시기 바랍니다! 봇이 마음에 드신다면 언제든지 저희에게 후원하고, 친구들에게 Cakey Bot에 대해 알려주세요!",
+"description-home-3" => "Cakey Bot은 서버 :data개와 사용자 :data2명으로부터 신뢰를 받고 있습니다. 사용해보시고 즐기시기 바랍니다! 봇이 마음에 드신다면 언제든지 저희에게 후원하고, 친구들에게 Cakey Bot에 대해 알려주세요!",
 "description-home-4" => "Cakey Bot을 시작하려면 Discord를 사용하여 로그인한 다음 사용자 지정할 서버를 선택하세요.",
 "description-home-5" => "참고: 설정을 변경하려면 길드에서 '서버 관리' 또는 '관리자'가 있어야 합니다.",
 "description-donate-PayPal" => "PayPal에서 후원하려면 여기 클릭",
