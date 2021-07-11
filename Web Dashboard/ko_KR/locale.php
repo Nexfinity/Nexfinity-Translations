@@ -464,5 +464,9 @@ return [
 "misc-string-required" => "필수 권한:",
 "dashboard-automod-20" => "스티커",
 "dashboard-automod-21" => "스포일러",
+"ignored-title" => "Ignored Roles/Channels",
+"ignored-roles" => "Ignored Roles",
+"ignored-channels" => "Ignored Channels",
+"ignored-success" => "Successfully updated ignored lists.",
 ];
 ?>
