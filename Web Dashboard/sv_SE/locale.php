@@ -464,9 +464,9 @@ return [
 "misc-string-required" => "Nödvändiga behörigheter:",
 "dashboard-automod-20" => "Stickers",
 "dashboard-automod-21" => "Spoilers",
-"ignored-title" => "Ignored Roles/Channels",
-"ignored-roles" => "Ignored Roles",
-"ignored-channels" => "Ignored Channels",
-"ignored-success" => "Successfully updated ignored lists.",
+"ignored-title" => "Ignorerade roller/kanaler",
+"ignored-roles" => "Ignoererade roller",
+"ignored-channels" => "Ignoererade kanaler",
+"ignored-success" => "Uppdaterade framgångsrikt ignorerade listor.",
 ];
 ?>
