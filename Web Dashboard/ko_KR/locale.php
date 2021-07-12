@@ -462,8 +462,6 @@ return [
 "misc-string-beta" => "베타",
 "misc-string-optional" => "선택적 권한:",
 "misc-string-required" => "필수 권한:",
-"dashboard-automod-20" => "스티커",
-"dashboard-automod-21" => "스포일러",
 "ignored-title" => "무시된 역할/채널",
 "ignored-roles" => "무시된 역할",
 "ignored-channels" => "무시된 채널",

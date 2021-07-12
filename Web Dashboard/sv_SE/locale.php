@@ -462,8 +462,6 @@ return [
 "misc-string-beta" => "BETA",
 "misc-string-optional" => "Frivilliga behörigheter:",
 "misc-string-required" => "Nödvändiga behörigheter:",
-"dashboard-automod-20" => "Stickers",
-"dashboard-automod-21" => "Spoilers",
 "ignored-title" => "Ignorerade roller/kanaler",
 "ignored-roles" => "Ignoererade roller",
 "ignored-channels" => "Ignoererade kanaler",

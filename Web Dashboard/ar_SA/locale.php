@@ -462,8 +462,6 @@ return [
 "misc-string-beta" => "BETA",
 "misc-string-optional" => "Optional Permissions:",
 "misc-string-required" => "Required Permissions:",
-"dashboard-automod-20" => "Stickers",
-"dashboard-automod-21" => "Spoilers",
 "ignored-title" => "Ignored Roles/Channels",
 "ignored-roles" => "Ignored Roles",
 "ignored-channels" => "Ignored Channels",
