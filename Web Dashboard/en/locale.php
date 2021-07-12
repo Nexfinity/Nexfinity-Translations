@@ -466,5 +466,6 @@ return [
 "ignored-roles" => "Ignored Roles",
 "ignored-channels" => "Ignored Channels",
 "ignored-success" => "Successfully updated ignored lists.",
+"auto-mod-exclude-bots" => "Exclude Bots",
 ];
 ?>

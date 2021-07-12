@@ -466,5 +466,6 @@ return [
 "ignored-roles" => "무시된 역할",
 "ignored-channels" => "무시된 채널",
 "ignored-success" => "무시된 목록을 갱신했습니다.",
+"auto-mod-exclude-bots" => "Exclude Bots",
 ];
 ?>

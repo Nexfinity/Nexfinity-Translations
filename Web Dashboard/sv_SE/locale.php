@@ -466,5 +466,6 @@ return [
 "ignored-roles" => "Ignoererade roller",
 "ignored-channels" => "Ignoererade kanaler",
 "ignored-success" => "Uppdaterade framgångsrikt ignorerade listor.",
+"auto-mod-exclude-bots" => "Exclude Bots",
 ];
 ?>
