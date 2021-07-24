@@ -523,5 +523,6 @@ return [
 "audit-feed-modify" => "Modified a feed.",
 "feeds-premium-warning" => "You must have premium to create more than 3 feeds.",
 "feeds-invalid-webhook" => "You must enter a valid webhook URL.",
+"feeds-subreddit" => "Subreddit",
 ];
 ?>
