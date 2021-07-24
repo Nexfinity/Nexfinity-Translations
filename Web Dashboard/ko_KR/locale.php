@@ -513,5 +513,15 @@ return [
 "feeds-webhook-add" => "Add New Feed",
 "feeds-webhook-update" => "Update Feed",
 "feeds-webhook-delete" => "Delete Feed",
+"feeds-result-add-success" => "Successfully created feed.",
+"feeds-result-add-failed" => "Feed already exists.",
+"feeds-result-edit-success" => "Successfully modified feed.",
+"feeds-result-delete-success" => "Successfully deleted feed.",
+"feed-error-2" => "Feed does not belong to the current server.",
+"audit-feed-add" => "Created a feed.",
+"audit-feed-delete" => "Deleted a feed.",
+"audit-feed-modify" => "Modified a feed.",
+"feeds-premium-warning" => "You must have premium to create more than 3 feeds.",
+"feeds-invalid-webhook" => "You must enter a valid webhook URL.",
 ];
 ?>
