@@ -365,7 +365,7 @@ return [
 "admin-subscriptions" => "구독",
 "moderation-report-channel" => "신고 채널",
 "moderation-log-channel" => "로그 채널",
-"afk-delete" => "잠수 상태 제거",
+"afk-delete" => "잠수 상태 삭제",
 "afk-error" => "잠수 상태가 선택한 서버에 속하지 않습니다.",
 "afk-success" => "잠수 상태를 삭제했습니다.",
 "auto-mod-add-word-success" => "블랙리스트에 오른 단어를 추가했습니다.",
