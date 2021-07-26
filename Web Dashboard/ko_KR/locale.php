@@ -508,7 +508,7 @@ return [
 "permission-manage-roles" => "역할 관리",
 "permission-manage-messages" => "메시지 관리",
 "permission-add-reactions" => "반응 추가",
-"module-disabled" => "이 모듈은 현재 사용되지 않도록 설정되어 있습니다. 사용하기 전에 <a href='https://cakeybot.app/dashboard/public/toggle-modules'>여기</a>에서 사용하도록 설정해야 합니다.",
+"module-disabled-2" => "이 모듈은 현재 사용되지 않도록 설정되어 있습니다. 사용하기 전에 <a href='https://cakeybot.app/dashboard/public/toggle-modules'>여기</a>에서 사용하도록 설정해야 합니다.",
 "feeds-webhook-url" => "웹후크 URL",
 "feeds-webhook-channel-id" => "채널 ID",
 "feeds-webhook-add" => "새 피드 추가",

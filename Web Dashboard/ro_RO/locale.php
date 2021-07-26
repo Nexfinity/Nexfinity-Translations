@@ -508,7 +508,7 @@ return [
 "permission-manage-roles" => "Manage Roles",
 "permission-manage-messages" => "Manage Messages",
 "permission-add-reactions" => "Add Reactions",
-"module-disabled" => "This module is currently disabled. You will need to enable it <a href='https://cakeybot.app/dashboard/public/toggle-modules'>here</a> before using it.",
+"module-disabled-2" => "This module is currently disabled. You will need to enable it <a href='https://cakeybot.app/dashboard/public/toggle-modules'>here</a> before using it.",
 "feeds-webhook-url" => "Webhook URL",
 "feeds-webhook-channel-id" => "Channel ID",
 "feeds-webhook-add" => "Add New Feed",

@@ -508,7 +508,7 @@ return [
 "permission-manage-roles" => "Hantera roller",
 "permission-manage-messages" => "Hantera meddelanden",
 "permission-add-reactions" => "Lägg till reaktioner",
-"module-disabled" => "Denna modul är för tillfället avaktiverad. Du behöver aktivera den <a href='https://cakeybot.app/dashboard/public/toggle-modules'>här</a> innan du kan använda den.",
+"module-disabled-2" => "Denna modul är för tillfället avaktiverad. Du behöver aktivera den <a href='https://cakeybot.app/dashboard/public/toggle-modules'>här</a> innan du kan använda den.",
 "feeds-webhook-url" => "Webhook-URL",
 "feeds-webhook-channel-id" => "Kanal-ID",
 "feeds-webhook-add" => "Lägg till nytt flöde",
