@@ -118,6 +118,7 @@ return [
 "dashboard-sidebar-19b" => "YouTube 피드",
 "dashboard-sidebar-19c" => "Twitch 피드",
 "dashboard-sidebar-19d" => "Reddit 피드",
+"dashboard-sidebar-19e" => "Twitter 피드",
 "dashboard-sidebar-20" => "반응 역할",
 "dashboard-sidebar-21" => "별 게시판",
 "dashboard-sidebar-22" => "자동 메시지",

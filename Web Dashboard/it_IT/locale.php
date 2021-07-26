@@ -118,6 +118,7 @@ return [
 "dashboard-sidebar-19b" => "Youtube Feeds",
 "dashboard-sidebar-19c" => "Twitch Feeds",
 "dashboard-sidebar-19d" => "Reddit Feeds",
+"dashboard-sidebar-19e" => "Twitter Feeds",
 "dashboard-sidebar-20" => "Ruoli di Reazione",
 "dashboard-sidebar-21" => "Starboard",
 "dashboard-sidebar-22" => "Messaggio Automatico",

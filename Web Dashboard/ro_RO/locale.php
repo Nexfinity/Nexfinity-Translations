@@ -118,6 +118,7 @@ return [
 "dashboard-sidebar-19b" => "Youtube Feeds",
 "dashboard-sidebar-19c" => "Twitch Feeds",
 "dashboard-sidebar-19d" => "Reddit Feeds",
+"dashboard-sidebar-19e" => "Twitter Feeds",
 "dashboard-sidebar-20" => "Roluri de Reacție",
 "dashboard-sidebar-21" => "Panou cu Stea",
 "dashboard-sidebar-22" => "Auto Mesaj",

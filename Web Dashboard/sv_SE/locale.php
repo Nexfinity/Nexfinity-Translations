@@ -118,6 +118,7 @@ return [
 "dashboard-sidebar-19b" => "Youtube-flöden",
 "dashboard-sidebar-19c" => "Twitch-flöden",
 "dashboard-sidebar-19d" => "Reddit-flöden",
+"dashboard-sidebar-19e" => "Twitter-flöden",
 "dashboard-sidebar-20" => "Reaktionsroller",
 "dashboard-sidebar-21" => "Starboard",
 "dashboard-sidebar-22" => "Automeddelande",

@@ -118,6 +118,7 @@ return [
 "dashboard-sidebar-19b" => "Youtube Feeds",
 "dashboard-sidebar-19c" => "Twitch Feeds",
 "dashboard-sidebar-19d" => "Reddit Feeds",
+"dashboard-sidebar-19e" => "Twitter Feeds",
 "dashboard-sidebar-20" => "أدوار ردود الفعال",
 "dashboard-sidebar-21" => "لوحة",
 "dashboard-sidebar-22" => "الرسائل التلقائية",
