@@ -549,5 +549,12 @@ return [
 "audit-disabled-tags" => "Disabeld a tag.",
 "audit-tag-status" => "Updated tags status: :data",
 "bot-settings-tagStatus" => "Successfully updated the tag module status.",
+"tickets-title" => "Support Tickets",
+"tickets-title-open" => "Open Tickets",
+"tickets-support-role" => "Support Staff Role",
+"tickets-audit" => "Updated support ticket settings: :data",
+"bot-settings-ticketStatus" => "Successfully updated the ticket module status.",
+"audit-bot-supportRole" => "Updated support ticket staff role: :data",
+"bot-settings-supportRole" => "Successfully updated the support staff role.",
 ];
 ?>
