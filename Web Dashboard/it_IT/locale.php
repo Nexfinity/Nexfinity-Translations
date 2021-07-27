@@ -556,5 +556,8 @@ return [
 "bot-settings-ticketStatus" => "Successfully updated the ticket module status.",
 "audit-bot-supportRole" => "Updated support ticket staff role: :data",
 "bot-settings-supportRole" => "Successfully updated the support staff role.",
+"audit-bot-transcriptChannel" => "Updated transcript channel: :data",
+"bot-settings-transcriptChannel" => "Successfully updated the transcript channel.",
+"tickets-transcript-channel" => "Transcript Channel",
 ];
 ?>

@@ -556,5 +556,8 @@ return [
 "bot-settings-ticketStatus" => "티켓 모듈 상태를 갱신했습니다.",
 "audit-bot-supportRole" => "지원 티켓 담당자 역할을 갱신했습니다: :data",
 "bot-settings-supportRole" => "지원 담당자 역할을 갱신했습니다.",
+"audit-bot-transcriptChannel" => "Updated transcript channel: :data",
+"bot-settings-transcriptChannel" => "Successfully updated the transcript channel.",
+"tickets-transcript-channel" => "Transcript Channel",
 ];
 ?>
