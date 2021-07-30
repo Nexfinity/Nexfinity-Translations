@@ -559,5 +559,8 @@ return [
 "audit-bot-transcriptChannel" => "Uppdaterade transkript-kanalen: :data",
 "bot-settings-transcriptChannel" => "Uppdaterade framgångsrikt roll för transkript-kanalen.",
 "tickets-transcript-channel" => "Transkript-kanal",
+"audit-title-18" => "Thread Created",
+"audit-title-19" => "Thread Deleted",
+"audit-title-20" => "Thread Modified",
 ];
 ?>

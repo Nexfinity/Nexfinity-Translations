@@ -559,5 +559,8 @@ return [
 "audit-bot-transcriptChannel" => "Updated transcript channel: :data",
 "bot-settings-transcriptChannel" => "Successfully updated the transcript channel.",
 "tickets-transcript-channel" => "Transcript Channel",
+"audit-title-18" => "Thread Created",
+"audit-title-19" => "Thread Deleted",
+"audit-title-20" => "Thread Modified",
 ];
 ?>
