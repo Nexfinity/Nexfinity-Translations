@@ -2307,7 +2307,7 @@
     <value>이 버튼은 더 이상 올바르지 않습니다. :(</value>
   </data>
   <data name="game_ttt_expired" xml:space="preserve">
-    <value>이 게임은 이미 만료되었습니다. `!tictactoe &lt;선택:사용자&gt;`로 새 게임을 만들 수 있습니다.</value>
+    <value>이 게임은 이미 만료되었습니다. `!tictactoe &lt;선택 사항:사용자&gt;`로 새 게임을 만들 수 있습니다.</value>
   </data>
   <data name="game_ttt_taken" xml:space="preserve">
     <value>이 자리는 이미 사용 중입니다.</value>
@@ -2339,34 +2339,61 @@
   <data name="twitch_feed" xml:space="preserve">
     <value>Twitch 피드</value>
   </data>
-  <data name="reddit_feed" xml:space="preserve">
-    <value>Reddit 피드</value>
-  </data>
-  <data name="tags_invalid" xml:space="preserve">
-    <value>태그를 입력해야 합니다. `!tags list`로 모든 태그를 보세요.</value>
-  </data>
-  <data name="tags_list" xml:space="preserve">
-    <value>태그:</value>
-  </data>
-  <data name="tags_create_success" xml:space="preserve">
-    <value>`{0}` 태그를 만들었습니다.</value>
-  </data>
-  <data name="tags_create_fail" xml:space="preserve">
-    <value>`{0}` 태그를 만들지 못했습니다.</value>
-  </data>
-  <data name="tags_delete_success" xml:space="preserve">
-    <value>`{0}` 태그를 삭제했습니다.</value>
-  </data>
-  <data name="tags_delete_fail" xml:space="preserve">
-    <value>`{0}` 태그를 삭제하지 못했습니다.</value>
-  </data>
-  <data name="tags_modify_success" xml:space="preserve">
-    <value>`{0}` 태그를 수정했습니다.</value>
-  </data>
-  <data name="tags_modify_fail" xml:space="preserve">
-    <value>`{0}` 태그를 수정하지 못했습니다.</value>
-  </data>
-  <data name="tags_usage" xml:space="preserve">
-    <value>**사용법:** `!tags &lt;list | add | edit | delete&gt; &lt;선택:이름&gt; &lt;선택:콘텐츠&gt;`</value>
-  </data>
+    <data name="reddit_feed" xml:space="preserve">
+        <value>Reddit Feed</value>
+    </data>
+    <data name="tags_invalid" xml:space="preserve">
+        <value>You must enter a tag. View all tags with `!tags list`.</value>
+    </data>
+    <data name="tags_list" xml:space="preserve">
+        <value>Tags:</value>
+    </data>
+    <data name="tags_create_success" xml:space="preserve">
+        <value>Successsfully created the `{0}` tag.</value>
+    </data>
+    <data name="tags_create_fail" xml:space="preserve">
+        <value>Failed to create the `{0}` tag.</value>
+    </data>
+    <data name="tags_delete_success" xml:space="preserve">
+        <value>Successsfully deleted the `{0}` tag.</value>
+    </data>
+    <data name="tags_delete_fail" xml:space="preserve">
+        <value>Failed to delete the `{0}` tag.</value>
+    </data>
+    <data name="tags_modify_success" xml:space="preserve">
+        <value>Successsfully modified the `{0}` tag.</value>
+    </data>
+    <data name="tags_modify_fail" xml:space="preserve">
+        <value>Failed to modify the `{0}` tag.</value>
+    </data>
+    <data name="tags_usage" xml:space="preserve">
+        <value>**Usage:** `!tags &lt;list | add | edit | delete&gt; &lt;opt:name&gt; &lt;opt:content&gt;`</value>
+    </data>
+    <data name="thread_private" xml:space="preserve">
+        <value>IsPrivate?</value>
+    </data>
+    <data name="thread_parent" xml:space="preserve">
+        <value>Thread Parent:</value>
+    </data>
+    <data name="thread_name" xml:space="preserve">
+        <value>Thread Name:</value>
+    </data>
+    <data name="thread_created" xml:space="preserve">
+        <value>Thread Created:</value>
+    </data>
+    <data name="thread_deleted" xml:space="preserve">
+        <value>Thread Deleted:</value>
+    </data>
+    <data name="thread_locked" xml:space="preserve">
+        <value>IsLocked?</value>
+    </data>
+    <data name="thread_modified" xml:space="preserve">
+        <value>Thread Updated:</value>
+    </data>
+    <data name="thread_auto_archive" xml:space="preserve">
+        <value>Auto-Archive Time:</value>
+    </data>
+    <data name="thread_archived" xml:space="preserve">
+        <value>IsArchived?</value>
+    </data>
 </root>
