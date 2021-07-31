@@ -556,11 +556,11 @@ return [
 "bot-settings-ticketStatus" => "티켓 모듈 상태를 갱신했습니다.",
 "audit-bot-supportRole" => "지원 티켓 담당자 역할을 갱신했습니다: :data",
 "bot-settings-supportRole" => "지원 담당자 역할을 갱신했습니다.",
-"audit-bot-transcriptChannel" => "Updated transcript channel: :data",
-"bot-settings-transcriptChannel" => "Successfully updated the transcript channel.",
-"tickets-transcript-channel" => "Transcript Channel",
-"audit-title-18" => "Thread Created",
-"audit-title-19" => "Thread Deleted",
-"audit-title-20" => "Thread Modified",
+"audit-bot-transcriptChannel" => "기록 채널을 갱신했습니다: :data",
+"bot-settings-transcriptChannel" => "기록 채널을 갱신했습니다.",
+"tickets-transcript-channel" => "기록 채널",
+"audit-title-18" => "스레드 만들어짐",
+"audit-title-19" => "스레드 삭제됨",
+"audit-title-20" => "스레드 수정됨",
 ];
 ?>
