@@ -562,5 +562,8 @@ return [
 "audit-title-18" => "Thread Created",
 "audit-title-19" => "Thread Deleted",
 "audit-title-20" => "Thread Modified",
+"audit-title-21" => "Stage Started",
+"audit-title-22" => "Stage Ended",
+"audit-title-23" => "Stage Modified",
 ];
 ?>

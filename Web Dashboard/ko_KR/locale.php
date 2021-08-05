@@ -562,5 +562,8 @@ return [
 "audit-title-18" => "스레드 만들어짐",
 "audit-title-19" => "스레드 삭제됨",
 "audit-title-20" => "스레드 수정됨",
+"audit-title-21" => "Stage Started",
+"audit-title-22" => "Stage Ended",
+"audit-title-23" => "Stage Modified",
 ];
 ?>
