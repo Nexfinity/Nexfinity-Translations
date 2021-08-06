@@ -565,5 +565,7 @@ return [
 "audit-title-21" => "Stage Started",
 "audit-title-22" => "Stage Ended",
 "audit-title-23" => "Stage Modified",
+"ticket-auto-save" => "Auto-Save Transcripts",
+"bot-settings-transcriptSave" => "Successfully updated the transcript auto-save status.",
 ];
 ?>
