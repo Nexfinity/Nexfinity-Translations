@@ -2288,14 +2288,14 @@
   <data name="moderation_report_channel_invalid" xml:space="preserve">
     <value>대상 채널이 잘못되었거나 더 이상 존재하지 않습니다.</value>
   </data>
-  <data name="moderation_report_reported_success" xml:space="preserve">
-    <value>사용자가 신고되었습니다.</value>
+  <data name="moderation_audit_messages_100" xml:space="preserve">
+    <value>채널의 마지막 메시지 100개: &lt;{0}&gt;</value>
   </data>
   <data name="moderation_report_reported" xml:space="preserve">
     <value>{0}이(가) &lt;#{2}&gt;에서 {1}을(를) 신고했습니다</value>
   </data>
-  <data name="moderation_audit_messages_100" xml:space="preserve">
-    <value>채널의 마지막 메시지 100개: &lt;{0}&gt;</value>
+  <data name="moderation_report_reported_success" xml:space="preserve">
+    <value>사용자가 신고되었습니다.</value>
   </data>
   <data name="moderation_report_perms" xml:space="preserve">
     <value>제게 대상 채널에 대한 메시지 보내기 권한이 없습니다.</value>
@@ -2306,14 +2306,14 @@
   <data name="button_invalid" xml:space="preserve">
     <value>이 버튼은 더 이상 올바르지 않습니다. :(</value>
   </data>
-  <data name="game_ttt_expired" xml:space="preserve">
-    <value>이 게임은 이미 만료되었습니다. `!tictactoe &lt;선택 사항:사용자&gt;`로 새 게임을 만들 수 있습니다.</value>
+  <data name="game_ttt_winner" xml:space="preserve">
+    <value>승자</value>
   </data>
   <data name="game_ttt_taken" xml:space="preserve">
     <value>이 자리는 이미 사용 중입니다.</value>
   </data>
-  <data name="game_ttt_winner" xml:space="preserve">
-    <value>승자</value>
+  <data name="game_ttt_expired" xml:space="preserve">
+    <value>이 게임은 이미 만료되었습니다. `!tictactoe &lt;선택:사용자&gt;`로 새 게임을 만들 수 있습니다.</value>
   </data>
   <data name="game_ttt_wait_turn" xml:space="preserve">
     <value>수를 두려면 차례를 기다려야 합니다!</value>
@@ -2338,5 +2338,158 @@
   </data>
   <data name="twitch_feed" xml:space="preserve">
     <value>Twitch 피드</value>
+  </data>
+  <data name="reddit_feed" xml:space="preserve">
+    <value>Reddit 피드</value>
+  </data>
+  <data name="tags_create_success" xml:space="preserve">
+    <value>`{0}` 태그를 만들었습니다.</value>
+  </data>
+  <data name="tags_create_fail" xml:space="preserve">
+    <value>`{0}` 태그를 만들지 못했습니다.</value>
+  </data>
+  <data name="tags_modify_fail" xml:space="preserve">
+    <value>`{0}` 태그를 수정하지 못했습니다.</value>
+  </data>
+  <data name="tags_modify_success" xml:space="preserve">
+    <value>`{0}` 태그를 수정했습니다.</value>
+  </data>
+  <data name="tags_delete_fail" xml:space="preserve">
+    <value>`{0}` 태그를 삭제하지 못했습니다.</value>
+  </data>
+  <data name="tags_delete_success" xml:space="preserve">
+    <value>`{0}` 태그를 삭제했습니다.</value>
+  </data>
+  <data name="tags_usage" xml:space="preserve">
+    <value>**사용법:** `!tags &lt;list | add | edit | delete&gt; &lt;선택:이름&gt; &lt;선택:콘텐츠&gt;`</value>
+  </data>
+  <data name="tags_list" xml:space="preserve">
+    <value>태그:</value>
+  </data>
+  <data name="tags_invalid" xml:space="preserve">
+    <value>태그를 입력해야 합니다. `!tags list`로 모든 태그를 보세요.</value>
+  </data>
+  <data name="thread_deleted" xml:space="preserve">
+    <value>스레드 삭제됨:</value>
+  </data>
+  <data name="thread_created" xml:space="preserve">
+    <value>스레드 만들어짐:</value>
+  </data>
+  <data name="thread_modified" xml:space="preserve">
+    <value>스레드 갱신됨:</value>
+  </data>
+  <data name="thread_parent" xml:space="preserve">
+    <value>스레드 부모:</value>
+  </data>
+  <data name="thread_auto_archive" xml:space="preserve">
+    <value>자동 보관 시간:</value>
+  </data>
+  <data name="thread_private" xml:space="preserve">
+    <value>비공개?</value>
+  </data>
+  <data name="thread_archived" xml:space="preserve">
+    <value>보관됨?</value>
+  </data>
+  <data name="thread_locked" xml:space="preserve">
+    <value>잠김?</value>
+  </data>
+  <data name="thread_name" xml:space="preserve">
+    <value>스레드 이름:</value>
+  </data>
+  <data name="thread_archive" xml:space="preserve">
+    <value>`{0}` 스레드가 보관되었습니다.</value>
+  </data>
+  <data name="thread_unarchive" xml:space="preserve">
+    <value>`{0}` 스레드의 보관이 해제되었습니다.</value>
+  </data>
+  <data name="stage_updated" xml:space="preserve">
+    <value>스테이지 갱신됨:</value>
+  </data>
+  <data name="stage_name" xml:space="preserve">
+    <value>스테이지 이름:</value>
+  </data>
+  <data name="stage_discoverable" xml:space="preserve">
+    <value>검색 가능?</value>
+  </data>
+  <data name="stage_privacy" xml:space="preserve">
+    <value>개인 정보 수준:</value>
+  </data>
+  <data name="stage_live" xml:space="preserve">
+    <value>생방송 중?</value>
+  </data>
+  <data name="stage_speaker_count" xml:space="preserve">
+    <value>말하는 사람 수:</value>
+  </data>
+  <data name="stage_started" xml:space="preserve">
+    <value>스테이지 시작됨:</value>
+  </data>
+  <data name="stage_ended" xml:space="preserve">
+    <value>스테이지 끝남:</value>
+  </data>
+  <data name="imageman_analyze_failed" xml:space="preserve">
+    <value>이미지 데이터를 역직렬화하지 못했습니다.</value>
+  </data>
+  <data name="cmd_error_bad_request" xml:space="preserve">
+    <value>잘못된 요청을 발견했습니다, 나중에 다시 시도해주세요.</value>
+  </data>
+  <data name="ticket_no_reason" xml:space="preserve">
+    <value>이유를 지정하지 않았습니다.</value>
+  </data>
+  <data name="ticket_exists" xml:space="preserve">
+    <value>여기에 이미 티켓이 있습니다, {0} 님!</value>
+  </data>
+  <data name="ticket_deleting" xml:space="preserve">
+    <value>티켓이 몇 초 후에 삭제됩니다.</value>
+  </data>
+  <data name="ticket_transcript_failed" xml:space="preserve">
+    <value>**오류:** 기록 파일을 생성할 수 없습니다.</value>
+  </data>
+  <data name="ticket_transcript" xml:space="preserve">
+    <value>기록</value>
+  </data>
+  <data name="ticket_open" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="ticket_delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="ticket_reopen" xml:space="preserve">
+    <value>{0}이(가) 티켓을 다시 열었습니다</value>
+  </data>
+  <data name="ticket_transcript_channel_missing" xml:space="preserve">
+    <value>**오류:** 기록 채널이 존재하지 않습니다. (또는 Cakey Bot이 해당 채널에 메시지를 보내거나 메시지를 볼 수 없습니다.)</value>
+  </data>
+  <data name="ticket_transcript_saved" xml:space="preserve">
+    <value>기록이 {0}에 저장되었습니다.</value>
+  </data>
+  <data name="ticket_message_count" xml:space="preserve">
+    <value>메시지 수:</value>
+  </data>
+  <data name="ticket_saved_by" xml:space="preserve">
+    <value>저장한 사용자:</value>
+  </data>
+  <data name="ticket_ticket" xml:space="preserve">
+    <value>티켓:</value>
+  </data>
+  <data name="ticket_staff_reply" xml:space="preserve">
+    <value>담당자 멤버가 티켓에 곧 응답합니다.</value>
+  </data>
+  <data name="ticket_close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="ticket_issue" xml:space="preserve">
+    <value>{0}에게 다음 문제가 있습니다.</value>
+  </data>
+  <data name="ticket_create" xml:space="preserve">
+    <value>지원 티켓을 만들려면 아래 버튼을 클릭하세요.</value>
+  </data>
+  <data name="ticket_title" xml:space="preserve">
+    <value>지원 티켓</value>
+  </data>
+  <data name="ticket_open_embed" xml:space="preserve">
+    <value>티켓 열기</value>
+  </data>
+  <data name="ticket_closed" xml:space="preserve">
+    <value>{0}이(가) 티켓을 닫았습니다</value>
   </data>
 </root>
