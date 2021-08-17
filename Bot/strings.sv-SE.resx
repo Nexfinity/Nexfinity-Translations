@@ -2082,9 +2082,9 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="core_announce_footer" xml:space="preserve">
     <value>Tillkännagivande</value>
   </data>
-  <data name="core_sr_usage" xml:space="preserve">
-    <value>Användning: `!sr &lt;add | remove | use | unuse | list&gt; &lt;role&gt;`</value>
-  </data>
+    <data name="core_sr_usage" xml:space="preserve">
+        <value>Användning: `!sr &lt;add | remove | use | unuse | list | embed&gt; &lt;role&gt;`</value>
+    </data>
   <data name="core_sr_added_1" xml:space="preserve">
     <value>Rollen är redan tillagd.</value>
   </data>
@@ -2507,5 +2507,23 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Failed to unmute user.</value>
+    </data>
+    <data name="core_sr_embed_error" xml:space="preserve">
+        <value>You must add self roles before creating an embed.</value>
+    </data>
+    <data name="core_sr_embed_description_select" xml:space="preserve">
+        <value>You can add/remove roles to/from yourself using the selection menu below.</value>
+    </data>
+    <data name="core_sr_embed_description_button" xml:space="preserve">
+        <value>You can add/remove roles to/from yourself using the buttons below.</value>
+    </data>
+    <data name="core_sr_embed_description_reaction" xml:space="preserve">
+        <value>You can add/remove roles to/from yourself using the reactions below.</value>
+    </data>
+    <data name="core_sr_roles_added" xml:space="preserve">
+        <value>Added roles:</value>
+    </data>
+    <data name="core_sr_roles_removed" xml:space="preserve">
+        <value>Removed roles:</value>
     </data>
 </root>
