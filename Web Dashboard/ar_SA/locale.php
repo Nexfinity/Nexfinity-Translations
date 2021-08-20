@@ -582,5 +582,6 @@ return [
 "discord-permission-add-reactions" => "Add Reactions",
 "discord-permission-embed-links" => "Embed Links",
 "discord-permission-connect" => "Connect/Speak in Voice",
+"auto-mod-title-phishing" => "Phishing URLs",
 ];
 ?>
