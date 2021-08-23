@@ -582,6 +582,6 @@ return [
 "discord-permission-add-reactions" => "반응 추가하기",
 "discord-permission-embed-links" => "링크 첨부",
 "discord-permission-connect" => "음성에/에서 연결/말하기",
-"auto-mod-title-phishing" => "Phishing URLs",
+"auto-mod-title-phishing" => "피싱 URL",
 ];
 ?>
