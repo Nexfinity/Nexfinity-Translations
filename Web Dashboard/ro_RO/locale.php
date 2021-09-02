@@ -583,5 +583,8 @@ return [
 "discord-permission-embed-links" => "Embed Links",
 "discord-permission-connect" => "Connect/Speak in Voice",
 "auto-mod-title-phishing" => "Phishing URLs",
+"music-title-skip" => "Vote Skipping",
+"audit-vote-skip" => "Set vote skipping: :data",
+"bot-settings-voteSkip" => "Successfully toggled vote skipping.",
 ];
 ?>

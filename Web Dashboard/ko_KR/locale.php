@@ -583,5 +583,8 @@ return [
 "discord-permission-embed-links" => "링크 첨부",
 "discord-permission-connect" => "음성에/에서 연결/말하기",
 "auto-mod-title-phishing" => "피싱 URL",
+"music-title-skip" => "Vote Skipping",
+"audit-vote-skip" => "Set vote skipping: :data",
+"bot-settings-voteSkip" => "Successfully toggled vote skipping.",
 ];
 ?>

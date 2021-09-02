@@ -583,5 +583,8 @@ return [
 "discord-permission-embed-links" => "Embed Linkler",
 "discord-permission-connect" => "Sesli Kanal Bağlan/Konuş",
 "auto-mod-title-phishing" => "Phishing URLleri",
+"music-title-skip" => "Vote Skipping",
+"audit-vote-skip" => "Set vote skipping: :data",
+"bot-settings-voteSkip" => "Successfully toggled vote skipping.",
 ];
 ?>

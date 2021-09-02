@@ -583,5 +583,8 @@ return [
 "discord-permission-embed-links" => "Bädda in länkar",
 "discord-permission-connect" => "Ansluta/prata i röstkanaler",
 "auto-mod-title-phishing" => "URL för lösenordsfiske",
+"music-title-skip" => "Vote Skipping",
+"audit-vote-skip" => "Set vote skipping: :data",
+"bot-settings-voteSkip" => "Successfully toggled vote skipping.",
 ];
 ?>
