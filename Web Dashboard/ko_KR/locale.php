@@ -456,7 +456,7 @@ return [
 "premium-deactivate" => "비활성화",
 "premium-single" => "한 번에 1개월씩 구매하세요.",
 "premium-subscription" => "구독:",
-"premium-bulk-discount" => "한 번에 서버 5개 이상을 구매하면 대량 할인을 받을 수 있습니다!",
+"premium-bulk-discount" => "We offer bulk discounts if you buy more than 10 servers! Contact us on discord for more info.",
 "dashboard-automod-18" => "트리거할 최소 문자 수",
 "bot-settings-snipe" => "Snipe 명령어",
 "audit-snipe-status" => "Snipe 상태를 갱신했습니다: :data",

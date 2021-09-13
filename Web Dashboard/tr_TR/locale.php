@@ -455,7 +455,7 @@ return [
 "premium-deactivate" => "Devre dışı bırak",
 "premium-single" => "bir seferde tek bir ay satın alın.",
 "premium-subscription" => "Abonelik:",
-"premium-bulk-discount" => "Eğer tek seferde 5 veya 5'ten fazla premium sunucu alırsanız toplu indirim yapılır!",
+"premium-bulk-discount" => "We offer bulk discounts if you buy more than 10 servers! Contact us on discord for more info.",
 "nav-plan-free" => "Bedava Plan",
 "dashboard-automod-18" => "Tetiklenecek Min. Karakter",
 "bot-settings-snipe" => "Snipe Komudu",

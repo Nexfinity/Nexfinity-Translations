@@ -456,7 +456,7 @@ return [
 "premium-deactivate" => "Avaktivera",
 "premium-single" => "betala en månad åt gången.",
 "premium-subscription" => "Prenumeration:",
-"premium-bulk-discount" => "Du får en grupprabatt om du betalar 5 eller fler servrar samtidigt!",
+"premium-bulk-discount" => "We offer bulk discounts if you buy more than 10 servers! Contact us on discord for more info.",
 "dashboard-automod-18" => "Min. karaktärer att utlösa",
 "bot-settings-snipe" => "Snipe-kommando",
 "audit-snipe-status" => "Uppdaterade snipe-status: :data",
