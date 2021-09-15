@@ -586,5 +586,7 @@ return [
 "music-title-skip" => "Vote Skipping",
 "audit-vote-skip" => "Set vote skipping: :data",
 "bot-settings-voteSkip" => "Successfully toggled vote skipping.",
+"announcement-boost" => "Boost message",
+"announcement-boost-restrictions" => "Note: The boost message only works with the 'Basic' placeholders. 'Advanced' placeholders will NOT work.",
 ];
 ?>

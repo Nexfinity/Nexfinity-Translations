@@ -586,5 +586,7 @@ return [
 "music-title-skip" => "투표 건너뛰기",
 "audit-vote-skip" => "투표 건너뛰기를 설정했습니다: :data",
 "bot-settings-voteSkip" => "투표 건너뛰기를 전환했습니다.",
+"announcement-boost" => "Boost message",
+"announcement-boost-restrictions" => "Note: The boost message only works with the 'Basic' placeholders. 'Advanced' placeholders will NOT work.",
 ];
 ?>
