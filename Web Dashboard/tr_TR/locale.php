@@ -587,6 +587,6 @@ return [
 "audit-vote-skip" => "Oy atlama ayarlandı: :data",
 "bot-settings-voteSkip" => "Oy atlama ayarlandı.",
 "announcement-boost" => "Boost mesajı",
-"announcement-boost-restrictions" => "Not: Boost mesajı yalnızca 'Temel' placeholderlar için çalışır. 'Gelişmiş' placeholderlar için ÇALIŞMAZ.",
+"announcement-boost-restrictions" => "Not: Boost mesajı yalnızca 'Temel' değişkenler için çalışır. 'Gelişmiş' değişkenler için ÇALIŞMAZ.",
 ];
 ?>
