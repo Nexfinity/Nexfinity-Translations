@@ -588,6 +588,9 @@ return [
 "bot-settings-voteSkip" => "Oy atlama ayarlandı.",
 "announcement-boost" => "Boost mesajı",
 "announcement-boost-restrictions" => "Not: Boost mesajı yalnızca 'Temel' değişkenler için çalışır. 'Gelişmiş' değişkenler için ÇALIŞMAZ.",
-"audit-boost" => "Boost mesajı güncellendi."
+"audit-boost" => "Boost mesajı güncellendi.",
+"audit-constant-music" => "Set 24/7 music: :data",
+"bot-settings-constantMusic" => "Successfully toggled 24/7 music.",
+"title-247-music" => "24/7 Music",
 ];
 ?>

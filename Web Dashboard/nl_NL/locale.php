@@ -588,5 +588,9 @@ return [
 "bot-settings-voteSkip" => "Successfully toggled vote skipping.",
 "announcement-boost" => "Boost message",
 "announcement-boost-restrictions" => "Note: The boost message only works with the 'Basic' placeholders. 'Advanced' placeholders will NOT work.",
+"audit-boost" => "Updated boost message.",
+"audit-constant-music" => "Set 24/7 music: :data",
+"bot-settings-constantMusic" => "Successfully toggled 24/7 music.",
+"title-247-music" => "24/7 Music",
 ];
 ?>

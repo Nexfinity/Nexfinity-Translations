@@ -588,5 +588,9 @@ return [
 "bot-settings-voteSkip" => "투표 건너뛰기를 전환했습니다.",
 "announcement-boost" => "부스트 메시지",
 "announcement-boost-restrictions" => "참고: 부스트 메시지는 '기본' 자리 표시자에서만 작동합니다. '고급' 자리 표시자는 작동하지 않습니다.",
+"audit-boost" => "Updated boost message.",
+"audit-constant-music" => "Set 24/7 music: :data",
+"bot-settings-constantMusic" => "Successfully toggled 24/7 music.",
+"title-247-music" => "24/7 Music",
 ];
 ?>
