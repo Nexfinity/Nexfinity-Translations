@@ -588,5 +588,6 @@ return [
 "bot-settings-voteSkip" => "Oy atlama ayarlandı.",
 "announcement-boost" => "Boost mesajı",
 "announcement-boost-restrictions" => "Not: Boost mesajı yalnızca 'Temel' değişkenler için çalışır. 'Gelişmiş' değişkenler için ÇALIŞMAZ.",
+"audit-boost" => "Boost mesajı güncellendi."
 ];
 ?>
