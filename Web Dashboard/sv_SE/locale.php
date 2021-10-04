@@ -445,7 +445,7 @@ return [
 "alert-footer" => "Klicka på varningar för att öppna URLs",
 "nav-plan-premium" => "Premiumplan",
 "nav-plan-free" => "Gratisplan",
-"premium-music-bots" => "Flera musikbottar och BETA-botten är endast tillgängliga för premium-servrar.",
+"premium-music-bots" => "Multiple music bots are only available on premium servers.",
 "premium-servers-1" => "Du har :data premium-prenumeration(er).",
 "premium-servers-2" => "Du har :data server/servrar med premium.",
 "premium-servers-3" => "Du har :data premium-prenumeration(er) kvar att tilldela.",

@@ -445,7 +445,7 @@ return [
 "alert-footer" => "URL을 열려면 알림을 클릭하세요",
 "nav-plan-premium" => "Premium 플랜",
 "nav-plan-free" => "무료 플랜",
-"premium-music-bots" => "여러 음악 봇과 베타 봇은 Premium 서버에서만 이용할 수 있습니다.",
+"premium-music-bots" => "Multiple music bots are only available on premium servers.",
 "premium-servers-1" => "Premium 구독이 :data개 있습니다.",
 "premium-servers-2" => "Premium을 이용하는 서버가 :data개 있습니다.",
 "premium-servers-3" => "할당할 수 있는 Premium 구독이 :data개 남았습니다.",

@@ -444,7 +444,7 @@ return [
 "alert-title" => "Panel Bildirimleri",
 "alert-footer" => "Uyarılara tıklayarak URL'leri aç",
 "nav-plan-premium" => "Premium Plan",
-"premium-music-bots" => "Birden fazla müzik botu ve BETA bot sadece premium sunucular için geçerlidir.",
+"premium-music-bots" => "Multiple music bots are only available on premium servers.",
 "premium-servers-1" => ":data adet premium aboneliğin var.",
 "premium-servers-2" => ":data adet premium kullanan sunucun var.",
 "premium-servers-3" => ":data adet premium aboneliğin kaldı.",
