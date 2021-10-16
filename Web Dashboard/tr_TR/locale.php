@@ -589,8 +589,8 @@ return [
 "announcement-boost" => "Boost mesajı",
 "announcement-boost-restrictions" => "Not: Boost mesajı yalnızca 'Temel' değişkenler için çalışır. 'Gelişmiş' değişkenler için ÇALIŞMAZ.",
 "audit-boost" => "Boost mesajı güncellendi.",
-"audit-constant-music" => "Set 24/7 music: :data",
-"bot-settings-constantMusic" => "Successfully toggled 24/7 music.",
-"title-247-music" => "24/7 Music",
+"audit-constant-music" => "7/24 müzik ayarlandı: :data",
+"bot-settings-constantMusic" => "7/24 müzik açıldı/kapatıldı.",
+"title-247-music" => "7/24 Müzik",
 ];
 ?>
