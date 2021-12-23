@@ -269,6 +269,7 @@ return [
 "ar-flag-7" => "사용자 멘션 포함",
 "ar-flag-8" => "채널 멘션 포함",
 "ar-flag-9" => "역할 멘션 포함",
+"ar-flag-10" => "Wildcard Contains",
 "text-generic-error-1" => "오류!",
 "text-generic-error-2" => "값을 입력해야 합니다.",
 "text-generic-success" => "성공!",
