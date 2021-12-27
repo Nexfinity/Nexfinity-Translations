@@ -269,6 +269,7 @@ return [
 "ar-flag-7" => "Contains User Mention",
 "ar-flag-8" => "Contains Channel Mention",
 "ar-flag-9" => "Contains Role Mention",
+"ar-flag-10" => "Wildcard Contains",
 "text-generic-error-1" => "Error!",
 "text-generic-error-2" => "You must enter a value.",
 "text-generic-success" => "Success!",

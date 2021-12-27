@@ -269,6 +269,7 @@ return [
 "ar-flag-7" => "Kullanıcı Etiketi İçeriyorsa",
 "ar-flag-8" => "Kanal Etiketi İçeriyorsa",
 "ar-flag-9" => "Rol Etiketi İçeriyorsa",
+"ar-flag-10" => "Wildcard Contains",
 "text-generic-error-1" => "Hata!",
 "text-generic-error-2" => "Bir değer girmek zorundasın.",
 "text-generic-success" => "Başarılı!",
