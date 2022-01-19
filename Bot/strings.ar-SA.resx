@@ -361,7 +361,7 @@
   </data>
   <data name="error_usage_suggestion" xml:space="preserve">
     <value>الرجاء إدخال إقتراح واضح. 
-! suggestion title | description</value>
+!suggestion &lt;title&gt; | &lt;description&gt;</value>
   </data>
   <data name="error_usage_rps" xml:space="preserve">
     <value>‏‎الرجاء إدخال خطوة صالحة: ` rps &amp;lt!; صخرة |  ورقة |  مقص &gt;`</value>
@@ -1548,7 +1548,8 @@ React with :tada: to enter the giveaway!</value>
     <value>عنوان غير معروف</value>
   </data>
   <data name="music_embed_success_1" xml:space="preserve">
-    <value>تم إنشاء قناة طلب الأغنية (;lt;#{0}&amp;gt&amp;) يمكنك إعادة تسمية القناة أو نقلها إذا أردت. n\</value>
+    <value>تم إنشاء قناة طلب الأغنية (;lt;#{0}&amp;gt&amp;) يمكنك إعادة تسمية القناة أو نقلها إذا أردت.
+</value>
   </data>
   <data name="music_embed_success_2" xml:space="preserve">
     <value>يرجى عدم حذف أي رسائل في قناة طلب الأغنية. إذا قمت بذلك ، ستحتاج إلى تشغيل الإعداد مرة أخرى.</value>
@@ -1640,7 +1641,9 @@ React with :tada: to enter the giveaway!</value>
     <value>يجب عليك تقديم مدخلات صالحة.</value>
   </data>
   <data name="cmd_error_matches" xml:space="preserve">
-    <value>تم العثور على مطابقات متعددة ، يرجى الإبلاغ في دعمنا الديسكورد: https://discord.gg/EUssVK5</value>
+    <value>تم العثور على مطابقات متعددة. مطابقات محتملة:
+```{0}
+{1}```</value>
   </data>
   <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>حدث خطأ غير معروف.</value>
@@ -2055,7 +2058,7 @@ React with :tada: to enter the giveaway!</value>
     <value>إعلان</value>
   </data>
     <data name="core_sr_usage" xml:space="preserve">
-        <value>الاستعمال: `sr &lt;add | remove | use | unuse | list | embed&gt; &lt;role&amp;gt!;`</value>
+        <value>الاستعمال: `;sr &lt;add | remove | use | unuse | list | embed&gt; &lt;role&amp;gt!;`</value>
     </data>
   <data name="core_sr_added_1" xml:space="preserve">
     <value>تمت إضافة الدور بالفعل.</value>
@@ -2111,7 +2114,8 @@ React with :tada: to enter the giveaway!</value>
 </value>
   </data>
   <data name="core_debug_wildcard" xml:space="preserve">
-    <value>**أذونات البدل:**n\</value>
+    <value>**أذونات البدل:**
+</value>
   </data>
   <data name="core_limited" xml:space="preserve">
     <value>Cakey Bot is currently having technical issues. Some features are disabled or limited temporarily.</value>
