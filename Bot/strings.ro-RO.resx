@@ -1,498 +1,497 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-        <xsd:element name="root" msdata:IsDataSet="true">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
             <xsd:complexType>
-                <xsd:choice maxOccurs="unbounded">
-                    <xsd:element name="metadata">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-                            </xsd:sequence>
-                            <xsd:attribute name="name" use="required" type="xsd:string" />
-                            <xsd:attribute name="type" type="xsd:string" />
-                            <xsd:attribute name="mimetype" type="xsd:string" />
-                            <xsd:attribute ref="xml:space" />
-                        </xsd:complexType>
-                    </xsd:element>
-                    <xsd:element name="assembly">
-                        <xsd:complexType>
-                            <xsd:attribute name="alias" type="xsd:string" />
-                            <xsd:attribute name="name" type="xsd:string" />
-                        </xsd:complexType>
-                    </xsd:element>
-                    <xsd:element name="data">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-                            </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-                            <xsd:attribute ref="xml:space" />
-                        </xsd:complexType>
-                    </xsd:element>
-                    <xsd:element name="resheader">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                            </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" use="required" />
-                        </xsd:complexType>
-                    </xsd:element>
-                </xsd:choice>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
-        </xsd:element>
-    </xsd:schema>
-    <resheader name="resmimetype">
-        <value>text/microsoft-resx</value>
-    </resheader>
-    <resheader name="version">
-        <value>2.0</value>
-    </resheader>
-    <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-    <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-
-    <data name="cooldown" xml:space="preserve">
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cooldown" xml:space="preserve">
     <value>Această comandă este în modul pauză pentru: {0}</value>
   </data>
-    <data name="module_disabled" xml:space="preserve">
+  <data name="module_disabled" xml:space="preserve">
     <value>Acest modul a fost dezactivat în această asociație de către administratorii serverului.</value>
   </data>
-    <data name="command_disabled" xml:space="preserve">
+  <data name="command_disabled" xml:space="preserve">
     <value>Această comandă este dezactivată temporar pentru actualizări.</value>
   </data>
-    <data name="error_generic_1" xml:space="preserve">
+  <data name="error_generic_1" xml:space="preserve">
     <value>S-a produs o eroare necunoscută!</value>
   </data>
-    <data name="error_generic_2" xml:space="preserve">
+  <data name="error_generic_2" xml:space="preserve">
     <value>A apărut o eroare necunoscută. Vă rugăm să raportați pe Discord: https://discord.gg/EUsVK5</value>
   </data>
-    <data name="error_generic_3" xml:space="preserve">
+  <data name="error_generic_3" xml:space="preserve">
     <value>A apărut o eroare necunoscută. Serverul este online? Ai ales tipul de server corect?</value>
   </data>
-    <data name="error_generic_4" xml:space="preserve">
+  <data name="error_generic_4" xml:space="preserve">
     <value>Eroare:</value>
   </data>
-    <data name="error_generic_5" xml:space="preserve">
+  <data name="error_generic_5" xml:space="preserve">
     <value>Sub-comanda vine în curând.</value>
   </data>
-    <data name="error_ssl" xml:space="preserve">
+  <data name="error_ssl" xml:space="preserve">
     <value>Eroare SSL, va rog încercați mai târziu.</value>
   </data>
-    <data name="error_limit_rate" xml:space="preserve">
+  <data name="error_limit_rate" xml:space="preserve">
     <value>Limita ratei a fost atinsă.</value>
   </data>
-    <data name="error_limit_characters_10" xml:space="preserve">
+  <data name="error_limit_characters_10" xml:space="preserve">
     <value>Textul trebuie să fie mai puțin de 10 caractere.</value>
   </data>
-    <data name="error_limit_characters_200" xml:space="preserve">
+  <data name="error_limit_characters_200" xml:space="preserve">
     <value>Vă rugăm să introduceți o întrebare care are mai puțin de 200 de caractere.</value>
   </data>
-    <data name="error_limit_characters_200_2" xml:space="preserve">
+  <data name="error_limit_characters_200_2" xml:space="preserve">
     <value>Vă rugăm să introduceți o sugestie care are mai puțin de 200 de caractere.</value>
   </data>
-    <data name="error_limit_characters_500" xml:space="preserve">
+  <data name="error_limit_characters_500" xml:space="preserve">
     <value>Textul trebuie să fie mai puțin de 500 caractere.</value>
   </data>
-    <data name="error_missing_text" xml:space="preserve">
+  <data name="error_missing_text" xml:space="preserve">
     <value>Trebuie să introduceți un text.</value>
   </data>
-    <data name="error_missing_query" xml:space="preserve">
+  <data name="error_missing_query" xml:space="preserve">
     <value>Trebuie să introduceți o interogare de căutare.</value>
   </data>
-    <data name="error_missing_warn_id" xml:space="preserve">
+  <data name="error_missing_warn_id" xml:space="preserve">
     <value>Trebuie să introduceți un ID de avertizare!</value>
   </data>
-    <data name="error_missing_server_info" xml:space="preserve">
+  <data name="error_missing_server_info" xml:space="preserve">
     <value>Trebuie să furnizați un IP și un port de server.</value>
   </data>
-    <data name="error_missing_user_name_1" xml:space="preserve">
+  <data name="error_missing_user_name_1" xml:space="preserve">
     <value>Trebuie să introduceți un nume de utilizator!</value>
   </data>
-    <data name="error_missing_user_name_2" xml:space="preserve">
+  <data name="error_missing_user_name_2" xml:space="preserve">
     <value>Trebuie să introduceți două nume de utilizator!</value>
   </data>
-    <data name="error_missing_user_id" xml:space="preserve">
+  <data name="error_missing_user_id" xml:space="preserve">
     <value>Trebuie să introduceți un ID de utilizator!</value>
   </data>
-    <data name="error_missing_steam_id_1" xml:space="preserve">
+  <data name="error_missing_steam_id_1" xml:space="preserve">
     <value>Vă rugăm să introduceți un ID de utilizator valid pe Steam! Găsire ID-uri de utilizator pe: https://steamid.io/lookup/</value>
   </data>
-    <data name="error_missing_steam_id_2" xml:space="preserve">
+  <data name="error_missing_steam_id_2" xml:space="preserve">
     <value>Nu uitați, ID-urile Steam64 pot fi găsite la adresa: https://steamid.io/lookup/</value>
   </data>
-    <data name="error_missing_role_name" xml:space="preserve">
+  <data name="error_missing_role_name" xml:space="preserve">
     <value>Trebuie să furnizați un nume de rol!</value>
   </data>
-    <data name="error_missing_role_mention" xml:space="preserve">
+  <data name="error_missing_role_mention" xml:space="preserve">
     <value>Trebuie să etichetezi un rol!</value>
   </data>
-    <data name="error_missing_perm_manageroles" xml:space="preserve">
+  <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Nu aveți permisiunea ManageRoles!</value>
   </data>
-    <data name="error_missing_perm_manageserver" xml:space="preserve">
+  <data name="error_missing_perm_manageserver" xml:space="preserve">
     <value>Nu aveți permisiunea ManageServer!</value>
   </data>
-    <data name="error_missing_perm_managechannels" xml:space="preserve">
+  <data name="error_missing_perm_managechannels" xml:space="preserve">
     <value>Nu aveți permisiunea ManageChannels!</value>
   </data>
-    <data name="error_missing_perm_managenicks" xml:space="preserve">
+  <data name="error_missing_perm_managenicks" xml:space="preserve">
     <value>Nu aveți permisiunea ManageNickname!</value>
   </data>
-    <data name="error_missing_perm_managemessage_1" xml:space="preserve">
+  <data name="error_missing_perm_managemessage_1" xml:space="preserve">
     <value>Nu aveți permisiunea ManageMessage!</value>
   </data>
-    <data name="error_missing_perm_managemessage_2" xml:space="preserve">
+  <data name="error_missing_perm_managemessage_2" xml:space="preserve">
     <value>Nu am permisiunea ManageMessage!</value>
   </data>
-    <data name="error_missing_perm_moderator" xml:space="preserve">
+  <data name="error_missing_perm_moderator" xml:space="preserve">
     <value>Trebuie să aveți permisiuni de moderator de server pentru a utiliza această comandă. [Mai multe informații](https://docs.cakeybot.app/setup/faq#what-is-considered-a-server-moderator)</value>
   </data>
-    <data name="error_missing_perm_emoji" xml:space="preserve">
+  <data name="error_missing_perm_emoji" xml:space="preserve">
     <value>Nu ai permisiunea ManageEmoji!</value>
   </data>
-    <data name="error_missing_perm_administrator" xml:space="preserve">
+  <data name="error_missing_perm_administrator" xml:space="preserve">
     <value>Nu aveți permisiunea de administrator!</value>
   </data>
-    <data name="error_missing_perm_kick" xml:space="preserve">
+  <data name="error_missing_perm_kick" xml:space="preserve">
     <value>Nu ai permisiuni de a da afară!</value>
   </data>
-    <data name="error_missing_perm_ban" xml:space="preserve">
+  <data name="error_missing_perm_ban" xml:space="preserve">
     <value>Nu aveți permisiunea de a interzice accesul!</value>
   </data>
-    <data name="error_missing_perm_unban" xml:space="preserve">
+  <data name="error_missing_perm_unban" xml:space="preserve">
     <value>Nu aveți permisiunea de a reda accesarea!</value>
   </data>
-    <data name="error_missing_perm_mute" xml:space="preserve">
+  <data name="error_missing_perm_mute" xml:space="preserve">
     <value>Nu aveți permisiunea MuteMembers!</value>
   </data>
-    <data name="error_missing_perm_self_emoji" xml:space="preserve">
+  <data name="error_missing_perm_self_emoji" xml:space="preserve">
     <value>Nu am permisiunea ManageEmoji!</value>
   </data>
-    <data name="error_missing_perm_self_react" xml:space="preserve">
+  <data name="error_missing_perm_self_react" xml:space="preserve">
     <value>Nu am permisiunea de a adăuga reacții!</value>
   </data>
-    <data name="error_missing_perm_self_kick" xml:space="preserve">
+  <data name="error_missing_perm_self_kick" xml:space="preserve">
     <value>Nu am permisiunea de a da afară!</value>
   </data>
-    <data name="error_missing_perm_self_ban" xml:space="preserve">
+  <data name="error_missing_perm_self_ban" xml:space="preserve">
     <value>Nu am permisiunea de a interzice accesul!</value>
   </data>
-    <data name="error_missing_perm_self_unban" xml:space="preserve">
+  <data name="error_missing_perm_self_unban" xml:space="preserve">
     <value>Nu am permisiunea de a reda accesul!</value>
   </data>
-    <data name="error_missing_perm_self_manageroles" xml:space="preserve">
+  <data name="error_missing_perm_self_manageroles" xml:space="preserve">
     <value>Nu am permisiunea ManageRoles!</value>
   </data>
-    <data name="error_missing_perm_self_managechannels" xml:space="preserve">
+  <data name="error_missing_perm_self_managechannels" xml:space="preserve">
     <value>Nu am permisiunea ManageChannel!</value>
   </data>
-    <data name="error_missing_perm_self_manageguild" xml:space="preserve">
+  <data name="error_missing_perm_self_manageguild" xml:space="preserve">
     <value>Nu am permisiunea ManageGuild! (Necesar pentru a vizualiza invitația asociației)</value>
   </data>
-    <data name="error_missing_perm_self_managenicks" xml:space="preserve">
+  <data name="error_missing_perm_self_managenicks" xml:space="preserve">
     <value>Nu aveți permisiunea ManageNickname!</value>
   </data>
-    <data name="error_missing_perm_self_kick_admin" xml:space="preserve">
+  <data name="error_missing_perm_self_kick_admin" xml:space="preserve">
     <value>Nu pot să dau afară un administrator!</value>
   </data>
-    <data name="error_missing_perm_self_ban_admin" xml:space="preserve">
+  <data name="error_missing_perm_self_ban_admin" xml:space="preserve">
     <value>Nu pot interzice accesul unui administrator!</value>
   </data>
-    <data name="error_missing_perm_self_ban_soft_admin" xml:space="preserve">
+  <data name="error_missing_perm_self_ban_soft_admin" xml:space="preserve">
     <value>Nu pot interzice un administrator!</value>
   </data>
-    <data name="error_missing_perm_self_mute_admin" xml:space="preserve">
+  <data name="error_missing_perm_self_mute_admin" xml:space="preserve">
     <value>Nu pot muții un administrator!</value>
   </data>
-    <data name="error_missing_perm_self_warn_admin" xml:space="preserve">
+  <data name="error_missing_perm_self_warn_admin" xml:space="preserve">
     <value>Nu pot avertiza un Administrator!</value>
   </data>
-    <data name="error_missing_file_image_3" xml:space="preserve">
+  <data name="error_missing_file_image_3" xml:space="preserve">
     <value>Nu s-au găsit imagini valide în ultimele 3 mesaje.</value>
   </data>
-    <data name="error_missing_file_image_5" xml:space="preserve">
+  <data name="error_missing_file_image_5" xml:space="preserve">
     <value>Nu s-au găsit imagini valide în ultimele 5 mesaje.</value>
   </data>
-    <data name="error_missing_messages" xml:space="preserve">
+  <data name="error_missing_messages" xml:space="preserve">
     <value>Nu s-au găsit mesaje pentru utilizatorul dat.</value>
   </data>
-    <data name="error_failed_image_download" xml:space="preserve">
+  <data name="error_failed_image_download" xml:space="preserve">
     <value>Descărcarea imaginii a eșuat.</value>
   </data>
-    <data name="error_failed_image_modify" xml:space="preserve">
+  <data name="error_failed_image_modify" xml:space="preserve">
     <value>Modificarea imaginii a eșuat.</value>
   </data>
-    <data name="error_failed_image_upload" xml:space="preserve">
+  <data name="error_failed_image_upload" xml:space="preserve">
     <value>Nu aveți permisiunea sa încărcați fișiere aici.</value>
   </data>
-    <data name="error_failed_joke" xml:space="preserve">
+  <data name="error_failed_joke" xml:space="preserve">
     <value>Nu s-a reușit să producă o glumă.</value>
   </data>
-    <data name="error_failed_fortune" xml:space="preserve">
+  <data name="error_failed_fortune" xml:space="preserve">
     <value>Nu s-a reușit să se aducă averea.</value>
   </data>
-    <data name="error_failed_weather" xml:space="preserve">
+  <data name="error_failed_weather" xml:space="preserve">
     <value>Nu ați obținut datele, ați introdus corect numele orașului?</value>
   </data>
-    <data name="error_failed_currency" xml:space="preserve">
+  <data name="error_failed_currency" xml:space="preserve">
     <value>Nu ați obținut datele, ați introdus corect valuta?</value>
   </data>
-    <data name="error_failed_video" xml:space="preserve">
+  <data name="error_failed_video" xml:space="preserve">
     <value>Eșuare la găsirea video-ului. * Întrebările de căutare mai scurte funcționează cel mai bine. *</value>
   </data>
-    <data name="error_failed_image" xml:space="preserve">
+  <data name="error_failed_image" xml:space="preserve">
     <value>Nu s-aa reușit să se găsească o imagine. *Întrebările de căutare mai scurte funcționează cel mai bine.*</value>
   </data>
-    <data name="error_failed_article" xml:space="preserve">
+  <data name="error_failed_article" xml:space="preserve">
     <value>Nu s-a reușit să se găsească un articol.</value>
   </data>
-    <data name="error_failed_message" xml:space="preserve">
+  <data name="error_failed_message" xml:space="preserve">
     <value>Imposibil de găsit mesajul.</value>
   </data>
-    <data name="error_failed_kick" xml:space="preserve">
+  <data name="error_failed_kick" xml:space="preserve">
     <value>Nu s-a reușit să dăm afară utilizatorul.</value>
   </data>
-    <data name="error_failed_ban" xml:space="preserve">
+  <data name="error_failed_ban" xml:space="preserve">
     <value>Eșuare la interzicerea accesului utilizatorului.</value>
   </data>
-    <data name="error_failed_ban_soft" xml:space="preserve">
+  <data name="error_failed_ban_soft" xml:space="preserve">
     <value>Eșuare la interzicerea accesului soft a utilizatorului.</value>
   </data>
-    <data name="error_failed_unban" xml:space="preserve">
+  <data name="error_failed_unban" xml:space="preserve">
     <value>Eșuare la redarea accesului utilizatorului.</value>
   </data>
-    <data name="error_failed_unban_not_banned_1" xml:space="preserve">
+  <data name="error_failed_unban_not_banned_1" xml:space="preserve">
     <value>Accesul meu nu este interzis pe server!</value>
   </data>
-    <data name="error_failed_unban_not_banned_2" xml:space="preserve">
+  <data name="error_failed_unban_not_banned_2" xml:space="preserve">
     <value>Id-ul utilizatorului dat nu este interzis.</value>
   </data>
-    <data name="error_failed_unmute_not_muted" xml:space="preserve">
+  <data name="error_failed_unmute_not_muted" xml:space="preserve">
     <value>Utilizatorul nu este pe mut. Dacă ei sunt, asigurați-vă că setați rolul mut cu `!setting` sau numiți-l `Muted`.</value>
   </data>
-    <data name="error_failed_playlist_save" xml:space="preserve">
+  <data name="error_failed_playlist_save" xml:space="preserve">
     <value>Salvarea melodiilor în lista de redare nu a fost reușită. Lista de redare există deja?</value>
   </data>
-    <data name="error_failed_playlist_load" xml:space="preserve">
+  <data name="error_failed_playlist_load" xml:space="preserve">
     <value>Eroare la găsirea listei de redare. Ați introdus corect numele?</value>
   </data>
-    <data name="error_failed_playlist_delete" xml:space="preserve">
+  <data name="error_failed_playlist_delete" xml:space="preserve">
     <value>Nu s-a reușit ștergerea listei de redare a dvs. `{0}`. Există deja lista de redare?</value>
   </data>
-    <data name="error_role_1" xml:space="preserve">
+  <data name="error_role_1" xml:space="preserve">
     <value>Nu pot actualiza acest rol, este mai mare decât rolul meu cel mai înalt.</value>
   </data>
-    <data name="error_role_2" xml:space="preserve">
+  <data name="error_role_2" xml:space="preserve">
     <value>Nu puteți actualiza acest rol, este mai mare decât cel mai mare rol al tău.</value>
   </data>
-    <data name="error_role_kick_1" xml:space="preserve">
+  <data name="error_role_kick_1" xml:space="preserve">
     <value>Nu puteți să dați afară pe cineva deasupra rolului tău în ierarhia rolului!</value>
   </data>
-    <data name="error_role_kick_2" xml:space="preserve">
+  <data name="error_role_kick_2" xml:space="preserve">
     <value>Nu pot să dau afară pe cineva deasupra rolului meu în ierarhia rolului!</value>
   </data>
-    <data name="error_role_ban_1" xml:space="preserve">
+  <data name="error_role_ban_1" xml:space="preserve">
     <value>Nu poți interzice accesul cuiva care este deasupra rolului tău în ierarhia rolului!</value>
   </data>
-    <data name="error_role_ban_2" xml:space="preserve">
+  <data name="error_role_ban_2" xml:space="preserve">
     <value>Nu pot să interzic accesul cuiva care este deasupra rolului meu în ierarhia rolului!</value>
   </data>
-    <data name="error_role_ban_soft_1" xml:space="preserve">
+  <data name="error_role_ban_soft_1" xml:space="preserve">
     <value>Nu puteți să interziceți temporal accesul cuiva care are rolul mai înalt decât tine în ierarhia rolului!</value>
   </data>
-    <data name="error_role_ban_soft_2" xml:space="preserve">
+  <data name="error_role_ban_soft_2" xml:space="preserve">
     <value>Nu pot să interzic temporal accesul cuiva deasupra rolului meu în ierarhia rolului!</value>
   </data>
-    <data name="error_role_mute_1" xml:space="preserve">
+  <data name="error_role_mute_1" xml:space="preserve">
     <value>Nu poți sa-l pui pe mut pe cineva deasupra rolului tău în ierarhia rolului!</value>
   </data>
-    <data name="error_role_mute_2" xml:space="preserve">
+  <data name="error_role_mute_2" xml:space="preserve">
     <value>Nu pot să muțesc pe cineva deasupra rolului meu în ierarhia rolului!</value>
   </data>
-    <data name="error_role_mute_3" xml:space="preserve">
+  <data name="error_role_mute_3" xml:space="preserve">
     <value>Nu pot folosi rolul mut, este mai mare decât cel mai înalt rol de al meu.</value>
   </data>
-    <data name="error_role_warn_1" xml:space="preserve">
+  <data name="error_role_warn_1" xml:space="preserve">
     <value>Nu poți avertiza pe cineva care are rolul mai mare în ierarhia rolului!</value>
   </data>
-    <data name="error_role_warn_2" xml:space="preserve">
+  <data name="error_role_warn_2" xml:space="preserve">
     <value>Nu pot să avertizez pe cineva care este deasupra rolului meu în ierarhia rolului!</value>
   </data>
-    <data name="error_role_unwarn_1" xml:space="preserve">
+  <data name="error_role_unwarn_1" xml:space="preserve">
     <value>Nu poți să ștergi avertizarea cuiva care este deasupra rolului tău în ierarhia rolului!</value>
   </data>
-    <data name="error_role_unwarn_2" xml:space="preserve">
+  <data name="error_role_unwarn_2" xml:space="preserve">
     <value>Nu pot să șterg avertizarea cuiva care este deasupra rolului meu în ierarhia rolului!</value>
   </data>
-    <data name="error_invalid_color_hex" xml:space="preserve">
+  <data name="error_invalid_color_hex" xml:space="preserve">
     <value>Trebuie să folosiți un cod hex valabil!</value>
   </data>
-    <data name="error_invalid_dice" xml:space="preserve">
+  <data name="error_invalid_dice" xml:space="preserve">
     <value>Introduceți un număr valid (1-15) sau introduceți da-ți cu zarul DND.</value>
   </data>
-    <data name="error_invalid_user_missing" xml:space="preserve">
+  <data name="error_invalid_user_missing" xml:space="preserve">
     <value>Numele utilizatorului nu există!</value>
   </data>
-    <data name="error_invalid_user_guild" xml:space="preserve">
+  <data name="error_invalid_user_guild" xml:space="preserve">
     <value>Utilizatorul nu este valid. (Utilizator invalid al serverului)</value>
   </data>
-    <data name="error_invalid_unknown_city" xml:space="preserve">
+  <data name="error_invalid_unknown_city" xml:space="preserve">
     <value>Numele orașului necunoscut.</value>
   </data>
-    <data name="error_invalid_invite" xml:space="preserve">
+  <data name="error_invalid_invite" xml:space="preserve">
     <value>Va rugam introduceți un cod de invitare corect.</value>
   </data>
-    <data name="error_invalid_base64" xml:space="preserve">
+  <data name="error_invalid_base64" xml:space="preserve">
     <value>Vă rugăm să furnizați un șir de base64 valid.</value>
   </data>
-    <data name="error_invalid_playlist" xml:space="preserve">
+  <data name="error_invalid_playlist" xml:space="preserve">
     <value>Trebuie să introduceți un nume valid pentru lista de redare.</value>
   </data>
-    <data name="error_usage_poll" xml:space="preserve">
+  <data name="error_usage_poll" xml:space="preserve">
     <value>Vă rugăm să introduceți o întrebare validă. Utilizare: `!poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
   </data>
-    <data name="error_usage_suggestion" xml:space="preserve">
+  <data name="error_usage_suggestion" xml:space="preserve">
     <value>Vă rugăm să introduceți o sugestie valida. 
 !suggestion &lt;title&gt; | &lt;description&gt;</value>
   </data>
-    <data name="error_usage_rps" xml:space="preserve">
+  <data name="error_usage_rps" xml:space="preserve">
     <value>Vă rugăm să introduceți o mutare validă: `!rps &lt; rock | paper | scissors &gt;`</value>
   </data>
-    <data name="error_usage_8ball" xml:space="preserve">
+  <data name="error_usage_8ball" xml:space="preserve">
     <value>Vă rugăm să introduceți întrebarea.</value>
   </data>
-    <data name="error_usage_query" xml:space="preserve">
+  <data name="error_usage_query" xml:space="preserve">
     <value>Utilizare corectă: `!query &lt;pe | pc&gt; &lt;ip:port&gt;`</value>
   </data>
-    <data name="error_usage_query_type" xml:space="preserve">
+  <data name="error_usage_query_type" xml:space="preserve">
     <value>Vă rugăm să introduceți fie un PC sau PE ca un tip de server.</value>
   </data>
-    <data name="error_usage_role" xml:space="preserve">
+  <data name="error_usage_role" xml:space="preserve">
     <value>Utilizare: `!role &lt;add | remove&gt; &lt;user&gt; &lt;role&gt;`</value>
   </data>
     <data name="error_usage_playlist" xml:space="preserve">
     <value>Utilizare: `!playlist &lt;save/create | list | load | delete/remove&gt; &lt;name&gt;`</value>
   </data>
-    <data name="error_usage_verify" xml:space="preserve">
+  <data name="error_usage_verify" xml:space="preserve">
     <value>Utilizare: `{0}verify setup &lt;role&gt;`</value>
   </data>
-    <data name="error_usage_verify_set" xml:space="preserve">
+  <data name="error_usage_verify_set" xml:space="preserve">
     <value>Nu a fost setat niciun rol de verificare. Setați una folosind: `{0}verify setup &lt;role&gt;`</value>
   </data>
-    <data name="error_verify" xml:space="preserve">
+  <data name="error_verify" xml:space="preserve">
     <value>Setarea rolului de verificare nu a reușit.</value>
   </data>
-    <data name="success_verify" xml:space="preserve">
+  <data name="success_verify" xml:space="preserve">
     <value>Setați cu succes rolul de verificare la: `{0}`.</value>
   </data>
-    <data name="error_max_values_20" xml:space="preserve">
+  <data name="error_max_values_20" xml:space="preserve">
     <value>Puteți avea doar 20 de valori.</value>
   </data>
-    <data name="success_role_added" xml:space="preserve">
+  <data name="success_role_added" xml:space="preserve">
     <value>Adăugare reușita a rolului `{0}` lui {1}.</value>
   </data>
-    <data name="success_role_removed" xml:space="preserve">
+  <data name="success_role_removed" xml:space="preserve">
     <value>Eliminarea rolului `{0}` lui {1}.</value>
   </data>
-    <data name="success_role_updated_color" xml:space="preserve">
+  <data name="success_role_updated_color" xml:space="preserve">
     <value>Actualizat cu succes `{0}`. (Culoare: {1})</value>
   </data>
-    <data name="success_role_updated_hoisted" xml:space="preserve">
+  <data name="success_role_updated_hoisted" xml:space="preserve">
     <value>Actualizat cu succes `{0}`. (Ridicat: {1} » {2})</value>
   </data>
-    <data name="success_role_updated_mentionable" xml:space="preserve">
+  <data name="success_role_updated_mentionable" xml:space="preserve">
     <value>Actualizat cu succes `{0}`. (Menționabil: {1} » {2})</value>
   </data>
-    <data name="games_suggestion_suggestion" xml:space="preserve">
+  <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>Sugestie:</value>
   </data>
-    <data name="games_suggestion_vote" xml:space="preserve">
-    <value>Vot:</value>
-  </data>
-    <data name="games_suggestion_title" xml:space="preserve">
-    <value>Titlu:</value>
-  </data>
-    <data name="games_suggestion_description" xml:space="preserve">
-    <value>Descriere:</value>
-  </data>
-    <data name="games_suggestion_created" xml:space="preserve">
-    <value>Sugestie creată de {0}#{1}</value>
-  </data>
-    <data name="games_8ball_results" xml:space="preserve">
-    <value>Rezultate:</value>
-  </data>
-    <data name="games_8ball_question" xml:space="preserve">
-    <value>Întrebare:</value>
-  </data>
-    <data name="games_8ball_answer" xml:space="preserve">
-    <value>Răspuns:</value>
-  </data>
-    <data name="games_poll_vote" xml:space="preserve">
+  <data name="games_suggestion_vote" xml:space="preserve">
     <value>Voturi:</value>
   </data>
-    <data name="games_poll_created" xml:space="preserve">
-    <value>Sondaj creat de {0}#{1}</value>
+  <data name="games_suggestion_title" xml:space="preserve">
+    <value>Titlu:</value>
   </data>
-    <data name="games_coin_heads" xml:space="preserve">
-    <value>Cap</value>
+  <data name="games_suggestion_description" xml:space="preserve">
+    <value>Descriere:</value>
   </data>
-    <data name="games_coin_tails" xml:space="preserve">
-    <value>Pajură</value>
+  <data name="games_suggestion_created" xml:space="preserve">
+    <value>Sugestie creată de {0}#{1}</value>
   </data>
-    <data name="games_coin_results" xml:space="preserve">
+  <data name="games_8ball_results" xml:space="preserve">
     <value>Rezultate:</value>
   </data>
-    <data name="games_coin_flipped" xml:space="preserve">
+  <data name="games_8ball_question" xml:space="preserve">
+    <value>Întrebare:</value>
+  </data>
+  <data name="games_8ball_answer" xml:space="preserve">
+    <value>Răspuns:</value>
+  </data>
+  <data name="games_poll_vote" xml:space="preserve">
+    <value>Voturi:</value>
+  </data>
+  <data name="games_poll_created" xml:space="preserve">
+    <value>Sondaj creat de {0}#{1}</value>
+  </data>
+  <data name="games_coin_heads" xml:space="preserve">
+    <value>Cap</value>
+  </data>
+  <data name="games_coin_tails" xml:space="preserve">
+    <value>Pajură</value>
+  </data>
+  <data name="games_coin_results" xml:space="preserve">
+    <value>Rezultate:</value>
+  </data>
+  <data name="games_coin_flipped" xml:space="preserve">
     <value>Ați aruncat:</value>
   </data>
-    <data name="games_dice_total" xml:space="preserve">
+  <data name="games_dice_total" xml:space="preserve">
     <value>Total:</value>
   </data>
-    <data name="games_dice_result_single" xml:space="preserve">
+  <data name="games_dice_result_single" xml:space="preserve">
     <value>Ai rostogolit un zar. Rezultatul:</value>
   </data>
-    <data name="games_dice_result_multiple" xml:space="preserve">
+  <data name="games_dice_result_multiple" xml:space="preserve">
     <value>Zarul #{i1} Rezultate:</value>
   </data>
-    <data name="games_dice_result_rolled" xml:space="preserve">
+  <data name="games_dice_result_rolled" xml:space="preserve">
     <value>A rulat un {0}</value>
   </data>
-    <data name="games_rps_rock" xml:space="preserve">
+  <data name="games_rps_rock" xml:space="preserve">
     <value>piatră</value>
   </data>
-    <data name="games_rps_paper" xml:space="preserve">
+  <data name="games_rps_paper" xml:space="preserve">
     <value>hârtie</value>
   </data>
-    <data name="games_rps_scissors" xml:space="preserve">
+  <data name="games_rps_scissors" xml:space="preserve">
     <value>foarfecă</value>
   </data>
-    <data name="games_rps_outcome_1" xml:space="preserve">
+  <data name="games_rps_outcome_1" xml:space="preserve">
     <value>Am ales {0}; {1} bate {2}. Eu câștig!</value>
   </data>
-    <data name="games_rps_outcome_2" xml:space="preserve">
+  <data name="games_rps_outcome_2" xml:space="preserve">
     <value>Am ales {0}; {1} bate {2}. Ai câștigat!</value>
   </data>
-    <data name="games_rps_outcome_3" xml:space="preserve">
+  <data name="games_rps_outcome_3" xml:space="preserve">
     <value>Am ales {0}. Amândoi am ales {1}, e egalitate!</value>
   </data>
-    <data name="games_giveaway_error_1" xml:space="preserve">
-        <value>**Error:** Giveaways must last less than 1 day.</value>
-    </data>
-    <data name="games_giveaway_error_2" xml:space="preserve">
+  <data name="games_giveaway_error_1" xml:space="preserve">
+    <value>**Error:** Giveaways must last less than 1 day.</value>
+  </data>
+  <data name="games_giveaway_error_2" xml:space="preserve">
     <value>**Eroare:** Giveaways trebuie să dureze cel puțin de 1 minut.</value>
   </data>
-    <data name="games_giveaway_title" xml:space="preserve">
+  <data name="games_giveaway_title" xml:space="preserve">
     <value>:tada: **GIVEAWAY** :tada:</value>
   </data>
-    <data name="games_giveaway" xml:space="preserve">
+  <data name="games_giveaway" xml:space="preserve">
     <value>**Information:**
 ● Prize: `{0}`
 ● Winner amount: {1}
@@ -500,600 +499,600 @@
 
 React with :tada: to enter the giveaway!</value>
   </data>
-    <data name="games_giveaway_winner" xml:space="preserve">
+  <data name="games_giveaway_winner" xml:space="preserve">
     <value>**Felicitări!***
 {0}, ai câștigat premiul: `{1}`!</value>
   </data>
-    <data name="games_giveaway_winner_none" xml:space="preserve">
+  <data name="games_giveaway_winner_none" xml:space="preserve">
     <value>Nu există câștigători astăzi :(</value>
   </data>
-    <data name="games_giveaway_winner_limit" xml:space="preserve">
+  <data name="games_giveaway_winner_limit" xml:space="preserve">
     <value>Numărul câștigătorilor trebuie să fie cel puțin 1 și nu mai mult de 15.</value>
   </data>
-    <data name="games_trivia_title" xml:space="preserve">
+  <data name="games_trivia_title" xml:space="preserve">
     <value>Întrebările Trivia a lui {0}</value>
   </data>
-    <data name="games_trivia_footer" xml:space="preserve">
+  <data name="games_trivia_footer" xml:space="preserve">
     <value>Type the letter of the correct answer • Question #{0}</value>
   </data>
-    <data name="games_trivia_instructions" xml:space="preserve">
+  <data name="games_trivia_instructions" xml:space="preserve">
     <value>*You have 10 seconds to answer with the correct letter.*
 
 </value>
   </data>
-    <data name="games_trivia_difficulty" xml:space="preserve">
+  <data name="games_trivia_difficulty" xml:space="preserve">
     <value>Dificultate</value>
   </data>
-    <data name="games_trivia_category" xml:space="preserve">
+  <data name="games_trivia_category" xml:space="preserve">
     <value>Categorie</value>
   </data>
     <data name="games_trivia_timeout" xml:space="preserve">
         <value>No answer was provided within 10s. Correct answer: `{0}`</value>
     </data>
-    <data name="games_trivia_invalid" xml:space="preserve">
+  <data name="games_trivia_invalid" xml:space="preserve">
     <value>Invalid answer was provided. Next time only provide the letter. Correct answer: `{0}`</value>
   </data>
-    <data name="games_trivia_valid" xml:space="preserve">
+  <data name="games_trivia_valid" xml:space="preserve">
     <value>Valid answers are: `A`, `B`, `C`, or `D`.</value>
   </data>
-    <data name="games_trivia_correct" xml:space="preserve">
+  <data name="games_trivia_correct" xml:space="preserve">
     <value>Te-ai descurcat! :D</value>
   </data>
-    <data name="games_trivia_incorrect" xml:space="preserve">
+  <data name="games_trivia_incorrect" xml:space="preserve">
     <value>Oh no, you got it wrong. Correct answer: `{0}`</value>
   </data>
-    <data name="games_trivia_load_failed" xml:space="preserve">
+  <data name="games_trivia_load_failed" xml:space="preserve">
     <value>Failed to load any trivia questions. Please try again later.</value>
   </data>
-    <data name="afk" xml:space="preserve">
+  <data name="afk" xml:space="preserve">
     <value>{0} este în prezent Departe De Tastatură, Motivul: `{1}`</value>
   </data>
-    <data name="afk_not_active_1" xml:space="preserve">
+  <data name="afk_not_active_1" xml:space="preserve">
     <value>În prezent nu sunteți Departe de Tastatură.</value>
   </data>
-    <data name="afk_not_active_2" xml:space="preserve">
+  <data name="afk_not_active_2" xml:space="preserve">
     <value>Acest utilizator nu este în prezent Departe de Tastatură.</value>
   </data>
-    <data name="afk_active" xml:space="preserve">
+  <data name="afk_active" xml:space="preserve">
     <value>În prezent mesajul pentru Departe de Tastatură este: `{0}`</value>
   </data>
-    <data name="afk_limit" xml:space="preserve">
+  <data name="afk_limit" xml:space="preserve">
     <value>Mesajele pentru Departe de Tastatură trebuie să fie mai putin de 100 de caractere.</value>
   </data>
-    <data name="afk_failed" xml:space="preserve">
+  <data name="afk_failed" xml:space="preserve">
     <value>Setarea mesajului pentru Departe De Tastatură nu a fost reușită.</value>
   </data>
-    <data name="afk_set" xml:space="preserve">
+  <data name="afk_set" xml:space="preserve">
     <value>Ați fost setat cu succes pe Departe de Tastatură cu mesajul: `{0}`</value>
   </data>
-    <data name="afk_removed_1" xml:space="preserve">
+  <data name="afk_removed_1" xml:space="preserve">
     <value>Te-a eliminat cu succes din Departe de Tastatură.</value>
   </data>
-    <data name="afk_removed_2" xml:space="preserve">
+  <data name="afk_removed_2" xml:space="preserve">
     <value>Șters cu succes rolul Departe de Tastatură pentru {0}.</value>
   </data>
-    <data name="afk_updated" xml:space="preserve">
+  <data name="afk_updated" xml:space="preserve">
     <value>Actualizat cu succes mesajul Departe de Tastatură la: `{0}`</value>
   </data>
-    <data name="afk_permission" xml:space="preserve">
+  <data name="afk_permission" xml:space="preserve">
     <value>Trebuie să aveți permisiunea ManageServer sau de Administrator pentru a elimina statutul de Departe de Tastatură a altui utilizator.</value>
   </data>
-    <data name="mod_kick_self" xml:space="preserve">
+  <data name="mod_kick_self" xml:space="preserve">
     <value>Nu te poți da afară singur!</value>
   </data>
-    <data name="mod_kick_self_bot" xml:space="preserve">
+  <data name="mod_kick_self_bot" xml:space="preserve">
     <value>Nu ma pot da afară singur!</value>
   </data>
-    <data name="mod_kick_success" xml:space="preserve">
+  <data name="mod_kick_success" xml:space="preserve">
     <value>{0}#{1} darea afară a fost cu succes.</value>
   </data>
-    <data name="mod_kick_dm" xml:space="preserve">
+  <data name="mod_kick_dm" xml:space="preserve">
     <value>Ai fost dat afară din `{0}` către `{1}` pentru: `{2}`</value>
   </data>
-    <data name="mod_unban_success" xml:space="preserve">
+  <data name="mod_unban_success" xml:space="preserve">
     <value>{0}#{1} a fost ștersă interzicerea accesului cu succes.</value>
   </data>
-    <data name="mod_ban_self" xml:space="preserve">
+  <data name="mod_ban_self" xml:space="preserve">
     <value>Nu puteți să vă interziceți accesul singur!</value>
   </data>
-    <data name="mod_ban_self_bot" xml:space="preserve">
+  <data name="mod_ban_self_bot" xml:space="preserve">
     <value>Nu pot să îmi interzic accesul singur!</value>
   </data>
-    <data name="mod_ban_success" xml:space="preserve">
+  <data name="mod_ban_success" xml:space="preserve">
     <value>{0}#{1} a fost interzisă accesul cu succes.</value>
   </data>
-    <data name="mod_ban_dm" xml:space="preserve">
+  <data name="mod_ban_dm" xml:space="preserve">
     <value>Ai fost interzis din `{0}` către `{1}` pentru că: `{2}`</value>
   </data>
-    <data name="mod_ban_temp_error" xml:space="preserve">
+  <data name="mod_ban_temp_error" xml:space="preserve">
     <value>Temp bans must be 1 month or less.</value>
   </data>
     <data name="mod_ban_temp_success" xml:space="preserve">
         <value>{0}#{1} will be unbanned &lt;t:{2}:R&gt;</value>
     </data>
-    <data name="mod_ban_soft_self" xml:space="preserve">
+  <data name="mod_ban_soft_self" xml:space="preserve">
     <value>Nu poți să iți interzici temporal accesul singur!</value>
   </data>
-    <data name="mod_ban_soft_self_bot" xml:space="preserve">
+  <data name="mod_ban_soft_self_bot" xml:space="preserve">
     <value>Nu pot să îmi interzic temporal accesul singur!</value>
   </data>
-    <data name="mod_ban_soft_success" xml:space="preserve">
+  <data name="mod_ban_soft_success" xml:space="preserve">
     <value>{0}#{1} a fost interzis temporal accesul. (Acum pot reintra)</value>
   </data>
-    <data name="mod_ban_soft_dm" xml:space="preserve">
+  <data name="mod_ban_soft_dm" xml:space="preserve">
     <value>Ai fost interzis temporar de la `{0}` de către `{1}` pentru: `{2}` (Puteți reintra)</value>
   </data>
-    <data name="mod_mute_self" xml:space="preserve">
+  <data name="mod_mute_self" xml:space="preserve">
     <value>Nu te poți muți singur!</value>
   </data>
-    <data name="mod_mute_self_bot" xml:space="preserve">
+  <data name="mod_mute_self_bot" xml:space="preserve">
     <value>Nu ma pot muți singur!</value>
   </data>
-    <data name="mod_mute_success" xml:space="preserve">
+  <data name="mod_mute_success" xml:space="preserve">
     <value>{0}#{1} a fost muțit cu succes.</value>
   </data>
-    <data name="mod_mute_dm" xml:space="preserve">
+  <data name="mod_mute_dm" xml:space="preserve">
     <value>Ai fost muțit în `{0}` de către `{1}` pentru: `{2}`</value>
   </data>
-    <data name="mod_mute_temp_error" xml:space="preserve">
+  <data name="mod_mute_temp_error" xml:space="preserve">
     <value>Temp mutes must be 1 month or less.</value>
   </data>
     <data name="mod_mute_temp_success" xml:space="preserve">
         <value>{0}#{1} will be unmuted &lt;t:{2}:R&gt;</value>
     </data>
-    <data name="mod_mute_role_error" xml:space="preserve">
+  <data name="mod_mute_role_error" xml:space="preserve">
     <value>Unable to find or create a mute role.</value>
   </data>
-    <data name="mod_unmute_self_bot" xml:space="preserve">
-    <value>Nu mă pot &#39;&#39;dezmuții&#39;&#39; singur!</value>
+  <data name="mod_unmute_self_bot" xml:space="preserve">
+    <value>Nu mă pot ''dezmuții'' singur!</value>
   </data>
-    <data name="mod_unmute_success" xml:space="preserve">
-    <value>{0}#{1} a fost &quot;dezmuțit&quot; cu succes.</value>
+  <data name="mod_unmute_success" xml:space="preserve">
+    <value>{0}#{1} a fost "dezmuțit" cu succes.</value>
   </data>
-    <data name="mod_warn_reason" xml:space="preserve">
+  <data name="mod_warn_reason" xml:space="preserve">
     <value>Trebuie să introduceți un motiv!</value>
   </data>
-    <data name="mod_warn_self" xml:space="preserve">
+  <data name="mod_warn_self" xml:space="preserve">
     <value>Nu puteți să vă avertizați singur!</value>
   </data>
-    <data name="mod_warn_self_bot" xml:space="preserve">
+  <data name="mod_warn_self_bot" xml:space="preserve">
     <value>Nu mă pot avertiza singur!</value>
   </data>
-    <data name="mod_warn_success" xml:space="preserve">
+  <data name="mod_warn_success" xml:space="preserve">
     <value>{0}#{1} a fost avertizat cu succes pentru: `{2}`.
 **Avertismente în total:** {3}</value>
   </data>
-    <data name="mod_warn_dm" xml:space="preserve">
+  <data name="mod_warn_dm" xml:space="preserve">
     <value>Ai fost avertizat în `{0}` `de `{1}` pentru: `{2}`</value>
   </data>
-    <data name="mod_unwarn_self" xml:space="preserve">
+  <data name="mod_unwarn_self" xml:space="preserve">
     <value>Nu puteți retrage avertizarea singur!</value>
   </data>
-    <data name="mod_unwarn_self_bot" xml:space="preserve">
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
     <value>Nu pot retrage avertizarea singur!</value>
   </data>
-    <data name="mod_unwarn_success" xml:space="preserve">
+  <data name="mod_unwarn_success" xml:space="preserve">
     <value>Avertismentul a fost eliminat cu succes din: `{0}#{1}`</value>
   </data>
-    <data name="mod_unwarn_error_none" xml:space="preserve">
+  <data name="mod_unwarn_error_none" xml:space="preserve">
     <value>Utilizatorul nu are nici un avertisment de șters.</value>
   </data>
-    <data name="mod_unwarn_error_invalid" xml:space="preserve">
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
     <value>ID-ul de avertizare furnizat nu este valid.</value>
   </data>
-    <data name="mod_clearwarnings_success" xml:space="preserve">
+  <data name="mod_clearwarnings_success" xml:space="preserve">
     <value>S-a eliminat cu succes toate avertismentele de la `{0}#{1}`</value>
   </data>
-    <data name="mod_purge_amount" xml:space="preserve">
+  <data name="mod_purge_amount" xml:space="preserve">
     <value>Trebuie să introduceți numărul de mesaje pentru a actualiza!</value>
   </data>
-    <data name="mod_purge_amount_max" xml:space="preserve">
+  <data name="mod_purge_amount_max" xml:space="preserve">
     <value>Puteți actualiza doar până la 100 de mesaje la un moment dat!</value>
   </data>
-    <data name="mod_purge_none_1" xml:space="preserve">
+  <data name="mod_purge_none_1" xml:space="preserve">
     <value>Nimic de șters!</value>
   </data>
-    <data name="mod_purge_none_2" xml:space="preserve">
+  <data name="mod_purge_none_2" xml:space="preserve">
     <value>Nu s-au găsit mesaje care îndeplinesc criteriile date.</value>
   </data>
-    <data name="mod_purge_success" xml:space="preserve">
+  <data name="mod_purge_success" xml:space="preserve">
     <value>**{0} mesaje actualizate de către {1} în &lt;#{2}&gt;**</value>
   </data>
-    <data name="mod_purge_disabled" xml:space="preserve">
+  <data name="mod_purge_disabled" xml:space="preserve">
     <value>**Actualizarea avansată este dezactivată în prezent din cauza unor probleme.**</value>
   </data>
-    <data name="mod_purge_url" xml:space="preserve">
+  <data name="mod_purge_url" xml:space="preserve">
     <value>Mesaje șterse:</value>
   </data>
-    <data name="mod_dehoist_start" xml:space="preserve">
+  <data name="mod_dehoist_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; Îndepărtarea poreclelor, acest lucru poate dura o vreme.
 Note: Un mesaj va fi trimis la finalizare.</value>
   </data>
-    <data name="mod_dehoist_success" xml:space="preserve">
+  <data name="mod_dehoist_success" xml:space="preserve">
     <value>Scăderea celor `{0}` membri a fost făcută cu succes.</value>
   </data>
-    <data name="mod_unnick_start" xml:space="preserve">
+  <data name="mod_unnick_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; Eliminarea poreclelor utilizatorului, acest lucru poate dura o vreme.
 Note: Un mesaj va fi trimis la finalizare.</value>
   </data>
-    <data name="mod_unnick_success" xml:space="preserve">
+  <data name="mod_unnick_success" xml:space="preserve">
     <value>S-a eliminat cu succes nick-ul de la `{0}` membri.</value>
   </data>
-    <data name="mod_slowmode_success" xml:space="preserve">
+  <data name="mod_slowmode_success" xml:space="preserve">
     <value>Modul de Încetinire pentru canalul: `{0}` a fost actualizată la `{1}h{2}m{3}s`.</value>
   </data>
-    <data name="time_error_invalid" xml:space="preserve">
+  <data name="time_error_invalid" xml:space="preserve">
     <value>Introduceți o oră validă.</value>
   </data>
-    <data name="time_error_invalid_6h" xml:space="preserve">
+  <data name="time_error_invalid_6h" xml:space="preserve">
     <value>(Mai puțin de 6 ore)</value>
   </data>
-    <data name="time_error_large" xml:space="preserve">
+  <data name="time_error_large" xml:space="preserve">
     <value>Timpul oferit este prea mare.</value>
   </data>
-    <data name="time_error_negative" xml:space="preserve">
+  <data name="time_error_negative" xml:space="preserve">
     <value>Timpul nu poate fi negativ sau mai mic de zero.</value>
   </data>
-    <data name="info_about_description" xml:space="preserve">
+  <data name="info_about_description" xml:space="preserve">
     <value>** Despre:**```Un bot avansat, personalizabil construit pentru a concura direct cu Dyno și Rythm. Cakey Bot este construit pentru a combina capacitățile muzicale puternice cu o multititudine de caracteristici de utilitate. Cakey Bot combină caracteristicile care necesită, de obicei, roboții multipli într-un singur bot. Punând administrarea asociației mai simpliste și mai rapide.```
 </value>
   </data>
-    <data name="info_about_vote" xml:space="preserve">
+  <data name="info_about_vote" xml:space="preserve">
     <value>:star: Like Cakey Bot? Well, show your support and donate at:
 </value>
   </data>
-    <data name="info_ping" xml:space="preserve">
+  <data name="info_ping" xml:space="preserve">
     <value>Ritmul Inimii - Shard #{0}: {1}ms</value>
   </data>
-    <data name="info_ping_avg" xml:space="preserve">
+  <data name="info_ping_avg" xml:space="preserve">
     <value>Media Bătăilor Inimii:</value>
   </data>
-    <data name="info_created_date" xml:space="preserve">
+  <data name="info_created_date" xml:space="preserve">
     <value>Creat pe {0}. Adică acum {1} zile!</value>
   </data>
-    <data name="info_joined_date" xml:space="preserve">
+  <data name="info_joined_date" xml:space="preserve">
     <value>S-au alăturat Discord pe {0}. adică acum {1} zile!</value>
   </data>
-    <data name="info_boosters_extra" xml:space="preserve">
+  <data name="info_boosters_extra" xml:space="preserve">
     <value>+{0} mai mulți utilizatori.</value>
   </data>
-    <data name="info_boosters_error" xml:space="preserve">
+  <data name="info_boosters_error" xml:space="preserve">
     <value>Nu s-au găsit boostere.</value>
   </data>
-    <data name="info_string_1" xml:space="preserve">
+  <data name="info_string_1" xml:space="preserve">
     <value>Membrii în Total</value>
   </data>
-    <data name="info_string_2" xml:space="preserve">
+  <data name="info_string_2" xml:space="preserve">
     <value>Oamenii</value>
   </data>
-    <data name="info_string_3" xml:space="preserve">
+  <data name="info_string_3" xml:space="preserve">
     <value>Boți</value>
   </data>
-    <data name="info_string_4" xml:space="preserve">
+  <data name="info_string_4" xml:space="preserve">
     <value>Online</value>
   </data>
-    <data name="info_string_5" xml:space="preserve">
+  <data name="info_string_5" xml:space="preserve">
     <value>Offline</value>
   </data>
-    <data name="info_string_6" xml:space="preserve">
+  <data name="info_string_6" xml:space="preserve">
     <value>Accesarea Interzisă</value>
   </data>
-    <data name="info_string_7" xml:space="preserve">
+  <data name="info_string_7" xml:space="preserve">
     <value>Proprietar</value>
   </data>
-    <data name="info_string_8" xml:space="preserve">
+  <data name="info_string_8" xml:space="preserve">
     <value>Membri</value>
   </data>
-    <data name="info_string_9" xml:space="preserve">
+  <data name="info_string_9" xml:space="preserve">
     <value>Regiune</value>
   </data>
-    <data name="info_string_10" xml:space="preserve">
+  <data name="info_string_10" xml:space="preserve">
     <value>Roluri</value>
   </data>
-    <data name="info_string_11" xml:space="preserve">
+  <data name="info_string_11" xml:space="preserve">
     <value>Canale</value>
   </data>
-    <data name="info_string_12" xml:space="preserve">
+  <data name="info_string_12" xml:space="preserve">
     <value>Categorii</value>
   </data>
-    <data name="info_string_13" xml:space="preserve">
+  <data name="info_string_13" xml:space="preserve">
     <value>Canalul Departe de Tastatură</value>
   </data>
-    <data name="info_string_14" xml:space="preserve">
+  <data name="info_string_14" xml:space="preserve">
     <value>Fără Canal pentru Departe de Tastatură</value>
   </data>
-    <data name="info_string_15" xml:space="preserve">
+  <data name="info_string_15" xml:space="preserve">
     <value>Emoticonuri în Total</value>
   </data>
-    <data name="info_string_16" xml:space="preserve">
+  <data name="info_string_16" xml:space="preserve">
     <value>Listă de Roluri</value>
   </data>
-    <data name="info_string_17" xml:space="preserve">
+  <data name="info_string_17" xml:space="preserve">
     <value>Nici unul</value>
   </data>
-    <data name="info_string_18" xml:space="preserve">
+  <data name="info_string_18" xml:space="preserve">
     <value>Caracteristici VIP</value>
   </data>
-    <data name="info_string_19" xml:space="preserve">
+  <data name="info_string_19" xml:space="preserve">
     <value>Avatarul lui {0}</value>
   </data>
-    <data name="info_string_20" xml:space="preserve">
+  <data name="info_string_20" xml:space="preserve">
     <value>Informația utilizatorului {0}</value>
   </data>
-    <data name="info_string_21" xml:space="preserve">
+  <data name="info_string_21" xml:space="preserve">
     <value>Statut</value>
   </data>
-    <data name="info_string_22" xml:space="preserve">
+  <data name="info_string_22" xml:space="preserve">
     <value>Activitate</value>
   </data>
-    <data name="info_string_23" xml:space="preserve">
-    <value>Pseudonim</value>
+  <data name="info_string_23" xml:space="preserve">
+    <value>Poreclă</value>
   </data>
-    <data name="info_string_24" xml:space="preserve">
+  <data name="info_string_24" xml:space="preserve">
     <value>Discriminator</value>
   </data>
-    <data name="info_string_25" xml:space="preserve">
+  <data name="info_string_25" xml:space="preserve">
     <value>Avatar</value>
   </data>
-    <data name="info_string_26" xml:space="preserve">
+  <data name="info_string_26" xml:space="preserve">
     <value>Alăturat corporației</value>
   </data>
-    <data name="info_string_27" xml:space="preserve">
+  <data name="info_string_27" xml:space="preserve">
     <value>Bot</value>
   </data>
-    <data name="info_string_28" xml:space="preserve">
+  <data name="info_string_28" xml:space="preserve">
     <value>Om</value>
   </data>
-    <data name="info_string_29" xml:space="preserve">
+  <data name="info_string_29" xml:space="preserve">
     <value>Bot sau Om?</value>
   </data>
-    <data name="info_string_30" xml:space="preserve">
+  <data name="info_string_30" xml:space="preserve">
     <value>Conduce?</value>
   </data>
-    <data name="info_string_31" xml:space="preserve">
+  <data name="info_string_31" xml:space="preserve">
     <value>Este Muțit?</value>
   </data>
-    <data name="info_string_32" xml:space="preserve">
+  <data name="info_string_32" xml:space="preserve">
     <value>Este Surzit?</value>
   </data>
-    <data name="info_string_33" xml:space="preserve">
+  <data name="info_string_33" xml:space="preserve">
     <value>Da</value>
   </data>
-    <data name="info_string_34" xml:space="preserve">
+  <data name="info_string_34" xml:space="preserve">
     <value>Nu</value>
   </data>
-    <data name="info_string_35" xml:space="preserve">
+  <data name="info_string_35" xml:space="preserve">
     <value>Recunoașteri</value>
   </data>
-    <data name="info_string_36" xml:space="preserve">
+  <data name="info_string_36" xml:space="preserve">
     <value>Invitatorul</value>
   </data>
-    <data name="info_string_37" xml:space="preserve">
+  <data name="info_string_37" xml:space="preserve">
     <value>Canal</value>
   </data>
-    <data name="info_string_38" xml:space="preserve">
+  <data name="info_string_38" xml:space="preserve">
     <value>Numărător de Membrii</value>
   </data>
-    <data name="info_string_39" xml:space="preserve">
+  <data name="info_string_39" xml:space="preserve">
     <value>Utilizări</value>
   </data>
-    <data name="info_string_40" xml:space="preserve">
+  <data name="info_string_40" xml:space="preserve">
     <value>Data Creării</value>
   </data>
-    <data name="info_string_41" xml:space="preserve">
+  <data name="info_string_41" xml:space="preserve">
     <value>Este Temporar?</value>
   </data>
-    <data name="info_string_42" xml:space="preserve">
+  <data name="info_string_42" xml:space="preserve">
     <value>Vârsta Maximă</value>
   </data>
-    <data name="info_string_43" xml:space="preserve">
+  <data name="info_string_43" xml:space="preserve">
     <value>Nu Expiră</value>
   </data>
-    <data name="info_string_44" xml:space="preserve">
+  <data name="info_string_44" xml:space="preserve">
     <value>Canale în Total</value>
   </data>
-    <data name="info_string_45" xml:space="preserve">
+  <data name="info_string_45" xml:space="preserve">
     <value>Emoticonuri în Total</value>
   </data>
-    <data name="info_string_46" xml:space="preserve">
+  <data name="info_string_46" xml:space="preserve">
     <value>Solicitat de {0}#{1}</value>
   </data>
-    <data name="info_string_47" xml:space="preserve">
+  <data name="info_string_47" xml:space="preserve">
     <value>Lista celor Interziși:</value>
   </data>
-    <data name="info_string_48" xml:space="preserve">
+  <data name="info_string_48" xml:space="preserve">
     <value>Fără Permisiune</value>
   </data>
-    <data name="info_string_49" xml:space="preserve">
+  <data name="info_string_49" xml:space="preserve">
     <value>Poziție pentru Alăturare</value>
   </data>
-    <data name="info_string_50" xml:space="preserve">
+  <data name="info_string_50" xml:space="preserve">
     <value>Roluri în Total</value>
   </data>
-    <data name="info_string_51" xml:space="preserve">
+  <data name="info_string_51" xml:space="preserve">
     <value>Avertismente</value>
   </data>
-    <data name="info_string_52" xml:space="preserve">
+  <data name="info_string_52" xml:space="preserve">
     <value>{0} avertizări{1} din {2} corporații{3}.</value>
   </data>
-    <data name="info_string_53" xml:space="preserve">
+  <data name="info_string_53" xml:space="preserve">
     <value>Informații despre Contact:</value>
   </data>
-    <data name="info_string_54" xml:space="preserve">
+  <data name="info_string_54" xml:space="preserve">
     <value>Contribuitori:</value>
   </data>
-    <data name="info_string_55" xml:space="preserve">
+  <data name="info_string_55" xml:space="preserve">
     <value>{0} / {1} ({2} Sloturi Rămase)</value>
   </data>
-    <data name="info_string_56" xml:space="preserve">
+  <data name="info_string_56" xml:space="preserve">
     <value>Nume de Utilizator:</value>
   </data>
-    <data name="info_string_57" xml:space="preserve">
+  <data name="info_string_57" xml:space="preserve">
     <value>Motiv:</value>
   </data>
-    <data name="info_string_58" xml:space="preserve">
+  <data name="info_string_58" xml:space="preserve">
     <value>Fără Motiv</value>
   </data>
-    <data name="info_string_59" xml:space="preserve">
+  <data name="info_string_59" xml:space="preserve">
     <value>Moderator:</value>
   </data>
-    <data name="info_string_60" xml:space="preserve">
+  <data name="info_string_60" xml:space="preserve">
     <value>Utilizator Avertizat:</value>
   </data>
-    <data name="info_string_61" xml:space="preserve">
+  <data name="info_string_61" xml:space="preserve">
     <value>Avertismente în Total:</value>
   </data>
-    <data name="info_string_62" xml:space="preserve">
+  <data name="info_string_62" xml:space="preserve">
     <value>Apăsați-mă</value>
   </data>
-    <data name="info_string_63" xml:space="preserve">
+  <data name="info_string_63" xml:space="preserve">
     <value>Dați Clic Pentru Mai Multe Info</value>
   </data>
-    <data name="info_string_64" xml:space="preserve">
+  <data name="info_string_64" xml:space="preserve">
     <value>Tip:</value>
   </data>
-    <data name="info_string_65" xml:space="preserve">
+  <data name="info_string_65" xml:space="preserve">
     <value>Timp:</value>
   </data>
-    <data name="info_string_66" xml:space="preserve">
+  <data name="info_string_66" xml:space="preserve">
     <value>Avertismente în Total:</value>
   </data>
-    <data name="info_string_67" xml:space="preserve">
+  <data name="info_string_67" xml:space="preserve">
     <value>Necunoscut</value>
   </data>
-    <data name="info_string_68" xml:space="preserve">
+  <data name="info_string_68" xml:space="preserve">
     <value>Eroare</value>
   </data>
-    <data name="info_string_72" xml:space="preserve">
+  <data name="info_string_72" xml:space="preserve">
     <value>```{0} text, {1} voice```</value>
   </data>
-    <data name="info_string_73" xml:space="preserve">
+  <data name="info_string_73" xml:space="preserve">
     <value>````Proprietarul Serverului```</value>
   </data>
-    <data name="info_string_74" xml:space="preserve">
+  <data name="info_string_74" xml:space="preserve">
     <value>````Administratorul Serverului```</value>
   </data>
-    <data name="info_string_75" xml:space="preserve">
+  <data name="info_string_75" xml:space="preserve">
     <value>````Moderatorul Serverului```</value>
   </data>
-    <data name="info_string_76" xml:space="preserve">
+  <data name="info_string_76" xml:space="preserve">
     <value>You can also donate to show your support!</value>
   </data>
-    <data name="info_string_77" xml:space="preserve">
+  <data name="info_string_77" xml:space="preserve">
     <value>{0} Boost-uri</value>
   </data>
-    <data name="weather_coordinates" xml:space="preserve">
+  <data name="weather_coordinates" xml:space="preserve">
     <value>Coordonate</value>
   </data>
-    <data name="weather_weather" xml:space="preserve">
+  <data name="weather_weather" xml:space="preserve">
     <value>Vremea</value>
   </data>
-    <data name="weather_description" xml:space="preserve">
+  <data name="weather_description" xml:space="preserve">
     <value>Descriere</value>
   </data>
-    <data name="weather_country" xml:space="preserve">
+  <data name="weather_country" xml:space="preserve">
     <value>Ţară</value>
   </data>
-    <data name="weather_clouds" xml:space="preserve">
+  <data name="weather_clouds" xml:space="preserve">
     <value>Nori</value>
   </data>
-    <data name="weather_wind_speed" xml:space="preserve">
+  <data name="weather_wind_speed" xml:space="preserve">
     <value>Viteza Vântului</value>
   </data>
-    <data name="weather_wind_direction" xml:space="preserve">
+  <data name="weather_wind_direction" xml:space="preserve">
     <value>Direcția Vântului</value>
   </data>
-    <data name="weather_sun_rise" xml:space="preserve">
+  <data name="weather_sun_rise" xml:space="preserve">
     <value>Răsăritul Soarelui</value>
   </data>
-    <data name="weather_sun_set" xml:space="preserve">
+  <data name="weather_sun_set" xml:space="preserve">
     <value>Apusul Soarelui</value>
   </data>
-    <data name="emoji_string_name" xml:space="preserve">
+  <data name="emoji_string_name" xml:space="preserve">
     <value>Nume</value>
   </data>
-    <data name="emoji_string_uploaded" xml:space="preserve">
+  <data name="emoji_string_uploaded" xml:space="preserve">
     <value>Încărcat De:</value>
   </data>
-    <data name="emoji_string_animated" xml:space="preserve">
+  <data name="emoji_string_animated" xml:space="preserve">
     <value>EsteAnimat?</value>
   </data>
-    <data name="emoji_string_url" xml:space="preserve">
+  <data name="emoji_string_url" xml:space="preserve">
     <value>URL:</value>
   </data>
-    <data name="emoji_missing_id" xml:space="preserve">
+  <data name="emoji_missing_id" xml:space="preserve">
     <value>Vă rugăm să introduceți ID-ul unui emoji.</value>
   </data>
-    <data name="emoji_invalid_name" xml:space="preserve">
+  <data name="emoji_invalid_name" xml:space="preserve">
     <value>Te rog introdu un nume valid.</value>
   </data>
-    <data name="emoji_success" xml:space="preserve">
+  <data name="emoji_success" xml:space="preserve">
     <value>Numele emoji-ului actualizat cu succes la: `{0}`</value>
   </data>
-    <data name="roleinfo" xml:space="preserve">
+  <data name="roleinfo" xml:space="preserve">
     <value>{0} Informații despre Rol</value>
   </data>
-    <data name="roleinfo_color" xml:space="preserve">
+  <data name="roleinfo_color" xml:space="preserve">
     <value>Culoare</value>
   </data>
-    <data name="roleinfo_created_at" xml:space="preserve">
+  <data name="roleinfo_created_at" xml:space="preserve">
     <value>Creat Pe</value>
   </data>
-    <data name="roleinfo_position" xml:space="preserve">
+  <data name="roleinfo_position" xml:space="preserve">
     <value>Poziţia</value>
   </data>
-    <data name="roleinfo_ishoisted" xml:space="preserve">
+  <data name="roleinfo_ishoisted" xml:space="preserve">
     <value>EstePromovat?</value>
   </data>
-    <data name="roleinfo_ismanaged" xml:space="preserve">
+  <data name="roleinfo_ismanaged" xml:space="preserve">
     <value>IsManaged?</value>
   </data>
-    <data name="roleinfo_ismentionable" xml:space="preserve">
+  <data name="roleinfo_ismentionable" xml:space="preserve">
     <value>EsteMenționabil?</value>
   </data>
-    <data name="roleinfo_members" xml:space="preserve">
+  <data name="roleinfo_members" xml:space="preserve">
     <value>Membrii [{0}]</value>
   </data>
-    <data name="misc_anime_start" xml:space="preserve">
+  <data name="misc_anime_start" xml:space="preserve">
     <value>Data Începerii:</value>
   </data>
-    <data name="misc_anime_end" xml:space="preserve">
+  <data name="misc_anime_end" xml:space="preserve">
     <value>Data Sfârșirii:</value>
   </data>
-    <data name="misc_anime_status" xml:space="preserve">
+  <data name="misc_anime_status" xml:space="preserve">
     <value>Statut:</value>
   </data>
-    <data name="misc_anime_status_airing" xml:space="preserve">
+  <data name="misc_anime_status_airing" xml:space="preserve">
     <value>Lansare</value>
   </data>
-    <data name="misc_anime_status_ended" xml:space="preserve">
+  <data name="misc_anime_status_ended" xml:space="preserve">
     <value>Terminat</value>
   </data>
-    <data name="misc_anime_episodes" xml:space="preserve">
+  <data name="misc_anime_episodes" xml:space="preserve">
     <value>Episoade:</value>
   </data>
-    <data name="misc_anime_rating" xml:space="preserve">
+  <data name="misc_anime_rating" xml:space="preserve">
     <value>Clasificare:</value>
   </data>
-    <data name="misc_anime_synopsis" xml:space="preserve">
+  <data name="misc_anime_synopsis" xml:space="preserve">
     <value>Synopsis:</value>
   </data>
-    <data name="misc_anime_footer" xml:space="preserve">
+  <data name="misc_anime_footer" xml:space="preserve">
     <value>Anime ID: {0} • Score: {1}</value>
   </data>
-    <data name="misc_manga_status_ip" xml:space="preserve">
+  <data name="misc_manga_status_ip" xml:space="preserve">
     <value>În Desfășurare</value>
   </data>
-    <data name="misc_manga_status_completed" xml:space="preserve">
+  <data name="misc_manga_status_completed" xml:space="preserve">
     <value>Finalizat</value>
   </data>
-    <data name="misc_manga_volumes" xml:space="preserve">
+  <data name="misc_manga_volumes" xml:space="preserve">
     <value>Volume:</value>
   </data>
-    <data name="misc_manga_chapters" xml:space="preserve">
+  <data name="misc_manga_chapters" xml:space="preserve">
     <value>Capitole:</value>
   </data>
-    <data name="misc_manga_footer" xml:space="preserve">
+  <data name="misc_manga_footer" xml:space="preserve">
     <value>Manga ID: {0} • Score: {1}</value>
   </data>
     <data name="misc_bgg_release" xml:space="preserve">
@@ -1102,31 +1101,31 @@ Note: Un mesaj va fi trimis la finalizare.</value>
     <data name="misc_convert_result" xml:space="preserve">
     <value>Rezultat:</value>
   </data>
-    <data name="misc_convert_rate" xml:space="preserve">
+  <data name="misc_convert_rate" xml:space="preserve">
     <value>Rata de Schimb:</value>
   </data>
-    <data name="misc_convert_usage" xml:space="preserve">
+  <data name="misc_convert_usage" xml:space="preserve">
     <value>Usage: `!convert &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
   </data>
-    <data name="misc_fact" xml:space="preserve">
+  <data name="misc_fact" xml:space="preserve">
     <value>Informație Aleatorie:</value>
   </data>
-    <data name="misc_fact_failed" xml:space="preserve">
+  <data name="misc_fact_failed" xml:space="preserve">
     <value>Failed to get a fact.</value>
   </data>
-    <data name="misc_fact_invalid" xml:space="preserve">
+  <data name="misc_fact_invalid" xml:space="preserve">
     <value>Invalid fact type. **Valid Types:** Dog, Cat, Panda, Fox, Bird, Koala, Kangaroo, Raccoon, Elephant, Giraffe, Whale</value>
   </data>
-    <data name="misc_pizza" xml:space="preserve">
+  <data name="misc_pizza" xml:space="preserve">
     <value>Poftim: {0}</value>
   </data>
-    <data name="misc_reminder_error_1" xml:space="preserve">
+  <data name="misc_reminder_error_1" xml:space="preserve">
     <value>Trebuie să introduceţi un şir de caractere pentru a vă reaminti de el.</value>
   </data>
-    <data name="misc_reminder_error_2" xml:space="preserve">
+  <data name="misc_reminder_error_2" xml:space="preserve">
     <value>Memento-urile trebuie să aibă mai puțin de 200 de caractere.</value>
   </data>
-    <data name="misc_reminder_error_3" xml:space="preserve">
+  <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Memento-urile trebuie să fie la mai puțin de o lună de acum.</value>
   </data>
     <data name="misc_reminder_success" xml:space="preserve">
@@ -1135,1162 +1134,1162 @@ Note: Un mesaj va fi trimis la finalizare.</value>
     <data name="misc_covid_for_global" xml:space="preserve">
     <value>Statistici COVID-19 GLOBALE</value>
   </data>
-    <data name="misc_covid_for_country" xml:space="preserve">
+  <data name="misc_covid_for_country" xml:space="preserve">
     <value>Statistici COVID-19 pentru {0}</value>
   </data>
-    <data name="misc_covid_cases" xml:space="preserve">
+  <data name="misc_covid_cases" xml:space="preserve">
     <value>Cazuri</value>
   </data>
-    <data name="misc_covid_deaths" xml:space="preserve">
+  <data name="misc_covid_deaths" xml:space="preserve">
     <value>Decese</value>
   </data>
-    <data name="misc_covid_recovered" xml:space="preserve">
+  <data name="misc_covid_recovered" xml:space="preserve">
     <value>Recuperări</value>
   </data>
-    <data name="misc_covid_active" xml:space="preserve">
+  <data name="misc_covid_active" xml:space="preserve">
     <value>Activ</value>
   </data>
-    <data name="misc_covid_cases_today" xml:space="preserve">
+  <data name="misc_covid_cases_today" xml:space="preserve">
     <value>Cazuri de Azi</value>
   </data>
-    <data name="misc_covid_deaths_today" xml:space="preserve">
+  <data name="misc_covid_deaths_today" xml:space="preserve">
     <value>Decese de Azi</value>
   </data>
-    <data name="misc_covid_advice" xml:space="preserve">
+  <data name="misc_covid_advice" xml:space="preserve">
     <value>Recomandări Publice</value>
   </data>
-    <data name="misc_imdb_rating" xml:space="preserve">
+  <data name="misc_imdb_rating" xml:space="preserve">
     <value>Evaluare de la IMDb:</value>
   </data>
-    <data name="misc_imdb_language" xml:space="preserve">
+  <data name="misc_imdb_language" xml:space="preserve">
     <value>Limbă:</value>
   </data>
-    <data name="misc_imdb_content_rating" xml:space="preserve">
+  <data name="misc_imdb_content_rating" xml:space="preserve">
     <value>Evaluarea Conținutului:</value>
   </data>
-    <data name="misc_imdb_countries" xml:space="preserve">
+  <data name="misc_imdb_countries" xml:space="preserve">
     <value>Ţări:</value>
   </data>
-    <data name="misc_imdb_companies" xml:space="preserve">
+  <data name="misc_imdb_companies" xml:space="preserve">
     <value>Companii:</value>
   </data>
-    <data name="misc_imdb_genres" xml:space="preserve">
+  <data name="misc_imdb_genres" xml:space="preserve">
     <value>Genuri:</value>
   </data>
-    <data name="misc_imdb_stars" xml:space="preserve">
+  <data name="misc_imdb_stars" xml:space="preserve">
     <value>Stele:</value>
   </data>
-    <data name="misc_imdb_writers" xml:space="preserve">
+  <data name="misc_imdb_writers" xml:space="preserve">
     <value>Scriitori:</value>
   </data>
-    <data name="misc_imdb_directors" xml:space="preserve">
+  <data name="misc_imdb_directors" xml:space="preserve">
     <value>Directori:</value>
   </data>
-    <data name="misc_imdb_awards" xml:space="preserve">
+  <data name="misc_imdb_awards" xml:space="preserve">
     <value>Premii:</value>
   </data>
-    <data name="misc_imdb_metacritic" xml:space="preserve">
+  <data name="misc_imdb_metacritic" xml:space="preserve">
     <value>Evaluare de la Metacritic:</value>
   </data>
-    <data name="misc_imdb_produced" xml:space="preserve">
+  <data name="misc_imdb_produced" xml:space="preserve">
     <value>Produs:</value>
   </data>
-    <data name="misc_imdb_name_birth" xml:space="preserve">
+  <data name="misc_imdb_name_birth" xml:space="preserve">
     <value>Data Nașterii:</value>
   </data>
-    <data name="misc_imdb_name_death" xml:space="preserve">
+  <data name="misc_imdb_name_death" xml:space="preserve">
     <value>Data Morții:</value>
   </data>
-    <data name="misc_imdb_name_roles" xml:space="preserve">
+  <data name="misc_imdb_name_roles" xml:space="preserve">
     <value>Rol(uri):</value>
   </data>
-    <data name="misc_imdb_name_known" xml:space="preserve">
+  <data name="misc_imdb_name_known" xml:space="preserve">
     <value>Cunoscut Pentru:</value>
   </data>
-    <data name="misc_imdb_name_movies" xml:space="preserve">
+  <data name="misc_imdb_name_movies" xml:space="preserve">
     <value>Filme:</value>
   </data>
-    <data name="misc_pokemon_failed" xml:space="preserve">
+  <data name="misc_pokemon_failed" xml:space="preserve">
     <value>Ne pare rău, nu am putut găsi acel Pokemon.</value>
   </data>
-    <data name="misc_pokemon_format_1" xml:space="preserve">
+  <data name="misc_pokemon_format_1" xml:space="preserve">
     <value>HP: {0}  - Viteza: {1}
 </value>
   </data>
-    <data name="misc_pokemon_format_2" xml:space="preserve">
+  <data name="misc_pokemon_format_2" xml:space="preserve">
     <value>Atac: {0}  - Apărare: {1}
 </value>
   </data>
-    <data name="misc_pokemon_format_3" xml:space="preserve">
-    <value>Atac Sp: {0}  - Apărare Sp: {1}
+  <data name="misc_pokemon_format_3" xml:space="preserve">
+      <value>Atac Sp: {0}  - Apărare Sp: {1}
 </value>
   </data>
-    <data name="misc_pokemon_format_4" xml:space="preserve">
+  <data name="misc_pokemon_format_4" xml:space="preserve">
     <value>Total: {0}</value>
   </data>
-    <data name="misc_pokemon_species" xml:space="preserve">
+  <data name="misc_pokemon_species" xml:space="preserve">
     <value>Specii:</value>
   </data>
-    <data name="misc_pokemon_abilities" xml:space="preserve">
+  <data name="misc_pokemon_abilities" xml:space="preserve">
     <value>Abilități:</value>
   </data>
-    <data name="misc_pokemon_height" xml:space="preserve">
+  <data name="misc_pokemon_height" xml:space="preserve">
     <value>Înălțime:</value>
   </data>
-    <data name="misc_pokemon_weight" xml:space="preserve">
+  <data name="misc_pokemon_weight" xml:space="preserve">
     <value>Greutate:</value>
   </data>
-    <data name="misc_pokemon_gender" xml:space="preserve">
+  <data name="misc_pokemon_gender" xml:space="preserve">
     <value>Gen:</value>
   </data>
-    <data name="misc_pokemon_base_exp" xml:space="preserve">
+  <data name="misc_pokemon_base_exp" xml:space="preserve">
     <value>Baza Exp:</value>
   </data>
-    <data name="misc_pokemon_egg_groups" xml:space="preserve">
+  <data name="misc_pokemon_egg_groups" xml:space="preserve">
     <value>Grupuri de Ou:</value>
   </data>
-    <data name="misc_pokemon_evolution" xml:space="preserve">
+  <data name="misc_pokemon_evolution" xml:space="preserve">
     <value>Evolution Line: (Stage: {0})</value>
   </data>
-    <data name="misc_pokemon_stats" xml:space="preserve">
+  <data name="misc_pokemon_stats" xml:space="preserve">
     <value>Statistici:</value>
   </data>
-    <data name="misc_trailer" xml:space="preserve">
+  <data name="misc_trailer" xml:space="preserve">
     <value>{0} Trailer: &lt;{1}&gt;</value>
   </data>
-    <data name="music_error_voice_channel_1" xml:space="preserve">
+  <data name="music_error_voice_channel_1" xml:space="preserve">
     <value>Trebuie să fiți într-un canal pentru voce.</value>
   </data>
-    <data name="music_error_voice_channel_2" xml:space="preserve">
+  <data name="music_error_voice_channel_2" xml:space="preserve">
     <value>Nu pot intra în canalul pentru voce.</value>
   </data>
-    <data name="music_error_voice_channel_3" xml:space="preserve">
+  <data name="music_error_voice_channel_3" xml:space="preserve">
     <value>Nu pot vorbi în acel canal vocal.</value>
   </data>
-    <data name="music_error_voice_channel_4" xml:space="preserve">
+  <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>Sunt deja în acel canal.</value>
   </data>
-    <data name="music_error_voice_channel_5" xml:space="preserve">
+  <data name="music_error_voice_channel_5" xml:space="preserve">
     <value>Trebuie să fiu într-un canal vocal. Folosește `!join` ca să mă chemi.</value>
   </data>
-    <data name="music_error_voice_channel_6" xml:space="preserve">
+  <data name="music_error_voice_channel_6" xml:space="preserve">
     <value>Trebuie să fii pe același canal cu botul. Încercați să utilizați `!join` sau `!move`</value>
   </data>
-    <data name="music_error_player" xml:space="preserve">
+  <data name="music_error_player" xml:space="preserve">
     <value>Player nu există, vă rugăm să tastați `!join` din nou.</value>
   </data>
-    <data name="music_error_play" xml:space="preserve">
+  <data name="music_error_play" xml:space="preserve">
     <value>Eroare la încărcarea piesei: ```{0}```</value>
   </data>
-    <data name="music_error_timespan" xml:space="preserve">
+  <data name="music_error_timespan" xml:space="preserve">
     <value>Timespan of queue is too long. Please clear songs from the queue before adding more.</value>
   </data>
-    <data name="music_error_lavalink" xml:space="preserve">
+  <data name="music_error_lavalink" xml:space="preserve">
     <value>LavaLink instance crashed. Please report in our </value>
   </data>
-    <data name="music_join" xml:space="preserve">
+  <data name="music_join" xml:space="preserve">
     <value>M-am alăturat: `{0}`.</value>
   </data>
-    <data name="music_disconnect" xml:space="preserve">
+  <data name="music_disconnect" xml:space="preserve">
     <value>Deconectat cu succes!</value>
   </data>
-    <data name="music_disconnect_error_2" xml:space="preserve">
+  <data name="music_disconnect_error_2" xml:space="preserve">
     <value>Trebuie să fie singurul utilizator în canalul de voce sau trebuie să aveți permisiuni de moderator pentru a deconecta Cakey Bot în cazul în care o melodie este cântată.</value>
   </data>
-    <data name="music_move" xml:space="preserve">
+  <data name="music_move" xml:space="preserve">
     <value>Mutat din `{0}` la `{1}`.</value>
   </data>
-    <data name="music_move_error" xml:space="preserve">
+  <data name="music_move_error" xml:space="preserve">
     <value>Nu se poate muta Cakey Bot de pe un canal în timp ce piesa este cântată.</value>
   </data>
-    <data name="music_jump" xml:space="preserve">
+  <data name="music_jump" xml:space="preserve">
     <value>A sărit cu succes la:
 [{0}]({1}) _{2}/{3}_</value>
   </data>
-    <data name="music_duplicates" xml:space="preserve">
+  <data name="music_duplicates" xml:space="preserve">
     <value>Eliminat cu succes piese dublate din coadă. Coadă nouă:
 {0}</value>
   </data>
-    <data name="music_cleanup" xml:space="preserve">
+  <data name="music_cleanup" xml:space="preserve">
     <value>Curățat cu succes lista. Lista nouă:
 {0}</value>
   </data>
-    <data name="music_shuffle" xml:space="preserve">
+  <data name="music_shuffle" xml:space="preserve">
     <value>Amestecat cu succes lista.</value>
   </data>
-    <data name="music_loop" xml:space="preserve">
+  <data name="music_loop" xml:space="preserve">
     <value>Repetarea melodiei setat pe: `{0}`.</value>
   </data>
-    <data name="music_looping" xml:space="preserve">
+  <data name="music_looping" xml:space="preserve">
     <value>repetare</value>
   </data>
-    <data name="music_looping_disabled" xml:space="preserve">
+  <data name="music_looping_disabled" xml:space="preserve">
     <value>fără repetare</value>
   </data>
-    <data name="music_bb" xml:space="preserve">
+  <data name="music_bb" xml:space="preserve">
     <value>Starea impulsului basului melodiei setată pe: `{0}`.</value>
   </data>
-    <data name="music_boosted" xml:space="preserve">
+  <data name="music_boosted" xml:space="preserve">
     <value>amplificat</value>
   </data>
-    <data name="music_boosted_disabled" xml:space="preserve">
+  <data name="music_boosted_disabled" xml:space="preserve">
     <value>nu este amplificat</value>
   </data>
-    <data name="music_remove" xml:space="preserve">
+  <data name="music_remove" xml:space="preserve">
     <value>Eliminat cu succes `{0}` - `{1}` de la listă.</value>
   </data>
-    <data name="music_restart_1" xml:space="preserve">
+  <data name="music_restart_1" xml:space="preserve">
     <value>O melodie trebuie să fie redată pentru a reporni.</value>
   </data>
-    <data name="music_restart_2" xml:space="preserve">
+  <data name="music_restart_2" xml:space="preserve">
     <value>Am repornit cântecul de la început.</value>
   </data>
-    <data name="music_seek_1" xml:space="preserve">
+  <data name="music_seek_1" xml:space="preserve">
     <value>Un cântec trebuie să fie redat pentru a modifica poziția lui.</value>
   </data>
-    <data name="music_seek_3" xml:space="preserve">
+  <data name="music_seek_3" xml:space="preserve">
     <value>Am căutat până la timpul: `{0}`</value>
   </data>
-    <data name="music_ff_1" xml:space="preserve">
+  <data name="music_ff_1" xml:space="preserve">
     <value>Un cântec trebuie să fie redat pentru a derula înainte.</value>
   </data>
-    <data name="music_ff_2" xml:space="preserve">
+  <data name="music_ff_2" xml:space="preserve">
     <value>Am dat înainte la: `{0}` ({1} înainte)</value>
   </data>
-    <data name="music_rewind_1" xml:space="preserve">
+  <data name="music_rewind_1" xml:space="preserve">
     <value>Un cântec trebuie să fie cântat pentru a derula înapoi.</value>
   </data>
-    <data name="music_rewind_2" xml:space="preserve">
+  <data name="music_rewind_2" xml:space="preserve">
     <value>Am redat la: `{0}`({1} în urmă)</value>
   </data>
-    <data name="music_pause_1" xml:space="preserve">
+  <data name="music_pause_1" xml:space="preserve">
     <value>Un cântec trebuie să fie redat pentru a o întrerupe.</value>
   </data>
-    <data name="music_pause_2" xml:space="preserve">
+  <data name="music_pause_2" xml:space="preserve">
     <value>Cântecul este deja pe pauză. Puteți relua cu `!resume`</value>
   </data>
-    <data name="music_pause_3" xml:space="preserve">
+  <data name="music_pause_3" xml:space="preserve">
     <value>Melodia a fost pus pe pauza cu succes.</value>
   </data>
-    <data name="music_resume_1" xml:space="preserve">
+  <data name="music_resume_1" xml:space="preserve">
     <value>A reluat cu succes melodia.</value>
   </data>
-    <data name="music_resume_2" xml:space="preserve">
+  <data name="music_resume_2" xml:space="preserve">
     <value>Cântecul nu este pe pauză. Puteți întrerupe melodia cu `!pause`</value>
   </data>
-    <data name="music_lyrics_1" xml:space="preserve">
+  <data name="music_lyrics_1" xml:space="preserve">
     <value>Trebuie să tastați numele melodiei pentru a căuta. (sau au o melodie în curs de redare)</value>
   </data>
-    <data name="music_lyrics_2" xml:space="preserve">
+  <data name="music_lyrics_2" xml:space="preserve">
     <value>Versuri Pentru {0}: 
 
 {1}</value>
   </data>
-    <data name="music_lyrics_3" xml:space="preserve">
+  <data name="music_lyrics_3" xml:space="preserve">
     <value>Versuirile nu au fost găsite.</value>
   </data>
-    <data name="music_volume_1" xml:space="preserve">
+  <data name="music_volume_1" xml:space="preserve">
     <value>O melodie trebuie să fie redată pentru a modifica volumul.</value>
   </data>
     <data name="music_volume_2" xml:space="preserve">
         <value>Volumul trebuie să fie cuprins între 0 și 100.</value>
     </data>
-    <data name="music_volume_3" xml:space="preserve">
+  <data name="music_volume_3" xml:space="preserve">
     <value>Volumul setat cu succes la: `{0}`</value>
   </data>
-    <data name="music_skip_1" xml:space="preserve">
-        <value>[{0}]({1}) [{2}] has been skipped.</value>
-    </data>
-    <data name="music_skip_2" xml:space="preserve">
-        <value>&lt;:CB_Skip:586387463119962142&gt; Skipped [{0}]({1}) [{2}]
+  <data name="music_skip_1" xml:space="preserve">
+    <value>[{0}]({1}) [{2}] has been skipped.</value>
+  </data>
+  <data name="music_skip_2" xml:space="preserve">
+    <value>&lt;:CB_Skip:586387463119962142&gt; Skipped [{0}]({1}) [{2}]
 &lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
-    </data>
-    <data name="music_skip_3" xml:space="preserve">
+  </data>
+  <data name="music_skip_3" xml:space="preserve">
     <value>Nici o melodie nu se joaca momentan.</value>
   </data>
-    <data name="music_skip_4" xml:space="preserve">
+  <data name="music_skip_4" xml:space="preserve">
     <value>Nu mai sunt elemente rămase în listă.</value>
   </data>
-    <data name="music_voteskip_2" xml:space="preserve">
+  <data name="music_voteskip_2" xml:space="preserve">
     <value>Ai votat să sari peste, încă {0} vot{1} necesare.</value>
   </data>
-    <data name="music_voteskip_3" xml:space="preserve">
+  <data name="music_voteskip_3" xml:space="preserve">
     <value>Ați votat deja pentru a sări, acesta a fost eliminată. Îl puteți adăuga din nou tastând `!skip` din nou. Încă {0} vot{1} necesare.</value>
   </data>
-    <data name="music_voteskip_4" xml:space="preserve">
+  <data name="music_voteskip_4" xml:space="preserve">
     <value>Votul este la {0}/{1}.</value>
   </data>
-    <data name="music_url" xml:space="preserve">
+  <data name="music_url" xml:space="preserve">
     <value>Trebuie să introduceți un nume de melodie sau un URL de YouTube.</value>
   </data>
-    <data name="music_no_results" xml:space="preserve">
+  <data name="music_no_results" xml:space="preserve">
     <value>Niciun rezultat găsit.</value>
   </data>
-    <data name="music_invalid_track_1" xml:space="preserve">
+  <data name="music_invalid_track_1" xml:space="preserve">
     <value>Track ID este în afara intervalului valid. Tastați `!queue` pentru a vedea track ID-uri valide.</value>
   </data>
-    <data name="music_invalid_track_2" xml:space="preserve">
+  <data name="music_invalid_track_2" xml:space="preserve">
     <value>ID-ul cozii de urmărire trebuie să fie validă.</value>
   </data>
-    <data name="music_limit_queue" xml:space="preserve">
+  <data name="music_limit_queue" xml:space="preserve">
     <value>Lista poate rezista doar până la 100 de melodii, vă rugăm să eliminați unele înainte de a adăuga mai multe.</value>
   </data>
-    <data name="music_limit_playlist" xml:space="preserve">
+  <data name="music_limit_playlist" xml:space="preserve">
     <value>Playlist-urile pot avea doar până la 50 de melodii, alegeți o listă de redare mai mică.</value>
   </data>
-    <data name="music_add_1" xml:space="preserve">
+  <data name="music_add_1" xml:space="preserve">
     <value>Adăugat `{0}` melodii la listă.</value>
   </data>
-    <data name="music_add_2" xml:space="preserve">
-        <value>[{0}]({1}) [{2}] has been added to the queue.</value>
-    </data>
-    <data name="music_now_playing_1" xml:space="preserve">
-        <value>Now playing: [{0}]({1}) [{2}]</value>
-    </data>
-    <data name="music_volume" xml:space="preserve">
+  <data name="music_add_2" xml:space="preserve">
+    <value>[{0}]({1}) [{2}] has been added to the queue.</value>
+  </data>
+  <data name="music_now_playing_1" xml:space="preserve">
+    <value>Now playing: [{0}]({1}) [{2}]</value>
+  </data>
+  <data name="music_volume" xml:space="preserve">
     <value>Volum: `{0}`</value>
   </data>
-    <data name="music_livestream" xml:space="preserve">
+  <data name="music_livestream" xml:space="preserve">
     <value>Comanda este dezactivată în timp ce se redă un flux live.</value>
   </data>
-    <data name="music_playlist_list" xml:space="preserve">
+  <data name="music_playlist_list" xml:space="preserve">
     <value>Găsit {0} playlist-uri:
 ```{1}```</value>
   </data>
-    <data name="music_playlist_success_save" xml:space="preserve">
+  <data name="music_playlist_success_save" xml:space="preserve">
     <value>Salvat cu succes {0} melodii pentru playlist-ul `{1}` tău.</value>
   </data>
-    <data name="music_playlist_success_load" xml:space="preserve">
+  <data name="music_playlist_success_load" xml:space="preserve">
     <value>Încărcat cu succes {0} melodii pentru playlist-ul `{1}`.</value>
   </data>
-    <data name="music_playlist_success_delete" xml:space="preserve">
+  <data name="music_playlist_success_delete" xml:space="preserve">
     <value>Eliminat cu succes playlist-ul `{0}`.</value>
   </data>
-    <data name="music_locate" xml:space="preserve">
+  <data name="music_locate" xml:space="preserve">
     <value> Cakey Bot redă muzica în `{0}`.</value>
   </data>
-    <data name="music_cancel_1" xml:space="preserve">
+  <data name="music_cancel_1" xml:space="preserve">
     <value>Căutare a fost revocată cu succes.</value>
   </data>
-    <data name="music_cancel_2" xml:space="preserve">
-    <value>Tastați numărul pentru a selecta o melodie sau &quot;cancel&quot;/&quot;none&quot; pentru a anula selecția.</value>
+  <data name="music_cancel_2" xml:space="preserve">
+    <value>Tastați numărul pentru a selecta o melodie sau "cancel"/"none" pentru a anula selecția.</value>
   </data>
-    <data name="music_string_1" xml:space="preserve">
+  <data name="music_string_1" xml:space="preserve">
     <value>Poziția în Coadă:</value>
   </data>
-    <data name="music_string_2" xml:space="preserve">
+  <data name="music_string_2" xml:space="preserve">
     <value>Est. Timp Până La Redare:</value>
   </data>
-    <data name="music_string_3" xml:space="preserve">
+  <data name="music_string_3" xml:space="preserve">
     <value>Nu există piese în listă.</value>
   </data>
-    <data name="music_string_4" xml:space="preserve">
+  <data name="music_string_4" xml:space="preserve">
     <value>Încă +{0} melodii.</value>
   </data>
-    <data name="music_string_5" xml:space="preserve">
+  <data name="music_string_5" xml:space="preserve">
     <value>Trebuie să introduci o valoare de timp.</value>
   </data>
-    <data name="music_string_6" xml:space="preserve">
+  <data name="music_string_6" xml:space="preserve">
     <value>Oră invalidă.</value>
   </data>
-    <data name="music_string_7" xml:space="preserve">
+  <data name="music_string_7" xml:space="preserve">
     <value>Timpul este în afara lungimii videoclipului, încercați din nou.</value>
   </data>
-    <data name="music_string_8" xml:space="preserve">
+  <data name="music_string_8" xml:space="preserve">
     <value>Un cântec trebuie să fie redat în prezent pentru a utiliza această comandă, încercați `!play` în schimb.</value>
   </data>
-    <data name="music_string_9" xml:space="preserve">
+  <data name="music_string_9" xml:space="preserve">
     <value>Nu există nici-o listă chiar acum.</value>
   </data>
-    <data name="music_string_10" xml:space="preserve">
+  <data name="music_string_10" xml:space="preserve">
     <value>Autor</value>
   </data>
-    <data name="music_string_11" xml:space="preserve">
-    <value>Poziţie</value>
+  <data name="music_string_11" xml:space="preserve">
+    <value>Poziţia</value>
   </data>
-    <data name="music_string_12" xml:space="preserve">
+  <data name="music_string_12" xml:space="preserve">
     <value>Volum</value>
   </data>
-    <data name="music_string_13" xml:space="preserve">
+  <data name="music_string_13" xml:space="preserve">
     <value>Sursa</value>
   </data>
-    <data name="music_string_14" xml:space="preserve">
+  <data name="music_string_14" xml:space="preserve">
     <value>Pe pauză?</value>
   </data>
-    <data name="music_string_15" xml:space="preserve">
+  <data name="music_string_15" xml:space="preserve">
     <value>Transmitere Live?</value>
   </data>
-    <data name="music_string_16" xml:space="preserve">
+  <data name="music_string_16" xml:space="preserve">
     <value>Voturi Pentru a Sării</value>
   </data>
-    <data name="music_string_17" xml:space="preserve">
+  <data name="music_string_17" xml:space="preserve">
     <value>Lista de Redare:</value>
   </data>
-    <data name="music_string_18" xml:space="preserve">
+  <data name="music_string_18" xml:space="preserve">
     <value>Se Redă Acum:</value>
   </data>
-    <data name="music_string_19" xml:space="preserve">
+  <data name="music_string_19" xml:space="preserve">
     <value>Solicitat De</value>
   </data>
-    <data name="music_string_20" xml:space="preserve">
+  <data name="music_string_20" xml:space="preserve">
     <value>Pe Repetare?</value>
   </data>
-    <data name="music_string_21" xml:space="preserve">
+  <data name="music_string_21" xml:space="preserve">
     <value>Amplificarea Basului?</value>
   </data>
-    <data name="music_unknown_author" xml:space="preserve">
+  <data name="music_unknown_author" xml:space="preserve">
     <value>Autor necunoscut</value>
   </data>
-    <data name="music_unknown_title" xml:space="preserve">
+  <data name="music_unknown_title" xml:space="preserve">
     <value>Melodie necunoscuta</value>
   </data>
-    <data name="music_embed_success_1" xml:space="preserve">
+  <data name="music_embed_success_1" xml:space="preserve">
     <value>Canalul de solicitare a melodiei (&lt;#{0}&gt;) a fost creat. Puteți redenumi sau muta canalul, dacă doriți.
 </value>
   </data>
-    <data name="music_embed_success_2" xml:space="preserve">
+  <data name="music_embed_success_2" xml:space="preserve">
     <value>Vă rugăm să nu ștergeți niciun mesaj din canalul de cerere a melodiei. Dacă o faceți, va trebui să rulați configurarea din nou.</value>
   </data>
-    <data name="music_embed_queue_1" xml:space="preserve">
+  <data name="music_embed_queue_1" xml:space="preserve">
     <value>Alătură-te unui canal de voce și caută un cântec după nume sau un URL tastându-l în acest canal.</value>
   </data>
-    <data name="music_embed_queue_2" xml:space="preserve">
+  <data name="music_embed_queue_2" xml:space="preserve">
     <value>Surse suport: Youtube, Youtube Livestreams, Twitch, Bandcamp, Mixer, Vimeo, Soundcloud, Vlare.tv, Direct URL/Web File *`(Formate MP3 &amp; MP4)`* &amp; Spotify *`(EXPERIMENTAL)`*.</value>
   </data>
-    <data name="music_embed_react_1" xml:space="preserve">
+  <data name="music_embed_react_1" xml:space="preserve">
     <value>Pauza/Reluarea unei melodii</value>
   </data>
-    <data name="music_embed_react_2" xml:space="preserve">
+  <data name="music_embed_react_2" xml:space="preserve">
     <value>Șterge coada</value>
   </data>
-    <data name="music_embed_react_3" xml:space="preserve">
+  <data name="music_embed_react_3" xml:space="preserve">
     <value>Sari peste melodie</value>
   </data>
-    <data name="music_embed_react_4" xml:space="preserve">
+  <data name="music_embed_react_4" xml:space="preserve">
     <value>Amestecă coada</value>
   </data>
-    <data name="music_embed_react_5" xml:space="preserve">
+  <data name="music_embed_react_5" xml:space="preserve">
     <value>Repetă melodia curentă</value>
   </data>
-    <data name="music_embed_react_6" xml:space="preserve">
+  <data name="music_embed_react_6" xml:space="preserve">
     <value>Repornește melodia curentă</value>
   </data>
-    <data name="music_logger_trackend" xml:space="preserve">
-        <value>Finished playing: [{0}]({1}) [{2}]
+  <data name="music_logger_trackend" xml:space="preserve">
+    <value>Finished playing: [{0}]({1}) [{2}]
 &lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
-    </data>
-    <data name="music_logger_error" xml:space="preserve">
+  </data>
+  <data name="music_logger_error" xml:space="preserve">
     <value>Piesa a rămas blocată în timp ce încerca să se redea.</value>
   </data>
-    <data name="music_logger_disconnect" xml:space="preserve">
+  <data name="music_logger_disconnect" xml:space="preserve">
     <value>Toți utilizatorii au părăsit canalul vocal, botul se va deconecta în 30 de secunde.</value>
   </data>
-    <data name="music_grab_error" xml:space="preserve">
+  <data name="music_grab_error" xml:space="preserve">
     <value>A song must be playing to grab it.</value>
   </data>
-    <data name="music_grab_dm" xml:space="preserve">
+  <data name="music_grab_dm" xml:space="preserve">
     <value>Successfully sent song info to your DMs.</value>
   </data>
-    <data name="music_grab_dm_failed" xml:space="preserve">
+  <data name="music_grab_dm_failed" xml:space="preserve">
     <value>Failed to send DM, please check your settings.</value>
   </data>
-    <data name="music_equalizer_none" xml:space="preserve">
+  <data name="music_equalizer_none" xml:space="preserve">
     <value>No equalizer bands have been set.</value>
   </data>
-    <data name="music_equalizer_invalid_1" xml:space="preserve">
+  <data name="music_equalizer_invalid_1" xml:space="preserve">
     <value>Valid bands are 0 through 14</value>
   </data>
-    <data name="music_equalizer_invalid_2" xml:space="preserve">
+  <data name="music_equalizer_invalid_2" xml:space="preserve">
     <value>Valid gain values are between -0.25 and 1.0</value>
   </data>
-    <data name="music_equalizer_success" xml:space="preserve">
+  <data name="music_equalizer_success" xml:space="preserve">
     <value>Successfully set band #{0} to `{1}`</value>
   </data>
-    <data name="roles_persistent" xml:space="preserve">
+  <data name="roles_persistent" xml:space="preserve">
     <value>Rolul `{0}` a fost cu succes {1} {2}.</value>
   </data>
-    <data name="roles_persistent_1" xml:space="preserve">
+  <data name="roles_persistent_1" xml:space="preserve">
     <value>adăugat din</value>
   </data>
-    <data name="roles_persistent_2" xml:space="preserve">
+  <data name="roles_persistent_2" xml:space="preserve">
     <value>eliminat din</value>
   </data>
-    <data name="gif_error_1" xml:space="preserve">
+  <data name="gif_error_1" xml:space="preserve">
     <value>Nu am găsit nici un gif. :frowning:</value>
   </data>
-    <data name="gif_error_2" xml:space="preserve">
+  <data name="gif_error_2" xml:space="preserve">
     <value>Nu s-a putut găsi orice gif care erau SFW :frowning:</value>
   </data>
-    <data name="cmd_usage" xml:space="preserve">
+  <data name="cmd_usage" xml:space="preserve">
     <value>Prefixul pentru acest server este: `{0}`
 Puteți modifica prefixul pe: https://cakeybot.app sau cu `{0}setting prefix &lt;new prefix&gt;`</value>
   </data>
-    <data name="cmd_error_param" xml:space="preserve">
+  <data name="cmd_error_param" xml:space="preserve">
     <value>Are un număr incorect de parametri.</value>
   </data>
-    <data name="cmd_error_username" xml:space="preserve">
+  <data name="cmd_error_username" xml:space="preserve">
     <value>Trebuie să furnizați un nume de utilizator valid.</value>
   </data>
-    <data name="cmd_error_number" xml:space="preserve">
+  <data name="cmd_error_number" xml:space="preserve">
     <value>Trebuie să furnizați un număr valid.</value>
   </data>
-    <data name="cmd_error_input" xml:space="preserve">
+  <data name="cmd_error_input" xml:space="preserve">
     <value>Trebuie să furnizați informații valide.</value>
   </data>
-    <data name="cmd_error_matches" xml:space="preserve">
+  <data name="cmd_error_matches" xml:space="preserve">
     <value>Multiple matches were found. Possible matches:
 ```{0}
 {1}```</value>
   </data>
-    <data name="cmd_error_unknown_1" xml:space="preserve">
+  <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>O eroare necunoscuta a avut loc.</value>
   </data>
-    <data name="cmd_error_unknown_2" xml:space="preserve">
+  <data name="cmd_error_unknown_2" xml:space="preserve">
     <value>Eroare necunoscută, vă rugăm să raportați pe Discord: https://discord.gg/EUsVK5</value>
   </data>
-    <data name="cmd_error_song_request" xml:space="preserve">
+  <data name="cmd_error_song_request" xml:space="preserve">
     <value>You can not run commands in the song request channel.</value>
   </data>
-    <data name="cmd_error_timeout_1" xml:space="preserve">
+  <data name="cmd_error_timeout_1" xml:space="preserve">
     <value>Timed out while trying to run the command.</value>
   </data>
-    <data name="cmd_error_timeout_2" xml:space="preserve">
+  <data name="cmd_error_timeout_2" xml:space="preserve">
     <value>Request timed out, please try again later.</value>
   </data>
-    <data name="cmd_error_requests" xml:space="preserve">
+  <data name="cmd_error_requests" xml:space="preserve">
     <value>Received too many requests. Please try again later.</value>
   </data>
-    <data name="audit_string_1" xml:space="preserve">
+  <data name="audit_string_1" xml:space="preserve">
     <value>Utilizatorul a Intrat:</value>
   </data>
-    <data name="audit_string_2" xml:space="preserve">
+  <data name="audit_string_2" xml:space="preserve">
     <value>Cont Creat Pe:</value>
   </data>
-    <data name="audit_string_3" xml:space="preserve">
+  <data name="audit_string_3" xml:space="preserve">
     <value>Utilizatorul a Ieșit:</value>
   </data>
-    <data name="audit_string_4" xml:space="preserve">
+  <data name="audit_string_4" xml:space="preserve">
     <value>fixat</value>
   </data>
-    <data name="audit_string_5" xml:space="preserve">
+  <data name="audit_string_5" xml:space="preserve">
     <value>nu-i fixat</value>
   </data>
-    <data name="audit_string_6" xml:space="preserve">
+  <data name="audit_string_6" xml:space="preserve">
     <value>**Mesajul {0} în** &lt;#{1}&gt;</value>
   </data>
-    <data name="audit_string_7" xml:space="preserve">
+  <data name="audit_string_7" xml:space="preserve">
     <value>**Mesaj editat în** &lt;#{0}&gt;</value>
   </data>
-    <data name="audit_string_8" xml:space="preserve">
+  <data name="audit_string_8" xml:space="preserve">
     <value>Înainte:</value>
   </data>
-    <data name="audit_string_9" xml:space="preserve">
+  <data name="audit_string_9" xml:space="preserve">
     <value>După:</value>
   </data>
-    <data name="audit_string_10" xml:space="preserve">
+  <data name="audit_string_10" xml:space="preserve">
     <value>Mesaj:</value>
   </data>
-    <data name="audit_string_11" xml:space="preserve">
+  <data name="audit_string_11" xml:space="preserve">
     <value>Imagina URL:</value>
   </data>
-    <data name="audit_string_12" xml:space="preserve">
+  <data name="audit_string_12" xml:space="preserve">
     <value>**Mesaj trimis de &lt;@{0}&gt; șterse în** &lt;#{1}&gt;</value>
   </data>
-    <data name="audit_string_13" xml:space="preserve">
+  <data name="audit_string_13" xml:space="preserve">
     <value>Porecla lui &lt;@{0}&gt;**s-a schimbat**</value>
   </data>
-    <data name="audit_string_14" xml:space="preserve">
+  <data name="audit_string_14" xml:space="preserve">
     <value>&lt;@{0}&gt;** a avut rolul `{1}` eliminat.**</value>
   </data>
-    <data name="audit_string_15" xml:space="preserve">
+  <data name="audit_string_15" xml:space="preserve">
     <value>&lt;@{0}&gt;** a primit rolul `{1}`.**</value>
   </data>
-    <data name="audit_string_16" xml:space="preserve">
+  <data name="audit_string_16" xml:space="preserve">
     <value>Membru Interzis</value>
   </data>
-    <data name="audit_string_17" xml:space="preserve">
+  <data name="audit_string_17" xml:space="preserve">
     <value>Membru Neinterzis</value>
   </data>
-    <data name="audit_string_18" xml:space="preserve">
+  <data name="audit_string_18" xml:space="preserve">
     <value>Rol Creat:</value>
   </data>
-    <data name="audit_string_19" xml:space="preserve">
+  <data name="audit_string_19" xml:space="preserve">
     <value>Nume Rol:</value>
   </data>
-    <data name="audit_string_20" xml:space="preserve">
+  <data name="audit_string_20" xml:space="preserve">
     <value>Culoarea Rol:</value>
   </data>
-    <data name="audit_string_21" xml:space="preserve">
+  <data name="audit_string_21" xml:space="preserve">
     <value>Arborat:</value>
   </data>
-    <data name="audit_string_22" xml:space="preserve">
+  <data name="audit_string_22" xml:space="preserve">
     <value>Menționabil:</value>
   </data>
-    <data name="audit_string_23" xml:space="preserve">
+  <data name="audit_string_23" xml:space="preserve">
     <value>Permisiuni:</value>
   </data>
-    <data name="audit_string_24" xml:space="preserve">
+  <data name="audit_string_24" xml:space="preserve">
     <value>Rol Actualizat:</value>
   </data>
-    <data name="audit_string_25" xml:space="preserve">
+  <data name="audit_string_25" xml:space="preserve">
     <value>Rol ID:</value>
   </data>
-    <data name="audit_string_26" xml:space="preserve">
+  <data name="audit_string_26" xml:space="preserve">
     <value>Rol Șters:</value>
   </data>
-    <data name="audit_string_27" xml:space="preserve">
+  <data name="audit_string_27" xml:space="preserve">
     <value>Canal Creat:</value>
   </data>
-    <data name="audit_string_28" xml:space="preserve">
+  <data name="audit_string_28" xml:space="preserve">
     <value>Canal Actualizat:</value>
   </data>
-    <data name="audit_string_29" xml:space="preserve">
+  <data name="audit_string_29" xml:space="preserve">
     <value>Nume Canal:</value>
   </data>
-    <data name="audit_string_30" xml:space="preserve">
+  <data name="audit_string_30" xml:space="preserve">
     <value>Subiect:</value>
   </data>
-    <data name="audit_string_31" xml:space="preserve">
+  <data name="audit_string_31" xml:space="preserve">
     <value>Este PORN?:</value>
   </data>
-    <data name="audit_string_32" xml:space="preserve">
+  <data name="audit_string_32" xml:space="preserve">
     <value>Modul Încet:</value>
   </data>
-    <data name="audit_string_33" xml:space="preserve">
+  <data name="audit_string_33" xml:space="preserve">
     <value>În categoria:</value>
   </data>
-    <data name="audit_string_34" xml:space="preserve">
+  <data name="audit_string_34" xml:space="preserve">
     <value>Canal Șters:</value>
   </data>
-    <data name="audit_string_35" xml:space="preserve">
+  <data name="audit_string_35" xml:space="preserve">
     <value>Nivel Rang:</value>
   </data>
-    <data name="audit_string_36" xml:space="preserve">
+  <data name="audit_string_36" xml:space="preserve">
     <value>Săriți Spre:</value>
   </data>
-    <data name="audit_string_37" xml:space="preserve">
+  <data name="audit_string_37" xml:space="preserve">
     <value>**{0} mesaje au fost șterse în** &lt;#{1}&gt;</value>
   </data>
-    <data name="audit_string_38" xml:space="preserve">
+  <data name="audit_string_38" xml:space="preserve">
     <value>Permisiune se Suprascrie</value>
   </data>
-    <data name="audit_string_39" xml:space="preserve">
+  <data name="audit_string_39" xml:space="preserve">
     <value>Modificat</value>
   </data>
-    <data name="audit_string_40" xml:space="preserve">
+  <data name="audit_string_40" xml:space="preserve">
     <value>**Guild Boost Count Updated:**</value>
   </data>
-    <data name="audit_string_41" xml:space="preserve">
+  <data name="audit_string_41" xml:space="preserve">
     <value>Cont Suspicios</value>
   </data>
-    <data name="audit_string_42" xml:space="preserve">
+  <data name="audit_string_42" xml:space="preserve">
     <value>Utilizator:</value>
   </data>
-    <data name="audit_string_43" xml:space="preserve">
+  <data name="audit_string_43" xml:space="preserve">
     <value>canale de voce schimbate.</value>
   </data>
-    <data name="audit_string_44" xml:space="preserve">
+  <data name="audit_string_44" xml:space="preserve">
     <value> un canal de voce.</value>
   </data>
-    <data name="audit_string_45" xml:space="preserve">
+  <data name="audit_string_45" xml:space="preserve">
     <value>înregistrat</value>
   </data>
-    <data name="audit_string_46" xml:space="preserve">
+  <data name="audit_string_46" xml:space="preserve">
     <value>a părăsit</value>
   </data>
-    <data name="audit_string_47" xml:space="preserve">
+  <data name="audit_string_47" xml:space="preserve">
     <value>**{0} are {1}**</value>
   </data>
-    <data name="audit_string_48" xml:space="preserve">
+  <data name="audit_string_48" xml:space="preserve">
     <value>Ultima Poreclă:</value>
   </data>
-    <data name="audit_string_49" xml:space="preserve">
+  <data name="audit_string_49" xml:space="preserve">
     <value>Link de invitație creat: [{0}](https://discord.com/invite/{1})</value>
   </data>
-    <data name="audit_string_50" xml:space="preserve">
+  <data name="audit_string_50" xml:space="preserve">
     <value>Widget</value>
   </data>
-    <data name="audit_string_51" xml:space="preserve">
+  <data name="audit_string_51" xml:space="preserve">
     <value>Invite Link Deleted: `{0}`</value>
   </data>
-    <data name="util_server_offline" xml:space="preserve">
+  <data name="util_server_offline" xml:space="preserve">
     <value>The server is offline or is not responding to queries.</value>
   </data>
-    <data name="util_server_name" xml:space="preserve">
+  <data name="util_server_name" xml:space="preserve">
     <value>Nume/MOTD:</value>
   </data>
-    <data name="util_server_status" xml:space="preserve">
+  <data name="util_server_status" xml:space="preserve">
     <value>Statut:</value>
   </data>
-    <data name="util_server_count" xml:space="preserve">
+  <data name="util_server_count" xml:space="preserve">
     <value>Numărătorul de Jucători:</value>
   </data>
-    <data name="util_server_version" xml:space="preserve">
+  <data name="util_server_version" xml:space="preserve">
     <value>Versiune:</value>
   </data>
-    <data name="util_server_software" xml:space="preserve">
+  <data name="util_server_software" xml:space="preserve">
     <value>Software:</value>
   </data>
-    <data name="util_b64_result_1" xml:space="preserve">
+  <data name="util_b64_result_1" xml:space="preserve">
     <value>Codarea Base64 Imaginea rezultă: {0}</value>
   </data>
-    <data name="util_b64_result_2" xml:space="preserve">
+  <data name="util_b64_result_2" xml:space="preserve">
     <value>Rezultatul codării Base64: ```{0}```</value>
   </data>
-    <data name="util_b64_result_3" xml:space="preserve">
+  <data name="util_b64_result_3" xml:space="preserve">
     <value>Rezultatul Decodării Base64: ```{0}```</value>
   </data>
-    <data name="util_md5_result" xml:space="preserve">
+  <data name="util_md5_result" xml:space="preserve">
     <value>MD5 hash rezultat: ```{0}```</value>
   </data>
-    <data name="util_sha1_result" xml:space="preserve">
+  <data name="util_sha1_result" xml:space="preserve">
     <value>SHA1 hash rezultat: ```{0}```</value>
   </data>
-    <data name="util_sha256_result" xml:space="preserve">
+  <data name="util_sha256_result" xml:space="preserve">
     <value>SHA256 hash rezultat: ```{0}```</value>
   </data>
-    <data name="util_sha512_result" xml:space="preserve">
+  <data name="util_sha512_result" xml:space="preserve">
     <value>SHA512 hash rezultat: ```{0}```</value>
   </data>
-    <data name="util_hash_result" xml:space="preserve">
+  <data name="util_hash_result" xml:space="preserve">
     <value>Rezultate Hash:
 
 **Codificarea Base64 este: **```{0}```**MD5 Hash Output:**```{1}```**SHA1 Hash Output:**```{2}```**SHA256 Hash Output:**```{3}```**SHA512 Hash Output:**```{4}```</value>
   </data>
-    <data name="util_steam_level" xml:space="preserve">
+  <data name="util_steam_level" xml:space="preserve">
     <value>Nivel</value>
   </data>
-    <data name="util_steam_badges" xml:space="preserve">
+  <data name="util_steam_badges" xml:space="preserve">
     <value>Insigne</value>
   </data>
-    <data name="util_steam_games" xml:space="preserve">
+  <data name="util_steam_games" xml:space="preserve">
     <value>Jocuri</value>
   </data>
-    <data name="util_steam_groups" xml:space="preserve">
+  <data name="util_steam_groups" xml:space="preserve">
     <value>Grupuri</value>
   </data>
-    <data name="util_steam_vac" xml:space="preserve">
+  <data name="util_steam_vac" xml:space="preserve">
     <value>Interzicere VAC</value>
   </data>
-    <data name="util_steam_hidden" xml:space="preserve">
+  <data name="util_steam_hidden" xml:space="preserve">
     <value>Ascuns</value>
   </data>
-    <data name="util_steam_realname" xml:space="preserve">
+  <data name="util_steam_realname" xml:space="preserve">
     <value>Nume Real:</value>
   </data>
-    <data name="util_steam_limited" xml:space="preserve">
+  <data name="util_steam_limited" xml:space="preserve">
     <value>Cont Limitat</value>
   </data>
-    <data name="util_steam_info" xml:space="preserve">
+  <data name="util_steam_info" xml:space="preserve">
     <value>Informația lui {0} pe Steam</value>
   </data>
-    <data name="util_math_compute" xml:space="preserve">
+  <data name="util_math_compute" xml:space="preserve">
     <value>Timp de Calcul: {0}s</value>
   </data>
-    <data name="embed_footer_id_user" xml:space="preserve">
+  <data name="embed_footer_id_user" xml:space="preserve">
     <value>Utilizator ID:</value>
   </data>
-    <data name="embed_footer_id_guild" xml:space="preserve">
+  <data name="embed_footer_id_guild" xml:space="preserve">
     <value>ID-ul Serverului:</value>
   </data>
-    <data name="embed_footer_id_channel" xml:space="preserve">
+  <data name="embed_footer_id_channel" xml:space="preserve">
     <value>ID-ul Canalului:</value>
   </data>
-    <data name="embed_footer_about" xml:space="preserve">
+  <data name="embed_footer_about" xml:space="preserve">
     <value>Realizat de Discord.Net de a implementa Lavalink4Net</value>
   </data>
-    <data name="embed_footer_shard" xml:space="preserve">
+  <data name="embed_footer_shard" xml:space="preserve">
     <value>Fragment #{0}</value>
   </data>
-    <data name="embed_footer_music_playlist" xml:space="preserve">
+  <data name="embed_footer_music_playlist" xml:space="preserve">
     <value>Playlist-urile adăugat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_added" xml:space="preserve">
+  <data name="embed_footer_music_added" xml:space="preserve">
     <value>Adăugat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_cancel" xml:space="preserve">
+  <data name="embed_footer_music_cancel" xml:space="preserve">
     <value>Anulat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_resume" xml:space="preserve">
+  <data name="embed_footer_music_resume" xml:space="preserve">
     <value>Reluat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_pause" xml:space="preserve">
+  <data name="embed_footer_music_pause" xml:space="preserve">
     <value>Pus pe pauză de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_skip" xml:space="preserve">
+  <data name="embed_footer_music_skip" xml:space="preserve">
     <value>Votat pentru skip de la {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_clean" xml:space="preserve">
+  <data name="embed_footer_music_clean" xml:space="preserve">
     <value>Curățat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_remove" xml:space="preserve">
+  <data name="embed_footer_music_remove" xml:space="preserve">
     <value>Eliminat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_jump" xml:space="preserve">
+  <data name="embed_footer_music_jump" xml:space="preserve">
     <value>Sari la melodia cerută de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_shuffle" xml:space="preserve">
+  <data name="embed_footer_music_shuffle" xml:space="preserve">
     <value>Amestecat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_loop" xml:space="preserve">
+  <data name="embed_footer_music_loop" xml:space="preserve">
     <value>Repetare comutată de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_bb" xml:space="preserve">
+  <data name="embed_footer_music_bb" xml:space="preserve">
     <value>Amplificatorul basului comutat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_clear" xml:space="preserve">
+  <data name="embed_footer_music_clear" xml:space="preserve">
     <value>Curățat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_restart" xml:space="preserve">
+  <data name="embed_footer_music_restart" xml:space="preserve">
     <value>Repornit de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_ff" xml:space="preserve">
+  <data name="embed_footer_music_ff" xml:space="preserve">
     <value>Derulare pe repede înainte solicitată de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_rewind" xml:space="preserve">
+  <data name="embed_footer_music_rewind" xml:space="preserve">
     <value>Reluare solicitată de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_set" xml:space="preserve">
+  <data name="embed_footer_music_set" xml:space="preserve">
     <value>Setat de {0}#{1}</value>
   </data>
-    <data name="embed_footer_music_smove" xml:space="preserve">
+  <data name="embed_footer_music_smove" xml:space="preserve">
     <value>Mutare solicitată de {0}#{1}</value>
   </data>
-    <data name="core_help_1" xml:space="preserve">
+  <data name="core_help_1" xml:space="preserve">
     <value>Prefixul pentru această corporație este `{0}`
 Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care acestea funcționează, faceți clic pe `Bot Commands` link-ul de mai jos. Dacă aveți nevoie de ajutor cu ceva verificați `FAQ` (Întrebări frecvente) link-ul.</value>
   </data>
-    <data name="core_useful_links" xml:space="preserve">
+  <data name="core_useful_links" xml:space="preserve">
     <value>Link-uri Utile</value>
   </data>
-    <data name="core_bot_commands" xml:space="preserve">
+  <data name="core_bot_commands" xml:space="preserve">
     <value>Comenzile Bot</value>
   </data>
-    <data name="core_dashboard" xml:space="preserve">
+  <data name="core_dashboard" xml:space="preserve">
     <value>Bord Web</value>
   </data>
-    <data name="core_docs" xml:space="preserve">
-    <value>Docs/întrebări Frecvente</value>
+  <data name="core_docs" xml:space="preserve">
+    <value>Documente/întrebări Frecvente</value>
   </data>
-    <data name="core_support_discord" xml:space="preserve">
+  <data name="core_support_discord" xml:space="preserve">
     <value>Suport Discord</value>
   </data>
-    <data name="core_bot_invite" xml:space="preserve">
+  <data name="core_bot_invite" xml:space="preserve">
     <value>Link de Invitație pentru Bot</value>
   </data>
     <data name="core_donate" xml:space="preserve">
         <value>Premium</value>
     </data>
-    <data name="core_error" xml:space="preserve">
+  <data name="core_error" xml:space="preserve">
     <value>Eroare: Cakey Bot necesită permisiuni încorporate pentru a funcționa complet.</value>
   </data>
-    <data name="core_system_message" xml:space="preserve">
+  <data name="core_system_message" xml:space="preserve">
     <value>*Mesaj de Sistem*</value>
   </data>
-    <data name="core_cmd_search_1" xml:space="preserve">
+  <data name="core_cmd_search_1" xml:space="preserve">
     <value>Ne pare rău, nu am putut găsi o comandă cum ar fii `{0}`.</value>
   </data>
-    <data name="core_cmd_search_2" xml:space="preserve">
+  <data name="core_cmd_search_2" xml:space="preserve">
     <value>Iată câteva comenzi ca `{0}`.</value>
   </data>
-    <data name="core_cmd_info_alias" xml:space="preserve">
+  <data name="core_cmd_info_alias" xml:space="preserve">
     <value>Pseudonime:</value>
   </data>
-    <data name="core_cmd_info_parameters" xml:space="preserve">
+  <data name="core_cmd_info_parameters" xml:space="preserve">
     <value>Parametri:</value>
   </data>
-    <data name="core_cmd_info_usage" xml:space="preserve">
+  <data name="core_cmd_info_usage" xml:space="preserve">
     <value>Utilizare:</value>
   </data>
-    <data name="core_cmd_info_module" xml:space="preserve">
+  <data name="core_cmd_info_module" xml:space="preserve">
     <value>Modul:</value>
   </data>
-    <data name="core_cmd_missing" xml:space="preserve">
+  <data name="core_cmd_missing" xml:space="preserve">
     <value>Trebuie să furnizați o comandă pentru care doriți să consultați ajutor.</value>
   </data>
-    <data name="core_setting_usage" xml:space="preserve">
+  <data name="core_setting_usage" xml:space="preserve">
     <value>Utilizați comanda `{0}setting &lt;option&gt;` pentru a vizualiza mai multe informații despre acea opțiune.</value>
   </data>
-    <data name="core_setting_usage_prefix" xml:space="preserve">
+  <data name="core_setting_usage_prefix" xml:space="preserve">
     <value>`{0}setting prefix [Prefix nou]`</value>
   </data>
-    <data name="core_setting_description_prefix" xml:space="preserve">
+  <data name="core_setting_description_prefix" xml:space="preserve">
     <value>Modifică prefixul la care Cakey Bot răspunde.</value>
   </data>
-    <data name="core_setting_prefix" xml:space="preserve">
+  <data name="core_setting_prefix" xml:space="preserve">
     <value>Prefix</value>
   </data>
-    <data name="core_setting_prefix_current" xml:space="preserve">
+  <data name="core_setting_prefix_current" xml:space="preserve">
     <value>Prefixul curent:</value>
   </data>
-    <data name="core_setting_prefix_update" xml:space="preserve">
+  <data name="core_setting_prefix_update" xml:space="preserve">
     <value>Schimbare/Actualizare Prefix:</value>
   </data>
-    <data name="core_setting_modules_current" xml:space="preserve">
+  <data name="core_setting_modules_current" xml:space="preserve">
     <value>Setările Curente:</value>
   </data>
-    <data name="core_setting_updated_prefix" xml:space="preserve">
+  <data name="core_setting_updated_prefix" xml:space="preserve">
     <value>Prefixul pentru acest server a fost actualizat la: `{0}`</value>
   </data>
     <data name="core_feedback_blacklisted" xml:space="preserve">
     <value>Ați fost interzis din folosirea acestei comenzi. :(</value>
   </data>
-    <data name="core_stats_1" xml:space="preserve">
+  <data name="core_stats_1" xml:space="preserve">
     <value>Număror Server</value>
   </data>
-    <data name="core_stats_2" xml:space="preserve">
+  <data name="core_stats_2" xml:space="preserve">
     <value>Toate Categoriile</value>
   </data>
-    <data name="core_stats_3" xml:space="preserve">
+  <data name="core_stats_3" xml:space="preserve">
     <value>Canale pentru Text</value>
   </data>
-    <data name="core_stats_4" xml:space="preserve">
+  <data name="core_stats_4" xml:space="preserve">
     <value>Canale pentru Voce</value>
   </data>
-    <data name="core_announce_usage" xml:space="preserve">
-    <value>Utilizare: &#39;!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
+  <data name="core_announce_usage" xml:space="preserve">
+    <value>Utilizare: '!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
   </data>
-    <data name="core_announce_footer" xml:space="preserve">
+  <data name="core_announce_footer" xml:space="preserve">
     <value>Anunţ</value>
   </data>
     <data name="core_sr_usage" xml:space="preserve">
         <value>Utilizare: `!sr &lt;add | remove | use | unuse | list | embed&gt; &lt;role&gt;`</value>
     </data>
-    <data name="core_sr_added_1" xml:space="preserve">
+  <data name="core_sr_added_1" xml:space="preserve">
     <value>Rolul a fost adăugat deja.</value>
   </data>
-    <data name="core_sr_added_2" xml:space="preserve">
+  <data name="core_sr_added_2" xml:space="preserve">
     <value>S-a adăugat cu succes rolul de sine.</value>
   </data>
-    <data name="core_sr_added_3" xml:space="preserve">
+  <data name="core_sr_added_3" xml:space="preserve">
     <value>Adăugat cu succes rolul solicitat pentru tine.</value>
   </data>
-    <data name="core_sr_removed_1" xml:space="preserve">
+  <data name="core_sr_removed_1" xml:space="preserve">
     <value>S-a șters cu succes rolul de sine.</value>
   </data>
-    <data name="core_sr_removed_2" xml:space="preserve">
+  <data name="core_sr_removed_2" xml:space="preserve">
     <value>Eliminat cu succes rolul solicitat de la tine.</value>
   </data>
-    <data name="core_sr_none" xml:space="preserve">
+  <data name="core_sr_none" xml:space="preserve">
     <value>Nu există roluri disponibile.</value>
   </data>
-    <data name="core_sr_error_invalid" xml:space="preserve">
+  <data name="core_sr_error_invalid" xml:space="preserve">
     <value>Rolul nu este listat ca rol propriu.</value>
   </data>
-    <data name="core_sr_error_missing" xml:space="preserve">
+  <data name="core_sr_error_missing" xml:space="preserve">
     <value>Rolul nu mai există.</value>
   </data>
-    <data name="core_sr_error_have" xml:space="preserve">
+  <data name="core_sr_error_have" xml:space="preserve">
     <value>Aveți deja acest rol.</value>
   </data>
-    <data name="core_sr_error_have_not" xml:space="preserve">
+  <data name="core_sr_error_have_not" xml:space="preserve">
     <value>Nu ai acest rol.</value>
   </data>
-    <data name="core_invalid_channel" xml:space="preserve">
+  <data name="core_invalid_channel" xml:space="preserve">
     <value>Trebuie să furnizați un nume de canal valid!</value>
   </data>
-    <data name="core_debug_required_core" xml:space="preserve">
+  <data name="core_debug_required_core" xml:space="preserve">
     <value>**Permisiuni Necesare: (Core)**
 </value>
   </data>
-    <data name="core_debug_optional_mod" xml:space="preserve">
+  <data name="core_debug_optional_mod" xml:space="preserve">
     <value>**Permisiuni Opționale: (Necesare pentru Moderare)**
 </value>
   </data>
-    <data name="core_debug_optional_misc" xml:space="preserve">
+  <data name="core_debug_optional_misc" xml:space="preserve">
     <value>**Permisiuni Opționale: (Necesare pentru Utilizări/Diverse)**
 </value>
   </data>
-    <data name="core_debug_optional_music" xml:space="preserve">
+  <data name="core_debug_optional_music" xml:space="preserve">
     <value>**Permisiuni Opționale: (Necesare Pentru Muzică)**
 </value>
   </data>
-    <data name="core_debug_unused" xml:space="preserve">
+  <data name="core_debug_unused" xml:space="preserve">
     <value>**Permisiuni Neutilizate:**
 </value>
   </data>
-    <data name="core_debug_wildcard" xml:space="preserve">
+  <data name="core_debug_wildcard" xml:space="preserve">
     <value>**Permisiuni Wildcard:**
 </value>
   </data>
-    <data name="core_limited" xml:space="preserve">
+  <data name="core_limited" xml:space="preserve">
     <value>Cakey Bot is currently having technical issues. Some features are disabled or limited temporarily.</value>
   </data>
-    <data name="core_string_1" xml:space="preserve">
+  <data name="core_string_1" xml:space="preserve">
     <value>Command Info</value>
   </data>
-    <data name="urban_error" xml:space="preserve">
+  <data name="urban_error" xml:space="preserve">
     <value>Nu am putut găsi o intrare pe Urban Dictionary. Încercați mai târziu sau încercați altul.</value>
   </data>
-    <data name="automod_string_caps" xml:space="preserve">
+  <data name="automod_string_caps" xml:space="preserve">
     <value>Mesajul a fost șters pentru că conține &gt;{0}% de litere scrise cu majuscule.</value>
   </data>
-    <data name="automod_string_blacklist_word" xml:space="preserve">
+  <data name="automod_string_blacklist_word" xml:space="preserve">
     <value>Mesajul a fost șters pentru că conține cuvinte interzise.</value>
   </data>
-    <data name="automod_string_discordinvite" xml:space="preserve">
+  <data name="automod_string_discordinvite" xml:space="preserve">
     <value>Mesajul a fost șters pentru că conține un link de invitație pe Discord.</value>
   </data>
-    <data name="automod_string_url" xml:space="preserve">
+  <data name="automod_string_url" xml:space="preserve">
     <value>Mesajul a fost șters pentru a conține un URL/link.</value>
   </data>
-    <data name="automod_string_mentions" xml:space="preserve">
+  <data name="automod_string_mentions" xml:space="preserve">
     <value>Mesajul a fost șters pentru că conține &gt;{0} mențiuni</value>
   </data>
-    <data name="automod_string_emote" xml:space="preserve">
+  <data name="automod_string_emote" xml:space="preserve">
     <value>Mesajul a fost șters pentru că conține &gt;{0} emoticoane.</value>
   </data>
-    <data name="automod_string_spoiler" xml:space="preserve">
+  <data name="automod_string_spoiler" xml:space="preserve">
     <value>Mesajul dvs. a fost șters pentru că conținea speculație.</value>
   </data>
-    <data name="automod_string_selfbot" xml:space="preserve">
+  <data name="automod_string_selfbot" xml:space="preserve">
     <value>Mesajul dvs. a fost șters deoarece a fost un mesaj de auto-bot.</value>
   </data>
-    <data name="automod_string_duplicate_char" xml:space="preserve">
+  <data name="automod_string_stickers" xml:space="preserve">
+    <value>Your message was deleted because it contained stickers.</value>
+  </data>
+  <data name="automod_string_duplicate_char" xml:space="preserve">
     <value>Mesajul dvs. a fost șters pentru că conține &gt;{0}% caractere duplicate.</value>
   </data>
-    <data name="automod_string_duplicate_word" xml:space="preserve">
+  <data name="automod_string_duplicate_word" xml:space="preserve">
     <value>Mesajul dvs. a fost șters pentru că conține &gt;{0} cuvinte duplicate.</value>
   </data>
-    <data name="automod_check_mass_caps" xml:space="preserve">
+  <data name="automod_check_mass_caps" xml:space="preserve">
     <value>Capitalizare în Masă</value>
   </data>
-    <data name="automod_check_blacklist" xml:space="preserve">
+  <data name="automod_check_blacklist" xml:space="preserve">
     <value>Cuvânt Interzis</value>
   </data>
-    <data name="automod_check_discord_invite" xml:space="preserve">
+  <data name="automod_check_discord_invite" xml:space="preserve">
     <value>Link de Invitație pe Discord</value>
   </data>
-    <data name="automod_check_website_url" xml:space="preserve">
+  <data name="automod_check_website_url" xml:space="preserve">
     <value>URL/Link</value>
   </data>
-    <data name="automod_check_mass_mentions" xml:space="preserve">
-    <value>Mențiuni în Masă</value>
+  <data name="automod_check_mass_mentions" xml:space="preserve">
+    <value>Menționări în Masă</value>
   </data>
-    <data name="automod_check_emoji_spam" xml:space="preserve">
+  <data name="automod_check_emoji_spam" xml:space="preserve">
     <value>Spam de Emoticoane</value>
   </data>
-    <data name="automod_check_spoilers" xml:space="preserve">
+  <data name="automod_check_spoilers" xml:space="preserve">
     <value>Speculații</value>
   </data>
-    <data name="automod_check_self_bot" xml:space="preserve">
+  <data name="automod_check_self_bot" xml:space="preserve">
     <value>Mesaj de Auto-Bot</value>
   </data>
-    <data name="automod_check_duplicate_char" xml:space="preserve">
+  <data name="automod_check_stickers" xml:space="preserve">
+    <value>Stickers</value>
+  </data>
+  <data name="automod_check_duplicate_char" xml:space="preserve">
     <value>Caractere Duplicate</value>
   </data>
-    <data name="automod_check_duplicate_word" xml:space="preserve">
+  <data name="automod_check_duplicate_word" xml:space="preserve">
     <value>Cuvinte Duplicate</value>
   </data>
-    <data name="automod_check_auto_dehoist" xml:space="preserve">
+  <data name="automod_check_auto_dehoist" xml:space="preserve">
     <value>Auto Dehoist</value>
   </data>
-    <data name="automod_embed_violation" xml:space="preserve">
+  <data name="automod_embed_violation" xml:space="preserve">
     <value>Încălcare:</value>
   </data>
-    <data name="automod_embed_value" xml:space="preserve">
+  <data name="automod_embed_value" xml:space="preserve">
     <value>Valoare:</value>
   </data>
-    <data name="automod_embed_channel" xml:space="preserve">
+  <data name="automod_embed_channel" xml:space="preserve">
     <value>Canal:</value>
   </data>
-    <data name="github_results" xml:space="preserve">
+  <data name="github_results" xml:space="preserve">
     <value>Showing lines {0} - {1} of `{2}`</value>
   </data>
-    <data name="quoter_by_title" xml:space="preserve">
+  <data name="quoter_by_title" xml:space="preserve">
     <value>Quoted By:</value>
   </data>
-    <data name="quoter_by_value" xml:space="preserve">
+  <data name="quoter_by_value" xml:space="preserve">
     <value>{0} from &lt;#{1}&gt; in {2}</value>
   </data>
-    <data name="automod_string_stickers" xml:space="preserve">
-        <value>Your message was deleted because it contained stickers.</value>
-    </data>
-    <data name="automod_check_stickers" xml:space="preserve">
-        <value>Stickers</value>
-    </data>
-    <data name="misc_no_content" xml:space="preserve">
-        <value>No Content</value>
-    </data>
-    <data name="misc_covid_help" xml:space="preserve">
-        <value>Help Stop COVID-19</value>
-    </data>
-    <data name="textman_invalid_output" xml:space="preserve">
-        <value>No valid output.</value>
-    </data>
-    <data name="info_premium" xml:space="preserve">
-        <value>:star: Like Cakey Bot? You can now donate for Premium:</value>
-    </data>
-    <data name="info_uptime" xml:space="preserve">
-        <value>Uptime: {0}</value>
-    </data>
-    <data name="info_open_image" xml:space="preserve">
-        <value>Open Image</value>
-    </data>
-    <data name="info_target_user" xml:space="preserve">
-        <value>Target User</value>
-    </data>
-    <data name="game_ttt_in_progress" xml:space="preserve">
-        <value>A game is already in progress, complete it before making a new game.</value>
-    </data>
-    <data name="game_ttt_title" xml:space="preserve">
-        <value>Tic Tac Toe</value>
-    </data>
-    <data name="game_player_1" xml:space="preserve">
-        <value>Player 1</value>
-    </data>
-    <data name="game_player_2" xml:space="preserve">
-        <value>Player 2</value>
-    </data>
-    <data name="game_current_move" xml:space="preserve">
-        <value>Current Move</value>
-    </data>
-    <data name="game_flip_again" xml:space="preserve">
-        <value>Flip Again</value>
-    </data>
-    <data name="moderation_report_yourself" xml:space="preserve">
-        <value>You can't report yourself!</value>
-    </data>
-    <data name="moderation_report_myself" xml:space="preserve">
-        <value>I can't report myself!</value>
-    </data>
-    <data name="moderation_report_channel_missing" xml:space="preserve">
-        <value>No report channel has been setup yet.</value>
-    </data>
-    <data name="moderation_report_channel_invalid" xml:space="preserve">
-        <value>The destination channel is invalid or no longer exists.</value>
-    </data>
-    <data name="moderation_report_reported_success" xml:space="preserve">
-        <value>User has been reported successfully.</value>
-    </data>
-    <data name="moderation_report_reported" xml:space="preserve">
-        <value>{0} reported {1} in &lt;#{2}&gt;</value>
-    </data>
-    <data name="moderation_audit_messages_100" xml:space="preserve">
-        <value>Last 100 messages from channel: &lt;{0}&gt;</value>
-    </data>
-    <data name="moderation_report_perms" xml:space="preserve">
-        <value>I don't have send message permissions for the destination channel.</value>
-    </data>
-    <data name="misc_afk_list" xml:space="preserve">
-        <value>You can view a list of AFK users here: {0}/afk-list 
+  <data name="misc_no_content" xml:space="preserve">
+      <value>No Content</value>
+  </data>
+  <data name="misc_covid_help" xml:space="preserve">
+      <value>Help Stop COVID-19</value>
+  </data>
+  <data name="textman_invalid_output" xml:space="preserve">
+      <value>No valid output.</value>
+  </data>
+  <data name="info_premium" xml:space="preserve">
+      <value>:star: Like Cakey Bot? You can now donate for Premium:</value>
+  </data>
+  <data name="info_uptime" xml:space="preserve">
+      <value>Uptime: {0}</value>
+  </data>
+  <data name="info_open_image" xml:space="preserve">
+      <value>Open Image</value>
+  </data>
+  <data name="info_target_user" xml:space="preserve">
+      <value>Target User</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
+      <value>A game is already in progress, complete it before making a new game.</value>
+  </data>
+  <data name="game_ttt_title" xml:space="preserve">
+      <value>Tic Tac Toe</value>
+  </data>
+  <data name="game_player_1" xml:space="preserve">
+      <value>Player 1</value>
+  </data>
+  <data name="game_player_2" xml:space="preserve">
+      <value>Player 2</value>
+  </data>
+  <data name="game_current_move" xml:space="preserve">
+      <value>Current Move</value>
+  </data>
+  <data name="game_flip_again" xml:space="preserve">
+      <value>Flip Again</value>
+  </data>
+  <data name="moderation_report_yourself" xml:space="preserve">
+      <value>You can't report yourself!</value>
+  </data>
+  <data name="moderation_report_myself" xml:space="preserve">
+      <value>I can't report myself!</value>
+  </data>
+  <data name="moderation_report_channel_missing" xml:space="preserve">
+      <value>No report channel has been setup yet.</value>
+  </data>
+  <data name="moderation_report_channel_invalid" xml:space="preserve">
+      <value>The destination channel is invalid or no longer exists.</value>
+  </data>
+  <data name="moderation_audit_messages_100" xml:space="preserve">
+      <value>Last 100 messages from channel: &lt;{0}&gt;</value>
+  </data>
+  <data name="moderation_report_reported" xml:space="preserve">
+      <value>{0} reported {1} in &lt;#{2}&gt;</value>
+  </data>
+  <data name="moderation_report_reported_success" xml:space="preserve">
+      <value>User has been reported successfully.</value>
+  </data>
+  <data name="moderation_report_perms" xml:space="preserve">
+      <value>I don't have send message permissions for the destination channel.</value>
+  </data>
+  <data name="misc_afk_list" xml:space="preserve">
+      <value>You can view a list of AFK users here: {0}/afk-list 
 Note: Requires \"Manage Server\" access.</value>
-    </data>
-    <data name="button_invalid" xml:space="preserve">
-        <value>This button is no longer valid. :(</value>
-    </data>
-    <data name="game_ttt_expired" xml:space="preserve">
-        <value>This game has already expired. You can create a new game with `!tictactoe &lt;opt:user&gt;`.</value>
-    </data>
-    <data name="game_ttt_taken" xml:space="preserve">
-        <value>This spot is already taken.</value>
-    </data>
-    <data name="game_ttt_winner" xml:space="preserve">
-        <value>Winner</value>
-    </data>
-    <data name="game_ttt_wait_turn" xml:space="preserve">
-        <value>You must wait your turn to make a move!</value>
-    </data>
+  </data>
+  <data name="button_invalid" xml:space="preserve">
+      <value>This button is no longer valid. :(</value>
+  </data>
+  <data name="game_ttt_winner" xml:space="preserve">
+      <value>Winner</value>
+  </data>
+  <data name="game_ttt_taken" xml:space="preserve">
+      <value>This spot is already taken.</value>
+  </data>
+  <data name="game_ttt_expired" xml:space="preserve">
+      <value>This game has already expired. You can create a new game with `!tictactoe &lt;opt:user&gt;`.</value>
+  </data>
+  <data name="game_ttt_wait_turn" xml:space="preserve">
+      <value>You must wait your turn to make a move!</value>
+  </data>
     <data name="automod_string_zalgo" xml:space="preserve">
         <value>Your message was deleted because it contained zalgo text.</value>
     </data>
@@ -2315,59 +2314,59 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="reddit_feed" xml:space="preserve">
         <value>Reddit Feed</value>
     </data>
-    <data name="tags_invalid" xml:space="preserve">
-        <value>You must enter a tag. View all tags with `!tags list`.</value>
-    </data>
-    <data name="tags_list" xml:space="preserve">
-        <value>Tags:</value>
-    </data>
     <data name="tags_create_success" xml:space="preserve">
         <value>Successsfully created the `{0}` tag.</value>
     </data>
     <data name="tags_create_fail" xml:space="preserve">
         <value>Failed to create the `{0}` tag.</value>
     </data>
-    <data name="tags_delete_success" xml:space="preserve">
-        <value>Successsfully deleted the `{0}` tag.</value>
-    </data>
-    <data name="tags_delete_fail" xml:space="preserve">
-        <value>Failed to delete the `{0}` tag.</value>
+    <data name="tags_modify_fail" xml:space="preserve">
+        <value>Failed to modify the `{0}` tag.</value>
     </data>
     <data name="tags_modify_success" xml:space="preserve">
         <value>Successsfully modified the `{0}` tag.</value>
     </data>
-    <data name="tags_modify_fail" xml:space="preserve">
-        <value>Failed to modify the `{0}` tag.</value>
+    <data name="tags_delete_fail" xml:space="preserve">
+        <value>Failed to delete the `{0}` tag.</value>
+    </data>
+    <data name="tags_delete_success" xml:space="preserve">
+        <value>Successsfully deleted the `{0}` tag.</value>
     </data>
     <data name="tags_usage" xml:space="preserve">
         <value>**Usage:** `!tags &lt;list | add | edit | delete&gt; &lt;opt:name&gt; &lt;opt:content&gt;`</value>
     </data>
-    <data name="thread_private" xml:space="preserve">
-        <value>IsPrivate?</value>
+    <data name="tags_list" xml:space="preserve">
+        <value>Tags:</value>
     </data>
-    <data name="thread_parent" xml:space="preserve">
-        <value>Thread Parent:</value>
-    </data>
-    <data name="thread_name" xml:space="preserve">
-        <value>Thread Name:</value>
-    </data>
-    <data name="thread_created" xml:space="preserve">
-        <value>Thread Created:</value>
+    <data name="tags_invalid" xml:space="preserve">
+        <value>You must enter a tag. View all tags with `!tags list`.</value>
     </data>
     <data name="thread_deleted" xml:space="preserve">
         <value>Thread Deleted:</value>
     </data>
-    <data name="thread_locked" xml:space="preserve">
-        <value>IsLocked?</value>
+    <data name="thread_created" xml:space="preserve">
+        <value>Thread Created:</value>
     </data>
     <data name="thread_modified" xml:space="preserve">
         <value>Thread Updated:</value>
     </data>
+    <data name="thread_parent" xml:space="preserve">
+        <value>Thread Parent:</value>
+    </data>
     <data name="thread_auto_archive" xml:space="preserve">
         <value>Auto-Archive Time:</value>
     </data>
+    <data name="thread_private" xml:space="preserve">
+        <value>IsPrivate?</value>
+    </data>
     <data name="thread_archived" xml:space="preserve">
         <value>IsArchived?</value>
+    </data>
+    <data name="thread_locked" xml:space="preserve">
+        <value>IsLocked?</value>
+    </data>
+    <data name="thread_name" xml:space="preserve">
+        <value>Thread Name:</value>
     </data>
     <data name="thread_archive" xml:space="preserve">
         <value>The `{0}` thread was archived.</value>
@@ -2393,11 +2392,11 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="stage_speaker_count" xml:space="preserve">
         <value>Speaker Count:</value>
     </data>
-    <data name="stage_ended" xml:space="preserve">
-        <value>Stage Ended:</value>
-    </data>
     <data name="stage_started" xml:space="preserve">
         <value>Stage Started:</value>
+    </data>
+    <data name="stage_ended" xml:space="preserve">
+        <value>Stage Ended:</value>
     </data>
     <data name="imageman_analyze_failed" xml:space="preserve">
         <value>Failed to deserialize image data.</value>
@@ -2405,26 +2404,26 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="cmd_error_bad_request" xml:space="preserve">
         <value>Encountered a bad request, please try again.</value>
     </data>
-    <data name="ticket_transcript_failed" xml:space="preserve">
-        <value>**Error:** Unable to generate transcript file.</value>
-    </data>
-    <data name="ticket_deleting" xml:space="preserve">
-        <value>Ticket will be deleted in a few seconds.</value>
+    <data name="ticket_no_reason" xml:space="preserve">
+        <value>No reason provided.</value>
     </data>
     <data name="ticket_exists" xml:space="preserve">
         <value>You already have a ticket here {0}!</value>
     </data>
-    <data name="ticket_no_reason" xml:space="preserve">
-        <value>No reason provided.</value>
+    <data name="ticket_deleting" xml:space="preserve">
+        <value>Ticket will be deleted in a few seconds.</value>
     </data>
-    <data name="ticket_delete" xml:space="preserve">
-        <value>Delete</value>
+    <data name="ticket_transcript_failed" xml:space="preserve">
+        <value>**Error:** Unable to generate transcript file.</value>
+    </data>
+    <data name="ticket_transcript" xml:space="preserve">
+        <value>Transcript</value>
     </data>
     <data name="ticket_open" xml:space="preserve">
         <value>Open</value>
     </data>
-    <data name="ticket_transcript" xml:space="preserve">
-        <value>Transcript</value>
+    <data name="ticket_delete" xml:space="preserve">
+        <value>Ştergeţi</value>
     </data>
     <data name="ticket_reopen" xml:space="preserve">
         <value>Ticket re-opened by {0}</value>
@@ -2435,14 +2434,14 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="ticket_transcript_saved" xml:space="preserve">
         <value>Transcript was successfully saved to {0}.</value>
     </data>
-    <data name="ticket_ticket" xml:space="preserve">
-        <value>Ticket:</value>
+    <data name="ticket_message_count" xml:space="preserve">
+        <value>Messages Count:</value>
     </data>
     <data name="ticket_saved_by" xml:space="preserve">
         <value>Saved By:</value>
     </data>
-    <data name="ticket_message_count" xml:space="preserve">
-        <value>Messages Count:</value>
+    <data name="ticket_ticket" xml:space="preserve">
+        <value>Ticket:</value>
     </data>
     <data name="ticket_staff_reply" xml:space="preserve">
         <value>A staff member will respond to your ticket shortly.</value>
@@ -2537,11 +2536,11 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="filter_usage_distortion" xml:space="preserve">
         <value>**Usage:** `!filter distortion &lt;sinOffset&gt; &lt;sinScale&gt; &lt;cosOffset&gt; &lt;cosScale&gt; &lt;tanOffset&gt; &lt;tanScale&gt; &lt;offset&gt; &lt;scale&gt;`</value>
     </data>
-    <data name="filter_usage_karaoke" xml:space="preserve">
-        <value>**Usage:** `!filter karaoke &lt;level&gt; &lt;monoLevel&gt; &lt;band&gt; &lt;width&gt;`</value>
-    </data>
     <data name="filter_usage_lowpass" xml:space="preserve">
         <value>**Usage:** `!filter lowpass &lt;smoothing&gt;`</value>
+    </data>
+    <data name="filter_usage_karaoke" xml:space="preserve">
+        <value>**Usage:** `!filter karaoke &lt;level&gt; &lt;monoLevel&gt; &lt;band&gt; &lt;width&gt;`</value>
     </data>
     <data name="filter_usage_rotation" xml:space="preserve">
         <value>**Usage:** `!filter rotation &lt;frequency&gt;`</value>

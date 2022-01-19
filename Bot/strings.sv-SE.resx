@@ -1,45 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -58,7 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
   <data name="cooldown" xml:space="preserve">
     <value>Detta kommando är på cooldown för: {0}</value>
   </data>
@@ -415,7 +414,7 @@
     <value>Förslag:</value>
   </data>
   <data name="games_suggestion_vote" xml:space="preserve">
-    <value>Rösta:</value>
+    <value>Röst:</value>
   </data>
   <data name="games_suggestion_title" xml:space="preserve">
     <value>Titel:</value>
@@ -511,7 +510,7 @@ Reagera med :tada: för att gå med i lotteriet!</value>
     <value>Antal vinnare måste vara minst 1 och högst 15 personer.</value>
   </data>
   <data name="games_trivia_title" xml:space="preserve">
-    <value>{0}&#39;s Trivia-fråga</value>
+    <value>{0}'s Trivia-fråga</value>
   </data>
   <data name="games_trivia_footer" xml:space="preserve">
     <value>Ange bokstaven för det korrekta svaret • Fråga #{0}</value>
@@ -527,9 +526,9 @@ Reagera med :tada: för att gå med i lotteriet!</value>
   <data name="games_trivia_category" xml:space="preserve">
     <value>Kategori</value>
   </data>
-  <data name="games_trivia_timeout" xml:space="preserve">
-    <value>Inget svar gavs inom 10s. Korrekt svar: `{0}`</value>
-  </data>
+    <data name="games_trivia_timeout" xml:space="preserve">
+        <value>Inget svar gavs inom 10s. Korrekt svar: `{0}`</value>
+    </data>
   <data name="games_trivia_invalid" xml:space="preserve">
     <value>Ogiltigt svar angavs. Ange endast bokstaven nästa gång. Korrekt svar: `{0}`</value>
   </data>
@@ -608,9 +607,9 @@ Reagera med :tada: för att gå med i lotteriet!</value>
   <data name="mod_ban_temp_error" xml:space="preserve">
     <value>Tillfälliga bannlysningar får inte överskrida en månad.</value>
   </data>
-  <data name="mod_ban_temp_success" xml:space="preserve">
-    <value>{0}#{1} kommer avbannas &lt;t:{2}:R&gt;</value>
-  </data>
+    <data name="mod_ban_temp_success" xml:space="preserve">
+        <value>{0}#{1} kommer avbannas &lt;t:{2}:R&gt;</value>
+    </data>
   <data name="mod_ban_soft_self" xml:space="preserve">
     <value>Du kan inte mjukbannlysa dig själv!</value>
   </data>
@@ -638,9 +637,9 @@ Reagera med :tada: för att gå med i lotteriet!</value>
   <data name="mod_mute_temp_error" xml:space="preserve">
     <value>Tillfälliga tystningar får inte överskrida en månad.</value>
   </data>
-  <data name="mod_mute_temp_success" xml:space="preserve">
-    <value>{0}#{1} kommer avtystas &lt;t:{2}:R&gt;</value>
-  </data>
+    <data name="mod_mute_temp_success" xml:space="preserve">
+        <value>{0}#{1} kommer avtystas &lt;t:{2}:R&gt;</value>
+    </data>
   <data name="mod_mute_role_error" xml:space="preserve">
     <value>Kunde inte hitta eller skapa en tystningsroll.</value>
   </data>
@@ -1076,7 +1075,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Betyg:</value>
   </data>
   <data name="misc_anime_synopsis" xml:space="preserve">
-    <value>Sammanfattning:</value>
+    <value>Synopsis:</value>
   </data>
   <data name="misc_anime_footer" xml:space="preserve">
     <value>Anime-ID: {0} • Poäng: {1}</value>
@@ -1129,10 +1128,10 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Påminnelser bör äga rum inom en månad från i dag.</value>
   </data>
-  <data name="misc_reminder_success" xml:space="preserve">
-    <value>Satte framgångsrikt en påminnelse för `{0}` {1}.</value>
-  </data>
-  <data name="misc_covid_for_global" xml:space="preserve">
+    <data name="misc_reminder_success" xml:space="preserve">
+        <value>Satte framgångsrikt en påminnelse för `{0}` {1}.</value>
+    </data>
+    <data name="misc_covid_for_global" xml:space="preserve">
     <value>Global COVID-19-statistik</value>
   </data>
   <data name="misc_covid_for_country" xml:space="preserve">
@@ -1222,7 +1221,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     </value>
   </data>
   <data name="misc_pokemon_format_3" xml:space="preserve">
-    <value>Sp-anfall: {0}  - Sp-försvar: {1}
+      <value>Sp-anfall: {0}  - Sp-försvar: {1}
     </value>
   </data>
   <data name="misc_pokemon_format_4" xml:space="preserve">
@@ -1340,46 +1339,46 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Tog framgångsrikt bort `{0}` - `{1}` från kön.</value>
   </data>
   <data name="music_restart_1" xml:space="preserve">
-    <value>En låt måste spelas för att starta om.</value>
+    <value>En sång måste spelas för att starta om.</value>
   </data>
   <data name="music_restart_2" xml:space="preserve">
     <value>Jag har startat om låten från början.</value>
   </data>
   <data name="music_seek_1" xml:space="preserve">
-    <value>En låt måste spelas för att modifiera dess position.</value>
+    <value>En sång måste spelas för att modifiera dess position.</value>
   </data>
   <data name="music_seek_3" xml:space="preserve">
     <value>Jag har sökt mig till tiden: `{0}`</value>
   </data>
   <data name="music_ff_1" xml:space="preserve">
-    <value>En låt måste spelas för att snabbspola.</value>
+    <value>En sång måste spelas för att snabbspola.</value>
   </data>
   <data name="music_ff_2" xml:space="preserve">
     <value>Jag har snabbspolat till: `{0}` ({1} framåt)</value>
   </data>
   <data name="music_rewind_1" xml:space="preserve">
-    <value>En låt måste spelas för att återspola.</value>
+    <value>En sång måste spelas för att återspola.</value>
   </data>
   <data name="music_rewind_2" xml:space="preserve">
     <value>Jag har spolat tillbaka till: `{0}` ({1} bakåt)</value>
   </data>
   <data name="music_pause_1" xml:space="preserve">
-    <value>En låt måste spelas för att pausa.</value>
+    <value>En sång måste spelas för att pausa.</value>
   </data>
   <data name="music_pause_2" xml:space="preserve">
-    <value>Denna låt är redan pausad. Du kan återuppta med `!resume`</value>
+    <value>Denna sång är redan pausad. Du kan återuppta med `!resume`</value>
   </data>
   <data name="music_pause_3" xml:space="preserve">
-    <value>Pausade framgångsrikt låten.</value>
+    <value>Pausade framgångsrikt sången.</value>
   </data>
   <data name="music_resume_1" xml:space="preserve">
-    <value>Återupptog framgångsrikt låten.</value>
+    <value>Återupptog framgångsrikt sången.</value>
   </data>
   <data name="music_resume_2" xml:space="preserve">
-    <value>Denna låt är inte pausad. Du kan pausa låten med `!pause`</value>
+    <value>Denna sång är inte pausad. Du kan pausa sången med `!pause`</value>
   </data>
   <data name="music_lyrics_1" xml:space="preserve">
-    <value>Du måste ange ett låtnamn att söka efter. (eller ha en låt som spelas för tillfället)</value>
+    <value>Du måste ange ett sångnamn att söka efter. (eller ha en sång som spelas för tillfället)</value>
   </data>
   <data name="music_lyrics_2" xml:space="preserve">
     <value>Låttext för {0}: 
@@ -1390,7 +1389,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Ingen låttext hittades.</value>
   </data>
   <data name="music_volume_1" xml:space="preserve">
-    <value>En låt måste spelas för att modifiera dess volym.</value>
+    <value>En sång måste spelas för att modifiera dess volym.</value>
   </data>
     <data name="music_volume_2" xml:space="preserve">
         <value>Volym måste vara mellan 0 och 100.</value>
@@ -1421,7 +1420,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Röstningen är på {0}/{1}.</value>
   </data>
   <data name="music_url" xml:space="preserve">
-    <value>Du måste ange ett låtnamn eller en YouTube-länk.</value>
+    <value>Du måste ange ett sångnamn eller en YouTube-länk.</value>
   </data>
   <data name="music_no_results" xml:space="preserve">
     <value>Inga resultat hittades.</value>
@@ -1430,7 +1429,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Spår-ID är utanför giltig räckvidd. Skriv `!queue` för att se giltiga spår-ID:n.</value>
   </data>
   <data name="music_invalid_track_2" xml:space="preserve">
-    <value>Spårkö-ID:t måste vara giltigt.</value>
+    <value>Spårkö-Id:t måste vara giltigt.</value>
   </data>
   <data name="music_limit_queue" xml:space="preserve">
     <value>Kön kan högst hålla 100 låtar, vänligen ta bort några innan du lägger till fler.</value>
@@ -1473,7 +1472,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Avbröt framgångsrikt sökningen.</value>
   </data>
   <data name="music_cancel_2" xml:space="preserve">
-    <value>Ange numret för att välja en låt eller &#39;cancel&#39;/&#39;none&#39; för att avbryta valet.</value>
+    <value>Ange numret för att välja en låt eller 'cancel'/'none' för att avbryta valet.</value>
   </data>
   <data name="music_string_1" xml:space="preserve">
     <value>Köposition:</value>
@@ -1485,7 +1484,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Inga spår i kön.</value>
   </data>
   <data name="music_string_4" xml:space="preserve">
-    <value>+{0} fler låtar.</value>
+    <value>+{0} fler sånger.</value>
   </data>
   <data name="music_string_5" xml:space="preserve">
     <value>Du måste ange ett tidsvärde.</value>
@@ -1586,7 +1585,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <value>Alla användare lämnade röstkanalen, botten kommer att koppla från om 30 sekunder.</value>
   </data>
   <data name="music_grab_error" xml:space="preserve">
-    <value>En låt måste spelas för att få tag på den.</value>
+    <value>En sång måste spelas för att få tag på den.</value>
   </data>
   <data name="music_grab_dm" xml:space="preserve">
     <value>Skickade framgångsrikt låtinfon till dina DMs.</value>
@@ -1882,7 +1881,7 @@ Du kan ändra prefixet på: https://cakeybot.app eller genom `{0}setting prefix 
     <value>Begränsat konto</value>
   </data>
   <data name="util_steam_info" xml:space="preserve">
-    <value>{0}&#39;s Steam-info</value>
+    <value>{0}'s Steam-info</value>
   </data>
   <data name="util_math_compute" xml:space="preserve">
     <value>Beräkningstid: {0}s</value>
@@ -1978,9 +1977,9 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="core_bot_invite" xml:space="preserve">
     <value>Botinbjudningslänk</value>
   </data>
-  <data name="core_donate" xml:space="preserve">
-    <value>Premium</value>
-  </data>
+    <data name="core_donate" xml:space="preserve">
+        <value>Premium</value>
+    </data>
   <data name="core_error" xml:space="preserve">
     <value>Fel: Cakey Bot kräver inbäddningsbehörigheter för att fungera fullt ut.</value>
   </data>
@@ -2053,9 +2052,9 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="core_announce_footer" xml:space="preserve">
     <value>Tillkännagivande</value>
   </data>
-  <data name="core_sr_usage" xml:space="preserve">
-    <value>Användning: `!sr &lt;add | remove | use | unuse | list | embed&gt; &lt;role&gt;`</value>
-  </data>
+    <data name="core_sr_usage" xml:space="preserve">
+        <value>Användning: `!sr &lt;add | remove | use | unuse | list | embed&gt; &lt;role&gt;`</value>
+    </data>
   <data name="core_sr_added_1" xml:space="preserve">
     <value>Rollen är redan tillagd.</value>
   </data>
@@ -2146,11 +2145,14 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="automod_string_selfbot" xml:space="preserve">
     <value>Ditt meddelande togs bort eftersom det var ett självbot-meddelande.</value>
   </data>
+  <data name="automod_string_stickers" xml:space="preserve">
+    <value>Ditt meddelande togs bort eftersom det innehöll stickers.</value>
+  </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
-    <value>Ditt meddelande togs bort eftersom det till &gt;{0}% bestod av upprepade tecken.</value>
+    <value>Ditt meddelande togs bort eftersom det till &gt;{0}% bestod av duplicerade tecken.</value>
   </data>
   <data name="automod_string_duplicate_word" xml:space="preserve">
-    <value>Ditt meddelande togs bort eftersom det hade &gt;{0} upprepade ord.</value>
+    <value>Ditt meddelande togs bort eftersom det hade &gt;{0} duplicerade ord.</value>
   </data>
   <data name="automod_check_mass_caps" xml:space="preserve">
     <value>Masskapitalisering</value>
@@ -2176,11 +2178,14 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="automod_check_self_bot" xml:space="preserve">
     <value>Självbot-meddelande</value>
   </data>
+  <data name="automod_check_stickers" xml:space="preserve">
+    <value>Stickers</value>
+  </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
-    <value>Upprepade tecken</value>
+    <value>Duplicerade tecken</value>
   </data>
   <data name="automod_check_duplicate_word" xml:space="preserve">
-    <value>Upprepade ord</value>
+    <value>Duplicera ord</value>
   </data>
   <data name="automod_check_auto_dehoist" xml:space="preserve">
     <value>Auto-dehoist</value>
@@ -2203,307 +2208,301 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="quoter_by_value" xml:space="preserve">
     <value>{0} från &lt;#{1}&gt; i {2}</value>
   </data>
-  <data name="automod_string_stickers" xml:space="preserve">
-    <value>Ditt meddelande togs bort eftersom det innehöll stickers.</value>
-  </data>
-  <data name="automod_check_stickers" xml:space="preserve">
-    <value>Stickers</value>
-  </data>
   <data name="misc_no_content" xml:space="preserve">
-    <value>Saknar innehåll</value>
+      <value>Saknar innehåll</value>
   </data>
   <data name="misc_covid_help" xml:space="preserve">
-    <value>Hjälp till att stoppa COVID-19</value>
+      <value>Hjälp till att stoppa COVID-19</value>
   </data>
   <data name="textman_invalid_output" xml:space="preserve">
-    <value>Ogiltig inmatning.</value>
+      <value>Ogiltig inmatning.</value>
   </data>
   <data name="info_premium" xml:space="preserve">
-    <value>:star: Gillar du Cakey Bot? Du kan nu donera för Premium:</value>
+      <value>:star: Gillar du Cakey Bot? Du kan nu donera för Premium:</value>
   </data>
   <data name="info_uptime" xml:space="preserve">
-    <value>Drifttid: {0}</value>
+      <value>Drifttid: {0}</value>
   </data>
   <data name="info_open_image" xml:space="preserve">
-    <value>Öppna bild</value>
+      <value>Öppna bild</value>
   </data>
   <data name="info_target_user" xml:space="preserve">
-    <value>Berörd användare</value>
+      <value>Berörd användare</value>
   </data>
   <data name="game_ttt_in_progress" xml:space="preserve">
-    <value>Ett spel pågår redan, avsluta det innan du skapar ett nytt.</value>
+      <value>Ett spel pågår redan, avsluta det innan du skapar ett nytt.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
-    <value>Tre-i-rad</value>
+      <value>Tre-i-rad</value>
   </data>
   <data name="game_player_1" xml:space="preserve">
-    <value>Spelare 1</value>
+      <value>Spelare 1</value>
   </data>
   <data name="game_player_2" xml:space="preserve">
-    <value>Spelare 2</value>
+      <value>Spelare 2</value>
   </data>
   <data name="game_current_move" xml:space="preserve">
-    <value>Nuvarande drag</value>
+      <value>Nuvarande drag</value>
   </data>
   <data name="game_flip_again" xml:space="preserve">
-    <value>Vänd igen</value>
+      <value>Vänd igen</value>
   </data>
   <data name="moderation_report_yourself" xml:space="preserve">
-    <value>Du kan inte anmäla dig själv!</value>
+      <value>Du kan inte anmäla dig själv!</value>
   </data>
   <data name="moderation_report_myself" xml:space="preserve">
-    <value>Jag kan inte anmäla mig själv!</value>
+      <value>Jag kan inte anmäla mig själv!</value>
   </data>
   <data name="moderation_report_channel_missing" xml:space="preserve">
-    <value>Ingen anmälningskanal har ställts in ännu.</value>
+      <value>Ingen anmälningskanal har ställts in ännu.</value>
   </data>
   <data name="moderation_report_channel_invalid" xml:space="preserve">
-    <value>Destinationskanalen är ogiltig eller finns inte längre.</value>
-  </data>
-  <data name="moderation_report_reported_success" xml:space="preserve">
-    <value>Användare har framgångsrikt anmälts.</value>
-  </data>
-  <data name="moderation_report_reported" xml:space="preserve">
-    <value>{0} anmälde {1} i &lt;#{2}&gt;</value>
+      <value>Destinationskanalen är ogiltig eller finns inte längre.</value>
   </data>
   <data name="moderation_audit_messages_100" xml:space="preserve">
-    <value>Senaste 100 meddelanden från kanal: &lt;{0}&gt;</value>
+      <value>Senaste 100 meddelanden från kanal: &lt;{0}&gt;</value>
+  </data>
+  <data name="moderation_report_reported" xml:space="preserve">
+      <value>{0} anmälde {1} i &lt;#{2}&gt;</value>
+  </data>
+  <data name="moderation_report_reported_success" xml:space="preserve">
+      <value>Användare har framgångsrikt anmälts.</value>
   </data>
   <data name="moderation_report_perms" xml:space="preserve">
-    <value>Jag har inte behörighet att skicka meddelanden i destinationskanalen.</value>
+      <value>Jag har inte behörighet att skicka meddelanden i destinationskanalen.</value>
   </data>
   <data name="misc_afk_list" xml:space="preserve">
-    <value>Du kan se en lista av AFK-användare här: {0}/afk-list 
+      <value>Du kan se en lista av AFK-användare här: {0}/afk-list 
 Notera: Kräver \"Hantera server\"-behörighet.</value>
   </data>
   <data name="button_invalid" xml:space="preserve">
-    <value>Denna knapp är inte längre giltig. :(</value>
-  </data>
-  <data name="game_ttt_expired" xml:space="preserve">
-    <value>Detta spel har redan utgått. Du kan starta ett nytt spel via `!tictactoe &lt;opt:user&gt;`.</value>
-  </data>
-  <data name="game_ttt_taken" xml:space="preserve">
-    <value>Denna plats är redan upptagen.</value>
+      <value>Denna knapp är inte längre giltig. :(</value>
   </data>
   <data name="game_ttt_winner" xml:space="preserve">
-    <value>Vinnare</value>
+      <value>Vinnare</value>
+  </data>
+  <data name="game_ttt_taken" xml:space="preserve">
+      <value>Denna plats är redan upptagen.</value>
+  </data>
+  <data name="game_ttt_expired" xml:space="preserve">
+      <value>Detta spel har redan utgått. Du kan starta ett nytt spel via `!tictactoe &lt;opt:user&gt;`.</value>
   </data>
   <data name="game_ttt_wait_turn" xml:space="preserve">
-    <value>Du måste vänta på din tur innan du gör ett drag!</value>
-  </data>
-  <data name="automod_string_zalgo" xml:space="preserve">
-    <value>Ditt meddelande togs bort då det innehöll zalgo-text.</value>
-  </data>
-  <data name="automod_check_zalgo" xml:space="preserve">
-    <value>Zalgo-text</value>
-  </data>
-  <data name="twitch_title_live" xml:space="preserve">
-    <value>Twitch | {0} - LIVE NU!</value>
-  </data>
-  <data name="twitch_currently_playing" xml:space="preserve">
-    <value>Spelar nu:</value>
-  </data>
-  <data name="twitch_viewers" xml:space="preserve">
-    <value>Tittare:</value>
-  </data>
-  <data name="twitch_join_stream" xml:space="preserve">
-    <value>Gå med i streamen här: https://www.twitch.tv/{0}</value>
-  </data>
-  <data name="twitch_feed" xml:space="preserve">
-    <value>Twitch-flöde</value>
-  </data>
-  <data name="reddit_feed" xml:space="preserve">
-    <value>Reddit-flöde</value>
-  </data>
-  <data name="tags_invalid" xml:space="preserve">
-    <value>Du måste ange en tagg. Se alla taggar med `!tags list`.</value>
-  </data>
-  <data name="tags_list" xml:space="preserve">
-    <value>Taggar:</value>
-  </data>
-  <data name="tags_create_success" xml:space="preserve">
-    <value>Skapade framgångsrikt taggen `{0}`.</value>
-  </data>
-  <data name="tags_create_fail" xml:space="preserve">
-    <value>Misslyckades att skapa taggen `{0}`.</value>
-  </data>
-  <data name="tags_delete_success" xml:space="preserve">
-    <value>Raderade framgångsrikt taggen `{0}`.</value>
-  </data>
-  <data name="tags_delete_fail" xml:space="preserve">
-    <value>Misslyckades att radera taggen `{0}`.</value>
-  </data>
-  <data name="tags_modify_success" xml:space="preserve">
-    <value>Uppdaterade framgångsrikt taggen `{0}`.</value>
-  </data>
-  <data name="tags_modify_fail" xml:space="preserve">
-    <value>Misslyckades att uppdatera taggen `{0}`.</value>
-  </data>
-  <data name="tags_usage" xml:space="preserve">
-    <value>**Användning:** `!tags &lt;list | add | edit | delete&gt; &lt;opt:name&gt; &lt;opt:content&gt;`</value>
-  </data>
-  <data name="thread_private" xml:space="preserve">
-    <value>ÄrPrivate?</value>
-  </data>
-  <data name="thread_parent" xml:space="preserve">
-    <value>Trådförälder:</value>
-  </data>
-  <data name="thread_name" xml:space="preserve">
-    <value>Trådnamn:</value>
-  </data>
-  <data name="thread_created" xml:space="preserve">
-    <value>Tråd skapad:</value>
-  </data>
-  <data name="thread_deleted" xml:space="preserve">
-    <value>Tråd raderad:</value>
-  </data>
-  <data name="thread_locked" xml:space="preserve">
-    <value>ÄrLåst?</value>
-  </data>
-  <data name="thread_modified" xml:space="preserve">
-    <value>Tråd Uppdaterad:</value>
-  </data>
-  <data name="thread_auto_archive" xml:space="preserve">
-    <value>Tid för autoarkivering:</value>
-  </data>
-  <data name="thread_archived" xml:space="preserve">
-    <value>ÄrArkiverad?</value>
-  </data>
-  <data name="thread_archive" xml:space="preserve">
-    <value>Tråden `{0}` arkiverades.</value>
-  </data>
-  <data name="thread_unarchive" xml:space="preserve">
-    <value>Tråden `{0}` av-arkiverades.</value>
-  </data>
-  <data name="stage_updated" xml:space="preserve">
-    <value>Stage uppdaterad:</value>
-  </data>
-  <data name="stage_name" xml:space="preserve">
-    <value>Stage-nammn:</value>
-  </data>
-  <data name="stage_discoverable" xml:space="preserve">
-    <value>ÄrDiscoverable?</value>
-  </data>
-  <data name="stage_privacy" xml:space="preserve">
-    <value>Integritetsnivå:</value>
-  </data>
-  <data name="stage_live" xml:space="preserve">
-    <value>ÄrLive?</value>
-  </data>
-  <data name="stage_speaker_count" xml:space="preserve">
-    <value>Antal talare:</value>
-  </data>
-  <data name="stage_ended" xml:space="preserve">
-    <value>Stage avslutad:</value>
-  </data>
-  <data name="stage_started" xml:space="preserve">
-    <value>Stage påbörjad:</value>
-  </data>
-  <data name="imageman_analyze_failed" xml:space="preserve">
-    <value>Misslyckades att avkoda bildens data.</value>
-  </data>
-  <data name="cmd_error_bad_request" xml:space="preserve">
-    <value>Påträffade en ogiltig förfrågan, vänligen försök igen.</value>
-  </data>
-  <data name="ticket_transcript_failed" xml:space="preserve">
-    <value>**Fel:** Kunde inte generera transkript-filen.</value>
-  </data>
-  <data name="ticket_deleting" xml:space="preserve">
-    <value>Ärenade raderas om några sekunder.</value>
-  </data>
-  <data name="ticket_exists" xml:space="preserve">
-    <value>Du har redan ett ärende här: {0}!</value>
-  </data>
-  <data name="ticket_no_reason" xml:space="preserve">
-    <value>Ingen anledning angiven.</value>
-  </data>
-  <data name="ticket_delete" xml:space="preserve">
-    <value>Radera</value>
-  </data>
-  <data name="ticket_open" xml:space="preserve">
-    <value>Öppna</value>
-  </data>
-  <data name="ticket_transcript" xml:space="preserve">
-    <value>Transkript</value>
-  </data>
-  <data name="ticket_reopen" xml:space="preserve">
-    <value>Ärende öppnades åter av {0}</value>
-  </data>
-  <data name="ticket_transcript_channel_missing" xml:space="preserve">
-    <value>**Fel:** Kanal för transkript finns inte. (Eller så kan Cakey Bot inte läsa/skicka meddelanden.)</value>
-  </data>
-  <data name="ticket_transcript_saved" xml:space="preserve">
-    <value>Transkript sparades framgångsrikt till {0}.</value>
-  </data>
-  <data name="ticket_ticket" xml:space="preserve">
-    <value>Ärende:</value>
-  </data>
-  <data name="ticket_saved_by" xml:space="preserve">
-    <value>Sparad av:</value>
-  </data>
-  <data name="ticket_message_count" xml:space="preserve">
-    <value>Antal meddelanden:</value>
-  </data>
-  <data name="ticket_staff_reply" xml:space="preserve">
-    <value>En personalmedlem besvarar ditt ärende inom kort.</value>
-  </data>
-  <data name="ticket_close" xml:space="preserve">
-    <value>Stäng</value>
-  </data>
-  <data name="ticket_issue" xml:space="preserve">
-    <value>{0} har följande problem:</value>
-  </data>
-  <data name="ticket_create" xml:space="preserve">
-    <value>Välj knappen nedan för att skapa ett supportärende.</value>
-  </data>
-  <data name="ticket_title" xml:space="preserve">
-    <value>Supportärenden</value>
-  </data>
-  <data name="ticket_open_embed" xml:space="preserve">
-    <value>Öppna ett ärende</value>
-  </data>
-  <data name="ticket_closed" xml:space="preserve">
-    <value>Ärende stängt av {0}</value>
-  </data>
-  <data name="archive_error" xml:space="preserve">
-    <value>Detta kommando kan endast använda i en tråd.</value>
-  </data>
-  <data name="error_missing_perm_self_managethreads" xml:space="preserve">
-    <value>Jag har inte behörighet att "Hantera trådar"!</value>
-  </data>
-  <data name="archive_success" xml:space="preserve">
-    <value>Tråd arkiverad av {0}.</value>
-  </data>
-  <data name="archive_error_2" xml:space="preserve">
-    <value>Tråd är redan arkiverad.</value>
-  </data>
-  <data name="error_failed_unmute" xml:space="preserve">
-    <value>Misslyckades att avtysta användare.</value>
-  </data>
-  <data name="core_sr_embed_error" xml:space="preserve">
-    <value>Du måste lägga till självroller innan du skapar en inbäddning.</value>
-  </data>
-  <data name="core_sr_embed_description_select" xml:space="preserve">
-    <value>Du kan lägga till/ta bort roller till/från dig själv genom menyn nedan.</value>
-  </data>
-  <data name="core_sr_embed_description_button" xml:space="preserve">
-    <value>Du kan lägga till/ta bort roller till/från dig själv med knapparna nedan.</value>
-  </data>
-  <data name="core_sr_embed_description_reaction" xml:space="preserve">
-    <value>Du kan lägga till/ta bort roller till/från dig själv med reaktionerna nedan.</value>
-  </data>
-  <data name="core_sr_roles_added" xml:space="preserve">
-    <value>Tillagda roller:</value>
-  </data>
-  <data name="core_sr_roles_removed" xml:space="preserve">
-    <value>Borttagna roller:</value>
-  </data>
-  <data name="automod_string_phishing_link" xml:space="preserve">
-    <value>Ditt meddelande raderades då det innehåll en länk för lösenordsfiske.</value>
-  </data>
-  <data name="automod_check_phishing_link" xml:space="preserve">
-    <value>Länk till lösenordsfiske</value>
-  </data>
+      <value>Du måste vänta på din tur innan du gör ett drag!</value>
+  </data>
+    <data name="automod_string_zalgo" xml:space="preserve">
+        <value>Ditt meddelande togs bort då det innehöll zalgo-text.</value>
+    </data>
+    <data name="automod_check_zalgo" xml:space="preserve">
+        <value>Zalgo-text</value>
+    </data>
+    <data name="twitch_title_live" xml:space="preserve">
+        <value>Twitch | {0} - LIVE NU!</value>
+    </data>
+    <data name="twitch_currently_playing" xml:space="preserve">
+        <value>Spelar nu:</value>
+    </data>
+    <data name="twitch_viewers" xml:space="preserve">
+        <value>Tittare:</value>
+    </data>
+    <data name="twitch_join_stream" xml:space="preserve">
+        <value>Gå med i streamen här: https://www.twitch.tv/{0}</value>
+    </data>
+    <data name="twitch_feed" xml:space="preserve">
+        <value>Twitch-flöde</value>
+    </data>
+    <data name="reddit_feed" xml:space="preserve">
+        <value>Reddit-flöde</value>
+    </data>
+    <data name="tags_create_success" xml:space="preserve">
+        <value>Skapade framgångsrikt taggen `{0}`.</value>
+    </data>
+    <data name="tags_create_fail" xml:space="preserve">
+        <value>Misslyckades att skapa taggen `{0}`.</value>
+    </data>
+    <data name="tags_modify_fail" xml:space="preserve">
+        <value>Misslyckades att uppdatera taggen `{0}`.</value>
+    </data>
+    <data name="tags_modify_success" xml:space="preserve">
+        <value>Uppdaterade framgångsrikt taggen `{0}`.</value>
+    </data>
+    <data name="tags_delete_fail" xml:space="preserve">
+        <value>Misslyckades att radera taggen `{0}`.</value>
+    </data>
+    <data name="tags_delete_success" xml:space="preserve">
+        <value>Raderade framgångsrikt taggen `{0}`.</value>
+    </data>
+    <data name="tags_usage" xml:space="preserve">
+        <value>**Användning:** `!tags &lt;list | add | edit | delete&gt; &lt;opt:name&gt; &lt;opt:content&gt;`</value>
+    </data>
+    <data name="tags_list" xml:space="preserve">
+        <value>Taggar:</value>
+    </data>
+    <data name="tags_invalid" xml:space="preserve">
+        <value>Du måste ange en tagg. Se alla taggar med `!tags list`.</value>
+    </data>
+    <data name="thread_deleted" xml:space="preserve">
+        <value>Tråd raderad:</value>
+    </data>
+    <data name="thread_created" xml:space="preserve">
+        <value>Tråd skapad:</value>
+    </data>
+    <data name="thread_modified" xml:space="preserve">
+        <value>Tråd Uppdaterad:</value>
+    </data>
+    <data name="thread_parent" xml:space="preserve">
+        <value>Trådförälder:</value>
+    </data>
+    <data name="thread_auto_archive" xml:space="preserve">
+        <value>Tid för autoarkivering:</value>
+    </data>
+    <data name="thread_private" xml:space="preserve">
+        <value>ÄrPrivate?</value>
+    </data>
+    <data name="thread_archived" xml:space="preserve">
+        <value>ÄrArkiverad?</value>
+    </data>
+    <data name="thread_locked" xml:space="preserve">
+        <value>ÄrLåst?</value>
+    </data>
+    <data name="thread_name" xml:space="preserve">
+        <value>Trådnamn:</value>
+    </data>
+    <data name="thread_archive" xml:space="preserve">
+        <value>Tråden `{0}` arkiverades.</value>
+    </data>
+    <data name="thread_unarchive" xml:space="preserve">
+        <value>Tråden `{0}` av-arkiverades.</value>
+    </data>
+    <data name="stage_updated" xml:space="preserve">
+        <value>Stage uppdaterad:</value>
+    </data>
+    <data name="stage_name" xml:space="preserve">
+        <value>Stage-nammn:</value>
+    </data>
+    <data name="stage_discoverable" xml:space="preserve">
+        <value>ÄrDiscoverable?</value>
+    </data>
+    <data name="stage_privacy" xml:space="preserve">
+        <value>Integritetsnivå:</value>
+    </data>
+    <data name="stage_live" xml:space="preserve">
+        <value>ÄrLive?</value>
+    </data>
+    <data name="stage_speaker_count" xml:space="preserve">
+        <value>Antal talare:</value>
+    </data>
+    <data name="stage_started" xml:space="preserve">
+        <value>Stage påbörjad:</value>
+    </data>
+    <data name="stage_ended" xml:space="preserve">
+        <value>Stage avslutad:</value>
+    </data>
+    <data name="imageman_analyze_failed" xml:space="preserve">
+        <value>Misslyckades att avkoda bildens data.</value>
+    </data>
+    <data name="cmd_error_bad_request" xml:space="preserve">
+        <value>Påträffade en ogiltig förfrågan, vänligen försök igen.</value>
+    </data>
+    <data name="ticket_no_reason" xml:space="preserve">
+        <value>Ingen anledning angiven.</value>
+    </data>
+    <data name="ticket_exists" xml:space="preserve">
+        <value>Du har redan ett ärende här: {0}!</value>
+    </data>
+    <data name="ticket_deleting" xml:space="preserve">
+        <value>Ärenade raderas om några sekunder.</value>
+    </data>
+    <data name="ticket_transcript_failed" xml:space="preserve">
+        <value>**Fel:** Kunde inte generera transkript-filen.</value>
+    </data>
+    <data name="ticket_transcript" xml:space="preserve">
+        <value>Transkript</value>
+    </data>
+    <data name="ticket_open" xml:space="preserve">
+        <value>Öppna</value>
+    </data>
+    <data name="ticket_delete" xml:space="preserve">
+        <value>Radera</value>
+    </data>
+    <data name="ticket_reopen" xml:space="preserve">
+        <value>Ärende öppnades åter av {0}</value>
+    </data>
+    <data name="ticket_transcript_channel_missing" xml:space="preserve">
+        <value>**Fel:** Kanal för transkript finns inte. (Eller så kan Cakey Bot inte läsa/skicka meddelanden.)</value>
+    </data>
+    <data name="ticket_transcript_saved" xml:space="preserve">
+        <value>Transkript sparades framgångsrikt till {0}.</value>
+    </data>
+    <data name="ticket_message_count" xml:space="preserve">
+        <value>Antal meddelanden:</value>
+    </data>
+    <data name="ticket_saved_by" xml:space="preserve">
+        <value>Sparad av:</value>
+    </data>
+    <data name="ticket_ticket" xml:space="preserve">
+        <value>Ärende:</value>
+    </data>
+    <data name="ticket_staff_reply" xml:space="preserve">
+        <value>En personalmedlem besvarar ditt ärende inom kort.</value>
+    </data>
+    <data name="ticket_close" xml:space="preserve">
+        <value>Stäng</value>
+    </data>
+    <data name="ticket_issue" xml:space="preserve">
+        <value>{0} har följande problem:</value>
+    </data>
+    <data name="ticket_create" xml:space="preserve">
+        <value>Välj knappen nedan för att skapa ett supportärende.</value>
+    </data>
+    <data name="ticket_title" xml:space="preserve">
+        <value>Supportärenden</value>
+    </data>
+    <data name="ticket_open_embed" xml:space="preserve">
+        <value>Öppna ett ärende</value>
+    </data>
+    <data name="ticket_closed" xml:space="preserve">
+        <value>Ärende stängt av {0}</value>
+    </data>
+    <data name="archive_error" xml:space="preserve">
+        <value>Detta kommando kan endast använda i en tråd.</value>
+    </data>
+    <data name="error_missing_perm_self_managethreads" xml:space="preserve">
+        <value>Jag har inte behörighet att "Hantera trådar"!</value>
+    </data>
+    <data name="archive_success" xml:space="preserve">
+        <value>Tråd arkiverad av {0}.</value>
+    </data>
+    <data name="archive_error_2" xml:space="preserve">
+        <value>Tråd är redan arkiverad.</value>
+    </data>
+    <data name="error_failed_unmute" xml:space="preserve">
+        <value>Misslyckades att avtysta användare.</value>
+    </data>
+    <data name="core_sr_embed_error" xml:space="preserve">
+        <value>Du måste lägga till självroller innan du skapar en inbäddning.</value>
+    </data>
+    <data name="core_sr_embed_description_select" xml:space="preserve">
+        <value>Du kan lägga till/ta bort roller till/från dig själv genom menyn nedan.</value>
+    </data>
+    <data name="core_sr_embed_description_button" xml:space="preserve">
+        <value>Du kan lägga till/ta bort roller till/från dig själv med knapparna nedan.</value>
+    </data>
+    <data name="core_sr_embed_description_reaction" xml:space="preserve">
+        <value>Du kan lägga till/ta bort roller till/från dig själv med reaktionerna nedan.</value>
+    </data>
+    <data name="core_sr_roles_added" xml:space="preserve">
+        <value>Tillagda roller:</value>
+    </data>
+    <data name="core_sr_roles_removed" xml:space="preserve">
+        <value>Borttagna roller:</value>
+    </data>
+    <data name="automod_string_phishing_link" xml:space="preserve">
+        <value>Ditt meddelande raderades då det innehåll en länk för lösenordsfiske.</value>
+    </data>
+    <data name="automod_check_phishing_link" xml:space="preserve">
+        <value>Länk till lösenordsfiske</value>
+    </data>
     <data name="core_setting_usage_voteskip" xml:space="preserve">
         <value>`{0}setting voteskip [true/false]`</value>
     </data>
@@ -2537,11 +2536,11 @@ Notera: Kräver \"Hantera server\"-behörighet.</value>
     <data name="filter_usage_distortion" xml:space="preserve">
         <value>**Usage:** `!filter distortion &lt;sinOffset&gt; &lt;sinScale&gt; &lt;cosOffset&gt; &lt;cosScale&gt; &lt;tanOffset&gt; &lt;tanScale&gt; &lt;offset&gt; &lt;scale&gt;`</value>
     </data>
-    <data name="filter_usage_karaoke" xml:space="preserve">
-        <value>**Usage:** `!filter karaoke &lt;level&gt; &lt;monoLevel&gt; &lt;band&gt; &lt;width&gt;`</value>
-    </data>
     <data name="filter_usage_lowpass" xml:space="preserve">
         <value>**Usage:** `!filter lowpass &lt;smoothing&gt;`</value>
+    </data>
+    <data name="filter_usage_karaoke" xml:space="preserve">
+        <value>**Usage:** `!filter karaoke &lt;level&gt; &lt;monoLevel&gt; &lt;band&gt; &lt;width&gt;`</value>
     </data>
     <data name="filter_usage_rotation" xml:space="preserve">
         <value>**Usage:** `!filter rotation &lt;frequency&gt;`</value>

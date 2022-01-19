@@ -1,45 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -58,7 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
   <data name="cooldown" xml:space="preserve">
     <value>Αυτή η εντολή είναι σε διακοπή για: {0}</value>
   </data>
@@ -83,7 +82,7 @@
   <data name="error_generic_5" xml:space="preserve">
     <value>Υπο-εντολή έρχεται σύντομα.</value>
   </data>
-    <data name="error_ssl" xml:space="preserve">
+  <data name="error_ssl" xml:space="preserve">
     <value>Πρόβλημα SSL, παρακαλώ δοκιμάστε αργότερα.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -341,6 +340,9 @@
   <data name="error_invalid_user_missing" xml:space="preserve">
     <value>Ο χρήστης δεν υπάρχει!</value>
   </data>
+  <data name="error_invalid_user_guild" xml:space="preserve">
+    <value>User is invalid. (Invalid guild user)</value>
+  </data>
   <data name="error_invalid_unknown_city" xml:space="preserve">
     <value>Άγνωστο όνομα πόλης.</value>
   </data>
@@ -408,7 +410,7 @@
   <data name="success_role_updated_mentionable" xml:space="preserve">
     <value>Ενημερώθηκε με επιτυχία το `{0}`. (Μπορεί να επισημανθεί: {1} » {2})</value>
   </data>
-    <data name="games_suggestion_suggestion" xml:space="preserve">
+  <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>Πρόταση:</value>
   </data>
   <data name="games_suggestion_vote" xml:space="preserve">
@@ -480,16 +482,16 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>Διάλεξα {0}. Και οι δύο μας διαλέξαμε {1}, είναι ισοπαλία!</value>
   </data>
-    <data name="games_giveaway_error_1" xml:space="preserve">
-        <value>**Error:** Giveaways must last less than 1 day.</value>
-    </data>
+  <data name="games_giveaway_error_1" xml:space="preserve">
+    <value>**Error:** Giveaways must last less than 1 day.</value>
+  </data>
   <data name="games_giveaway_error_2" xml:space="preserve">
     <value>**Σφάλμα:** Οι διαγωνισμοί πρέπει να διαρκούν τουλάχιστον 1 λεπτό.</value>
   </data>
   <data name="games_giveaway_title" xml:space="preserve">
     <value>:tada: **ΔΙΑΓΩΝΙΣΜΟΣ** :tada:</value>
   </data>
-    <data name="games_giveaway" xml:space="preserve">
+  <data name="games_giveaway" xml:space="preserve">
     <value>**Information:**
 ● Prize: `{0}`
 ● Winner amount: {1}
@@ -506,6 +508,41 @@ React with :tada: to enter the giveaway!</value>
   </data>
   <data name="games_giveaway_winner_limit" xml:space="preserve">
     <value>Ο αριθμός των νικητών πρέπει να είναι τουλάχιστον 1 και όχι περισσότερο από 15.</value>
+  </data>
+  <data name="games_trivia_title" xml:space="preserve">
+    <value>{0}'s Trivia Question</value>
+  </data>
+  <data name="games_trivia_footer" xml:space="preserve">
+    <value>Type the letter of the correct answer • Question #{0}</value>
+  </data>
+  <data name="games_trivia_instructions" xml:space="preserve">
+    <value>*You have 10 seconds to answer with the correct letter.*
+
+</value>
+  </data>
+  <data name="games_trivia_difficulty" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <data name="games_trivia_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+    <data name="games_trivia_timeout" xml:space="preserve">
+        <value>No answer was provided within 10s. Correct answer: `{0}`</value>
+    </data>
+  <data name="games_trivia_invalid" xml:space="preserve">
+    <value>Invalid answer was provided. Next time only provide the letter. Correct answer: `{0}`</value>
+  </data>
+  <data name="games_trivia_valid" xml:space="preserve">
+    <value>Valid answers are: `A`, `B`, `C`, or `D`.</value>
+  </data>
+  <data name="games_trivia_correct" xml:space="preserve">
+    <value>You got it right! :D</value>
+  </data>
+  <data name="games_trivia_incorrect" xml:space="preserve">
+    <value>Oh no, you got it wrong. Correct answer: `{0}`</value>
+  </data>
+  <data name="games_trivia_load_failed" xml:space="preserve">
+    <value>Failed to load any trivia questions. Please try again later.</value>
   </data>
   <data name="afk" xml:space="preserve">
     <value>Ο χρήστης {0} είναι αυτή την στιγμή AFK, Λόγος: `{1}`</value>
@@ -567,6 +604,12 @@ React with :tada: to enter the giveaway!</value>
   <data name="mod_ban_dm" xml:space="preserve">
     <value>Έγινες banned από τον σέρβερ `{0}` από τον `{1}` για: `{2}`</value>
   </data>
+  <data name="mod_ban_temp_error" xml:space="preserve">
+    <value>Temp bans must be 1 month or less.</value>
+  </data>
+    <data name="mod_ban_temp_success" xml:space="preserve">
+        <value>{0}#{1} will be unbanned &lt;t:{2}:R&gt;</value>
+    </data>
   <data name="mod_ban_soft_self" xml:space="preserve">
     <value>Δεν μπορείς να κάνεις soft ban τον εαυτό σου!</value>
   </data>
@@ -590,6 +633,15 @@ React with :tada: to enter the giveaway!</value>
   </data>
   <data name="mod_mute_dm" xml:space="preserve">
     <value>Έγινες muted στον σέρβερ `{0}` από τον `{1}` γιά: `{2}`</value>
+  </data>
+  <data name="mod_mute_temp_error" xml:space="preserve">
+    <value>Temp mutes must be 1 month or less.</value>
+  </data>
+    <data name="mod_mute_temp_success" xml:space="preserve">
+        <value>{0}#{1} will be unmuted &lt;t:{2}:R&gt;</value>
+    </data>
+  <data name="mod_mute_role_error" xml:space="preserve">
+    <value>Unable to find or create a mute role.</value>
   </data>
   <data name="mod_unmute_self_bot" xml:space="preserve">
     <value>Δεν μπορώ να κάνω unmute τον εαυτό μου!</value>
@@ -911,6 +963,24 @@ React with :tada: to enter the giveaway!</value>
   <data name="info_string_68" xml:space="preserve">
     <value>Σφάλμα</value>
   </data>
+  <data name="info_string_72" xml:space="preserve">
+    <value>```{0} text, {1} voice```</value>
+  </data>
+  <data name="info_string_73" xml:space="preserve">
+    <value>```Server Owner```</value>
+  </data>
+  <data name="info_string_74" xml:space="preserve">
+    <value>```Server Admin```</value>
+  </data>
+  <data name="info_string_75" xml:space="preserve">
+    <value>```Server Moderator```</value>
+  </data>
+  <data name="info_string_76" xml:space="preserve">
+    <value>You can also donate to show your support!</value>
+  </data>
+  <data name="info_string_77" xml:space="preserve">
+    <value>{0} Boosters</value>
+  </data>
   <data name="weather_coordinates" xml:space="preserve">
     <value>Συντεταγμένες</value>
   </data>
@@ -938,7 +1008,7 @@ React with :tada: to enter the giveaway!</value>
   <data name="weather_sun_set" xml:space="preserve">
     <value>Ηλιοβασίλεμα</value>
   </data>
-    <data name="emoji_string_name" xml:space="preserve">
+  <data name="emoji_string_name" xml:space="preserve">
     <value>Όνομα</value>
   </data>
   <data name="emoji_string_uploaded" xml:space="preserve">
@@ -983,14 +1053,68 @@ React with :tada: to enter the giveaway!</value>
   <data name="roleinfo_members" xml:space="preserve">
     <value>Μέλη [{0}]</value>
   </data>
-  <data name="misc_convert_result" xml:space="preserve">
+  <data name="misc_anime_start" xml:space="preserve">
+    <value>Start Date:</value>
+  </data>
+  <data name="misc_anime_end" xml:space="preserve">
+    <value>End Date:Date:</value>
+  </data>
+  <data name="misc_anime_status" xml:space="preserve">
+    <value>Κατάσταση:</value>
+  </data>
+  <data name="misc_anime_status_airing" xml:space="preserve">
+    <value>Airing</value>
+  </data>
+  <data name="misc_anime_status_ended" xml:space="preserve">
+    <value>Ended</value>
+  </data>
+  <data name="misc_anime_episodes" xml:space="preserve">
+    <value>Episodes:</value>
+  </data>
+  <data name="misc_anime_rating" xml:space="preserve">
+    <value>Rating::</value>
+  </data>
+  <data name="misc_anime_synopsis" xml:space="preserve">
+    <value>Synopsis:</value>
+  </data>
+  <data name="misc_anime_footer" xml:space="preserve">
+    <value>Anime ID: {0} • Score: {1}</value>
+  </data>
+  <data name="misc_manga_status_ip" xml:space="preserve">
+    <value>In-Progress</value>
+  </data>
+  <data name="misc_manga_status_completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="misc_manga_volumes" xml:space="preserve">
+    <value>Volumes:</value>
+  </data>
+  <data name="misc_manga_chapters" xml:space="preserve">
+    <value>Chapters:</value>
+  </data>
+  <data name="misc_manga_footer" xml:space="preserve">
+    <value>Manga ID: {0} • Score: {1}</value>
+  </data>
+    <data name="misc_bgg_release" xml:space="preserve">
+    <value>Release Date:</value>
+  </data>
+    <data name="misc_convert_result" xml:space="preserve">
     <value>Αποτέλεσμα:</value>
   </data>
   <data name="misc_convert_rate" xml:space="preserve">
     <value>Συνάλλαγμα:</value>
   </data>
+  <data name="misc_convert_usage" xml:space="preserve">
+    <value>Usage: `!convert &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
+  </data>
   <data name="misc_fact" xml:space="preserve">
     <value>Τυχαίο Γεγονός:</value>
+  </data>
+  <data name="misc_fact_failed" xml:space="preserve">
+    <value>Failed to get a fact.</value>
+  </data>
+  <data name="misc_fact_invalid" xml:space="preserve">
+    <value>Invalid fact type. **Valid Types:** Dog, Cat, Panda, Fox, Bird, Koala, Kangaroo, Raccoon, Elephant, Giraffe, Whale</value>
   </data>
   <data name="misc_pizza" xml:space="preserve">
     <value>Εδώ πηγαίνετε: {0}</value>
@@ -1007,7 +1131,133 @@ React with :tada: to enter the giveaway!</value>
     <data name="misc_reminder_success" xml:space="preserve">
         <value>Successfully set a reminder for `{0}` {1}.</value>
     </data>
-    <data name="music_error_voice_channel_1" xml:space="preserve">
+    <data name="misc_covid_for_global" xml:space="preserve">
+    <value>COVID-19 Statistics for GLOBAL</value>
+  </data>
+  <data name="misc_covid_for_country" xml:space="preserve">
+    <value>COVID-19 Statistics for {0}</value>
+  </data>
+  <data name="misc_covid_cases" xml:space="preserve">
+    <value>Cases</value>
+  </data>
+  <data name="misc_covid_deaths" xml:space="preserve">
+    <value>Deaths</value>
+  </data>
+  <data name="misc_covid_recovered" xml:space="preserve">
+    <value>Recovered</value>
+  </data>
+  <data name="misc_covid_active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="misc_covid_cases_today" xml:space="preserve">
+    <value>Cases Today</value>
+  </data>
+  <data name="misc_covid_deaths_today" xml:space="preserve">
+    <value>Deaths Today</value>
+  </data>
+  <data name="misc_covid_advice" xml:space="preserve">
+    <value>Advice for Public</value>
+  </data>
+  <data name="misc_imdb_rating" xml:space="preserve">
+    <value>IMDb Rating:</value>
+  </data>
+  <data name="misc_imdb_language" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="misc_imdb_content_rating" xml:space="preserve">
+    <value>Content Rating:</value>
+  </data>
+  <data name="misc_imdb_countries" xml:space="preserve">
+    <value>Countries:</value>
+  </data>
+  <data name="misc_imdb_companies" xml:space="preserve">
+    <value>Companies:</value>
+  </data>
+  <data name="misc_imdb_genres" xml:space="preserve">
+    <value>Genres:</value>
+  </data>
+  <data name="misc_imdb_stars" xml:space="preserve">
+    <value>Stars:</value>
+  </data>
+  <data name="misc_imdb_writers" xml:space="preserve">
+    <value>Writers:</value>
+  </data>
+  <data name="misc_imdb_directors" xml:space="preserve">
+    <value>Directors:</value>
+  </data>
+  <data name="misc_imdb_awards" xml:space="preserve">
+    <value>Awards:</value>
+  </data>
+  <data name="misc_imdb_metacritic" xml:space="preserve">
+    <value>Metacritic Rating:</value>
+  </data>
+  <data name="misc_imdb_produced" xml:space="preserve">
+    <value>Produced:</value>
+  </data>
+  <data name="misc_imdb_name_birth" xml:space="preserve">
+    <value>Birth Date:</value>
+  </data>
+  <data name="misc_imdb_name_death" xml:space="preserve">
+    <value>Death Date:</value>
+  </data>
+  <data name="misc_imdb_name_roles" xml:space="preserve">
+    <value>Role(s):</value>
+  </data>
+  <data name="misc_imdb_name_known" xml:space="preserve">
+    <value>Known For:</value>
+  </data>
+  <data name="misc_imdb_name_movies" xml:space="preserve">
+    <value>Movies:</value>
+  </data>
+  <data name="misc_pokemon_failed" xml:space="preserve">
+    <value>Sorry, I could not find that pokemon.</value>
+  </data>
+  <data name="misc_pokemon_format_1" xml:space="preserve">
+    <value>HP: {0}  -  Speed: {1}
+</value>
+  </data>
+  <data name="misc_pokemon_format_2" xml:space="preserve">
+    <value>Attack: {0}  -  Defense: {1}
+</value>
+  </data>
+  <data name="misc_pokemon_format_3" xml:space="preserve">
+      <value>Sp Attack: {0}  -  Sp Defense: {1}
+</value>
+  </data>
+  <data name="misc_pokemon_format_4" xml:space="preserve">
+    <value>Total: {0}</value>
+  </data>
+  <data name="misc_pokemon_species" xml:space="preserve">
+    <value>Species:</value>
+  </data>
+  <data name="misc_pokemon_abilities" xml:space="preserve">
+    <value>Abilities:</value>
+  </data>
+  <data name="misc_pokemon_height" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="misc_pokemon_weight" xml:space="preserve">
+    <value>Weight:</value>
+  </data>
+  <data name="misc_pokemon_gender" xml:space="preserve">
+    <value>Gender:</value>
+  </data>
+  <data name="misc_pokemon_base_exp" xml:space="preserve">
+    <value>Base Exp:</value>
+  </data>
+  <data name="misc_pokemon_egg_groups" xml:space="preserve">
+    <value>Egg Groups:</value>
+  </data>
+  <data name="misc_pokemon_evolution" xml:space="preserve">
+    <value>Evolution Line: (Stage: {0})</value>
+  </data>
+  <data name="misc_pokemon_stats" xml:space="preserve">
+    <value>Stats:</value>
+  </data>
+  <data name="misc_trailer" xml:space="preserve">
+    <value>{0} Trailer: &lt;{1}&gt;</value>
+  </data>
+  <data name="music_error_voice_channel_1" xml:space="preserve">
     <value>Πρέπει να είσαι σε ένα κανάλια ομιλίας.</value>
   </data>
   <data name="music_error_voice_channel_2" xml:space="preserve">
@@ -1031,13 +1281,19 @@ React with :tada: to enter the giveaway!</value>
   <data name="music_error_play" xml:space="preserve">
     <value>Σφάλμα κατά τη φόρτωση κομματιού: ```{0}```</value>
   </data>
+  <data name="music_error_timespan" xml:space="preserve">
+    <value>Timespan of queue is too long. Please clear songs from the queue before adding more.</value>
+  </data>
+  <data name="music_error_lavalink" xml:space="preserve">
+    <value>LavaLink instance crashed. Please report in our </value>
+  </data>
   <data name="music_join" xml:space="preserve">
     <value>Μπήκα στο κανάλι: `{0}`.</value>
   </data>
   <data name="music_disconnect" xml:space="preserve">
     <value>Επιτυχία αποσύνδεσης!</value>
   </data>
-    <data name="music_disconnect_error_2" xml:space="preserve">
+  <data name="music_disconnect_error_2" xml:space="preserve">
     <value>Πρέπει να είστε ο μόνος χρήστης στο κανάλι φωνής ή πρέπει να έχετε δικαιώματα Mod για να αποσυνδέσετε το Cakey Bot εάν παίζει κάποιο τραγούδι.</value>
   </data>
   <data name="music_move" xml:space="preserve">
@@ -1141,20 +1397,20 @@ React with :tada: to enter the giveaway!</value>
   <data name="music_volume_3" xml:space="preserve">
     <value>Ο ήχος μπήκε με επιτυχία στο: `{0}`</value>
   </data>
-    <data name="music_skip_1" xml:space="preserve">
-        <value>[{0}]({1}) [{2}] has been skipped.</value>
-    </data>
-    <data name="music_skip_2" xml:space="preserve">
-        <value>&lt;:CB_Skip:586387463119962142&gt; Skipped [{0}]({1}) [{2}]
+  <data name="music_skip_1" xml:space="preserve">
+    <value>[{0}]({1}) [{2}] has been skipped.</value>
+  </data>
+  <data name="music_skip_2" xml:space="preserve">
+    <value>&lt;:CB_Skip:586387463119962142&gt; Skipped [{0}]({1}) [{2}]
 &lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
-    </data>
+  </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>Δεν παίζει κανένα τραγούδι αυτή την στιγμή.</value>
   </data>
   <data name="music_skip_4" xml:space="preserve">
     <value>Δεν υπάρχει κανένα άλλο τραγούδι στην σειρά.</value>
   </data>
-    <data name="music_voteskip_2" xml:space="preserve">
+  <data name="music_voteskip_2" xml:space="preserve">
     <value>Ψήφησες για παράληψη, {0} περισσότερες ψήφους{1} χρειάζονται.</value>
   </data>
   <data name="music_voteskip_3" xml:space="preserve">
@@ -1184,12 +1440,12 @@ React with :tada: to enter the giveaway!</value>
   <data name="music_add_1" xml:space="preserve">
     <value>Προστέθηκαν `{0}` τραγούδια στην σειρά.</value>
   </data>
-    <data name="music_add_2" xml:space="preserve">
-        <value>[{0}]({1}) [{2}] has been added to the queue.</value>
-    </data>
-    <data name="music_now_playing_1" xml:space="preserve">
-        <value>Now playing: [{0}]({1}) [{2}]</value>
-    </data>
+  <data name="music_add_2" xml:space="preserve">
+    <value>[{0}]({1}) [{2}] has been added to the queue.</value>
+  </data>
+  <data name="music_now_playing_1" xml:space="preserve">
+    <value>Now playing: [{0}]({1}) [{2}]</value>
+  </data>
   <data name="music_volume" xml:space="preserve">
     <value>Ήχος: `{0}`</value>
   </data>
@@ -1216,7 +1472,7 @@ React with :tada: to enter the giveaway!</value>
     <value>Επιτυχία ακύρωση αναζήτησης.</value>
   </data>
   <data name="music_cancel_2" xml:space="preserve">
-    <value>Γράψτε έναν από τους αριθμούς για να διαλέξτε ένα τραγούδι ή γράψτε &#39;cancel&#39; /&#39;none&#39; για να ακυρώσετε την επιλογή.</value>
+    <value>Γράψτε έναν από τους αριθμούς για να διαλέξτε ένα τραγούδι ή γράψτε 'cancel' /'none' για να ακυρώσετε την επιλογή.</value>
   </data>
   <data name="music_string_1" xml:space="preserve">
     <value>Θέση στην σειρά:</value>
@@ -1318,15 +1574,36 @@ React with :tada: to enter the giveaway!</value>
   <data name="music_embed_react_6" xml:space="preserve">
     <value>Επανάληψη του τρέχοντος τραγουδιού</value>
   </data>
-    <data name="music_logger_trackend" xml:space="preserve">
-        <value>Finished playing: [{0}]({1}) [{2}]
+  <data name="music_logger_trackend" xml:space="preserve">
+    <value>Finished playing: [{0}]({1}) [{2}]
 &lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
-    </data>
+  </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>Το τραγούδι κόλλησε προσπαθώντας να παίξει.</value>
   </data>
   <data name="music_logger_disconnect" xml:space="preserve">
     <value>Όλοι οι χρήστες αποσυνδέθηκαν από το κανάλι φωνής, το bot θα αποσυνδεθεί σε 30 δευτερόλεπτα.</value>
+  </data>
+  <data name="music_grab_error" xml:space="preserve">
+    <value>A song must be playing to grab it.</value>
+  </data>
+  <data name="music_grab_dm" xml:space="preserve">
+    <value>Successfully sent song info to your DMs.</value>
+  </data>
+  <data name="music_grab_dm_failed" xml:space="preserve">
+    <value>Failed to send DM, please check your settings.</value>
+  </data>
+  <data name="music_equalizer_none" xml:space="preserve">
+    <value>No equalizer bands have been set.</value>
+  </data>
+  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <value>Valid bands are 0 through 14</value>
+  </data>
+  <data name="music_equalizer_invalid_2" xml:space="preserve">
+    <value>Valid gain values are between -0.25 and 1.0</value>
+  </data>
+  <data name="music_equalizer_success" xml:space="preserve">
+    <value>Successfully set band #{0} to `{1}`</value>
   </data>
   <data name="roles_persistent" xml:space="preserve">
     <value>Ο ρόλος του `{0}`ήταν επιτυχής {1} {2}.</value>
@@ -1367,6 +1644,18 @@ React with :tada: to enter the giveaway!</value>
   </data>
   <data name="cmd_error_unknown_2" xml:space="preserve">
     <value>Άγνωστο λάθος, παρακαλούμε να το αναφέρετε στην υποστήριξή μας στο Discord μας: https://discord.gg/EUssVK5</value>
+  </data>
+  <data name="cmd_error_song_request" xml:space="preserve">
+    <value>You can not run commands in the song request channel.</value>
+  </data>
+  <data name="cmd_error_timeout_1" xml:space="preserve">
+    <value>Timed out while trying to run the command.</value>
+  </data>
+  <data name="cmd_error_timeout_2" xml:space="preserve">
+    <value>Request timed out, please try again later.</value>
+  </data>
+  <data name="cmd_error_requests" xml:space="preserve">
+    <value>Received too many requests. Please try again later.</value>
   </data>
   <data name="audit_string_1" xml:space="preserve">
     <value>Ο χρήστης μπήκε:</value>
@@ -1485,6 +1774,45 @@ React with :tada: to enter the giveaway!</value>
   <data name="audit_string_39" xml:space="preserve">
     <value>Τροποποιήθηκε</value>
   </data>
+  <data name="audit_string_40" xml:space="preserve">
+    <value>**Guild Boost Count Updated:**</value>
+  </data>
+  <data name="audit_string_41" xml:space="preserve">
+    <value>Suspicious Account</value>
+  </data>
+  <data name="audit_string_42" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="audit_string_43" xml:space="preserve">
+    <value>swapped voice channels.</value>
+  </data>
+  <data name="audit_string_44" xml:space="preserve">
+    <value> a voice channel.</value>
+  </data>
+  <data name="audit_string_45" xml:space="preserve">
+    <value>joined</value>
+  </data>
+  <data name="audit_string_46" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="audit_string_47" xml:space="preserve">
+    <value>**{0} has {1}**</value>
+  </data>
+  <data name="audit_string_48" xml:space="preserve">
+    <value>Last Nickname:</value>
+  </data>
+  <data name="audit_string_49" xml:space="preserve">
+    <value>Invite Link Created: [{0}](https://discord.com/invite/{1})</value>
+  </data>
+  <data name="audit_string_50" xml:space="preserve">
+    <value>Widget</value>
+  </data>
+  <data name="audit_string_51" xml:space="preserve">
+    <value>Invite Link Deleted: `{0}`</value>
+  </data>
+  <data name="util_server_offline" xml:space="preserve">
+    <value>The server is offline or is not responding to queries.</value>
+  </data>
   <data name="util_server_name" xml:space="preserve">
     <value>Όνομα / MOTD:</value>
   </data>
@@ -1538,7 +1866,7 @@ React with :tada: to enter the giveaway!</value>
   <data name="util_steam_groups" xml:space="preserve">
     <value>Ομάδες</value>
   </data>
-    <data name="util_steam_vac" xml:space="preserve">
+  <data name="util_steam_vac" xml:space="preserve">
     <value>Αποκλεισμός VAC</value>
   </data>
   <data name="util_steam_hidden" xml:space="preserve">
@@ -1653,6 +1981,9 @@ React with :tada: to enter the giveaway!</value>
   <data name="core_error" xml:space="preserve">
     <value>Σφάλμα: Το Cakey Bot απαιτεί δικαιώματα embed για πλήρη λειτουργία.</value>
   </data>
+  <data name="core_system_message" xml:space="preserve">
+    <value>*System Message*</value>
+  </data>
   <data name="core_cmd_search_1" xml:space="preserve">
     <value>Δυστυχώς, δεν μπορώ να βρω μια εντολή όπως το `{0}`.</value>
   </data>
@@ -1680,10 +2011,10 @@ React with :tada: to enter the giveaway!</value>
   <data name="core_setting_usage_prefix" xml:space="preserve">
     <value>`{0}setting prefix [Νέο πρόθεμα]`</value>
   </data>
-    <data name="core_setting_description_prefix" xml:space="preserve">
+  <data name="core_setting_description_prefix" xml:space="preserve">
     <value>Αλλάζει το πρόθεμα στο οποίο ανταποκρίνεται το Cakey Bot.</value>
   </data>
-    <data name="core_setting_prefix" xml:space="preserve">
+  <data name="core_setting_prefix" xml:space="preserve">
     <value>Πρόθεμα</value>
   </data>
   <data name="core_setting_prefix_current" xml:space="preserve">
@@ -1692,10 +2023,10 @@ React with :tada: to enter the giveaway!</value>
   <data name="core_setting_prefix_update" xml:space="preserve">
     <value>Αλλαγή / ενημέρωση πρόθεμα:</value>
   </data>
-    <data name="core_setting_modules_current" xml:space="preserve">
+  <data name="core_setting_modules_current" xml:space="preserve">
     <value>Τρέχουσες ρυθμίσεις:</value>
   </data>
-    <data name="core_setting_updated_prefix" xml:space="preserve">
+  <data name="core_setting_updated_prefix" xml:space="preserve">
     <value>Το πρόθεμα για αυτόν τον διακομιστή έχει ενημερωθεί σε: `{0}`</value>
   </data>
     <data name="core_feedback_blacklisted" xml:space="preserve">
@@ -1779,6 +2110,12 @@ React with :tada: to enter the giveaway!</value>
     <value>** Δικαιώματα μπαλαντέρ: **
 </value>
   </data>
+  <data name="core_limited" xml:space="preserve">
+    <value>Cakey Bot is currently having technical issues. Some features are disabled or limited temporarily.</value>
+  </data>
+  <data name="core_string_1" xml:space="preserve">
+    <value>Command Info</value>
+  </data>
   <data name="urban_error" xml:space="preserve">
     <value>Δεν ήταν δυνατή η εύρεση καταχώρησης σας στο Urban Dictionary. Δοκιμάστε αργότερα ή δοκιμάστε άλλο.</value>
   </data>
@@ -1805,6 +2142,9 @@ React with :tada: to enter the giveaway!</value>
   </data>
   <data name="automod_string_selfbot" xml:space="preserve">
     <value>Το μήνυμά σας διαγράφηκε επειδή ήταν ένα μήνυμα self-bot.</value>
+  </data>
+  <data name="automod_string_stickers" xml:space="preserve">
+    <value>Your message was deleted because it contained stickers.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
     <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε &gt;{0}% ίδιες λέξεις.</value>
@@ -1836,11 +2176,17 @@ React with :tada: to enter the giveaway!</value>
   <data name="automod_check_self_bot" xml:space="preserve">
     <value>Μήνυμα self-bot</value>
   </data>
+  <data name="automod_check_stickers" xml:space="preserve">
+    <value>Stickers</value>
+  </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
     <value>Ίδιοι χαρακτήρες</value>
   </data>
   <data name="automod_check_duplicate_word" xml:space="preserve">
     <value>Ίδιες λέξεις</value>
+  </data>
+  <data name="automod_check_auto_dehoist" xml:space="preserve">
+    <value>Auto Dehoist</value>
   </data>
   <data name="automod_embed_violation" xml:space="preserve">
     <value>Παραβίαση:</value>
@@ -1851,444 +2197,97 @@ React with :tada: to enter the giveaway!</value>
   <data name="automod_embed_channel" xml:space="preserve">
     <value>Κανάλι:</value>
   </data>
-    <data name="audit_string_40" xml:space="preserve">
-        <value>**Guild Boost Count Updated:**</value>
-    </data>
-    <data name="audit_string_41" xml:space="preserve">
-        <value>Suspicious Account</value>
-    </data>
-    <data name="audit_string_42" xml:space="preserve">
-        <value>User:</value>
-    </data>
-    <data name="audit_string_43" xml:space="preserve">
-        <value>swapped voice channels.</value>
-    </data>
-    <data name="audit_string_44" xml:space="preserve">
-        <value> a voice channel.</value>
-    </data>
-    <data name="audit_string_45" xml:space="preserve">
-        <value>joined</value>
-    </data>
-    <data name="audit_string_46" xml:space="preserve">
-        <value>left</value>
-    </data>
-    <data name="automod_check_stickers" xml:space="preserve">
-        <value>Stickers</value>
-    </data>
-    <data name="util_server_offline" xml:space="preserve">
-        <value>The server is offline or is not responding to queries.</value>
-    </data>
-    <data name="quoter_by_value" xml:space="preserve">
-        <value>{0} from &lt;#{1}&gt; in {2}</value>
-    </data>
-    <data name="quoter_by_title" xml:space="preserve">
-        <value>Quoted By:</value>
-    </data>
-    <data name="audit_string_47" xml:space="preserve">
-        <value>**{0} has {1}**</value>
-    </data>
-    <data name="audit_string_48" xml:space="preserve">
-        <value>Last Nickname:</value>
-    </data>
-    <data name="audit_string_49" xml:space="preserve">
-        <value>Invite Link Created: [{0}](https://discord.com/invite/{1})</value>
-    </data>
-    <data name="audit_string_51" xml:space="preserve">
-        <value>Invite Link Deleted: `{0}`</value>
-    </data>
-    <data name="automod_check_auto_dehoist" xml:space="preserve">
-        <value>Auto Dehoist</value>
-    </data>
-    <data name="audit_string_50" xml:space="preserve">
-        <value>Widget</value>
-    </data>
-    <data name="cmd_error_requests" xml:space="preserve">
-        <value>Received too many requests. Please try again later.</value>
-    </data>
-    <data name="automod_string_stickers" xml:space="preserve">
-        <value>Your message was deleted because it contained stickers.</value>
-    </data>
-    <data name="core_limited" xml:space="preserve">
-        <value>Cakey Bot is currently having technical issues. Some features are disabled or limited temporarily.</value>
-    </data>
-    <data name="cmd_error_song_request" xml:space="preserve">
-        <value>You can not run commands in the song request channel.</value>
-    </data>
-    <data name="cmd_error_timeout_1" xml:space="preserve">
-        <value>Timed out while trying to run the command.</value>
-    </data>
-    <data name="cmd_error_timeout_2" xml:space="preserve">
-        <value>Request timed out, please try again later.</value>
-    </data>
-    <data name="core_string_1" xml:space="preserve">
-        <value>Command Info</value>
-    </data>
-    <data name="core_system_message" xml:space="preserve">
-        <value>*System Message*</value>
-    </data>
-    <data name="error_invalid_user_guild" xml:space="preserve">
-        <value>User is invalid. (Invalid guild user)</value>
-    </data>
-    <data name="music_equalizer_invalid_1" xml:space="preserve">
-        <value>Valid bands are 0 through 14</value>
-    </data>
-    <data name="music_equalizer_invalid_2" xml:space="preserve">
-        <value>Valid gain values are between -0.25 and 1.0</value>
-    </data>
-    <data name="music_equalizer_none" xml:space="preserve">
-        <value>No equalizer bands have been set.</value>
-    </data>
-    <data name="music_equalizer_success" xml:space="preserve">
-        <value>Successfully set band #{0} to `{1}`</value>
-    </data>
-    <data name="music_error_lavalink" xml:space="preserve">
-        <value>LavaLink instance crashed. Please report in our </value>
-    </data>
-    <data name="music_error_timespan" xml:space="preserve">
-        <value>Timespan of queue is too long. Please clear songs from the queue before adding more.</value>
-    </data>
-    <data name="music_grab_dm" xml:space="preserve">
-        <value>Successfully sent song info to your DMs.</value>
-    </data>
-    <data name="music_grab_dm_failed" xml:space="preserve">
-        <value>Failed to send DM, please check your settings.</value>
-    </data>
-    <data name="music_grab_error" xml:space="preserve">
-        <value>A song must be playing to grab it.</value>
-    </data>
-    <data name="mod_mute_role_error" xml:space="preserve">
-        <value>Unable to find or create a mute role.</value>
-    </data>
-    <data name="mod_mute_temp_success" xml:space="preserve">
-        <value>{0}#{1} will be unmuted &lt;t:{2}:R&gt;</value>
-    </data>
-    <data name="mod_mute_temp_error" xml:space="preserve">
-        <value>Temp mutes must be 1 month or less.</value>
-    </data>
-    <data name="mod_ban_temp_error" xml:space="preserve">
-        <value>Temp bans must be 1 month or less.</value>
-    </data>
-    <data name="mod_ban_temp_success" xml:space="preserve">
-        <value>{0}#{1} will be unbanned &lt;t:{2}:R&gt;</value>
-    </data>
-    <data name="misc_trailer" xml:space="preserve">
-        <value>{0} Trailer: &lt;{1}&gt;</value>
-    </data>
-    <data name="games_trivia_category" xml:space="preserve">
-        <value>Category</value>
-    </data>
-    <data name="games_trivia_correct" xml:space="preserve">
-        <value>You got it right! :D</value>
-    </data>
-    <data name="games_trivia_difficulty" xml:space="preserve">
-        <value>Difficulty</value>
-    </data>
-    <data name="games_trivia_footer" xml:space="preserve">
-        <value>Type the letter of the correct answer • Question #{0}</value>
-    </data>
-    <data name="games_trivia_incorrect" xml:space="preserve">
-        <value>Oh no, you got it wrong. Correct answer: `{0}`</value>
-    </data>
-    <data name="games_trivia_invalid" xml:space="preserve">
-        <value>Invalid answer was provided. Next time only provide the letter. Correct answer: `{0}`</value>
-    </data>
-    <data name="games_trivia_instructions" xml:space="preserve">
-        <value>*You have 10 seconds to answer with the correct letter.*
-
-</value>
-    </data>
-    <data name="games_trivia_load_failed" xml:space="preserve">
-        <value>Failed to load any trivia questions. Please try again later.</value>
-    </data>
-    <data name="games_trivia_title" xml:space="preserve">
-        <value>{0}'s Trivia Question</value>
-    </data>
-    <data name="games_trivia_valid" xml:space="preserve">
-        <value>Valid answers are: `A`, `B`, `C`, or `D`.</value>
-    </data>
-    <data name="github_results" xml:space="preserve">
-        <value>Showing lines {0} - {1} of `{2}`</value>
-    </data>
-    <data name="games_trivia_timeout" xml:space="preserve">
-        <value>No answer was provided within 10s. Correct answer: `{0}`</value>
-    </data>
-    <data name="info_string_72" xml:space="preserve">
-        <value>```{0} text, {1} voice```</value>
-    </data>
-    <data name="info_string_73" xml:space="preserve">
-        <value>```Server Owner```</value>
-    </data>
-    <data name="info_string_74" xml:space="preserve">
-        <value>```Server Admin```</value>
-    </data>
-    <data name="info_string_75" xml:space="preserve">
-        <value>```Server Moderator```</value>
-    </data>
-    <data name="info_string_76" xml:space="preserve">
-        <value>You can also donate to show your support!</value>
-    </data>
-    <data name="info_string_77" xml:space="preserve">
-        <value>{0} Boosters</value>
-    </data>
-    <data name="misc_anime_end" xml:space="preserve">
-        <value>End Date:Date:</value>
-    </data>
-    <data name="misc_anime_episodes" xml:space="preserve">
-        <value>Episodes:</value>
-    </data>
-    <data name="misc_anime_footer" xml:space="preserve">
-        <value>Anime ID: {0} • Score: {1}</value>
-    </data>
-    <data name="misc_anime_rating" xml:space="preserve">
-        <value>Rating::</value>
-    </data>
-    <data name="misc_anime_start" xml:space="preserve">
-        <value>Start Date:</value>
-    </data>
-    <data name="misc_anime_status" xml:space="preserve">
-        <value>Status:</value>
-    </data>
-    <data name="misc_anime_status_airing" xml:space="preserve">
-        <value>Airing</value>
-    </data>
-    <data name="misc_anime_status_ended" xml:space="preserve">
-        <value>Ended</value>
-    </data>
-    <data name="misc_anime_synopsis" xml:space="preserve">
-        <value>Synopsis:</value>
-    </data>
-    <data name="misc_bgg_release" xml:space="preserve">
-        <value>Release Date:</value>
-    </data>
-    <data name="misc_convert_usage" xml:space="preserve">
-        <value>Usage: `!convert &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
-    </data>
-    <data name="misc_covid_advice" xml:space="preserve">
-        <value>Advice for Public</value>
-    </data>
-    <data name="misc_covid_active" xml:space="preserve">
-        <value>Active</value>
-    </data>
-    <data name="misc_covid_cases" xml:space="preserve">
-        <value>Cases</value>
-    </data>
-    <data name="misc_covid_cases_today" xml:space="preserve">
-        <value>Cases Today</value>
-    </data>
-    <data name="misc_covid_deaths" xml:space="preserve">
-        <value>Deaths</value>
-    </data>
-    <data name="misc_covid_for_country" xml:space="preserve">
-        <value>COVID-19 Statistics for {0}</value>
-    </data>
-    <data name="misc_covid_deaths_today" xml:space="preserve">
-        <value>Deaths Today</value>
-    </data>
-    <data name="misc_covid_for_global" xml:space="preserve">
-        <value>COVID-19 Statistics for GLOBAL</value>
-    </data>
-    <data name="misc_covid_recovered" xml:space="preserve">
-        <value>Recovered</value>
-    </data>
-    <data name="misc_fact_failed" xml:space="preserve">
-        <value>Failed to get a fact.</value>
-    </data>
-    <data name="misc_fact_invalid" xml:space="preserve">
-        <value>Invalid fact type. **Valid Types:** Dog, Cat, Panda, Fox, Bird, Koala, Kangaroo, Raccoon, Elephant, Giraffe, Whale</value>
-    </data>
-    <data name="misc_imdb_awards" xml:space="preserve">
-        <value>Awards:</value>
-    </data>
-    <data name="misc_imdb_companies" xml:space="preserve">
-        <value>Companies:</value>
-    </data>
-    <data name="misc_imdb_content_rating" xml:space="preserve">
-        <value>Content Rating:</value>
-    </data>
-    <data name="misc_imdb_countries" xml:space="preserve">
-        <value>Countries:</value>
-    </data>
-    <data name="misc_imdb_directors" xml:space="preserve">
-        <value>Directors:</value>
-    </data>
-    <data name="misc_imdb_genres" xml:space="preserve">
-        <value>Genres:</value>
-    </data>
-    <data name="misc_imdb_language" xml:space="preserve">
-        <value>Language:</value>
-    </data>
-    <data name="misc_imdb_metacritic" xml:space="preserve">
-        <value>Metacritic Rating:</value>
-    </data>
-    <data name="misc_imdb_name_birth" xml:space="preserve">
-        <value>Birth Date:</value>
-    </data>
-    <data name="misc_imdb_name_death" xml:space="preserve">
-        <value>Death Date:</value>
-    </data>
-    <data name="misc_imdb_name_known" xml:space="preserve">
-        <value>Known For:</value>
-    </data>
-    <data name="misc_imdb_name_movies" xml:space="preserve">
-        <value>Movies:</value>
-    </data>
-    <data name="misc_imdb_name_roles" xml:space="preserve">
-        <value>Role(s):</value>
-    </data>
-    <data name="misc_imdb_produced" xml:space="preserve">
-        <value>Produced:</value>
-    </data>
-    <data name="misc_imdb_rating" xml:space="preserve">
-        <value>IMDb Rating:</value>
-    </data>
-    <data name="misc_imdb_writers" xml:space="preserve">
-        <value>Writers:</value>
-    </data>
-    <data name="misc_imdb_stars" xml:space="preserve">
-        <value>Stars:</value>
-    </data>
-    <data name="misc_manga_footer" xml:space="preserve">
-        <value>Manga ID: {0} • Score: {1}</value>
-    </data>
-    <data name="misc_manga_chapters" xml:space="preserve">
-        <value>Chapters:</value>
-    </data>
-    <data name="misc_pokemon_failed" xml:space="preserve">
-        <value>Sorry, I could not find that pokemon.</value>
-    </data>
-    <data name="misc_pokemon_evolution" xml:space="preserve">
-        <value>Evolution Line: (Stage: {0})</value>
-    </data>
-    <data name="misc_pokemon_egg_groups" xml:space="preserve">
-        <value>Egg Groups:</value>
-    </data>
-    <data name="misc_pokemon_base_exp" xml:space="preserve">
-        <value>Base Exp:</value>
-    </data>
-    <data name="misc_pokemon_abilities" xml:space="preserve">
-        <value>Abilities:</value>
-    </data>
-    <data name="misc_manga_volumes" xml:space="preserve">
-        <value>Volumes:</value>
-    </data>
-    <data name="misc_manga_status_ip" xml:space="preserve">
-        <value>In-Progress</value>
-    </data>
-    <data name="misc_manga_status_completed" xml:space="preserve">
-        <value>Completed</value>
-    </data>
-    <data name="misc_pokemon_format_1" xml:space="preserve">
-        <value>HP: {0}  -  Speed: {1}
-</value>
-    </data>
-    <data name="misc_pokemon_format_2" xml:space="preserve">
-        <value>Attack: {0}  -  Defense: {1}
-</value>
-    </data>
-    <data name="misc_pokemon_format_3" xml:space="preserve">
-        <value>Sp Attack: {0}  -  Sp Defense: {1}
-</value>
-    </data>
-    <data name="misc_pokemon_format_4" xml:space="preserve">
-        <value>Total: {0}</value>
-    </data>
-    <data name="misc_pokemon_gender" xml:space="preserve">
-        <value>Gender:</value>
-    </data>
-    <data name="misc_pokemon_height" xml:space="preserve">
-        <value>Height:</value>
-    </data>
-    <data name="misc_pokemon_species" xml:space="preserve">
-        <value>Species:</value>
-    </data>
-    <data name="misc_pokemon_stats" xml:space="preserve">
-        <value>Stats:</value>
-    </data>
-    <data name="misc_pokemon_weight" xml:space="preserve">
-        <value>Weight:</value>
-    </data>
-    <data name="misc_no_content" xml:space="preserve">
-        <value>No Content</value>
-    </data>
-    <data name="misc_covid_help" xml:space="preserve">
-        <value>Help Stop COVID-19</value>
-    </data>
-    <data name="textman_invalid_output" xml:space="preserve">
-        <value>No valid output.</value>
-    </data>
-    <data name="info_premium" xml:space="preserve">
-        <value>:star: Like Cakey Bot? You can now donate for Premium:</value>
-    </data>
-    <data name="info_uptime" xml:space="preserve">
-        <value>Uptime: {0}</value>
-    </data>
-    <data name="info_open_image" xml:space="preserve">
-        <value>Open Image</value>
-    </data>
-    <data name="info_target_user" xml:space="preserve">
-        <value>Target User</value>
-    </data>
-    <data name="game_ttt_in_progress" xml:space="preserve">
-        <value>A game is already in progress, complete it before making a new game.</value>
-    </data>
-    <data name="game_ttt_title" xml:space="preserve">
-        <value>Tic Tac Toe</value>
-    </data>
-    <data name="game_player_1" xml:space="preserve">
-        <value>Player 1</value>
-    </data>
-    <data name="game_player_2" xml:space="preserve">
-        <value>Player 2</value>
-    </data>
-    <data name="game_current_move" xml:space="preserve">
-        <value>Current Move</value>
-    </data>
-    <data name="game_flip_again" xml:space="preserve">
-        <value>Flip Again</value>
-    </data>
-    <data name="moderation_report_yourself" xml:space="preserve">
-        <value>You can't report yourself!</value>
-    </data>
-    <data name="moderation_report_myself" xml:space="preserve">
-        <value>I can't report myself!</value>
-    </data>
-    <data name="moderation_report_channel_missing" xml:space="preserve">
-        <value>No report channel has been setup yet.</value>
-    </data>
-    <data name="moderation_report_channel_invalid" xml:space="preserve">
-        <value>The destination channel is invalid or no longer exists.</value>
-    </data>
-    <data name="moderation_report_reported_success" xml:space="preserve">
-        <value>User has been reported successfully.</value>
-    </data>
-    <data name="moderation_report_reported" xml:space="preserve">
-        <value>{0} reported {1} in &lt;#{2}&gt;</value>
-    </data>
-    <data name="moderation_audit_messages_100" xml:space="preserve">
-        <value>Last 100 messages from channel: &lt;{0}&gt;</value>
-    </data>
-    <data name="moderation_report_perms" xml:space="preserve">
-        <value>I don't have send message permissions for the destination channel.</value>
-    </data>
-    <data name="misc_afk_list" xml:space="preserve">
-        <value>You can view a list of AFK users here: {0}/afk-list 
+  <data name="github_results" xml:space="preserve">
+    <value>Showing lines {0} - {1} of `{2}`</value>
+  </data>
+  <data name="quoter_by_title" xml:space="preserve">
+    <value>Quoted By:</value>
+  </data>
+  <data name="quoter_by_value" xml:space="preserve">
+    <value>{0} from &lt;#{1}&gt; in {2}</value>
+  </data>
+  <data name="misc_no_content" xml:space="preserve">
+      <value>No Content</value>
+  </data>
+  <data name="misc_covid_help" xml:space="preserve">
+      <value>Help Stop COVID-19</value>
+  </data>
+  <data name="textman_invalid_output" xml:space="preserve">
+      <value>No valid output.</value>
+  </data>
+  <data name="info_premium" xml:space="preserve">
+      <value>:star: Like Cakey Bot? You can now donate for Premium:</value>
+  </data>
+  <data name="info_uptime" xml:space="preserve">
+      <value>Uptime: {0}</value>
+  </data>
+  <data name="info_open_image" xml:space="preserve">
+      <value>Open Image</value>
+  </data>
+  <data name="info_target_user" xml:space="preserve">
+      <value>Target User</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
+      <value>A game is already in progress, complete it before making a new game.</value>
+  </data>
+  <data name="game_ttt_title" xml:space="preserve">
+      <value>Tic Tac Toe</value>
+  </data>
+  <data name="game_player_1" xml:space="preserve">
+      <value>Player 1</value>
+  </data>
+  <data name="game_player_2" xml:space="preserve">
+      <value>Player 2</value>
+  </data>
+  <data name="game_current_move" xml:space="preserve">
+      <value>Current Move</value>
+  </data>
+  <data name="game_flip_again" xml:space="preserve">
+      <value>Flip Again</value>
+  </data>
+  <data name="moderation_report_yourself" xml:space="preserve">
+      <value>You can't report yourself!</value>
+  </data>
+  <data name="moderation_report_myself" xml:space="preserve">
+      <value>I can't report myself!</value>
+  </data>
+  <data name="moderation_report_channel_missing" xml:space="preserve">
+      <value>No report channel has been setup yet.</value>
+  </data>
+  <data name="moderation_report_channel_invalid" xml:space="preserve">
+      <value>The destination channel is invalid or no longer exists.</value>
+  </data>
+  <data name="moderation_audit_messages_100" xml:space="preserve">
+      <value>Last 100 messages from channel: &lt;{0}&gt;</value>
+  </data>
+  <data name="moderation_report_reported" xml:space="preserve">
+      <value>{0} reported {1} in &lt;#{2}&gt;</value>
+  </data>
+  <data name="moderation_report_reported_success" xml:space="preserve">
+      <value>User has been reported successfully.</value>
+  </data>
+  <data name="moderation_report_perms" xml:space="preserve">
+      <value>I don't have send message permissions for the destination channel.</value>
+  </data>
+  <data name="misc_afk_list" xml:space="preserve">
+      <value>You can view a list of AFK users here: {0}/afk-list 
 Note: Requires \"Manage Server\" access.</value>
-    </data>
-    <data name="button_invalid" xml:space="preserve">
-        <value>This button is no longer valid. :(</value>
-    </data>
-    <data name="game_ttt_expired" xml:space="preserve">
-        <value>This game has already expired. You can create a new game with `!tictactoe &lt;opt:user&gt;`.</value>
-    </data>
-    <data name="game_ttt_taken" xml:space="preserve">
-        <value>This spot is already taken.</value>
-    </data>
-    <data name="game_ttt_winner" xml:space="preserve">
-        <value>Winner</value>
-    </data>
-    <data name="game_ttt_wait_turn" xml:space="preserve">
-        <value>You must wait your turn to make a move!</value>
-    </data>
+  </data>
+  <data name="button_invalid" xml:space="preserve">
+      <value>This button is no longer valid. :(</value>
+  </data>
+  <data name="game_ttt_winner" xml:space="preserve">
+      <value>Winner</value>
+  </data>
+  <data name="game_ttt_taken" xml:space="preserve">
+      <value>This spot is already taken.</value>
+  </data>
+  <data name="game_ttt_expired" xml:space="preserve">
+      <value>This game has already expired. You can create a new game with `!tictactoe &lt;opt:user&gt;`.</value>
+  </data>
+  <data name="game_ttt_wait_turn" xml:space="preserve">
+      <value>You must wait your turn to make a move!</value>
+  </data>
     <data name="automod_string_zalgo" xml:space="preserve">
         <value>Your message was deleted because it contained zalgo text.</value>
     </data>
@@ -2313,59 +2312,59 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="reddit_feed" xml:space="preserve">
         <value>Reddit Feed</value>
     </data>
-    <data name="tags_invalid" xml:space="preserve">
-        <value>You must enter a tag. View all tags with `!tags list`.</value>
-    </data>
-    <data name="tags_list" xml:space="preserve">
-        <value>Tags:</value>
-    </data>
     <data name="tags_create_success" xml:space="preserve">
         <value>Successsfully created the `{0}` tag.</value>
     </data>
     <data name="tags_create_fail" xml:space="preserve">
         <value>Failed to create the `{0}` tag.</value>
     </data>
-    <data name="tags_delete_success" xml:space="preserve">
-        <value>Successsfully deleted the `{0}` tag.</value>
-    </data>
-    <data name="tags_delete_fail" xml:space="preserve">
-        <value>Failed to delete the `{0}` tag.</value>
+    <data name="tags_modify_fail" xml:space="preserve">
+        <value>Failed to modify the `{0}` tag.</value>
     </data>
     <data name="tags_modify_success" xml:space="preserve">
         <value>Successsfully modified the `{0}` tag.</value>
     </data>
-    <data name="tags_modify_fail" xml:space="preserve">
-        <value>Failed to modify the `{0}` tag.</value>
+    <data name="tags_delete_fail" xml:space="preserve">
+        <value>Failed to delete the `{0}` tag.</value>
+    </data>
+    <data name="tags_delete_success" xml:space="preserve">
+        <value>Successsfully deleted the `{0}` tag.</value>
     </data>
     <data name="tags_usage" xml:space="preserve">
         <value>**Usage:** `!tags &lt;list | add | edit | delete&gt; &lt;opt:name&gt; &lt;opt:content&gt;`</value>
     </data>
-    <data name="thread_private" xml:space="preserve">
-        <value>IsPrivate?</value>
+    <data name="tags_list" xml:space="preserve">
+        <value>Tags:</value>
     </data>
-    <data name="thread_parent" xml:space="preserve">
-        <value>Thread Parent:</value>
-    </data>
-    <data name="thread_name" xml:space="preserve">
-        <value>Thread Name:</value>
-    </data>
-    <data name="thread_created" xml:space="preserve">
-        <value>Thread Created:</value>
+    <data name="tags_invalid" xml:space="preserve">
+        <value>You must enter a tag. View all tags with `!tags list`.</value>
     </data>
     <data name="thread_deleted" xml:space="preserve">
         <value>Thread Deleted:</value>
     </data>
-    <data name="thread_locked" xml:space="preserve">
-        <value>IsLocked?</value>
+    <data name="thread_created" xml:space="preserve">
+        <value>Thread Created:</value>
     </data>
     <data name="thread_modified" xml:space="preserve">
         <value>Thread Updated:</value>
     </data>
+    <data name="thread_parent" xml:space="preserve">
+        <value>Thread Parent:</value>
+    </data>
     <data name="thread_auto_archive" xml:space="preserve">
         <value>Auto-Archive Time:</value>
     </data>
+    <data name="thread_private" xml:space="preserve">
+        <value>IsPrivate?</value>
+    </data>
     <data name="thread_archived" xml:space="preserve">
         <value>IsArchived?</value>
+    </data>
+    <data name="thread_locked" xml:space="preserve">
+        <value>IsLocked?</value>
+    </data>
+    <data name="thread_name" xml:space="preserve">
+        <value>Thread Name:</value>
     </data>
     <data name="thread_archive" xml:space="preserve">
         <value>The `{0}` thread was archived.</value>
@@ -2391,11 +2390,11 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="stage_speaker_count" xml:space="preserve">
         <value>Speaker Count:</value>
     </data>
-    <data name="stage_ended" xml:space="preserve">
-        <value>Stage Ended:</value>
-    </data>
     <data name="stage_started" xml:space="preserve">
         <value>Stage Started:</value>
+    </data>
+    <data name="stage_ended" xml:space="preserve">
+        <value>Stage Ended:</value>
     </data>
     <data name="imageman_analyze_failed" xml:space="preserve">
         <value>Failed to deserialize image data.</value>
@@ -2403,26 +2402,26 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="cmd_error_bad_request" xml:space="preserve">
         <value>Encountered a bad request, please try again.</value>
     </data>
-    <data name="ticket_transcript_failed" xml:space="preserve">
-        <value>**Error:** Unable to generate transcript file.</value>
-    </data>
-    <data name="ticket_deleting" xml:space="preserve">
-        <value>Ticket will be deleted in a few seconds.</value>
+    <data name="ticket_no_reason" xml:space="preserve">
+        <value>No reason provided.</value>
     </data>
     <data name="ticket_exists" xml:space="preserve">
         <value>You already have a ticket here {0}!</value>
     </data>
-    <data name="ticket_no_reason" xml:space="preserve">
-        <value>No reason provided.</value>
+    <data name="ticket_deleting" xml:space="preserve">
+        <value>Ticket will be deleted in a few seconds.</value>
     </data>
-    <data name="ticket_delete" xml:space="preserve">
-        <value>Delete</value>
+    <data name="ticket_transcript_failed" xml:space="preserve">
+        <value>**Error:** Unable to generate transcript file.</value>
+    </data>
+    <data name="ticket_transcript" xml:space="preserve">
+        <value>Transcript</value>
     </data>
     <data name="ticket_open" xml:space="preserve">
         <value>Open</value>
     </data>
-    <data name="ticket_transcript" xml:space="preserve">
-        <value>Transcript</value>
+    <data name="ticket_delete" xml:space="preserve">
+        <value>Διαγραφή</value>
     </data>
     <data name="ticket_reopen" xml:space="preserve">
         <value>Ticket re-opened by {0}</value>
@@ -2433,14 +2432,14 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="ticket_transcript_saved" xml:space="preserve">
         <value>Transcript was successfully saved to {0}.</value>
     </data>
-    <data name="ticket_ticket" xml:space="preserve">
-        <value>Ticket:</value>
+    <data name="ticket_message_count" xml:space="preserve">
+        <value>Messages Count:</value>
     </data>
     <data name="ticket_saved_by" xml:space="preserve">
         <value>Saved By:</value>
     </data>
-    <data name="ticket_message_count" xml:space="preserve">
-        <value>Messages Count:</value>
+    <data name="ticket_ticket" xml:space="preserve">
+        <value>Ticket:</value>
     </data>
     <data name="ticket_staff_reply" xml:space="preserve">
         <value>A staff member will respond to your ticket shortly.</value>
@@ -2535,11 +2534,11 @@ Note: Requires \"Manage Server\" access.</value>
     <data name="filter_usage_distortion" xml:space="preserve">
         <value>**Usage:** `!filter distortion &lt;sinOffset&gt; &lt;sinScale&gt; &lt;cosOffset&gt; &lt;cosScale&gt; &lt;tanOffset&gt; &lt;tanScale&gt; &lt;offset&gt; &lt;scale&gt;`</value>
     </data>
-    <data name="filter_usage_karaoke" xml:space="preserve">
-        <value>**Usage:** `!filter karaoke &lt;level&gt; &lt;monoLevel&gt; &lt;band&gt; &lt;width&gt;`</value>
-    </data>
     <data name="filter_usage_lowpass" xml:space="preserve">
         <value>**Usage:** `!filter lowpass &lt;smoothing&gt;`</value>
+    </data>
+    <data name="filter_usage_karaoke" xml:space="preserve">
+        <value>**Usage:** `!filter karaoke &lt;level&gt; &lt;monoLevel&gt; &lt;band&gt; &lt;width&gt;`</value>
     </data>
     <data name="filter_usage_rotation" xml:space="preserve">
         <value>**Usage:** `!filter rotation &lt;frequency&gt;`</value>
