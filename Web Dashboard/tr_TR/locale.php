@@ -108,7 +108,7 @@ return [
 "dashboard-sidebar-11" => "Uyarılar",
 "dashboard-sidebar-12" => "Dokümantasyon",
 "dashboard-sidebar-13" => "Bot Ayarları",
-"dashboard-sidebar-14" => "Kategorileri Aç/Kapa",
+"dashboard-sidebar-14" => "Katergorileri Aç/Kapa",
 "dashboard-sidebar-15" => "Komutlar",
 "dashboard-sidebar-16" => "Müzik Kuyruğu",
 "dashboard-sidebar-17" => "Yönetim Paneli",

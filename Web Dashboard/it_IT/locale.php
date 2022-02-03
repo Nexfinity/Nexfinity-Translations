@@ -461,7 +461,7 @@ return [
 "premium-deactivate" => "Disattiva",
 "premium-single" => "acquista un solo mese per volta.",
 "premium-subscription" => "Abbonamento:",
-"premium-bulk-discount" => "Offriamo sconti in massa se acquisti più di 10 server! Contattaci su discord per ulteriori informazioni.",
+"premium-bulk-discount" => "Offriamo sconti in massa se acquisti più di 10 server! Contattaci su Discord per ulteriori informazioni.",
 "dashboard-automod-18" => "Caratteri Min. Da Attivare/Disattivare",
 "bot-settings-snipe" => "Comando Snipe",
 "audit-snipe-status" => "Stato snipe aggiornato: :data",

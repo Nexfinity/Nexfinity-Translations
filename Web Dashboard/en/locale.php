@@ -461,7 +461,7 @@ return [
 "premium-deactivate" => "Deactivate",
 "premium-single" => "purchase a single month at a time.",
 "premium-subscription" => "Subscription:",
-"premium-bulk-discount" => "We offer bulk discounts if you buy more than 10 servers! Contact us on discord for more info.",
+"premium-bulk-discount" => "We offer bulk discounts if you buy more than 10 servers! Contact us on Discord for more info.",
 "dashboard-automod-18" => "Min. Characters To Trigger",
 "bot-settings-snipe" => "Snipe Command",
 "audit-snipe-status" => "Updated snipe status: :data",
