@@ -19,6 +19,8 @@ our [Discord](https://discord.gg/Y3VdQAD) and ask.
 4. Make any requested edits to your pull request
 5. Wait for the strings to be merged and enjoy!
 
+Alternatively, you can also contribute via our Crowdin page [here](https://crowdin.com/project/cakey-bot). We sync the Github repository and Crowdin page frequently.
+
 # Formatting, Rules, Requirements
 
 1. Please do not insert unnecessary punctuation into strings, unless it is
@@ -31,12 +33,13 @@ our [Discord](https://discord.gg/Y3VdQAD) and ask.
 3. If you encounter any placeholders like {0}, {1}, etc, keep them in the
    string. These are automatically replaced in the bot with text so
    `Requested by {0}#{1}` when used in the bot will be replaced with like
-   `Requested by MrCake#1337`
+   `Requested by MrCake#1337`. For the website strings :data, :data2 and :name are 
+   also common placeholders.
 4. If you need more context/info about how/where a string is used to provide an
    accurate translation, you can create a discussion or issue here on GitHub or
    you can join our [Discord](https://discord.gg/Y3VdQAD) and a reviewer will
    provide further info/screenshots.
-5. Do not translation the string identifiers, these act as unique identifiers
+5. Do not translate the string identifiers, these act as unique identifiers
    for the strings. (Bot string identifiers are on the line above the string and
    Website identifiers are to the left of the string)
 6. Do not translate commands. Cakey Bot only accepts base commands in English.
