@@ -483,7 +483,7 @@
     <value>{0} seçtim. İkimiz de {1} seçmişiz, berabere kaldık!</value>
   </data>
   <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Error:** Giveaways must last less than 1 day.</value>
+    <value>**Hata:** Çekilişler 1 saatten daha az sürmelidir.</value>
   </data>
   <data name="games_giveaway_error_2" xml:space="preserve">
     <value>**Hata:** Çekilişler en az 1 dakika sürmelidir.</value>
@@ -1397,11 +1397,11 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
     <value>Ses düzeyi başarıyla `{0}` değerine ayarlandı</value>
   </data>
   <data name="music_skip_1" xml:space="preserve">
-    <value>[{0}]({1}) [{2}] has been skipped.</value>
+    <value>[{0}]({1}) [{2}] atlandı.</value>
   </data>
   <data name="music_skip_2" xml:space="preserve">
-    <value>&lt;:CB_Skip:586387463119962142&gt; Skipped [{0}]({1}) [{2}]
-&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
+    <value>&lt;:CB_Skip:586387463119962142&gt; atlandı [{0}]({1}) [{2}]
+&lt;:CB_NowPlaying:586387464743157770&gt; Şimdi oynuyor: [{3}]({4}) [{5}]</value>
   </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>Şu anda çalan bir şarkı yok.</value>
@@ -1440,10 +1440,10 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
     <value>Kuyruğa `{0}` şarkı eklendi.</value>
   </data>
   <data name="music_add_2" xml:space="preserve">
-    <value>[{0}]({1}) [{2}] has been added to the queue.</value>
+    <value>[{0}]({1}) [{2}] sıraya eklendi.</value>
   </data>
   <data name="music_now_playing_1" xml:space="preserve">
-    <value>Now playing: [{0}]({1}) [{2}]</value>
+    <value>Şimdi oynuyor: [{0}]({1}) [{2}]</value>
   </data>
   <data name="music_volume" xml:space="preserve">
     <value>Ses Düzeyi: `{0}`</value>
@@ -1574,8 +1574,8 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
     <value>Geçerli şarkıyı yeniden başlat</value>
   </data>
   <data name="music_logger_trackend" xml:space="preserve">
-    <value>Finished playing: [{0}]({1}) [{2}]
-&lt;:CB_NowPlaying:586387464743157770&gt; Now playing: [{3}]({4}) [{5}]</value>
+    <value>Oynatmayı bitirdi: [{0}]({1}) [{2}]
+&lt;:CB_NowPlaying:586387464743157770&gt; Şimdi oynuyor: [{3}]({4}) [{5}]</value>
   </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>Parça, çalınmaya çalışılırken takıldı.</value>
@@ -1636,7 +1636,9 @@ Bunu https://cakeybot.app adresinden, veya `{0}setting prefix &lt;new prefix&gt;
     <value>Geçerli bir girdi belirtmen gerekiyor.</value>
   </data>
   <data name="cmd_error_matches" xml:space="preserve">
-    <value>Multiple matches were found, please report in our support Discord: https://discord.gg/EUssVK5</value>
+    <value>Birden fazla eşleşme bulundu. Olası eşleşmeler:
+```{0}
+{1}```</value>
   </data>
   <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>Bilinmeyen bir hata oluştu.</value>
