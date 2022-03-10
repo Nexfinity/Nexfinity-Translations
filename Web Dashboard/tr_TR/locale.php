@@ -527,7 +527,7 @@ return [
 "audit-feed-add" => "Feed oluşturuldu.",
 "audit-feed-delete" => "Feed silindi.",
 "audit-feed-modify" => "Feed düzenlendi.",
-"feeds-premium-warning" => "3'ten fazla feed oluşturabilmek için premium olmalısınız.",
+"feeds-premium-warning" => "1'ten fazla feed oluşturabilmek için premium olmalısınız.",
 "feeds-invalid-webhook" => "Geçerli bir webhook URL'si girmelisin.",
 "feeds-subreddit" => "Subreddit",
 "tags-single-title" => "Etiket",

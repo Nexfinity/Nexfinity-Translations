@@ -527,7 +527,7 @@ return [
 "audit-feed-add" => "Maak een feed aan.",
 "audit-feed-delete" => "Verwijderde een feed.",
 "audit-feed-modify" => "Eigen feed gewijzigd.",
-"feeds-premium-warning" => "Je hebt premium nodig om meer dan 3 feeds te maken.",
+"feeds-premium-warning" => "Je hebt premium nodig om meer dan 1 feed te maken.",
 "feeds-invalid-webhook" => "U moet een geldige webhook URL invoeren.",
 "feeds-subreddit" => "Subreddit",
 "tags-single-title" => "Tagnaam",

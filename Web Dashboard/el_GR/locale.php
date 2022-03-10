@@ -527,7 +527,7 @@ return [
 "audit-feed-add" => "Δημιουργήθηκε μια ροή.",
 "audit-feed-delete" => "Διαγράφηκε μια ροή.",
 "audit-feed-modify" => "Τροποποιήθηκε μια ροή.",
-"feeds-premium-warning" => "Πρέπει να έχετε premium για να δημιουργήσετε περισσότερες από 3 τροφοδοσίες.",
+"feeds-premium-warning" => "Πρέπει να έχετε premium για να δημιουργήσετε περισσότερες από 1 τροφοδοσίες.",
 "feeds-invalid-webhook" => "Πρέπει να εισάγετε μια έγκυρη διεύθυνση URL webhook.",
 "feeds-subreddit" => "Subreddit",
 "tags-single-title" => "Ετικέτα",

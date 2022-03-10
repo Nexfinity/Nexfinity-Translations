@@ -527,7 +527,7 @@ return [
 "audit-feed-add" => "피드를 만들었습니다.",
 "audit-feed-delete" => "피드를 삭제했습니다.",
 "audit-feed-modify" => "피드를 수정했습니다.",
-"feeds-premium-warning" => "피드를 3개 이상 만들려면 Premium이 있어야 합니다.",
+"feeds-premium-warning" => "피드를 1개 이상 만들려면 Premium이 있어야 합니다.",
 "feeds-invalid-webhook" => "올바른 웹후크 URL을 입력해야 합니다.",
 "feeds-subreddit" => "서브레딧",
 "tags-single-title" => "태그",

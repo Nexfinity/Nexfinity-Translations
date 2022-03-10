@@ -527,7 +527,7 @@ return [
 "audit-feed-add" => "Creat un flux.",
 "audit-feed-delete" => "S-a șters un flux.",
 "audit-feed-modify" => "S-a modificat un flux.",
-"feeds-premium-warning" => "Trebuie să ai premium pentru a crea mai mult de 3 fluxuri.",
+"feeds-premium-warning" => "Trebuie să ai premium pentru a crea mai mult de 1 fluxuri.",
 "feeds-invalid-webhook" => "Trebuie să introduceți un URL webhook valid.",
 "feeds-subreddit" => "Subreddit",
 "tags-single-title" => "Etichetă",

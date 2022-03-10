@@ -527,7 +527,7 @@ return [
 "audit-feed-add" => "Feed creato.",
 "audit-feed-delete" => "Feed eliminato.",
 "audit-feed-modify" => "Feed modificato.",
-"feeds-premium-warning" => "Devi avere premium per creare più di 3 feed.",
+"feeds-premium-warning" => "Devi avere premium per creare più di 1 feed.",
 "feeds-invalid-webhook" => "Devi inserire un URL del webhook valido.",
 "feeds-subreddit" => "Subreddit",
 "tags-single-title" => "Tag",

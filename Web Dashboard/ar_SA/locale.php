@@ -527,7 +527,7 @@ return [
 "audit-feed-add" => "تم إنشاء خلاصة.",
 "audit-feed-delete" => "تم حذف خلاصة.",
 "audit-feed-modify" => "تعديل خلاصة.",
-"feeds-premium-warning" => "يجب أن يكون لديك حساب بريميوم لإنشاء أكثر من 3 خلاصات.",
+"feeds-premium-warning" => "يجب أن يكون لديك حساب بريميوم لإنشاء أكثر من 1 خلاصات.",
 "feeds-invalid-webhook" => "يجب إدخال عنوان URL صالح لـ webhook.",
 "feeds-subreddit" => "Subreddit",
 "tags-single-title" => "الوسم",

@@ -527,7 +527,7 @@ return [
 "audit-feed-add" => "Skapade ett flöde.",
 "audit-feed-delete" => "Raderade ett flöde.",
 "audit-feed-modify" => "Uppdaterade ett flöde.",
-"feeds-premium-warning" => "Du måste ha premium för att skapa fler än 3 flöden.",
+"feeds-premium-warning" => "Du måste ha premium för att skapa fler än 1 flöden.",
 "feeds-invalid-webhook" => "Du måste ange en giltig webhook-URL.",
 "feeds-subreddit" => "Subreddit",
 "tags-single-title" => "Tagg",
