@@ -377,7 +377,7 @@
   <data name="error_usage_role" xml:space="preserve">
     <value>사용법: `!role &lt;add | remove&gt; &lt;사용자&gt; &lt;역할&gt;`</value>
   </data>
-    <data name="error_usage_playlist" xml:space="preserve">
+  <data name="error_usage_playlist" xml:space="preserve">
     <value>사용법: !playlist &lt;save/create | list | load | delete/remove&gt; &lt;이름&gt;</value>
   </data>
   <data name="error_usage_verify" xml:space="preserve">
@@ -526,11 +526,11 @@
   <data name="games_trivia_category" xml:space="preserve">
     <value>범주</value>
   </data>
-    <data name="games_trivia_timeout" xml:space="preserve">
-        <value>10초 이내에 대답이 제공되지 않았습니다. 정답: `{0}`</value>
-    </data>
+  <data name="games_trivia_timeout" xml:space="preserve">
+    <value>10초 이내에 대답이 지정되지 않았습니다. 정답: `{0}`</value>
+  </data>
   <data name="games_trivia_invalid" xml:space="preserve">
-    <value>잘못된 대답이 제공되었습니다. 다음번에는 문자만 제공하세요. 정답: `{0}`</value>
+    <value>잘못된 대답이 지정되었습니다. 다음번에는 문자만 지정하세요. 정답: `{0}`</value>
   </data>
   <data name="games_trivia_valid" xml:space="preserve">
     <value>올바른 대답은 다음과 같습니다: `A`, `B`, `C`, `D`.</value>
@@ -607,9 +607,9 @@
   <data name="mod_ban_temp_error" xml:space="preserve">
     <value>일시 차단은 1개월 이하여야 합니다.</value>
   </data>
-    <data name="mod_ban_temp_success" xml:space="preserve">
-        <value>{0}#{1}의 차단은 &lt;t:{2}:R&gt;에 해제됩니다</value>
-    </data>
+  <data name="mod_ban_temp_success" xml:space="preserve">
+    <value>{0}#{1}의 차단은 &lt;t:{2}:R&gt;에 해제됩니다</value>
+  </data>
   <data name="mod_ban_soft_self" xml:space="preserve">
     <value>자기 자신은 소프트 차단할 수 없습니다!</value>
   </data>
@@ -637,9 +637,9 @@
   <data name="mod_mute_temp_error" xml:space="preserve">
     <value>일시 뮤트는 1개월 이하여야 합니다.</value>
   </data>
-    <data name="mod_mute_temp_success" xml:space="preserve">
-        <value>{0}#{1}의 뮤트는 &lt;t:{2}:R&gt;에 해제됩니다</value>
-    </data>
+  <data name="mod_mute_temp_success" xml:space="preserve">
+    <value>{0}#{1}의 뮤트는 &lt;t:{2}:R&gt;에 해제됩니다</value>
+  </data>
   <data name="mod_mute_role_error" xml:space="preserve">
     <value>뮤트 역할을 찾거나 만들 수 없습니다.</value>
   </data>
@@ -1095,10 +1095,10 @@
   <data name="misc_manga_footer" xml:space="preserve">
     <value>만화 ID: {0} • 점수: {1}</value>
   </data>
-    <data name="misc_bgg_release" xml:space="preserve">
+  <data name="misc_bgg_release" xml:space="preserve">
     <value>출시 날짜:</value>
   </data>
-    <data name="misc_convert_result" xml:space="preserve">
+  <data name="misc_convert_result" xml:space="preserve">
     <value>결과:</value>
   </data>
   <data name="misc_convert_rate" xml:space="preserve">
@@ -1128,10 +1128,10 @@
   <data name="misc_reminder_error_3" xml:space="preserve">
     <value>미리 알림은 지금으로부터 1개월 이내여야 합니다.</value>
   </data>
-    <data name="misc_reminder_success" xml:space="preserve">
-        <value>`{0}`에 대해 {1}에 미리 알리도록 설정했습니다.</value>
-    </data>
-    <data name="misc_covid_for_global" xml:space="preserve">
+  <data name="misc_reminder_success" xml:space="preserve">
+    <value>`{0}`에 대해 {1}에 미리 알리도록 설정했습니다.</value>
+  </data>
+  <data name="misc_covid_for_global" xml:space="preserve">
     <value>전 세계 코로나19 통계</value>
   </data>
   <data name="misc_covid_for_country" xml:space="preserve">
@@ -1221,7 +1221,7 @@
 </value>
   </data>
   <data name="misc_pokemon_format_3" xml:space="preserve">
-      <value>특수공격: {0}  -  특수방어: {1}
+    <value>특수공격: {0}  -  특수방어: {1}
 </value>
   </data>
   <data name="misc_pokemon_format_4" xml:space="preserve">
@@ -1391,9 +1391,9 @@
   <data name="music_volume_1" xml:space="preserve">
     <value>노래의 음량을 수정하려면 노래가 재생 중이어야 합니다.</value>
   </data>
-    <data name="music_volume_2" xml:space="preserve">
-        <value>음량은 0에서 100 사이여야 합니다.</value>
-    </data>
+  <data name="music_volume_2" xml:space="preserve">
+    <value>음량은 0에서 100 사이여야 합니다.</value>
+  </data>
   <data name="music_volume_3" xml:space="preserve">
     <value>음량을 다음으로 설정했습니다: `{0}`</value>
   </data>
@@ -1432,10 +1432,10 @@
     <value>트랙 대기열 ID는 올발라야 합니다.</value>
   </data>
   <data name="music_limit_queue" xml:space="preserve">
-    <value>대기열에는 노래를 최대 100곡까지만 담을 수 있습니다, 노래를 추가하기 전에 일부 노래를 제거하세요.</value>
+    <value>대기열에는 노래를 최대 50곡까지만 담을 수 있습니다, 노래를 추가하기 전에 일부 노래를 제거하거나 Premium으로 업그레이드하세요.</value>
   </data>
   <data name="music_limit_playlist" xml:space="preserve">
-    <value>재생 목록은 노래를 최대 50곡까지만 포함할 수 있습니다, 더 작은 재생 목록을 선택하세요.</value>
+    <value>재생 목록에는 노래를 최대 50곡까지만 담을 수 있습니다, 더 작은 재생 목록을 선택하거나 Premium으로 업그레이드하세요.</value>
   </data>
   <data name="music_add_1" xml:space="preserve">
     <value>노래 `{0}`곡을 대기열에 추가했습니다.</value>
@@ -1554,7 +1554,7 @@
     <value>음성 채널에 참여하고 이 채널에서 이름이나 URL을 입력하여 이름이나 URL로 노래를 검색할 수 있습니다.</value>
   </data>
   <data name="music_embed_queue_2" xml:space="preserve">
-    <value>지원되는 출처: YouTube, YouTube 실시간 스트림, Twitch, Bandcamp, Vimeo, SoundCloud, Vlare.tv, 직접 URL/웹 파일 *`(MP3 및 MP4 형식)`* 및 Spotify *`(실험적)`*.</value>
+    <value>지원되는 출처: YouTube, YouTube 실시간 스트림, Twitch, Bandcamp, Vimeo, SoundCloud, 직접 URL/웹 파일 *`(MP3 및 MP4 형식)`* 및 Spotify *`(실험적)`*.</value>
   </data>
   <data name="music_embed_react_1" xml:space="preserve">
     <value>노래 일시 정지/다시 시작</value>
@@ -1977,9 +1977,9 @@
   <data name="core_bot_invite" xml:space="preserve">
     <value>봇 초대 링크</value>
   </data>
-    <data name="core_donate" xml:space="preserve">
-        <value>Premium</value>
-    </data>
+  <data name="core_donate" xml:space="preserve">
+    <value>Premium</value>
+  </data>
   <data name="core_error" xml:space="preserve">
     <value>오류: Cakey Bot이 완전히 작동하려면 첨부 권한이 필요합니다.</value>
   </data>
@@ -2031,7 +2031,7 @@
   <data name="core_setting_updated_prefix" xml:space="preserve">
     <value>이 서버의 접두사가 다음으로 갱신되었습니다: `{0}`</value>
   </data>
-    <data name="core_feedback_blacklisted" xml:space="preserve">
+  <data name="core_feedback_blacklisted" xml:space="preserve">
     <value>이 명령어의 블랙리스트에 올랐습니다. :(</value>
   </data>
   <data name="core_stats_1" xml:space="preserve">
@@ -2052,9 +2052,9 @@
   <data name="core_announce_footer" xml:space="preserve">
     <value>공지</value>
   </data>
-    <data name="core_sr_usage" xml:space="preserve">
-        <value>사용법: `!sr &lt;add | remove | use | unuse | list | embed&gt; &lt;역할&gt;`</value>
-    </data>
+  <data name="core_sr_usage" xml:space="preserve">
+    <value>사용법: `!sr &lt;add | remove | use | unuse | list | embed&gt; &lt;역할&gt;`</value>
+  </data>
   <data name="core_sr_added_1" xml:space="preserve">
     <value>역할이 이미 추가되었습니다.</value>
   </data>
@@ -2209,349 +2209,349 @@
     <value>{2}의 &lt;#{1}&gt;에서 {0}</value>
   </data>
   <data name="misc_no_content" xml:space="preserve">
-      <value>콘텐츠 없음</value>
+    <value>콘텐츠 없음</value>
   </data>
   <data name="misc_covid_help" xml:space="preserve">
-      <value>코로나19를 멈출 수 있도록 도와주세요</value>
+    <value>코로나19를 멈출 수 있도록 도와주세요</value>
   </data>
   <data name="textman_invalid_output" xml:space="preserve">
-      <value>올바른 출력이 없습니다.</value>
+    <value>올바른 출력이 없습니다.</value>
   </data>
   <data name="info_premium" xml:space="preserve">
-      <value>:star: Cakey Bot이 마음에 드시나요? 이제 후원하여 Premium을 이용할 수 있습니다.</value>
+    <value>:star: Cakey Bot이 마음에 드시나요? 이제 후원하여 Premium을 이용할 수 있습니다.</value>
   </data>
   <data name="info_uptime" xml:space="preserve">
-      <value>작동 시간: {0}</value>
+    <value>작동 시간: {0}</value>
   </data>
   <data name="info_open_image" xml:space="preserve">
-      <value>이미지 열기</value>
+    <value>이미지 열기</value>
   </data>
   <data name="info_target_user" xml:space="preserve">
-      <value>대상 사용자</value>
+    <value>대상 사용자</value>
   </data>
   <data name="game_ttt_in_progress" xml:space="preserve">
-      <value>게임이 이미 진행 중입니다, 새 게임을 만들기 전에 게임을 완료하세요.</value>
+    <value>게임이 이미 진행 중입니다, 새 게임을 만들기 전에 게임을 완료하세요.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
-      <value>삼목 게임</value>
+    <value>삼목 게임</value>
   </data>
   <data name="game_player_1" xml:space="preserve">
-      <value>플레이어 1</value>
+    <value>플레이어 1</value>
   </data>
   <data name="game_player_2" xml:space="preserve">
-      <value>플레이어 2</value>
+    <value>플레이어 2</value>
   </data>
   <data name="game_current_move" xml:space="preserve">
-      <value>현재 차례</value>
+    <value>현재 차례</value>
   </data>
   <data name="game_flip_again" xml:space="preserve">
-      <value>다시 뒤집기</value>
+    <value>다시 뒤집기</value>
   </data>
   <data name="moderation_report_yourself" xml:space="preserve">
-      <value>자기 자신은 신고할 수 없습니다!</value>
+    <value>자기 자신은 신고할 수 없습니다!</value>
   </data>
   <data name="moderation_report_myself" xml:space="preserve">
-      <value>저는 저 자신을 신고할 수 없습니다!</value>
+    <value>저는 저 자신을 신고할 수 없습니다!</value>
   </data>
   <data name="moderation_report_channel_missing" xml:space="preserve">
-      <value>신고 채널이 아직 설정되지 않았습니다.</value>
+    <value>신고 채널이 아직 설정되지 않았습니다.</value>
   </data>
   <data name="moderation_report_channel_invalid" xml:space="preserve">
-      <value>대상 채널이 잘못되었거나 더 이상 존재하지 않습니다.</value>
+    <value>대상 채널이 잘못되었거나 더 이상 존재하지 않습니다.</value>
   </data>
   <data name="moderation_audit_messages_100" xml:space="preserve">
-      <value>채널의 마지막 메시지 100개: &lt;{0}&gt;</value>
+    <value>채널의 마지막 메시지 100개: &lt;{0}&gt;</value>
   </data>
   <data name="moderation_report_reported" xml:space="preserve">
-      <value>{0}이(가) &lt;#{2}&gt;에서 {1}을(를) 신고했습니다</value>
+    <value>{0}이(가) &lt;#{2}&gt;에서 {1}을(를) 신고했습니다</value>
   </data>
   <data name="moderation_report_reported_success" xml:space="preserve">
-      <value>사용자가 신고되었습니다.</value>
+    <value>사용자가 신고되었습니다.</value>
   </data>
   <data name="moderation_report_perms" xml:space="preserve">
-      <value>제게 대상 채널에 대한 메시지 보내기 권한이 없습니다.</value>
+    <value>제게 대상 채널에 대한 메시지 보내기 권한이 없습니다.</value>
   </data>
   <data name="misc_afk_list" xml:space="preserve">
-      <value>여기에서 잠수 상태인 사용자 목록을 볼 수 있습니다: {0}/afk-list 
+    <value>여기에서 잠수 상태인 사용자 목록을 볼 수 있습니다: {0}/afk-list 
 참고: \"서버 관리\" 접근 권한이 필요합니다.</value>
   </data>
   <data name="button_invalid" xml:space="preserve">
-      <value>이 버튼은 더 이상 올바르지 않습니다. :(</value>
+    <value>이 버튼은 더 이상 올바르지 않습니다. :(</value>
   </data>
   <data name="game_ttt_winner" xml:space="preserve">
-      <value>승자</value>
+    <value>승자</value>
   </data>
   <data name="game_ttt_taken" xml:space="preserve">
-      <value>이 자리는 이미 사용 중입니다.</value>
+    <value>이 자리는 이미 사용 중입니다.</value>
   </data>
   <data name="game_ttt_expired" xml:space="preserve">
-      <value>이 게임은 이미 만료되었습니다. `!tictactoe &lt;선택:사용자&gt;`로 새 게임을 만들 수 있습니다.</value>
+    <value>이 게임은 이미 만료되었습니다. `!tictactoe &lt;선택:사용자&gt;`로 새 게임을 만들 수 있습니다.</value>
   </data>
   <data name="game_ttt_wait_turn" xml:space="preserve">
-      <value>수를 두려면 차례를 기다려야 합니다!</value>
+    <value>수를 두려면 차례를 기다려야 합니다!</value>
   </data>
-    <data name="automod_string_zalgo" xml:space="preserve">
-        <value>메시지에 잘고 텍스트가 포함되어 있기 때문에 메시지가 삭제되었습니다.</value>
-    </data>
-    <data name="automod_check_zalgo" xml:space="preserve">
-        <value>잘고 텍스트</value>
-    </data>
-    <data name="twitch_title_live" xml:space="preserve">
-        <value>Twitch | {0} - 생방송 중!</value>
-    </data>
-    <data name="twitch_currently_playing" xml:space="preserve">
-        <value>현재 플레이 중인 게임:</value>
-    </data>
-    <data name="twitch_viewers" xml:space="preserve">
-        <value>시청자 수:</value>
-    </data>
-    <data name="twitch_join_stream" xml:space="preserve">
-        <value>여기에서 스트림에 참여하세요: https://www.twitch.tv/{0}</value>
-    </data>
-    <data name="twitch_feed" xml:space="preserve">
-        <value>Twitch 피드</value>
-    </data>
-    <data name="reddit_feed" xml:space="preserve">
-        <value>Reddit 피드</value>
-    </data>
-    <data name="tags_create_success" xml:space="preserve">
-        <value>`{0}` 태그를 만들었습니다.</value>
-    </data>
-    <data name="tags_create_fail" xml:space="preserve">
-        <value>`{0}` 태그를 만들지 못했습니다.</value>
-    </data>
-    <data name="tags_modify_fail" xml:space="preserve">
-        <value>`{0}` 태그를 수정하지 못했습니다.</value>
-    </data>
-    <data name="tags_modify_success" xml:space="preserve">
-        <value>`{0}` 태그를 수정했습니다.</value>
-    </data>
-    <data name="tags_delete_fail" xml:space="preserve">
-        <value>`{0}` 태그를 삭제하지 못했습니다.</value>
-    </data>
-    <data name="tags_delete_success" xml:space="preserve">
-        <value>`{0}` 태그를 삭제했습니다.</value>
-    </data>
-    <data name="tags_usage" xml:space="preserve">
-        <value>**사용법:** `!tags &lt;list | add | edit | delete&gt; &lt;선택:이름&gt; &lt;선택:콘텐츠&gt;`</value>
-    </data>
-    <data name="tags_list" xml:space="preserve">
-        <value>태그:</value>
-    </data>
-    <data name="tags_invalid" xml:space="preserve">
-        <value>태그를 입력해야 합니다. `!tags list`로 모든 태그를 보세요.</value>
-    </data>
-    <data name="thread_deleted" xml:space="preserve">
-        <value>스레드 삭제됨:</value>
-    </data>
-    <data name="thread_created" xml:space="preserve">
-        <value>스레드 만들어짐:</value>
-    </data>
-    <data name="thread_modified" xml:space="preserve">
-        <value>스레드 갱신됨:</value>
-    </data>
-    <data name="thread_parent" xml:space="preserve">
-        <value>스레드 부모:</value>
-    </data>
-    <data name="thread_auto_archive" xml:space="preserve">
-        <value>자동 보관 시간:</value>
-    </data>
-    <data name="thread_private" xml:space="preserve">
-        <value>비공개?</value>
-    </data>
-    <data name="thread_archived" xml:space="preserve">
-        <value>보관됨?</value>
-    </data>
-    <data name="thread_locked" xml:space="preserve">
-        <value>잠김?</value>
-    </data>
-    <data name="thread_name" xml:space="preserve">
-        <value>스레드 이름:</value>
-    </data>
-    <data name="thread_archive" xml:space="preserve">
-        <value>`{0}` 스레드가 보관되었습니다.</value>
-    </data>
-    <data name="thread_unarchive" xml:space="preserve">
-        <value>`{0}` 스레드의 보관이 해제되었습니다.</value>
-    </data>
-    <data name="stage_updated" xml:space="preserve">
-        <value>스테이지 갱신됨:</value>
-    </data>
-    <data name="stage_name" xml:space="preserve">
-        <value>스테이지 이름:</value>
-    </data>
-    <data name="stage_discoverable" xml:space="preserve">
-        <value>검색 가능?</value>
-    </data>
-    <data name="stage_privacy" xml:space="preserve">
-        <value>개인 정보 수준:</value>
-    </data>
-    <data name="stage_live" xml:space="preserve">
-        <value>생방송 중?</value>
-    </data>
-    <data name="stage_speaker_count" xml:space="preserve">
-        <value>말하는 사람 수:</value>
-    </data>
-    <data name="stage_started" xml:space="preserve">
-        <value>스테이지 시작됨:</value>
-    </data>
-    <data name="stage_ended" xml:space="preserve">
-        <value>스테이지 끝남:</value>
-    </data>
-    <data name="imageman_analyze_failed" xml:space="preserve">
-        <value>이미지 데이터를 역직렬화하지 못했습니다.</value>
-    </data>
-    <data name="cmd_error_bad_request" xml:space="preserve">
-        <value>잘못된 요청을 발견했습니다, 나중에 다시 시도해주세요.</value>
-    </data>
-    <data name="ticket_no_reason" xml:space="preserve">
-        <value>이유를 지정하지 않았습니다.</value>
-    </data>
-    <data name="ticket_exists" xml:space="preserve">
-        <value>여기에 이미 티켓이 있습니다, {0} 님!</value>
-    </data>
-    <data name="ticket_deleting" xml:space="preserve">
-        <value>티켓이 몇 초 후에 삭제됩니다.</value>
-    </data>
-    <data name="ticket_transcript_failed" xml:space="preserve">
-        <value>**오류:** 기록 파일을 생성할 수 없습니다.</value>
-    </data>
-    <data name="ticket_transcript" xml:space="preserve">
-        <value>기록</value>
-    </data>
-    <data name="ticket_open" xml:space="preserve">
-        <value>열기</value>
-    </data>
-    <data name="ticket_delete" xml:space="preserve">
-        <value>삭제</value>
-    </data>
-    <data name="ticket_reopen" xml:space="preserve">
-        <value>{0}이(가) 티켓을 다시 열었습니다</value>
-    </data>
-    <data name="ticket_transcript_channel_missing" xml:space="preserve">
-        <value>**오류:** 기록 채널이 존재하지 않습니다. (또는 Cakey Bot이 해당 채널에 메시지를 보내거나 메시지를 볼 수 없습니다.)</value>
-    </data>
-    <data name="ticket_transcript_saved" xml:space="preserve">
-        <value>기록이 {0}에 저장되었습니다.</value>
-    </data>
-    <data name="ticket_message_count" xml:space="preserve">
-        <value>메시지 수:</value>
-    </data>
-    <data name="ticket_saved_by" xml:space="preserve">
-        <value>저장한 사용자:</value>
-    </data>
-    <data name="ticket_ticket" xml:space="preserve">
-        <value>티켓:</value>
-    </data>
-    <data name="ticket_staff_reply" xml:space="preserve">
-        <value>담당자 멤버가 티켓에 곧 응답합니다.</value>
-    </data>
-    <data name="ticket_close" xml:space="preserve">
-        <value>닫기</value>
-    </data>
-    <data name="ticket_issue" xml:space="preserve">
-        <value>{0}에게 다음 문제가 있습니다.</value>
-    </data>
-    <data name="ticket_create" xml:space="preserve">
-        <value>지원 티켓을 만들려면 아래 버튼을 클릭하세요.</value>
-    </data>
-    <data name="ticket_title" xml:space="preserve">
-        <value>지원 티켓</value>
-    </data>
-    <data name="ticket_open_embed" xml:space="preserve">
-        <value>티켓 열기</value>
-    </data>
-    <data name="ticket_closed" xml:space="preserve">
-        <value>{0}이(가) 티켓을 닫았습니다</value>
-    </data>
-    <data name="archive_error" xml:space="preserve">
-        <value>이 명령어를 사용하려면 스레드에 있어야 합니다.</value>
-    </data>
-    <data name="error_missing_perm_self_managethreads" xml:space="preserve">
-        <value>스레드 관리 권한이 없습니다!</value>
-    </data>
-    <data name="archive_success" xml:space="preserve">
-        <value>{0}이(가) 스레드를 보관했습니다.</value>
-    </data>
-    <data name="archive_error_2" xml:space="preserve">
-        <value>스레드가 이미 보관되어 있습니다.</value>
-    </data>
-    <data name="error_failed_unmute" xml:space="preserve">
-        <value>사용자의 뮤트를 해제하지 못했습니다.</value>
-    </data>
-    <data name="core_sr_embed_error" xml:space="preserve">
-        <value>첨부를 만들기 전에 셀프 역할을 추가해야 합니다.</value>
-    </data>
-    <data name="core_sr_embed_description_select" xml:space="preserve">
-        <value>아래의 선택 메뉴를 사용하여 자기 자신에게/에게서 역할을 추가/제거할 수 있습니다.</value>
-    </data>
-    <data name="core_sr_embed_description_button" xml:space="preserve">
-        <value>아래의 버튼을 사용하여 자기 자신에게/에게서 역할을 추가/제거할 수 있습니다.</value>
-    </data>
-    <data name="core_sr_embed_description_reaction" xml:space="preserve">
-        <value>아래의 반응을 사용하여 자기 자신에게/에게서 역할을 추가/제거할 수 있습니다.</value>
-    </data>
-    <data name="core_sr_roles_added" xml:space="preserve">
-        <value>추가된 역할:</value>
-    </data>
-    <data name="core_sr_roles_removed" xml:space="preserve">
-        <value>제거된 역할:</value>
-    </data>
-    <data name="automod_string_phishing_link" xml:space="preserve">
-        <value>피싱 링크가 포함되어 있으므로 메시지가 삭제되었습니다.</value>
-    </data>
-    <data name="automod_check_phishing_link" xml:space="preserve">
-        <value>피싱 링크</value>
-    </data>
-    <data name="core_setting_usage_voteskip" xml:space="preserve">
-        <value>`{0}setting voteskip [true/false]`</value>
-    </data>
-    <data name="core_setting_voteskip" xml:space="preserve">
-        <value>투표 건너뛰기</value>
-    </data>
-    <data name="core_setting_description_voteskip" xml:space="preserve">
-        <value>음악 트랙 투표 건너뛰기가 사용되는지 여부를 전환합니다.</value>
-    </data>
-    <data name="core_setting_voteskip_current" xml:space="preserve">
-        <value>현재 설정:</value>
-    </data>
-    <data name="core_setting_voteskip_update" xml:space="preserve">
-        <value>설정 변경/갱신:</value>
-    </data>
-    <data name="premium_limit_filters" xml:space="preserve">
-        <value>음악 필터를 사용하려면 Premium이 있어야 합니다. 여기에서 Premium을 구매할 수 있습니다: &lt;https://cakeybot.app/dashboard/public/premium&gt;</value>
-    </data>
-    <data name="presets_valid" xml:space="preserve">
-        <value>올바른 미리 설정: ```{0}```</value>
-    </data>
-    <data name="presets_applied" xml:space="preserve">
-        <value>미리 설정을 적용했습니다: `{0}`</value>
-    </data>
-    <data name="filters_applied" xml:space="preserve">
-        <value>다음 옵션으로 `{0}` 필터를 적용했습니다: {1}</value>
-    </data>
-    <data name="filters_valid" xml:space="preserve">
-        <value>올바른 필터: ```{0}```</value>
-    </data>
-    <data name="filter_usage_distortion" xml:space="preserve">
-        <value>**사용법:** `!filter distortion &lt;sin 오프셋&gt; &lt;sin 스케일&gt; &lt;cos 오프셋&gt; &lt;cos 스케일&gt; &lt;tan 오프셋&gt; &lt;tan 스케일&gt; &lt;오프셋&gt; &lt;스케일&gt;`</value>
-    </data>
-    <data name="filter_usage_lowpass" xml:space="preserve">
-        <value>**사용법:** `!filter lowpass &lt;평활화&gt;`</value>
-    </data>
-    <data name="filter_usage_karaoke" xml:space="preserve">
-        <value>**사용법:** `!filter karaoke &lt;수준&gt; &lt;모노 수준&gt; &lt;대역&gt; &lt;너비&gt;`</value>
-    </data>
-    <data name="filter_usage_rotation" xml:space="preserve">
-        <value>**사용법:** `!filter rotation &lt;빈도&gt;`</value>
-    </data>
-    <data name="filter_usage_timescale" xml:space="preserve">
-        <value>**사용법:** `!filter timescale &lt;속도(speed)&gt; &lt;음높이&gt; &lt;비율(rate)&gt;`</value>
-    </data>
-    <data name="filter_usage_tremolo" xml:space="preserve">
-        <value>**사용법:** `!filter tremolo &lt;빈도&gt; &lt;깊이&gt;`</value>
-    </data>
-    <data name="filter_usage_vibrato" xml:space="preserve">
-        <value>**사용법:** `!filter vibrato &lt;빈도&gt; &lt;깊이&gt;`</value>
-    </data>
+  <data name="automod_string_zalgo" xml:space="preserve">
+    <value>메시지에 잘고 텍스트가 포함되어 있기 때문에 메시지가 삭제되었습니다.</value>
+  </data>
+  <data name="automod_check_zalgo" xml:space="preserve">
+    <value>잘고 텍스트</value>
+  </data>
+  <data name="twitch_title_live" xml:space="preserve">
+    <value>Twitch | {0} - 생방송 중!</value>
+  </data>
+  <data name="twitch_currently_playing" xml:space="preserve">
+    <value>현재 플레이 중인 게임:</value>
+  </data>
+  <data name="twitch_viewers" xml:space="preserve">
+    <value>시청자 수:</value>
+  </data>
+  <data name="twitch_join_stream" xml:space="preserve">
+    <value>여기에서 스트림에 참여하세요: https://www.twitch.tv/{0}</value>
+  </data>
+  <data name="twitch_feed" xml:space="preserve">
+    <value>Twitch 피드</value>
+  </data>
+  <data name="reddit_feed" xml:space="preserve">
+    <value>Reddit 피드</value>
+  </data>
+  <data name="tags_create_success" xml:space="preserve">
+    <value>`{0}` 태그를 만들었습니다.</value>
+  </data>
+  <data name="tags_create_fail" xml:space="preserve">
+    <value>`{0}` 태그를 만들지 못했습니다.</value>
+  </data>
+  <data name="tags_modify_fail" xml:space="preserve">
+    <value>`{0}` 태그를 수정하지 못했습니다.</value>
+  </data>
+  <data name="tags_modify_success" xml:space="preserve">
+    <value>`{0}` 태그를 수정했습니다.</value>
+  </data>
+  <data name="tags_delete_fail" xml:space="preserve">
+    <value>`{0}` 태그를 삭제하지 못했습니다.</value>
+  </data>
+  <data name="tags_delete_success" xml:space="preserve">
+    <value>`{0}` 태그를 삭제했습니다.</value>
+  </data>
+  <data name="tags_usage" xml:space="preserve">
+    <value>**사용법:** `!tags &lt;list | add | edit | delete&gt; &lt;선택:이름&gt; &lt;선택:콘텐츠&gt;`</value>
+  </data>
+  <data name="tags_list" xml:space="preserve">
+    <value>태그:</value>
+  </data>
+  <data name="tags_invalid" xml:space="preserve">
+    <value>태그를 입력해야 합니다. `!tags list`로 모든 태그를 보세요.</value>
+  </data>
+  <data name="thread_deleted" xml:space="preserve">
+    <value>스레드 삭제됨:</value>
+  </data>
+  <data name="thread_created" xml:space="preserve">
+    <value>스레드 만들어짐:</value>
+  </data>
+  <data name="thread_modified" xml:space="preserve">
+    <value>스레드 갱신됨:</value>
+  </data>
+  <data name="thread_parent" xml:space="preserve">
+    <value>스레드 부모:</value>
+  </data>
+  <data name="thread_auto_archive" xml:space="preserve">
+    <value>자동 보관 시간:</value>
+  </data>
+  <data name="thread_private" xml:space="preserve">
+    <value>비공개?</value>
+  </data>
+  <data name="thread_archived" xml:space="preserve">
+    <value>보관됨?</value>
+  </data>
+  <data name="thread_locked" xml:space="preserve">
+    <value>잠김?</value>
+  </data>
+  <data name="thread_name" xml:space="preserve">
+    <value>스레드 이름:</value>
+  </data>
+  <data name="thread_archive" xml:space="preserve">
+    <value>`{0}` 스레드가 보관되었습니다.</value>
+  </data>
+  <data name="thread_unarchive" xml:space="preserve">
+    <value>`{0}` 스레드의 보관이 해제되었습니다.</value>
+  </data>
+  <data name="stage_updated" xml:space="preserve">
+    <value>스테이지 갱신됨:</value>
+  </data>
+  <data name="stage_name" xml:space="preserve">
+    <value>스테이지 이름:</value>
+  </data>
+  <data name="stage_discoverable" xml:space="preserve">
+    <value>검색 가능?</value>
+  </data>
+  <data name="stage_privacy" xml:space="preserve">
+    <value>개인 정보 수준:</value>
+  </data>
+  <data name="stage_live" xml:space="preserve">
+    <value>생방송 중?</value>
+  </data>
+  <data name="stage_speaker_count" xml:space="preserve">
+    <value>말하는 사람 수:</value>
+  </data>
+  <data name="stage_started" xml:space="preserve">
+    <value>스테이지 시작됨:</value>
+  </data>
+  <data name="stage_ended" xml:space="preserve">
+    <value>스테이지 끝남:</value>
+  </data>
+  <data name="imageman_analyze_failed" xml:space="preserve">
+    <value>이미지 데이터를 역직렬화하지 못했습니다.</value>
+  </data>
+  <data name="cmd_error_bad_request" xml:space="preserve">
+    <value>잘못된 요청을 발견했습니다, 나중에 다시 시도해주세요.</value>
+  </data>
+  <data name="ticket_no_reason" xml:space="preserve">
+    <value>이유를 지정하지 않았습니다.</value>
+  </data>
+  <data name="ticket_exists" xml:space="preserve">
+    <value>여기에 이미 티켓이 있습니다, {0} 님!</value>
+  </data>
+  <data name="ticket_deleting" xml:space="preserve">
+    <value>티켓이 몇 초 후에 삭제됩니다.</value>
+  </data>
+  <data name="ticket_transcript_failed" xml:space="preserve">
+    <value>**오류:** 기록 파일을 생성할 수 없습니다.</value>
+  </data>
+  <data name="ticket_transcript" xml:space="preserve">
+    <value>기록</value>
+  </data>
+  <data name="ticket_open" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="ticket_delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="ticket_reopen" xml:space="preserve">
+    <value>{0}이(가) 티켓을 다시 열었습니다</value>
+  </data>
+  <data name="ticket_transcript_channel_missing" xml:space="preserve">
+    <value>**오류:** 기록 채널이 존재하지 않습니다. (또는 Cakey Bot이 해당 채널에 메시지를 보내거나 메시지를 볼 수 없습니다.)</value>
+  </data>
+  <data name="ticket_transcript_saved" xml:space="preserve">
+    <value>기록이 {0}에 저장되었습니다.</value>
+  </data>
+  <data name="ticket_message_count" xml:space="preserve">
+    <value>메시지 수:</value>
+  </data>
+  <data name="ticket_saved_by" xml:space="preserve">
+    <value>저장한 사용자:</value>
+  </data>
+  <data name="ticket_ticket" xml:space="preserve">
+    <value>티켓:</value>
+  </data>
+  <data name="ticket_staff_reply" xml:space="preserve">
+    <value>담당자 멤버가 티켓에 곧 응답합니다.</value>
+  </data>
+  <data name="ticket_close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="ticket_issue" xml:space="preserve">
+    <value>{0}에게 다음 문제가 있습니다.</value>
+  </data>
+  <data name="ticket_create" xml:space="preserve">
+    <value>지원 티켓을 만들려면 아래 버튼을 클릭하세요.</value>
+  </data>
+  <data name="ticket_title" xml:space="preserve">
+    <value>지원 티켓</value>
+  </data>
+  <data name="ticket_open_embed" xml:space="preserve">
+    <value>티켓 열기</value>
+  </data>
+  <data name="ticket_closed" xml:space="preserve">
+    <value>{0}이(가) 티켓을 닫았습니다</value>
+  </data>
+  <data name="archive_error" xml:space="preserve">
+    <value>이 명령어를 사용하려면 스레드에 있어야 합니다.</value>
+  </data>
+  <data name="error_missing_perm_self_managethreads" xml:space="preserve">
+    <value>스레드 관리 권한이 없습니다!</value>
+  </data>
+  <data name="archive_success" xml:space="preserve">
+    <value>{0}이(가) 스레드를 보관했습니다.</value>
+  </data>
+  <data name="archive_error_2" xml:space="preserve">
+    <value>스레드가 이미 보관되어 있습니다.</value>
+  </data>
+  <data name="error_failed_unmute" xml:space="preserve">
+    <value>사용자의 뮤트를 해제하지 못했습니다.</value>
+  </data>
+  <data name="core_sr_embed_error" xml:space="preserve">
+    <value>첨부를 만들기 전에 셀프 역할을 추가해야 합니다.</value>
+  </data>
+  <data name="core_sr_embed_description_select" xml:space="preserve">
+    <value>아래의 선택 메뉴를 사용하여 자기 자신에게/에게서 역할을 추가/제거할 수 있습니다.</value>
+  </data>
+  <data name="core_sr_embed_description_button" xml:space="preserve">
+    <value>아래의 버튼을 사용하여 자기 자신에게/에게서 역할을 추가/제거할 수 있습니다.</value>
+  </data>
+  <data name="core_sr_embed_description_reaction" xml:space="preserve">
+    <value>아래의 반응을 사용하여 자기 자신에게/에게서 역할을 추가/제거할 수 있습니다.</value>
+  </data>
+  <data name="core_sr_roles_added" xml:space="preserve">
+    <value>추가된 역할:</value>
+  </data>
+  <data name="core_sr_roles_removed" xml:space="preserve">
+    <value>제거된 역할:</value>
+  </data>
+  <data name="automod_string_phishing_link" xml:space="preserve">
+    <value>피싱 링크가 포함되어 있으므로 메시지가 삭제되었습니다.</value>
+  </data>
+  <data name="automod_check_phishing_link" xml:space="preserve">
+    <value>피싱 링크</value>
+  </data>
+  <data name="core_setting_usage_voteskip" xml:space="preserve">
+    <value>`{0}setting voteskip [true/false]`</value>
+  </data>
+  <data name="core_setting_voteskip" xml:space="preserve">
+    <value>투표 건너뛰기</value>
+  </data>
+  <data name="core_setting_description_voteskip" xml:space="preserve">
+    <value>음악 트랙 투표 건너뛰기가 사용되는지 여부를 전환합니다.</value>
+  </data>
+  <data name="core_setting_voteskip_current" xml:space="preserve">
+    <value>현재 설정:</value>
+  </data>
+  <data name="core_setting_voteskip_update" xml:space="preserve">
+    <value>설정 변경/갱신:</value>
+  </data>
+  <data name="premium_limit_filters" xml:space="preserve">
+    <value>음악 필터를 사용하려면 Premium이 있어야 합니다. 여기에서 Premium을 구매할 수 있습니다: &lt;https://cakeybot.app/dashboard/public/premium&gt;</value>
+  </data>
+  <data name="presets_valid" xml:space="preserve">
+    <value>올바른 미리 설정: ```{0}```</value>
+  </data>
+  <data name="presets_applied" xml:space="preserve">
+    <value>미리 설정을 적용했습니다: `{0}`</value>
+  </data>
+  <data name="filters_applied" xml:space="preserve">
+    <value>다음 옵션으로 `{0}` 필터를 적용했습니다: {1}</value>
+  </data>
+  <data name="filters_valid" xml:space="preserve">
+    <value>올바른 필터: ```{0}```</value>
+  </data>
+  <data name="filter_usage_distortion" xml:space="preserve">
+    <value>**사용법:** `!filter distortion &lt;sin 오프셋&gt; &lt;sin 스케일&gt; &lt;cos 오프셋&gt; &lt;cos 스케일&gt; &lt;tan 오프셋&gt; &lt;tan 스케일&gt; &lt;오프셋&gt; &lt;스케일&gt;`</value>
+  </data>
+  <data name="filter_usage_lowpass" xml:space="preserve">
+    <value>**사용법:** `!filter lowpass &lt;평활화&gt;`</value>
+  </data>
+  <data name="filter_usage_karaoke" xml:space="preserve">
+    <value>**사용법:** `!filter karaoke &lt;수준&gt; &lt;모노 수준&gt; &lt;대역&gt; &lt;너비&gt;`</value>
+  </data>
+  <data name="filter_usage_rotation" xml:space="preserve">
+    <value>**사용법:** `!filter rotation &lt;빈도&gt;`</value>
+  </data>
+  <data name="filter_usage_timescale" xml:space="preserve">
+    <value>**사용법:** `!filter timescale &lt;속도(speed)&gt; &lt;음높이&gt; &lt;비율(rate)&gt;`</value>
+  </data>
+  <data name="filter_usage_tremolo" xml:space="preserve">
+    <value>**사용법:** `!filter tremolo &lt;빈도&gt; &lt;깊이&gt;`</value>
+  </data>
+  <data name="filter_usage_vibrato" xml:space="preserve">
+    <value>**사용법:** `!filter vibrato &lt;빈도&gt; &lt;깊이&gt;`</value>
+  </data>
 </root>
