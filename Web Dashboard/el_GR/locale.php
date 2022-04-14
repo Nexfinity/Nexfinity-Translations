@@ -597,5 +597,6 @@ return [
 "audit-constant-music" => "Ορισμός μουσικής 24/7: :data",
 "bot-settings-constantMusic" => "Επιτυχής εναλλαγή μουσικής 24/7.",
 "title-247-music" => "24/7 Μουσική",
+"dashboard-sidebar-30" => "Embed Editor",
 ];
 ?>

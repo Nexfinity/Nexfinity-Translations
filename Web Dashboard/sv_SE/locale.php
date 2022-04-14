@@ -597,5 +597,6 @@ return [
 "audit-constant-music" => "Ställ in 24/7-musik: :data",
 "bot-settings-constantMusic" => "Ändrade framgångsrikt 24/7-musik.",
 "title-247-music" => "24/7-musik",
+"dashboard-sidebar-30" => "Embed Editor",
 ];
 ?>

@@ -597,5 +597,6 @@ return [
 "audit-constant-music" => "ضبط الموسيقى على مدار الساعة طوال أيام الأسبوع: :data",
 "bot-settings-constantMusic" => "تم تبديل الموسيقى على مدار الساعة طوال أيام الأسبوع بنجاح.",
 "title-247-music" => "موسيقى 24/7",
+"dashboard-sidebar-30" => "Embed Editor",
 ];
 ?>
