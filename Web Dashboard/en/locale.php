@@ -148,7 +148,7 @@ return [
 "dashboard-settings-17" => "Enabled Persistent Mutes",
 "dashboard-announcements-1" => "Join Banner Background Image",
 "dashboard-announcements-1-success" => "Successfully updated join banner background.",
-"dashboard-announcements-2" => "Leave Background Background Image",
+"dashboard-announcements-2" => "Leave Banner Background Image",
 "dashboard-announcements-2-success" => "Successfully updated leave banner background.",
 "dashboard-update" => "Update",
 "dashboard-save" => "Save",
