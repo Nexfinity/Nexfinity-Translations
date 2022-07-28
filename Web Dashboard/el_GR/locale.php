@@ -598,5 +598,6 @@ return [
 "bot-settings-constantMusic" => "Επιτυχής εναλλαγή μουσικής 24/7.",
 "title-247-music" => "24/7 Μουσική",
 "dashboard-sidebar-30" => "Embed Editor",
+"auto-mod-title-phone" => "Phone Numbers",
 ];
 ?>

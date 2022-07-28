@@ -598,5 +598,6 @@ return [
 "bot-settings-constantMusic" => "Musica 24/7 attivata/disattivata correttamente.",
 "title-247-music" => "Musica 24/7",
 "dashboard-sidebar-30" => "Incorpora L'Editor",
+"auto-mod-title-phone" => "Phone Numbers",
 ];
 ?>

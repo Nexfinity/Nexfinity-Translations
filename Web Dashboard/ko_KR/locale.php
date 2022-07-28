@@ -598,5 +598,6 @@ return [
 "bot-settings-constantMusic" => "매일 24시간 음악을 전환했습니다.",
 "title-247-music" => "매일 24시간 음악",
 "dashboard-sidebar-30" => "첨부 편집기",
+"auto-mod-title-phone" => "Phone Numbers",
 ];
 ?>

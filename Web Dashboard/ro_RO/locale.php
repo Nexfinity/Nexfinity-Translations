@@ -598,5 +598,6 @@ return [
 "bot-settings-constantMusic" => "Muzică 24/7 compusă cu succes.",
 "title-247-music" => "Muzică 24/7",
 "dashboard-sidebar-30" => "Încorporează Editorul",
+"auto-mod-title-phone" => "Phone Numbers",
 ];
 ?>

@@ -598,5 +598,6 @@ return [
 "bot-settings-constantMusic" => "Erfolgreich umgeschaltet 24/7 Musik.",
 "title-247-music" => "24/7 Musik",
 "dashboard-sidebar-30" => "Embed Editor",
+"auto-mod-title-phone" => "Phone Numbers",
 ];
 ?>

@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -59,19 +59,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cooldown" xml:space="preserve">
-    <value>This command is on cooldown for: {0}</value>
+    <value>このコマンドは {0} の間クールダウン中です。</value>
   </data>
   <data name="module_disabled" xml:space="preserve">
-    <value>This module has been disabled in this guild by the server admins.</value>
+    <value>このモジュールは、このサーバーの管理者によって、サーバー内で無効化されています。</value>
   </data>
   <data name="command_disabled" xml:space="preserve">
-    <value>This command is disabled temporarily for updates.</value>
+    <value>このコマンドは、アップデートのため、一時的に無効化されています。</value>
   </data>
   <data name="error_generic_1" xml:space="preserve">
-    <value>An unknown error occurred!</value>
+    <value>不明なエラーが発生しました！</value>
   </data>
   <data name="error_generic_2" xml:space="preserve">
-    <value>Unknown error occurred. Please report in our support Discord: https://discord.gg/EUssVK5</value>
+    <value>不明なエラーが発生しました。Discordサポートで私たちに報告してください。 https://discord.gg/EUssVK5</value>
   </data>
   <data name="error_generic_3" xml:space="preserve">
     <value>An unknown error occured. Is the server online? Did you choose the correct server type?</value>
@@ -778,7 +778,7 @@ Note: A message will be sent upon completion.</value>
     <value>Region</value>
   </data>
   <data name="info_string_10" xml:space="preserve">
-    <value>Roles</value>
+    <value>ロール</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
     <value>Channels</value>
@@ -817,7 +817,7 @@ Note: A message will be sent upon completion.</value>
     <value>Activity</value>
   </data>
   <data name="info_string_23" xml:space="preserve">
-    <value>Nickname</value>
+    <value>ニックネーム</value>
   </data>
   <data name="info_string_24" xml:space="preserve">
     <value>Discriminator</value>
@@ -859,7 +859,7 @@ Note: A message will be sent upon completion.</value>
     <value>Inviter</value>
   </data>
   <data name="info_string_37" xml:space="preserve">
-    <value>Channel</value>
+    <value>チャンネル</value>
   </data>
   <data name="info_string_38" xml:space="preserve">
     <value>Member Count</value>
@@ -901,7 +901,7 @@ Note: A message will be sent upon completion.</value>
     <value>Total Roles</value>
   </data>
   <data name="info_string_51" xml:space="preserve">
-    <value>Warnings</value>
+    <value>警告</value>
   </data>
   <data name="info_string_52" xml:space="preserve">
     <value>{0} warning{1} in {2} guild{3}.</value>
@@ -979,7 +979,7 @@ Note: A message will be sent upon completion.</value>
     <value>Weather</value>
   </data>
   <data name="weather_description" xml:space="preserve">
-    <value>Description</value>
+    <value>概要</value>
   </data>
   <data name="weather_country" xml:space="preserve">
     <value>Country</value>
@@ -1777,7 +1777,7 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
     <value>Web Dashboard</value>
   </data>
   <data name="core_docs" xml:space="preserve">
-    <value>Docs/FAQ</value>
+    <value>ドキュメント/よくある質問</value>
   </data>
   <data name="core_support_discord" xml:space="preserve">
     <value>Support Discord</value>
@@ -1786,7 +1786,7 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
     <value>Bot Invite Link</value>
   </data>
     <data name="core_donate" xml:space="preserve">
-        <value>Premium</value>
+        <value>プレミアム</value>
     </data>
   <data name="core_error" xml:space="preserve">
     <value>Error: Cakey Bot requires embed permissions to fully function.</value>
@@ -1975,25 +1975,25 @@ If you are looking for a list of bot commands and how they work, click the `Bot 
     <value>Website URL/Link</value>
   </data>
   <data name="automod_check_mass_mentions" xml:space="preserve">
-    <value>Mass Mentions</value>
+    <value>一括メンション</value>
   </data>
   <data name="automod_check_emoji_spam" xml:space="preserve">
     <value>Emoji Spam</value>
   </data>
   <data name="automod_check_spoilers" xml:space="preserve">
-    <value>Spoilers</value>
+    <value>ネタバレ</value>
   </data>
   <data name="automod_check_self_bot" xml:space="preserve">
     <value>Self Bot Message</value>
   </data>
   <data name="automod_check_stickers" xml:space="preserve">
-    <value>Stickers</value>
+    <value>ステッカー</value>
   </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
     <value>Duplicated Characters</value>
   </data>
   <data name="automod_check_duplicate_word" xml:space="preserve">
-    <value>Duplicate Words</value>
+    <value>重複した単語</value>
   </data>
   <data name="automod_check_auto_dehoist" xml:space="preserve">
     <value>Auto Dehoist</value>
@@ -2225,7 +2225,7 @@ Note: Requires \"Manage Server\" access.</value>
         <value>Open</value>
     </data>
     <data name="ticket_delete" xml:space="preserve">
-        <value>Delete</value>
+        <value>削除</value>
     </data>
     <data name="ticket_reopen" xml:space="preserve">
         <value>Ticket re-opened by {0}</value>

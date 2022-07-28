@@ -598,5 +598,6 @@ return [
 "bot-settings-constantMusic" => "7/24 müzik açıldı/kapatıldı.",
 "title-247-music" => "7/24 Müzik",
 "dashboard-sidebar-30" => "Embed Editor",
+"auto-mod-title-phone" => "Phone Numbers",
 ];
 ?>
