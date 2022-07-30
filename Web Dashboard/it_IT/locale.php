@@ -599,5 +599,16 @@ return [
 "title-247-music" => "Musica 24/7",
 "dashboard-sidebar-30" => "Incorpora L'Editor",
 "auto-mod-title-phone" => "Phone Numbers",
+"premium-alert-text" => "Premium subscriptions should appear instantly. If you have any issues, questions or concerns regarding your premium subscription, join our <strong><a href='https://cakeybot.app/discord' class='info'>Support Discord</a></strong> and create a ticket.",
+"premium-monthly" => "Monthly",
+"premium-yearly" => "Yearly",
+"premium-lifetime" => "Lifetime",
+"premium-user" => "User Premium",
+"premium-whitelabel" => "White Label",
+"premium-quantity" => "Quantity",
+"premium-one-time" => "Note: These are one-time payments and will NOT auto-renew each month.",
+"settings-cache" => "Note: Some settings may take up to a minute to apply to your server due to caching.",
+"beta-locked" => "This feature is currently being tested and has not been released yet.",
+"beta-title" => "BETA Feature",
 ];
 ?>
