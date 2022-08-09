@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
@@ -79,7 +79,10 @@
   <data name="error_generic_4" xml:space="preserve">
     <value>Λάθος:</value>
   </data>
-    <data name="error_ssl" xml:space="preserve">
+  <data name="error_generic_5" xml:space="preserve">
+    <value>Sub-command coming soon.</value>
+  </data>
+  <data name="error_ssl" xml:space="preserve">
     <value>Πρόβλημα SSL, παρακαλώ δοκιμάστε αργότερα.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -96,21 +99,6 @@
   </data>
   <data name="error_limit_characters_500" xml:space="preserve">
     <value>Το κείμενο πρέπει να είναι λιγότερο απο 500 λέξεις.</value>
-  </data>
-  <data name="error_missing_text" xml:space="preserve">
-    <value>Πρέπει να δώσετε κάποιο κείμενο.</value>
-  </data>
-  <data name="error_missing_query" xml:space="preserve">
-    <value>Πρέπει να δώσετε ένα ερώτημα αναζήτησης.</value>
-  </data>
-  <data name="error_missing_warn_id" xml:space="preserve">
-    <value>Πρέπει να γράψετε ένα ID προειδοποίησης!</value>
-  </data>
-    <data name="error_missing_user_name_1" xml:space="preserve">
-    <value>Πρέπει να γράψετε ένα όνομα!</value>
-  </data>
-    <data name="error_missing_user_id" xml:space="preserve">
-    <value>Πρέπει να γράψετε ένα ID χρήστη!</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Δεν έχεις πρόσβαση στο ManageRoles!</value>
@@ -331,13 +319,10 @@
     <data name="error_usage_rps" xml:space="preserve">
     <value>Παρακαλώ γράψτε μια έγκυρη κίνηση. `!rps &lt; rock | paper | scissors &gt;`</value>
   </data>
-  <data name="error_usage_8ball" xml:space="preserve">
-    <value>Παρακαλώ γράψτε μια ερώτηση.</value>
-  </data>
     <data name="error_usage_verify_set" xml:space="preserve">
     <value>Δεν έχει οριστεί ρόλος επαλήθευσης. Ορίστε ένα χρησιμοποιώντας: `{0}verify setup &lt;role&gt;`</value>
   </data>
-  <data name="error_verify" xml:space="preserve">
+    <data name="error_verify" xml:space="preserve">
     <value>Απέτυχε ο ορισμός του ρόλου επαλήθευσης.</value>
   </data>
   <data name="success_verify" xml:space="preserve">
@@ -361,7 +346,10 @@
   <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>Πρόταση:</value>
   </data>
-    <data name="games_suggestion_title" xml:space="preserve">
+  <data name="games_suggestion_vote" xml:space="preserve">
+    <value>Ψήφος:</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
     <value>Τίτλος:</value>
   </data>
   <data name="games_suggestion_description" xml:space="preserve">
@@ -418,34 +406,7 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>Διάλεξα {0}. Και οι δύο μας διαλέξαμε {1}, είναι ισοπαλία!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Σφάλμα:** Τα Giveaways πρέπει να διαρκέσουν λιγότερο από 1 ημέρα.</value>
-  </data>
-  <data name="games_giveaway_error_2" xml:space="preserve">
-    <value>**Σφάλμα:** Οι διαγωνισμοί πρέπει να διαρκούν τουλάχιστον 1 λεπτό.</value>
-  </data>
-  <data name="games_giveaway_title" xml:space="preserve">
-    <value>:tada: **ΔΙΑΓΩΝΙΣΜΟΣ** :tada:</value>
-  </data>
-  <data name="games_giveaway" xml:space="preserve">
-    <value>**Πληροφορίες:**
-● Έπαθλο: `{0}`
-● Ποσό νικητή: {1}
-● Το Giveaway τελειώνει {2}
-
-Αντιδράστε με :tada: για να εισαγάγετε το giveaway!</value>
-  </data>
-  <data name="games_giveaway_winner" xml:space="preserve">
-    <value>***Συγχαρητήρια!***
-{0}, νίκησες το βραβείο: `{1}`!</value>
-  </data>
-  <data name="games_giveaway_winner_none" xml:space="preserve">
-    <value>Δεν υπάρχουν νικητές σήμερα :(</value>
-  </data>
-  <data name="games_giveaway_winner_limit" xml:space="preserve">
-    <value>Ο αριθμός των νικητών πρέπει να είναι τουλάχιστον 1 και όχι περισσότερο από 15.</value>
-  </data>
-  <data name="games_trivia_title" xml:space="preserve">
+    <data name="games_trivia_title" xml:space="preserve">
     <value>Ερώτηση Trivia του {0}</value>
   </data>
   <data name="games_trivia_footer" xml:space="preserve">
@@ -598,13 +559,19 @@
   <data name="mod_warn_dm" xml:space="preserve">
     <value>Έχεις προειδοποιηθεί στον σέρβερ `{0}` από τον `{1}` για: `{2}`</value>
   </data>
-    <data name="mod_unwarn_self_bot" xml:space="preserve">
+  <data name="mod_unwarn_self" xml:space="preserve">
+    <value>You can't unwarn yourself!</value>
+  </data>
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
     <value>Δεν μπορώ να αφαιρέσω μια προειδοποίηση τον εαυτό μου!</value>
   </data>
   <data name="mod_unwarn_success" xml:space="preserve">
     <value>Η προειδοποίηση έχει αφαιρεθεί με επιτυχία από τον χρήστη `{0}#{1}`</value>
   </data>
-    <data name="mod_unwarn_error_invalid" xml:space="preserve">
+  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <value>User does not have any warnings to remove.</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
     <value>Το αναγνωριστικό προειδοποίησης δεν είναι έγκυρο.</value>
   </data>
   <data name="mod_clearwarnings_success" xml:space="preserve">
@@ -698,7 +665,10 @@
   <data name="info_string_8" xml:space="preserve">
     <value>Μέλη</value>
   </data>
-    <data name="info_string_10" xml:space="preserve">
+  <data name="info_string_9" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
     <value>Ρόλοι</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -887,10 +857,7 @@
   <data name="info_string_75" xml:space="preserve">
     <value>```Συντονιστής Διακομιστή```</value>
   </data>
-  <data name="info_string_76" xml:space="preserve">
-    <value>Μπορείτε επίσης να κάνετε δωρεά για να δείξετε την υποστήριξή σας!</value>
-  </data>
-  <data name="info_string_77" xml:space="preserve">
+    <data name="info_string_77" xml:space="preserve">
     <value>{0} Ενισχυτές</value>
   </data>
   <data name="weather_coordinates" xml:space="preserve">
@@ -926,11 +893,8 @@
     <data name="emoji_string_animated" xml:space="preserve">
     <value>IsAnimated;</value>
   </data>
-    <data name="emoji_missing_id" xml:space="preserve">
-    <value>Καταχωρίστε ένα αναγνωριστικό emoji.</value>
-  </data>
-  <data name="emoji_invalid_name" xml:space="preserve">
-    <value>Παρακαλώ δώστε ένα έγκυρο όνομα.</value>
+  <data name="emoji_string_url" xml:space="preserve">
+    <value>URL:</value>
   </data>
     <data name="roleinfo" xml:space="preserve">
     <value>{0} Πληροφορίες ρόλου</value>
@@ -1233,7 +1197,13 @@
   <data name="music_string_4" xml:space="preserve">
     <value>Υπάρχουν άλλα {0} τραγούδια.</value>
   </data>
-    <data name="music_string_7" xml:space="preserve">
+  <data name="music_string_5" xml:space="preserve">
+    <value>You must enter a time value.</value>
+  </data>
+  <data name="music_string_6" xml:space="preserve">
+    <value>Invalid time.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
     <value>Ο χρόνος είναι εκτός του μήκους του βίντεο, προσπαθήστε ξανά.</value>
   </data>
   <data name="music_string_8" xml:space="preserve">
@@ -1368,10 +1338,7 @@
   <data name="cmd_error_param" xml:space="preserve">
     <value>Έχει λάθος αριθμό παραμέτρων.</value>
   </data>
-  <data name="cmd_error_username" xml:space="preserve">
-    <value>Πρέπει να γράψεις ένα έγκυρο όνομα χρήστη.</value>
-  </data>
-  <data name="cmd_error_number" xml:space="preserve">
+    <data name="cmd_error_number" xml:space="preserve">
     <value>Πρέπει να γράψεις ένα έγκυρο νούμερο.</value>
   </data>
   <data name="cmd_error_input" xml:space="preserve">
@@ -1589,11 +1556,6 @@
   <data name="util_sha512_result" xml:space="preserve">
     <value>Κατακερματισμός SHA512 αποτελέσματα: ```{0}```</value>
   </data>
-  <data name="util_hash_result" xml:space="preserve">
-    <value>Αποτελέσματα κατακερματισμού:
-
-**Base64 κωδικοποίηση εξόδου: **```{0}```** Κατακερματισμός MD5 εξόδου:**```{1}```**Κατακερματισμός SHA1 εξόδου:**```{2}```**Κατακρματισμός SHA256 εξόδου:**```{3}```**Κατακερματισμός SHA512 εξόδου:**```{4}```</value>
-  </data>
     <data name="util_steam_hidden" xml:space="preserve">
     <value>Κρυφό</value>
   </data>
@@ -1640,7 +1602,10 @@
     <data name="core_donate" xml:space="preserve">
         <value>Premium</value>
     </data>
-    <data name="core_system_message" xml:space="preserve">
+  <data name="core_error" xml:space="preserve">
+    <value>Error: Cakey Bot requires embed permissions to fully function.</value>
+  </data>
+  <data name="core_system_message" xml:space="preserve">
     <value>*Μήνυμα Συστήματος*</value>
   </data>
   <data name="core_cmd_search_1" xml:space="preserve">
@@ -1685,13 +1650,10 @@
   <data name="core_stats_4" xml:space="preserve">
     <value>Κανάλια ομιλίας</value>
   </data>
-  <data name="core_announce_usage" xml:space="preserve">
-    <value>Χρήση: `!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
-  </data>
-  <data name="core_announce_footer" xml:space="preserve">
+    <data name="core_announce_footer" xml:space="preserve">
     <value>Ανακοίνωση</value>
   </data>
-    <data name="core_sr_added_1" xml:space="preserve">
+  <data name="core_sr_added_1" xml:space="preserve">
     <value>Ο ρόλος έχει ήδη προστεθεί.</value>
   </data>
   <data name="core_sr_added_2" xml:space="preserve">
@@ -1778,7 +1740,10 @@
   <data name="automod_string_spoiler" xml:space="preserve">
     <value>Το μήνυμά σας διαγράφηκε γιατί περιείχε ένα σπόιλερ.</value>
   </data>
-    <data name="automod_string_stickers" xml:space="preserve">
+  <data name="automod_string_selfbot" xml:space="preserve">
+    <value>Your message was deleted because it was a self-bot message.</value>
+  </data>
+  <data name="automod_string_stickers" xml:space="preserve">
     <value>Το μήνυμά σας διαγράφηκε επειδή περιείχε αυτοκόλλητα.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
@@ -1808,7 +1773,10 @@
   <data name="automod_check_spoilers" xml:space="preserve">
     <value>Σπόιλερς</value>
   </data>
-    <data name="automod_check_stickers" xml:space="preserve">
+  <data name="automod_check_self_bot" xml:space="preserve">
+    <value>Self Bot Message</value>
+  </data>
+  <data name="automod_check_stickers" xml:space="preserve">
     <value>Αυτοκόλλητα</value>
   </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
@@ -1853,7 +1821,10 @@
   <data name="info_open_image" xml:space="preserve">
       <value>Άνοιγμα Εικόνας</value>
   </data>
-    <data name="game_ttt_in_progress" xml:space="preserve">
+  <data name="info_target_user" xml:space="preserve">
+      <value>Target User</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Ένα παιχνίδι είναι ήδη σε εξέλιξη, ολοκληρώστε το πριν κάνετε ένα νέο παιχνίδι.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -2079,8 +2050,14 @@
     <data name="ticket_closed" xml:space="preserve">
         <value>Το αίτημα έκλεισε από {0}</value>
     </data>
+    <data name="archive_error" xml:space="preserve">
+        <value>You must be in a thread to use this command.</value>
+    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Δεν έχω άδεια διαχείρισης νήματος!</value>
+    </data>
+    <data name="archive_error_2" xml:space="preserve">
+        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Αποτυχία κατάργησης σίγασης του χρήστη.</value>
@@ -2117,5 +2094,38 @@
     </data>
     <data name="filters_applied" xml:space="preserve">
         <value>Εφαρμογή φίλτρου `{0}` με αυτές τις επιλογές: {1}</value>
+    </data>
+    <data name="error_ticket_category" xml:space="preserve">
+        <value>Unable to create ticket category. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="error_ticket_overwrites" xml:space="preserve">
+        <value>Unable to create proper permission overwrites for ticket. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="ticket_success" xml:space="preserve">
+        <value>Successfully created your ticket here: &lt;#{0}&gt;</value>
+    </data>
+    <data name="self_role_select" xml:space="preserve">
+        <value>Select some roles.</value>
+    </data>
+    <data name="music_queue_locked" xml:space="preserve">
+        <value>The queue is currently locked. It can only be modified by DJs and server moderators.</value>
+    </data>
+    <data name="music_error_playlist_exists_save" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to save a new one with the same name.</value>
+    </data>
+    <data name="music_error_playlist_exists_rename" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to rename one with the same name.</value>
+    </data>
+    <data name="error_upload_pastebin" xml:space="preserve">
+        <value>Failed to upload list to PasteBin.</value>
+    </data>
+    <data name="ttt_expires" xml:space="preserve">
+        <value>**Expires:** {0}</value>
+    </data>
+    <data name="core_help_default_permission" xml:space="preserve">
+        <value>Default Permission:</value>
+    </data>
+    <data name="core_help_select_placeholder" xml:space="preserve">
+        <value>Select a feature/guide</value>
     </data>
 </root>

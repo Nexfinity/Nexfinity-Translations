@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
@@ -79,7 +79,10 @@
   <data name="error_generic_4" xml:space="preserve">
     <value>خطأ:</value>
   </data>
-    <data name="error_ssl" xml:space="preserve">
+  <data name="error_generic_5" xml:space="preserve">
+    <value>Sub-command coming soon.</value>
+  </data>
+  <data name="error_ssl" xml:space="preserve">
     <value>حصل خطأ SLL. الرجاء المحاولة في وقت لاحق.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -96,21 +99,6 @@
   </data>
   <data name="error_limit_characters_500" xml:space="preserve">
     <value>يجب أن يكون النص أقل من 500 حرف.</value>
-  </data>
-  <data name="error_missing_text" xml:space="preserve">
-    <value>يجب عليك تقديم نص قصير.</value>
-  </data>
-  <data name="error_missing_query" xml:space="preserve">
-    <value>يجب عليك تقديم استعلام بحث.</value>
-  </data>
-  <data name="error_missing_warn_id" xml:space="preserve">
-    <value>يجب عليك إدخال معرف تحذير!</value>
-  </data>
-    <data name="error_missing_user_name_1" xml:space="preserve">
-    <value>يجب عليك إدخال إسم شخص!</value>
-  </data>
-    <data name="error_missing_user_id" xml:space="preserve">
-    <value>يجب عليك إدخال معرف مستخدم!</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>ليس لديك إذن إدارة الأدوار!</value>
@@ -332,13 +320,10 @@
     <data name="error_usage_rps" xml:space="preserve">
     <value>‏‎الرجاء إدخال خطوة صالحة: `!rps &amp;lt; صخرة |  ورقة |  مقص &gt;`</value>
   </data>
-  <data name="error_usage_8ball" xml:space="preserve">
-    <value>الرجاء إدخال سؤال.</value>
-  </data>
     <data name="error_usage_verify_set" xml:space="preserve">
     <value>لم يتم تحديد دور التحقق. قم بتعيين واحد باستخدام: `{0}verify setup &lt;role&gt;`</value>
   </data>
-  <data name="error_verify" xml:space="preserve">
+    <data name="error_verify" xml:space="preserve">
     <value>فشل في تحديد دور التأكيد.</value>
   </data>
   <data name="success_verify" xml:space="preserve">
@@ -362,7 +347,10 @@
   <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>الاقتراحات:</value>
   </data>
-    <data name="games_suggestion_title" xml:space="preserve">
+  <data name="games_suggestion_vote" xml:space="preserve">
+    <value>تصويت:</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
     <value>عنوان:</value>
   </data>
   <data name="games_suggestion_description" xml:space="preserve">
@@ -419,34 +407,7 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>اخترت {0}. اختار كلانا {1}، إنه تعادل!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>** خطأ:** يجب أن تستمر الهبات أقل من يوم واحد.</value>
-  </data>
-  <data name="games_giveaway_error_2" xml:space="preserve">
-    <value>** خطأ:** يجب أن تستمر الهبات 1 دقيقة على الأقل.</value>
-  </data>
-  <data name="games_giveaway_title" xml:space="preserve">
-    <value>:tada: **الهبة**:tada:</value>
-  </data>
-  <data name="games_giveaway" xml:space="preserve">
-    <value>**معلومة:**
-● الجائزة: `{0}`
-● مبلغ الفائز: {1}
-● تنتهي الهبة {2}
-
- تفاعل مع :tada: للدخول في الهبة!</value>
-  </data>
-  <data name="games_giveaway_winner" xml:space="preserve">
-    <value>***تهانينا!***
-{0}، لقد فزت بالجائزة: `{1}`!</value>
-  </data>
-  <data name="games_giveaway_winner_none" xml:space="preserve">
-    <value>لا يوجد رابحون اليوم :(</value>
-  </data>
-  <data name="games_giveaway_winner_limit" xml:space="preserve">
-    <value>يجب أن يكون عدد الفائزين 1 على الأقل ولا يزيد عن 15.</value>
-  </data>
-  <data name="games_trivia_title" xml:space="preserve">
+    <data name="games_trivia_title" xml:space="preserve">
     <value>سؤال تريفيا لـ {0}</value>
   </data>
   <data name="games_trivia_footer" xml:space="preserve">
@@ -599,13 +560,19 @@
   <data name="mod_warn_dm" xml:space="preserve">
     <value>تم تحذيرك في `{0}`بواسطة `{1}`على:`{2}`</value>
   </data>
-    <data name="mod_unwarn_self_bot" xml:space="preserve">
+  <data name="mod_unwarn_self" xml:space="preserve">
+    <value>You can't unwarn yourself!</value>
+  </data>
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
     <value>لا أستطيع أن الغاء أحذر نفسي!</value>
   </data>
   <data name="mod_unwarn_success" xml:space="preserve">
     <value>تمت إزالة التحذير بنجاح من: `{0}#{1}`</value>
   </data>
-    <data name="mod_unwarn_error_invalid" xml:space="preserve">
+  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <value>User does not have any warnings to remove.</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
     <value>معرف التحذير ID المقدم غير صالح.</value>
   </data>
   <data name="mod_clearwarnings_success" xml:space="preserve">
@@ -699,7 +666,10 @@
   <data name="info_string_8" xml:space="preserve">
     <value>أعضاء</value>
   </data>
-    <data name="info_string_10" xml:space="preserve">
+  <data name="info_string_9" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
     <value>الأدوار</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -888,10 +858,7 @@
   <data name="info_string_75" xml:space="preserve">
     <value>```مشرف الخادم```</value>
   </data>
-  <data name="info_string_76" xml:space="preserve">
-    <value>يمكنك أيضًا التبرع لإظهار دعمك!</value>
-  </data>
-  <data name="info_string_77" xml:space="preserve">
+    <data name="info_string_77" xml:space="preserve">
     <value>{0} معززات</value>
   </data>
   <data name="weather_coordinates" xml:space="preserve">
@@ -927,11 +894,8 @@
     <data name="emoji_string_animated" xml:space="preserve">
     <value>IsAnimated؟</value>
   </data>
-    <data name="emoji_missing_id" xml:space="preserve">
-    <value>الرجاء إدخال معرف الرموز التعبيرية.</value>
-  </data>
-  <data name="emoji_invalid_name" xml:space="preserve">
-    <value>الرجاء إدخال إسم صحيح.</value>
+  <data name="emoji_string_url" xml:space="preserve">
+    <value>URL:</value>
   </data>
     <data name="roleinfo" xml:space="preserve">
     <value>معلومات الدور {0}</value>
@@ -1234,7 +1198,13 @@
   <data name="music_string_4" xml:space="preserve">
     <value>+{0} المزيد من الأغاني.</value>
   </data>
-    <data name="music_string_7" xml:space="preserve">
+  <data name="music_string_5" xml:space="preserve">
+    <value>You must enter a time value.</value>
+  </data>
+  <data name="music_string_6" xml:space="preserve">
+    <value>Invalid time.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
     <value>الوقت خارج عن طول الفيديو، أعد المحاولة.</value>
   </data>
   <data name="music_string_8" xml:space="preserve">
@@ -1369,10 +1339,7 @@
   <data name="cmd_error_param" xml:space="preserve">
     <value>لديه عدد غير صحيح من المعلمات.</value>
   </data>
-  <data name="cmd_error_username" xml:space="preserve">
-    <value>يجب تقديم اسم مستخدم صالح.</value>
-  </data>
-  <data name="cmd_error_number" xml:space="preserve">
+    <data name="cmd_error_number" xml:space="preserve">
     <value>يجب تقديم رقم صحيح.</value>
   </data>
   <data name="cmd_error_input" xml:space="preserve">
@@ -1590,11 +1557,6 @@
   <data name="util_sha512_result" xml:space="preserve">
     <value>نتيجة تجزئة SHA512: ```{0}```</value>
   </data>
-  <data name="util_hash_result" xml:space="preserve">
-    <value>تجزئة النتائج:
-
-** باستخدام Base64 تشفر خرج: ** ```{0}``` ** MD5 تجزئة خرج: ** ```{1}``` ** SHA1 تجزئة خرج: ** `` `{2}``` ** SHA256 تجزئة خرج: ** ```{3}``` ** SHA512 تجزئة خرج: ** ```{4}```</value>
-  </data>
     <data name="util_steam_hidden" xml:space="preserve">
     <value>مخفي</value>
   </data>
@@ -1641,7 +1603,10 @@
     <data name="core_donate" xml:space="preserve">
         <value>حساب بريميوم</value>
     </data>
-    <data name="core_system_message" xml:space="preserve">
+  <data name="core_error" xml:space="preserve">
+    <value>Error: Cakey Bot requires embed permissions to fully function.</value>
+  </data>
+  <data name="core_system_message" xml:space="preserve">
     <value>*رسالة النظام*</value>
   </data>
   <data name="core_cmd_search_1" xml:space="preserve">
@@ -1686,14 +1651,10 @@
   <data name="core_stats_4" xml:space="preserve">
     <value>قنوات الصوت</value>
   </data>
-  <data name="core_announce_usage" xml:space="preserve">
-    <value>الاستعمال:
-`!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
-  </data>
-  <data name="core_announce_footer" xml:space="preserve">
+    <data name="core_announce_footer" xml:space="preserve">
     <value>إعلان</value>
   </data>
-    <data name="core_sr_added_1" xml:space="preserve">
+  <data name="core_sr_added_1" xml:space="preserve">
     <value>تمت إضافة الدور بالفعل.</value>
   </data>
   <data name="core_sr_added_2" xml:space="preserve">
@@ -1780,7 +1741,10 @@
   <data name="automod_string_spoiler" xml:space="preserve">
     <value>تم حذف رسالتك لاحتوائها spoiler.</value>
   </data>
-    <data name="automod_string_stickers" xml:space="preserve">
+  <data name="automod_string_selfbot" xml:space="preserve">
+    <value>Your message was deleted because it was a self-bot message.</value>
+  </data>
+  <data name="automod_string_stickers" xml:space="preserve">
     <value>تم حذف رسالتك لاحتوائها على ملصقات.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
@@ -1810,7 +1774,10 @@
   <data name="automod_check_spoilers" xml:space="preserve">
     <value>المفسدون</value>
   </data>
-    <data name="automod_check_stickers" xml:space="preserve">
+  <data name="automod_check_self_bot" xml:space="preserve">
+    <value>Self Bot Message</value>
+  </data>
+  <data name="automod_check_stickers" xml:space="preserve">
     <value>ملصقات</value>
   </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
@@ -1855,7 +1822,10 @@
   <data name="info_open_image" xml:space="preserve">
       <value>افتح الصورة</value>
   </data>
-    <data name="game_ttt_in_progress" xml:space="preserve">
+  <data name="info_target_user" xml:space="preserve">
+      <value>Target User</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
       <value>اللعبة قيد التقدم بالفعل، أكمِلها قبل إنشاء لعبة جديدة.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -2081,8 +2051,14 @@
     <data name="ticket_closed" xml:space="preserve">
         <value>قام  {0} بإغلاق التذكرة</value>
     </data>
+    <data name="archive_error" xml:space="preserve">
+        <value>You must be in a thread to use this command.</value>
+    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>ليس لدي إذن إدارة سلسلة الرسائل!</value>
+    </data>
+    <data name="archive_error_2" xml:space="preserve">
+        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>فشل إلغاء كتم صوت المستخدم.</value>
@@ -2119,5 +2095,38 @@
     </data>
     <data name="filters_applied" xml:space="preserve">
         <value>تم بنجاح تطبيق فلتر `{0}` بهذه الخيارات: {1}</value>
+    </data>
+    <data name="error_ticket_category" xml:space="preserve">
+        <value>Unable to create ticket category. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="error_ticket_overwrites" xml:space="preserve">
+        <value>Unable to create proper permission overwrites for ticket. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="ticket_success" xml:space="preserve">
+        <value>Successfully created your ticket here: &lt;#{0}&gt;</value>
+    </data>
+    <data name="self_role_select" xml:space="preserve">
+        <value>Select some roles.</value>
+    </data>
+    <data name="music_queue_locked" xml:space="preserve">
+        <value>The queue is currently locked. It can only be modified by DJs and server moderators.</value>
+    </data>
+    <data name="music_error_playlist_exists_save" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to save a new one with the same name.</value>
+    </data>
+    <data name="music_error_playlist_exists_rename" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to rename one with the same name.</value>
+    </data>
+    <data name="error_upload_pastebin" xml:space="preserve">
+        <value>Failed to upload list to PasteBin.</value>
+    </data>
+    <data name="ttt_expires" xml:space="preserve">
+        <value>**Expires:** {0}</value>
+    </data>
+    <data name="core_help_default_permission" xml:space="preserve">
+        <value>Default Permission:</value>
+    </data>
+    <data name="core_help_select_placeholder" xml:space="preserve">
+        <value>Select a feature/guide</value>
     </data>
 </root>

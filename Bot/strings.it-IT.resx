@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
@@ -79,7 +79,10 @@
   <data name="error_generic_4" xml:space="preserve">
     <value>Errore:</value>
   </data>
-    <data name="error_ssl" xml:space="preserve">
+  <data name="error_generic_5" xml:space="preserve">
+    <value>Sub-command coming soon.</value>
+  </data>
+  <data name="error_ssl" xml:space="preserve">
     <value>Errore SSL, sei pregato di riprovare.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -96,21 +99,6 @@
   </data>
   <data name="error_limit_characters_500" xml:space="preserve">
     <value>Il testo deve essere di lunghezza inferiore a 500 caratteri.</value>
-  </data>
-  <data name="error_missing_text" xml:space="preserve">
-    <value>Devi fornire del testo.</value>
-  </data>
-  <data name="error_missing_query" xml:space="preserve">
-    <value>Devi fornire una query di ricerca.</value>
-  </data>
-  <data name="error_missing_warn_id" xml:space="preserve">
-    <value>Devi inserire un ID di avviso!</value>
-  </data>
-    <data name="error_missing_user_name_1" xml:space="preserve">
-    <value>Devi inserire un nome utente!</value>
-  </data>
-    <data name="error_missing_user_id" xml:space="preserve">
-    <value>Devi inserire un id utente!</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Non hai i permessi ManageRoles!</value>
@@ -331,13 +319,10 @@
     <data name="error_usage_rps" xml:space="preserve">
     <value>Sei pregato di inserire una mossa valida: `!rps &lt; rock | paper | scissors &gt;`</value>
   </data>
-  <data name="error_usage_8ball" xml:space="preserve">
-    <value>Sei pregato di inserire una domanda.</value>
-  </data>
     <data name="error_usage_verify_set" xml:space="preserve">
     <value>Non è stato impostato alcun ruolo di verifica. Impostane uno usando: `{0}verify setup &lt;role&gt;`</value>
   </data>
-  <data name="error_verify" xml:space="preserve">
+    <data name="error_verify" xml:space="preserve">
     <value>Impossibile impostare il ruolo di verifica.</value>
   </data>
   <data name="success_verify" xml:space="preserve">
@@ -361,7 +346,10 @@
   <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>Suggerimento:</value>
   </data>
-    <data name="games_suggestion_title" xml:space="preserve">
+  <data name="games_suggestion_vote" xml:space="preserve">
+    <value>Vota:</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
     <value>Titolo:</value>
   </data>
   <data name="games_suggestion_description" xml:space="preserve">
@@ -418,34 +406,7 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>Scelgo {0}. Entrambi abbiamo scelto {1}, è un pareggio!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Errore:** I giweaway devono durare meno di 1 giorno.</value>
-  </data>
-  <data name="games_giveaway_error_2" xml:space="preserve">
-    <value>**Errore:** Gli omaggi devono durare almeno 1 minuto.</value>
-  </data>
-  <data name="games_giveaway_title" xml:space="preserve">
-    <value>:tada: **OMAGGIO** :tada:</value>
-  </data>
-  <data name="games_giveaway" xml:space="preserve">
-    <value>**Informazioni:**
-● Ricompensa: `{0}`
-● Importo del vincitore: {1}
-● Il giveaway termina {2}
-
-Reagisci con :tada: per accedere al giveaway!</value>
-  </data>
-  <data name="games_giveaway_winner" xml:space="preserve">
-    <value>***Congratulazioni!***
-{0}, hai vinto il premio: `{1}`!</value>
-  </data>
-  <data name="games_giveaway_winner_none" xml:space="preserve">
-    <value>Non ci sono vincitori oggi :(</value>
-  </data>
-  <data name="games_giveaway_winner_limit" xml:space="preserve">
-    <value>Il numero dei vincitori deve essere almeno 1 e non più di 15.</value>
-  </data>
-  <data name="games_trivia_title" xml:space="preserve">
+    <data name="games_trivia_title" xml:space="preserve">
     <value>Domanda di Curiosità di {0}</value>
   </data>
   <data name="games_trivia_footer" xml:space="preserve">
@@ -598,13 +559,19 @@ Reagisci con :tada: per accedere al giveaway!</value>
   <data name="mod_warn_dm" xml:space="preserve">
     <value>Sei stato avvisato in `{0}` da `{1}` per: `{2}`</value>
   </data>
-    <data name="mod_unwarn_self_bot" xml:space="preserve">
+  <data name="mod_unwarn_self" xml:space="preserve">
+    <value>You can't unwarn yourself!</value>
+  </data>
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
     <value>Non posso rimuovere da solo l'avviso!</value>
   </data>
   <data name="mod_unwarn_success" xml:space="preserve">
     <value>Avviso rimosso correttamente da: `{0}#{1}`</value>
   </data>
-    <data name="mod_unwarn_error_invalid" xml:space="preserve">
+  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <value>User does not have any warnings to remove.</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
     <value>L'ID avviso fornito non è valido.</value>
   </data>
   <data name="mod_clearwarnings_success" xml:space="preserve">
@@ -698,7 +665,10 @@ Reagisci con :tada: per accedere al giveaway!</value>
   <data name="info_string_8" xml:space="preserve">
     <value>Membri</value>
   </data>
-    <data name="info_string_10" xml:space="preserve">
+  <data name="info_string_9" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
     <value>Ruoli</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -887,10 +857,7 @@ Reagisci con :tada: per accedere al giveaway!</value>
   <data name="info_string_75" xml:space="preserve">
     <value>```Moderatore del Server```</value>
   </data>
-  <data name="info_string_76" xml:space="preserve">
-    <value>Puoi anche donare per mostrare il tuo supporto!</value>
-  </data>
-  <data name="info_string_77" xml:space="preserve">
+    <data name="info_string_77" xml:space="preserve">
     <value>{0} Potenziamenti</value>
   </data>
   <data name="weather_coordinates" xml:space="preserve">
@@ -926,11 +893,8 @@ Reagisci con :tada: per accedere al giveaway!</value>
     <data name="emoji_string_animated" xml:space="preserve">
     <value>È animato?</value>
   </data>
-    <data name="emoji_missing_id" xml:space="preserve">
-    <value>Sei pregato di inserire un id emoji.</value>
-  </data>
-  <data name="emoji_invalid_name" xml:space="preserve">
-    <value>Sei pregato di inserire un nome valido.</value>
+  <data name="emoji_string_url" xml:space="preserve">
+    <value>URL:</value>
   </data>
     <data name="roleinfo" xml:space="preserve">
     <value>Info Ruolo {0}</value>
@@ -1233,7 +1197,13 @@ Reagisci con :tada: per accedere al giveaway!</value>
   <data name="music_string_4" xml:space="preserve">
     <value>+{0} altre canzoni.</value>
   </data>
-    <data name="music_string_7" xml:space="preserve">
+  <data name="music_string_5" xml:space="preserve">
+    <value>You must enter a time value.</value>
+  </data>
+  <data name="music_string_6" xml:space="preserve">
+    <value>Invalid time.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
     <value>Tempo esterno alla lunghezza del video, riprova.</value>
   </data>
   <data name="music_string_8" xml:space="preserve">
@@ -1368,10 +1338,7 @@ Puoi modificare il prefisso a: https://cakeybot.app o con `{0}setting prefix &lt
   <data name="cmd_error_param" xml:space="preserve">
     <value>Ha un numero di parametri scorretto.</value>
   </data>
-  <data name="cmd_error_username" xml:space="preserve">
-    <value>Devi fornire un nome utente valido.</value>
-  </data>
-  <data name="cmd_error_number" xml:space="preserve">
+    <data name="cmd_error_number" xml:space="preserve">
     <value>Devi fornire un numero valido.</value>
   </data>
   <data name="cmd_error_input" xml:space="preserve">
@@ -1589,11 +1556,6 @@ Puoi modificare il prefisso a: https://cakeybot.app o con `{0}setting prefix &lt
   <data name="util_sha512_result" xml:space="preserve">
     <value>Risultato hash SHA512: ```{0}```</value>
   </data>
-  <data name="util_hash_result" xml:space="preserve">
-    <value>Risultati Hash:
-
-**Crittografia Base64 In Uscita:**```{0}```**Uscita Hash MD5:**```{1}```**Uscita Hash SHA1:**```{2}```**Uscita Hash SHA256:**```{3}```**Uscita Hash SHA512:**```{4}```</value>
-  </data>
     <data name="util_steam_hidden" xml:space="preserve">
     <value>Nascosto</value>
   </data>
@@ -1640,7 +1602,10 @@ Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link 
     <data name="core_donate" xml:space="preserve">
         <value>Premium</value>
     </data>
-    <data name="core_system_message" xml:space="preserve">
+  <data name="core_error" xml:space="preserve">
+    <value>Error: Cakey Bot requires embed permissions to fully function.</value>
+  </data>
+  <data name="core_system_message" xml:space="preserve">
     <value>*Messaggio di Sistema*</value>
   </data>
   <data name="core_cmd_search_1" xml:space="preserve">
@@ -1685,13 +1650,10 @@ Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link 
   <data name="core_stats_4" xml:space="preserve">
     <value>Canali Vocali</value>
   </data>
-  <data name="core_announce_usage" xml:space="preserve">
-    <value>Uso: `!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
-  </data>
-  <data name="core_announce_footer" xml:space="preserve">
+    <data name="core_announce_footer" xml:space="preserve">
     <value>Annuncio</value>
   </data>
-    <data name="core_sr_added_1" xml:space="preserve">
+  <data name="core_sr_added_1" xml:space="preserve">
     <value>Il ruolo è stato già aggiunto.</value>
   </data>
   <data name="core_sr_added_2" xml:space="preserve">
@@ -1778,7 +1740,10 @@ Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link 
   <data name="automod_string_spoiler" xml:space="preserve">
     <value>Il tuo messaggio è stato eliminato per contenere uno spoiler.</value>
   </data>
-    <data name="automod_string_stickers" xml:space="preserve">
+  <data name="automod_string_selfbot" xml:space="preserve">
+    <value>Your message was deleted because it was a self-bot message.</value>
+  </data>
+  <data name="automod_string_stickers" xml:space="preserve">
     <value>Il tuo messaggio è stato eliminato poiché conteneva adesivi.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
@@ -1808,7 +1773,10 @@ Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link 
   <data name="automod_check_spoilers" xml:space="preserve">
     <value>Spoiler</value>
   </data>
-    <data name="automod_check_stickers" xml:space="preserve">
+  <data name="automod_check_self_bot" xml:space="preserve">
+    <value>Self Bot Message</value>
+  </data>
+  <data name="automod_check_stickers" xml:space="preserve">
     <value>Adesivi</value>
   </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
@@ -1853,7 +1821,10 @@ Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link 
   <data name="info_open_image" xml:space="preserve">
       <value>Apri Immagine</value>
   </data>
-    <data name="game_ttt_in_progress" xml:space="preserve">
+  <data name="info_target_user" xml:space="preserve">
+      <value>Target User</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Una partita è già in corso, completala prima di crearne un'altra.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -2079,8 +2050,14 @@ Nota: Richiede l'accesso alla \"Gestione Server\".</value>
     <data name="ticket_closed" xml:space="preserve">
         <value>Ticket chiuso da {0}</value>
     </data>
+    <data name="archive_error" xml:space="preserve">
+        <value>You must be in a thread to use this command.</value>
+    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Non ho l'autorizzazione di Gestione dei Thread!</value>
+    </data>
+    <data name="archive_error_2" xml:space="preserve">
+        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Impossibile riattivare l'audio dell'utente.</value>
@@ -2117,5 +2094,38 @@ Nota: Richiede l'accesso alla \"Gestione Server\".</value>
     </data>
     <data name="filters_applied" xml:space="preserve">
         <value>Filtro `{0}` applicato correttamente con queste opzioni: {1}</value>
+    </data>
+    <data name="error_ticket_category" xml:space="preserve">
+        <value>Unable to create ticket category. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="error_ticket_overwrites" xml:space="preserve">
+        <value>Unable to create proper permission overwrites for ticket. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="ticket_success" xml:space="preserve">
+        <value>Successfully created your ticket here: &lt;#{0}&gt;</value>
+    </data>
+    <data name="self_role_select" xml:space="preserve">
+        <value>Select some roles.</value>
+    </data>
+    <data name="music_queue_locked" xml:space="preserve">
+        <value>The queue is currently locked. It can only be modified by DJs and server moderators.</value>
+    </data>
+    <data name="music_error_playlist_exists_save" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to save a new one with the same name.</value>
+    </data>
+    <data name="music_error_playlist_exists_rename" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to rename one with the same name.</value>
+    </data>
+    <data name="error_upload_pastebin" xml:space="preserve">
+        <value>Failed to upload list to PasteBin.</value>
+    </data>
+    <data name="ttt_expires" xml:space="preserve">
+        <value>**Expires:** {0}</value>
+    </data>
+    <data name="core_help_default_permission" xml:space="preserve">
+        <value>Default Permission:</value>
+    </data>
+    <data name="core_help_select_placeholder" xml:space="preserve">
+        <value>Select a feature/guide</value>
     </data>
 </root>

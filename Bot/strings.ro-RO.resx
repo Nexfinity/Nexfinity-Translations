@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
@@ -79,7 +79,10 @@
   <data name="error_generic_4" xml:space="preserve">
     <value>Eroare:</value>
   </data>
-    <data name="error_ssl" xml:space="preserve">
+  <data name="error_generic_5" xml:space="preserve">
+    <value>Sub-command coming soon.</value>
+  </data>
+  <data name="error_ssl" xml:space="preserve">
     <value>Eroare SSL, va rog încercați mai târziu.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -96,21 +99,6 @@
   </data>
   <data name="error_limit_characters_500" xml:space="preserve">
     <value>Textul trebuie să fie mai puțin de 500 caractere.</value>
-  </data>
-  <data name="error_missing_text" xml:space="preserve">
-    <value>Trebuie să introduceți un text.</value>
-  </data>
-  <data name="error_missing_query" xml:space="preserve">
-    <value>Trebuie să introduceți o interogare de căutare.</value>
-  </data>
-  <data name="error_missing_warn_id" xml:space="preserve">
-    <value>Trebuie să introduceți un ID de avertizare!</value>
-  </data>
-    <data name="error_missing_user_name_1" xml:space="preserve">
-    <value>Trebuie să introduceți un nume de utilizator!</value>
-  </data>
-    <data name="error_missing_user_id" xml:space="preserve">
-    <value>Trebuie să introduceți un ID de utilizator!</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Nu aveți permisiunea ManageRoles!</value>
@@ -331,13 +319,10 @@
     <data name="error_usage_rps" xml:space="preserve">
     <value>Vă rugăm să introduceți o mutare validă: `!rps &lt; rock | paper | scissors &gt;`</value>
   </data>
-  <data name="error_usage_8ball" xml:space="preserve">
-    <value>Vă rugăm să introduceți întrebarea.</value>
-  </data>
     <data name="error_usage_verify_set" xml:space="preserve">
     <value>Nu a fost setat niciun rol de verificare. Setați una folosind: `{0}verify setup &lt;role&gt;`</value>
   </data>
-  <data name="error_verify" xml:space="preserve">
+    <data name="error_verify" xml:space="preserve">
     <value>Setarea rolului de verificare nu a reușit.</value>
   </data>
   <data name="success_verify" xml:space="preserve">
@@ -361,7 +346,10 @@
   <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>Sugestie:</value>
   </data>
-    <data name="games_suggestion_title" xml:space="preserve">
+  <data name="games_suggestion_vote" xml:space="preserve">
+    <value>Voturi:</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
     <value>Titlu:</value>
   </data>
   <data name="games_suggestion_description" xml:space="preserve">
@@ -418,34 +406,7 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>Am ales {0}. Amândoi am ales {1}, e egalitate!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Eroare:** Giveaways trebuie să dureze mai puțin de 1 zi.</value>
-  </data>
-  <data name="games_giveaway_error_2" xml:space="preserve">
-    <value>**Eroare:** Giveaways trebuie să dureze cel puțin 1 minut.</value>
-  </data>
-  <data name="games_giveaway_title" xml:space="preserve">
-    <value>:tada: **GIVEAWAY** :tada:</value>
-  </data>
-  <data name="games_giveaway" xml:space="preserve">
-    <value>**Informații:**
-● Premiu: `{0}`
-● Suma Câștigătorului: {1}
-● Giveaway se termină pe {2}
-
-Reacționează cu :tada: pentru a intra in giveaway!</value>
-  </data>
-  <data name="games_giveaway_winner" xml:space="preserve">
-    <value>**Felicitări!***
-{0}, ai câștigat premiul: `{1}`!</value>
-  </data>
-  <data name="games_giveaway_winner_none" xml:space="preserve">
-    <value>Nu există câștigători astăzi :(</value>
-  </data>
-  <data name="games_giveaway_winner_limit" xml:space="preserve">
-    <value>Numărul câștigătorilor trebuie să fie de cel puțin 1 și nu mai mult de 15.</value>
-  </data>
-  <data name="games_trivia_title" xml:space="preserve">
+    <data name="games_trivia_title" xml:space="preserve">
     <value>Întrebările Trivia a lui {0}</value>
   </data>
   <data name="games_trivia_footer" xml:space="preserve">
@@ -598,13 +559,19 @@ Reacționează cu :tada: pentru a intra in giveaway!</value>
   <data name="mod_warn_dm" xml:space="preserve">
     <value>Ai fost avertizat în `{0}` `de `{1}` pentru: `{2}`</value>
   </data>
-    <data name="mod_unwarn_self_bot" xml:space="preserve">
+  <data name="mod_unwarn_self" xml:space="preserve">
+    <value>You can't unwarn yourself!</value>
+  </data>
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
     <value>Nu pot retrage avertizarea singur!</value>
   </data>
   <data name="mod_unwarn_success" xml:space="preserve">
     <value>Avertismentul a fost eliminat cu succes din: `{0}#{1}`</value>
   </data>
-    <data name="mod_unwarn_error_invalid" xml:space="preserve">
+  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <value>User does not have any warnings to remove.</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
     <value>ID-ul de avertizare furnizat nu este valid.</value>
   </data>
   <data name="mod_clearwarnings_success" xml:space="preserve">
@@ -698,7 +665,10 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="info_string_8" xml:space="preserve">
     <value>Membri</value>
   </data>
-    <data name="info_string_10" xml:space="preserve">
+  <data name="info_string_9" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
     <value>Roluri</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -887,10 +857,7 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="info_string_75" xml:space="preserve">
     <value>````Moderatorul Serverului```</value>
   </data>
-  <data name="info_string_76" xml:space="preserve">
-    <value>De asemenea, poți dona pentru a-ți arăta sprijinul!</value>
-  </data>
-  <data name="info_string_77" xml:space="preserve">
+    <data name="info_string_77" xml:space="preserve">
     <value>{0} Boost-uri</value>
   </data>
   <data name="weather_coordinates" xml:space="preserve">
@@ -926,11 +893,8 @@ Note: Un mesaj va fi trimis la finalizare.</value>
     <data name="emoji_string_animated" xml:space="preserve">
     <value>EsteAnimat?</value>
   </data>
-    <data name="emoji_missing_id" xml:space="preserve">
-    <value>Vă rugăm să introduceți ID-ul unui emoji.</value>
-  </data>
-  <data name="emoji_invalid_name" xml:space="preserve">
-    <value>Te rog introdu un nume valid.</value>
+  <data name="emoji_string_url" xml:space="preserve">
+    <value>URL:</value>
   </data>
     <data name="roleinfo" xml:space="preserve">
     <value>{0} Informații despre Rol</value>
@@ -1233,7 +1197,13 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_string_4" xml:space="preserve">
     <value>Încă +{0} melodii.</value>
   </data>
-    <data name="music_string_7" xml:space="preserve">
+  <data name="music_string_5" xml:space="preserve">
+    <value>You must enter a time value.</value>
+  </data>
+  <data name="music_string_6" xml:space="preserve">
+    <value>Invalid time.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
     <value>Timpul este în afara lungimii videoclipului, încercați din nou.</value>
   </data>
   <data name="music_string_8" xml:space="preserve">
@@ -1368,10 +1338,7 @@ Puteți modifica prefixul pe: https://cakeybot.app sau cu `{0}setting prefix &lt
   <data name="cmd_error_param" xml:space="preserve">
     <value>Are un număr incorect de parametri.</value>
   </data>
-  <data name="cmd_error_username" xml:space="preserve">
-    <value>Trebuie să furnizați un nume de utilizator valid.</value>
-  </data>
-  <data name="cmd_error_number" xml:space="preserve">
+    <data name="cmd_error_number" xml:space="preserve">
     <value>Trebuie să furnizați un număr valid.</value>
   </data>
   <data name="cmd_error_input" xml:space="preserve">
@@ -1589,11 +1556,6 @@ Puteți modifica prefixul pe: https://cakeybot.app sau cu `{0}setting prefix &lt
   <data name="util_sha512_result" xml:space="preserve">
     <value>SHA512 hash rezultat: ```{0}```</value>
   </data>
-  <data name="util_hash_result" xml:space="preserve">
-    <value>Rezultate Hash:
-
-**Codificarea Base64 este: **```{0}```**MD5 Hash Output:**```{1}```**SHA1 Hash Output:**```{2}```**SHA256 Hash Output:**```{3}```**SHA512 Hash Output:**```{4}```</value>
-  </data>
     <data name="util_steam_hidden" xml:space="preserve">
     <value>Ascuns</value>
   </data>
@@ -1640,7 +1602,10 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
     <data name="core_donate" xml:space="preserve">
         <value>Premium</value>
     </data>
-    <data name="core_system_message" xml:space="preserve">
+  <data name="core_error" xml:space="preserve">
+    <value>Error: Cakey Bot requires embed permissions to fully function.</value>
+  </data>
+  <data name="core_system_message" xml:space="preserve">
     <value>*Mesaj de Sistem*</value>
   </data>
   <data name="core_cmd_search_1" xml:space="preserve">
@@ -1685,13 +1650,10 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
   <data name="core_stats_4" xml:space="preserve">
     <value>Canale pentru Voce</value>
   </data>
-  <data name="core_announce_usage" xml:space="preserve">
-    <value>Utilizare: '!announce &lt;hex/color&gt; | &lt;title&gt; | &lt;description&gt;`</value>
-  </data>
-  <data name="core_announce_footer" xml:space="preserve">
+    <data name="core_announce_footer" xml:space="preserve">
     <value>Anunţ</value>
   </data>
-    <data name="core_sr_added_1" xml:space="preserve">
+  <data name="core_sr_added_1" xml:space="preserve">
     <value>Rolul a fost adăugat deja.</value>
   </data>
   <data name="core_sr_added_2" xml:space="preserve">
@@ -1778,7 +1740,10 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
   <data name="automod_string_spoiler" xml:space="preserve">
     <value>Mesajul dvs. a fost șters pentru că conținea speculație.</value>
   </data>
-    <data name="automod_string_stickers" xml:space="preserve">
+  <data name="automod_string_selfbot" xml:space="preserve">
+    <value>Your message was deleted because it was a self-bot message.</value>
+  </data>
+  <data name="automod_string_stickers" xml:space="preserve">
     <value>Mesajul tău a fost șters deoarece conținea stickere.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
@@ -1808,7 +1773,10 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
   <data name="automod_check_spoilers" xml:space="preserve">
     <value>Spoiler</value>
   </data>
-    <data name="automod_check_stickers" xml:space="preserve">
+  <data name="automod_check_self_bot" xml:space="preserve">
+    <value>Self Bot Message</value>
+  </data>
+  <data name="automod_check_stickers" xml:space="preserve">
     <value>Stickere</value>
   </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
@@ -1853,7 +1821,10 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
   <data name="info_open_image" xml:space="preserve">
       <value>Deschide imaginea</value>
   </data>
-    <data name="game_ttt_in_progress" xml:space="preserve">
+  <data name="info_target_user" xml:space="preserve">
+      <value>Target User</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Un joc este deja în desfășurare, completează-l înainte de a face un nou joc.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -2079,8 +2050,14 @@ Notă: Necesită acces \"Gestionare server\".</value>
     <data name="ticket_closed" xml:space="preserve">
         <value>Bilet închis de {0}</value>
     </data>
+    <data name="archive_error" xml:space="preserve">
+        <value>You must be in a thread to use this command.</value>
+    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Nu am permisiunea de a gestiona discutia!</value>
+    </data>
+    <data name="archive_error_2" xml:space="preserve">
+        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Demonstrarea utilizatorului a eșuat.</value>
@@ -2117,5 +2094,38 @@ Notă: Necesită acces \"Gestionare server\".</value>
     </data>
     <data name="filters_applied" xml:space="preserve">
         <value>Filtrul `{0}` aplicat cu succes cu aceste opţiuni: {1}</value>
+    </data>
+    <data name="error_ticket_category" xml:space="preserve">
+        <value>Unable to create ticket category. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="error_ticket_overwrites" xml:space="preserve">
+        <value>Unable to create proper permission overwrites for ticket. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="ticket_success" xml:space="preserve">
+        <value>Successfully created your ticket here: &lt;#{0}&gt;</value>
+    </data>
+    <data name="self_role_select" xml:space="preserve">
+        <value>Select some roles.</value>
+    </data>
+    <data name="music_queue_locked" xml:space="preserve">
+        <value>The queue is currently locked. It can only be modified by DJs and server moderators.</value>
+    </data>
+    <data name="music_error_playlist_exists_save" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to save a new one with the same name.</value>
+    </data>
+    <data name="music_error_playlist_exists_rename" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to rename one with the same name.</value>
+    </data>
+    <data name="error_upload_pastebin" xml:space="preserve">
+        <value>Failed to upload list to PasteBin.</value>
+    </data>
+    <data name="ttt_expires" xml:space="preserve">
+        <value>**Expires:** {0}</value>
+    </data>
+    <data name="core_help_default_permission" xml:space="preserve">
+        <value>Default Permission:</value>
+    </data>
+    <data name="core_help_select_placeholder" xml:space="preserve">
+        <value>Select a feature/guide</value>
     </data>
 </root>

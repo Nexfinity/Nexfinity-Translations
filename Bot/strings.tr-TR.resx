@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
@@ -79,7 +79,10 @@
   <data name="error_generic_4" xml:space="preserve">
     <value>Hata:</value>
   </data>
-    <data name="error_ssl" xml:space="preserve">
+  <data name="error_generic_5" xml:space="preserve">
+    <value>Sub-command coming soon.</value>
+  </data>
+  <data name="error_ssl" xml:space="preserve">
     <value>SSL Hatası, daha sonra tekrar dene.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -96,21 +99,6 @@
   </data>
   <data name="error_limit_characters_500" xml:space="preserve">
     <value>Metin 500 karakterden kısa olmalıdır.</value>
-  </data>
-  <data name="error_missing_text" xml:space="preserve">
-    <value>Bir metin belirtmen gerekiyor.</value>
-  </data>
-  <data name="error_missing_query" xml:space="preserve">
-    <value>Bir arama sorgusu belirtmen gerekiyor.</value>
-  </data>
-  <data name="error_missing_warn_id" xml:space="preserve">
-    <value>Bir uyarı IDsi girmen gerekiyor!</value>
-  </data>
-    <data name="error_missing_user_name_1" xml:space="preserve">
-    <value>Bir kullanıcı adı girmelisin!</value>
-  </data>
-    <data name="error_missing_user_id" xml:space="preserve">
-    <value>Bir kullanıcı IDsi girmelisin!</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Rolleri Yönetme yetkisine sahip değilsin!</value>
@@ -331,13 +319,10 @@
     <data name="error_usage_rps" xml:space="preserve">
     <value>Lütfen geçerli bir hamle gir: `!rps &lt; rock | paper | scissors &gt;`</value>
   </data>
-  <data name="error_usage_8ball" xml:space="preserve">
-    <value>Lütfen bir soru gir.</value>
-  </data>
     <data name="error_usage_verify_set" xml:space="preserve">
     <value>Bir doğrulama rolü ayarlanmamış. Ayarlamak için: `{0}verify setup &lt;rol&gt;` komutunu kullan</value>
   </data>
-  <data name="error_verify" xml:space="preserve">
+    <data name="error_verify" xml:space="preserve">
     <value>Doğrulama rolü ayarlanırken hata oluştu.</value>
   </data>
   <data name="success_verify" xml:space="preserve">
@@ -361,7 +346,10 @@
   <data name="games_suggestion_suggestion" xml:space="preserve">
     <value>Öneri:</value>
   </data>
-    <data name="games_suggestion_title" xml:space="preserve">
+  <data name="games_suggestion_vote" xml:space="preserve">
+    <value>Oy:</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
     <value>Başlık:</value>
   </data>
   <data name="games_suggestion_description" xml:space="preserve">
@@ -418,34 +406,7 @@
   <data name="games_rps_outcome_3" xml:space="preserve">
     <value>{0} seçtim. İkimiz de {1} seçmişiz, berabere kaldık!</value>
   </data>
-  <data name="games_giveaway_error_1" xml:space="preserve">
-    <value>**Hata:** Çekilişler 1 saatten daha az sürmelidir.</value>
-  </data>
-  <data name="games_giveaway_error_2" xml:space="preserve">
-    <value>**Hata:** Çekilişler en az 1 dakika sürmelidir.</value>
-  </data>
-  <data name="games_giveaway_title" xml:space="preserve">
-    <value>:tada: **ÇEKİLİŞ** :tada:</value>
-  </data>
-  <data name="games_giveaway" xml:space="preserve">
-    <value>**Bilgi:**
-● Ödül: `{0}`
-● Kazanan sayısı: {1}
-● Çekiliş bitmesine {2}
-
-:tada: emojisiyle çekilişe katılabilirsin!</value>
-  </data>
-  <data name="games_giveaway_winner" xml:space="preserve">
-    <value>***Tebrikler***
-{0}, `{1}` ödülünü sen kazandın!</value>
-  </data>
-  <data name="games_giveaway_winner_none" xml:space="preserve">
-    <value>Bugün hiç kazanan yok :(</value>
-  </data>
-  <data name="games_giveaway_winner_limit" xml:space="preserve">
-    <value>Kazananların sayısı en az 1, ve en fazla 15 kişi olmalıdır.</value>
-  </data>
-  <data name="games_trivia_title" xml:space="preserve">
+    <data name="games_trivia_title" xml:space="preserve">
     <value>{0} adlı kişinin İlginç Bilgi Sorusu</value>
   </data>
   <data name="games_trivia_footer" xml:space="preserve">
@@ -598,13 +559,19 @@
   <data name="mod_warn_dm" xml:space="preserve">
     <value>`{1}` adlı kişi tarafından, `{0}` adlı sunucudan `{2}` sebebiyle uyarıldın</value>
   </data>
-    <data name="mod_unwarn_self_bot" xml:space="preserve">
+  <data name="mod_unwarn_self" xml:space="preserve">
+    <value>You can't unwarn yourself!</value>
+  </data>
+  <data name="mod_unwarn_self_bot" xml:space="preserve">
     <value>Kendi uyarımı kaldıramam!</value>
   </data>
   <data name="mod_unwarn_success" xml:space="preserve">
     <value>Uyarı başarıyla `{0}#{1}` adlı kişiden kaldırıldı</value>
   </data>
-    <data name="mod_unwarn_error_invalid" xml:space="preserve">
+  <data name="mod_unwarn_error_none" xml:space="preserve">
+    <value>User does not have any warnings to remove.</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
     <value>Girilen uyarı ID'si geçerli değil.</value>
   </data>
   <data name="mod_clearwarnings_success" xml:space="preserve">
@@ -698,7 +665,10 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="info_string_8" xml:space="preserve">
     <value>Üyeler</value>
   </data>
-    <data name="info_string_10" xml:space="preserve">
+  <data name="info_string_9" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
     <value>Roller</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -887,10 +857,7 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="info_string_75" xml:space="preserve">
     <value>```Sunucu Moderatörü```</value>
   </data>
-  <data name="info_string_76" xml:space="preserve">
-    <value>Bağış yaparak da desteğini gösterebilirsin!</value>
-  </data>
-  <data name="info_string_77" xml:space="preserve">
+    <data name="info_string_77" xml:space="preserve">
     <value>{0} Booster</value>
   </data>
   <data name="weather_coordinates" xml:space="preserve">
@@ -926,11 +893,8 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
     <data name="emoji_string_animated" xml:space="preserve">
     <value>Hareketli mi?</value>
   </data>
-    <data name="emoji_missing_id" xml:space="preserve">
-    <value>Lütfen bir emoji ID'si gir.</value>
-  </data>
-  <data name="emoji_invalid_name" xml:space="preserve">
-    <value>Lütfen geçerli bir isim gir.</value>
+  <data name="emoji_string_url" xml:space="preserve">
+    <value>URL:</value>
   </data>
     <data name="roleinfo" xml:space="preserve">
     <value>{0} Rolü Hakkında Bilgi</value>
@@ -1232,7 +1196,13 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_string_4" xml:space="preserve">
     <value>+{0} şarkı daha.</value>
   </data>
-    <data name="music_string_7" xml:space="preserve">
+  <data name="music_string_5" xml:space="preserve">
+    <value>You must enter a time value.</value>
+  </data>
+  <data name="music_string_6" xml:space="preserve">
+    <value>Invalid time.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
     <value>Girilen zaman videonun uzunluğunun ötesinde, tekrar dene.</value>
   </data>
   <data name="music_string_8" xml:space="preserve">
@@ -1367,10 +1337,7 @@ Bunu https://cakeybot.app adresinden, veya `{0}setting prefix &lt;new prefix&gt;
   <data name="cmd_error_param" xml:space="preserve">
     <value>Girilen metinde doğru sayıda değer yok, az veya çok girdin.</value>
   </data>
-  <data name="cmd_error_username" xml:space="preserve">
-    <value>Geçerli bir kullanıcı adı girmelisin.</value>
-  </data>
-  <data name="cmd_error_number" xml:space="preserve">
+    <data name="cmd_error_number" xml:space="preserve">
     <value>Geçerli bir numara girmelisin.</value>
   </data>
   <data name="cmd_error_input" xml:space="preserve">
@@ -1588,11 +1555,6 @@ Bunu https://cakeybot.app adresinden, veya `{0}setting prefix &lt;new prefix&gt;
   <data name="util_sha512_result" xml:space="preserve">
     <value>SHA512 hash sonucu: ```{0}```</value>
   </data>
-  <data name="util_hash_result" xml:space="preserve">
-    <value>Hash Sonuçları:
-
-**Base64 Şifreleme Çıktısı**```{0}```**MD5 Hash Çıktısı:**```{1}````**SHA1 Hash Çıktısı:**```{2}```**SHA256 Hash Çıktısı:**```{3}```**SHA512 Hash Çıktısı:**```{4}```</value>
-  </data>
     <data name="util_steam_hidden" xml:space="preserve">
     <value>Gizli</value>
   </data>
@@ -1639,7 +1601,10 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
     <data name="core_donate" xml:space="preserve">
         <value>Premium</value>
     </data>
-    <data name="core_system_message" xml:space="preserve">
+  <data name="core_error" xml:space="preserve">
+    <value>Error: Cakey Bot requires embed permissions to fully function.</value>
+  </data>
+  <data name="core_system_message" xml:space="preserve">
     <value>*Sistem Mesajı*</value>
   </data>
   <data name="core_cmd_search_1" xml:space="preserve">
@@ -1684,13 +1649,10 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
   <data name="core_stats_4" xml:space="preserve">
     <value>Ses Kanalları</value>
   </data>
-  <data name="core_announce_usage" xml:space="preserve">
-    <value>Kullanım: `!announce &lt;hex kodu/renk&gt; | &lt;başlık&gt; | &lt;açıklama&gt;`</value>
-  </data>
-  <data name="core_announce_footer" xml:space="preserve">
+    <data name="core_announce_footer" xml:space="preserve">
     <value>Duyuru</value>
   </data>
-    <data name="core_sr_added_1" xml:space="preserve">
+  <data name="core_sr_added_1" xml:space="preserve">
     <value>Rol zaten eklendi.</value>
   </data>
   <data name="core_sr_added_2" xml:space="preserve">
@@ -1777,7 +1739,10 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
   <data name="automod_string_spoiler" xml:space="preserve">
     <value>Mesajın, içeriğinde spoiler içerdiği için silindi.</value>
   </data>
-    <data name="automod_string_stickers" xml:space="preserve">
+  <data name="automod_string_selfbot" xml:space="preserve">
+    <value>Your message was deleted because it was a self-bot message.</value>
+  </data>
+  <data name="automod_string_stickers" xml:space="preserve">
     <value>Mesajın etiket içerdiği için silindi.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
@@ -1807,7 +1772,10 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
   <data name="automod_check_spoilers" xml:space="preserve">
     <value>Spoiler İçeren Metin</value>
   </data>
-    <data name="automod_check_stickers" xml:space="preserve">
+  <data name="automod_check_self_bot" xml:space="preserve">
+    <value>Self Bot Message</value>
+  </data>
+  <data name="automod_check_stickers" xml:space="preserve">
     <value>Etiketler</value>
   </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
@@ -1852,7 +1820,10 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
   <data name="info_open_image" xml:space="preserve">
       <value>Resmi Aç</value>
   </data>
-    <data name="game_ttt_in_progress" xml:space="preserve">
+  <data name="info_target_user" xml:space="preserve">
+      <value>Target User</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Zaten bir oyun devam ediyor, yeni bir oyun açmadan önce eskisini tamamlayın.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -2078,8 +2049,14 @@ Not: \"Sunucuyu Yönet\" erişimi gerektirir.</value>
     <data name="ticket_closed" xml:space="preserve">
         <value>Talep {0} tarafından kapatıldı</value>
     </data>
+    <data name="archive_error" xml:space="preserve">
+        <value>You must be in a thread to use this command.</value>
+    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Konuyu Yönet yetkim yok!</value>
+    </data>
+    <data name="archive_error_2" xml:space="preserve">
+        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Susturmayı kaldırma başarısız.</value>
@@ -2116,5 +2093,38 @@ Not: \"Sunucuyu Yönet\" erişimi gerektirir.</value>
     </data>
     <data name="filters_applied" xml:space="preserve">
         <value>Başarıyla `{0}` filtresi bu ayarlar ile uygulandı: {1}</value>
+    </data>
+    <data name="error_ticket_category" xml:space="preserve">
+        <value>Unable to create ticket category. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="error_ticket_overwrites" xml:space="preserve">
+        <value>Unable to create proper permission overwrites for ticket. Please fix Cakey Bot's permissions.</value>
+    </data>
+    <data name="ticket_success" xml:space="preserve">
+        <value>Successfully created your ticket here: &lt;#{0}&gt;</value>
+    </data>
+    <data name="self_role_select" xml:space="preserve">
+        <value>Select some roles.</value>
+    </data>
+    <data name="music_queue_locked" xml:space="preserve">
+        <value>The queue is currently locked. It can only be modified by DJs and server moderators.</value>
+    </data>
+    <data name="music_error_playlist_exists_save" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to save a new one with the same name.</value>
+    </data>
+    <data name="music_error_playlist_exists_rename" xml:space="preserve">
+        <value>A playlist with this name already exists. Please delete it before trying to rename one with the same name.</value>
+    </data>
+    <data name="error_upload_pastebin" xml:space="preserve">
+        <value>Failed to upload list to PasteBin.</value>
+    </data>
+    <data name="ttt_expires" xml:space="preserve">
+        <value>**Expires:** {0}</value>
+    </data>
+    <data name="core_help_default_permission" xml:space="preserve">
+        <value>Default Permission:</value>
+    </data>
+    <data name="core_help_select_placeholder" xml:space="preserve">
+        <value>Select a feature/guide</value>
     </data>
 </root>
