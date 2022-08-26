@@ -610,5 +610,8 @@ return [
 "settings-cache" => "Note: Some settings may take up to a minute to apply to your server due to caching.",
 "beta-locked" => "This feature is currently being tested and has not been released yet.",
 "beta-title" => "BETA Feature",
+"feeds-invalid-youtube-url" => "You must enter a valid YouTube channel URL.",
+"feeds-youtube-url-title" => "Channel URL",
+"feeds-youtube-warning" => "Due to limitations of YouTube's RSS feeds it can sometimes take UP TO 30 minutes after a video is uploaded before a notification is sent via Cakey Bot.",
 ];
 ?>
