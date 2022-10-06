@@ -58,10 +58,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cooldown" xml:space="preserve">
-    <value>Questo comando è in ricarica per: {0}</value>
-  </data>
-  <data name="module_disabled" xml:space="preserve">
+    <data name="module_disabled" xml:space="preserve">
     <value>Questo modulo è stato disabilitato in questa gilda dagli amministratori del server.</value>
   </data>
   <data name="command_disabled" xml:space="preserve">
@@ -70,19 +67,16 @@
   <data name="error_generic_1" xml:space="preserve">
     <value>Un errore sconosciuto si è verificato!</value>
   </data>
-  <data name="error_generic_2" xml:space="preserve">
-    <value>Si è verificato un errore sconosciuto. Sei pregato di segnalare nel nostro supporto Discord: https://discord.gg/EUssVK5</value>
-  </data>
+    <data name="error_generic_2" xml:space="preserve">
+        <value>Unknown error occurred. Please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="error_generic_3" xml:space="preserve">
     <value>Un errore sconosciuto si è verificato. Il server è online? Hai scelto il tipo di server corretto?</value>
   </data>
   <data name="error_generic_4" xml:space="preserve">
     <value>Errore:</value>
   </data>
-  <data name="error_generic_5" xml:space="preserve">
-    <value>Sub-command coming soon.</value>
-  </data>
-  <data name="error_ssl" xml:space="preserve">
+    <data name="error_ssl" xml:space="preserve">
     <value>Errore SSL, sei pregato di riprovare.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -90,15 +84,6 @@
   </data>
   <data name="error_limit_characters_10" xml:space="preserve">
     <value>Il testo deve essere inferiore a 10 caratteri.</value>
-  </data>
-  <data name="error_limit_characters_200" xml:space="preserve">
-    <value>Sei pregato di inserire una domanda inferiore a 200 caratteri.</value>
-  </data>
-  <data name="error_limit_characters_200_2" xml:space="preserve">
-    <value>Sei pregato di inserire un suggerimento inferiore a 200 caratteri.</value>
-  </data>
-  <data name="error_limit_characters_500" xml:space="preserve">
-    <value>Il testo deve essere di lunghezza inferiore a 500 caratteri.</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Non hai i permessi ManageRoles!</value>
@@ -238,9 +223,9 @@
   <data name="error_failed_unban_not_banned_2" xml:space="preserve">
     <value>L'id utente dato non è bandito.</value>
   </data>
-  <data name="error_failed_unmute_not_muted" xml:space="preserve">
-    <value>L'utente non è mutato. Se lo è, assicurati di impostare il ruolo muto con `!setting` o nominalo `Muted`.</value>
-  </data>
+    <data name="error_failed_unmute_not_muted" xml:space="preserve">
+        <value>User isn't muted. If they are, make sure to set the mute role on the web dashboard or name a role `Muted`.</value>
+    </data>
   <data name="error_failed_playlist_save" xml:space="preserve">
     <value>Impossibile salvare le canzoni alla playlist. La playlist esiste già?</value>
   </data>
@@ -314,14 +299,14 @@
     <value>Sei pregato di fornire una stringa base64 valida.</value>
   </data>
     <data name="error_usage_poll" xml:space="preserve">
-    <value>Sei pregato di inserire una domanda valida. Uso: `!poll &lt;question&gt;| &lt;answer1&gt;| &lt;answer2&gt;| &lt;answer3&gt;| etc&gt;`</value>
-  </data>
+        <value>Please enter a valid question. Usage: `/poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
+    </data>
     <data name="error_usage_rps" xml:space="preserve">
-    <value>Sei pregato di inserire una mossa valida: `!rps &lt; rock | paper | scissors &gt;`</value>
-  </data>
+        <value>Please enter a valid move: `/rps &lt; rock | paper | scissors &gt;`</value>
+    </data>
     <data name="error_usage_verify_set" xml:space="preserve">
-    <value>Non è stato impostato alcun ruolo di verifica. Impostane uno usando: `{0}verify setup &lt;role&gt;`</value>
-  </data>
+        <value>No verification role has been set. Set one using: `/setup verifyrole &lt;role&gt;`</value>
+    </data>
     <data name="error_verify" xml:space="preserve">
     <value>Impossibile impostare il ruolo di verifica.</value>
   </data>
@@ -453,10 +438,7 @@
   <data name="afk_active" xml:space="preserve">
     <value>Sei attualmente AFK con il messaggio: `{0}`</value>
   </data>
-  <data name="afk_limit" xml:space="preserve">
-    <value>I messaggi AFK devono essere inferiori a 100 caratteri.</value>
-  </data>
-  <data name="afk_failed" xml:space="preserve">
+    <data name="afk_failed" xml:space="preserve">
     <value>Impossibile configurare il messaggio AFK.</value>
   </data>
   <data name="afk_set" xml:space="preserve">
@@ -583,10 +565,7 @@
   <data name="mod_purge_success" xml:space="preserve">
     <value>**{0} messaggi eliminati da {1} in &lt;#{2}&gt;**</value>
   </data>
-    <data name="mod_purge_url" xml:space="preserve">
-    <value>Messaggi Eliminati:</value>
-  </data>
-  <data name="mod_dehoist_start" xml:space="preserve">
+    <data name="mod_dehoist_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; Rimuovendo i paranchi per i soprannomi, questo può richiedere del tempo. 
  Nota: un messaggio verrà inviato al completamento.</value>
   </data>
@@ -615,15 +594,10 @@
   <data name="time_error_negative" xml:space="preserve">
     <value>Il tempo non può essere negativo o inferiore a zero.</value>
   </data>
-  <data name="info_about_description" xml:space="preserve">
-    <value>**Informazioni:**``` Un bot avanzato, personalizzabile, costruito direttamente per competere con Dyno e Rythm. Cakey Bot è costruito per combinare capacità musicali potenti con una moltitudine di funzioni di utilità. Cakey Bot combina le caratteristiche che solitamente richiedono molti bot in un singolo bot. Rendendo la gestione della gilda più semplice e rapida.```
-</value>
-  </data>
-  <data name="info_about_vote" xml:space="preserve">
-    <value>:star: Ti piace Cakey Bot? Bene, mostra il tuo supporto e dona a:
-</value>
-  </data>
-  <data name="info_ping" xml:space="preserve">
+    <data name="info_about_description" xml:space="preserve">
+        <value>**About:**```An advanced, customizable bot built to directly compete with Dyno and other large Discord bots. Cakey Bot is built to combine powerful music capabilities with a multititude of utility and moderation features. Cakey Bot reduces the need to use and manage multiple Discord bots and consolidates all the features you need into a single bot. Making server management quicker and easier.```</value>
+    </data>
+    <data name="info_ping" xml:space="preserve">
     <value>Battito Cardiaco - Frammento #{0}: {1}ms</value>
   </data>
   <data name="info_ping_avg" xml:space="preserve">
@@ -665,10 +639,7 @@
   <data name="info_string_8" xml:space="preserve">
     <value>Membri</value>
   </data>
-  <data name="info_string_9" xml:space="preserve">
-    <value>Region</value>
-  </data>
-  <data name="info_string_10" xml:space="preserve">
+    <data name="info_string_10" xml:space="preserve">
     <value>Ruoli</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -893,9 +864,6 @@
     <data name="emoji_string_animated" xml:space="preserve">
     <value>È animato?</value>
   </data>
-  <data name="emoji_string_url" xml:space="preserve">
-    <value>URL:</value>
-  </data>
     <data name="roleinfo" xml:space="preserve">
     <value>Info Ruolo {0}</value>
   </data>
@@ -959,19 +927,13 @@
   <data name="misc_convert_rate" xml:space="preserve">
     <value>Tasso di Scambio:</value>
   </data>
-  <data name="misc_convert_usage" xml:space="preserve">
-    <value>Uso: `!convert &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
-  </data>
-  <data name="misc_fact" xml:space="preserve">
+    <data name="misc_fact" xml:space="preserve">
     <value>Fatto Casuale:</value>
   </data>
   <data name="misc_fact_failed" xml:space="preserve">
     <value>Impossibile ottenere un valore.</value>
   </data>
-    <data name="misc_reminder_error_2" xml:space="preserve">
-    <value>I promemoria devono contenere meno di 200 caratteri.</value>
-  </data>
-  <data name="misc_reminder_error_3" xml:space="preserve">
+    <data name="misc_reminder_error_3" xml:space="preserve">
     <value>I promemoria devono essere tra meno di 1 mese da adesso.</value>
   </data>
     <data name="misc_reminder_success" xml:space="preserve">
@@ -989,15 +951,15 @@
   <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>Sono già in quel canale.</value>
   </data>
-  <data name="music_error_voice_channel_5" xml:space="preserve">
-    <value>Devo essere in un canale vocale. Usa `!join` per convocarmi.</value>
-  </data>
-  <data name="music_error_voice_channel_6" xml:space="preserve">
-    <value>Devi essere nello stesso canale del bot. Prova ad usare`!join` o `!move`</value>
-  </data>
-  <data name="music_error_player" xml:space="preserve">
-    <value>Il giocatore non esiste, sei pregato di digitare `!join` di nuovo.</value>
-  </data>
+    <data name="music_error_voice_channel_5" xml:space="preserve">
+        <value>I must be in a voice channel. Use `/play` to summon me.</value>
+    </data>
+    <data name="music_error_voice_channel_6" xml:space="preserve">
+        <value>You must be in the same channel as the bot. Try using `/play` to summon it.</value>
+    </data>
+    <data name="music_error_player" xml:space="preserve">
+        <value>Player doesn't exist, please type `/play` again.</value>
+    </data>
   <data name="music_error_play" xml:space="preserve">
     <value>Errore caricando la traccia: ```{0}```</value>
   </data>
@@ -1037,25 +999,10 @@
   <data name="music_shuffle" xml:space="preserve">
     <value>Coda rimescolata correttamente.</value>
   </data>
-  <data name="music_loop" xml:space="preserve">
-    <value>Stato di loop della canzone impostato su: `{0}`.</value>
-  </data>
-  <data name="music_looping" xml:space="preserve">
-    <value>in loop</value>
-  </data>
-  <data name="music_looping_disabled" xml:space="preserve">
-    <value>non in loop</value>
-  </data>
-  <data name="music_bb" xml:space="preserve">
+    <data name="music_bb" xml:space="preserve">
     <value>Stato di potenziamento dei bassi della canzone impostato a: `{0}`.</value>
   </data>
-  <data name="music_boosted" xml:space="preserve">
-    <value>potenziato</value>
-  </data>
-  <data name="music_boosted_disabled" xml:space="preserve">
-    <value>non potenziato</value>
-  </data>
-  <data name="music_remove" xml:space="preserve">
+    <data name="music_remove" xml:space="preserve">
     <value>`{0}` - `{1}` rimossi correttamente dalla coda.</value>
   </data>
   <data name="music_restart_1" xml:space="preserve">
@@ -1091,9 +1038,9 @@
   <data name="music_resume_1" xml:space="preserve">
     <value>Canzone ripresa correttamente.</value>
   </data>
-  <data name="music_resume_2" xml:space="preserve">
-    <value>La canzone non è in pausa. Puoi mettere la canzone in pausa con `!pause`</value>
-  </data>
+    <data name="music_resume_2" xml:space="preserve">
+        <value>The song is not paused. You can pause the song with `/pause`</value>
+    </data>
   <data name="music_lyrics_1" xml:space="preserve">
     <value>Devi digitare il nome di una canzone da cercare. (o avere un brano attualmente in riproduzione)</value>
   </data>
@@ -1127,9 +1074,9 @@
   <data name="music_voteskip_2" xml:space="preserve">
     <value>Hai già votato per saltare, servono {0} altri voti.</value>
   </data>
-  <data name="music_voteskip_3" xml:space="preserve">
-    <value>Hai già votato per saltare, è stato rimosso. Puoi riaggiungerlo digitando di nuovo `!skip`. Servono {0} altri voti.</value>
-  </data>
+    <data name="music_voteskip_3" xml:space="preserve">
+        <value>You already voted to skip, it has been removed. You can re-add it by typing `/skip` again. {0} more vote{1} required.</value>
+    </data>
   <data name="music_voteskip_4" xml:space="preserve">
     <value>Il voto è a {0}/{1}.</value>
   </data>
@@ -1139,9 +1086,9 @@
   <data name="music_no_results" xml:space="preserve">
     <value>Nessun risultato trovato.</value>
   </data>
-  <data name="music_invalid_track_1" xml:space="preserve">
-    <value>ID Traccia esterno all'intervallo valido. Digita `!queue` per vedere gli ID traccia validi.</value>
-  </data>
+    <data name="music_invalid_track_1" xml:space="preserve">
+        <value>Track ID is outside of valid range. Type `/queue` to see valid track IDs.</value>
+    </data>
   <data name="music_invalid_track_2" xml:space="preserve">
     <value>L'id coda traccia deve essere valido.</value>
   </data>
@@ -1179,13 +1126,7 @@
   <data name="music_playlist_success_delete" xml:space="preserve">
     <value>La tua playlist `{0}` è stata eliminata correttamente.</value>
   </data>
-    <data name="music_cancel_1" xml:space="preserve">
-    <value>Ricerca annullata correttamente.</value>
-  </data>
-  <data name="music_cancel_2" xml:space="preserve">
-    <value>Digita il numero per selezionare una canzone o 'annulla'/'nessuno' per annullare la selezione.</value>
-  </data>
-  <data name="music_string_1" xml:space="preserve">
+    <data name="music_string_1" xml:space="preserve">
     <value>Posizione Coda:</value>
   </data>
   <data name="music_string_2" xml:space="preserve">
@@ -1197,18 +1138,15 @@
   <data name="music_string_4" xml:space="preserve">
     <value>+{0} altre canzoni.</value>
   </data>
-  <data name="music_string_5" xml:space="preserve">
-    <value>You must enter a time value.</value>
-  </data>
-  <data name="music_string_6" xml:space="preserve">
+    <data name="music_string_6" xml:space="preserve">
     <value>Invalid time.</value>
   </data>
   <data name="music_string_7" xml:space="preserve">
     <value>Tempo esterno alla lunghezza del video, riprova.</value>
   </data>
-  <data name="music_string_8" xml:space="preserve">
-    <value>Una canzone deve essere attualmente in riproduzione per usare questo comando, prova `!play` invece.</value>
-  </data>
+    <data name="music_string_8" xml:space="preserve">
+        <value>A song must currently be playing to use this command, try `/play` instead.</value>
+    </data>
   <data name="music_string_9" xml:space="preserve">
     <value>Nessuna traccia in riproduzione al momento.</value>
   </data>
@@ -1304,10 +1242,7 @@
   <data name="music_grab_dm_failed" xml:space="preserve">
     <value>Impossibile inviare DM, sei pregato di controllare le tue impostazioni.</value>
   </data>
-  <data name="music_equalizer_none" xml:space="preserve">
-    <value>Nessuna banda dell'equalizzatore impostata.</value>
-  </data>
-  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <data name="music_equalizer_invalid_1" xml:space="preserve">
     <value>Le bande valide sono da 0 a 14</value>
   </data>
   <data name="music_equalizer_invalid_2" xml:space="preserve">
@@ -1331,11 +1266,7 @@
   <data name="gif_error_2" xml:space="preserve">
     <value>Impossibile trovare alcune gif che fossero SFW :frowning:</value>
   </data>
-  <data name="cmd_usage" xml:space="preserve">
-    <value>Il prefisso per questo server è: `{0}`
-Puoi modificare il prefisso a: https://cakeybot.app o con `{0}setting prefix &lt;new prefix&gt;`</value>
-  </data>
-  <data name="cmd_error_param" xml:space="preserve">
+    <data name="cmd_error_param" xml:space="preserve">
     <value>Ha un numero di parametri scorretto.</value>
   </data>
     <data name="cmd_error_number" xml:space="preserve">
@@ -1352,9 +1283,9 @@ Puoi modificare il prefisso a: https://cakeybot.app o con `{0}setting prefix &lt
   <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>Si è verificato un errore sconosciuto.</value>
   </data>
-  <data name="cmd_error_unknown_2" xml:space="preserve">
-    <value>Errore sconosciuto, sei pregato di segnalarlo sul nostro Discord di supporto: https://discord.gg/EUssVK5</value>
-  </data>
+    <data name="cmd_error_unknown_2" xml:space="preserve">
+        <value>Unknown error, please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="cmd_error_song_request" xml:space="preserve">
     <value>Non puoi eseguire i comandi nel canale di richiesta dei brani.</value>
   </data>
@@ -1614,20 +1545,11 @@ Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link 
   <data name="core_cmd_search_2" xml:space="preserve">
     <value>Ecco alcuni comandi simili a `{0}`.</value>
   </data>
-  <data name="core_cmd_info_alias" xml:space="preserve">
-    <value>Alias:</value>
-  </data>
-  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <data name="core_cmd_info_parameters" xml:space="preserve">
     <value>Parametri:</value>
   </data>
-  <data name="core_cmd_info_usage" xml:space="preserve">
-    <value>Uso:</value>
-  </data>
-  <data name="core_cmd_info_module" xml:space="preserve">
+    <data name="core_cmd_info_module" xml:space="preserve">
     <value>Modulo:</value>
-  </data>
-  <data name="core_cmd_missing" xml:space="preserve">
-    <value>Devi fornire un comando per cui vuoi essere aiutato.</value>
   </data>
     <data name="core_setting_prefix_current" xml:space="preserve">
     <value>Prefisso Corrente:</value>
@@ -1683,10 +1605,7 @@ Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link 
   <data name="core_sr_error_have_not" xml:space="preserve">
     <value>Non hai questo ruolo.</value>
   </data>
-  <data name="core_invalid_channel" xml:space="preserve">
-    <value>Devi fornire un nome del canale valido!</value>
-  </data>
-  <data name="core_debug_required_core" xml:space="preserve">
+    <data name="core_debug_required_core" xml:space="preserve">
     <value>**Permessi: (nucleo)**
 </value>
   </data>
@@ -1821,10 +1740,7 @@ Se stai cercando un elenco di comandi del bot e come funzionano, clicca il link 
   <data name="info_open_image" xml:space="preserve">
       <value>Apri Immagine</value>
   </data>
-  <data name="info_target_user" xml:space="preserve">
-      <value>Target User</value>
-  </data>
-  <data name="game_ttt_in_progress" xml:space="preserve">
+    <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Una partita è già in corso, completala prima di crearne un'altra.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -1876,9 +1792,9 @@ Nota: Richiede l'accesso alla \"Gestione Server\".</value>
   <data name="game_ttt_taken" xml:space="preserve">
       <value>Questo posto è già occupato.</value>
   </data>
-  <data name="game_ttt_expired" xml:space="preserve">
-      <value>Questa partita è già scaduta. Puoi crearne una nuova con `!tictactoe &lt;opt:user&gt;`.</value>
-  </data>
+    <data name="game_ttt_expired" xml:space="preserve">
+        <value>This game has already expired. You can create a new game with `/tictactoe &lt;opt:user&gt;`.</value>
+    </data>
   <data name="game_ttt_wait_turn" xml:space="preserve">
       <value>Devi attendere il tuo turno per fare una mossa!</value>
   </data>
@@ -2050,14 +1966,8 @@ Nota: Richiede l'accesso alla \"Gestione Server\".</value>
     <data name="ticket_closed" xml:space="preserve">
         <value>Ticket chiuso da {0}</value>
     </data>
-    <data name="archive_error" xml:space="preserve">
-        <value>You must be in a thread to use this command.</value>
-    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Non ho l'autorizzazione di Gestione dei Thread!</value>
-    </data>
-    <data name="archive_error_2" xml:space="preserve">
-        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Impossibile riattivare l'audio dell'utente.</value>
@@ -2086,8 +1996,8 @@ Nota: Richiede l'accesso alla \"Gestione Server\".</value>
     <data name="automod_check_phishing_link" xml:space="preserve">
         <value>Link di Phishing</value>
     </data>
-    <data name="premium_limit_filters" xml:space="preserve">
-        <value>Devi avere premium per usare i filtri musicali. Puoi acquistarlo qui: &lt;https://cakeybot.app/dashboard/public/premium&gt;</value>
+    <data name="premium_limit" xml:space="preserve">
+        <value>You must have premium to use this feature. You can purchase premium here: &lt;https://cakeybot.app/premium.php&gt;</value>
     </data>
     <data name="presets_applied" xml:space="preserve">
         <value>Preset applicato correttamente: `{0}`</value>
@@ -2136,5 +2046,56 @@ Nota: Richiede l'accesso alla \"Gestione Server\".</value>
     </data>
     <data name="youtube_feed" xml:space="preserve">
         <value>YouTube Feed</value>
+    </data>
+    <data name="tags_manage_doesnt_exist" xml:space="preserve">
+        <value>Error: Tag doesn't exist.</value>
+    </data>
+    <data name="tags_manage_fail_others" xml:space="preserve">
+        <value>You don't have access to manage other user's tags.</value>
+    </data>
+    <data name="tags_manage_fail_self" xml:space="preserve">
+        <value>You don't have access to manage your own tags.</value>
+    </data>
+    <data name="tags_create_exists" xml:space="preserve">
+        <value>Failed to create tag, it already exists.</value>
+    </data>
+    <data name="music_duration" xml:space="preserve">
+        <value>Duration:</value>
+    </data>
+    <data name="music_loop_queue" xml:space="preserve">
+        <value>The queue is now looping.</value>
+    </data>
+    <data name="music_loop_track" xml:space="preserve">
+        <value>The current track is now looping.</value>
+    </data>
+    <data name="music_loop_track_error" xml:space="preserve">
+        <value>The current track is already looping.</value>
+    </data>
+    <data name="music_loop_queue_error" xml:space="preserve">
+        <value>The queue is already looping.</value>
+    </data>
+    <data name="music_loop_disabled" xml:space="preserve">
+        <value>Disabled track and queue looping.</value>
+    </data>
+    <data name="audit_role_icon" xml:space="preserve">
+        <value>Icon:</value>
+    </data>
+    <data name="audit_role_emoji" xml:space="preserve">
+        <value>Emoji:</value>
+    </data>
+    <data name="audit_permissions_removed" xml:space="preserve">
+        <value>Permissions Removed:</value>
+    </data>
+    <data name="audit_permissions_added" xml:space="preserve">
+        <value>Permissions Added:</value>
+    </data>
+    <data name="music_error_track_length" xml:space="preserve">
+        <value>Song duration is longer than max song length set by the server admins.</value>
+    </data>
+    <data name="music_error_track_title" xml:space="preserve">
+        <value>Song title contains a blacklisted word set by the server admins.</value>
+    </data>
+    <data name="music_youtube_banned" xml:space="preserve">
+        <value>YouTube is no longer a supported source due to Discord policy. You can still use raw queries like `epic music` or play music from one of our many other [supported sources](https://docs.cakeybot.app/music/supported-sources).</value>
     </data>
 </root>

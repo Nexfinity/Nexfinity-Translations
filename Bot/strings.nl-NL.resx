@@ -58,10 +58,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cooldown" xml:space="preserve">
-    <value>Deze opdracht is aan het afkoelen voor: {0}</value>
-  </data>
-  <data name="module_disabled" xml:space="preserve">
+    <data name="module_disabled" xml:space="preserve">
     <value>Deze module is uitgeschakeld door de server admins.</value>
   </data>
   <data name="command_disabled" xml:space="preserve">
@@ -70,19 +67,16 @@
   <data name="error_generic_1" xml:space="preserve">
     <value>Er is een onbekende fout opgetreden!</value>
   </data>
-  <data name="error_generic_2" xml:space="preserve">
-    <value>Onbekende fout opgetreden. Rapporteer met `!feedback`</value>
-  </data>
+    <data name="error_generic_2" xml:space="preserve">
+        <value>Unknown error occurred. Please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="error_generic_3" xml:space="preserve">
     <value>Er is een onbekende fout opgetreden. Is de server online? Heb je het juiste servertype gekozen?</value>
   </data>
   <data name="error_generic_4" xml:space="preserve">
     <value>Fout:</value>
   </data>
-  <data name="error_generic_5" xml:space="preserve">
-    <value>De subopdracht komt binnenkort.</value>
-  </data>
-  <data name="error_ssl" xml:space="preserve">
+    <data name="error_ssl" xml:space="preserve">
     <value>SSL-fout, probeer het later opnieuw.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -90,15 +84,6 @@
   </data>
   <data name="error_limit_characters_10" xml:space="preserve">
     <value>Tekst moet minder dan 10 tekens bevatten.</value>
-  </data>
-  <data name="error_limit_characters_200" xml:space="preserve">
-    <value>Voer een vraag van minder dan 200 tekens in.</value>
-  </data>
-  <data name="error_limit_characters_200_2" xml:space="preserve">
-    <value>Voer een suggestie in van minder dan 200 tekens.</value>
-  </data>
-  <data name="error_limit_characters_500" xml:space="preserve">
-    <value>Tekst moet minder dan 500 tekens bevatten.</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>U heeft geen ManageRoles-toestemming!</value>
@@ -238,9 +223,9 @@
   <data name="error_failed_unban_not_banned_2" xml:space="preserve">
     <value>Het opgegeven gebruikers-ID is niet verbannen.</value>
   </data>
-  <data name="error_failed_unmute_not_muted" xml:space="preserve">
-    <value>Gebruiker is niet gedempt. Als dit het geval is, zorg er dan voor dat u de demp rol instelt met `!setting` of noem deze `gedempt`.</value>
-  </data>
+    <data name="error_failed_unmute_not_muted" xml:space="preserve">
+        <value>User isn't muted. If they are, make sure to set the mute role on the web dashboard or name a role `Muted`.</value>
+    </data>
   <data name="error_failed_playlist_save" xml:space="preserve">
     <value>Opslaan van nummers in afspeellijst mislukt. Bestaat de afspeellijst al?</value>
   </data>
@@ -314,14 +299,14 @@
     <value>Geef een geldige base64 string.</value>
   </data>
     <data name="error_usage_poll" xml:space="preserve">
-    <value>Voer een geldige vraag in. Gebruik: `!poll &lt;vraag&gt; | &lt;antwoord1&gt; | &lt;antwoord2&gt; | &lt;antwoord3&gt; | etc&gt;`</value>
-  </data>
+        <value>Please enter a valid question. Usage: `/poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
+    </data>
     <data name="error_usage_rps" xml:space="preserve">
-    <value>Voer een geldige zet in: `!rps &lt;rock | paper | scissors&gt;`</value>
-  </data>
+        <value>Please enter a valid move: `/rps &lt; rock | paper | scissors &gt;`</value>
+    </data>
     <data name="error_usage_verify_set" xml:space="preserve">
-    <value>Er is geen verificatie rol ingesteld. Stel er één in: `{0}verifieer setup &lt;role&gt;`</value>
-  </data>
+        <value>No verification role has been set. Set one using: `/setup verifyrole &lt;role&gt;`</value>
+    </data>
     <data name="error_verify" xml:space="preserve">
     <value>Het instellen van de verificatie-rol is mislukt.</value>
   </data>
@@ -453,10 +438,7 @@
   <data name="afk_active" xml:space="preserve">
     <value>Je bent momenteel AFK met het bericht: `{0}`</value>
   </data>
-  <data name="afk_limit" xml:space="preserve">
-    <value>AFK berichten moeten minder dan 100 tekens bevatten.</value>
-  </data>
-  <data name="afk_failed" xml:space="preserve">
+    <data name="afk_failed" xml:space="preserve">
     <value>Kon AFK-bericht niet instellen.</value>
   </data>
   <data name="afk_set" xml:space="preserve">
@@ -583,10 +565,7 @@
   <data name="mod_purge_success" xml:space="preserve">
     <value>**{0} berichten verwijderd door {1} in &lt;#{2}&gt;**</value>
   </data>
-    <data name="mod_purge_url" xml:space="preserve">
-    <value>Verwijderde berichten:</value>
-  </data>
-  <data name="mod_dehoist_start" xml:space="preserve">
+    <data name="mod_dehoist_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; Bijnaam hoisten verwijderen kan een tijdje duren.
 Let op: Er wordt een bericht verzonden na voltooiing.</value>
   </data>
@@ -615,15 +594,10 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="time_error_negative" xml:space="preserve">
     <value>Tijd kan niet negatief of minder zijn dan nul.</value>
   </data>
-  <data name="info_about_description" xml:space="preserve">
-    <value>**Over ons:**```Een geavanceerde, aanpasbare bot gemaakt om direct te concurreren met Dyno en Rythm. Cakey Bot is gemaakt om krachtige muziekmogelijkheden te combineren met een groot aantal nutsmogelijkheden. Cakey Bot combineert de functies die over het algemeen meerdere bots vereisen, in maar éen enkel bot. Verbeterde gilde beheer eenvoudiger en sneller.```
-</value>
-  </data>
-  <data name="info_about_vote" xml:space="preserve">
-    <value>:star: Blij met Cakey Bot? Toon dan je steun en stem op:
-</value>
-  </data>
-  <data name="info_ping" xml:space="preserve">
+    <data name="info_about_description" xml:space="preserve">
+        <value>**About:**```An advanced, customizable bot built to directly compete with Dyno and other large Discord bots. Cakey Bot is built to combine powerful music capabilities with a multititude of utility and moderation features. Cakey Bot reduces the need to use and manage multiple Discord bots and consolidates all the features you need into a single bot. Making server management quicker and easier.```</value>
+    </data>
+    <data name="info_ping" xml:space="preserve">
     <value>Hartslag - Shard #{0}: {1}ms</value>
   </data>
   <data name="info_ping_avg" xml:space="preserve">
@@ -665,10 +639,7 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="info_string_8" xml:space="preserve">
     <value>Leden</value>
   </data>
-  <data name="info_string_9" xml:space="preserve">
-    <value>Regio</value>
-  </data>
-  <data name="info_string_10" xml:space="preserve">
+    <data name="info_string_10" xml:space="preserve">
     <value>Rollen</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -893,9 +864,6 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
     <data name="emoji_string_animated" xml:space="preserve">
     <value>Geïsoleerd?</value>
   </data>
-  <data name="emoji_string_url" xml:space="preserve">
-    <value>URL:</value>
-  </data>
     <data name="roleinfo" xml:space="preserve">
     <value>{0} Rol Info</value>
   </data>
@@ -959,19 +927,13 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="misc_convert_rate" xml:space="preserve">
     <value>Wisselkoers:</value>
   </data>
-  <data name="misc_convert_usage" xml:space="preserve">
-    <value>Gebruik: `!convert &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
-  </data>
-  <data name="misc_fact" xml:space="preserve">
+    <data name="misc_fact" xml:space="preserve">
     <value>Willekeurig feit:</value>
   </data>
   <data name="misc_fact_failed" xml:space="preserve">
     <value>Fout bij het krijgen van een feit.</value>
   </data>
-    <data name="misc_reminder_error_2" xml:space="preserve">
-    <value>Herinneringen moeten minder dan 200 tekens lang zijn.</value>
-  </data>
-  <data name="misc_reminder_error_3" xml:space="preserve">
+    <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Herinneringen moeten minder dan 1 maand verwijderd zijn van nu.</value>
   </data>
     <data name="misc_reminder_success" xml:space="preserve">
@@ -989,15 +951,15 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>Ik ben al in dat kanaal.</value>
   </data>
-  <data name="music_error_voice_channel_5" xml:space="preserve">
-    <value>Ik moet in een spraakkanaal zitten. Gebruik `!join` om mij op te roepen.</value>
-  </data>
-  <data name="music_error_voice_channel_6" xml:space="preserve">
-    <value>Je moet in hetzelfde kanaal zitten als de bot. Probeer `!join` of `!move`</value>
-  </data>
-  <data name="music_error_player" xml:space="preserve">
-    <value>Speler bestaat niet, typ alstublieft `!join` opnieuw.</value>
-  </data>
+    <data name="music_error_voice_channel_5" xml:space="preserve">
+        <value>I must be in a voice channel. Use `/play` to summon me.</value>
+    </data>
+    <data name="music_error_voice_channel_6" xml:space="preserve">
+        <value>You must be in the same channel as the bot. Try using `/play` to summon it.</value>
+    </data>
+    <data name="music_error_player" xml:space="preserve">
+        <value>Player doesn't exist, please type `/play` again.</value>
+    </data>
   <data name="music_error_play" xml:space="preserve">
     <value>Fout bij het laden van track: ```{0}```</value>
   </data>
@@ -1037,25 +999,10 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="music_shuffle" xml:space="preserve">
     <value>De wachtrij is succesvol geshuffled.</value>
   </data>
-  <data name="music_loop" xml:space="preserve">
-    <value>Status van de songloop ingesteld op: `{0}`.</value>
-  </data>
-  <data name="music_looping" xml:space="preserve">
-    <value>herhalen</value>
-  </data>
-  <data name="music_looping_disabled" xml:space="preserve">
-    <value>niet herhalen</value>
-  </data>
-  <data name="music_bb" xml:space="preserve">
+    <data name="music_bb" xml:space="preserve">
     <value>Status van de boost voor nummers ingesteld op: `{0}`.</value>
   </data>
-  <data name="music_boosted" xml:space="preserve">
-    <value>boostte</value>
-  </data>
-  <data name="music_boosted_disabled" xml:space="preserve">
-    <value>niet boosted</value>
-  </data>
-  <data name="music_remove" xml:space="preserve">
+    <data name="music_remove" xml:space="preserve">
     <value>`{0}` - `{1}` is met succes uit de wachtrij verwijderd.</value>
   </data>
   <data name="music_restart_1" xml:space="preserve">
@@ -1091,9 +1038,9 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="music_resume_1" xml:space="preserve">
     <value>Het nummer is succesvol hervat.</value>
   </data>
-  <data name="music_resume_2" xml:space="preserve">
-    <value>Het nummer is niet gepauzeerd. Je kunt het nummer pauzeren met `!pause`</value>
-  </data>
+    <data name="music_resume_2" xml:space="preserve">
+        <value>The song is not paused. You can pause the song with `/pause`</value>
+    </data>
   <data name="music_lyrics_1" xml:space="preserve">
     <value>U moet een naam van een nummer invoeren om naar te zoeken, (of heeft een nummer dat momenteel wordt afgespeeld)</value>
   </data>
@@ -1127,9 +1074,9 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="music_voteskip_2" xml:space="preserve">
     <value>U heeft gestemd om over te slaan, {0} meer stemmen{1} vereist.</value>
   </data>
-  <data name="music_voteskip_3" xml:space="preserve">
-    <value>De stemming is op {0}/{1}.</value>
-  </data>
+    <data name="music_voteskip_3" xml:space="preserve">
+        <value>You already voted to skip, it has been removed. You can re-add it by typing `/skip` again. {0} more vote{1} required.</value>
+    </data>
   <data name="music_voteskip_4" xml:space="preserve">
     <value>De stemming is om {0}/{1}.</value>
   </data>
@@ -1139,9 +1086,9 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="music_no_results" xml:space="preserve">
     <value>Geen resultaten gevonden.</value>
   </data>
-  <data name="music_invalid_track_1" xml:space="preserve">
-    <value>Track ID is buiten geldig scala. Typ `!queue` om geldige track-ID's te zien.</value>
-  </data>
+    <data name="music_invalid_track_1" xml:space="preserve">
+        <value>Track ID is outside of valid range. Type `/queue` to see valid track IDs.</value>
+    </data>
   <data name="music_invalid_track_2" xml:space="preserve">
     <value>Track wachtrij id moet geldig zijn.</value>
   </data>
@@ -1179,13 +1126,7 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="music_playlist_success_delete" xml:space="preserve">
     <value>Succesvol je `{0}` afspeellijst verwijderd.</value>
   </data>
-    <data name="music_cancel_1" xml:space="preserve">
-    <value>Zoekopdracht succesvol geannuleerd.</value>
-  </data>
-  <data name="music_cancel_2" xml:space="preserve">
-    <value>Typ het nummer om een nummer te selecteren of 'cancel'/'none' om de selectie te annuleren.</value>
-  </data>
-  <data name="music_string_1" xml:space="preserve">
+    <data name="music_string_1" xml:space="preserve">
     <value>Wachtrij positie:</value>
   </data>
   <data name="music_string_2" xml:space="preserve">
@@ -1197,18 +1138,15 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="music_string_4" xml:space="preserve">
     <value>Nog +{0} nummers over.</value>
   </data>
-  <data name="music_string_5" xml:space="preserve">
-    <value>U moet een tijdwaarde invoeren.</value>
-  </data>
-  <data name="music_string_6" xml:space="preserve">
+    <data name="music_string_6" xml:space="preserve">
     <value>Ongeldige tijd.</value>
   </data>
   <data name="music_string_7" xml:space="preserve">
     <value>Tijd is buiten de lengte van de video, probeer het opnieuw.</value>
   </data>
-  <data name="music_string_8" xml:space="preserve">
-    <value>Een nummer moet momenteel worden afgespeeld om dit commando te gebruiken, probeer `!play`.</value>
-  </data>
+    <data name="music_string_8" xml:space="preserve">
+        <value>A song must currently be playing to use this command, try `/play` instead.</value>
+    </data>
   <data name="music_string_9" xml:space="preserve">
     <value>Er wordt momenteel geen track afgespeeld.</value>
   </data>
@@ -1304,10 +1242,7 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="music_grab_dm_failed" xml:space="preserve">
     <value>Verzenden van DM mislukt, controleer uw instellingen.</value>
   </data>
-  <data name="music_equalizer_none" xml:space="preserve">
-    <value>Er zijn geen equalizerbanden ingesteld.</value>
-  </data>
-  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <data name="music_equalizer_invalid_1" xml:space="preserve">
     <value>Geldige banden zijn 0 tot en met 14</value>
   </data>
   <data name="music_equalizer_invalid_2" xml:space="preserve">
@@ -1331,11 +1266,7 @@ Let op: Er zal een bericht worden verzonden na voltooiing.</value>
   <data name="gif_error_2" xml:space="preserve">
     <value>Kon geen gifs vinden die SFW waren :frowning:</value>
   </data>
-  <data name="cmd_usage" xml:space="preserve">
-    <value>De prefix voor deze server is: `{0}`
-Je kan de prefix veranderen op: https://cakeybot.app of met `{0}setting prefix &lt;new prefix&gt;`</value>
-  </data>
-  <data name="cmd_error_param" xml:space="preserve">
+    <data name="cmd_error_param" xml:space="preserve">
     <value>Heeft een onjuist aantal parameters.</value>
   </data>
     <data name="cmd_error_number" xml:space="preserve">
@@ -1352,9 +1283,9 @@ Je kan de prefix veranderen op: https://cakeybot.app of met `{0}setting prefix &
   <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>Er is een onbekende fout opgetreden.</value>
   </data>
-  <data name="cmd_error_unknown_2" xml:space="preserve">
-    <value>Onbekende fout, rapporteer alstublieft met `!feedback`.</value>
-  </data>
+    <data name="cmd_error_unknown_2" xml:space="preserve">
+        <value>Unknown error, please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="cmd_error_song_request" xml:space="preserve">
     <value>Je kunt geen commando's uitvoeren in het nummer verzoekkanaal.</value>
   </data>
@@ -1614,20 +1545,11 @@ Als je een lijst zoekt van bot commando's en hoe ze werken, klik op de `Bot Comm
   <data name="core_cmd_search_2" xml:space="preserve">
     <value>Hier zijn enkele commando's zoals `{0}`.</value>
   </data>
-  <data name="core_cmd_info_alias" xml:space="preserve">
-    <value>Aliassen:</value>
-  </data>
-  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <data name="core_cmd_info_parameters" xml:space="preserve">
     <value>Parameters:</value>
   </data>
-  <data name="core_cmd_info_usage" xml:space="preserve">
-    <value>Gebruik:</value>
-  </data>
-  <data name="core_cmd_info_module" xml:space="preserve">
+    <data name="core_cmd_info_module" xml:space="preserve">
     <value>Module:</value>
-  </data>
-  <data name="core_cmd_missing" xml:space="preserve">
-    <value>Je moet een commando invoeren waar je hulp voor wilt zien.</value>
   </data>
     <data name="core_setting_prefix_current" xml:space="preserve">
     <value>Huidige voorvoegsel:</value>
@@ -1683,10 +1605,7 @@ Als je een lijst zoekt van bot commando's en hoe ze werken, klik op de `Bot Comm
   <data name="core_sr_error_have_not" xml:space="preserve">
     <value>U heeft deze rol niet.</value>
   </data>
-  <data name="core_invalid_channel" xml:space="preserve">
-    <value>Je moet een geldige kanaal naam invullen!</value>
-  </data>
-  <data name="core_debug_required_core" xml:space="preserve">
+    <data name="core_debug_required_core" xml:space="preserve">
     <value>**Vereiste Permisises: (Core)**
 </value>
   </data>
@@ -1821,10 +1740,7 @@ Als je een lijst zoekt van bot commando's en hoe ze werken, klik op de `Bot Comm
   <data name="info_open_image" xml:space="preserve">
       <value>Afbeelding openen</value>
   </data>
-  <data name="info_target_user" xml:space="preserve">
-      <value>Doel gebruiker</value>
-  </data>
-  <data name="game_ttt_in_progress" xml:space="preserve">
+    <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Er is al een spel aan de gang, voltooi het voordat je een nieuw spel maakt.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -1876,9 +1792,9 @@ Opmerking: Vereist \"Beheerserver\" toegang.</value>
   <data name="game_ttt_taken" xml:space="preserve">
       <value>Deze plek is al in gebruik.</value>
   </data>
-  <data name="game_ttt_expired" xml:space="preserve">
-      <value>Dit spel is al verlopen. Je kunt een nieuw spel maken met `!tictacteen &lt;opt:user&gt;`.</value>
-  </data>
+    <data name="game_ttt_expired" xml:space="preserve">
+        <value>This game has already expired. You can create a new game with `/tictactoe &lt;opt:user&gt;`.</value>
+    </data>
   <data name="game_ttt_wait_turn" xml:space="preserve">
       <value>Je moet wachten op je beurt om een zet te doen!</value>
   </data>
@@ -2050,14 +1966,8 @@ Opmerking: Vereist \"Beheerserver\" toegang.</value>
     <data name="ticket_closed" xml:space="preserve">
         <value>Ticket gesloten door {0}</value>
     </data>
-    <data name="archive_error" xml:space="preserve">
-        <value>Je moet in een thread zitten om dit commando te gebruiken.</value>
-    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Ik heb geen Beheer Thread toestemming!</value>
-    </data>
-    <data name="archive_error_2" xml:space="preserve">
-        <value>Thread is al gearchiveerd.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Fout bij het dempen van de gebruiker.</value>
@@ -2086,8 +1996,8 @@ Opmerking: Vereist \"Beheerserver\" toegang.</value>
     <data name="automod_check_phishing_link" xml:space="preserve">
         <value>Phishing Link</value>
     </data>
-    <data name="premium_limit_filters" xml:space="preserve">
-        <value>Je moet premium hebben om muziek filters te kunnen gebruiken. Je kunt premium hier kopen: &lt;https://cakeybot.app/dashboard/public/premium&gt;</value>
+    <data name="premium_limit" xml:space="preserve">
+        <value>You must have premium to use this feature. You can purchase premium here: &lt;https://cakeybot.app/premium.php&gt;</value>
     </data>
     <data name="presets_applied" xml:space="preserve">
         <value>Voorkeursinstelling succesvol toegepast: `{0}`</value>
@@ -2136,5 +2046,56 @@ Opmerking: Vereist \"Beheerserver\" toegang.</value>
     </data>
     <data name="youtube_feed" xml:space="preserve">
         <value>YouTube Feed</value>
+    </data>
+    <data name="tags_manage_doesnt_exist" xml:space="preserve">
+        <value>Error: Tag doesn't exist.</value>
+    </data>
+    <data name="tags_manage_fail_others" xml:space="preserve">
+        <value>You don't have access to manage other user's tags.</value>
+    </data>
+    <data name="tags_manage_fail_self" xml:space="preserve">
+        <value>You don't have access to manage your own tags.</value>
+    </data>
+    <data name="tags_create_exists" xml:space="preserve">
+        <value>Failed to create tag, it already exists.</value>
+    </data>
+    <data name="music_duration" xml:space="preserve">
+        <value>Duration:</value>
+    </data>
+    <data name="music_loop_queue" xml:space="preserve">
+        <value>The queue is now looping.</value>
+    </data>
+    <data name="music_loop_track" xml:space="preserve">
+        <value>The current track is now looping.</value>
+    </data>
+    <data name="music_loop_track_error" xml:space="preserve">
+        <value>The current track is already looping.</value>
+    </data>
+    <data name="music_loop_queue_error" xml:space="preserve">
+        <value>The queue is already looping.</value>
+    </data>
+    <data name="music_loop_disabled" xml:space="preserve">
+        <value>Disabled track and queue looping.</value>
+    </data>
+    <data name="audit_role_icon" xml:space="preserve">
+        <value>Icon:</value>
+    </data>
+    <data name="audit_role_emoji" xml:space="preserve">
+        <value>Emoji:</value>
+    </data>
+    <data name="audit_permissions_removed" xml:space="preserve">
+        <value>Permissions Removed:</value>
+    </data>
+    <data name="audit_permissions_added" xml:space="preserve">
+        <value>Permissions Added:</value>
+    </data>
+    <data name="music_error_track_length" xml:space="preserve">
+        <value>Song duration is longer than max song length set by the server admins.</value>
+    </data>
+    <data name="music_error_track_title" xml:space="preserve">
+        <value>Song title contains a blacklisted word set by the server admins.</value>
+    </data>
+    <data name="music_youtube_banned" xml:space="preserve">
+        <value>YouTube is no longer a supported source due to Discord policy. You can still use raw queries like `epic music` or play music from one of our many other [supported sources](https://docs.cakeybot.app/music/supported-sources).</value>
     </data>
 </root>

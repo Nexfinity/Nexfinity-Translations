@@ -58,10 +58,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cooldown" xml:space="preserve">
-    <value>Detta kommando är på cooldown för: {0}</value>
-  </data>
-  <data name="module_disabled" xml:space="preserve">
+    <data name="module_disabled" xml:space="preserve">
     <value>Denna modul har inaktiverats i denna guild av serverns admins.</value>
   </data>
   <data name="command_disabled" xml:space="preserve">
@@ -70,19 +67,16 @@
   <data name="error_generic_1" xml:space="preserve">
     <value>Ett okänd fel påträffades!</value>
   </data>
-  <data name="error_generic_2" xml:space="preserve">
-    <value>Ett okänt fel påträffades. Vänligen anmäl i vår support-Discord: https://discord.gg/EUssVK5</value>
-  </data>
+    <data name="error_generic_2" xml:space="preserve">
+        <value>Unknown error occurred. Please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="error_generic_3" xml:space="preserve">
     <value>Ett okänt fel påträffades. Är servern online? Valde du rätt servertyp?</value>
   </data>
   <data name="error_generic_4" xml:space="preserve">
     <value>Fel:</value>
   </data>
-  <data name="error_generic_5" xml:space="preserve">
-    <value>Sub-command coming soon.</value>
-  </data>
-  <data name="error_ssl" xml:space="preserve">
+    <data name="error_ssl" xml:space="preserve">
     <value>SSL-fel, vänligen försök igen senare.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -90,15 +84,6 @@
   </data>
   <data name="error_limit_characters_10" xml:space="preserve">
     <value>Text måste vara mindre än 10 tecken långt.</value>
-  </data>
-  <data name="error_limit_characters_200" xml:space="preserve">
-    <value>Vänligen ange en fråga mindre än 200 tecken.</value>
-  </data>
-  <data name="error_limit_characters_200_2" xml:space="preserve">
-    <value>Vänligen ange ett förslag mindre än 200 tecken.</value>
-  </data>
-  <data name="error_limit_characters_500" xml:space="preserve">
-    <value>Text måste vara mindre än 500 tecken långt.</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Du har inte behörighet att hantera roller!</value>
@@ -238,9 +223,9 @@
   <data name="error_failed_unban_not_banned_2" xml:space="preserve">
     <value>Givet användar-ID är inte bannlyst.</value>
   </data>
-  <data name="error_failed_unmute_not_muted" xml:space="preserve">
-    <value>Användare är inte tystad. Om de var det, se till att ställa in tystningsrollen med `!setting` eller namnge den `Muted`.</value>
-  </data>
+    <data name="error_failed_unmute_not_muted" xml:space="preserve">
+        <value>User isn't muted. If they are, make sure to set the mute role on the web dashboard or name a role `Muted`.</value>
+    </data>
   <data name="error_failed_playlist_save" xml:space="preserve">
     <value>Misslyckades att spara låtar till spellistan. Finns spellistan redan?</value>
   </data>
@@ -314,14 +299,14 @@
     <value>Vänligen ange en giltigt base64-string.</value>
   </data>
     <data name="error_usage_poll" xml:space="preserve">
-    <value>Vänligen ange en giltig fråga. Användning: `!poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
-  </data>
+        <value>Please enter a valid question. Usage: `/poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
+    </data>
     <data name="error_usage_rps" xml:space="preserve">
-    <value>Vänligen ange ett giltigt drag: `!rps &lt; rock | paper | scissors &gt;`</value>
-  </data>
+        <value>Please enter a valid move: `/rps &lt; rock | paper | scissors &gt;`</value>
+    </data>
     <data name="error_usage_verify_set" xml:space="preserve">
-    <value>Ingen verifieringsroll har angivits. Ange en med: `{0}verify setup &lt;roll&gt;`</value>
-  </data>
+        <value>No verification role has been set. Set one using: `/setup verifyrole &lt;role&gt;`</value>
+    </data>
     <data name="error_verify" xml:space="preserve">
     <value>Misslyckades att ange verifieringsrollen.</value>
   </data>
@@ -453,10 +438,7 @@
   <data name="afk_active" xml:space="preserve">
     <value>Du är AFK för tillfället, med meddelandet: `{0}`</value>
   </data>
-  <data name="afk_limit" xml:space="preserve">
-    <value>AFK-meddelanden måste vara mindre än 100 tecken.</value>
-  </data>
-  <data name="afk_failed" xml:space="preserve">
+    <data name="afk_failed" xml:space="preserve">
     <value>Misslyckades att ställa in AFK-meddelande.</value>
   </data>
   <data name="afk_set" xml:space="preserve">
@@ -583,10 +565,7 @@
   <data name="mod_purge_success" xml:space="preserve">
     <value>**{0} meddelanden rensade av {1} i &lt;#{2}&gt;**</value>
   </data>
-    <data name="mod_purge_url" xml:space="preserve">
-    <value>Borttagna meddelanden:</value>
-  </data>
-  <data name="mod_dehoist_start" xml:space="preserve">
+    <data name="mod_dehoist_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; Ta bort hoistade smeknamn, detta kan ta ett tag.
 Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   </data>
@@ -615,15 +594,10 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="time_error_negative" xml:space="preserve">
     <value>Tid kan inte vara negativ eller mindre än noll.</value>
   </data>
-  <data name="info_about_description" xml:space="preserve">
-    <value>**Om:**```En avancerad, anpassningsbar bot byggd för att konkurrera direkt med Dyno och Rythm. Cakey Bot är byggd för att kombinera kraftfulla musikförmågor med ett flertal andra verktyg. Cakey Bot kombinerar förmågor som vanligtvis kräver flera bottar i en och samma bot. Gör serverhantering enklare och snabbare.```
-</value>
-  </data>
-  <data name="info_about_vote" xml:space="preserve">
-    <value>:star: Gillar du Cakey Bot? Nå, visa ditt stöd och donera på:
-</value>
-  </data>
-  <data name="info_ping" xml:space="preserve">
+    <data name="info_about_description" xml:space="preserve">
+        <value>**About:**```An advanced, customizable bot built to directly compete with Dyno and other large Discord bots. Cakey Bot is built to combine powerful music capabilities with a multititude of utility and moderation features. Cakey Bot reduces the need to use and manage multiple Discord bots and consolidates all the features you need into a single bot. Making server management quicker and easier.```</value>
+    </data>
+    <data name="info_ping" xml:space="preserve">
     <value>Hjärtslag - Shard #{0}: {1}ms</value>
   </data>
   <data name="info_ping_avg" xml:space="preserve">
@@ -665,10 +639,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="info_string_8" xml:space="preserve">
     <value>Medlemmar</value>
   </data>
-  <data name="info_string_9" xml:space="preserve">
-    <value>Region</value>
-  </data>
-  <data name="info_string_10" xml:space="preserve">
+    <data name="info_string_10" xml:space="preserve">
     <value>Roller</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -893,9 +864,6 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
     <data name="emoji_string_animated" xml:space="preserve">
     <value>Är animerad?</value>
   </data>
-  <data name="emoji_string_url" xml:space="preserve">
-    <value>URL:</value>
-  </data>
     <data name="roleinfo" xml:space="preserve">
     <value>{0} Rollinfo</value>
   </data>
@@ -959,19 +927,13 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="misc_convert_rate" xml:space="preserve">
     <value>Växlingskurs:</value>
   </data>
-  <data name="misc_convert_usage" xml:space="preserve">
-    <value>Användning: `!convert &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
-  </data>
-  <data name="misc_fact" xml:space="preserve">
+    <data name="misc_fact" xml:space="preserve">
     <value>Slumpmässig fakta:</value>
   </data>
   <data name="misc_fact_failed" xml:space="preserve">
     <value>Misslyckades att hämta en fakta.</value>
   </data>
-    <data name="misc_reminder_error_2" xml:space="preserve">
-    <value>Påminnelser bör vara under 200 tecken långa.</value>
-  </data>
-  <data name="misc_reminder_error_3" xml:space="preserve">
+    <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Påminnelser bör äga rum inom en månad från i dag.</value>
   </data>
     <data name="misc_reminder_success" xml:space="preserve">
@@ -989,15 +951,15 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>Jag är redan i den kanalen.</value>
   </data>
-  <data name="music_error_voice_channel_5" xml:space="preserve">
-    <value>Jag måste vara i en röstkanal. Använd `!join` för att kalla på mig.</value>
-  </data>
-  <data name="music_error_voice_channel_6" xml:space="preserve">
-    <value>Du måste vara i samma röstkanal som botten. Försök använda `!join` eller `!move`</value>
-  </data>
-  <data name="music_error_player" xml:space="preserve">
-    <value>Spelare finns inte, vänligen använd `!join` igen.</value>
-  </data>
+    <data name="music_error_voice_channel_5" xml:space="preserve">
+        <value>I must be in a voice channel. Use `/play` to summon me.</value>
+    </data>
+    <data name="music_error_voice_channel_6" xml:space="preserve">
+        <value>You must be in the same channel as the bot. Try using `/play` to summon it.</value>
+    </data>
+    <data name="music_error_player" xml:space="preserve">
+        <value>Player doesn't exist, please type `/play` again.</value>
+    </data>
   <data name="music_error_play" xml:space="preserve">
     <value>Fel vid laddning av spår: ```{0}```</value>
   </data>
@@ -1037,25 +999,10 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_shuffle" xml:space="preserve">
     <value>Kastade framgångsrikt om kön.</value>
   </data>
-  <data name="music_loop" xml:space="preserve">
-    <value>Status för loopning satt till: `{0}`.</value>
-  </data>
-  <data name="music_looping" xml:space="preserve">
-    <value>loopar</value>
-  </data>
-  <data name="music_looping_disabled" xml:space="preserve">
-    <value>loopar inte</value>
-  </data>
-  <data name="music_bb" xml:space="preserve">
+    <data name="music_bb" xml:space="preserve">
     <value>Status för basförstärkning satt till: `{0}`.</value>
   </data>
-  <data name="music_boosted" xml:space="preserve">
-    <value>förstärkt</value>
-  </data>
-  <data name="music_boosted_disabled" xml:space="preserve">
-    <value>inte förstärkt</value>
-  </data>
-  <data name="music_remove" xml:space="preserve">
+    <data name="music_remove" xml:space="preserve">
     <value>Tog framgångsrikt bort `{0}` - `{1}` från kön.</value>
   </data>
   <data name="music_restart_1" xml:space="preserve">
@@ -1091,9 +1038,9 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_resume_1" xml:space="preserve">
     <value>Återupptog framgångsrikt sången.</value>
   </data>
-  <data name="music_resume_2" xml:space="preserve">
-    <value>Denna sång är inte pausad. Du kan pausa sången med `!pause`</value>
-  </data>
+    <data name="music_resume_2" xml:space="preserve">
+        <value>The song is not paused. You can pause the song with `/pause`</value>
+    </data>
   <data name="music_lyrics_1" xml:space="preserve">
     <value>Du måste ange ett sångnamn att söka efter. (eller ha en sång som spelas för tillfället)</value>
   </data>
@@ -1127,9 +1074,9 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_voteskip_2" xml:space="preserve">
     <value>Du har röstat för att skippa, {0} fler röster{1} krävs.</value>
   </data>
-  <data name="music_voteskip_3" xml:space="preserve">
-    <value>Du har redan röstat för att hoppa över, den har tagits bort. Du kan lägga till den igen genom att skriva `!skip` igen. {0} fler röst{1} krävs.</value>
-  </data>
+    <data name="music_voteskip_3" xml:space="preserve">
+        <value>You already voted to skip, it has been removed. You can re-add it by typing `/skip` again. {0} more vote{1} required.</value>
+    </data>
   <data name="music_voteskip_4" xml:space="preserve">
     <value>Röstningen är på {0}/{1}.</value>
   </data>
@@ -1139,9 +1086,9 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_no_results" xml:space="preserve">
     <value>Inga resultat hittades.</value>
   </data>
-  <data name="music_invalid_track_1" xml:space="preserve">
-    <value>Spår-ID är utanför giltig räckvidd. Skriv `!queue` för att se giltiga spår-ID:n.</value>
-  </data>
+    <data name="music_invalid_track_1" xml:space="preserve">
+        <value>Track ID is outside of valid range. Type `/queue` to see valid track IDs.</value>
+    </data>
   <data name="music_invalid_track_2" xml:space="preserve">
     <value>Spårkö-Id:t måste vara giltigt.</value>
   </data>
@@ -1179,13 +1126,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_playlist_success_delete" xml:space="preserve">
     <value>Tog framgångsrikt bort din `{0}` spellista.</value>
   </data>
-    <data name="music_cancel_1" xml:space="preserve">
-    <value>Avbröt framgångsrikt sökningen.</value>
-  </data>
-  <data name="music_cancel_2" xml:space="preserve">
-    <value>Ange numret för att välja en låt eller 'cancel'/'none' för att avbryta valet.</value>
-  </data>
-  <data name="music_string_1" xml:space="preserve">
+    <data name="music_string_1" xml:space="preserve">
     <value>Köposition:</value>
   </data>
   <data name="music_string_2" xml:space="preserve">
@@ -1197,18 +1138,15 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_string_4" xml:space="preserve">
     <value>+{0} fler sånger.</value>
   </data>
-  <data name="music_string_5" xml:space="preserve">
-    <value>You must enter a time value.</value>
-  </data>
-  <data name="music_string_6" xml:space="preserve">
+    <data name="music_string_6" xml:space="preserve">
     <value>Invalid time.</value>
   </data>
   <data name="music_string_7" xml:space="preserve">
     <value>Tiden är utanför videons längd, vänligen försök igen.</value>
   </data>
-  <data name="music_string_8" xml:space="preserve">
-    <value>En låt måste spelas för tillfället för att kunna använda detta kommando, försök med `!play` i stället.</value>
-  </data>
+    <data name="music_string_8" xml:space="preserve">
+        <value>A song must currently be playing to use this command, try `/play` instead.</value>
+    </data>
   <data name="music_string_9" xml:space="preserve">
     <value>Det finns ingen låt som spelas just nu.</value>
   </data>
@@ -1304,10 +1242,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="music_grab_dm_failed" xml:space="preserve">
     <value>Misslyckades att skicka DM, vänligen kontrollera dina inställningar.</value>
   </data>
-  <data name="music_equalizer_none" xml:space="preserve">
-    <value>Inga equalizerband har ställts in.</value>
-  </data>
-  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <data name="music_equalizer_invalid_1" xml:space="preserve">
     <value>Giltiga band är 0 till 14</value>
   </data>
   <data name="music_equalizer_invalid_2" xml:space="preserve">
@@ -1331,11 +1266,7 @@ Obs: Ett meddelande kommer att skickas när det är färdigt.</value>
   <data name="gif_error_2" xml:space="preserve">
     <value>Kunde inte hitta några gifs som var SFW. :frowning:</value>
   </data>
-  <data name="cmd_usage" xml:space="preserve">
-    <value>Serverprefixet är: `{0}`
-Du kan ändra prefixet på: https://cakeybot.app eller genom `{0}setting prefix &lt;new prefix&gt;`</value>
-  </data>
-  <data name="cmd_error_param" xml:space="preserve">
+    <data name="cmd_error_param" xml:space="preserve">
     <value>Har inkorrekt antal parametrar.</value>
   </data>
     <data name="cmd_error_number" xml:space="preserve">
@@ -1352,9 +1283,9 @@ Du kan ändra prefixet på: https://cakeybot.app eller genom `{0}setting prefix 
   <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>Ett okänd fel påträffades.</value>
   </data>
-  <data name="cmd_error_unknown_2" xml:space="preserve">
-    <value>Okänt fel, vänligen anmäl i vår support-Discord: https://discord.gg/EUssVK5</value>
-  </data>
+    <data name="cmd_error_unknown_2" xml:space="preserve">
+        <value>Unknown error, please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="cmd_error_song_request" xml:space="preserve">
     <value>Du kan inte använda kommandon i kanalen för låtförfrågningar.</value>
   </data>
@@ -1614,20 +1545,11 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="core_cmd_search_2" xml:space="preserve">
     <value>Här är några kommandon som `{0}`.</value>
   </data>
-  <data name="core_cmd_info_alias" xml:space="preserve">
-    <value>Alias:</value>
-  </data>
-  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <data name="core_cmd_info_parameters" xml:space="preserve">
     <value>Parametrar:</value>
   </data>
-  <data name="core_cmd_info_usage" xml:space="preserve">
-    <value>Användning:</value>
-  </data>
-  <data name="core_cmd_info_module" xml:space="preserve">
+    <data name="core_cmd_info_module" xml:space="preserve">
     <value>Modul:</value>
-  </data>
-  <data name="core_cmd_missing" xml:space="preserve">
-    <value>Du måste ange ett kommando som du vill visa hjälp för.</value>
   </data>
     <data name="core_setting_prefix_current" xml:space="preserve">
     <value>Nuvarande prefix:</value>
@@ -1683,10 +1605,7 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="core_sr_error_have_not" xml:space="preserve">
     <value>Du har inte den rollen.</value>
   </data>
-  <data name="core_invalid_channel" xml:space="preserve">
-    <value>Du måste ange ett giltigt kanalnamn!</value>
-  </data>
-  <data name="core_debug_required_core" xml:space="preserve">
+    <data name="core_debug_required_core" xml:space="preserve">
     <value>**Obligatoriska behörigheter: (Kärna)**
 </value>
   </data>
@@ -1821,10 +1740,7 @@ Om du letar efter en lista över botkommandon och hur de fungerar, klicka på ar
   <data name="info_open_image" xml:space="preserve">
       <value>Öppna bild</value>
   </data>
-  <data name="info_target_user" xml:space="preserve">
-      <value>Target User</value>
-  </data>
-  <data name="game_ttt_in_progress" xml:space="preserve">
+    <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Ett spel pågår redan, avsluta det innan du skapar ett nytt.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -1876,9 +1792,9 @@ Notera: Kräver \"Hantera server\"-behörighet.</value>
   <data name="game_ttt_taken" xml:space="preserve">
       <value>Denna plats är redan upptagen.</value>
   </data>
-  <data name="game_ttt_expired" xml:space="preserve">
-      <value>Detta spel har redan utgått. Du kan starta ett nytt spel via `!tictactoe &lt;opt:user&gt;`.</value>
-  </data>
+    <data name="game_ttt_expired" xml:space="preserve">
+        <value>This game has already expired. You can create a new game with `/tictactoe &lt;opt:user&gt;`.</value>
+    </data>
   <data name="game_ttt_wait_turn" xml:space="preserve">
       <value>Du måste vänta på din tur innan du gör ett drag!</value>
   </data>
@@ -2050,14 +1966,8 @@ Notera: Kräver \"Hantera server\"-behörighet.</value>
     <data name="ticket_closed" xml:space="preserve">
         <value>Ärende stängt av {0}</value>
     </data>
-    <data name="archive_error" xml:space="preserve">
-        <value>You must be in a thread to use this command.</value>
-    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Jag har inte behörighet att "Hantera trådar"!</value>
-    </data>
-    <data name="archive_error_2" xml:space="preserve">
-        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Misslyckades att avtysta användare.</value>
@@ -2086,8 +1996,8 @@ Notera: Kräver \"Hantera server\"-behörighet.</value>
     <data name="automod_check_phishing_link" xml:space="preserve">
         <value>Länk till lösenordsfiske</value>
     </data>
-    <data name="premium_limit_filters" xml:space="preserve">
-        <value>Du måste ha premium för att använda musikfilter. Du kan köpa premium här: &lt;https://cakeybot.app/dashboard/public/premium&gt;</value>
+    <data name="premium_limit" xml:space="preserve">
+        <value>You must have premium to use this feature. You can purchase premium here: &lt;https://cakeybot.app/premium.php&gt;</value>
     </data>
     <data name="presets_applied" xml:space="preserve">
         <value>Tillämpade framgångsrikt förinställning: `{0}`</value>
@@ -2136,5 +2046,56 @@ Notera: Kräver \"Hantera server\"-behörighet.</value>
     </data>
     <data name="youtube_feed" xml:space="preserve">
         <value>YouTube Feed</value>
+    </data>
+    <data name="tags_manage_doesnt_exist" xml:space="preserve">
+        <value>Error: Tag doesn't exist.</value>
+    </data>
+    <data name="tags_manage_fail_others" xml:space="preserve">
+        <value>You don't have access to manage other user's tags.</value>
+    </data>
+    <data name="tags_manage_fail_self" xml:space="preserve">
+        <value>You don't have access to manage your own tags.</value>
+    </data>
+    <data name="tags_create_exists" xml:space="preserve">
+        <value>Failed to create tag, it already exists.</value>
+    </data>
+    <data name="music_duration" xml:space="preserve">
+        <value>Duration:</value>
+    </data>
+    <data name="music_loop_queue" xml:space="preserve">
+        <value>The queue is now looping.</value>
+    </data>
+    <data name="music_loop_track" xml:space="preserve">
+        <value>The current track is now looping.</value>
+    </data>
+    <data name="music_loop_track_error" xml:space="preserve">
+        <value>The current track is already looping.</value>
+    </data>
+    <data name="music_loop_queue_error" xml:space="preserve">
+        <value>The queue is already looping.</value>
+    </data>
+    <data name="music_loop_disabled" xml:space="preserve">
+        <value>Disabled track and queue looping.</value>
+    </data>
+    <data name="audit_role_icon" xml:space="preserve">
+        <value>Icon:</value>
+    </data>
+    <data name="audit_role_emoji" xml:space="preserve">
+        <value>Emoji: {0}</value>
+    </data>
+    <data name="audit_permissions_removed" xml:space="preserve">
+        <value>Permissions Removed:</value>
+    </data>
+    <data name="audit_permissions_added" xml:space="preserve">
+        <value>Permissions Added:</value>
+    </data>
+    <data name="music_error_track_length" xml:space="preserve">
+        <value>Song duration is longer than max song length set by the server admins.</value>
+    </data>
+    <data name="music_error_track_title" xml:space="preserve">
+        <value>Song title contains a blacklisted word set by the server admins.</value>
+    </data>
+    <data name="music_youtube_banned" xml:space="preserve">
+        <value>YouTube is no longer a supported source due to Discord policy. You can still use raw queries like `epic music` or play music from one of our many other [supported sources](https://docs.cakeybot.app/music/supported-sources).</value>
     </data>
 </root>

@@ -58,10 +58,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cooldown" xml:space="preserve">
-    <value>Această comandă este în modul pauză pentru: {0}</value>
-  </data>
-  <data name="module_disabled" xml:space="preserve">
+    <data name="module_disabled" xml:space="preserve">
     <value>Acest modul a fost dezactivat pe acest server de către administratorii serverului.</value>
   </data>
   <data name="command_disabled" xml:space="preserve">
@@ -70,19 +67,16 @@
   <data name="error_generic_1" xml:space="preserve">
     <value>S-a produs o eroare necunoscută!</value>
   </data>
-  <data name="error_generic_2" xml:space="preserve">
-    <value>A apărut o eroare necunoscută. Vă rugăm să raportați pe Discord: https://discord.gg/EUsVK5</value>
-  </data>
+    <data name="error_generic_2" xml:space="preserve">
+        <value>Unknown error occurred. Please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="error_generic_3" xml:space="preserve">
     <value>A apărut o eroare necunoscută. Serverul este online? Ai ales tipul de server corect?</value>
   </data>
   <data name="error_generic_4" xml:space="preserve">
     <value>Eroare:</value>
   </data>
-  <data name="error_generic_5" xml:space="preserve">
-    <value>Sub-command coming soon.</value>
-  </data>
-  <data name="error_ssl" xml:space="preserve">
+    <data name="error_ssl" xml:space="preserve">
     <value>Eroare SSL, va rog încercați mai târziu.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -90,15 +84,6 @@
   </data>
   <data name="error_limit_characters_10" xml:space="preserve">
     <value>Textul trebuie să fie mai puțin de 10 caractere.</value>
-  </data>
-  <data name="error_limit_characters_200" xml:space="preserve">
-    <value>Vă rugăm să introduceți o întrebare care are mai puțin de 200 de caractere.</value>
-  </data>
-  <data name="error_limit_characters_200_2" xml:space="preserve">
-    <value>Vă rugăm să introduceți o sugestie care are mai puțin de 200 de caractere.</value>
-  </data>
-  <data name="error_limit_characters_500" xml:space="preserve">
-    <value>Textul trebuie să fie mai puțin de 500 caractere.</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Nu aveți permisiunea ManageRoles!</value>
@@ -238,9 +223,9 @@
   <data name="error_failed_unban_not_banned_2" xml:space="preserve">
     <value>Id-ul utilizatorului dat nu este interzis.</value>
   </data>
-  <data name="error_failed_unmute_not_muted" xml:space="preserve">
-    <value>Utilizatorul nu este pe mut. Dacă ei sunt, asigurați-vă că setați rolul mut cu `!setting` sau numiți-l `Muted`.</value>
-  </data>
+    <data name="error_failed_unmute_not_muted" xml:space="preserve">
+        <value>User isn't muted. If they are, make sure to set the mute role on the web dashboard or name a role `Muted`.</value>
+    </data>
   <data name="error_failed_playlist_save" xml:space="preserve">
     <value>Salvarea melodiilor în lista de redare nu a fost reușită. Lista de redare există deja?</value>
   </data>
@@ -314,14 +299,14 @@
     <value>Vă rugăm să furnizați un șir de base64 valid.</value>
   </data>
     <data name="error_usage_poll" xml:space="preserve">
-    <value>Vă rugăm să introduceți o întrebare validă. Utilizare: `!poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
-  </data>
+        <value>Please enter a valid question. Usage: `/poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
+    </data>
     <data name="error_usage_rps" xml:space="preserve">
-    <value>Vă rugăm să introduceți o mutare validă: `!rps &lt; rock | paper | scissors &gt;`</value>
-  </data>
+        <value>Please enter a valid move: `/rps &lt; rock | paper | scissors &gt;`</value>
+    </data>
     <data name="error_usage_verify_set" xml:space="preserve">
-    <value>Nu a fost setat niciun rol de verificare. Setați una folosind: `{0}verify setup &lt;role&gt;`</value>
-  </data>
+        <value>No verification role has been set. Set one using: `/setup verifyrole &lt;role&gt;`</value>
+    </data>
     <data name="error_verify" xml:space="preserve">
     <value>Setarea rolului de verificare nu a reușit.</value>
   </data>
@@ -453,10 +438,7 @@
   <data name="afk_active" xml:space="preserve">
     <value>Sunteți AFK în prezent cu mesajul: `{0}`</value>
   </data>
-  <data name="afk_limit" xml:space="preserve">
-    <value>Mesajele pentru AFK trebuie să fie mai puțin de 100 de caractere.</value>
-  </data>
-  <data name="afk_failed" xml:space="preserve">
+    <data name="afk_failed" xml:space="preserve">
     <value>Setarea mesajului pentru AFK a eşuat.</value>
   </data>
   <data name="afk_set" xml:space="preserve">
@@ -583,10 +565,7 @@
   <data name="mod_purge_success" xml:space="preserve">
     <value>**{0} mesaje actualizate de către {1} în &lt;#{2}&gt;**</value>
   </data>
-    <data name="mod_purge_url" xml:space="preserve">
-    <value>Mesaje șterse:</value>
-  </data>
-  <data name="mod_dehoist_start" xml:space="preserve">
+    <data name="mod_dehoist_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; Îndepărtarea poreclelor, acest lucru poate dura o vreme.
 Note: Un mesaj va fi trimis la finalizare.</value>
   </data>
@@ -615,15 +594,10 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="time_error_negative" xml:space="preserve">
     <value>Timpul nu poate fi negativ sau mai mic de zero.</value>
   </data>
-  <data name="info_about_description" xml:space="preserve">
-    <value>** Despre:**```Un bot avansat, personalizabil construit pentru a concura direct cu Dyno și Rythm. Cakey Bot este construit pentru a combina capacitățile muzicale puternice cu o multititudine de caracteristici de utilitate. Cakey Bot combină caracteristicile care necesită, de obicei, roboții multipli într-un singur bot. Punând administrarea asociației mai simpliste și mai rapide.```
-</value>
-  </data>
-  <data name="info_about_vote" xml:space="preserve">
-    <value>:star: Ca la Cakey Bot? Ei bine, arată sprijinul tău și donează la:
-</value>
-  </data>
-  <data name="info_ping" xml:space="preserve">
+    <data name="info_about_description" xml:space="preserve">
+        <value>**About:**```An advanced, customizable bot built to directly compete with Dyno and other large Discord bots. Cakey Bot is built to combine powerful music capabilities with a multititude of utility and moderation features. Cakey Bot reduces the need to use and manage multiple Discord bots and consolidates all the features you need into a single bot. Making server management quicker and easier.```</value>
+    </data>
+    <data name="info_ping" xml:space="preserve">
     <value>Ritmul Inimii - Shard #{0}: {1}ms</value>
   </data>
   <data name="info_ping_avg" xml:space="preserve">
@@ -665,10 +639,7 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="info_string_8" xml:space="preserve">
     <value>Membri</value>
   </data>
-  <data name="info_string_9" xml:space="preserve">
-    <value>Region</value>
-  </data>
-  <data name="info_string_10" xml:space="preserve">
+    <data name="info_string_10" xml:space="preserve">
     <value>Roluri</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -893,9 +864,6 @@ Note: Un mesaj va fi trimis la finalizare.</value>
     <data name="emoji_string_animated" xml:space="preserve">
     <value>EsteAnimat?</value>
   </data>
-  <data name="emoji_string_url" xml:space="preserve">
-    <value>URL:</value>
-  </data>
     <data name="roleinfo" xml:space="preserve">
     <value>{0} Informații despre Rol</value>
   </data>
@@ -959,19 +927,13 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="misc_convert_rate" xml:space="preserve">
     <value>Rata de Schimb:</value>
   </data>
-  <data name="misc_convert_usage" xml:space="preserve">
-    <value>Utilizare: `!convertește &lt;currency&gt; &lt;currency2&gt; &lt;opt:amount&gt;`</value>
-  </data>
-  <data name="misc_fact" xml:space="preserve">
+    <data name="misc_fact" xml:space="preserve">
     <value>Informație Aleatorie:</value>
   </data>
   <data name="misc_fact_failed" xml:space="preserve">
     <value>Obţinerea unui fapt a eşuat.</value>
   </data>
-    <data name="misc_reminder_error_2" xml:space="preserve">
-    <value>Memento-urile trebuie să aibă mai puțin de 200 de caractere.</value>
-  </data>
-  <data name="misc_reminder_error_3" xml:space="preserve">
+    <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Memento-urile trebuie să fie la mai puțin de o lună de acum.</value>
   </data>
     <data name="misc_reminder_success" xml:space="preserve">
@@ -989,15 +951,15 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>Sunt deja în acel canal.</value>
   </data>
-  <data name="music_error_voice_channel_5" xml:space="preserve">
-    <value>Trebuie să fiu într-un canal vocal. Folosește `!join` ca să mă chemi.</value>
-  </data>
-  <data name="music_error_voice_channel_6" xml:space="preserve">
-    <value>Trebuie să fii pe același canal cu botul. Încercați să utilizați `!join` sau `!move`</value>
-  </data>
-  <data name="music_error_player" xml:space="preserve">
-    <value>Player nu există, vă rugăm să tastați `!join` din nou.</value>
-  </data>
+    <data name="music_error_voice_channel_5" xml:space="preserve">
+        <value>I must be in a voice channel. Use `/play` to summon me.</value>
+    </data>
+    <data name="music_error_voice_channel_6" xml:space="preserve">
+        <value>You must be in the same channel as the bot. Try using `/play` to summon it.</value>
+    </data>
+    <data name="music_error_player" xml:space="preserve">
+        <value>Player doesn't exist, please type `/play` again.</value>
+    </data>
   <data name="music_error_play" xml:space="preserve">
     <value>Eroare la încărcarea piesei: ```{0}```</value>
   </data>
@@ -1037,25 +999,10 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_shuffle" xml:space="preserve">
     <value>Amestecat cu succes lista.</value>
   </data>
-  <data name="music_loop" xml:space="preserve">
-    <value>Repetarea melodiei setat pe: `{0}`.</value>
-  </data>
-  <data name="music_looping" xml:space="preserve">
-    <value>repetare</value>
-  </data>
-  <data name="music_looping_disabled" xml:space="preserve">
-    <value>fără repetare</value>
-  </data>
-  <data name="music_bb" xml:space="preserve">
+    <data name="music_bb" xml:space="preserve">
     <value>Starea impulsului basului melodiei setată pe: `{0}`.</value>
   </data>
-  <data name="music_boosted" xml:space="preserve">
-    <value>amplificat</value>
-  </data>
-  <data name="music_boosted_disabled" xml:space="preserve">
-    <value>nu este amplificat</value>
-  </data>
-  <data name="music_remove" xml:space="preserve">
+    <data name="music_remove" xml:space="preserve">
     <value>Eliminat cu succes `{0}` - `{1}` de la listă.</value>
   </data>
   <data name="music_restart_1" xml:space="preserve">
@@ -1091,9 +1038,9 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_resume_1" xml:space="preserve">
     <value>A reluat cu succes melodia.</value>
   </data>
-  <data name="music_resume_2" xml:space="preserve">
-    <value>Cântecul nu este pe pauză. Puteți întrerupe melodia cu `!pause`</value>
-  </data>
+    <data name="music_resume_2" xml:space="preserve">
+        <value>The song is not paused. You can pause the song with `/pause`</value>
+    </data>
   <data name="music_lyrics_1" xml:space="preserve">
     <value>Trebuie să tastați numele melodiei pentru a căuta. (sau au o melodie în curs de redare)</value>
   </data>
@@ -1127,9 +1074,9 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_voteskip_2" xml:space="preserve">
     <value>Ai votat să sari peste, încă {0} vot{1} necesare.</value>
   </data>
-  <data name="music_voteskip_3" xml:space="preserve">
-    <value>Ați votat deja pentru a sări, acesta a fost eliminată. Îl puteți adăuga din nou tastând `!skip` din nou. Încă {0} vot{1} necesare.</value>
-  </data>
+    <data name="music_voteskip_3" xml:space="preserve">
+        <value>You already voted to skip, it has been removed. You can re-add it by typing `/skip` again. {0} more vote{1} required.</value>
+    </data>
   <data name="music_voteskip_4" xml:space="preserve">
     <value>Votul este la {0}/{1}.</value>
   </data>
@@ -1139,9 +1086,9 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_no_results" xml:space="preserve">
     <value>Niciun rezultat găsit.</value>
   </data>
-  <data name="music_invalid_track_1" xml:space="preserve">
-    <value>Track ID este în afara intervalului valid. Tastați `!queue` pentru a vedea track ID-uri valide.</value>
-  </data>
+    <data name="music_invalid_track_1" xml:space="preserve">
+        <value>Track ID is outside of valid range. Type `/queue` to see valid track IDs.</value>
+    </data>
   <data name="music_invalid_track_2" xml:space="preserve">
     <value>ID-ul cozii de urmărire trebuie să fie validă.</value>
   </data>
@@ -1179,13 +1126,7 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_playlist_success_delete" xml:space="preserve">
     <value>Eliminat cu succes playlist-ul `{0}`.</value>
   </data>
-    <data name="music_cancel_1" xml:space="preserve">
-    <value>Căutare a fost revocată cu succes.</value>
-  </data>
-  <data name="music_cancel_2" xml:space="preserve">
-    <value>Tastați numărul pentru a selecta o melodie sau "cancel"/"none" pentru a anula selecția.</value>
-  </data>
-  <data name="music_string_1" xml:space="preserve">
+    <data name="music_string_1" xml:space="preserve">
     <value>Poziția în Coadă:</value>
   </data>
   <data name="music_string_2" xml:space="preserve">
@@ -1197,18 +1138,15 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_string_4" xml:space="preserve">
     <value>Încă +{0} melodii.</value>
   </data>
-  <data name="music_string_5" xml:space="preserve">
-    <value>You must enter a time value.</value>
-  </data>
-  <data name="music_string_6" xml:space="preserve">
+    <data name="music_string_6" xml:space="preserve">
     <value>Invalid time.</value>
   </data>
   <data name="music_string_7" xml:space="preserve">
     <value>Timpul este în afara lungimii videoclipului, încercați din nou.</value>
   </data>
-  <data name="music_string_8" xml:space="preserve">
-    <value>Un cântec trebuie să fie redat în prezent pentru a utiliza această comandă, încercați `!play` în schimb.</value>
-  </data>
+    <data name="music_string_8" xml:space="preserve">
+        <value>A song must currently be playing to use this command, try `/play` instead.</value>
+    </data>
   <data name="music_string_9" xml:space="preserve">
     <value>Nu există nici-o listă chiar acum.</value>
   </data>
@@ -1304,10 +1242,7 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="music_grab_dm_failed" xml:space="preserve">
     <value>Esuare trimitere MD, te rugam sa verifici setarile.</value>
   </data>
-  <data name="music_equalizer_none" xml:space="preserve">
-    <value>Nu au fost setate benzi de egalizator.</value>
-  </data>
-  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <data name="music_equalizer_invalid_1" xml:space="preserve">
     <value>Benzile valide sunt de la 0 la 14</value>
   </data>
   <data name="music_equalizer_invalid_2" xml:space="preserve">
@@ -1331,11 +1266,7 @@ Note: Un mesaj va fi trimis la finalizare.</value>
   <data name="gif_error_2" xml:space="preserve">
     <value>Nu s-a putut găsi orice gif care erau SFW :frowning:</value>
   </data>
-  <data name="cmd_usage" xml:space="preserve">
-    <value>Prefixul pentru acest server este: `{0}`
-Puteți modifica prefixul pe: https://cakeybot.app sau cu `{0}setting prefix &lt;new prefix&gt;`</value>
-  </data>
-  <data name="cmd_error_param" xml:space="preserve">
+    <data name="cmd_error_param" xml:space="preserve">
     <value>Are un număr incorect de parametri.</value>
   </data>
     <data name="cmd_error_number" xml:space="preserve">
@@ -1352,9 +1283,9 @@ Puteți modifica prefixul pe: https://cakeybot.app sau cu `{0}setting prefix &lt
   <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>O eroare necunoscuta a avut loc.</value>
   </data>
-  <data name="cmd_error_unknown_2" xml:space="preserve">
-    <value>Eroare necunoscută, vă rugăm să raportați pe Discord: https://discord.gg/EUsVK5</value>
-  </data>
+    <data name="cmd_error_unknown_2" xml:space="preserve">
+        <value>Unknown error, please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="cmd_error_song_request" xml:space="preserve">
     <value>Nu poți rula comenzi în canalul de cerere al melodiei.</value>
   </data>
@@ -1614,20 +1545,11 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
   <data name="core_cmd_search_2" xml:space="preserve">
     <value>Iată câteva comenzi ca `{0}`.</value>
   </data>
-  <data name="core_cmd_info_alias" xml:space="preserve">
-    <value>Pseudonime:</value>
-  </data>
-  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <data name="core_cmd_info_parameters" xml:space="preserve">
     <value>Parametri:</value>
   </data>
-  <data name="core_cmd_info_usage" xml:space="preserve">
-    <value>Utilizare:</value>
-  </data>
-  <data name="core_cmd_info_module" xml:space="preserve">
+    <data name="core_cmd_info_module" xml:space="preserve">
     <value>Modul:</value>
-  </data>
-  <data name="core_cmd_missing" xml:space="preserve">
-    <value>Trebuie să furnizați o comandă pentru care doriți să consultați ajutor.</value>
   </data>
     <data name="core_setting_prefix_current" xml:space="preserve">
     <value>Prefixul curent:</value>
@@ -1683,10 +1605,7 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
   <data name="core_sr_error_have_not" xml:space="preserve">
     <value>Nu ai acest rol.</value>
   </data>
-  <data name="core_invalid_channel" xml:space="preserve">
-    <value>Trebuie să furnizați un nume de canal valid!</value>
-  </data>
-  <data name="core_debug_required_core" xml:space="preserve">
+    <data name="core_debug_required_core" xml:space="preserve">
     <value>**Permisiuni Necesare: (Core)**
 </value>
   </data>
@@ -1821,10 +1740,7 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
   <data name="info_open_image" xml:space="preserve">
       <value>Deschide imaginea</value>
   </data>
-  <data name="info_target_user" xml:space="preserve">
-      <value>Target User</value>
-  </data>
-  <data name="game_ttt_in_progress" xml:space="preserve">
+    <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Un joc este deja în desfășurare, completează-l înainte de a face un nou joc.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -1876,9 +1792,9 @@ Notă: Necesită acces \"Gestionare server\".</value>
   <data name="game_ttt_taken" xml:space="preserve">
       <value>Acest loc a fost deja luat.</value>
   </data>
-  <data name="game_ttt_expired" xml:space="preserve">
-      <value>Acest joc a expirat deja. Puteţi crea un joc nou cu `!tictactoe &lt;opt:user&gt;`.</value>
-  </data>
+    <data name="game_ttt_expired" xml:space="preserve">
+        <value>This game has already expired. You can create a new game with `/tictactoe &lt;opt:user&gt;`.</value>
+    </data>
   <data name="game_ttt_wait_turn" xml:space="preserve">
       <value>Trebuie să aștepți rândul pentru a face o mutare!</value>
   </data>
@@ -2050,14 +1966,8 @@ Notă: Necesită acces \"Gestionare server\".</value>
     <data name="ticket_closed" xml:space="preserve">
         <value>Bilet închis de {0}</value>
     </data>
-    <data name="archive_error" xml:space="preserve">
-        <value>You must be in a thread to use this command.</value>
-    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Nu am permisiunea de a gestiona discutia!</value>
-    </data>
-    <data name="archive_error_2" xml:space="preserve">
-        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Demonstrarea utilizatorului a eșuat.</value>
@@ -2086,8 +1996,8 @@ Notă: Necesită acces \"Gestionare server\".</value>
     <data name="automod_check_phishing_link" xml:space="preserve">
         <value>Link de înșelăciune</value>
     </data>
-    <data name="premium_limit_filters" xml:space="preserve">
-        <value>Trebuie să ai premium pentru a folosi filtre de muzică. Poți achiziționa premium aici: &lt;https://cakeybot.app/dashboard/public/premium&gt;</value>
+    <data name="premium_limit" xml:space="preserve">
+        <value>You must have premium to use this feature. You can purchase premium here: &lt;https://cakeybot.app/premium.php&gt;</value>
     </data>
     <data name="presets_applied" xml:space="preserve">
         <value>Presetare aplicată cu succes: `{0}`</value>
@@ -2136,5 +2046,56 @@ Notă: Necesită acces \"Gestionare server\".</value>
     </data>
     <data name="youtube_feed" xml:space="preserve">
         <value>YouTube Feed</value>
+    </data>
+    <data name="tags_manage_doesnt_exist" xml:space="preserve">
+        <value>Error: Tag doesn't exist.</value>
+    </data>
+    <data name="tags_manage_fail_others" xml:space="preserve">
+        <value>You don't have access to manage other user's tags.</value>
+    </data>
+    <data name="tags_manage_fail_self" xml:space="preserve">
+        <value>You don't have access to manage your own tags.</value>
+    </data>
+    <data name="tags_create_exists" xml:space="preserve">
+        <value>Failed to create tag, it already exists.</value>
+    </data>
+    <data name="music_duration" xml:space="preserve">
+        <value>Duration:</value>
+    </data>
+    <data name="music_loop_queue" xml:space="preserve">
+        <value>The queue is now looping.</value>
+    </data>
+    <data name="music_loop_track" xml:space="preserve">
+        <value>The current track is now looping.</value>
+    </data>
+    <data name="music_loop_track_error" xml:space="preserve">
+        <value>The current track is already looping.</value>
+    </data>
+    <data name="music_loop_queue_error" xml:space="preserve">
+        <value>The queue is already looping.</value>
+    </data>
+    <data name="music_loop_disabled" xml:space="preserve">
+        <value>Disabled track and queue looping.</value>
+    </data>
+    <data name="audit_role_icon" xml:space="preserve">
+        <value>Icon:</value>
+    </data>
+    <data name="audit_role_emoji" xml:space="preserve">
+        <value>Emoji-uri:</value>
+    </data>
+    <data name="audit_permissions_removed" xml:space="preserve">
+        <value>Permissions Removed:</value>
+    </data>
+    <data name="audit_permissions_added" xml:space="preserve">
+        <value>Permissions Added:</value>
+    </data>
+    <data name="music_error_track_length" xml:space="preserve">
+        <value>Song duration is longer than max song length set by the server admins.</value>
+    </data>
+    <data name="music_error_track_title" xml:space="preserve">
+        <value>Song title contains a blacklisted word set by the server admins.</value>
+    </data>
+    <data name="music_youtube_banned" xml:space="preserve">
+        <value>YouTube is no longer a supported source due to Discord policy. You can still use raw queries like `epic music` or play music from one of our many other [supported sources](https://docs.cakeybot.app/music/supported-sources).</value>
     </data>
 </root>

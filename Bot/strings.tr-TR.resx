@@ -58,10 +58,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cooldown" xml:space="preserve">
-    <value>Bu komut {0} süreyle beklemede</value>
-  </data>
-  <data name="module_disabled" xml:space="preserve">
+    <data name="module_disabled" xml:space="preserve">
     <value>Bu modül, sunucu yöneticileri tarafından bu sunucuda devre dışı bırakıldı.</value>
   </data>
   <data name="command_disabled" xml:space="preserve">
@@ -70,19 +67,16 @@
   <data name="error_generic_1" xml:space="preserve">
     <value>Bilinmeyen bir hata oluştu!</value>
   </data>
-  <data name="error_generic_2" xml:space="preserve">
-    <value>Bilinmeyen bir hata oluştu. Lütfen bunu destek sunucumuzda bildir: https://discord.gg/EUssVK5</value>
-  </data>
+    <data name="error_generic_2" xml:space="preserve">
+        <value>Unknown error occurred. Please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="error_generic_3" xml:space="preserve">
     <value>Bilinmeyen bir hata oluştu. Sunucu çevrimiçi mi? Doğru bir sunucu türü seçtin mi?</value>
   </data>
   <data name="error_generic_4" xml:space="preserve">
     <value>Hata:</value>
   </data>
-  <data name="error_generic_5" xml:space="preserve">
-    <value>Sub-command coming soon.</value>
-  </data>
-  <data name="error_ssl" xml:space="preserve">
+    <data name="error_ssl" xml:space="preserve">
     <value>SSL Hatası, daha sonra tekrar dene.</value>
   </data>
   <data name="error_limit_rate" xml:space="preserve">
@@ -90,15 +84,6 @@
   </data>
   <data name="error_limit_characters_10" xml:space="preserve">
     <value>Metin 10 karakterden daha kısa olmalıdır.</value>
-  </data>
-  <data name="error_limit_characters_200" xml:space="preserve">
-    <value>Lütfen 200 karakterden daha kısa olan bir soru gir.</value>
-  </data>
-  <data name="error_limit_characters_200_2" xml:space="preserve">
-    <value>Lütfen 200 karakterden daha kısa olan bir öneri gir.</value>
-  </data>
-  <data name="error_limit_characters_500" xml:space="preserve">
-    <value>Metin 500 karakterden kısa olmalıdır.</value>
   </data>
     <data name="error_missing_perm_manageroles" xml:space="preserve">
     <value>Rolleri Yönetme yetkisine sahip değilsin!</value>
@@ -238,9 +223,9 @@
   <data name="error_failed_unban_not_banned_2" xml:space="preserve">
     <value>Verilen kullanıcı IDsi sunucudan yasaklı değil.</value>
   </data>
-  <data name="error_failed_unmute_not_muted" xml:space="preserve">
-    <value>Kullanıcı susturulmamış. Eğer susturulmuşlarsa, `!setting` komutunu kullanarak susturulma rolünü ayarla veya role `Muted` ismini ver.</value>
-  </data>
+    <data name="error_failed_unmute_not_muted" xml:space="preserve">
+        <value>User isn't muted. If they are, make sure to set the mute role on the web dashboard or name a role `Muted`.</value>
+    </data>
   <data name="error_failed_playlist_save" xml:space="preserve">
     <value>Şarkıları çalma listesine kaydederken hata oluştu. Çalma listesi zaten var mı?</value>
   </data>
@@ -314,14 +299,14 @@
     <value>Lütfen geçerli bir Base64 metni gir.</value>
   </data>
     <data name="error_usage_poll" xml:space="preserve">
-    <value>Lütfen geçerli bir soru gir. Kullanım: `!poll &lt;Soru&gt; | &lt;1.Cevap&gt; | &lt;2.Cevap&gt; | &lt;3.Cevap&gt; | vs.&gt;`</value>
-  </data>
+        <value>Please enter a valid question. Usage: `/poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
+    </data>
     <data name="error_usage_rps" xml:space="preserve">
-    <value>Lütfen geçerli bir hamle gir: `!rps &lt; rock | paper | scissors &gt;`</value>
-  </data>
+        <value>Please enter a valid move: `/rps &lt; rock | paper | scissors &gt;`</value>
+    </data>
     <data name="error_usage_verify_set" xml:space="preserve">
-    <value>Bir doğrulama rolü ayarlanmamış. Ayarlamak için: `{0}verify setup &lt;rol&gt;` komutunu kullan</value>
-  </data>
+        <value>No verification role has been set. Set one using: `/setup verifyrole &lt;role&gt;`</value>
+    </data>
     <data name="error_verify" xml:space="preserve">
     <value>Doğrulama rolü ayarlanırken hata oluştu.</value>
   </data>
@@ -453,10 +438,7 @@
   <data name="afk_active" xml:space="preserve">
     <value>`{0}` mesajı ile birlikte şu anda AFK'sın</value>
   </data>
-  <data name="afk_limit" xml:space="preserve">
-    <value>AFK mesajları 100 karakterden daha kısa olmalıdır.</value>
-  </data>
-  <data name="afk_failed" xml:space="preserve">
+    <data name="afk_failed" xml:space="preserve">
     <value>AFK mesajı ayarlanırken bir hata oluştu.</value>
   </data>
   <data name="afk_set" xml:space="preserve">
@@ -583,10 +565,7 @@
   <data name="mod_purge_success" xml:space="preserve">
     <value>**{1} tarafından, &lt;#{2}&gt; kanalında {0} mesaj silindi**</value>
   </data>
-    <data name="mod_purge_url" xml:space="preserve">
-    <value>Silinen Mesaj Geçmişi:</value>
-  </data>
-  <data name="mod_dehoist_start" xml:space="preserve">
+    <data name="mod_dehoist_start" xml:space="preserve">
     <value>&lt;:CB_Check:437024001596981248&gt; İsimlerini başta göstermek için takma adlarına işaret koyanların takma adları siliniyor. Bu biraz zaman alabilir.
 Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   </data>
@@ -615,15 +594,10 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="time_error_negative" xml:space="preserve">
     <value>Zaman negatif veya sıfırdan daha az olamaz.</value>
   </data>
-  <data name="info_about_description" xml:space="preserve">
-    <value>**Hakkında:**```Dyno ve Rythm ile rekabet edebilmek için kodlanmış, gelişmiş ve kişiselleştirilebilen bir bot. Cakey Bot güçlü müzik yeteneklerini çok sayıda işe yarar özelliklerle birleştirmek için tasarlanmıştır. Cakey Bot birden fazla botta olan özellikleri tek bir botta toplayıp birleştirerek sunucu yönetimini basit ve hızlı hale getirir.```
-</value>
-  </data>
-  <data name="info_about_vote" xml:space="preserve">
-    <value>:star: Cakey Bot u seviyor musun? O zaman desteğini göster ve bize oy ver:
-</value>
-  </data>
-  <data name="info_ping" xml:space="preserve">
+    <data name="info_about_description" xml:space="preserve">
+        <value>**About:**```An advanced, customizable bot built to directly compete with Dyno and other large Discord bots. Cakey Bot is built to combine powerful music capabilities with a multititude of utility and moderation features. Cakey Bot reduces the need to use and manage multiple Discord bots and consolidates all the features you need into a single bot. Making server management quicker and easier.```</value>
+    </data>
+    <data name="info_ping" xml:space="preserve">
     <value>Kalp Atışı - #{0}. Shard: {1}ms</value>
   </data>
   <data name="info_ping_avg" xml:space="preserve">
@@ -665,10 +639,7 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="info_string_8" xml:space="preserve">
     <value>Üyeler</value>
   </data>
-  <data name="info_string_9" xml:space="preserve">
-    <value>Region</value>
-  </data>
-  <data name="info_string_10" xml:space="preserve">
+    <data name="info_string_10" xml:space="preserve">
     <value>Roller</value>
   </data>
   <data name="info_string_11" xml:space="preserve">
@@ -893,9 +864,6 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
     <data name="emoji_string_animated" xml:space="preserve">
     <value>Hareketli mi?</value>
   </data>
-  <data name="emoji_string_url" xml:space="preserve">
-    <value>URL:</value>
-  </data>
     <data name="roleinfo" xml:space="preserve">
     <value>{0} Rolü Hakkında Bilgi</value>
   </data>
@@ -959,19 +927,13 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="misc_convert_rate" xml:space="preserve">
     <value>Döviz Kuru:</value>
   </data>
-  <data name="misc_convert_usage" xml:space="preserve">
-    <value>Kullanım: `!convert &lt;para birimi&gt; &lt;para birimi&gt; &lt;opt:miktar&gt;`</value>
-  </data>
-  <data name="misc_fact" xml:space="preserve">
+    <data name="misc_fact" xml:space="preserve">
     <value>İlginç Gerçek:</value>
   </data>
   <data name="misc_fact_failed" xml:space="preserve">
     <value>Bir bilgi bulunamadı.</value>
   </data>
-    <data name="misc_reminder_error_2" xml:space="preserve">
-    <value>Hatırlatmalar 200 karakterden daha kısa olmalıdır.</value>
-  </data>
-  <data name="misc_reminder_error_3" xml:space="preserve">
+    <data name="misc_reminder_error_3" xml:space="preserve">
     <value>Hatırlatmalar 1 aydan uzun sürmemelidir.</value>
   </data>
     <data name="misc_reminder_success" xml:space="preserve">
@@ -989,15 +951,15 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>Zaten o ses kanalındayım.</value>
   </data>
-  <data name="music_error_voice_channel_5" xml:space="preserve">
-    <value>Bir ses kanalında olmalıyım. Beni çağırmak için `!join` yaz.</value>
-  </data>
-  <data name="music_error_voice_channel_6" xml:space="preserve">
-    <value>Bot ile aynı ses kanalında bulunmalısın. `!join` ya da `!move` komutlarını dene</value>
-  </data>
-  <data name="music_error_player" xml:space="preserve">
-    <value>Müzikçalar mevcut değil, lütfen tekrar `!join` yaz.</value>
-  </data>
+    <data name="music_error_voice_channel_5" xml:space="preserve">
+        <value>I must be in a voice channel. Use `/play` to summon me.</value>
+    </data>
+    <data name="music_error_voice_channel_6" xml:space="preserve">
+        <value>You must be in the same channel as the bot. Try using `/play` to summon it.</value>
+    </data>
+    <data name="music_error_player" xml:space="preserve">
+        <value>Player doesn't exist, please type `/play` again.</value>
+    </data>
   <data name="music_error_play" xml:space="preserve">
     <value>Parça yüklenirken hata oluştu: ```{0}```</value>
   </data>
@@ -1036,25 +998,10 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_shuffle" xml:space="preserve">
     <value>Kuyruk başarıyla karıştırıldı.</value>
   </data>
-  <data name="music_loop" xml:space="preserve">
-    <value>Şarkının döngü durumu ayarlandı: `{0}`.</value>
-  </data>
-  <data name="music_looping" xml:space="preserve">
-    <value>döngüde</value>
-  </data>
-  <data name="music_looping_disabled" xml:space="preserve">
-    <value>döngüde değil</value>
-  </data>
-  <data name="music_bb" xml:space="preserve">
+    <data name="music_bb" xml:space="preserve">
     <value>Şarkının bas durumu ayarlandı: `{0}`.</value>
   </data>
-  <data name="music_boosted" xml:space="preserve">
-    <value>yüksek</value>
-  </data>
-  <data name="music_boosted_disabled" xml:space="preserve">
-    <value>normal</value>
-  </data>
-  <data name="music_remove" xml:space="preserve">
+    <data name="music_remove" xml:space="preserve">
     <value>`{0}` - `{1}` kuyruktan başarıyla çıkarıldı.</value>
   </data>
   <data name="music_restart_1" xml:space="preserve">
@@ -1090,9 +1037,9 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_resume_1" xml:space="preserve">
     <value>Şarkı başarıyla devam ettirildi.</value>
   </data>
-  <data name="music_resume_2" xml:space="preserve">
-    <value>Şarkı durdurulmamış. `!pause` yazarak şarkıyı durdurabilirsin</value>
-  </data>
+    <data name="music_resume_2" xml:space="preserve">
+        <value>The song is not paused. You can pause the song with `/pause`</value>
+    </data>
   <data name="music_lyrics_1" xml:space="preserve">
     <value>Aramak için bir şarkı ismini girmen gerekiyor. (veya şu anda çalan bir şarkı olmalı)</value>
   </data>
@@ -1126,9 +1073,9 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_voteskip_2" xml:space="preserve">
     <value>Geçmek için oy verdin, {0} oy{1} daha gerekiyor.</value>
   </data>
-  <data name="music_voteskip_3" xml:space="preserve">
-    <value>Zaten geçmek için oy verdin, verdiğin oy kaldırıldı. Tekrar `!skip` yazarak oyunu yeniden ekleyebilirsin. {0} oy daha gereklidir.</value>
-  </data>
+    <data name="music_voteskip_3" xml:space="preserve">
+        <value>You already voted to skip, it has been removed. You can re-add it by typing `/skip` again. {0} more vote{1} required.</value>
+    </data>
   <data name="music_voteskip_4" xml:space="preserve">
     <value>Oylama Durumu: {0}/{1}.</value>
   </data>
@@ -1138,9 +1085,9 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_no_results" xml:space="preserve">
     <value>Hiçbir sonuç bulunamadı.</value>
   </data>
-  <data name="music_invalid_track_1" xml:space="preserve">
-    <value>Şarkı IDsi geçerli aralığın dışında. Geçerli şarkı IDlerini görmek için `!queue` yaz.</value>
-  </data>
+    <data name="music_invalid_track_1" xml:space="preserve">
+        <value>Track ID is outside of valid range. Type `/queue` to see valid track IDs.</value>
+    </data>
   <data name="music_invalid_track_2" xml:space="preserve">
     <value>Şarkı kuyruk IDsi geçerli olmalıdır.</value>
   </data>
@@ -1178,13 +1125,7 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_playlist_success_delete" xml:space="preserve">
     <value>`{0}` adlı çalma listen başarıyla silindi.</value>
   </data>
-    <data name="music_cancel_1" xml:space="preserve">
-    <value>Arama başarıyla iptal edildi.</value>
-  </data>
-  <data name="music_cancel_2" xml:space="preserve">
-    <value>Bir şarkıyı seçmek için numara gir ya da seçimi iptal etmek için 'cancel'/'none' yaz.</value>
-  </data>
-  <data name="music_string_1" xml:space="preserve">
+    <data name="music_string_1" xml:space="preserve">
     <value>Kuyruktaki Yeri:</value>
   </data>
   <data name="music_string_2" xml:space="preserve">
@@ -1196,18 +1137,15 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_string_4" xml:space="preserve">
     <value>+{0} şarkı daha.</value>
   </data>
-  <data name="music_string_5" xml:space="preserve">
-    <value>You must enter a time value.</value>
-  </data>
-  <data name="music_string_6" xml:space="preserve">
+    <data name="music_string_6" xml:space="preserve">
     <value>Invalid time.</value>
   </data>
   <data name="music_string_7" xml:space="preserve">
     <value>Girilen zaman videonun uzunluğunun ötesinde, tekrar dene.</value>
   </data>
-  <data name="music_string_8" xml:space="preserve">
-    <value>Bu komutu kullanmabilmek için bir şarkının çalıyor olması gerekli, yerine `!play` komutunu kullan.</value>
-  </data>
+    <data name="music_string_8" xml:space="preserve">
+        <value>A song must currently be playing to use this command, try `/play` instead.</value>
+    </data>
   <data name="music_string_9" xml:space="preserve">
     <value>Şu anda çalan bir parça yok.</value>
   </data>
@@ -1303,10 +1241,7 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="music_grab_dm_failed" xml:space="preserve">
     <value>DM'e gönderme başarısız, lütfen ayarlarını kontrol et.</value>
   </data>
-  <data name="music_equalizer_none" xml:space="preserve">
-    <value>Bir ekolayzır bandı ayarlanmadı.</value>
-  </data>
-  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <data name="music_equalizer_invalid_1" xml:space="preserve">
     <value>Geçerli bantlar 0 ile 14 arasıdır.</value>
   </data>
   <data name="music_equalizer_invalid_2" xml:space="preserve">
@@ -1330,11 +1265,7 @@ Not: İşlem tamamlandığında bir mesaj göndereceğiz.</value>
   <data name="gif_error_2" xml:space="preserve">
     <value>Hiç SFW olan bir GIF bulunamadı :frowning:</value>
   </data>
-  <data name="cmd_usage" xml:space="preserve">
-    <value>Bu sunucunun ön-eki `{0}` olarak ayarlı.
-Bunu https://cakeybot.app adresinden, veya `{0}setting prefix &lt;new prefix&gt;` komutunu kullanarak değiştirebilirsin</value>
-  </data>
-  <data name="cmd_error_param" xml:space="preserve">
+    <data name="cmd_error_param" xml:space="preserve">
     <value>Girilen metinde doğru sayıda değer yok, az veya çok girdin.</value>
   </data>
     <data name="cmd_error_number" xml:space="preserve">
@@ -1351,9 +1282,9 @@ Bunu https://cakeybot.app adresinden, veya `{0}setting prefix &lt;new prefix&gt;
   <data name="cmd_error_unknown_1" xml:space="preserve">
     <value>Bilinmeyen bir hata oluştu.</value>
   </data>
-  <data name="cmd_error_unknown_2" xml:space="preserve">
-    <value>Bilinmeyen hata, lütfen bunu destek sunucumuzda bildir: https://discord.gg/EUssVK5</value>
-  </data>
+    <data name="cmd_error_unknown_2" xml:space="preserve">
+        <value>Unknown error, please report in our support Discord: https://cakeybot.app/discord</value>
+    </data>
   <data name="cmd_error_song_request" xml:space="preserve">
     <value>Şarkı istek kanalında komut kullanamazsınız.</value>
   </data>
@@ -1613,20 +1544,11 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
   <data name="core_cmd_search_2" xml:space="preserve">
     <value>İşte, `{0}` gibi bazı komutlar.</value>
   </data>
-  <data name="core_cmd_info_alias" xml:space="preserve">
-    <value>Diğer kullanımlar:</value>
-  </data>
-  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <data name="core_cmd_info_parameters" xml:space="preserve">
     <value>Argümanlar:</value>
   </data>
-  <data name="core_cmd_info_usage" xml:space="preserve">
-    <value>Kullanım:</value>
-  </data>
-  <data name="core_cmd_info_module" xml:space="preserve">
+    <data name="core_cmd_info_module" xml:space="preserve">
     <value>Kategori:</value>
-  </data>
-  <data name="core_cmd_missing" xml:space="preserve">
-    <value>Hakkında yardım almak istediğin komutun ismini girmen gerekiyor.</value>
   </data>
     <data name="core_setting_prefix_current" xml:space="preserve">
     <value>Mevcut Ön-ek:</value>
@@ -1682,10 +1604,7 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
   <data name="core_sr_error_have_not" xml:space="preserve">
     <value>Bu role sahip değilsin.</value>
   </data>
-  <data name="core_invalid_channel" xml:space="preserve">
-    <value>Geçerli bir kanal ismi belitrmen gerekiyor!</value>
-  </data>
-  <data name="core_debug_required_core" xml:space="preserve">
+    <data name="core_debug_required_core" xml:space="preserve">
     <value>**Gerekli Yetkiler: (Ana Komutlar)**
 </value>
   </data>
@@ -1820,10 +1739,7 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
   <data name="info_open_image" xml:space="preserve">
       <value>Resmi Aç</value>
   </data>
-  <data name="info_target_user" xml:space="preserve">
-      <value>Target User</value>
-  </data>
-  <data name="game_ttt_in_progress" xml:space="preserve">
+    <data name="game_ttt_in_progress" xml:space="preserve">
       <value>Zaten bir oyun devam ediyor, yeni bir oyun açmadan önce eskisini tamamlayın.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
@@ -1875,9 +1791,9 @@ Not: \"Sunucuyu Yönet\" erişimi gerektirir.</value>
   <data name="game_ttt_taken" xml:space="preserve">
       <value>Bu nokta zaten alınmış.</value>
   </data>
-  <data name="game_ttt_expired" xml:space="preserve">
-      <value>Bu oyunun süresi çoktan doldu. `!tictactoe &lt;opt:user&gt;` ile yeni bir oyun oluşturabilirsiniz.</value>
-  </data>
+    <data name="game_ttt_expired" xml:space="preserve">
+        <value>This game has already expired. You can create a new game with `/tictactoe &lt;opt:user&gt;`.</value>
+    </data>
   <data name="game_ttt_wait_turn" xml:space="preserve">
       <value>Harekete geçmek için sıranı beklemelisin!</value>
   </data>
@@ -2049,14 +1965,8 @@ Not: \"Sunucuyu Yönet\" erişimi gerektirir.</value>
     <data name="ticket_closed" xml:space="preserve">
         <value>Talep {0} tarafından kapatıldı</value>
     </data>
-    <data name="archive_error" xml:space="preserve">
-        <value>You must be in a thread to use this command.</value>
-    </data>
     <data name="error_missing_perm_self_managethreads" xml:space="preserve">
         <value>Konuyu Yönet yetkim yok!</value>
-    </data>
-    <data name="archive_error_2" xml:space="preserve">
-        <value>Thread is already archived.</value>
     </data>
     <data name="error_failed_unmute" xml:space="preserve">
         <value>Susturmayı kaldırma başarısız.</value>
@@ -2085,8 +1995,8 @@ Not: \"Sunucuyu Yönet\" erişimi gerektirir.</value>
     <data name="automod_check_phishing_link" xml:space="preserve">
         <value>Kimlik Avı Bağlantısı</value>
     </data>
-    <data name="premium_limit_filters" xml:space="preserve">
-        <value>Müzik filtrelerini kullanabilmen için premium olmalısın. Burdan premium alabilirsin: &lt;https://cakeybot.app/dashboard/public/premium&gt;</value>
+    <data name="premium_limit" xml:space="preserve">
+        <value>You must have premium to use this feature. You can purchase premium here: &lt;https://cakeybot.app/premium.php&gt;</value>
     </data>
     <data name="presets_applied" xml:space="preserve">
         <value>Ayar başarıyla uygulandı: `{0}`</value>
@@ -2135,5 +2045,56 @@ Not: \"Sunucuyu Yönet\" erişimi gerektirir.</value>
     </data>
     <data name="youtube_feed" xml:space="preserve">
         <value>YouTube Feed</value>
+    </data>
+    <data name="tags_manage_doesnt_exist" xml:space="preserve">
+        <value>Error: Tag doesn't exist.</value>
+    </data>
+    <data name="tags_manage_fail_others" xml:space="preserve">
+        <value>You don't have access to manage other user's tags.</value>
+    </data>
+    <data name="tags_manage_fail_self" xml:space="preserve">
+        <value>You don't have access to manage your own tags.</value>
+    </data>
+    <data name="tags_create_exists" xml:space="preserve">
+        <value>Failed to create tag, it already exists.</value>
+    </data>
+    <data name="music_duration" xml:space="preserve">
+        <value>Duration:</value>
+    </data>
+    <data name="music_loop_queue" xml:space="preserve">
+        <value>The queue is now looping.</value>
+    </data>
+    <data name="music_loop_track" xml:space="preserve">
+        <value>The current track is now looping.</value>
+    </data>
+    <data name="music_loop_track_error" xml:space="preserve">
+        <value>The current track is already looping.</value>
+    </data>
+    <data name="music_loop_queue_error" xml:space="preserve">
+        <value>The queue is already looping.</value>
+    </data>
+    <data name="music_loop_disabled" xml:space="preserve">
+        <value>Disabled track and queue looping.</value>
+    </data>
+    <data name="audit_role_icon" xml:space="preserve">
+        <value>Icon:</value>
+    </data>
+    <data name="audit_role_emoji" xml:space="preserve">
+        <value>Emoji:</value>
+    </data>
+    <data name="audit_permissions_removed" xml:space="preserve">
+        <value>Permissions Removed:</value>
+    </data>
+    <data name="audit_permissions_added" xml:space="preserve">
+        <value>Permissions Added:</value>
+    </data>
+    <data name="music_error_track_length" xml:space="preserve">
+        <value>Song duration is longer than max song length set by the server admins.</value>
+    </data>
+    <data name="music_error_track_title" xml:space="preserve">
+        <value>Song title contains a blacklisted word set by the server admins.</value>
+    </data>
+    <data name="music_youtube_banned" xml:space="preserve">
+        <value>YouTube is no longer a supported source due to Discord policy. You can still use raw queries like `epic music` or play music from one of our many other [supported sources](https://docs.cakeybot.app/music/supported-sources).</value>
     </data>
 </root>
