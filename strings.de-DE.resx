@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -126,7 +126,7 @@
   <data name="error_generic_2" xml:space="preserve">
     <value>Ein unbekannter Fehler ist aufgetreten. Bitte melde dich in unserem Support-Server: &lt;https://cakey.bot/discord&gt;</value>
   </data>
-	<data name="error_limit_characters_10" xml:space="preserve">
+  <data name="error_limit_characters_10" xml:space="preserve">
     <value>Der Text muss weniger als 10 Zeichen enthalten.</value>
   </data>
   <data name="error_missing_perm_manageroles" xml:space="preserve">
@@ -1243,24 +1243,24 @@ Wenn du nach einer Liste der Bot-Befehle suchst und wie sie funktionieren, klick
   <data name="core_string_1" xml:space="preserve">
     <value>Befehlsinfo</value>
   </data>
-	<data name="automod_string_caps" xml:space="preserve">
+  <data name="automod_string_caps" xml:space="preserve">
 		<value>&gt;{0}% Großbuchstaben.</value>
-	</data>
+  </data>
   <data name="automod_string_url" xml:space="preserve">
 		<value>eine URL/ein Link.</value>
-	</data>
-	<data name="automod_string_mentions" xml:space="preserve">
+  </data>
+  <data name="automod_string_mentions" xml:space="preserve">
 		<value>&gt;{0} Erwähnungen.</value>
-	</data>
-	<data name="automod_string_emote" xml:space="preserve">
+  </data>
+  <data name="automod_string_emote" xml:space="preserve">
 		<value>&gt;{0} Emotes.</value>
-	</data>
+  </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
 		<value>&gt;{0}% doppelte Zeichen.</value>
-	</data>
-	<data name="automod_string_duplicate_word" xml:space="preserve">
+  </data>
+  <data name="automod_string_duplicate_word" xml:space="preserve">
 		<value>&gt;{0} doppelte Wörter.</value>
-	</data>
+  </data>
   <data name="automod_check_mass_caps" xml:space="preserve">
     <value>Massenhafte Großschreibung</value>
   </data>
@@ -1851,9 +1851,9 @@ Hinweis: Erfordert \"Server verwalten\" Zugriff.</value>
   <data name="nickname_modified_by" xml:space="preserve">
     <value>Geändert von:</value>
   </data>
-	<data name="automod_string_file_extensions" xml:space="preserve">
+  <data name="automod_string_file_extensions" xml:space="preserve">
 		<value>eine Datei mit der `{0}` Erweiterung.</value>
-	</data>
+  </data>
   <data name="automod_check_file_extensions" xml:space="preserve">
     <value>Schwarze Liste der Dateierweiterungen</value>
   </data>
@@ -2276,37 +2276,37 @@ Note: A message will be sent upon completion.</value>
   </data>
   <data name="games_coin_side" xml:space="preserve">
     <value>Seite Wow! Die Wahrscheinlichkeit davon liegt bei nur 0,02%!</value>
-	</data>
-	<data name="economy_bet_success_side" xml:space="preserve">
+  </data>
+  <data name="economy_bet_success_side" xml:space="preserve">
 		<value>Die Münze ist auf der Seite gelandet! Das ist nur eine Chance von 0,02%. Du hast das Doppelte Deines Einsatzes gewonnen!</value>
-	</data>
-	<data name="economy_owned_items" xml:space="preserve">
+  </data>
+  <data name="economy_owned_items" xml:space="preserve">
 		<value>Eigene Artikel werden in der Dropdown-Liste nicht angezeigt.</value>
-	</data>
-	<data name="music_embed_not_setup" xml:space="preserve">
+  </data>
+  <data name="music_embed_not_setup" xml:space="preserve">
 		<value>Es ist kein Kanal für Songanfragen konfiguriert.</value>
-	</data>
-	<data name="music_embed_unset" xml:space="preserve">
+  </data>
+  <data name="music_embed_unset" xml:space="preserve">
 		<value>Kanal für Songanfragen wurde entfernt.</value>
-	</data>
-	<data name="economy_coinflip_side" xml:space="preserve">
+  </data>
+  <data name="economy_coinflip_side" xml:space="preserve">
 		<value>Du kannst nicht "Seite" raten, bitte wähle was anderes.</value>
-	</data>
-	<data name="generic_reset_none" xml:space="preserve">
+  </data>
+  <data name="generic_reset_none" xml:space="preserve">
 		<value>Keine gültigen Daten gefunden.</value>
-	</data>
-	<data name="achievement_unlocked" xml:space="preserve">
+  </data>
+  <data name="achievement_unlocked" xml:space="preserve">
 		<value>Erfolg freigeschaltet!</value>
-	</data>
-	<data name="achievement_message" xml:space="preserve">
+  </data>
+  <data name="achievement_message" xml:space="preserve">
 		<value>Herzlichen Glückwunsch {0}! Du hast den folgenden Erfolg freigeschaltet: **{1}**! 🥳</value>
-	</data>
-	<data name="achievement_none" xml:space="preserve">
+  </data>
+  <data name="achievement_none" xml:space="preserve">
 		<value>Kein Erfolg gefunden.</value>
-	</data>
-	<data name="automod_string_generic" xml:space="preserve">
+  </data>
+  <data name="automod_string_generic" xml:space="preserve">
 		<value>Ihre Nachricht wurde gelöscht, weil sie {0} enthält</value>
-	</data>
+  </data>
   <data name="core_commands_user_install" xml:space="preserve">
 	  <value>Benutzer-Installationen</value>
   </data>
