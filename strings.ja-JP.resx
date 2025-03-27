@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -126,7 +126,7 @@
   <data name="error_generic_2" xml:space="preserve">
     <value>不明なエラーが発生しました。サポート Discord: &lt;https://cakey.bot/discord&gt;までご報告ください。</value>
   </data>
-	<data name="error_limit_characters_10" xml:space="preserve">
+  <data name="error_limit_characters_10" xml:space="preserve">
     <value>テキストは10文字未満でなければなりません。</value>
   </data>
   <data name="error_missing_perm_manageroles" xml:space="preserve">
@@ -1243,24 +1243,24 @@
   <data name="core_string_1" xml:space="preserve">
     <value>コマンド情報</value>
   </data>
-	<data name="automod_string_caps" xml:space="preserve">
+  <data name="automod_string_caps" xml:space="preserve">
 		<value>&gt;{0}% of capital letters.</value>
-	</data>
+  </data>
   <data name="automod_string_url" xml:space="preserve">
 		<value>a URL/Link.</value>
-	</data>
-	<data name="automod_string_mentions" xml:space="preserve">
+  </data>
+  <data name="automod_string_mentions" xml:space="preserve">
 		<value>&gt;{0} mentions.</value>
-	</data>
-	<data name="automod_string_emote" xml:space="preserve">
+  </data>
+  <data name="automod_string_emote" xml:space="preserve">
 		<value>&gt;{0} emotes.</value>
-	</data>
+  </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
 		<value>&gt;{0}% duplicated characters.</value>
-	</data>
-	<data name="automod_string_duplicate_word" xml:space="preserve">
+  </data>
+  <data name="automod_string_duplicate_word" xml:space="preserve">
 		<value>&gt;{0} duplicated words.</value>
-	</data>
+  </data>
   <data name="automod_check_mass_caps" xml:space="preserve">
     <value>マスキャピタル</value>
   </data>
@@ -1851,9 +1851,9 @@
   <data name="nickname_modified_by" xml:space="preserve">
     <value>修正者</value>
   </data>
-	<data name="automod_string_file_extensions" xml:space="preserve">
+  <data name="automod_string_file_extensions" xml:space="preserve">
 		<value>a file with the `{0}` extension.</value>
-	</data>
+  </data>
   <data name="automod_check_file_extensions" xml:space="preserve">
     <value>ブラックリストに載ったファイル拡張子</value>
   </data>
@@ -2277,37 +2277,37 @@ Note: A message will be sent upon completion.</value>
   <data name="games_coin_side" xml:space="preserve">
     <value>Side
 Wow! That's only a 0.02% chance of happening!</value>
-	</data>
-	<data name="economy_bet_success_side" xml:space="preserve">
+  </data>
+  <data name="economy_bet_success_side" xml:space="preserve">
 		<value>The coin landed on it's side! That's only a 0.02% chance. You've been awarded 2x your bet!</value>
-	</data>
-	<data name="economy_owned_items" xml:space="preserve">
+  </data>
+  <data name="economy_owned_items" xml:space="preserve">
 		<value>Owned items are not displayed in the dropdown.</value>
-	</data>
-	<data name="music_embed_not_setup" xml:space="preserve">
+  </data>
+  <data name="music_embed_not_setup" xml:space="preserve">
 		<value>There is no song request channel configured.</value>
-	</data>
-	<data name="music_embed_unset" xml:space="preserve">
+  </data>
+  <data name="music_embed_unset" xml:space="preserve">
 		<value>Song request channel has been unset.</value>
-	</data>
-	<data name="economy_coinflip_side" xml:space="preserve">
+  </data>
+  <data name="economy_coinflip_side" xml:space="preserve">
 		<value>You can not guess side, please choose another.</value>
-	</data>
-	<data name="generic_reset_none" xml:space="preserve">
+  </data>
+  <data name="generic_reset_none" xml:space="preserve">
 		<value>No valid data found.</value>
-	</data>
-	<data name="achievement_unlocked" xml:space="preserve">
+  </data>
+  <data name="achievement_unlocked" xml:space="preserve">
 		<value>Achievement Unlocked!</value>
-	</data>
-	<data name="achievement_message" xml:space="preserve">
+  </data>
+  <data name="achievement_message" xml:space="preserve">
 		<value>Congratulations {0}! You have unlocked the achievement: **{1}**! 🥳</value>
-	</data>
-	<data name="achievement_none" xml:space="preserve">
+  </data>
+  <data name="achievement_none" xml:space="preserve">
 		<value>No achievement found.</value>
-	</data>
-	<data name="automod_string_generic" xml:space="preserve">
+  </data>
+  <data name="automod_string_generic" xml:space="preserve">
 		<value>Your message was deleted for containing {0}</value>
-	</data>
+  </data>
   <data name="core_commands_user_install" xml:space="preserve">
 	  <value>User Installs</value>
   </data>
