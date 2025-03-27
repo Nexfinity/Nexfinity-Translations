@@ -1,0 +1,2547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="module_disabled" xml:space="preserve">
+    <value>这个模块已经被服务器管理员在本行会中禁用。</value>
+  </data>
+  <data name="command_disabled" xml:space="preserve">
+    <value>该命令在更新时被暂时禁用。</value>
+  </data>
+  <data name="error_generic_2" xml:space="preserve">
+    <value>出现未知错误。请在我们的支持讨论区报告： &lt;https://cakey.bot/discord&gt;</value>
+  </data>
+	<data name="error_limit_characters_10" xml:space="preserve">
+    <value>文本必须少于10个字符。</value>
+  </data>
+  <data name="error_missing_perm_manageroles" xml:space="preserve">
+    <value>你没有ManageRoles权限!</value>
+  </data>
+  <data name="error_missing_perm_manageserver" xml:space="preserve">
+    <value>你没有管理服务器的权限!</value>
+  </data>
+  <data name="error_missing_perm_moderator" xml:space="preserve">
+    <value>您必须拥有服务器管理员权限才能使用此命令。[更多信息](https://cakey.bot/faq.html#what-is-considered-a-server-moderator)</value>
+  </data>
+  <data name="error_missing_perm_mute" xml:space="preserve">
+    <value>你没有MuteMembers的权限!</value>
+  </data>
+  <data name="error_missing_perm_other_admin" xml:space="preserve">
+    <value>我无法对管理员执行该操作！</value>
+  </data>
+  <data name="error_missing_file_image_3" xml:space="preserve">
+    <value>无法在信息中找到任何有效图像。</value>
+  </data>
+  <data name="error_missing_file_image_5" xml:space="preserve">
+    <value>在过去5条信息中找不到任何有效的图像。</value>
+  </data>
+  <data name="error_failed_image_download" xml:space="preserve">
+    <value>下载图像失败。</value>
+  </data>
+  <data name="error_failed_image_modify" xml:space="preserve">
+    <value>修改图像失败。</value>
+  </data>
+  <data name="error_failed_image_upload" xml:space="preserve">
+    <value>这里没有上传文件的权限。</value>
+  </data>
+  <data name="error_failed_joke" xml:space="preserve">
+    <value>加载笑话数据失败。</value>
+  </data>
+  <data name="error_failed_result" xml:space="preserve">
+	  <value>Failed to find a result. *Shorter search queries work the best.*</value>
+  </data>
+  <data name="error_failed_article" xml:space="preserve">
+    <value>未能找到一篇文章。</value>
+  </data>
+  <data name="error_failed_unban_not_banned_2" xml:space="preserve">
+    <value>给定的用户ID没有被禁止。</value>
+  </data>
+  <data name="error_failed_unmute_not_muted" xml:space="preserve">
+    <value>用户没有被静音。如果他们是，请确保在网络仪表板上设置静音角色，或命名一个角色为 "Muted"。</value>
+  </data>
+  <data name="error_failed_playlist_save" xml:space="preserve">
+    <value>保存歌曲到播放列表失败。该播放列表是否已经存在？</value>
+  </data>
+  <data name="error_failed_playlist_load" xml:space="preserve">
+    <value>查找播放列表失败。你输入的名称是否正确？</value>
+  </data>
+  <data name="error_failed_playlist_delete" xml:space="preserve">
+    <value>删除你的`{0}`播放列表失败。该播放列表是否存在？</value>
+  </data>
+  <data name="error_role_1" xml:space="preserve">
+    <value>我不能更新这个角色，它比我的最高角色还要高。</value>
+  </data>
+  <data name="error_role_2" xml:space="preserve">
+    <value>你不能更新这个角色，它比你的最高角色要高。</value>
+  </data>
+  <data name="error_role_warn_1" xml:space="preserve">
+    <value>你不能用你的最高角色或在你的角色等级中高于你的人警告别人!</value>
+  </data>
+  <data name="error_role_warn_2" xml:space="preserve">
+    <value>我不能用我的最高角色或在角色等级中高于我的人警告别人!</value>
+  </data>
+  <data name="error_invalid_color_hex" xml:space="preserve">
+    <value>你必须使用一个有效的十六进制代码!</value>
+  </data>
+  <data name="error_invalid_dice" xml:space="preserve">
+    <value>请输入一个有效的数字（1-15）或输入一个DND骰子。</value>
+  </data>
+  <data name="error_invalid_user_missing" xml:space="preserve">
+    <value>用户名并不存在!</value>
+  </data>
+  <data name="error_invalid_user_guild" xml:space="preserve">
+    <value>用户是无效的。(无效的行会用户)</value>
+  </data>
+  <data name="error_invalid_base64" xml:space="preserve">
+    <value>请提供一个有效的base64字符串。</value>
+  </data>
+  <data name="error_usage_poll" xml:space="preserve">
+    <value>请输入一个有效的问题。使用方法：`/poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | 等等&gt;`</value>
+  </data>
+  <data name="error_usage_rps" xml:space="preserve">
+    <value>请输入一个有效的动作：`/rps &lt; rock | paper | scissors &gt;`</value>
+  </data>
+  <data name="error_usage_verify_set" xml:space="preserve">
+    <value>没有设置验证角色。请用以下方法设置一个：`/setup verifyrole &lt;role&gt;`。</value>
+  </data>
+  <data name="success_verify" xml:space="preserve">
+    <value>成功地将验证角色设置为：`{0}`。</value>
+  </data>
+  <data name="success_role_added" xml:space="preserve">
+    <value>成功地将`{0}`添加到 {1}。</value>
+  </data>
+  <data name="success_role_removed" xml:space="preserve">
+    <value>成功地将`{0}`从 {1}。</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
+    <value>标题：</value>
+  </data>
+  <data name="games_suggestion_description" xml:space="preserve">
+    <value>描述：</value>
+  </data>
+  <data name="games_suggestion_created" xml:space="preserve">
+    <value>建议由 {0}创建</value>
+  </data>
+  <data name="games_8ball_question" xml:space="preserve">
+    <value>问题：</value>
+  </data>
+  <data name="games_8ball_answer" xml:space="preserve">
+    <value>答案是：</value>
+  </data>
+  <data name="games_poll_vote" xml:space="preserve">
+    <value>表决：</value>
+  </data>
+  <data name="games_poll_created" xml:space="preserve">
+    <value>投票由 {0}创建</value>
+  </data>
+  <data name="games_coin_heads" xml:space="preserve">
+    <value>头部</value>
+  </data>
+  <data name="games_coin_tails" xml:space="preserve">
+    <value>尾巴</value>
+  </data>
+  <data name="generic_results" xml:space="preserve">
+    <value>Results:</value>
+  </data>
+  <data name="games_coin_flipped" xml:space="preserve">
+    <value>你翻脸了：</value>
+  </data>
+  <data name="games_dice_total" xml:space="preserve">
+    <value>共计：</value>
+  </data>
+  <data name="games_dice_result_single" xml:space="preserve">
+    <value>你掷了一个骰子。结果：</value>
+  </data>
+  <data name="games_dice_result_multiple" xml:space="preserve">
+    <value>模具 #{i1} 结果：</value>
+  </data>
+  <data name="games_dice_result_rolled" xml:space="preserve">
+    <value>轧制了一个 {0}</value>
+  </data>
+  <data name="games_rps_outcome_1" xml:space="preserve">
+    <value>我选择了 {0}； {1} 击败了 {2}。我赢了!</value>
+  </data>
+  <data name="games_rps_outcome_2" xml:space="preserve">
+    <value>我选择了 {0}； {1} 击败了 {2}。你赢了!</value>
+  </data>
+  <data name="games_rps_outcome_3" xml:space="preserve">
+    <value>我选择了 {0}。我们两个人都选择了 {1}，这是个平局!</value>
+  </data>
+  <data name="games_trivia_title" xml:space="preserve">
+    <value>{0}的小问题</value>
+  </data>
+  <data name="games_trivia_footer" xml:space="preserve">
+    <value>输入正确答案的字母 - 问题 #{0}</value>
+  </data>
+  <data name="games_trivia_instructions" xml:space="preserve">
+    <value>*你有10秒钟的时间来回答正确的字母。*
+
+</value>
+  </data>
+  <data name="games_trivia_difficulty" xml:space="preserve">
+    <value>难度</value>
+  </data>
+  <data name="games_trivia_category" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="games_trivia_timeout" xml:space="preserve">
+    <value>10秒内没有提供答案。正确的答案：`{0}`</value>
+  </data>
+  <data name="games_trivia_invalid" xml:space="preserve">
+    <value>提供了无效的答案。下次只提供字母。正确答案：`{0}`</value>
+  </data>
+  <data name="games_trivia_valid" xml:space="preserve">
+    <value>有效的答案是：`A`，`B`，`C`，或 `D`。</value>
+  </data>
+  <data name="games_trivia_correct" xml:space="preserve">
+    <value>你说对了！ :D</value>
+  </data>
+  <data name="games_trivia_incorrect" xml:space="preserve">
+    <value>哦，不，你搞错了。正确答案：`{0}`</value>
+  </data>
+  <data name="games_trivia_load_failed" xml:space="preserve">
+    <value>未加载任何琐事问题。请稍后再试。</value>
+  </data>
+  <data name="afk" xml:space="preserve">
+    <value>{0} 目前是AFK，原因是：`{1}`。</value>
+  </data>
+  <data name="afk_not_active_1" xml:space="preserve">
+    <value>你目前没有AFK。</value>
+  </data>
+  <data name="afk_not_active_2" xml:space="preserve">
+    <value>该用户目前没有AFK。</value>
+  </data>
+  <data name="afk_active" xml:space="preserve">
+    <value>您目前正处于AFK状态，您的信息是`{0}`</value>
+  </data>
+  <data name="afk_failed" xml:space="preserve">
+    <value>设置AFK信息失败。</value>
+  </data>
+  <data name="afk_set" xml:space="preserve">
+    <value>你已经成功地被设置为AFK，并有消息说：`{0}`</value>
+  </data>
+  <data name="afk_removed_1" xml:space="preserve">
+    <value>成功地将你从AFK中移除。</value>
+  </data>
+  <data name="afk_removed_2" xml:space="preserve">
+    <value>成功地删除了 {0}'s AFK。</value>
+  </data>
+  <data name="afk_updated" xml:space="preserve">
+    <value>成功地将您的AFK信息更新为：`{0}`</value>
+  </data>
+  <data name="afk_permission" xml:space="preserve">
+    <value>你必须有管理服务器或管理员的权限才能删除其他用户的AFK状态。</value>
+  </data>
+  <data name="mod_kick_success" xml:space="preserve">
+    <value>{0} 已被成功踢出。</value>
+  </data>
+  <data name="mod_kick_dm" xml:space="preserve">
+    <value>你被`{0}`踢出了`{1}`，因为：`{2}`</value>
+  </data>
+  <data name="mod_unban_success" xml:space="preserve">
+    <value>{0} 已被成功解禁。</value>
+  </data>
+  <data name="mod_ban_success" xml:space="preserve">
+    <value>{0} 已被成功禁止。</value>
+  </data>
+  <data name="mod_ban_dm" xml:space="preserve">
+    <value>你被`{0}`禁止进入`{1}`的原因：`{2}`</value>
+  </data>
+  <data name="mod_ban_temp_success" xml:space="preserve">
+    <value>{0} 将被解禁 &lt;t:{1}:R&gt;</value>
+  </data>
+  <data name="mod_mute_success" xml:space="preserve">
+    <value>{0} 已被成功静音。</value>
+  </data>
+  <data name="mod_mute_dm" xml:space="preserve">
+    <value>你在`{0}`中被`{1}`静音，因为：`{2}`</value>
+  </data>
+  <data name="mod_mute_role_error" xml:space="preserve">
+    <value>无法找到或创建一个哑巴角色。</value>
+  </data>
+  <data name="mod_unmute_success" xml:space="preserve">
+    <value>{0} 已成功解除静默。</value>
+  </data>
+  <data name="mod_warn_success" xml:space="preserve">
+    <value>{0} 已成功发出警告：`{1}`。
+**警告总数：** {2} - **警告 ID：** {3} - **主持人：** {4}</value>
+  </data>
+  <data name="mod_warn_dm" xml:space="preserve">
+    <value>你在`{0}`被`{1}`警告过：`{2}`</value>
+  </data>
+  <data name="mod_unwarn_success" xml:space="preserve">
+    <value>警告已成功从：`{0}`中删除。</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
+    <value>提供的警告ID无效。</value>
+  </data>
+  <data name="mod_clearwarnings_success" xml:space="preserve">
+    <value>成功地清除了`{0}`中的所有警告。</value>
+  </data>
+  <data name="mod_purge_none_2" xml:space="preserve">
+    <value>没有发现符合既定标准的信息。</value>
+  </data>
+  <data name="mod_purge_success" xml:space="preserve">
+    <value>**{0} 信息由 {1} 在 &lt;#{2}&gt;中清除 ** 。</value>
+  </data>
+  <data name="mod_updated_users_success" xml:space="preserve">
+    <value>成功地更新了`{0}`成员。</value>
+  </data>
+  <data name="mod_slowmode_success" xml:space="preserve">
+    <value>频道的慢速模式：`{0}`已被更新为`{1}h{2}m{3}s`。</value>
+  </data>
+  <data name="time_error_invalid" xml:space="preserve">
+    <value>请输入一个有效的时间。</value>
+  </data>
+  <data name="time_error_invalid_6h" xml:space="preserve">
+    <value>(少于6小时)</value>
+  </data>
+  <data name="info_about_description" xml:space="preserve">
+    <value>**关于：**``Cakey Bot是一个功能强大、高度可定制的Discord机器人，适用于你的服务器。包括一个庞大的音乐核心，先进的审计记录和大量有用的节制功能，帮助你的服务器易于管理。你还可以用我们的网络仪表板创建高级自动回复器和自定义命令，或设置高级审计日志，以自动完成可重复的任务。</value>
+  </data>
+  <data name="info_ping" xml:space="preserve">
+    <value>Heartbeat - Shard #{0}: {1}ms</value>
+  </data>
+  <data name="info_ping_avg" xml:space="preserve">
+    <value>心跳平均：</value>
+  </data>
+  <data name="info_created_date" xml:space="preserve">
+    <value>Created on {0}. That's {1} days ago!</value>
+  </data>
+  <data name="info_joined_date" xml:space="preserve">
+    <value>加入 Discord 是在 {0}.这就是 {1} 天前!</value>
+  </data>
+  <data name="info_boosters_extra" xml:space="preserve">
+    <value>+{0} 更多用户。</value>
+  </data>
+  <data name="info_boosters_error" xml:space="preserve">
+    <value>没有发现助推器。</value>
+  </data>
+  <data name="info_string_1" xml:space="preserve">
+    <value>成员总数</value>
+  </data>
+  <data name="info_string_3" xml:space="preserve">
+    <value>淘宝网</value>
+  </data>
+  <data name="info_string_4" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="info_string_6" xml:space="preserve">
+    <value>被禁止</value>
+  </data>
+  <data name="info_string_7" xml:space="preserve">
+    <value>业主</value>
+  </data>
+  <data name="info_string_8" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="info_string_11" xml:space="preserve">
+    <value>渠道</value>
+  </data>
+  <data name="info_string_13" xml:space="preserve">
+    <value>AFK频道</value>
+  </data>
+  <data name="info_string_14" xml:space="preserve">
+    <value>没有AFK通道</value>
+  </data>
+  <data name="info_string_15" xml:space="preserve">
+    <value>表情符号总数</value>
+  </data>
+  <data name="info_string_16" xml:space="preserve">
+    <value>角色列表</value>
+  </data>
+  <data name="info_string_17" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="info_string_18" xml:space="preserve">
+    <value>服务器功能</value>
+  </data>
+  <data name="info_string_19" xml:space="preserve">
+    <value>{0}的 "阿凡达"。</value>
+  </data>
+  <data name="info_string_20" xml:space="preserve">
+    <value>{0}的用户信息</value>
+  </data>
+  <data name="info_string_21" xml:space="preserve">
+    <value>状况</value>
+  </data>
+  <data name="info_string_22" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="info_string_23" xml:space="preserve">
+    <value>昵称</value>
+  </data>
+  <data name="info_string_25" xml:space="preserve">
+    <value>阿凡达</value>
+  </data>
+  <data name="info_string_26" xml:space="preserve">
+    <value>加入公会</value>
+  </data>
+  <data name="info_string_27" xml:space="preserve">
+    <value>瓶子</value>
+  </data>
+  <data name="info_string_28" xml:space="preserve">
+    <value>人类</value>
+  </data>
+  <data name="info_string_29" xml:space="preserve">
+    <value>机器人还是人类？</value>
+  </data>
+  <data name="info_string_30" xml:space="preserve">
+    <value>提升？</value>
+  </data>
+  <data name="info_string_31" xml:space="preserve">
+    <value>是静音吗？</value>
+  </data>
+  <data name="info_string_32" xml:space="preserve">
+    <value>聋了吗？</value>
+  </data>
+  <data name="info_string_33" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="info_string_34" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="info_string_35" xml:space="preserve">
+    <value>鸣谢</value>
+  </data>
+  <data name="info_string_36" xml:space="preserve">
+    <value>邀约者</value>
+  </data>
+  <data name="info_string_37" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="info_string_38" xml:space="preserve">
+    <value>会员数</value>
+  </data>
+  <data name="info_string_39" xml:space="preserve">
+    <value>用途</value>
+  </data>
+  <data name="info_string_40" xml:space="preserve">
+    <value>创建时间</value>
+  </data>
+  <data name="info_string_41" xml:space="preserve">
+    <value>是临时的吗？</value>
+  </data>
+  <data name="info_string_42" xml:space="preserve">
+    <value>最大年龄</value>
+  </data>
+  <data name="info_string_43" xml:space="preserve">
+    <value>永不过期</value>
+  </data>
+  <data name="info_string_46" xml:space="preserve">
+    <value>由 {0}要求</value>
+  </data>
+  <data name="info_string_51" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="info_string_52" xml:space="preserve">
+    <value>{0} {1} 公会的警告。</value>
+  </data>
+  <data name="info_string_54" xml:space="preserve">
+    <value>View Contributors</value>
+  </data>
+  <data name="info_string_55" xml:space="preserve">
+    <value>{0} / {1} ({2} 剩余插槽)</value>
+  </data>
+  <data name="info_string_56" xml:space="preserve">
+    <value>用户名：</value>
+  </data>
+  <data name="info_string_57" xml:space="preserve">
+    <value>原因是什么？</value>
+  </data>
+  <data name="info_string_58" xml:space="preserve">
+    <value>没有理由</value>
+  </data>
+  <data name="info_string_59" xml:space="preserve">
+    <value>主持人：</value>
+  </data>
+  <data name="info_string_62" xml:space="preserve">
+    <value>点击我</value>
+  </data>
+  <data name="info_string_64" xml:space="preserve">
+    <value>类型：</value>
+  </data>
+  <data name="info_string_65" xml:space="preserve">
+    <value>时间：</value>
+  </data>
+  <data name="info_string_66" xml:space="preserve">
+    <value>警告总数：</value>
+  </data>
+  <data name="info_string_67" xml:space="preserve">
+    <value>不详</value>
+  </data>
+  <data name="info_string_68" xml:space="preserve">
+    <value>误差</value>
+  </data>
+  <data name="info_string_73" xml:space="preserve">
+    <value>```服务器所有者```。</value>
+  </data>
+  <data name="info_string_74" xml:space="preserve">
+    <value>```服务器管理员```</value>
+  </data>
+  <data name="info_string_75" xml:space="preserve">
+    <value>```Server Moderator```</value>
+  </data>
+  <data name="info_string_77" xml:space="preserve">
+    <value>{0} 助推器</value>
+  </data>
+  <data name="emoji_string_name" xml:space="preserve">
+    <value>命名</value>
+  </data>
+  <data name="roleinfo" xml:space="preserve">
+    <value>{0} 角色信息</value>
+  </data>
+  <data name="roleinfo_color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="roleinfo_created_at" xml:space="preserve">
+    <value>创建于</value>
+  </data>
+  <data name="roleinfo_position" xml:space="preserve">
+    <value>职务</value>
+  </data>
+  <data name="roleinfo_ishoisted" xml:space="preserve">
+    <value>IsHoisted?</value>
+  </data>
+  <data name="roleinfo_ismanaged" xml:space="preserve">
+    <value>IsManaged?</value>
+  </data>
+  <data name="roleinfo_ismentionable" xml:space="preserve">
+    <value>谈到的是 "可提及"？</value>
+  </data>
+  <data name="roleinfo_members" xml:space="preserve">
+    <value>成员 [{0}]</value>
+  </data>
+  <data name="misc_anime_start" xml:space="preserve">
+    <value>开始日期：</value>
+  </data>
+  <data name="misc_anime_end" xml:space="preserve">
+    <value>结束日期：</value>
+  </data>
+  <data name="misc_anime_status_airing" xml:space="preserve">
+    <value>晾晒</value>
+  </data>
+  <data name="misc_anime_status_ended" xml:space="preserve">
+    <value>已结束</value>
+  </data>
+  <data name="misc_anime_synopsis" xml:space="preserve">
+    <value>梗概：</value>
+  </data>
+  <data name="misc_manga_status_ip" xml:space="preserve">
+    <value>正在进行中</value>
+  </data>
+  <data name="misc_manga_status_completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="misc_manga_volumes" xml:space="preserve">
+    <value>各卷：</value>
+  </data>
+  <data name="misc_manga_chapters" xml:space="preserve">
+    <value>章节：</value>
+  </data>
+  <data name="misc_manga_footer" xml:space="preserve">
+    <value>漫画ID： {0} - 分数: {1}</value>
+  </data>
+  <data name="misc_fact" xml:space="preserve">
+    <value>随机事实：</value>
+  </data>
+  <data name="misc_fact_failed" xml:space="preserve">
+    <value>没能得到一个事实。</value>
+  </data>
+  <data name="misc_reminder_success" xml:space="preserve">
+    <value>成功为`{0}` {1}设置提醒。</value>
+  </data>
+  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <value>你必须在一个语音频道中。</value>
+  </data>
+  <data name="music_error_voice_channel_2" xml:space="preserve">
+    <value>我不能加入那个语音频道。</value>
+  </data>
+  <data name="music_error_voice_channel_3" xml:space="preserve">
+    <value>我不能用那个声道说话。</value>
+  </data>
+  <data name="music_error_voice_channel_4" xml:space="preserve">
+    <value>我已经在那个频道了。</value>
+  </data>
+  <data name="music_error_voice_channel_5" xml:space="preserve">
+    <value>我必须在一个语音频道中。使用`/play`来召唤我。</value>
+  </data>
+  <data name="music_error_voice_channel_6" xml:space="preserve">
+    <value>你必须和机器人在同一个频道。尝试使用`/play`来召唤它。</value>
+  </data>
+  <data name="music_error_player" xml:space="preserve">
+    <value>玩家不存在，请再次输入`/play`。</value>
+  </data>
+  <data name="music_error_timespan" xml:space="preserve">
+    <value>队列的时间范围太长了。请在添加更多的歌曲之前清除队列中的歌曲。</value>
+  </data>
+  <data name="music_error_lavalink" xml:space="preserve">
+    <value>LavaLink实例崩溃了。请在我们的 </value>
+  </data>
+  <data name="music_join" xml:space="preserve">
+    <value>我已加入：`{0}`。</value>
+  </data>
+  <data name="music_disconnect" xml:space="preserve">
+    <value>成功地断开了连接!</value>
+  </data>
+  <data name="music_disconnect_error_2" xml:space="preserve">
+    <value>你必须是语音频道中唯一的用户，或者你必须有MOD权限，在歌曲播放时断开Cakey Bot的连接。</value>
+  </data>
+  <data name="music_move" xml:space="preserve">
+    <value>从`{0}`移到`{1}`。</value>
+  </data>
+  <data name="music_move_error" xml:space="preserve">
+    <value>在歌曲播放过程中，你不能将Cakey Bot从一个频道中移走。</value>
+  </data>
+  <data name="music_jump" xml:space="preserve">
+    <value>成功地跳到了：
+[{0}]({1}) _{2}/{3}_</value>
+  </data>
+  <data name="music_duplicates" xml:space="preserve">
+    <value>成功地从队列中移除重复的轨道。新的队列：
+{0}</value>
+  </data>
+  <data name="music_cleanup" xml:space="preserve">
+    <value>成功地清理了队列。新的队列：
+{0}</value>
+  </data>
+  <data name="music_shuffle" xml:space="preserve">
+    <value>成功洗刷了队列。</value>
+  </data>
+  <data name="music_shuffle_by" xml:space="preserve">
+    <value>洗牌</value>
+  </data>
+  <data name="music_bb" xml:space="preserve">
+    <value>歌曲的低音增强状态设置为：`{0}`。</value>
+  </data>
+  <data name="music_remove" xml:space="preserve">
+    <value>成功地从队列中删除了`{0}` - `{1}`。</value>
+  </data>
+  <data name="music_restart_2" xml:space="preserve">
+    <value>我已经从头开始重启了这首歌。</value>
+  </data>
+  <data name="music_seek_3" xml:space="preserve">
+    <value>我已经寻求到了时间：`{0}`。</value>
+  </data>
+  <data name="music_ff_2" xml:space="preserve">
+    <value>我已经快进到了：`{0}` ({1} 前进)</value>
+  </data>
+  <data name="music_rewind_2" xml:space="preserve">
+    <value>我已经倒退到：`{0}` ({1} behind)</value>
+  </data>
+  <data name="music_pause_3" xml:space="preserve">
+    <value>成功地暂停了歌曲。</value>
+  </data>
+  <data name="music_resume_1" xml:space="preserve">
+    <value>成功地恢复了歌曲。</value>
+  </data>
+  <data name="music_resume_2" xml:space="preserve">
+    <value>歌曲没有暂停。你可以用`/pause`来暂停歌曲。</value>
+  </data>
+  <data name="music_lyrics_1" xml:space="preserve">
+    <value>你必须输入一个要搜索的歌曲名称。(或目前有一首歌曲正在播放)</value>
+  </data>
+  <data name="music_lyrics_3" xml:space="preserve">
+    <value>没有找到歌词。</value>
+  </data>
+  <data name="music_volume_3" xml:space="preserve">
+    <value>音量成功设置为：`{0}`</value>
+  </data>
+  <data name="music_skip_1" xml:space="preserve">
+    <value>[{0}]({1}) [{2}]已被跳过。</value>
+  </data>
+  <data name="music_skip_2" xml:space="preserve">
+    <value>{0} 跳过 [{1}]({2}) [{3}]
+{4} 正在播放：[{5}]({6}) [{7}]</value>
+  </data>
+  <data name="music_skip_3" xml:space="preserve">
+    <value>目前没有歌曲正在播放。</value>
+  </data>
+  <data name="music_skip_4" xml:space="preserve">
+    <value>队列中已经没有其他项目了。</value>
+  </data>
+  <data name="music_voteskip_2" xml:space="preserve">
+    <value>您已投票赞成跳过， {0} ，还需再投一票。</value>
+  </data>
+  <data name="music_voteskip_3" xml:space="preserve">
+    <value>您已投票跳过，因此已被删除。您可以再次输入 `/skip`，将其重新添加。 {0} ，需要更多投票。</value>
+  </data>
+  <data name="music_voteskip_4" xml:space="preserve">
+    <value>投票结果是： {0}/{1}。</value>
+  </data>
+  <data name="music_url" xml:space="preserve">
+    <value>你必须输入一个歌曲名称或YouTube URL。</value>
+  </data>
+  <data name="music_no_results" xml:space="preserve">
+    <value>没有发现结果。</value>
+  </data>
+  <data name="music_invalid_track_1" xml:space="preserve">
+    <value>轨迹ID不在有效范围内。输入`/queue`查看有效的轨道ID。</value>
+  </data>
+  <data name="music_invalid_track_2" xml:space="preserve">
+    <value>跟踪队列ID必须有效。</value>
+  </data>
+  <data name="music_limit_queue" xml:space="preserve">
+    <value>队列最多只能容纳50首歌曲，请在添加之前删除一些，或升级到高级。</value>
+  </data>
+  <data name="music_limit_playlist" xml:space="preserve">
+    <value>播放列表最多只能有50首歌曲，请选择一个较小的播放列表或升级到高级。</value>
+  </data>
+  <data name="music_add_1" xml:space="preserve">
+    <value>在队列中增加了`{0}`歌曲。</value>
+  </data>
+  <data name="music_add_2" xml:space="preserve">
+    <value>[{0}]({1}) [{2}]已被添加到队列中。</value>
+  </data>
+  <data name="music_now_playing_1" xml:space="preserve">
+    <value>正在播放：[{0}]({1}) [{2}]</value>
+  </data>
+  <data name="music_volume" xml:space="preserve">
+    <value>量：`{0}`</value>
+  </data>
+  <data name="music_livestream" xml:space="preserve">
+    <value>当直播流正在播放时，命令被禁用。</value>
+  </data>
+  <data name="music_playlist_list" xml:space="preserve">
+    <value>发现 {0} 播放列表:
+```{1}```</value>
+  </data>
+  <data name="music_playlist_success_save" xml:space="preserve">
+    <value>成功地将 {0} 歌曲保存到你的`{1}`播放列表。</value>
+  </data>
+  <data name="music_playlist_success_load" xml:space="preserve">
+    <value>成功地从你的 `{1}`播放列表中加载了 {0} 歌曲。</value>
+  </data>
+  <data name="music_playlist_success_delete" xml:space="preserve">
+    <value>成功地删除了你的`{0}`播放列表。</value>
+  </data>
+  <data name="music_string_1" xml:space="preserve">
+    <value>排队位置：</value>
+  </data>
+  <data name="music_string_2" xml:space="preserve">
+    <value>遗产。直到比赛的时间：</value>
+  </data>
+  <data name="music_string_3" xml:space="preserve">
+    <value>队列中没有曲目。</value>
+  </data>
+  <data name="music_string_4" xml:space="preserve">
+    <value>+{0} 更多歌曲。</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
+    <value>时间超出了视频的长度，请重试。</value>
+  </data>
+  <data name="music_string_8" xml:space="preserve">
+    <value>要使用这个命令，目前必须有一首歌曲正在播放，请尝试`/play`代替。</value>
+  </data>
+  <data name="music_string_9" xml:space="preserve">
+    <value>现在没有曲目在播放。</value>
+  </data>
+  <data name="music_string_10" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="music_string_12" xml:space="preserve">
+    <value>卷宗</value>
+  </data>
+  <data name="music_string_14" xml:space="preserve">
+    <value>暂停了？</value>
+  </data>
+  <data name="music_string_15" xml:space="preserve">
+    <value>活体直播？</value>
+  </data>
+  <data name="music_string_16" xml:space="preserve">
+    <value>投票跳过</value>
+  </data>
+  <data name="music_string_17" xml:space="preserve">
+    <value>排队：</value>
+  </data>
+  <data name="music_string_18" xml:space="preserve">
+    <value>正在播放：</value>
+  </data>
+  <data name="music_string_19" xml:space="preserve">
+    <value>请求人</value>
+  </data>
+  <data name="music_string_20" xml:space="preserve">
+    <value>循环？</value>
+  </data>
+  <data name="music_string_21" xml:space="preserve">
+    <value>低音的提升？</value>
+  </data>
+  <data name="music_unknown_title" xml:space="preserve">
+    <value>标题不详</value>
+  </data>
+  <data name="music_embed_success_1" xml:space="preserve">
+    <value>歌曲请求频道(&lt;#{0}&gt;)已经创建。如果你愿意，你可以重新命名或移动这个频道。
+</value>
+  </data>
+  <data name="music_embed_success_2" xml:space="preserve">
+    <value>请不要删除歌曲请求频道中的任何信息。如果你这样做，你将需要重新运行设置。</value>
+  </data>
+  <data name="music_embed_queue_1" xml:space="preserve">
+    <value>加入一个语音频道，通过在这个频道中输入歌曲的名称或URL来搜索。</value>
+  </data>
+  <data name="music_embed_queue_2" xml:space="preserve">
+    <value>Supported sources: Twitch, Bandcamp, Vimeo, Soundcloud, Direct URL/Web File *`(MP3 &amp; MP4 Formats)`* &amp; Spotify *`(EXPERIMENTAL)`*.</value>
+  </data>
+  <data name="music_embed_react_1" xml:space="preserve">
+    <value>暂停/恢复一首歌曲</value>
+  </data>
+  <data name="music_embed_react_2" xml:space="preserve">
+    <value>清除队列</value>
+  </data>
+  <data name="music_embed_react_3" xml:space="preserve">
+    <value>跳过这首歌</value>
+  </data>
+  <data name="music_embed_react_4" xml:space="preserve">
+    <value>洗涤队列</value>
+  </data>
+  <data name="music_embed_react_5" xml:space="preserve">
+    <value>循环播放当前歌曲</value>
+  </data>
+  <data name="music_embed_react_6" xml:space="preserve">
+    <value>重新启动当前歌曲</value>
+  </data>
+  <data name="music_logger_trackend" xml:space="preserve">
+    <value>{0} 播放完毕：[{1}]({2}) [{3}]
+{4} 正在播放：[{5}]({6}) [{7}]</value>
+  </data>
+  <data name="music_logger_error" xml:space="preserve">
+    <value>在试图播放时，轨道被卡住了。</value>
+  </data>
+  <data name="music_logger_disconnect" xml:space="preserve">
+    <value>所有用户都离开了语音频道，机器人将在30秒内断开连接。</value>
+  </data>
+  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <value>有效波段为0至14</value>
+  </data>
+  <data name="music_equalizer_invalid_2" xml:space="preserve">
+    <value>有效的增益值在-0.25和1.0之间。</value>
+  </data>
+  <data name="music_equalizer_success" xml:space="preserve">
+    <value>成功地将波段 #{0} 到`{1}`。</value>
+  </data>
+  <data name="roles_persistent" xml:space="preserve">
+    <value>`{0}` 角色已成功 {1} {2}。</value>
+  </data>
+  <data name="roles_persistent_1" xml:space="preserve">
+    <value>添加到</value>
+  </data>
+  <data name="roles_persistent_2" xml:space="preserve">
+    <value>已从</value>
+  </data>
+  <data name="gif_error_1" xml:space="preserve">
+    <value>找不到任何GIF。 :frowning:</value>
+  </data>
+  <data name="gif_error_2" xml:space="preserve">
+    <value>找不到任何SFW的gif图片 :frowning:</value>
+  </data>
+  <data name="cmd_error_param" xml:space="preserve">
+    <value>有不正确的参数数量。</value>
+  </data>
+  <data name="cmd_error_number" xml:space="preserve">
+    <value>你必须提供一个有效的号码。</value>
+  </data>
+  <data name="cmd_error_input" xml:space="preserve">
+    <value>你必须提供有效的输入。</value>
+  </data>
+  <data name="cmd_error_matches" xml:space="preserve">
+    <value>发现多个匹配项。可能的匹配：
+```{0}
+{1}```。</value>
+  </data>
+  <data name="cmd_error_timeout_1" xml:space="preserve">
+    <value>在试图运行该命令时超时了。</value>
+  </data>
+  <data name="cmd_error_timeout_2" xml:space="preserve">
+    <value>请求已超时，请稍后再试。</value>
+  </data>
+  <data name="cmd_error_requests" xml:space="preserve">
+    <value>收到了太多的请求。请稍后再试。</value>
+  </data>
+  <data name="audit_string_1" xml:space="preserve">
+    <value>用户加入：</value>
+  </data>
+  <data name="audit_string_2" xml:space="preserve">
+    <value>帐户创建于：</value>
+  </data>
+  <data name="audit_string_3" xml:space="preserve">
+    <value>用户留下：</value>
+  </data>
+  <data name="audit_string_4" xml:space="preserve">
+    <value>被钉住的</value>
+  </data>
+  <data name="audit_string_5" xml:space="preserve">
+    <value>未被钉住的</value>
+  </data>
+  <data name="audit_string_6" xml:space="preserve">
+    <value>**信息 {0} in** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_7" xml:space="preserve">
+    <value>**信息已编辑进去** &lt;#{0}&gt;</value>
+  </data>
+  <data name="audit_string_8" xml:space="preserve">
+    <value>之前：</value>
+  </data>
+  <data name="audit_string_9" xml:space="preserve">
+    <value>之后：</value>
+  </data>
+  <data name="audit_string_10" xml:space="preserve">
+    <value>信息：</value>
+  </data>
+  <data name="audit_string_12" xml:space="preserve">
+    <value>**由 &lt;@{0}&gt; 发送的信息已被删除** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_13" xml:space="preserve">
+    <value>&lt;@{0}&gt;**的昵称改变了**。</value>
+  </data>
+  <data name="audit_string_14" xml:space="preserve">
+    <value>新增角色</value>
+  </data>
+  <data name="audit_string_15" xml:space="preserve">
+    <value>删除的角色</value>
+  </data>
+  <data name="audit_string_16" xml:space="preserve">
+    <value>被禁止的成员</value>
+  </data>
+  <data name="audit_string_17" xml:space="preserve">
+    <value>解禁的会员</value>
+  </data>
+  <data name="audit_string_18" xml:space="preserve">
+    <value>创建的角色：</value>
+  </data>
+  <data name="audit_string_19" xml:space="preserve">
+    <value>角色名称：</value>
+  </data>
+  <data name="audit_string_20" xml:space="preserve">
+    <value>角色颜色：</value>
+  </data>
+  <data name="audit_string_21" xml:space="preserve">
+    <value>悬挂的：</value>
+  </data>
+  <data name="audit_string_22" xml:space="preserve">
+    <value>值得一提的是：</value>
+  </data>
+  <data name="audit_string_23" xml:space="preserve">
+    <value>权限：</value>
+  </data>
+  <data name="audit_string_24" xml:space="preserve">
+    <value>角色更新：</value>
+  </data>
+  <data name="audit_string_25" xml:space="preserve">
+    <value>角色编号：</value>
+  </data>
+  <data name="audit_string_26" xml:space="preserve">
+    <value>删除的角色：</value>
+  </data>
+  <data name="audit_string_27" xml:space="preserve">
+    <value>创建的渠道：</value>
+  </data>
+  <data name="audit_string_28" xml:space="preserve">
+    <value>频道更新：</value>
+  </data>
+  <data name="audit_string_29" xml:space="preserve">
+    <value>频道名称：</value>
+  </data>
+  <data name="audit_string_30" xml:space="preserve">
+    <value>主题：</value>
+  </data>
+  <data name="audit_string_31" xml:space="preserve">
+    <value>是NSFW吗？</value>
+  </data>
+  <data name="audit_string_32" xml:space="preserve">
+    <value>慢速模式：</value>
+  </data>
+  <data name="audit_string_33" xml:space="preserve">
+    <value>类别下：</value>
+  </data>
+  <data name="audit_string_34" xml:space="preserve">
+    <value>频道删除了：</value>
+  </data>
+  <data name="audit_string_36" xml:space="preserve">
+    <value>跳到：</value>
+  </data>
+  <data name="audit_string_37" xml:space="preserve">
+    <value>**{0} 信息被批量删除，在** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_41" xml:space="preserve">
+    <value>可疑账户</value>
+  </data>
+  <data name="audit_string_42" xml:space="preserve">
+    <value>用户：</value>
+  </data>
+  <data name="audit_string_43" xml:space="preserve">
+    <value>转移到另一个语音频道。</value>
+  </data>
+  <data name="audit_string_45" xml:space="preserve">
+    <value>加入语音通道。</value>
+  </data>
+  <data name="audit_string_46" xml:space="preserve">
+    <value>离开语音通道。</value>
+  </data>
+  <data name="audit_string_49" xml:space="preserve">
+    <value>邀请链接创建：[{0}](https://discord.com/invite/{1})</value>
+  </data>
+  <data name="audit_string_50" xml:space="preserve">
+    <value>小工具</value>
+  </data>
+  <data name="audit_string_51" xml:space="preserve">
+    <value>邀请链接已删除：`{0}`</value>
+  </data>
+  <data name="util_server_offline" xml:space="preserve">
+    <value>服务器脱机或不响应查询。</value>
+  </data>
+  <data name="util_server_name" xml:space="preserve">
+    <value>名称/MOTD：</value>
+  </data>
+  <data name="util_server_count" xml:space="preserve">
+    <value>玩家人数：</value>
+  </data>
+  <data name="util_server_version" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="util_math_compute" xml:space="preserve">
+    <value>计算时间: {0}s</value>
+  </data>
+  <data name="embed_footer_id_user" xml:space="preserve">
+    <value>用户ID：</value>
+  </data>
+  <data name="embed_footer_id_guild" xml:space="preserve">
+    <value>公会ID：</value>
+  </data>
+  <data name="embed_footer_id_channel" xml:space="preserve">
+    <value>频道标识：</value>
+  </data>
+  <data name="embed_footer_about" xml:space="preserve">
+    <value>由实施Lavalink4Net的Discord.Net提供技术支持</value>
+  </data>
+  <data name="core_help_1" xml:space="preserve">
+    <value>本公会的前缀是`{0}`
+如果你正在寻找一个机器人命令的列表以及它们如何工作，请点击下面的`机器人命令`链接。如果你需要帮助，请查看我们的`FAQ`（常见问题）链接。</value>
+  </data>
+  <data name="core_useful_links" xml:space="preserve">
+    <value>实用链接</value>
+  </data>
+  <data name="core_bot_commands" xml:space="preserve">
+    <value>机器人命令</value>
+  </data>
+  <data name="core_dashboard" xml:space="preserve">
+    <value>网络仪表板</value>
+  </data>
+  <data name="core_docs" xml:space="preserve">
+    <value>维基</value>
+  </data>
+  <data name="core_support_discord" xml:space="preserve">
+    <value>支持Discord</value>
+  </data>
+  <data name="core_bot_invite" xml:space="preserve">
+    <value>机器人邀请链接</value>
+  </data>
+  <data name="core_donate" xml:space="preserve">
+    <value>高级版</value>
+  </data>
+  <data name="core_system_message" xml:space="preserve">
+    <value>*系统消息*</value>
+  </data>
+  <data name="core_cmd_search_1" xml:space="preserve">
+    <value>对不起，我找不到类似`{0}`的命令。</value>
+  </data>
+  <data name="core_cmd_search_2" xml:space="preserve">
+    <value>这里有一些命令，如`{0}`。</value>
+  </data>
+  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <value>参数：</value>
+  </data>
+  <data name="core_cmd_info_module" xml:space="preserve">
+    <value>模块：</value>
+  </data>
+  <data name="core_setting_prefix_current" xml:space="preserve">
+    <value>目前的前缀：</value>
+  </data>
+  <data name="core_setting_modules_current" xml:space="preserve">
+    <value>当前设置：</value>
+  </data>
+  <data name="core_feedback_blacklisted" xml:space="preserve">
+    <value>你已被列入该命令的黑名单。 :(</value>
+  </data>
+  <data name="core_stats_1" xml:space="preserve">
+    <value>服务器数量</value>
+  </data>
+  <data name="core_stats_2" xml:space="preserve">
+    <value>总类别</value>
+  </data>
+  <data name="core_stats_3" xml:space="preserve">
+    <value>文本通道</value>
+  </data>
+  <data name="core_stats_4" xml:space="preserve">
+    <value>语音通道</value>
+  </data>
+  <data name="core_announce_footer" xml:space="preserve">
+    <value>公告</value>
+  </data>
+  <data name="core_sr_added_3" xml:space="preserve">
+    <value>成功地将所请求的角色添加到您的身上。</value>
+  </data>
+  <data name="core_sr_removed_2" xml:space="preserve">
+    <value>成功地从你那里删除了所请求的角色。</value>
+  </data>
+  <data name="core_sr_none" xml:space="preserve">
+    <value>没有可用的角色。</value>
+  </data>
+  <data name="core_sr_error_invalid" xml:space="preserve">
+    <value>角色并没有被列为自我角色。</value>
+  </data>
+  <data name="core_sr_error_have" xml:space="preserve">
+    <value>你已经有了这个角色。</value>
+  </data>
+  <data name="core_sr_error_have_not" xml:space="preserve">
+    <value>你没有这个角色。</value>
+  </data>
+  <data name="core_debug_required_core" xml:space="preserve">
+    <value>**需要的许可：（核心）**
+</value>
+  </data>
+  <data name="core_debug_optional_mod" xml:space="preserve">
+    <value>**可选择的权限：（审核时需要）**
+</value>
+  </data>
+  <data name="core_debug_optional_misc" xml:space="preserve">
+    <value>**可选的权限：（实用程序/Misc需要）**
+</value>
+  </data>
+  <data name="core_debug_optional_music" xml:space="preserve">
+    <value>**可选的权限：（音乐需要）**
+</value>
+  </data>
+  <data name="core_debug_unused" xml:space="preserve">
+    <value>**未使用的权限：**
+</value>
+  </data>
+  <data name="core_debug_wildcard" xml:space="preserve">
+    <value>**通配符权限：**
+</value>
+  </data>
+  <data name="core_limited" xml:space="preserve">
+    <value>Cakey Bot目前有技术问题。一些功能暂时被禁用或限制。</value>
+  </data>
+  <data name="core_string_1" xml:space="preserve">
+    <value>指挥信息</value>
+  </data>
+	<data name="automod_string_caps" xml:space="preserve">
+		<value>&gt;{0}% of capital letters.</value>
+	</data>
+  <data name="automod_string_url" xml:space="preserve">
+		<value>a URL/Link.</value>
+	</data>
+	<data name="automod_string_mentions" xml:space="preserve">
+		<value>&gt;{0} mentions.</value>
+	</data>
+	<data name="automod_string_emote" xml:space="preserve">
+		<value>&gt;{0} emotes.</value>
+	</data>
+  <data name="automod_string_duplicate_char" xml:space="preserve">
+		<value>&gt;{0}% duplicated characters.</value>
+	</data>
+	<data name="automod_string_duplicate_word" xml:space="preserve">
+		<value>&gt;{0} duplicated words.</value>
+	</data>
+  <data name="automod_check_mass_caps" xml:space="preserve">
+    <value>滥用大写</value>
+  </data>
+  <data name="automod_check_blacklist" xml:space="preserve">
+    <value>黑名单上的词</value>
+  </data>
+  <data name="automod_check_discord_invite" xml:space="preserve">
+    <value>Discord邀请链接</value>
+  </data>
+  <data name="automod_check_website_url" xml:space="preserve">
+    <value>网站URL/链接</value>
+  </data>
+  <data name="automod_check_mass_mentions" xml:space="preserve">
+    <value>滥用提及</value>
+  </data>
+  <data name="automod_check_emoji_spam" xml:space="preserve">
+    <value>表情符号垃圾邮件</value>
+  </data>
+  <data name="automod_check_spoilers" xml:space="preserve">
+    <value>剧透内容</value>
+  </data>
+  <data name="automod_check_stickers" xml:space="preserve">
+    <value>贴纸</value>
+  </data>
+  <data name="automod_check_duplicate_char" xml:space="preserve">
+    <value>重复的字符</value>
+  </data>
+  <data name="automod_check_duplicate_word" xml:space="preserve">
+    <value>重复单词</value>
+  </data>
+  <data name="automod_check_auto_dehoist" xml:space="preserve">
+    <value>汽车德豪斯</value>
+  </data>
+  <data name="automod_embed_violation" xml:space="preserve">
+    <value>违反规定：</value>
+  </data>
+  <data name="automod_embed_value" xml:space="preserve">
+    <value>价值：</value>
+  </data>
+  <data name="github_results" xml:space="preserve">
+    <value>显示行 {0} - {1} `{2}` 。</value>
+  </data>
+  <data name="quoter_by_title" xml:space="preserve">
+    <value>引用者：：</value>
+  </data>
+  <data name="quoter_by_value" xml:space="preserve">
+    <value>{0} 来自 &lt;#{1}&gt; in {2}</value>
+  </data>
+  <data name="misc_no_content" xml:space="preserve">
+    <value>没有内容</value>
+  </data>
+  <data name="textman_invalid_output" xml:space="preserve">
+    <value>没有有效的输出。</value>
+  </data>
+  <data name="info_premium" xml:space="preserve">
+    <value>:star: 喜欢Cakey Bot吗？你现在可以为高级版捐款了：</value>
+  </data>
+  <data name="info_uptime" xml:space="preserve">
+    <value>正常运行时间: {0}</value>
+  </data>
+  <data name="info_open_image" xml:space="preserve">
+    <value>打开图片</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
+    <value>一个游戏已经在进行中了，在制作一个新游戏之前完成它。</value>
+  </data>
+  <data name="game_ttt_title" xml:space="preserve">
+    <value>井字游戏</value>
+  </data>
+  <data name="game_player_1" xml:space="preserve">
+    <value>玩家1</value>
+  </data>
+  <data name="game_player_2" xml:space="preserve">
+    <value>玩家2</value>
+  </data>
+  <data name="game_current_move" xml:space="preserve">
+    <value>目前的行动</value>
+  </data>
+  <data name="game_flip_again" xml:space="preserve">
+    <value>再次翻转</value>
+  </data>
+  <data name="error_action_self" xml:space="preserve">
+    <value>您不能对自己执行此操作！</value>
+  </data>
+  <data name="error_action_bot" xml:space="preserve">
+    <value>我不能这样对自己！</value>
+  </data>
+  <data name="moderation_report_channel_missing" xml:space="preserve">
+    <value>目前还没有设置报告通道。</value>
+  </data>
+  <data name="moderation_report_channel_invalid" xml:space="preserve">
+    <value>目标通道无效或不再存在。</value>
+  </data>
+  <data name="moderation_report_reported_success" xml:space="preserve">
+    <value>成功地提交了报告。工作人员将审查并在需要时采取行动。</value>
+  </data>
+  <data name="moderation_report_perms" xml:space="preserve">
+    <value>我没有目标通道的信息发送权限。</value>
+  </data>
+  <data name="misc_afk_list" xml:space="preserve">
+    <value>你可以在这里查看AFK用户的名单： {0}/afk-list 
+注意：需要有 "管理服务器 "的权限。</value>
+  </data>
+  <data name="game_ttt_winner" xml:space="preserve">
+    <value>冠军</value>
+  </data>
+  <data name="game_ttt_taken" xml:space="preserve">
+    <value>这个位置已经有人了。</value>
+  </data>
+  <data name="game_ttt_expired" xml:space="preserve">
+    <value>这个游戏已经过期了。你可以用`/tictactoe &lt;opt:user&gt;`创建一个新游戏。</value>
+  </data>
+  <data name="game_ttt_wait_turn" xml:space="preserve">
+    <value>你必须等待轮到你出手!</value>
+  </data>
+  <data name="automod_check_zalgo" xml:space="preserve">
+    <value>Zalgo文本</value>
+  </data>
+  <data name="twitch_title_live" xml:space="preserve">
+    <value>Twitch | {0} - 现在直播!</value>
+  </data>
+  <data name="twitch_currently_playing" xml:space="preserve">
+    <value>目前正在播放：</value>
+  </data>
+  <data name="twitch_viewers" xml:space="preserve">
+    <value>观众：</value>
+  </data>
+  <data name="twitch_join_stream" xml:space="preserve">
+    <value>在此加入流媒体：https://www.twitch.tv/{0}</value>
+  </data>
+  <data name="twitch_feed" xml:space="preserve">
+    <value>Twitch feed</value>
+  </data>
+  <data name="reddit_feed" xml:space="preserve">
+    <value>Reddit饲料</value>
+  </data>
+  <data name="tags_create_success" xml:space="preserve">
+	  <value>Successsfully created: `{0}`.</value>
+  </data>
+  <data name="tags_modify_success" xml:space="preserve">
+	  <value>Successsfully modified: `{0}`.</value>
+  </data>
+  <data name="tags_delete_success" xml:space="preserve">
+	  <value>Successsfully deleted: `{0}`.</value>
+  </data>
+  <data name="tags_list" xml:space="preserve">
+    <value>标签：</value>
+  </data>
+  <data name="thread_deleted" xml:space="preserve">
+    <value>删除的主题：</value>
+  </data>
+  <data name="thread_created" xml:space="preserve">
+    <value>创建的主题：</value>
+  </data>
+  <data name="thread_modified" xml:space="preserve">
+    <value>主题已更新：</value>
+  </data>
+  <data name="thread_parent" xml:space="preserve">
+    <value>螺纹父母：</value>
+  </data>
+  <data name="thread_auto_archive" xml:space="preserve">
+    <value>自动存档时间：</value>
+  </data>
+  <data name="thread_private" xml:space="preserve">
+    <value>IsPrivate?</value>
+  </data>
+  <data name="thread_locked" xml:space="preserve">
+    <value>IsLocked?</value>
+  </data>
+  <data name="thread_name" xml:space="preserve">
+    <value>螺纹名称：</value>
+  </data>
+  <data name="thread_archive" xml:space="preserve">
+    <value>`{0}`主题被存档。</value>
+  </data>
+  <data name="thread_unarchive" xml:space="preserve">
+    <value>`{0}`线程未被归档。</value>
+  </data>
+  <data name="stage_updated" xml:space="preserve">
+    <value>阶段更新：</value>
+  </data>
+  <data name="stage_name" xml:space="preserve">
+    <value>舞台名称：</value>
+  </data>
+  <data name="stage_discoverable" xml:space="preserve">
+    <value>IsDiscoverable?</value>
+  </data>
+  <data name="stage_privacy" xml:space="preserve">
+    <value>隐私级别：</value>
+  </data>
+  <data name="stage_live" xml:space="preserve">
+    <value>IsLive?</value>
+  </data>
+  <data name="stage_speaker_count" xml:space="preserve">
+    <value>发言者人数：</value>
+  </data>
+  <data name="stage_started" xml:space="preserve">
+    <value>阶段开始：</value>
+  </data>
+  <data name="stage_ended" xml:space="preserve">
+    <value>舞台结束了：</value>
+  </data>
+  <data name="imageman_analyze_failed" xml:space="preserve">
+    <value>反序列化图像数据失败。</value>
+  </data>
+  <data name="ticket_exists" xml:space="preserve">
+    <value>您在这里已经有一张票 &lt;#{0}&gt;！</value>
+  </data>
+  <data name="ticket_deleting" xml:space="preserve">
+    <value>票据将在几秒钟内被删除。</value>
+  </data>
+  <data name="ticket_transcript_failed" xml:space="preserve">
+    <value>**错误：**无法生成成绩单文件。</value>
+  </data>
+  <data name="ticket_transcript" xml:space="preserve">
+    <value>转载</value>
+  </data>
+  <data name="ticket_open" xml:space="preserve">
+    <value>开放式</value>
+  </data>
+  <data name="ticket_delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ticket_reopen" xml:space="preserve">
+    <value>{0}重新开放的门票</value>
+  </data>
+  <data name="ticket_transcript_channel_missing" xml:space="preserve">
+    <value>**错误：**成绩单频道不存在。(或者Cakey Bot无法查看/发送消息给它)。</value>
+  </data>
+  <data name="ticket_transcript_saved" xml:space="preserve">
+    <value>转录本已成功保存到 {0}。</value>
+  </data>
+  <data name="ticket_message_count" xml:space="preserve">
+    <value>信息数：</value>
+  </data>
+  <data name="ticket_saved_by" xml:space="preserve">
+    <value>被拯救的人：</value>
+  </data>
+  <data name="ticket_ticket" xml:space="preserve">
+    <value>票：</value>
+  </data>
+  <data name="ticket_staff_reply" xml:space="preserve">
+    <value>一位工作人员将很快回复您的票据。</value>
+  </data>
+  <data name="ticket_close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ticket_issue" xml:space="preserve">
+    <value>{0} 有以下问题：</value>
+  </data>
+  <data name="ticket_create" xml:space="preserve">
+    <value>点击下面的按钮，创建一个支持票。</value>
+  </data>
+  <data name="ticket_title" xml:space="preserve">
+    <value>支持票据</value>
+  </data>
+  <data name="ticket_open_embed" xml:space="preserve">
+    <value>开具票据</value>
+  </data>
+  <data name="ticket_closed" xml:space="preserve">
+    <value>门票由 {0}关闭</value>
+  </data>
+  <data name="core_sr_embed_error" xml:space="preserve">
+    <value>你必须在创建嵌入之前添加自我角色。</value>
+  </data>
+  <data name="core_sr_embed_description_select" xml:space="preserve">
+    <value>你可以使用下面的选择菜单为自己添加/删除角色。</value>
+  </data>
+  <data name="core_sr_roles_added" xml:space="preserve">
+    <value>增加的角色：</value>
+  </data>
+  <data name="core_sr_roles_removed" xml:space="preserve">
+    <value>删除的角色：</value>
+  </data>
+  <data name="automod_check_phishing_link" xml:space="preserve">
+    <value>钓鱼网站链接</value>
+  </data>
+  <data name="presets_applied" xml:space="preserve">
+    <value>成功地应用了预设：`{0}`</value>
+  </data>
+  <data name="filters_applied" xml:space="preserve">
+    <value>成功地应用了`{0}`过滤器和这些选项： {1}</value>
+  </data>
+  <data name="error_ticket_category" xml:space="preserve">
+    <value>无法创建票据类别。请修复Cakey Bot的权限。</value>
+  </data>
+  <data name="ticket_success" xml:space="preserve">
+    <value>在此成功地创建了您的票据： &lt;#{0}&gt;</value>
+  </data>
+  <data name="self_role_select" xml:space="preserve">
+    <value>选择一些角色。</value>
+  </data>
+  <data name="music_error_playlist_exists_save" xml:space="preserve">
+	  <value>A playlist with this name already exists. Please delete it before trying to save/rename one with the same name.</value>
+  </data>
+  <data name="error_upload_file" xml:space="preserve">
+    <value>上传文件失败。</value>
+  </data>
+  <data name="core_help_default_permission" xml:space="preserve">
+    <value>默认权限：</value>
+  </data>
+  <data name="core_help_select_placeholder" xml:space="preserve">
+    <value>选择一个特征/指南</value>
+  </data>
+  <data name="error_ticket_overwrites" xml:space="preserve">
+    <value>无法为票据创建适当的权限覆盖。请修复Cakey Bot的权限。</value>
+  </data>
+  <data name="youtube_title" xml:space="preserve">
+    <value>YouTube | {0} - 最新上传!</value>
+  </data>
+  <data name="youtube_watch" xml:space="preserve">
+    <value>在此观看视频： {0}</value>
+  </data>
+  <data name="youtube_feed" xml:space="preserve">
+    <value>YouTube上的资料</value>
+  </data>
+  <data name="tags_manage_doesnt_exist" xml:space="preserve">
+	  <value>Error: Content doesn't exist.</value>
+  </data>
+  <data name="tags_manage_fail_others" xml:space="preserve">
+	  <value>You don't have access to manage other user's content.</value>
+  </data>
+  <data name="tags_manage_fail_self" xml:space="preserve">
+    <value>你没有权限管理你自己的标签。</value>
+  </data>
+  <data name="tags_create_exists" xml:space="preserve">
+	  <value>Failed to create content, it already exists.</value>
+  </data>
+  <data name="music_duration" xml:space="preserve">
+    <value>持续时间：</value>
+  </data>
+  <data name="music_loop_queue" xml:space="preserve">
+    <value>该队列现在正在循环。</value>
+  </data>
+  <data name="music_loop_track" xml:space="preserve">
+    <value>当前的轨道现在正在循环播放。</value>
+  </data>
+  <data name="music_loop_track_error" xml:space="preserve">
+    <value>当前的轨道已经在循环了。</value>
+  </data>
+  <data name="music_loop_queue_error" xml:space="preserve">
+    <value>该队列已经在循环了。</value>
+  </data>
+  <data name="music_loop_disabled" xml:space="preserve">
+    <value>禁用轨道和队列循环。</value>
+  </data>
+  <data name="audit_role_icon" xml:space="preserve">
+    <value>图标：</value>
+  </data>
+  <data name="audit_role_emoji" xml:space="preserve">
+    <value>表情符号</value>
+  </data>
+  <data name="audit_permissions_removed" xml:space="preserve">
+    <value>权限删除：</value>
+  </data>
+  <data name="audit_permissions_added" xml:space="preserve">
+    <value>增加了权限：</value>
+  </data>
+  <data name="music_error_track_length" xml:space="preserve">
+    <value>歌曲长度超过了服务器管理员设置的最大歌曲长度。</value>
+  </data>
+  <data name="music_error_track_title" xml:space="preserve">
+    <value>歌曲标题含有服务器管理员设置的黑名单词汇。</value>
+  </data>
+  <data name="music_youtube_banned" xml:space="preserve">
+    <value>根据 Discord 政策，YouTube 不再是受支持的资源。您仍然可以使用原始查询，如 `epic music`，或从我们的许多其他[支持来源](https://wiki.cakey.bot/music/supported-sources) 中播放音乐。</value>
+  </data>
+  <data name="timeout_success" xml:space="preserve">
+    <value>超时 {0}.Expires &lt;t:{1}:R&gt;.</value>
+  </data>
+  <data name="timeout_dm" xml:space="preserve">
+    <value>你在`{0}`中被`{1}`超时了，直到 &lt;t:{2}:R&gt;。原因是：`{3}`</value>
+  </data>
+  <data name="audit_timed_out_expired" xml:space="preserve">
+    <value>暂停时间已过/已被删除。</value>
+  </data>
+  <data name="chatbot_limit_reached" xml:space="preserve">
+	  <value>You have reached the AI request limit for this server _({0} requests per month)_. Join our Support Discord if you need a higher limit.</value>
+  </data>
+  <data name="chatbot_rate_limit" xml:space="preserve">
+    <value>聊天机器人已达到速率限制。请稍后再试。</value>
+  </data>
+  <data name="error_ticket_not" xml:space="preserve">
+    <value>这个命令只能在票据通道中使用。</value>
+  </data>
+  <data name="ticket_add" xml:space="preserve">
+    <value>成功地将 {0} 加入到票据中。
+            由 {1}要求</value>
+  </data>
+  <data name="ticket_remove" xml:space="preserve">
+    <value>成功地将 {0} 从票据上删除。
+            由 {1}要求</value>
+  </data>
+  <data name="error_ticket_support_not" xml:space="preserve">
+    <value>你必须有 {0} 角色才能使用这个命令。</value>
+  </data>
+  <data name="error_ticket_support_missing" xml:space="preserve">
+    <value>你必须在网络仪表板上设置一个支持团队的角色来使用这个命令。</value>
+  </data>
+  <data name="ticket_anon_success" xml:space="preserve">
+    <value>成功地发送了匿名回复。</value>
+  </data>
+  <data name="ticket_closed_dm" xml:space="preserve">
+    <value>您在 {0} 中的支持票据已关闭。
+            **关闭：** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket_close_confirm" xml:space="preserve">
+    <value>你确定要关闭此票吗？</value>
+  </data>
+  <data name="suggestion_error" xml:space="preserve">
+    <value>发布建议失败。请稍后再试。</value>
+  </data>
+  <data name="suggestion_success" xml:space="preserve">
+    <value>成功发布您的 [suggestion]({0})!</value>
+  </data>
+  <data name="tags_nuke_success" xml:space="preserve">
+    <value>成功地从服务器上删除了所有标签。</value>
+  </data>
+  <data name="tags_prune_success" xml:space="preserve">
+    <value>成功删除了 {0}中的所有标签。</value>
+  </data>
+  <data name="tags_transfer_success" xml:space="preserve">
+	  <value>Successfully transfered: `{0}` to {1}.</value>
+  </data>
+  <data name="leveling_leaderboard_open" xml:space="preserve">
+    <value>开放式排行榜</value>
+  </data>
+  <data name="leveling_xp_add" xml:space="preserve">
+    <value>成功地将`{0}` XP添加到 {1}。</value>
+  </data>
+  <data name="leveling_xp_set" xml:space="preserve">
+    <value>成功地将 {0}'s XP设置为`{1}`。</value>
+  </data>
+  <data name="leveling_xp_remove" xml:space="preserve">
+    <value>成功地从 {1}移除`{0}`XP。</value>
+  </data>
+  <data name="leveling_user_missing" xml:space="preserve">
+    <value>数据库中缺少用户。用户必须先聊天。</value>
+  </data>
+  <data name="leveling_disabled" xml:space="preserve">
+	  <value>The feature has been disabled by the server admins.</value>
+  </data>
+  <data name="leveling_top_missing" xml:space="preserve">
+    <value>还没有用户说话。稍后再查看。</value>
+  </data>
+  <data name="birthday_error" xml:space="preserve">
+    <value>在使用这个命令之前，服务器管理员必须设置一个生日公告频道。</value>
+  </data>
+  <data name="birthday_set_other" xml:space="preserve">
+    <value>该用户没有设置他们的生日。</value>
+  </data>
+  <data name="birthday_set_self" xml:space="preserve">
+    <value>Successfully set {0}'s birthday to: `{1}`.</value>
+  </data>
+  <data name="birthday_none" xml:space="preserve">
+    <value>没有即将到来的生日。</value>
+  </data>
+  <data name="birthday_day" xml:space="preserve">
+    <value>{0}的生日是 {1}</value>
+  </data>
+  <data name="birthday_remove_self" xml:space="preserve">
+    <value>成功地删除了你的生日。</value>
+  </data>
+  <data name="birthday_remove_other" xml:space="preserve">
+    <value>成功地删除了 {0}'s birthday。</value>
+  </data>
+  <data name="birthday_channel" xml:space="preserve">
+    <value>成功地将生日公告频道更新为 &lt;#{0}&gt;。</value>
+  </data>
+  <data name="birthday_role" xml:space="preserve">
+    <value>成功地将生日自动角色更新为 &lt;@&amp;{0}&gt;。</value>
+  </data>
+  <data name="core_purchase_premium" xml:space="preserve">
+    <value>购买溢价</value>
+  </data>
+  <data name="chatbot_limit_reached_non_premium" xml:space="preserve">
+    <value>您已达到该服务器的人工智能请求上限 _({0} requests per month)_。您可以购买高级服务，将此限制提高到 {1}！</value>
+  </data>
+  <data name="chatbot_not_enabled" xml:space="preserve">
+    <value>该服务器目前没有启用AI聊天机器人。你可以在我们的网络仪表板上启用它。</value>
+  </data>
+  <data name="report_punish_failed" xml:space="preserve">
+    <value>应用惩罚失败。用户可能已经离开服务器，或者我缺乏权限。</value>
+  </data>
+  <data name="report_punish_delete_success" xml:space="preserve">
+    <value>成功地删除了该信息。</value>
+  </data>
+  <data name="report_submitted_by" xml:space="preserve">
+    <value>提交的报告</value>
+  </data>
+  <data name="report_title_user" xml:space="preserve">
+    <value>用户报告</value>
+  </data>
+  <data name="report_title_message" xml:space="preserve">
+    <value>留言报告</value>
+  </data>
+  <data name="report_delete" xml:space="preserve">
+    <value>删除报告</value>
+  </data>
+  <data name="report_punish_timeout" xml:space="preserve">
+    <value>超时用户 24h</value>
+  </data>
+  <data name="report_punish_warn" xml:space="preserve">
+    <value>警告用户</value>
+  </data>
+  <data name="report_punish_delete" xml:space="preserve">
+    <value>删除信息</value>
+  </data>
+  <data name="report_text_user" xml:space="preserve">
+    <value>正在报告</value>
+  </data>
+  <data name="message_id" xml:space="preserve">
+    <value>信息编号：</value>
+  </data>
+  <data name="message_sent" xml:space="preserve">
+    <value>信息已发送：</value>
+  </data>
+  <data name="report_text_message" xml:space="preserve">
+    <value>正在报告一条来自</value>
+  </data>
+  <data name="report_timeout_success" xml:space="preserve">
+    <value>成功地使用户超时24小时。</value>
+  </data>
+  <data name="autocomplete_too_short" xml:space="preserve">
+    <value>至少键入 {0} 字符，以获得自动建议，按回车键继续，不需要这些建议。</value>
+  </data>
+  <data name="automod_vm_blacklist_triggered" xml:space="preserve">
+    <value>您的语音信息因含有被屏蔽的词语而被删除。</value>
+  </data>
+  <data name="vm_transcript_no_responce" xml:space="preserve">
+    <value>转录失败，可能是open-ai出现了问题，或者信息中没有字。</value>
+  </data>
+  <data name="vm_transcript_who_done_it" xml:space="preserve">
+    <value>转录要求： {0}</value>
+  </data>
+  <data name="automod_check_mass_markdownheaders" xml:space="preserve">
+    <value>标记的标题</value>
+  </data>
+  <data name="punishment_title" xml:space="preserve">
+    <value>处罚：</value>
+  </data>
+  <data name="punishment_action" xml:space="preserve">
+    <value>行动：</value>
+  </data>
+  <data name="bot_added" xml:space="preserve">
+    <value>添加的机器人：</value>
+  </data>
+  <data name="bot_added_by" xml:space="preserve">
+    <value>添加人：：</value>
+  </data>
+  <data name="webhook_deleted" xml:space="preserve">
+    <value>删除的Webhook</value>
+  </data>
+  <data name="webhook_name" xml:space="preserve">
+    <value>Webhook 名称：</value>
+  </data>
+  <data name="webhook_id" xml:space="preserve">
+    <value>Webhook ID：</value>
+  </data>
+  <data name="webhook_type" xml:space="preserve">
+    <value>Webhook类型：</value>
+  </data>
+  <data name="webhook_modified" xml:space="preserve">
+    <value>修改后的Webhook</value>
+  </data>
+  <data name="webhook_avatar" xml:space="preserve">
+    <value>Webhook头像：</value>
+  </data>
+  <data name="webhook_channel" xml:space="preserve">
+    <value>Webhook通道：</value>
+  </data>
+  <data name="webhook_created" xml:space="preserve">
+    <value>创建的Webhook</value>
+  </data>
+  <data name="error_no_invites" xml:space="preserve">
+    <value>无法找到/加载邀请。</value>
+  </data>
+  <data name="invite_revoke_success" xml:space="preserve">
+    <value>成功撤销邀请：`{0}`。</value>
+  </data>
+  <data name="user_roles_modified_title" xml:space="preserve">
+    <value>修改用户角色</value>
+  </data>
+  <data name="user_roles_modified_description" xml:space="preserve">
+    <value>{0} 修改了 &lt;@{1}&gt;的角色</value>
+  </data>
+  <data name="nickname_modified_by" xml:space="preserve">
+    <value>修改：</value>
+  </data>
+	<data name="automod_string_file_extensions" xml:space="preserve">
+		<value>a file with the `{0}` extension.</value>
+	</data>
+  <data name="automod_check_file_extensions" xml:space="preserve">
+    <value>黑名单文件扩展名</value>
+  </data>
+  <data name="emote_invalid_format" xml:space="preserve">
+    <value>不支持文件类型。必须是 JPEG、PNG 或 GIF 图像。</value>
+  </data>
+  <data name="emote_created" xml:space="preserve">
+    <value>成功创建表情： &lt;{0}:{1}:{2}&gt;</value>
+  </data>
+  <data name="emote_failed_find" xml:space="preserve">
+    <value>未找到有效表情。</value>
+  </data>
+  <data name="emote_rename_same" xml:space="preserve">
+    <value>新名称必须与当前名称不同。</value>
+  </data>
+  <data name="emote_deleted" xml:space="preserve">
+    <value>成功删除了 `:{0}:`表情。</value>
+  </data>
+  <data name="emote_rename" xml:space="preserve">
+    <value>成功将 `:{0}:`表情重命名为 `:{1}:`。</value>
+  </data>
+  <data name="emote_slots" xml:space="preserve">
+    <value>{0} 剩余表情槽</value>
+  </data>
+  <data name="error_alpha_numeric" xml:space="preserve">
+    <value>提供的字符串必须是字母数字。</value>
+  </data>
+  <data name="sticker_invalid_format" xml:space="preserve">
+    <value>不支持文件类型。必须是 PNG、APNG 或 GIF 图像。</value>
+  </data>
+  <data name="sticker_created" xml:space="preserve">
+    <value>贴纸创建成功： {0}</value>
+  </data>
+  <data name="sticker_slots" xml:space="preserve">
+    <value>{0} 左侧贴纸槽</value>
+  </data>
+  <data name="expression_created_error" xml:space="preserve">
+	  <value>An error occurred while creating the sticker/emote.</value>
+  </data>
+  <data name="sticker_failed_find" xml:space="preserve">
+    <value>未找到有效贴纸。</value>
+  </data>
+  <data name="sticker_deleted" xml:space="preserve">
+    <value>成功删除了 `{0}` 贴纸。</value>
+  </data>
+  <data name="sticker_rename" xml:space="preserve">
+    <value>成功地将 `{0}` 贴纸重命名为 `{1}`。</value>
+  </data>
+  <data name="emote_none" xml:space="preserve">
+    <value>本服务器没有表情。</value>
+  </data>
+  <data name="emote_export" xml:space="preserve">
+    <value>以下是服务器中的所有表情：</value>
+  </data>
+  <data name="sticker_none" xml:space="preserve">
+    <value>本服务器没有贴纸。</value>
+  </data>
+  <data name="sticker_export" xml:space="preserve">
+    <value>下面是服务器中的所有贴纸：</value>
+  </data>
+  <data name="import_error" xml:space="preserve">
+    <value>导入时发生错误。</value>
+  </data>
+  <data name="import_emotes" xml:space="preserve">
+    <value>{0} 表情已成功导入！</value>
+  </data>
+  <data name="import_stickers" xml:space="preserve">
+    <value>{0} 贴纸已成功导入！</value>
+  </data>
+  <data name="import_emotes_zip_ext" xml:space="preserve">
+    <value>上传的文件没有".zip "扩展名。</value>
+  </data>
+  <data name="import_emotes_zip_invalid" xml:space="preserve">
+    <value>上传的文件不是有效的压缩文件。</value>
+  </data>
+  <data name="error_archive_upload" xml:space="preserve">
+    <value>上传存档中的文件总数超过了此服务器允许的最大值。</value>
+  </data>
+  <data name="error_upload_size" xml:space="preserve">
+    <value>上传的文件超过了允许的最大大小。</value>
+  </data>
+  <data name="birthday_invalid" xml:space="preserve">
+    <value>无法解析所提供的日期。</value>
+  </data>
+  <data name="analyze_text_error" xml:space="preserve">
+    <value>信息必须有文本内容才能进行分析。</value>
+  </data>
+  <data name="auto_ban_title" xml:space="preserve">
+    <value>汽车禁令 </value>
+  </data>
+  <data name="auto_ban_invite" xml:space="preserve">
+    <value>用户名 邀请</value>
+  </data>
+  <data name="auto_ban_new" xml:space="preserve">
+    <value>新账户</value>
+  </data>
+  <data name="auto_ban_avatar" xml:space="preserve">
+    <value>无头像</value>
+  </data>
+  <data name="auto_ban_non_verified" xml:space="preserve">
+    <value>未验证的机器人</value>
+  </data>
+  <data name="giveaway_no_active" xml:space="preserve">
+    <value>目前没有活动赠品。</value>
+  </data>
+  <data name="giveaways" xml:space="preserve">
+    <value>积极赠送</value>
+  </data>
+  <data name="giveaway_doesnt_exist" xml:space="preserve">
+    <value>该赠品不存在或已经结束。</value>
+  </data>
+  <data name="ends_at" xml:space="preserve">
+    <value>结束：</value>
+  </data>
+  <data name="error_exists_channel" xml:space="preserve">
+    <value>该频道不存在，或者我无法查看。</value>
+  </data>
+  <data name="error_exists_message" xml:space="preserve">
+    <value>该信息不存在，或者我没有权限查看。</value>
+  </data>
+  <data name="giveaway_end_early" xml:space="preserve">
+    <value>成功地提前结束了赠品活动。</value>
+  </data>
+  <data name="giveaway_reroll" xml:space="preserve">
+    <value>成功重选获奖者。新获奖者</value>
+  </data>
+  <data name="giveaway_created" xml:space="preserve">
+    <value>成功创建赠品。</value>
+  </data>
+  <data name="giveaway_entry_success" xml:space="preserve">
+    <value>成功参加了赠品活动。</value>
+  </data>
+  <data name="giveaway_entry_error" xml:space="preserve">
+    <value>您已离开赠品区。</value>
+  </data>
+  <data name="file_invalid_size" xml:space="preserve">
+    <value>文件大小过大。最大大小： {0}。</value>
+  </data>
+  <data name="music_embed_exists" xml:space="preserve">
+    <value>歌曲请求嵌入已存在。如果无效或过时，可以删除信息并重新运行 `/setup songrequest`。</value>
+  </data>
+  <data name="error_ticket_blacklist" xml:space="preserve">
+    <value>您的某个角色已被列入黑名单，无法在此服务器中创建新票单。</value>
+  </data>
+  <data name="ticket_rating" xml:space="preserve">
+    <value>评级</value>
+  </data>
+  <data name="ticket_opened_by" xml:space="preserve">
+    <value>开票人：</value>
+  </data>
+  <data name="ticket_rating_content" xml:space="preserve">
+    <value>**请对帮助过您的工作人员的经历进行评分。**
+您可以通过按下此消息上的一个编号按钮来进行评分。
+```如果您不想为该工作人员评分，可以忽略此信息。```</value>
+  </data>
+  <data name="ticket_rating_pending_send" xml:space="preserve">
+    <value>待发送...</value>
+  </data>
+  <data name="ticket_rating_pending" xml:space="preserve">
+    <value>已发送，等待评级...</value>
+  </data>
+  <data name="ticket_rating_disabled" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="ticket_rating_failed" xml:space="preserve">
+    <value>发送失败。</value>
+  </data>
+  <data name="ticket_rating_thanks" xml:space="preserve">
+    <value>感谢您的反馈！</value>
+  </data>
+  <data name="ticket_reply_counts" xml:space="preserve">
+    <value>回复计数：</value>
+  </data>
+  <data name="auto_ban_numbers_only" xml:space="preserve">
+    <value>用户名只是数字</value>
+  </data>
+  <data name="error_add_reactions" xml:space="preserve">
+    <value>添加反应失败，请确认机器人在此频道中拥有正确的权限。</value>
+  </data>
+  <data name="error_ticket_create" xml:space="preserve">
+    <value>创建票单类别或票单失败。请确认机器人拥有正确的权限。</value>
+  </data>
+  <data name="error_no_valid_links" xml:space="preserve">
+    <value>未在邮件中检测到有效的 URL/链接。</value>
+  </data>
+  <data name="error_ship_same" xml:space="preserve">
+    <value>你不能把用户和他们自己一起运走。</value>
+  </data>
+  <data name="music_voteskip_2_plural" xml:space="preserve">
+    <value>您已投票赞成跳过， {0} ，还需更多投票。</value>
+  </data>
+  <data name="music_voteskip_3_plural" xml:space="preserve">
+    <value>您已投票跳过，因此已被删除。您可以再次输入 `/skip`，重新添加。 {0} ，需要更多投票。</value>
+  </data>
+  <data name="xp_import_start" xml:space="preserve">
+    <value>开始导入配平数据，这需要几分钟时间。</value>
+  </data>
+  <data name="xp_import_error" xml:space="preserve">
+    <value>导入等级数据失败。确保您的排行榜设置为 "公开"。</value>
+  </data>
+  <data name="xp_import_success" xml:space="preserve">
+    <value>成功导入等级数据。点击下面的按钮即可查看排行榜。</value>
+  </data>
+  <data name="xp_export_success" xml:space="preserve">
+	  <value>Successfully exported Cakey Bot leveling data. You can view them in the attached text file.</value>
+  </data>
+  <data name="xp_export_error" xml:space="preserve">
+    <value>导出数据出错。可能还没有任何用户数据要导出。</value>
+  </data>
+  <data name="birthday_error_future" xml:space="preserve">
+    <value>你不能把生日定在未来！</value>
+  </data>
+  <data name="error_invalid_message_id" xml:space="preserve">
+    <value>错误：信息 ID 无效。</value>
+  </data>
+  <data name="music_player_active" xml:space="preserve">
+    <value>有用户重新加入语音通道。自动断开已取消。</value>
+  </data>
+  <data name="transcription_audio_too_short" xml:space="preserve">
+    <value>音频文件太短，无法转录。</value>
+  </data>
+  <data name="transcription_error_generic" xml:space="preserve">
+    <value>转录时出现未知错误。</value>
+  </data>
+  <data name="unlock_with_premium" xml:space="preserve">
+    <value>解锁更多高级功能</value>
+  </data>
+  <data name="imagine_generation_done" xml:space="preserve">
+    <value>完成图像生成！</value>
+  </data>
+  <data name="imagine_style" xml:space="preserve">
+    <value>风格</value>
+  </data>
+  <data name="imagine_prompt" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="music_voteskip_5" xml:space="preserve">
+    <value>跳过 {0}的投票</value>
+  </data>
+  <data name="generic_ban_user" xml:space="preserve">
+    <value>禁止用户</value>
+  </data>
+  <data name="ban_sync_unban_button" xml:space="preserve">
+    <value>解禁</value>
+  </data>
+  <data name="ban_sync_unban_description" xml:space="preserve">
+    <value>用户 {0} ({1}) 在服务器 {2}中被解禁</value>
+  </data>
+  <data name="reminder_delete_success" xml:space="preserve">
+    <value>成功删除提醒。</value>
+  </data>
+  <data name="reminder_list_none" xml:space="preserve">
+    <value>您目前没有任何提醒。</value>
+  </data>
+  <data name="info_string_49" xml:space="preserve">
+    <value>加入职位</value>
+  </data>
+  <data name="error_generic_permission" xml:space="preserve">
+    <value>执行操作失败。Cakey Bot 可能缺乏适当的权限。</value>
+  </data>
+  <data name="bulk_modify_users_start" xml:space="preserve">
+	  <value>Updating users, this can take a while.
+Note: A message will be sent upon completion.</value>
+  </data>
+  <data name="economy_pay_success" xml:space="preserve">
+	  <value>Successfully sent {0} to &lt;@{1}&gt;.</value>
+  </data>
+  <data name="economy_insufficient_balance" xml:space="preserve">
+    <value>您没有足够的钱来执行此操作。</value>
+  </data>
+  <data name="economy_balance" xml:space="preserve">
+	  <value>&lt;@{0}&gt;'s balance is currently: {1}.</value>
+  </data>
+  <data name="economy_insufficient_balance_rob" xml:space="preserve">
+    <value>目标用户没有足够的资金执行此操作。</value>
+  </data>
+  <data name="economy_rob_success_1" xml:space="preserve">
+	  <value>Oops, the police showed up and you lost {0}.</value>
+  </data>
+  <data name="economy_rob_fail" xml:space="preserve">
+    <value>&lt;@{0}&gt; 成功逃脱。你没有得到或失去任何东西。</value>
+  </data>
+  <data name="economy_rob_success_2" xml:space="preserve">
+	  <value>&lt;@{0}&gt; defended themselves and you lost {1} to them.</value>
+  </data>
+  <data name="economy_rob_success_3" xml:space="preserve">
+	  <value>You scared &lt;@{0}&gt; a little bit and managed to get {1}.</value>
+  </data>
+  <data name="economy_rob_success_4" xml:space="preserve">
+	  <value>You successfully robbed &lt;@{0}&gt; for {1}.</value>
+  </data>
+  <data name="economy_rob_success_5" xml:space="preserve">
+	  <value>You were super successful robbing &lt;@{0}&gt; and made out with {1}!</value>
+  </data>
+  <data name="economy_work_success" xml:space="preserve">
+	  <value>You went to work and successfully made {0}.</value>
+  </data>
+  <data name="economy_work_failed" xml:space="preserve">
+	  <value>Instead of going to work, you paid {0} in taxes.</value>
+  </data>
+  <data name="economy_beg_fail" xml:space="preserve">
+    <value>You couldn't even beg for money. :(</value>
+  </data>
+  <data name="economy_beg_success" xml:space="preserve">
+	  <value>You successfully begged for money and gained {0}.</value>
+  </data>
+  <data name="generic_confirm" xml:space="preserve">
+    <value>You must confirm this action using the confirm option.</value>
+  </data>
+  <data name="generic_reset_success" xml:space="preserve">
+    <value>Successfully reset the data.</value>
+  </data>
+  <data name="economy_manage_success" xml:space="preserve">
+	  <value>Successfully updated {0}'s balance. New balance: {1}</value>
+  </data>
+  <data name="economy_bet_success" xml:space="preserve">
+	  <value>You successfully guessed the correct answer and won {0}. Result: {1}.</value>
+  </data>
+  <data name="economy_bet_fail" xml:space="preserve">
+	  <value>You didn't guess the answer correctly and lost your bet of {0}. Result: {1}.</value>
+  </data>
+  <data name="eco_game_select" xml:space="preserve">
+    <value>请选择您的移动。</value>
+  </data>
+  <data name="eco_game_another_player" xml:space="preserve">
+    <value>另一名玩家已经进入游戏，成为 {0}玩家。</value>
+  </data>
+  <data name="eco_game_selected" xml:space="preserve">
+    <value>您已经选择了移动。</value>
+  </data>
+  <data name="eco_game_enter" xml:space="preserve">
+    <value>您以玩家 {0}的身份进入游戏。</value>
+  </data>
+  <data name="eco_game_play_name" xml:space="preserve">
+    <value>点击下面的按钮播放 {0}。</value>
+  </data>
+  <data name="eco_game_amount" xml:space="preserve">
+    <value>金额：</value>
+  </data>
+  <data name="eco_game_play" xml:space="preserve">
+    <value>点击播放</value>
+  </data>
+  <data name="news_subscribe_success" xml:space="preserve">
+    <value>成功重新订阅社区新闻！</value>
+  </data>
+  <data name="news_unsubscribe_failed" xml:space="preserve">
+    <value>退订失败。您仍可在服务器的集成设置中删除 Cakey Bot 的网络钩子，从而手动取消订阅。</value>
+  </data>
+  <data name="news_unsubscribe_success" xml:space="preserve">
+    <value>成功取消订阅社区新闻！</value>
+  </data>
+  <data name="news_resubscribe" xml:space="preserve">
+    <value>重新订阅</value>
+  </data>
+  <data name="news_unsubscribe" xml:space="preserve">
+    <value>取消订阅</value>
+  </data>
+  <data name="sticky_max" xml:space="preserve">
+    <value>You have reached the maximum amount of sticky messages for this server.</value>
+  </data>
+  <data name="sticky_success" xml:space="preserve">
+    <value>Sticky message created successfully.</value>
+  </data>
+  <data name="sticky_delete_success" xml:space="preserve">
+    <value>Successfully deleted the sticky message.</value>
+  </data>
+  <data name="sticky_embed_premium" xml:space="preserve">
+    <value>Premium is required to use a custom embed URL.</value>
+  </data>
+  <data name="sticky_delay_premium" xml:space="preserve">
+    <value>Premium is required to set a custom delay.</value>
+  </data>
+  <data name="sticky_min_messages_premium" xml:space="preserve">
+    <value>Premium is required to set a custom minimum message value.</value>
+  </data>
+  <data name="sticky_exists" xml:space="preserve">
+    <value>The selected channel already has a sticky message.</value>
+  </data>
+  <data name="music_bot_premium_only" xml:space="preserve">
+    <value>The additional music bots can only be used in premium servers.</value>
+  </data>
+  <data name="report_finished" xml:space="preserve">
+    <value>Marked Finished</value>
+  </data>
+  <data name="report_finished_success" xml:space="preserve">
+    <value>Successfully marked the report as finished.</value>
+  </data>
+  <data name="report_unfinished_success" xml:space="preserve">
+    <value>Successfully marked the report as unfinished.</value>
+  </data>
+  <data name="report_claim" xml:space="preserve">
+    <value>Claim</value>
+  </data>
+  <data name="report_finish" xml:space="preserve">
+    <value>Mark Finished</value>
+  </data>
+  <data name="report_unfinish" xml:space="preserve">
+    <value>Mark Unfinished</value>
+  </data>
+  <data name="report_unfinished" xml:space="preserve">
+    <value>Marked Unfinished</value>
+  </data>
+  <data name="report_unclaim" xml:space="preserve">
+    <value>Unclaim</value>
+  </data>
+  <data name="report_claim_success" xml:space="preserve">
+    <value>Successfully claimed report.</value>
+  </data>
+  <data name="report_claimed_by" xml:space="preserve">
+    <value>Claimed By:</value>
+  </data>
+  <data name="report_unclaim_success" xml:space="preserve">
+    <value>Successfully unclaimed the report.</value>
+  </data>
+  <data name="economy_no_items" xml:space="preserve">
+    <value>No items found.</value>
+  </data>
+  <data name="economy_bet_success_2" xml:space="preserve">
+	  <value>You were close to the answer and won {0}. Result: {1}.</value>
+  </data>
+  <data name="games_coin_side" xml:space="preserve">
+    <value>Side
+Wow! That's only a 0.02% chance of happening!</value>
+	</data>
+	<data name="economy_bet_success_side" xml:space="preserve">
+		<value>The coin landed on it's side! That's only a 0.02% chance. You've been awarded 2x your bet!</value>
+	</data>
+	<data name="economy_owned_items" xml:space="preserve">
+		<value>Owned items are not displayed in the dropdown.</value>
+	</data>
+	<data name="music_embed_not_setup" xml:space="preserve">
+		<value>There is no song request channel configured.</value>
+	</data>
+	<data name="music_embed_unset" xml:space="preserve">
+		<value>Song request channel has been unset.</value>
+	</data>
+	<data name="economy_coinflip_side" xml:space="preserve">
+		<value>You can not guess side, please choose another.</value>
+	</data>
+	<data name="generic_reset_none" xml:space="preserve">
+		<value>No valid data found.</value>
+	</data>
+	<data name="achievement_unlocked" xml:space="preserve">
+		<value>Achievement Unlocked!</value>
+	</data>
+	<data name="achievement_message" xml:space="preserve">
+		<value>Congratulations {0}! You have unlocked the achievement: **{1}**! 🥳</value>
+	</data>
+	<data name="achievement_none" xml:space="preserve">
+		<value>No achievement found.</value>
+	</data>
+	<data name="automod_string_generic" xml:space="preserve">
+		<value>Your message was deleted for containing {0}</value>
+	</data>
+  <data name="core_commands_user_install" xml:space="preserve">
+	  <value>User Installs</value>
+  </data>
+  <data name="role_invalid" xml:space="preserve">
+	  <value>Invalid Role</value>
+  </data>
+  <data name="core_sr_removed_1" xml:space="preserve">
+	  <value>Successfully removed available self role.</value>
+  </data>
+  <data name="core_sr_added_2" xml:space="preserve">
+	  <value>Successfully added `{0}` as a self role.</value>
+  </data>
+  <data name="core_sr_added_1" xml:space="preserve">
+	  <value>Role already exists as a self role.</value>
+  </data>
+  <data name="error_invalid_user_generic" xml:space="preserve">
+	  <value>Invalid user.</value>
+  </data>
+  <data name="random_user_error" xml:space="preserve">
+	  <value>Could not select a random user. Please try again.</value>
+  </data>
+  <data name="random_user_selected" xml:space="preserve">
+	  <value>{0}! You know there is no other. I choose you!</value>
+  </data>
+  <data name="error_invalid_channel_generic" xml:space="preserve">
+	  <value>Invalid channel.</value>
+  </data>
+  <data name="temp_voice_none" xml:space="preserve">
+	  <value>You don't currently have a voice channel.</value>
+  </data>
+  <data name="temp_voice_created" xml:space="preserve">
+	  <value>Created voice channel lobby: &lt;#{0}&gt;.</value>
+  </data>
+  <data name="temp_voice_cleared" xml:space="preserve">
+	  <value>Temporary voice lobby has been cleared along with any existing lobby channels.</value>
+  </data>
+  <data name="temp_voice_error_not" xml:space="preserve">
+	  <value>This channel is not a temporary voice channel.</value>
+  </data>
+  <data name="temp_voice_deleted" xml:space="preserve">
+	  <value>Temporary voice channel `{0}` has been deleted.</value>
+  </data>
+  <data name="temp_voice_toggle" xml:space="preserve">
+	  <value>Channel privacy has been set to {0}.</value>
+  </data>
+  <data name="temp_voice_error_clear" xml:space="preserve">
+	  <value>A temporary voice lobby already exists for this server.
+		  You can clear it with `/temp-voice admin clear-lobby`.
+		  ```Note: You can freely rename the category and lobby channel.```</value>
+  </data>
+  <data name="thread_tags" xml:space="preserve">
+	  <value>Thread Tags:</value>
+  </data>
+  <data name="generic_verify" xml:space="preserve">
+	  <value>Verify</value>
+  </data>
+  <data name="verify_title" xml:space="preserve">
+	  <value>Verification Required</value>
+  </data>
+  <data name="verify_desccription" xml:space="preserve">
+	  <value>Welcome to the Server! 
+Please click the button below to verify your account before you can access the server.</value>
+  </data>
+  <data name="verify_command" xml:space="preserve">
+	  <value>You need to run the {0} command to verify.</value>
+  </data>
+  <data name="error_verify_password_missing" xml:space="preserve">
+	  <value>No password has been set.</value>
+  </data>
+  <data name="error_verify_password" xml:space="preserve">
+	  <value>Incorrect Password/Code.</value>
+  </data>
+  <data name="verify_success" xml:space="preserve">
+	  <value>You have successfully verified yourself.</value>
+  </data>
+  <data name="verify_success_setup" xml:space="preserve">
+	  <value>Successfully sent message.</value>
+  </data>
+  <data name="error_verification_type" xml:space="preserve">
+	  <value>A different verification method is required.</value>
+  </data>
+  <data name="error_invalid_webhook" xml:space="preserve">
+	  <value>Invalid webhook</value>
+  </data>
+  <data name="giveaway_entry_xp_error" xml:space="preserve">
+	  <value>You do not meet the required XP level (`{0}`) to enter this giveaway.</value>
+  </data>
+  <data name="starboard_not_enabled" xml:space="preserve">
+	  <value>Starboard is not currently enabled.</value>
+  </data>
+  <data name="starboard_force_success" xml:space="preserve">
+	  <value>Successfully force starred message.</value>
+  </data>
+  <data name="achievement_revoked" xml:space="preserve">
+	  <value>Achievement Revoked!</value>
+  </data>
+  <data name="achievement_already_unlocked" xml:space="preserve">
+	  <value>User already has the achievement.</value>
+  </data>
+  <data name="achievement_not_unlocked" xml:space="preserve">
+	  <value>User doesn't have the achievement.</value>
+  </data>
+  <data name="games_suggestion_approve" xml:space="preserve">
+	  <value>Approve</value>
+  </data>
+  <data name="games_suggestion_deny" xml:space="preserve">
+	  <value>Deny</value>
+  </data>
+  <data name="games_suggestion_discuss" xml:space="preserve">
+	  <value>Create Discussion Thread</value>
+  </data>
+  <data name="games_suggestion_success" xml:space="preserve">
+	  <value>Successfully voted.</value>
+  </data>
+  <data name="games_suggestion_status_success" xml:space="preserve">
+	  <value>Successfully updated status.</value>
+  </data>
+  <data name="games_suggestion_discuss_thread_exists" xml:space="preserve">
+	  <value>A discussion thread already exists.</value>
+  </data>
+  <data name="games_suggestion_vote_error" xml:space="preserve">
+	  <value>Your vote has been swapped.</value>
+  </data>
+  <data name="games_suggestion_remove" xml:space="preserve">
+	  <value>Successfully removed vote.</value>
+  </data>
+  <data name="games_suggestion_denied_by" xml:space="preserve">
+	  <value>Denied by: {0}</value>
+  </data>
+  <data name="games_suggestion_approved_by" xml:space="preserve">
+	  <value>Approved by: {0}</value>
+  </data>
+  <data name="games_suggestion_discuss_success" xml:space="preserve">
+	  <value>Successfully created the thread.</value>
+  </data>
+  <data name="economy_transfers_disabled" xml:space="preserve">
+	  <value>Money transfers between users has been disabled by the server admins.</value>
+  </data>
+  <data name="generic_invalid_selection" xml:space="preserve">
+	  <value>Invalid selection.</value>
+  </data>
+  <data name="economy_owned_error" xml:space="preserve">
+	  <value>You already own this.</value>
+  </data>
+  <data name="economy_purchased" xml:space="preserve">
+	  <value>You have successfully purchased `{0}` for {1}.</value>
+  </data>
+  <data name="eco_game_amount_final" xml:space="preserve">
+	  <value>Actual Amount:</value>
+  </data>
+  <data name="generic_modifier" xml:space="preserve">
+	  <value>Modifier:</value>
+  </data>
+  <data name="setup_autopublish_not_news" xml:space="preserve">
+	  <value>Current channel is not a news channel.</value>
+  </data>
+  <data name="setup_autopublish_enabled" xml:space="preserve">
+	  <value>Successfully enabled auto publish.</value>
+  </data>
+  <data name="setup_autopublish_disabled" xml:space="preserve">
+	  <value>Successfully disabled auto publish.</value>
+  </data>
+  <data name="ticket_remind" xml:space="preserve">
+	  <value>This is a reminder that your ticket in `{0}` is still open. Please respond if you still need assistance.</value>
+  </data>
+  <data name="ticket_request_cancel" xml:space="preserve">
+	  <value>Successfully canceled the request.</value>
+  </data>
+  <data name="ticket_deny_request" xml:space="preserve">
+	  <value>{0} has denied the ticket close request.</value>
+  </data>
+  <data name="ticket_request_close" xml:space="preserve">
+	  <value>{0} has requested to close this ticket. Reason:
+
+```{1}```</value>
+  </data>
+  <data name="ticket_request_footer" xml:space="preserve">
+	  <value>Please accept or deny using the buttons below.</value>
+  </data>
+  <data name="ticket_request_accept" xml:space="preserve">
+	  <value>Accept &amp; Close</value>
+  </data>
+  <data name="ticket_request_deny" xml:space="preserve">
+	  <value>Deny &amp; Keep Open</value>
+  </data>
+  <data name="ticket_remind_success" xml:space="preserve">
+	  <value>&lt;@{0}&gt; sent a reminder to &lt;@{1}&gt;.</value>
+  </data>
+  <data name="generic_no_data" xml:space="preserve">
+	  <value>No data found in database.</value>
+  </data>
+  <data name="streaks_opt_out" xml:space="preserve">
+	  <value>Successfully toggled opt-out status. Currently: `{0}`.</value>
+  </data>
+  <data name="streaks_top" xml:space="preserve">
+	  <value>Top Streaks</value>
+  </data>
+  <data name="streaks_current" xml:space="preserve">
+	  <value>Current Streak</value>
+  </data>
+  <data name="streaks_highest" xml:space="preserve">
+	  <value>Highest Streak</value>
+  </data>
+  <data name="music_playing_modify" xml:space="preserve">
+	  <value>A song must be playing to modify it.</value>
+  </data>
+  <data name="error_failed_modify_user" xml:space="preserve">
+	  <value>Failed to modify the user.</value>
+  </data>
+  <data name="ticket_auto_remind" xml:space="preserve">
+	  <value>This ticket has been inactive for {0} days. Please respond soon or the ticket will be closed.</value>
+  </data>
+  <data name="ticket_auto_close" xml:space="preserve">
+	  <value>This ticket has been inactive for {0} days and has been closed.</value>
+  </data>
+  <data name="streaks_reminder_soon" xml:space="preserve">
+	  <value>Your streak will be reset to 1 in 12 hours if you don't send a message in `{0}` ({1}).</value>
+  </data>
+  <data name="streaks_reset" xml:space="preserve">
+	  <value>Streak Reset</value>
+  </data>
+  <data name="streaks_reminder_reset" xml:space="preserve">
+	  <value>Your streak has been reset to 1 as you haven't sent a message in over 48 hours. Affected server: `{0}` ({1})</value>
+  </data>
+  <data name="generic_opt_out" xml:space="preserve">
+	  <value>Opt-Out</value>
+  </data>
+  <data name="generic_opt_in" xml:space="preserve">
+	  <value>Opt-In</value>
+  </data>
+  <data name="error_ephemeral" xml:space="preserve">
+	  <value>This action can't be done to an ephemeral message.</value>
+  </data>
+  <data name="notes_list" xml:space="preserve">
+	  <value>Notes:</value>
+  </data>
+</root>

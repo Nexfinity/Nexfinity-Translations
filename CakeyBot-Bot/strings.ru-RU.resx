@@ -1,0 +1,2547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="module_disabled" xml:space="preserve">
+    <value>Этот модуль был отключен администраторами сервера.</value>
+  </data>
+  <data name="command_disabled" xml:space="preserve">
+    <value>Эта команда временно отключена до обновлений.</value>
+  </data>
+  <data name="error_generic_2" xml:space="preserve">
+    <value>Произошла неизвестная ошибка. Пожалуйста, сообщите о ней в нашем Discord сервере: &lt;https://cakey.bot/discord&gt;</value>
+  </data>
+	<data name="error_limit_characters_10" xml:space="preserve">
+    <value>Длина текста должна быть меньше 10 символов.</value>
+  </data>
+  <data name="error_missing_perm_manageroles" xml:space="preserve">
+    <value>У вас нет права "Управлять ролями"!</value>
+  </data>
+  <data name="error_missing_perm_manageserver" xml:space="preserve">
+    <value>У вас нет права "Управлять сервером"!</value>
+  </data>
+  <data name="error_missing_perm_moderator" xml:space="preserve">
+    <value>Вы должны иметь права модератора, чтобы использовать эту команду [Подробнее](https://cakey.bot/faq.html#what-is-considered-a-server-moderator)</value>
+  </data>
+  <data name="error_missing_perm_mute" xml:space="preserve">
+    <value>У вас нет права "Заглушать участников"!</value>
+  </data>
+  <data name="error_missing_perm_other_admin" xml:space="preserve">
+    <value>Я не могу сделать это Администратору!</value>
+  </data>
+  <data name="error_missing_file_image_3" xml:space="preserve">
+    <value>Не удалось обнаружить изображение в этом сообщении.</value>
+  </data>
+  <data name="error_missing_file_image_5" xml:space="preserve">
+    <value>Не удалось найти изображение в последних 5 сообщениях.</value>
+  </data>
+  <data name="error_failed_image_download" xml:space="preserve">
+    <value>Не удалось загрузить изображение.</value>
+  </data>
+  <data name="error_failed_image_modify" xml:space="preserve">
+    <value>Не удалось изменить изображение.</value>
+  </data>
+  <data name="error_failed_image_upload" xml:space="preserve">
+    <value>Нет разрешения на загрузку файлов.</value>
+  </data>
+  <data name="error_failed_joke" xml:space="preserve">
+    <value>Не удалось загрузить шутку.</value>
+  </data>
+  <data name="error_failed_result" xml:space="preserve">
+	  <value>Поиск не удался. *Коротки запросы работают лучше всего*</value>
+  </data>
+  <data name="error_failed_article" xml:space="preserve">
+    <value>Не удалось найти статью.</value>
+  </data>
+  <data name="error_failed_unban_not_banned_2" xml:space="preserve">
+    <value>Пользователь с этим id не был заблокирован.</value>
+  </data>
+  <data name="error_failed_unmute_not_muted" xml:space="preserve">
+    <value>Пользователь не замучен. Если это не так, убедитесь, что в web-панели установлена роль мута или на сервере есть роли с названием `Muted`.</value>
+  </data>
+  <data name="error_failed_playlist_save" xml:space="preserve">
+    <value>Не удалось сохранить песни в плейлист. Плейлист с таким именем уже существует?</value>
+  </data>
+  <data name="error_failed_playlist_load" xml:space="preserve">
+    <value>Не удалось найти плейлист. Правильно ли вы ввели название?</value>
+  </data>
+  <data name="error_failed_playlist_delete" xml:space="preserve">
+    <value>Не удалось удалить ваш плейлист `{0}`. Существует ли этот плейлист?</value>
+  </data>
+  <data name="error_role_1" xml:space="preserve">
+    <value>Я не могу изменить эту роль, она выше моей самой высокой роли.</value>
+  </data>
+  <data name="error_role_2" xml:space="preserve">
+    <value>Я не могу изменить эту роль, она выше Вашей самой высокой роли.</value>
+  </data>
+  <data name="error_role_warn_1" xml:space="preserve">
+    <value>Вы не можете выдать предупреждение кому-либо с ролью, равной или выше Вашей самой высокой роли!</value>
+  </data>
+  <data name="error_role_warn_2" xml:space="preserve">
+    <value>Я не могу выдать предупреждение кому-либо с ролью, равной или выше моей самой высокой роли!</value>
+  </data>
+  <data name="error_invalid_color_hex" xml:space="preserve">
+    <value>Используйте корректный hex код!</value>
+  </data>
+  <data name="error_invalid_dice" xml:space="preserve">
+    <value>Пожалуйста, введите корректное число (1-15) или введите бросок DND кубика.</value>
+  </data>
+  <data name="error_invalid_user_missing" xml:space="preserve">
+    <value>Никнейм не существует!</value>
+  </data>
+  <data name="error_invalid_user_guild" xml:space="preserve">
+    <value>Недействительный пользователь. (Недействительный пользователь сервера)</value>
+  </data>
+  <data name="error_invalid_base64" xml:space="preserve">
+    <value>Пожалуйста, укажите корректную строку base64.</value>
+  </data>
+  <data name="error_usage_poll" xml:space="preserve">
+    <value>Пожалуйста, введите корректный вопрос. Использование: `/poll &lt;question&gt; | &lt;answer1&gt; | &lt;answer2&gt; | &lt;answer3&gt; | etc&gt;`</value>
+  </data>
+  <data name="error_usage_rps" xml:space="preserve">
+    <value>Пожалуйста, введите правильный ход: `/rps &lt; rock | paper | scissors &gt;`</value>
+  </data>
+  <data name="error_usage_verify_set" xml:space="preserve">
+    <value>Роль верификации не установлена. Установите её с помощью: `/setup verifyrole &lt;role&gt;`</value>
+  </data>
+  <data name="success_verify" xml:space="preserve">
+    <value>Успешно установите роль верификации: `{0}`.</value>
+  </data>
+  <data name="success_role_added" xml:space="preserve">
+    <value>Роль `{0}` успешно выдана {1}.</value>
+  </data>
+  <data name="success_role_removed" xml:space="preserve">
+    <value>Роль `{0}` успешно снята с {1}.</value>
+  </data>
+  <data name="games_suggestion_title" xml:space="preserve">
+    <value>Заголовок:</value>
+  </data>
+  <data name="games_suggestion_description" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="games_suggestion_created" xml:space="preserve">
+    <value>Предложение создано {0}</value>
+  </data>
+  <data name="games_8ball_question" xml:space="preserve">
+    <value>Вопрос:</value>
+  </data>
+  <data name="games_8ball_answer" xml:space="preserve">
+    <value>Ответ:</value>
+  </data>
+  <data name="games_poll_vote" xml:space="preserve">
+    <value>Голосование:</value>
+  </data>
+  <data name="games_poll_created" xml:space="preserve">
+    <value>Опрос создан {0}</value>
+  </data>
+  <data name="games_coin_heads" xml:space="preserve">
+    <value>Орёл</value>
+  </data>
+  <data name="games_coin_tails" xml:space="preserve">
+    <value>Решка</value>
+  </data>
+  <data name="generic_results" xml:space="preserve">
+    <value>Результаты:</value>
+  </data>
+  <data name="games_coin_flipped" xml:space="preserve">
+    <value>Вам выпало:</value>
+  </data>
+  <data name="games_dice_total" xml:space="preserve">
+    <value>Всего:</value>
+  </data>
+  <data name="games_dice_result_single" xml:space="preserve">
+    <value>Вы бросили кубик. Результат:</value>
+  </data>
+  <data name="games_dice_result_multiple" xml:space="preserve">
+    <value>Бросок #{i1}:</value>
+  </data>
+  <data name="games_dice_result_rolled" xml:space="preserve">
+    <value>Выпало {0}</value>
+  </data>
+  <data name="games_rps_outcome_1" xml:space="preserve">
+    <value>Я выбрал {0}; {1} бьет {2}. Я победил!</value>
+  </data>
+  <data name="games_rps_outcome_2" xml:space="preserve">
+    <value>Я выбрал {0}; {1} бьет {2}. Вы победили!</value>
+  </data>
+  <data name="games_rps_outcome_3" xml:space="preserve">
+    <value>Я выбрал {0}. Мы оба выбрали {1}, ничья!</value>
+  </data>
+  <data name="games_trivia_title" xml:space="preserve">
+    <value>Викторина {0}</value>
+  </data>
+  <data name="games_trivia_footer" xml:space="preserve">
+    <value>Напишите букву, соответствующую правильному ответу • Вопрос #{0}</value>
+  </data>
+  <data name="games_trivia_instructions" xml:space="preserve">
+    <value>*У вас есть 10 секунд на ответ*
+
+</value>
+  </data>
+  <data name="games_trivia_difficulty" xml:space="preserve">
+    <value>Сложность</value>
+  </data>
+  <data name="games_trivia_category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="games_trivia_timeout" xml:space="preserve">
+    <value>В течение 10 секунд не было дано ни одного ответа. Правильный ответ: `{0}`</value>
+  </data>
+  <data name="games_trivia_invalid" xml:space="preserve">
+    <value>Был дан неверный ответ. В следующий раз укажите только букву. Правильный ответ: `{0}`</value>
+  </data>
+  <data name="games_trivia_valid" xml:space="preserve">
+    <value>Допустимыми ответы: `A`, `B`, `C` или `D`.</value>
+  </data>
+  <data name="games_trivia_correct" xml:space="preserve">
+    <value>Верно! :D</value>
+  </data>
+  <data name="games_trivia_incorrect" xml:space="preserve">
+    <value>О нет, вы ошиблись. Правильный ответ: `{0}`</value>
+  </data>
+  <data name="games_trivia_load_failed" xml:space="preserve">
+    <value>Не удалось загрузить вопросы для викторины. Пожалуйста, повторите попытку позже.</value>
+  </data>
+  <data name="afk" xml:space="preserve">
+    <value>{0} сейчас AFK, Причина: `{1}`</value>
+  </data>
+  <data name="afk_not_active_1" xml:space="preserve">
+    <value>Сейчас вы не AFK.</value>
+  </data>
+  <data name="afk_not_active_2" xml:space="preserve">
+    <value>Этот пользователь сейчас не AFK.</value>
+  </data>
+  <data name="afk_active" xml:space="preserve">
+    <value>Сейчас вы AFK с сообщением: `{0}`</value>
+  </data>
+  <data name="afk_failed" xml:space="preserve">
+    <value>Не удалось установить сообщение AFK.</value>
+  </data>
+  <data name="afk_set" xml:space="preserve">
+    <value>Вы успешно стали AFK с сообщением: `{0}`</value>
+  </data>
+  <data name="afk_removed_1" xml:space="preserve">
+    <value>Вы больше не AFK.</value>
+  </data>
+  <data name="afk_removed_2" xml:space="preserve">
+    <value>Успешно снят статус AFK с {0}.</value>
+  </data>
+  <data name="afk_updated" xml:space="preserve">
+    <value>Успешно изменено ваше сообщение AFK на: `{0}`</value>
+  </data>
+  <data name="afk_permission" xml:space="preserve">
+    <value>Вы должны иметь право "Управлять сервером" или "Администратор", чтобы удалить статус AFK другого пользователя.</value>
+  </data>
+  <data name="mod_kick_success" xml:space="preserve">
+    <value>{0} успешно выгнан.</value>
+  </data>
+  <data name="mod_kick_dm" xml:space="preserve">
+    <value>Вы были выгнаны из `{0}` пользователем `{1}` за: `{2}`</value>
+  </data>
+  <data name="mod_unban_success" xml:space="preserve">
+    <value>{0} успешно разблокирован.</value>
+  </data>
+  <data name="mod_ban_success" xml:space="preserve">
+    <value>{0} успешно заблокирован.</value>
+  </data>
+  <data name="mod_ban_dm" xml:space="preserve">
+    <value>Вы были заблокированы в `{0}` пользователем `{1}` за: `{2}`</value>
+  </data>
+  <data name="mod_ban_temp_success" xml:space="preserve">
+    <value>{0} будет разблокирован &lt;t:{1}:R&gt;</value>
+  </data>
+  <data name="mod_mute_success" xml:space="preserve">
+    <value>{0} успешно замучен.</value>
+  </data>
+  <data name="mod_mute_dm" xml:space="preserve">
+    <value>Вы были замучены в `{0}` пользователем `{1}` за: `{2}`</value>
+  </data>
+  <data name="mod_mute_role_error" xml:space="preserve">
+    <value>Не удалось найти или создать роль мута.</value>
+  </data>
+  <data name="mod_unmute_success" xml:space="preserve">
+    <value>{0} был успешно размучен.</value>
+  </data>
+  <data name="mod_warn_success" xml:space="preserve">
+    <value>Успешно выдано предупреждение {0} за: `{1}`.
+**Всего предупреждений:** {2} - **ID Предупреждения:** {3} - **Модератор:** {4}</value>
+  </data>
+  <data name="mod_warn_dm" xml:space="preserve">
+    <value>Вам было выдано предупреждение в `{0}` пользователем `{1}` за: `{2}`</value>
+  </data>
+  <data name="mod_unwarn_success" xml:space="preserve">
+    <value>Предупреждение успешно снято с: `{0}`</value>
+  </data>
+  <data name="mod_unwarn_error_invalid" xml:space="preserve">
+    <value>Указанный ID предупреждения недействителен.</value>
+  </data>
+  <data name="mod_clearwarnings_success" xml:space="preserve">
+    <value>Успешно сняты все предупреждения с `{0}`</value>
+  </data>
+  <data name="mod_purge_none_2" xml:space="preserve">
+    <value>Не найдено сообщений, удовлетворяющих критериям.</value>
+  </data>
+  <data name="mod_purge_success" xml:space="preserve">
+    <value>**{0} сообщений очищено {1} в &lt;#{2}&gt;**</value>
+  </data>
+  <data name="mod_updated_users_success" xml:space="preserve">
+    <value>Успешно обновлено `{0}` участников.</value>
+  </data>
+  <data name="mod_slowmode_success" xml:space="preserve">
+    <value>Медленный режим в канале: `{0}` был изменён на `{1}ч{2}м{3}с`.</value>
+  </data>
+  <data name="time_error_invalid" xml:space="preserve">
+    <value>Пожалуйста, введите корректное время.</value>
+  </data>
+  <data name="time_error_invalid_6h" xml:space="preserve">
+    <value>(Менее 6 часов)</value>
+  </data>
+  <data name="info_about_description" xml:space="preserve">
+    <value>**О боте**```Cakey Bot это мощный и глубоко кастомизируемый Discord бот для Вашего сервера. Включает в себя огромную музыкальную систему, продвинутый журнал аудита и тонну удобных функций модератора, помогающих в управлении Вашими серверами. Вы также можете создавать автоматические ответы и кастомные команды через нашу web-панель или настроить журнал аудита для автоматизации повторяющихся задач```</value>
+  </data>
+  <data name="info_ping" xml:space="preserve">
+    <value>Пинг - Shard #{0}: {1}мс</value>
+  </data>
+  <data name="info_ping_avg" xml:space="preserve">
+    <value>Средний пинг:</value>
+  </data>
+  <data name="info_created_date" xml:space="preserve">
+    <value>Создано {0}. Это было {1} назад!</value>
+  </data>
+  <data name="info_joined_date" xml:space="preserve">
+    <value>Присоединился к Discord {0}. Это {1} дней назад!</value>
+  </data>
+  <data name="info_boosters_extra" xml:space="preserve">
+    <value>+ещё {0} пользователей.</value>
+  </data>
+  <data name="info_boosters_error" xml:space="preserve">
+    <value>Бустеров не найдено.</value>
+  </data>
+  <data name="info_string_1" xml:space="preserve">
+    <value>Всего участников</value>
+  </data>
+  <data name="info_string_3" xml:space="preserve">
+    <value>Боты</value>
+  </data>
+  <data name="info_string_4" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="info_string_6" xml:space="preserve">
+    <value>Заблокированы</value>
+  </data>
+  <data name="info_string_7" xml:space="preserve">
+    <value>Владелец</value>
+  </data>
+  <data name="info_string_8" xml:space="preserve">
+    <value>Участники</value>
+  </data>
+  <data name="info_string_10" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="info_string_11" xml:space="preserve">
+    <value>Каналы</value>
+  </data>
+  <data name="info_string_13" xml:space="preserve">
+    <value>AFK канал</value>
+  </data>
+  <data name="info_string_14" xml:space="preserve">
+    <value>Нет AFK канала</value>
+  </data>
+  <data name="info_string_15" xml:space="preserve">
+    <value>Всего эмодзи</value>
+  </data>
+  <data name="info_string_16" xml:space="preserve">
+    <value>Список ролей</value>
+  </data>
+  <data name="info_string_17" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="info_string_18" xml:space="preserve">
+    <value>Особенности сервера</value>
+  </data>
+  <data name="info_string_19" xml:space="preserve">
+    <value>Аватар {0}</value>
+  </data>
+  <data name="info_string_20" xml:space="preserve">
+    <value>Информация о {0}</value>
+  </data>
+  <data name="info_string_21" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="info_string_22" xml:space="preserve">
+    <value>Активность</value>
+  </data>
+  <data name="info_string_23" xml:space="preserve">
+    <value>Никнейм</value>
+  </data>
+  <data name="info_string_25" xml:space="preserve">
+    <value>Аватар</value>
+  </data>
+  <data name="info_string_26" xml:space="preserve">
+    <value>Присоединился к серверу</value>
+  </data>
+  <data name="info_string_27" xml:space="preserve">
+    <value>Бот</value>
+  </data>
+  <data name="info_string_28" xml:space="preserve">
+    <value>Человек</value>
+  </data>
+  <data name="info_string_29" xml:space="preserve">
+    <value>Бот или Человек?</value>
+  </data>
+  <data name="info_string_30" xml:space="preserve">
+    <value>Бустер?</value>
+  </data>
+  <data name="info_string_31" xml:space="preserve">
+    <value>Заглушен?</value>
+  </data>
+  <data name="info_string_32" xml:space="preserve">
+    <value>Заглушен?</value>
+  </data>
+  <data name="info_string_33" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="info_string_34" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="info_string_35" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="info_string_36" xml:space="preserve">
+    <value>Создатель</value>
+  </data>
+  <data name="info_string_37" xml:space="preserve">
+    <value>Канал</value>
+  </data>
+  <data name="info_string_38" xml:space="preserve">
+    <value>Количество участников</value>
+  </data>
+  <data name="info_string_39" xml:space="preserve">
+    <value>Использований</value>
+  </data>
+  <data name="info_string_40" xml:space="preserve">
+    <value>Время создания</value>
+  </data>
+  <data name="info_string_41" xml:space="preserve">
+    <value>Временное?</value>
+  </data>
+  <data name="info_string_42" xml:space="preserve">
+    <value>Истекает</value>
+  </data>
+  <data name="info_string_43" xml:space="preserve">
+    <value>Не истекает</value>
+  </data>
+  <data name="info_string_46" xml:space="preserve">
+    <value>Запрошено {0}</value>
+  </data>
+  <data name="info_string_51" xml:space="preserve">
+    <value>Предупреждения</value>
+  </data>
+  <data name="info_string_52" xml:space="preserve">
+    <value>{0} предупреждений в {1} серверах.</value>
+  </data>
+  <data name="info_string_54" xml:space="preserve">
+    <value>Показать контрибьюторов</value>
+  </data>
+  <data name="info_string_55" xml:space="preserve">
+    <value>{0} / {1} (осталось {2} слотов)</value>
+  </data>
+  <data name="info_string_56" xml:space="preserve">
+    <value>Никнейм:</value>
+  </data>
+  <data name="info_string_57" xml:space="preserve">
+    <value>Причина:</value>
+  </data>
+  <data name="info_string_58" xml:space="preserve">
+    <value>Нет причины</value>
+  </data>
+  <data name="info_string_59" xml:space="preserve">
+    <value>Модератор:</value>
+  </data>
+  <data name="info_string_62" xml:space="preserve">
+    <value>Нажми на меня</value>
+  </data>
+  <data name="info_string_64" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="info_string_65" xml:space="preserve">
+    <value>Время:</value>
+  </data>
+  <data name="info_string_66" xml:space="preserve">
+    <value>Всего предупреждений:</value>
+  </data>
+  <data name="info_string_67" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="info_string_68" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="info_string_73" xml:space="preserve">
+    <value>```Владелец сервера```</value>
+  </data>
+  <data name="info_string_74" xml:space="preserve">
+    <value>```Администратор сервера```</value>
+  </data>
+  <data name="info_string_75" xml:space="preserve">
+    <value>```Модератор сервера```</value>
+  </data>
+  <data name="info_string_77" xml:space="preserve">
+    <value>{0} Бустеров</value>
+  </data>
+  <data name="emoji_string_name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="roleinfo" xml:space="preserve">
+    <value>Информация о роли {0}</value>
+  </data>
+  <data name="roleinfo_color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="roleinfo_created_at" xml:space="preserve">
+    <value>Создан</value>
+  </data>
+  <data name="roleinfo_position" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="roleinfo_ishoisted" xml:space="preserve">
+    <value>Отображается отдельно?</value>
+  </data>
+  <data name="roleinfo_ismanaged" xml:space="preserve">
+    <value>Управляется приложением?</value>
+  </data>
+  <data name="roleinfo_ismentionable" xml:space="preserve">
+    <value>Упоминаемая?</value>
+  </data>
+  <data name="roleinfo_members" xml:space="preserve">
+    <value>Участники [{0}]</value>
+  </data>
+  <data name="misc_anime_start" xml:space="preserve">
+    <value>Дата начала:</value>
+  </data>
+  <data name="misc_anime_end" xml:space="preserve">
+    <value>Дата конца:</value>
+  </data>
+  <data name="misc_anime_status_airing" xml:space="preserve">
+    <value>В эфире</value>
+  </data>
+  <data name="misc_anime_status_ended" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="misc_anime_synopsis" xml:space="preserve">
+    <value>Краткий обзор:</value>
+  </data>
+  <data name="misc_manga_status_ip" xml:space="preserve">
+    <value>В процессе</value>
+  </data>
+  <data name="misc_manga_status_completed" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="misc_manga_volumes" xml:space="preserve">
+    <value>Томов:</value>
+  </data>
+  <data name="misc_manga_chapters" xml:space="preserve">
+    <value>Глав:</value>
+  </data>
+  <data name="misc_manga_footer" xml:space="preserve">
+    <value>ID манги: {0} • Оценка: {1}</value>
+  </data>
+  <data name="misc_fact" xml:space="preserve">
+    <value>Случайный факт:</value>
+  </data>
+  <data name="misc_fact_failed" xml:space="preserve">
+    <value>Не удалось получить факт.</value>
+  </data>
+  <data name="misc_reminder_success" xml:space="preserve">
+    <value>Успешно установлено напоминание для `{0}` {1}.</value>
+  </data>
+  <data name="music_error_voice_channel_1" xml:space="preserve">
+    <value>Вы должны быть в голосовом канале.</value>
+  </data>
+  <data name="music_error_voice_channel_2" xml:space="preserve">
+    <value>Я не могу подключиться к этому голосовому каналу.</value>
+  </data>
+  <data name="music_error_voice_channel_3" xml:space="preserve">
+    <value>Я не могу говорить в этом голосовом канале.</value>
+  </data>
+  <data name="music_error_voice_channel_4" xml:space="preserve">
+    <value>Я уже нахожусь в этом канале.</value>
+  </data>
+  <data name="music_error_voice_channel_5" xml:space="preserve">
+    <value>Я должен находиться в голосовом канале. Используйте `/play`, чтобы я присоединился.</value>
+  </data>
+  <data name="music_error_voice_channel_6" xml:space="preserve">
+    <value>Вы должны находиться в одном канале с ботом. Чтобы вызвать его, попробуйте использовать `/play`.</value>
+  </data>
+  <data name="music_error_player" xml:space="preserve">
+    <value>Игрок не существует, пожалуйста, введите `/play` еще раз.</value>
+  </data>
+  <data name="music_error_timespan" xml:space="preserve">
+    <value>Продолжительность очереди слишком большая. Пожалуйста, удалите песни из очереди перед добавлением новых.</value>
+  </data>
+  <data name="music_error_lavalink" xml:space="preserve">
+    <value>Произошел сбой LavaLink. Пожалуйста, сообщите об этом в нашем </value>
+  </data>
+  <data name="music_join" xml:space="preserve">
+    <value>Я присоединился к: `{0}`.</value>
+  </data>
+  <data name="music_disconnect" xml:space="preserve">
+    <value>Успешно отключено!</value>
+  </data>
+  <data name="music_disconnect_error_2" xml:space="preserve">
+    <value>Вы должны быть единственным пользователем в голосовом канале или у вас должны быть права модератора, чтобы отключить Cakey Bot, если играет песня.</value>
+  </data>
+  <data name="music_move" xml:space="preserve">
+    <value>Перемещено из `{0}` в `{1}`.</value>
+  </data>
+  <data name="music_move_error" xml:space="preserve">
+    <value>Вы не можете перемещать Cakey Bot из канала пока воспроизводится песня.</value>
+  </data>
+  <data name="music_jump" xml:space="preserve">
+    <value>Успешно перешёл на:
+[{0}]({1})_{2}/{3}_</value>
+  </data>
+  <data name="music_duplicates" xml:space="preserve">
+    <value>Успешно удалены повторяющиеся треки из очереди. Новая очередь:
+{0}</value>
+  </data>
+  <data name="music_cleanup" xml:space="preserve">
+    <value>Очередь успешно очищена. Новая очередь:
+{0}</value>
+  </data>
+  <data name="music_shuffle" xml:space="preserve">
+    <value>Очередь успешно перемешана.</value>
+  </data>
+  <data name="music_shuffle_by" xml:space="preserve">
+    <value>Перемешал</value>
+  </data>
+  <data name="music_bb" xml:space="preserve">
+    <value>Басс-буст песни установлен на: `{0}`.</value>
+  </data>
+  <data name="music_remove" xml:space="preserve">
+    <value>Успешно удалено `{0}` - `{1}` из очереди.</value>
+  </data>
+  <data name="music_restart_2" xml:space="preserve">
+    <value>Я начал воспроизводить песню с начала.</value>
+  </data>
+  <data name="music_seek_3" xml:space="preserve">
+    <value>Я перемотал песню на: `{0}`</value>
+  </data>
+  <data name="music_ff_2" xml:space="preserve">
+    <value>Я перемотал на `{0}` ({1} осталось)</value>
+  </data>
+  <data name="music_rewind_2" xml:space="preserve">
+    <value>Я отмотал на `{0}` ({1} позади)</value>
+  </data>
+  <data name="music_pause_3" xml:space="preserve">
+    <value>Песня успешно приостановлена.</value>
+  </data>
+  <data name="music_resume_1" xml:space="preserve">
+    <value>Песня успешно возобновлена.</value>
+  </data>
+  <data name="music_resume_2" xml:space="preserve">
+    <value>Песня не поставлена на паузу. Приостановить песню можно с помощью команды `/pause`</value>
+  </data>
+  <data name="music_lyrics_1" xml:space="preserve">
+    <value>Для поиска необходимо ввести название песни. (или проигрывать песню в данный момент)</value>
+  </data>
+  <data name="music_lyrics_3" xml:space="preserve">
+    <value>Текст песни не найден.</value>
+  </data>
+  <data name="music_volume_3" xml:space="preserve">
+    <value>Громкость успешно установлена на: `{0}`</value>
+  </data>
+  <data name="music_skip_1" xml:space="preserve">
+    <value>[{0}]({1}) [{2}] пропущено.</value>
+  </data>
+  <data name="music_skip_2" xml:space="preserve">
+    <value>{0} Пропущено: [{1}]({2}) [{3}]
+{4} Сейчас играет: [{5}]({6}) [{7}]</value>
+  </data>
+  <data name="music_skip_3" xml:space="preserve">
+    <value>Сейчас ничего не воспроизводится.</value>
+  </data>
+  <data name="music_skip_4" xml:space="preserve">
+    <value>В очереди больше нет треков.</value>
+  </data>
+  <data name="music_voteskip_2" xml:space="preserve">
+    <value>Вы проголосовали за пропуск, нужен ещё {0} голос.</value>
+  </data>
+  <data name="music_voteskip_3" xml:space="preserve">
+    <value>Вы ужа отдали голос за пропуск, он был удалён. Вы можете снова проголосовать с помощью команды `/skip`. Нужен ещё {0} голос.</value>
+  </data>
+  <data name="music_voteskip_4" xml:space="preserve">
+    <value>Голосов {0}/{1}.</value>
+  </data>
+  <data name="music_url" xml:space="preserve">
+    <value>Вы должны ввести название песни или YouTube ссылку.</value>
+  </data>
+  <data name="music_no_results" xml:space="preserve">
+    <value>Результатов нет.</value>
+  </data>
+  <data name="music_invalid_track_1" xml:space="preserve">
+    <value>ID трека вне диапазона. Используйте `/queue`, чтобы просмотреть ID треков.</value>
+  </data>
+  <data name="music_invalid_track_2" xml:space="preserve">
+    <value>ID очереди должен быть действительным.</value>
+  </data>
+  <data name="music_limit_queue" xml:space="preserve">
+    <value>В очереди может быть до 50 треков, пожалуйста, удалите некоторые, или перейдите на premium.</value>
+  </data>
+  <data name="music_limit_playlist" xml:space="preserve">
+    <value>Плейлисты могут содержать не более 50 песен, пожалуйста, выберите более маленький плейлист или обновитесь до premium.</value>
+  </data>
+  <data name="music_add_1" xml:space="preserve">
+    <value>Добавлено `{0}` песен в очередь.</value>
+  </data>
+  <data name="music_add_2" xml:space="preserve">
+    <value>[{0}]({1}) [{2}] добавлено в очередь.</value>
+  </data>
+  <data name="music_now_playing_1" xml:space="preserve">
+    <value>Сейчас играет: [{0}]({1}) [{2}]</value>
+  </data>
+  <data name="music_volume" xml:space="preserve">
+    <value>Громкость: `{0}`</value>
+  </data>
+  <data name="music_livestream" xml:space="preserve">
+    <value>Команда отключена пока идёт стрим.</value>
+  </data>
+  <data name="music_playlist_list" xml:space="preserve">
+    <value>Найдено {0} плейлистов:
+```{1}```</value>
+  </data>
+  <data name="music_playlist_success_save" xml:space="preserve">
+    <value>Успешно добавлено {0} песню в ваш плейлист `{1}`.</value>
+  </data>
+  <data name="music_playlist_success_load" xml:space="preserve">
+    <value>Успешно загружено {0} песен из вашего плейлиста `{1}`.</value>
+  </data>
+  <data name="music_playlist_success_delete" xml:space="preserve">
+    <value>Успешно удален ваш плейлист `{0}`.</value>
+  </data>
+  <data name="music_string_1" xml:space="preserve">
+    <value>Позиция очереди:</value>
+  </data>
+  <data name="music_string_2" xml:space="preserve">
+    <value>Время до начала воспроизведения:</value>
+  </data>
+  <data name="music_string_3" xml:space="preserve">
+    <value>Нет треков в очереди.</value>
+  </data>
+  <data name="music_string_4" xml:space="preserve">
+    <value>+ещё {0} песни.</value>
+  </data>
+  <data name="music_string_7" xml:space="preserve">
+    <value>Время вне продолжительности видео, попробуйте ещё.</value>
+  </data>
+  <data name="music_string_8" xml:space="preserve">
+    <value>Чтобы использовать эту команду должна воспроизводиться песня, попробуйте `/play`.</value>
+  </data>
+  <data name="music_string_9" xml:space="preserve">
+    <value>В данный момент ничего не воспроизводится.</value>
+  </data>
+  <data name="music_string_10" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="music_string_12" xml:space="preserve">
+    <value>Громкость</value>
+  </data>
+  <data name="music_string_14" xml:space="preserve">
+    <value>На паузе?</value>
+  </data>
+  <data name="music_string_15" xml:space="preserve">
+    <value>Стримит?</value>
+  </data>
+  <data name="music_string_16" xml:space="preserve">
+    <value>Голосов за пропуск</value>
+  </data>
+  <data name="music_string_17" xml:space="preserve">
+    <value>Очередь:</value>
+  </data>
+  <data name="music_string_18" xml:space="preserve">
+    <value>Сейчас играет:</value>
+  </data>
+  <data name="music_string_19" xml:space="preserve">
+    <value>Запрошено</value>
+  </data>
+  <data name="music_string_20" xml:space="preserve">
+    <value>Повтор?</value>
+  </data>
+  <data name="music_string_21" xml:space="preserve">
+    <value>Басс-буст?</value>
+  </data>
+  <data name="music_unknown_title" xml:space="preserve">
+    <value>Неизвестное название</value>
+  </data>
+  <data name="music_embed_success_1" xml:space="preserve">
+    <value>Создан канал запроса песен (&lt;#{0}&gt;). Если хотите, Вы можете переименовать или переместить канал.
+</value>
+  </data>
+  <data name="music_embed_success_2" xml:space="preserve">
+    <value>Пожалуйста, не удаляйте сообщения в канале запроса песен. В противном случае потребуется повторная настройка.</value>
+  </data>
+  <data name="music_embed_queue_1" xml:space="preserve">
+    <value>Присоединитесь к голосовому каналу и найдите песню по названию или URL, отправив его в этом канале.</value>
+  </data>
+  <data name="music_embed_queue_2" xml:space="preserve">
+    <value>Поддерживаемые источники: Twitch, Bandcamp, Vimeo, Soundcloud, URL/веб-файл *`(форматы MP3 и MP4)`* и Spotify *`(ЭКСПЕРИМЕНТАЛЬНО)`*.</value>
+  </data>
+  <data name="music_embed_react_1" xml:space="preserve">
+    <value>Пауза/Возобновить песню</value>
+  </data>
+  <data name="music_embed_react_2" xml:space="preserve">
+    <value>Очистить очередь</value>
+  </data>
+  <data name="music_embed_react_3" xml:space="preserve">
+    <value>Пропустить песню</value>
+  </data>
+  <data name="music_embed_react_4" xml:space="preserve">
+    <value>Перемешать очередь</value>
+  </data>
+  <data name="music_embed_react_5" xml:space="preserve">
+    <value>Повтор текущей песни</value>
+  </data>
+  <data name="music_embed_react_6" xml:space="preserve">
+    <value>Воспроизвести песню в начала</value>
+  </data>
+  <data name="music_logger_trackend" xml:space="preserve">
+    <value>{0} Закончилось: [{1}]({2}) [{3}]
+{4} Сейчас играет: [{5}]({6}) [{7}]</value>
+  </data>
+  <data name="music_logger_error" xml:space="preserve">
+    <value>Трек завис при попытке воспроизведения.</value>
+  </data>
+  <data name="music_logger_disconnect" xml:space="preserve">
+    <value>Все пользователи покинули голосовой канал, бот отключится через 30 секунд.</value>
+  </data>
+  <data name="music_equalizer_invalid_1" xml:space="preserve">
+    <value>Допустимые диапазоны - от 0 до 14</value>
+  </data>
+  <data name="music_equalizer_invalid_2" xml:space="preserve">
+    <value>Допустимые значения усиления - от -0.25 до 1.0</value>
+  </data>
+  <data name="music_equalizer_success" xml:space="preserve">
+    <value>Успешно установлено усиление частоты #{0} на `{1}`</value>
+  </data>
+  <data name="roles_persistent" xml:space="preserve">
+    <value>Роль `{0}` была успешно {1} {2}.</value>
+  </data>
+  <data name="roles_persistent_1" xml:space="preserve">
+    <value>добавлено к</value>
+  </data>
+  <data name="roles_persistent_2" xml:space="preserve">
+    <value>снято с</value>
+  </data>
+  <data name="gif_error_1" xml:space="preserve">
+    <value>Не удалось найти gif-ки. :frowning:</value>
+  </data>
+  <data name="gif_error_2" xml:space="preserve">
+    <value>Не удалось найти SFW gif-ок. :frowning:</value>
+  </data>
+  <data name="cmd_error_param" xml:space="preserve">
+    <value>Неверное количество параметров.</value>
+  </data>
+  <data name="cmd_error_number" xml:space="preserve">
+    <value>Вы должны указать допустимое число.</value>
+  </data>
+  <data name="cmd_error_input" xml:space="preserve">
+    <value>Вы должны ввести корректную информацию.</value>
+  </data>
+  <data name="cmd_error_matches" xml:space="preserve">
+    <value>Найдено несколько совпадений. Возможные совпадения:
+```{0}
+{1}```</value>
+  </data>
+  <data name="cmd_error_timeout_1" xml:space="preserve">
+    <value>Превышено время ожидания при выполнении команды.</value>
+  </data>
+  <data name="cmd_error_timeout_2" xml:space="preserve">
+    <value>Превышено время ожидания запроса, пожалуйста, повторите позже.</value>
+  </data>
+  <data name="cmd_error_requests" xml:space="preserve">
+    <value>Слишком много запросов. Пожалуйста, попробуйте позже.</value>
+  </data>
+  <data name="audit_string_1" xml:space="preserve">
+    <value>Пользователь Присоединился:</value>
+  </data>
+  <data name="audit_string_2" xml:space="preserve">
+    <value>Аккаунт создан:</value>
+  </data>
+  <data name="audit_string_3" xml:space="preserve">
+    <value>Пользователь вышел:</value>
+  </data>
+  <data name="audit_string_4" xml:space="preserve">
+    <value>закреплено</value>
+  </data>
+  <data name="audit_string_5" xml:space="preserve">
+    <value>откреплено</value>
+  </data>
+  <data name="audit_string_6" xml:space="preserve">
+    <value>**Сообщение {0} в** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_7" xml:space="preserve">
+    <value>**Сообщение отредактировано в** &lt;#{0}&gt;</value>
+  </data>
+  <data name="audit_string_8" xml:space="preserve">
+    <value>До:</value>
+  </data>
+  <data name="audit_string_9" xml:space="preserve">
+    <value>После:</value>
+  </data>
+  <data name="audit_string_10" xml:space="preserve">
+    <value>Сообщение:</value>
+  </data>
+  <data name="audit_string_12" xml:space="preserve">
+    <value>**Сообщение, отправленное &lt;@{0}&gt; удалено в** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_13" xml:space="preserve">
+    <value>**Никнейм** &lt;@{0}&gt; **изменён**</value>
+  </data>
+  <data name="audit_string_14" xml:space="preserve">
+    <value>Ролей Добавлено</value>
+  </data>
+  <data name="audit_string_15" xml:space="preserve">
+    <value>Ролей Снято</value>
+  </data>
+  <data name="audit_string_16" xml:space="preserve">
+    <value>Участник забанен</value>
+  </data>
+  <data name="audit_string_17" xml:space="preserve">
+    <value>Участник разбанен</value>
+  </data>
+  <data name="audit_string_18" xml:space="preserve">
+    <value>Роль создана:</value>
+  </data>
+  <data name="audit_string_19" xml:space="preserve">
+    <value>Название роли:</value>
+  </data>
+  <data name="audit_string_20" xml:space="preserve">
+    <value>Цвет роли:</value>
+  </data>
+  <data name="audit_string_21" xml:space="preserve">
+    <value>Отображается отдельно:</value>
+  </data>
+  <data name="audit_string_22" xml:space="preserve">
+    <value>Упоминаемая:</value>
+  </data>
+  <data name="audit_string_23" xml:space="preserve">
+    <value>Права:</value>
+  </data>
+  <data name="audit_string_24" xml:space="preserve">
+    <value>Роль Обновлена:</value>
+  </data>
+  <data name="audit_string_25" xml:space="preserve">
+    <value>ID роли:</value>
+  </data>
+  <data name="audit_string_26" xml:space="preserve">
+    <value>Роль Удалена:</value>
+  </data>
+  <data name="audit_string_27" xml:space="preserve">
+    <value>Канал Создан:</value>
+  </data>
+  <data name="audit_string_28" xml:space="preserve">
+    <value>Канал Обновлен:</value>
+  </data>
+  <data name="audit_string_29" xml:space="preserve">
+    <value>Название канала:</value>
+  </data>
+  <data name="audit_string_30" xml:space="preserve">
+    <value>Тема:</value>
+  </data>
+  <data name="audit_string_31" xml:space="preserve">
+    <value>NSFW?:</value>
+  </data>
+  <data name="audit_string_32" xml:space="preserve">
+    <value>Медленный режим:</value>
+  </data>
+  <data name="audit_string_33" xml:space="preserve">
+    <value>В категории:</value>
+  </data>
+  <data name="audit_string_34" xml:space="preserve">
+    <value>Канал Удален:</value>
+  </data>
+  <data name="audit_string_36" xml:space="preserve">
+    <value>Перейти к:</value>
+  </data>
+  <data name="audit_string_37" xml:space="preserve">
+    <value>**{0} сообщений было удалено в** &lt;#{1}&gt;</value>
+  </data>
+  <data name="audit_string_41" xml:space="preserve">
+    <value>Подозрительный Аккаунт</value>
+  </data>
+  <data name="audit_string_42" xml:space="preserve">
+    <value>Пользователь:</value>
+  </data>
+  <data name="audit_string_43" xml:space="preserve">
+    <value>переподключился в другой голосовой канал.</value>
+  </data>
+  <data name="audit_string_45" xml:space="preserve">
+    <value>присоединился к голосовому каналу.</value>
+  </data>
+  <data name="audit_string_46" xml:space="preserve">
+    <value>покинул голосовой канал.</value>
+  </data>
+  <data name="audit_string_49" xml:space="preserve">
+    <value>Приглашение создано: [{0}](https://discord.com/invite/{1})</value>
+  </data>
+  <data name="audit_string_50" xml:space="preserve">
+    <value>Виджет</value>
+  </data>
+  <data name="audit_string_51" xml:space="preserve">
+    <value>Удалено Приглашение: `{0}`</value>
+  </data>
+  <data name="util_server_offline" xml:space="preserve">
+    <value>Сервер выключен или не отвечает на запросы.</value>
+  </data>
+  <data name="util_server_name" xml:space="preserve">
+    <value>Имя/MOTD:</value>
+  </data>
+  <data name="util_server_count" xml:space="preserve">
+    <value>Количество Игроков:</value>
+  </data>
+  <data name="util_server_version" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="util_math_compute" xml:space="preserve">
+    <value>Время вычисления: {0}с</value>
+  </data>
+  <data name="embed_footer_id_user" xml:space="preserve">
+    <value>ID пользователя:</value>
+  </data>
+  <data name="embed_footer_id_guild" xml:space="preserve">
+    <value>ID Сервера:</value>
+  </data>
+  <data name="embed_footer_id_channel" xml:space="preserve">
+    <value>ID канала:</value>
+  </data>
+  <data name="embed_footer_about" xml:space="preserve">
+    <value>Использует Discord.Net с Lavalink4Net</value>
+  </data>
+  <data name="core_help_1" xml:space="preserve">
+    <value>Префикс для этого сервера - `{0}`
+Если вы ищете список команд бота и как они работают, нажмите на ссылку `Команды Бота` ниже. Если вам нужна помощь с чем-либо, проверьте наше `FAQ` (часто задаваемые вопросы).</value>
+  </data>
+  <data name="core_useful_links" xml:space="preserve">
+    <value>Полезные ссылки</value>
+  </data>
+  <data name="core_bot_commands" xml:space="preserve">
+    <value>Команды Бота</value>
+  </data>
+  <data name="core_dashboard" xml:space="preserve">
+    <value>Веб-панель</value>
+  </data>
+  <data name="core_docs" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="core_support_discord" xml:space="preserve">
+    <value>Discord поддержки</value>
+  </data>
+  <data name="core_bot_invite" xml:space="preserve">
+    <value>Ссылка для приглашения бота</value>
+  </data>
+  <data name="core_donate" xml:space="preserve">
+    <value>Премиум</value>
+  </data>
+  <data name="core_system_message" xml:space="preserve">
+    <value>*Системное сообщение*</value>
+  </data>
+  <data name="core_cmd_search_1" xml:space="preserve">
+    <value>Извините, я не смог найти команду `{0}`.</value>
+  </data>
+  <data name="core_cmd_search_2" xml:space="preserve">
+    <value>Вот некоторые команды типа `{0}`.</value>
+  </data>
+  <data name="core_cmd_info_parameters" xml:space="preserve">
+    <value>Параметры:</value>
+  </data>
+  <data name="core_cmd_info_module" xml:space="preserve">
+    <value>Модуль:</value>
+  </data>
+  <data name="core_setting_prefix_current" xml:space="preserve">
+    <value>Текущий Префикс:</value>
+  </data>
+  <data name="core_setting_modules_current" xml:space="preserve">
+    <value>Текущие Настройки:</value>
+  </data>
+  <data name="core_feedback_blacklisted" xml:space="preserve">
+    <value>Вам было запрещено использование этой команды. :(</value>
+  </data>
+  <data name="core_stats_1" xml:space="preserve">
+    <value>Количество Серверов</value>
+  </data>
+  <data name="core_stats_2" xml:space="preserve">
+    <value>Всего Категорий</value>
+  </data>
+  <data name="core_stats_3" xml:space="preserve">
+    <value>Текстовых Каналов</value>
+  </data>
+  <data name="core_stats_4" xml:space="preserve">
+    <value>Голосовые Каналов</value>
+  </data>
+  <data name="core_announce_footer" xml:space="preserve">
+    <value>Объявление</value>
+  </data>
+  <data name="core_sr_added_3" xml:space="preserve">
+    <value>Запрошенная роль успешно выдана.</value>
+  </data>
+  <data name="core_sr_removed_2" xml:space="preserve">
+    <value>Запрошенная роль успешно снята.</value>
+  </data>
+  <data name="core_sr_none" xml:space="preserve">
+    <value>Нет доступных ролей.</value>
+  </data>
+  <data name="core_sr_error_invalid" xml:space="preserve">
+    <value>Эта роль не указана, как само-роль.</value>
+  </data>
+  <data name="core_sr_error_have" xml:space="preserve">
+    <value>У вас уже есть эта роль.</value>
+  </data>
+  <data name="core_sr_error_have_not" xml:space="preserve">
+    <value>У вас нет этой роли.</value>
+  </data>
+  <data name="core_debug_required_core" xml:space="preserve">
+    <value>**Необходимые Права: (Основа)**
+</value>
+  </data>
+  <data name="core_debug_optional_mod" xml:space="preserve">
+    <value>**Дополнительные разрешения: (требуется для модерации)**
+</value>
+  </data>
+  <data name="core_debug_optional_misc" xml:space="preserve">
+    <value>**Дополнительные разрешения: (требуется для утилит/прочего)**
+</value>
+  </data>
+  <data name="core_debug_optional_music" xml:space="preserve">
+    <value>**Дополнительные разрешения: (требуется для музыкальных функций)**
+</value>
+  </data>
+  <data name="core_debug_unused" xml:space="preserve">
+    <value>**Неиспользуемые разрешения:**
+</value>
+  </data>
+  <data name="core_debug_wildcard" xml:space="preserve">
+    <value>**Глобальные разрешения:**
+</value>
+  </data>
+  <data name="core_limited" xml:space="preserve">
+    <value>В данный момент Cakey Bo испытывает технические неполадки. Некоторые функции отключены или имеют ограниченный функционал.</value>
+  </data>
+  <data name="core_string_1" xml:space="preserve">
+    <value>Информация о команде</value>
+  </data>
+	<data name="automod_string_caps" xml:space="preserve">
+		<value>&gt;{0}% заглавных букв.</value>
+	</data>
+  <data name="automod_string_url" xml:space="preserve">
+		<value>URL/ссылки.</value>
+	</data>
+	<data name="automod_string_mentions" xml:space="preserve">
+		<value>&gt;{0} упоминаний.</value>
+	</data>
+	<data name="automod_string_emote" xml:space="preserve">
+		<value>&gt;{0} эмодзи.</value>
+	</data>
+  <data name="automod_string_duplicate_char" xml:space="preserve">
+		<value>&gt;{0}% повторяющихся символов.</value>
+	</data>
+	<data name="automod_string_duplicate_word" xml:space="preserve">
+		<value>&gt;{0} повторяющихся слов.</value>
+	</data>
+  <data name="automod_check_mass_caps" xml:space="preserve">
+    <value>Много заглавных</value>
+  </data>
+  <data name="automod_check_blacklist" xml:space="preserve">
+    <value>Запрещённое Слово</value>
+  </data>
+  <data name="automod_check_discord_invite" xml:space="preserve">
+    <value>Discord приглашение</value>
+  </data>
+  <data name="automod_check_website_url" xml:space="preserve">
+    <value>URL сайта/Ссылка</value>
+  </data>
+  <data name="automod_check_mass_mentions" xml:space="preserve">
+    <value>Много упоминаний</value>
+  </data>
+  <data name="automod_check_emoji_spam" xml:space="preserve">
+    <value>Спам Эмоджи</value>
+  </data>
+  <data name="automod_check_spoilers" xml:space="preserve">
+    <value>Спойлеры</value>
+  </data>
+  <data name="automod_check_stickers" xml:space="preserve">
+    <value>Стикеры</value>
+  </data>
+  <data name="automod_check_duplicate_char" xml:space="preserve">
+    <value>Повторяющиеся символы</value>
+  </data>
+  <data name="automod_check_duplicate_word" xml:space="preserve">
+    <value>Повторяющиеся слова</value>
+  </data>
+  <data name="automod_check_auto_dehoist" xml:space="preserve">
+    <value>Автоснятие выделения</value>
+  </data>
+  <data name="automod_embed_violation" xml:space="preserve">
+    <value>Нарушение:</value>
+  </data>
+  <data name="automod_embed_value" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="github_results" xml:space="preserve">
+    <value>Отображаются строки {0} - {1} в `{2}`</value>
+  </data>
+  <data name="quoter_by_title" xml:space="preserve">
+    <value>Цитата от:</value>
+  </data>
+  <data name="quoter_by_value" xml:space="preserve">
+    <value>{0} от &lt;#{1}&gt; в {2}</value>
+  </data>
+  <data name="misc_no_content" xml:space="preserve">
+    <value>Нет содержимого</value>
+  </data>
+  <data name="textman_invalid_output" xml:space="preserve">
+    <value>Нет результата.</value>
+  </data>
+  <data name="info_premium" xml:space="preserve">
+    <value>:star: Нравится Cakey Bot? Вы можете задонатить на Premium:</value>
+  </data>
+  <data name="info_uptime" xml:space="preserve">
+    <value>Время работы: {0}</value>
+  </data>
+  <data name="info_open_image" xml:space="preserve">
+    <value>Открыть изображение</value>
+  </data>
+  <data name="game_ttt_in_progress" xml:space="preserve">
+    <value>Игра уже идёт, завершите её перед созданием новой.</value>
+  </data>
+  <data name="game_ttt_title" xml:space="preserve">
+    <value>Крестики-нолики</value>
+  </data>
+  <data name="game_player_1" xml:space="preserve">
+    <value>Игрок 1</value>
+  </data>
+  <data name="game_player_2" xml:space="preserve">
+    <value>Игрок 2</value>
+  </data>
+  <data name="game_current_move" xml:space="preserve">
+    <value>Текущий ход</value>
+  </data>
+  <data name="game_flip_again" xml:space="preserve">
+    <value>Снова перевернуть</value>
+  </data>
+  <data name="error_action_self" xml:space="preserve">
+    <value>Вы не можете сделать это с собой!</value>
+  </data>
+  <data name="error_action_bot" xml:space="preserve">
+    <value>Я не могу сделать это с собой!</value>
+  </data>
+  <data name="moderation_report_channel_missing" xml:space="preserve">
+    <value>Канал жалоб не настроен.</value>
+  </data>
+  <data name="moderation_report_channel_invalid" xml:space="preserve">
+    <value>Канал назначения недействителен или больше не существует.</value>
+  </data>
+  <data name="moderation_report_reported_success" xml:space="preserve">
+    <value>Жалоба успешно отправлена. Администрация рассмотрит её и примет меры.</value>
+  </data>
+  <data name="moderation_report_perms" xml:space="preserve">
+    <value>У меня нет прав на отправку сообщений в целевом канале.</value>
+  </data>
+  <data name="misc_afk_list" xml:space="preserve">
+    <value>Список пользователей AFK можно посмотреть здесь: {0}/afk-list 
+Примечание: Требуется право \"Управлять сервером\".</value>
+  </data>
+  <data name="game_ttt_winner" xml:space="preserve">
+    <value>Победитель</value>
+  </data>
+  <data name="game_ttt_taken" xml:space="preserve">
+    <value>Это место уже занято.</value>
+  </data>
+  <data name="game_ttt_expired" xml:space="preserve">
+    <value>Эта игра уже закончилась. Вы можете создать новую игру с помощью `/tictactoe &lt;opt:user&gt;`.</value>
+  </data>
+  <data name="game_ttt_wait_turn" xml:space="preserve">
+    <value>Чтобы сделать ход, дождитесь своей очереди!</value>
+  </data>
+  <data name="automod_check_zalgo" xml:space="preserve">
+    <value>Zalgo Текст</value>
+  </data>
+  <data name="twitch_title_live" xml:space="preserve">
+    <value>Twitch | {0} - В ЭФИРЕ!</value>
+  </data>
+  <data name="twitch_currently_playing" xml:space="preserve">
+    <value>Сейчас Играет:</value>
+  </data>
+  <data name="twitch_viewers" xml:space="preserve">
+    <value>Зрители:</value>
+  </data>
+  <data name="twitch_join_stream" xml:space="preserve">
+    <value>Присоединяйтесь к стриму: https://www.twitch.tv/{0}</value>
+  </data>
+  <data name="twitch_feed" xml:space="preserve">
+    <value>Лента Twitch</value>
+  </data>
+  <data name="reddit_feed" xml:space="preserve">
+    <value>Лента Reddit</value>
+  </data>
+  <data name="tags_create_success" xml:space="preserve">
+	  <value>Successsfully created: `{0}`.</value>
+  </data>
+  <data name="tags_modify_success" xml:space="preserve">
+	  <value>Successsfully modified: `{0}`.</value>
+  </data>
+  <data name="tags_delete_success" xml:space="preserve">
+	  <value>Successsfully deleted: `{0}`.</value>
+  </data>
+  <data name="tags_list" xml:space="preserve">
+    <value>Теги:</value>
+  </data>
+  <data name="thread_deleted" xml:space="preserve">
+    <value>Ветка удалена:</value>
+  </data>
+  <data name="thread_created" xml:space="preserve">
+    <value>Ветка создана:</value>
+  </data>
+  <data name="thread_modified" xml:space="preserve">
+    <value>Ветка обновлена:</value>
+  </data>
+  <data name="thread_parent" xml:space="preserve">
+    <value>Канал ветки:</value>
+  </data>
+  <data name="thread_auto_archive" xml:space="preserve">
+    <value>Время автоархивации:</value>
+  </data>
+  <data name="thread_private" xml:space="preserve">
+    <value>Приватная?</value>
+  </data>
+  <data name="thread_locked" xml:space="preserve">
+    <value>Заблокирована?</value>
+  </data>
+  <data name="thread_name" xml:space="preserve">
+    <value>Название ветки:</value>
+  </data>
+  <data name="thread_archive" xml:space="preserve">
+    <value>Ветка `{0}` была архивирована.</value>
+  </data>
+  <data name="thread_unarchive" xml:space="preserve">
+    <value>Ветка `{0}` была разархивирована.</value>
+  </data>
+  <data name="stage_updated" xml:space="preserve">
+    <value>Трибуна обновлена:</value>
+  </data>
+  <data name="stage_name" xml:space="preserve">
+    <value>Название трибуны:</value>
+  </data>
+  <data name="stage_discoverable" xml:space="preserve">
+    <value>Доступно для обнаружения?</value>
+  </data>
+  <data name="stage_privacy" xml:space="preserve">
+    <value>Уровень конфиденциальности:</value>
+  </data>
+  <data name="stage_live" xml:space="preserve">
+    <value>В эфире?</value>
+  </data>
+  <data name="stage_speaker_count" xml:space="preserve">
+    <value>Количество выступающих:</value>
+  </data>
+  <data name="stage_started" xml:space="preserve">
+    <value>Трибуна открыта:</value>
+  </data>
+  <data name="stage_ended" xml:space="preserve">
+    <value>Трибуна закрыта:</value>
+  </data>
+  <data name="imageman_analyze_failed" xml:space="preserve">
+    <value>Не удалось десериализовать данные изображения.</value>
+  </data>
+  <data name="ticket_exists" xml:space="preserve">
+    <value>У вас уже есть тикет &lt;#{0}&gt;!</value>
+  </data>
+  <data name="ticket_deleting" xml:space="preserve">
+    <value>Тикет будет удалён через несколько секунд.</value>
+  </data>
+  <data name="ticket_transcript_failed" xml:space="preserve">
+    <value>**Ошибка:** Не удалось создать файл расшифровки.</value>
+  </data>
+  <data name="ticket_transcript" xml:space="preserve">
+    <value>Расшифровка</value>
+  </data>
+  <data name="ticket_open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="ticket_delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ticket_reopen" xml:space="preserve">
+    <value>Тикет повторно открыт {0}</value>
+  </data>
+  <data name="ticket_transcript_channel_missing" xml:space="preserve">
+    <value>**Ошибка:** Канал для расшифровок не существует. (Cakey Bot не может просматривать/отправлять в нём сообщения.)</value>
+  </data>
+  <data name="ticket_transcript_saved" xml:space="preserve">
+    <value>Расшифровка успешно сохранена в {0}.</value>
+  </data>
+  <data name="ticket_message_count" xml:space="preserve">
+    <value>Количество сообщений:</value>
+  </data>
+  <data name="ticket_saved_by" xml:space="preserve">
+    <value>Сохранил:</value>
+  </data>
+  <data name="ticket_ticket" xml:space="preserve">
+    <value>Тикет:</value>
+  </data>
+  <data name="ticket_staff_reply" xml:space="preserve">
+    <value>Сотрудник ответит на ваш тикет в ближайшее время.</value>
+  </data>
+  <data name="ticket_close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ticket_issue" xml:space="preserve">
+    <value>У {0} возникла следующая проблема:</value>
+  </data>
+  <data name="ticket_create" xml:space="preserve">
+    <value>Нажмите на кнопку ниже, чтобы создать тикет.</value>
+  </data>
+  <data name="ticket_title" xml:space="preserve">
+    <value>Тикет поддержки</value>
+  </data>
+  <data name="ticket_open_embed" xml:space="preserve">
+    <value>Создать тикет</value>
+  </data>
+  <data name="ticket_closed" xml:space="preserve">
+    <value>Тикет закрыт {0}</value>
+  </data>
+  <data name="core_sr_embed_error" xml:space="preserve">
+    <value>Добавьте самороли перед созданием embed'а.</value>
+  </data>
+  <data name="core_sr_embed_description_select" xml:space="preserve">
+    <value>Вы можете получить/снять роли себе/с себя с помощью меню ниже.</value>
+  </data>
+  <data name="core_sr_roles_added" xml:space="preserve">
+    <value>Добавлены роли:</value>
+  </data>
+  <data name="core_sr_roles_removed" xml:space="preserve">
+    <value>Удалены роли:</value>
+  </data>
+  <data name="automod_check_phishing_link" xml:space="preserve">
+    <value>Фишинговая ссылка</value>
+  </data>
+  <data name="presets_applied" xml:space="preserve">
+    <value>Успешно применена предустановка: `{0}`</value>
+  </data>
+  <data name="filters_applied" xml:space="preserve">
+    <value>Успешно применён фильтр `{0}` с опциями: {1}</value>
+  </data>
+  <data name="error_ticket_category" xml:space="preserve">
+    <value>Не удалось создать категорию для тикетов. Пожалуйста, исправьте права Cakey Bot.</value>
+  </data>
+  <data name="ticket_success" xml:space="preserve">
+    <value>Ваш тикет успешно создан: &lt;#{0}&gt;</value>
+  </data>
+  <data name="self_role_select" xml:space="preserve">
+    <value>Выберите несколько ролей.</value>
+  </data>
+  <data name="music_error_playlist_exists_save" xml:space="preserve">
+	  <value>Плейлист с таким названием уже существует. Пожалуйста, удалите его, прежде чем пытаться сохранить новый с таким же именем.</value>
+  </data>
+  <data name="error_upload_file" xml:space="preserve">
+    <value>Не удалось загрузить файл.</value>
+  </data>
+  <data name="core_help_default_permission" xml:space="preserve">
+    <value>Разрешение по умолчанию:</value>
+  </data>
+  <data name="core_help_select_placeholder" xml:space="preserve">
+    <value>Выберите функцию/руководство</value>
+  </data>
+  <data name="error_ticket_overwrites" xml:space="preserve">
+    <value>Не удалось создать переопределения прав для тикета. Пожалуйста, проверьте права Cakey Bot.</value>
+  </data>
+  <data name="youtube_title" xml:space="preserve">
+    <value>YouTube | {0} - НОВОЕ ВИДЕО!</value>
+  </data>
+  <data name="youtube_watch" xml:space="preserve">
+    <value>Посмотрите видео здесь: {0}</value>
+  </data>
+  <data name="youtube_feed" xml:space="preserve">
+    <value>Лента YouTube</value>
+  </data>
+  <data name="tags_manage_doesnt_exist" xml:space="preserve">
+	  <value>Error: Content doesn't exist.</value>
+  </data>
+  <data name="tags_manage_fail_others" xml:space="preserve">
+	  <value>You don't have access to manage other user's content.</value>
+  </data>
+  <data name="tags_manage_fail_self" xml:space="preserve">
+    <value>У вас нет права управлять своими тегами.</value>
+  </data>
+  <data name="tags_create_exists" xml:space="preserve">
+	  <value>Failed to create content, it already exists.</value>
+  </data>
+  <data name="music_duration" xml:space="preserve">
+    <value>Длительность:</value>
+  </data>
+  <data name="music_loop_queue" xml:space="preserve">
+    <value>Теперь очередь зацикливается.</value>
+  </data>
+  <data name="music_loop_track" xml:space="preserve">
+    <value>Текущий трек зациклен.</value>
+  </data>
+  <data name="music_loop_track_error" xml:space="preserve">
+    <value>Текущий трек уже зациклен.</value>
+  </data>
+  <data name="music_loop_queue_error" xml:space="preserve">
+    <value>Очередь уже зациклена.</value>
+  </data>
+  <data name="music_loop_disabled" xml:space="preserve">
+    <value>Отключено зацикливание треков и очередей.</value>
+  </data>
+  <data name="audit_role_icon" xml:space="preserve">
+    <value>Иконка:</value>
+  </data>
+  <data name="audit_role_emoji" xml:space="preserve">
+    <value>Эмодзи:</value>
+  </data>
+  <data name="audit_permissions_removed" xml:space="preserve">
+    <value>Разрешения удалены:</value>
+  </data>
+  <data name="audit_permissions_added" xml:space="preserve">
+    <value>Разрешения добавлены:</value>
+  </data>
+  <data name="music_error_track_length" xml:space="preserve">
+    <value>Продолжительность песни превышает максимальную длину, установленную администраторами сервера.</value>
+  </data>
+  <data name="music_error_track_title" xml:space="preserve">
+    <value>Название песни содержит слово, запрещённое администраторами сервера.</value>
+  </data>
+  <data name="music_youtube_banned" xml:space="preserve">
+    <value>YouTube больше не поддерживается из-за ограничений Discord. Вы всё ещё можете использовать запросы по типу `epic music` или воспроизводить музыку из [других источников](https://wiki.cakey.bot/music/supported-sources).</value>
+  </data>
+  <data name="timeout_success" xml:space="preserve">
+    <value>{0} отправлен в мут. &lt;t:{1}:R&gt;.</value>
+  </data>
+  <data name="timeout_dm" xml:space="preserve">
+    <value>Вы были замучены в `{0}` `{1}` до &lt;t:{2}:R&gt;. Причина: `{3}`</value>
+  </data>
+  <data name="audit_timed_out_expired" xml:space="preserve">
+    <value>Мут истёк/был снят.</value>
+  </data>
+  <data name="chatbot_limit_reached" xml:space="preserve">
+	  <value>Вы достигли лимита запросов AI чат-бота на этом сервере _({0} запросов в месяц)_. Вы можете приобрести premium и повысить лимит.</value>
+  </data>
+  <data name="chatbot_rate_limit" xml:space="preserve">
+    <value>Чат-бот достиг лимита. Пожалуйста, попробуйте позже.</value>
+  </data>
+  <data name="error_ticket_not" xml:space="preserve">
+    <value>Эта команда может быть использована только в тикет канале.</value>
+  </data>
+  <data name="ticket_add" xml:space="preserve">
+    <value>{0} Успешно добавлен в тикет.
+            Запрошено {1}</value>
+  </data>
+  <data name="ticket_remove" xml:space="preserve">
+    <value>{0} Успешно удалён из тикета.
+            Запрошено {1}</value>
+  </data>
+  <data name="error_ticket_support_not" xml:space="preserve">
+    <value>Для использования этой команды необходимо иметь роль {0}.</value>
+  </data>
+  <data name="error_ticket_support_missing" xml:space="preserve">
+    <value>Для использования этой команды вы должны установить роль Команды Поддержки на веб-панели.</value>
+  </data>
+  <data name="ticket_anon_success" xml:space="preserve">
+    <value>Анонимный ответ успешно отправлен.</value>
+  </data>
+  <data name="ticket_closed_dm" xml:space="preserve">
+    <value>Ваш тикет в {0} был закрыт.
+            **Закрыто:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket_close_confirm" xml:space="preserve">
+    <value>Вы действительно хотите закрыть этот тикет?</value>
+  </data>
+  <data name="suggestion_error" xml:space="preserve">
+    <value>Не удалось отправить предложение. Попробуйте позже.</value>
+  </data>
+  <data name="suggestion_success" xml:space="preserve">
+    <value>Ваше [предложение]({0}) успешно отправлено!</value>
+  </data>
+  <data name="tags_nuke_success" xml:space="preserve">
+    <value>Успешно удалены все теги с сервера.</value>
+  </data>
+  <data name="tags_prune_success" xml:space="preserve">
+    <value>Успешно удалены все теги с {0}.</value>
+  </data>
+  <data name="tags_transfer_success" xml:space="preserve">
+	  <value>Successfully transfered: `{0}` to {1}.</value>
+  </data>
+  <data name="leveling_leaderboard_open" xml:space="preserve">
+    <value>Открыть таблицу лидеров</value>
+  </data>
+  <data name="leveling_xp_add" xml:space="preserve">
+    <value>Успешно добавлено `{0}` XP {1}.</value>
+  </data>
+  <data name="leveling_xp_set" xml:space="preserve">
+    <value>Успешно установлено `{0}` XP для {1}.</value>
+  </data>
+  <data name="leveling_xp_remove" xml:space="preserve">
+    <value>Успешно снято `{0}` XP с {1}.</value>
+  </data>
+  <data name="leveling_user_missing" xml:space="preserve">
+    <value>Пользователь не найден в базе данных. Пользователь должен сначала пообщаться.</value>
+  </data>
+  <data name="leveling_disabled" xml:space="preserve">
+	  <value>Эта функция была отключена администрацией сервера.</value>
+  </data>
+  <data name="leveling_top_missing" xml:space="preserve">
+    <value>Пользователи пока не общались. Попробуйте позже.</value>
+  </data>
+  <data name="birthday_error" xml:space="preserve">
+    <value>Для использования этой команды администратор сервера должен установить канал объявлений о днях рождения.</value>
+  </data>
+  <data name="birthday_set_other" xml:space="preserve">
+    <value>Этот пользователь не установил дату своего рождения.</value>
+  </data>
+  <data name="birthday_set_self" xml:space="preserve">
+    <value>День рождения {0} успешно установлен на `{1}`.</value>
+  </data>
+  <data name="birthday_none" xml:space="preserve">
+    <value>Нет предстоящих дней рождения.</value>
+  </data>
+  <data name="birthday_day" xml:space="preserve">
+    <value>День рождения {0} - {1}</value>
+  </data>
+  <data name="birthday_remove_self" xml:space="preserve">
+    <value>Успешно удалена дата рождения.</value>
+  </data>
+  <data name="birthday_remove_other" xml:space="preserve">
+    <value>Успешно удалена дата рождения {0}.</value>
+  </data>
+  <data name="birthday_channel" xml:space="preserve">
+    <value>&lt;#{0}&gt; установлен как канал объявлений о днях рождений.</value>
+  </data>
+  <data name="birthday_role" xml:space="preserve">
+    <value>Роль дня рождения успешно изменена на &lt;@&amp;{0}&gt;.</value>
+  </data>
+  <data name="core_purchase_premium" xml:space="preserve">
+    <value>Купить Premium</value>
+  </data>
+  <data name="chatbot_limit_reached_non_premium" xml:space="preserve">
+    <value>Вы достигли лимита запросов AI чат-бота на этом сервере _({0} запросов в месяц)_. Вы можете приобрести premium и увеличить лимит до {1}!</value>
+  </data>
+  <data name="chatbot_not_enabled" xml:space="preserve">
+    <value>AI чат-бот не включён на этом сервере. Вы можете включить его в веб панели.</value>
+  </data>
+  <data name="report_punish_failed" xml:space="preserve">
+    <value>Не удалось применить наказание. Возможно, пользователь покинул сервер или у меня не хватает прав.</value>
+  </data>
+  <data name="report_punish_delete_success" xml:space="preserve">
+    <value>Сообщение успешно удалено.</value>
+  </data>
+  <data name="report_submitted_by" xml:space="preserve">
+    <value>Жалоба отправлена</value>
+  </data>
+  <data name="report_title_user" xml:space="preserve">
+    <value>Жалоба пользователя</value>
+  </data>
+  <data name="report_title_message" xml:space="preserve">
+    <value>Жалоба на сообщение</value>
+  </data>
+  <data name="report_delete" xml:space="preserve">
+    <value>Удалить Жалобу</value>
+  </data>
+  <data name="report_punish_timeout" xml:space="preserve">
+    <value>Мут пользователя на 24ч</value>
+  </data>
+  <data name="report_punish_warn" xml:space="preserve">
+    <value>Выдать предупреждение пользователю</value>
+  </data>
+  <data name="report_punish_delete" xml:space="preserve">
+    <value>Удалить сообщение</value>
+  </data>
+  <data name="report_text_user" xml:space="preserve">
+    <value>жалуется на</value>
+  </data>
+  <data name="message_id" xml:space="preserve">
+    <value>ID Сообщения:</value>
+  </data>
+  <data name="message_sent" xml:space="preserve">
+    <value>Сообщение Отправлено:</value>
+  </data>
+  <data name="report_text_message" xml:space="preserve">
+    <value>жалуется на сообщение от</value>
+  </data>
+  <data name="report_timeout_success" xml:space="preserve">
+    <value>Пользователь успешно замучен на 24ч.</value>
+  </data>
+  <data name="autocomplete_too_short" xml:space="preserve">
+    <value>Введите хотя бы {0} символов, чтобы получить предложения, нажмите Enter, чтобы продолжить без них.</value>
+  </data>
+  <data name="automod_vm_blacklist_triggered" xml:space="preserve">
+    <value>Ваше голосовое сообщение было удалено за содержание запрещённого слова.</value>
+  </data>
+  <data name="vm_transcript_no_responce" xml:space="preserve">
+    <value>Не удалось расшифровать, возможно, open-ai испытывает проблемы, или сообщение не содержит слов.</value>
+  </data>
+  <data name="vm_transcript_who_done_it" xml:space="preserve">
+    <value>Расшифровка запрошена {0}</value>
+  </data>
+  <data name="automod_check_mass_markdownheaders" xml:space="preserve">
+    <value>Markdown Заголовки</value>
+  </data>
+  <data name="punishment_title" xml:space="preserve">
+    <value>Наказание:</value>
+  </data>
+  <data name="punishment_action" xml:space="preserve">
+    <value>Действие:</value>
+  </data>
+  <data name="bot_added" xml:space="preserve">
+    <value>Бот добавлен:</value>
+  </data>
+  <data name="bot_added_by" xml:space="preserve">
+    <value>Добавил:</value>
+  </data>
+  <data name="webhook_deleted" xml:space="preserve">
+    <value>Вебхук удалён</value>
+  </data>
+  <data name="webhook_name" xml:space="preserve">
+    <value>Название вебхука:</value>
+  </data>
+  <data name="webhook_id" xml:space="preserve">
+    <value>ID вебхука:</value>
+  </data>
+  <data name="webhook_type" xml:space="preserve">
+    <value>Тип вебхука:</value>
+  </data>
+  <data name="webhook_modified" xml:space="preserve">
+    <value>Вебхук изменён</value>
+  </data>
+  <data name="webhook_avatar" xml:space="preserve">
+    <value>Аватар вебхука:</value>
+  </data>
+  <data name="webhook_channel" xml:space="preserve">
+    <value>Канал вебхука:</value>
+  </data>
+  <data name="webhook_created" xml:space="preserve">
+    <value>Вебхук создан</value>
+  </data>
+  <data name="error_no_invites" xml:space="preserve">
+    <value>Невозможно найти/загрузить приглашение.</value>
+  </data>
+  <data name="invite_revoke_success" xml:space="preserve">
+    <value>Успешно отозвано приглашение: `{0}`.</value>
+  </data>
+  <data name="user_roles_modified_title" xml:space="preserve">
+    <value>Роли пользователя изменены</value>
+  </data>
+  <data name="user_roles_modified_description" xml:space="preserve">
+    <value>{0} изменил роли &lt;@{1}&gt;</value>
+  </data>
+  <data name="nickname_modified_by" xml:space="preserve">
+    <value>Изменил:</value>
+  </data>
+	<data name="automod_string_file_extensions" xml:space="preserve">
+		<value>файла с расширением `{0}`.</value>
+	</data>
+  <data name="automod_check_file_extensions" xml:space="preserve">
+    <value>Запрещённое расширение файла</value>
+  </data>
+  <data name="emote_invalid_format" xml:space="preserve">
+    <value>Тип файла не поддерживается. Он должен быть JPEG, PNG или GIF.</value>
+  </data>
+  <data name="emote_created" xml:space="preserve">
+    <value>Эмодзи успешно создан: &lt;{0}:{1}:{2}&gt;</value>
+  </data>
+  <data name="emote_failed_find" xml:space="preserve">
+    <value>Не удалось найти эмодзи.</value>
+  </data>
+  <data name="emote_rename_same" xml:space="preserve">
+    <value>Новое имя должно отличаться от текущего.</value>
+  </data>
+  <data name="emote_deleted" xml:space="preserve">
+    <value>Успешно удалено эмодзи `:{0}:`.</value>
+  </data>
+  <data name="emote_rename" xml:space="preserve">
+    <value>Эмодзи `:{0}:` успешно переименовано в `:{1}:`.</value>
+  </data>
+  <data name="emote_slots" xml:space="preserve">
+    <value>Осталось {0} слотов эмодзи</value>
+  </data>
+  <data name="error_alpha_numeric" xml:space="preserve">
+    <value>Строка должна быть цифро-буквенной.</value>
+  </data>
+  <data name="sticker_invalid_format" xml:space="preserve">
+    <value>Тип файла не поддерживается. Он должен быть PNG, APNG или GIF.</value>
+  </data>
+  <data name="sticker_created" xml:space="preserve">
+    <value>Стикер успешно создан: {0}</value>
+  </data>
+  <data name="sticker_slots" xml:space="preserve">
+    <value>Осталось {0} слотов стикеров</value>
+  </data>
+  <data name="expression_created_error" xml:space="preserve">
+	  <value>При создании стикера/эмодзи произошла ошибка.</value>
+  </data>
+  <data name="sticker_failed_find" xml:space="preserve">
+    <value>Не удалось найти стикер.</value>
+  </data>
+  <data name="sticker_deleted" xml:space="preserve">
+    <value>Стикер `{0}` успешно удален.</value>
+  </data>
+  <data name="sticker_rename" xml:space="preserve">
+    <value>Стикер `{0}` успешно переименован в `{1}`.</value>
+  </data>
+  <data name="emote_none" xml:space="preserve">
+    <value>На этом сервере нет эмодзи.</value>
+  </data>
+  <data name="emote_export" xml:space="preserve">
+    <value>Вот все эмодзи данного сервера:</value>
+  </data>
+  <data name="sticker_none" xml:space="preserve">
+    <value>На этом сервере нет стикеров.</value>
+  </data>
+  <data name="sticker_export" xml:space="preserve">
+    <value>Вот все стикеры данного сервера:</value>
+  </data>
+  <data name="import_error" xml:space="preserve">
+    <value>При импорте произошла ошибка.</value>
+  </data>
+  <data name="import_emotes" xml:space="preserve">
+    <value>{0} эмодзи были успешно импортированы!</value>
+  </data>
+  <data name="import_stickers" xml:space="preserve">
+    <value>{0} стикеры были успешно импортированы!</value>
+  </data>
+  <data name="import_emotes_zip_ext" xml:space="preserve">
+    <value>Загруженный файл не имеет расширения '.zip'.</value>
+  </data>
+  <data name="import_emotes_zip_invalid" xml:space="preserve">
+    <value>Загруженный файл не является Zip-архивом.</value>
+  </data>
+  <data name="error_archive_upload" xml:space="preserve">
+    <value>Количество файлов в загруженном архиве превышает максимально доступное для данного сервера.</value>
+  </data>
+  <data name="error_upload_size" xml:space="preserve">
+    <value>Загруженный файл превышает максимально допустимый размер.</value>
+  </data>
+  <data name="birthday_invalid" xml:space="preserve">
+    <value>Не удалось распознать введённую дату.</value>
+  </data>
+  <data name="analyze_text_error" xml:space="preserve">
+    <value>У сообщения должен быть текст для анализа.</value>
+  </data>
+  <data name="auto_ban_title" xml:space="preserve">
+    <value>Авто Бан: </value>
+  </data>
+  <data name="auto_ban_invite" xml:space="preserve">
+    <value>Приглашение в никнейме</value>
+  </data>
+  <data name="auto_ban_new" xml:space="preserve">
+    <value>Новый аккаунт</value>
+  </data>
+  <data name="auto_ban_avatar" xml:space="preserve">
+    <value>Без аватара</value>
+  </data>
+  <data name="auto_ban_non_verified" xml:space="preserve">
+    <value>Неверифицированный бот</value>
+  </data>
+  <data name="giveaway_no_active" xml:space="preserve">
+    <value>В данный момент нет активных розыгрышей.</value>
+  </data>
+  <data name="giveaways" xml:space="preserve">
+    <value>Активные Розыгрыши</value>
+  </data>
+  <data name="giveaway_doesnt_exist" xml:space="preserve">
+    <value>Этот розыгрыш не существует или уже закончился.</value>
+  </data>
+  <data name="ends_at" xml:space="preserve">
+    <value>Кончается:</value>
+  </data>
+  <data name="error_exists_channel" xml:space="preserve">
+    <value>Канал не существует или у меня нет к нему доступа.</value>
+  </data>
+  <data name="error_exists_message" xml:space="preserve">
+    <value>Сообщение не существует или у меня нет к нему доступа.</value>
+  </data>
+  <data name="giveaway_end_early" xml:space="preserve">
+    <value>Розыгрыш досрочно завершён.</value>
+  </data>
+  <data name="giveaway_reroll" xml:space="preserve">
+    <value>Успешно выбраны новые победители:</value>
+  </data>
+  <data name="giveaway_created" xml:space="preserve">
+    <value>Розыгрыш успешно создан.</value>
+  </data>
+  <data name="giveaway_entry_success" xml:space="preserve">
+    <value>Вы участвуете в розыгрыше.</value>
+  </data>
+  <data name="giveaway_entry_error" xml:space="preserve">
+    <value>Вы покинули розыгрыш.</value>
+  </data>
+  <data name="file_invalid_size" xml:space="preserve">
+    <value>Файл слишком большой. Максимальный размер: {0}.</value>
+  </data>
+  <data name="music_embed_exists" xml:space="preserve">
+    <value>Embed запроса музыки уже существует. Если он недействителен или устарел вы можете удалить сообщение и использовать `/setup songrequest`.</value>
+  </data>
+  <data name="error_ticket_blacklist" xml:space="preserve">
+    <value>Одна из ваших ролей запрещает создание тикетов на этом сервере.</value>
+  </data>
+  <data name="ticket_rating" xml:space="preserve">
+    <value>Оценка:</value>
+  </data>
+  <data name="ticket_opened_by" xml:space="preserve">
+    <value>Тикет Открыл:</value>
+  </data>
+  <data name="ticket_rating_content" xml:space="preserve">
+    <value>**Пожалуйста, оцените свои впечатления от общения с помогавшим Вам сотрудником.**
+Для этого нажмите на одну из пронумерованных кнопок.
+```Если вы не хотите оценивать сотрудника, вы можете проигнорировать это сообщение.```</value>
+  </data>
+  <data name="ticket_rating_pending_send" xml:space="preserve">
+    <value>Ожидание Отправки...</value>
+  </data>
+  <data name="ticket_rating_pending" xml:space="preserve">
+    <value>Запрошена, ожидается ответ...</value>
+  </data>
+  <data name="ticket_rating_disabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="ticket_rating_failed" xml:space="preserve">
+    <value>Не удалось отправить.</value>
+  </data>
+  <data name="ticket_rating_thanks" xml:space="preserve">
+    <value>Спасибо за Ваш отзыв!</value>
+  </data>
+  <data name="ticket_reply_counts" xml:space="preserve">
+    <value>Количество ответов:</value>
+  </data>
+  <data name="auto_ban_numbers_only" xml:space="preserve">
+    <value>Никнейм только из цифр</value>
+  </data>
+  <data name="error_add_reactions" xml:space="preserve">
+    <value>Не удалось добавить реакции, убедитесь, что бот имеет разрешения в этом канале.</value>
+  </data>
+  <data name="error_ticket_create" xml:space="preserve">
+    <value>Не удалось создать категорию тикетов или тикет. Убедитесь, что бот имеет необходимые права.</value>
+  </data>
+  <data name="error_no_valid_links" xml:space="preserve">
+    <value>В сообщении не найдено URL/ссылок.</value>
+  </data>
+  <data name="error_ship_same" xml:space="preserve">
+    <value>Вы не можете шипперить пользователя с ним самим.</value>
+  </data>
+  <data name="music_voteskip_2_plural" xml:space="preserve">
+    <value>Вы проголосовали за пропуск, нужно ещё {0} голосов.</value>
+  </data>
+  <data name="music_voteskip_3_plural" xml:space="preserve">
+    <value>Вы ужа отдали голос за пропуск, он был удалён. Вы можете снова проголосовать с помощью команды `/skip`. Нужно ещё {0} голосов.</value>
+  </data>
+  <data name="xp_import_start" xml:space="preserve">
+    <value>Начат импорт уровней, это может занять несколько минут.</value>
+  </data>
+  <data name="xp_import_error" xml:space="preserve">
+    <value>Не удалось импортировать уровни. Убедитесь, что ваша таблица лидеров настроена как `public`.</value>
+  </data>
+  <data name="xp_import_success" xml:space="preserve">
+    <value>Успешно импортированы уровни. Вы можете посмотреть таблицу лидеров с помощью кнопки ниже.</value>
+  </data>
+  <data name="xp_export_success" xml:space="preserve">
+	  <value>Информация об уровнях была успешно экспортирована. Вы можете просмотреть её в прикреплённом файле.</value>
+  </data>
+  <data name="xp_export_error" xml:space="preserve">
+    <value>Ошибка экспорта данных. Вероятно, ещё нет данных для экспорта.</value>
+  </data>
+  <data name="birthday_error_future" xml:space="preserve">
+    <value>Вы не могли родиться в будущем!</value>
+  </data>
+  <data name="error_invalid_message_id" xml:space="preserve">
+    <value>Ошибка: неверный ID сообщения.</value>
+  </data>
+  <data name="music_player_active" xml:space="preserve">
+    <value>Пользователь подключился к каналу. Авто отключение было отменено.</value>
+  </data>
+  <data name="transcription_audio_too_short" xml:space="preserve">
+    <value>Аудиофайл слишком короткий для расшифровки.</value>
+  </data>
+  <data name="transcription_error_generic" xml:space="preserve">
+    <value>При расшифровке произошла ошибка.</value>
+  </data>
+  <data name="unlock_with_premium" xml:space="preserve">
+    <value>Разблокировать больше с premium</value>
+  </data>
+  <data name="imagine_generation_done" xml:space="preserve">
+    <value>Генерация изображения завершена!</value>
+  </data>
+  <data name="imagine_style" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="imagine_prompt" xml:space="preserve">
+    <value>Запрос</value>
+  </data>
+  <data name="music_voteskip_5" xml:space="preserve">
+    <value>Голосование за пропуск от {0}</value>
+  </data>
+  <data name="generic_ban_user" xml:space="preserve">
+    <value>Забанить пользователя</value>
+  </data>
+  <data name="ban_sync_unban_button" xml:space="preserve">
+    <value>Разбанить</value>
+  </data>
+  <data name="ban_sync_unban_description" xml:space="preserve">
+    <value>Пользователь {0} ({1}) был разбанен на сервере {2}</value>
+  </data>
+  <data name="reminder_delete_success" xml:space="preserve">
+    <value>Напоминание успешно удалено.</value>
+  </data>
+  <data name="reminder_list_none" xml:space="preserve">
+    <value>У вас нет напоминаний.</value>
+  </data>
+  <data name="info_string_49" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="error_generic_permission" xml:space="preserve">
+    <value>Не удалось выполнить действие. Скорее всего у Cakey Bot не хватает прав.</value>
+  </data>
+  <data name="bulk_modify_users_start" xml:space="preserve">
+	  <value>Обновление пользователей, это может занять некоторое время.
+Примечание: По завершении будет отправлено сообщение.</value>
+  </data>
+  <data name="economy_pay_success" xml:space="preserve">
+	  <value>Успешно отправлено {0} &lt;@{1}&gt;.</value>
+  </data>
+  <data name="economy_insufficient_balance" xml:space="preserve">
+    <value>У вас недостаточно денег для выполнения этого действия.</value>
+  </data>
+  <data name="economy_balance" xml:space="preserve">
+	  <value>Баланс &lt;@{0}&gt;: {1}.</value>
+  </data>
+  <data name="economy_insufficient_balance_rob" xml:space="preserve">
+    <value>У выбранного пользователя недостаточно денег.</value>
+  </data>
+  <data name="economy_rob_success_1" xml:space="preserve">
+	  <value>Упс, приехала полиция и вы потеряли {0}.</value>
+  </data>
+  <data name="economy_rob_fail" xml:space="preserve">
+    <value>&lt;@{0}&gt; удалось сбежать. Ваш баланс остался прежним.</value>
+  </data>
+  <data name="economy_rob_success_2" xml:space="preserve">
+	  <value>&lt;@{0}&gt; защитился и отобрал у вас {1}.</value>
+  </data>
+  <data name="economy_rob_success_3" xml:space="preserve">
+	  <value>Вы припугнули &lt;@{0}&gt; и получили {1}.</value>
+  </data>
+  <data name="economy_rob_success_4" xml:space="preserve">
+	  <value>Вы успешно ограбили &lt;@{0}&gt; на {1}.</value>
+  </data>
+  <data name="economy_rob_success_5" xml:space="preserve">
+	  <value>Вы очень удачно ограбили &lt;@{0}&gt; и ушли с {1}!</value>
+  </data>
+  <data name="economy_work_success" xml:space="preserve">
+	  <value>Вы пошли на работу и успешно заработали {0}.</value>
+  </data>
+  <data name="economy_work_failed" xml:space="preserve">
+	  <value>Вместо работы вы заплатили {0} налогов.</value>
+  </data>
+  <data name="economy_beg_fail" xml:space="preserve">
+    <value>Вы даже не могли попросить денег. :(</value>
+  </data>
+  <data name="economy_beg_success" xml:space="preserve">
+	  <value>Вы успешно выпросили {0}.</value>
+  </data>
+  <data name="generic_confirm" xml:space="preserve">
+    <value>Вы должны подтвердить это действие.</value>
+  </data>
+  <data name="generic_reset_success" xml:space="preserve">
+    <value>Данные успешно сброшены.</value>
+  </data>
+  <data name="economy_manage_success" xml:space="preserve">
+	  <value>Баланс {0} успешно обновлен. Текущий баланс: {1}</value>
+  </data>
+  <data name="economy_bet_success" xml:space="preserve">
+	  <value>Вы успешно угадали правильный ответ и выиграли {0}. Результат: {1}.</value>
+  </data>
+  <data name="economy_bet_fail" xml:space="preserve">
+	  <value>Вы не угадали ответ и проиграли свою ставку {0}. Результат: {1}.</value>
+  </data>
+  <data name="eco_game_select" xml:space="preserve">
+    <value>Пожалуйста, выберите ваш ход.</value>
+  </data>
+  <data name="eco_game_another_player" xml:space="preserve">
+    <value>Другой игрок уже вошел в игру как игрок {0}.</value>
+  </data>
+  <data name="eco_game_selected" xml:space="preserve">
+    <value>Вы уже выбрали ход.</value>
+  </data>
+  <data name="eco_game_enter" xml:space="preserve">
+    <value>Вы вошли в игру как игрок {0}.</value>
+  </data>
+  <data name="eco_game_play_name" xml:space="preserve">
+    <value>Нажмите на кнопки ниже, чтобы играть в {0}.</value>
+  </data>
+  <data name="eco_game_amount" xml:space="preserve">
+    <value>Сумма:</value>
+  </data>
+  <data name="eco_game_play" xml:space="preserve">
+    <value>Играть</value>
+  </data>
+  <data name="news_subscribe_success" xml:space="preserve">
+    <value>Успешная подписка на новости сообщества!</value>
+  </data>
+  <data name="news_unsubscribe_failed" xml:space="preserve">
+    <value>Не удалось отписаться. Вы можете вручную отказаться от подписки, удалив вебхук Cakey Bot в настройках интеграций вашего сервера.</value>
+  </data>
+  <data name="news_unsubscribe_success" xml:space="preserve">
+    <value>Успешно отписались от новостей сообщества!</value>
+  </data>
+  <data name="news_resubscribe" xml:space="preserve">
+    <value>Подписаться</value>
+  </data>
+  <data name="news_unsubscribe" xml:space="preserve">
+    <value>Отписаться</value>
+  </data>
+  <data name="sticky_max" xml:space="preserve">
+    <value>Вы достигли максимальное количество липких сообщений на этом сервере.</value>
+  </data>
+  <data name="sticky_success" xml:space="preserve">
+    <value>Липкое сообщение успешно создано.</value>
+  </data>
+  <data name="sticky_delete_success" xml:space="preserve">
+    <value>Сообщение успешно удалено.</value>
+  </data>
+  <data name="sticky_embed_premium" xml:space="preserve">
+    <value>Для использования кастомного embed-URL требуется premium.</value>
+  </data>
+  <data name="sticky_delay_premium" xml:space="preserve">
+    <value>Для установки пользовательской задержки нужен premium.</value>
+  </data>
+  <data name="sticky_min_messages_premium" xml:space="preserve">
+    <value>Для установки пользовательского минимального количества сообщений нужен premium.</value>
+  </data>
+  <data name="sticky_exists" xml:space="preserve">
+    <value>Выбранный канал уже имеет липкое сообщение.</value>
+  </data>
+  <data name="music_bot_premium_only" xml:space="preserve">
+    <value>Дополнительные музыкальные боты могут быть использованы только на премиум-серверах.</value>
+  </data>
+  <data name="report_finished" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="report_finished_success" xml:space="preserve">
+    <value>Жалоба успешно помечена как завершённая.</value>
+  </data>
+  <data name="report_unfinished_success" xml:space="preserve">
+    <value>Жалоба успешно помечена как незавершённая.</value>
+  </data>
+  <data name="report_claim" xml:space="preserve">
+    <value>Назначить себя</value>
+  </data>
+  <data name="report_finish" xml:space="preserve">
+    <value>Отметить завершённым</value>
+  </data>
+  <data name="report_unfinish" xml:space="preserve">
+    <value>Отметить незавершённым</value>
+  </data>
+  <data name="report_unfinished" xml:space="preserve">
+    <value>Отмечено как незавершённое</value>
+  </data>
+  <data name="report_unclaim" xml:space="preserve">
+    <value>Снять назначение</value>
+  </data>
+  <data name="report_claim_success" xml:space="preserve">
+    <value>Жалоба успешно назначена.</value>
+  </data>
+  <data name="report_claimed_by" xml:space="preserve">
+    <value>Назначен:</value>
+  </data>
+  <data name="report_unclaim_success" xml:space="preserve">
+    <value>Назначение успешно снято.</value>
+  </data>
+  <data name="economy_no_items" xml:space="preserve">
+    <value>Предметов не найдено.</value>
+  </data>
+  <data name="economy_bet_success_2" xml:space="preserve">
+	  <value>Вы были близки к ответу и выиграли {0}. Результат: {1}.</value>
+  </data>
+  <data name="games_coin_side" xml:space="preserve">
+    <value>Ребро
+Вау! Шанс случившегося всего 0.02%!</value>
+	</data>
+	<data name="economy_bet_success_side" xml:space="preserve">
+		<value>Монета упала на ребро! Шанс этого всего лишь 0.02%. Вы удвоили свою ставку!</value>
+	</data>
+	<data name="economy_owned_items" xml:space="preserve">
+		<value>Приобретённые предметы не отображаются в списке.</value>
+	</data>
+	<data name="music_embed_not_setup" xml:space="preserve">
+		<value>Канал запроса песен не настроен.</value>
+	</data>
+	<data name="music_embed_unset" xml:space="preserve">
+		<value>Канал запроса песен больше не назначен.</value>
+	</data>
+	<data name="economy_coinflip_side" xml:space="preserve">
+		<value>Вы не можете угадать сторону, пожалуйста, выберите другую.</value>
+	</data>
+	<data name="generic_reset_none" xml:space="preserve">
+		<value>Данные не найдены.</value>
+	</data>
+	<data name="achievement_unlocked" xml:space="preserve">
+		<value>Достижение получено!</value>
+	</data>
+	<data name="achievement_message" xml:space="preserve">
+		<value>Поздравляем {0}! Вы разблокировали достижение: **{1}**! 🥳</value>
+	</data>
+	<data name="achievement_none" xml:space="preserve">
+		<value>Достижения не найдены.</value>
+	</data>
+	<data name="automod_string_generic" xml:space="preserve">
+		<value>Ваше сообщение было удалено за содержание {0}</value>
+	</data>
+  <data name="core_commands_user_install" xml:space="preserve">
+	  <value>Пользовательские установки</value>
+  </data>
+  <data name="role_invalid" xml:space="preserve">
+	  <value>Неизвестная роль</value>
+  </data>
+  <data name="core_sr_removed_1" xml:space="preserve">
+	  <value>Само-роль успешно снята.</value>
+  </data>
+  <data name="core_sr_added_2" xml:space="preserve">
+	  <value>Успешно выдано `{0}` в качестве само-роли.</value>
+  </data>
+  <data name="core_sr_added_1" xml:space="preserve">
+	  <value>Роль уже существует в качестве самороли.</value>
+  </data>
+  <data name="error_invalid_user_generic" xml:space="preserve">
+	  <value>Неизвестный пользователь.</value>
+  </data>
+  <data name="random_user_error" xml:space="preserve">
+	  <value>Не удалось выбрать случайного пользователя. Пожалуйста, попробуйте еще раз.</value>
+  </data>
+  <data name="random_user_selected" xml:space="preserve">
+	  <value>{0}! Знаешь, больше никого нет. Я выбираю тебя!</value>
+  </data>
+  <data name="error_invalid_channel_generic" xml:space="preserve">
+	  <value>Неверный канал.</value>
+  </data>
+  <data name="temp_voice_none" xml:space="preserve">
+	  <value>На данный момент у вас нет голосового канала.</value>
+  </data>
+  <data name="temp_voice_created" xml:space="preserve">
+	  <value>Создано лобби голосовых каналов: &lt;#{0}&gt;.</value>
+  </data>
+  <data name="temp_voice_cleared" xml:space="preserve">
+	  <value>Лобби было удалено вместе с существующими голосовыми каналами.</value>
+  </data>
+  <data name="temp_voice_error_not" xml:space="preserve">
+	  <value>Это не временный голосовой канал.</value>
+  </data>
+  <data name="temp_voice_deleted" xml:space="preserve">
+	  <value>Временный голосовой канал `{0}` был удален.</value>
+  </data>
+  <data name="temp_voice_toggle" xml:space="preserve">
+	  <value>Конфиденциальность канала установлена на {0}.</value>
+  </data>
+  <data name="temp_voice_error_clear" xml:space="preserve">
+	  <value>На этом сервере уже есть лобби временных голосовых каналов.
+		 Вы можете очистить его с помощью `/temp-voice admin clear-lobby`
+		 ```Примечание: вы можете как угодно переименовывать категорию и лобби.```</value>
+  </data>
+  <data name="thread_tags" xml:space="preserve">
+	  <value>Теги:</value>
+  </data>
+  <data name="generic_verify" xml:space="preserve">
+	  <value>Подтвердить</value>
+  </data>
+  <data name="verify_title" xml:space="preserve">
+	  <value>Требуется подтверждение</value>
+  </data>
+  <data name="verify_desccription" xml:space="preserve">
+	  <value>Добро пожаловать на сервер! 
+Нажмите на кнопку ниже, чтобы подтвердить свой аккаунт для получения доступа к серверу.</value>
+  </data>
+  <data name="verify_command" xml:space="preserve">
+	  <value>Для верификации вам нужно выполнить команду {0}.</value>
+  </data>
+  <data name="error_verify_password_missing" xml:space="preserve">
+	  <value>Пароль не был установлен.</value>
+  </data>
+  <data name="error_verify_password" xml:space="preserve">
+	  <value>Неверный пароль/код.</value>
+  </data>
+  <data name="verify_success" xml:space="preserve">
+	  <value>Вы успешно прошли верификацию.</value>
+  </data>
+  <data name="verify_success_setup" xml:space="preserve">
+	  <value>Сообщение успешно отправлено.</value>
+  </data>
+  <data name="error_verification_type" xml:space="preserve">
+	  <value>Необходим другой метод верификации.</value>
+  </data>
+  <data name="error_invalid_webhook" xml:space="preserve">
+	  <value>Неверный вебхук</value>
+  </data>
+  <data name="giveaway_entry_xp_error" xml:space="preserve">
+	  <value>У вас слишком низкий уровень XP (`{0}`) для участия в розыгрыше.</value>
+  </data>
+  <data name="starboard_not_enabled" xml:space="preserve">
+	  <value>Starboard не активирован.</value>
+  </data>
+  <data name="starboard_force_success" xml:space="preserve">
+	  <value>Сообщение было успешно помещено на starboard.</value>
+  </data>
+  <data name="achievement_revoked" xml:space="preserve">
+	  <value>Достижение отозвано!</value>
+  </data>
+  <data name="achievement_already_unlocked" xml:space="preserve">
+	  <value>У пользователя уже есть это достижение.</value>
+  </data>
+  <data name="achievement_not_unlocked" xml:space="preserve">
+	  <value>У пользователя нет этого достижения.</value>
+  </data>
+  <data name="games_suggestion_approve" xml:space="preserve">
+	  <value>Принять</value>
+  </data>
+  <data name="games_suggestion_deny" xml:space="preserve">
+	  <value>Отклонить</value>
+  </data>
+  <data name="games_suggestion_discuss" xml:space="preserve">
+	  <value>Создать ветку для обсуждения</value>
+  </data>
+  <data name="games_suggestion_success" xml:space="preserve">
+	  <value>Голос учтён.</value>
+  </data>
+  <data name="games_suggestion_status_success" xml:space="preserve">
+	  <value>Статус успешно изменён.</value>
+  </data>
+  <data name="games_suggestion_discuss_thread_exists" xml:space="preserve">
+	  <value>Ветка для обсуждения уже существует.</value>
+  </data>
+  <data name="games_suggestion_vote_error" xml:space="preserve">
+	  <value>Ваш голос был изменён.</value>
+  </data>
+  <data name="games_suggestion_remove" xml:space="preserve">
+	  <value>Голос успешно удален.</value>
+  </data>
+  <data name="games_suggestion_denied_by" xml:space="preserve">
+	  <value>Отклонил: {0}</value>
+  </data>
+  <data name="games_suggestion_approved_by" xml:space="preserve">
+	  <value>Одобрил: {0}</value>
+  </data>
+  <data name="games_suggestion_discuss_success" xml:space="preserve">
+	  <value>Ветка успешно создана.</value>
+  </data>
+  <data name="economy_transfers_disabled" xml:space="preserve">
+	  <value>Переводы между пользователями были отключены администрацией сервера.</value>
+  </data>
+  <data name="generic_invalid_selection" xml:space="preserve">
+	  <value>Неверный выбор.</value>
+  </data>
+  <data name="economy_owned_error" xml:space="preserve">
+	  <value>У вас уже есть это.</value>
+  </data>
+  <data name="economy_purchased" xml:space="preserve">
+	  <value>Вы успешно приобрели `{0}` за {1}.</value>
+  </data>
+  <data name="eco_game_amount_final" xml:space="preserve">
+	  <value>Итоговая сумма:</value>
+  </data>
+  <data name="generic_modifier" xml:space="preserve">
+	  <value>Множитель:</value>
+  </data>
+  <data name="setup_autopublish_not_news" xml:space="preserve">
+	  <value>Текущий канал не является новостным каналом.</value>
+  </data>
+  <data name="setup_autopublish_enabled" xml:space="preserve">
+	  <value>Автопубликация успешно включена.</value>
+  </data>
+  <data name="setup_autopublish_disabled" xml:space="preserve">
+	  <value>Автопубликация успешно выключена.</value>
+  </data>
+  <data name="ticket_remind" xml:space="preserve">
+	  <value>Напоминаем, что ваш тикет в `{0}` все ещё открыт. Пожалуйста, ответьте, если Вам до сих пор нужна помощь.</value>
+  </data>
+  <data name="ticket_request_cancel" xml:space="preserve">
+	  <value>Запрос успешно отклонён.</value>
+  </data>
+  <data name="ticket_deny_request" xml:space="preserve">
+	  <value>{0} отклонил запрос на закрытие тикета.</value>
+  </data>
+  <data name="ticket_request_close" xml:space="preserve">
+	  <value>{0} попросил закрыть этот тикет. Причина:
+
+```{1}```</value>
+  </data>
+  <data name="ticket_request_footer" xml:space="preserve">
+	  <value>Пожалуйста, примите или отклоните с помощью кнопок ниже.</value>
+  </data>
+  <data name="ticket_request_accept" xml:space="preserve">
+	  <value>Принять и закрыть</value>
+  </data>
+  <data name="ticket_request_deny" xml:space="preserve">
+	  <value>Отклонить и оставить открытым</value>
+  </data>
+  <data name="ticket_remind_success" xml:space="preserve">
+	  <value>&lt;@{0}&gt; отправил напоминание &lt;@{1}&gt;.</value>
+  </data>
+  <data name="generic_no_data" xml:space="preserve">
+	  <value>Данные не найдены в базе данных.</value>
+  </data>
+  <data name="streaks_opt_out" xml:space="preserve">
+	  <value>Участие в сериях успешно переключено. Теперь: `{0}`.</value>
+  </data>
+  <data name="streaks_top" xml:space="preserve">
+	  <value>Топ серий</value>
+  </data>
+  <data name="streaks_current" xml:space="preserve">
+	  <value>Текущая серия</value>
+  </data>
+  <data name="streaks_highest" xml:space="preserve">
+	  <value>Наибольшая серия</value>
+  </data>
+  <data name="music_playing_modify" xml:space="preserve">
+	  <value>Песня должна воспроизводиться, чтобы её изменить.</value>
+  </data>
+  <data name="error_failed_modify_user" xml:space="preserve">
+	  <value>Не удалось обновить пользователя.</value>
+  </data>
+  <data name="ticket_auto_remind" xml:space="preserve">
+	  <value>Тикет был неактивен {0} дней. Пожалуйста, ответьте, или он будет закрыт.</value>
+  </data>
+  <data name="ticket_auto_close" xml:space="preserve">
+	  <value>Тикет был неактивен в течение {0} дней и был закрыт.</value>
+  </data>
+  <data name="streaks_reminder_soon" xml:space="preserve">
+	  <value>Your streak will be reset to 1 in 12 hours if you don't send a message in `{0}` ({1}).</value>
+  </data>
+  <data name="streaks_reset" xml:space="preserve">
+	  <value>Streak Reset</value>
+  </data>
+  <data name="streaks_reminder_reset" xml:space="preserve">
+	  <value>Your streak has been reset to 1 as you haven't sent a message in over 48 hours. Affected server: `{0}` ({1})</value>
+  </data>
+  <data name="generic_opt_out" xml:space="preserve">
+	  <value>Opt-Out</value>
+  </data>
+  <data name="generic_opt_in" xml:space="preserve">
+	  <value>Opt-In</value>
+  </data>
+  <data name="error_ephemeral" xml:space="preserve">
+	  <value>This action can't be done to an ephemeral message.</value>
+  </data>
+  <data name="notes_list" xml:space="preserve">
+	  <value>Notes:</value>
+  </data>
+</root>
