@@ -196,7 +196,7 @@
     <value>Ich kann niemanden mit einer Rolle über meiner Verwarnen!</value>
   </data>
   <data name="error_invalid_color_hex" xml:space="preserve">
-    <value>Der angegebene Hex-Code ist nicht gültig.</value>
+    <value>Du musst einen gültigen Hex-Code verwenden!</value>
   </data>
   <data name="error_invalid_dice" xml:space="preserve">
     <value>Bitte gebe eine gültige Zahl (1-15) ein, oder gib einen DND-Würfelwurf ein.</value>
@@ -271,7 +271,7 @@
     <value>Ergebnisse des #{i1} Wurfes:</value>
   </data>
   <data name="games_dice_result_rolled" xml:space="preserve">
-    <value>Du hast eine {0} gewürfelt.</value>
+    <value>Du hast eine {0} gewürfelt</value>
   </data>
   <data name="games_rps_outcome_1" xml:space="preserve">
     <value>Ich habe {0} gewählt; {1} schlägt {2}. Ich habe gewonnen!</value>
@@ -351,7 +351,7 @@
     <value>{0} wurde erfolgreich gekickt.</value>
   </data>
   <data name="mod_kick_dm" xml:space="preserve">
-    <value>Du wurdest von `{0}` von `{1}` mit dem Grund `{2}` gekickt.</value>
+    <value>Du wurdest von {1} aus {0} entfernt. Grund: {2}</value>
   </data>
   <data name="mod_unban_success" xml:space="preserve">
     <value>{0} wurde erfolgreich entbannt.</value>
@@ -360,7 +360,7 @@
     <value>{0} wurde erfolgreich gebannt.</value>
   </data>
   <data name="mod_ban_dm" xml:space="preserve">
-    <value>Du wurdest aus `{0}` von `{1}` mit dem Grund `{2}` gebannt.</value>
+    <value>Du wurdest von {0} durch {1} gebannt. Grund: {2}</value>
   </data>
   <data name="mod_ban_temp_success" xml:space="preserve">
     <value>{0} wurde entbannt &lt;t:{1}:R&gt;</value>
@@ -385,13 +385,13 @@
     <value>Du wurdest in `{0}` von `{1}` gewarnt für: `{2}`</value>
   </data>
   <data name="mod_unwarn_success" xml:space="preserve">
-    <value>Die Warnung wurde erfolgreich von `{0}` entfernt.</value>
+    <value>Die Warnung wurde erfolgreich von `{0}` entfernt</value>
   </data>
   <data name="mod_unwarn_error_invalid" xml:space="preserve">
     <value>Die angegebene Warnungs-ID ist nicht gültig.</value>
   </data>
   <data name="mod_clearwarnings_success" xml:space="preserve">
-    <value>Es wurden erfolgreich alle Verwarnungen von `{0}` gelöscht.</value>
+    <value>Es wurden erfolgreich alle Verwarnungen von `{0}` gelöscht</value>
   </data>
   <data name="mod_purge_none_2" xml:space="preserve">
     <value>Es wurden keine Nachrichten gefunden , die den angegebenen Kriterien entsprechen.</value>
@@ -739,7 +739,7 @@
     <value>Ich habe das Lied am Beginn des Liedes neugestartet.</value>
   </data>
   <data name="music_seek_3" xml:space="preserve">
-    <value>Ich habe bis `{0}` gespult.</value>
+    <value>Ich habe das Lied auf Minute {0} vorgespult</value>
   </data>
   <data name="music_ff_2" xml:space="preserve">
     <value>Ich habe vorgespult zu: `{0}` ({1} voraus)</value>
@@ -1063,7 +1063,7 @@
     <value>Thema:</value>
   </data>
   <data name="audit_string_31" xml:space="preserve">
-    <value>Ist NSFW?</value>
+    <value>Ist NSFW?:</value>
   </data>
   <data name="audit_string_32" xml:space="preserve">
     <value>Zeitlupenmodus:</value>
@@ -2122,7 +2122,7 @@ Note: A message will be sent upon completion.</value>
 	  <value>{0} erfolgreich an &lt;@{1}&gt; gesendet.</value>
   </data>
   <data name="economy_insufficient_balance" xml:space="preserve">
-    <value>Du hast nicht genug Geld, um diese Aktion durchzuführen!</value>
+    <value>Du hast nicht genug Geld, um diese Aktion durchzuführen.</value>
   </data>
   <data name="economy_balance" xml:space="preserve">
 	  <value>&lt;@{0}&gt;'s Kontostand ist derzeit: {1}.</value>
@@ -2275,7 +2275,8 @@ Note: A message will be sent upon completion.</value>
 	  <value>Du warst sehr nah an der Antwort dran und hast {0} gewonnen. Das Ergebnis war: {1}.</value>
   </data>
   <data name="games_coin_side" xml:space="preserve">
-    <value>Seite Wow! Die Wahrscheinlichkeit davon liegt bei nur 0,02%!</value>
+    <value>Seite
+Wow! Die Chance, dass das passiert, liegt nur bei 0,02 %!</value>
   </data>
   <data name="economy_bet_success_side" xml:space="preserve">
 		<value>Die Münze ist auf der Seite gelandet! Das ist nur eine Chance von 0,02%. Du hast das Doppelte Deines Einsatzes gewonnen!</value>
@@ -2550,6 +2551,6 @@ Bitte klicken Sie auf die Schaltfläche unten, um Ihr Konto zu verifizieren, bev
     <value>You do not have the required role (`{0}`) to enter this giveaway.</value>
   </data>
   <data name="daily_content_fact_title" xml:space="preserve">
-    <value>Fact of the Day</value>
+    <value>Fakt des Tages</value>
   </data>
 </root>
