@@ -853,4 +853,7 @@ return [
     'self-role-title-required-level' => "Required Level",
     'self-role-title-required-streak' => "Required Streak",
     'self-role-title-required-role' => "Required Role",
+    'daily-content-random-image' => "Imagen aleatoria",
+    'auto-message-day' => "Día de la semana",
+    'leveling-ignore-solo' => "Ignorar usuarios solos",
 ];
