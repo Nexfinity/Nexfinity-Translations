@@ -151,7 +151,7 @@
     <value>Keine gültigen Bilder in den letzten 5 Nachrichten gefunden.</value>
   </data>
   <data name="error_failed_image_download" xml:space="preserve">
-    <value>Das Bild konnte nicht heruntergeladen werden.</value>
+    <value>Fehler beim Herunterladen des Bildes.</value>
   </data>
   <data name="error_failed_image_modify" xml:space="preserve">
     <value>Es ist ein Fehler beim Ändern des Bildes aufgetreten.</value>
@@ -235,7 +235,7 @@
     <value>Beschreibung:</value>
   </data>
   <data name="games_suggestion_created" xml:space="preserve">
-    <value>Anregung erstellt von {0}</value>
+    <value>Vorschlag erstellt von {0}</value>
   </data>
   <data name="games_8ball_question" xml:space="preserve">
     <value>Frage:</value>
@@ -309,13 +309,13 @@
     <value>Gültige Antworten sind: `A`, `B`, `C`, or `D`.</value>
   </data>
   <data name="games_trivia_correct" xml:space="preserve">
-    <value>Du hast es richtig gemacht! :D</value>
+    <value>Du hast es richtig beantwortet! :D</value>
   </data>
   <data name="games_trivia_incorrect" xml:space="preserve">
-    <value>Oh nein, Sie haben sich vertan. Richtige Antwort: `{0}`</value>
+    <value>Oh nein, du hast es falsch beantwortet. Richtige Antwort: {0}</value>
   </data>
   <data name="games_trivia_load_failed" xml:space="preserve">
-    <value>Fehler beim Laden von Trivia-Fragen. Bitte versuchen Sie es später erneut.</value>
+    <value>Fehler beim Laden von Trivia-Fragen. Bitte versuche es später erneut.</value>
   </data>
   <data name="afk" xml:space="preserve">
     <value>{0} ist derzeit AFK, Grund: `{1}`</value>
@@ -327,13 +327,13 @@
     <value>Dieser Benutzer ist zur Zeit nicht AFK.</value>
   </data>
   <data name="afk_active" xml:space="preserve">
-    <value>Sie sind derzeit AFK mit der Nachricht: `{0}`</value>
+    <value>Du bist derzeit AFK mit der Nachricht: `{0}`</value>
   </data>
   <data name="afk_failed" xml:space="preserve">
     <value>Fehler beim Setzen der AFK-Nachricht.</value>
   </data>
   <data name="afk_set" xml:space="preserve">
-    <value>Sie wurden erfolgreich auf AFK gesetzt mit der Nachricht: `{0}`</value>
+    <value>Du wurdest erfolgreich auf AFK gesetzt mit der Nachricht: `{0}`</value>
   </data>
   <data name="afk_removed_1" xml:space="preserve">
     <value>Dein AFK-Modus wurde erfolgreich beendet.</value>
@@ -351,7 +351,7 @@
     <value>{0} wurde erfolgreich gekickt.</value>
   </data>
   <data name="mod_kick_dm" xml:space="preserve">
-    <value>Du wurdest von {1} aus {0} entfernt. Grund: {2}</value>
+    <value>Du wurdest von `{1}` aus `{0}` gekickt. Grund: `{2}`</value>
   </data>
   <data name="mod_unban_success" xml:space="preserve">
     <value>{0} wurde erfolgreich entbannt.</value>
@@ -360,7 +360,7 @@
     <value>{0} wurde erfolgreich gebannt.</value>
   </data>
   <data name="mod_ban_dm" xml:space="preserve">
-    <value>Du wurdest von {0} durch {1} gebannt. Grund: {2}</value>
+    <value>Du wurdest von `{0}` durch `{1}` gebannt. Grund: `{2}`</value>
   </data>
   <data name="mod_ban_temp_success" xml:space="preserve">
     <value>{0} wurde entbannt &lt;t:{1}:R&gt;</value>
@@ -433,7 +433,7 @@
     <value>Keine Booster gefunden.</value>
   </data>
   <data name="info_string_1" xml:space="preserve">
-    <value>Anzahl Mitglieder</value>
+    <value>Mitglieder Insgesamt</value>
   </data>
   <data name="info_string_3" xml:space="preserve">
     <value>Bots</value>
@@ -520,7 +520,7 @@
     <value>Nein</value>
   </data>
   <data name="info_string_35" xml:space="preserve">
-    <value>Position</value>
+    <value>Anerkennungen</value>
   </data>
   <data name="info_string_36" xml:space="preserve">
     <value>Einladender</value>
@@ -529,13 +529,13 @@
     <value>Kanal</value>
   </data>
   <data name="info_string_38" xml:space="preserve">
-    <value>Anzahl Mitglieder</value>
+    <value>Mitgliederanzahl</value>
   </data>
   <data name="info_string_39" xml:space="preserve">
     <value>Verwendet</value>
   </data>
   <data name="info_string_40" xml:space="preserve">
-    <value>Erstellt am</value>
+    <value>Erstellungszeit</value>
   </data>
   <data name="info_string_41" xml:space="preserve">
     <value>Vorübergehend?</value>
@@ -867,7 +867,7 @@
     <value>Livestream?</value>
   </data>
   <data name="music_string_16" xml:space="preserve">
-    <value>Abstimmungen überspringen</value>
+    <value>Abstimmung überspringen</value>
   </data>
   <data name="music_string_17" xml:space="preserve">
     <value>Warteschlange:</value>
@@ -1425,10 +1425,10 @@ Hinweis: Erfordert \"Server verwalten\" Zugriff.</value>
     <value>Automatisch archivieren Zeit:</value>
   </data>
   <data name="thread_private" xml:space="preserve">
-    <value>IsPrivate?</value>
+    <value>Ist Privat?</value>
   </data>
   <data name="thread_locked" xml:space="preserve">
-    <value>IsLocked?</value>
+    <value>Ist Gesperrt?</value>
   </data>
   <data name="thread_name" xml:space="preserve">
     <value>Name des Themas:</value>
@@ -1452,7 +1452,7 @@ Hinweis: Erfordert \"Server verwalten\" Zugriff.</value>
     <value>Privatsphäre Level:</value>
   </data>
   <data name="stage_live" xml:space="preserve">
-    <value>IsLive?</value>
+    <value>Ist Live?</value>
   </data>
   <data name="stage_speaker_count" xml:space="preserve">
     <value>Anzahl der Sprecher:</value>
@@ -1587,7 +1587,7 @@ Hinweis: Erfordert \"Server verwalten\" Zugriff.</value>
     <value>Sie haben keinen Zugriff auf die Verwaltung Ihrer eigenen Tags.</value>
   </data>
   <data name="tags_create_exists" xml:space="preserve">
-	  <value>Failed to create content, it already exists.</value>
+	  <value>Fehler beim Erstellen des Inhalts, er existiert bereits.</value>
   </data>
   <data name="music_duration" xml:space="preserve">
     <value>Dauer:</value>
@@ -1684,7 +1684,7 @@ Hinweis: Erfordert \"Server verwalten\" Zugriff.</value>
     <value>Erfolgreich alle Tags von {0}gelöscht.</value>
   </data>
   <data name="tags_transfer_success" xml:space="preserve">
-	  <value>Successfully transfered: `{0}` to {1}.</value>
+	  <value>Erfolgreich übertragen: {0} an {1}.</value>
   </data>
   <data name="leveling_leaderboard_open" xml:space="preserve">
     <value>Offene Ranglisten</value>
@@ -1891,7 +1891,7 @@ Hinweis: Erfordert \"Server verwalten\" Zugriff.</value>
     <value>{0} Sticker-Slots übrig</value>
   </data>
   <data name="expression_created_error" xml:space="preserve">
-	  <value>An error occurred while creating the sticker/emote.</value>
+	  <value>Beim Erstellen des Stickers/Emotes ist ein Fehler aufgetreten.</value>
   </data>
   <data name="sticker_failed_find" xml:space="preserve">
     <value>Es wurde kein gültiger Sticker gefunden.</value>
@@ -2115,8 +2115,8 @@ Wenn du den Mitarbeiter nicht bewerten möchtest, kannst du diese Nachricht igno
     <value>Aktion konnte nicht ausgeführt werden. Cakey Bot hat wahrscheinlich keine Berechtigungen.</value>
   </data>
   <data name="bulk_modify_users_start" xml:space="preserve">
-	  <value>Updating users, this can take a while.
-Note: A message will be sent upon completion.</value>
+	  <value>Benutzer werden aktualisiert, dies kann eine Weile dauern.
+Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
   </data>
   <data name="economy_pay_success" xml:space="preserve">
 	  <value>{0} erfolgreich an &lt;@{1}&gt; gesendet.</value>
@@ -2236,7 +2236,7 @@ Note: A message will be sent upon completion.</value>
     <value>Die zusätzlichen Musik-Bots können nur auf Premium-Servern verwendet werden.</value>
   </data>
   <data name="report_finished" xml:space="preserve">
-    <value>Als abgeschlossen markieren</value>
+    <value>Als beendet markiert</value>
   </data>
   <data name="report_finished_success" xml:space="preserve">
     <value>Der Bericht wurde erfolgreich als abgeschlossen markiert.</value>
@@ -2275,7 +2275,7 @@ Note: A message will be sent upon completion.</value>
 	  <value>Du warst sehr nah an der Antwort dran und hast {0} gewonnen. Das Ergebnis war: {1}.</value>
   </data>
   <data name="games_coin_side" xml:space="preserve">
-    <value>Seite
+    <value>Kante
 Wow! Die Chance, dass das passiert, liegt nur bei 0,02 %!</value>
   </data>
   <data name="economy_bet_success_side" xml:space="preserve">
@@ -2512,16 +2512,16 @@ Bitte klicken Sie auf die Schaltfläche unten, um Ihr Konto zu verifizieren, bev
 	  <value>Höchster Streak</value>
   </data>
   <data name="music_playing_modify" xml:space="preserve">
-	  <value>A song must be playing to modify it.</value>
+	  <value>Ein Song muss abgespielt werden, um ihn zu ändern.</value>
   </data>
   <data name="error_failed_modify_user" xml:space="preserve">
-	  <value>Failed to modify the user.</value>
+	  <value>Fehler beim Ändern des Benutzers.</value>
   </data>
   <data name="ticket_auto_remind" xml:space="preserve">
-	  <value>This ticket has been inactive for {0} days. Please respond soon or the ticket will be closed.</value>
+	  <value>Dieses Ticket war {0} Tage inaktiv. Bitte antworte bald, andernfalls wird das Ticket geschlossen.</value>
   </data>
   <data name="ticket_auto_close" xml:space="preserve">
-	  <value>This ticket has been inactive for {0} days and has been closed.</value>
+	  <value>Dieses Ticket war {0} Tage inaktiv und wurde geschlossen.</value>
   </data>
   <data name="streaks_reminder_soon" xml:space="preserve">
 	  <value>Your streak will be reset to 1 in 12 hours if you don't send a message in `{0}` ({1}).</value>
@@ -2530,25 +2530,25 @@ Bitte klicken Sie auf die Schaltfläche unten, um Ihr Konto zu verifizieren, bev
 	  <value>Streak Reset</value>
   </data>
   <data name="streaks_reminder_reset" xml:space="preserve">
-	  <value>Your streak has been reset to 1 as you haven't sent a message in over 48 hours. Affected server: `{0}` ({1})</value>
+	  <value>Deine Streak wurde auf 1 zurückgesetzt, da du seit über 48 Stunden keine Nachricht gesendet hast. Betroffener Server: `{0}` ({1})</value>
   </data>
   <data name="generic_opt_out" xml:space="preserve">
-	  <value>Opt-Out</value>
+	  <value>Deaktivieren</value>
   </data>
   <data name="generic_opt_in" xml:space="preserve">
-	  <value>Opt-In</value>
+	  <value>Aktivieren</value>
   </data>
   <data name="error_ephemeral" xml:space="preserve">
-	  <value>This action can't be done to an ephemeral message.</value>
+	  <value>Diese Aktion kann nicht an einer vergänglichen Nachricht durchgeführt werden.</value>
   </data>
   <data name="notes_list" xml:space="preserve">
 	  <value>Notes:</value>
   </data>
   <data name="notes_role_set" xml:space="preserve">
-    <value>You must set a role to manage this.</value>
+    <value>Du musst eine Rolle festlegen, um dies zu verwalten.</value>
   </data>
   <data name="giveaway_entry_role_error" xml:space="preserve">
-    <value>You do not have the required role (`{0}`) to enter this giveaway.</value>
+    <value>Du hast nicht die erforderliche Rolle (`{0}`), um an diesem Giveaway teilzunehmen.</value>
   </data>
   <data name="daily_content_fact_title" xml:space="preserve">
     <value>Fakt des Tages</value>
