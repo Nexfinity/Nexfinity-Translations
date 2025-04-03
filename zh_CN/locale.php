@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "添加",
     'auto-mod-title-1' => "设置",
     'auto-mod-title-2' => "添加黑名单词语",
-    'auto-mod-placeholder' => "单词（逗号分隔的列表）",
     'auto-mod-clear-tooltip' => "清除所有字词",
     'audit-afk' => "删除了一个AFK状态。",
     'audit-channel-log-1' => "更新的日志频道： :data",

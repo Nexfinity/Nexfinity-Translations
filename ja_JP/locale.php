@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "追加",
     'auto-mod-title-1' => "設定",
     'auto-mod-title-2' => "ブラックリストの単語を追加",
-    'auto-mod-placeholder' => "単語 (カンマ区切りリスト)",
     'auto-mod-clear-tooltip' => "すべての単語をクリア",
     'audit-afk' => "AFKステータスを削除しました。",
     'audit-channel-log-1' => "更新されたログチャンネル: :data",

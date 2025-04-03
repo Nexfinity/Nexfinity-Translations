@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Adăugare",
     'auto-mod-title-1' => "Setări",
     'auto-mod-title-2' => "Adaugă Cuvinte Pe Lista Neagră",
-    'auto-mod-placeholder' => "Cuvinte (listă separată prin virgulă)",
     'auto-mod-clear-tooltip' => "Șterge Toate Cuvintele",
     'audit-afk' => "Un status AFK a fost șters.",
     'audit-channel-log-1' => "Istoricul Canalului a fost actualizat: :data",

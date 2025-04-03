@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Добавить",
     'auto-mod-title-1' => "Настройки",
     'auto-mod-title-2' => "Добавить запрещённые слова",
-    'auto-mod-placeholder' => "Слова (Список, разделённый запятыми)",
     'auto-mod-clear-tooltip' => "Очистить все слова",
     'audit-afk' => "AFK-статус удалён.",
     'audit-channel-log-1' => "Обновлён канал журнала: :data",

@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Додати",
     'auto-mod-title-1' => "Налаштування",
     'auto-mod-title-2' => "Додати слова чорного списку",
-    'auto-mod-placeholder' => "Слова (список розділений комами)",
     'auto-mod-clear-tooltip' => "Очистити всі слова",
     'audit-afk' => "Видалено статус AFK.",
     'audit-channel-log-1' => "Оновлений канал аудиту: :data",

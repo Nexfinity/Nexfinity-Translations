@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Neu",
     'auto-mod-title-1' => "Einstellungen",
     'auto-mod-title-2' => "Gesperrte Wörter hinzufügen",
-    'auto-mod-placeholder' => "Wörter (durch Komma getrennte Liste)",
     'auto-mod-clear-tooltip' => "Alle Wörter löschen",
     'audit-afk' => "AFK-Status gelöscht.",
     'audit-channel-log-1' => "Aktualisierter Log-Kanal: :data",

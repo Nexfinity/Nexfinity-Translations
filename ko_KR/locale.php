@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "추가",
     'auto-mod-title-1' => "설정",
     'auto-mod-title-2' => "블랙리스트에 오른 단어 추가",
-    'auto-mod-placeholder' => "단어(반점으로 구분된 목록)",
     'auto-mod-clear-tooltip' => "모든 단어 지우기",
     'audit-afk' => "잠수 상태를 삭제했습니다.",
     'audit-channel-log-1' => "로그 채널을 갱신했습니다: :data",

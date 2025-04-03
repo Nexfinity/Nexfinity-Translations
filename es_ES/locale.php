@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Añadir",
     'auto-mod-title-1' => "Configuraciones",
     'auto-mod-title-2' => "Añadir palabras a la lista negra",
-    'auto-mod-placeholder' => "Palabras (lista separada por comas)",
     'auto-mod-clear-tooltip' => "Borrar todas las palabras",
     'audit-afk' => "Se ha eliminado un estado AFK.",
     'audit-channel-log-1' => "Canal de registro actualizado: :data",

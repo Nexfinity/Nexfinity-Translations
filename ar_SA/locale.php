@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "إضافة",
     'auto-mod-title-1' => "الإعدادات",
     'auto-mod-title-2' => "إضافة الكلمات المدرجة في القائمة السوداء",
-    'auto-mod-placeholder' => "الكلمات (قائمة مفصولة بفواصل)",
     'auto-mod-clear-tooltip' => "مسح كل الكلمات",
     'audit-afk' => "تم حذف حالة AFK.",
     'audit-channel-log-1' => "تم تحديث قناة السجل: :data",

@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Toevoegen",
     'auto-mod-title-1' => "Instellingen",
     'auto-mod-title-2' => "Geblokkeerde woorden toevoegen",
-    'auto-mod-placeholder' => "Woorden (door komma's gescheiden lijst)",
     'auto-mod-clear-tooltip' => "Wis alle woorden",
     'audit-afk' => "Verwijderde een AFK status.",
     'audit-channel-log-1' => "Logkanaal bijgewerkt: :data",

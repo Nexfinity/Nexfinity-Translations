@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Aggiungi",
     'auto-mod-title-1' => "Impostazioni",
     'auto-mod-title-2' => "Aggiungi Parole nella Lista Nera",
-    'auto-mod-placeholder' => "Parole (Elenco separato da virgole)",
     'auto-mod-clear-tooltip' => "Cancella Tutte le Parole",
     'audit-afk' => "Eliminato uno stato AFK.",
     'audit-channel-log-1' => "Canale di log aggiornato: :data",

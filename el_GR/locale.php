@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Προσθήκη",
     'auto-mod-title-1' => "Ρυθμίσεις",
     'auto-mod-title-2' => "Προσθήκη Λέξεων Στη Μαύρη Λίστα",
-    'auto-mod-placeholder' => "Λέξεις (Λίστα χωρισμένη με κόμμα)",
     'auto-mod-clear-tooltip' => "Εκκαθάριση Όλων Των Λέξεων",
     'audit-afk' => "Διαγράφηκε μια κατάσταση AFK.",
     'audit-channel-log-1' => "Ενημερώθηκε το κανάλι καταγραφής: :data",

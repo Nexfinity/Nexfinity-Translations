@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Ekle",
     'auto-mod-title-1' => "Ayarlar",
     'auto-mod-title-2' => "Yasaklı Kelime Ekle",
-    'auto-mod-placeholder' => "Kelimeler (Virgül ile ayır)",
     'auto-mod-clear-tooltip' => "Tüm kelimeleri kaldır",
     'audit-afk' => "Bir AFK durumu kaldırıldı.",
     'audit-channel-log-1' => "Kayıt kanalı güncellendi: :data",

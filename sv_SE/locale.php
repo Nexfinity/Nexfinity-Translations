@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Lägg till",
     'auto-mod-title-1' => "Inställningar",
     'auto-mod-title-2' => "Lägg till svartlistade ord",
-    'auto-mod-placeholder' => "Ord (kommaseparerade)",
     'auto-mod-clear-tooltip' => "Rensa all ord",
     'audit-afk' => "Raderade en AFK-status.",
     'audit-channel-log-1' => "Uppdaterade loggkanal: :data",

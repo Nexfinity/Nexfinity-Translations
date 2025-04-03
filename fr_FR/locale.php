@@ -217,7 +217,6 @@ return [
     'auto-mod-add' => "Ajouter",
     'auto-mod-title-1' => "Paramètres",
     'auto-mod-title-2' => "Ajouter des mots sur la liste noire",
-    'auto-mod-placeholder' => "Mots (liste séparée par des virgules)",
     'auto-mod-clear-tooltip' => "Effacer tous les mots",
     'audit-afk' => "Suppression d'un statut AFK.",
     'audit-channel-log-1' => "Mise à jour du salon des logs : :data",
