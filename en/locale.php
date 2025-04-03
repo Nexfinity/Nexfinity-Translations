@@ -368,7 +368,7 @@
 		"premium-lifetime" => "Lifetime",
 		"premium-whitelabel" => "Custom Bot",
 		"premium-quantity" => "Quantity",
-		"settings-cache" => "Note: Some settings may take up to :data to apply to your server due to caching.",
+		"settings-cache" => "Note: Some settings may take some time to apply to your server due to caching.",
 		"beta-locked" => "This feature is currently being tested and has not been released yet.",
 		"beta-title" => "BETA Feature",
 		"feeds-invalid-youtube-url" => "You must enter a valid YouTube channel URL.",
