@@ -450,7 +450,7 @@ return [
     'premium-lock' => "Denna server måste ha en Premium-prenumeration för att kunna använda denna funktion.",
     'ban-prune-days' => "Förbjuda beskärningsdagar",
     'ban-prune-days-tooltip' => "Antal dagar som meddelanden ska gallras vid bannlysning av en användare.",
-    'audit-ban-count' => "Uppdatera ban ban prune dagar: :data",
+    'audit-ban-count' => "Uppdatera ban prune dagar: :data",
     'dashboard-sidebar-xp' => "Nivåhöjning/XP",
     'leveling-title-roles' => "Belöning för roll",
     'leveling-title-card' => "Anpassa rangkort",
