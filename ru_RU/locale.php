@@ -439,7 +439,7 @@ return [
     'chatbot-assign' => "Assign Additional Chat Bot Requests",
     'chatbot-assign-success' => "Successfully Assigned Additional Chat Bot Requests",
     'chatbot-usage' => "Использование чат-ботов",
-    'tickets-confirm-close' => "Закрыть заявки?",
+    'tickets-confirm-close' => "Закрыть заявки",
     'tickets-close-dm' => "Send DM On Close",
     'tickets-ping-support' => "Ping Support Role",
     'tickets-embed-message' => "Ticket Embed Message",
