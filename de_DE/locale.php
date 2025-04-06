@@ -855,4 +855,10 @@ return [
     'daily-content-random-image' => "Zufälliges Bild",
     'auto-message-day' => "Wochentag",
     'leveling-ignore-solo' => "Solo-Benutzer ignorieren",
+    'anti-raid-time-limit' => "Zeitlimit",
+    'anti-raid-notification-channel' => "Benachrichtigungskanal",
+    'anti-raid-message-limit' => "Minimale Nachrichtenanzahl",
+    'anti-raid-user-limit' => "Minimale Nutzergrenze",
+    'anti-raid-pause-duration' => "Einladungen pausieren (Dauer)",
+    'anti-raid-title-2' => "Gleiche Kontoerstellungszeit",
 ];
