@@ -795,7 +795,7 @@ return [
     'stat-channel-title-boost' => "Server Boost Count",
     'daily-content-custom' => "Custom Content",
     'daily-content-custom-alert' => "<strong>Note:</strong> Each daily content must be separated by a semicolon: <code>;</code>.",
-    'daily-content-custom-placeholder' => "Semicolon separated list",
+    'daily-content-custom-placeholder' => "Lista separada por punto y coma (;)",
     'automod-category-links' => "Links Only",
     'generic-role-ping' => "Role Ping",
     'generic-wiki-alert' => "Need help setting up this feature? Check out our <strong><a href=':data' class='info'>Wiki Article</a></strong> for this feature.",
@@ -855,4 +855,5 @@ return [
     'daily-content-random-image' => "Imagen aleatoria",
     'auto-message-day' => "Día de la semana",
     'leveling-ignore-solo' => "Ignorar usuarios solos",
+    'anti-raid-time-limit' => "Límite de tiempo",
 ];
