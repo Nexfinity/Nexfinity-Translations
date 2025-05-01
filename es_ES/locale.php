@@ -172,7 +172,7 @@ return [
     'bot-settings-tooltip-4' => "Esto establece qué rol usará Cakey Bot al silenciar. Si se establece 'ninguno', Cakey Bot generará un nuevo rol si ningún rol se llama 'Silenciado'.",
     'bot-settings-tooltip-5' => "Esto permite activar o desactivar el uso del comando AFK por parte de los usuarios en tu servidor.",
     'bot-settings-tooltip-6' => "Establece cuánto tiempo estará activo el estado AFK de un usuario antes de ser eliminado automáticamente (Establece -1 para estados AFK permanentes).",
-    'bot-settings-tooltip-7' => "La contraseña solo es necesaria cuando el tipo está configurado como 'Contraseña personalizada'.",
+    'bot-settings-tooltip-7' => "La contraseña solo es necesaria cuando el tipo está configurado como 'Contraseña personalizada'",
     'bot-settings-tooltip-9' => "Esto establece los roles que Cakey Bot añadirá a los usuarios cuando se unan.",
     'bot-settings-tooltip-10' => "Esto hará que Cakey Bot vuelva a aplicar automáticamente los roles de silencio si un usuario abandona el servidor y vuelve a unirse.",
     'music-queue-table-1' => "Título",
@@ -919,4 +919,8 @@ return [
     'rp-feature-tickle' => "cosquillas",
     'rp-feature-wink' => "Guiñar",
     'rp-audit' => "Ajustes de roleplay actualizados.",
+    'automod-auto-title' => "Expulsar/Banear usuarios automáticamente",
+    'automod-auto-kick' => "Expulsar usuarios automáticamente",
+    'automod-autoban-audit' => "Configuración de baneo automático actualizada.",
+    'automod-autokick-audit' => "Configuración de expulsión automática actualizada.",
 ];
