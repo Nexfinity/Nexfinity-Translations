@@ -389,7 +389,7 @@ return [
     'data-import-audit-ar' => "Importación masiva de datos AR.",
     'data-export' => "Exportar datos",
     'data-export-audit-ar' => "Exportación masiva de datos AR.",
-    'bulk-import-error-0' => "El archivo CSV está formateado incorrectamente.",
+    'bulk-import-error-0' => "El archivo CSV está formateado incorrectamente",
     'bulk-import-error-1' => "El archivo debe ser un archivo CSV.",
     'bulk-import-error-2' => "El archivo no debe estar vacío.",
     'bulk-import-error-3' => "Verifica si faltan encabezados.",
