@@ -923,5 +923,6 @@
 		"rp-feature-tickle" => "Tickle",
 		"rp-feature-wink" => "Wink",
 		"rp-audit" => "Updated roleplay settings.",
+		"auto-mod-new-timeframe" => "New Account Time Threshold",
 	];
 ?>
