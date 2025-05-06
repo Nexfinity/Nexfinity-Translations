@@ -923,4 +923,5 @@ return [
     'automod-auto-kick' => "Expulsar usuarios automáticamente",
     'automod-autoban-audit' => "Configuración de baneo automático actualizada.",
     'automod-autokick-audit' => "Configuración de expulsión automática actualizada.",
+    'auto-mod-new-timeframe' => "Período de espera para cuentas nuevas",
 ];
