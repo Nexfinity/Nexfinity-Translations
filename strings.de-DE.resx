@@ -562,7 +562,7 @@
     <value>Benutzername:</value>
   </data>
   <data name="info_string_57" xml:space="preserve">
-    <value>Der Grund:</value>
+    <value>Reason</value>
   </data>
   <data name="info_string_58" xml:space="preserve">
     <value>kein Grund angegeben</value>
@@ -1081,7 +1081,7 @@
     <value>Verdächtiges Konto</value>
   </data>
   <data name="audit_string_42" xml:space="preserve">
-    <value>Benutzer:</value>
+    <value>User</value>
   </data>
   <data name="audit_string_43" xml:space="preserve">
     <value>hat den Sprachkanal gewechselt.</value>
@@ -1960,7 +1960,7 @@ Hinweis: Erfordert \"Server verwalten\" Zugriff.</value>
     <value>Dieses Giveaway existiert nicht oder wurde bereits beendet.</value>
   </data>
   <data name="ends_at" xml:space="preserve">
-    <value>Endet:</value>
+    <value>Ends At:</value>
   </data>
   <data name="error_exists_channel" xml:space="preserve">
     <value>Dieser Kanal existiert nicht oder ich habe keinen Zugang dazu.</value>
@@ -2810,5 +2810,841 @@ If you cash out now, you’ll win: **{3}**</value>
   </data>
   <data name="leveling_decay_description" xml:space="preserve">
     <value>Your XP has decayed by `{0}` XP due to {1} days of inactivity. Your new XP is `{2}`. Affected server: `{3}` ({4})</value>
+  </data>
+  <data name="fish_common_carp" xml:space="preserve">
+    <value>Common Carp</value>
+  </data>
+  <data name="fish_rusty_trout" xml:space="preserve">
+    <value>Rusty Trout</value>
+  </data>
+  <data name="fish_speckled_bass" xml:space="preserve">
+    <value>Speckled Bass</value>
+  </data>
+  <data name="fish_bluegill_perch" xml:space="preserve">
+    <value>Bluegill Perch</value>
+  </data>
+  <data name="fish_electric_eel" xml:space="preserve">
+    <value>Electric Eel</value>
+  </data>
+  <data name="fish_golden_salmon" xml:space="preserve">
+    <value>Golden Salmon</value>
+  </data>
+  <data name="fish_vampire_catfish" xml:space="preserve">
+    <value>Vampire Catfish</value>
+  </data>
+  <data name="fish_phantom_ray" xml:space="preserve">
+    <value>Phantom Ray</value>
+  </data>
+  <data name="fish_crystal_koi" xml:space="preserve">
+    <value>Crystal Koi</value>
+  </data>
+  <data name="fish_mythic_leviathan" xml:space="preserve">
+    <value>Mythic Leviathan</value>
+  </data>
+  <data name="minefield_try" xml:space="preserve">
+    <value>Click a tile and try your luck!</value>
+  </data>
+  <data name="eco_title_cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="eco_title_multiplier" xml:space="preserve">
+    <value>Multiplier</value>
+  </data>
+  <data name="eco_title_boost" xml:space="preserve">
+    <value>Boost</value>
+  </data>
+  <data name="eco_steal_footer" xml:space="preserve">
+    <value>There is a 50% bonus for the player who chooses steal.</value>
+  </data>
+  <data name="eco_title_sos" xml:space="preserve">
+    <value>Split or Steal</value>
+  </data>
+  <data name="eco_title_rps" xml:space="preserve">
+    <value>Rock, Paper, Scissors</value>
+  </data>
+  <data name="eco_title_coinflip" xml:space="preserve">
+    <value>Games | Coin Flip</value>
+  </data>
+  <data name="tickets_title_close_request" xml:space="preserve">
+    <value>Close Request</value>
+  </data>
+  <data name="transcript_error_analyze" xml:space="preserve">
+    <value>**Failed to analyze messages.**
+</value>
+  </data>
+  <data name="transcript_error_null" xml:space="preserve">
+    <value>**Message is null. Failed to get contents from Discord.**
+</value>
+  </data>
+  <data name="transcript_unknown_content" xml:space="preserve">
+    <value>**Unknown Content**</value>
+  </data>
+  <data name="transcript_error_content" xml:space="preserve">
+    <value>**Failed to get message contents.**
+</value>
+  </data>
+  <data name="transcript_error_attachments" xml:space="preserve">
+    <value>[ERROR GETTING ATTACHMENTS INFO]
+</value>
+  </data>
+  <data name="bansync_reason" xml:space="preserve">
+    <value>Unban synced with {0}</value>
+  </data>
+  <data name="status_opted_out" xml:space="preserve">
+    <value>Opted Out</value>
+  </data>
+  <data name="status_opted_in" xml:space="preserve">
+    <value>Opted In</value>
+  </data>
+  <data name="eco_rps_rock" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="eco_rps_paper" xml:space="preserve">
+    <value>Paper</value>
+  </data>
+  <data name="eco_rps_scissors" xml:space="preserve">
+    <value>Scissors</value>
+  </data>
+  <data name="eco_title_move" xml:space="preserve">
+    <value>Select Your Move</value>
+  </data>
+  <data name="eco_rps_move" xml:space="preserve">
+    <value>&lt;@{0}&gt; Chose: {1}
+</value>
+  </data>
+  <data name="eco_rps_tie" xml:space="preserve">
+    <value>It's a tie. No one wins. Your bet of {0} has been returned to you.</value>
+  </data>
+  <data name="eco_rps_wins" xml:space="preserve">
+    <value>&lt;@{0}&gt; wins!</value>
+  </data>
+  <data name="eco_player" xml:space="preserve">
+    <value>Player: {0}</value>
+  </data>
+  <data name="eco_title_split" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="eco_title_steal" xml:space="preserve">
+    <value>Steal</value>
+  </data>
+  <data name="eco_sos_both_steal" xml:space="preserve">
+    <value>Both chose steal. No one wins.</value>
+  </data>
+  <data name="eco_sos_both_split" xml:space="preserve">
+    <value>Both chose split. Both players win half of the bet.</value>
+  </data>
+  <data name="eco_sos_win_bonus" xml:space="preserve">
+    <value>&lt;@{0}&gt; wins all. (+50% bonus)</value>
+  </data>
+  <data name="audit_revoke_invite" xml:space="preserve">
+    <value>Revoke Invite</value>
+  </data>
+  <data name="generic_timeout_hour" xml:space="preserve">
+    <value>Timeout 1 Hour</value>
+  </data>
+  <data name="audit_kick_user" xml:space="preserve">
+    <value>Kick User</value>
+  </data>
+  <data name="audit_target_error" xml:space="preserve">
+    <value>You cannot target anyone else whose roles are higher than yours.</value>
+  </data>
+  <data name="audit_bot_role_target" xml:space="preserve">
+    <value>The bot's role is lower than the targeted entity.</value>
+  </data>
+  <data name="audit_log_button_reason" xml:space="preserve">
+    <value>Audit Log Button / Mod: {0}</value>
+  </data>
+  <data name="error_generic_target_channel" xml:space="preserve">
+    <value>You do not have the required permissions to manage the target channel.</value>
+  </data>
+  <data name="error_generic_target_channel_bot" xml:space="preserve">
+    <value>I do not have the required permissions to manage the target channel.</value>
+  </data>
+  <data name="audit_channel_delete_success" xml:space="preserve">
+    <value>Successfully deleted the channel.</value>
+  </data>
+  <data name="audit_channel_delete" xml:space="preserve">
+    <value>Delete Channel</value>
+  </data>
+  <data name="error_generic_target_role" xml:space="preserve">
+    <value>You cannot target any roles that are higher than yours.</value>
+  </data>
+  <data name="audit_delete_role" xml:space="preserve">
+    <value>Successfully deleted the role.</value>
+  </data>
+  <data name="audit_button_delete_role" xml:space="preserve">
+    <value>Delete Role</value>
+  </data>
+  <data name="audit_delete_webhook" xml:space="preserve">
+    <value>Successfully deleted the webhook.</value>
+  </data>
+  <data name="audit_button_delete_webhook" xml:space="preserve">
+    <value>Delete Webhook</value>
+  </data>
+  <data name="generic_title_unban_command" xml:space="preserve">
+    <value>Unban Command</value>
+  </data>
+  <data name="audit_button_revoke_ban" xml:space="preserve">
+    <value>Revoke Ban</value>
+  </data>
+  <data name="generic_audit_mod" xml:space="preserve">
+    <value> / Mod: {0}</value>
+  </data>
+  <data name="warnings_title" xml:space="preserve">
+    <value>Moderation | Warnings | Total: {0}</value>
+  </data>
+  <data name="pagination_text" xml:space="preserve">
+    <value>Page {0} of {1}</value>
+  </data>
+  <data name="error_text_less_than" xml:space="preserve">
+    <value>Please enter less than {0} characters.</value>
+  </data>
+  <data name="audit_antiraid_reason" xml:space="preserve">
+    <value>Anti-Raid Ban: {0}</value>
+  </data>
+  <data name="mod_warnings_view" xml:space="preserve">
+    <value>View Warnings</value>
+  </data>
+  <data name="warn_user" xml:space="preserve">
+    <value>User Warned:</value>
+  </data>
+  <data name="warn_total" xml:space="preserve">
+    <value>Warn Total:</value>
+  </data>
+  <data name="audit_reason_report" xml:space="preserve">
+    <value>Report System: {0} ({1})</value>
+  </data>
+  <data name="music_footer_resume" xml:space="preserve">
+    <value>Resumed by {0}</value>
+  </data>
+  <data name="music_footer_pause" xml:space="preserve">
+    <value>Paused by {0}</value>
+  </data>
+  <data name="music_footer_skip" xml:space="preserve">
+    <value>Skip vote from {0}</value>
+  </data>
+  <data name="music_history_skip" xml:space="preserve">
+    <value>skipped `1` track</value>
+  </data>
+  <data name="music_footer_loop" xml:space="preserve">
+    <value>Loop toggled by {0}</value>
+  </data>
+  <data name="music_history_loop" xml:space="preserve">
+    <value>set loop status to `{0}`</value>
+  </data>
+  <data name="music_footer_shuffle" xml:space="preserve">
+    <value>Shuffled by {0}</value>
+  </data>
+  <data name="music_history_shuffle" xml:space="preserve">
+    <value>shuffled the queue</value>
+  </data>
+  <data name="error_time_valid_format" xml:space="preserve">
+    <value>You must enter a valid format. (For example: `1h5m30s` or `32s`)</value>
+  </data>
+  <data name="music_error_position" xml:space="preserve">
+    <value>The time provided is longer than the current position. Enter a shorter time.</value>
+  </data>
+  <data name="music_footer_rewind" xml:space="preserve">
+    <value>Rewind requested by {0}</value>
+  </data>
+  <data name="music_history_rewind" xml:space="preserve">
+    <value>rewinded track by `10` seconds</value>
+  </data>
+  <data name="music_error_time_long" xml:space="preserve">
+    <value>The time provided is longer than the song duration. Enter a shorter time.</value>
+  </data>
+  <data name="music_footer_ff" xml:space="preserve">
+    <value>Fast forward requested by {0}</value>
+  </data>
+  <data name="music_history_ff" xml:space="preserve">
+    <value>fast forwarded track by `10` seconds</value>
+  </data>
+  <data name="music_footer_volume" xml:space="preserve">
+    <value>Set by {0}</value>
+  </data>
+  <data name="music_history_volume" xml:space="preserve">
+    <value>set track volume to `{0}`</value>
+  </data>
+  <data name="suggestion_thread_name" xml:space="preserve">
+    <value>Suggestion Discussion Thread</value>
+  </data>
+  <data name="suggestion_denied" xml:space="preserve">
+    <value>Denied by </value>
+  </data>
+  <data name="audit_reason_verify_role" xml:space="preserve">
+    <value>Verification Role</value>
+  </data>
+  <data name="music_history_none" xml:space="preserve">
+    <value>No actions.</value>
+  </data>
+  <data name="precondition_error_servers_only" xml:space="preserve">
+    <value>This command can be used only in servers.</value>
+  </data>
+  <data name="audit_reason_mass_join" xml:space="preserve">
+    <value>Anti-Raid: Mass join raid detected.</value>
+  </data>
+  <data name="audit_reason_same_creation" xml:space="preserve">
+    <value>Anti-Raid: Accounts with same creation date.</value>
+  </data>
+  <data name="antiraid_title_join" xml:space="preserve">
+    <value>Raid Detected | Join Raid</value>
+  </data>
+  <data name="antiraid_button_actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="antiraid_invites_pause" xml:space="preserve">
+    <value>Invites have been paused for `{0}` hours &amp; users banned.</value>
+  </data>
+  <data name="antiraid_join_time" xml:space="preserve">
+    <value>`{0}` users joined within `{1}` seconds.</value>
+  </data>
+  <data name="antiraid_title_same_creation" xml:space="preserve">
+    <value>Raid Detected | Same Creation Date</value>
+  </data>
+  <data name="antiraid_join_creation" xml:space="preserve">
+    <value>&gt;{0}% of users who joined ({1}%) within `{2}` minutes were created on the same date.</value>
+  </data>
+  <data name="antiraid_title_repeat" xml:space="preserve">
+    <value>Raid Detected | Repeating Messages</value>
+  </data>
+  <data name="antiraid_timeout" xml:space="preserve">
+    <value>User(s) timed out for `{0}` hours.</value>
+  </data>
+  <data name="antiraid_spam" xml:space="preserve">
+    <value>`{0}` was sent `{1}` times.</value>
+  </data>
+  <data name="antiraid_title_similar" xml:space="preserve">
+    <value>Raid Detected | Similar Messages</value>
+  </data>
+  <data name="antiraid_message_similar" xml:space="preserve">
+    <value>`{0}` and `{1}` are very similar.</value>
+  </data>
+  <data name="antiraid_similar_score" xml:space="preserve">
+    <value>Similarity Score</value>
+  </data>
+  <data name="antiraid_context" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="antiraid_title_spam" xml:space="preserve">
+    <value>Raid Detected | User Mention Spam</value>
+  </data>
+  <data name="antiraid_ban" xml:space="preserve">
+    <value>User banned and messages wiped.</value>
+  </data>
+  <data name="antiraid_mention_spam" xml:space="preserve">
+    <value>User mention spam detected in message: `{0}`.</value>
+  </data>
+  <data name="audit_mass_spam" xml:space="preserve">
+    <value>Anti-Raid: Mass spam raid detected.</value>
+  </data>
+  <data name="antiraid_title_message_spam" xml:space="preserve">
+    <value>Raid Detected | Message Spam</value>
+  </data>
+  <data name="antiraid_message_within" xml:space="preserve">
+    <value>`{0}` messages sent within `{1}` seconds.</value>
+  </data>
+  <data name="bansync_sync" xml:space="preserve">
+    <value>Ban synced from {0} | {1}</value>
+  </data>
+  <data name="bansync_title" xml:space="preserve">
+    <value>Ban Sync | User Unbanned</value>
+  </data>
+  <data name="auditlog_leveling" xml:space="preserve">
+    <value>Leveling</value>
+  </data>
+  <data name="leveling_title" xml:space="preserve">
+    <value>Level Up!</value>
+  </data>
+  <data name="audit_reason_tempban" xml:space="preserve">
+    <value>Remove Temp Ban</value>
+  </data>
+  <data name="generic_anonymous" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+  <data name="twitch_cheer_title" xml:space="preserve">
+    <value>New Cheer!</value>
+  </data>
+  <data name="twitch_feed_title" xml:space="preserve">
+    <value>{0} | Twitch Alerts</value>
+  </data>
+  <data name="twitch_follower_title" xml:space="preserve">
+    <value>New Follower!</value>
+  </data>
+  <data name="twitch_follower_text" xml:space="preserve">
+    <value>**{0}** just followed!</value>
+  </data>
+  <data name="twitch_cheer_text" xml:space="preserve">
+    <value>**{0}** cheered **{1}** bits!</value>
+  </data>
+  <data name="twitch_prediction_title" xml:space="preserve">
+    <value>New Prediction | </value>
+  </data>
+  <data name="twitch_prediction_locks" xml:space="preserve">
+    <value>Locks At:</value>
+  </data>
+  <data name="twitch_predictions_outcomes" xml:space="preserve">
+    <value>Outcomes:</value>
+  </data>
+  <data name="twitch_prediction_progress_title" xml:space="preserve">
+    <value>Prediction Progress | </value>
+  </data>
+  <data name="twitch_prediction_locked_title" xml:space="preserve">
+    <value>Prediction Locked | </value>
+  </data>
+  <data name="twitch_prediction_ended_title" xml:space="preserve">
+    <value>Prediction Ended | </value>
+  </data>
+  <data name="twitch_started_at" xml:space="preserve">
+    <value>Started At:</value>
+  </data>
+  <data name="twitch_ended_at" xml:space="preserve">
+    <value>Ended At:</value>
+  </data>
+  <data name="twitch_choices" xml:space="preserve">
+    <value>Choices:</value>
+  </data>
+  <data name="twitch_poll_title" xml:space="preserve">
+    <value>New Poll | </value>
+  </data>
+  <data name="twitch_poll_progress_title" xml:space="preserve">
+    <value>Poll Progress | </value>
+  </data>
+  <data name="twitch_poll_ended_title" xml:space="preserve">
+    <value>Poll Ended | </value>
+  </data>
+  <data name="twitch_raid_title" xml:space="preserve">
+    <value>New Raid</value>
+  </data>
+  <data name="twitch_raid_text" xml:space="preserve">
+    <value>**{0}** raided with **{1}** viewers.</value>
+  </data>
+  <data name="twitch_custom_reward_title" xml:space="preserve">
+    <value>New Custom Reward Redeemed</value>
+  </data>
+  <data name="twitch_custom_reward_text" xml:space="preserve">
+    <value>**{0}** redeemed **{1}**!</value>
+  </data>
+  <data name="twitch_reward_title" xml:space="preserve">
+    <value>New Reward Redeemed</value>
+  </data>
+  <data name="twitch_unlocked_emote" xml:space="preserve">
+    <value>Unlocked Emote:</value>
+  </data>
+  <data name="twitch_sub_end_title" xml:space="preserve">
+    <value>Subscription Ended</value>
+  </data>
+  <data name="twitch_sub_end_text" xml:space="preserve">
+    <value>**{0}** unsubscribed. :(</value>
+  </data>
+  <data name="twitch_sub_tier" xml:space="preserve">
+    <value>Tier:</value>
+  </data>
+  <data name="twitch_sub_gift" xml:space="preserve">
+    <value>IsGift?</value>
+  </data>
+  <data name="twitch_sub_title" xml:space="preserve">
+    <value>New Subscription</value>
+  </data>
+  <data name="twitch_sub_cum_months" xml:space="preserve">
+    <value>Cumulative Months:</value>
+  </data>
+  <data name="twitch_sub_dur_months" xml:space="preserve">
+    <value>Duration Months:</value>
+  </data>
+  <data name="twitch_streak_months" xml:space="preserve">
+    <value>Streak Months:</value>
+  </data>
+  <data name="twitch_sub_text" xml:space="preserve">
+    <value>**{0}** subscribed!</value>
+  </data>
+  <data name="twitch_sub_gift_title" xml:space="preserve">
+    <value>New Gift Subscription</value>
+  </data>
+  <data name="twitch_sub_gift_text" xml:space="preserve">
+    <value>**{0}** gifted **{1}** subscription(s)</value>
+  </data>
+  <data name="twitch_sub_alltime" xml:space="preserve">
+    <value>All-Time Total:</value>
+  </data>
+  <data name="twitch_goal_title" xml:space="preserve">
+    <value>New Goal | </value>
+  </data>
+  <data name="twitch_goal_current" xml:space="preserve">
+    <value>Current:</value>
+  </data>
+  <data name="twitch_goal_target" xml:space="preserve">
+    <value>Target:</value>
+  </data>
+  <data name="twitch_goal_progress_title" xml:space="preserve">
+    <value>Goal Progress | </value>
+  </data>
+  <data name="twitch_goal_end_title" xml:space="preserve">
+    <value>Goal Ended | </value>
+  </data>
+  <data name="twitch_goal_achieved" xml:space="preserve">
+    <value>IsAchieved:</value>
+  </data>
+  <data name="twitch_hype_title" xml:space="preserve">
+    <value>New HypeTrain</value>
+  </data>
+  <data name="twitch_hype_goal" xml:space="preserve">
+    <value>Goal:</value>
+  </data>
+  <data name="twitch_hype_level" xml:space="preserve">
+    <value>Level:</value>
+  </data>
+  <data name="twitch_hype_progress" xml:space="preserve">
+    <value>Progress:</value>
+  </data>
+  <data name="twitch_hype_top_con" xml:space="preserve">
+    <value>Top Contributor:</value>
+  </data>
+  <data name="twitch_hype_top_con_type" xml:space="preserve">
+    <value>Top Contribution Type:</value>
+  </data>
+  <data name="twitch_hype_top_con_total" xml:space="preserve">
+    <value>Top Contribution Total:</value>
+  </data>
+  <data name="twitch_hype_last_con" xml:space="preserve">
+    <value>Last Contribution:</value>
+  </data>
+  <data name="twitch_hype_last_con_type" xml:space="preserve">
+    <value>Last Contribution Type:</value>
+  </data>
+  <data name="twitch_hype_last_con_total" xml:space="preserve">
+    <value>Last Contribution Total:</value>
+  </data>
+  <data name="twitch_hype_end_title" xml:space="preserve">
+    <value>HypeTrain Ended</value>
+  </data>
+  <data name="twitch_cooldown_ends" xml:space="preserve">
+    <value>Cooldown Ends At:</value>
+  </data>
+  <data name="twitch_unban_title" xml:space="preserve">
+    <value>User Unbanned/Timeout Removed</value>
+  </data>
+  <data name="twitch_ban_title" xml:space="preserve">
+    <value>User Banned</value>
+  </data>
+  <data name="generic_permanent" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="twitch_timeout_title" xml:space="preserve">
+    <value>User Timedout</value>
+  </data>
+  <data name="twitch_vip_add_title" xml:space="preserve">
+    <value>VIP Added</value>
+  </data>
+  <data name="twitch_vip_remove_title" xml:space="preserve">
+    <value>VIP Removed</value>
+  </data>
+  <data name="twitch_mod_add_title" xml:space="preserve">
+    <value>Moderator Added</value>
+  </data>
+  <data name="twitch_mod_remove_title" xml:space="preserve">
+    <value>Moderator Removed</value>
+  </data>
+  <data name="twitch_warn_title" xml:space="preserve">
+    <value>Warning Send</value>
+  </data>
+  <data name="twitch_warn_rules" xml:space="preserve">
+    <value>Rules Cited:</value>
+  </data>
+  <data name="twitch_warn_ack_title" xml:space="preserve">
+    <value>Warning Acknowledged</value>
+  </data>
+  <data name="generic_footer_message_id" xml:space="preserve">
+    <value>Message ID: {0}</value>
+  </data>
+  <data name="starboard_original_button" xml:space="preserve">
+    <value>Original Message</value>
+  </data>
+  <data name="audit_streaks" xml:space="preserve">
+    <value>Streaks</value>
+  </data>
+  <data name="audit_achievements" xml:space="preserve">
+    <value>Achievements</value>
+  </data>
+  <data name="audit_warn_punish" xml:space="preserve">
+    <value>Warning Auto Punish: {0}</value>
+  </data>
+  <data name="audit_remove_temp_role" xml:space="preserve">
+    <value>Remove Temporary Role</value>
+  </data>
+  <data name="audit_auto_role" xml:space="preserve">
+    <value>Auto Role</value>
+  </data>
+  <data name="audit_selfrole" xml:space="preserve">
+    <value>Selfrole</value>
+  </data>
+  <data name="audit_birthday_auto_role" xml:space="preserve">
+    <value>Birthday Auto Role</value>
+  </data>
+  <data name="audit_role_modify_command" xml:space="preserve">
+    <value>Role Modify Command</value>
+  </data>
+  <data name="audit_temp_ban" xml:space="preserve">
+    <value>Temp Ban Command: {0}</value>
+  </data>
+  <data name="audit_soft_ban" xml:space="preserve">
+    <value>Soft Ban Command</value>
+  </data>
+  <data name="audit_temp_role" xml:space="preserve">
+    <value>Add Temporary Role</value>
+  </data>
+  <data name="audit_unban" xml:space="preserve">
+    <value>Unban Command</value>
+  </data>
+  <data name="audit_mute" xml:space="preserve">
+    <value>Mute Command: {0}</value>
+  </data>
+  <data name="audit_auto_responder" xml:space="preserve">
+    <value>Auto Responder: {0}</value>
+  </data>
+  <data name="audit_bulk_remove_role" xml:space="preserve">
+    <value>Bulk Remove Role Command</value>
+  </data>
+  <data name="audit_bulk_add_role" xml:space="preserve">
+    <value>Bulk Add Role Command</value>
+  </data>
+  <data name="audit_unmute" xml:space="preserve">
+    <value>Unmute Command</value>
+  </data>
+  <data name="audit_add_persistent" xml:space="preserve">
+    <value>Add Persistent Role</value>
+  </data>
+  <data name="audit_remove_persistent" xml:space="preserve">
+    <value>Remove Persistent Role</value>
+  </data>
+  <data name="audit_add_role" xml:space="preserve">
+    <value>Add Role Command</value>
+  </data>
+  <data name="audit_remove_role" xml:space="preserve">
+    <value>Remove Role Command</value>
+  </data>
+  <data name="ai_error_title" xml:space="preserve">
+    <value>Core | AI Chat Bot</value>
+  </data>
+  <data name="ai_invalid_key" xml:space="preserve">
+    <value>Error: Invalid API key. You can find your API key at https://platform.openai.com/account/api-keys.</value>
+  </data>
+  <data name="automod_title" xml:space="preserve">
+    <value>Auto Mod | Violation</value>
+  </data>
+  <data name="auto_responder_cooldown_server" xml:space="preserve">
+    <value>This auto response is on cooldown for this server. Usable in {0} seconds.</value>
+  </data>
+  <data name="auto_responder_cooldown_channel" xml:space="preserve">
+    <value>This auto response is on cooldown for this channel. Usable in {0} seconds.</value>
+  </data>
+  <data name="auto_responder_cooldown_user" xml:space="preserve">
+    <value>This auto response is on cooldown for you. Usable in {0} seconds.</value>
+  </data>
+  <data name="auto_responder_expires" xml:space="preserve">
+    <value>
+Expires: &lt;t:{0}:R&gt;</value>
+  </data>
+  <data name="birthday_default" xml:space="preserve">
+    <value>Happy Birthday, {0}!</value>
+  </data>
+  <data name="category_spotify" xml:space="preserve">
+    <value>Spotify URLs</value>
+  </data>
+  <data name="category_youtube" xml:space="preserve">
+    <value>YouTube URLs</value>
+  </data>
+  <data name="category_reddit" xml:space="preserve">
+    <value>Reddit URLs</value>
+  </data>
+  <data name="category_twitter" xml:space="preserve">
+    <value>Twitter URLs</value>
+  </data>
+  <data name="category_github" xml:space="preserve">
+    <value>GitHub URLs</value>
+  </data>
+  <data name="category_error" xml:space="preserve">
+    <value>You can only post {0} in this channel.</value>
+  </data>
+  <data name="github_issue" xml:space="preserve">
+    <value>Issue #{0} | {1}</value>
+  </data>
+  <data name="github_state" xml:space="preserve">
+    <value>State:</value>
+  </data>
+  <data name="github_comments" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+  <data name="github_locked" xml:space="preserve">
+    <value>Is Locked:</value>
+  </data>
+  <data name="github_labels" xml:space="preserve">
+    <value>Labels:</value>
+  </data>
+  <data name="github_author" xml:space="preserve">
+    <value>Author: {0}</value>
+  </data>
+  <data name="github_reactions" xml:space="preserve">
+    <value>Reactions:</value>
+  </data>
+  <data name="github_delete" xml:space="preserve">
+    <value>Delete Preview</value>
+  </data>
+  <data name="github_open" xml:space="preserve">
+    <value>Open on Github</value>
+  </data>
+  <data name="github_review" xml:space="preserve">
+    <value>Review Comments:</value>
+  </data>
+  <data name="github_pr" xml:space="preserve">
+    <value>Pull Request #{0} | {1}</value>
+  </data>
+  <data name="github_commits" xml:space="preserve">
+    <value>Commits:</value>
+  </data>
+  <data name="github_draft" xml:space="preserve">
+    <value>Is Draft:</value>
+  </data>
+  <data name="github_auto_merge" xml:space="preserve">
+    <value>Auto Merge:</value>
+  </data>
+  <data name="github_merge" xml:space="preserve">
+    <value>Is Merged:</value>
+  </data>
+  <data name="github_mergeable" xml:space="preserve">
+    <value>Is Mergeable:</value>
+  </data>
+  <data name="github_merge_state" xml:space="preserve">
+    <value>Mergeable State:</value>
+  </data>
+  <data name="github_modifications" xml:space="preserve">
+    <value>Modifications:</value>
+  </data>
+  <data name="github_merged_by" xml:space="preserve">
+    <value>Merged By:</value>
+  </data>
+  <data name="generic_false" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="github_merged" xml:space="preserve">
+    <value> (Merged)</value>
+  </data>
+  <data name="giveaways_hosted_by" xml:space="preserve">
+    <value>Hosted by:</value>
+  </data>
+  <data name="giveaways_winners" xml:space="preserve">
+    <value>Congratulations to the winners of the giveaway hosted by &lt;@{0}&gt;:  {1}</value>
+  </data>
+  <data name="giveaways_no_one" xml:space="preserve">
+    <value>No one entered.</value>
+  </data>
+  <data name="tempvoice_1" xml:space="preserve">
+    <value>Welcome to your temporary voice channel {0}!
+
+</value>
+  </data>
+  <data name="tempvoice_2" xml:space="preserve">
+    <value>Temporary voice channels:</value>
+  </data>
+  <data name="tempvoice_3" xml:space="preserve">
+    <value>* Are automatically deleted once everyone leaves.
+</value>
+  </data>
+  <data name="tempvoice_4" xml:space="preserve">
+    <value>* Can be made private by using: &lt;/temp-voice user toggle-private:1280360051550195773&gt;.
+</value>
+  </data>
+  <data name="tempvoice_5" xml:space="preserve">
+    <value>* Can be renamed by using the Discord channel settings.</value>
+  </data>
+  <data name="modal_title_auth" xml:space="preserve">
+    <value>Authorize</value>
+  </data>
+  <data name="modal_title_giveaway" xml:space="preserve">
+    <value>Create a Giveaway</value>
+  </data>
+  <data name="modal_title_verify" xml:space="preserve">
+    <value>Verify Password</value>
+  </data>
+  <data name="modal_title_sugegstion" xml:space="preserve">
+    <value>Create Suggestion</value>
+  </data>
+  <data name="modal_title_ticket" xml:space="preserve">
+    <value>Support Ticket Reason</value>
+  </data>
+  <data name="modal_title_create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="modal_title_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="achievement_locked" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="achievements_none_server" xml:space="preserve">
+    <value>No achievements found for this server.</value>
+  </data>
+  <data name="achievements_none_user" xml:space="preserve">
+    <value>No achievement progress found for this user.</value>
+  </data>
+  <data name="premium_bot_text" xml:space="preserve">
+    <value>**Note:** Music Bots require the server to be premium to join.</value>
+  </data>
+  <data name="emote_unlock" xml:space="preserve">
+    <value>Successfully unlocked emote (&lt;:{0}:{1}&gt;) for all users.</value>
+  </data>
+  <data name="emote_invalid_roles" xml:space="preserve">
+    <value>Invalid list of roles. Example of formatting: `1002169977710858310;1192061843049558036`</value>
+  </data>
+  <data name="emote_locked" xml:space="preserve">
+    <value>Successfully locked emote (&lt;:{0}:{1}&gt;) to these roles: ```
+{2}```</value>
+  </data>
+  <data name="footer_perspective" xml:space="preserve">
+    <value>Powered by Perspective API</value>
+  </data>
+  <data name="footer_filter" xml:space="preserve">
+    <value>Filter applied by {0}</value>
+  </data>
+  <data name="title_filter" xml:space="preserve">
+    <value>Music | Filter</value>
+  </data>
+  <data name="footer_removed" xml:space="preserve">
+    <value>Removed by {0}</value>
+  </data>
+  <data name="title_remove" xml:space="preserve">
+    <value>Music | Remove</value>
+  </data>
+  <data name="footer_move" xml:space="preserve">
+    <value>Move requested by {0}</value>
+  </data>
+  <data name="title_join" xml:space="preserve">
+    <value>Music | Join</value>
+  </data>
+  <data name="footer_cleanup" xml:space="preserve">
+    <value>Cleaned up by {0}</value>
+  </data>
+  <data name="footer_shuffle" xml:space="preserve">
+    <value>Shuffled by {0}</value>
+  </data>
+  <data name="title_shuffle" xml:space="preserve">
+    <value>Music | Shuffle</value>
+  </data>
+  <data name="title_seek" xml:space="preserve">
+    <value>Music | Seek</value>
+  </data>
+  <data name="title_play" xml:space="preserve">
+    <value>Music | Play</value>
+  </data>
+  <data name="footer_sorted" xml:space="preserve">
+    <value>Sorted by {0}</value>
+  </data>
+  <data name="title_sort" xml:space="preserve">
+    <value>Music | Sort</value>
+  </data>
+  <data name="footer_resume" xml:space="preserve">
+    <value>Resumed by {0}</value>
+  </data>
+  <data name="automod_sus_join" xml:space="preserve">
+    <value>Suspicious Join</value>
   </data>
 </root>
