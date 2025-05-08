@@ -2441,7 +2441,7 @@ Please click the button below to verify your account before you can access the s
     <value>Invalid selection.</value>
   </data>
   <data name="economy_owned_error" xml:space="preserve">
-    <value>You already own this.</value>
+    <value>You already own the max amount (`{0}`) of this.</value>
   </data>
   <data name="economy_purchased" xml:space="preserve">
     <value>You have successfully purchased `{0}` for {1}.</value>
@@ -2770,7 +2770,7 @@ You’re now at **stage {2}**.
 If you cash out now, you’ll win: **{3}**</value>
   </data>
   <data name="minefield_error_other" xml:space="preserve">
-    <value>This isn’t your minefield game.</value>
+    <value>This isn’t your game.</value>
   </data>
   <data name="minefield_error_revealed" xml:space="preserve">
     <value>You already revealed that tile!</value>
@@ -3646,5 +3646,42 @@ Expires: &lt;t:{0}:R&gt;</value>
   </data>
   <data name="automod_sus_join" xml:space="preserve">
     <value>Suspicious Join</value>
+  </data>
+  <data name="core_sr_error_max" xml:space="preserve">
+    <value>You have reached the maximum number of self roles ({0}).</value>
+  </data>
+  <data name="selfrole_embed_success" xml:space="preserve">
+    <value>Successfully generated embed.</value>
+  </data>
+  <data name="selfrole_embed_title" xml:space="preserve">
+    <value># Select Self Roles</value>
+  </data>
+  <data name="selfrole_no_description" xml:space="preserve">
+    <value>No description.</value>
+  </data>
+  <data name="selfrole_error_level" xml:space="preserve">
+    <value>`{0}` ({1}) requires level `{2}`.</value>
+  </data>
+  <data name="selfrole_error_streak" xml:space="preserve">
+    <value>`{0}` ({1}) requires a streak of `{2}`.</value>
+  </data>
+  <data name="selfrole_error_missing" xml:space="preserve">
+    <value>`{0}` ({1}) requires a role that no longer exists.
+</value>
+  </data>
+  <data name="selfrole_error_requires_role" xml:space="preserve">
+    <value>`{0}` ({1}) requires the role `{2}` ({3}).</value>
+  </data>
+  <data name="eco_shop_title" xml:space="preserve">
+    <value># Economy Shop</value>
+  </data>
+  <data name="eco_owned" xml:space="preserve">
+    <value>Max Owned</value>
+  </data>
+  <data name="eco_buy" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="eco_unlimited" xml:space="preserve">
+    <value>Unlimited</value>
   </data>
 </root>
