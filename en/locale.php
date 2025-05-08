@@ -924,5 +924,9 @@
 		"rp-feature-wink" => "Wink",
 		"rp-audit" => "Updated roleplay settings.",
 		"auto-mod-new-timeframe" => "New Account Time Threshold",
+		"eco-shop-unlimited" => "Unlimited",
+		"eco-shop-max-global" => "Max Owned Global",
+		"eco-shop-max-user" => "Max Owned Per-User",
+		"eco-shop-unlimited-hint" => "0 Max Owned = Unlimited",
 	];
 ?>
