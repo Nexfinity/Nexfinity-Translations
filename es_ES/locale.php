@@ -924,4 +924,8 @@ return [
     'automod-autoban-audit' => "Configuración de baneo automático actualizada.",
     'automod-autokick-audit' => "Configuración de expulsión automática actualizada.",
     'auto-mod-new-timeframe' => "Período de espera para cuentas nuevas",
+    'eco-shop-unlimited' => "Ilimitado",
+    'eco-shop-max-global' => "Máximo global permitido",
+    'eco-shop-max-user' => "Máximo por usuario",
+    'eco-shop-unlimited-hint' => "0 Máximo permitido = Ilimitado",
 ];
