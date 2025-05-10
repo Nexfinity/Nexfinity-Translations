@@ -928,4 +928,6 @@ return [
     'eco-shop-max-global' => "Máximo global permitido",
     'eco-shop-max-user' => "Máximo por usuario",
     'eco-shop-unlimited-hint' => "0 Máximo permitido = Ilimitado",
+    'eco-feature-fishing' => "Pesca",
+    'eco-feature-minefield' => "Buscaminas",
 ];
