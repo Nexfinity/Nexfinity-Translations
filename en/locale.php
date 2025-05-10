@@ -928,5 +928,7 @@
 		"eco-shop-max-global" => "Max Owned Global",
 		"eco-shop-max-user" => "Max Owned Per-User",
 		"eco-shop-unlimited-hint" => "0 Max Owned = Unlimited",
+		"eco-feature-fishing" => "Fishing",
+		"eco-feature-minefield" => "Minefield",
 	];
 ?>
