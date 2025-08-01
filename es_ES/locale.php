@@ -511,7 +511,7 @@ return [
     'warning-auto-punish-add' => "Añadir Castigo",
     'moderation-timeout-channel' => "Canal de Aislamiento Temporal",
     'moderation-warning-channel' => "Canal de Advertencias",
-    'audit-warning' => "Canal de aislamiento temporal actualizado: :data",
+    'audit-warning' => "Configuración de advertencias actualizada.",
     'audit-title-24' => "Bot Añadido",
     'audit-title-25' => "Webhook Creado",
     'audit-title-26' => "Webhook modificado",
@@ -915,4 +915,9 @@ return [
     'eco-shop-unlimited-hint' => "0 Máximo permitido = Ilimitado",
     'eco-feature-fishing' => "Pesca",
     'eco-feature-minefield' => "Buscaminas",
+    'monitored-roles' => "Roles Monitoreados",
+    'audit-title-28' => "Roles Monitoreados Modificados",
+    'custom-bot-website-url' => "URL del Embed",
+    'auto-mod-list-invert' => "Tratar como lista blanca en su lugar",
+    'notes-staff-role' => "Rol del Staff para Notas",
 ];
