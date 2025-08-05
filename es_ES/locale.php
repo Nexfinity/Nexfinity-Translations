@@ -891,7 +891,6 @@ return [
     'eco-feature-donate' => "Donar",
     'rp-feature-bonk' => "Golpear",
     'rp-feature-cry' => "Llorar",
-    'rp-feature-cuddle' => "Acurrucarse",
     'rp-feature-facepalm' => "Facepalm",
     'rp-feature-feed' => "Alimentar",
     'rp-feature-hug' => "Abrazar",
