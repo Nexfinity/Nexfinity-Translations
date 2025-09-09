@@ -919,4 +919,12 @@ return [
     'custom-bot-website-url' => "URL del Embed",
     'auto-mod-list-invert' => "Tratar como lista blanca en su lugar",
     'notes-staff-role' => "Rol del Staff para Notas",
+    'rp-feature-dance' => "Bailar",
+    'rp-feature-holdhands' => "Tomarse de las manos",
+    'rp-feature-highfive' => "Choca esos cinco",
+    'rp-feature-grabcheeks' => "Agarrar las mejillas",
+    'rp-feature-lick' => "Lamer",
+    'rp-feature-stare' => "Mirada fija",
+    'rp-feature-bite' => "Morder",
+    'rp-feature-wave' => "Saludo",
 ];
