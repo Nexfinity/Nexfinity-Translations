@@ -927,5 +927,6 @@
 		"custom-bot-website-url" => "Embed URL",
 		"auto-mod-list-invert" => "Treat As Whitelist Instead",
 		"notes-staff-role" => "Notes Staff Role",
+		"fishing-weight" => "Fishing Weight Unit",
 	];
 ?>
