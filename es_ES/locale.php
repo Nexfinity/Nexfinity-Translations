@@ -927,4 +927,5 @@ return [
     'rp-feature-stare' => "Mirada fija",
     'rp-feature-bite' => "Morder",
     'rp-feature-wave' => "Saludo",
+    'fishing-weight' => "Unidad de peso de pesca",
 ];
