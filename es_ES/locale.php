@@ -949,4 +949,5 @@ return [
     'dashboard-access-empty' => "No se ha concedido acceso al panel a usuarios o roles adicionales.",
     'dashboard-access-current' => "Entradas de acceso actuales",
     'custom-bot-setup-new' => "Configurar nuevo bot",
+    'custom-bot-step-5-subscription' => "Seleccionar Suscripción",
 ];
