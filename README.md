@@ -9,17 +9,16 @@ follow our Formatting and Translation rules below. This helps keep consistency
 across all languages.
 
 If you have any questions, you can also check out our FAQ section below or join
-our [Discord](https://discord.gg/Y3VdQAD) and ask.
+our [Discord](https://cakey.bot/support) and ask.
 
 # How Do I Translate?
 
 1. Fork the project
 2. Make any translations/edits/updates to your language
-3. Create a pull request to have your changes accepted into the main repo
-4. Make any requested edits to your pull request
-5. Wait for the strings to be merged and enjoy!
-
-Alternatively, you can also contribute via our Crowdin page [here](https://crowdin.com/project/cakey-bot). We sync the Github repository and Crowdin page frequently.
+3. Create a pull request back to the repo.
+4. Wait for the PR to be reviewed.
+5. Make any requested edits to your submissions (if requested by reviewers).
+6. Wait for the strings to be merged and enjoy!
 
 # Formatting, Rules, Requirements
 
@@ -37,7 +36,7 @@ Alternatively, you can also contribute via our Crowdin page [here](https://crowd
    also common placeholders.
 4. If you need more context/info about how/where a string is used to provide an
    accurate translation, you can create a discussion or issue here on GitHub or
-   you can join our [Discord](https://discord.gg/Y3VdQAD) and a reviewer will
+   you can join our [Discord](https://cakey.bot/support) and a reviewer will
    provide further info/screenshots.
 5. Do not translate the string identifiers, these act as unique identifiers
    for the strings. (Bot string identifiers are on the line above the string and
@@ -50,7 +49,7 @@ Alternatively, you can also contribute via our Crowdin page [here](https://crowd
    capitalization on them.
 8. If you are unsure how you should format a specific string you can look at
    another language's file or you can open up a discussion. (You can also ask on
-   our [Discord](https://discord.gg/Y3VdQAD))
+   our [Discord](https://cakey.bot/support) )
 9. Don't translate emojis or emotes. This will cause them to break and display incorrectly to users.
 
 # FAQ
@@ -63,26 +62,13 @@ Alternatively, you can also contribute via our Crowdin page [here](https://crowd
 **2) What do the folders mean?**
 
 - Bot: This folder contains all translations that are used in the Cakey Bot
-  itself on [Discord](https://discord.gg/Y3VdQAD).
+  itself on Discord.
 - Website: This folder contains all translations that are used on Cakey Bot's
   [Web Dashboard](https://cakeybot.app/dashboard/public).
   - Note: Website also has subfolders for each language type, whereas the Bot
     folder does not.
 
-**3) What languages are currently fully supported on the website/bot?**
-
-- English (en)
-- Dutch (nl_NL) [Nederlands]
-- German (de_DE) [Deutsch]
-- Korean (ko_KR) [한국어]
-- Greek (el_GR) [ελληνικά]
-- Swedish (sv_SE) [Svenska]
-- Turkish (tr_TR) [Türkçe]
-- Italian (it_IT) [Italiano]
-- Arabic (ar_SA) [العربية]
-- Romanian (ro_RO) [Limba română]
-
-**4) Do I need permission to contribute?**
+**3) Do I need permission to contribute?**
 
 - Nope! Anyone can contribute, just be sure to follow our rules and formatting
   guidelines above.
