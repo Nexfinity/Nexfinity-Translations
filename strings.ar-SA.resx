@@ -1241,22 +1241,22 @@
     <value>معلومات القيادة</value>
   </data>
   <data name="automod_string_caps" xml:space="preserve">
-		<value>&gt;{0}% of capital letters.</value>
+    <value>&gt;{0}% of capital letters.</value>
   </data>
   <data name="automod_string_url" xml:space="preserve">
-		<value>a URL/Link.</value>
+    <value>a URL/Link.</value>
   </data>
   <data name="automod_string_mentions" xml:space="preserve">
-		<value>&gt;{0} mentions.</value>
+    <value>&gt;{0} mentions.</value>
   </data>
   <data name="automod_string_emote" xml:space="preserve">
-		<value>&gt;{0} emotes.</value>
+    <value>&gt;{0} emotes.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
-		<value>&gt;{0}% duplicated characters.</value>
+    <value>&gt;{0}% duplicated characters.</value>
   </data>
   <data name="automod_string_duplicate_word" xml:space="preserve">
-		<value>&gt;{0} duplicated words.</value>
+    <value>&gt;{0} duplicated words.</value>
   </data>
   <data name="automod_check_mass_caps" xml:space="preserve">
     <value>مقدار كبير من الأحرف الكبيرة</value>
@@ -1698,8 +1698,35 @@ Note: Requires \"Manage Server\" access.</value>
   <data name="leveling_user_missing" xml:space="preserve">
     <value>User missing from database. User must chat first.</value>
   </data>
+  <data name="generic_feature_disabled" xml:space="preserve">
+    <value>The feature has been disabled by the server admins.</value>
+  </data>
   <data name="leveling_top_missing" xml:space="preserve">
     <value>No users have talked yet. Check again later.</value>
+  </data>
+  <data name="random_drop_title_halloween" xml:space="preserve">
+    <value>🎁 A halloween drop has appeared!</value>
+  </data>
+  <data name="random_drop_title_yearround" xml:space="preserve">
+    <value>🎁 An XP drop has appeared!</value>
+  </data>
+  <data name="random_drop_description" xml:space="preserve">
+    <value>Click the button below to claim it before anyone else!</value>
+  </data>
+  <data name="random_drop_button_claim" xml:space="preserve">
+    <value>Claim Drop</value>
+  </data>
+  <data name="random_drop_button_claimed" xml:space="preserve">
+    <value>Claimed</value>
+  </data>
+  <data name="random_drop_claimed_message" xml:space="preserve">
+    <value>🎉 {0} claimed the drop and earned **{1} XP**!</value>
+  </data>
+  <data name="random_drop_claimed_response" xml:space="preserve">
+    <value>✅ You claimed the drop and earned `{0}` XP!</value>
+  </data>
+  <data name="random_drop_consecutive_claim_blocked" xml:space="preserve">
+    <value>❌ You claimed the previous drop! Give someone else a chance.</value>
   </data>
   <data name="birthday_error" xml:space="preserve">
     <value>A server admin must set a birthday announcement channel before this command can be used.</value>
@@ -1846,7 +1873,7 @@ Note: Requires \"Manage Server\" access.</value>
     <value>Modified By:</value>
   </data>
   <data name="automod_string_file_extensions" xml:space="preserve">
-		<value>a file with the `{0}` extension.</value>
+    <value>a file with the `{0}` extension.</value>
   </data>
   <data name="automod_check_file_extensions" xml:space="preserve">
     <value>Blacklisted File Extension</value>
@@ -2142,11 +2169,167 @@ Note: A message will be sent upon completion.</value>
   <data name="economy_rob_success_5" xml:space="preserve">
     <value>You were super successful robbing &lt;@{0}&gt; and made out with {1}{2}!</value>
   </data>
+  <data name="economy_work_failed_taxes" xml:space="preserve">
+    <value>Instead of going to work, you paid {0} in taxes.</value>
+  </data>
+  <data name="economy_work_failed_car_repair" xml:space="preserve">
+    <value>Your car broke down and you had to pay {0} for repairs.</value>
+  </data>
+  <data name="economy_work_failed_hospital_bills" xml:space="preserve">
+    <value>You slipped on a banana peel and had to pay {0} in hospital bills.</value>
+  </data>
+  <data name="economy_work_failed_jaywalking_fine" xml:space="preserve">
+    <value>You got fined {0} for jaywalking downtown.</value>
+  </data>
+  <data name="economy_work_failed_bought_drinks" xml:space="preserve">
+    <value>You accidentally bought a round of drinks for everyone... costing you {0}.</value>
+  </data>
+  <data name="economy_work_failed_lost_wallet" xml:space="preserve">
+    <value>You lost your wallet and {0} mysteriously disappeared.</value>
+  </data>
+  <data name="economy_work_failed_pet_ate_savings" xml:space="preserve">
+    <value>Your pet ate your savings... it cost you {0} to recover!</value>
+  </data>
+  <data name="economy_work_failed_bike_crash" xml:space="preserve">
+    <value>You crashed your bike and paid {0} for a new one.</value>
+  </data>
+  <data name="economy_work_failed_scammed" xml:space="preserve">
+    <value>You were scammed by a door-to-door salesman and lost {0}.</value>
+  </data>
+  <data name="economy_work_failed_computer_exploded" xml:space="preserve">
+    <value>Your computer exploded and repairs cost you {0}.</value>
+  </data>
+  <data name="economy_work_failed_speeding_ticket" xml:space="preserve">
+    <value>You got a speeding ticket for {0}.</value>
+  </data>
+  <data name="economy_work_failed_bad_donation" xml:space="preserve">
+    <value>You accidentally donated {0} to a suspicious charity.</value>
+  </data>
+  <data name="economy_work_failed_phone_lake" xml:space="preserve">
+    <value>Your phone fell into a lake, and replacement fees cost you {0}.</value>
+  </data>
+  <data name="economy_work_failed_lamppost_crash" xml:space="preserve">
+    <value>You backed your car into a lamppost and repairs cost {0}.</value>
+  </data>
+  <data name="economy_work_failed_prank_damage" xml:space="preserve">
+    <value>A prank gone wrong cost you {0} in damages.</value>
+  </data>
+  <data name="economy_work_failed_vet_bill" xml:space="preserve">
+    <value>You had an unexpected vet bill of {0}.</value>
+  </data>
+  <data name="economy_work_failed_lost_bet" xml:space="preserve">
+    <value>You lost a bet with your friends and paid {0}.</value>
+  </data>
+  <data name="economy_work_failed_roof_leak" xml:space="preserve">
+    <value>Your roof leaked during a storm, and repairs cost {0}.</value>
+  </data>
+  <data name="economy_work_failed_parking_fees" xml:space="preserve">
+    <value>You paid {0} in unexpected parking fees.</value>
+  </data>
+  <data name="economy_work_failed_tax_fine" xml:space="preserve">
+    <value>You forgot to file your taxes properly and got fined {0}.</value>
+  </data>
+  <data name="economy_work_failed_tv_break" xml:space="preserve">
+    <value>Your roommate broke your TV, and it cost you {0} to replace it.</value>
+  </data>
+  <data name="economy_work_success_1" xml:space="preserve">
+    <value>You went to work and successfully made {0}.</value>
+  </data>
+  <data name="economy_work_success_2" xml:space="preserve">
+    <value>You completed your shift and earned {0}!</value>
+  </data>
+  <data name="economy_work_success_3" xml:space="preserve">
+    <value>You finished a big project and earned {0}!</value>
+  </data>
+  <data name="economy_work_success_4" xml:space="preserve">
+    <value>You sold some old stuff online and made {0}!</value>
+  </data>
+  <data name="economy_work_success_5" xml:space="preserve">
+    <value>You freelanced and earned {0}!</value>
+  </data>
+  <data name="economy_work_success_6" xml:space="preserve">
+    <value>Your business side hustle made {0} today!</value>
+  </data>
+  <data name="economy_work_success_7" xml:space="preserve">
+    <value>Your stock investment paid off and you earned {0}!</value>
+  </data>
+  <data name="economy_work_success_8" xml:space="preserve">
+    <value>You found {0} in an old coat pocket!</value>
+  </data>
+  <data name="economy_work_success_9" xml:space="preserve">
+    <value>You won {0} in an office raffle!</value>
+  </data>
+  <data name="economy_work_success_10" xml:space="preserve">
+    <value>You babysat for a neighbor and earned {0}!</value>
+  </data>
+  <data name="economy_work_success_11" xml:space="preserve">
+    <value>You got paid for tutoring and made {0}!</value>
+  </data>
+  <data name="economy_work_success_12" xml:space="preserve">
+    <value>You painted a mural and got paid {0}!</value>
+  </data>
+  <data name="economy_work_success_13" xml:space="preserve">
+    <value>You wrote an article and earned {0}!</value>
+  </data>
+  <data name="economy_work_success_14" xml:space="preserve">
+    <value>You repaired someone's laptop and earned {0}!</value>
+  </data>
+  <data name="economy_work_success_15" xml:space="preserve">
+    <value>You delivered food part-time and made {0}!</value>
+  </data>
+  <data name="economy_work_success_16" xml:space="preserve">
+    <value>You received a refund check for {0}!</value>
+  </data>
   <data name="economy_beg_fail" xml:space="preserve">
     <value>You couldn't even beg for money. :(</value>
   </data>
   <data name="economy_beg_success" xml:space="preserve">
     <value>You successfully begged for money and gained {0}{1}.</value>
+  </data>
+  <data name="economy_fishing_success_1" xml:space="preserve">
+    <value>You reeled in a {0} from the {1} biome! It's worth {2} and weighs {3}.</value>
+  </data>
+  <data name="economy_fishing_success_2" xml:space="preserve">
+    <value>Success! A wild {0} bites in the {1} biome — you earn {2}. The fish weighs {3}.</value>
+  </data>
+  <data name="economy_fishing_success_3" xml:space="preserve">
+    <value>You caught a shiny {0} worth {2} in the {1} biome that weighs {3}.</value>
+  </data>
+  <data name="economy_fishing_success_4" xml:space="preserve">
+    <value>The water in the {1} biome blesses you with a {3} {0}, valued at {2}.</value>
+  </data>
+  <data name="economy_fishing_success_5" xml:space="preserve">
+    <value>Your line goes taut! It's a {3} {0} from the {1} biome, worth {2}.</value>
+  </data>
+  <data name="economy_fishing_fail_1" xml:space="preserve">
+    <value>Your line snapped and the fish escaped!</value>
+  </data>
+  <data name="economy_fishing_fail_2" xml:space="preserve">
+    <value>You slipped and dropped your rod in the water!</value>
+  </data>
+  <data name="economy_fishing_fail_3" xml:space="preserve">
+    <value>You caught a soggy boot worth nothing.</value>
+  </data>
+  <data name="economy_fishing_fail_4" xml:space="preserve">
+    <value>A seagull stole your bait before you cast.</value>
+  </data>
+  <data name="economy_fishing_fail_5" xml:space="preserve">
+    <value>You reeled in a piece of trash. Yikes!</value>
+  </data>
+  <data name="economy_fishing_fail_6" xml:space="preserve">
+    <value>Your hook got stuck on a rock.</value>
+  </data>
+  <data name="economy_fishing_fail_7" xml:space="preserve">
+    <value>The current was too strong and scared all the fish.</value>
+  </data>
+  <data name="economy_fishing_fail_8" xml:space="preserve">
+    <value>You forgot to bait your hook. Rookie mistake.</value>
+  </data>
+  <data name="economy_fishing_fail_9" xml:space="preserve">
+    <value>A jellyfish stung you. You fled the water.</value>
+  </data>
+  <data name="economy_fishing_fail_10" xml:space="preserve">
+    <value>You fell asleep and missed your chance to reel in.</value>
   </data>
   <data name="generic_confirm" xml:space="preserve">
     <value>You must confirm this action using the confirm option.</value>
@@ -2267,34 +2450,34 @@ Note: A message will be sent upon completion.</value>
 Wow! That's only a 0.02% chance of happening!</value>
   </data>
   <data name="economy_bet_success_side" xml:space="preserve">
-		<value>The coin landed on it's side! That's only a 0.02% chance. You've been awarded 2x your bet!</value>
+    <value>The coin landed on it's side! That's only a 0.02% chance. You've been awarded 2x your bet!</value>
   </data>
   <data name="economy_owned_items" xml:space="preserve">
-		<value>Owned items are not displayed in the dropdown.</value>
+    <value>Owned items are not displayed in the dropdown.</value>
   </data>
   <data name="music_embed_not_setup" xml:space="preserve">
-		<value>There is no song request channel configured.</value>
+    <value>There is no song request channel configured.</value>
   </data>
   <data name="music_embed_unset" xml:space="preserve">
-		<value>Song request channel has been unset.</value>
+    <value>Song request channel has been unset.</value>
   </data>
   <data name="economy_coinflip_side" xml:space="preserve">
-		<value>You can not guess side, please choose another.</value>
+    <value>You can not guess side, please choose another.</value>
   </data>
   <data name="generic_reset_none" xml:space="preserve">
-		<value>No valid data found.</value>
+    <value>No valid data found.</value>
   </data>
   <data name="achievement_unlocked" xml:space="preserve">
-		<value>Achievement Unlocked!</value>
+    <value>Achievement Unlocked!</value>
   </data>
   <data name="achievement_message" xml:space="preserve">
-		<value>Congratulations {0}! You have unlocked the achievement: **{1}**! 🥳</value>
+    <value>Congratulations {0}! You have unlocked the achievement: **{1}**! 🥳</value>
   </data>
   <data name="achievement_none" xml:space="preserve">
-		<value>No achievement found.</value>
+    <value>No achievement found.</value>
   </data>
   <data name="automod_string_generic" xml:space="preserve">
-		<value>Your message was deleted for containing {0}</value>
+    <value>Your message was deleted for containing {0}</value>
   </data>
   <data name="core_commands_user_install" xml:space="preserve">
     <value>User Installs</value>
@@ -2538,9 +2721,6 @@ Please click the button below to verify your account before you can access the s
   <data name="giveaway_entry_role_error" xml:space="preserve">
     <value>You do not have the required role (`{0}`) to enter this giveaway.</value>
   </data>
-  <data name="generic_feature_disabled" xml:space="preserve">
-    <value>The feature has been disabled by the server admins.</value>
-  </data>
   <data name="voice_move_no_users" xml:space="preserve">
     <value>No valid users to move.</value>
   </data>
@@ -2549,117 +2729,6 @@ Please click the button below to verify your account before you can access the s
   </data>
   <data name="voice_move_move_same_channel" xml:space="preserve">
     <value>Cannot move users between the same two channels.</value>
-  </data>
-  <data name="economy_work_failed_taxes" xml:space="preserve">
-    <value>Instead of going to work, you paid {0} in taxes.</value>
-  </data>
-  <data name="economy_work_failed_car_repair" xml:space="preserve">
-    <value>Your car broke down and you had to pay {0} for repairs.</value>
-  </data>
-  <data name="economy_work_failed_hospital_bills" xml:space="preserve">
-    <value>You slipped on a banana peel and had to pay {0} in hospital bills.</value>
-  </data>
-  <data name="economy_work_failed_jaywalking_fine" xml:space="preserve">
-    <value>You got fined {0} for jaywalking downtown.</value>
-  </data>
-  <data name="economy_work_failed_bought_drinks" xml:space="preserve">
-    <value>You accidentally bought a round of drinks for everyone... costing you {0}.</value>
-  </data>
-  <data name="economy_work_failed_lost_wallet" xml:space="preserve">
-    <value>You lost your wallet and {0} mysteriously disappeared.</value>
-  </data>
-  <data name="economy_work_failed_pet_ate_savings" xml:space="preserve">
-    <value>Your pet ate your savings... it cost you {0} to recover!</value>
-  </data>
-  <data name="economy_work_failed_bike_crash" xml:space="preserve">
-    <value>You crashed your bike and paid {0} for a new one.</value>
-  </data>
-  <data name="economy_work_failed_scammed" xml:space="preserve">
-    <value>You were scammed by a door-to-door salesman and lost {0}.</value>
-  </data>
-  <data name="economy_work_failed_computer_exploded" xml:space="preserve">
-    <value>Your computer exploded and repairs cost you {0}.</value>
-  </data>
-  <data name="economy_work_failed_speeding_ticket" xml:space="preserve">
-    <value>You got a speeding ticket for {0}.</value>
-  </data>
-  <data name="economy_work_failed_bad_donation" xml:space="preserve">
-    <value>You accidentally donated {0} to a suspicious charity.</value>
-  </data>
-  <data name="economy_work_failed_phone_lake" xml:space="preserve">
-    <value>Your phone fell into a lake, and replacement fees cost you {0}.</value>
-  </data>
-  <data name="economy_work_failed_lamppost_crash" xml:space="preserve">
-    <value>You backed your car into a lamppost and repairs cost {0}.</value>
-  </data>
-  <data name="economy_work_failed_prank_damage" xml:space="preserve">
-    <value>A prank gone wrong cost you {0} in damages.</value>
-  </data>
-  <data name="economy_work_failed_vet_bill" xml:space="preserve">
-    <value>You had an unexpected vet bill of {0}.</value>
-  </data>
-  <data name="economy_work_failed_lost_bet" xml:space="preserve">
-    <value>You lost a bet with your friends and paid {0}.</value>
-  </data>
-  <data name="economy_work_failed_roof_leak" xml:space="preserve">
-    <value>Your roof leaked during a storm, and repairs cost {0}.</value>
-  </data>
-  <data name="economy_work_failed_parking_fees" xml:space="preserve">
-    <value>You paid {0} in unexpected parking fees.</value>
-  </data>
-  <data name="economy_work_failed_tax_fine" xml:space="preserve">
-    <value>You forgot to file your taxes properly and got fined {0}.</value>
-  </data>
-  <data name="economy_work_failed_tv_break" xml:space="preserve">
-    <value>Your roommate broke your TV, and it cost you {0} to replace it.</value>
-  </data>
-  <data name="economy_work_success_1" xml:space="preserve">
-    <value>You went to work and successfully made {0}.</value>
-  </data>
-  <data name="economy_work_success_2" xml:space="preserve">
-    <value>You completed your shift and earned {0}!</value>
-  </data>
-  <data name="economy_work_success_3" xml:space="preserve">
-    <value>You finished a big project and earned {0}!</value>
-  </data>
-  <data name="economy_work_success_4" xml:space="preserve">
-    <value>You sold some old stuff online and made {0}!</value>
-  </data>
-  <data name="economy_work_success_5" xml:space="preserve">
-    <value>You freelanced and earned {0}!</value>
-  </data>
-  <data name="economy_work_success_6" xml:space="preserve">
-    <value>Your business side hustle made {0} today!</value>
-  </data>
-  <data name="economy_work_success_7" xml:space="preserve">
-    <value>Your stock investment paid off and you earned {0}!</value>
-  </data>
-  <data name="economy_work_success_8" xml:space="preserve">
-    <value>You found {0} in an old coat pocket!</value>
-  </data>
-  <data name="economy_work_success_9" xml:space="preserve">
-    <value>You won {0} in an office raffle!</value>
-  </data>
-  <data name="economy_work_success_10" xml:space="preserve">
-    <value>You babysat for a neighbor and earned {0}!</value>
-  </data>
-  <data name="economy_work_success_11" xml:space="preserve">
-    <value>You got paid for tutoring and made {0}!</value>
-  </data>
-  <data name="economy_work_success_12" xml:space="preserve">
-    <value>You painted a mural and got paid {0}!</value>
-  </data>
-  <data name="economy_work_success_13" xml:space="preserve">
-    <value>You wrote an article and earned {0}!</value>
-  </data>
-  <data name="economy_work_success_14" xml:space="preserve">
-    <value>You repaired someone's laptop and earned {0}!</value>
-  </data>
-  <data name="economy_work_success_15" xml:space="preserve">
-    <value>You delivered food part-time and made {0}!</value>
-  </data>
-  <data name="economy_work_success_16" xml:space="preserve">
-    <value>You received a refund check for {0}!</value>
   </data>
   <data name="eco_top_missing" xml:space="preserve">
     <value>No users to display.</value>
@@ -2682,53 +2751,17 @@ Please click the button below to verify your account before you can access the s
   <data name="error_generic_sticker_same_server" xml:space="preserve">
     <value>I can't send the sticker because it's not in the same server.</value>
   </data>
-  <data name="economy_fishing_success_1" xml:space="preserve">
-    <value>You reeled in a {0} from the {1} biome! It's worth {2} and weighs {3}.</value>
-  </data>
-  <data name="economy_fishing_success_2" xml:space="preserve">
-    <value>Success! A wild {0} bites in the {1} biome — you earn {2}. The fish weighs {3}.</value>
-  </data>
-  <data name="economy_fishing_success_3" xml:space="preserve">
-    <value>You caught a shiny {0} worth {2} in the {1} biome that weighs {3}.</value>
-  </data>
-  <data name="economy_fishing_success_4" xml:space="preserve">
-    <value>The water in the {1} biome blesses you with a {3} {0}, valued at {2}.</value>
-  </data>
-  <data name="economy_fishing_success_5" xml:space="preserve">
-    <value>Your line goes taut! It's a {3} {0} from the {1} biome, worth {2}.</value>
-  </data>
-  <data name="economy_fishing_fail_1" xml:space="preserve">
-    <value>Your line snapped and the fish escaped!</value>
-  </data>
-  <data name="economy_fishing_fail_2" xml:space="preserve">
-    <value>You slipped and dropped your rod in the water!</value>
-  </data>
-  <data name="economy_fishing_fail_3" xml:space="preserve">
-    <value>You caught a soggy boot worth nothing.</value>
-  </data>
-  <data name="economy_fishing_fail_4" xml:space="preserve">
-    <value>A seagull stole your bait before you cast.</value>
-  </data>
-  <data name="economy_fishing_fail_5" xml:space="preserve">
-    <value>You reeled in a piece of trash. Yikes!</value>
-  </data>
-  <data name="economy_fishing_fail_6" xml:space="preserve">
-    <value>Your hook got stuck on a rock.</value>
-  </data>
-  <data name="economy_fishing_fail_7" xml:space="preserve">
-    <value>The current was too strong and scared all the fish.</value>
-  </data>
-  <data name="economy_fishing_fail_8" xml:space="preserve">
-    <value>You forgot to bait your hook. Rookie mistake.</value>
-  </data>
-  <data name="economy_fishing_fail_9" xml:space="preserve">
-    <value>A jellyfish stung you. You fled the water.</value>
-  </data>
-  <data name="economy_fishing_fail_10" xml:space="preserve">
-    <value>You fell asleep and missed your chance to reel in.</value>
-  </data>
   <data name="role_higher_than_bot" xml:space="preserve">
     <value>`{0}` ({1}) is higher than my highest role.\n</value>
+  </data>
+  <data name="highlow_incorrect_guess" xml:space="preserve">
+    <value>❌ You guessed **{0}**, but the number was **{1}**.
+You made it to **stage {2}**.</value>
+  </data>
+  <data name="highlow_correct_guess" xml:space="preserve">
+    <value>✅ Correct! You guessed **{0}** and the number was **{1}**.
+You’re now at **stage {2}**.
+If you cash out now, you’ll win: **{3}**</value>
   </data>
   <data name="user_role_higher_than_bot" xml:space="preserve">
     <value>Your highest role is higher than my highest role.\n</value>
@@ -2753,15 +2786,6 @@ Please click the button below to verify your account before you can access the s
   </data>
   <data name="auto_kick_title" xml:space="preserve">
     <value>Auto Kick:</value>
-  </data>
-  <data name="highlow_incorrect_guess" xml:space="preserve">
-    <value>❌ You guessed **{0}**, but the number was **{1}**.
-You made it to **stage {2}**.</value>
-  </data>
-  <data name="highlow_correct_guess" xml:space="preserve">
-    <value>✅ Correct! You guessed **{0}** and the number was **{1}**.
-You’re now at **stage {2}**.
-If you cash out now, you’ll win: **{3}**</value>
   </data>
   <data name="minefield_error_other" xml:space="preserve">
     <value>This isn’t your game.</value>
@@ -3866,6 +3890,15 @@ Expires: &lt;t:{0}:R&gt;</value>
   <data name="AchievementCommand_Info_XP_Add_" xml:space="preserve">
     <value>XP Add:</value>
   </data>
+  <data name="AchievementCommand_Info_XP_Remove_" xml:space="preserve">
+    <value>XP Remove:</value>
+  </data>
+  <data name="AchievementCommand_Info_Eco_Money_Add_" xml:space="preserve">
+    <value>Eco Money Add:</value>
+  </data>
+  <data name="AchievementCommand_Info_Eco_Money_Remove_" xml:space="preserve">
+    <value>Eco Money Remove:</value>
+  </data>
   <data name="AchievementCommand_Info_Add_Roles_" xml:space="preserve">
     <value>Add Roles:</value>
   </data>
@@ -4132,6 +4165,9 @@ Expires: &lt;t:{0}:R&gt;</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_one" xml:space="preserve">
     <value>enqueued `1` track</value>
+  </data>
+  <data name="music_ff_time" xml:space="preserve">
+    <value>fast forwarded track by `{0}` seconds</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_" xml:space="preserve">
     <value>added `{0}` tracks to queue</value>
@@ -4459,9 +4495,6 @@ Expires: &lt;t:{0}:R&gt;</value>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>Message does not exist in this channel.</value>
   </data>
-  <data name="music_ff_time" xml:space="preserve">
-    <value>fast forwarded track by `{0}` seconds</value>
-  </data>
   <data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} of the Day!</value>
   </data>
@@ -4618,38 +4651,5 @@ Expires: &lt;t:{0}:R&gt;</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>Reaction Emoji:</value>
-  </data>
-  <data name="random_drop_title_halloween" xml:space="preserve">
-    <value>🎁 A halloween drop has appeared!</value>
-  </data>
-  <data name="random_drop_title_yearround" xml:space="preserve">
-    <value>🎁 An XP drop has appeared!</value>
-  </data>
-  <data name="random_drop_description" xml:space="preserve">
-    <value>Click the button below to claim it before anyone else!</value>
-  </data>
-  <data name="random_drop_button_claim" xml:space="preserve">
-    <value>Claim Drop</value>
-  </data>
-  <data name="random_drop_button_claimed" xml:space="preserve">
-    <value>Claimed</value>
-  </data>
-  <data name="random_drop_claimed_message" xml:space="preserve">
-    <value>🎉 {0} claimed the drop and earned **{1} XP**!</value>
-  </data>
-  <data name="random_drop_claimed_response" xml:space="preserve">
-    <value>✅ You claimed the drop and earned `{0}` XP!</value>
-  </data>
-  <data name="random_drop_consecutive_claim_blocked" xml:space="preserve">
-    <value>❌ You claimed the previous drop! Give someone else a chance.</value>
-  </data>
-  <data name="AchievementCommand_Info_XP_Remove_" xml:space="preserve">
-    <value>XP Remove:</value>
-  </data>
-  <data name="AchievementCommand_Info_Eco_Money_Add_" xml:space="preserve">
-    <value>Eco Money Add:</value>
-  </data>
-  <data name="AchievementCommand_Info_Eco_Money_Remove_" xml:space="preserve">
-    <value>Eco Money Remove:</value>
   </data>
 </root>
