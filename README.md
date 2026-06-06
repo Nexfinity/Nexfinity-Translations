@@ -14,7 +14,7 @@ our [Discord](https://cakey.bot/support) and ask.
 # How Do I Translate?
 
 1. Fork the project
-2. Make any translations/edits/updates to your language
+2. Make any translations/edits/updates to your language (bot and website strings have their own branch)
 3. Create a pull request back to the repo.
 4. Wait for the PR to be reviewed.
 5. Make any requested edits to your submissions (if requested by reviewers).
