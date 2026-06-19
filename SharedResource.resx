@@ -1534,6 +1534,12 @@
   <data name="premium-unconfigured-bots-later" xml:space="preserve">
     <value>Configure Later</value>
   </data>
+  <data name="premium-large-bots-nav-warning" xml:space="preserve">
+    <value>You have {0} custom bot(s) with 10,000+ members.</value>
+  </data>
+  <data name="premium-large-bots-alert" xml:space="preserve">
+    <value>You have {0} custom bot(s) that have more than 10,000 members. Additional steps may be required.</value>
+  </data>
   <data name="wl-set" xml:space="preserve">
     <value>Set Token</value>
   </data>
@@ -1627,6 +1633,9 @@
   <data name="starboard-channel" xml:space="preserve">
     <value>Starboard Channel</value>
   </data>
+  <data name="starboard-max-message-age" xml:space="preserve">
+    <value>Max Message Age (Days)</value>
+  </data>
   <data name="warning-status" xml:space="preserve">
     <value>Status</value>
   </data>
@@ -1705,8 +1714,32 @@
   <data name="custom-bot-lock" xml:space="preserve">
     <value>You must have at least one Custom Bot Subscription to view this page.</value>
   </data>
+  <data name="custom-bot-disable-help-command" xml:space="preserve">
+    <value>Disable /help Command</value>
+  </data>
+  <data name="custom-bot-disable-about-command" xml:space="preserve">
+    <value>Disable /about Command</value>
+  </data>
+  <data name="custom-bot-disable-leaderboard-buttons" xml:space="preserve">
+    <value>Disable Leaderboard Buttons</value>
+  </data>
   <data name="custom-bot-embed" xml:space="preserve">
     <value>Embed Colors</value>
+  </data>
+  <data name="custom-bot-notice-title" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="custom-bot-notice-body" xml:space="preserve">
+    <value>Due to Discord policy changes, custom bots that exceed a total of 10,000 users total across servers will have to undergo additional setup/verification for privileged intents. If your bot will have less than 10,000 total users (95% of custom bots fall into this category), then no additional action is required on your part. If you fall into the category of needing the additional verification or have other questions, please reach out to our :data.</value>
+  </data>
+  <data name="custom-bot-notice-support-team" xml:space="preserve">
+    <value>support team</value>
+  </data>
+  <data name="custom-bot-notice-ack" xml:space="preserve">
+    <value>I understand and acknowledge the above information.</value>
+  </data>
+  <data name="custom-bot-view-plans" xml:space="preserve">
+    <value>View Purchase Options</value>
   </data>
   <data name="custom-bot-api" xml:space="preserve">
     <value>API Keys</value>
@@ -3460,7 +3493,7 @@ If none of these seem to be the cause of this issue, please head over to our sup
   <data name="faq-a-auto-role" xml:space="preserve">
     <value>You have to move Cakey Bot's role above the role you're trying to manage by going to Server Settings -&gt; Roles and dragging Cakey Bot's role above any roles you want Cakey Bot to manage.
 
-To learn more about role hierarchy, [click here](https://support.discordapp.com/hc/en-us/articles/214836687-Role-Management-101).</value>
+To learn more about role hierarchy, [click here](https://support.discord.com/hc/en-us/articles/214836687-Discord-Roles-and-Permissions).</value>
   </data>
   <data name="faq-a-audit-log-not-working" xml:space="preserve">
     <value>- Check if the module is disabled via the [Web Dashboard](/dashboard).
@@ -3550,7 +3583,7 @@ If you purchased premium inside of the Discord app you will have to cancel it in
 
 If you would like to view our full refund policy, you can view it on our [terms of service](/terms) page.
 
-If you purchased premium inside of the Discord app you will have to request a refund from Discord's support team. You can find more info about Discord subscription refunds on [this blog post](https://support.discord.com/hc/en-us/articles/360012668071).
+If you purchased premium inside of the Discord app you will have to request a refund from Discord's support team. You can find more info about Discord subscription refunds on [this blog post](https://support.discord.com/hc/en-us/articles/360012668071-Refund-Policy#h_01J5BJ2X9ZT977MQHTP5PK3C2M).
 
 **Note:** If you purchased premium via the Discord app, our refund policy does not apply and you will have to request a refund from Discord's support team.</value>
   </data>
@@ -3854,7 +3887,7 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
 
 If you would like to view our full refund policy, you can view it on our [terms of service](/terms) page.
 
-If you purchased premium inside of the Discord app you will have to request a refund from Discord's support team. You can find more info about Discord subscription refunds on [this blog post](https://support.discord.com/hc/en-us/articles/360012668071).
+If you purchased premium inside of the Discord app you will have to request a refund from Discord's support team. You can find more info about Discord subscription refunds on [this blog post](https://support.discord.com/hc/en-us/articles/360012668071-Refund-Policy#h_01J5BJ2X9ZT977MQHTP5PK3C2M).
 
 **Note:** If you purchased premium via the Discord app, our refund policy does not apply and you will have to request a refund from Discord's support team.</value>
   </data>
@@ -4405,6 +4438,51 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   <data name="leveling-xp-videos-tooltip" xml:space="preserve">
     <value>Bonus XP awarded for messages containing videos (added on top of regular message XP)</value>
   </data>
+  <data name="leveling-cooldown-text" xml:space="preserve">
+    <value>Text Cooldown (Minutes)</value>
+  </data>
+  <data name="leveling-cooldown-image" xml:space="preserve">
+    <value>Image Cooldown (Minutes)</value>
+  </data>
+  <data name="leveling-cooldown-video" xml:space="preserve">
+    <value>Video Cooldown (Minutes)</value>
+  </data>
+  <data name="leveling-cooldown-voice" xml:space="preserve">
+    <value>Voice Cooldown (Minutes)</value>
+  </data>
+  <data name="honeypot-title" xml:space="preserve">
+    <value>Honeypot</value>
+  </data>
+  <data name="honeypot-channel" xml:space="preserve">
+    <value>Honeypot Channel</value>
+  </data>
+  <data name="honeypot-channel-hint" xml:space="preserve">
+    <value>Select a channel to designate as the honeypot. Any user who sends a message in this channel will be automatically punished. When set, Cakey Bot will post a warning message in the channel.</value>
+  </data>
+  <data name="honeypot-punishment" xml:space="preserve">
+    <value>Punishment</value>
+  </data>
+  <data name="honeypot-punishment-hint" xml:space="preserve">
+    <value>The action taken against any user who sends a message in the honeypot channel.</value>
+  </data>
+  <data name="honeypot-log-channel" xml:space="preserve">
+    <value>Log Channel</value>
+  </data>
+  <data name="honeypot-log-channel-hint" xml:space="preserve">
+    <value>Optional channel where honeypot trigger events are logged. Leave unset to disable logging.</value>
+  </data>
+  <data name="honeypot-punishment-timeout" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="honeypot-punishment-kick" xml:space="preserve">
+    <value>Kick</value>
+  </data>
+  <data name="honeypot-punishment-softban" xml:space="preserve">
+    <value>Softban</value>
+  </data>
+  <data name="honeypot-punishment-ban" xml:space="preserve">
+    <value>Ban</value>
+  </data>
   <data name="leveling-decay-ignore-roles" xml:space="preserve">
     <value>Decay Ignore Roles</value>
   </data>
@@ -4774,5 +4852,231 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
   <data name="ticket-panel3" xml:space="preserve">
     <value>Panel 3</value>
+  </data>
+
+  <data name="toast-success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="toast-error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="toast-warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="nav-section-general" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="nav-section-oauth" xml:space="preserve">
+    <value>OAuth Integrations</value>
+  </data>
+  <data name="nav-section-features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="nav-section-logs" xml:space="preserve">
+    <value>Logs/Data</value>
+  </data>
+  <data name="misc-string-new" xml:space="preserve">
+    <value>NEW</value>
+  </data>
+  <data name="nav-select-server" xml:space="preserve">
+    <value>Select a server to continue</value>
+  </data>
+  <data name="audit-enable-all-events" xml:space="preserve">
+    <value>Enable All Events</value>
+  </data>
+  <data name="audit-disable-all-events" xml:space="preserve">
+    <value>Disable All Events</value>
+  </data>
+  <data name="modlogs-filter-by" xml:space="preserve">
+    <value>Filter by event type</value>
+  </data>
+  <data name="modlogs-clear-filter" xml:space="preserve">
+    <value>Clear filter</value>
+  </data>
+  <data name="modlogs-empty-dashboard" xml:space="preserve">
+    <value>No dashboard logs found.</value>
+  </data>
+  <data name="modlogs-empty-mod" xml:space="preserve">
+    <value>No moderation logs found.</value>
+  </data>
+  <data name="modlogs-search-dashboard" xml:space="preserve">
+    <value>Search dashboard logs...</value>
+  </data>
+  <data name="modlogs-search-mod" xml:space="preserve">
+    <value>Search moderation logs...</value>
+  </data>
+  <data name="modlogs-automod-title" xml:space="preserve">
+    <value>Auto Mod Logs</value>
+  </data>
+  <data name="modlogs-coming-soon" xml:space="preserve">
+    <value>Coming soon...</value>
+  </data>
+  <data name="text-status-disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="voice-type-manual" xml:space="preserve">
+    <value>Manual/Prompt</value>
+  </data>
+  <data name="voice-type-automatic" xml:space="preserve">
+    <value>Automatic (Premium)</value>
+  </data>
+  <data name="perm-send-messages" xml:space="preserve">
+    <value>Send Messages</value>
+  </data>
+  <data name="perm-read-history" xml:space="preserve">
+    <value>View Messages/History</value>
+  </data>
+  <data name="perm-view-channels" xml:space="preserve">
+    <value>View Channels</value>
+  </data>
+  <data name="perm-external-emoji" xml:space="preserve">
+    <value>Use External Emoji</value>
+  </data>
+  <data name="perm-add-reactions" xml:space="preserve">
+    <value>Add Reactions</value>
+  </data>
+  <data name="perm-embed-links" xml:space="preserve">
+    <value>Embed Links</value>
+  </data>
+  <data name="perm-use-threads" xml:space="preserve">
+    <value>Use Public/Private Threads</value>
+  </data>
+  <data name="perm-for-stage-music" xml:space="preserve">
+    <value>For Stage Music</value>
+  </data>
+  <data name="perm-mute-members" xml:space="preserve">
+    <value>Mute Members</value>
+  </data>
+  <data name="perm-move-members" xml:space="preserve">
+    <value>Move Members</value>
+  </data>
+  <data name="perm-manage-channels" xml:space="preserve">
+    <value>Manage Channels</value>
+  </data>
+  <data name="perm-for-music" xml:space="preserve">
+    <value>For Music</value>
+  </data>
+  <data name="perm-connect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="perm-speak" xml:space="preserve">
+    <value>Speak</value>
+  </data>
+  <data name="perm-for-server-management" xml:space="preserve">
+    <value>For Server Management</value>
+  </data>
+  <data name="perm-manage-emoji" xml:space="preserve">
+    <value>Manage Emoji</value>
+  </data>
+  <data name="perm-for-moderation" xml:space="preserve">
+    <value>For Moderation</value>
+  </data>
+  <data name="perm-kick-members" xml:space="preserve">
+    <value>Kick Members</value>
+  </data>
+  <data name="perm-ban-members" xml:space="preserve">
+    <value>Ban Members</value>
+  </data>
+  <data name="perm-manage-nicknames" xml:space="preserve">
+    <value>Manage Nicknames</value>
+  </data>
+  <data name="perm-manage-messages" xml:space="preserve">
+    <value>Manage Messages</value>
+  </data>
+  <data name="perm-manage-roles" xml:space="preserve">
+    <value>Manage Roles</value>
+  </data>
+  <data name="perm-manage-threads" xml:space="preserve">
+    <value>Manage Threads</value>
+  </data>
+  <data name="auto-message-search" xml:space="preserve">
+    <value>Search auto messages...</value>
+  </data>
+  <data name="auto-message-empty" xml:space="preserve">
+    <value>No auto messages found. Click the button below to create one.</value>
+  </data>
+  <data name="text-status-unpurchasable" xml:space="preserve">
+    <value>Unpurchasable</value>
+  </data>
+  <data name="custom-bot-update-token" xml:space="preserve">
+    <value>Change/Update Token</value>
+  </data>
+  <data name="custom-bot-update-token-title" xml:space="preserve">
+    <value>Update Bot Token</value>
+  </data>
+  <data name="custom-bot-update-token-placeholder" xml:space="preserve">
+    <value>Paste your new bot token here</value>
+  </data>
+  <data name="custom-bot-update-token-submit" xml:space="preserve">
+    <value>Update Token</value>
+  </data>
+  <data name="custom-bot-update-token-success" xml:space="preserve">
+    <value>Bot token updated successfully. Redeploying bot...</value>
+  </data>
+  <data name="custom-bot-update-token-note" xml:space="preserve">
+    <value>Your token is encrypted and stored securely. The bot will be restarted with the new token.</value>
+  </data>
+  <data name="custom-bot-update-token-validating" xml:space="preserve">
+    <value>Validating...</value>
+  </data>
+  <data name="custom-bot-presets" xml:space="preserve">
+    <value>Presets</value>
+  </data>
+  <data name="custom-bot-presets-save" xml:space="preserve">
+    <value>Save as New Preset</value>
+  </data>
+  <data name="custom-bot-presets-save-title" xml:space="preserve">
+    <value>Save Current Settings as Preset</value>
+  </data>
+  <data name="custom-bot-presets-name-label" xml:space="preserve">
+    <value>Preset Name</value>
+  </data>
+  <data name="custom-bot-presets-name-placeholder" xml:space="preserve">
+    <value>e.g. My Main Config</value>
+  </data>
+  <data name="custom-bot-presets-empty" xml:space="preserve">
+    <value>No presets saved yet. Save your current bot settings as a preset to quickly apply them to any of your bots.</value>
+  </data>
+  <data name="custom-bot-presets-max" xml:space="preserve">
+    <value>Maximum of 3 presets reached. Delete an existing preset to save a new one.</value>
+  </data>
+  <data name="custom-bot-presets-overwrite-title" xml:space="preserve">
+    <value>Overwrite Preset?</value>
+  </data>
+  <data name="custom-bot-presets-overwrite-body" xml:space="preserve">
+    <value>This will replace all saved values in ":data" with the current bot settings. This cannot be undone.</value>
+  </data>
+  <data name="custom-bot-presets-apply-title" xml:space="preserve">
+    <value>Apply Preset to Bot?</value>
+  </data>
+  <data name="custom-bot-presets-apply-body" xml:space="preserve">
+    <value>This will overwrite all current bot settings with the values from ":data". Review the preview below before confirming.</value>
+  </data>
+  <data name="custom-bot-presets-delete-title" xml:space="preserve">
+    <value>Delete Preset?</value>
+  </data>
+  <data name="custom-bot-presets-delete-body" xml:space="preserve">
+    <value>Are you sure you want to delete ":data"? This cannot be undone.</value>
+  </data>
+  <data name="custom-bot-presets-last-modified" xml:space="preserve">
+    <value>Last modified</value>
+  </data>
+  <data name="custom-bot-presets-apply-btn" xml:space="preserve">
+    <value>Apply to Bot</value>
+  </data>
+  <data name="custom-bot-presets-overwrite-btn" xml:space="preserve">
+    <value>Overwrite with Current</value>
+  </data>
+  <data name="custom-bot-presets-confirm-apply" xml:space="preserve">
+    <value>Yes, Apply</value>
+  </data>
+  <data name="custom-bot-presets-confirm-overwrite" xml:space="preserve">
+    <value>Yes, Overwrite</value>
+  </data>
+  <data name="custom-bot-presets-confirm-delete" xml:space="preserve">
+    <value>Yes, Delete</value>
+  </data>
+  <data name="custom-bot-presets-preview-title" xml:space="preserve">
+    <value>Settings Preview</value>
   </data>
 </root>
