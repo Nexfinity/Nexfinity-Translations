@@ -616,10 +616,10 @@
     <value>Позиція</value>
   </data>
   <data name="roleinfo_ishoisted" xml:space="preserve">
-    <value>IsHoisted?</value>
+    <value>Підвищена?</value>
   </data>
   <data name="roleinfo_ismanaged" xml:space="preserve">
-    <value>IsManaged?</value>
+    <value>Керована?</value>
   </data>
   <data name="roleinfo_ismentionable" xml:space="preserve">
     <value>Чи можливо згадувати?</value>
@@ -761,6 +761,9 @@
   </data>
   <data name="music_volume_3" xml:space="preserve">
     <value>Гучність успішно встановлено: `{0}`</value>
+  </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Гучність за замовчуванням успішно встановлена на: `{0}`</value>
   </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}] ({1}) [{2}] було пропущено.</value>
@@ -1389,7 +1392,7 @@
     <value>Приєднуйтесь до етеру тут: https://www.twitch.tv/{0}</value>
   </data>
   <data name="twitch_feed" xml:space="preserve">
-    <value>Twitch Feed</value>
+    <value>Потік Twitch</value>
   </data>
   <data name="reddit_feed" xml:space="preserve">
     <value>Стрічка Reddit</value>
@@ -1422,10 +1425,10 @@
     <value>Час автоматичного архівування:</value>
   </data>
   <data name="thread_private" xml:space="preserve">
-    <value>IsPrivate?</value>
+    <value>Приватна?</value>
   </data>
   <data name="thread_locked" xml:space="preserve">
-    <value>IsLocked?</value>
+    <value>Заблокована?</value>
   </data>
   <data name="thread_name" xml:space="preserve">
     <value>Ім'я нитки:</value>
@@ -1443,13 +1446,13 @@
     <value>Сценічне ім'я:</value>
   </data>
   <data name="stage_discoverable" xml:space="preserve">
-    <value>IsDiscoverable?</value>
+    <value>Придатна для виявлення?</value>
   </data>
   <data name="stage_privacy" xml:space="preserve">
     <value>Рівень конфіденційності:</value>
   </data>
   <data name="stage_live" xml:space="preserve">
-    <value>IsLive?</value>
+    <value>Живе мовлення?</value>
   </data>
   <data name="stage_speaker_count" xml:space="preserve">
     <value>Кількість спікерів:</value>
@@ -1623,7 +1626,7 @@
     <value>Назва пісні містить слово з чорного списку, встановленого адміністраторами сервера.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>Через політику Discord YouTube більше не підтримується. Ви все ще можете використовувати необроблені запити, як-от `epic music`, або відтворювати музику з одного з наших багатьох інших [підтримуваних джерел](https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>Через політику Discord YouTube більше не підтримується. Ви все ще можете використовувати необроблені запити, як-от `epic music`, або відтворювати музику з одного з наших багатьох інших [підтримуваних джерел](https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>Час очікування минув {0}. Термін дії закінчується &lt;t:{1}:R&gt;.</value>
@@ -1958,6 +1961,9 @@
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>Не вдалося розібрати вказану дату.</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Це недійсний часовий пояс. Використовуйте ідентифікатор IANA, наприклад `America/New_York` або `Europe/London`.</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>Повідомлення повинно мати текстовий вміст для аналізу.</value>
@@ -2484,15 +2490,6 @@
   <data name="role_invalid" xml:space="preserve">
     <value>Недійсна роль</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Доступна автоматична роль успішно видалена.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>Успішно додано `{0}` як автоматичну роль.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>Роль вже існує як автоматична роль.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Недійсний користувач.</value>
   </data>
@@ -2612,6 +2609,21 @@
   </data>
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Потік успішно створено.</value>
+  </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Позначено як дублікат: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>На розгляді у: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Вам потрібне право «Керування сервером» або «Адміністратор», щоб приймати рішення щодо пропозицій.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>Не вдалося знайти цю пропозицію. Перевірте посилання на повідомлення або ID і спробуйте ще раз.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>Цей сервер ще не налаштував канал для пропозицій. Адміністратору потрібно налаштувати його на панелі керування, перш ніж можна буде створювати пропозиції - див. {0} для інструкцій із налаштування.</value>
   </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>Передача грошей між користувачами був вимкнена адміністраторами сервера.</value>
@@ -3120,7 +3132,7 @@
     <value>Ban Sync | Користувач розбанений</value>
   </data>
   <data name="auditlog_leveling" xml:space="preserve">
-    <value>Leveling</value>
+    <value>Рівні</value>
   </data>
   <data name="leveling_title" xml:space="preserve">
     <value>Підняття рівня!</value>
@@ -3135,7 +3147,7 @@
     <value>Новий Cheer!</value>
   </data>
   <data name="twitch_feed_title" xml:space="preserve">
-    <value>{0} | Twitch Alerts</value>
+    <value>{0} | Сповіщення Twitch</value>
   </data>
   <data name="twitch_follower_title" xml:space="preserve">
     <value>Новий підписник!</value>
@@ -3210,7 +3222,7 @@
     <value>Рівень:</value>
   </data>
   <data name="twitch_sub_gift" xml:space="preserve">
-    <value>IsGift?</value>
+    <value>Подарунок?</value>
   </data>
   <data name="twitch_sub_title" xml:space="preserve">
     <value>Нова підписка</value>
@@ -3252,7 +3264,7 @@
     <value>Мета досягнута | </value>
   </data>
   <data name="twitch_goal_achieved" xml:space="preserve">
-    <value>IsAchieved:</value>
+    <value>Досягнута:</value>
   </data>
   <data name="twitch_hype_title" xml:space="preserve">
     <value>Новий HypeTrain</value>
@@ -3393,7 +3405,7 @@
     <value>Команда Видалення Ролі</value>
   </data>
   <data name="ai_error_title" xml:space="preserve">
-    <value>Core | AI Chat Bot</value>
+    <value>Ядро | Чат-бот AI</value>
   </data>
   <data name="ai_invalid_key" xml:space="preserve">
     <value>Помилка: Невірний API ключ. Ви можете знайти свій API ключ на https://platform.openai.com/account/api-keys.</value>
@@ -3435,7 +3447,7 @@
     <value>Ви можете публікувати тільки {0} у цьому каналі.</value>
   </data>
   <data name="github_issue" xml:space="preserve">
-    <value>Issue #{0} | {1}</value>
+    <value>Проблема #{0} | {1}</value>
   </data>
   <data name="github_state" xml:space="preserve">
     <value>Статус:</value>
@@ -3465,7 +3477,7 @@
     <value>Коментарі рецензії:</value>
   </data>
   <data name="github_pr" xml:space="preserve">
-    <value>Pull Request #{0} | {1}</value>
+    <value>Запит на злиття #{0} | {1}</value>
   </data>
   <data name="github_commits" xml:space="preserve">
     <value>Комміти:</value>
@@ -3603,9 +3615,6 @@
   <data name="automod_sus_join" xml:space="preserve">
     <value>Підозріле приєднання</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Ви досягли максимальної кількості саморолей ({0}).</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Embed успішно згенерований.</value>
   </data>
@@ -3680,6 +3689,30 @@
   </data>
   <data name="selfrole_title_list" xml:space="preserve">
     <value>Самороль | Список</value>
+  </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>Наступні ролі було видалено через обмеження групи ролей: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Унікальна</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Множинний вибір, до {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>потребує @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>потребує рівня {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>Вам потрібна роль {0} ({1}), щоб отримати роль із групи '{2}'.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>Потрібна роль групи '{0}' більше не існує. Адміністратор має встановити нову потрібну роль (або видалити вимогу), перш ніж хтось зможе отримати роль із цієї групи.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>Ви маєте бути рівня {0}+, щоб отримати роль із групи '{1}'.</value>
   </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Музика | Черга</value>
@@ -3838,7 +3871,7 @@
     <value>Misc | Google |</value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
-    <value>Misc | Wiki</value>
+    <value>Різне | Вікі</value>
   </data>
   <data name="misc_title_image" xml:space="preserve">
     <value>Misc | Image |</value>
@@ -4024,7 +4057,7 @@
     <value>фільтр `timescale` вимкнено</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_Timescale" xml:space="preserve">
-    <value>Timescale</value>
+    <value>Часова шкала</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_enable" xml:space="preserve">
     <value>увімкнено користувацький фільтр `timescale`</value>
@@ -4036,7 +4069,7 @@
     <value>фільтр `tremolo` вимкнено</value>
   </data>
   <data name="FilterCommand_TremoloAsync_Tremolo" xml:space="preserve">
-    <value>Tremolo</value>
+    <value>Тремоло</value>
   </data>
   <data name="FilterCommand_TremoloAsync_enable" xml:space="preserve">
     <value>увімкнено користувацький фільтр `tremolo`</value>
@@ -4048,7 +4081,7 @@
     <value>фільтр `vibrato` вимкнено</value>
   </data>
   <data name="FilterCommand_VibratoAsync_Vibrato" xml:space="preserve">
-    <value>Vibrato</value>
+    <value>Вібрато</value>
   </data>
   <data name="FilterCommand_VibratoAsync_enable" xml:space="preserve">
     <value>увімкнено користувацький фільтр `vibrato`</value>
@@ -4060,7 +4093,7 @@
     <value>фільтр `channel mix` вимкнено</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_Channel_Mix" xml:space="preserve">
-    <value>Channel Mix</value>
+    <value>Мікс каналів</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_enable" xml:space="preserve">
     <value>увімкнено користувацький фільтр `channel mix`</value>
@@ -4072,7 +4105,7 @@
     <value>фільтр `echo` вимкнено</value>
   </data>
   <data name="FilterCommand_EchoAsync_Echo" xml:space="preserve">
-    <value>Echo</value>
+    <value>Луна</value>
   </data>
   <data name="FilterCommand_EchoAsync_enable" xml:space="preserve">
     <value>увімкнено користувацький фільтр `echo`</value>
@@ -4451,10 +4484,10 @@
     <value>Немає дійсних користувачів для відображення в таблиці лідерів.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_missing_some_users__downloading_pelase_wait___" xml:space="preserve">
-    <value>Cache missing some users, downloading pelase wait...</value>
+    <value>Кеш не містить деяких користувачів, завантажуємо, будь ласка, чекайте...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_download_complete__continuing___" xml:space="preserve">
-    <value>Cache download complete, continuing...</value>
+    <value>Завантаження кешу завершено, продовжуємо...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_" xml:space="preserve">
     <value>Знайдено `{0}` користувачів з підсиленням.
@@ -4485,7 +4518,10 @@
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>Повідомлення не існує в цьому каналі.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>Обговорення {0}</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} дня!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
@@ -4616,30 +4652,117 @@
     <value>Ліміт користувачів:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Bitrate" xml:space="preserve">
-    <value>Bitrate:</value>
+    <value>Бітрейт:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Video_Stream_Quality" xml:space="preserve">
-    <value>Video Stream Quality:</value>
+    <value>Якість відеопотоку:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_RTC_Region" xml:space="preserve">
-    <value>RTC Region:</value>
+    <value>RTC Регіон:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Permissions_Changed" xml:space="preserve">
-    <value>Permissions Changed:</value>
+    <value>Дозволи змінені:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Slow_Mode_Interval" xml:space="preserve">
-    <value>Slow Mode Interval:</value>
+    <value>Інтервал повільного режиму:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Thread_Creation_Interval" xml:space="preserve">
-    <value>Thread Creation Interval:</value>
+    <value>Інтервал створення теми:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Sort_Order" xml:space="preserve">
-    <value>Sort Order:</value>
+    <value>Порядок сортування:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Default_Layout" xml:space="preserve">
-    <value>Default Layout:</value>
+    <value>Макет за замовчуванням:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
-    <value>Reaction Emoji:</value>
+    <value>Emoji реакції:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Honey Pot спрацював</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## НЕ НАДСИЛАЙТЕ ПОВІДОМЛЕННЯ В ЦЕЙ КАНАЛ
+Цей канал використовується для ловлі спам-ботів. Будь-які повідомлення, відправлені сюди, призведуть до **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Тригери: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: Honey pot канал спрацював</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 година)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>вигнання</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>м'яка блокування</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>блокування</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Вкладення:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>Гра в рахунок ще не налаштована на цьому сервері.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>Статус Гри в Рахунок</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Поточний Рахунок:** {0}
+**Наступне Число:** {1}
+**Наразі Утримує:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Поки що ніхто — стань першим, хто порахує!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Статистика Гри в Рахунок</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Найвищий Досягнутий Рахунок:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Твоя Роль за Порушення</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>На цьому сервері не налаштована роль за порушення рахунку.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Наразі в тебе немає ролі за порушення рахунку.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Наразі в тебе є {0} за порушення рахунку. Це призначення **постійне**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Наразі в тебе є {0} за порушення рахунку. Її буде знято {1}.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Роль за Порушення Рахунку</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>Роль за порушення не налаштована — порушення рахунку наразі не має жодних рольових наслідків на цьому сервері.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Порушення рахунку призначає {0}. Це призначення **постійне**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Порушення рахунку призначає {0} на **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} хвилин</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} годин</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} днів</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Панель #{0}</value>
   </data>
 </root>

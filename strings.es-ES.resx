@@ -762,6 +762,9 @@
   <data name="music_volume_3" xml:space="preserve">
     <value>Volumen establecido con éxito a: `{0}`</value>
   </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Volumen predeterminado establecido correctamente a: `{0}`</value>
+  </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] se ha omitido.</value>
   </data>
@@ -1280,7 +1283,7 @@ Si estás buscando una lista de comandos de bot y cómo funcionan, haz clic en e
     <value>Spoilers</value>
   </data>
   <data name="automod_check_stickers" xml:space="preserve">
-    <value>Stickers</value>
+    <value>Pegatinas</value>
   </data>
   <data name="automod_check_duplicate_char" xml:space="preserve">
     <value>Caracteres duplicados</value>
@@ -1623,7 +1626,7 @@ Nota: Requiere acceso a \"Gestionar Servidor\".</value>
     <value>El título de la canción contiene una palabra en la lista negra establecida por los administradores del servidor.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube ya no es una fuente soportada debido a la política de Discord. Puedes seguir utilizando consultas sin formato como `epic music` o reproducir música de una de nuestras muchas otras [fuentes compatibles](https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>YouTube ya no es una fuente soportada debido a la política de Discord. Puedes seguir utilizando consultas sin formato como `epic music` o reproducir música de una de nuestras muchas otras [fuentes compatibles](https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>{0} fue expulsado temporalmente. Expira el &lt;t:{1}:R&gt;.</value>
@@ -1959,11 +1962,14 @@ Nota: Requiere acceso a \"Gestionar Servidor\".</value>
   <data name="birthday_invalid" xml:space="preserve">
     <value>No se pudo analizar la fecha proporcionada.</value>
   </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Esa no es una zona horaria válida. Usa un identificador IANA, p. ej. `America/New_York` o `Europe/London`.</value>
+  </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>El mensaje debe tener contenido de texto para analizar.</value>
   </data>
   <data name="auto_ban_title" xml:space="preserve">
-    <value>Auto Ban: </value>
+    <value>Auto Ban:</value>
   </data>
   <data name="auto_ban_invite" xml:space="preserve">
     <value>Invitación de usuario</value>
@@ -2485,15 +2491,6 @@ Nota: Se enviará un mensaje cuando se complete.</value>
   <data name="role_invalid" xml:space="preserve">
     <value>Rol inválido</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Rol de autoasignación eliminado exitosamente.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>`{0}` añadido exitosamente como un rol de autoasignación.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>El rol ya existe como un rol de autoasignación.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Usuario inválido.</value>
   </data>
@@ -2613,6 +2610,21 @@ Por favor, haz clic en el botón de abajo para verificar tu cuenta antes de pode
   </data>
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Hilo creado exitosamente.</value>
+  </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Marcado como duplicado por: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>En revisión por: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Necesitas el permiso Gestionar servidor o Administrador para decidir sobre las sugerencias.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>No se pudo encontrar esa sugerencia. Comprueba el enlace del mensaje o el ID e inténtalo de nuevo.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>Este servidor aún no ha configurado un canal de sugerencias. Un administrador debe configurar uno en el panel antes de que se puedan crear sugerencias - consulta {0} para ver las instrucciones de configuración.</value>
   </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>Las transferencias de dinero entre usuarios han sido deshabilitadas por los administradores del servidor.</value>
@@ -3621,9 +3633,6 @@ Expira: &lt;t:{0}:R&gt;</value>
   <data name="automod_sus_join" xml:space="preserve">
     <value>Ingreso sospechoso</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Has alcanzado el número máximo de roles autoasignados ({0}).</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Embed generado con éxito.</value>
   </data>
@@ -3655,7 +3664,7 @@ Expira: &lt;t:{0}:R&gt;</value>
     <value>Música | Información</value>
   </data>
   <data name="emote_title" xml:space="preserve">
-    <value>Top 10 Emotes</value>
+    <value>Top 10 Emojis</value>
   </data>
   <data name="achievement_title_progress" xml:space="preserve">
     <value>Logro | Progreso del usuario</value>
@@ -3688,7 +3697,7 @@ Expira: &lt;t:{0}:R&gt;</value>
     <value>```{0} usos```</value>
   </data>
   <data name="emote_stats_emotes" xml:space="preserve">
-    <value>```{0} emotes```</value>
+    <value>```{0} emojis```</value>
   </data>
   <data name="emote_stats_uses_per" xml:space="preserve">
     <value>```{0} usos por emote```</value>
@@ -3698,6 +3707,30 @@ Expira: &lt;t:{0}:R&gt;</value>
   </data>
   <data name="selfrole_title_list" xml:space="preserve">
     <value>Rol autoasignado | Lista</value>
+  </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>Se eliminaron los siguientes roles debido a un límite de grupo de roles: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Único</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Selección múltiple, hasta {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>requiere @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>requiere nivel {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>Necesitas el rol {0} ({1}) para obtener un rol del grupo '{2}'.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>El rol requerido del grupo '{0}' ya no existe. Un administrador debe establecer un nuevo rol requerido (o eliminar el requisito) antes de que alguien pueda obtener un rol de este grupo.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>Debes ser nivel {0}+ para obtener un rol del grupo '{1}'.</value>
   </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Música | Cola</value>
@@ -3760,7 +3793,7 @@ Expira: &lt;t:{0}:R&gt;</value>
     <value>Documentación</value>
   </data>
   <data name="CoreCommands_HelpAsync_FAQ" xml:space="preserve">
-    <value>FAQ</value>
+    <value>Preguntas frecuentes</value>
   </data>
   <data name="CoreCommands_HelpAsync_Music_Usage" xml:space="preserve">
     <value>Uso de música</value>
@@ -3838,7 +3871,7 @@ Expira: &lt;t:{0}:R&gt;</value>
     <value>{0} Eventos</value>
   </data>
   <data name="core_stats_stickers" xml:space="preserve">
-    <value>{0} Stickers</value>
+    <value>{0} Pegatinas</value>
   </data>
   <data name="core_stats_core_channels" xml:space="preserve">
     <value>{0} Canales totales</value>
@@ -3925,7 +3958,7 @@ Expira: &lt;t:{0}:R&gt;</value>
     <value>Varios | XKCD | </value>
   </data>
   <data name="SearchCommand_Search_ID__" xml:space="preserve">
-    <value>ID: </value>
+    <value>ID:</value>
   </data>
   <data name="SearchCommand_Search_Episodes" xml:space="preserve">
     <value>Episodios</value>
@@ -3937,7 +3970,7 @@ Expira: &lt;t:{0}:R&gt;</value>
     <value>Resultados totales: {0} • Tiempo de búsqueda: {1}</value>
   </data>
   <data name="ContributorButton_Contributors_Staff_" xml:space="preserve">
-    <value>Staff:</value>
+    <value>Personal:</value>
   </data>
   <data name="ContributorButton_Contributors_Former_Developers_" xml:space="preserve">
     <value>Ex desarrolladores:</value>
@@ -4006,7 +4039,7 @@ Expira: &lt;t:{0}:R&gt;</value>
     <value>Varios | Anime</value>
   </data>
   <data name="StickerCommand_DownloadAsync_Sticker____0_" xml:space="preserve">
-    <value>Sticker | {0}</value>
+    <value>Pegatina | {0}</value>
   </data>
   <data name="FilterCommand_DistortionAsync_" xml:space="preserve">
     <value>Desactivó el filtro `distorsión`</value>
@@ -4054,7 +4087,7 @@ Expira: &lt;t:{0}:R&gt;</value>
     <value>Desactivó el filtro `tremolo`</value>
   </data>
   <data name="FilterCommand_TremoloAsync_Tremolo" xml:space="preserve">
-    <value>Tremolo</value>
+    <value>Trémolo</value>
   </data>
   <data name="FilterCommand_TremoloAsync_enable" xml:space="preserve">
     <value>Activó el filtro personalizado `tremolo`</value>
@@ -4502,7 +4535,10 @@ Expira: &lt;t:{0}:R&gt;</value>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>El mensaje no existe en este canal.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>Discusión de {0}</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} del día!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
@@ -4658,5 +4694,92 @@ Expira: &lt;t:{0}:R&gt;</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>Emoji de reacción:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Honey Pot Activado</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## NO ENVÍES MENSAJES EN ESTE CANAL
+Este canal se utiliza para detectar bots de spam. Cualquier mensaje enviado aquí resultará en un **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Activadores: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: Canal honey pot activado</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>silenciamiento (1 hora)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>expulsión</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>prohibición temporal</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>prohibición</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Adjuntos:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>El juego de contar aún no se ha configurado en este servidor.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>Estado del Juego de Contar</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Cuenta Actual:** {0}
+**Siguiente Número:** {1}
+**Actualmente en Manos de:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Nadie todavía — ¡sé el primero en contar!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Estadísticas del Juego de Contar</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Cuenta Más Alta Alcanzada:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Tu Rol de Ruptura</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>Este servidor no tiene un rol de ruptura configurado para el juego de contar.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Actualmente no tienes el rol de ruptura del juego de contar.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Actualmente tienes {0} por romper la cuenta. Esta asignación es **permanente**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Actualmente tienes {0} por romper la cuenta. Se eliminará {1}.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Rol de Ruptura del Juego de Contar</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>No hay ningún rol de ruptura configurado — romper la cuenta actualmente no tiene ninguna consecuencia de rol en este servidor.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Romper la cuenta asigna {0}. Esta asignación es **permanente**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Romper la cuenta asigna {0} durante **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} minutos</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} horas</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} días</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Panel #{0}</value>
   </data>
 </root>

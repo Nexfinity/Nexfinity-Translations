@@ -762,6 +762,9 @@
   <data name="music_volume_3" xml:space="preserve">
     <value>Birim başarıyla ayarlandı: `{0}`</value>
   </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Varsayılan ses seviyesi başarıyla şu şekilde ayarlandı: `{0}`</value>
+  </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] atlandı.</value>
   </data>
@@ -1325,7 +1328,7 @@ Eğer komutların listesini veya nasıl çalıştıklarını arıyorsan, aşağ�
     <value>Zaten bir oyun devam ediyor, yeni bir oyun açmadan önce eskisini tamamlayın.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
-    <value>Tic Tac Toe</value>
+    <value>XOX</value>
   </data>
   <data name="game_player_1" xml:space="preserve">
     <value>Oyuncu 1</value>
@@ -1623,7 +1626,7 @@ Not: \"Sunucuyu Yönet\" erişimi gerektirir.</value>
     <value>Şarkı başlığı, sunucu yöneticileri tarafından belirlenen kara listeye alınmış bir kelime içeriyor.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube, Discord politikası nedeniyle artık desteklenen bir kaynak değildir. Hala `epik müzik` gibi ham sorguları kullanabilir veya diğer birçok [desteklenen kaynağımızdan] (https://wiki.cakey.bot/music/supported-sources) birinden müzik çalabilirsiniz.</value>
+    <value>YouTube, Discord politikası nedeniyle artık desteklenen bir kaynak değildir. Hala `epik müzik` gibi ham sorguları kullanabilir veya diğer birçok [desteklenen kaynağımızdan] (https://wiki.cakey.bot/en/music/supported-sources) birinden müzik çalabilirsiniz.</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>Zaman aşımına uğradı {0}. Süresi doldu &lt;t:{1}:R&gt;.</value>
@@ -1958,6 +1961,9 @@ Not: \"Sunucuyu Yönet\" erişimi gerektirir.</value>
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>Sağlanan tarih ayrıştırılamıyor.</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Bu geçerli bir saat dilimi değil. `America/New_York` veya `Europe/London` gibi bir IANA tanımlayıcısı kullanın.</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>Analiz için mesajın metin içeriğine sahip olması gerekir.</value>
@@ -2484,15 +2490,6 @@ Not: Tamamlanma sırasında bir mesaj gönderilecektir.</value>
   <data name="role_invalid" xml:space="preserve">
     <value>Geçersiz Rol</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Mevcut kendi kendine rol başarıyla kaldırıldı.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>`{0}` kendi kendine rol olarak başarıyla eklendi.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>Rol zaten bir kendi kendine rol olarak mevcut.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Geçersiz kullanıcı.</value>
   </data>
@@ -2613,6 +2610,21 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Thread başarıyla oluşturuldu.</value>
   </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Şu kişi tarafından yinelenen olarak işaretlendi: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>Şu kişi tarafından inceleniyor: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Öneriler hakkında karar vermek için Sunucuyu Yönet veya Yönetici iznine ihtiyacınız var.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>Bu öneri bulunamadı. Mesaj bağlantısını veya kimliğini kontrol edip tekrar deneyin.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>Bu sunucu henüz bir öneri kanalı ayarlamadı. Öneriler oluşturulabilmesi için bir yöneticinin panelde bir kanal yapılandırması gerekir - kurulum talimatları için {0} adresine bakın.</value>
+  </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>Kullanıcılar arasında para transferi sunucu yöneticileri tarafından devre dışı bırakılmıştır.</value>
   </data>
@@ -2703,10 +2715,10 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>Gerekli zaman dilimi içinde mesaj göndermediğiniz için seriniz 1'e sıfırlandı. Etkilenen sunucu: `{0}` ({1})</value>
   </data>
   <data name="generic_opt_out" xml:space="preserve">
-    <value>Opt-Out</value>
+    <value>Çıkış Yap</value>
   </data>
   <data name="generic_opt_in" xml:space="preserve">
-    <value>Opt-In</value>
+    <value>Katıl</value>
   </data>
   <data name="error_ephemeral" xml:space="preserve">
     <value>Bu işlem geçici bir mesajda yapılamaz.</value>
@@ -3393,7 +3405,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>Rol Kaldırma Komutu</value>
   </data>
   <data name="ai_error_title" xml:space="preserve">
-    <value>Core | AI Chat Bot</value>
+    <value>Çekirdek | AI Sohbet Botu</value>
   </data>
   <data name="ai_invalid_key" xml:space="preserve">
     <value>Hata: Geçersiz API anahtarı. API anahtarınızı https://platform.openai.com/account/api-keys adresinde bulabilirsiniz.</value>
@@ -3435,7 +3447,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>Bu kanala yalnızca {0} gönderebilirsiniz.</value>
   </data>
   <data name="github_issue" xml:space="preserve">
-    <value>Issue #{0} | {1}</value>
+    <value>Sorun #{0} | {1}</value>
   </data>
   <data name="github_state" xml:space="preserve">
     <value>Durum:</value>
@@ -3603,9 +3615,6 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
   <data name="automod_sus_join" xml:space="preserve">
     <value>Şüpheli Katılım</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Maksimum kişisel rol sayısına ({0}) ulaştınız.</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Embed başarıyla oluşturuldu.</value>
   </data>
@@ -3681,6 +3690,30 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
   <data name="selfrole_title_list" xml:space="preserve">
     <value>Kişisel Rol | Liste</value>
   </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>Aşağıdaki rol(ler) bir rol grubu sınırı nedeniyle kaldırıldı: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Benzersiz</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Çoklu seçim, en fazla {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>@{0} gerektirir</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>Seviye {0}+ gerektirir</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>'{2}' grubundan bir rol almak için {0} ({1}) rolüne ihtiyacınız var.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>'{0}' grubunun gereken rolü artık mevcut değil. Bir yönetici, herhangi biri bu gruptan rol alabilmeden önce yeni bir gereken rol belirlemeli (veya gereksinimi kaldırmalı).</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>'{1}' grubundan bir rol almak için Seviye {0}+ olmalısınız.</value>
+  </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Müzik | Sıra</value>
   </data>
@@ -3709,7 +3742,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>`low pass` filtresi devre dışı bırakıldı</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
-    <value>Low Pass</value>
+    <value>Alçak Geçiş</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
     <value>özel `low pass` filtresi etkinleştirildi</value>
@@ -3718,7 +3751,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>`Karaoke` filtresini başarıyla temizledi.</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>Distorsiyon</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
     <value>Duyuru Kurulumu</value>
@@ -3835,10 +3868,10 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>Core | Bot Komutları</value>
   </data>
   <data name="misc_title_google" xml:space="preserve">
-    <value>Misc | Google | </value>
+    <value>Çeşitli | Google | </value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
-    <value>Misc | Wiki</value>
+    <value>Çeşitli | Wiki</value>
   </data>
   <data name="misc_title_image" xml:space="preserve">
     <value>Misc | Resim | </value>
@@ -3907,7 +3940,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>Çeşitli | XKCD | </value>
   </data>
   <data name="SearchCommand_Search_ID__" xml:space="preserve">
-    <value>ID: </value>
+    <value>ID:</value>
   </data>
   <data name="SearchCommand_Search_Episodes" xml:space="preserve">
     <value>Bölümler</value>
@@ -4012,7 +4045,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>`rotation` filtresi devre dışı bırakıldı</value>
   </data>
   <data name="FilterCommand_RotationAsync_Rotation" xml:space="preserve">
-    <value>Rotation</value>
+    <value>Döndürme</value>
   </data>
   <data name="FilterCommand_RotationAsync_enable" xml:space="preserve">
     <value>özel `rotation` filtresi etkinleştirildi</value>
@@ -4024,7 +4057,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>`timescale` filtresi devre dışı bırakıldı</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_Timescale" xml:space="preserve">
-    <value>Timescale</value>
+    <value>Zaman Ölçeği</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_enable" xml:space="preserve">
     <value>özel `timescale` filtresi etkinleştirildi</value>
@@ -4060,7 +4093,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>`channel mix` filtresi devre dışı bırakıldı</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_Channel_Mix" xml:space="preserve">
-    <value>Channel Mix</value>
+    <value>Kanal Karması</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_enable" xml:space="preserve">
     <value>özel `channel mix` filtresi etkinleştirildi</value>
@@ -4072,7 +4105,7 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>`echo` filtresi devre dışı bırakıldı</value>
   </data>
   <data name="FilterCommand_EchoAsync_Echo" xml:space="preserve">
-    <value>Echo</value>
+    <value>Yankı</value>
   </data>
   <data name="FilterCommand_EchoAsync_enable" xml:space="preserve">
     <value>özel `echo` filtresi etkinleştirildi</value>
@@ -4084,55 +4117,55 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>tüm filtreler devre dışı bırakıldı</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phishing" xml:space="preserve">
-    <value>AutoMod - Phishing</value>
+    <value>AutoMod - Kimlik Avı</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Sticker_Spam" xml:space="preserve">
-    <value>AutoMod - Sticker Spam</value>
+    <value>AutoMod - Çıkartma Spamı</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Spoiler_Spam" xml:space="preserve">
-    <value>AutoMod - Spoiler Spam</value>
+    <value>AutoMod - Spoiler Spamı</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Zalgo_Text" xml:space="preserve">
-    <value>AutoMod - Zalgo Text</value>
+    <value>AutoMod - Zalgo Metni</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Capitalization" xml:space="preserve">
-    <value>AutoMod - Mass Capitalization</value>
+    <value>AutoMod - Toplu Büyük Harf</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Discord_Invites" xml:space="preserve">
-    <value>AutoMod - Discord Invites</value>
+    <value>AutoMod - Discord Davetleri</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Duplicate_Words" xml:space="preserve">
-    <value>AutoMod - Duplicate Words</value>
+    <value>AutoMod - Yinelenen Kelimeler</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Mentions" xml:space="preserve">
-    <value>AutoMod - Mass Mentions</value>
+    <value>AutoMod - Toplu Etiketler</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Emoji" xml:space="preserve">
-    <value>AutoMod - Mass Emoji</value>
+    <value>AutoMod - Toplu Emoji</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Duplicate_Characters" xml:space="preserve">
-    <value>AutoMod - Duplicate Characters</value>
+    <value>AutoMod - Yinelenen Karakterler</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Website_URLs" xml:space="preserve">
-    <value>AutoMod - Website URLs</value>
+    <value>AutoMod - Web Sitesi URL'leri</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phone_Number" xml:space="preserve">
-    <value>AutoMod - Phone Number</value>
+    <value>AutoMod - Telefon Numarası</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Markdown_Headers" xml:space="preserve">
-    <value>AutoMod - Markdown Headers</value>
+    <value>AutoMod - Markdown Başlıkları</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Blacklisted_File_Extension" xml:space="preserve">
-    <value>AutoMod - Blacklisted File Extension</value>
+    <value>AutoMod - Kara Listeye Alınan Dosya Uzantısı</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Unknown_Reason" xml:space="preserve">
-    <value>AutoMod - Unknown Reason</value>
+    <value>AutoMod - Bilinmeyen Neden</value>
   </data>
   <data name="AutoModService_CheckMessageContent__0__Your_message_was_deleted_for_containing_a_phone_number_" xml:space="preserve">
     <value>{0} Mesajınız bir telefon numarası içerdiği için silindi.</value>
   </data>
   <data name="AutoModService_CheckMessageContent_Phone_Number" xml:space="preserve">
-    <value>Phone Number</value>
+    <value>Telefon Numarası</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Warn_User" xml:space="preserve">
     <value>Sil &amp; Kullanıcıyı Uyar</value>
@@ -4165,155 +4198,155 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>{0} ve {1} parçaları değiştirildi</value>
   </data>
   <data name="SortQueueCommand_TitleAsync_" xml:space="preserve">
-    <value>sorted the queue by `Title - {0}`</value>
+    <value>kuyruk `Başlık - {0}` göre sıralandı</value>
   </data>
   <data name="SortQueueCommand_AuthorAsync_" xml:space="preserve">
-    <value>sorted the queue by `Author - {0}`</value>
+    <value>kuyruk `Yazar - {0}` göre sıralandı</value>
   </data>
   <data name="SortQueueCommand_LengthAsync_" xml:space="preserve">
-    <value>sorted the queue by `Length - {0}`</value>
+    <value>kuyruk `Uzunluk - {0}` göre sıralandı</value>
   </data>
   <data name="SortQueueCommand_ReverseAsync_" xml:space="preserve">
-    <value>sorted the queue by `Reverse`</value>
+    <value>kuyruk `Ters` göre sıralandı</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_Invalid_index_" xml:space="preserve">
-    <value>Invalid index.</value>
+    <value>Geçersiz indeks.</value>
   </data>
   <data name="RemoveCommand_FirstAsync_" xml:space="preserve">
-    <value>removed `first` track from queue</value>
+    <value>kuyruktan `ilk` parçayı kaldırdı</value>
   </data>
   <data name="RemoveCommand_LastAsync_" xml:space="preserve">
-    <value>removed `last` track from queue</value>
+    <value>kuyruktan `son` parçayı kaldırdı</value>
   </data>
   <data name="RemoveCommand_SingleAsync_" xml:space="preserve">
-    <value>removed `{0}` track from queue</value>
+    <value>`{0}` parçası kuyruktan kaldırıldı</value>
   </data>
   <data name="RemoveCommand_RangeAsync_" xml:space="preserve">
-    <value>removed `{0}`-`{1}` from queue</value>
+    <value>`{0}`-`{1}` kuyruktan kaldırıldı</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_" xml:space="preserve">
-    <value>removed `duplicate` tracks from queue</value>
+    <value>`duplicate` parçaları kuyruktan kaldırıldı</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_" xml:space="preserve">
-    <value>removed `userleft` tracks from queue</value>
+    <value>`userleft` parçaları kuyruktan kaldırıldı</value>
   </data>
   <data name="RemoveCommand_UserAsync_" xml:space="preserve">
-    <value>removed `{0}`'s tracks from queue</value>
+    <value>`{0}`'ın parçaları kuyruktan kaldırıldı</value>
   </data>
   <data name="RemoveCommand_KeywordAsync_" xml:space="preserve">
-    <value>removed `keyword: {0}` tracks from queue</value>
+    <value>`keyword: {0}` parçaları kuyruktan kaldırıldı</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_" xml:space="preserve">
-    <value>enabled `{0}` filter</value>
+    <value>`{0}` filtresi etkinleştirildi</value>
   </data>
   <data name="MusicCommands_ResumeAsync_resumed_playback" xml:space="preserve">
-    <value>resumed playback</value>
+    <value>oynatma devam ettirildi</value>
   </data>
   <data name="MusicCommands_PauseAsync_paused_playback" xml:space="preserve">
-    <value>paused playback</value>
+    <value>oynatma duraklatıldı</value>
   </data>
   <data name="MusicCommands_SkipAsync_" xml:space="preserve">
-    <value>skipped `{0}` tracks</value>
+    <value>`{0}` parçası atlandı</value>
   </data>
   <data name="MusicCommands_JumpTo_" xml:space="preserve">
-    <value>jumped to `{0}` in queue</value>
+    <value>sıraya `{0}` konumuna atladı</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_" xml:space="preserve">
-    <value>set eqpreset to `{0}`</value>
+    <value>eşitleyici ön ayarı `{0}` olarak ayarlandı</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_cleared_the_queue" xml:space="preserve">
-    <value>cleared the queue</value>
+    <value>sıra temizlendi</value>
   </data>
   <data name="MusicCommands_RestartAsync_restarted_current_track" xml:space="preserve">
-    <value>restarted current track</value>
+    <value>geçerli parça yeniden başlatıldı</value>
   </data>
   <data name="MusicCommands_SeekAsync_" xml:space="preserve">
-    <value>seeked track to `{0}`</value>
+    <value>parça `{0}` konumuna alındı</value>
   </data>
   <data name="MusicCommands_RewindAsync_" xml:space="preserve">
-    <value>rewinded track by `{0}`</value>
+    <value>parça `{0}` kadar geri sarıldı</value>
   </data>
   <data name="MusicCommands_EqualizerAsync_updated_custom_equalizer" xml:space="preserve">
-    <value>updated custom equalizer</value>
+    <value>özel eşitleyici güncellendi</value>
   </data>
   <data name="UtilityCommands_Math_Misc___Math" xml:space="preserve">
-    <value>Misc | Math</value>
+    <value>Çeşitli | Matematik</value>
   </data>
   <data name="MusicCommands_Volume_Music___Volume" xml:space="preserve">
-    <value>Music | Volume</value>
+    <value>Müzik | Ses Seviyesi</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Saved_by__0_" xml:space="preserve">
-    <value>Saved by {0}</value>
+    <value>{0} tarafından kaydedildi</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Created_by__0_" xml:space="preserve">
-    <value>Created by {0}</value>
+    <value>{0} tarafından oluşturuldu</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Added_by__0_" xml:space="preserve">
-    <value>Added by {0}</value>
+    <value>{0} tarafından eklendi</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Deleted_by__0_" xml:space="preserve">
-    <value>Deleted by {0}</value>
+    <value>{0} tarafından silindi</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Renamed_by__0_" xml:space="preserve">
-    <value>Renamed by {0}</value>
+    <value>{0} tarafından yeniden adlandırıldı</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Loaded_by__0_" xml:space="preserve">
-    <value>Loaded by {0}</value>
+    <value>{0} tarafından yüklendi</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Music___Playlist_Delete" xml:space="preserve">
-    <value>Music | Playlist Delete</value>
+    <value>Müzik | Çalma Listesi Sil</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Music___Playlist_Rename" xml:space="preserve">
-    <value>Music | Playlist Rename</value>
+    <value>Müzik | Çalma Listesi Yeniden Adlandır</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Music___Playlist_Load" xml:space="preserve">
-    <value>Music | Playlist Load</value>
+    <value>Müzik | Çalma Listesi Yükle</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Music___Playlist_Create" xml:space="preserve">
-    <value>Music | Playlist Create</value>
+    <value>Müzik | Çalma Listesi Oluştur</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Music___Playlist_Add" xml:space="preserve">
-    <value>Music | Playlist Add</value>
+    <value>Müzik | Çalma Listesi Ekle</value>
   </data>
   <data name="SongRequestButtons_SongRequestFF_Music___Fast_Forward" xml:space="preserve">
-    <value>Music | Fast Forward</value>
+    <value>Müzik | Hızlı İleri Sar</value>
   </data>
   <data name="EconomyCommand_ItemInfo_Economy___Item_Information" xml:space="preserve">
-    <value>Economy | Item Information</value>
+    <value>Ekonomi | Ürün Bilgileri</value>
   </data>
   <data name="TagsCommand_InfoTag_Tags___Info" xml:space="preserve">
-    <value>Tags | Info</value>
+    <value>Etiketler | Bilgi</value>
   </data>
   <data name="TagsCommand_InfoTag_Content_" xml:space="preserve">
-    <value>Content:</value>
+    <value>İçerik:</value>
   </data>
   <data name="TagsCommand_InfoTag_Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkinleştirildi</value>
   </data>
   <data name="TagsCommand_RawTag_" xml:space="preserve">
-    <value>RAW Tag:
+    <value>HAM Etiket:
 ```{0}```</value>
   </data>
   <data name="MiscCommands_Fact_Misc___Fact" xml:space="preserve">
-    <value>Misc | Fact</value>
+    <value>Çeşitli | İlginç Bilgi</value>
   </data>
   <data name="GameCommands_DiceAsync_Games___Dice" xml:space="preserve">
-    <value>Games | Dice</value>
+    <value>Oyunlar | Zar</value>
   </data>
   <data name="GameCommands_RpsAsync_Games___Rock__Paper__Scissors" xml:space="preserve">
-    <value>Games | Rock, Paper, Scissors</value>
+    <value>Oyunlar | Taş, Kağıt, Makas</value>
   </data>
   <data name="GameCommands_BallAsync_Games___8Ball" xml:space="preserve">
-    <value>Games | 8Ball</value>
+    <value>Oyunlar | 8Ball</value>
   </data>
   <data name="MiscCommands_AnimeQuote_Misc___Anime_Quote" xml:space="preserve">
-    <value>Misc | Anime Quote</value>
+    <value>Çeşitli | Anime Sözü</value>
   </data>
   <data name="SearchCommand_Search_Misc___Manga" xml:space="preserve">
-    <value>Misc | Manga</value>
+    <value>Çeşitli | Manga</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_Music___Remove_Duplicates" xml:space="preserve">
-    <value>Music | Remove Duplicates</value>
+    <value>Müzik | Çoğaltmaları Kaldır</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_Music___Leave_Cleanup" xml:space="preserve">
     <value>Müzik | Ayrılış Temizliği</value>
@@ -4451,10 +4484,10 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>Sıralamada gösterilecek geçerli kullanıcı yok.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_missing_some_users__downloading_pelase_wait___" xml:space="preserve">
-    <value>Cache missing some users, downloading pelase wait...</value>
+    <value>Önbellekte bazı kullanıcılar eksik, indiriliyor lütfen bekleyiniz...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_download_complete__continuing___" xml:space="preserve">
-    <value>Cache download complete, continuing...</value>
+    <value>Önbellek indirmesi tamamlandı, devam ediliyor...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_" xml:space="preserve">
     <value>`{0}` destekleyen kullanıcı bulundu.</value>
@@ -4483,7 +4516,10 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>İleti bu kanalda mevcut değil.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>{0} Tartışması</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} Günün!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
@@ -4614,13 +4650,13 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
     <value>Kullanıcı Limiti:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Bitrate" xml:space="preserve">
-    <value>Bitrate:</value>
+    <value>Bit Hızı:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Video_Stream_Quality" xml:space="preserve">
-    <value>Video Stream Quality:</value>
+    <value>Video Akışı Kalitesi:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_RTC_Region" xml:space="preserve">
-    <value>RTC Region:</value>
+    <value>RTC Bölgesi:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Permissions_Changed" xml:space="preserve">
     <value>İzinler Değiştirildi:</value>
@@ -4639,5 +4675,92 @@ Sunucuya erişebilmek için lütfen aşağıdaki düğmeye tıklayarak hesabın�
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>Reaksiyon Emojisi:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Honey Pot Tetiklendi</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## BU KANALDA MESAJ GÖNDERMEYIN
+Bu kanal spam botları yakalamak için kullanılır. Buraya gönderilen herhangi bir mesaj **{0}** ile sonuçlanacaktır.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Tetikleyiciler: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod - Honey pot kanalı tetiklendi</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 saat)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>atma</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>geçici yasaklama</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>yasaklama</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Ekler:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>Sayma oyunu bu sunucuda henüz kurulmadı.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>Sayma Oyunu Durumu</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Mevcut Sayı:** {0}
+**Sonraki Sayı:** {1}
+**Şu Anda Tutan:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Henüz kimse yok — saymaya ilk başlayan sen ol!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Sayma Oyunu İstatistikleri</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Şimdiye Kadar Ulaşılan En Yüksek Sayı:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Ceza Rolün</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>Bu sunucuda sayma oyunu için yapılandırılmış bir ceza rolü yok.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Şu anda sayma oyununun ceza rolüne sahip değilsin.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Sayımı bozduğun için şu anda {0} rolüne sahipsin. Bu atama **kalıcıdır**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Sayımı bozduğun için şu anda {0} rolüne sahipsin. {1} kaldırılacak.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Sayma Oyunu Ceza Rolü</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>Yapılandırılmış bir ceza rolü yok — sayımı bozmanın bu sunucuda şu anda hiçbir rol sonucu yok.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Sayımı bozmak {0} rolünü atar. Bu atama **kalıcıdır**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Sayımı bozmak {0} rolünü **{1}** süreyle atar.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} dakika</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} saat</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} gün</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Panel #{0}</value>
   </data>
 </root>

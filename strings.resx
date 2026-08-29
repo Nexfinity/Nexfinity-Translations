@@ -687,6 +687,9 @@
 	<data name="music_error_player" xml:space="preserve">
     <value>Player doesn't exist, please type `/play` again.</value>
   </data>
+	<data name="music_error_lavalink_starting" xml:space="preserve">
+    <value>The music service is still starting up. Please try again in a few moments.</value>
+  </data>
 	<data name="music_error_timespan" xml:space="preserve">
     <value>Timespan of queue is too long. Please clear songs from the queue before adding more.</value>
   </data>
@@ -761,6 +764,9 @@
   </data>
 	<data name="music_volume_3" xml:space="preserve">
     <value>Volume successfully set to: `{0}`</value>
+  </data>
+	<data name="music_default_volume_3" xml:space="preserve">
+    <value>Default volume successfully set to: `{0}`</value>
   </data>
 	<data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] has been skipped.</value>
@@ -1623,7 +1629,7 @@ Note: Requires \"Manage Server\" access.</value>
     <value>Song title contains a blacklisted word set by the server admins.</value>
   </data>
 	<data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube is no longer a supported source due to Discord policy. You can still use raw queries like `epic music` or play music from one of our many other [supported sources](https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>YouTube is no longer a supported source due to Discord policy. You can still use raw queries like `epic music` or play music from one of our many other [supported sources](https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
 	<data name="timeout_success" xml:space="preserve">
     <value>Timed out {0}. Expires &lt;t:{1}:R&gt;.</value>
@@ -1754,6 +1760,12 @@ Note: Requires \"Manage Server\" access.</value>
   </data>
 	<data name="birthday_role" xml:space="preserve">
     <value>Successfully updated birthday auto role to &lt;@&amp;{0}&gt;.</value>
+  </data>
+	<data name="birthday_list_title" xml:space="preserve">
+    <value>{0} Birthdays</value>
+  </data>
+	<data name="birthday_list_entry" xml:space="preserve">
+    <value>**{0}** - {1}</value>
   </data>
 	<data name="core_purchase_premium" xml:space="preserve">
     <value>Purchase Premium</value>
@@ -1959,6 +1971,9 @@ Note: Requires \"Manage Server\" access.</value>
 	<data name="birthday_invalid" xml:space="preserve">
     <value>Unable to parse the provided date.</value>
   </data>
+	<data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>That's not a valid timezone. Use an IANA identifier, e.g. `America/New_York` or `Europe/London`.</value>
+  </data>
 	<data name="analyze_text_error" xml:space="preserve">
     <value>Message must have text content to analyze.</value>
   </data>
@@ -2077,6 +2092,12 @@ You can do this by pressing one of the numbered buttons on this message.
   </data>
 	<data name="xp_import_success" xml:space="preserve">
     <value>Successfully imported leveling data. You can view your leaderboard by clicking the button below.</value>
+  </data>
+	<data name="xp_import_missing_file" xml:space="preserve">
+    <value>This import method requires an export file to be attached. Please attach the exported JSON file and try again.</value>
+  </data>
+	<data name="xp_import_error_file" xml:space="preserve">
+    <value>Failed to import leveling data from the attached file. Make sure it's a valid, unmodified export file.</value>
   </data>
 	<data name="xp_export_success" xml:space="preserve">
 	  <value>Successfully exported Cakey Bot leveling data. You can view them in the attached text file.</value>
@@ -2406,6 +2427,9 @@ Note: A message will be sent upon completion.</value>
 	<data name="music_bot_premium_only" xml:space="preserve">
     <value>The additional music bots can only be used in premium servers.</value>
   </data>
+	<data name="error_bot_not_in_guild" xml:space="preserve">
+    <value>This command isn't available here because Cakey Bot isn't in this server. Try using it in a server where the bot is installed.</value>
+  </data>
 	<data name="report_finished" xml:space="preserve">
     <value>Marked Finished</value>
   </data>
@@ -2484,15 +2508,6 @@ Wow! That's only a 0.02% chance of happening!</value>
   </data>
 	<data name="role_invalid" xml:space="preserve">
 	  <value>Invalid Role</value>
-  </data>
-	<data name="core_sr_removed_1" xml:space="preserve">
-	  <value>Successfully removed available self role.</value>
-  </data>
-	<data name="core_sr_added_2" xml:space="preserve">
-	  <value>Successfully added `{0}` as a self role.</value>
-  </data>
-	<data name="core_sr_added_1" xml:space="preserve">
-	  <value>Role already exists as a self role.</value>
   </data>
 	<data name="error_invalid_user_generic" xml:space="preserve">
 	  <value>Invalid user.</value>
@@ -2613,6 +2628,21 @@ Please click the button below to verify your account before you can access the s
   </data>
 	<data name="games_suggestion_discuss_success" xml:space="preserve">
 	  <value>Successfully created the thread.</value>
+  </data>
+	<data name="games_suggestion_duplicate_by" xml:space="preserve">
+	  <value>Marked as duplicate by: {0}</value>
+  </data>
+	<data name="games_suggestion_underreview_by" xml:space="preserve">
+	  <value>Under review by: {0}</value>
+  </data>
+	<data name="suggestion_error_not_staff" xml:space="preserve">
+	  <value>You need Manage Server or Administrator permission to decide on suggestions.</value>
+  </data>
+	<data name="suggestion_error_message_not_found" xml:space="preserve">
+	  <value>Couldn't find that suggestion. Check the message link or ID and try again.</value>
+  </data>
+	<data name="suggestion_error_channel_not_configured" xml:space="preserve">
+	  <value>This server hasn't set up a suggestion channel yet. An admin needs to configure one in the dashboard before suggestions can be created - see {0} for setup instructions.</value>
   </data>
 	<data name="economy_transfers_disabled" xml:space="preserve">
 	  <value>Money transfers between users has been disabled by the server admins.</value>
@@ -3148,6 +3178,9 @@ If you cash out now, you’ll win: **{3}**</value>
 	<data name="audit_reason_tempban" xml:space="preserve">
 	  <value>Remove Temp Ban</value>
   </data>
+	<data name="audit_forum_auto_unarchive" xml:space="preserve">
+	  <value>Forum Auto-Unarchive</value>
+  </data>
 	<data name="generic_anonymous" xml:space="preserve">
 	  <value>Anonymous</value>
   </data>
@@ -3628,9 +3661,6 @@ Expires: &lt;t:{0}:R&gt;</value>
 	<data name="automod_sus_join" xml:space="preserve">
 	  <value>Suspicious Join</value>
   </data>
-	<data name="core_sr_error_max" xml:space="preserve">
-	  <value>You have reached the maximum number of self roles ({0}).</value>
-  </data>
 	<data name="selfrole_embed_success" xml:space="preserve">
 		<value>Successfully generated embed.</value>
 	</data>
@@ -3705,6 +3735,30 @@ Expires: &lt;t:{0}:R&gt;</value>
 	</data>
 	<data name="selfrole_title_list" xml:space="preserve">
 		<value>Self Role | List</value>
+	</data>
+	<data name="selfrole_group_role_removed" xml:space="preserve">
+		<value>Removed the following role(s) due to a role group limit: {0}</value>
+	</data>
+	<data name="selfrole_list_group_unique" xml:space="preserve">
+		<value>Unique</value>
+	</data>
+	<data name="selfrole_list_group_multi" xml:space="preserve">
+		<value>Multi-select, up to {0}</value>
+	</data>
+	<data name="selfrole_list_group_requires_role" xml:space="preserve">
+		<value>requires @{0}</value>
+	</data>
+	<data name="selfrole_list_group_requires_level" xml:space="preserve">
+		<value>requires Level {0}+</value>
+	</data>
+	<data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+		<value>You need the {0} ({1}) role to claim a role from the '{2}' group.</value>
+	</data>
+	<data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+		<value>The '{0}' group's required role no longer exists. An admin needs to set a new required role (or remove the requirement) before anyone can claim a role from this group.</value>
+	</data>
+	<data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+		<value>You need to be Level {0}+ to claim a role from the '{1}' group.</value>
 	</data>
 	<data name="music_title_queue" xml:space="preserve">
 		<value>Music | Queue</value>
@@ -4509,6 +4563,9 @@ Expires: &lt;t:{0}:R&gt;</value>
 	<data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
 		<value>Message does not exist in this channel.</value>
 	</data>
+		<data name="daily_content_thread_name" xml:space="preserve">
+		<value>{0} Discussion</value>
+	</data>
 	<data name="daily_content_of_the_day" xml:space="preserve">
 		<value>{0} of the Day!</value>
 	</data>
@@ -4694,4 +4751,81 @@ This channel is used to catch spam bots. Any messages sent here will result in a
 	<data name="honeypot_log_attachments" xml:space="preserve">
 		<value>Attachments:</value>
 	</data>
+	<data name="honeypot_log_channel_missing_access" xml:space="preserve">
+		<value>Cakey Bot no longer has permission to post in the honeypot log channel #{1} configured in **{0}**. Trap triggers are still being punished, but they aren't being logged. Missing permission(s): **{2}**. Please grant the bot those permissions in that channel or reconfigure the honeypot log channel.</value>
+	</data>
+	<data name="audit_counting_fail_role" xml:space="preserve">
+		<value>Counting Game Fail Role</value>
+	</data>
+	<data name="counting_error_wrong_number" xml:space="preserve">
+		<value>❌ Wrong count! The count has been reset to **1**. Highest streak ever reached: **{0}**.</value>
+	</data>
+	<data name="counting_error_wrong_number_no_reset" xml:space="preserve">
+		<value>❌ Wrong count! The count was not reset — the next number is still **{0}**. Highest streak ever reached: **{1}**.</value>
+	</data>
+	<data name="counting_error_same_user" xml:space="preserve">
+		<value>❌ You can't count twice in a row! The count has been reset to **1**. Highest streak ever reached: **{0}**.</value>
+	</data>
+	<data name="counting_error_same_user_no_reset" xml:space="preserve">
+		<value>❌ You can't count twice in a row! The count was not reset — the next number is still **{0}**. Highest streak ever reached: **{1}**.</value>
+	</data>
+	<data name="counting_game_not_configured" xml:space="preserve">
+		<value>The counting game hasn't been set up on this server yet.</value>
+	</data>
+	<data name="counting_status_title" xml:space="preserve">
+		<value>Counting Game Status</value>
+	</data>
+	<data name="counting_status_description" xml:space="preserve">
+		<value>**Current Count:** {0}
+**Next Number:** {1}
+**Currently Held By:** {2}</value>
+	</data>
+	<data name="counting_status_holder_none" xml:space="preserve">
+		<value>*Nobody yet — be the first to count!*</value>
+	</data>
+	<data name="counting_stats_title" xml:space="preserve">
+		<value>Counting Game Stats</value>
+	</data>
+	<data name="counting_stats_description" xml:space="preserve">
+		<value>**Highest Count Ever Reached:** {0}</value>
+	</data>
+	<data name="counting_myrole_title" xml:space="preserve">
+		<value>Your Break Role</value>
+	</data>
+	<data name="counting_myrole_not_configured" xml:space="preserve">
+		<value>This server doesn't have a break role configured for the counting game.</value>
+	</data>
+	<data name="counting_myrole_none" xml:space="preserve">
+		<value>You don't currently hold the counting game's break role.</value>
+	</data>
+	<data name="counting_myrole_permanent" xml:space="preserve">
+		<value>You currently hold {0} for breaking the count. This assignment is **permanent**.</value>
+	</data>
+	<data name="counting_myrole_temporary" xml:space="preserve">
+		<value>You currently hold {0} for breaking the count. It will be removed {1}.</value>
+	</data>
+	<data name="counting_breakrole_title" xml:space="preserve">
+		<value>Counting Game Break Role</value>
+	</data>
+	<data name="counting_breakrole_not_configured" xml:space="preserve">
+		<value>No break role is configured — breaking the count currently has no role consequence on this server.</value>
+	</data>
+	<data name="counting_breakrole_permanent" xml:space="preserve">
+		<value>Breaking the count assigns {0}. This assignment is **permanent**.</value>
+	</data>
+	<data name="counting_breakrole_temporary" xml:space="preserve">
+		<value>Breaking the count assigns {0} for **{1}**.</value>
+	</data>
+	<data name="counting_duration_minutes" xml:space="preserve">
+		<value>{0} minutes</value>
+	</data>
+	<data name="counting_duration_hours" xml:space="preserve">
+		<value>{0} hours</value>
+	</data>
+	<data name="counting_duration_days" xml:space="preserve">
+		<value>{0} days</value>
+	</data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Panel #{0}</value>
+  </data>
 </root>

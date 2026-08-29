@@ -616,13 +616,13 @@
     <value>ポジション</value>
   </data>
   <data name="roleinfo_ishoisted" xml:space="preserve">
-    <value>IsHoisted?</value>
+    <value>表示専用?</value>
   </data>
   <data name="roleinfo_ismanaged" xml:space="preserve">
-    <value>IsManaged?</value>
+    <value>管理対象?</value>
   </data>
   <data name="roleinfo_ismentionable" xml:space="preserve">
-    <value>IsMentionable?</value>
+    <value>メンション可能?</value>
   </data>
   <data name="roleinfo_members" xml:space="preserve">
     <value>メンバー紹介 [{0}]</value>
@@ -761,6 +761,9 @@
   </data>
   <data name="music_volume_3" xml:space="preserve">
     <value>ボリュームは正常に設定された：`{0}`</value>
+  </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>デフォルト音量を `{0}` に設定しました</value>
   </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] はスキップされました。</value>
@@ -1420,10 +1423,10 @@
     <value>自動アーカイブ時間：</value>
   </data>
   <data name="thread_private" xml:space="preserve">
-    <value>IsPrivate?</value>
+    <value>非公開?</value>
   </data>
   <data name="thread_locked" xml:space="preserve">
-    <value>IsLocked?</value>
+    <value>ロック済み?</value>
   </data>
   <data name="thread_name" xml:space="preserve">
     <value>スレッド名:</value>
@@ -1441,13 +1444,13 @@
     <value>ステージ名:</value>
   </data>
   <data name="stage_discoverable" xml:space="preserve">
-    <value>IsDiscoverable?</value>
+    <value>検出可能?</value>
   </data>
   <data name="stage_privacy" xml:space="preserve">
     <value>プライバシーレベル:</value>
   </data>
   <data name="stage_live" xml:space="preserve">
-    <value>IsLive?</value>
+    <value>配信中?</value>
   </data>
   <data name="stage_speaker_count" xml:space="preserve">
     <value>スピーカーの数:</value>
@@ -1621,7 +1624,7 @@
     <value>曲名にサーバー管理者が設定したブラックリストに載っている単語が含まれている。</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>Discordのポリシーにより、YouTubeはサポート対象外となりました。`epic music`のような生のクエリを使用したり、他の多くの[サポートされているソース](https://wiki.cakey.bot/music/supported-sources)から音楽を再生することはできます。</value>
+    <value>Discordのポリシーにより、YouTubeはサポート対象外となりました。`epic music`のような生のクエリを使用したり、他の多くの[サポートされているソース](https://wiki.cakey.bot/en/music/supported-sources)から音楽を再生することはできます。</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>タイムアウト {0}.期限切れ &lt;t:{1}:R&gt;.</value>
@@ -1957,6 +1960,9 @@
   <data name="birthday_invalid" xml:space="preserve">
     <value>指定された日付を解析できません。</value>
   </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>有効なタイムゾーンではありません。`America/New_York` や `Europe/London` のようなIANA識別子を使用してください。</value>
+  </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>メッセージを分析するには、テキストコンテンツが必要です。</value>
   </data>
@@ -2249,34 +2255,34 @@
     <value>ビジネスの副業で今日 {0} を稼ぎました!</value>
   </data>
   <data name="economy_work_success_7" xml:space="preserve">
-    <value>株式投資が報われて {{0}} を稼ぎました!</value>
+    <value>株式投資が報われて {0} を稼ぎました!</value>
   </data>
   <data name="economy_work_success_8" xml:space="preserve">
     <value>古いコートのポケットから {0} を見つけました!</value>
   </data>
   <data name="economy_work_success_9" xml:space="preserve">
-    <value>オフィスの抽選で {0}} を勝ちました!</value>
+    <value>オフィスの抽選で {0} を勝ちました!</value>
   </data>
   <data name="economy_work_success_10" xml:space="preserve">
-    <value>隣人の子供の面倒を見て {{0}} を稼ぎました!</value>
+    <value>隣人の子供の面倒を見て {0} を稼ぎました!</value>
   </data>
   <data name="economy_work_success_11" xml:space="preserve">
-    <value>チュータリング報酬で {{0}} を稼ぎました!</value>
+    <value>チュータリング報酬で {0} を稼ぎました!</value>
   </data>
   <data name="economy_work_success_12" xml:space="preserve">
-    <value>壁画を描いて {{0}} の報酬をもらいました!</value>
+    <value>壁画を描いて {0} の報酬をもらいました!</value>
   </data>
   <data name="economy_work_success_13" xml:space="preserve">
-    <value>記事を書いて {{0}} を稼ぎました!</value>
+    <value>記事を書いて {0} を稼ぎました!</value>
   </data>
   <data name="economy_work_success_14" xml:space="preserve">
-    <value>誰かのラップトップを修理して {{0}} を稼ぎました!</value>
+    <value>誰かのラップトップを修理して {0} を稼ぎました!</value>
   </data>
   <data name="economy_work_success_15" xml:space="preserve">
-    <value>パートで食事配達をして {{0}} を稼ぎました!</value>
+    <value>パートで食事配達をして {0} を稼ぎました!</value>
   </data>
   <data name="economy_work_success_16" xml:space="preserve">
-    <value>返金チェック {{0}} を受け取りました!</value>
+    <value>返金チェック {0} を受け取りました!</value>
   </data>
   <data name="economy_beg_fail" xml:space="preserve">
     <value>お金をもらうことさえできませんでした。:(</value>
@@ -2482,15 +2488,6 @@
   <data name="role_invalid" xml:space="preserve">
     <value>無効なロール</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>利用可能なセルフロールを正常に削除しました。</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>`{0}` をセルフロールとして正常に追加しました。</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>このロールはすでにセルフロールとして存在しています。</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>無効なユーザーです。</value>
   </data>
@@ -2610,6 +2607,21 @@
   </data>
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>スレッドを正常に作成しました。</value>
+  </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>重複としてマーク: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>検討中: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>提案を決定するには、サーバー管理権限または管理者権限が必要です。</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>その提案が見つかりませんでした。メッセージリンクまたはIDを確認してもう一度お試しください。</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>このサーバーにはまだ提案チャンネルが設定されていません。提案を作成できるようにするには、管理者がダッシュボードでチャンネルを設定する必要があります。設定手順については{0}を参照してください。</value>
   </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>ユーザー間の送金はサーバー管理者によって無効化されています。</value>
@@ -2965,7 +2977,7 @@
     <value>バンを取り消す</value>
   </data>
   <data name="generic_audit_mod" xml:space="preserve">
-    <value> / Mod: {0}</value>
+    <value> / モデレーター: {0}</value>
   </data>
   <data name="warnings_title" xml:space="preserve">
     <value>モデレーション | 警告 | 合計: {0}</value>
@@ -3391,7 +3403,7 @@
     <value>ロールコマンドを削除</value>
   </data>
   <data name="ai_error_title" xml:space="preserve">
-    <value>Core | AI Chat Bot</value>
+    <value>Core | AIチャットボット</value>
   </data>
   <data name="ai_invalid_key" xml:space="preserve">
     <value>エラー: 無効なAPIキー。APIキーは https://platform.openai.com/account/api-keys で確認できます。</value>
@@ -3433,7 +3445,7 @@
     <value>このチャンネルには{0}のみ投稿できます。</value>
   </data>
   <data name="github_issue" xml:space="preserve">
-    <value>Issue #{0} | {1}</value>
+    <value>イシュー #{0} | {1}</value>
   </data>
   <data name="github_state" xml:space="preserve">
     <value>状態:</value>
@@ -3463,7 +3475,7 @@
     <value>レビューコメント:</value>
   </data>
   <data name="github_pr" xml:space="preserve">
-    <value>Pull Request #{0} | {1}</value>
+    <value>プルリクエスト #{0} | {1}</value>
   </data>
   <data name="github_commits" xml:space="preserve">
     <value>コミット:</value>
@@ -3490,7 +3502,7 @@
     <value>マージ者:</value>
   </data>
   <data name="generic_false" xml:space="preserve">
-    <value>False</value>
+    <value>偽</value>
   </data>
   <data name="github_merged" xml:space="preserve">
     <value> (マージ済み)</value>
@@ -3601,9 +3613,6 @@
   <data name="automod_sus_join" xml:space="preserve">
     <value>疑わしい参加</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>セルフロールの最大数 ({0}) に達しました。</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>エンベッドの生成に成功しました。</value>
   </data>
@@ -3679,6 +3688,30 @@
   <data name="selfrole_title_list" xml:space="preserve">
     <value>セルフロール | リスト</value>
   </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>ロールグループの上限により、次のロールが削除されました: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>ユニーク</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>複数選択可、最大{0}個</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>@{0} が必要</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>レベル{0}+が必要</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>グループ '{2}' のロールを取得するには {0} ({1}) ロールが必要です。</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>グループ '{0}' の必要ロールはもう存在しません。誰かがこのグループからロールを取得できるようになる前に、管理者が新しい必要ロールを設定する(または前提条件を削除する)必要があります。</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>グループ '{1}' のロールを取得するにはレベル{0}+である必要があります。</value>
+  </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>ミュージック | キュー</value>
   </data>
@@ -3707,7 +3740,7 @@
     <value>`low pass` フィルターを無効化しました</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
-    <value>Low Pass</value>
+    <value>ローパス</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
     <value>カスタム `low pass` フィルターを有効化しました</value>
@@ -3716,7 +3749,7 @@
     <value>`Karaoke` フィルターを正常にクリアしました。</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>ディストーション</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
     <value>アナウンスメント設定</value>
@@ -4130,154 +4163,154 @@
     <value>{0} 電話番号を含んでいるため、メッセージが削除されました。</value>
   </data>
   <data name="AutoModService_CheckMessageContent_Phone_Number" xml:space="preserve">
-    <value>Phone Number</value>
+    <value>電話番号</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Warn_User" xml:space="preserve">
-    <value>Delete &amp; Warn User</value>
+    <value>削除してユーザーに警告</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick_User" xml:space="preserve">
-    <value>Delete Message &amp; Kick User</value>
+    <value>メッセージを削除してユーザーをキック</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick___Warn_User" xml:space="preserve">
-    <value>Delete Message &amp; Kick + Warn User</value>
+    <value>メッセージを削除してキック+警告</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Ban_User__Delete_24h_" xml:space="preserve">
-    <value>Ban User (Delete 24h)</value>
+    <value>ユーザーをBAN(24時間分削除)</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Timeout_User__1h_" xml:space="preserve">
-    <value>Delete &amp; Timeout User (1h)</value>
+    <value>削除してユーザーをタイムアウト(1時間)</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_" xml:space="preserve">
-    <value>enqueued `{0}` tracks</value>
+    <value>`{0}` 曲をキューに追加しました</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_one" xml:space="preserve">
-    <value>enqueued `1` track</value>
+    <value>`1` 曲をキューに追加しました</value>
   </data>
   <data name="music_ff_time" xml:space="preserve">
-    <value>fast forwarded track by `{0}` seconds</value>
+    <value>トラックを `{0}` 秒早送りしました</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_" xml:space="preserve">
-    <value>added `{0}` tracks to queue</value>
+    <value>`{0}` 曲をキューに追加しました</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_swapped_track__0__and__1_" xml:space="preserve">
-    <value>swapped track {0} and {1}</value>
+    <value>トラック {0} と {1} を入れ替えました</value>
   </data>
   <data name="SortQueueCommand_TitleAsync_" xml:space="preserve">
-    <value>sorted the queue by `Title - {0}`</value>
+    <value>キューを `タイトル - {0}` で並び替えました</value>
   </data>
   <data name="SortQueueCommand_AuthorAsync_" xml:space="preserve">
-    <value>sorted the queue by `Author - {0}`</value>
+    <value>キューを `作成者 - {0}` で並び替えました</value>
   </data>
   <data name="SortQueueCommand_LengthAsync_" xml:space="preserve">
-    <value>sorted the queue by `Length - {0}`</value>
+    <value>キューを `長さ - {0}` で並び替えました</value>
   </data>
   <data name="SortQueueCommand_ReverseAsync_" xml:space="preserve">
-    <value>sorted the queue by `Reverse`</value>
+    <value>キューを `逆順` で並び替えました</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_Invalid_index_" xml:space="preserve">
-    <value>Invalid index.</value>
+    <value>無効なインデックスです。</value>
   </data>
   <data name="RemoveCommand_FirstAsync_" xml:space="preserve">
-    <value>removed `first` track from queue</value>
+    <value>キューから `最初の` トラックを削除しました</value>
   </data>
   <data name="RemoveCommand_LastAsync_" xml:space="preserve">
-    <value>removed `last` track from queue</value>
+    <value>キューから `最後の` トラックを削除しました</value>
   </data>
   <data name="RemoveCommand_SingleAsync_" xml:space="preserve">
-    <value>removed `{0}` track from queue</value>
+    <value>キューから `{0}` のトラックを削除しました</value>
   </data>
   <data name="RemoveCommand_RangeAsync_" xml:space="preserve">
-    <value>removed `{0}`-`{1}` from queue</value>
+    <value>キューから `{0}`-`{1}` を削除しました</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_" xml:space="preserve">
-    <value>removed `duplicate` tracks from queue</value>
+    <value>キューから `重複した` トラックを削除しました</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_" xml:space="preserve">
-    <value>removed `userleft` tracks from queue</value>
+    <value>キューから `退出したユーザーの` トラックを削除しました</value>
   </data>
   <data name="RemoveCommand_UserAsync_" xml:space="preserve">
-    <value>removed `{0}`'s tracks from queue</value>
+    <value>キューから `{0}` のトラックを削除しました</value>
   </data>
   <data name="RemoveCommand_KeywordAsync_" xml:space="preserve">
-    <value>removed `keyword: {0}` tracks from queue</value>
+    <value>キューから `キーワード: {0}` のトラックを削除しました</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_" xml:space="preserve">
-    <value>enabled `{0}` filter</value>
+    <value>`{0}` フィルターを有効にしました</value>
   </data>
   <data name="MusicCommands_ResumeAsync_resumed_playback" xml:space="preserve">
-    <value>resumed playback</value>
+    <value>再生を再開しました</value>
   </data>
   <data name="MusicCommands_PauseAsync_paused_playback" xml:space="preserve">
-    <value>paused playback</value>
+    <value>再生を一時停止しました</value>
   </data>
   <data name="MusicCommands_SkipAsync_" xml:space="preserve">
-    <value>skipped `{0}` tracks</value>
+    <value>`{0}` 曲をスキップしました</value>
   </data>
   <data name="MusicCommands_JumpTo_" xml:space="preserve">
-    <value>jumped to `{0}` in queue</value>
+    <value>キューの `{0}` にジャンプしました</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_" xml:space="preserve">
-    <value>set eqpreset to `{0}`</value>
+    <value>イコライザープリセットを `{0}` に設定しました</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_cleared_the_queue" xml:space="preserve">
-    <value>cleared the queue</value>
+    <value>キューをクリアしました</value>
   </data>
   <data name="MusicCommands_RestartAsync_restarted_current_track" xml:space="preserve">
-    <value>restarted current track</value>
+    <value>現在のトラックを再スタートしました</value>
   </data>
   <data name="MusicCommands_SeekAsync_" xml:space="preserve">
-    <value>seeked track to `{0}`</value>
+    <value>トラックを `{0}` にシークしました</value>
   </data>
   <data name="MusicCommands_RewindAsync_" xml:space="preserve">
-    <value>rewinded track by `{0}`</value>
+    <value>トラックを `{0}` 巻き戻しました</value>
   </data>
   <data name="MusicCommands_EqualizerAsync_updated_custom_equalizer" xml:space="preserve">
-    <value>updated custom equalizer</value>
+    <value>カスタムイコライザーを更新しました</value>
   </data>
   <data name="UtilityCommands_Math_Misc___Math" xml:space="preserve">
-    <value>Misc | Math</value>
+    <value>その他 | 数学</value>
   </data>
   <data name="MusicCommands_Volume_Music___Volume" xml:space="preserve">
-    <value>Music | Volume</value>
+    <value>ミュージック | 音量</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Saved_by__0_" xml:space="preserve">
-    <value>Saved by {0}</value>
+    <value>{0} が保存しました</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Created_by__0_" xml:space="preserve">
-    <value>Created by {0}</value>
+    <value>{0} が作成しました</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Added_by__0_" xml:space="preserve">
-    <value>Added by {0}</value>
+    <value>{0} が追加しました</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Deleted_by__0_" xml:space="preserve">
-    <value>Deleted by {0}</value>
+    <value>{0} が削除しました</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Renamed_by__0_" xml:space="preserve">
-    <value>Renamed by {0}</value>
+    <value>{0} が名前変更しました</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Loaded_by__0_" xml:space="preserve">
-    <value>Loaded by {0}</value>
+    <value>{0} が読み込みました</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Music___Playlist_Delete" xml:space="preserve">
-    <value>Music | Playlist Delete</value>
+    <value>ミュージック | プレイリスト削除</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Music___Playlist_Rename" xml:space="preserve">
-    <value>Music | Playlist Rename</value>
+    <value>ミュージック | プレイリスト名前変更</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Music___Playlist_Load" xml:space="preserve">
-    <value>Music | Playlist Load</value>
+    <value>ミュージック | プレイリスト読み込み</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Music___Playlist_Create" xml:space="preserve">
-    <value>Music | Playlist Create</value>
+    <value>ミュージック | プレイリスト作成</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Music___Playlist_Add" xml:space="preserve">
-    <value>Music | Playlist Add</value>
+    <value>ミュージック | プレイリスト追加</value>
   </data>
   <data name="SongRequestButtons_SongRequestFF_Music___Fast_Forward" xml:space="preserve">
-    <value>Music | Fast Forward</value>
+    <value>ミュージック | 早送り</value>
   </data>
   <data name="EconomyCommand_ItemInfo_Economy___Item_Information" xml:space="preserve">
-    <value>Economy | Item Information</value>
+    <value>エコノミー | アイテム情報</value>
   </data>
   <data name="TagsCommand_InfoTag_Tags___Info" xml:space="preserve">
     <value>タグ | 情報</value>
@@ -4431,156 +4464,158 @@
     <value>Imagine エラー | Base64 不足 - 画像生成に失敗しました。</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Unknown_Error" xml:space="preserve">
-    <value>SD Error | Unknown Error</value>
+    <value>SD エラー | 不明なエラー</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_Prompt" xml:space="preserve">
-    <value>SD Error | Invalid Prompt</value>
+    <value>SD エラー | 無効なプロンプト</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Insufficient_balance" xml:space="preserve">
-    <value>SD Error | Insufficient balance</value>
+    <value>SD エラー | 残高不足</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_API_Response" xml:space="preserve">
-    <value>SD Error | Invalid API Response</value>
+    <value>SD エラー | 無効な API レスポンス</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___No_Artifacts___Failed_to_generate_image_" xml:space="preserve">
-    <value>Imagine Error | No Artifacts - Failed to generate image.</value>
+    <value>Imagine エラー | アーティファクトなし - 画像の生成に失敗しました。</value>
   </data>
   <data name="LevelingCommands_Leaderboard_No_valid_users_to_show_on_the_leaderboard_" xml:space="preserve">
-    <value>No valid users to show on the leaderboard.</value>
+    <value>リーダーボードに表示する有効なユーザーがいません。</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_missing_some_users__downloading_pelase_wait___" xml:space="preserve">
-    <value>Cache missing some users, downloading pelase wait...</value>
+    <value>キャッシュにいくつかのユーザーが不足しています。ダウンロード中です。お待ちください...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_download_complete__continuing___" xml:space="preserve">
-    <value>Cache download complete, continuing...</value>
+    <value>キャッシュのダウンロードが完了しました。続行しています...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_" xml:space="preserve">
-    <value>`{0}` boosted users found.
-</value>
+    <value>`{0}` 件のブースト済みユーザーが見つかりました。</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_2" xml:space="preserve">
-    <value>Added `{0}` missing users to the database.</value>
+    <value>データベースに `{0}` 件の不足していたユーザーを追加しました。</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__This_import_method_requires_a_community_export_json_file__Read_more_here__https___xp_bot_net_blog_b1728227181194p" xml:space="preserve">
-    <value>Error: This import method requires a community export json file. Read more here: https://xp-bot.net/blog/b1728227181194p</value>
+    <value>エラー: このインポート方法にはコミュニティエクスポート JSON ファイルが必要です。詳細はこちらをご覧ください: https://xp-bot.net/blog/b1728227181194p</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__Invalid_file_type__must_be_json_" xml:space="preserve">
-    <value>Error: Invalid file type, must be json.</value>
+    <value>エラー: ファイルタイプが無効です。JSON である必要があります。</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__File_is_empty_" xml:space="preserve">
-    <value>Error: File is empty.</value>
+    <value>エラー: ファイルが空です。</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_link_is_invalid_" xml:space="preserve">
-    <value>Message link is invalid.</value>
+    <value>メッセージリンクが無効です。</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_ID_is_invalid_" xml:space="preserve">
-    <value>Message ID is invalid.</value>
+    <value>メッセージ ID が無効です。</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Channel_does_not_exist_in_this_guild_" xml:space="preserve">
-    <value>Channel does not exist in this guild.</value>
+    <value>このサーバーにチャンネルが存在しません。</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
-    <value>Message does not exist in this channel.</value>
+    <value>このチャンネルにメッセージが存在しません。</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
-    <value>{0} of the Day!</value>
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>{0} ディスカッション</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
+    <value>{0} (本日版)!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
-    <value>Time in Channel:</value>
+    <value>チャンネル内時間:</value>
   </data>
   <data name="minefield_cashout_perfect" xml:space="preserve">
-    <value>Perfect! 🎯 You cleared the minefield and earned a doubled reward of {1} from {0} safe tiles!</value>
+    <value>完璧です! 🎯 地雷原をクリアし、{0} 件の安全なタイルから {1} の 2 倍の報酬を獲得しました!</value>
   </data>
   <data name="user_monitored_roles_modified_title" xml:space="preserve">
-    <value>User Monitored Roles Modified</value>
+    <value>ユーザー監視ロール変更</value>
   </data>
   <data name="user_roles_modified_title_monitored" xml:space="preserve">
-    <value>User Monitored Role Modified</value>
+    <value>ユーザー監視ロール変更</value>
   </data>
   <data name="audit_guild_tag" xml:space="preserve">
-    <value>&lt;@{0}&gt;**'s guild tag changed**</value>
+    <value>&lt;@{0}&gt;**のサーバータグが変更されました**</value>
   </data>
   <data name="generic_modify" xml:space="preserve">
-    <value>Modify</value>
+    <value>編集</value>
   </data>
   <data name="giveaway_create" xml:space="preserve">
-    <value>Create Giveaway</value>
+    <value>ギブアウェイを作成</value>
   </data>
   <data name="giveaway_cancel" xml:space="preserve">
-    <value>Cancel Giveaway</value>
+    <value>ギブアウェイをキャンセル</value>
   </data>
   <data name="giveaway_builder_title" xml:space="preserve">
-    <value># Giveaway Builder</value>
+    <value># ギブアウェイビルダー</value>
   </data>
   <data name="generic_value_updated" xml:space="preserve">
-    <value>Successfully updated value.</value>
+    <value>値を正常に更新しました。</value>
   </data>
   <data name="giveaway_image_invalid" xml:space="preserve">
-    <value>Invalid image URL.</value>
+    <value>無効な画像 URL です。</value>
   </data>
   <data name="giveaways_entries" xml:space="preserve">
-    <value>Entries:</value>
+    <value>エントリー:</value>
   </data>
   <data name="giveaway_winners_2" xml:space="preserve">
-    <value>Winners:</value>
+    <value>受賞者:</value>
   </data>
   <data name="giveaway_prize" xml:space="preserve">
-    <value>Prize:</value>
+    <value>賞品:</value>
   </data>
   <data name="giveaway_required_xp" xml:space="preserve">
-    <value>Required XP Level:</value>
+    <value>必要 XP レベル:</value>
   </data>
   <data name="giveaway_required_role" xml:space="preserve">
-    <value>Required Role:</value>
+    <value>必要なロール:</value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_prize" xml:space="preserve">
-    <value>**Prize:** </value>
+    <value>**景品:** </value>
     <comment>DO_NOT_MODIFY</comment>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_description" xml:space="preserve">
-    <value>**Description:** </value>
+    <value>**説明:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_winners" xml:space="preserve">
-    <value>**Winners:** </value>
+    <value>**優勝者:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_duration" xml:space="preserve">
-    <value>**Duration:** </value>
+    <value>**期間:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_image" xml:space="preserve">
-    <value>**Image URL (optional):** </value>
+    <value>**画像URL（オプション）:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_xp_level" xml:space="preserve">
-    <value>**Required XP Level (optional):** </value>
+    <value>**必要XPレベル（オプション）:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_ping_role" xml:space="preserve">
-    <value>**Ping Role (optional):** </value>
+    <value>**ピングロール（オプション）:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_required_role" xml:space="preserve">
-    <value>**Required Role (optional):** </value>
+    <value>**必須ロール（オプション）:** </value>
   </data>
   <data name="giveaway_ping_role" xml:space="preserve">
-    <value>Select a role to ping for the giveaway.</value>
+    <value>ギブアウェイのためにピングするロールを選択してください。</value>
   </data>
   <data name="giveaway_required_role_2" xml:space="preserve">
-    <value>Select a required role for the giveaway.</value>
+    <value>ギブアウェイの必須ロールを選択してください。</value>
   </data>
   <data name="error_missing_section" xml:space="preserve">
-    <value>Could not locate the section.</value>
+    <value>セクションが見つかりませんでした。</value>
   </data>
   <data name="error_exists_role" xml:space="preserve">
-    <value>Role does not exist.</value>
+    <value>ロールが存在しません。</value>
   </data>
   <data name="error_missing_components" xml:space="preserve">
-    <value>Could not locate components.</value>
+    <value>コンポーネントが見つかりませんでした。</value>
   </data>
   <data name="chatbot_limit_reached_premium" xml:space="preserve">
-    <value>You have reached the AI request limit for this server _({0} requests per month)_. You can purchase a custom bot to increase this limit to {1}!</value>
+    <value>このサーバーのAIリクエスト制限に達しました _{0} requests per month_。カスタムボットを購入して、この制限を {1} に増やすことができます!</value>
   </data>
   <data name="core_purchase_custombot" xml:space="preserve">
-    <value>Purchase Custom Bot</value>
+    <value>カスタムボットを購入</value>
   </data>
   <data name="FishingGroup_Inventory_Fishing_Inventory___Stats" xml:space="preserve">
-    <value>Fishing Inventory &amp; Stats</value>
+    <value>釣りインベントリと統計</value>
   </data>
   <data name="BiomeAutocompleteHandler_GenerateSuggestionsAsync_Buy_additional_biomes_with__fishing_list_biomes" xml:space="preserve">
     <value>/fishing list-biomes で追加のバイオームを購入</value>
@@ -4638,5 +4673,92 @@
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>リアクション絵文字:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>ハニーポットがトリガーされました</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## このチャンネルにメッセージを送信しないでください
+このチャンネルはスパムボットを捕捉するために使用されます。ここに送信されたメッセージは **{0}** になります。</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>トリガー: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: ハニーポットチャンネルがトリガーされました</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>タイムアウト (1時間)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>キック</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>ソフトバン</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>バン</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>添付ファイル:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>このサーバーではまだカウンティングゲームが設定されていません。</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>カウンティングゲームの状況</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**現在のカウント:** {0}
+**次の数字:** {1}
+**現在の保持者:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*まだ誰もいません — 最初にカウントしてみましょう！*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>カウンティングゲームの統計</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**これまでの最高カウント:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>あなたのブレイクロール</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>このサーバーにはカウンティングゲームのブレイクロールが設定されていません。</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>あなたは現在カウンティングゲームのブレイクロールを持っていません。</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>カウントを崩したため、現在{0}を保持しています。この付与は**永久的**です。</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>カウントを崩したため、現在{0}を保持しています。{1}に解除されます。</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>カウンティングゲームのブレイクロール</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>ブレイクロールは設定されていません — 現在、カウントを崩してもこのサーバーではロールに関する影響はありません。</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>カウントを崩すと{0}が付与されます。この付与は**永久的**です。</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>カウントを崩すと{0}が**{1}**の間付与されます。</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0}分</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0}時間</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0}日</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>パネル #{0}</value>
   </data>
 </root>

@@ -762,6 +762,9 @@
   <data name="music_volume_3" xml:space="preserve">
     <value>Volume impostato con successo su: `{0}`</value>
   </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Volume predefinito impostato con successo a: `{0}`</value>
+  </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] è stato saltato.</value>
   </data>
@@ -1623,7 +1626,7 @@ Nota: richiede l'accesso a "Gestisci server".</value>
     <value>Il titolo della canzone contiene una parola inserita nella lista nera impostata dagli amministratori del server.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube non è più una fonte supportata a causa della politica di Discord. È comunque possibile utilizzare query grezze come `epic music` o riprodurre musica da una delle nostre numerose altre [fonti supportate] (https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>YouTube non è più una fonte supportata a causa della politica di Discord. È comunque possibile utilizzare query grezze come `epic music` o riprodurre musica da una delle nostre numerose altre [fonti supportate] (https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>Timed out {0}. Scade &lt;t:{1}:R&gt;.</value>
@@ -1959,11 +1962,14 @@ Nota: richiede l'accesso a "Gestisci server".</value>
   <data name="birthday_invalid" xml:space="preserve">
     <value>Impossibile analizzare la data fornita.</value>
   </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Non è un fuso orario valido. Usa un identificatore IANA, ad es. `America/New_York` o `Europe/London`.</value>
+  </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>Il messaggio deve avere un contenuto testuale da analizzare.</value>
   </data>
   <data name="auto_ban_title" xml:space="preserve">
-    <value>Auto Ban: </value>
+    <value>Auto Ban:</value>
   </data>
   <data name="auto_ban_invite" xml:space="preserve">
     <value>Nome utente Invito</value>
@@ -2484,15 +2490,6 @@ Nota: Un messaggio verrà inviato al completamento.</value>
   <data name="role_invalid" xml:space="preserve">
     <value>Ruolo Non Valido</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Ruolo automatico disponibile rimosso con successo.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>Ruolo personalizzato `{0}` aggiunto con successo.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>Il ruolo esiste già come ruolo personalizzato.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Utente non valido.</value>
   </data>
@@ -2613,6 +2610,21 @@ Fai clic sul pulsante sottostante per verificare il tuo account prima di acceder
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Thread creato con successo.</value>
   </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Contrassegnato come duplicato da: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>In revisione da: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Hai bisogno del permesso Gestisci server o Amministratore per decidere sui suggerimenti.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>Impossibile trovare quel suggerimento. Controlla il link del messaggio o l'ID e riprova.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>Questo server non ha ancora configurato un canale dei suggerimenti. Un amministratore deve configurarne uno nella dashboard prima che si possano creare suggerimenti - consulta {0} per le istruzioni di configurazione.</value>
+  </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>I trasferimenti di denaro tra utenti sono stati disabilitati dagli amministratori del server.</value>
   </data>
@@ -2673,7 +2685,7 @@ Fai clic sul pulsante sottostante per verificare il tuo account prima di acceder
     <value>Stato di esclusione attivato/disattivato con successo. Attualmente: `{0}`.</value>
   </data>
   <data name="streaks_top" xml:space="preserve">
-    <value>Top Streaks</value>
+    <value>Streak Migliori</value>
   </data>
   <data name="streaks_current" xml:space="preserve">
     <value>Streak Attuale</value>
@@ -2784,7 +2796,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>`{0}` ({1}) ha autorizzazioni che impediscono l'auto-assegnazione.</value>
   </data>
   <data name="auto_kick_title" xml:space="preserve">
-    <value>Auto Kick:</value>
+    <value>Espulsione Automatica:</value>
   </data>
   <data name="minefield_error_other" xml:space="preserve">
     <value>Questo non è il tuo gioco.</value>
@@ -3393,7 +3405,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Comando Rimuovi Ruolo</value>
   </data>
   <data name="ai_error_title" xml:space="preserve">
-    <value>Core | AI Chat Bot</value>
+    <value>Core | Chat Bot IA</value>
   </data>
   <data name="ai_invalid_key" xml:space="preserve">
     <value>Errore: Chiave API non valida. Puoi trovare la tua chiave API su https://platform.openai.com/account/api-keys.</value>
@@ -3435,7 +3447,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Puoi postare solo {0} in questo canale.</value>
   </data>
   <data name="github_issue" xml:space="preserve">
-    <value>Issue #{0} | {1}</value>
+    <value>Problema #{0} | {1}</value>
   </data>
   <data name="github_state" xml:space="preserve">
     <value>Stato:</value>
@@ -3603,9 +3615,6 @@ Se incassi ora, vincerai: **{3}**</value>
   <data name="automod_sus_join" xml:space="preserve">
     <value>Unione Sospetta</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Hai raggiunto il numero massimo di ruoli automatici ({0}).</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Embed generato con successo.</value>
   </data>
@@ -3681,6 +3690,30 @@ Se incassi ora, vincerai: **{3}**</value>
   <data name="selfrole_title_list" xml:space="preserve">
     <value>Ruolo Automatico | Elenco</value>
   </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>I seguenti ruoli sono stati rimossi a causa di un limite del gruppo di ruoli: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Unico</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Selezione multipla, fino a {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>richiede @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>richiede livello {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>Ti serve il ruolo {0} ({1}) per ottenere un ruolo dal gruppo '{2}'.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>Il ruolo richiesto del gruppo '{0}' non esiste più. Un amministratore deve impostare un nuovo ruolo richiesto (o rimuovere il requisito) prima che chiunque possa ottenere un ruolo da questo gruppo.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>Devi essere almeno livello {0}+ per ottenere un ruolo dal gruppo '{1}'.</value>
+  </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Musica | Coda</value>
   </data>
@@ -3709,7 +3742,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>filtro `low pass` disabilitato</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
-    <value>Low Pass</value>
+    <value>Passa Basso</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
     <value>filtro `low pass` personalizzato abilitato</value>
@@ -3718,7 +3751,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Filtro `Karaoke` cancellato con successo.</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>Distorsione</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
     <value>Configurazione Annunci</value>
@@ -3835,10 +3868,10 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Core | Comandi Bot</value>
   </data>
   <data name="misc_title_google" xml:space="preserve">
-    <value>Misc | Google | </value>
+    <value>Misc | Google |</value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
-    <value>Misc | Wiki</value>
+    <value>Varie | Wiki</value>
   </data>
   <data name="misc_title_image" xml:space="preserve">
     <value>Misc | Immagine | </value>
@@ -3865,7 +3898,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Info | Contributori</value>
   </data>
   <data name="achievement_title" xml:space="preserve">
-    <value>Achievement | </value>
+    <value>Achievement |</value>
   </data>
   <data name="ContributorButton_Contributors_Developers_" xml:space="preserve">
     <value>Sviluppatori:</value>
@@ -3904,10 +3937,10 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Statistiche</value>
   </data>
   <data name="SearchCommand_Search_Misc___XKCD___" xml:space="preserve">
-    <value>Misc | XKCD | </value>
+    <value>Misc | XKCD |</value>
   </data>
   <data name="SearchCommand_Search_ID__" xml:space="preserve">
-    <value>ID: </value>
+    <value>ID:</value>
   </data>
   <data name="SearchCommand_Search_Episodes" xml:space="preserve">
     <value>Episodi</value>
@@ -3985,7 +4018,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Promemoria | Elenco</value>
   </data>
   <data name="SearchCommand_Search_Misc___Anime" xml:space="preserve">
-    <value>Misc | Anime</value>
+    <value>Varie | Anime</value>
   </data>
   <data name="StickerCommand_DownloadAsync_Sticker____0_" xml:space="preserve">
     <value>Sticker | {0}</value>
@@ -4012,7 +4045,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>disabilitato il filtro `rotation`</value>
   </data>
   <data name="FilterCommand_RotationAsync_Rotation" xml:space="preserve">
-    <value>Rotation</value>
+    <value>Rotazione</value>
   </data>
   <data name="FilterCommand_RotationAsync_enable" xml:space="preserve">
     <value>abilitato il filtro `rotation` personalizzato</value>
@@ -4060,7 +4093,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>disabilitato il filtro `channel mix`</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_Channel_Mix" xml:space="preserve">
-    <value>Channel Mix</value>
+    <value>Mixaggio Canali</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_enable" xml:space="preserve">
     <value>abilitato il filtro `channel mix` personalizzato</value>
@@ -4072,7 +4105,7 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>disabilitato il filtro `echo`</value>
   </data>
   <data name="FilterCommand_EchoAsync_Echo" xml:space="preserve">
-    <value>Echo</value>
+    <value>Eco</value>
   </data>
   <data name="FilterCommand_EchoAsync_enable" xml:space="preserve">
     <value>abilitato il filtro `echo` personalizzato</value>
@@ -4150,155 +4183,155 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Elimina e Timeout Utente (1h)</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_" xml:space="preserve">
-    <value>enqueued `{0}` tracks</value>
+    <value>accodati `{0}` brani</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_one" xml:space="preserve">
-    <value>enqueued `1` track</value>
+    <value>accodato `1` brano</value>
   </data>
   <data name="music_ff_time" xml:space="preserve">
-    <value>fast forwarded track by `{0}` seconds</value>
+    <value>brano avanti veloce di `{0}` secondi</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_" xml:space="preserve">
-    <value>added `{0}` tracks to queue</value>
+    <value>aggiunti `{0}` brani alla coda</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_swapped_track__0__and__1_" xml:space="preserve">
-    <value>swapped track {0} and {1}</value>
+    <value>brano scambiato {0} e {1}</value>
   </data>
   <data name="SortQueueCommand_TitleAsync_" xml:space="preserve">
-    <value>sorted the queue by `Title - {0}`</value>
+    <value>coda ordinata per `Titolo - {0}`</value>
   </data>
   <data name="SortQueueCommand_AuthorAsync_" xml:space="preserve">
-    <value>sorted the queue by `Author - {0}`</value>
+    <value>coda ordinata per `Autore - {0}`</value>
   </data>
   <data name="SortQueueCommand_LengthAsync_" xml:space="preserve">
-    <value>sorted the queue by `Length - {0}`</value>
+    <value>coda ordinata per `Durata - {0}`</value>
   </data>
   <data name="SortQueueCommand_ReverseAsync_" xml:space="preserve">
-    <value>sorted the queue by `Reverse`</value>
+    <value>coda ordinata per `Inverti`</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_Invalid_index_" xml:space="preserve">
-    <value>Invalid index.</value>
+    <value>Indice non valido.</value>
   </data>
   <data name="RemoveCommand_FirstAsync_" xml:space="preserve">
-    <value>removed `first` track from queue</value>
+    <value>rimosso il brano `primo` dalla coda</value>
   </data>
   <data name="RemoveCommand_LastAsync_" xml:space="preserve">
-    <value>removed `last` track from queue</value>
+    <value>rimosso il brano `ultimo` dalla coda</value>
   </data>
   <data name="RemoveCommand_SingleAsync_" xml:space="preserve">
-    <value>removed `{0}` track from queue</value>
+    <value>rimosso `{0}` traccia dalla coda</value>
   </data>
   <data name="RemoveCommand_RangeAsync_" xml:space="preserve">
-    <value>removed `{0}`-`{1}` from queue</value>
+    <value>rimosso `{0}`-`{1}` dalla coda</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_" xml:space="preserve">
-    <value>removed `duplicate` tracks from queue</value>
+    <value>rimosso tracce `duplicate` dalla coda</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_" xml:space="preserve">
-    <value>removed `userleft` tracks from queue</value>
+    <value>rimosso tracce `userleft` dalla coda</value>
   </data>
   <data name="RemoveCommand_UserAsync_" xml:space="preserve">
-    <value>removed `{0}`'s tracks from queue</value>
+    <value>rimosso tracce di `{0}` dalla coda</value>
   </data>
   <data name="RemoveCommand_KeywordAsync_" xml:space="preserve">
-    <value>removed `keyword: {0}` tracks from queue</value>
+    <value>rimosso tracce `keyword: {0}` dalla coda</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_" xml:space="preserve">
-    <value>enabled `{0}` filter</value>
+    <value>abilitato filtro `{0}`</value>
   </data>
   <data name="MusicCommands_ResumeAsync_resumed_playback" xml:space="preserve">
-    <value>resumed playback</value>
+    <value>ripresa la riproduzione</value>
   </data>
   <data name="MusicCommands_PauseAsync_paused_playback" xml:space="preserve">
-    <value>paused playback</value>
+    <value>riproduzione in pausa</value>
   </data>
   <data name="MusicCommands_SkipAsync_" xml:space="preserve">
-    <value>skipped `{0}` tracks</value>
+    <value>saltato `{0}` tracce</value>
   </data>
   <data name="MusicCommands_JumpTo_" xml:space="preserve">
-    <value>jumped to `{0}` in queue</value>
+    <value>saltato a `{0}` nella coda</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_" xml:space="preserve">
-    <value>set eqpreset to `{0}`</value>
+    <value>impostato eqpreset a `{0}`</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_cleared_the_queue" xml:space="preserve">
-    <value>cleared the queue</value>
+    <value>coda svuotata</value>
   </data>
   <data name="MusicCommands_RestartAsync_restarted_current_track" xml:space="preserve">
-    <value>restarted current track</value>
+    <value>traccia attuale riavviata</value>
   </data>
   <data name="MusicCommands_SeekAsync_" xml:space="preserve">
-    <value>seeked track to `{0}`</value>
+    <value>traccia cercata a `{0}`</value>
   </data>
   <data name="MusicCommands_RewindAsync_" xml:space="preserve">
-    <value>rewinded track by `{0}`</value>
+    <value>traccia riavvolta di `{0}`</value>
   </data>
   <data name="MusicCommands_EqualizerAsync_updated_custom_equalizer" xml:space="preserve">
-    <value>updated custom equalizer</value>
+    <value>equalizzatore personalizzato aggiornato</value>
   </data>
   <data name="UtilityCommands_Math_Misc___Math" xml:space="preserve">
-    <value>Misc | Math</value>
+    <value>Misc | Matematica</value>
   </data>
   <data name="MusicCommands_Volume_Music___Volume" xml:space="preserve">
-    <value>Music | Volume</value>
+    <value>Musica | Volume</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Saved_by__0_" xml:space="preserve">
-    <value>Saved by {0}</value>
+    <value>Salvato da {0}</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Created_by__0_" xml:space="preserve">
-    <value>Created by {0}</value>
+    <value>Creato da {0}</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Added_by__0_" xml:space="preserve">
-    <value>Added by {0}</value>
+    <value>Aggiunto da {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Deleted_by__0_" xml:space="preserve">
-    <value>Deleted by {0}</value>
+    <value>Eliminato da {0}</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Renamed_by__0_" xml:space="preserve">
-    <value>Renamed by {0}</value>
+    <value>Rinominato da {0}</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Loaded_by__0_" xml:space="preserve">
-    <value>Loaded by {0}</value>
+    <value>Caricato da {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Music___Playlist_Delete" xml:space="preserve">
-    <value>Music | Playlist Delete</value>
+    <value>Musica | Elimina Playlist</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Music___Playlist_Rename" xml:space="preserve">
-    <value>Music | Playlist Rename</value>
+    <value>Musica | Rinomina Playlist</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Music___Playlist_Load" xml:space="preserve">
-    <value>Music | Playlist Load</value>
+    <value>Musica | Carica Playlist</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Music___Playlist_Create" xml:space="preserve">
-    <value>Music | Playlist Create</value>
+    <value>Musica | Crea Playlist</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Music___Playlist_Add" xml:space="preserve">
-    <value>Music | Playlist Add</value>
+    <value>Musica | Aggiungi a Playlist</value>
   </data>
   <data name="SongRequestButtons_SongRequestFF_Music___Fast_Forward" xml:space="preserve">
-    <value>Music | Fast Forward</value>
+    <value>Musica | Avanti veloce</value>
   </data>
   <data name="EconomyCommand_ItemInfo_Economy___Item_Information" xml:space="preserve">
-    <value>Economy | Item Information</value>
+    <value>Economia | Informazioni Oggetto</value>
   </data>
   <data name="TagsCommand_InfoTag_Tags___Info" xml:space="preserve">
-    <value>Tags | Info</value>
+    <value>Tag | Info</value>
   </data>
   <data name="TagsCommand_InfoTag_Content_" xml:space="preserve">
-    <value>Content:</value>
+    <value>Contenuto:</value>
   </data>
   <data name="TagsCommand_InfoTag_Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Abilitato</value>
   </data>
   <data name="TagsCommand_RawTag_" xml:space="preserve">
-    <value>RAW Tag:
+    <value>Tag GREZZO:
 ```{0}```</value>
   </data>
   <data name="MiscCommands_Fact_Misc___Fact" xml:space="preserve">
-    <value>Misc | Fact</value>
+    <value>Misc | Fatto</value>
   </data>
   <data name="GameCommands_DiceAsync_Games___Dice" xml:space="preserve">
-    <value>Games | Dice</value>
+    <value>Giochi | Dadi</value>
   </data>
   <data name="GameCommands_RpsAsync_Games___Rock__Paper__Scissors" xml:space="preserve">
     <value>Giochi | Sasso, Carta, Forbici</value>
@@ -4451,156 +4484,160 @@ Se incassi ora, vincerai: **{3}**</value>
     <value>Nessun utente valido da mostrare nella classifica.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_missing_some_users__downloading_pelase_wait___" xml:space="preserve">
-    <value>Cache missing some users, downloading pelase wait...</value>
+    <value>Cache mancante di alcuni utenti, download in corso attendi...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_download_complete__continuing___" xml:space="preserve">
-    <value>Cache download complete, continuing...</value>
+    <value>Download della cache completato, continuazione...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_" xml:space="preserve">
-    <value>`{0}` boosted users found.
-</value>
+    <value>`{0}` utenti boost trovati.
+
+Aggiunti `{0}` utenti mancanti al database.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_2" xml:space="preserve">
-    <value>Added `{0}` missing users to the database.</value>
+    <value>Aggiunti `{0}` utenti mancanti al database.</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__This_import_method_requires_a_community_export_json_file__Read_more_here__https___xp_bot_net_blog_b1728227181194p" xml:space="preserve">
-    <value>Error: This import method requires a community export json file. Read more here: https://xp-bot.net/blog/b1728227181194p</value>
+    <value>Errore: Questo metodo di importazione richiede un file json di esportazione della community. Leggi di più qui: https://xp-bot.net/blog/b1728227181194p</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__Invalid_file_type__must_be_json_" xml:space="preserve">
-    <value>Error: Invalid file type, must be json.</value>
+    <value>Errore: Tipo di file non valido, deve essere json.</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__File_is_empty_" xml:space="preserve">
-    <value>Error: File is empty.</value>
+    <value>Errore: Il file è vuoto.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_link_is_invalid_" xml:space="preserve">
-    <value>Message link is invalid.</value>
+    <value>Il collegamento del messaggio non è valido.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_ID_is_invalid_" xml:space="preserve">
-    <value>Message ID is invalid.</value>
+    <value>L'ID del messaggio non è valido.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Channel_does_not_exist_in_this_guild_" xml:space="preserve">
-    <value>Channel does not exist in this guild.</value>
+    <value>Il canale non esiste in questo server.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
-    <value>Message does not exist in this channel.</value>
+    <value>Il messaggio non esiste in questo canale.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
-    <value>{0} of the Day!</value>
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>Discussione su {0}</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
+    <value>{0} del Giorno!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
-    <value>Time in Channel:</value>
+    <value>Tempo nel Canale:</value>
   </data>
   <data name="minefield_cashout_perfect" xml:space="preserve">
-    <value>Perfect! 🎯 You cleared the minefield and earned a doubled reward of {1} from {0} safe tiles!</value>
+    <value>Perfetto! 🎯 Hai sgombrato il campo minato e guadagnato una ricompensa raddoppiata di {1} da {0} tessere sicure!</value>
   </data>
   <data name="user_monitored_roles_modified_title" xml:space="preserve">
-    <value>User Monitored Roles Modified</value>
+    <value>Ruoli Monitorati dell'Utente Modificati</value>
   </data>
   <data name="user_roles_modified_title_monitored" xml:space="preserve">
-    <value>User Monitored Role Modified</value>
+    <value>Ruolo Monitorato dell'Utente Modificato</value>
   </data>
   <data name="audit_guild_tag" xml:space="preserve">
-    <value>&lt;@{0}&gt;**'s guild tag changed**</value>
+    <value>&lt;@{0}&gt;**il tag della gilda è stato modificato**</value>
   </data>
   <data name="generic_modify" xml:space="preserve">
-    <value>Modify</value>
+    <value>Modifica</value>
   </data>
   <data name="giveaway_create" xml:space="preserve">
-    <value>Create Giveaway</value>
+    <value>Crea Giveaway</value>
   </data>
   <data name="giveaway_cancel" xml:space="preserve">
-    <value>Cancel Giveaway</value>
+    <value>Annulla Giveaway</value>
   </data>
   <data name="giveaway_builder_title" xml:space="preserve">
-    <value># Giveaway Builder</value>
+    <value># Generatore di Giveaway</value>
   </data>
   <data name="generic_value_updated" xml:space="preserve">
-    <value>Successfully updated value.</value>
+    <value>Valore aggiornato con successo.</value>
   </data>
   <data name="giveaway_image_invalid" xml:space="preserve">
-    <value>Invalid image URL.</value>
+    <value>URL dell'immagine non valido.</value>
   </data>
   <data name="giveaways_entries" xml:space="preserve">
-    <value>Entries:</value>
+    <value>Partecipanti:</value>
   </data>
   <data name="giveaway_winners_2" xml:space="preserve">
-    <value>Winners:</value>
+    <value>Vincitori:</value>
   </data>
   <data name="giveaway_prize" xml:space="preserve">
-    <value>Prize:</value>
+    <value>Premio:</value>
   </data>
   <data name="giveaway_required_xp" xml:space="preserve">
-    <value>Required XP Level:</value>
+    <value>Livello XP Richiesto:</value>
   </data>
   <data name="giveaway_required_role" xml:space="preserve">
-    <value>Required Role:</value>
+    <value>Ruolo Richiesto:</value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_prize" xml:space="preserve">
-    <value>**Prize:** </value>
+    <value>**Premio:** </value>
     <comment>DO_NOT_MODIFY</comment>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_description" xml:space="preserve">
-    <value>**Description:** </value>
+    <value>**Descrizione:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_winners" xml:space="preserve">
-    <value>**Winners:** </value>
+    <value>**Vincitori:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_duration" xml:space="preserve">
-    <value>**Duration:** </value>
+    <value>**Durata:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_image" xml:space="preserve">
-    <value>**Image URL (optional):** </value>
+    <value>**URL Immagine (opzionale):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_xp_level" xml:space="preserve">
-    <value>**Required XP Level (optional):** </value>
+    <value>**Livello XP Richiesto (opzionale):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_ping_role" xml:space="preserve">
-    <value>**Ping Role (optional):** </value>
+    <value>**Ping Ruolo (opzionale):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_required_role" xml:space="preserve">
-    <value>**Required Role (optional):** </value>
+    <value>**Ruolo Richiesto (opzionale):** </value>
   </data>
   <data name="giveaway_ping_role" xml:space="preserve">
-    <value>Select a role to ping for the giveaway.</value>
+    <value>Seleziona un ruolo da menzionare per il giveaway.</value>
   </data>
   <data name="giveaway_required_role_2" xml:space="preserve">
-    <value>Select a required role for the giveaway.</value>
+    <value>Seleziona un ruolo richiesto per il giveaway.</value>
   </data>
   <data name="error_missing_section" xml:space="preserve">
-    <value>Could not locate the section.</value>
+    <value>Impossibile trovare la sezione.</value>
   </data>
   <data name="error_exists_role" xml:space="preserve">
-    <value>Role does not exist.</value>
+    <value>Il ruolo non esiste.</value>
   </data>
   <data name="error_missing_components" xml:space="preserve">
-    <value>Could not locate components.</value>
+    <value>Impossibile trovare i componenti.</value>
   </data>
   <data name="chatbot_limit_reached_premium" xml:space="preserve">
-    <value>You have reached the AI request limit for this server _({0} requests per month)_. You can purchase a custom bot to increase this limit to {1}!</value>
+    <value>Hai raggiunto il limite di richieste AI per questo server _({0} richieste al mese)_. Puoi acquistare un bot personalizzato per aumentare questo limite a {1}!</value>
   </data>
   <data name="core_purchase_custombot" xml:space="preserve">
-    <value>Purchase Custom Bot</value>
+    <value>Acquista Bot Personalizzato</value>
   </data>
   <data name="FishingGroup_Inventory_Fishing_Inventory___Stats" xml:space="preserve">
-    <value>Fishing Inventory &amp; Stats</value>
+    <value>Inventario Pesca e Statistiche</value>
   </data>
   <data name="BiomeAutocompleteHandler_GenerateSuggestionsAsync_Buy_additional_biomes_with__fishing_list_biomes" xml:space="preserve">
-    <value>Buy additional biomes with /fishing list-biomes</value>
+    <value>Acquista biomi aggiuntivi con /fishing list-biomes</value>
   </data>
   <data name="RodAutocompleteHandler_GenerateSuggestionsAsync_Buy_better_rods_with__fishing_list_rods" xml:space="preserve">
-    <value>Buy better rods with /fishing list-rods</value>
+    <value>Acquista canne migliori con /fishing list-rods</value>
   </data>
   <data name="BaitAutocompleteHandler_GenerateSuggestionsAsync_Buy_additional_bait_with__fishing_list_bait" xml:space="preserve">
-    <value>Buy additional bait with /fishing list-bait</value>
+    <value>Acquista esche aggiuntive con /fishing list-bait</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Failed_to_repost_message_" xml:space="preserve">
-    <value>Failed to repost message.</value>
+    <value>Impossibile rinviare il messaggio.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Reposted__0__s_message_in__1__" xml:space="preserve">
-    <value>Reposted {0}'s message in {1}.</value>
+    <value>Messaggio di {0} rinviato in {1}.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync__0___your_message_has_been_moved_to__1__by__2__" xml:space="preserve">
-    <value>{0}, your message has been moved to {1} by {2}.</value>
+    <value>{0}, il tuo messaggio è stato spostato a {1} da {2}.</value>
   </data>
   <data name="ModeratorCommands_Warn_View_Warnings" xml:space="preserve">
     <value>Visualizza Avvertimenti</value>
@@ -4640,5 +4677,92 @@ Se incassi ora, vincerai: **{3}**</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>Emoji Reazione:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Trappola Attivata</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## NON INVIARE MESSAGGI IN QUESTO CANALE
+Questo canale è usato per catturare bot spam. Qualsiasi messaggio inviato qui comporterà un **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Attivazioni: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: Trappola attivata</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 ora)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>espulsione</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>ban soft</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>ban</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Allegati:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>Il gioco del conteggio non è ancora stato configurato su questo server.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>Stato del Gioco del Conteggio</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Conteggio Attuale:** {0}
+**Numero Successivo:** {1}
+**Attualmente Detenuto Da:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Ancora nessuno — sii il primo a contare!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Statistiche del Gioco del Conteggio</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Conteggio Più Alto Mai Raggiunto:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Il Tuo Ruolo di Rottura</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>Questo server non ha un ruolo di rottura configurato per il gioco del conteggio.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Al momento non possiedi il ruolo di rottura del gioco del conteggio.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Al momento possiedi {0} per aver interrotto il conteggio. Questa assegnazione è **permanente**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Al momento possiedi {0} per aver interrotto il conteggio. Verrà rimosso {1}.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Ruolo di Rottura del Gioco del Conteggio</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>Nessun ruolo di rottura è configurato — interrompere il conteggio al momento non ha alcuna conseguenza di ruolo su questo server.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Interrompere il conteggio assegna {0}. Questa assegnazione è **permanente**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Interrompere il conteggio assegna {0} per **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} minuti</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} ore</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} giorni</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Pannello #{0}</value>
   </data>
 </root>

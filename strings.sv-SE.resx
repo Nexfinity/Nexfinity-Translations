@@ -762,6 +762,9 @@
   <data name="music_volume_3" xml:space="preserve">
     <value>Volymen har framgångsrikt ställts in på: `{0}`</value>
   </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Standardvolym har ställts in på: `{0}`</value>
+  </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] har skippats.</value>
   </data>
@@ -1623,7 +1626,7 @@ Obs: Kräver åtkomst till \"Hantera server\".</value>
     <value>Låttiteln innehåller ett ord som är svartlistat av serveradministratörerna.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube är inte längre en källa som stöds på grund av Discords policy. Du kan fortfarande använda råa sökningar som `episk musik` eller spela musik från en av våra många andra [källor som stöds] (https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>YouTube är inte längre en källa som stöds på grund av Discords policy. Du kan fortfarande använda råa sökningar som `episk musik` eller spela musik från en av våra många andra [källor som stöds] (https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>Timed out {0}. Förfaller &lt;t:{1}:R&gt;.</value>
@@ -1958,6 +1961,9 @@ Obs: Kräver åtkomst till \"Hantera server\".</value>
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>Kunde inte tolka det angivna datumet.</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Det är inte en giltig tidszon. Använd en IANA-identifierare, t.ex. `America/New_York` eller `Europe/London`.</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>Meddelandet måste ha textinnehåll för att kunna analyseras.</value>
@@ -2484,15 +2490,6 @@ OBS: Ett meddelande skickas när det är klart.</value>
   <data name="role_invalid" xml:space="preserve">
     <value>Ogiltig roll</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Självroll har tagits bort.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>La till `{0}` som en självroll.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>Rollen finns redan som en självroll.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Ogiltig användare.</value>
   </data>
@@ -2613,6 +2610,21 @@ Klicka på knappen nedan för att verifiera ditt konto innan du kan komma åt se
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Tråden skapades.</value>
   </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Markerad som dubblett av: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>Under granskning av: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Du behöver behörigheten Hantera server eller Administratör för att besluta om förslag.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>Kunde inte hitta det förslaget. Kontrollera meddelandelänken eller ID:t och försök igen.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>Den här servern har inte konfigurerat någon förslagskanal än. En admin måste ställa in en i instrumentpanelen innan förslag kan skapas - se {0} för installationsinstruktioner.</value>
+  </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>Pengaöverföringar mellan användare har inaktiverats av serveradministratörerna.</value>
   </data>
@@ -2673,7 +2685,7 @@ Klicka på knappen nedan för att verifiera ditt konto innan du kan komma åt se
     <value>Opt-out-status växlad. För närvarande: `{0}`.</value>
   </data>
   <data name="streaks_top" xml:space="preserve">
-    <value>Top Streaks</value>
+    <value>Topplista Streaks</value>
   </data>
   <data name="streaks_current" xml:space="preserve">
     <value>Nuvarande Streak</value>
@@ -2703,10 +2715,10 @@ Klicka på knappen nedan för att verifiera ditt konto innan du kan komma åt se
     <value>Din streak har återställts till 1 eftersom du inte skickade ett meddelande inom den erforderliga tidsramen. Påverkad server: `{0}` ({1})</value>
   </data>
   <data name="generic_opt_out" xml:space="preserve">
-    <value>Opt-Out</value>
+    <value>Avanmäl</value>
   </data>
   <data name="generic_opt_in" xml:space="preserve">
-    <value>Opt-In</value>
+    <value>Anmäl</value>
   </data>
   <data name="error_ephemeral" xml:space="preserve">
     <value>Denna åtgärd kan inte göras på ett flyktig meddelande.</value>
@@ -2784,7 +2796,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>`{0}` ({1}) har behörigheter som förhindrar den från att vara själv-tilldelad.</value>
   </data>
   <data name="auto_kick_title" xml:space="preserve">
-    <value>Auto Kick:</value>
+    <value>Automatisk Kick:</value>
   </data>
   <data name="minefield_error_other" xml:space="preserve">
     <value>Det här är inte ditt spel.</value>
@@ -2979,7 +2991,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>Ange färre än {0} tecken.</value>
   </data>
   <data name="audit_antiraid_reason" xml:space="preserve">
-    <value>Anti-Raid Ban: {0}</value>
+    <value>Anti-Raid Bannlysning: {0}</value>
   </data>
   <data name="mod_warnings_view" xml:space="preserve">
     <value>Visa Varningar</value>
@@ -3234,7 +3246,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>**{0}** skänkte **{1}** prenumeration(er)</value>
   </data>
   <data name="twitch_sub_alltime" xml:space="preserve">
-    <value>All-Time Total:</value>
+    <value>Totalt genom tiderna:</value>
   </data>
   <data name="twitch_goal_title" xml:space="preserve">
     <value>Nytt mål | </value>
@@ -3603,9 +3615,6 @@ Om du tar ut nu vinner du: **{3}**</value>
   <data name="automod_sus_join" xml:space="preserve">
     <value>Misstänkt anslutning</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Du har nått det maximala antalet självroller ({0}).</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Embed genererades framgångsrikt.</value>
   </data>
@@ -3681,6 +3690,30 @@ Om du tar ut nu vinner du: **{3}**</value>
   <data name="selfrole_title_list" xml:space="preserve">
     <value>Självroll | Lista</value>
   </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>Följande roll(er) togs bort på grund av en rollgruppsgräns: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Unik</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Flerval, upp till {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>kräver @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>kräver nivå {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>Du behöver rollen {0} ({1}) för att få en roll från gruppen '{2}'.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>Den obligatoriska rollen för gruppen '{0}' finns inte längre. En administratör måste ange en ny obligatorisk roll (eller ta bort kravet) innan någon kan få en roll från den här gruppen.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>Du måste vara nivå {0}+ för att få en roll från gruppen '{1}'.</value>
+  </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Musik | Kö</value>
   </data>
@@ -3709,7 +3742,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>inaktiverade `low pass`-filtret</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
-    <value>Low Pass</value>
+    <value>Låpass</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
     <value>aktiverade anpassat `low pass`-filter</value>
@@ -3718,7 +3751,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>Framgångsrikt rensade `Karaoke`-filtret.</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>Distorsion</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
     <value>Announcement-inställningar</value>
@@ -3835,10 +3868,10 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>Core | Bot-kommandon</value>
   </data>
   <data name="misc_title_google" xml:space="preserve">
-    <value>Misc | Google | </value>
+    <value>Diverse | Google | </value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
-    <value>Misc | Wiki</value>
+    <value>Diverse | Wiki</value>
   </data>
   <data name="misc_title_image" xml:space="preserve">
     <value>Misc | Bild | </value>
@@ -3904,7 +3937,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>Statistik</value>
   </data>
   <data name="SearchCommand_Search_Misc___XKCD___" xml:space="preserve">
-    <value>Misc | XKCD | </value>
+    <value>Diverse | XKCD | </value>
   </data>
   <data name="SearchCommand_Search_ID__" xml:space="preserve">
     <value>ID: </value>
@@ -3985,10 +4018,10 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>Påminnelse | Lista</value>
   </data>
   <data name="SearchCommand_Search_Misc___Anime" xml:space="preserve">
-    <value>Misc | Anime</value>
+    <value>Diverse | Anime</value>
   </data>
   <data name="StickerCommand_DownloadAsync_Sticker____0_" xml:space="preserve">
-    <value>Sticker | {0}</value>
+    <value>Klistermärke | {0}</value>
   </data>
   <data name="FilterCommand_DistortionAsync_" xml:space="preserve">
     <value>inaktiverad `distortion` filter</value>
@@ -4024,7 +4057,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>inaktiverad `timescale` filter</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_Timescale" xml:space="preserve">
-    <value>Timescale</value>
+    <value>Tidsskala</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_enable" xml:space="preserve">
     <value>aktiverad anpassad `timescale` filter</value>
@@ -4060,7 +4093,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>inaktiverad `channel mix` filter</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_Channel_Mix" xml:space="preserve">
-    <value>Channel Mix</value>
+    <value>Kanalmix</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_enable" xml:space="preserve">
     <value>aktiverad anpassad `channel mix` filter</value>
@@ -4072,7 +4105,7 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>inaktiverad `echo` filter</value>
   </data>
   <data name="FilterCommand_EchoAsync_Echo" xml:space="preserve">
-    <value>Echo</value>
+    <value>Eko</value>
   </data>
   <data name="FilterCommand_EchoAsync_enable" xml:space="preserve">
     <value>aktiverad anpassad `echo` filter</value>
@@ -4084,49 +4117,49 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>inaktiverade alla filter</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phishing" xml:space="preserve">
-    <value>AutoMod - Phishing</value>
+    <value>AutoMod - Nätfiske</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Sticker_Spam" xml:space="preserve">
-    <value>AutoMod - Sticker Spam</value>
+    <value>AutoMod - Sticker-spam</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Spoiler_Spam" xml:space="preserve">
-    <value>AutoMod - Spoiler Spam</value>
+    <value>AutoMod - Spoiler-spam</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Zalgo_Text" xml:space="preserve">
-    <value>AutoMod - Zalgo Text</value>
+    <value>AutoMod - Zalgo-text</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Capitalization" xml:space="preserve">
-    <value>AutoMod - Mass Capitalization</value>
+    <value>AutoMod - Massanvändning av versaler</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Discord_Invites" xml:space="preserve">
-    <value>AutoMod - Discord Invites</value>
+    <value>AutoMod - Discord-inbjudningar</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Duplicate_Words" xml:space="preserve">
-    <value>AutoMod - Duplicate Words</value>
+    <value>AutoMod - Upprepade ord</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Mentions" xml:space="preserve">
-    <value>AutoMod - Mass Mentions</value>
+    <value>AutoMod - Massomnämnanden</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Emoji" xml:space="preserve">
-    <value>AutoMod - Mass Emoji</value>
+    <value>AutoMod - Massanvändning av emoji</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Duplicate_Characters" xml:space="preserve">
-    <value>AutoMod - Duplicate Characters</value>
+    <value>AutoMod - Duplicerade tecken</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Website_URLs" xml:space="preserve">
-    <value>AutoMod - Website URLs</value>
+    <value>AutoMod - Webbplats-URL:er</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phone_Number" xml:space="preserve">
-    <value>AutoMod - Phone Number</value>
+    <value>AutoMod - Telefonnummer</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Markdown_Headers" xml:space="preserve">
-    <value>AutoMod - Markdown Headers</value>
+    <value>AutoMod - Markdown-rubriker</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Blacklisted_File_Extension" xml:space="preserve">
-    <value>AutoMod - Blacklisted File Extension</value>
+    <value>AutoMod - Blockerad filtillägg</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Unknown_Reason" xml:space="preserve">
-    <value>AutoMod - Unknown Reason</value>
+    <value>AutoMod - Okänd anledning</value>
   </data>
   <data name="AutoModService_CheckMessageContent__0__Your_message_was_deleted_for_containing_a_phone_number_" xml:space="preserve">
     <value>{0} Ditt meddelande togs bort för att det innehöll ett telefonnummer.</value>
@@ -4285,307 +4318,309 @@ Om du tar ut nu vinner du: **{3}**</value>
     <value>Taggar | Info</value>
   </data>
   <data name="TagsCommand_InfoTag_Content_" xml:space="preserve">
-    <value>Content:</value>
+    <value>Innehål:</value>
   </data>
   <data name="TagsCommand_InfoTag_Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Aktiverad</value>
   </data>
   <data name="TagsCommand_RawTag_" xml:space="preserve">
-    <value>RAW Tag:
+    <value>RAW-tagg:
 ```{0}```</value>
   </data>
   <data name="MiscCommands_Fact_Misc___Fact" xml:space="preserve">
-    <value>Misc | Fact</value>
+    <value>Övrigt | Faktum</value>
   </data>
   <data name="GameCommands_DiceAsync_Games___Dice" xml:space="preserve">
-    <value>Games | Dice</value>
+    <value>Spel | Tärning</value>
   </data>
   <data name="GameCommands_RpsAsync_Games___Rock__Paper__Scissors" xml:space="preserve">
-    <value>Games | Rock, Paper, Scissors</value>
+    <value>Spel | Sten, sax, påse</value>
   </data>
   <data name="GameCommands_BallAsync_Games___8Ball" xml:space="preserve">
-    <value>Games | 8Ball</value>
+    <value>Spel | 8-boll</value>
   </data>
   <data name="MiscCommands_AnimeQuote_Misc___Anime_Quote" xml:space="preserve">
-    <value>Misc | Anime Quote</value>
+    <value>Övrigt | Anime-citat</value>
   </data>
   <data name="SearchCommand_Search_Misc___Manga" xml:space="preserve">
-    <value>Misc | Manga</value>
+    <value>Övrigt | Manga</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_Music___Remove_Duplicates" xml:space="preserve">
-    <value>Music | Remove Duplicates</value>
+    <value>Musik | Ta bort dubbletter</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_Music___Leave_Cleanup" xml:space="preserve">
-    <value>Music | Leave Cleanup</value>
+    <value>Musik | Lämna rengöring</value>
   </data>
   <data name="StreakCommands_View_Streak_for_" xml:space="preserve">
-    <value>Streak for </value>
+    <value>Streak för </value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Music___Filter_Preset" xml:space="preserve">
-    <value>Music | Filter Preset</value>
+    <value>Musik | Filterförinställning</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_all_filter_effects_" xml:space="preserve">
-    <value>Disabled all filter effects.</value>
+    <value>Inaktiverade alla filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_No_presets_are_currently_applied_" xml:space="preserve">
-    <value>No presets are currently applied.</value>
+    <value>Inga förinställningar är för närvarande aktiverade.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_vibrate_filter_effects_" xml:space="preserve">
-    <value>Disabled vibrate filter effects.</value>
+    <value>Inaktiverade vibrations-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_vibrate_filter_effects_" xml:space="preserve">
-    <value>Applied vibrate filter effects.</value>
+    <value>Tillämpade vibrations-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_speed_filter_effects_" xml:space="preserve">
-    <value>Applied speed filter effects.</value>
+    <value>Tillämpade hastighets-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_speed_filter_effects_" xml:space="preserve">
-    <value>Disabled speed filter effects.</value>
+    <value>Inaktiverade hastighets-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_slow_mo_filter_effects_" xml:space="preserve">
-    <value>Disabled slow mo filter effects.</value>
+    <value>Inaktiverade slow mo-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_slow_mo_filter_effects_" xml:space="preserve">
-    <value>Applied slow mo filter effects.</value>
+    <value>Tillämpade slow mo-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_darth_vader_filter_effects_" xml:space="preserve">
-    <value>Applied darth vader filter effects.</value>
+    <value>Tillämpade Darth Vader-filtereffekter.</value>
   </data>
   <data name="MusicCommands_PlayFileAsync_An_issue_occured_while_trying_to_join_that_channel_" xml:space="preserve">
-    <value>An issue occured while trying to join that channel.</value>
+    <value>Ett problem uppstod när jag försökte ansluta till den kanalen.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_vaporwave_filter_effects_" xml:space="preserve">
-    <value>Disabled vaporwave filter effects.</value>
+    <value>Inaktiverade vaporwave-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_vaporwave_filter_effects_" xml:space="preserve">
-    <value>Applied vaporwave filter effects.</value>
+    <value>Tillämpade vaporwave-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_reverb_filter_effects_" xml:space="preserve">
-    <value>Disabled reverb filter effects.</value>
+    <value>Inaktiverade reverb-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_reverb_filter_effects_" xml:space="preserve">
-    <value>Applied reverb filter effects.</value>
+    <value>Tillämpade reverb-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_nightcore_filter_effects_" xml:space="preserve">
-    <value>Disabled nightcore filter effects.</value>
+    <value>Inaktiverade nightcore-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_nightcore_filter_effects_" xml:space="preserve">
-    <value>Applied nightcore filter effects.</value>
+    <value>Tillämpade nightcore-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_8D_audio_filter_effects_" xml:space="preserve">
-    <value>Disabled 8D audio filter effects.</value>
+    <value>Inaktiverade 8D-ljud-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_8D_audio_filter_effects_" xml:space="preserve">
-    <value>Applied 8D audio filter effects.</value>
+    <value>Tillämpade 8D-ljud-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_chipmunk_filter_effects_" xml:space="preserve">
-    <value>Disabled chipmunk filter effects.</value>
+    <value>Inaktiverade gnagare-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_chipmunk_filter_effects_" xml:space="preserve">
-    <value>Applied chipmunk filter effects.</value>
+    <value>Tillämpade gnagare-filtereffekter.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_darth_vader_filter_effects_" xml:space="preserve">
-    <value>Disabled darth vader filter effects.</value>
+    <value>Inaktiverade Darth Vader-filtereffekter.</value>
   </data>
   <data name="MusicCommands_RadioAsync_Failed_to_join_voice_channel_" xml:space="preserve">
-    <value>Failed to join voice channel.</value>
+    <value>Det gick inte att ansluta till röstkanalen.</value>
   </data>
   <data name="MusicCommands_RadioAsync_" xml:space="preserve">
-    <value>Added `{0}` to the music queue.</value>
+    <value>La till `{0}` i musikköns.</value>
   </data>
   <data name="MusicCommands_JumpTo_Music___Jump_To" xml:space="preserve">
-    <value>Music | Jump To</value>
+    <value>Musik | Hoppa till</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_Music___Equalizer" xml:space="preserve">
-    <value>Music | Equalizer</value>
+    <value>Musik | Equalizer</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_Music___Clear_Queue" xml:space="preserve">
-    <value>Music | Clear Queue</value>
+    <value>Musik | Rensa kö</value>
   </data>
   <data name="MusicCommands_RestartAsync_Music___Restart" xml:space="preserve">
-    <value>Music | Restart</value>
+    <value>Musik | Starta om</value>
   </data>
   <data name="MusicCommands_NowPlaying_Applied_Filters_" xml:space="preserve">
-    <value>Applied Filters:</value>
+    <value>Tillämpad filter:</value>
   </data>
   <data name="MusicCommands_NowPlaying_Player_History_" xml:space="preserve">
-    <value>Player History:</value>
+    <value>Spelarhistorik:</value>
   </data>
   <data name="MinecraftCommands_ServerQuery_You_must_specify_either_a_type_or_a_port_" xml:space="preserve">
-    <value>You must specify either a type or a port.</value>
+    <value>Du måste ange antingen en typ eller en port.</value>
   </data>
   <data name="GuildContextMenu_GetUserInfo___Error____Unable_to_grab_user_info_" xml:space="preserve">
-    <value>**Error:** Unable to grab user info.</value>
+    <value>**Fel:** Det gick inte att hämta användarinfo.</value>
   </data>
   <data name="GitPreviewService_GitIssuePreview_Closed_By_" xml:space="preserve">
-    <value>Closed By:</value>
+    <value>Stängd av:</value>
   </data>
   <data name="ContributorButton_Contributors_Former_Staff_" xml:space="preserve">
-    <value>Former Staff:</value>
+    <value>Tidigare personal:</value>
   </data>
   <data name="GitPreviewService_GitPrPreview_Checks_" xml:space="preserve">
-    <value>Checks:</value>
+    <value>Kontroller:</value>
   </data>
   <data name="SelectionMenuHandler_SelfRoles_Cleared_selection_menu__No_roles_were_modified_" xml:space="preserve">
-    <value>Cleared selection menu. No roles were modified.</value>
+    <value>Rensad urvalsmeny. Inga roller ändrades.</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___Missing_Base64___Failed_to_generate_image_" xml:space="preserve">
-    <value>Imagine Error | Missing Base64 - Failed to generate image.</value>
+    <value>Imagine Error | Saknad Base64 - Det gick inte att generera bild.</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Unknown_Error" xml:space="preserve">
-    <value>SD Error | Unknown Error</value>
+    <value>SD Error | Okänt fel</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_Prompt" xml:space="preserve">
-    <value>SD Error | Invalid Prompt</value>
+    <value>SD Error | Ogiltig prompt</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Insufficient_balance" xml:space="preserve">
-    <value>SD Error | Insufficient balance</value>
+    <value>SD Error | Otillräckligt saldo</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_API_Response" xml:space="preserve">
-    <value>SD Error | Invalid API Response</value>
+    <value>SD Error | Ogiltigt API-svar</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___No_Artifacts___Failed_to_generate_image_" xml:space="preserve">
-    <value>Imagine Error | No Artifacts - Failed to generate image.</value>
+    <value>Imagine Error | Inga artefakter - Det gick inte att generera bild.</value>
   </data>
   <data name="LevelingCommands_Leaderboard_No_valid_users_to_show_on_the_leaderboard_" xml:space="preserve">
-    <value>No valid users to show on the leaderboard.</value>
+    <value>Inga giltiga användare att visa på topplistan.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_missing_some_users__downloading_pelase_wait___" xml:space="preserve">
-    <value>Cache missing some users, downloading pelase wait...</value>
+    <value>Cache saknar några användare, laddar ner vänligen vänta...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_download_complete__continuing___" xml:space="preserve">
-    <value>Cache download complete, continuing...</value>
+    <value>Cache-nedladdning slutförd, fortsätter...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_" xml:space="preserve">
-    <value>`{0}` boosted users found.
-</value>
+    <value>`{0}` boostade användare hittades.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_2" xml:space="preserve">
-    <value>Added `{0}` missing users to the database.</value>
+    <value>Lade till `{0}` saknade användare i databasen.</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__This_import_method_requires_a_community_export_json_file__Read_more_here__https___xp_bot_net_blog_b1728227181194p" xml:space="preserve">
-    <value>Error: This import method requires a community export json file. Read more here: https://xp-bot.net/blog/b1728227181194p</value>
+    <value>Fel: Denna importmetod kräver en community export json-fil. Läs mer här: https://xp-bot.net/blog/b1728227181194p</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__Invalid_file_type__must_be_json_" xml:space="preserve">
-    <value>Error: Invalid file type, must be json.</value>
+    <value>Fel: Ogiltig filtyp, måste vara json.</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__File_is_empty_" xml:space="preserve">
-    <value>Error: File is empty.</value>
+    <value>Fel: Filen är tom.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_link_is_invalid_" xml:space="preserve">
-    <value>Message link is invalid.</value>
+    <value>Meddelandelänk är ogiltig.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_ID_is_invalid_" xml:space="preserve">
-    <value>Message ID is invalid.</value>
+    <value>Meddelande-ID är ogiltigt.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Channel_does_not_exist_in_this_guild_" xml:space="preserve">
-    <value>Channel does not exist in this guild.</value>
+    <value>Kanalen finns inte i denna server.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
-    <value>Message does not exist in this channel.</value>
+    <value>Meddelandet finns inte i denna kanal.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
-    <value>{0} of the Day!</value>
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>{0} Diskussion</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
+    <value>{0} på dagen!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
-    <value>Time in Channel:</value>
+    <value>Tid i kanal:</value>
   </data>
   <data name="minefield_cashout_perfect" xml:space="preserve">
-    <value>Perfect! 🎯 You cleared the minefield and earned a doubled reward of {1} from {0} safe tiles!</value>
+    <value>Perfekt! 🎯 Du röjde minefältet och tjänade en fördubblings belöning på {1} från {0} säkra rutor!</value>
   </data>
   <data name="user_monitored_roles_modified_title" xml:space="preserve">
-    <value>User Monitored Roles Modified</value>
+    <value>Användarens övervakade roller ändrades</value>
   </data>
   <data name="user_roles_modified_title_monitored" xml:space="preserve">
-    <value>User Monitored Role Modified</value>
+    <value>Användarens övervakade roll ändrades</value>
   </data>
   <data name="audit_guild_tag" xml:space="preserve">
-    <value>&lt;@{0}&gt;**'s guild tag changed**</value>
+    <value>&lt;@{0}&gt;**'s serveretikett ändrades**</value>
   </data>
   <data name="generic_modify" xml:space="preserve">
-    <value>Modify</value>
+    <value>Ändra</value>
   </data>
   <data name="giveaway_create" xml:space="preserve">
-    <value>Create Giveaway</value>
+    <value>Skapa giveaway</value>
   </data>
   <data name="giveaway_cancel" xml:space="preserve">
-    <value>Cancel Giveaway</value>
+    <value>Avbryt giveaway</value>
   </data>
   <data name="giveaway_builder_title" xml:space="preserve">
-    <value># Giveaway Builder</value>
+    <value># Giveaway-byggare</value>
   </data>
   <data name="generic_value_updated" xml:space="preserve">
-    <value>Successfully updated value.</value>
+    <value>Värdet uppdaterades framgångsrikt.</value>
   </data>
   <data name="giveaway_image_invalid" xml:space="preserve">
-    <value>Invalid image URL.</value>
+    <value>Ogiltig bild-URL.</value>
   </data>
   <data name="giveaways_entries" xml:space="preserve">
-    <value>Entries:</value>
+    <value>Inmatningar:</value>
   </data>
   <data name="giveaway_winners_2" xml:space="preserve">
-    <value>Winners:</value>
+    <value>Vinnare:</value>
   </data>
   <data name="giveaway_prize" xml:space="preserve">
-    <value>Prize:</value>
+    <value>Pris:</value>
   </data>
   <data name="giveaway_required_xp" xml:space="preserve">
-    <value>Required XP Level:</value>
+    <value>Erforderlig XP-nivå:</value>
   </data>
   <data name="giveaway_required_role" xml:space="preserve">
-    <value>Required Role:</value>
+    <value>Erforderlig roll:</value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_prize" xml:space="preserve">
-    <value>**Prize:** </value>
+    <value>**Pris:** </value>
     <comment>DO_NOT_MODIFY</comment>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_description" xml:space="preserve">
-    <value>**Description:** </value>
+    <value>**Beskrivning:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_winners" xml:space="preserve">
-    <value>**Winners:** </value>
+    <value>**Vinnare:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_duration" xml:space="preserve">
-    <value>**Duration:** </value>
+    <value>**Varaktighet:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_image" xml:space="preserve">
-    <value>**Image URL (optional):** </value>
+    <value>**Bild-URL (valfritt):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_xp_level" xml:space="preserve">
-    <value>**Required XP Level (optional):** </value>
+    <value>**Erforderlig XP-nivå (valfritt):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_ping_role" xml:space="preserve">
-    <value>**Ping Role (optional):** </value>
+    <value>**Pingroll (valfritt):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_required_role" xml:space="preserve">
-    <value>**Required Role (optional):** </value>
+    <value>**Erforderlig roll (valfritt):** </value>
   </data>
   <data name="giveaway_ping_role" xml:space="preserve">
-    <value>Select a role to ping for the giveaway.</value>
+    <value>Välj en roll att pinga för giveaway:n.</value>
   </data>
   <data name="giveaway_required_role_2" xml:space="preserve">
-    <value>Select a required role for the giveaway.</value>
+    <value>Välj en erforderlig roll för giveaway:n.</value>
   </data>
   <data name="error_missing_section" xml:space="preserve">
-    <value>Could not locate the section.</value>
+    <value>Det gick inte att hitta avsnittet.</value>
   </data>
   <data name="error_exists_role" xml:space="preserve">
-    <value>Role does not exist.</value>
+    <value>Rollen finns inte.</value>
   </data>
   <data name="error_missing_components" xml:space="preserve">
-    <value>Could not locate components.</value>
+    <value>Kunde inte hitta komponenter.</value>
   </data>
   <data name="chatbot_limit_reached_premium" xml:space="preserve">
-    <value>You have reached the AI request limit for this server _({0} requests per month)_. You can purchase a custom bot to increase this limit to {1}!</value>
+    <value>Du har nått gränsen för AI-förfrågningar på denna server _({0} förfrågningar per månad)_. Du kan köpa en anpassad bot för att öka denna gräns till {1}!</value>
   </data>
   <data name="core_purchase_custombot" xml:space="preserve">
-    <value>Purchase Custom Bot</value>
+    <value>Köp anpassad bot</value>
   </data>
   <data name="FishingGroup_Inventory_Fishing_Inventory___Stats" xml:space="preserve">
-    <value>Fishing Inventory &amp; Stats</value>
+    <value>Fiskeinventering och statistik</value>
   </data>
   <data name="BiomeAutocompleteHandler_GenerateSuggestionsAsync_Buy_additional_biomes_with__fishing_list_biomes" xml:space="preserve">
-    <value>Buy additional biomes with /fishing list-biomes</value>
+    <value>Köp ytterligare biomer med /fishing list-biomes</value>
   </data>
   <data name="RodAutocompleteHandler_GenerateSuggestionsAsync_Buy_better_rods_with__fishing_list_rods" xml:space="preserve">
     <value>Köp bättre metspön med /fishing list-rods</value>
@@ -4640,5 +4675,92 @@ Om du tar ut nu vinner du: **{3}**</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>Reaktionsmojis:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Honeypot utlöst</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## SKICKA INTE MEDDELANDEN I DENNA KANAL
+Denna kanal används för att fånga spam-botar. Alla meddelanden som skickas här resulterar i en **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Utlösare: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: Honeypot-kanal utlöst</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 timme)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>sparka</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>mjuk uteslutning</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>uteslutning</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Bilagor:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>Räknespelet har inte ställts in på den här servern än.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>Räknespelets Status</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Aktuellt Antal:** {0}
+**Nästa Nummer:** {1}
+**Innehas För Närvarande Av:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Ingen ännu — bli den första att räkna!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Räknespelets Statistik</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Högsta Antal Någonsin Uppnått:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Din Brytroll</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>Den här servern har ingen brytroll inställd för räknespelet.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Du har för närvarande inte räknespelets brytroll.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Du har för närvarande {0} för att ha brutit räkningen. Den här tilldelningen är **permanent**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Du har för närvarande {0} för att ha brutit räkningen. Den tas bort {1}.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Räknespelets Brytroll</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>Ingen brytroll är inställd — att bryta räkningen har för närvarande ingen rollkonsekvens på den här servern.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Att bryta räkningen tilldelar {0}. Den här tilldelningen är **permanent**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Att bryta räkningen tilldelar {0} i **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} minuter</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} timmar</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} dagar</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Panel #{0}</value>
   </data>
 </root>

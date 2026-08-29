@@ -762,6 +762,9 @@
   <data name="music_volume_3" xml:space="preserve">
     <value>Volumul a fost setat cu succes la: `{0}`</value>
   </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Volum implicit setat cu succes la: `{0}`</value>
+  </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] a fost omis.</value>
   </data>
@@ -1063,7 +1066,7 @@
     <value>Este NSFW?:</value>
   </data>
   <data name="audit_string_32" xml:space="preserve">
-    <value>Slowmode:</value>
+    <value>Mod lent:</value>
   </data>
   <data name="audit_string_33" xml:space="preserve">
     <value>În cadrul categoriei:</value>
@@ -1289,7 +1292,7 @@ Dacă sunteți în căutarea pentru o listă de comenzi bot și modul în care a
     <value>Cuvinte Duplicate</value>
   </data>
   <data name="automod_check_auto_dehoist" xml:space="preserve">
-    <value>Auto Dehoist</value>
+    <value>Dehoist Automat</value>
   </data>
   <data name="automod_embed_violation" xml:space="preserve">
     <value>Încălcare:</value>
@@ -1623,7 +1626,7 @@ Notă: Necesită acces la \"Manage Server\".</value>
     <value>Titlul melodiei conține un cuvânt de pe lista neagră stabilită de administratorii serverului.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube nu mai este o sursă acceptată din cauza politicii Discord. Puteți utiliza în continuare interogări brute precum `epic music` sau puteți reda muzică de la una dintre numeroasele noastre alte [surse acceptate](https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>YouTube nu mai este o sursă acceptată din cauza politicii Discord. Puteți utiliza în continuare interogări brute precum `epic music` sau puteți reda muzică de la una dintre numeroasele noastre alte [surse acceptate](https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>Timed out {0}. Expiră &lt;t:{1}:R&gt;.</value>
@@ -1958,6 +1961,9 @@ Notă: Necesită acces la \"Manage Server\".</value>
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>Nu se poate analiza data furnizată.</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Acesta nu este un fus orar valid. Folosește un identificator IANA, de ex. `America/New_York` sau `Europe/London`.</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>Mesajul trebuie să aibă conținut text pentru a fi analizat.</value>
@@ -2484,15 +2490,6 @@ Notă: Un mesaj va fi trimis la finalizare.</value>
   <data name="role_invalid" xml:space="preserve">
     <value>Rol Invalid</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Rol de auto-atribuire disponibil eliminat cu succes.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>Am adăugat cu succes `{0}` ca rol de auto-atribuire.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>Rolul există deja ca rol de auto-atribuire.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Utilizator invalid.</value>
   </data>
@@ -2613,6 +2610,21 @@ Te rog apasă butonul de mai jos pentru a-ți verifica contul înainte de a pute
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Firul de discuție a fost creat cu succes.</value>
   </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Marcat ca duplicat de: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>În curs de examinare de către: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Ai nevoie de permisiunea Gestionare server sau Administrator pentru a decide asupra sugestiilor.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>Nu am putut găsi acea sugestie. Verifică linkul mesajului sau ID-ul și încearcă din nou.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>Acest server nu a configurat încă un canal de sugestii. Un administrator trebuie să configureze unul în dashboard înainte ca sugestiile să poată fi create - vezi {0} pentru instrucțiuni de configurare.</value>
+  </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>Transferurile de bani între utilizatori au fost dezactivate de administratorii serverului.</value>
   </data>
@@ -2703,10 +2715,10 @@ Te rog apasă butonul de mai jos pentru a-ți verifica contul înainte de a pute
     <value>Seria ta a fost resetată la 1 deoarece nu ai trimis un mesaj în perioada necesară. Server afectat: `{0}` ({1})</value>
   </data>
   <data name="generic_opt_out" xml:space="preserve">
-    <value>Opt-Out</value>
+    <value>Retragere</value>
   </data>
   <data name="generic_opt_in" xml:space="preserve">
-    <value>Opt-In</value>
+    <value>Adesiune</value>
   </data>
   <data name="error_ephemeral" xml:space="preserve">
     <value>Această acțiune nu poate fi efectuată asupra unui mesaj efemer.</value>
@@ -2784,7 +2796,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>`{0}` ({1}) are permisiuni care o împiedică să fie auto-asignată.</value>
   </data>
   <data name="auto_kick_title" xml:space="preserve">
-    <value>Auto Kick:</value>
+    <value>Excludere Automată:</value>
   </data>
   <data name="minefield_error_other" xml:space="preserve">
     <value>Acesta nu este jocul tău.</value>
@@ -2874,10 +2886,10 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Deblocare sincronizată cu {0}</value>
   </data>
   <data name="status_opted_out" xml:space="preserve">
-    <value>Opted Out</value>
+    <value>Retras</value>
   </data>
   <data name="status_opted_in" xml:space="preserve">
-    <value>Opted In</value>
+    <value>Aderit</value>
   </data>
   <data name="eco_rps_rock" xml:space="preserve">
     <value>Piatră</value>
@@ -2967,7 +2979,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Revocare Ban</value>
   </data>
   <data name="generic_audit_mod" xml:space="preserve">
-    <value> / Mod: {0}</value>
+    <value> / Moderator: {0}</value>
   </data>
   <data name="warnings_title" xml:space="preserve">
     <value>Moderare | Avertismente | Total: {0}</value>
@@ -3057,7 +3069,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Anti-Raid: Conturi cu aceeași dată de creare.</value>
   </data>
   <data name="antiraid_title_join" xml:space="preserve">
-    <value>Raid Detected | Join Raid</value>
+    <value>Raid Detectat | Join Raid</value>
   </data>
   <data name="antiraid_button_actions" xml:space="preserve">
     <value>Acțiuni</value>
@@ -3123,7 +3135,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Niveluri</value>
   </data>
   <data name="leveling_title" xml:space="preserve">
-    <value>Level Up!</value>
+    <value>Level Sus!</value>
   </data>
   <data name="audit_reason_tempban" xml:space="preserve">
     <value>Eliminare Ban Temporar</value>
@@ -3393,7 +3405,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Comanda Elimină Rol</value>
   </data>
   <data name="ai_error_title" xml:space="preserve">
-    <value>Core | AI Chat Bot</value>
+    <value>Nucleu | Bot Chat AI</value>
   </data>
   <data name="ai_invalid_key" xml:space="preserve">
     <value>Eroare: Cheie API nevalidă. Puteți găsi cheia API la https://platform.openai.com/account/api-keys.</value>
@@ -3562,7 +3574,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
 {2}```</value>
   </data>
   <data name="footer_perspective" xml:space="preserve">
-    <value>Powered by Perspective API</value>
+    <value>Susținut de Perspective API</value>
   </data>
   <data name="footer_filter" xml:space="preserve">
     <value>Filtru aplicat de {0}</value>
@@ -3602,9 +3614,6 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
   </data>
   <data name="automod_sus_join" xml:space="preserve">
     <value>Alăturare Suspectă</value>
-  </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Ați atins numărul maxim de roluri auto ({0}).</value>
   </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Embed generat cu succes.</value>
@@ -3658,157 +3667,181 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Utilizare Medie Emote:</value>
   </data>
   <data name="emote_stats_overall" xml:space="preserve">
-    <value>Top Overall Emote:</value>
+    <value>Cel mai folosit emote general:</value>
   </data>
   <data name="emote_stats_unicode" xml:space="preserve">
-    <value>Top Unicode Emote:</value>
+    <value>Cel mai folosit emote Unicode:</value>
   </data>
   <data name="emote_stats_custom" xml:space="preserve">
-    <value>Top Custom Emote:</value>
+    <value>Cel mai folosit emote personalizat:</value>
   </data>
   <data name="emote_stats_uses" xml:space="preserve">
-    <value>```{0} uses```</value>
+    <value>```{0} utilizări```</value>
   </data>
   <data name="emote_stats_emotes" xml:space="preserve">
-    <value>```{0} emotes```</value>
+    <value>```{0} emote-uri```</value>
   </data>
   <data name="emote_stats_uses_per" xml:space="preserve">
-    <value>```{0} uses per emote```</value>
+    <value>```{0} utilizări per emote```</value>
   </data>
   <data name="support_title" xml:space="preserve">
-    <value>Support Team Reply</value>
+    <value>Răspuns Echipă Suport</value>
   </data>
   <data name="selfrole_title_list" xml:space="preserve">
-    <value>Self Role | List</value>
+    <value>Rol Automat | Listă</value>
+  </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>Următorul(ele) rol(uri) a(u) fost eliminat(e) din cauza limitei grupului de roluri: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Unic</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Selecție multiplă, până la {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>necesită @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>necesită nivelul {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>Ai nevoie de rolul {0} ({1}) pentru a obține un rol din grupul '{2}'.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>Rolul necesar al grupului '{0}' nu mai există. Un administrator trebuie să seteze un rol necesar nou (sau să elimine cerința) înainte ca cineva să poată obține un rol din acest grup.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>Trebuie să fii nivelul {0}+ pentru a obține un rol din grupul '{1}'.</value>
   </data>
   <data name="music_title_queue" xml:space="preserve">
-    <value>Music | Queue</value>
+    <value>Muzică | Queue</value>
   </data>
   <data name="info_title_ping" xml:space="preserve">
     <value>Info | Ping</value>
   </data>
   <data name="music_title_lyrics" xml:space="preserve">
-    <value>Music | Lyrics | Total: {0}</value>
+    <value>Muzică | Lyrics | Total: {0}</value>
   </data>
   <data name="filter_distortion_text" xml:space="preserve">
-    <value>Successfully cleared the `Distortion` filter.</value>
+    <value>Filtrul `Distortion` a fost șters cu succes.</value>
   </data>
   <data name="audit_timeout" xml:space="preserve">
-    <value>Timeout Command: {0}</value>
+    <value>Comandă Timeout: {0}</value>
   </data>
   <data name="purge_reactions" xml:space="preserve">
-    <value>**Reactions purged by {0} in &lt;#{1}&gt;** for {2} messages.</value>
+    <value>**Reacții șterse de {0} în &lt;#{1}&gt;** pentru {2} mesaje.</value>
   </data>
   <data name="purge_specified" xml:space="preserve">
-    <value>Specified Amount:</value>
+    <value>Cantitate Specificată:</value>
   </data>
   <data name="filter_text_lowpass" xml:space="preserve">
-    <value>Successfully cleared the `Low Pass` filter.</value>
+    <value>Filtrul `Low Pass` a fost șters cu succes.</value>
   </data>
   <data name="filter_history_lowpass_disable" xml:space="preserve">
-    <value>disabled `low pass` filter</value>
+    <value>a dezactivat filtrul `low pass`</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
-    <value>Low Pass</value>
+    <value>Trecere Joasă</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
-    <value>enabled custom `low pass` filter</value>
+    <value>a activat filtrul personalizat `low pass`</value>
   </data>
   <data name="filter_text_karaoke" xml:space="preserve">
-    <value>Successfully cleared the `Karaoke` filter.</value>
+    <value>Filtrul `Karaoke` a fost șters cu succes.</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>Distorsiune</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
-    <value>Announcement Setup</value>
+    <value>Configurare Anunțuri</value>
   </data>
   <data name="help_select_title_2" xml:space="preserve">
-    <value>Audit Log Setup</value>
+    <value>Configurare Jurnal Audit</value>
   </data>
   <data name="help_select_title_3" xml:space="preserve">
-    <value>Auto Mod Setup</value>
+    <value>Configurare AutoMod</value>
   </data>
   <data name="help_select_title_4" xml:space="preserve">
-    <value>Auto Role Setup</value>
+    <value>Configurare Rol Automat</value>
   </data>
   <data name="help_select_title_5" xml:space="preserve">
-    <value>Commands</value>
+    <value>Comenzi</value>
   </data>
   <data name="CoreCommands_HelpAsync_Custom_Command_Setup" xml:space="preserve">
-    <value>Custom Command Setup</value>
+    <value>Configurare Comenzi Personalizate</value>
   </data>
   <data name="CoreCommands_HelpAsync_Documentation" xml:space="preserve">
-    <value>Documentation</value>
+    <value>Documentație</value>
   </data>
   <data name="CoreCommands_HelpAsync_FAQ" xml:space="preserve">
-    <value>FAQ</value>
+    <value>Întrebări Frecvente</value>
   </data>
   <data name="CoreCommands_HelpAsync_Music_Usage" xml:space="preserve">
-    <value>Music Usage</value>
+    <value>Utilizare Muzică</value>
   </data>
   <data name="CoreCommands_HelpAsync_Persistent_Role_Setup" xml:space="preserve">
-    <value>Persistent Role Setup</value>
+    <value>Configurare Rol Persistent</value>
   </data>
   <data name="CoreCommands_HelpAsync_Report_a_Bug" xml:space="preserve">
-    <value>Report a Bug</value>
+    <value>Raportează o Problemă</value>
   </data>
   <data name="CoreCommands_HelpAsync_Setup" xml:space="preserve">
-    <value>Setup</value>
+    <value>Configurare</value>
   </data>
   <data name="CoreCommands_HelpAsync_Support_Ticket_Setup" xml:space="preserve">
-    <value>Support Ticket Setup</value>
+    <value>Configurare Tichet Suport</value>
   </data>
   <data name="CoreCommands_HelpAsync_Troubleshooting" xml:space="preserve">
-    <value>Troubleshooting</value>
+    <value>Depanare</value>
   </data>
   <data name="help_select_description_6" xml:space="preserve">
-    <value>Get a link to our custom command guide.</value>
+    <value>Obțineți un link către ghidul nostru de comenzi personalizate.</value>
   </data>
   <data name="help_select_description_5" xml:space="preserve">
-    <value>Get a link to our commands.</value>
+    <value>Obțineți un link către comenzile noastre.</value>
   </data>
   <data name="help_select_description_4" xml:space="preserve">
-    <value>Get a link to our auto role guide.</value>
+    <value>Obțineți un link către ghidul nostru de rol automat.</value>
   </data>
   <data name="help_select_description_3" xml:space="preserve">
-    <value>Get a link to our auto mod guide.</value>
+    <value>Obțineți un link către ghidul nostru de mod automat.</value>
   </data>
   <data name="help_select_description_2" xml:space="preserve">
-    <value>Get a link to our audit log guide.</value>
+    <value>Obțineți un link către ghidul nostru de jurnal de audit.</value>
   </data>
   <data name="help_select_description_1" xml:space="preserve">
-    <value>Get a link to our announcement guide.</value>
+    <value>Obțineți un link către ghidul nostru de anunțuri.</value>
   </data>
   <data name="help_select_description_7" xml:space="preserve">
-    <value>Get a link to our documentation.</value>
+    <value>Obțineți un link către documentația noastră.</value>
   </data>
   <data name="help_select_description_8" xml:space="preserve">
-    <value>Get a link to our FAQ.</value>
+    <value>Obțineți un link către întrebările frecvente.</value>
   </data>
   <data name="help_select_description_9" xml:space="preserve">
-    <value>Get a link to our basic music guide.</value>
+    <value>Obțineți un link către ghidul nostru de muzică de bază.</value>
   </data>
   <data name="help_select_description_10" xml:space="preserve">
-    <value>Get a link to our persistent role guide.</value>
+    <value>Obțineți un link către ghidul nostru de rol persistent.</value>
   </data>
   <data name="help_select_description_11" xml:space="preserve">
-    <value>Get a link to report a bug to our dev team.</value>
+    <value>Obțineți un link pentru a raporta o problemă echipei noastre de dezvoltare.</value>
   </data>
   <data name="help_select_description_12" xml:space="preserve">
-    <value>Get a link to {0}'s setup information.</value>
+    <value>Obțineți un link la informații de configurare pentru {0}.</value>
   </data>
   <data name="help_select_description_13" xml:space="preserve">
-    <value>Get a link to our Support Discord.</value>
+    <value>Obțineți un link către Discord-ul nostru de suport.</value>
   </data>
   <data name="help_select_description_14" xml:space="preserve">
-    <value>Get a link to our support ticket guide.</value>
+    <value>Obțineți un link către ghidul nostru de tichet de suport.</value>
   </data>
   <data name="help_select_description_15" xml:space="preserve">
-    <value>Get a link to our troubleshooting guide.</value>
+    <value>Obțineți un link către ghidul nostru de depanare.</value>
   </data>
   <data name="core_help_title" xml:space="preserve">
-    <value>Core | Command Help</value>
+    <value>Core | Ajutor Comenzi</value>
   </data>
   <data name="core_title_invite" xml:space="preserve">
     <value>Core | Invitare</value>
@@ -3838,7 +3871,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Misc | Google |</value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
-    <value>Misc | Wiki</value>
+    <value>Diverse | Wiki</value>
   </data>
   <data name="misc_title_image" xml:space="preserve">
     <value>Misc | Imagine |</value>
@@ -3991,7 +4024,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Sticker | {0}</value>
   </data>
   <data name="FilterCommand_DistortionAsync_" xml:space="preserve">
-    <value>disabled `distortion` filter</value>
+    <value>filtru `distortion` dezactivat</value>
   </data>
   <data name="FilterCommand_DistortionAsync_enable" xml:space="preserve">
     <value>filtru `distortion` personalizat activat</value>
@@ -4087,13 +4120,13 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>AutoMod - Phishing</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Sticker_Spam" xml:space="preserve">
-    <value>AutoMod - Sticker Spam</value>
+    <value>AutoMod - Spam Sticker</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Spoiler_Spam" xml:space="preserve">
-    <value>AutoMod - Spoiler Spam</value>
+    <value>AutoMod - Spam Spoiler</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Zalgo_Text" xml:space="preserve">
-    <value>AutoMod - Zalgo Text</value>
+    <value>AutoMod - Text Zalgo</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Capitalization" xml:space="preserve">
     <value>AutoMod - Capitalizare masivă</value>
@@ -4409,156 +4442,158 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Filtre Aplicate:</value>
   </data>
   <data name="MusicCommands_NowPlaying_Player_History_" xml:space="preserve">
-    <value>Player History:</value>
+    <value>Istoricul Playerului:</value>
   </data>
   <data name="MinecraftCommands_ServerQuery_You_must_specify_either_a_type_or_a_port_" xml:space="preserve">
-    <value>You must specify either a type or a port.</value>
+    <value>Trebuie să specificați fie un tip, fie un port.</value>
   </data>
   <data name="GuildContextMenu_GetUserInfo___Error____Unable_to_grab_user_info_" xml:space="preserve">
-    <value>**Error:** Unable to grab user info.</value>
+    <value>**Eroare:** Nu s-au putut obține informațiile utilizatorului.</value>
   </data>
   <data name="GitPreviewService_GitIssuePreview_Closed_By_" xml:space="preserve">
-    <value>Closed By:</value>
+    <value>Închis De:</value>
   </data>
   <data name="ContributorButton_Contributors_Former_Staff_" xml:space="preserve">
-    <value>Former Staff:</value>
+    <value>Staff Anterior:</value>
   </data>
   <data name="GitPreviewService_GitPrPreview_Checks_" xml:space="preserve">
-    <value>Checks:</value>
+    <value>Verificări:</value>
   </data>
   <data name="SelectionMenuHandler_SelfRoles_Cleared_selection_menu__No_roles_were_modified_" xml:space="preserve">
-    <value>Cleared selection menu. No roles were modified.</value>
+    <value>Meniu de selecție șters. Nu au fost modificate roluri.</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___Missing_Base64___Failed_to_generate_image_" xml:space="preserve">
-    <value>Imagine Error | Missing Base64 - Failed to generate image.</value>
+    <value>Eroare Imagine | Base64 Lipsă - Nu s-a putut genera imaginea.</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Unknown_Error" xml:space="preserve">
-    <value>SD Error | Unknown Error</value>
+    <value>Eroare SD | Eroare Necunoscută</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_Prompt" xml:space="preserve">
-    <value>SD Error | Invalid Prompt</value>
+    <value>Eroare SD | Prompt Invalid</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Insufficient_balance" xml:space="preserve">
-    <value>SD Error | Insufficient balance</value>
+    <value>Eroare SD | Sold Insuficient</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_API_Response" xml:space="preserve">
-    <value>SD Error | Invalid API Response</value>
+    <value>Eroare SD | Răspuns API Invalid</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___No_Artifacts___Failed_to_generate_image_" xml:space="preserve">
-    <value>Imagine Error | No Artifacts - Failed to generate image.</value>
+    <value>Imagine Error | No Artifacts - Nu s-a putut genera imaginea.</value>
   </data>
   <data name="LevelingCommands_Leaderboard_No_valid_users_to_show_on_the_leaderboard_" xml:space="preserve">
-    <value>No valid users to show on the leaderboard.</value>
+    <value>Niciun utilizator valid pentru a afișa pe clasament.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_missing_some_users__downloading_pelase_wait___" xml:space="preserve">
-    <value>Cache missing some users, downloading pelase wait...</value>
+    <value>Cache-ului îi lipsesc niște utilizatori, se descarcă, vă rugăm așteptați...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_download_complete__continuing___" xml:space="preserve">
-    <value>Cache download complete, continuing...</value>
+    <value>Descărcarea cache-ului completă, se continuă...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_" xml:space="preserve">
-    <value>`{0}` boosted users found.
-</value>
+    <value>`{0}` utilizatori care au acordat boost găsiți.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_2" xml:space="preserve">
-    <value>Added `{0}` missing users to the database.</value>
+    <value>`{0}` utilizatori lipsă adăugați în baza de date.</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__This_import_method_requires_a_community_export_json_file__Read_more_here__https___xp_bot_net_blog_b1728227181194p" xml:space="preserve">
-    <value>Error: This import method requires a community export json file. Read more here: https://xp-bot.net/blog/b1728227181194p</value>
+    <value>Eroare: Această metodă de import necesită un fișier json de export comunității. Citiți mai mult aici: https://xp-bot.net/blog/b1728227181194p</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__Invalid_file_type__must_be_json_" xml:space="preserve">
-    <value>Error: Invalid file type, must be json.</value>
+    <value>Eroare: Tip de fișier nevalid, trebuie să fie json.</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__File_is_empty_" xml:space="preserve">
-    <value>Error: File is empty.</value>
+    <value>Eroare: Fișierul este gol.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_link_is_invalid_" xml:space="preserve">
-    <value>Message link is invalid.</value>
+    <value>Linkul mesajului este nevalid.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_ID_is_invalid_" xml:space="preserve">
-    <value>Message ID is invalid.</value>
+    <value>ID-ul mesajului este nevalid.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Channel_does_not_exist_in_this_guild_" xml:space="preserve">
-    <value>Channel does not exist in this guild.</value>
+    <value>Canalul nu există în acest server.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
-    <value>Message does not exist in this channel.</value>
+    <value>Mesajul nu există în acest canal.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
-    <value>{0} of the Day!</value>
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>Discuție {0}</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
+    <value>{0} al Zilei!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
-    <value>Time in Channel:</value>
+    <value>Timp în Canal:</value>
   </data>
   <data name="minefield_cashout_perfect" xml:space="preserve">
-    <value>Perfect! 🎯 You cleared the minefield and earned a doubled reward of {1} from {0} safe tiles!</value>
+    <value>Perfect! 🎯 Ați curățat câmpul minat și ați câștigat o recompensă dublă de {1} din {0} plăci sigure!</value>
   </data>
   <data name="user_monitored_roles_modified_title" xml:space="preserve">
-    <value>User Monitored Roles Modified</value>
+    <value>Roluri Monitorizate Utilizator Modificate</value>
   </data>
   <data name="user_roles_modified_title_monitored" xml:space="preserve">
-    <value>User Monitored Role Modified</value>
+    <value>Rol Monitorizat Utilizator Modificat</value>
   </data>
   <data name="audit_guild_tag" xml:space="preserve">
-    <value>&lt;@{0}&gt;**'s guild tag changed**</value>
+    <value>&lt;@{0}&gt;**eticheta serverului s-a schimbat**</value>
   </data>
   <data name="generic_modify" xml:space="preserve">
-    <value>Modify</value>
+    <value>Modifică</value>
   </data>
   <data name="giveaway_create" xml:space="preserve">
-    <value>Create Giveaway</value>
+    <value>Creează Giveaway</value>
   </data>
   <data name="giveaway_cancel" xml:space="preserve">
-    <value>Cancel Giveaway</value>
+    <value>Anulează Giveaway</value>
   </data>
   <data name="giveaway_builder_title" xml:space="preserve">
-    <value># Giveaway Builder</value>
+    <value># Constructor Giveaway</value>
   </data>
   <data name="generic_value_updated" xml:space="preserve">
-    <value>Successfully updated value.</value>
+    <value>Valoare actualizată cu succes.</value>
   </data>
   <data name="giveaway_image_invalid" xml:space="preserve">
-    <value>Invalid image URL.</value>
+    <value>URL imagine nevalid.</value>
   </data>
   <data name="giveaways_entries" xml:space="preserve">
-    <value>Entries:</value>
+    <value>Intrări:</value>
   </data>
   <data name="giveaway_winners_2" xml:space="preserve">
-    <value>Winners:</value>
+    <value>Câștigători:</value>
   </data>
   <data name="giveaway_prize" xml:space="preserve">
-    <value>Prize:</value>
+    <value>Premiu:</value>
   </data>
   <data name="giveaway_required_xp" xml:space="preserve">
-    <value>Required XP Level:</value>
+    <value>Nivel XP Necesar:</value>
   </data>
   <data name="giveaway_required_role" xml:space="preserve">
-    <value>Required Role:</value>
+    <value>Rol Necesar:</value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_prize" xml:space="preserve">
-    <value>**Prize:** </value>
+    <value>**Premiu:** </value>
     <comment>DO_NOT_MODIFY</comment>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_description" xml:space="preserve">
-    <value>**Description:** </value>
+    <value>**Descriere:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_winners" xml:space="preserve">
-    <value>**Winners:** </value>
+    <value>**Câștigători:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_duration" xml:space="preserve">
-    <value>**Duration:** </value>
+    <value>**Durată:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_image" xml:space="preserve">
-    <value>**Image URL (optional):** </value>
+    <value>**URL Imagine (opțional):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_xp_level" xml:space="preserve">
-    <value>**Required XP Level (optional):** </value>
+    <value>**Nivel XP Necesar (opțional):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_ping_role" xml:space="preserve">
-    <value>**Ping Role (optional):** </value>
+    <value>**Ping Rol (opțional):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_required_role" xml:space="preserve">
-    <value>**Required Role (optional):** </value>
+    <value>**Rol Necesar (opțional):** </value>
   </data>
   <data name="giveaway_ping_role" xml:space="preserve">
     <value>Selectează un rol pentru a fi menționat la tombolă.</value>
@@ -4615,7 +4650,7 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
     <value>Limita Utilizatorilor:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Bitrate" xml:space="preserve">
-    <value>Bitrate:</value>
+    <value>Rată de biți:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Video_Stream_Quality" xml:space="preserve">
     <value>Calitate Flux Video:</value>
@@ -4640,5 +4675,92 @@ Dacă te retragi acum, vei câștiga: **{3}**</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>Emoji Reacție:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Honey Pot Declanșat</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## NU TRIMITEȚI MESAJE ÎN ACEST CANAL
+Acest canal este folosit pentru a prinde roboți de spam. Orice mesaje trimise aici vor avea ca rezultat un **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Declanșări: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: Honey pot canal declanșat</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 oră)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>expulzare</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>interdicție temporară</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>interdicție</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Atașamente:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>Jocul de numărat nu a fost încă configurat pe acest server.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>Starea Jocului de Numărat</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Numărul Curent:** {0}
+**Numărul Următor:** {1}
+**Deținut Momentan De:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Încă nimeni — fii primul care numără!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Statistici ale Jocului de Numărat</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Cel Mai Mare Număr Atins Vreodată:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Rolul Tău de Întrerupere</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>Acest server nu are un rol de întrerupere configurat pentru jocul de numărat.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Nu deții momentan rolul de întrerupere al jocului de numărat.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Deții momentan {0} pentru că ai întrerupt numărătoarea. Această atribuire este **permanentă**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Deții momentan {0} pentru că ai întrerupt numărătoarea. Va fi eliminat {1}.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Rolul de Întrerupere al Jocului de Numărat</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>Niciun rol de întrerupere nu este configurat — întreruperea numărătorii nu are momentan nicio consecință de rol pe acest server.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Întreruperea numărătorii atribuie {0}. Această atribuire este **permanentă**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Întreruperea numărătorii atribuie {0} pentru **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} minute</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} ore</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} zile</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Panou #{0}</value>
   </data>
 </root>

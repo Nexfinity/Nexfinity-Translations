@@ -592,10 +592,10 @@
     <value>```Server Eigenaar```</value>
   </data>
   <data name="info_string_74" xml:space="preserve">
-    <value>```Server Admin```</value>
+    <value>```Serverbeheerder```</value>
   </data>
   <data name="info_string_75" xml:space="preserve">
-    <value>```Server Moderator```</value>
+    <value>```Servermoderator```</value>
   </data>
   <data name="info_string_77" xml:space="preserve">
     <value>{0} Versnellers</value>
@@ -640,7 +640,7 @@
     <value>Eindigde</value>
   </data>
   <data name="misc_anime_synopsis" xml:space="preserve">
-    <value>Synopsis:</value>
+    <value>Samenvatting:</value>
   </data>
   <data name="misc_manga_status_ip" xml:space="preserve">
     <value>Voortgang</value>
@@ -761,6 +761,9 @@
   </data>
   <data name="music_volume_3" xml:space="preserve">
     <value>Volume met succes ingesteld op: `{0}`</value>
+  </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Standaardvolume succesvol ingesteld op: `{0}`</value>
   </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] is overgeslagen.</value>
@@ -1139,7 +1142,7 @@ Als je een lijst zoekt van bot commando's en hoe ze werken, klik op de `Bot Comm
     <value>Bot Commando's</value>
   </data>
   <data name="core_dashboard" xml:space="preserve">
-    <value>Web Dashboard</value>
+    <value>Webdashboard</value>
   </data>
   <data name="core_docs" xml:space="preserve">
     <value>Wiki</value>
@@ -1148,7 +1151,7 @@ Als je een lijst zoekt van bot commando's en hoe ze werken, klik op de `Bot Comm
     <value>Ondersteuning Discord</value>
   </data>
   <data name="core_bot_invite" xml:space="preserve">
-    <value>Bot Invite Link</value>
+    <value>Bot Uitnodigingslink</value>
   </data>
   <data name="core_donate" xml:space="preserve">
     <value>Premium</value>
@@ -1289,7 +1292,7 @@ Als je een lijst zoekt van bot commando's en hoe ze werken, klik op de `Bot Comm
     <value>Woorden dupliceren</value>
   </data>
   <data name="automod_check_auto_dehoist" xml:space="preserve">
-    <value>Auto Dehoist</value>
+    <value>Automatisch Dehoist</value>
   </data>
   <data name="automod_embed_violation" xml:space="preserve">
     <value>Overtreding:</value>
@@ -1623,7 +1626,7 @@ Opmerking: "Server beheren" toegang vereist.</value>
     <value>De titel van het nummer bevat een woord dat op de zwarte lijst staat van de serverbeheerders.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube is niet langer een ondersteunde bron vanwege het Discord beleid. Je kunt nog steeds ruwe zoekopdrachten gebruiken zoals `epic music` of muziek afspelen van een van onze vele andere [ondersteunde bronnen] (https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>YouTube is niet langer een ondersteunde bron vanwege het Discord beleid. Je kunt nog steeds ruwe zoekopdrachten gebruiken zoals `epic music` of muziek afspelen van een van onze vele andere [ondersteunde bronnen] (https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>Uitgetimed `{0}` tot &lt;t:{1}:R&gt;.</value>
@@ -1958,6 +1961,9 @@ Opmerking: "Server beheren" toegang vereist.</value>
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>Kan de opgegeven datum niet ontleden.</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Dat is geen geldige tijdzone. Gebruik een IANA-id, bijv. `America/New_York` of `Europe/London`.</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>Bericht moet tekstinhoud hebben om te analyseren.</value>
@@ -2484,15 +2490,6 @@ Opmerking: Er wordt een bericht verzonden wanneer dit voltooid is.</value>
   <data name="role_invalid" xml:space="preserve">
     <value>Ongeldige Rol</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Beschikbare zelfrol succesvol verwijderd.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>Succesvol `{0}` toegevoegd als zelfrol.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>Rol bestaat al als zelfrol.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Ongeldige gebruiker.</value>
   </data>
@@ -2613,6 +2610,21 @@ Klik alstublieft op de knop hieronder om je account te verifiëren voordat je de
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Draad succesvol gemaakt.</value>
   </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Gemarkeerd als duplicaat door: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>In beoordeling door: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Je hebt de Server beheren-permissie of Beheerder-permissie nodig om over suggesties te beslissen.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>Die suggestie kon niet worden gevonden. Controleer de berichtlink of ID en probeer het opnieuw.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>Deze server heeft nog geen suggestiekanaal ingesteld. Een beheerder moet er eerst een instellen in het dashboard voordat suggesties kunnen worden aangemaakt - zie {0} voor installatie-instructies.</value>
+  </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>Geldoverdrachten tussen gebruikers zijn uitgeschakeld door de serverbeheerders.</value>
   </data>
@@ -2673,7 +2685,7 @@ Klik alstublieft op de knop hieronder om je account te verifiëren voordat je de
     <value>Opt-out-status succesvol ingeschakeld. Huidige status: `{0}`.</value>
   </data>
   <data name="streaks_top" xml:space="preserve">
-    <value>Top Streaks</value>
+    <value>Top Reeksen</value>
   </data>
   <data name="streaks_current" xml:space="preserve">
     <value>Huidige Streak</value>
@@ -2697,16 +2709,16 @@ Klik alstublieft op de knop hieronder om je account te verifiëren voordat je de
     <value>Your streak will be reset to 1 in 12 hours if you don't send a message in `{0}` ({1}).</value>
   </data>
   <data name="streaks_reset" xml:space="preserve">
-    <value>Streak Reset</value>
+    <value>Reeks Reset</value>
   </data>
   <data name="streaks_reminder_reset" xml:space="preserve">
     <value>Je streak is gereset naar 1 omdat je niet binnen de vereiste tijdsperiode een bericht hebt verzonden. Betreffende server: `{0}` ({1})</value>
   </data>
   <data name="generic_opt_out" xml:space="preserve">
-    <value>Opt-Out</value>
+    <value>Uitschakelen</value>
   </data>
   <data name="generic_opt_in" xml:space="preserve">
-    <value>Opt-In</value>
+    <value>Inschakelen</value>
   </data>
   <data name="error_ephemeral" xml:space="preserve">
     <value>Deze actie kan niet op een ephemeral bericht worden uitgevoerd.</value>
@@ -3037,7 +3049,7 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>trackvolume ingesteld op `{0}`</value>
   </data>
   <data name="suggestion_thread_name" xml:space="preserve">
-    <value>Suggestion Discussion Thread</value>
+    <value>Suggestie Discussie Thread</value>
   </data>
   <data name="suggestion_denied" xml:space="preserve">
     <value>Afgewezen door</value>
@@ -3121,10 +3133,10 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Ban Sync | Gebruiker Ontbannen</value>
   </data>
   <data name="auditlog_leveling" xml:space="preserve">
-    <value>Leveling</value>
+    <value>Levels</value>
   </data>
   <data name="leveling_title" xml:space="preserve">
-    <value>Level Up!</value>
+    <value>Level Omhoog!</value>
   </data>
   <data name="audit_reason_tempban" xml:space="preserve">
     <value>Verwijder Tijdelijk Ban</value>
@@ -3136,7 +3148,7 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Nieuwe Cheer!</value>
   </data>
   <data name="twitch_feed_title" xml:space="preserve">
-    <value>{0} | Twitch Alerts</value>
+    <value>{0} | Twitch Waarschuwingen</value>
   </data>
   <data name="twitch_follower_title" xml:space="preserve">
     <value>Nieuwe Volger!</value>
@@ -3331,10 +3343,10 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Origineel Bericht</value>
   </data>
   <data name="audit_streaks" xml:space="preserve">
-    <value>Streaks</value>
+    <value>Reeksen</value>
   </data>
   <data name="audit_achievements" xml:space="preserve">
-    <value>Achievements</value>
+    <value>Prestaties</value>
   </data>
   <data name="audit_warn_punish" xml:space="preserve">
     <value>Waarschuwing Auto Straf: {0}</value>
@@ -3370,7 +3382,7 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Mute Commando: {0}</value>
   </data>
   <data name="audit_auto_responder" xml:space="preserve">
-    <value>Auto Responder: {0}</value>
+    <value>Auto Reactie: {0}</value>
   </data>
   <data name="audit_bulk_remove_role" xml:space="preserve">
     <value>Bulk Verwijder Rol Commando</value>
@@ -3394,7 +3406,7 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Verwijder Rol Commando</value>
   </data>
   <data name="ai_error_title" xml:space="preserve">
-    <value>Core | AI Chat Bot</value>
+    <value>Core | AI Chatbot</value>
   </data>
   <data name="ai_invalid_key" xml:space="preserve">
     <value>Fout: Ongeldige API-sleutel. Je kunt je API-sleutel vinden op https://platform.openai.com/account/api-keys.</value>
@@ -3472,31 +3484,31 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Commits:</value>
   </data>
   <data name="github_draft" xml:space="preserve">
-    <value>Is Draft:</value>
+    <value>Is concept:</value>
   </data>
   <data name="github_auto_merge" xml:space="preserve">
-    <value>Auto Merge:</value>
+    <value>Automatisch samenvoegen:</value>
   </data>
   <data name="github_merge" xml:space="preserve">
-    <value>Is Merged:</value>
+    <value>Is samengevoegd:</value>
   </data>
   <data name="github_mergeable" xml:space="preserve">
-    <value>Is Mergeable:</value>
+    <value>Is samenvoegbaar:</value>
   </data>
   <data name="github_merge_state" xml:space="preserve">
-    <value>Mergeable State:</value>
+    <value>Samenvoegbare status:</value>
   </data>
   <data name="github_modifications" xml:space="preserve">
-    <value>Modifications:</value>
+    <value>Wijzigingen:</value>
   </data>
   <data name="github_merged_by" xml:space="preserve">
-    <value>Merged By:</value>
+    <value>Samengevoegd door:</value>
   </data>
   <data name="generic_false" xml:space="preserve">
-    <value>False</value>
+    <value>Onwaar</value>
   </data>
   <data name="github_merged" xml:space="preserve">
-    <value> (Merged)</value>
+    <value> (Samengevoegd)</value>
   </data>
   <data name="giveaways_hosted_by" xml:space="preserve">
     <value>Gehost door:</value>
@@ -3604,9 +3616,6 @@ Als je nu uitcasht, win je: **{3}**</value>
   <data name="automod_sus_join" xml:space="preserve">
     <value>Verdachte Deelname</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Je hebt het maximum aantal zelfgekozen rollen bereikt ({0}).</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Embed succesvol gegenereerd.</value>
   </data>
@@ -3638,7 +3647,7 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Muziek | Info</value>
   </data>
   <data name="emote_title" xml:space="preserve">
-    <value>Top 10 Emotes</value>
+    <value>Top 10 Emoticons</value>
   </data>
   <data name="achievement_title_progress" xml:space="preserve">
     <value>Achievement | Gebruikersvoortgang</value>
@@ -3662,25 +3671,49 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Top Algehele Emote:</value>
   </data>
   <data name="emote_stats_unicode" xml:space="preserve">
-    <value>Top Unicode Emote:</value>
+    <value>Top Unicode Emoticon:</value>
   </data>
   <data name="emote_stats_custom" xml:space="preserve">
     <value>Top Aangepaste Emote:</value>
   </data>
   <data name="emote_stats_uses" xml:space="preserve">
-    <value>```{0} uses```</value>
+    <value>```{0} keer gebruikt```</value>
   </data>
   <data name="emote_stats_emotes" xml:space="preserve">
-    <value>```{0} emotes```</value>
+    <value>```{0} emoticons```</value>
   </data>
   <data name="emote_stats_uses_per" xml:space="preserve">
-    <value>```{0} uses per emote```</value>
+    <value>```{0} uses per emoticon```</value>
   </data>
   <data name="support_title" xml:space="preserve">
     <value>Ondersteuningsteam Antwoord</value>
   </data>
   <data name="selfrole_title_list" xml:space="preserve">
     <value>Zelfrol | Lijst</value>
+  </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>De volgende rol(len) zijn verwijderd vanwege een rolgroeplimiet: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Uniek</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Meervoudige selectie, tot {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>vereist @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>vereist level {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>Je hebt de rol {0} ({1}) nodig om een rol uit de groep '{2}' te claimen.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>De vereiste rol van groep '{0}' bestaat niet meer. Een beheerder moet een nieuwe vereiste rol instellen (of de vereiste verwijderen) voordat iemand een rol uit deze groep kan claimen.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>Je moet minimaal level {0}+ zijn om een rol uit de groep '{1}' te claimen.</value>
   </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Muziek | Wachtrij</value>
@@ -3695,7 +3728,7 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Succesfully cleared the `Distortion` filter.</value>
   </data>
   <data name="audit_timeout" xml:space="preserve">
-    <value>Timeout Command: {0}</value>
+    <value>Timeout Commando: {0}</value>
   </data>
   <data name="purge_reactions" xml:space="preserve">
     <value>**Reacties verwijderd door {0} in &lt;#{1}&gt;** voor {2} berichten.</value>
@@ -3704,22 +3737,22 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Opgegeven Aantal:</value>
   </data>
   <data name="filter_text_lowpass" xml:space="preserve">
-    <value>Successfully cleared the `Low Pass` filter.</value>
+    <value>Het `Low Pass`-filter is succesvol verwijderd.</value>
   </data>
   <data name="filter_history_lowpass_disable" xml:space="preserve">
-    <value>disabled `low pass` filter</value>
+    <value>`low pass`-filter uitgeschakeld</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
     <value>Low Pass</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
-    <value>enabled custom `low pass` filter</value>
+    <value>aangepast `low pass`-filter ingeschakeld</value>
   </data>
   <data name="filter_text_karaoke" xml:space="preserve">
-    <value>Successfully cleared the `Karaoke` filter.</value>
+    <value>Het `Karaoke`-filter is succesvol verwijderd.</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>Vervorming</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
     <value>Aankondigingsinstelling</value>
@@ -3836,10 +3869,10 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Core | Bot Commando's</value>
   </data>
   <data name="misc_title_google" xml:space="preserve">
-    <value>Misc | Google | </value>
+    <value>Overig | Google | </value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
-    <value>Misc | Wiki</value>
+    <value>Overig | Wiki</value>
   </data>
   <data name="misc_title_image" xml:space="preserve">
     <value>Misc | Afbeelding | </value>
@@ -3866,7 +3899,7 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Info | Medewerkers</value>
   </data>
   <data name="achievement_title" xml:space="preserve">
-    <value>Achievement | </value>
+    <value>Prestatie | </value>
   </data>
   <data name="ContributorButton_Contributors_Developers_" xml:space="preserve">
     <value>Ontwikkelaars:</value>
@@ -3905,7 +3938,7 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Statistieken</value>
   </data>
   <data name="SearchCommand_Search_Misc___XKCD___" xml:space="preserve">
-    <value>Misc | XKCD | </value>
+    <value>Overig | XKCD | </value>
   </data>
   <data name="SearchCommand_Search_ID__" xml:space="preserve">
     <value>ID: </value>
@@ -3920,606 +3953,608 @@ Als je nu uitcasht, win je: **{3}**</value>
     <value>Totale Resultaten: {0} • Zoektijd: {1}</value>
   </data>
   <data name="ContributorButton_Contributors_Staff_" xml:space="preserve">
-    <value>Staff:</value>
+    <value>Staf:</value>
   </data>
   <data name="ContributorButton_Contributors_Former_Developers_" xml:space="preserve">
-    <value>Former Developers:</value>
+    <value>Voormalige Ontwikkelaars:</value>
   </data>
   <data name="ContributorButton_Contributors_Other_Misc_" xml:space="preserve">
-    <value>Other/Misc.</value>
+    <value>Overig/Diversen</value>
   </data>
   <data name="ContributorButton_Contributors_Translators_" xml:space="preserve">
-    <value>Translators:</value>
+    <value>Vertalers:</value>
   </data>
   <data name="SongRequestButtons_SongRequestPause_Music___Resume" xml:space="preserve">
-    <value>Music | Resume</value>
+    <value>Muziek | Hervatten</value>
   </data>
   <data name="avatar_title" xml:space="preserve">
     <value>Info | {0}</value>
   </data>
   <data name="SongRequestButtons_SongRequestPause_Music___Pause" xml:space="preserve">
-    <value>Music | Pause</value>
+    <value>Muziek | Pauzeren</value>
   </data>
   <data name="SongRequestButtons_SongRequestSkip_Music___Vote_Skip" xml:space="preserve">
-    <value>Music | Vote Skip</value>
+    <value>Muziek | Vote Skip</value>
   </data>
   <data name="ColorCommand_ShowColorAsync_Misc___Color" xml:space="preserve">
-    <value>Misc | Color</value>
+    <value>Misc | Kleur</value>
   </data>
   <data name="PollCommand_PollAdvanced_Games___Poll" xml:space="preserve">
-    <value>Games | Poll</value>
+    <value>Games | Peiling</value>
   </data>
   <data name="SongRequestButtons_SongRequestStop_Music___Disconnect" xml:space="preserve">
-    <value>Music | Disconnect</value>
+    <value>Muziek | Verbreken</value>
   </data>
   <data name="EconomyCommand_Rps_Economy___Rock__Paper__Scissors" xml:space="preserve">
-    <value>Economy | Rock, Paper, Scissors</value>
+    <value>Economy | Steen, Papier, Schaar</value>
   </data>
   <data name="EconomyCommand_SplitOrSteal_Economy___Split_or_Steal" xml:space="preserve">
-    <value>Economy | Split or Steal</value>
+    <value>Economy | Delen of Stelen</value>
   </data>
   <data name="SongRequestButtons_SongRequestLoop_Music___Loop" xml:space="preserve">
-    <value>Music | Loop</value>
+    <value>Muziek | Herhalen</value>
   </data>
   <data name="EconomyCommand_Items_Economy___Owned_Items" xml:space="preserve">
-    <value>Economy | Owned Items</value>
+    <value>Economy | Bezeten Items</value>
   </data>
   <data name="SongRequestButtons_SongRequestRewind_Music___Rewind" xml:space="preserve">
-    <value>Music | Rewind</value>
+    <value>Muziek | Terugspoelen</value>
   </data>
   <data name="GameGuildCommands_HandleSuggestionModal_Suggestion___" xml:space="preserve">
-    <value>Suggestion | </value>
+    <value>Suggestie | </value>
   </data>
   <data name="GenerateImageCommand_Pride_Image_Man___Pride" xml:space="preserve">
-    <value>Image Man | Pride</value>
+    <value>Afbeelding Man | Pride</value>
   </data>
   <data name="InfoCommands_AboutAsync_Info___About" xml:space="preserve">
-    <value>Info | About</value>
+    <value>Info | Over</value>
   </data>
   <data name="MinecraftCommands_ServerQuery_Utilities___Server" xml:space="preserve">
-    <value>Utilities | Server</value>
+    <value>Hulpmiddelen | Server</value>
   </data>
   <data name="InfoGuildCommands_ServerInfoAsync_Info____0__Server_Info" xml:space="preserve">
-    <value>Info | {0} Server Info</value>
+    <value>Info | {0} Server-info</value>
   </data>
   <data name="ReminderCommand_List_Reminder___List" xml:space="preserve">
-    <value>Reminder | List</value>
+    <value>Herinnering | Lijst</value>
   </data>
   <data name="SearchCommand_Search_Misc___Anime" xml:space="preserve">
-    <value>Misc | Anime</value>
+    <value>Overig | Anime</value>
   </data>
   <data name="StickerCommand_DownloadAsync_Sticker____0_" xml:space="preserve">
     <value>Sticker | {0}</value>
   </data>
   <data name="FilterCommand_DistortionAsync_" xml:space="preserve">
-    <value>disabled `distortion` filter</value>
+    <value>`distortion`-filter uitgeschakeld</value>
   </data>
   <data name="FilterCommand_DistortionAsync_enable" xml:space="preserve">
-    <value>enabled custom `distortion` filter</value>
+    <value>aangepast `distortion`-filter ingeschakeld</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_disable" xml:space="preserve">
-    <value>disabled `karaoke` filter</value>
+    <value>`karaoke`-filter uitgeschakeld</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_enable" xml:space="preserve">
-    <value>enabled custom `karaoke` filter</value>
+    <value>aangepast `karaoke`-filter ingeschakeld</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
   <data name="FilterCommand_RotationAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Rotation` filter.</value>
+    <value>Het `Rotation`-filter is succesvol verwijderd.</value>
   </data>
   <data name="FilterCommand_RotationAsync_disable" xml:space="preserve">
-    <value>disabled `rotation` filter</value>
+    <value>uitgeschakelde `rotation` filter</value>
   </data>
   <data name="FilterCommand_RotationAsync_Rotation" xml:space="preserve">
-    <value>Rotation</value>
+    <value>Rotatie</value>
   </data>
   <data name="FilterCommand_RotationAsync_enable" xml:space="preserve">
-    <value>enabled custom `rotation` filter</value>
+    <value>ingeschakelde aangepaste `rotation` filter</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Timescale` filter.</value>
+    <value>De `Timescale` filter is succesvol gewist.</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_disable" xml:space="preserve">
-    <value>disabled `timescale` filter</value>
+    <value>uitgeschakelde `timescale` filter</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_Timescale" xml:space="preserve">
     <value>Timescale</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_enable" xml:space="preserve">
-    <value>enabled custom `timescale` filter</value>
+    <value>ingeschakelde aangepaste `timescale` filter</value>
   </data>
   <data name="FilterCommand_TremoloAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Tremolo` filter.</value>
+    <value>De `Tremolo` filter is succesvol gewist.</value>
   </data>
   <data name="FilterCommand_TremoloAsync_disable" xml:space="preserve">
-    <value>disabled `tremolo` filter</value>
+    <value>uitgeschakelde `tremolo` filter</value>
   </data>
   <data name="FilterCommand_TremoloAsync_Tremolo" xml:space="preserve">
     <value>Tremolo</value>
   </data>
   <data name="FilterCommand_TremoloAsync_enable" xml:space="preserve">
-    <value>enabled custom `tremolo` filter</value>
+    <value>ingeschakelde aangepaste `tremolo` filter</value>
   </data>
   <data name="FilterCommand_VibratoAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Vibrato` filter.</value>
+    <value>De `Vibrato` filter is succesvol gewist.</value>
   </data>
   <data name="FilterCommand_VibratoAsync_disable" xml:space="preserve">
-    <value>disabled `vibrato` filter</value>
+    <value>uitgeschakelde `vibrato` filter</value>
   </data>
   <data name="FilterCommand_VibratoAsync_Vibrato" xml:space="preserve">
     <value>Vibrato</value>
   </data>
   <data name="FilterCommand_VibratoAsync_enable" xml:space="preserve">
-    <value>enabled custom `vibrato` filter</value>
+    <value>ingeschakelde aangepaste `vibrato` filter</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `channel mix` filter.</value>
+    <value>De `channel mix` filter is succesvol gewist.</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_disable" xml:space="preserve">
-    <value>disabled `channel mix` filter</value>
+    <value>uitgeschakelde `channel mix` filter</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_Channel_Mix" xml:space="preserve">
-    <value>Channel Mix</value>
+    <value>Kanaalmix</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_enable" xml:space="preserve">
-    <value>enabled custom `channel mix` filter</value>
+    <value>ingeschakelde aangepaste `channel mix` filter</value>
   </data>
   <data name="FilterCommand_EchoAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Echo` filter.</value>
+    <value>De `Echo` filter is succesvol gewist.</value>
   </data>
   <data name="FilterCommand_EchoAsync_disable" xml:space="preserve">
-    <value>disabled `echo` filter</value>
+    <value>uitgeschakelde `echo` filter</value>
   </data>
   <data name="FilterCommand_EchoAsync_Echo" xml:space="preserve">
     <value>Echo</value>
   </data>
   <data name="FilterCommand_EchoAsync_enable" xml:space="preserve">
-    <value>enabled custom `echo` filter</value>
+    <value>ingeschakelde aangepaste `echo` filter</value>
   </data>
   <data name="FilterCommand_NoneAsync_Successfully_cleared_all_filters_" xml:space="preserve">
-    <value>Successfully cleared all filters.</value>
+    <value>Alle filters zijn succesvol gewist.</value>
   </data>
   <data name="FilterCommand_NoneAsync_disabled_all_filters" xml:space="preserve">
-    <value>disabled all filters</value>
+    <value>alle filters uitgeschakeld</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phishing" xml:space="preserve">
     <value>AutoMod - Phishing</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Sticker_Spam" xml:space="preserve">
-    <value>AutoMod - Sticker Spam</value>
+    <value>AutoMod - Sticker-spam</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Spoiler_Spam" xml:space="preserve">
-    <value>AutoMod - Spoiler Spam</value>
+    <value>AutoMod - Spoiler-spam</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Zalgo_Text" xml:space="preserve">
-    <value>AutoMod - Zalgo Text</value>
+    <value>AutoMod - Zalgo-tekst</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Capitalization" xml:space="preserve">
-    <value>AutoMod - Mass Capitalization</value>
+    <value>AutoMod - Massa Capitalisatie</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Discord_Invites" xml:space="preserve">
-    <value>AutoMod - Discord Invites</value>
+    <value>AutoMod - Discord Uitnodigingen</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Duplicate_Words" xml:space="preserve">
-    <value>AutoMod - Duplicate Words</value>
+    <value>AutoMod - Dubbele Woorden</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Mentions" xml:space="preserve">
-    <value>AutoMod - Mass Mentions</value>
+    <value>AutoMod - Massa Vermeldingen</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Emoji" xml:space="preserve">
-    <value>AutoMod - Mass Emoji</value>
+    <value>AutoMod - Massa Emoji</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Duplicate_Characters" xml:space="preserve">
-    <value>AutoMod - Duplicate Characters</value>
+    <value>AutoMod - Dubbele Tekens</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Website_URLs" xml:space="preserve">
-    <value>AutoMod - Website URLs</value>
+    <value>AutoMod - Website URL's</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phone_Number" xml:space="preserve">
-    <value>AutoMod - Phone Number</value>
+    <value>AutoMod - Telefoonnummer</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Markdown_Headers" xml:space="preserve">
-    <value>AutoMod - Markdown Headers</value>
+    <value>AutoMod - Markdown-koppen</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Blacklisted_File_Extension" xml:space="preserve">
-    <value>AutoMod - Blacklisted File Extension</value>
+    <value>AutoMod - Geblokkeerde Bestandsextensie</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Unknown_Reason" xml:space="preserve">
-    <value>AutoMod - Unknown Reason</value>
+    <value>AutoMod - Onbekende Reden</value>
   </data>
   <data name="AutoModService_CheckMessageContent__0__Your_message_was_deleted_for_containing_a_phone_number_" xml:space="preserve">
-    <value>{0} Your message was deleted for containing a phone number.</value>
+    <value>{0} Je bericht is verwijderd omdat het een telefoonnummer bevat.</value>
   </data>
   <data name="AutoModService_CheckMessageContent_Phone_Number" xml:space="preserve">
-    <value>Phone Number</value>
+    <value>Telefoonnummer</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Warn_User" xml:space="preserve">
-    <value>Delete &amp; Warn User</value>
+    <value>Verwijderen &amp; Gebruiker Waarschuwen</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick_User" xml:space="preserve">
-    <value>Delete Message &amp; Kick User</value>
+    <value>Bericht Verwijderen &amp; Gebruiker Eruit Gooien</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick___Warn_User" xml:space="preserve">
-    <value>Delete Message &amp; Kick + Warn User</value>
+    <value>Bericht Verwijderen &amp; Eruit Gooien + Waarschuwen</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Ban_User__Delete_24h_" xml:space="preserve">
-    <value>Ban User (Delete 24h)</value>
+    <value>Gebruiker Verbannen (Verwijderen 24h)</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Timeout_User__1h_" xml:space="preserve">
-    <value>Delete &amp; Timeout User (1h)</value>
+    <value>Verwijderen &amp; Gebruiker in Timeout (1u)</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_" xml:space="preserve">
-    <value>enqueued `{0}` tracks</value>
+    <value>enqueued `{0}` nummers</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_one" xml:space="preserve">
-    <value>enqueued `1` track</value>
+    <value>enqueued `1` nummer</value>
   </data>
   <data name="music_ff_time" xml:space="preserve">
-    <value>fast forwarded track by `{0}` seconds</value>
+    <value>nummer `{0}` seconden vooruit gespoeld</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_" xml:space="preserve">
-    <value>added `{0}` tracks to queue</value>
+    <value>`{0}` nummers aan wachtrij toegevoegd</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_swapped_track__0__and__1_" xml:space="preserve">
-    <value>swapped track {0} and {1}</value>
+    <value>verwisseld track {0} en {1}</value>
   </data>
   <data name="SortQueueCommand_TitleAsync_" xml:space="preserve">
-    <value>sorted the queue by `Title - {0}`</value>
+    <value>wachtrij gesorteerd op `Titel - {0}`</value>
   </data>
   <data name="SortQueueCommand_AuthorAsync_" xml:space="preserve">
-    <value>sorted the queue by `Author - {0}`</value>
+    <value>wachtrij gesorteerd op `Auteur - {0}`</value>
   </data>
   <data name="SortQueueCommand_LengthAsync_" xml:space="preserve">
-    <value>sorted the queue by `Length - {0}`</value>
+    <value>wachtrij gesorteerd op `Lengte - {0}`</value>
   </data>
   <data name="SortQueueCommand_ReverseAsync_" xml:space="preserve">
-    <value>sorted the queue by `Reverse`</value>
+    <value>wachtrij gesorteerd op `Omgekeerd`</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_Invalid_index_" xml:space="preserve">
-    <value>Invalid index.</value>
+    <value>Ongeldig index.</value>
   </data>
   <data name="RemoveCommand_FirstAsync_" xml:space="preserve">
-    <value>removed `first` track from queue</value>
+    <value>verwijderd `eerste` track uit wachtrij</value>
   </data>
   <data name="RemoveCommand_LastAsync_" xml:space="preserve">
-    <value>removed `last` track from queue</value>
+    <value>verwijderd `laatste` track uit wachtrij</value>
   </data>
   <data name="RemoveCommand_SingleAsync_" xml:space="preserve">
-    <value>removed `{0}` track from queue</value>
+    <value>verwijderd `{0}` track uit wachtrij</value>
   </data>
   <data name="RemoveCommand_RangeAsync_" xml:space="preserve">
-    <value>removed `{0}`-`{1}` from queue</value>
+    <value>verwijderd `{0}`-`{1}` uit wachtrij</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_" xml:space="preserve">
-    <value>removed `duplicate` tracks from queue</value>
+    <value>verwijderd `dubbele` tracks uit wachtrij</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_" xml:space="preserve">
-    <value>removed `userleft` tracks from queue</value>
+    <value>verwijderd `gebruiker vertrokken` tracks uit wachtrij</value>
   </data>
   <data name="RemoveCommand_UserAsync_" xml:space="preserve">
-    <value>removed `{0}`'s tracks from queue</value>
+    <value>verwijderd tracks van `{0}` uit wachtrij</value>
   </data>
   <data name="RemoveCommand_KeywordAsync_" xml:space="preserve">
-    <value>removed `keyword: {0}` tracks from queue</value>
+    <value>verwijderd `trefwoord: {0}` tracks uit wachtrij</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_" xml:space="preserve">
-    <value>enabled `{0}` filter</value>
+    <value>ingeschakeld `{0}` filter</value>
   </data>
   <data name="MusicCommands_ResumeAsync_resumed_playback" xml:space="preserve">
-    <value>resumed playback</value>
+    <value>afspelen hervat</value>
   </data>
   <data name="MusicCommands_PauseAsync_paused_playback" xml:space="preserve">
-    <value>paused playback</value>
+    <value>afspelen gepauzeerd</value>
   </data>
   <data name="MusicCommands_SkipAsync_" xml:space="preserve">
-    <value>skipped `{0}` tracks</value>
+    <value>overgeslagen `{0}` tracks</value>
   </data>
   <data name="MusicCommands_JumpTo_" xml:space="preserve">
-    <value>jumped to `{0}` in queue</value>
+    <value>gesproken naar `{0}` in wachtrij</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_" xml:space="preserve">
-    <value>set eqpreset to `{0}`</value>
+    <value>egalisatorvoorinstelling ingesteld op `{0}`</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_cleared_the_queue" xml:space="preserve">
-    <value>cleared the queue</value>
+    <value>wachtrij gewist</value>
   </data>
   <data name="MusicCommands_RestartAsync_restarted_current_track" xml:space="preserve">
-    <value>restarted current track</value>
+    <value>huidige track opnieuw gestart</value>
   </data>
   <data name="MusicCommands_SeekAsync_" xml:space="preserve">
-    <value>seeked track to `{0}`</value>
+    <value>track gezocht naar `{0}`</value>
   </data>
   <data name="MusicCommands_RewindAsync_" xml:space="preserve">
-    <value>rewinded track by `{0}`</value>
+    <value>track teruggespoten met `{0}`</value>
   </data>
   <data name="MusicCommands_EqualizerAsync_updated_custom_equalizer" xml:space="preserve">
-    <value>updated custom equalizer</value>
+    <value>aangepaste egalisator bijgewerkt</value>
   </data>
   <data name="UtilityCommands_Math_Misc___Math" xml:space="preserve">
-    <value>Misc | Math</value>
+    <value>Diversen | Wiskunde</value>
   </data>
   <data name="MusicCommands_Volume_Music___Volume" xml:space="preserve">
-    <value>Music | Volume</value>
+    <value>Muziek | Volume</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Saved_by__0_" xml:space="preserve">
-    <value>Saved by {0}</value>
+    <value>Opgeslagen door {0}</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Created_by__0_" xml:space="preserve">
-    <value>Created by {0}</value>
+    <value>Gemaakt door {0}</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Added_by__0_" xml:space="preserve">
-    <value>Added by {0}</value>
+    <value>Toegevoegd door {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Deleted_by__0_" xml:space="preserve">
-    <value>Deleted by {0}</value>
+    <value>Verwijderd door {0}</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Renamed_by__0_" xml:space="preserve">
-    <value>Renamed by {0}</value>
+    <value>Hernoemd door {0}</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Loaded_by__0_" xml:space="preserve">
-    <value>Loaded by {0}</value>
+    <value>Geladen door {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Music___Playlist_Delete" xml:space="preserve">
-    <value>Music | Playlist Delete</value>
+    <value>Muziek | Afspeellijst Verwijderen</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Music___Playlist_Rename" xml:space="preserve">
-    <value>Music | Playlist Rename</value>
+    <value>Muziek | Afspeellijst Hernoemen</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Music___Playlist_Load" xml:space="preserve">
-    <value>Music | Playlist Load</value>
+    <value>Muziek | Afspeellijst Laden</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Music___Playlist_Create" xml:space="preserve">
-    <value>Music | Playlist Create</value>
+    <value>Muziek | Afspeellijst Maken</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Music___Playlist_Add" xml:space="preserve">
-    <value>Music | Playlist Add</value>
+    <value>Muziek | Afspeellijst Toevoegen</value>
   </data>
   <data name="SongRequestButtons_SongRequestFF_Music___Fast_Forward" xml:space="preserve">
-    <value>Music | Fast Forward</value>
+    <value>Muziek | Vooruitspoel</value>
   </data>
   <data name="EconomyCommand_ItemInfo_Economy___Item_Information" xml:space="preserve">
-    <value>Economy | Item Information</value>
+    <value>Economie | Itemgegevens</value>
   </data>
   <data name="TagsCommand_InfoTag_Tags___Info" xml:space="preserve">
     <value>Tags | Info</value>
   </data>
   <data name="TagsCommand_InfoTag_Content_" xml:space="preserve">
-    <value>Content:</value>
+    <value>Inhoud:</value>
   </data>
   <data name="TagsCommand_InfoTag_Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Ingeschakeld</value>
   </data>
   <data name="TagsCommand_RawTag_" xml:space="preserve">
     <value>RAW Tag:
 ```{0}```</value>
   </data>
   <data name="MiscCommands_Fact_Misc___Fact" xml:space="preserve">
-    <value>Misc | Fact</value>
+    <value>Diversen | Feit</value>
   </data>
   <data name="GameCommands_DiceAsync_Games___Dice" xml:space="preserve">
-    <value>Games | Dice</value>
+    <value>Games | Dobbelstenen</value>
   </data>
   <data name="GameCommands_RpsAsync_Games___Rock__Paper__Scissors" xml:space="preserve">
-    <value>Games | Rock, Paper, Scissors</value>
+    <value>Games | Steen, Papier, Schaar</value>
   </data>
   <data name="GameCommands_BallAsync_Games___8Ball" xml:space="preserve">
-    <value>Games | 8Ball</value>
+    <value>Spellen | 8Ball</value>
   </data>
   <data name="MiscCommands_AnimeQuote_Misc___Anime_Quote" xml:space="preserve">
-    <value>Misc | Anime Quote</value>
+    <value>Diversen | Anime Citaat</value>
   </data>
   <data name="SearchCommand_Search_Misc___Manga" xml:space="preserve">
-    <value>Misc | Manga</value>
+    <value>Diversen | Manga</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_Music___Remove_Duplicates" xml:space="preserve">
-    <value>Music | Remove Duplicates</value>
+    <value>Muziek | Duplicaten Verwijderen</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_Music___Leave_Cleanup" xml:space="preserve">
-    <value>Music | Leave Cleanup</value>
+    <value>Muziek | Verlaten Opschonen</value>
   </data>
   <data name="StreakCommands_View_Streak_for_" xml:space="preserve">
-    <value>Streak for </value>
+    <value>Reeks voor </value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Music___Filter_Preset" xml:space="preserve">
-    <value>Music | Filter Preset</value>
+    <value>Muziek | Filtervoorinstelling</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_all_filter_effects_" xml:space="preserve">
-    <value>Disabled all filter effects.</value>
+    <value>Alle filtereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_No_presets_are_currently_applied_" xml:space="preserve">
-    <value>No presets are currently applied.</value>
+    <value>Er zijn momenteel geen voorinstellingen toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_vibrate_filter_effects_" xml:space="preserve">
-    <value>Disabled vibrate filter effects.</value>
+    <value>Trilfiltereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_vibrate_filter_effects_" xml:space="preserve">
-    <value>Applied vibrate filter effects.</value>
+    <value>Trilfiltereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_speed_filter_effects_" xml:space="preserve">
-    <value>Applied speed filter effects.</value>
+    <value>Snelheidsfiltereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_speed_filter_effects_" xml:space="preserve">
-    <value>Disabled speed filter effects.</value>
+    <value>Snelheidsfiltereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_slow_mo_filter_effects_" xml:space="preserve">
-    <value>Disabled slow mo filter effects.</value>
+    <value>Vertraagde filtereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_slow_mo_filter_effects_" xml:space="preserve">
-    <value>Applied slow mo filter effects.</value>
+    <value>Vertraagde filtereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_darth_vader_filter_effects_" xml:space="preserve">
-    <value>Applied darth vader filter effects.</value>
+    <value>Darth Vader-filtereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_PlayFileAsync_An_issue_occured_while_trying_to_join_that_channel_" xml:space="preserve">
-    <value>An issue occured while trying to join that channel.</value>
+    <value>Er is een probleem opgetreden bij het verbinden met dat kanaal.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_vaporwave_filter_effects_" xml:space="preserve">
-    <value>Disabled vaporwave filter effects.</value>
+    <value>Vaporwave-filtereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_vaporwave_filter_effects_" xml:space="preserve">
-    <value>Applied vaporwave filter effects.</value>
+    <value>Vaporwave-filtereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_reverb_filter_effects_" xml:space="preserve">
-    <value>Disabled reverb filter effects.</value>
+    <value>Weergalmingsfiltereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_reverb_filter_effects_" xml:space="preserve">
-    <value>Applied reverb filter effects.</value>
+    <value>Weergalmingsfiltereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_nightcore_filter_effects_" xml:space="preserve">
-    <value>Disabled nightcore filter effects.</value>
+    <value>Nightcore-filtereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_nightcore_filter_effects_" xml:space="preserve">
-    <value>Applied nightcore filter effects.</value>
+    <value>Nightcore-filtereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_8D_audio_filter_effects_" xml:space="preserve">
-    <value>Disabled 8D audio filter effects.</value>
+    <value>8D-audiofiltereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_8D_audio_filter_effects_" xml:space="preserve">
-    <value>Applied 8D audio filter effects.</value>
+    <value>8D-audiofiltereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_chipmunk_filter_effects_" xml:space="preserve">
-    <value>Disabled chipmunk filter effects.</value>
+    <value>Chipmunk-filtereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_chipmunk_filter_effects_" xml:space="preserve">
-    <value>Applied chipmunk filter effects.</value>
+    <value>Chipmunk-filtereffecten toegepast.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_darth_vader_filter_effects_" xml:space="preserve">
-    <value>Disabled darth vader filter effects.</value>
+    <value>Darth Vader-filtereffecten uitgeschakeld.</value>
   </data>
   <data name="MusicCommands_RadioAsync_Failed_to_join_voice_channel_" xml:space="preserve">
-    <value>Failed to join voice channel.</value>
+    <value>Kon niet verbinding maken met het spraakkanaal.</value>
   </data>
   <data name="MusicCommands_RadioAsync_" xml:space="preserve">
-    <value>Added `{0}` to the music queue.</value>
+    <value>Toegevoegd `{0}` aan de muziekwachtrij.</value>
   </data>
   <data name="MusicCommands_JumpTo_Music___Jump_To" xml:space="preserve">
-    <value>Music | Jump To</value>
+    <value>Muziek | Naar</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_Music___Equalizer" xml:space="preserve">
-    <value>Music | Equalizer</value>
+    <value>Muziek | Equalizer</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_Music___Clear_Queue" xml:space="preserve">
-    <value>Music | Clear Queue</value>
+    <value>Muziek | Wachtrij Wissen</value>
   </data>
   <data name="MusicCommands_RestartAsync_Music___Restart" xml:space="preserve">
-    <value>Music | Restart</value>
+    <value>Muziek | Opnieuw Starten</value>
   </data>
   <data name="MusicCommands_NowPlaying_Applied_Filters_" xml:space="preserve">
-    <value>Applied Filters:</value>
+    <value>Toegepaste Filters:</value>
   </data>
   <data name="MusicCommands_NowPlaying_Player_History_" xml:space="preserve">
-    <value>Player History:</value>
+    <value>Afspeelgeschiedenis:</value>
   </data>
   <data name="MinecraftCommands_ServerQuery_You_must_specify_either_a_type_or_a_port_" xml:space="preserve">
-    <value>You must specify either a type or a port.</value>
+    <value>Je moet een type of poort opgeven.</value>
   </data>
   <data name="GuildContextMenu_GetUserInfo___Error____Unable_to_grab_user_info_" xml:space="preserve">
-    <value>**Error:** Unable to grab user info.</value>
+    <value>**Fout:** Kan gebruikersinfo niet ophalen.</value>
   </data>
   <data name="GitPreviewService_GitIssuePreview_Closed_By_" xml:space="preserve">
-    <value>Closed By:</value>
+    <value>Gesloten Door:</value>
   </data>
   <data name="ContributorButton_Contributors_Former_Staff_" xml:space="preserve">
-    <value>Former Staff:</value>
+    <value>Voormalig Personeel:</value>
   </data>
   <data name="GitPreviewService_GitPrPreview_Checks_" xml:space="preserve">
-    <value>Checks:</value>
+    <value>Controles:</value>
   </data>
   <data name="SelectionMenuHandler_SelfRoles_Cleared_selection_menu__No_roles_were_modified_" xml:space="preserve">
-    <value>Cleared selection menu. No roles were modified.</value>
+    <value>Selectiemenu gewist. Geen rollen zijn gewijzigd.</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___Missing_Base64___Failed_to_generate_image_" xml:space="preserve">
-    <value>Imagine Error | Missing Base64 - Failed to generate image.</value>
+    <value>Imagine Fout | Ontbrekende Base64 - Afbeelding genereren mislukt.</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Unknown_Error" xml:space="preserve">
-    <value>SD Error | Unknown Error</value>
+    <value>SD Fout | Onbekende Fout</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_Prompt" xml:space="preserve">
-    <value>SD Error | Invalid Prompt</value>
+    <value>SD Fout | Ongeldig Prompt</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Insufficient_balance" xml:space="preserve">
-    <value>SD Error | Insufficient balance</value>
+    <value>SD Fout | Onvoldoende Saldo</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_API_Response" xml:space="preserve">
-    <value>SD Error | Invalid API Response</value>
+    <value>SD Fout | Ongeldig API-Antwoord</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___No_Artifacts___Failed_to_generate_image_" xml:space="preserve">
-    <value>Imagine Error | No Artifacts - Failed to generate image.</value>
+    <value>Imagine Fout | Geen Artefacten - Afbeelding genereren mislukt.</value>
   </data>
   <data name="LevelingCommands_Leaderboard_No_valid_users_to_show_on_the_leaderboard_" xml:space="preserve">
-    <value>No valid users to show on the leaderboard.</value>
+    <value>Geen geldige gebruikers om op het scorebord weer te geven.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_missing_some_users__downloading_pelase_wait___" xml:space="preserve">
-    <value>Cache missing some users, downloading pelase wait...</value>
+    <value>Cache mist enkele gebruikers, bezig met downloaden, even geduld alstublieft...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_download_complete__continuing___" xml:space="preserve">
-    <value>Cache download complete, continuing...</value>
+    <value>Cache download voltooid, doorgaan...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_" xml:space="preserve">
-    <value>`{0}` boosted users found.
-</value>
+    <value>`{0}` geboostde gebruikers gevonden.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_2" xml:space="preserve">
-    <value>Added `{0}` missing users to the database.</value>
+    <value>`{0}` ontbrekende gebruikers aan de database toegevoegd.</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__This_import_method_requires_a_community_export_json_file__Read_more_here__https___xp_bot_net_blog_b1728227181194p" xml:space="preserve">
-    <value>Error: This import method requires a community export json file. Read more here: https://xp-bot.net/blog/b1728227181194p</value>
+    <value>Fout: Deze importmethode vereist een exportbestand in JSON-indeling van de community. Lees hier meer: https://xp-bot.net/blog/b1728227181194p</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__Invalid_file_type__must_be_json_" xml:space="preserve">
-    <value>Error: Invalid file type, must be json.</value>
+    <value>Fout: Ongeldig bestandstype, moet json zijn.</value>
   </data>
   <data name="SetupCommand_ImportMee6Levels_Error__File_is_empty_" xml:space="preserve">
-    <value>Error: File is empty.</value>
+    <value>Fout: Bestand is leeg.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_link_is_invalid_" xml:space="preserve">
-    <value>Message link is invalid.</value>
+    <value>Berichtkoppeling is ongeldig.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_ID_is_invalid_" xml:space="preserve">
-    <value>Message ID is invalid.</value>
+    <value>Bericht-ID is ongeldig.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Channel_does_not_exist_in_this_guild_" xml:space="preserve">
-    <value>Channel does not exist in this guild.</value>
+    <value>Kanaal bestaat niet in deze server.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
-    <value>Message does not exist in this channel.</value>
+    <value>Bericht bestaat niet in dit kanaal.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
-    <value>{0} of the Day!</value>
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>{0} Discussie</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
+    <value>{0} van de Dag!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
-    <value>Time in Channel:</value>
+    <value>Tijd in Kanaal:</value>
   </data>
   <data name="minefield_cashout_perfect" xml:space="preserve">
-    <value>Perfect! 🎯 You cleared the minefield and earned a doubled reward of {1} from {0} safe tiles!</value>
+    <value>Perfect! 🎯 Je hebt het minenveld vrijgemaakt en een verdubbelde beloning van {1} van {0} veilige tegels verdiend!</value>
   </data>
   <data name="user_monitored_roles_modified_title" xml:space="preserve">
-    <value>User Monitored Roles Modified</value>
+    <value>Bewaakte Gebruikersrollen Gewijzigd</value>
   </data>
   <data name="user_roles_modified_title_monitored" xml:space="preserve">
-    <value>User Monitored Role Modified</value>
+    <value>Bewaakte Gebruikersrol Gewijzigd</value>
   </data>
   <data name="audit_guild_tag" xml:space="preserve">
-    <value>&lt;@{0}&gt;**'s guild tag changed**</value>
+    <value>&lt;@{0}&gt;**'s serverlabel gewijzigd**</value>
   </data>
   <data name="generic_modify" xml:space="preserve">
-    <value>Modify</value>
+    <value>Wijzigen</value>
   </data>
   <data name="giveaway_create" xml:space="preserve">
-    <value>Create Giveaway</value>
+    <value>Giveaway Maken</value>
   </data>
   <data name="giveaway_cancel" xml:space="preserve">
-    <value>Cancel Giveaway</value>
+    <value>Giveaway Annuleren</value>
   </data>
   <data name="giveaway_builder_title" xml:space="preserve">
-    <value># Giveaway Builder</value>
+    <value># Weggeefactie Bouwer</value>
   </data>
   <data name="generic_value_updated" xml:space="preserve">
-    <value>Successfully updated value.</value>
+    <value>Waarde succesvol bijgewerkt.</value>
   </data>
   <data name="giveaway_image_invalid" xml:space="preserve">
-    <value>Invalid image URL.</value>
+    <value>Ongeldig afbeeldings-URL.</value>
   </data>
   <data name="giveaways_entries" xml:space="preserve">
     <value>Deelnames:</value>
@@ -4641,5 +4676,92 @@ Als je nu uitcasht, win je: **{3}**</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>Reactie-emoji:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Honey Pot Geactiveerd</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## VERSTUUR GEEN BERICHTEN IN DIT KANAAL
+Dit kanaal wordt gebruikt om spambots te vangen. Alle berichten die hier worden verzonden, resulteren in een **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Activeringen: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod - Honey pot-kanaal geactiveerd</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 uur)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>eruit gooien</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>zachte ban</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>verbannen</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Bijlagen:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>Het telspel is nog niet ingesteld op deze server.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>Telspel Status</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Huidige Telling:** {0}
+**Volgend Nummer:** {1}
+**Momenteel in Handen Van:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Nog niemand — wees de eerste die telt!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Telspel Statistieken</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Hoogste Ooit Bereikte Telling:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Jouw Breekrol</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>Deze server heeft geen breekrol ingesteld voor het telspel.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Je hebt momenteel niet de breekrol van het telspel.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Je hebt momenteel {0} omdat je de telling hebt verbroken. Deze toewijzing is **permanent**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Je hebt momenteel {0} omdat je de telling hebt verbroken. Deze wordt {1} verwijderd.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Telspel Breekrol</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>Er is geen breekrol ingesteld — het verbreken van de telling heeft momenteel geen rolgevolgen op deze server.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Het verbreken van de telling kent {0} toe. Deze toewijzing is **permanent**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Het verbreken van de telling kent {0} toe voor **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} minuten</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} uur</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} dagen</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Paneel #{0}</value>
   </data>
 </root>

@@ -762,6 +762,9 @@
   <data name="music_volume_3" xml:space="preserve">
     <value>音量成功设置为：`{0}`</value>
   </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>默认音量已成功设置为：`{0}`</value>
+  </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}]已被跳过。</value>
   </data>
@@ -1623,7 +1626,7 @@
     <value>歌曲标题含有服务器管理员设置的黑名单词汇。</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>根据 Discord 政策，YouTube 不再是受支持的资源。您仍然可以使用原始查询，如 `epic music`，或从我们的许多其他[支持来源](https://wiki.cakey.bot/music/supported-sources) 中播放音乐。</value>
+    <value>根据 Discord 政策，YouTube 不再是受支持的资源。您仍然可以使用原始查询，如 `epic music`，或从我们的许多其他[支持来源](https://wiki.cakey.bot/en/music/supported-sources) 中播放音乐。</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>超时 {0}.Expires &lt;t:{1}:R&gt;.</value>
@@ -1958,6 +1961,9 @@
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>无法解析所提供的日期。</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>这不是有效的时区。请使用 IANA 标识符，例如 `America/New_York` 或 `Europe/London`。</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>信息必须有文本内容才能进行分析。</value>
@@ -2484,15 +2490,6 @@
   <data name="role_invalid" xml:space="preserve">
     <value>角色无效</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>成功移除可用自选角色。</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>成功添加 `{0}` 作为自选角色。</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>角色已作为自选角色存在。</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>用户无效。</value>
   </data>
@@ -2612,6 +2609,21 @@
   </data>
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>线程创建成功。</value>
+  </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>已被标记为重复,标记人: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>审核中,审核人: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>你需要“管理服务器”或“管理员”权限才能对建议做出决定。</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>找不到该建议。请检查消息链接或 ID 后重试。</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>此服务器尚未设置建议频道。管理员需要在仪表盘中配置一个频道后才能创建建议 - 请参阅{0}获取设置说明。</value>
   </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>服务器管理员已禁用用户之间的金钱转账。</value>
@@ -3603,9 +3615,6 @@
   <data name="automod_sus_join" xml:space="preserve">
     <value>可疑加入</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>您已达到自定义角色的最大数量 ({0})。</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>成功生成嵌入。</value>
   </data>
@@ -3680,6 +3689,30 @@
   </data>
   <data name="selfrole_title_list" xml:space="preserve">
     <value>自定义角色 | 列表</value>
+  </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>由于角色组限制,已移除以下身份组: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>唯一</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>多选,最多 {0} 个</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>需要 @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>需要等级 {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>您需要拥有 {0} ({1}) 身份组才能领取'{2}'组中的角色。</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>'{0}' 组所需的身份组已不存在。管理员需要设置新的所需身份组(或移除该前置条件),之后才能有人从该组领取角色。</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>您需要达到等级 {0}+ 才能领取'{1}'组中的角色。</value>
   </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>音乐 | 队列</value>
@@ -3907,7 +3940,7 @@
     <value>杂项 | XKCD | </value>
   </data>
   <data name="SearchCommand_Search_ID__" xml:space="preserve">
-    <value>ID: </value>
+    <value>ID：</value>
   </data>
   <data name="SearchCommand_Search_Episodes" xml:space="preserve">
     <value>集数</value>
@@ -4162,155 +4195,155 @@
     <value>已向队列添加 `{0}` 首曲目</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_swapped_track__0__and__1_" xml:space="preserve">
-    <value>swapped track {0} and {1}</value>
+    <value>交换了曲目 {0} 和 {1}</value>
   </data>
   <data name="SortQueueCommand_TitleAsync_" xml:space="preserve">
-    <value>sorted the queue by `Title - {0}`</value>
+    <value>按 `标题 - {0}` 对队列排序</value>
   </data>
   <data name="SortQueueCommand_AuthorAsync_" xml:space="preserve">
-    <value>sorted the queue by `Author - {0}`</value>
+    <value>按 `艺术家 - {0}` 对队列排序</value>
   </data>
   <data name="SortQueueCommand_LengthAsync_" xml:space="preserve">
-    <value>sorted the queue by `Length - {0}`</value>
+    <value>按 `长度 - {0}` 对队列排序</value>
   </data>
   <data name="SortQueueCommand_ReverseAsync_" xml:space="preserve">
-    <value>sorted the queue by `Reverse`</value>
+    <value>按 `反向` 对队列排序</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_Invalid_index_" xml:space="preserve">
-    <value>Invalid index.</value>
+    <value>无效的索引。</value>
   </data>
   <data name="RemoveCommand_FirstAsync_" xml:space="preserve">
-    <value>removed `first` track from queue</value>
+    <value>从队列中移除了 `第一首` 曲目</value>
   </data>
   <data name="RemoveCommand_LastAsync_" xml:space="preserve">
-    <value>removed `last` track from queue</value>
+    <value>从队列中移除了 `最后一首` 曲目</value>
   </data>
   <data name="RemoveCommand_SingleAsync_" xml:space="preserve">
-    <value>removed `{0}` track from queue</value>
+    <value>从队列中移除了 `{0}` 曲目</value>
   </data>
   <data name="RemoveCommand_RangeAsync_" xml:space="preserve">
-    <value>removed `{0}`-`{1}` from queue</value>
+    <value>从队列中移除了 `{0}`-`{1}`</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_" xml:space="preserve">
-    <value>removed `duplicate` tracks from queue</value>
+    <value>移除了 `重复` 曲目</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_" xml:space="preserve">
-    <value>removed `userleft` tracks from queue</value>
+    <value>移除了 `用户离开` 曲目</value>
   </data>
   <data name="RemoveCommand_UserAsync_" xml:space="preserve">
-    <value>removed `{0}`'s tracks from queue</value>
+    <value>移除了 `{0}` 的曲目</value>
   </data>
   <data name="RemoveCommand_KeywordAsync_" xml:space="preserve">
-    <value>removed `keyword: {0}` tracks from queue</value>
+    <value>移除了 `关键词：{0}` 曲目</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_" xml:space="preserve">
-    <value>enabled `{0}` filter</value>
+    <value>启用了 `{0}` 滤镜</value>
   </data>
   <data name="MusicCommands_ResumeAsync_resumed_playback" xml:space="preserve">
-    <value>resumed playback</value>
+    <value>恢复播放</value>
   </data>
   <data name="MusicCommands_PauseAsync_paused_playback" xml:space="preserve">
-    <value>paused playback</value>
+    <value>已暂停播放</value>
   </data>
   <data name="MusicCommands_SkipAsync_" xml:space="preserve">
-    <value>skipped `{0}` tracks</value>
+    <value>跳过了 `{0}` 首曲目</value>
   </data>
   <data name="MusicCommands_JumpTo_" xml:space="preserve">
-    <value>jumped to `{0}` in queue</value>
+    <value>跳转到队列中的 `{0}`</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_" xml:space="preserve">
-    <value>set eqpreset to `{0}`</value>
+    <value>将均衡器预设设置为 `{0}`</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_cleared_the_queue" xml:space="preserve">
-    <value>cleared the queue</value>
+    <value>清空了队列</value>
   </data>
   <data name="MusicCommands_RestartAsync_restarted_current_track" xml:space="preserve">
-    <value>restarted current track</value>
+    <value>重新开始当前曲目</value>
   </data>
   <data name="MusicCommands_SeekAsync_" xml:space="preserve">
-    <value>seeked track to `{0}`</value>
+    <value>将曲目快进到 `{0}`</value>
   </data>
   <data name="MusicCommands_RewindAsync_" xml:space="preserve">
-    <value>rewinded track by `{0}`</value>
+    <value>将曲目快退 `{0}`</value>
   </data>
   <data name="MusicCommands_EqualizerAsync_updated_custom_equalizer" xml:space="preserve">
-    <value>updated custom equalizer</value>
+    <value>更新了自定义均衡器</value>
   </data>
   <data name="UtilityCommands_Math_Misc___Math" xml:space="preserve">
-    <value>Misc | Math</value>
+    <value>杂项 | 数学</value>
   </data>
   <data name="MusicCommands_Volume_Music___Volume" xml:space="preserve">
-    <value>Music | Volume</value>
+    <value>音乐 | 音量</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Saved_by__0_" xml:space="preserve">
-    <value>Saved by {0}</value>
+    <value>保存者：{0}</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Created_by__0_" xml:space="preserve">
-    <value>Created by {0}</value>
+    <value>创建者：{0}</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Added_by__0_" xml:space="preserve">
-    <value>Added by {0}</value>
+    <value>添加者：{0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Deleted_by__0_" xml:space="preserve">
-    <value>Deleted by {0}</value>
+    <value>删除者：{0}</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Renamed_by__0_" xml:space="preserve">
-    <value>Renamed by {0}</value>
+    <value>重命名者：{0}</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Loaded_by__0_" xml:space="preserve">
-    <value>Loaded by {0}</value>
+    <value>加载者：{0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Music___Playlist_Delete" xml:space="preserve">
-    <value>Music | Playlist Delete</value>
+    <value>音乐 | 播放列表删除</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Music___Playlist_Rename" xml:space="preserve">
-    <value>Music | Playlist Rename</value>
+    <value>音乐 | 播放列表重命名</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Music___Playlist_Load" xml:space="preserve">
-    <value>Music | Playlist Load</value>
+    <value>音乐 | 播放列表加载</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Music___Playlist_Create" xml:space="preserve">
-    <value>Music | Playlist Create</value>
+    <value>音乐 | 播放列表创建</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Music___Playlist_Add" xml:space="preserve">
-    <value>Music | Playlist Add</value>
+    <value>音乐 | 播放列表添加</value>
   </data>
   <data name="SongRequestButtons_SongRequestFF_Music___Fast_Forward" xml:space="preserve">
-    <value>Music | Fast Forward</value>
+    <value>音乐 | 快进</value>
   </data>
   <data name="EconomyCommand_ItemInfo_Economy___Item_Information" xml:space="preserve">
-    <value>Economy | Item Information</value>
+    <value>经济 | 物品信息</value>
   </data>
   <data name="TagsCommand_InfoTag_Tags___Info" xml:space="preserve">
-    <value>Tags | Info</value>
+    <value>标签 | 信息</value>
   </data>
   <data name="TagsCommand_InfoTag_Content_" xml:space="preserve">
-    <value>Content:</value>
+    <value>内容：</value>
   </data>
   <data name="TagsCommand_InfoTag_Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>已启用</value>
   </data>
   <data name="TagsCommand_RawTag_" xml:space="preserve">
-    <value>RAW Tag:
+    <value>原始标签：
 ```{0}```</value>
   </data>
   <data name="MiscCommands_Fact_Misc___Fact" xml:space="preserve">
-    <value>Misc | Fact</value>
+    <value>杂项 | 趣味事实</value>
   </data>
   <data name="GameCommands_DiceAsync_Games___Dice" xml:space="preserve">
-    <value>Games | Dice</value>
+    <value>游戏 | 骰子</value>
   </data>
   <data name="GameCommands_RpsAsync_Games___Rock__Paper__Scissors" xml:space="preserve">
-    <value>Games | Rock, Paper, Scissors</value>
+    <value>游戏 | 石头、布、剪刀</value>
   </data>
   <data name="GameCommands_BallAsync_Games___8Ball" xml:space="preserve">
-    <value>Games | 8Ball</value>
+    <value>游戏 | 8球</value>
   </data>
   <data name="MiscCommands_AnimeQuote_Misc___Anime_Quote" xml:space="preserve">
-    <value>Misc | Anime Quote</value>
+    <value>杂项 | 动漫语录</value>
   </data>
   <data name="SearchCommand_Search_Misc___Manga" xml:space="preserve">
-    <value>Misc | Manga</value>
+    <value>杂项 | 漫画</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_Music___Remove_Duplicates" xml:space="preserve">
     <value>音乐 | 移除重复</value>
@@ -4483,7 +4516,10 @@
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>此频道中不存在该消息。</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>{0} 讨论</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} 每日推荐！</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
@@ -4614,30 +4650,117 @@
     <value>用户限制：</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Bitrate" xml:space="preserve">
-    <value>Bitrate:</value>
+    <value>比特率:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Video_Stream_Quality" xml:space="preserve">
-    <value>Video Stream Quality:</value>
+    <value>视频流质量:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_RTC_Region" xml:space="preserve">
-    <value>RTC Region:</value>
+    <value>RTC 区域:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Permissions_Changed" xml:space="preserve">
-    <value>Permissions Changed:</value>
+    <value>权限已更改:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Slow_Mode_Interval" xml:space="preserve">
-    <value>Slow Mode Interval:</value>
+    <value>慢速模式间隔:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Thread_Creation_Interval" xml:space="preserve">
-    <value>Thread Creation Interval:</value>
+    <value>话题创建间隔:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Sort_Order" xml:space="preserve">
-    <value>Sort Order:</value>
+    <value>排序顺序:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Default_Layout" xml:space="preserve">
-    <value>Default Layout:</value>
+    <value>默认布局:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
-    <value>Reaction Emoji:</value>
+    <value>反应表情:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>蜜罐被触发</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## 不要在此频道发送消息
+此频道用于捕获垃圾邮件机器人。在此发送的任何消息都将导致 **{0}**。</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>触发器: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: 蜜罐频道被触发</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>超时 (1 小时)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>踢出</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>软封禁</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>封禁</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>附件:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>该服务器尚未设置数数游戏。</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>数数游戏状态</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**当前数字:** {0}
+**下一个数字:** {1}
+**当前持有者:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*还没有人 — 成为第一个数数的人吧！*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>数数游戏统计</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**历史最高数字:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>你的破坏身份组</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>此服务器尚未为数数游戏配置破坏身份组。</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>你目前没有数数游戏的破坏身份组。</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>由于你破坏了计数,你目前持有 {0}。此分配是**永久的**。</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>由于你破坏了计数,你目前持有 {0}。它将于 {1} 被移除。</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>数数游戏破坏身份组</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>未配置破坏身份组 — 目前在此服务器上破坏计数不会产生任何身份组后果。</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>破坏计数将分配 {0}。此分配是**永久的**。</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>破坏计数将分配 {0},为期 **{1}**。</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} 分钟</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} 小时</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>面板 #{0}</value>
   </data>
 </root>

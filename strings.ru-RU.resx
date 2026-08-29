@@ -412,7 +412,7 @@
     <value>**О боте**```Cakey Bot это мощный и глубоко кастомизируемый Discord бот для Вашего сервера. Включает в себя огромную музыкальную систему, продвинутый журнал аудита и тонну удобных функций модератора, помогающих в управлении Вашими серверами. Вы также можете создавать автоматические ответы и кастомные команды через нашу web-панель или настроить журнал аудита для автоматизации повторяющихся задач```</value>
   </data>
   <data name="info_ping" xml:space="preserve">
-    <value>Shard #{0}: {1}ms</value>
+    <value>Шард #{0}: {1}мс</value>
   </data>
   <data name="info_ping_avg" xml:space="preserve">
     <value>Средний пинг:</value>
@@ -761,6 +761,9 @@
   </data>
   <data name="music_volume_3" xml:space="preserve">
     <value>Громкость успешно установлена на: `{0}`</value>
+  </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Громкость по умолчанию успешно установлена на: `{0}`</value>
   </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] пропущено.</value>
@@ -1142,7 +1145,7 @@
     <value>Веб-панель</value>
   </data>
   <data name="core_docs" xml:space="preserve">
-    <value>Wiki</value>
+    <value>Вики</value>
   </data>
   <data name="core_support_discord" xml:space="preserve">
     <value>Discord поддержки</value>
@@ -1623,7 +1626,7 @@
     <value>Название песни содержит слово, запрещённое администраторами сервера.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube больше не поддерживается из-за ограничений Discord. Вы всё ещё можете использовать запросы по типу `epic music` или воспроизводить музыку из [других источников](https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>YouTube больше не поддерживается из-за ограничений Discord. Вы всё ещё можете использовать запросы по типу `epic music` или воспроизводить музыку из [других источников](https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>{0} отправлен в мут. &lt;t:{1}:R&gt;.</value>
@@ -1958,6 +1961,9 @@
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>Не удалось распознать введённую дату.</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Это недопустимый часовой пояс. Используйте идентификатор IANA, например `America/New_York` или `Europe/London`.</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>У сообщения должен быть текст для анализа.</value>
@@ -2485,15 +2491,6 @@
   <data name="role_invalid" xml:space="preserve">
     <value>Неизвестная роль</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Само-роль успешно снята.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>Успешно выдано `{0}` в качестве само-роли.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>Роль уже существует в качестве самороли.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Неизвестный пользователь.</value>
   </data>
@@ -2613,6 +2610,21 @@
   </data>
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Ветка успешно создана.</value>
+  </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Отмечено как дубликат: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>На рассмотрении у: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Вам нужно право «Управление сервером» или «Администратор», чтобы принимать решения по предложениям.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>Не удалось найти это предложение. Проверьте ссылку на сообщение или ID и попробуйте снова.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>На этом сервере ещё не настроен канал для предложений. Администратору нужно настроить его в панели управления, прежде чем можно будет создавать предложения — см. {0} для инструкций по настройке.</value>
   </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>Переводы между пользователями были отключены администрацией сервера.</value>
@@ -3136,7 +3148,7 @@
     <value>Новый Cheer!</value>
   </data>
   <data name="twitch_feed_title" xml:space="preserve">
-    <value>{0} | Twitch Alerts</value>
+    <value>{0} | Оповещения Twitch</value>
   </data>
   <data name="twitch_follower_title" xml:space="preserve">
     <value>Новый фолловер!</value>
@@ -3394,7 +3406,7 @@
     <value>Команда Удаления Роли</value>
   </data>
   <data name="ai_error_title" xml:space="preserve">
-    <value>Core | AI Chat Bot</value>
+    <value>Ядро | ИИ Чат-бот</value>
   </data>
   <data name="ai_invalid_key" xml:space="preserve">
     <value>Ошибка: Неверный API ключ. Вы можете найти ваш API ключ на https://platform.openai.com/account/api-keys.</value>
@@ -3436,7 +3448,7 @@
     <value>Вы можете публиковать только {0} в этом канале.</value>
   </data>
   <data name="github_issue" xml:space="preserve">
-    <value>Issue #{0} | {1}</value>
+    <value>Задача #{0} | {1}</value>
   </data>
   <data name="github_state" xml:space="preserve">
     <value>Статус:</value>
@@ -3466,7 +3478,7 @@
     <value>Комментарии проверки:</value>
   </data>
   <data name="github_pr" xml:space="preserve">
-    <value>Pull Request #{0} | {1}</value>
+    <value>Запрос на слияние #{0} | {1}</value>
   </data>
   <data name="github_commits" xml:space="preserve">
     <value>Коммиты:</value>
@@ -3563,7 +3575,7 @@
 {2}```</value>
   </data>
   <data name="footer_perspective" xml:space="preserve">
-    <value>Powered by Perspective API</value>
+    <value>Работает на Perspective API</value>
   </data>
   <data name="footer_filter" xml:space="preserve">
     <value>Фильтр применен пользователем {0}</value>
@@ -3603,9 +3615,6 @@
   </data>
   <data name="automod_sus_join" xml:space="preserve">
     <value>Подозрительное присоединение</value>
-  </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Вы достигли максимального количества личных ролей ({0}).</value>
   </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Встраивание успешно создано.</value>
@@ -3682,6 +3691,30 @@
   <data name="selfrole_title_list" xml:space="preserve">
     <value>Личная роль | Список</value>
   </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>Следующие роли были удалены из-за ограничения группы ролей: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Уникальная</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Множественный выбор, до {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>требуется @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>требуется уровень {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>Вам нужна роль {0} ({1}), чтобы получить роль из группы '{2}'.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>Требуемая роль группы '{0}' больше не существует. Администратору необходимо назначить новую требуемую роль (или удалить требование), прежде чем кто-либо сможет получить роль из этой группы.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>Вам нужен уровень {0}+, чтобы получить роль из группы '{1}'.</value>
+  </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Музыка | Очередь</value>
   </data>
@@ -3710,7 +3743,7 @@
     <value>отключен фильтр `low pass`</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
-    <value>Low Pass</value>
+    <value>Нижние частоты</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
     <value>включен пользовательский фильтр `low pass`</value>
@@ -3719,7 +3752,7 @@
     <value>Фильтр `Karaoke` успешно очищен.</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>Искажение</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
     <value>Настройка объявлений</value>
@@ -3836,13 +3869,13 @@
     <value>Core | Команды бота</value>
   </data>
   <data name="misc_title_google" xml:space="preserve">
-    <value>Misc | Google | </value>
+    <value>Разное | Google | </value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
-    <value>Misc | Wiki</value>
+    <value>Разное | Вики</value>
   </data>
   <data name="misc_title_image" xml:space="preserve">
-    <value>Misc | Image | </value>
+    <value>Разное | Изображение | </value>
   </data>
   <data name="music_footer_jumpto" xml:space="preserve">
     <value>Перейти к песне запрошенной {0}</value>
@@ -3866,7 +3899,7 @@
     <value>Info | Участники</value>
   </data>
   <data name="achievement_title" xml:space="preserve">
-    <value>Achievement | </value>
+    <value>Достижение | </value>
   </data>
   <data name="ContributorButton_Contributors_Developers_" xml:space="preserve">
     <value>Разработчики:</value>
@@ -3875,214 +3908,214 @@
     <value>Тип триггера:</value>
   </data>
   <data name="AchievementCommand_Info_Limit_Required_" xml:space="preserve">
-    <value>Limit Required:</value>
+    <value>Требуемый лимит:</value>
   </data>
   <data name="AchievementCommand_Info_XP_Add_" xml:space="preserve">
-    <value>XP Add:</value>
+    <value>Добавление XP:</value>
   </data>
   <data name="AchievementCommand_Info_XP_Remove_" xml:space="preserve">
-    <value>XP Remove:</value>
+    <value>Удаление XP:</value>
   </data>
   <data name="AchievementCommand_Info_Eco_Money_Add_" xml:space="preserve">
-    <value>Eco Money Add:</value>
+    <value>Добавление денег Eco:</value>
   </data>
   <data name="AchievementCommand_Info_Eco_Money_Remove_" xml:space="preserve">
-    <value>Eco Money Remove:</value>
+    <value>Удаление денег Eco:</value>
   </data>
   <data name="AchievementCommand_Info_Add_Roles_" xml:space="preserve">
-    <value>Add Roles:</value>
+    <value>Добавить роли:</value>
   </data>
   <data name="AchievementCommand_Info_Remove_Roles_" xml:space="preserve">
-    <value>Remove Roles:</value>
+    <value>Удалить роли:</value>
   </data>
   <data name="SearchCommand_Search_Examples" xml:space="preserve">
-    <value>Examples</value>
+    <value>Примеры</value>
   </data>
   <data name="SearchCommand_Search_Definition_of__0_" xml:space="preserve">
-    <value>Definition of {0}</value>
+    <value>Определение {0}</value>
   </data>
   <data name="SearchCommand_Search_Stats" xml:space="preserve">
-    <value>Stats</value>
+    <value>Статистика</value>
   </data>
   <data name="SearchCommand_Search_Misc___XKCD___" xml:space="preserve">
-    <value>Misc | XKCD | </value>
+    <value>Разное | XKCD | </value>
   </data>
   <data name="SearchCommand_Search_ID__" xml:space="preserve">
     <value>ID: </value>
   </data>
   <data name="SearchCommand_Search_Episodes" xml:space="preserve">
-    <value>Episodes</value>
+    <value>Эпизоды</value>
   </data>
   <data name="SearchCommand_Search_" xml:space="preserve">
-    <value>Anime ID: {0} • Score: {1}</value>
+    <value>ID аниме: {0} • Оценка: {1}</value>
   </data>
   <data name="search_footer" xml:space="preserve">
-    <value>Total Results: {0} • Search Time: {1}</value>
+    <value>Всего результатов: {0} • Время поиска: {1}</value>
   </data>
   <data name="ContributorButton_Contributors_Staff_" xml:space="preserve">
-    <value>Staff:</value>
+    <value>Персонал:</value>
   </data>
   <data name="ContributorButton_Contributors_Former_Developers_" xml:space="preserve">
-    <value>Former Developers:</value>
+    <value>Бывшие разработчики:</value>
   </data>
   <data name="ContributorButton_Contributors_Other_Misc_" xml:space="preserve">
-    <value>Other/Misc.</value>
+    <value>Другое/Прочее</value>
   </data>
   <data name="ContributorButton_Contributors_Translators_" xml:space="preserve">
-    <value>Translators:</value>
+    <value>Переводчики:</value>
   </data>
   <data name="SongRequestButtons_SongRequestPause_Music___Resume" xml:space="preserve">
-    <value>Music | Resume</value>
+    <value>Музыка | Возобновить</value>
   </data>
   <data name="avatar_title" xml:space="preserve">
-    <value>Info | {0}</value>
+    <value>Инфо | {0}</value>
   </data>
   <data name="SongRequestButtons_SongRequestPause_Music___Pause" xml:space="preserve">
-    <value>Music | Pause</value>
+    <value>Музыка | Пауза</value>
   </data>
   <data name="SongRequestButtons_SongRequestSkip_Music___Vote_Skip" xml:space="preserve">
-    <value>Music | Vote Skip</value>
+    <value>Музыка | Голосование за пропуск</value>
   </data>
   <data name="ColorCommand_ShowColorAsync_Misc___Color" xml:space="preserve">
-    <value>Misc | Color</value>
+    <value>Разное | Цвет</value>
   </data>
   <data name="PollCommand_PollAdvanced_Games___Poll" xml:space="preserve">
-    <value>Games | Poll</value>
+    <value>Игры | Опрос</value>
   </data>
   <data name="SongRequestButtons_SongRequestStop_Music___Disconnect" xml:space="preserve">
-    <value>Music | Disconnect</value>
+    <value>Музыка | Отключиться</value>
   </data>
   <data name="EconomyCommand_Rps_Economy___Rock__Paper__Scissors" xml:space="preserve">
-    <value>Economy | Rock, Paper, Scissors</value>
+    <value>Economy | Камень, Ножницы, Бумага</value>
   </data>
   <data name="EconomyCommand_SplitOrSteal_Economy___Split_or_Steal" xml:space="preserve">
-    <value>Economy | Split or Steal</value>
+    <value>Экономика | Поделить или украсть</value>
   </data>
   <data name="SongRequestButtons_SongRequestLoop_Music___Loop" xml:space="preserve">
-    <value>Music | Loop</value>
+    <value>Музыка | Повтор</value>
   </data>
   <data name="EconomyCommand_Items_Economy___Owned_Items" xml:space="preserve">
-    <value>Economy | Owned Items</value>
+    <value>Экономика | Ваши предметы</value>
   </data>
   <data name="SongRequestButtons_SongRequestRewind_Music___Rewind" xml:space="preserve">
-    <value>Music | Rewind</value>
+    <value>Музыка | Перемотка назад</value>
   </data>
   <data name="GameGuildCommands_HandleSuggestionModal_Suggestion___" xml:space="preserve">
-    <value>Suggestion | </value>
+    <value>Предложение | </value>
   </data>
   <data name="GenerateImageCommand_Pride_Image_Man___Pride" xml:space="preserve">
-    <value>Image Man | Pride</value>
+    <value>Изображение | Прайд</value>
   </data>
   <data name="InfoCommands_AboutAsync_Info___About" xml:space="preserve">
-    <value>Info | About</value>
+    <value>Инфо | О боте</value>
   </data>
   <data name="MinecraftCommands_ServerQuery_Utilities___Server" xml:space="preserve">
-    <value>Utilities | Server</value>
+    <value>Утилиты | Сервер</value>
   </data>
   <data name="InfoGuildCommands_ServerInfoAsync_Info____0__Server_Info" xml:space="preserve">
-    <value>Info | {0} Server Info</value>
+    <value>Инфо | Информация о сервере {0}</value>
   </data>
   <data name="ReminderCommand_List_Reminder___List" xml:space="preserve">
-    <value>Reminder | List</value>
+    <value>Напоминание | Список</value>
   </data>
   <data name="SearchCommand_Search_Misc___Anime" xml:space="preserve">
-    <value>Misc | Anime</value>
+    <value>Разное | Аниме</value>
   </data>
   <data name="StickerCommand_DownloadAsync_Sticker____0_" xml:space="preserve">
-    <value>Sticker | {0}</value>
+    <value>Стикер | {0}</value>
   </data>
   <data name="FilterCommand_DistortionAsync_" xml:space="preserve">
-    <value>disabled `distortion` filter</value>
+    <value>отключен фильтр `distortion`</value>
   </data>
   <data name="FilterCommand_DistortionAsync_enable" xml:space="preserve">
-    <value>enabled custom `distortion` filter</value>
+    <value>включен пользовательский фильтр `distortion`</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_disable" xml:space="preserve">
-    <value>disabled `karaoke` filter</value>
+    <value>отключен фильтр `karaoke`</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_enable" xml:space="preserve">
-    <value>enabled custom `karaoke` filter</value>
+    <value>включен пользовательский фильтр `karaoke`</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_Karaoke" xml:space="preserve">
-    <value>Karaoke</value>
+    <value>Караоке</value>
   </data>
   <data name="FilterCommand_RotationAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Rotation` filter.</value>
+    <value>Фильтр `Rotation` успешно очищен.</value>
   </data>
   <data name="FilterCommand_RotationAsync_disable" xml:space="preserve">
-    <value>disabled `rotation` filter</value>
+    <value>отключен фильтр `rotation`</value>
   </data>
   <data name="FilterCommand_RotationAsync_Rotation" xml:space="preserve">
-    <value>Rotation</value>
+    <value>Вращение</value>
   </data>
   <data name="FilterCommand_RotationAsync_enable" xml:space="preserve">
-    <value>enabled custom `rotation` filter</value>
+    <value>включен пользовательский фильтр `rotation`</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Timescale` filter.</value>
+    <value>Фильтр `Timescale` успешно очищен.</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_disable" xml:space="preserve">
-    <value>disabled `timescale` filter</value>
+    <value>отключен фильтр `timescale`</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_Timescale" xml:space="preserve">
-    <value>Timescale</value>
+    <value>Масштаб времени</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_enable" xml:space="preserve">
-    <value>enabled custom `timescale` filter</value>
+    <value>включен пользовательский фильтр `timescale`</value>
   </data>
   <data name="FilterCommand_TremoloAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Tremolo` filter.</value>
+    <value>Фильтр `Tremolo` успешно очищен.</value>
   </data>
   <data name="FilterCommand_TremoloAsync_disable" xml:space="preserve">
-    <value>disabled `tremolo` filter</value>
+    <value>отключен фильтр `tremolo`</value>
   </data>
   <data name="FilterCommand_TremoloAsync_Tremolo" xml:space="preserve">
-    <value>Tremolo</value>
+    <value>Тремоло</value>
   </data>
   <data name="FilterCommand_TremoloAsync_enable" xml:space="preserve">
-    <value>enabled custom `tremolo` filter</value>
+    <value>включен пользовательский фильтр `tremolo`</value>
   </data>
   <data name="FilterCommand_VibratoAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Vibrato` filter.</value>
+    <value>Фильтр `Vibrato` успешно очищен.</value>
   </data>
   <data name="FilterCommand_VibratoAsync_disable" xml:space="preserve">
-    <value>disabled `vibrato` filter</value>
+    <value>отключен фильтр `vibrato`</value>
   </data>
   <data name="FilterCommand_VibratoAsync_Vibrato" xml:space="preserve">
-    <value>Vibrato</value>
+    <value>Вибрато</value>
   </data>
   <data name="FilterCommand_VibratoAsync_enable" xml:space="preserve">
-    <value>enabled custom `vibrato` filter</value>
+    <value>включен пользовательский фильтр `vibrato`</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `channel mix` filter.</value>
+    <value>Фильтр `channel mix` успешно очищен.</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_disable" xml:space="preserve">
-    <value>disabled `channel mix` filter</value>
+    <value>отключен фильтр `channel mix`</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_Channel_Mix" xml:space="preserve">
-    <value>Channel Mix</value>
+    <value>Микс каналов</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_enable" xml:space="preserve">
-    <value>enabled custom `channel mix` filter</value>
+    <value>включен пользовательский фильтр `channel mix`</value>
   </data>
   <data name="FilterCommand_EchoAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Echo` filter.</value>
+    <value>Фильтр `Echo` успешно очищен.</value>
   </data>
   <data name="FilterCommand_EchoAsync_disable" xml:space="preserve">
-    <value>disabled `echo` filter</value>
+    <value>отключен фильтр `echo`</value>
   </data>
   <data name="FilterCommand_EchoAsync_Echo" xml:space="preserve">
-    <value>Echo</value>
+    <value>Эхо</value>
   </data>
   <data name="FilterCommand_EchoAsync_enable" xml:space="preserve">
-    <value>enabled custom `echo` filter</value>
+    <value>включен пользовательский фильтр `echo`</value>
   </data>
   <data name="FilterCommand_NoneAsync_Successfully_cleared_all_filters_" xml:space="preserve">
-    <value>Successfully cleared all filters.</value>
+    <value>Все фильтры успешно очищены.</value>
   </data>
   <data name="FilterCommand_NoneAsync_disabled_all_filters" xml:space="preserve">
-    <value>disabled all filters</value>
+    <value>отключены все фильтры</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phishing" xml:space="preserve">
     <value>AutoMod - Фишинг</value>
@@ -4130,200 +4163,200 @@
     <value>AutoMod - Неизвестная причина</value>
   </data>
   <data name="AutoModService_CheckMessageContent__0__Your_message_was_deleted_for_containing_a_phone_number_" xml:space="preserve">
-    <value>{0} Your message was deleted for containing a phone number.</value>
+    <value>{0} Ваше сообщение было удалено за содержание номера телефона.</value>
   </data>
   <data name="AutoModService_CheckMessageContent_Phone_Number" xml:space="preserve">
-    <value>Phone Number</value>
+    <value>AutoMod - Номер телефона</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Warn_User" xml:space="preserve">
-    <value>Delete &amp; Warn User</value>
+    <value>Удалить и предупредить пользователя</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick_User" xml:space="preserve">
-    <value>Delete Message &amp; Kick User</value>
+    <value>Удалить сообщение и кикнуть пользователя</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick___Warn_User" xml:space="preserve">
-    <value>Delete Message &amp; Kick + Warn User</value>
+    <value>Удалить сообщение, кикнуть и предупредить пользователя</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Ban_User__Delete_24h_" xml:space="preserve">
-    <value>Ban User (Delete 24h)</value>
+    <value>Забанить пользователя (удалить 24ч)</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Timeout_User__1h_" xml:space="preserve">
-    <value>Delete &amp; Timeout User (1h)</value>
+    <value>Удалить и заблокировать пользователя (1ч)</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_" xml:space="preserve">
-    <value>enqueued `{0}` tracks</value>
+    <value>добавлено `{0}` треков в очередь</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_one" xml:space="preserve">
-    <value>enqueued `1` track</value>
+    <value>добавлен `1` трек в очередь</value>
   </data>
   <data name="music_ff_time" xml:space="preserve">
-    <value>fast forwarded track by `{0}` seconds</value>
+    <value>трек перемотан на `{0}` секунд</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_" xml:space="preserve">
-    <value>added `{0}` tracks to queue</value>
+    <value>добавлено `{0}` треков в очередь</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_swapped_track__0__and__1_" xml:space="preserve">
-    <value>swapped track {0} and {1}</value>
+    <value>треки {0} и {1} поменялись местами</value>
   </data>
   <data name="SortQueueCommand_TitleAsync_" xml:space="preserve">
-    <value>sorted the queue by `Title - {0}`</value>
+    <value>очередь отсортирована по `Название - {0}`</value>
   </data>
   <data name="SortQueueCommand_AuthorAsync_" xml:space="preserve">
-    <value>sorted the queue by `Author - {0}`</value>
+    <value>очередь отсортирована по `Исполнитель - {0}`</value>
   </data>
   <data name="SortQueueCommand_LengthAsync_" xml:space="preserve">
-    <value>sorted the queue by `Length - {0}`</value>
+    <value>очередь отсортирована по `Длительность - {0}`</value>
   </data>
   <data name="SortQueueCommand_ReverseAsync_" xml:space="preserve">
-    <value>sorted the queue by `Reverse`</value>
+    <value>очередь отсортирована по `Обратный порядок`</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_Invalid_index_" xml:space="preserve">
-    <value>Invalid index.</value>
+    <value>Неверный индекс.</value>
   </data>
   <data name="RemoveCommand_FirstAsync_" xml:space="preserve">
-    <value>removed `first` track from queue</value>
+    <value>удалён `first` трек из очереди</value>
   </data>
   <data name="RemoveCommand_LastAsync_" xml:space="preserve">
-    <value>removed `last` track from queue</value>
+    <value>удалён `last` трек из очереди</value>
   </data>
   <data name="RemoveCommand_SingleAsync_" xml:space="preserve">
-    <value>removed `{0}` track from queue</value>
+    <value>удалён трек `{0}` из очереди</value>
   </data>
   <data name="RemoveCommand_RangeAsync_" xml:space="preserve">
-    <value>removed `{0}`-`{1}` from queue</value>
+    <value>удалено `{0}`-`{1}` из очереди</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_" xml:space="preserve">
-    <value>removed `duplicate` tracks from queue</value>
+    <value>удалены `duplicate` треки из очереди</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_" xml:space="preserve">
-    <value>removed `userleft` tracks from queue</value>
+    <value>удалены `userleft` треки из очереди</value>
   </data>
   <data name="RemoveCommand_UserAsync_" xml:space="preserve">
-    <value>removed `{0}`'s tracks from queue</value>
+    <value>удалены треки `{0}` из очереди</value>
   </data>
   <data name="RemoveCommand_KeywordAsync_" xml:space="preserve">
-    <value>removed `keyword: {0}` tracks from queue</value>
+    <value>удалены треки по `keyword: {0}` из очереди</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_" xml:space="preserve">
-    <value>enabled `{0}` filter</value>
+    <value>включён фильтр `{0}`</value>
   </data>
   <data name="MusicCommands_ResumeAsync_resumed_playback" xml:space="preserve">
-    <value>resumed playback</value>
+    <value>воспроизведение возобновлено</value>
   </data>
   <data name="MusicCommands_PauseAsync_paused_playback" xml:space="preserve">
-    <value>paused playback</value>
+    <value>воспроизведение приостановлено</value>
   </data>
   <data name="MusicCommands_SkipAsync_" xml:space="preserve">
-    <value>skipped `{0}` tracks</value>
+    <value>пропущено `{0}` треков</value>
   </data>
   <data name="MusicCommands_JumpTo_" xml:space="preserve">
-    <value>jumped to `{0}` in queue</value>
+    <value>переход к `{0}` в очереди</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_" xml:space="preserve">
-    <value>set eqpreset to `{0}`</value>
+    <value>установлен эквалайзер `{0}`</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_cleared_the_queue" xml:space="preserve">
-    <value>cleared the queue</value>
+    <value>очередь очищена</value>
   </data>
   <data name="MusicCommands_RestartAsync_restarted_current_track" xml:space="preserve">
-    <value>restarted current track</value>
+    <value>текущий трек перезапущен</value>
   </data>
   <data name="MusicCommands_SeekAsync_" xml:space="preserve">
-    <value>seeked track to `{0}`</value>
+    <value>перемотка трека на `{0}`</value>
   </data>
   <data name="MusicCommands_RewindAsync_" xml:space="preserve">
-    <value>rewinded track by `{0}`</value>
+    <value>перемотка трека назад на `{0}`</value>
   </data>
   <data name="MusicCommands_EqualizerAsync_updated_custom_equalizer" xml:space="preserve">
-    <value>updated custom equalizer</value>
+    <value>обновлён пользовательский эквалайзер</value>
   </data>
   <data name="UtilityCommands_Math_Misc___Math" xml:space="preserve">
-    <value>Misc | Math</value>
+    <value>Разное | Математика</value>
   </data>
   <data name="MusicCommands_Volume_Music___Volume" xml:space="preserve">
-    <value>Music | Volume</value>
+    <value>Музыка | Громкость</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Saved_by__0_" xml:space="preserve">
-    <value>Saved by {0}</value>
+    <value>Сохранено {0}</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Created_by__0_" xml:space="preserve">
-    <value>Created by {0}</value>
+    <value>Создано {0}</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Added_by__0_" xml:space="preserve">
-    <value>Added by {0}</value>
+    <value>Добавлено {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Deleted_by__0_" xml:space="preserve">
-    <value>Deleted by {0}</value>
+    <value>Удалено {0}</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Renamed_by__0_" xml:space="preserve">
-    <value>Renamed by {0}</value>
+    <value>Переименовано {0}</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Loaded_by__0_" xml:space="preserve">
-    <value>Loaded by {0}</value>
+    <value>Загружено {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Music___Playlist_Delete" xml:space="preserve">
-    <value>Music | Playlist Delete</value>
+    <value>Музыка | Удаление плейлиста</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Music___Playlist_Rename" xml:space="preserve">
-    <value>Music | Playlist Rename</value>
+    <value>Музыка | Переименование плейлиста</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Music___Playlist_Load" xml:space="preserve">
-    <value>Music | Playlist Load</value>
+    <value>Музыка | Загрузка плейлиста</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Music___Playlist_Create" xml:space="preserve">
-    <value>Music | Playlist Create</value>
+    <value>Музыка | Создание плейлиста</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Music___Playlist_Add" xml:space="preserve">
-    <value>Music | Playlist Add</value>
+    <value>Музыка | Добавление в плейлист</value>
   </data>
   <data name="SongRequestButtons_SongRequestFF_Music___Fast_Forward" xml:space="preserve">
-    <value>Music | Fast Forward</value>
+    <value>Музыка | Перемотка вперёд</value>
   </data>
   <data name="EconomyCommand_ItemInfo_Economy___Item_Information" xml:space="preserve">
-    <value>Economy | Item Information</value>
+    <value>Экономика | Информация о предмете</value>
   </data>
   <data name="TagsCommand_InfoTag_Tags___Info" xml:space="preserve">
-    <value>Tags | Info</value>
+    <value>Теги | Информация</value>
   </data>
   <data name="TagsCommand_InfoTag_Content_" xml:space="preserve">
-    <value>Content:</value>
+    <value>Содержание:</value>
   </data>
   <data name="TagsCommand_InfoTag_Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Включено</value>
   </data>
   <data name="TagsCommand_RawTag_" xml:space="preserve">
-    <value>RAW Tag:
+    <value>RAW тег:
 ```{0}```</value>
   </data>
   <data name="MiscCommands_Fact_Misc___Fact" xml:space="preserve">
-    <value>Misc | Fact</value>
+    <value>Разное | Факт</value>
   </data>
   <data name="GameCommands_DiceAsync_Games___Dice" xml:space="preserve">
-    <value>Games | Dice</value>
+    <value>Игры | Кости</value>
   </data>
   <data name="GameCommands_RpsAsync_Games___Rock__Paper__Scissors" xml:space="preserve">
-    <value>Games | Rock, Paper, Scissors</value>
+    <value>Игры | Камень, Ножницы, Бумага</value>
   </data>
   <data name="GameCommands_BallAsync_Games___8Ball" xml:space="preserve">
-    <value>Games | 8Ball</value>
+    <value>Игры | 8Ball</value>
   </data>
   <data name="MiscCommands_AnimeQuote_Misc___Anime_Quote" xml:space="preserve">
-    <value>Misc | Anime Quote</value>
+    <value>Разное | Аниме-цитата</value>
   </data>
   <data name="SearchCommand_Search_Misc___Manga" xml:space="preserve">
-    <value>Misc | Manga</value>
+    <value>Разное | Манга</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_Music___Remove_Duplicates" xml:space="preserve">
-    <value>Music | Remove Duplicates</value>
+    <value>Музыка | Удаление дубликатов</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_Music___Leave_Cleanup" xml:space="preserve">
-    <value>Music | Leave Cleanup</value>
+    <value>Музыка | Очистка при выходе</value>
   </data>
   <data name="StreakCommands_View_Streak_for_" xml:space="preserve">
-    <value>Streak for </value>
+    <value>Серия для </value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Music___Filter_Preset" xml:space="preserve">
-    <value>Music | Filter Preset</value>
+    <value>Музыка | Предустановка фильтра</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_all_filter_effects_" xml:space="preserve">
     <value>Все эффекты фильтра отключены.</value>
@@ -4476,169 +4509,259 @@
     <value>Ссылка на сообщение недействительна.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_ID_is_invalid_" xml:space="preserve">
-    <value>Message ID is invalid.</value>
+    <value>ID сообщения недействителен.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Channel_does_not_exist_in_this_guild_" xml:space="preserve">
-    <value>Channel does not exist in this guild.</value>
+    <value>Канал не существует на этом сервере.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
-    <value>Message does not exist in this channel.</value>
+    <value>Сообщение не существует в этом канале.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
-    <value>{0} of the Day!</value>
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>Обсуждение {0}</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
+    <value>{0} дня!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
-    <value>Time in Channel:</value>
+    <value>Время на канале:</value>
   </data>
   <data name="minefield_cashout_perfect" xml:space="preserve">
-    <value>Perfect! 🎯 You cleared the minefield and earned a doubled reward of {1} from {0} safe tiles!</value>
+    <value>Отлично! 🎯 Вы очистили минное поле и заработали удвоенный приз {1} из {0} безопасных плиток!</value>
   </data>
   <data name="user_monitored_roles_modified_title" xml:space="preserve">
-    <value>User Monitored Roles Modified</value>
+    <value>Отслеживаемые роли пользователя изменены</value>
   </data>
   <data name="user_roles_modified_title_monitored" xml:space="preserve">
-    <value>User Monitored Role Modified</value>
+    <value>Отслеживаемая роль пользователя изменена</value>
   </data>
   <data name="audit_guild_tag" xml:space="preserve">
-    <value>&lt;@{0}&gt;**'s guild tag changed**</value>
+    <value>&lt;@{0}&gt;**'s тег сервера изменён**</value>
   </data>
   <data name="generic_modify" xml:space="preserve">
-    <value>Modify</value>
+    <value>Изменить</value>
   </data>
   <data name="giveaway_create" xml:space="preserve">
-    <value>Create Giveaway</value>
+    <value>Создать раздачу</value>
   </data>
   <data name="giveaway_cancel" xml:space="preserve">
-    <value>Cancel Giveaway</value>
+    <value>Отменить раздачу</value>
   </data>
   <data name="giveaway_builder_title" xml:space="preserve">
-    <value># Giveaway Builder</value>
+    <value># Конструктор раздачи</value>
   </data>
   <data name="generic_value_updated" xml:space="preserve">
-    <value>Successfully updated value.</value>
+    <value>Значение успешно обновлено.</value>
   </data>
   <data name="giveaway_image_invalid" xml:space="preserve">
-    <value>Invalid image URL.</value>
+    <value>Неверный URL изображения.</value>
   </data>
   <data name="giveaways_entries" xml:space="preserve">
-    <value>Entries:</value>
+    <value>Записи:</value>
   </data>
   <data name="giveaway_winners_2" xml:space="preserve">
-    <value>Winners:</value>
+    <value>Победители:</value>
   </data>
   <data name="giveaway_prize" xml:space="preserve">
-    <value>Prize:</value>
+    <value>Приз:</value>
   </data>
   <data name="giveaway_required_xp" xml:space="preserve">
-    <value>Required XP Level:</value>
+    <value>Требуемый уровень XP:</value>
   </data>
   <data name="giveaway_required_role" xml:space="preserve">
-    <value>Required Role:</value>
+    <value>Требуемая роль:</value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_prize" xml:space="preserve">
-    <value>**Prize:** </value>
+    <value>**Приз:** </value>
     <comment>DO_NOT_MODIFY</comment>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_description" xml:space="preserve">
-    <value>**Description:** </value>
+    <value>**Описание:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_winners" xml:space="preserve">
-    <value>**Winners:** </value>
+    <value>**Победители:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_duration" xml:space="preserve">
-    <value>**Duration:** </value>
+    <value>**Длительность:** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_image" xml:space="preserve">
-    <value>**Image URL (optional):** </value>
+    <value>**URL изображения (опционально):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_xp_level" xml:space="preserve">
-    <value>**Required XP Level (optional):** </value>
+    <value>**Требуемый уровень XP (опционально):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_ping_role" xml:space="preserve">
-    <value>**Ping Role (optional):** </value>
+    <value>**Роль для уведомления (опционально):** </value>
   </data>
   <data name="DO_NOT_MODIFY_giveaway_required_role" xml:space="preserve">
-    <value>**Required Role (optional):** </value>
+    <value>**Требуемая роль (опционально):** </value>
   </data>
   <data name="giveaway_ping_role" xml:space="preserve">
-    <value>Select a role to ping for the giveaway.</value>
+    <value>Выберите роль для уведомления на розыгрыш.</value>
   </data>
   <data name="giveaway_required_role_2" xml:space="preserve">
-    <value>Select a required role for the giveaway.</value>
+    <value>Выберите требуемую роль для розыгрыша.</value>
   </data>
   <data name="error_missing_section" xml:space="preserve">
-    <value>Could not locate the section.</value>
+    <value>Не удалось найти раздел.</value>
   </data>
   <data name="error_exists_role" xml:space="preserve">
-    <value>Role does not exist.</value>
+    <value>Роль не существует.</value>
   </data>
   <data name="error_missing_components" xml:space="preserve">
-    <value>Could not locate components.</value>
+    <value>Не удалось найти компоненты.</value>
   </data>
   <data name="chatbot_limit_reached_premium" xml:space="preserve">
-    <value>You have reached the AI request limit for this server _({0} requests per month)_. You can purchase a custom bot to increase this limit to {1}!</value>
+    <value>Вы достигли лимита запросов AI для этого сервера _({0} запросов в месяц)_. Вы можете приобрести пользовательского бота, чтобы увеличить этот лимит до {1}!</value>
   </data>
   <data name="core_purchase_custombot" xml:space="preserve">
-    <value>Purchase Custom Bot</value>
+    <value>Приобрести пользовательского бота</value>
   </data>
   <data name="FishingGroup_Inventory_Fishing_Inventory___Stats" xml:space="preserve">
-    <value>Fishing Inventory &amp; Stats</value>
+    <value>Инвентарь и статистика рыбалки</value>
   </data>
   <data name="BiomeAutocompleteHandler_GenerateSuggestionsAsync_Buy_additional_biomes_with__fishing_list_biomes" xml:space="preserve">
-    <value>Buy additional biomes with /fishing list-biomes</value>
+    <value>Покупайте дополнительные биомы с /fishing list-biomes</value>
   </data>
   <data name="RodAutocompleteHandler_GenerateSuggestionsAsync_Buy_better_rods_with__fishing_list_rods" xml:space="preserve">
-    <value>Buy better rods with /fishing list-rods</value>
+    <value>Покупайте лучшие удочки с /fishing list-rods</value>
   </data>
   <data name="BaitAutocompleteHandler_GenerateSuggestionsAsync_Buy_additional_bait_with__fishing_list_bait" xml:space="preserve">
-    <value>Buy additional bait with /fishing list-bait</value>
+    <value>Покупайте дополнительные приманки с /fishing list-bait</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Failed_to_repost_message_" xml:space="preserve">
-    <value>Failed to repost message.</value>
+    <value>Не удалось переправить сообщение.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Reposted__0__s_message_in__1__" xml:space="preserve">
-    <value>Reposted {0}'s message in {1}.</value>
+    <value>Сообщение {0} переправлено в {1}.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync__0___your_message_has_been_moved_to__1__by__2__" xml:space="preserve">
-    <value>{0}, your message has been moved to {1} by {2}.</value>
+    <value>{0}, ваше сообщение было перемещено в {1} пользователем {2}.</value>
   </data>
   <data name="ModeratorCommands_Warn_View_Warnings" xml:space="preserve">
-    <value>View Warnings</value>
+    <value>Просмотреть предупреждения</value>
   </data>
   <data name="ModeratorCommands_Timeout__0___Less_than_28_days_" xml:space="preserve">
-    <value>{0} (Less than 28 days)</value>
+    <value>{0} (Менее 28 дней)</value>
   </data>
   <data name="reminder_create_time_invalid" xml:space="preserve">
-    <value>Reminders must be more than {0} minutes into the future.</value>
+    <value>Напоминания должны быть более чем на {0} минут в будущее.</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_User_Limit" xml:space="preserve">
-    <value>User Limit:</value>
+    <value>Лимит пользователей:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Bitrate" xml:space="preserve">
-    <value>Bitrate:</value>
+    <value>Битрейт:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Video_Stream_Quality" xml:space="preserve">
-    <value>Video Stream Quality:</value>
+    <value>Качество видеопотока:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_RTC_Region" xml:space="preserve">
-    <value>RTC Region:</value>
+    <value>Регион RTC:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Permissions_Changed" xml:space="preserve">
-    <value>Permissions Changed:</value>
+    <value>Изменены разрешения:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Slow_Mode_Interval" xml:space="preserve">
-    <value>Slow Mode Interval:</value>
+    <value>Интервал медленного режима:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Thread_Creation_Interval" xml:space="preserve">
-    <value>Thread Creation Interval:</value>
+    <value>Интервал создания тредов:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Sort_Order" xml:space="preserve">
-    <value>Sort Order:</value>
+    <value>Порядок сортировки:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Default_Layout" xml:space="preserve">
-    <value>Default Layout:</value>
+    <value>Макет по умолчанию:</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
-    <value>Reaction Emoji:</value>
+    <value>Emoji реакции:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Honey Pot активирован</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## НЕ ОТПРАВЛЯЙТЕ СООБЩЕНИЯ В ЭТОТ КАНАЛ
+Этот канал используется для ловли ботов-спамеров. Любые сообщения, отправленные сюда, приведут к **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Триггеры: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: Honey pot канал активирован</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 час)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>кик</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>мягкий бан</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>бан</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Вложения:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>Игра в счёт ещё не настроена на этом сервере.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>Статус Игры в Счёт</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Текущий Счёт:** {0}
+**Следующее Число:** {1}
+**Сейчас Удерживает:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Пока никто — стань первым, кто посчитает!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Статистика Игры в Счёт</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Наивысший Достигнутый Счёт:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Твоя Роль за Нарушение</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>На этом сервере не настроена роль за нарушение счёта.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Сейчас у тебя нет роли за нарушение счёта.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Сейчас у тебя есть {0} за нарушение счёта. Это назначение **постоянное**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Сейчас у тебя есть {0} за нарушение счёта. Она будет снята {1}.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Роль за Нарушение Счёта</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>Роль за нарушение не настроена — нарушение счёта сейчас не влечёт никаких последствий с ролями на этом сервере.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Нарушение счёта назначает {0}. Это назначение **постоянное**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Нарушение счёта назначает {0} на **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} минут</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} часов</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} дней</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Панель #{0}</value>
   </data>
 </root>

@@ -412,7 +412,7 @@
     <value>**A propos:**```Cakey Bot est un bot Discord puissant et hautement personnalisable pour votre serveur. Il comprend un noyau musical massif, des logs d'audit avancés et des tonnes de fonctionnalités de modération utiles pour faciliter la gestion de vos serveurs. Vous pouvez également créer des répondeurs automatiques avancés et des commandes personnalisées avec notre tableau de bord web ou configurer des journaux d'audit avancés pour automatiser les tâches répétitives.````</value>
   </data>
   <data name="info_ping" xml:space="preserve">
-    <value>Shard #{0}: {1}ms</value>
+    <value>Fragment #{0} : {1}ms</value>
   </data>
   <data name="info_ping_avg" xml:space="preserve">
     <value>Moyenne des battements de cœur :</value>
@@ -761,6 +761,9 @@
   </data>
   <data name="music_volume_3" xml:space="preserve">
     <value>Volume défini avec succès à : `{0}`</value>
+  </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>Volume par défaut définie avec succès à: `{0}`</value>
   </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>[{0}]({1}) [{2}] a été ignoré.</value>
@@ -1249,7 +1252,7 @@ Si vous cherchez une liste de commandes de robots et leur fonctionnement, clique
     <value>&gt;{0} mentions.</value>
   </data>
   <data name="automod_string_emote" xml:space="preserve">
-    <value>&gt;{0} emotes.</value>
+    <value>&gt;{0} émojis.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
     <value>&gt;{0}% de caractères dupliqués.</value>
@@ -1288,7 +1291,7 @@ Si vous cherchez une liste de commandes de robots et leur fonctionnement, clique
     <value>Mots dupliqués</value>
   </data>
   <data name="automod_check_auto_dehoist" xml:space="preserve">
-    <value>Auto Dehoist</value>
+    <value>Déhoist automatique</value>
   </data>
   <data name="automod_embed_violation" xml:space="preserve">
     <value>Violation :</value>
@@ -1324,7 +1327,7 @@ Si vous cherchez une liste de commandes de robots et leur fonctionnement, clique
     <value>Un jeu est déjà en cours, terminez-le avant d'en créer un nouveau.</value>
   </data>
   <data name="game_ttt_title" xml:space="preserve">
-    <value>Tic Tac Toe</value>
+    <value>Morpion</value>
   </data>
   <data name="game_player_1" xml:space="preserve">
     <value>Joueur 1</value>
@@ -1622,7 +1625,7 @@ Note : Requiert l'accès à \"Manage Server\".</value>
     <value>Le titre de la chanson contient un mot figurant sur la liste noire établie par les administrateurs du serveur.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube n'est plus une source supportée en raison de la politique de Discord. Vous pouvez toujours utiliser des requêtes brutes comme `epic music` ou jouer de la musique à partir de l'une de nos nombreuses autres [sources prises en charge] (https://wiki.cakey.bot/music/supported-sources).</value>
+    <value>YouTube n'est plus une source supportée en raison de la politique de Discord. Vous pouvez toujours utiliser des requêtes brutes comme `epic music` ou jouer de la musique à partir de l'une de nos nombreuses autres [sources prises en charge] (https://wiki.cakey.bot/en/music/supported-sources).</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>Délai expiré {0}. Expire &lt;t :{1}:R&gt;.</value>
@@ -1957,6 +1960,9 @@ Note : Requiert l'accès à \"Manage Server\".</value>
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>Impossible d'analyser la date fournie.</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>Ce n'est pas un fuseau horaire valide. Utilisez un identifiant IANA, par ex. `America/New_York` ou `Europe/London`.</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>Le message doit avoir un contenu textuel pour être analysé.</value>
@@ -2484,15 +2490,6 @@ Wow ! Il n'y a que 0,02% de chances que cela se produise !</value>
   <data name="role_invalid" xml:space="preserve">
     <value>Rôle invalide</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>Rôle auto-attribuable supprimé avec succès.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>Ajout réussi de `{0}` en tant que rôle auto-attribuable.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>Ce rôle existe déjà en tant que rôle auto-attribuable.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>Utilisateur invalide.</value>
   </data>
@@ -2612,6 +2609,21 @@ Please click the button below to verify your account before you can access the s
   </data>
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Le fil a été créé avec succès.</value>
+  </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>Marqué comme doublon par : {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>En cours d'examen par : {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>Vous avez besoin de la permission Gérer le serveur ou Administrateur pour statuer sur les suggestions.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>Impossible de trouver cette suggestion. Vérifiez le lien du message ou l'ID et réessayez.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>Ce serveur n'a pas encore configuré de salon de suggestions. Un administrateur doit en configurer un dans le tableau de bord avant que des suggestions puissent être créées - consultez {0} pour les instructions de configuration.</value>
   </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>Les transferts d'argent entre utilisateurs ont été désactivés par les administrateurs du serveur.</value>
@@ -3120,7 +3132,7 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
     <value>Synchronisation des bans | Utilisateur débanni</value>
   </data>
   <data name="auditlog_leveling" xml:space="preserve">
-    <value>Leveling</value>
+    <value>Progression</value>
   </data>
   <data name="leveling_title" xml:space="preserve">
     <value>Montée de niveau !</value>
@@ -3393,7 +3405,7 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
     <value>Supprimer la commande Rôle</value>
   </data>
   <data name="ai_error_title" xml:space="preserve">
-    <value>Core | AI Chat Bot</value>
+    <value>Core | Chatbot IA</value>
   </data>
   <data name="ai_invalid_key" xml:space="preserve">
     <value>Erreur : Clé API invalide. Vous pouvez trouver votre clé API sur https://platform.openai.com/account/api-keys.</value>
@@ -3435,7 +3447,7 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
     <value>Vous ne pouvez poster que {0} dans ce canal.</value>
   </data>
   <data name="github_issue" xml:space="preserve">
-    <value>Issue #{0} | {1}</value>
+    <value>Ticket #{0} | {1}</value>
   </data>
   <data name="github_state" xml:space="preserve">
     <value>État :</value>
@@ -3603,9 +3615,6 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
   <data name="automod_sus_join" xml:space="preserve">
     <value>Rejointe Suspecte</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>Vous avez atteint le nombre maximum de rôles personnels ({0}).</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>Intégration générée avec succès.</value>
   </data>
@@ -3681,6 +3690,30 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
   <data name="selfrole_title_list" xml:space="preserve">
     <value>Rôle Personnel | Liste</value>
   </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>Le(s) rôle(s) suivant(s) ont été retirés en raison d'une limite de groupe de rôles : {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>Unique</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>Sélection multiple, jusqu'à {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>nécessite @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>nécessite le niveau {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>Vous avez besoin du rôle {0} ({1}) pour obtenir un rôle du groupe « {2} ».</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>Le rôle requis du groupe « {0} » n'existe plus. Un administrateur doit définir un nouveau rôle requis (ou supprimer le prérequis) avant que quiconque puisse obtenir un rôle de ce groupe.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>Vous devez être niveau {0}+ pour obtenir un rôle du groupe « {1} ».</value>
+  </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Musique | File d'Attente</value>
   </data>
@@ -3709,7 +3742,7 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
     <value>filtre `low pass` désactivé</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
-    <value>Low Pass</value>
+    <value>Passe-bas</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
     <value>filtre `low pass` personnalisé activé</value>
@@ -3718,7 +3751,7 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
     <value>Filtre `Karaoke` supprimé avec succès.</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>Distorsion</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
     <value>Configuration des Annonces</value>
@@ -3835,10 +3868,10 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
     <value>Core | Commandes du Bot</value>
   </data>
   <data name="misc_title_google" xml:space="preserve">
-    <value>Misc | Google | </value>
+    <value>Divers | Google | </value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
-    <value>Misc | Wiki</value>
+    <value>Divers | Wiki</value>
   </data>
   <data name="misc_title_image" xml:space="preserve">
     <value>Divers | Image | </value>
@@ -3991,455 +4024,455 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
     <value>Autocollant | {0}</value>
   </data>
   <data name="FilterCommand_DistortionAsync_" xml:space="preserve">
-    <value>disabled `distortion` filter</value>
+    <value>filtre `distortion` désactivé</value>
   </data>
   <data name="FilterCommand_DistortionAsync_enable" xml:space="preserve">
-    <value>enabled custom `distortion` filter</value>
+    <value>filtre `distortion` personnalisé activé</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_disable" xml:space="preserve">
-    <value>disabled `karaoke` filter</value>
+    <value>filtre `karaoke` désactivé</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_enable" xml:space="preserve">
-    <value>enabled custom `karaoke` filter</value>
+    <value>filtre `karaoke` personnalisé activé</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_Karaoke" xml:space="preserve">
-    <value>Karaoke</value>
+    <value>Karaoké</value>
   </data>
   <data name="FilterCommand_RotationAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Rotation` filter.</value>
+    <value>Filtre `Rotation` effacé avec succès.</value>
   </data>
   <data name="FilterCommand_RotationAsync_disable" xml:space="preserve">
-    <value>disabled `rotation` filter</value>
+    <value>filtre `rotation` désactivé</value>
   </data>
   <data name="FilterCommand_RotationAsync_Rotation" xml:space="preserve">
     <value>Rotation</value>
   </data>
   <data name="FilterCommand_RotationAsync_enable" xml:space="preserve">
-    <value>enabled custom `rotation` filter</value>
+    <value>filtre `rotation` personnalisé activé</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Timescale` filter.</value>
+    <value>Filtre `Timescale` effacé avec succès.</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_disable" xml:space="preserve">
-    <value>disabled `timescale` filter</value>
+    <value>filtre `timescale` désactivé</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_Timescale" xml:space="preserve">
     <value>Timescale</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_enable" xml:space="preserve">
-    <value>enabled custom `timescale` filter</value>
+    <value>filtre `timescale` personnalisé activé</value>
   </data>
   <data name="FilterCommand_TremoloAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Tremolo` filter.</value>
+    <value>Filtre `Tremolo` effacé avec succès.</value>
   </data>
   <data name="FilterCommand_TremoloAsync_disable" xml:space="preserve">
-    <value>disabled `tremolo` filter</value>
+    <value>filtre `tremolo` désactivé</value>
   </data>
   <data name="FilterCommand_TremoloAsync_Tremolo" xml:space="preserve">
-    <value>Tremolo</value>
+    <value>Trémolo</value>
   </data>
   <data name="FilterCommand_TremoloAsync_enable" xml:space="preserve">
-    <value>enabled custom `tremolo` filter</value>
+    <value>filtre `tremolo` personnalisé activé</value>
   </data>
   <data name="FilterCommand_VibratoAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Vibrato` filter.</value>
+    <value>Filtre `Vibrato` supprimé avec succès.</value>
   </data>
   <data name="FilterCommand_VibratoAsync_disable" xml:space="preserve">
-    <value>disabled `vibrato` filter</value>
+    <value>filtre `vibrato` désactivé</value>
   </data>
   <data name="FilterCommand_VibratoAsync_Vibrato" xml:space="preserve">
     <value>Vibrato</value>
   </data>
   <data name="FilterCommand_VibratoAsync_enable" xml:space="preserve">
-    <value>enabled custom `vibrato` filter</value>
+    <value>filtre `vibrato` personnalisé activé</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `channel mix` filter.</value>
+    <value>Filtre `channel mix` supprimé avec succès.</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_disable" xml:space="preserve">
-    <value>disabled `channel mix` filter</value>
+    <value>filtre `channel mix` désactivé</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_Channel_Mix" xml:space="preserve">
-    <value>Channel Mix</value>
+    <value>Mélange de canaux</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_enable" xml:space="preserve">
-    <value>enabled custom `channel mix` filter</value>
+    <value>filtre `channel mix` personnalisé activé</value>
   </data>
   <data name="FilterCommand_EchoAsync_clear" xml:space="preserve">
-    <value>Successfully cleared the `Echo` filter.</value>
+    <value>Filtre `Echo` supprimé avec succès.</value>
   </data>
   <data name="FilterCommand_EchoAsync_disable" xml:space="preserve">
-    <value>disabled `echo` filter</value>
+    <value>filtre `echo` désactivé</value>
   </data>
   <data name="FilterCommand_EchoAsync_Echo" xml:space="preserve">
-    <value>Echo</value>
+    <value>Écho</value>
   </data>
   <data name="FilterCommand_EchoAsync_enable" xml:space="preserve">
-    <value>enabled custom `echo` filter</value>
+    <value>filtre `echo` personnalisé activé</value>
   </data>
   <data name="FilterCommand_NoneAsync_Successfully_cleared_all_filters_" xml:space="preserve">
-    <value>Successfully cleared all filters.</value>
+    <value>Tous les filtres ont été supprimés avec succès.</value>
   </data>
   <data name="FilterCommand_NoneAsync_disabled_all_filters" xml:space="preserve">
-    <value>disabled all filters</value>
+    <value>tous les filtres désactivés</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phishing" xml:space="preserve">
-    <value>AutoMod - Phishing</value>
+    <value>AutoMod - Hameçonnage</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Sticker_Spam" xml:space="preserve">
-    <value>AutoMod - Sticker Spam</value>
+    <value>AutoMod - Spam d'autocollants</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Spoiler_Spam" xml:space="preserve">
-    <value>AutoMod - Spoiler Spam</value>
+    <value>AutoMod - Spam de spoilers</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Zalgo_Text" xml:space="preserve">
-    <value>AutoMod - Zalgo Text</value>
+    <value>AutoMod - Texte Zalgo</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Capitalization" xml:space="preserve">
-    <value>AutoMod - Mass Capitalization</value>
+    <value>AutoMod - Capitalisation en masse</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Discord_Invites" xml:space="preserve">
-    <value>AutoMod - Discord Invites</value>
+    <value>AutoMod - Invitations Discord</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Duplicate_Words" xml:space="preserve">
-    <value>AutoMod - Duplicate Words</value>
+    <value>AutoMod - Mots en double</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Mentions" xml:space="preserve">
-    <value>AutoMod - Mass Mentions</value>
+    <value>AutoMod - Mentions en masse</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Emoji" xml:space="preserve">
-    <value>AutoMod - Mass Emoji</value>
+    <value>AutoMod - Emojis en masse</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Duplicate_Characters" xml:space="preserve">
-    <value>AutoMod - Duplicate Characters</value>
+    <value>AutoMod - Caractères en double</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Website_URLs" xml:space="preserve">
-    <value>AutoMod - Website URLs</value>
+    <value>AutoMod - URL de sites web</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phone_Number" xml:space="preserve">
-    <value>AutoMod - Phone Number</value>
+    <value>AutoMod - Numéro de téléphone</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Markdown_Headers" xml:space="preserve">
-    <value>AutoMod - Markdown Headers</value>
+    <value>AutoMod - En-têtes Markdown</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Blacklisted_File_Extension" xml:space="preserve">
-    <value>AutoMod - Blacklisted File Extension</value>
+    <value>AutoMod - Extension de fichier interdite</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Unknown_Reason" xml:space="preserve">
-    <value>AutoMod - Unknown Reason</value>
+    <value>AutoMod - Raison inconnue</value>
   </data>
   <data name="AutoModService_CheckMessageContent__0__Your_message_was_deleted_for_containing_a_phone_number_" xml:space="preserve">
-    <value>{0} Your message was deleted for containing a phone number.</value>
+    <value>{0} Votre message a été supprimé car il contenait un numéro de téléphone.</value>
   </data>
   <data name="AutoModService_CheckMessageContent_Phone_Number" xml:space="preserve">
-    <value>Phone Number</value>
+    <value>Numéro de téléphone</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Warn_User" xml:space="preserve">
-    <value>Delete &amp; Warn User</value>
+    <value>Supprimer &amp; Avertir l'utilisateur</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick_User" xml:space="preserve">
-    <value>Delete Message &amp; Kick User</value>
+    <value>Supprimer le message &amp; Exclure l'utilisateur</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick___Warn_User" xml:space="preserve">
-    <value>Delete Message &amp; Kick + Warn User</value>
+    <value>Supprimer le message &amp; Exclure + Avertir l'utilisateur</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Ban_User__Delete_24h_" xml:space="preserve">
-    <value>Ban User (Delete 24h)</value>
+    <value>Bannir l'utilisateur (Supprimer 24h)</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Timeout_User__1h_" xml:space="preserve">
-    <value>Delete &amp; Timeout User (1h)</value>
+    <value>Supprimer &amp; Timeout de l'utilisateur (1h)</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_" xml:space="preserve">
-    <value>enqueued `{0}` tracks</value>
+    <value>ajouté `{0}` pistes en file d'attente</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_one" xml:space="preserve">
-    <value>enqueued `1` track</value>
+    <value>ajouté `1` piste en file d'attente</value>
   </data>
   <data name="music_ff_time" xml:space="preserve">
-    <value>fast forwarded track by `{0}` seconds</value>
+    <value>piste avancée rapide de `{0}` secondes</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_" xml:space="preserve">
-    <value>added `{0}` tracks to queue</value>
+    <value>ajouté `{0}` pistes en file d'attente</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_swapped_track__0__and__1_" xml:space="preserve">
-    <value>swapped track {0} and {1}</value>
+    <value>pistes {0} et {1} permutées</value>
   </data>
   <data name="SortQueueCommand_TitleAsync_" xml:space="preserve">
-    <value>sorted the queue by `Title - {0}`</value>
+    <value>file d'attente triée par `Titre - {0}`</value>
   </data>
   <data name="SortQueueCommand_AuthorAsync_" xml:space="preserve">
-    <value>sorted the queue by `Author - {0}`</value>
+    <value>file d'attente triée par `Auteur - {0}`</value>
   </data>
   <data name="SortQueueCommand_LengthAsync_" xml:space="preserve">
-    <value>sorted the queue by `Length - {0}`</value>
+    <value>file d'attente triée par `Durée - {0}`</value>
   </data>
   <data name="SortQueueCommand_ReverseAsync_" xml:space="preserve">
-    <value>sorted the queue by `Reverse`</value>
+    <value>file d'attente triée par `Inverse`</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_Invalid_index_" xml:space="preserve">
-    <value>Invalid index.</value>
+    <value>Index invalide.</value>
   </data>
   <data name="RemoveCommand_FirstAsync_" xml:space="preserve">
-    <value>removed `first` track from queue</value>
+    <value>première piste supprimée de la file d'attente</value>
   </data>
   <data name="RemoveCommand_LastAsync_" xml:space="preserve">
-    <value>removed `last` track from queue</value>
+    <value>dernière piste supprimée de la file d'attente</value>
   </data>
   <data name="RemoveCommand_SingleAsync_" xml:space="preserve">
-    <value>removed `{0}` track from queue</value>
+    <value>piste `{0}` supprimée de la file d'attente</value>
   </data>
   <data name="RemoveCommand_RangeAsync_" xml:space="preserve">
-    <value>removed `{0}`-`{1}` from queue</value>
+    <value>`{0}`-`{1}` supprimé de la file d'attente</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_" xml:space="preserve">
-    <value>removed `duplicate` tracks from queue</value>
+    <value>supprimé les pistes `duplicate` de la file d'attente</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_" xml:space="preserve">
-    <value>removed `userleft` tracks from queue</value>
+    <value>supprimé les pistes `userleft` de la file d'attente</value>
   </data>
   <data name="RemoveCommand_UserAsync_" xml:space="preserve">
-    <value>removed `{0}`'s tracks from queue</value>
+    <value>supprimé les pistes de `{0}` de la file d'attente</value>
   </data>
   <data name="RemoveCommand_KeywordAsync_" xml:space="preserve">
-    <value>removed `keyword: {0}` tracks from queue</value>
+    <value>supprimé les pistes `keyword: {0}` de la file d'attente</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_" xml:space="preserve">
-    <value>enabled `{0}` filter</value>
+    <value>filtre `{0}` activé</value>
   </data>
   <data name="MusicCommands_ResumeAsync_resumed_playback" xml:space="preserve">
-    <value>resumed playback</value>
+    <value>lecture reprise</value>
   </data>
   <data name="MusicCommands_PauseAsync_paused_playback" xml:space="preserve">
-    <value>paused playback</value>
+    <value>lecture mise en pause</value>
   </data>
   <data name="MusicCommands_SkipAsync_" xml:space="preserve">
-    <value>skipped `{0}` tracks</value>
+    <value>ignoré `{0}` pistes</value>
   </data>
   <data name="MusicCommands_JumpTo_" xml:space="preserve">
-    <value>jumped to `{0}` in queue</value>
+    <value>accédé à `{0}` dans la file d'attente</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_" xml:space="preserve">
-    <value>set eqpreset to `{0}`</value>
+    <value>eqpreset défini sur `{0}`</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_cleared_the_queue" xml:space="preserve">
-    <value>cleared the queue</value>
+    <value>file d'attente vidée</value>
   </data>
   <data name="MusicCommands_RestartAsync_restarted_current_track" xml:space="preserve">
-    <value>restarted current track</value>
+    <value>piste actuelle redémarrée</value>
   </data>
   <data name="MusicCommands_SeekAsync_" xml:space="preserve">
-    <value>seeked track to `{0}`</value>
+    <value>a avancé la piste à `{0}`</value>
   </data>
   <data name="MusicCommands_RewindAsync_" xml:space="preserve">
-    <value>rewinded track by `{0}`</value>
+    <value>a rembobiné la piste de `{0}`</value>
   </data>
   <data name="MusicCommands_EqualizerAsync_updated_custom_equalizer" xml:space="preserve">
-    <value>updated custom equalizer</value>
+    <value>égaliseur personnalisé mis à jour</value>
   </data>
   <data name="UtilityCommands_Math_Misc___Math" xml:space="preserve">
-    <value>Misc | Math</value>
+    <value>Divers | Calcul</value>
   </data>
   <data name="MusicCommands_Volume_Music___Volume" xml:space="preserve">
-    <value>Music | Volume</value>
+    <value>Musique | Volume</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Saved_by__0_" xml:space="preserve">
-    <value>Saved by {0}</value>
+    <value>Enregistrée par {0}</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Created_by__0_" xml:space="preserve">
-    <value>Created by {0}</value>
+    <value>Créée par {0}</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Added_by__0_" xml:space="preserve">
-    <value>Added by {0}</value>
+    <value>Ajoutée par {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Deleted_by__0_" xml:space="preserve">
-    <value>Deleted by {0}</value>
+    <value>Supprimée par {0}</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Renamed_by__0_" xml:space="preserve">
-    <value>Renamed by {0}</value>
+    <value>Renommée par {0}</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Loaded_by__0_" xml:space="preserve">
-    <value>Loaded by {0}</value>
+    <value>Chargée par {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Music___Playlist_Delete" xml:space="preserve">
-    <value>Music | Playlist Delete</value>
+    <value>Musique | Suppression de playlist</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Music___Playlist_Rename" xml:space="preserve">
-    <value>Music | Playlist Rename</value>
+    <value>Musique | Renommage de playlist</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Music___Playlist_Load" xml:space="preserve">
-    <value>Music | Playlist Load</value>
+    <value>Musique | Chargement de playlist</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Music___Playlist_Create" xml:space="preserve">
-    <value>Music | Playlist Create</value>
+    <value>Musique | Création de playlist</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Music___Playlist_Add" xml:space="preserve">
-    <value>Music | Playlist Add</value>
+    <value>Musique | Ajout à la playlist</value>
   </data>
   <data name="SongRequestButtons_SongRequestFF_Music___Fast_Forward" xml:space="preserve">
-    <value>Music | Fast Forward</value>
+    <value>Musique | Avance rapide</value>
   </data>
   <data name="EconomyCommand_ItemInfo_Economy___Item_Information" xml:space="preserve">
-    <value>Economy | Item Information</value>
+    <value>Économie | Informations sur l'objet</value>
   </data>
   <data name="TagsCommand_InfoTag_Tags___Info" xml:space="preserve">
     <value>Tags | Info</value>
   </data>
   <data name="TagsCommand_InfoTag_Content_" xml:space="preserve">
-    <value>Content:</value>
+    <value>Contenu :</value>
   </data>
   <data name="TagsCommand_InfoTag_Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Activé</value>
   </data>
   <data name="TagsCommand_RawTag_" xml:space="preserve">
-    <value>RAW Tag:
+    <value>Balise RAW :
 ```{0}```</value>
   </data>
   <data name="MiscCommands_Fact_Misc___Fact" xml:space="preserve">
-    <value>Misc | Fact</value>
+    <value>Divers | Fait</value>
   </data>
   <data name="GameCommands_DiceAsync_Games___Dice" xml:space="preserve">
-    <value>Games | Dice</value>
+    <value>Jeux | Dés</value>
   </data>
   <data name="GameCommands_RpsAsync_Games___Rock__Paper__Scissors" xml:space="preserve">
-    <value>Games | Rock, Paper, Scissors</value>
+    <value>Jeux | Pierre, Papier, Ciseaux</value>
   </data>
   <data name="GameCommands_BallAsync_Games___8Ball" xml:space="preserve">
-    <value>Games | 8Ball</value>
+    <value>Jeux | 8Ball</value>
   </data>
   <data name="MiscCommands_AnimeQuote_Misc___Anime_Quote" xml:space="preserve">
-    <value>Misc | Anime Quote</value>
+    <value>Divers | Citation Anime</value>
   </data>
   <data name="SearchCommand_Search_Misc___Manga" xml:space="preserve">
-    <value>Misc | Manga</value>
+    <value>Divers | Manga</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_Music___Remove_Duplicates" xml:space="preserve">
-    <value>Music | Remove Duplicates</value>
+    <value>Musique | Supprimer les doublons</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_Music___Leave_Cleanup" xml:space="preserve">
-    <value>Music | Leave Cleanup</value>
+    <value>Musique | Nettoyage au départ</value>
   </data>
   <data name="StreakCommands_View_Streak_for_" xml:space="preserve">
-    <value>Streak for </value>
+    <value>Série pour </value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Music___Filter_Preset" xml:space="preserve">
-    <value>Music | Filter Preset</value>
+    <value>Musique | Préset de filtre</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_all_filter_effects_" xml:space="preserve">
-    <value>Disabled all filter effects.</value>
+    <value>Tous les effets de filtre ont été désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_No_presets_are_currently_applied_" xml:space="preserve">
-    <value>No presets are currently applied.</value>
+    <value>Aucun préset n'est actuellement appliqué.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_vibrate_filter_effects_" xml:space="preserve">
-    <value>Disabled vibrate filter effects.</value>
+    <value>Effets de filtre de vibration désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_vibrate_filter_effects_" xml:space="preserve">
-    <value>Applied vibrate filter effects.</value>
+    <value>Effets de filtre de vibration appliqués.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_speed_filter_effects_" xml:space="preserve">
-    <value>Applied speed filter effects.</value>
+    <value>Effets de filtre de vitesse appliqués.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_speed_filter_effects_" xml:space="preserve">
-    <value>Disabled speed filter effects.</value>
+    <value>Effets de filtre de vitesse désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_slow_mo_filter_effects_" xml:space="preserve">
-    <value>Disabled slow mo filter effects.</value>
+    <value>Effets de filtre slow mo désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_slow_mo_filter_effects_" xml:space="preserve">
-    <value>Applied slow mo filter effects.</value>
+    <value>Effets de filtre slow mo appliqués.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_darth_vader_filter_effects_" xml:space="preserve">
-    <value>Applied darth vader filter effects.</value>
+    <value>Effets de filtre Darth Vader appliqués.</value>
   </data>
   <data name="MusicCommands_PlayFileAsync_An_issue_occured_while_trying_to_join_that_channel_" xml:space="preserve">
-    <value>An issue occured while trying to join that channel.</value>
+    <value>Un problème s'est produit lors de la tentative de rejoindre ce canal.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_vaporwave_filter_effects_" xml:space="preserve">
-    <value>Disabled vaporwave filter effects.</value>
+    <value>Effets de filtre vaporwave désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_vaporwave_filter_effects_" xml:space="preserve">
-    <value>Applied vaporwave filter effects.</value>
+    <value>Effets de filtre vaporwave appliqués.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_reverb_filter_effects_" xml:space="preserve">
-    <value>Disabled reverb filter effects.</value>
+    <value>Effets de filtre reverb désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_reverb_filter_effects_" xml:space="preserve">
-    <value>Applied reverb filter effects.</value>
+    <value>Effets de filtre reverb appliqués.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_nightcore_filter_effects_" xml:space="preserve">
-    <value>Disabled nightcore filter effects.</value>
+    <value>Effets de filtre nightcore désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_nightcore_filter_effects_" xml:space="preserve">
-    <value>Applied nightcore filter effects.</value>
+    <value>Effets de filtre nightcore appliqués.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_8D_audio_filter_effects_" xml:space="preserve">
-    <value>Disabled 8D audio filter effects.</value>
+    <value>Effets de filtre audio 8D désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_8D_audio_filter_effects_" xml:space="preserve">
-    <value>Applied 8D audio filter effects.</value>
+    <value>Effets de filtre audio 8D appliqués.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_chipmunk_filter_effects_" xml:space="preserve">
-    <value>Disabled chipmunk filter effects.</value>
+    <value>Effets de filtre chipmunk désactivés.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_chipmunk_filter_effects_" xml:space="preserve">
-    <value>Applied chipmunk filter effects.</value>
+    <value>Effets de filtre chipmunk appliqués.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_darth_vader_filter_effects_" xml:space="preserve">
-    <value>Disabled darth vader filter effects.</value>
+    <value>Effets de filtre Darth Vader désactivés.</value>
   </data>
   <data name="MusicCommands_RadioAsync_Failed_to_join_voice_channel_" xml:space="preserve">
-    <value>Failed to join voice channel.</value>
+    <value>Échec de la connexion au canal vocal.</value>
   </data>
   <data name="MusicCommands_RadioAsync_" xml:space="preserve">
-    <value>Added `{0}` to the music queue.</value>
+    <value>Ajout de `{0}` à la file d'attente musicale.</value>
   </data>
   <data name="MusicCommands_JumpTo_Music___Jump_To" xml:space="preserve">
-    <value>Music | Jump To</value>
+    <value>Musique | Sauter à</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_Music___Equalizer" xml:space="preserve">
-    <value>Music | Equalizer</value>
+    <value>Musique | Égaliseur</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_Music___Clear_Queue" xml:space="preserve">
-    <value>Music | Clear Queue</value>
+    <value>Musique | Vider la file</value>
   </data>
   <data name="MusicCommands_RestartAsync_Music___Restart" xml:space="preserve">
-    <value>Music | Restart</value>
+    <value>Musique | Redémarrer</value>
   </data>
   <data name="MusicCommands_NowPlaying_Applied_Filters_" xml:space="preserve">
-    <value>Applied Filters:</value>
+    <value>Filtres appliqués :</value>
   </data>
   <data name="MusicCommands_NowPlaying_Player_History_" xml:space="preserve">
-    <value>Player History:</value>
+    <value>Historique du lecteur :</value>
   </data>
   <data name="MinecraftCommands_ServerQuery_You_must_specify_either_a_type_or_a_port_" xml:space="preserve">
-    <value>You must specify either a type or a port.</value>
+    <value>Vous devez spécifier soit un type, soit un port.</value>
   </data>
   <data name="GuildContextMenu_GetUserInfo___Error____Unable_to_grab_user_info_" xml:space="preserve">
-    <value>**Error:** Unable to grab user info.</value>
+    <value>**Erreur :** Impossible d'obtenir les informations utilisateur.</value>
   </data>
   <data name="GitPreviewService_GitIssuePreview_Closed_By_" xml:space="preserve">
-    <value>Closed By:</value>
+    <value>Fermé par :</value>
   </data>
   <data name="ContributorButton_Contributors_Former_Staff_" xml:space="preserve">
-    <value>Former Staff:</value>
+    <value>Ancien personnel :</value>
   </data>
   <data name="GitPreviewService_GitPrPreview_Checks_" xml:space="preserve">
-    <value>Checks:</value>
+    <value>Vérifications :</value>
   </data>
   <data name="SelectionMenuHandler_SelfRoles_Cleared_selection_menu__No_roles_were_modified_" xml:space="preserve">
-    <value>Cleared selection menu. No roles were modified.</value>
+    <value>Menu de sélection effacé. Aucun rôle n'a été modifié.</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___Missing_Base64___Failed_to_generate_image_" xml:space="preserve">
-    <value>Imagine Error | Missing Base64 - Failed to generate image.</value>
+    <value>Erreur Imagine | Base64 manquant - Échec de la génération de l'image.</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Unknown_Error" xml:space="preserve">
-    <value>SD Error | Unknown Error</value>
+    <value>Erreur SD | Erreur inconnue</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_Prompt" xml:space="preserve">
-    <value>SD Error | Invalid Prompt</value>
+    <value>Erreur SD | Invite invalide</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Insufficient_balance" xml:space="preserve">
-    <value>SD Error | Insufficient balance</value>
+    <value>Erreur SD | Solde insuffisant</value>
   </data>
   <data name="ImagineCommand_Imagine_SD_Error___Invalid_API_Response" xml:space="preserve">
     <value>Erreur SD | Réponse API invalide</value>
@@ -4451,10 +4484,10 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
     <value>Aucun utilisateur valide à afficher sur le classement.</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_missing_some_users__downloading_pelase_wait___" xml:space="preserve">
-    <value>Cache missing some users, downloading pelase wait...</value>
+    <value>Cache manquant certains utilisateurs, téléchargement en cours veuillez patienter...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_Cache_download_complete__continuing___" xml:space="preserve">
-    <value>Cache download complete, continuing...</value>
+    <value>Téléchargement du cache terminé, continuation...</value>
   </data>
   <data name="SetupCommand_ForceCheckBoosts_" xml:space="preserve">
     <value>`{0}` utilisateurs boostés trouvés.</value>
@@ -4483,7 +4516,10 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>Le message n'existe pas dans ce canal.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>Discussion : {0}</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} du jour !</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
@@ -4639,5 +4675,92 @@ Si vous encaissez maintenant, vous gagnerez : **{3}**</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>Emoji de réaction :</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>Pot de miel déclenché</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## NE ENVOYEZ PAS DE MESSAGES DANS CE CANAL
+Ce canal est utilisé pour attraper les bots de spam. Tout message envoyé ici entraînera un **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>Déclencheurs : {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod : Pot de miel déclenché</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 heure)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>expulsion</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>bannissement temporaire</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>bannissement</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>Pièces jointes :</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>Le jeu du comptage n'a pas encore été configuré sur ce serveur.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>État du Jeu de Comptage</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**Compte Actuel :** {0}
+**Prochain Nombre :** {1}
+**Actuellement Détenu Par :** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*Personne encore — sois le premier à compter !*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>Statistiques du Jeu de Comptage</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**Plus Haut Compte Jamais Atteint :** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>Ton Rôle de Rupture</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>Ce serveur n'a pas de rôle de rupture configuré pour le jeu de comptage.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>Tu ne détiens actuellement pas le rôle de rupture du jeu de comptage.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>Tu détiens actuellement {0} pour avoir rompu le compte. Cette attribution est **permanente**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>Tu détiens actuellement {0} pour avoir rompu le compte. Il sera retiré {1}.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>Rôle de Rupture du Jeu de Comptage</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>Aucun rôle de rupture n'est configuré — rompre le compte n'a actuellement aucune conséquence de rôle sur ce serveur.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>Rompre le compte attribue {0}. Cette attribution est **permanente**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>Rompre le compte attribue {0} pendant **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} minutes</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} heures</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} jours</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>Panneau #{0}</value>
   </data>
 </root>

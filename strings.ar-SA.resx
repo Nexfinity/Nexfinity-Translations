@@ -762,6 +762,9 @@
   <data name="music_volume_3" xml:space="preserve">
     <value>تم ضبط مستوى الصوت بنجاح على: `{0}`</value>
   </data>
+  <data name="music_default_volume_3" xml:space="preserve">
+    <value>تم تعيين مستوى الصوت الافتراضي بنجاح إلى: `{0}`</value>
+  </data>
   <data name="music_skip_1" xml:space="preserve">
     <value>تم تخطي [{0}]({1}) [{2}].</value>
   </data>
@@ -1623,7 +1626,7 @@
     <value>عنوان الأغنية يحتوي على كلمة محظورة محددة من قبل مسؤولي الخادم.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>لم تعد YouTube مصدراً مدعوماً بسبب سياسة Discord. لا يزال بإمكانك استخدام الاستعلامات الخام مثل `epic music` أو تشغيل الموسيقى من أحد [المصادر المدعومة](https://wiki.cakey.bot/music/supported-sources) العديدة لدينا.</value>
+    <value>لم تعد YouTube مصدراً مدعوماً بسبب سياسة Discord. لا يزال بإمكانك استخدام الاستعلامات الخام مثل `epic music` أو تشغيل الموسيقى من أحد [المصادر المدعومة](https://wiki.cakey.bot/en/music/supported-sources) العديدة لدينا.</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>تم انتظار {0}. ينتهي &lt;t:{1}:R&gt;.</value>
@@ -1958,6 +1961,9 @@
   </data>
   <data name="birthday_invalid" xml:space="preserve">
     <value>تعذر تحليل التاريخ المقدم.</value>
+  </data>
+  <data name="birthday_invalid_timezone" xml:space="preserve">
+    <value>هذا ليس نطاقًا زمنيًا صالحًا. استخدم معرف IANA، مثل `America/New_York` أو `Europe/London`.</value>
   </data>
   <data name="analyze_text_error" xml:space="preserve">
     <value>يجب أن تحتوي الرسالة على محتوى نصي لتحليله.</value>
@@ -2484,15 +2490,6 @@ Note: A message will be sent upon completion.</value>
   <data name="role_invalid" xml:space="preserve">
     <value>دور غير صحيح</value>
   </data>
-  <data name="core_sr_removed_1" xml:space="preserve">
-    <value>تم إزالة دور ذاتي متاح بنجاح.</value>
-  </data>
-  <data name="core_sr_added_2" xml:space="preserve">
-    <value>تم إضافة `{0}` كدور ذاتي بنجاح.</value>
-  </data>
-  <data name="core_sr_added_1" xml:space="preserve">
-    <value>الدور موجود بالفعل كدور ذاتي.</value>
-  </data>
   <data name="error_invalid_user_generic" xml:space="preserve">
     <value>مستخدم غير صحيح.</value>
   </data>
@@ -2612,6 +2609,21 @@ Note: A message will be sent upon completion.</value>
   </data>
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>تم إنشاء الخيط بنجاح.</value>
+  </data>
+  <data name="games_suggestion_duplicate_by" xml:space="preserve">
+    <value>تم وضع علامة عليه كتكرار بواسطة: {0}</value>
+  </data>
+  <data name="games_suggestion_underreview_by" xml:space="preserve">
+    <value>قيد المراجعة بواسطة: {0}</value>
+  </data>
+  <data name="suggestion_error_not_staff" xml:space="preserve">
+    <value>تحتاج إلى صلاحية إدارة الخادم أو صلاحية المسؤول لاتخاذ قرار بشأن الاقتراحات.</value>
+  </data>
+  <data name="suggestion_error_message_not_found" xml:space="preserve">
+    <value>تعذر العثور على هذا الاقتراح. تحقق من رابط الرسالة أو المعرف وحاول مرة أخرى.</value>
+  </data>
+  <data name="suggestion_error_channel_not_configured" xml:space="preserve">
+    <value>لم يقم هذا الخادم بإعداد قناة اقتراحات بعد. يحتاج أحد المشرفين إلى تكوين واحدة في لوحة التحكم قبل أن يتم إنشاء اقتراحات - راجع {0} للحصول على تعليمات الإعداد.</value>
   </data>
   <data name="economy_transfers_disabled" xml:space="preserve">
     <value>تم تعطيل تحويلات الأموال بين المستخدمين من قبل مسؤولي الخادم.</value>
@@ -3603,9 +3615,6 @@ Note: A message will be sent upon completion.</value>
   <data name="automod_sus_join" xml:space="preserve">
     <value>AutoMod - انضمام مريب</value>
   </data>
-  <data name="core_sr_error_max" xml:space="preserve">
-    <value>لقد وصلت إلى الحد الأقصى لعدد الأدوار الذاتية ({0}).</value>
-  </data>
   <data name="selfrole_embed_success" xml:space="preserve">
     <value>تم إنشاء التضمين بنجاح.</value>
   </data>
@@ -3681,6 +3690,30 @@ Note: A message will be sent upon completion.</value>
   <data name="selfrole_title_list" xml:space="preserve">
     <value>دور ذاتي | القائمة</value>
   </data>
+  <data name="selfrole_group_role_removed" xml:space="preserve">
+    <value>تمت إزالة الدور (الأدوار) التالية بسبب حد مجموعة الأدوار: {0}</value>
+  </data>
+  <data name="selfrole_list_group_unique" xml:space="preserve">
+    <value>فريد</value>
+  </data>
+  <data name="selfrole_list_group_multi" xml:space="preserve">
+    <value>متعدد الاختيار، حتى {0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_role" xml:space="preserve">
+    <value>يتطلب @{0}</value>
+  </data>
+  <data name="selfrole_list_group_requires_level" xml:space="preserve">
+    <value>يتطلب المستوى {0}+</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
+    <value>تحتاج إلى دور {0} ({1}) للحصول على دور من مجموعة '{2}'.</value>
+  </data>
+  <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
+    <value>الدور المطلوب لمجموعة '{0}' لم يعد موجودًا. يجب على أحد المشرفين تعيين دور مطلوب جديد (أو إزالة المتطلب) قبل أن يتمكن أي شخص من الحصول على دور من هذه المجموعة.</value>
+  </data>
+  <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
+    <value>يجب أن يكون مستواك {0}+ للحصول على دور من مجموعة '{1}'.</value>
+  </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>الموسيقى | قائمة الانتظار</value>
   </data>
@@ -3709,7 +3742,7 @@ Note: A message will be sent upon completion.</value>
     <value>تم تعطيل فلتر `low pass`</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
-    <value>Low Pass</value>
+    <value>تمرير منخفض</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
     <value>تم تفعيل فلتر `low pass` مخصص</value>
@@ -3718,7 +3751,7 @@ Note: A message will be sent upon completion.</value>
     <value>تم مسح فلتر `Karaoke` بنجاح.</value>
   </data>
   <data name="filter_distortion" xml:space="preserve">
-    <value>Distortion</value>
+    <value>تشويه</value>
   </data>
   <data name="help_select_title_1" xml:space="preserve">
     <value>إعداد الإعلانات</value>
@@ -4483,7 +4516,10 @@ Note: A message will be sent upon completion.</value>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>الرسالة غير موجودة في هذه القناة.</value>
   </data>
-  <data name="daily_content_of_the_day" xml:space="preserve">
+  	<data name="daily_content_thread_name" xml:space="preserve">
+		<value>مناقشة {0}</value>
+	</data>
+	<data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} من اليوم!</value>
   </data>
   <data name="audit_time_in_channel" xml:space="preserve">
@@ -4639,5 +4675,92 @@ Note: A message will be sent upon completion.</value>
   </data>
   <data name="AuditLogService_AuditChannelModified_Reaction_Emoji" xml:space="preserve">
     <value>رد الفعل الإيموجي:</value>
+  </data>
+  <data name="honeypot_log_title" xml:space="preserve">
+    <value>تم تفعيل Honey Pot</value>
+  </data>
+  <data name="honeypot_embed_warning" xml:space="preserve">
+    <value>## لا تُرسل رسائل في هذه القناة
+تُستخدم هذه القناة للقبض على بوتات الرسائل غير المرغوبة. أي رسالة مُرسلة هنا ستؤدي إلى **{0}**.</value>
+  </data>
+  <data name="honeypot_triggers_label" xml:space="preserve">
+    <value>المحفزات: {0}</value>
+  </data>
+  <data name="honeypot_punishment_reason" xml:space="preserve">
+    <value>AutoMod: تم تفعيل قناة Honey pot</value>
+  </data>
+  <data name="honeypot_punishment_timeout" xml:space="preserve">
+    <value>timeout (1 ساعة)</value>
+  </data>
+  <data name="honeypot_punishment_kick" xml:space="preserve">
+    <value>طرد</value>
+  </data>
+  <data name="honeypot_punishment_softban" xml:space="preserve">
+    <value>حظر مؤقت</value>
+  </data>
+  <data name="honeypot_punishment_ban" xml:space="preserve">
+    <value>حظر</value>
+  </data>
+  <data name="honeypot_log_attachments" xml:space="preserve">
+    <value>المرفقات:</value>
+  </data>
+  <data name="counting_game_not_configured" xml:space="preserve">
+    <value>لم يتم إعداد لعبة العد في هذا السيرفر بعد.</value>
+  </data>
+  <data name="counting_status_title" xml:space="preserve">
+    <value>حالة لعبة العد</value>
+  </data>
+  <data name="counting_status_description" xml:space="preserve">
+    <value>**العدد الحالي:** {0}
+**الرقم التالي:** {1}
+**يحمله حاليًا:** {2}</value>
+  </data>
+  <data name="counting_status_holder_none" xml:space="preserve">
+    <value>*لا أحد بعد — كن أول من يعد!*</value>
+  </data>
+  <data name="counting_stats_title" xml:space="preserve">
+    <value>إحصائيات لعبة العد</value>
+  </data>
+  <data name="counting_stats_description" xml:space="preserve">
+    <value>**أعلى عدد تم الوصول إليه:** {0}</value>
+  </data>
+  <data name="counting_myrole_title" xml:space="preserve">
+    <value>رتبة الكسر الخاصة بك</value>
+  </data>
+  <data name="counting_myrole_not_configured" xml:space="preserve">
+    <value>لا توجد رتبة كسر مُعدة للعبة العد في هذا السيرفر.</value>
+  </data>
+  <data name="counting_myrole_none" xml:space="preserve">
+    <value>أنت لا تحمل حاليًا رتبة الكسر الخاصة بلعبة العد.</value>
+  </data>
+  <data name="counting_myrole_permanent" xml:space="preserve">
+    <value>أنت تحمل حاليًا {0} بسبب كسر العد. هذا التعيين **دائم**.</value>
+  </data>
+  <data name="counting_myrole_temporary" xml:space="preserve">
+    <value>أنت تحمل حاليًا {0} بسبب كسر العد. سيتم إزالته {1}.</value>
+  </data>
+  <data name="counting_breakrole_title" xml:space="preserve">
+    <value>رتبة كسر لعبة العد</value>
+  </data>
+  <data name="counting_breakrole_not_configured" xml:space="preserve">
+    <value>لا توجد رتبة كسر مُعدة — كسر العد لا يترتب عليه حاليًا أي رتبة في هذا السيرفر.</value>
+  </data>
+  <data name="counting_breakrole_permanent" xml:space="preserve">
+    <value>كسر العد يمنح {0}. هذا التعيين **دائم**.</value>
+  </data>
+  <data name="counting_breakrole_temporary" xml:space="preserve">
+    <value>كسر العد يمنح {0} لمدة **{1}**.</value>
+  </data>
+  <data name="counting_duration_minutes" xml:space="preserve">
+    <value>{0} دقيقة</value>
+  </data>
+  <data name="counting_duration_hours" xml:space="preserve">
+    <value>{0} ساعة</value>
+  </data>
+  <data name="counting_duration_days" xml:space="preserve">
+    <value>{0} يوم</value>
+  </data>
+  <data name="ticket_panel_default_name" xml:space="preserve">
+    <value>اللوحة #{0}</value>
   </data>
 </root>
