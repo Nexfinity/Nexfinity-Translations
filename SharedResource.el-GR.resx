@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>Μόνο GIFs</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>Μόνο πολυμέσα</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>Μόνο αρχεία</value>
   </data>
@@ -1126,9 +1129,6 @@
   <data name="audit-birthday-role" xml:space="preserve">
     <value>Ενημερωμένος ρόλος γενεθλίων: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>Ενημερώθηκε η ζώνη ώρας για τα γενέθλια του/της {0}</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>Γενέθλια</value>
   </data>
@@ -1141,11 +1141,17 @@
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>Προαιρετικό — παρακάμπτει τη ζώνη ώρας του διακομιστή μόνο για τον έλεγχο γενεθλίων αυτού του ατόμου.</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>Ενημερώθηκε η ζώνη ώρας για τα γενέθλια του/της {0}</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>Ανταλλαγμένο χρώμα</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>Αριστερό χρώμα</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>Χρώμα σύνδεσης</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>Αφαίρεση ρόλων στο Επίπεδο Αύξησης</value>
@@ -1204,6 +1210,27 @@
   <data name="chat-bot-title" xml:space="preserve">
     <value>Bot Συνομιλίας AI</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>Μοντέλο AI</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>Το μοντέλο OpenAI που χρησιμοποιεί το chatbot σας για τη δημιουργία απαντήσεων. Τα υψηλότερα επίπεδα ξεκλειδώνουν πιο ικανά μοντέλα.</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>Δωρεάν</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>Προσαρμοσμένο Bot</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>Κλειδί API</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>Αυτό το μοντέλο απαιτεί υψηλότερο επίπεδο συνδρομής.</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>Ενεργοποίηση στάθμισης φωνής</value>
   </data>
@@ -1231,7 +1258,7 @@
   <data name="suggestion-page-title" xml:space="preserve">
     <value>Προτάσεις</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>Δεν έχει ρυθμιστεί κανάλι προτάσεων, επομένως τα μέλη δεν μπορούν ακόμα να δημιουργήσουν προτάσεις και οι αποφάσεις που αποθηκεύονται εδώ δεν μπορούν να αντικατοπτριστούν στο μήνυμα στο Discord. Ορίστε ένα παρακάτω για να διορθώσετε και τα δύο.</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>Ενημερώθηκαν τα αγνοούμενα κανάλια επιτευγμάτων.</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>Ενημερώθηκαν οι αγνοημένοι ρόλοι επιτευγμάτων.</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>Ενημερώθηκε το μήνυμα ξεκλειδώματος επιτευγμάτων.</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>Ενεργοποιήθηκαν ή απενεργοποιήθηκαν πολλά επιτεύγματα ταυτόχρονα.</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>Αυτορρόλια</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>Χρησιμοποιήστε το κουμπί «Προσθήκη Αυτο-Ρόλου» παρακάτω για να δημιουργήσετε έναν νέο αυτο-ρόλο.</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>Δεν βρέθηκαν αυτο-ρόλοι. Κάντε κλικ στο «Προσθήκη Αυτο-Ρόλου» παραπάνω για να δημιουργήσετε έναν.</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>Δεν υπάρχουν ακόμη ομάδες ρόλων. Οι ομάδες επιτρέπουν σε ένα σύνολο αυτο-ρόλων να είναι αμοιβαία αποκλειόμενοι.</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>Η τιμή ({0}) πρέπει να είναι αριθμός.</value>
@@ -1876,6 +1918,9 @@
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>Συνδρομές</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>Ο λογαριασμός OAuth αποσυνδέθηκε. ({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>Τροποποίηση ρυθμίσεων ενσωμάτωσης OAuth. ({0})</value>
   </data>
@@ -1950,6 +1995,48 @@
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>Κλείσιμο</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>Καταμέτρηση μελών</value>
@@ -2083,6 +2170,12 @@
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Semicolon separated list</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>Αφαίρεση Μετά τη Δημοσίευση</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>Όταν είναι ενεργοποιημένο, τα στοιχεία αφαιρούνται από τη λίστα για να αποφευχθεί η επανάληψη. Βεβαιωθείτε ότι έχετε αποθηκευμένο αντίγραφο των δεδομένων σας πριν ενεργοποιήσετε αυτήν τη λειτουργία, καθώς αυτά τα δεδομένα δεν μπορούν να επαναφερθούν.</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>Δημιουργία Νήματος</value>
   </data>
@@ -2115,6 +2208,24 @@
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>Αρχικό Υπόλοιπο</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>Ημερήσιο ελάχ. ποσό</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>Ημερήσιο μέγ. ποσό</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>Εβδομαδιαίο ελάχ. ποσό</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>Εβδομαδιαίο μέγ. ποσό</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>Μηνιαίο ελάχ. ποσό</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>Μηνιαίο μέγ. ποσό</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>Διαγραφή Υπολοίπου Χρήστη κατά την Αποχώρηση</value>
@@ -2230,11 +2341,119 @@
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>Φτάσε στο επίπεδο X.</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>Απόκτηση συγκεκριμένου ρόλου.</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>Αποστολή X GIF.</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>Αποστολή X αυτοκόλλητων.</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>Τιμωρία με timeout X φορές.</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>Μετάδοση για X λεπτά.</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>Χρήση της ετικέτας αυτού του διακομιστή.</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>Μέτρηση μόνο σε αυτό το κανάλι</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>Αφήστε κενό για μέτρηση οπουδήποτε στον διακομιστή. Αυτό δεν μπορεί να αλλάξει αργότερα, καθώς η πρόοδος αποθηκεύεται ανά κανάλι.</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>Ρόλος προς απόκτηση</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>Κλίμακα επιπέδων</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>Δώστε σε κάθε σκαλί μιας κλίμακας το ίδιο όνομα, στη συνέχεια αριθμήστε τα παρακάτω. Η επίτευξη ενός υψηλότερου σκαλιού απονέμει και αυτά από κάτω του.</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>Σκαλί</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>Μήνυμα ξεκλειδώματος για αυτό το επίτευγμα</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>Παρακάμπτει το μήνυμα ξεκλειδώματος του διακομιστή μόνο για αυτό το επίτευγμα. Αφήστε κενό για χρήση αυτού του διακομιστή.</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>Ρυθμίσεις Επιτευγμάτων</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>Μήνυμα Ξεκλειδώματος</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>Αφήστε κενό για την προεπιλεγμένη διατύπωση. Δεσμευτές θέσης: {achievement.name}, {achievement.description}, {user.achievement.count}, {achievement.owners.count}, και όλοι οι βασικοί δεσμευτές θέσης.</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>Δείτε τη λίστα δεσμευτών θέσης</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>Αγνοημένοι Ρόλοι</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>Τα μέλη με έναν από αυτούς τους ρόλους δεν κάνουν πρόοδο προς τα επιτεύγματα</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>Αλλαγμένα επιτεύγματα</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>Επιλέξτε πρώτα τουλάχιστον ένα επίτευγμα</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>Επιλέξτε τον ρόλο με την απόκτηση του οποίου κερδίζεται αυτό το επίτευγμα</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>Ένα σκαλί πρέπει να είναι αριθμός από το 1 έως το 20</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>Το κανάλι ή ο ρόλος στον οποίο μετράει ένα επίτευγμα δεν μπορεί να αλλάξει μετά τη δημιουργία</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>Δευτερεύοντα Δεδομένα</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>Προσωρινός Ρόλος</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>Προσωρινοί αποκλεισμοί</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>Προσωρινοί ρόλοι</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>Δεν υπάρχουν ενεργοί προσωρινοί αποκλεισμοί σε αυτόν τον διακομιστή.</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>Δεν υπάρχουν ενεργοί προσωρινοί ρόλοι σε αυτόν τον διακομιστή.</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>Οι αποκλεισμοί και οι ρόλοι μπορούν να επιλεγούν μαζί. Ο τερματισμός τους ισχύει για όλα όσα έχετε επιλέξει, και στις δύο λίστες.</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>Τερματισμός τώρα</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>Τερματισμός τώρα των {0} επιλεγμένων αποκλεισμών; Το bot θα τους άρει σύντομα.</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>Τερματισμός τώρα των {0} επιλεγμένων ρόλων; Το bot θα τους αφαιρέσει σύντομα.</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0} στοιχείο(α) ορίστηκαν να τερματιστούν τώρα</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>Ορίστηκε να τερματιστεί τώρα. Το bot θα τα επεξεργαστεί σύντομα.</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>Αποστολή Υπενθυμίσεων DM</value>
@@ -2388,9 +2607,6 @@
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>Μέγιστα κατοχή ανά χρήστη</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0 Μέγιστος Αριθμός = Απεριόριστο</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>Ψάρεμα</value>
@@ -2788,6 +3004,24 @@
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Αγοράστε Ισόβιο Premium</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>ΙΣΟΒΙΟ Προσαρμοσμένο Bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>Αποκτήστε το δικό σας επώνυμο Προσαρμοσμένο Bot με μία εφάπαξ πληρωμή, χωρίς επαναλαμβανόμενη συνδρομή, ποτέ.</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>Σημείωση: Αυτή είναι μια αυστηρά περιορισμένη προσφορά - μόλις εξαντληθούν οι υπόλοιπες θέσεις, αυτή η προσφορά χάνεται οριστικά.</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>Αγοράστε Ισόβιο Προσαρμοσμένο Bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>Απομένουν {0}</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>Εξαντλήθηκε</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>Σύγκριση Σχεδίων</value>
   </data>
@@ -2874,6 +3108,9 @@
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Διακομιστές Ban Sync Pool</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>Ρόλοι Ορόσημων Μέτρησης</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>Απεριόριστες RSS/Social Feeds</value>
@@ -3279,15 +3516,6 @@
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>Δημιουργήστε ένα κανάλι-δόλωμα όπου κάθε μήνυμα που δημοσιεύεται ενεργοποιεί αυτόματα την επιλεγμένη τιμωρία, βοηθώντας στον εντοπισμό bots επιδρομών και απάτης πριν γεμίσουν τον server σας με spam.</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>Μόνο Ακριβής Αριθμός</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>Ακριβής Αριθμός Ή Εξίσωση</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>Μόνο Εξίσωση</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>Πρέπει να επιλέξετε ένα προσαρμοσμένο bot για να το τροποποιήσετε.</value>
@@ -4390,6 +4618,39 @@
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>Ο αυτο-ρόλος δεν βρέθηκε ή δεν ανήκει σε αυτόν τον διακομιστή</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>Μπορείτε να έχετε έως {0} αυτο-ρόλους</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>Αυτός ο ρόλος είναι ήδη αυτο-ρόλος</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>Η ομάδα ρόλων δεν βρέθηκε ή δεν ανήκει σε αυτόν τον server</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>Το όνομα της ομάδας είναι υποχρεωτικό</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>Υπάρχει ήδη ομάδα με αυτό το όνομα</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>Ο μέγιστος αριθμός ρόλων πρέπει να είναι μεταξύ {0} και {1} για ομάδα πολλαπλής επιλογής</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>Προστέθηκε ο αυτο-ρόλος {0}</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>Ενημερώθηκε ο αυτο-ρόλος {0}</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>Προστέθηκε η ομάδα ρόλων '{0}'</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>Ενημερώθηκε η ομάδα ρόλων '{0}'</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>Διαγράφηκε η ομάδα ρόλων '{0}'</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>Παρουσιάστηκε σφάλμα κατά την προσθήκη πρόσβασης dashboard</value>
   </data>
@@ -4735,8 +4996,35 @@
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>Το μέγιστο υπόλοιπο πρέπει να είναι μεγαλύτερο από 0</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>Το μέγιστο υπόλοιπο πρέπει να είναι λιγότερο από 1000000000</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>Το μέγιστο υπόλοιπο πρέπει να είναι λιγότερο από {0}</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>Το ημερήσιο ελάχιστο ποσό πρέπει να είναι μεταξύ 1 και {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>Το ημερήσιο μέγιστο ποσό πρέπει να είναι μεταξύ 1 και {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Το ημερήσιο μέγιστο ποσό πρέπει να είναι μεγαλύτερο από το ημερήσιο ελάχιστο ποσό.</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>Το εβδομαδιαίο ελάχιστο ποσό πρέπει να είναι μεταξύ 1 και {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>Το εβδομαδιαίο μέγιστο ποσό πρέπει να είναι μεταξύ 1 και {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Το εβδομαδιαίο μέγιστο ποσό πρέπει να είναι μεγαλύτερο από το εβδομαδιαίο ελάχιστο ποσό.</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>Το μηνιαίο ελάχιστο ποσό πρέπει να είναι μεταξύ 1 και {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>Το μηνιαίο μέγιστο ποσό πρέπει να είναι μεταξύ 1 και {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Το μηνιαίο μέγιστο ποσό πρέπει να είναι μεγαλύτερο από το μηνιαίο ελάχιστο ποσό.</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>Το μέγιστο επίπεδο πρέπει να είναι μεγαλύτερο από 0</value>
@@ -5026,6 +5314,12 @@
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>Το Premium ενεργοποιήθηκε στο server με επιτυχία</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>Ενεργοποιήθηκε το premium σε αυτόν τον διακομιστή ({0})</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>Αφαιρέθηκε το premium από αυτόν τον διακομιστή ({0})</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>Το Premium απενεργοποιήθηκε από το server με επιτυχία</value>
   </data>
@@ -5230,6 +5524,9 @@
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>Σφάλμα κατά την απόρριψη nagbar</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>Σχεδιασμός banner</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>Μη έγκυρος τύπος banner</value>
   </data>
@@ -5413,8 +5710,26 @@
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>Ενεργοποιήθηκε το αυτόματο μήνυμα {0}</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>Ενεργοποιήθηκαν {0} αυτόματα μηνύματα</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>Απενεργοποιήθηκαν {0} αυτόματα μηνύματα</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>Διαγράφηκαν {0} αυτόματα μηνύματα</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>Ενεργοποιήθηκε ο αυτόματος απαντητής {0}</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>Ενεργοποιήθηκαν {0} αυτόματοι απαντητές</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>Απενεργοποιήθηκαν {0} αυτόματοι απαντητές</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>Διαγράφηκαν {0} αυτόματοι απαντητές</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>Εισαγωγή {0} αυτόματων απαντητών</value>
@@ -5427,6 +5742,12 @@
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Τροποποιήθηκε η ροή Twitch {0}</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>Ενεργοποιήθηκε η ροή</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>Απενεργοποιήθηκε η ροή</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>Τροποποιήθηκε η ροή YouTube {0}</value>
@@ -5547,6 +5868,63 @@
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} ετικέτα {1}</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>και {0} ακόμα</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>Τερματίστηκαν {0} προσωρινοί αποκλεισμοί</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>Τερματίστηκαν {0} προσωρινοί ρόλοι</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>Αφαιρέθηκαν {0} κανάλια αυτόματης δημοσίευσης</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>Διαγράφηκαν {0} προειδοποιήσεις</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>Διαγράφηκαν {0} γενέθλια</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>Διαγράφηκαν {0} καταχωρίσεις AFK</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>Διαγράφηκαν {0} αυτοανατιθέμενοι ρόλοι</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>Διαγράφηκαν {0} μόνιμοι ρόλοι</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>Διαγράφηκαν {0} αντικείμενα καταστήματος</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>Διαγράφηκαν {0} ενισχύσεις</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>Διαγράφηκαν {0} ροές</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>Διαγράφηκαν {0} καταχωρίσεις αρχείου καταγραφής πίνακα ελέγχου</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>Διαγράφηκαν {0} καταχωρίσεις</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>Ενεργοποιήθηκαν {0} ροές</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>Απενεργοποιήθηκαν {0} ροές</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>Ενεργοποιήθηκαν {0} ετικέτες</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>Απενεργοποιήθηκαν {0} ετικέτες</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>Διαγράφηκαν {0} ετικέτες</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>Ενεργό</value>
@@ -5775,45 +6153,6 @@
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>Αναζήτηση ρόλων αυτοδιάθεσης...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>Δεν βρέθηκαν αυτο-ρόλοι. Κάντε κλικ στο «Προσθήκη Αυτο-Ρόλου» παραπάνω για να δημιουργήσετε έναν.</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>Δεν υπάρχουν ακόμη ομάδες ρόλων. Οι ομάδες επιτρέπουν σε ένα σύνολο αυτο-ρόλων να είναι αμοιβαία αποκλειόμενοι.</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>Μπορείτε να έχετε έως {0} αυτο-ρόλους</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>Αυτός ο ρόλος είναι ήδη αυτο-ρόλος</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>Η ομάδα ρόλων δεν βρέθηκε ή δεν ανήκει σε αυτόν τον server</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>Το όνομα της ομάδας είναι υποχρεωτικό</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>Υπάρχει ήδη ομάδα με αυτό το όνομα</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>Ο μέγιστος αριθμός ρόλων πρέπει να είναι μεταξύ {0} και {1} για ομάδα πολλαπλής επιλογής</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>Προστέθηκε ο αυτο-ρόλος {0}</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>Ενημερώθηκε ο αυτο-ρόλος {0}</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>Προστέθηκε η ομάδα ρόλων '{0}'</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>Ενημερώθηκε η ομάδα ρόλων '{0}'</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>Διαγράφηκε η ομάδα ρόλων '{0}'</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>Προσθήκη Αυτο-Ρόλου</value>
@@ -6229,9 +6568,6 @@
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Παρακαλώ μην ανανεώσετε τη σελίδα.</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>Επεξεργαστής Embed</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Το αποθηκευμένο embed δεν βρέθηκε.</value>
   </data>
@@ -6256,27 +6592,6 @@
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>Αποθηκευμένα Embeds</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>Νέο / αποθήκευση</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>Αποθήκευση</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>Αποθήκευση Ως Νέο</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>Μετονομασία</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>Διαγραφή</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>Ονομάστε αυτό το embed:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>Μετονομάστε το αποθηκευμένο embed:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>Διαγραφή αυτού του αποθηκευμένου embed; Αυτό δεν μπορεί να αναιρεθεί.</value>
   </data>
@@ -6286,17 +6601,8 @@
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>Μετονομασία Embed</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>Διαγραφή Embed</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>Αποστολή Embed</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>Αποστολή Embed</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>Κανάλι</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>Αποστολή σε webhook URL αντί αυτού</value>
@@ -6307,7 +6613,7 @@
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+  <data name="generic-word-send" xml:space="preserve">
     <value>Αποστολή</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6324,6 +6630,21 @@
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Το Discord απέρριψε το embed που αποστάλθηκε σε αυτό το webhook.</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>Περιεχόμενο embed</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>Αποθηκεύτηκε ένα embed</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>Ενημερώθηκε ένα αποθηκευμένο embed</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>Μετονομάστηκε ένα αποθηκευμένο embed</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>Διαγράφηκε ένα αποθηκευμένο embed</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>Αποστολή ενός embed σε ένα webhook.</value>
@@ -6510,6 +6831,15 @@
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>Πεδίο Ναρκών</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>Ημερήσιο</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>Εβδομαδιαίο</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>Μηνιαίο</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>Πληρωμή</value>
@@ -6874,6 +7204,174 @@
   <data name="rp-feature-wink" xml:space="preserve">
     <value>Κλείσιμο ματιού</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>Παιχνίδι Μέτρησης</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>Οι αλλαγές μπορεί να χρειαστούν έως και 30 δευτερόλεπτα για να εφαρμοστούν στο Discord λόγω της προσωρινής μνήμης.</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>Κανάλι Μέτρησης</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>Λειτουργία</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>Μόνο Ακριβής Αριθμός</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>Ακριβής Αριθμός Ή Εξίσωση</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>Μόνο Εξίσωση</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>Αποτροπή Διαδοχικής Μέτρησης</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>Επαναφορά σε Λάθος</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>Ρόλος Αποτυχίας</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>Τρέχουσα Μέτρηση</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>Τρέχων Μετρητής</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>Υψηλότερη Μέτρηση</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>Κανένα</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>Ο ρόλος αποτυχίας δεν μπορεί να είναι ο ρόλος @everyone.</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>Διάρκεια Ρόλου Αποτυχίας</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>Μόνιμη</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>λεπτά</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>Αφήστε κενό ή 0 για να παραμείνει ο ρόλος αποτυχίας μόνιμα ανατεθειμένος. Μέγιστο 43200 λεπτά (30 ημέρες).</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>Η διάρκεια του ρόλου αποτυχίας πρέπει να είναι μεταξύ 0 και 43200 λεπτών.</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>Αγνοημένοι Ρόλοι</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>Ο αγνοημένος ρόλος δεν μπορεί να είναι ο ρόλος @everyone.</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>Το Παιχνίδι Μέτρησης δεν έχει διαμορφωθεί ακόμα για αυτόν τον διακομιστή.</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>Επαναφορά Τρέχουσας Μέτρησης</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>Επαναφέρει αμέσως την τρέχουσα μέτρηση στο 0, όπως ακριβώς αν η μέτρηση είχε μόλις αποτύχει. Η υψηλότερη σερί όλων των εποχών δεν επηρεάζεται.</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να επαναφέρετε την τρέχουσα μέτρηση στο 0; Αυτό δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>Επαναφορά Μέτρησης</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>Η τρέχουσα μέτρηση επαναφέρθηκε στο 0.</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>Προσαρμοσμένο Μήνυμα Αποτυχίας</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>Αποστέλλεται αντί για το προεπιλεγμένο μήνυμα αποτυχίας όταν επαναφέρεται η μέτρηση. Αφήστε κενά και τα δύο παρακάτω πεδία για χρήση του προεπιλεγμένου μηνύματος.</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>Μήνυμα</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>Αφήστε κενό για χρήση του προεπιλεγμένου μηνύματος αποτυχίας</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>Προσαρμοσμένο Embed Αποτυχίας</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>Αποθήκευση Αλλαγών</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>Ενημερώθηκαν οι ρυθμίσεις του Παιχνιδιού Μέτρησης</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>Η τρέχουσα μέτρηση του Παιχνιδιού Μέτρησης επαναφέρθηκε αναγκαστικά</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>Ενημερώθηκε το προσαρμοσμένο μήνυμα αποτυχίας του Παιχνιδιού Μέτρησης</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>Αποτυχία φόρτωσης των ρυθμίσεων του Παιχνιδιού Μέτρησης.</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>Προσαρμοσμένο Μήνυμα</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>Προαιρετικό μήνυμα που αποστέλλεται μαζί με την ειδοποίηση...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>Διαθέσιμοι δεσμευτές θέσης: {link}, {channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>Διαθέσιμοι δεσμευτές θέσης: {link}, {subreddit}, {title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>Διαθέσιμοι δεσμευτές θέσης: {link}, {streamer}, {title}, {game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>Διαθέσιμοι δεσμευτές θέσης: {link}, {title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>Αυτόματη Απο-αρχειοθέτηση Φόρουμ</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>Το bot χρειάζεται το δικαίωμα Διαχείριση Νημάτων σε κάθε παρακολουθούμενο κανάλι φόρουμ για να απο-αρχειοθετεί αυτόματα νήματα.</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>Κανάλι Φόρουμ 1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>Κανάλι Φόρουμ 2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>Δεν μπορείτε να επιλέξετε το ίδιο κανάλι δύο φορές.</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>Αποτυχία φόρτωσης των ρυθμίσεων Αυτόματης Απο-αρχειοθέτησης Φόρουμ.</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>Ενημερώθηκαν οι ρυθμίσεις Αυτόματης Απο-αρχειοθέτησης Φόρουμ</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>Διάρκεια Αποκλεισμού {0}</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>Μόνιμος</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>ώρες</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>Αφήστε κενό ή 0 για μόνιμο αποκλεισμό. Μέγιστο 720 ώρες (30 ημέρες).</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>Η διάρκεια αποκλεισμού πρέπει να είναι μεταξύ 0 και 720 ωρών.</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>Κατάσταση Bot</value>
   </data>
@@ -6942,5 +7440,3444 @@
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>Ενημερώθηκε το όνομα πίνακα εισιτηρίων</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>Η φόρμα χρειάζεται ένα όνομα.</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>Αυτό το κανάλι δεν βρίσκεται σε αυτόν τον διακομιστή.</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>Αυτός ο ρόλος δεν βρίσκεται σε αυτόν τον διακομιστή.</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>Το όνομα της φόρμας πρέπει να έχει το πολύ {0} χαρακτήρες.</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>Η περιγραφή της φόρμας πρέπει να έχει το πολύ {0} χαρακτήρες.</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>Το μήνυμα επιτυχίας πρέπει να έχει το πολύ {0} χαρακτήρες.</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>Το όριο απαντήσεων πρέπει να είναι τουλάχιστον 1.</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>Η ελάχιστη ηλικία λογαριασμού δεν μπορεί να είναι αρνητική.</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>Η ημερομηνία κλεισίματος πρέπει να είναι στο μέλλον.</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>Οι χρήσεις πρόσκλησης πρέπει να είναι μεταξύ 0 και 100.</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>Η ισχύς της πρόσκλησης πρέπει να είναι μεταξύ 0 και 7 ημερών.</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>Κάθε ερώτηση χρειάζεται κείμενο.</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>Μια ερώτηση πρέπει να έχει το πολύ {0} χαρακτήρες.</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>Το ελάχιστο μήκος δεν μπορεί να είναι μεγαλύτερο από το μέγιστο μήκος.</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>Η ελάχιστη τιμή δεν μπορεί να είναι μεγαλύτερη από τη μέγιστη τιμή.</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>Αυτός ο τύπος ερώτησης χρειάζεται τουλάχιστον μία επιλογή.</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>Μια ερώτηση μπορεί να έχει το πολύ {0} επιλογές.</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>Κάθε επιλογή χρειάζεται μια ετικέτα.</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>Η ετικέτα μιας επιλογής πρέπει να έχει το πολύ {0} χαρακτήρες.</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>Οι επιλογές σε μια ερώτηση πρέπει να είναι μοναδικές.</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>Σε μία από τις συνθήκες λείπει μέρος της ρύθμισής της.</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>Μια ερώτηση δεν μπορεί να εξαρτάται από τη δική της απάντηση.</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>Μια ερώτηση μπορεί να εξαρτάται μόνο από μια ερώτηση που προηγείται.</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>Μια φόρμα μπορεί να έχει το πολύ {0} ερωτήσεις.</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>Προσθέστε τουλάχιστον μία ερώτηση πριν την αποθήκευση.</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>Οι φόρμες δεν μπόρεσαν να φορτωθούν. Δοκιμάστε ξανά σε λίγο.</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>Αυτή η φόρμα δεν υπάρχει πια.</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>Προσθέστε τουλάχιστον μία ερώτηση πριν τη δημοσίευση.</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>Αυτή η φόρμα δεν έχει δημοσιευτεί ακόμα.</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>Αυτή η φόρμα δεν δέχεται απαντήσεις.</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>Αυτή η φόρμα έχει κλείσει.</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>Αυτή η φόρμα έχει φτάσει το όριο απαντήσεών της.</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>Έχετε ήδη υποβάλει αυτή τη φόρμα.</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>Ο λογαριασμός σας στο Discord πρέπει να είναι τουλάχιστον {0} ημερών για να υποβάλετε αυτή τη φόρμα.</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>Πρέπει να είστε μέλος αυτού του διακομιστή για να υποβάλετε αυτή τη φόρμα.</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>Δεν έχετε αποκλειστεί από αυτόν τον διακομιστή, οπότε δεν υπάρχει τίποτα να προσφύγετε.</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>Σύμπτυξη μενού</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>Ανάπτυξη μενού</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>{0} επιλεγμένα</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>Επιλογή όλων</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>Επιλογή</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>Απενεργοποίηση</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>Επιβεβαίωση διαγραφής</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>Διαγραφή των {0} επιλεγμένων στοιχείων; Αυτό δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>{0} στοιχεία ενεργοποιήθηκαν</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>{0} στοιχεία απενεργοποιήθηκαν</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>{0} στοιχεία διαγράφηκαν</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>Τα επιλεγμένα στοιχεία δεν μπόρεσαν να ενημερωθούν.</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>Κάντε κλικ στα στοιχεία για να τα επιλέξετε</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>Αυτή η αποθηκευμένη έκδοση δεν υπάρχει πια.</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>Αυτή η αποθηκευμένη έκδοση δεν μπόρεσε να διαβαστεί και δεν μπορεί να επαναφερθεί.</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>Η φόρμα δημιουργήθηκε</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>Προστέθηκε η ερώτηση {0}</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>Η ερώτηση αφαιρέθηκε</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>Αφαιρέθηκε η ερώτηση {0}</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>Ερώτηση {0}: {1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>Θέση</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>Συνθήκες</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>μη ορισμένο</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>Αποθηκεύτηκε χωρίς αλλαγές.</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>Εμφάνιση {0} ακόμα αλλαγής/ών</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>Εμφάνιση λιγότερων</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>Τι άλλαξε</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>Ιστορικό</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>Ιστορικό εκδόσεων</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>Οι τελευταίες {0} αποθηκεύσεις αυτής της φόρμας. Η επαναφορά μίας είναι η ίδια μια αποθήκευση, οπότε μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>Δεν υπάρχουν ακόμα αποθηκευμένες εκδόσεις. Την επόμενη φορά που θα αποθηκευτεί αυτή η φόρμα, θα διατηρηθεί μια έκδοση εδώ.</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>Έκδοση {0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>{0} ερώτηση/εις</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>Επαναφορά</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>Επαναφορά αυτής της έκδοσης; Η φόρμα θα επιστρέψει στην κατάσταση που ήταν σε αυτή την αποθήκευση.</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>Η φόρμα επαναφέρθηκε σε εκείνη την έκδοση.</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>Αφαιρεμένη ερώτηση</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>Το κείμενο του δεσμευτή θέσης δεν μπορεί να είναι μεγαλύτερο από {0} χαρακτήρες.</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>Σύρετε για αναδιάταξη</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>Έχετε μη αποθηκευμένες αλλαγές. Να εγκαταλείψετε αυτή τη σελίδα και να τις απορρίψετε;</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>Μπορείτε να επιστρέψετε εδώ ανά πάσα στιγμή, μαζί με ό,τι άλλο έχετε υποβάλει.</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>Οι Υποβολές Φορμών μου</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>Κάθε φόρμα που έχετε υποβάλει, και η τρέχουσα κατάστασή της.</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>Καμία υποβολή ακόμα</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>Οι φόρμες που υποβάλλετε θα εμφανίζονται εδώ ώστε να μπορείτε να τις ελέγξετε αργότερα.</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>Υποβλήθηκε {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>Οι φόρμες που συλλέγουν απαντήσεις ανώνυμα δεν αναφέρονται εδώ, επειδή αποθηκεύονται χωρίς υποβάλλοντα.</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>Προσαρμογή Χρήστη</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>Αυτή η λειτουργία έρχεται σύντομα. Επιστρέψτε αργότερα!</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>Απαίτηση captcha</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>Όσοι υποβάλλουν πρέπει να περάσουν μια πρόκληση Cloudflare Turnstile πριν γίνει αποδεκτή η φόρμα.</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>Συνδεθείτε με το Discord για να συμπληρώσετε αυτή τη φόρμα. Θα επιστρέψετε κατευθείαν εδώ.</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>Σύνδεση με το Discord</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>Μια φόρμα από {0}. Συνδεθείτε με το Discord για να τη συμπληρώσετε.</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>Οι απαντήσεις είναι ανώνυμες.</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>Επιβεβαιώστε ότι είστε άνθρωπος πριν την υποβολή.</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>Το captcha δεν μπόρεσε να επαληθευτεί. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>Να επιτρέπονται άτομα εκτός διακομιστή</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>Οποιοσδήποτε έχει τον σύνδεσμο μπορεί να υποβάλει, ακόμα κι αν δεν είναι μέλος. Οι προσφυγές αποκλεισμού και οι αιτήσεις εισδοχής το επιτρέπουν πάντα.</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>Αποκλεισμός νέας προσφυγής μετά από απόρριψη</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>Μια απορριφθείσα προσφυγή είναι οριστική και ο χρήστης δεν μπορεί να υποβάλει άλλη.</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>Μέγιστες προσφυγές</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>Πόσες απορριφθείσες προσφυγές μπορεί να φτάσει ένας χρήστης πριν δεν μπορεί πλέον να προσφύγει. Αφήστε κενό για κανένα όριο.</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>Αναμονή μετά από απόρριψη (ημέρες)</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>Πόσο πρέπει να περιμένει ένας χρήστης μετά από μια απορριφθείσα προσφυγή πριν προσφύγει ξανά. Αφήστε κενό για καμία αναμονή.</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>Αναμονή μετά τον αποκλεισμό (ημέρες)</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>Πόσο πρέπει να περιμένει ένας χρήστης μετά τον αποκλεισμό του πριν την πρώτη του προσφυγή. Αφήστε κενό για καμία αναμονή. Το Discord διατηρεί το ιστορικό αρχείου καταγραφής ελέγχου μόνο για κάποιο διάστημα, οπότε αυτό δεν μπορεί να επιβληθεί σε παλαιότερους αποκλεισμούς.</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>Η προηγούμενη προσφυγή σας εξακολουθεί να εξετάζεται. Περιμένετε μια απόφαση πριν προσφύγετε ξανά.</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>Η προσφυγή σας απορρίφθηκε και αυτός ο διακομιστής δεν δέχεται περαιτέρω προσφυγές.</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>Έχετε χρησιμοποιήσει και τις {0} προσφυγές σας για αυτόν τον διακομιστή.</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>Μπορείτε να προσφύγετε ξανά σε {0} ημέρα(ες).</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>Αυτός ο διακομιστής δεν δέχεται ακόμα προσφυγές. Μπορείτε να προσφύγετε σε {0} ημέρα(ες).</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>Είστε ήδη μέλος αυτού του διακομιστή.</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>Δεν έχετε τον ρόλο που απαιτεί αυτή η φόρμα.</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>Αυτή η ερώτηση πρέπει να απαντηθεί.</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>Αυτή η απάντηση πρέπει να έχει τουλάχιστον {0} χαρακτήρες.</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>Αυτή η απάντηση πρέπει να έχει το πολύ {0} χαρακτήρες.</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>Αυτή η απάντηση πρέπει να είναι αριθμός.</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>Αυτή η απάντηση πρέπει να είναι τουλάχιστον {0}.</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>Αυτή η απάντηση μπορεί να είναι το πολύ {0}.</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>Εισαγάγετε μια έγκυρη διεύθυνση email.</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>Εισαγάγετε έναν έγκυρο σύνδεσμο που ξεκινά με http ή https.</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>Αυτή η επιλογή δεν είναι μία από τις προσφερόμενες επιλογές.</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>Επιλέξτε τουλάχιστον {0} επιλογές.</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>Επιλέξτε το πολύ {0} επιλογές.</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>Αυτή η απάντηση δεν υπάρχει πια.</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>Αυτή η απάντηση δεν είναι μέρος μιας διαδικασίας αξιολόγησης.</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>Έχει ήδη ληφθεί απόφαση για αυτήν την απάντηση.</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>Αυτή η απάντηση δεν έχει συνδεδεμένο χρήστη Discord.</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>Ο αποκλεισμός δεν μπόρεσε να αρθεί. Ελέγξτε ότι το bot μπορεί να διαχειρίζεται αποκλεισμούς.</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>Δεν μπόρεσε να δημιουργηθεί πρόσκληση. Ελέγξτε ότι το bot μπορεί να δημιουργεί προσκλήσεις.</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0} (Αντίγραφο)</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>Καμία απάντηση</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>Υποβλήθηκε από {0}</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>Απάντηση #{0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>Η απάντησή σας έγινε δεκτή.</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>Η απάντησή σας απορρίφθηκε.</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>ID Απάντησης</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>ID Χρήστη</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>Όνομα Χρήστη</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>Υποβλήθηκε στις</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>Δεν αξιολογήθηκε</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>Η φόρμα αποθηκεύτηκε</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>Η φόρμα δημοσιεύτηκε</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>Η φόρμα δέχεται πλέον απαντήσεις</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>Η φόρμα σταμάτησε να δέχεται απαντήσεις</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>Η φόρμα αντιγράφηκε</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>Η φόρμα διαγράφηκε</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>Η απάντηση διαγράφηκε</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>Η απάντηση εγκρίθηκε</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>Η απάντηση απορρίφθηκε</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>Δημιουργήθηκε μια φόρμα</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>Ενημερώθηκε μια φόρμα</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>Μια φόρμα επαναφέρθηκε σε παλαιότερη έκδοση</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>Δημοσιεύτηκε μια φόρμα</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>Ανοίχθηκε μια φόρμα για απαντήσεις</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>Έκλεισε μια φόρμα σε απαντήσεις</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>Αντιγράφηκε μια φόρμα</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>Διαγράφηκε μια φόρμα</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>Διαγράφηκε μια απάντηση φόρμας</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>Εγκρίθηκε μια απάντηση φόρμας</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>Απορρίφθηκε μια απάντηση φόρμας</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>Φόρμες</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>Δημιουργήστε φόρμες που τα μέλη σας συμπληρώνουν από έναν σύνδεσμο, και συλλέξτε τις απαντήσεις εδώ.</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>Δημιουργία φόρμας</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>Καμία φόρμα ακόμα</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>Δημιουργήστε την πρώτη σας φόρμα για να αρχίσετε να συλλέγετε απαντήσεις.</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>Απαντήσεις</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>Προς αξιολόγηση</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>Πρόχειρο</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>Αντιγραφή συνδέσμου</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>Προεπισκόπηση</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>Δημοσίευση</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>Κλείσιμο</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>Αντιγραφή</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>Διαγραφή του «{0}» και κάθε απάντησης που συνέλεξε; Αυτό δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>Διαγραφή αυτής της απάντησης; Αυτό δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>Αντιγράφηκε</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>Επεξεργασία φόρμας</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>Νέα φόρμα</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>Ρυθμίσεις φόρμας</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>Ρυθμίσεις αξιολόγησης</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>Χρησιμοποιείται όταν οι απαντήσεις πρέπει να εγκρίνονται, καθώς και για προσφυγές αποκλεισμού και αιτήσεις εισδοχής.</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>Αποστολή υποβολών σε</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>Απαιτούμενος ρόλος για υποβολή</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>Όριο απαντήσεων</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>Κλείνει στις</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>Ελάχιστη ηλικία λογαριασμού σε ημέρες</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>Αποκλείει νέους λογαριασμούς. Χρήσιμο σε φόρμες ανοιχτές σε άτομα εκτός διακομιστή.</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>Μήνυμα που εμφανίζεται μετά την υποβολή</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>Συνεχίστηκε από εκεί που σταματήσατε. Οι απαντήσεις σας αποθηκεύονται καθώς μετακινείστε μεταξύ σελίδων.</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>Προσθήκη σελίδας</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>Σελίδα {0}</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>Όλες οι σελίδες</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>Ανώνυμη σελίδα</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>Τίτλος σελίδας</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>Εισαγωγή σελίδας</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>Αφαίρεση σελίδας</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>Προσθήκη επικεφαλίδας σε αυτή τη σελίδα</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>Μετακίνηση νωρίτερα</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>Μετακίνηση αργότερα</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>Σύρετε για αναδιάταξη σελίδων</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>Η απάντησή σας ελήφθη.</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>Ελέγξτε εδώ</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>Προβολή Υποβολής</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>Οι αλλαγές σας αποθηκεύτηκαν.</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>Πολύ μεγάλο για εμφάνιση εδώ</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>Κατασκευαστής Embed</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>Δημιουργήστε ένα μήνυμα με embed και δείτε το όπως θα το εμφανίσει το Discord.</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>Επιλέξτε ένα αποθηκευμένο embed</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>Φόρτωση</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>Εφαρμογή JSON</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>Ζωντανή προεπισκόπηση</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>Ονομάστε αυτό το embed</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>Συγγραφέας</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>Σώμα</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>Πεδία</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>Εικόνες</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>Υποσέλιδο</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>Όνομα συγγραφέα</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>Σύνδεσμος συγγραφέα</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>Εικονίδιο συγγραφέα</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>Σύνδεσμος τίτλου</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>Περιγραφή embed</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>Χρώμα έμφασης</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>Μεγάλη εικόνα</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>Μικρογραφία</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>Κείμενο υποσέλιδου</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>Εικονίδιο υποσέλιδου</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>Εμφάνιση χρονοσφραγίδας</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>Όνομα πεδίου</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>Τιμή πεδίου</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>Δίπλα-δίπλα</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>Προσθήκη πεδίου</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>Embed</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>Προσθήκη embed</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>Αφαίρεση αυτού του embed</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>Τίποτα προς εμφάνιση ακόμα. Αρχίστε να πληκτρολογείτε και θα εμφανιστεί εδώ.</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>Το embed φορτώθηκε.</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>Το embed αποθηκεύτηκε.</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>Το embed μετονομάστηκε.</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>Το embed διαγράφηκε.</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>Δώστε πρώτα ένα όνομα στο embed.</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>Επιλέξτε πρώτα ένα αποθηκευμένο embed.</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>Επιλέξτε ένα κανάλι για αποστολή.</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>«{0}» - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>Οι απαντήσεις εικόνας δεν μπορούν να γίνουν δεκτές αυτή τη στιγμή.</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG, JPEG, GIF ή WebP, έως {0} MB.</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>Μεταφόρτωση…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>Μεταφόρτωση εικόνας</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>Το άτομο που συμπληρώνει τη φόρμα επισυνάπτει μια εικόνα.</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>Οι εικόνες πρέπει να είναι μικρότερες από {0} MB.</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>Αυτό το αρχείο δεν μπόρεσε να διαβαστεί ως εικόνα.</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>Αυτή η εικόνα έχει πάρα πολλά pixel για επεξεργασία.</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>Αυτή η εικόνα δεν μπόρεσε να αποθηκευτεί. Δοκιμάστε ξανά.</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>{0} περισσότερες απαντήσεις βρίσκονται στον πίνακα ελέγχου.</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>Να επιτρέπεται περισσότερη από μία υποβολή ανά χρήστη</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>Τύπος φόρμας</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>Οι απαντήσεις πρέπει να εγκρίνονται</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>Κατά την έγκριση</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>Ρόλοι προς αλλαγή κατά την έγκριση</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>Ρόλοι προς προσθήκη κατά την έγκριση</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>Ρόλοι προς αφαίρεση κατά την έγκριση</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>Ρόλοι προς προσθήκη κατά την απόρριψη</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>Ρόλοι προς αφαίρεση κατά την απόρριψη</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>Απόφαση</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>Εγκρίθηκε από {0}</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>Απορρίφθηκε από {0}</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>Αποδοχή</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>Απόρριψη</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>Αυτή η φόρμα δεν είναι ακόμα ανοιχτή. Ανοίγει στις {0}.</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>Αυτή η φόρμα είναι πλέον ανοιχτή για υποβολές.</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>Ανοίγει στις (UTC)</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>Η φόρμα παραμένει κλειστή έως αυτή την ώρα, ακόμα και μετά τη δημοσίευση. Αφήστε κενό για άνοιγμα μόλις δημοσιευτεί.</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>Ανακοίνωση ανοίγματος σε</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>Ρόλος προς αναφορά στην ανακοίνωση</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>Τι λέει η ανακοίνωση ανοίγματος</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>Δημοσιεύεται μία φορά, όταν έρθει η ώρα ανοίγματος. Αφήστε κενό για την προεπιλεγμένη διατύπωση.</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>URL εικόνας</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>Εμφανίζεται πάνω από την ερώτηση. Πρέπει να είναι διεύθυνση http ή https.</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>Να επιτρέπεται η επανυποβολή μετά από απόρριψη</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>Ένας απορριφθείς υποβάλλων μπορεί να στείλει διορθωμένη απάντηση. Οι εγκεκριμένες και εκκρεμείς απαντήσεις εξακολουθούν να μετράνε ως η μία υποβολή τους.</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>Ρόλος προς αναφορά σε νέα απάντηση</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>Αναφέρεται στο κανάλι υποβολών όταν φτάνει μια απάντηση. Ο ρόλος πρέπει να είναι αναφέρσιμος, ή το bot χρειάζεται δικαίωμα να τον αναφέρει.</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>Ρόλοι που χορηγούνται κατά την υποβολή</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>Χορηγούνται μόλις υποβληθεί η φόρμα, είτε αξιολογηθεί είτε όχι.</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>Δεν μπόρεσε να σταλεί DM</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>Ρόλος κατά την αναμονή απόφασης</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>Χορηγείται κατά την υποβολή της φόρμας και αφαιρείται μόλις εγκριθεί ή απορριφθεί η απάντηση.</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Ρόλος που μπορεί να αποφασίσει από το Discord</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>Προσθέτει κουμπιά αποδοχής και απόρριψης στο μήνυμα υποβολής, χρησιμοποιήσιμα από μέλη με αυτόν τον ρόλο. Αφήστε κενό για αξιολόγηση μόνο από τον πίνακα ελέγχου.</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>Κατά την απόρριψη</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>Ρόλοι προς αλλαγή κατά την απόρριψη</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>Χρήσεις πρόσκλησης</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>Ισχύς πρόσκλησης σε δευτερόλεπτα</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>Κανονική φόρμα</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>Προσφυγή αποκλεισμού</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>Αίτηση εισδοχής</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>Καμία ενέργεια</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>Προσθήκη ρόλων</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>Αφαίρεση ρόλων</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>Ερωτήσεις</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>Προσθήκη ερώτησης</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>{0} ερωτήσεις</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>Ανώνυμη ερώτηση</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>Ερώτηση</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>Τύπος απάντησης</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>Δεσμευτής θέσης</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>Υποχρεωτική</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>Ελάχιστο μήκος</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>Μέγιστο μήκος</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>Μικρότερη τιμή</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>Μεγαλύτερη τιμή</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>Επιλογές</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>Προσθήκη επιλογής</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>Αντιγραφή ερώτησης</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>Μετακίνηση επάνω</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>Μετακίνηση κάτω</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>Εμφάνιση αυτής της ερώτησης μόνο όταν</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>Σύντομο κείμενο</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>Παράγραφος</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>Πολλαπλή επιλογή</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>Πλαίσια ελέγχου</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>Αναπτυσσόμενη λίστα</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>Αριθμός</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>Διεύθυνση email</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>Σύνδεσμος</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>Προσθήκη συνθήκης</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>Αφαίρεση συνθήκης</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>Σύνολο κανόνων</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>Κάθε συνθήκη σε ένα σύνολο κανόνων πρέπει να πληρείται. Η ερώτηση εμφανίζεται όταν πληρείται οποιοδήποτε σύνολο κανόνων, οπότε χρησιμοποιήστε ένα δεύτερο σύνολο για έναν εναλλακτικό τρόπο πλήρωσης προϋποθέσεων.</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>Αποθήκευση της εργασίας σας</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>Η εργασία σας είναι αποθηκευμένη</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>Δεν μπόρεσε να αποθηκευτεί η εργασία σας</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>Συνθήκη</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>Προηγούμενη ερώτηση</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>Σύγκριση</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>Τιμή</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>Ρόλοι</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>Αντιστοίχιση ρόλου</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>Ημέρες</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>Ενισχύει τον διακομιστή</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>Ενισχύει</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>Δεν ενισχύει</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>Σημαίες δικαιωμάτων</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>Προσθέστε μια ερώτηση πριν από αυτή για να συγκρίνετε την απάντησή της.</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>Απάντηση σε ερώτηση</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>Ρόλοι που κατέχει ο χρήστης</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>Χρόνος στον διακομιστή</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Ηλικία λογαριασμού Discord</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>Κατάσταση ενίσχυσης</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>Δικαιώματα που κατέχει ο χρήστης</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>είναι</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>δεν είναι</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>περιέχει</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>είναι μεγαλύτερο από</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>είναι μικρότερο από</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>έχει οποιαδήποτε απάντηση</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>αφέθηκε κενή</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>Οποιοσδήποτε από αυτούς</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>Όλοι τους</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>Κανένας από αυτούς</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>Αποθήκευση φόρμας</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>Επιστροφή στις φόρμες</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>{0} απαντήσεις</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>Καμία απάντηση ακόμα.</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>Εξαγωγή CSV</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>Προβολή</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>Διαγραφή απάντησης</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>Σελίδα {0} από {1}</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>Έγκριση</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>Απόρριψη</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>Σημειώσεις για τον υποβάλλοντα</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>Προαιρετικό. Αποστέλλεται στον υποβάλλοντα μαζί με την απόφαση.</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>Όλα</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>Αναμονή αξιολόγησης</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>Υπό αξιολόγηση</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>Εγκρίθηκε</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>Απορρίφθηκε</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>Υποβολή</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>Η υποβολή είναι απενεργοποιημένη κατά την προεπισκόπηση</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>Κάνετε προεπισκόπηση αυτής της φόρμας. Τίποτα από όσα εισάγετε εδώ δεν αποθηκεύεται.</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>{0} από {1} απαντήθηκαν</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>Επιλέξτε μια επιλογή</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>Η απάντησή σας υποβλήθηκε.</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>Ελήφθη</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>Υποβλήθηκε</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>Τελευταία επεξεργασία</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>Επεξεργασία των απαντήσεών μου</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>Επεξεργάστηκε</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>Επεξεργάστηκε {0} φορά/ες από την υποβολή της, πιο πρόσφατα {1}.</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>Σημειώσεις από τον αξιολογητή</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>Η πρόσκλησή σας</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>Κρατήστε αυτόν τον σύνδεσμο για να ελέγξετε την απάντησή σας αργότερα.</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>Υποβλήθηκε ανώνυμα</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>Μια ανώνυμη φόρμα δεν μπορεί να αλλάξει ρόλους, επειδή δεν καταγράφει ποιος την υπέβαλε.</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>Οι προσφυγές αποκλεισμού και οι αιτήσεις εισδοχής δεν μπορούν να είναι ανώνυμες, επειδή η έγκριση μιας απαιτεί ενέργεια στο άτομο που την υπέβαλε.</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>Αυτή η απάντηση υποβλήθηκε ανώνυμα, οπότε δεν υπάρχει κανείς στον οποίο να ενεργήσετε.</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>Καταγραφή απαντήσεων ανώνυμα</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>Όσοι υποβάλλουν συνδέονται ακόμα με το Discord ώστε η φόρμα να μπορεί να ελέγξει ποιος μπορεί να υποβάλει, αλλά το όνομα και η διεύθυνσή τους δεν αποθηκεύονται. Οι ενέργειες έγκρισης δεν μπορούν να χρησιμοποιηθούν.</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>Ρόλοι προς χορήγηση σε εγκεκριμένο αιτούντα</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>Κρατούνται για τον αιτούντα και του χορηγούνται όταν εισέλθει μέσω της πρόσκλησης.</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>Ανώνυμη</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>Αυτή η φόρμα είναι ανώνυμη. Έχετε συνδεθεί ώστε ο διακομιστής να μπορεί να ελέγξει ότι μπορείτε να υποβάλετε, αλλά το όνομά σας δεν αποθηκεύεται με τις απαντήσεις σας.</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Έχει Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Έχει Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Δεν έχει Nitro</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>Συνδυασμός με</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>Όλες οι συνθήκες σε αυτή την ομάδα</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>Οποιαδήποτε συνθήκη σε αυτή την ομάδα</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>Παράθεση προηγούμενων απαντήσεων σε αυτή την ερώτηση</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>Γράψτε {{Q1}} στην ερώτηση για να εμφανίσετε την απάντηση που δόθηκε στην ερώτηση 1.</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>Υποχρεωτική μόνο όταν</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>Χρήση πάντα της παραπάνω ρύθμισης</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>Ελέγξτε τις απαντήσεις σας</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>Τίποτα δεν έχει υποβληθεί ακόμα. Διαβάστε τις απαντήσεις σας, στη συνέχεια στείλτε τις.</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>Έλεγχος απαντήσεων</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>Αλλαγή απαντήσεων</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>Αποστολή απαντήσεων</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>Καμία ερώτηση ακόμα. Προσθέστε μία για να ξεκινήσετε.</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>Τι είδους απάντηση θέλετε;</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>Επεξεργασία λεπτομερειών</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>Απόκρυψη λεπτομερειών</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>Πληκτρολογήστε την ερώτησή σας εδώ</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>Υπό όρους</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>Παραθέτει μια απάντηση</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>Μία γραμμή κειμένου</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>Μια μεγαλύτερη, πολυγραμμική απάντηση</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>Μία επιλογή από μια λίστα</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>Οποιοσδήποτε αριθμός επιλογών</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>Μία επιλογή από ένα μενού</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>Ένας αριθμός, προαιρετικά περιορισμένος</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>Μια διεύθυνση email</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>Ένας σύνδεσμος που ξεκινά με http</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>Η ερώτηση {0} παραθέτει τη δική της απάντηση, η οποία δεν υπάρχει ακόμα όταν τίθεται η ερώτηση.</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>Η ερώτηση {1} παραθέτει την ερώτηση {0}, η οποία τίθεται αργότερα. Μια ερώτηση μπορεί να παραθέσει μόνο μια ερώτηση που προηγείται.</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>Μια ερώτηση παραθέτει την ερώτηση {0}, αλλά αυτή η φόρμα έχει μόνο {1} ερωτήσεις.</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>Για άτομα που βρίσκονται ήδη στον διακομιστή</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>Επιτρέπει σε αποκλεισμένα άτομα να ζητήσουν να επιστρέψουν</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>Επιτρέπει σε εξωτερικά άτομα να υποβάλουν αίτηση εισδοχής</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>Οι προσφυγές και οι αιτήσεις αξιολογούνται πάντα.</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>Σύνδεση &amp; διακομιστής</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>Προστασία</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>Ρόλοι &amp; αυτοανατιθέμενοι ρόλοι</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>Εισιτήρια</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>Εντολές &amp; απαντητές</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>Επαλήθευση</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>Καταγραφή</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>Chat Bot</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>Άλλο</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>Καμία λειτουργία καταγεγραμμένη</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>Φίλτρα</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>Λειτουργία</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>Αλλάχθηκε από</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>Χρονικό εύρος</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>Οποιαδήποτε στιγμή</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>Τελευταίες 24 ώρες</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>Τελευταίες 7 ημέρες</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>Τελευταίες 30 ημέρες</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>Τελευταίοι 3 μήνες</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>Προσαρμοσμένο εύρος</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>Από</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>Έως</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>Μόνο καταχωρίσεις με λεπτομέρειες αλλαγής</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>Αναζήτηση σε περιλήψεις, ονόματα και τιμές</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>Σειρά</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>Πρώτα τα νεότερα</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>Πρώτα τα παλαιότερα</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>Καταχωρίσεις ανά σελίδα</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>Εμφάνιση {0} έως {1} από {2}</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>Καμία καταχώριση δεν ταιριάζει με αυτά τα φίλτρα.</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>Τίποτα δεν έχει αλλάξει από τον πίνακα ελέγχου ακόμα.</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>Πεδίο</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>Ήταν</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>Τώρα</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>τίποτα</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>{0} πεδίο/α άλλαξε/αν</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>Επηρεάστηκε</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>Ενημερώθηκε η καταγραφή για {0}</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>Έλεγχος AutoMod</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>Ανακοίνωση Αποκλεισμού</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>Banner</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>Γενέθλια</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>Ανακοίνωση Ενίσχυσης</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>Ενίσχυση Οικονομίας</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>Αντικείμενο Οικονομίας</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>Επεκτάσεις Αρχείων</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>Απάντηση Φόρμας</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>Ανακοίνωση Εισόδου</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>Ανακοίνωση Αποχώρησης</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>Ρόλοι Επιπέδου</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>Λίστα Επιτρεπόμενων Συνδέσμων</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>Ομοιότητα Μηνυμάτων</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>Πανομοιότυπες Είσοδοι</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>Εποχιακές Ρίψεις</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>Ομάδα Αυτοανατιθέμενων Ρόλων</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>Κανάλι Στατιστικών</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>Ρόλοι Σερί</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>Πίνακας Εισιτηρίων</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>Άνοιγμα πλήρους αρχείου καταγραφής</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>Ενημερώθηκαν οι ειδοποιήσεις αλλαγών πίνακα ελέγχου</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>Ειδοποιήσεις Αλλαγών Πίνακα Ελέγχου</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>Κανάλι Ειδοποιήσεων Πίνακα Ελέγχου</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>Πού ανακοινώνονται οι αλλαγές του πίνακα ελέγχου. Αφήστε ως κανένα για να μην ανακοινωθεί τίποτα.</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>Πάντα ειδοποίηση σε αλλαγές πρόσβασης και καταγραφής</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>Ειδοποίηση σε αλλαγές σε αυτές τις λειτουργίες</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>Επιλέξτε καμία για να ειδοποιείστε μόνο για τις παραπάνω αλλαγές. Όλα καταγράφονται στο αρχείο καταγραφής ούτως ή άλλως.</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>Σύνδεσμος σε αυτή την καταχώριση</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>Εμφάνιση μιας μεμονωμένης καταχώρισης.</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>Εμφάνιση όλου του αρχείου καταγραφής</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>{0} αλλαγές σε μία συνεδρία</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>Διαγράφηκαν {0} καταχωρίσεις από αυτό το αρχείο καταγραφής</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>Δημιουργήθηκε ένα επίτευγμα</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>Ενημερώθηκε ένα επίτευγμα</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>Ενημερώθηκε το banner {0}</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>κάρτα βαθμίδας</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>καλωσόρισμα</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>αποχαιρετισμός</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>Ενημερώθηκαν οι ρόλοι που δίνονται κατά την είσοδο</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>Ενημερώθηκε η ανακοίνωση: {0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>Ενημερώθηκε το AutoMod: {0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>Προεπισκόπηση αυτού του embed</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>Επιλέξτε ένα αποθηκευμένο embed για προεπισκόπηση.</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>Αυτοματοποίηση</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>Αυτόματη Υπενθύμιση</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>Παρακινεί τον ανοίγοντα του εισιτηρίου όταν δεν έχει απαντήσει για κάποιο διάστημα.</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>Υπενθύμιση Μετά Από (Ημέρες)</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>Αυτόματο Κλείσιμο Χωρίς Απάντηση</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>Κλείνει ένα εισιτήριο του οποίου ο ανοίγων έχει σταματήσει να απαντά.</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>Κλείσιμο Μετά Από (Ημέρες)</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>Αυτόματο Κλείσιμο Όταν ο Ανοίγων Αποχωρεί</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>Η υπενθύμιση πρέπει να είναι μεταξύ 1 και 365 ημερών.</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>Το κλείσιμο πρέπει να είναι μεταξύ 1 και 365 ημερών.</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>Ενημερώθηκαν οι ρυθμίσεις αυτοματοποίησης εισιτηρίων</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>Διαχειριστής Εισιτηρίων</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>Δείτε και ενεργήστε στα εισιτήρια υποστήριξης αυτού του διακομιστή.</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>Κανένα εισιτήριο δεν έχει ανοιχτεί σε αυτόν τον διακομιστή ακόμα.</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>Αναζήτηση εισιτηρίων...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>Κανάλι</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>Ανοίχτηκε Από</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>Αναλήφθηκε Από</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>Τελευταία Δραστηριότητα</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>Ενέργειες</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>Μη Αναληφθέν</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>Αναμονή προσωπικού</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>Κανένα μήνυμα ακόμα</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>Ορισμένα εισιτήρια δείχνουν σε ένα κανάλι που δεν υπάρχει πια. Η διαγραφή τους καθαρίζει τις υπολειπόμενες εγγραφές.</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>Αναμονή Προσωπικού</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>Διάμεση Πρώτη Απάντηση</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>Μ/Δ</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>Κατηγορίες Εισιτηρίων</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>Τα εισιτήρια γεμίζουν την κατηγορία με τον χαμηλότερο αριθμό που έχει ακόμα χώρο. Το Discord περιορίζει μια κατηγορία σε 50 κανάλια.</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>Κύρια</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>Υπερχείλιση #{0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>Διαγράφηκε από το Discord</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 κανάλια</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>Δεν υπάρχουν ακόμα κατηγορίες εισιτηρίων. Μία δημιουργείται όταν ανοίξει το πρώτο εισιτήριο.</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>Κλείσιμο</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>Επανάνοιγμα</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>Ανάληψη</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>Ακύρωση Ανάληψης</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>Προσθήκη Χρήστη</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>Αφαίρεση Χρήστη</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>Υπενθύμιση</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>Ανώνυμη Απάντηση</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>Διαγραφή αυτού του εισιτηρίου και του καναλιού του; Αυτό δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>Χρήστης</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>Μήνυμα</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>Το εισιτήριο έκλεισε.</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>Το εισιτήριο ξανανοίχτηκε.</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>Το εισιτήριο διαγράφηκε.</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>Το εισιτήριο αναλήφθηκε.</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>Το εισιτήριο απελευθερώθηκε.</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>Ο χρήστης προστέθηκε στο εισιτήριο.</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>Ο χρήστης αφαιρέθηκε από το εισιτήριο.</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>Στάλθηκε υπενθύμιση στον ανοίγοντα του εισιτηρίου.</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>Στάλθηκε απάντηση στο εισιτήριο.</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>Αυτό το εισιτήριο δεν υπάρχει πια.</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>Αυτό το εισιτήριο είναι ήδη κλειστό.</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>Αυτό το εισιτήριο είναι ήδη ανοιχτό.</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>Το κανάλι αυτού του εισιτηρίου δεν υπάρχει πια στο Discord.</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>Το bot δεν μπόρεσε να εκτελέσει αυτή την ενέργεια. Ελέγξτε τα δικαιώματά του στο κανάλι εισιτηρίων.</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>Η υπενθύμιση δεν μπόρεσε να σταλεί. Ο ανοίγων μπορεί να έχει κλειστά τα προσωπικά μηνύματα.</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>Εισαγάγετε ένα μήνυμα προς αποστολή.</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>Μια απάντηση δεν μπορεί να είναι μεγαλύτερη από 2000 χαρακτήρες.</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>Επιλέξτε έναν έγκυρο χρήστη.</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>Το κλείσιμο από τον πίνακα ελέγχου κάνει το ίδιο με το κλείσιμο στο Discord: κλειδώνει το κανάλι, αποθηκεύει το αντίγραφο συνομιλίας, ανεβάζει το αντίγραφο HTML και στέλνει το DM κλεισίματος και το αίτημα αξιολόγησης.</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>Έκλεισε ένα εισιτήριο</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>Ξανανοίχτηκε ένα εισιτήριο</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>Διαγράφηκε ένα εισιτήριο</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>Αναλήφθηκε ένα εισιτήριο</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>Απελευθερώθηκε ένα εισιτήριο</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>Προστέθηκε χρήστης σε εισιτήριο</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>Αφαιρέθηκε χρήστης από εισιτήριο</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>Στάλθηκε υπενθύμιση εισιτηρίου</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>Στάλθηκε ανώνυμη απάντηση εισιτηρίου</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>Εισιτήριο</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>Κλειστό</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>Εισιτήριο:</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>Ανοίχτηκε Από:</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>Αποθηκεύτηκε Από:</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>Αριθμός Μηνυμάτων:</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>Αριθμός Απαντήσεων:</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>Αξιολόγηση:</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>Στάλθηκε, Αναμονή Αξιολόγησης...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>Απενεργοποιημένη</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>Το εισιτήριο υποστήριξής σας στο {0} έκλεισε.
+            **Έκλεισε Από:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>Το αντίγραφο συνομιλίας αποθηκεύτηκε στο κανάλι αντιγράφων.</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>Αντίγραφο Συνομιλίας</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**Παρακαλούμε αξιολογήστε την εμπειρία σας με το μέλος του προσωπικού που σας βοήθησε.**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>Αξιολόγηση</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>Δεν ζητήθηκε</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>Μέση Αξιολόγηση</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>Αναμονή Αξιολόγησης</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>Αποστολή Πίνακα Εισιτηρίων</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>Κανάλι</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>Αποστολή Πίνακα</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>Ο πίνακας εισιτηρίων στάλθηκε.</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>Επιλέξτε ένα κανάλι για αποστολή του πίνακα.</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>Κάντε κλικ στο κουμπί παρακάτω για να δημιουργήσετε ένα εισιτήριο υποστήριξης.</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>Στάλθηκε ένας πίνακας εισιτηρίων</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>Αυτός ο πίνακας δεν υπάρχει πια.</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>Ένας διακομιστής πρέπει να διατηρήσει τουλάχιστον έναν πίνακα.</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>Επιλέξτε έναν έγκυρο τύπο εισιτηρίου.</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>Επιλέξτε ένα έγκυρο κανάλι για νήματα.</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>Επιλέξτε ένα κανάλι για να ανοίγουν τα νήματα, αλλιώς αυτός ο πίνακας δεν μπορεί να δημιουργήσει εισιτήρια.</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>Ο πίνακας δημιουργήθηκε.</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>Ο πίνακας διαγράφηκε.</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>Τύπος Εισιτηρίου</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>Κανάλι</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>Ιδιωτικό Νήμα</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>Δημόσιο Νήμα</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>Ένα δημόσιο νήμα μπορεί να διαβαστεί από όποιον μπορεί να δει το γονικό κανάλι.</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>Κανάλι Νήματος</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>Πίνακες</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>Προσθήκη Πίνακα</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>Διαγραφή Πίνακα</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>Διαγραφή αυτού του πίνακα; Τα εισιτήρια που έχουν ήδη ανοιχτεί από αυτόν συνεχίζουν να λειτουργούν.</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>Δημοσιεύτηκε σε {0} κανάλι/α</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>Δεν έχει δημοσιευτεί ακόμα</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>Ενημέρωση Δημοσιευμένων Πινάκων</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>Ξαναγράφει τους πίνακες που έχουν ήδη δημοσιευτεί για αυτόν τον πίνακα ώστε να ταιριάζουν με τις παραπάνω ρυθμίσεις.</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>Ενημερώθηκαν {0} δημοσιευμένος/οι πίνακας/ες.</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>Δημιουργήθηκε ένας πίνακας εισιτηρίων</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>Διαγράφηκε ένας πίνακας εισιτηρίων</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>Άλλαξε ο τύπος ενός πίνακα εισιτηρίων</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>Ενημερώθηκαν οι δημοσιευμένοι πίνακες εισιτηρίων</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>Πίνακας</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>Όλοι οι Πίνακες</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>Κανένας Πίνακας</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>Διάμεσος Χρόνος Κλεισίματος</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>Γενικά</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>Ένας διακομιστής μπορεί να έχει έως {0} πίνακες.</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>Το εισιτήριο έκλεισε από {0}</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>Το εισιτήριο ξανανοίχτηκε από {0}</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>Ο/Η {0} προστέθηκε επιτυχώς στο εισιτήριο.
+            Ζητήθηκε από {1}</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>Ο/Η {0} αφαιρέθηκε επιτυχώς από το εισιτήριο.
+            Ζητήθηκε από {1}</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>Αυτή είναι μια υπενθύμιση ότι το εισιτήριό σας στο `{0}` είναι ακόμα ανοιχτό. Παρακαλούμε απαντήστε αν χρειάζεστε ακόμα βοήθεια.</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>Ο/Η &lt;@{0}&gt; έστειλε υπενθύμιση στον/στην &lt;@{1}&gt;.</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>Απάντηση Ομάδας Υποστήριξης</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>Το εισιτήριο θα διαγραφεί σε λίγα δευτερόλεπτα.</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>Το εισιτήριο αναλήφθηκε από {0}</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>Το εισιτήριο απελευθερώθηκε από {0}</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>Αυτό το εισιτήριο έχει ήδη αναληφθεί από {0}.</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>Πρέπει πρώτα να ορίσετε έναν ρόλο Ομάδας Υποστήριξης για αυτόν τον πίνακα.</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>Πρέπει να έχετε τον ρόλο {0} για να το κάνετε αυτό.</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>Αυτός ο πίνακας έχει ακόμα {0} ανοιχτό/ά εισιτήριο/α. Κλείστε τα πρώτα.</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>Ο πίνακας στον οποίο ανήκει αυτό το εισιτήριο έχει διαγραφεί.</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>Μηνύματα παλαιότερα από αυτό δεν προστίθενται στο starboard. Το 0 σημαίνει κανένα όριο.</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>Πού δημοσιεύονται τα μηνύματα που αναφέρονται μέσω του μενού περιβάλλοντος Αναφορά Μηνύματος. Η αναφορά είναι μη διαθέσιμη μέχρι να οριστεί ένα.</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Πού καταγράφονται τα timeout που εφαρμόζονται εκτός του bot, όπως μέσω του ίδιου του Discord. Αφήστε ως κανένα για να μην τα καταγράφετε.</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>Τα μέλη με αυτόν τον ρόλο μπορούν να δουν και να επεξεργαστούν σημειώσεις διακομιστή και δημόσιες. Οι διαχειριστές και τα μέλη με Διαχείριση Διακομιστή μπορούν πάντα.</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>Τα ονόματα καναλιών και το μήνυμα στατιστικών δέχονται τους συνήθεις δεσμευτές θέσης διακομιστή, οπότε ένα όνομα μπορεί να κρατά αρκετά στατιστικά. Δείτε την &lt;strong&gt;&lt;a href='{0}' class='info'&gt;Αναφορά Δεσμευτών Θέσης&lt;/a&gt;&lt;/strong&gt; για την πλήρη λίστα.</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>Μια ενίσχυση χρειάζεται ένα όνομα.</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>Προσαρμοσμένα Κανάλια Στατιστικών</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>Φωνητικά κανάλια ονομασμένα όπως θέλετε, με οποιονδήποτε συνδυασμό στατιστικών σε ένα όνομα. Το bot δημιουργεί το καθένα κάτω από την κατηγορία στατιστικών και το κρατά ενημερωμένο κάθε 20 λεπτά. Έως 10.</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>Πρότυπο ονόματος καναλιού</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Το Discord επιτρέπει 100 χαρακτήρες για ένα όνομα καναλιού.</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>Προσθήκη Καναλιού Στατιστικών</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>Το κανάλι θα δημιουργηθεί εντός 20 λεπτών.</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>Δημιουργείται εντός 20 λεπτών</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>Ένα πρότυπο ονόματος καναλιού μπορεί να έχει το πολύ 100 χαρακτήρες.</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>Αυτό το προσαρμοσμένο κανάλι στατιστικών δεν υπάρχει πια.</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>Προστέθηκε ένα προσαρμοσμένο κανάλι στατιστικών.</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>Αφαιρέθηκε ένα προσαρμοσμένο κανάλι στατιστικών.</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>Μήνυμα Στατιστικών</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>Αντί για κανάλια, δημοσιεύει ένα μήνυμα που το bot επεξεργάζεται κάθε 20 λεπτά με τους τελευταίους αριθμούς.</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>Αφήστε κενό για την προεπιλογή. Οι κωδικοί emote του Discord λειτουργούν εδώ, συμπεριλαμβανομένων των δικών του Cakey. Η αλλαγή του καναλιού δημοσιεύει ένα νέο μήνυμα εκεί· διαγράψτε το παλιό μόνοι σας αν δεν το θέλετε πια.</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>Επιλέξτε το κανάλι στο οποίο δημοσιεύεται το μήνυμα στατιστικών.</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>Καρφιτσωμένες Κατατάξεις</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>Ένα μήνυμα κατάταξης που το bot δημοσιεύει σε ένα κανάλι και κρατά ενημερωμένο κάθε 15 λεπτά, ώστε κανείς να μη χρειάζεται να εκτελέσει /leaderboard. Έως 5 ανά διακομιστή.</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>Περίοδος</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>Όλες οι εποχές</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>Αυτή την εβδομάδα</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>Αυτόν τον μήνα</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>Εμφανιζόμενα μέλη</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>Κορυφαία {0}</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>Δημοσιεύεται εντός 15 λεπτών</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>Προσθήκη Κατάταξης</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>Η κατάταξη θα δημοσιευτεί εντός 15 λεπτών.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>Μια κατάταξη εμφανίζει μεταξύ 3 και 15 μέλη.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>Επιλέξτε όλες τις εποχές, αυτή την εβδομάδα ή αυτόν τον μήνα.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>Αυτή η καρφιτσωμένη κατάταξη δεν υπάρχει πια.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>Προστέθηκε μια καρφιτσωμένη κατάταξη.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>Αφαιρέθηκε μια καρφιτσωμένη κατάταξη.</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>Ρόλοι Ορόσημου</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>Όποιος δημοσιεύσει έναν από αυτούς τους αριθμούς λαμβάνει τον αντίστοιχο ρόλο. Έως 25 ορόσημα.</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>Αριθμός που επιτεύχθηκε</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>Ρόλος προς απονομή</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>Προσθήκη Ορόσημου</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>Ο αριθμός ορόσημου πρέπει να είναι τουλάχιστον 1.</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>Υπάρχει ήδη ένα ορόσημο για αυτόν τον αριθμό.</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>Ρόλοι με Διαχειριστή, Διαχείριση Διακομιστή ή Διαχείριση Ρόλων δεν μπορούν να απονεμηθούν από το παιχνίδι μέτρησης.</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>Αυτό το ορόσημο δεν υπάρχει πια.</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>Προστέθηκε ένα ορόσημο μέτρησης.</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>Αφαιρέθηκε ένα ορόσημο μέτρησης.</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>Πώς πρέπει να σχετίζεται ένα μήνυμα με το κείμενο της εντολής. Οι επιλογές «Περιέχει αρχεία», «Από webhook» και οι επιλογές αναφοράς αγνοούν το κείμενο και ενεργοποιούνται σε οποιοδήποτε μήνυμα με αυτή την ιδιότητα. Το Wildcard δέχεται * και ?· το Regex απενεργοποιείται αυτόματα αν το μοτίβο δεν είναι έγκυρο.</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>Στην ακριβή ώρα, στη ζώνη ώρας του διακομιστή που ορίζεται στις Ρυθμίσεις Bot.</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>Κάθε ημέρα, ή μόνο μία ημέρα της εβδομάδας.</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>Το Μοναδικό λειτουργεί όπως τα ραδιοπλήκτρα: η επιλογή ενός ρόλου στην ομάδα αντικαθιστά αυτόν που είχαν ήδη. Η Πολλαπλή επιλογή επιτρέπει σε ένα μέλος να κατέχει πολλούς από την ομάδα ταυτόχρονα.</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>Η διεκδίκηση ενός επιπλέον από αυτό το όριο αφαιρεί αυτόν που διεκδικήθηκε παλαιότερα.</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>Πολλαπλασιάζει τα κέρδη από παιχνίδια οικονομίας ενόσω η ενίσχυση είναι ενεργή. Πολλαπλές ενεργές ενισχύσεις πολλαπλασιάζονται μεταξύ τους.</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>Πόσες ώρες διαρκεί η ενίσχυση από τη στιγμή της αγοράς.</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>Πόσες από αυτή την ενίσχυση μπορεί να κατέχει ένα μέλος ταυτόχρονα. Το 0 σημαίνει κανένα όριο.</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>Ο ρόλος που δίνεται κατά την αγορά. Πρέπει να βρίσκεται κάτω από τον υψηλότερο ρόλο του Cakey και δεν πρέπει να φέρει Διαχειριστή, Διαχείριση Διακομιστή ή Διαχείριση Ρόλων.</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>XP επιπέδου που προστίθεται στον αγοραστή κατά την αγορά, έως 1.000.000.</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>Ο ρόλος που δίνεται κατά την αγορά και αφαιρείται ξανά μετά τον αριθμό ωρών που ορίζεται παρακάτω.</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>Πόσες σωτηρίες μέτρησης παρέχει μια αγορά, 1 έως 100. Μια σωτηρία χρησιμοποιείται αντί να επαναφέρεται η μέτρηση όταν ο αγοραστής κάνει λάθος.</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>Πόσα από αυτό το αντικείμενο μπορεί να κατέχει ένα μέλος ταυτόχρονα. Το 0 σημαίνει κανένα όριο.</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>Εμφανίζεται στο κατάστημα και είναι αγοράσιμο. Απενεργοποιήστε για να διατηρήσετε το αντικείμενο αλλά να το κρύψετε, για παράδειγμα ένα βραβείο που δίνει μόνο το προσωπικό.</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>Σωτηρία Μέτρησης</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>Σωτηρίες ανά αγορά</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>Ένα αντικείμενο σωτηρίας μέτρησης πρέπει να παρέχει μεταξύ 1 και 100 σωτηρίες.</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>Ειδοποιήσεις DM Φθοράς</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>Στέλνει στα μέλη ένα DM όταν το XP τους φθίνει. Κάθε DM φέρει ένα κουμπί που τα μέλη μπορούν να χρησιμοποιήσουν για να εξαιρεθούν.</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>Συνημμένο Διαγράφηκε</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>Τα διαγραμμένα μηνύματα που έφεραν ένα αρχείο ή εικόνα καταγράφονται εδώ αντί για το κανάλι Μήνυμα Διαγράφηκε. Αφήστε ως κανένα για να τα κρατήσετε μαζί.</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>Ρόλος Αναφοράς Προτάσεων</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>Αναφέρεται κάθε φορά που δημοσιεύεται μια νέα πρόταση. Ο ρόλος πρέπει να είναι αναφέρσιμος, ή το bot χρειάζεται δικαίωμα να αναφέρει οποιονδήποτε ρόλο.</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>Έχει εικόνα</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>Εισαγωγή emote διακομιστή</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>Η παράλειψη χρειάζεται ψήφους από περισσότερο από τη μισή μη κωφά μέλη στο φωνητικό κανάλι. Οι DJ, οι συντονιστές και όποιος ζήτησε το τραγούδι μπορούν ακόμα να παραλείψουν απευθείας.</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>Το XP σταματά να συσσωρεύεται μόλις ένα μέλος φτάσει σε αυτό το επίπεδο.</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>Όποιος διεκδίκησε την τελευταία ρίψη δεν μπορεί να διεκδικήσει την επόμενη.</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>Κρύβει το κουμπί διεκδίκησης ανάμεσα σε τέσσερα δολώματα σε διαφορετική θέση σε κάθε ρίψη, ώστε να μην μπορεί να πατηθεί από ανακλαστικό.</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>Μια τυχαία αναμονή μεταξύ αυτών των δύο τιμών περνά μεταξύ των ρίψεων.</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>Χορηγείται όταν ανακοινώνονται τα γενέθλια και αφαιρείται ξανά μετά από 24 ώρες.</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>Χρησιμοποιείται για γενέθλια χωρίς δική τους ζώνη ώρας, καθημερινό περιεχόμενο και προγραμματισμένα αυτόματα μηνύματα.</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>Δημιουργήστε ένα webhook στις ρυθμίσεις Ενσωματώσεων του καναλιού και επικολλήστε το URL του εδώ. Οι αναρτήσεις αποστέλλονται μέσω αυτού.</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>Χρειάζεται μόνο όταν οι αναρτήσεις πρέπει να καταλήγουν σε ένα νήμα ή ανάρτηση φόρουμ κάτω από το κανάλι του webhook. Αφήστε κενό διαφορετικά.</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>Αναφέρεται με κάθε νέα ανάρτηση. Αφήστε κενό για να μην αναφέρετε κανέναν.</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>Χρώμα της πλαϊνής μπάρας στο embed της ανάρτησης.</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>Μόνο το όνομα του subreddit, χωρίς r/.</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>Απευθείας σύνδεσμος προς την ίδια τη ροή αντί για τον ιστότοπο. Συνήθως τελειώνει σε .xml, .rss ή /feed.</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>Όνομα καναλιού όπως εμφανίζεται μετά το twitch.tv/ στο URL.</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>Σύνδεσμος προς τη σελίδα καναλιού, όπως ένα URL youtube.com/@handle ή /channel/.</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>Το όνομα που χρησιμοποιούν τα μέλη για να καλέσουν αυτή την ετικέτα. Κρατήστε το σύντομο και αξέχαστο.</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>Με τι απαντά το bot όταν χρησιμοποιείται η ετικέτα.</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>Το κείμενο προς αναζήτηση στα μηνύματα. Τα κεφαλαία/πεζά αγνοούνται και ο τύπος αντιστοίχισης παρακάτω ορίζει πόσο αυστηρό είναι αυτό.</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>Αποστέλλεται όταν ένα μήνυμα ταιριάζει. Συνδυάστε το με ένα embed ή αφήστε το κενό για να στείλετε μόνο το embed.</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>Πού δημοσιεύεται το προγραμματισμένο μήνυμα.</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>Δημοσιεύεται την επιλεγμένη ώρα στο παραπάνω κανάλι.</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>Μπορούν να επιλεγούν μόνο κανάλια ανακοινώσεων. Κάθε μήνυμα που δημοσιεύεται εκεί δημοσιεύεται στους διακομιστές που ακολουθούν.</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>Ο ρόλος που μπορούν να δώσουν στον εαυτό τους τα μέλη.</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>Εμφανίζεται δίπλα στον ρόλο στον επιλογέα ώστε τα μέλη να ξέρουν σε τι χρησιμεύει.</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>Τα μέλη κάτω από αυτό το επίπεδο δεν μπορούν να επιλέξουν τον ρόλο. Το 0 απενεργοποιεί τον έλεγχο.</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>Καθημερινό σερί που χρειάζονται τα μέλη πριν μπορέσουν να επιλέξουν τον ρόλο. Το 0 απενεργοποιεί τον έλεγχο.</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>Τα μέλη πρέπει να έχουν ήδη αυτόν τον ρόλο πριν μπορέσουν να επιλέξουν τον νέο.</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>Εμφανίζεται ως ο τίτλος του επιλογέα.</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>Εμφανίζεται κάτω από τον τίτλο για να εξηγήσει σε τι χρησιμεύει η ομάδα.</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>Μόνο τα μέλη με αυτόν τον ρόλο μπορούν να επιλέξουν από την ομάδα.</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>Μόνο τα μέλη σε αυτό το επίπεδο ή υψηλότερο μπορούν να επιλέξουν από την ομάδα.</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>Ενημερώνει την κατάσταση που εμφανίζεται στην ανάρτηση της πρότασης.</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>Εμφανίζεται στην ανάρτηση της πρότασης μαζί με την απόφαση. Προαιρετικό.</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>Η προσαρμοσμένη συνδρομή bot που πρέπει να χρησιμοποιεί αυτός ο διακομιστής.</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>Το token του bot από την καρτέλα Bot της εφαρμογής σας στο Discord Developer Portal. Κρατήστε το μυστικό.</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>Εμφανίζεται στο κατάστημα και στα μηνύματα αγοράς.</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>Εμφανίζεται κάτω από το όνομα στο κατάστημα ώστε οι αγοραστές να ξέρουν τι θα λάβουν.</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>Τιμή στο νόμισμα του διακομιστή σας. Οι αγοραστές χρειάζονται τουλάχιστον αυτό το ποσό για να αγοράσουν.</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>Τι λαμβάνει ο αγοραστής. Τα παρακάτω πεδία αλλάζουν ανάλογα με τον τύπο.</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>Χρησιμοποιείται για να βρεθεί η προεπιλογή αργότερα κατά την εφαρμογή της.</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>Πόσες ώρες κρατά ο αγοραστής τον ρόλο, μετρημένες από την αγορά.</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>Δεν βρέθηκαν κανάλια ανακοινώσεων. Δημιουργήστε πρώτα ένα στο Discord.</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>Στέλνει το embed μέσω αυτού του webhook αντί για το bot, χρησιμοποιώντας το όνομα και το avatar του webhook.</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>Προφίλ Αποστολέα</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>Αποστολή ως</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>Το bot</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>Διαχείριση Προφίλ Αποστολέα</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>Ένα προφίλ αποστολέα δημοσιεύει το μήνυμα μέσω ενός webhook με το δικό του όνομα και avatar. Το bot χρειάζεται Διαχείριση Webhook στο κανάλι.</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>Εμφανιζόμενο Όνομα</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>Εμφανίζεται ως συγγραφέας του μηνύματος, έως 80 χαρακτήρες. Το Discord απορρίπτει ονόματα που περιέχουν «discord» ή «clyde».</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>URL Avatar</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>Απευθείας σύνδεσμος προς PNG, JPG ή GIF. Αφήστε κενό για να διατηρήσετε το avatar του bot.</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>Αποθηκευμένο URL Webhook</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>Προαιρετικό. Όταν οριστεί, τα μηνύματα που στέλνονται ως αυτό το προφίλ πηγαίνουν σε αυτό το webhook αντί για ένα κανάλι, ακόμα κάτω από το παραπάνω όνομα και avatar.</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>Νέο Προφίλ</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>Αποθήκευση Προφίλ</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>Κανένα προφίλ αποστολέα ακόμα.</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>Διαγραφή αυτού του προφίλ αποστολέα;</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>Το προφίλ αποστολέα αποθηκεύτηκε.</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>Το προφίλ αποστολέα διαγράφηκε.</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>Εισαγάγετε ένα εμφανιζόμενο όνομα έως 80 χαρακτήρων.</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Το Discord δεν επιτρέπει ονόματα αποστολέα που περιέχουν «discord» ή «clyde».</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>Το avatar πρέπει να είναι σύνδεσμος http ή https έως 512 χαρακτήρων.</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>Ένας διακομιστής μπορεί να έχει έως 25 προφίλ αποστολέα.</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>Αυτό το προφίλ αποστολέα δεν υπάρχει πια.</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>ΕΦΑΡΜΟΓΗ</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>Αποστολή στο κανάλι</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>Εισαγωγή / εξαγωγή JSON</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>Κείμενο Μηνύματος</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>Κείμενο που αποστέλλεται πάνω από το embed</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>Χρησιμοποιείται μόνο κατά την αποστολή από αυτή τη σελίδα. Δεν αποθηκεύεται με το embed, και οι λειτουργίες που δημοσιεύουν το αποθηκευμένο embed δεν το περιλαμβάνουν.</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>Αποθήκευση ως νέο</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>Ενημέρωση επιλεγμένου</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>Καλώς ήρθατε στο {server.name}!</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>Αυτό είναι ένα δείγμα embed για να δείξει τι μπορεί να κάνει ο κατασκευαστής. Δοκιμάστε **έντονα**, *πλάγια*, `κώδικα`, έναν [σύνδεσμο](https://cakey.bot) και δεσμευτές θέσης όπως το {user.mention}. Όλα εδώ μπορούν να επεξεργαστούν ή να διαγραφούν, και οι αναφορές καναλιών και τα προσαρμοσμένα emote λειτουργούν επίσης.</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>Μέλη διακομιστή</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>Ρόλοι διακομιστή</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Δημιουργήθηκε με τον κατασκευαστή embed του Cakey Bot</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>Πρέπει να είναι ένας πλήρης σύνδεσμος που ξεκινά με http:// ή https://.</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>Το {0} δεν είναι έγκυρος σύνδεσμος.</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>Αυτή η εικόνα δεν μπόρεσε να φορτωθεί. Ελέγξτε τον σύνδεσμο.</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>Δημιουργήθηκε ένα προφίλ αποστολέα</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>Ενημερώθηκε ένα προφίλ αποστολέα</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>Διαγράφηκε ένα προφίλ αποστολέα</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>Δεσμευτές θέσης όπως το {user.username} εμφανίζονται εδώ με τις τιμές αυτού του διακομιστή και εσάς ως χρήστη. Το αποθηκευμένο embed τους διατηρεί όπως γράφτηκαν και το bot τους συμπληρώνει όταν δημοσιεύεται.</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

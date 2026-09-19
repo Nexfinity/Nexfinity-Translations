@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>Alleen GIF's</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>Alleen media</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>Alleen bestanden</value>
   </data>
@@ -1126,9 +1129,6 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-birthday-role" xml:space="preserve">
     <value>Bijgewerkte verjaardagsrol: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>Tijdzone bijgewerkt voor de verjaardag van {0}</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>Verjaardagen</value>
   </data>
@@ -1141,11 +1141,17 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>Optioneel — overschrijft de tijdzone van de server alleen voor de verjaardagscontrole van deze persoon.</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>Tijdzone bijgewerkt voor de verjaardag van {0}</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>Verwisselde kleur</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>Kleur links</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>Kleur bij binnenkomst</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>Rollen verwijderen op niveau omhoog</value>
@@ -1204,6 +1210,27 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="chat-bot-title" xml:space="preserve">
     <value>AI chatbot</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>AI-model</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>Het OpenAI-model dat jouw chatbot gebruikt om antwoorden te genereren. Hogere niveaus ontgrendelen krachtigere modellen.</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>Eigen bot</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>API-sleutel</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>Dit model vereist een hoger abonnementsniveau.</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>Spraaknivellering ingeschakeld</value>
   </data>
@@ -1231,7 +1258,7 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="suggestion-page-title" xml:space="preserve">
     <value>Suggesties</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>Er is geen suggestiekanaal ingesteld, dus leden kunnen nog geen suggesties aanmaken en beslissingen die hier worden opgeslagen kunnen niet worden doorgevoerd in het bericht op Discord. Stel er hieronder een in om beide op te lossen.</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>Genegeerde achievement-kanalen bijgewerkt.</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>Genegeerde prestatierollen bijgewerkt.</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>Ontgrendelbericht voor prestaties bijgewerkt.</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>Meerdere prestaties tegelijk in- of uitgeschakeld.</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>Zelfgekozen rollen</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>Gebruik de knop "Zelfrol toevoegen" hieronder om een nieuwe zelfrol aan te maken.</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>Geen zelfrollen gevonden. Klik hierboven op "Zelfrol toevoegen" om er een aan te maken.</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>Nog geen rolgroepen. Met groepen kun je een set zelfrollen elkaar laten uitsluiten.</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>Waarde ({0}) moet een getal zijn.</value>
@@ -1876,6 +1918,9 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>Abonnementen</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>OAuth-account ontkoppeld. ({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>OAuth-integratie-instellingen gewijzigd. ({0})</value>
   </data>
@@ -1950,6 +1995,48 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>Sluiten</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>Aantal leden</value>
@@ -2083,6 +2170,12 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Semicolon separated list</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>Verwijderen na plaatsing</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>Wanneer dit is ingeschakeld, worden items uit de lijst verwijderd om duplicatie te voorkomen. Zorg dat je een opgeslagen kopie van je gegevens hebt voordat je deze functie inschakelt, want deze gegevens kunnen niet worden hersteld.</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>Thread Aanmaken</value>
   </data>
@@ -2115,6 +2208,24 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>Initieel Saldo</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>Dagelijks min. bedrag</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>Dagelijks max. bedrag</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>Wekelijks min. bedrag</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>Wekelijks max. bedrag</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>Maandelijks min. bedrag</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>Maandelijks max. bedrag</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>Wis Gebruikerssaldo bij Vertrek</value>
@@ -2230,11 +2341,119 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>Bereik level X.</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>Een specifieke rol verkrijgen.</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>X GIF's versturen.</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>X stickers versturen.</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>X keer een time-out krijgen.</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>X minuten streamen.</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>De tag van deze server dragen.</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>Alleen tellen in dit kanaal</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>Laat leeg om overal op de server te tellen. Dit kan later niet worden gewijzigd, omdat voortgang per kanaal wordt opgeslagen.</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>Te verkrijgen rol</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>Niveauladder</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>Geef elke sport van een ladder dezelfde naam en nummer ze hieronder. Het behalen van een hogere sport kent ook de sporten eronder toe.</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>Ontgrendelbericht voor deze prestatie</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>Overschrijft het ontgrendelbericht van de server voor alleen deze prestatie. Laat leeg om dat van de server te gebruiken.</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>Prestatie-instellingen</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>Ontgrendelbericht</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>Laat leeg voor de standaardtekst. Plaatshouders: {achievement.name}, {achievement.description}, {user.achievement.count}, {achievement.owners.count} en alle basisplaatshouders.</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>Bekijk de lijst met plaatshouders</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>Genegeerde rollen</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>Leden met een van deze rollen maken geen voortgang richting prestaties</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>Gewijzigde prestaties</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>Selecteer eerst minstens één prestatie</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>Kies de rol waarmee deze prestatie wordt verdiend</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>Een sport moet een getal van 1 tot 20 zijn</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>Het kanaal of de rol waarin een prestatie telt, kan na aanmaak niet worden gewijzigd</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>Secundaire Gegevens</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>Tijdelijke Rol</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>Tijdelijke bans</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>Tijdelijke rollen</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>Er zijn geen actieve tijdelijke bans op deze server.</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>Er zijn geen actieve tijdelijke rollen op deze server.</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>Bans en rollen kunnen samen worden geselecteerd. Ze beëindigen is van toepassing op alles wat je hebt gekozen, in beide lijsten.</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>Nu beëindigen</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>De {0} geselecteerde ban(s) nu beëindigen? De bot heft ze binnenkort op.</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>De {0} geselecteerde rol(len) nu beëindigen? De bot trekt ze binnenkort in.</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0} item(s) ingesteld om nu te eindigen</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>Ingesteld om nu te eindigen. De bot verwerkt ze binnenkort.</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>Stuur DM-herinneringen</value>
@@ -2388,9 +2607,6 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>Max eigendom per gebruiker</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0 Max eigendom = Onbeperkt</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>Vissen</value>
@@ -2788,6 +3004,24 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Koop Lifetime Premium</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>LIFETIME Aangepaste Bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>Krijg je eigen gebrande Aangepaste Bot voor een enkele eenmalige betaling, geen terugkerend abonnement, ooit.</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>Opmerking: Dit is een strikt gelimiteerd aanbod - zodra de resterende plekken op zijn, is deze deal voorgoed verdwenen.</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>Koop Lifetime Aangepaste Bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>Nog {0} over</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>Uitverkocht</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>Planvergelijking</value>
   </data>
@@ -2874,6 +3108,9 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Ban Sync Pool Servers</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>Tel-Mijlpaalrollen</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>Onbeperkte RSS/Social Feeds</value>
@@ -3279,15 +3516,6 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>Stel een lokkanaal in waar elk bericht automatisch de gekozen straf activeert, wat helpt om raid- en scambots te betrappen voordat ze je server volspammen.</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>Alleen Exact Getal</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>Exact Getal OF Vergelijking</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>Alleen Vergelijking</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>Je moet een aangepaste bot selecteren om aan te passen.</value>
@@ -4390,6 +4618,39 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>Zelf rol niet gevonden of behoort niet tot deze server</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>Je kunt maximaal {0} zelfrollen hebben</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>Die rol is al een zelfrol</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>Rolgroep niet gevonden of behoort niet tot deze server</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>Groepsnaam is verplicht</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>Er bestaat al een groep met die naam</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>Max. rollen moet tussen {0} en {1} liggen voor een meervoudige-selectiegroep</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>Zelfrol {0} toegevoegd</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>Zelfrol {0} bijgewerkt</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>Rolgroep '{0}' toegevoegd</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>Rolgroep '{0}' bijgewerkt</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>Rolgroep '{0}' verwijderd</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>Er is een fout opgetreden bij het toevoegen van dashboard-toegang</value>
   </data>
@@ -4735,8 +4996,35 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>Maximaal saldo moet groter zijn dan 0</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>Maximaal saldo moet minder dan 1.000.000.000 zijn</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>Maximaal saldo moet minder dan {0} zijn</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>Het dagelijkse minimumbedrag moet tussen 1 en {0} liggen.</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>Het dagelijkse maximumbedrag moet tussen 1 en {0} liggen.</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Het dagelijkse maximumbedrag moet groter zijn dan het dagelijkse minimumbedrag.</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>Het wekelijkse minimumbedrag moet tussen 1 en {0} liggen.</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>Het wekelijkse maximumbedrag moet tussen 1 en {0} liggen.</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Het wekelijkse maximumbedrag moet groter zijn dan het wekelijkse minimumbedrag.</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>Het maandelijkse minimumbedrag moet tussen 1 en {0} liggen.</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>Het maandelijkse maximumbedrag moet tussen 1 en {0} liggen.</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Het maandelijkse maximumbedrag moet groter zijn dan het maandelijkse minimumbedrag.</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>Maximaal niveau moet groter zijn dan 0</value>
@@ -5026,6 +5314,12 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>Premium succesvol geactiveerd op server</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>Premium geactiveerd op deze server ({0})</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>Premium verwijderd van deze server ({0})</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>Premium succesvol gedeactiveerd van server</value>
   </data>
@@ -5230,6 +5524,9 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>Fout bij het sluiten van nagbar</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>Bannerontwerp</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>Ongeldig bannertype</value>
   </data>
@@ -5413,8 +5710,26 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>Auto bericht {0} ingeschakeld</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>{0} automatische berichten ingeschakeld</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>{0} automatische berichten uitgeschakeld</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>{0} automatische berichten verwijderd</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>Auto responder {0} ingeschakeld</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>{0} auto-responders ingeschakeld</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>{0} auto-responders uitgeschakeld</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>{0} auto-responders verwijderd</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>{0} auto responders geïmporteerd</value>
@@ -5427,6 +5742,12 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Twitch feed {0} gewijzigd</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>Feed ingeschakeld</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>Feed uitgeschakeld</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>YouTube feed {0} gewijzigd</value>
@@ -5547,6 +5868,63 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} tag {1}</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>en {0} meer</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>{0} tijdelijke bans beëindigd</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>{0} tijdelijke rollen beëindigd</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>{0} auto-publicatiekanalen verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>{0} waarschuwingen verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>{0} verjaardagen verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>{0} AFK-vermeldingen verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>{0} zelftoewijsbare rollen verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>{0} permanente rollen verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>{0} winkelartikelen verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>{0} boosts verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>{0} feeds verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>{0} dashboardlogboekvermeldingen verwijderd</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>{0} vermeldingen verwijderd</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>{0} feeds ingeschakeld</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>{0} feeds uitgeschakeld</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>{0} tags ingeschakeld</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>{0} tags uitgeschakeld</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>{0} tags verwijderd</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>Ingeschakeld</value>
@@ -5775,45 +6153,6 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>Zelf rollen zoeken...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>Geen zelfrollen gevonden. Klik hierboven op "Zelfrol toevoegen" om er een aan te maken.</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>Nog geen rolgroepen. Met groepen kun je een set zelfrollen elkaar laten uitsluiten.</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>Je kunt maximaal {0} zelfrollen hebben</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>Die rol is al een zelfrol</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>Rolgroep niet gevonden of behoort niet tot deze server</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>Groepsnaam is verplicht</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>Er bestaat al een groep met die naam</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>Max. rollen moet tussen {0} en {1} liggen voor een meervoudige-selectiegroep</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>Zelfrol {0} toegevoegd</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>Zelfrol {0} bijgewerkt</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>Rolgroep '{0}' toegevoegd</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>Rolgroep '{0}' bijgewerkt</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>Rolgroep '{0}' verwijderd</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>Zelfrol toevoegen</value>
@@ -6229,9 +6568,6 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Vernieuw de pagina alstublieft niet.</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>Embed-editor</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Opgeslagen embed niet gevonden.</value>
   </data>
@@ -6256,27 +6592,6 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>Opgeslagen embeds</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>Nieuw / niet opgeslagen</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>Opslaan</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>Opslaan als nieuw</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>Hernoemen</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>Verwijderen</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>Geef deze embed een naam:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>Hernoem opgeslagen embed:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>Dit opgeslagen embed verwijderen? Dit kan niet ongedaan gemaakt worden.</value>
   </data>
@@ -6286,17 +6601,8 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>Embed Hernoemen</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>Embed Verwijderen</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>Embed Verzenden</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>Embed Verzenden</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>Kanaal</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>In plaats daarvan naar een webhook URL verzenden</value>
@@ -6307,7 +6613,7 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+  <data name="generic-word-send" xml:space="preserve">
     <value>Verzenden</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6324,6 +6630,21 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discord heeft het naar die webhook verzonden embed afgewezen.</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>Embed-inhoud</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>Een embed opgeslagen</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>Een opgeslagen embed bijgewerkt</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>Een opgeslagen embed hernoemd</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>Een opgeslagen embed verwijderd</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>Een embed naar een webhook verzonden.</value>
@@ -6510,6 +6831,15 @@ Amari-stijl - kwadratisch: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>Mijnenveld</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>Dagelijks</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>Wekelijks</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>Maandelijks</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>Betalen</value>
@@ -6872,6 +7202,174 @@ Om uw OpenAI API-sleutel te verkrijgen, moet u een OpenAI-account maken en een A
   <data name="rp-feature-wink" xml:space="preserve">
     <value>Knipogen</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>Telspel</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>Wijzigingen kunnen tot 30 seconden duren om in Discord door te voeren vanwege caching.</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>Telkanaal</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>Modus</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>Alleen Exact Getal</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>Exact Getal OF Vergelijking</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>Alleen Vergelijking</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>Opeenvolgend tellen voorkomen</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>Resetten bij fout</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>Foutrol</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>Huidige telling</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>Huidige teller</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>Hoogste telling</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>De foutrol mag niet de @everyone-rol zijn.</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>Duur van de foutrol</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>minuten</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>Laat leeg of 0 zodat de foutrol permanent toegewezen blijft. Maximaal 43200 minuten (30 dagen).</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>De duur van de foutrol moet tussen 0 en 43200 minuten liggen.</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>Genegeerde rollen</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>De genegeerde rol mag niet de @everyone-rol zijn.</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>Het Telspel is nog niet geconfigureerd voor deze server.</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>Huidige telling resetten</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>Zet de huidige telling onmiddellijk terug naar 0, net als bij een mislukte telling. De hoogste ooit behaalde reeks blijft onaangetast.</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>Weet je zeker dat je de huidige telling wilt terugzetten naar 0? Dit kan niet ongedaan worden gemaakt.</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>Telling resetten</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>De huidige telling is teruggezet naar 0.</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>Aangepast foutbericht</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>Wordt verzonden in plaats van het standaard foutbericht wanneer de telling wordt gereset. Laat beide velden hieronder leeg om het standaardbericht te gebruiken.</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>Bericht</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>Laat leeg om het standaard foutbericht te gebruiken</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>Aangepaste foutembed</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>Wijzigingen opslaan</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>Instellingen van het Telspel bijgewerkt</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>Huidige telling van het Telspel geforceerd gereset</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>Aangepast foutbericht van het Telspel bijgewerkt</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>Instellingen van het Telspel konden niet worden geladen.</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>Aangepast bericht</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>Optioneel bericht dat samen met de melding wordt verstuurd...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>Beschikbare plaatshouders: {link}, {channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>Beschikbare plaatshouders: {link}, {subreddit}, {title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>Beschikbare plaatshouders: {link}, {streamer}, {title}, {game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>Beschikbare plaatshouders: {link}, {title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>Automatisch uit archief halen van forum</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>De bot heeft de machtiging Threads beheren nodig in elk gecontroleerd forumkanaal om threads automatisch uit het archief te halen.</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>Forumkanaal 1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>Forumkanaal 2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>Je kunt niet twee keer hetzelfde kanaal selecteren.</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>Instellingen voor automatisch uit archief halen van forum konden niet worden geladen.</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>Instellingen voor automatisch uit archief halen van forum bijgewerkt</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>{0}-banduur</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>Laat leeg of 0 voor een permanente ban. Maximaal 720 uur (30 dagen).</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>De banduur moet tussen 0 en 720 uur liggen.</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>Botstatus</value>
   </data>
@@ -6940,5 +7438,3444 @@ Om uw OpenAI API-sleutel te verkrijgen, moet u een OpenAI-account maken en een A
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>Ticketpaneelnaam bijgewerkt</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>Het formulier heeft een naam nodig.</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>Dat kanaal bevindt zich niet op deze server.</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>Die rol bevindt zich niet op deze server.</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>De formuliernaam mag maximaal {0} tekens bevatten.</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>De formulierbeschrijving mag maximaal {0} tekens bevatten.</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>Het succesbericht mag maximaal {0} tekens bevatten.</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>De antwoordlimiet moet minstens 1 zijn.</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>De minimale accountleeftijd mag niet negatief zijn.</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>De sluitingsdatum moet in de toekomst liggen.</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>Het aantal gebruiken van de uitnodiging moet tussen 0 en 100 liggen.</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>De geldigheid van de uitnodiging moet tussen 0 en 7 dagen liggen.</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>Elke vraag heeft tekst nodig.</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>Een vraag mag maximaal {0} tekens bevatten.</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>De minimale lengte mag niet groter zijn dan de maximale lengte.</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>De minimale waarde mag niet groter zijn dan de maximale waarde.</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>Dit vraagtype vereist minstens één optie.</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>Een vraag kan maximaal {0} opties hebben.</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>Elke optie heeft een label nodig.</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>Een optielabel mag maximaal {0} tekens bevatten.</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>Opties binnen een vraag moeten uniek zijn.</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>Bij een van de voorwaarden ontbreekt een deel van de instelling.</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>Een vraag kan niet afhankelijk zijn van zijn eigen antwoord.</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>Een vraag kan alleen afhankelijk zijn van een vraag die eraan voorafgaat.</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>Een formulier kan maximaal {0} vragen hebben.</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>Voeg minstens één vraag toe voordat je opslaat.</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>De formulieren konden niet worden geladen. Probeer het over een moment opnieuw.</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>Dat formulier bestaat niet meer.</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>Voeg minstens één vraag toe voordat je publiceert.</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>Dit formulier is nog niet gepubliceerd.</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>Dit formulier accepteert geen antwoorden.</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>Dit formulier is gesloten.</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>Dit formulier heeft zijn antwoordlimiet bereikt.</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>Je hebt dit formulier al ingediend.</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>Je Discord-account moet minstens {0} dagen oud zijn om dit formulier in te dienen.</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>Je moet lid zijn van deze server om dit formulier in te dienen.</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>Je bent niet gebanned van deze server, dus er is niets om tegen in beroep te gaan.</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>Menu inklappen</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>Menu uitklappen</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>{0} geselecteerd</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>Alles selecteren</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>Selecteren</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>Inschakelen</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>Uitschakelen</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>Verwijderen bevestigen</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>De {0} geselecteerde item(s) verwijderen? Dit kan niet ongedaan worden gemaakt.</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>{0} item(s) ingeschakeld</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>{0} item(s) uitgeschakeld</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>{0} item(s) verwijderd</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>De geselecteerde items konden niet worden bijgewerkt.</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>Klik op items om ze te selecteren</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>Die opgeslagen versie bestaat niet meer.</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>Die opgeslagen versie kon niet worden gelezen en kan niet worden hersteld.</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>Formulier aangemaakt</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>Vraag {0} toegevoegd</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>Vraag verwijderd</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>Vraag {0} verwijderd</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>Vraag {0}: {1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>Positie</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>Voorwaarden</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>niet ingesteld</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>Opgeslagen zonder wijzigingen.</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>Toon {0} wijziging(en) meer</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>Toon minder</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>Wat er is veranderd</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>Geschiedenis</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>Versiegeschiedenis</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>De laatste {0} keer opslaan van dit formulier. Een versie herstellen is zelf ook een keer opslaan, dus het kan ongedaan worden gemaakt.</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>Nog geen opgeslagen versies. De volgende keer dat dit formulier wordt opgeslagen, wordt hier een versie bewaard.</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>Versie {0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>{0} vra(a)g(en)</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>Herstellen</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>Deze versie herstellen? Het formulier gaat terug naar hoe het was bij deze opslag.</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>Het formulier is hersteld naar die versie.</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>Verwijderde vraag</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>De plaatshoudertekst mag niet langer zijn dan {0} tekens.</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>Sleep om te herschikken</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>Je hebt niet-opgeslagen wijzigingen. Deze pagina verlaten en ze verwerpen?</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>Je kunt hier op elk moment naar terugkeren, samen met al het andere wat je hebt ingediend.</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>Mijn Formulierinzendingen</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>Elk formulier dat je hebt ingediend, en de huidige status ervan.</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>Nog geen inzendingen</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>Formulieren die je indient, verschijnen hier zodat je ze later kunt controleren.</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>Ingediend {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>Formulieren die anoniem reacties verzamelen, worden hier niet vermeld, omdat ze zonder indiener worden opgeslagen.</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>Gebruikersaanpassing</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>Deze functie komt binnenkort. Kom later terug!</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>Een captcha vereisen</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>Indieners moeten een Cloudflare Turnstile-uitdaging doorstaan voordat het formulier wordt geaccepteerd.</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>Log in met Discord om dit formulier in te vullen. Je komt direct hierheen terug.</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>Inloggen met Discord</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>Een formulier van {0}. Log in met Discord om het in te vullen.</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>Antwoorden zijn anoniem.</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>Bevestig dat je een mens bent voordat je indient.</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>De captcha kon niet worden geverifieerd. Herlaad de pagina en probeer het opnieuw.</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>Mensen buiten de server toestaan</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>Iedereen met de link kan indienen, zelfs als hij geen lid is. Banbezwaren en lidmaatschapsaanvragen staan dit altijd toe.</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>Opnieuw bezwaar na afwijzing blokkeren</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>Een afgewezen bezwaar is definitief en de gebruiker kan er geen nieuwe indienen.</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>Maximale bezwaren</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>Hoeveel afgewezen bezwaren een gebruiker kan bereiken voordat hij geen bezwaar meer kan maken. Laat leeg voor geen limiet.</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>Wachttijd na afwijzing (dagen)</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>Hoe lang een gebruiker moet wachten na een afgewezen bezwaar voordat hij opnieuw bezwaar kan maken. Laat leeg voor geen wachttijd.</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>Wachttijd na de ban (dagen)</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>Hoe lang een gebruiker moet wachten na een ban voordat hij zijn eerste bezwaar kan indienen. Laat leeg voor geen wachttijd. Discord bewaart auditloggeschiedenis slechts een beperkte tijd, dus dit kan niet worden afgedwongen bij oudere bans.</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>Je vorige bezwaar wordt nog beoordeeld. Wacht op een beslissing voordat je opnieuw bezwaar maakt.</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>Je bezwaar is afgewezen en deze server accepteert geen verdere bezwaren.</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>Je hebt al je {0} bezwaren voor deze server gebruikt.</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>Je kunt over {0} dag(en) opnieuw bezwaar maken.</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>Deze server accepteert nog geen bezwaren. Je kunt over {0} dag(en) bezwaar maken.</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>Je bent al lid van deze server.</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>Je hebt niet de rol die dit formulier vereist.</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>Deze vraag moet worden beantwoord.</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>Dit antwoord moet minstens {0} tekens bevatten.</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>Dit antwoord mag maximaal {0} tekens bevatten.</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>Dit antwoord moet een getal zijn.</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>Dit antwoord moet minstens {0} zijn.</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>Dit antwoord mag maximaal {0} zijn.</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>Voer een geldig e-mailadres in.</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>Voer een geldige link in die begint met http of https.</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>Die keuze is niet een van de aangeboden opties.</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>Kies minstens {0} opties.</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>Kies maximaal {0} opties.</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>Dat antwoord bestaat niet meer.</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>Dit antwoord maakt geen deel uit van een beoordelingsproces.</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>Over dit antwoord is al beslist.</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>Aan dit antwoord is geen Discord-gebruiker gekoppeld.</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>De ban kon niet worden opgeheven. Controleer of de bot bans kan beheren.</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>Er kon geen uitnodiging worden aangemaakt. Controleer of de bot uitnodigingen kan aanmaken.</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0} (Kopie)</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>Geen antwoord</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>Ingediend door {0}</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>Antwoord #{0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>Je antwoord is goedgekeurd.</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>Je antwoord is afgewezen.</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>Antwoord-ID</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>Gebruikers-ID</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>Ingediend op</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>Niet beoordeeld</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>Formulier opgeslagen</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>Formulier gepubliceerd</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>Het formulier accepteert nu antwoorden</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>Het formulier accepteert geen antwoorden meer</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>Formulier gedupliceerd</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>Formulier verwijderd</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>Antwoord verwijderd</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>Antwoord goedgekeurd</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>Antwoord afgewezen</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>Een formulier aangemaakt</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>Een formulier bijgewerkt</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>Een formulier hersteld naar een eerdere versie</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>Een formulier gepubliceerd</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>Een formulier geopend voor antwoorden</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>Een formulier gesloten voor antwoorden</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>Een formulier gedupliceerd</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>Een formulier verwijderd</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>Een formulierantwoord verwijderd</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>Een formulierantwoord goedgekeurd</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>Een formulierantwoord afgewezen</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>Formulieren</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>Maak formulieren die je leden invullen via een link, en verzamel hier de antwoorden.</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>Een formulier aanmaken</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>Nog geen formulieren</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>Maak je eerste formulier om antwoorden te gaan verzamelen.</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>Antwoorden</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>Te beoordelen</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>Concept</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>Bewerken</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>Link kopiëren</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>Publiceren</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>Dupliceren</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>„{0}” en elk antwoord dat het verzamelde verwijderen? Dit kan niet ongedaan worden gemaakt.</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>Dit antwoord verwijderen? Dit kan niet ongedaan worden gemaakt.</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>Gekopieerd</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>Formulier bewerken</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>Nieuw formulier</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>Formulierinstellingen</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>Beoordelingsinstellingen</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>Gebruikt wanneer antwoorden moeten worden goedgekeurd, en voor banbezwaren en lidmaatschapsaanvragen.</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>Beschrijving</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>Inzendingen versturen naar</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>Vereiste rol om in te dienen</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>Antwoordlimiet</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>Sluit op</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>Minimale accountleeftijd in dagen</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>Blokkeert nieuwe accounts. Handig bij formulieren die open staan voor mensen buiten de server.</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>Bericht getoond na indienen</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>Hervat waar je was gebleven. Je antwoorden worden opgeslagen terwijl je tussen pagina's beweegt.</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>Pagina toevoegen</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>Pagina {0}</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>Alle pagina's</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>Naamloze pagina</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>Paginatitel</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>Pagina-inleiding</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>Pagina verwijderen</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>Een titel toevoegen aan deze pagina</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>Eerder verplaatsen</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>Later verplaatsen</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>Sleep om pagina's te herschikken</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>Je antwoord is ontvangen.</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>Controleer hier</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>Inzending bekijken</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>Je wijzigingen zijn opgeslagen.</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>Te lang om hier te tonen</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>Embed-bouwer</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>Maak een bericht met embeds en bekijk het zoals Discord het zal tonen.</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>Kies een opgeslagen embed</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>JSON toepassen</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>Bewerken</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>Live voorbeeld</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>Geef deze embed een naam</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>Auteur</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>Inhoud</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>Velden</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>Afbeeldingen</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>Voettekst</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>Naam van auteur</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>Link van auteur</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>Pictogram van auteur</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>Titellink</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>Embed-beschrijving</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>Accentkleur</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>Grote afbeelding</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>Miniatuur</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>Voetteksttekst</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>Voetteksticoon</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>Tijdstempel tonen</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>Veldnaam</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>Veldwaarde</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>Naast elkaar</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>Een veld toevoegen</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>Embed</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>Een embed toevoegen</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>Deze embed verwijderen</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>Nog niets om te tonen. Begin met typen en het verschijnt hier.</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>Embed geladen.</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>Embed opgeslagen.</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>Embed hernoemd.</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>Embed verwijderd.</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>Geef de embed eerst een naam.</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>Kies eerst een opgeslagen embed.</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>Kies een kanaal om naartoe te versturen.</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>„{0}” - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>Afbeeldingsantwoorden kunnen momenteel niet worden geaccepteerd.</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG, JPEG, GIF of WebP, tot {0} MB.</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>Uploaden…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>Afbeelding uploaden</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>De persoon die het formulier invult, voegt een afbeelding toe.</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>Afbeeldingen moeten kleiner zijn dan {0} MB.</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>Dat bestand kon niet als afbeelding worden gelezen.</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>Die afbeelding heeft te veel pixels om te verwerken.</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>Die afbeelding kon niet worden opgeslagen. Probeer het opnieuw.</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>{0} meer antwoorden staan op het dashboard.</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>Meer dan één inzending per gebruiker toestaan</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>Formuliertype</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>Antwoorden moeten worden goedgekeurd</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>Bij goedkeuring</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>Te wijzigen rollen bij goedkeuring</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>Toe te voegen rollen bij goedkeuring</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>Te verwijderen rollen bij goedkeuring</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>Toe te voegen rollen bij afwijzing</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>Te verwijderen rollen bij afwijzing</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>Beslissing</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>Goedgekeurd door {0}</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>Afgewezen door {0}</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>Accepteren</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>Weigeren</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>Dit formulier is nog niet open. Het opent op {0}.</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>Dit formulier is nu open voor inzendingen.</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>Opent om (UTC)</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>Het formulier blijft gesloten tot dit tijdstip, zelfs nadat het is gepubliceerd. Laat leeg om te openen zodra het gepubliceerd wordt.</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>Opening aankondigen in</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>Te vermelden rol in de aankondiging</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>Wat de openingsaankondiging zegt</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>Eenmalig geplaatst, wanneer de openingstijd aanbreekt. Laat leeg voor de standaardtekst.</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>Afbeeldings-URL</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>Getoond boven de vraag. Moet een http- of https-adres zijn.</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>Opnieuw indienen na afwijzing toestaan</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>Een afgewezen indiener kan een gecorrigeerd antwoord sturen. Goedgekeurde en openstaande antwoorden tellen nog steeds als hun ene inzending.</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>Te vermelden rol bij een nieuw antwoord</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>Vermeld in het inzendingskanaal wanneer een antwoord binnenkomt. De rol moet vermeldbaar zijn, of de bot heeft toestemming nodig om deze te vermelden.</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>Toegekende rollen bij indiening</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>Toegekend zodra het formulier is ingediend, ongeacht of het wordt beoordeeld.</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>DM kon niet worden verstuurd</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>Rol tijdens het wachten op een beslissing</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>Toegekend bij het indienen van het formulier en weer ingetrokken zodra het antwoord wordt goedgekeurd of afgewezen.</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Rol die vanuit Discord kan beslissen</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>Voegt accepteer- en weigerknoppen toe aan het inzendingsbericht, bruikbaar door leden met deze rol. Laat leeg om alleen vanuit het dashboard te beoordelen.</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>Bij afwijzing</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>Te wijzigen rollen bij afwijzing</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>Gebruiken van de uitnodiging</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>Geldigheid van de uitnodiging in seconden</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>Gewoon formulier</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>Banbezwaar</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>Lidmaatschapsaanvraag</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>Niets doen</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>Rollen toevoegen</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>Rollen verwijderen</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>Vragen</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>Een vraag toevoegen</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>{0} vragen</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>Naamloze vraag</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>Vraag</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>Antwoordtype</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>Plaatshouder</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>Verplicht</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>Minimale lengte</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>Maximale lengte</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>Kleinste waarde</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>Grootste waarde</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>Opties</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>Een optie toevoegen</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>Vraag dupliceren</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>Omhoog verplaatsen</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>Omlaag verplaatsen</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>Toon deze vraag alleen wanneer</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>Korte tekst</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>Alinea</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>Meerkeuze</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>Selectievakjes</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>Vervolgkeuzelijst</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>Getal</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>Een voorwaarde toevoegen</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>Voorwaarde verwijderen</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>Regelset</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>Elke voorwaarde in een regelset moet slagen. De vraag wordt getoond wanneer een regelset slaagt, dus gebruik een tweede regelset voor een alternatieve manier om in aanmerking te komen.</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>Je werk wordt opgeslagen</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>Je werk is opgeslagen</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>Je werk kon niet worden opgeslagen</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>Voorwaarde</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>Eerdere vraag</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>Vergelijking</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>Roloverkomst</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>Dagen</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>Boost de server</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>Boost</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>Boost niet</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>Machtigingsvlaggen</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>Voeg een vraag toe vóór deze om het antwoord ervan te vergelijken.</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>Antwoord op een vraag</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>Rollen die de gebruiker heeft</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>Tijd op de server</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Leeftijd van het Discord-account</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>Booststatus</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>Machtigingen die de gebruiker heeft</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>is</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>is niet</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>bevat</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>is groter dan</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>is kleiner dan</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>heeft een antwoord</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>is leeg gelaten</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>Willekeurig welke</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>Allemaal</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>Geen van allen</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>Formulier opslaan</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>Terug naar formulieren</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>{0} antwoorden</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>Nog geen antwoorden.</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>CSV exporteren</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>Bekijken</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>Antwoord verwijderen</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>Pagina {0} van {1}</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>Goedkeuren</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>Afwijzen</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>Notities voor de indiener</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>Optioneel. Verstuurd naar de indiener samen met de beslissing.</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>Wacht op beoordeling</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>Wordt beoordeeld</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>Goedgekeurd</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>Afgewezen</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>Indienen</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>Indienen is uitgeschakeld tijdens voorbeeldweergave</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>Je bekijkt een voorbeeld van dit formulier. Niets wat je hier invult wordt opgeslagen.</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>{0} van {1} beantwoord</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>Kies een optie</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>Je antwoord is ingediend.</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>Ontvangen</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>Ingediend</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>Laatst bewerkt</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>Mijn antwoorden bewerken</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>Bewerkt</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>{0} keer bewerkt sinds het is ingediend, meest recent {1}.</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>Notities van de beoordelaar</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>Jouw uitnodiging</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>Bewaar deze link om later je antwoord te controleren.</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>Anoniem ingediend</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>Een anoniem formulier kan geen rollen wijzigen, omdat niet wordt vastgelegd wie het heeft ingediend.</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>Banbezwaren en lidmaatschapsaanvragen kunnen niet anoniem zijn, omdat het goedkeuren ervan actie op de indiener vereist.</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>Dit antwoord is anoniem ingediend, dus er is niemand om actie op te ondernemen.</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>Antwoorden anoniem vastleggen</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>Indieners loggen nog steeds in met Discord zodat het formulier kan controleren wie mag indienen, maar hun naam en adres worden niet opgeslagen. Goedkeuringsacties kunnen niet worden gebruikt.</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>Toe te kennen rollen aan een goedgekeurde aanvrager</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>Gereserveerd voor de aanvrager en toegekend wanneer hij lid wordt via de uitnodiging.</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>Anoniem</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>Dit formulier is anoniem. Je bent ingelogd zodat de server kan controleren of je mag indienen, maar je naam wordt niet opgeslagen bij je antwoorden.</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Heeft Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Heeft Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Heeft geen Nitro</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>Combineren met</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>Alle voorwaarden in deze groep</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>Elke voorwaarde in deze groep</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>Eerdere antwoorden citeren in deze vraag</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>Schrijf {{Q1}} in de vraag om het antwoord op vraag 1 te tonen.</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>Alleen verplicht wanneer</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>Gebruik altijd de bovenstaande instelling</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>Controleer je antwoorden</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>Er is nog niets ingediend. Lees je antwoorden door en verstuur ze dan.</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>Antwoorden controleren</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>Antwoorden wijzigen</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>Antwoorden versturen</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>Nog geen vragen. Voeg er een toe om te beginnen.</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>Welk soort antwoord wil je?</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>Details bewerken</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>Details verbergen</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>Typ hier je vraag</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>Voorwaardelijk</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>Citeert een antwoord</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>Eén regel tekst</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>Een langer antwoord met meerdere regels</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>Eén optie uit een lijst</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>Elk aantal opties</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>Eén optie uit een menu</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>Een getal, optioneel begrensd</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>Een e-mailadres</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>Een link die begint met http</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>Vraag {0} citeert zijn eigen antwoord, dat nog niet bestaat wanneer de vraag wordt gesteld.</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>Vraag {1} citeert vraag {0}, die later wordt gesteld. Een vraag kan alleen een vraag citeren die eraan voorafgaat.</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>Een vraag citeert vraag {0}, maar dit formulier heeft slechts {1} vragen.</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>Voor mensen die al op de server zijn</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>Laat gebande personen vragen om terug te komen</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>Laat buitenstaanders vragen om lid te worden</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>Bezwaren en aanvragen worden altijd beoordeeld.</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>Inloggen en server</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>Bescherming</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>Rollen en zelftoewijsbare rollen</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>Tickets</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>Commando's en auto-responders</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>Verificatie</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>Logboek</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>Chatbot</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>Overig</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>Geen functie geregistreerd</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>Functie</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>Gewijzigd door</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>Tijdsbereik</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>Elk moment</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>Laatste 24 uur</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>Laatste 7 dagen</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>Laatste 30 dagen</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>Laatste 3 maanden</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>Aangepast bereik</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>Van</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>Tot</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>Alleen vermeldingen met wijzigingsdetails</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>Zoek samenvattingen, namen en waarden</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>Volgorde</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>Nieuwste eerst</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>Oudste eerst</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>Vermeldingen per pagina</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>Toont {0} tot {1} van {2}</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>Geen vermeldingen komen overeen met deze filters.</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>Er is nog niets gewijzigd vanaf het dashboard.</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>Veld</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>Was</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>niets</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>{0} veld(en) gewijzigd</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>Getroffen</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>Logboek bijgewerkt voor {0}</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>AutoMod-controle</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>Banaankondiging</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>Banner</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>Verjaardag</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>Boostaankondiging</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>Economieboost</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>Economie-item</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>Bestandsextensies</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>Formulierantwoord</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>Binnenkomstaankondiging</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>Vertrekaankondiging</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>Levelrollen</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>Linkwhitelist</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>Berichtgelijkenis</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>Identieke binnenkomsten</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>Seizoensdrops</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>Zelftoewijsbare rollengroep</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>Statistiekkanaal</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>Reeksrollen</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>Ticketpaneel</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>Het volledige logboek openen</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>Dashboardwijzigingsmeldingen bijgewerkt</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>Dashboardwijzigingsmeldingen</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>Dashboardmeldingskanaal</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>Waar dashboardwijzigingen worden aangekondigd. Laat op geen om niets aan te kondigen.</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>Altijd waarschuwen bij toegangs- en logboekwijzigingen</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>Waarschuwen bij wijzigingen in deze functies</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>Kies geen om alleen te worden gewaarschuwd over de bovenstaande wijzigingen. Alles wordt hoe dan ook vastgelegd in het logboek.</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>Link naar deze vermelding</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>Toont één enkele vermelding.</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>Toon het hele logboek</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>{0} wijzigingen in één sessie</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>{0} vermeldingen verwijderd uit dit logboek</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>Een prestatie aangemaakt</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>Een prestatie bijgewerkt</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>De {0}-banner bijgewerkt</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>rangkaart</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>welkom</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>afscheid</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>De rollen die bij binnenkomst worden gegeven, bijgewerkt</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>Aankondiging bijgewerkt: {0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>AutoMod bijgewerkt: {0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>Voorbeeld van deze embed</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>Kies een opgeslagen embed om er een voorbeeld van te bekijken.</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>Automatisering</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>Automatisch herinneren</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>Herinnert de opener van het ticket wanneer hij een tijdje niet heeft gereageerd.</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>Herinneren na (dagen)</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>Automatisch sluiten bij geen reactie</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>Sluit een ticket waarvan de opener niet meer reageert.</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>Sluiten na (dagen)</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>Automatisch sluiten wanneer opener vertrekt</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>Herinneren moet tussen 1 en 365 dagen liggen.</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>Sluiten moet tussen 1 en 365 dagen liggen.</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>Instellingen voor ticketautomatisering bijgewerkt</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>Ticketbeheer</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>Bekijk en onderneem actie op de supporttickets van deze server.</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>Er zijn nog geen tickets geopend op deze server.</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>Tickets doorzoeken...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>Kanaal</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>Geopend door</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>Overgenomen door</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>Laatste activiteit</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>Acties</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>Niet overgenomen</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>Wacht op team</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>Nog geen berichten</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>Sommige tickets verwijzen naar een kanaal dat niet meer bestaat. Ze verwijderen ruimt de overgebleven rijen op.</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>Wacht op team</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>Mediaan eerste reactie</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>N.v.t.</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>Ticketcategorieën</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>Tickets vullen de laagst genummerde categorie die nog ruimte heeft. Discord beperkt een categorie tot 50 kanalen.</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>Primair</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>Overflow #{0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>Verwijderd uit Discord</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 kanalen</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>Er bestaan nog geen ticketcategorieën. Er wordt er een aangemaakt wanneer het eerste ticket wordt geopend.</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>Heropenen</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>Overnemen</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>Vrijgeven</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>Gebruiker toevoegen</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>Gebruiker verwijderen</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>Herinneren</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>Anoniem antwoord</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>Dit ticket en zijn kanaal verwijderen? Dit kan niet ongedaan worden gemaakt.</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>Bericht</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>Ticket gesloten.</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>Ticket heropend.</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>Ticket verwijderd.</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>Ticket overgenomen.</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>Ticket vrijgegeven.</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>Gebruiker toegevoegd aan het ticket.</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>Gebruiker verwijderd uit het ticket.</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>Herinnering verzonden naar de opener van het ticket.</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>Antwoord verzonden naar het ticket.</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>Dat ticket bestaat niet meer.</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>Dat ticket is al gesloten.</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>Dat ticket is al geopend.</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>Het kanaal van dat ticket bestaat niet meer in Discord.</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>De bot kon die actie niet uitvoeren. Controleer de machtigingen van de bot in het ticketkanaal.</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>De herinnering kon niet worden verzonden. De opener heeft mogelijk directe berichten uitgeschakeld.</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>Voer een te verzenden bericht in.</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>Een antwoord mag niet langer zijn dan 2000 tekens.</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>Kies een geldige gebruiker.</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>Sluiten vanaf het dashboard doet hetzelfde als sluiten in Discord: het vergrendelt het kanaal, slaat het transcript op, uploadt de HTML-kopie en verstuurt de sluitings-DM en het beoordelingsverzoek.</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>Een ticket gesloten</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>Een ticket heropend</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>Een ticket verwijderd</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>Een ticket overgenomen</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>Een ticket vrijgegeven</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>Een gebruiker toegevoegd aan een ticket</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>Een gebruiker verwijderd uit een ticket</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>Een ticketherinnering verzonden</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>Een anoniem ticketantwoord verzonden</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>Ticket</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>Gesloten</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>Ticket:</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>Ticket geopend door:</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>Opgeslagen door:</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>Aantal berichten:</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>Aantal antwoorden:</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>Beoordeling:</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>Verzonden, wacht op beoordeling...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>Uitgeschakeld</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>Je supportticket in {0} is gesloten.
+            **Gesloten door:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>Transcript opgeslagen in het transcriptkanaal.</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>Transcript</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**Beoordeel je ervaring met het teamlid dat je heeft geholpen.**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>Beoordeling</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>Niet aangevraagd</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>Gemiddelde beoordeling</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>Wacht op beoordeling</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>Ticketpaneel versturen</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>Kanaal</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>Paneel versturen</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>Ticketpaneel verzonden.</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>Kies een kanaal om het paneel naartoe te versturen.</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>Klik op de knop hieronder om een supportticket aan te maken.</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>Een ticketpaneel verzonden</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>Dat paneel bestaat niet meer.</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>Een server moet minstens één paneel behouden.</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>Kies een geldig tickettype.</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>Kies een geldig kanaal voor threads.</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>Kies een kanaal waar threads worden geopend, anders kan dit paneel geen tickets aanmaken.</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>Paneel aangemaakt.</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>Paneel verwijderd.</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>Tickettype</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>Kanaal</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>Privéthread</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>Openbare thread</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>Een openbare thread kan worden gelezen door iedereen die het bovenliggende kanaal kan zien.</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>Threadkanaal</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>Panelen</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>Paneel toevoegen</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>Paneel verwijderen</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>Dit paneel verwijderen? Tickets die er al vanuit zijn geopend, blijven werken.</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>Geplaatst in {0} kanaal/kanalen</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>Nog niet geplaatst</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>Geplaatste panelen bijwerken</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>Herschrijft de al geplaatste panelen voor dit paneel zodat ze overeenkomen met de bovenstaande instellingen.</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>{0} geplaatst(e) paneel/panelen bijgewerkt.</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>Een ticketpaneel aangemaakt</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>Een ticketpaneel verwijderd</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>Het type van een ticketpaneel gewijzigd</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>Geplaatste ticketpanelen bijgewerkt</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>Paneel</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>Alle panelen</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>Geen paneel</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>Mediaan tijd tot sluiten</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>Een server kan tot {0} panelen hebben.</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>Ticket gesloten door {0}</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>Ticket heropend door {0}</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>{0} succesvol toegevoegd aan het ticket.
+            Aangevraagd door {1}</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>{0} succesvol verwijderd uit het ticket.
+            Aangevraagd door {1}</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>Dit is een herinnering dat je ticket in `{0}` nog open staat. Reageer alsjeblieft als je nog hulp nodig hebt.</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt; heeft een herinnering gestuurd naar &lt;@{1}&gt;.</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>Antwoord van supportteam</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>Het ticket wordt over enkele seconden verwijderd.</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>Ticket overgenomen door {0}</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>Ticket vrijgegeven door {0}</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>Dit ticket is al overgenomen door {0}.</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>Je moet eerst een supportteamrol instellen voor dit paneel.</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>Je moet de rol {0} hebben om dat te doen.</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>Dit paneel heeft nog {0} open ticket(s). Sluit ze eerst.</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>Het paneel waartoe dit ticket behoort, is verwijderd.</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>Berichten ouder dan dit worden niet toegevoegd aan het starboard. 0 betekent geen limiet.</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>Waar berichten worden geplaatst die zijn gerapporteerd via het contextmenu Bericht rapporteren. Rapporteren is niet beschikbaar totdat er een is ingesteld.</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Waar time-outs die buiten de bot om zijn toegepast, zoals via Discord zelf, worden vastgelegd. Laat op geen om ze niet vast te leggen.</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>Leden met deze rol kunnen server- en openbare notities bekijken en bewerken. Beheerders en leden met Server beheren kunnen dit altijd.</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>Kanaalnamen en het statistiekbericht accepteren de gebruikelijke serverplaatshouders, dus één naam kan meerdere statistieken bevatten. Zie de &lt;strong&gt;&lt;a href='{0}' class='info'&gt;plaatshouderreferentie&lt;/a&gt;&lt;/strong&gt; voor de volledige lijst.</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>Een boost heeft een naam nodig.</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>Aangepaste statistiekkanalen</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>Spraakkanalen genoemd zoals je wilt, met elke combinatie van statistieken in één naam. De bot maakt elk kanaal aan onder de statistiekcategorie en houdt het elke 20 minuten bijgewerkt. Tot 10.</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>Sjabloon voor kanaalnaam</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discord staat 100 tekens toe voor een kanaalnaam.</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>Statistiekkanaal toevoegen</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>Het kanaal wordt binnen 20 minuten aangemaakt.</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>Wordt binnen 20 minuten aangemaakt</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>Een sjabloon voor kanaalnaam mag maximaal 100 tekens bevatten.</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>Dat aangepaste statistiekkanaal bestaat niet meer.</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>Een aangepast statistiekkanaal toegevoegd.</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>Een aangepast statistiekkanaal verwijderd.</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>Statistiekbericht</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>In plaats van kanalen wordt één bericht geplaatst dat de bot elke 20 minuten bewerkt met de laatste cijfers.</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>Laat leeg voor de standaard. Discord-emotecodes werken hier, inclusief die van Cakey zelf. Het kanaal wijzigen plaatst daar een nieuw bericht; verwijder het oude zelf als je het niet meer wilt.</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>Kies het kanaal waarin het statistiekbericht wordt geplaatst.</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>Vastgepinde ranglijsten</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>Een ranglijstbericht dat de bot in een kanaal plaatst en elke 15 minuten bijwerkt, zodat niemand /leaderboard hoeft uit te voeren. Tot 5 per server.</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>Aller tijden</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>Deze week</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>Deze maand</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>Getoonde leden</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>Wordt binnen 15 minuten geplaatst</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>Ranglijst toevoegen</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>De ranglijst wordt binnen 15 minuten geplaatst.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>Een ranglijst toont tussen 3 en 15 leden.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>Kies aller tijden, deze week of deze maand.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>Die vastgepinde ranglijst bestaat niet meer.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>Een vastgepinde ranglijst toegevoegd.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>Een vastgepinde ranglijst verwijderd.</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>Mijlpaalrollen</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>Wie een van deze nummers plaatst, krijgt de bijbehorende rol. Tot 25 mijlpalen.</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>Bereikt getal</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>Toe te kennen rol</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>Mijlpaal toevoegen</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>Het mijlpaalgetal moet minstens 1 zijn.</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>Er bestaat al een mijlpaal voor dat getal.</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>Rollen met Beheerder, Server beheren of Rollen beheren kunnen niet worden uitgedeeld door het telspel.</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>Die mijlpaal bestaat niet meer.</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>Een telmijlpaal toegevoegd.</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>Een telmijlpaal verwijderd.</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>Hoe een bericht zich moet verhouden tot de commandotekst. De opties „Bevat bestanden”, „Van webhook” en de vermeldingsopties negeren de tekst en activeren op elk bericht met die eigenschap. Jokertekens accepteert * en ?; Regex wordt automatisch uitgeschakeld als het patroon ongeldig is.</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>Op het hele uur, in de servertijdzone die is ingesteld onder Botinstellingen.</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>Elke dag, of alleen op één weekdag.</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>Uniek werkt als keuzerondjes: een rol kiezen in de groep verwisselt de rol die iemand al had. Meervoudige selectie laat een lid meerdere rollen uit de groep tegelijk hebben.</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>Eén meer claimen dan deze limiet laat de langst geleden geclaimde rol vallen.</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>Vermenigvuldigt winsten van economiespellen zolang de boost actief is. Meerdere actieve boosts vermenigvuldigen samen.</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>Hoeveel uur de boost duurt vanaf het moment van aankoop.</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>Hoeveel van deze boost een lid tegelijk kan hebben. 0 betekent geen limiet.</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>De rol die bij aankoop wordt gegeven. Deze moet onder Cakeys hoogste rol staan en mag geen Beheerder, Server beheren of Rollen beheren hebben.</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>Level-XP toegevoegd aan de koper bij aankoop, tot 1.000.000.</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>De rol die bij aankoop wordt gegeven en weer wordt verwijderd na het hieronder ingestelde aantal uren.</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>Hoeveel telreddingen een aankoop geeft, 1 tot 100. Een redding wordt gebruikt in plaats van de telling te resetten wanneer de koper een fout maakt.</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>Hoeveel van dit item een lid tegelijk kan bezitten. 0 betekent geen limiet.</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>Getoond in de winkel en koopbaar. Schakel uit om het item te behouden maar te verbergen, bijvoorbeeld een prijs die alleen het team uitdeelt.</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>Telredding</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>Reddingen per aankoop</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>Een telreddingsitem moet tussen 1 en 100 reddingen geven.</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>DM-meldingen bij verval</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>Stuurt leden een DM wanneer hun XP vervalt. Elke DM bevat een knop waarmee leden zichzelf kunnen afmelden.</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>Bijlage verwijderd</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>Verwijderde berichten met een bestand of afbeelding worden hier vastgelegd in plaats van in het kanaal Bericht verwijderd. Laat op geen om ze samen te houden.</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>Vermeldingsrol voor suggesties</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>Vermeld telkens wanneer een nieuwe suggestie wordt geplaatst. De rol moet vermeldbaar zijn, of de bot heeft toestemming nodig om een willekeurige rol te vermelden.</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>Heeft een afbeelding</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>Server-emote invoegen</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>Overslaan vereist stemmen van meer dan de helft van de niet-gedoofde leden in het spraakkanaal. DJ's, moderators en wie het nummer heeft aangevraagd kunnen nog steeds direct overslaan.</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>XP stopt met verzamelen zodra een lid dit niveau bereikt.</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>Wie de laatste drop heeft geclaimd, kan de volgende niet claimen.</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>Verbergt de claimknop tussen vier lokvogels op een andere plek bij elke drop, zodat hij niet op reflex kan worden aangeklikt.</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>Er verstrijkt een willekeurige wachttijd tussen deze twee waarden tussen drops.</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>Toegekend wanneer de verjaardag wordt aangekondigd en na 24 uur weer verwijderd.</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>Gebruikt voor verjaardagen zonder eigen tijdzone, dagelijkse inhoud en geplande automatische berichten.</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>Maak een webhook aan onder de integratie-instellingen van het kanaal en plak de URL hier. Berichten worden hierdoor verstuurd.</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>Alleen nodig wanneer berichten in een thread of forumbericht onder het kanaal van de webhook moeten terechtkomen. Laat anders leeg.</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>Vermeld bij elk nieuw bericht. Laat leeg om niemand te vermelden.</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>Kleur van de zijbalk op de embed van het bericht.</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>Alleen de subredditnaam, zonder r/.</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>Directe link naar de feed zelf in plaats van de website. Deze eindigt meestal op .xml, .rss of /feed.</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>Kanaalnaam zoals deze verschijnt na twitch.tv/ in de URL.</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>Link naar de kanaalpagina, zoals een youtube.com/@handle- of /channel/-URL.</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>De naam die leden gebruiken om deze tag aan te roepen. Houd het kort en gedenkwaardig.</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>Waarmee de bot antwoordt wanneer de tag wordt gebruikt.</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>De tekst waarnaar in berichten wordt gezocht. Hoofdlettergebruik wordt genegeerd en het overeenkomsttype hieronder bepaalt hoe strikt dit is.</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>Verzonden wanneer een bericht overeenkomt. Combineer het met een embed of laat het leeg om alleen de embed te versturen.</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>Waar het geplande bericht wordt geplaatst.</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>Geplaatst op het gekozen tijdstip in het bovenstaande kanaal.</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>Alleen aankondigingskanalen kunnen worden gekozen. Elk bericht dat daar wordt geplaatst, wordt gepubliceerd naar volgende servers.</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>De rol die leden zichzelf kunnen geven.</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>Getoond naast de rol in de kiezer zodat leden weten waarvoor het is.</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>Leden onder dit niveau kunnen de rol niet kiezen. 0 schakelt de controle uit.</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>Dagelijkse reeks die leden nodig hebben voordat ze de rol kunnen kiezen. 0 schakelt de controle uit.</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>Leden moeten deze rol al hebben voordat ze de nieuwe kunnen kiezen.</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>Getoond als titel van de kiezer.</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>Getoond onder de titel om uit te leggen waarvoor de groep is.</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>Alleen leden met deze rol kunnen kiezen uit de groep.</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>Alleen leden op of boven dit niveau kunnen kiezen uit de groep.</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>Werkt de status bij die op het suggestiebericht wordt getoond.</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>Getoond op het suggestiebericht samen met de beslissing. Optioneel.</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>Het aangepaste botabonnement dat deze server moet gebruiken.</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>Bot-token van het tabblad Bot van je applicatie in het Discord Developer Portal. Houd dit geheim.</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>Getoond in de winkel en in aankoopberichten.</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>Getoond onder de naam in de winkel zodat kopers weten wat ze krijgen.</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>Prijs in de valuta van je server. Kopers hebben minstens dit bedrag nodig om te kopen.</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>Wat de koper ontvangt. De velden hieronder veranderen afhankelijk van het type.</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>Gebruikt om de voorinstelling later terug te vinden bij het toepassen.</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>Hoeveel uur de koper de rol behoudt, gerekend vanaf de aankoop.</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>Geen aankondigingskanalen gevonden. Maak er eerst een aan in Discord.</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>Verstuurt de embed via deze webhook in plaats van de bot, met de naam en avatar van de webhook.</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>Afzenderprofielen</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>Verzenden als</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>De bot</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>Afzenderprofielen beheren</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>Een afzenderprofiel plaatst het bericht via een webhook met zijn eigen naam en avatar. De bot heeft Webhooks beheren nodig in het kanaal.</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>Weergavenaam</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>Getoond als auteur van het bericht, tot 80 tekens. Discord weigert namen die „discord” of „clyde” bevatten.</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>Avatar-URL</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>Directe link naar een PNG, JPG of GIF. Laat leeg om de avatar van de bot te behouden.</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>Opgeslagen webhook-URL</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>Optioneel. Indien ingesteld, gaan berichten die als dit profiel worden verzonden naar deze webhook in plaats van een kanaal, nog steeds onder de bovenstaande naam en avatar.</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>Nieuw profiel</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>Profiel opslaan</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>Nog geen afzenderprofielen.</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>Dit afzenderprofiel verwijderen?</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>Afzenderprofiel opgeslagen.</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>Afzenderprofiel verwijderd.</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>Voer een weergavenaam van maximaal 80 tekens in.</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discord staat geen afzendernamen toe die „discord” of „clyde” bevatten.</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>De avatar moet een http- of https-link van maximaal 512 tekens zijn.</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>Een server kan tot 25 afzenderprofielen hebben.</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>Dat afzenderprofiel bestaat niet meer.</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>APP</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>Naar kanaal versturen</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>JSON importeren / exporteren</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>Berichttekst</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>Tekst verzonden boven de embed</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>Alleen gebruikt bij het versturen vanaf deze pagina. Wordt niet opgeslagen bij de embed, en functies die de opgeslagen embed plaatsen, nemen deze niet mee.</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>Opslaan als nieuw</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>Geselecteerde bijwerken</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>Welkom bij {server.name}!</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>Dit is een voorbeeldembed om te tonen wat de bouwer kan. Probeer **vet**, *cursief*, `code`, een [link](https://cakey.bot) en plaatshouders zoals {user.mention}. Alles hier kan worden bewerkt of gewist, en kanaalvermeldingen en aangepaste emotes werken ook.</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>Serverleden</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>Serverrollen</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Gemaakt met de Cakey Bot embed-bouwer</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>Moet een volledige link zijn die begint met http:// of https://.</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0} is geen geldige link.</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>Deze afbeelding kon niet worden geladen. Controleer de link.</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>Een afzenderprofiel aangemaakt</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>Een afzenderprofiel bijgewerkt</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>Een afzenderprofiel verwijderd</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>Plaatshouders zoals {user.username} worden hier getoond met de waarden van deze server en jou als gebruiker. De opgeslagen embed behoudt ze zoals geschreven en de bot vult ze in bij het plaatsen.</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

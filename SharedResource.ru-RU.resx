@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>Только GIF'ы</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>Только медиа</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>Только файлы</value>
   </data>
@@ -1126,9 +1129,6 @@
   <data name="audit-birthday-role" xml:space="preserve">
     <value>Роль дня рождения обновлена: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>Обновлён часовой пояс для дня рождения {0}</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>Дни рождения</value>
   </data>
@@ -1141,11 +1141,17 @@
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>Необязательно — переопределяет часовой пояс сервера только для проверки дня рождения этого пользователя.</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>Обновлён часовой пояс для дня рождения {0}</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>Цвет переключения</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>Цвет выхода</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>Цвет при входе</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>Убрать роли при повышении уровня</value>
@@ -1204,6 +1210,27 @@
   <data name="chat-bot-title" xml:space="preserve">
     <value>ИИ Чат-Бот</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>Модель ИИ</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>Модель OpenAI, которую использует ваш чат-бот для генерации ответов. Более высокие уровни открывают более мощные модели.</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>Бесплатно</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>Собственный бот</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>API-ключ</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>Эта модель требует более высокого уровня подписки.</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>Увеличение уровня голоса включено</value>
   </data>
@@ -1231,7 +1258,7 @@
   <data name="suggestion-page-title" xml:space="preserve">
     <value>Предложения</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>Канал для предложений не настроен, поэтому участники пока не могут создавать предложения, а решения, сохранённые здесь, нельзя отразить в сообщении в Discord. Настройте канал ниже, чтобы исправить обе проблемы.</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>Обновлены игнорируемые каналы достижений.</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>Обновлены игнорируемые роли достижений.</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>Обновлено сообщение о разблокировке достижений.</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>Несколько достижений включены или отключены одновременно.</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>Само-роли</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>Используйте кнопку «Добавить личную роль» ниже, чтобы создать новую личную роль.</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>Личные роли не найдены. Нажмите «Добавить личную роль» выше, чтобы создать её.</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>Групп ролей пока нет. Группы позволяют сделать набор личных ролей взаимоисключающими.</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>Значение ({0}) должно быть числом.</value>
@@ -1876,6 +1918,9 @@
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>Подписки</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>Аккаунт OAuth отвязан. ({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>Изменены параметры интеграции OAuth. ({0})</value>
   </data>
@@ -1950,6 +1995,48 @@
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>Закрыть</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>Количество участников</value>
@@ -2083,6 +2170,12 @@
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Список, разделённый точкой с запятой</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>Удалять после публикации</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>Если включено, элементы удаляются из списка, чтобы предотвратить дублирование. Перед включением этой функции убедитесь, что у вас есть сохранённая копия ваших данных, так как эти данные нельзя восстановить.</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>Создать Ветку</value>
   </data>
@@ -2115,6 +2208,24 @@
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>Изначальный баланс</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>Мин. ежедневная сумма</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>Макс. ежедневная сумма</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>Мин. еженедельная сумма</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>Макс. еженедельная сумма</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>Мин. ежемесячная сумма</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>Макс. ежемесячная сумма</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>Стереть баланс пользователя при выходе</value>
@@ -2230,11 +2341,119 @@
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>Достигнуть уровня X.</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>Получить определённую роль.</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>Отправить X гифок.</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>Отправить X стикеров.</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>Получить тайм-аут X раз.</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>Вести трансляцию X минут.</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>Носить тег этого сервера.</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>Считать только в этом канале</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>Оставьте пустым, чтобы считать в любом месте сервера. Это нельзя изменить позже, так как прогресс сохраняется по каналам.</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>Роль для получения</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>Лестница уровней</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>Дайте каждой ступени лестницы одинаковое название, затем пронумеруйте их ниже. Достижение более высокой ступени также присуждает те, что ниже неё.</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>Ступень</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>Сообщение о разблокировке для этого достижения</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>Переопределяет сообщение о разблокировке сервера только для этого достижения. Оставьте пустым, чтобы использовать сообщение сервера.</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>Настройки достижений</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>Сообщение о разблокировке</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>Оставьте пустым для формулировки по умолчанию. Заполнители: {achievement.name}, {achievement.description}, {user.achievement.count}, {achievement.owners.count} и все базовые заполнители.</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>Смотреть список заполнителей</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>Игнорируемые роли</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>Участники с одной из этих ролей не продвигаются к достижениям</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>Изменённые достижения</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>Сначала выберите хотя бы одно достижение</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>Выберите роль, получение которой приносит это достижение</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>Ступень должна быть числом от 1 до 20</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>Канал или роль, в которой засчитывается достижение, нельзя изменить после создания</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>Вторичные данные</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>Временная роль</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>Временные баны</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>Временные роли</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>На этом сервере нет активных временных банов.</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>На этом сервере нет активных временных ролей.</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>Баны и роли можно выбирать вместе. Их завершение применяется ко всему выбранному в обоих списках.</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>Завершить сейчас</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>Завершить сейчас {0} выбранный(ых) бан(ов)? Бот снимет их в ближайшее время.</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>Завершить сейчас {0} выбранную(ых) роль(ей)? Бот отзовёт их в ближайшее время.</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0} элемент(ов) установлено на завершение сейчас</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>Установлено на завершение сейчас. Бот обработает их в ближайшее время.</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>Отправить напоминания в ЛС</value>
@@ -2388,9 +2607,6 @@
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>Макс. владельцев на пользователя</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0 макс. владельцев = неограниченно</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>Рыбалка</value>
@@ -2788,6 +3004,24 @@
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Купить пожизненную премию</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>ПОЖИЗНЕННЫЙ Пользовательский Бот</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>Получите собственного брендированного Пользовательского Бота за один единовременный платеж, без повторяющейся подписки, никогда.</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>Примечание: это строго ограниченное предложение - как только оставшиеся места закончатся, это предложение исчезнет навсегда.</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>Купить пожизненного Пользовательского Бота</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>Осталось {0}</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>Распродано</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>Сравнение планов</value>
   </data>
@@ -2874,6 +3108,9 @@
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Синхронизация блокировок на серверах пула</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>Роли за этапы подсчёта</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>Неограниченные RSS/социальные ленты</value>
@@ -3279,15 +3516,6 @@
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>Настройте канал-приманку, где любое сообщение автоматически запускает выбранное наказание, помогая ловить рейд- и скам-ботов до того, как они завалят ваш сервер спамом.</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>Только Точное Число</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>Точное Число ИЛИ Уравнение</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>Только Уравнение</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>You must select a custom bot to modify.</value>
@@ -4390,6 +4618,39 @@
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>Роль не найдена или не принадлежит этому серверу</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>У вас может быть не более {0} личных ролей</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>Эта роль уже добавлена как личная роль</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>Группа ролей не найдена или не принадлежит этому серверу</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>Требуется название группы</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>Группа с таким названием уже существует</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>Максимум ролей должен быть от {0} до {1} для группы с множественным выбором</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>Добавлена личная роль {0}</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>Обновлена личная роль {0}</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>Добавлена группа ролей '{0}'</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>Обновлена группа ролей '{0}'</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>Удалена группа ролей '{0}'</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>Произошла ошибка при добавлении доступа к панели управления</value>
   </data>
@@ -4735,8 +4996,35 @@
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>Максимальный баланс должен быть больше 0</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>Максимальный баланс должен быть менее 1000000000</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>Максимальный баланс должен быть менее {0}</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>Минимальная ежедневная сумма должна быть от 1 до {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>Максимальная ежедневная сумма должна быть от 1 до {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Максимальная ежедневная сумма должна быть больше минимальной ежедневной суммы.</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>Минимальная еженедельная сумма должна быть от 1 до {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>Максимальная еженедельная сумма должна быть от 1 до {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Максимальная еженедельная сумма должна быть больше минимальной еженедельной суммы.</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>Минимальная ежемесячная сумма должна быть от 1 до {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>Максимальная ежемесячная сумма должна быть от 1 до {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Максимальная ежемесячная сумма должна быть больше минимальной ежемесячной суммы.</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>Максимальный уровень должен быть больше 0</value>
@@ -5026,6 +5314,12 @@
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>Premium успешно активирован на сервере</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>Premium активирован на этом сервере ({0})</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>Premium удалён с этого сервера ({0})</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>Premium успешно деактивирован с сервера</value>
   </data>
@@ -5230,6 +5524,9 @@
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>Ошибка при скрытии nagbar</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>Дизайн баннера</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>Недействительный тип баннера</value>
   </data>
@@ -5413,8 +5710,26 @@
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>Включено автосообщение {0}</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>Включено {0} автоматических сообщений</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>Отключено {0} автоматических сообщений</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>Удалено {0} автоматических сообщений</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>Включен автоответчик {0}</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>Включено {0} автоответчиков</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>Отключено {0} автоответчиков</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>Удалено {0} автоответчиков</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>Импортировано {0} автоответчиков</value>
@@ -5427,6 +5742,12 @@
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Изменён канал Twitch {0}</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>Лента включена</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>Лента отключена</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>Изменён канал YouTube {0}</value>
@@ -5547,6 +5868,63 @@
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} тег {1}</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>и ещё {0}</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>Завершено {0} временных банов</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>Завершено {0} временных ролей</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>Удалено {0} каналов автопубликации</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>Удалено {0} предупреждений</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>Удалено {0} дней рождения</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>Удалено {0} записей AFK</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>Удалено {0} самоназначаемых ролей</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>Удалено {0} постоянных ролей</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>Удалено {0} товаров магазина</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>Удалено {0} усилений</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>Удалено {0} лент</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>Удалено {0} записей журнала панели</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>Удалено {0} записей</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>Включено {0} лент</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>Отключено {0} лент</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>Включено {0} тегов</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>Отключено {0} тегов</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>Удалено {0} тегов</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>Включено</value>
@@ -5775,45 +6153,6 @@
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>Поиск самораспределяемых ролей...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>Личные роли не найдены. Нажмите «Добавить личную роль» выше, чтобы создать её.</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>Групп ролей пока нет. Группы позволяют сделать набор личных ролей взаимоисключающими.</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>У вас может быть не более {0} личных ролей</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>Эта роль уже добавлена как личная роль</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>Группа ролей не найдена или не принадлежит этому серверу</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>Требуется название группы</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>Группа с таким названием уже существует</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>Максимум ролей должен быть от {0} до {1} для группы с множественным выбором</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>Добавлена личная роль {0}</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>Обновлена личная роль {0}</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>Добавлена группа ролей '{0}'</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>Обновлена группа ролей '{0}'</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>Удалена группа ролей '{0}'</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>Добавить личную роль</value>
@@ -6229,9 +6568,6 @@
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Пожалуйста, не обновляйте страницу.</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>Редактор Embed</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Сохранённый embed не найден.</value>
   </data>
@@ -6256,27 +6592,6 @@
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>Сохранённые Embeds</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>Новый / не сохранённый</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>Сохранить как новый</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>Переименовать</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>Удалить</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>Назовите этот embed:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>Переименуйте сохранённый embed:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>Удалить этот сохранённый embed? Это невозможно будет отменить.</value>
   </data>
@@ -6286,17 +6601,8 @@
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>Переименовать Embed</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>Удалить Embed</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>Отправить Embed</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>Отправить Embed</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>Канал</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>Отправить на URL webhook вместо этого</value>
@@ -6307,7 +6613,7 @@
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+  <data name="generic-word-send" xml:space="preserve">
     <value>Отправить</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6324,6 +6630,21 @@
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discord отклонил встроенное сообщение, отправленное на этот вебхук.</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>Содержимое embed</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>Сохранён embed</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>Обновлён сохранённый embed</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>Переименован сохранённый embed</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>Удалён сохранённый embed</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>Отправлено встроенное сообщение на вебхук.</value>
@@ -6510,6 +6831,15 @@
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>Минное поле</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>Ежедневно</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>Еженедельно</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>Ежемесячно</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>Отправить</value>
@@ -6874,6 +7204,174 @@ Custom Bots можно пригласить максимум на 10 серве�
   <data name="rp-feature-wink" xml:space="preserve">
     <value>Подмигнуть</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>Игра в счёт</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>Изменения могут вступить в силу в Discord с задержкой до 30 секунд из-за кэширования.</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>Канал для счёта</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>Только Точное Число</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>Точное Число ИЛИ Уравнение</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>Только Уравнение</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>Запретить подряд идущий счёт</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>Сброс при ошибке</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>Роль за ошибку</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>Текущий счёт</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>Текущий счётчик</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>Наивысший счёт</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>Роль за ошибку не может быть ролью @everyone.</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>Длительность роли за ошибку</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>Постоянно</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>Оставьте пустым или укажите 0, чтобы роль за ошибку оставалась назначенной постоянно. Максимум 43200 минут (30 дней).</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>Длительность роли за ошибку должна быть от 0 до 43200 минут.</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>Игнорируемые роли</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>Игнорируемая роль не может быть ролью @everyone.</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>Игра в счёт ещё не настроена для этого сервера.</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>Сбросить текущий счёт</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>Немедленно сбрасывает текущий счёт до 0, как будто счёт только что сорвался. На наивысшую серию за всё время это не влияет.</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>Вы уверены, что хотите сбросить текущий счёт до 0? Это нельзя отменить.</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>Сбросить счёт</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>Текущий счёт сброшен до 0.</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>Пользовательское сообщение об ошибке</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>Отправляется вместо стандартного сообщения об ошибке при сбросе счёта. Оставьте оба поля ниже пустыми, чтобы использовать стандартное сообщение.</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>Оставьте пустым, чтобы использовать стандартное сообщение об ошибке</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>Пользовательский embed ошибки</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>Обновлены настройки игры в счёт</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>Текущий счёт игры в счёт принудительно сброшен</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>Обновлено пользовательское сообщение об ошибке игры в счёт</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>Не удалось загрузить настройки игры в счёт.</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>Пользовательское сообщение</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>Необязательное сообщение, отправляемое вместе с уведомлением...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>Доступные заполнители: {link}, {channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>Доступные заполнители: {link}, {subreddit}, {title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>Доступные заполнители: {link}, {streamer}, {title}, {game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>Доступные заполнители: {link}, {title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>Автоматическая разархивация форума</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>Боту нужно право «Управление ветками» в каждом отслеживаемом канале форума для автоматической разархивации веток.</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>Канал форума 1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>Канал форума 2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>Нельзя выбрать один и тот же канал дважды.</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>Не удалось загрузить настройки автоматической разархивации форума.</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>Обновлены настройки автоматической разархивации форума</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>Длительность бана {0}</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>Постоянно</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>Оставьте пустым или укажите 0 для постоянного бана. Максимум 720 часов (30 дней).</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>Длительность бана должна быть от 0 до 720 часов.</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>Статус бота</value>
   </data>
@@ -6942,5 +7440,3444 @@ Custom Bots можно пригласить максимум на 10 серве�
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>Название панели тикетов обновлено</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>Форме нужно название.</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>Этого канала нет на этом сервере.</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>Этой роли нет на этом сервере.</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>Название формы должно быть не длиннее {0} символов.</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>Описание формы должно быть не длиннее {0} символов.</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>Сообщение об успехе должно быть не длиннее {0} символов.</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>Лимит ответов должен быть не менее 1.</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>Минимальный возраст аккаунта не может быть отрицательным.</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>Дата закрытия должна быть в будущем.</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>Количество использований приглашения должно быть от 0 до 100.</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>Срок действия приглашения должен быть от 0 до 7 дней.</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>Каждому вопросу нужен текст.</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>Вопрос должен быть не длиннее {0} символов.</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>Минимальная длина не может быть больше максимальной.</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>Минимальное значение не может быть больше максимального.</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>Этому типу вопроса нужен хотя бы один вариант.</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>Вопрос может иметь не более {0} вариантов.</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>Каждому варианту нужна подпись.</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>Подпись варианта должна быть не длиннее {0} символов.</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>Варианты в одном вопросе должны быть уникальными.</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>Одному из условий не хватает части его настройки.</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>Вопрос не может зависеть от собственного ответа.</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>Вопрос может зависеть только от вопроса, который идёт перед ним.</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>Форма может иметь не более {0} вопросов.</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>Добавьте хотя бы один вопрос перед сохранением.</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>Не удалось загрузить формы. Повторите попытку через минуту.</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>Эта форма больше не существует.</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>Добавьте хотя бы один вопрос перед публикацией.</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>Эта форма ещё не опубликована.</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>Эта форма не принимает ответы.</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>Эта форма закрыта.</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>Эта форма достигла лимита ответов.</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>Вы уже отправили эту форму.</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>Ваш аккаунт Discord должен быть не моложе {0} дней, чтобы отправить эту форму.</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>Вы должны быть участником этого сервера, чтобы отправить эту форму.</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>Вы не забанены на этом сервере, поэтому обжаловать нечего.</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>Свернуть меню</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>Развернуть меню</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>Выбрано: {0}</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>Выбрать всё</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>Отключить</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>Подтвердите удаление</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>Удалить {0} выбранный(ых) элемент(ов)? Это нельзя отменить.</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>Включено элементов: {0}</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>Отключено элементов: {0}</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>Удалено элементов: {0}</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>Не удалось обновить выбранные элементы.</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>Нажимайте на элементы, чтобы выбрать их</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>Эта сохранённая версия больше не существует.</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>Эту сохранённую версию не удалось прочитать, и её нельзя восстановить.</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>Форма создана</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>Добавлен вопрос {0}</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>Вопрос удалён</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>Удалён вопрос {0}</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>Вопрос {0}: {1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>не задано</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>Сохранено без изменений.</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>Показать ещё {0} изменени(й/е)</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>Показать меньше</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>Что изменилось</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>История версий</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>Последние {0} сохранений этой формы. Восстановление версии само по себе является сохранением, поэтому его можно отменить.</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>Пока нет сохранённых версий. При следующем сохранении этой формы здесь будет сохранена версия.</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>Версия {0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>Вопросов: {0}</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>Восстановить эту версию? Форма вернётся к состоянию на момент этого сохранения.</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>Форма была восстановлена до этой версии.</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>Удалённый вопрос</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>Текст заполнителя не может быть длиннее {0} символов.</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>Перетащите для изменения порядка</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>У вас есть несохранённые изменения. Покинуть эту страницу и отменить их?</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>Вы можете вернуться сюда в любое время, вместе со всем остальным, что вы отправили.</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>Мои Отправленные Формы</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>Каждая форма, которую вы отправили, и её текущий статус.</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>Пока нет отправленных форм</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>Отправленные вами формы будут отображаться здесь, чтобы вы могли проверить их позже.</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>Отправлено {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>Формы, которые собирают ответы анонимно, здесь не отображаются, так как они сохраняются без отправителя.</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>Настройка пользователя</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>Эта функция скоро появится. Загляните позже!</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>Требовать капчу</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>Отправители должны пройти проверку Cloudflare Turnstile, прежде чем форма будет принята.</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>Войдите через Discord, чтобы заполнить эту форму. Вы сразу вернётесь сюда.</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>Войти через Discord</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>Форма от {0}. Войдите через Discord, чтобы заполнить её.</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>Ответы анонимны.</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>Пожалуйста, подтвердите, что вы человек, перед отправкой.</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>Не удалось проверить капчу. Перезагрузите страницу и попробуйте снова.</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>Разрешить людям вне сервера</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>Любой, у кого есть ссылка, может отправить форму, даже если он не участник. Апелляции на бан и заявки на вступление всегда это разрешают.</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>Блокировать повторную апелляцию после отклонения</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>Отклонённая апелляция является окончательной, и пользователь не может подать другую.</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>Максимум апелляций</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>Сколько отклонённых апелляций может достичь пользователь, прежде чем он больше не сможет апеллировать. Оставьте пустым для отсутствия лимита.</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>Ожидание после отклонения (дней)</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>Сколько должен ждать пользователь после отклонённой апелляции, прежде чем апеллировать снова. Оставьте пустым для отсутствия ожидания.</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>Ожидание после бана (дней)</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>Сколько должен ждать пользователь после бана до своей первой апелляции. Оставьте пустым для отсутствия ожидания. Discord хранит историю журнала аудита лишь некоторое время, поэтому это нельзя применить к более старым банам.</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>Ваша предыдущая апелляция всё ещё рассматривается. Дождитесь решения, прежде чем апеллировать снова.</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>Ваша апелляция была отклонена, и этот сервер не принимает дальнейшие апелляции.</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>Вы использовали все свои {0} апелляции для этого сервера.</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>Вы можете апеллировать снова через {0} дн.</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>Этот сервер пока не принимает апелляции. Вы можете апеллировать через {0} дн.</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>Вы уже являетесь участником этого сервера.</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>У вас нет роли, требуемой этой формой.</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>На этот вопрос нужно ответить.</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>Этот ответ должен содержать не менее {0} символов.</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>Этот ответ должен содержать не более {0} символов.</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>Этот ответ должен быть числом.</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>Этот ответ должен быть не менее {0}.</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>Этот ответ может быть не более {0}.</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>Введите действительный адрес электронной почты.</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>Введите действительную ссылку, начинающуюся с http или https.</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>Этот выбор не относится к предложенным вариантам.</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>Выберите не менее {0} вариантов.</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>Выберите не более {0} вариантов.</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>Этот ответ больше не существует.</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>Этот ответ не является частью процесса рассмотрения.</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>По этому ответу уже принято решение.</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>К этому ответу не привязан пользователь Discord.</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>Не удалось снять бан. Проверьте, что бот может управлять банами.</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>Не удалось создать приглашение. Проверьте, что бот может создавать приглашения.</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0} (Копия)</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>Нет ответа</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>Отправлено {0}</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>Ответ №{0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>Ваш ответ был одобрен.</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>Ваш ответ был отклонён.</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>ID ответа</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>ID пользователя</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>Не рассмотрен</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>Форма сохранена</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>Форма опубликована</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>Форма теперь принимает ответы</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>Форма перестала принимать ответы</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>Форма дублирована</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>Форма удалена</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>Ответ удалён</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>Ответ одобрен</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>Ответ отклонён</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>Создана форма</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>Обновлена форма</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>Форма восстановлена до более ранней версии</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>Опубликована форма</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>Форма открыта для ответов</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>Форма закрыта для ответов</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>Дублирована форма</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>Удалена форма</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>Удалён ответ формы</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>Одобрен ответ формы</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>Отклонён ответ формы</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>Формы</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>Создавайте формы, которые ваши участники заполняют по ссылке, и собирайте ответы здесь.</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>Создать форму</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>Пока нет форм</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>Создайте свою первую форму, чтобы начать собирать ответы.</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>Ответы</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>На рассмотрении</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>Черновик</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>Копировать ссылку</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>Опубликовать</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>Дублировать</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>Удалить «{0}» и все собранные им ответы? Это нельзя отменить.</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>Удалить этот ответ? Это нельзя отменить.</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>Скопировано</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>Редактировать форму</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>Новая форма</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>Настройки формы</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>Настройки рассмотрения</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>Используется, когда ответы должны быть одобрены, а также для апелляций на бан и заявок на вступление.</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>Отправлять заявки в</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>Роль, необходимая для отправки</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>Лимит ответов</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>Закрывается</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>Минимальный возраст аккаунта в днях</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>Блокирует новые аккаунты. Полезно для форм, открытых для людей вне сервера.</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>Сообщение, показываемое после отправки</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>Продолжено с того места, где вы остановились. Ваши ответы сохраняются по мере перемещения между страницами.</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>Добавить страницу</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>Страница {0}</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>Все страницы</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>Страница без названия</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>Заголовок страницы</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>Вступление страницы</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>Удалить страницу</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>Добавить заголовок на эту страницу</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>Переместить раньше</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>Переместить позже</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>Перетащите для изменения порядка страниц</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>Ваш ответ был получен.</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>Проверить здесь</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>Просмотреть заявку</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>Ваши изменения сохранены.</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>Слишком длинно, чтобы показать здесь</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>Конструктор Embed</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>Создайте сообщение с embed'ами и посмотрите, как его покажет Discord.</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>Выберите сохранённый embed</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>Применить JSON</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>Предпросмотр в реальном времени</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>Назовите этот embed</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>Основной текст</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>Поля</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>Подвал</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>Имя автора</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>Ссылка автора</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>Иконка автора</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>Ссылка заголовка</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>Описание embed</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>Акцентный цвет</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>Большое изображение</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>Миниатюра</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>Текст подвала</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>Иконка подвала</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>Показать отметку времени</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>Название поля</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>Значение поля</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>Бок о бок</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>Добавить поле</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>Embed</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>Добавить embed</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>Удалить этот embed</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>Пока нечего показать. Начните печатать, и это появится здесь.</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>Embed загружен.</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>Embed сохранён.</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>Embed переименован.</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>Embed удалён.</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>Сначала дайте embed'у название.</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>Сначала выберите сохранённый embed.</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>Выберите канал для отправки.</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>«{0}» - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>Ответы с изображениями сейчас не могут быть приняты.</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG, JPEG, GIF или WebP, до {0} МБ.</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>Загрузка…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>Загрузка изображения</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>Человек, заполняющий форму, прикрепляет изображение.</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>Изображения должны быть меньше {0} МБ.</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>Этот файл не удалось прочитать как изображение.</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>У этого изображения слишком много пикселей для обработки.</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>Это изображение не удалось сохранить. Попробуйте снова.</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>Ещё {0} ответов находится на панели управления.</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>Разрешить более одной заявки от пользователя</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>Тип формы</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>Ответы должны быть одобрены</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>При одобрении</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>Роли для изменения при одобрении</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>Роли для добавления при одобрении</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>Роли для удаления при одобрении</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>Роли для добавления при отклонении</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>Роли для удаления при отклонении</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>Решение</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>Принято пользователем {0}</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>Отклонено пользователем {0}</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>Отклонить</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>Эта форма ещё не открыта. Она откроется {0}.</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>Эта форма теперь открыта для заявок.</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>Открывается в (UTC)</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>Форма остаётся закрытой до этого времени, даже после публикации. Оставьте пустым, чтобы открыть сразу после публикации.</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>Объявить открытие в</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>Роль для упоминания в объявлении</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>Что говорится в объявлении об открытии</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>Публикуется один раз, когда наступает время открытия. Оставьте пустым для формулировки по умолчанию.</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>URL изображения</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>Показывается над вопросом. Должен быть адресом http или https.</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>Разрешить повторную отправку после отклонения</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>Отклонённый отправитель может отправить исправленный ответ. Одобренные и ожидающие ответы всё равно считаются их единственной заявкой.</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>Роль для упоминания при новом ответе</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>Упоминается в канале заявок при поступлении ответа. Роль должна быть упоминаемой, либо боту нужно разрешение на её упоминание.</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>Роли, выдаваемые при отправке</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>Выдаются сразу после отправки формы, независимо от того, рассматривается она или нет.</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>Не удалось отправить ЛС</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>Роль на время ожидания решения</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>Выдаётся при отправке формы и отзывается, как только ответ одобрен или отклонён.</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Роль, которая может принимать решения из Discord</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>Добавляет кнопки принять и отклонить к сообщению заявки, доступные участникам с этой ролью. Оставьте пустым, чтобы рассматривать только с панели управления.</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>При отклонении</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>Роли для изменения при отклонении</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>Использования приглашения</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>Срок действия приглашения в секундах</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>Обычная форма</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>Апелляция на бан</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>Заявка на вступление</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>Ничего не делать</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>Добавить роли</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>Удалить роли</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>Вопросы</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>Добавить вопрос</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>Вопросов: {0}</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>Вопрос без названия</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>Вопрос</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>Тип ответа</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>Заполнитель</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>Обязательный</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>Минимальная длина</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>Максимальная длина</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>Наименьшее значение</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>Наибольшее значение</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>Варианты</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>Добавить вариант</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>Дублировать вопрос</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>Переместить вверх</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>Переместить вниз</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>Показывать этот вопрос, только когда</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>Короткий текст</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>Абзац</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>Множественный выбор</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>Флажки</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>Раскрывающийся список</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>Число</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>Адрес электронной почты</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>Добавить условие</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>Удалить условие</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>Набор правил</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>Каждое условие в наборе правил должно выполняться. Вопрос показывается, когда выполняется любой набор правил, поэтому используйте второй набор для альтернативного способа соответствия.</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>Сохранение вашей работы</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>Ваша работа сохранена</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>Не удалось сохранить вашу работу</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>Предыдущий вопрос</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>Сравнение</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>Соответствие ролей</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>Дни</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>Бустит сервер</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>Бустит</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>Не бустит</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>Флаги разрешений</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>Добавьте вопрос перед этим, чтобы сравнить его ответ.</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>Ответ на вопрос</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>Роли, которыми обладает пользователь</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>Время на сервере</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Возраст аккаунта Discord</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>Статус буста</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>Разрешения, которыми обладает пользователь</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>равно</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>не равно</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>содержит</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>больше чем</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>меньше чем</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>имеет любой ответ</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>оставлено пустым</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>Любая из них</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>Ни одна из них</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>Сохранить форму</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>Назад к формам</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>Ответов: {0}</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>Пока нет ответов.</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>Экспорт в CSV</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>Просмотреть</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>Удалить ответ</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>Страница {0} из {1}</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>Одобрить</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>Отклонить</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>Заметки для отправителя</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>Необязательно. Отправляется отправителю вместе с решением.</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>Ожидает рассмотрения</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>Рассматривается</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>Одобрено</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>Отклонено</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>Отправка отключена во время предпросмотра</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>Вы просматриваете эту форму в режиме предпросмотра. Ничто из введённого здесь не сохраняется.</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>Отвечено: {0} из {1}</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>Выберите вариант</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>Ваш ответ был отправлен.</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>Получено</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>Последнее редактирование</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>Редактировать мои ответы</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>Отредактировано</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>Отредактировано {0} раз(а) с момента отправки, последний раз {1}.</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>Заметки от рассматривающего</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>Ваше приглашение</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>Сохраните эту ссылку, чтобы проверить свой ответ позже.</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>Отправлено анонимно</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>Анонимная форма не может изменять роли, так как она не записывает, кто её отправил.</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>Апелляции на бан и заявки на вступление не могут быть анонимными, так как их одобрение требует действия в отношении отправителя.</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>Этот ответ был отправлен анонимно, поэтому нет никого, в отношении кого можно действовать.</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>Записывать ответы анонимно</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>Отправители всё равно входят через Discord, чтобы форма могла проверить, кто может отправлять, но их имя и адрес не сохраняются. Действия одобрения нельзя использовать.</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>Роли для выдачи одобренному заявителю</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>Резервируются для заявителя и выдаются, когда он присоединяется по приглашению.</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>Анонимно</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>Эта форма анонимна. Вы вошли в систему, чтобы сервер мог проверить, что вы можете отправить форму, но ваше имя не сохраняется вместе с вашими ответами.</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Есть Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Есть Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Нет Nitro</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>Объединить с</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>Все условия в этой группе</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>Любое условие в этой группе</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>Цитировать предыдущие ответы в этом вопросе</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>Напишите {{Q1}} в вопросе, чтобы показать ответ, данный на вопрос 1.</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>Обязателен только когда</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>Всегда использовать настройку выше</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>Проверьте свои ответы</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>Пока ничего не отправлено. Прочитайте свои ответы, затем отправьте их.</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>Просмотреть ответы</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>Изменить ответы</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>Отправить ответы</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>Пока нет вопросов. Добавьте один, чтобы начать.</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>Какой тип ответа вам нужен?</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>Редактировать детали</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>Скрыть детали</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>Введите свой вопрос здесь</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>Условный</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>Цитирует ответ</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>Одна строка текста</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>Более длинный, многострочный ответ</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>Один вариант из списка</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>Любое количество вариантов</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>Один вариант из меню</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>Число, опционально ограниченное</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>Адрес электронной почты</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>Ссылка, начинающаяся с http</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>Вопрос {0} цитирует свой собственный ответ, который ещё не существует, когда задаётся вопрос.</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>Вопрос {1} цитирует вопрос {0}, который задаётся позже. Вопрос может цитировать только тот, который идёт перед ним.</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>Вопрос цитирует вопрос {0}, но в этой форме только {1} вопросов.</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>Для людей, уже находящихся на сервере</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>Позволяет забаненным людям просить вернуться</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>Позволяет людям извне подавать заявку на вступление</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>Апелляции и заявки всегда рассматриваются.</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>Вход и сервер</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>Защита</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>Роли и самоназначаемые роли</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>Тикеты</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>Команды и автоответчики</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>Верификация</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>Журналирование</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>Чат-бот</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>Функция не зафиксирована</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>Фильтры</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>Функция</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>Изменено кем</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>Временной диапазон</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>Любое время</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>Последние 24 часа</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>Последние 7 дней</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>Последние 30 дней</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>Последние 3 месяца</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>Пользовательский диапазон</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>С</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>По</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>Только записи с деталями изменений</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>Поиск по сводкам, названиям и значениям</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>Порядок</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>Сначала новые</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>Сначала старые</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>Записей на странице</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>Показано {0}–{1} из {2}</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>Нет записей, соответствующих этим фильтрам.</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>С панели управления пока ничего не изменялось.</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>Поле</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>Было</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>Стало</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>ничего</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>Изменено полей: {0}</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>Затронуто</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>Обновлено журналирование для {0}</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>Проверка AutoMod</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>Объявление о бане</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>Баннер</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>День рождения</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>Объявление о бусте</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>Усиление экономики</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>Товар экономики</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>Расширения файлов</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>Ответ формы</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>Объявление о вступлении</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>Объявление об уходе</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>Роли уровней</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>Белый список ссылок</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>Схожесть сообщений</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>Идентичные вступления</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>Сезонные дропы</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>Группа самоназначаемых ролей</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>Канал статистики</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>Роли серии</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>Панель тикетов</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>Открыть полный журнал</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>Обновлены оповещения об изменениях панели управления</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>Оповещения об изменениях панели управления</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>Канал оповещений панели управления</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>Где объявляются изменения панели управления. Оставьте «нет», чтобы ничего не объявлять.</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>Всегда оповещать об изменениях доступа и журнала</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>Оповещать об изменениях в этих функциях</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>Выберите «ничего», чтобы получать оповещения только об изменениях выше. В любом случае всё записывается в журнал.</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>Ссылка на эту запись</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>Показана одна запись.</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>Показать весь журнал</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>{0} изменений за одну сессию</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>Удалено {0} записей из этого журнала</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>Создано достижение</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>Обновлено достижение</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>Обновлён баннер {0}</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>карточка ранга</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>приветствие</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>прощание</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>Обновлены роли, выдаваемые при вступлении</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>Обновлено объявление: {0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>Обновлён AutoMod: {0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>Предпросмотр этого embed</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>Выберите сохранённый embed для предпросмотра.</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>Автоматизация</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>Автонапоминание</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>Подталкивает открывшего тикет, если он какое-то время не отвечал.</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>Напомнить через (дней)</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>Автозакрытие при отсутствии ответа</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>Закрывает тикет, открывший который перестал отвечать.</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>Закрыть через (дней)</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>Автозакрытие при уходе открывшего</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>Напоминание должно быть от 1 до 365 дней.</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>Закрытие должно быть от 1 до 365 дней.</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>Обновлены настройки автоматизации тикетов</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>Менеджер тикетов</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>Просматривайте и действуйте по тикетам поддержки этого сервера.</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>На этом сервере ещё не открывались тикеты.</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>Поиск тикетов...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>Канал</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>Открыл</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>Взял в работу</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>Последняя активность</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>Не взят</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>Ожидает персонал</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>Пока нет сообщений</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>Некоторые тикеты указывают на канал, которого больше не существует. Их удаление очищает оставшиеся записи.</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>Ожидает персонал</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>Медиана первого ответа</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>Н/Д</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>Категории тикетов</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>Тикеты заполняют категорию с наименьшим номером, в которой ещё есть место. Discord ограничивает категорию 50 каналами.</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>Основная</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>Переполнение №{0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>Удалена из Discord</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 каналов</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>Пока не существует категорий тикетов. Одна создаётся при открытии первого тикета.</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>Переоткрыть</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>Взять в работу</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>Отказаться</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>Добавить пользователя</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>Удалить пользователя</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>Напомнить</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>Анонимный ответ</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>Удалить этот тикет и его канал? Это нельзя отменить.</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>Тикет закрыт.</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>Тикет переоткрыт.</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>Тикет удалён.</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>Тикет взят в работу.</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>Тикет отпущен.</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>Пользователь добавлен в тикет.</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>Пользователь удалён из тикета.</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>Напоминание отправлено открывшему тикет.</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>Ответ отправлен в тикет.</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>Этот тикет больше не существует.</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>Этот тикет уже закрыт.</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>Этот тикет уже открыт.</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>Канал этого тикета больше не существует в Discord.</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>Бот не смог выполнить это действие. Проверьте его права в канале тикета.</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>Не удалось отправить напоминание. У открывшего тикет могут быть отключены личные сообщения.</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>Введите сообщение для отправки.</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>Ответ не может быть длиннее 2000 символов.</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>Выберите действительного пользователя.</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>Закрытие с панели управления делает то же самое, что и закрытие в Discord: блокирует канал, сохраняет транскрипт, загружает HTML-копию и отправляет ЛС о закрытии и запрос на оценку.</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>Закрыт тикет</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>Переоткрыт тикет</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>Удалён тикет</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>Взят в работу тикет</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>Отпущен тикет</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>Пользователь добавлен в тикет</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>Пользователь удалён из тикета</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>Отправлено напоминание о тикете</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>Отправлен анонимный ответ на тикет</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>Тикет</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>Открыт</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>Закрыт</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>Тикет:</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>Тикет открыл:</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>Сохранил:</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>Количество сообщений:</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>Количество ответов:</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>Оценка:</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>Отправлено, ожидание оценки...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>Ваш тикет поддержки в {0} был закрыт.
+            **Закрыл:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>Транскрипт сохранён в канале транскриптов.</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>Транскрипт</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**Пожалуйста, оцените ваш опыт общения с сотрудником, который вам помог.**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>Не запрошена</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>Средняя оценка</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>Ожидает оценки</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>Отправить панель тикетов</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>Канал</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>Отправить панель</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>Панель тикетов отправлена.</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>Выберите канал для отправки панели.</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>Нажмите кнопку ниже, чтобы создать тикет поддержки.</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>Отправлена панель тикетов</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>Эта панель больше не существует.</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>Сервер должен сохранять хотя бы одну панель.</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>Выберите действительный тип тикета.</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>Выберите действительный канал для веток.</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>Выберите канал, в котором будут открываться ветки, иначе эта панель не сможет создавать тикеты.</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>Панель создана.</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>Панель удалена.</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>Тип тикета</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>Канал</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>Приватная ветка</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>Публичная ветка</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>Публичную ветку может прочитать любой, кто видит родительский канал.</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>Канал веток</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>Панели</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>Добавить панель</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>Удалить панель</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>Удалить эту панель? Тикеты, уже открытые из неё, продолжат работать.</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>Опубликовано в {0} канал(ах)</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>Ещё не опубликовано</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>Обновить опубликованные панели</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>Перезаписывает уже опубликованные для этой панели сообщения, чтобы они соответствовали настройкам выше.</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>Обновлено опубликованных панелей: {0}.</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>Создана панель тикетов</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>Удалена панель тикетов</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>Изменён тип панели тикетов</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>Обновлены опубликованные панели тикетов</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>Панель</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>Все панели</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>Нет панели</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>Медианное время до закрытия</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>Общее</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>Сервер может иметь до {0} панелей.</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>Тикет закрыт пользователем {0}</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>Тикет переоткрыт пользователем {0}</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>{0} успешно добавлен(а) в тикет.
+            Запросил(а) {1}</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>{0} успешно удалён(а) из тикета.
+            Запросил(а) {1}</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>Это напоминание о том, что ваш тикет в `{0}` всё ещё открыт. Пожалуйста, ответьте, если вам всё ещё нужна помощь.</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt; отправил(а) напоминание &lt;@{1}&gt;.</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>Ответ команды поддержки</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>Тикет будет удалён через несколько секунд.</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>Тикет взят в работу пользователем {0}</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>Тикет отпущен пользователем {0}</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>Этот тикет уже взят в работу пользователем {0}.</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>Сначала вы должны установить роль команды поддержки для этой панели.</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>Вам нужна роль {0}, чтобы сделать это.</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>У этой панели ещё есть {0} открытых тикетов. Сначала закройте их.</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>Панель, к которой относится этот тикет, была удалена.</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>Сообщения старше этого не добавляются на доску избранного. 0 означает отсутствие лимита.</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>Куда публикуются сообщения, о которых сообщили через контекстное меню «Пожаловаться на сообщение». Функция жалоб недоступна, пока не задан канал.</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Куда записываются тайм-ауты, применённые вне бота, например через сам Discord. Оставьте «нет», чтобы не записывать их.</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>Участники с этой ролью могут просматривать и редактировать заметки сервера и общедоступные заметки. Администраторы и участники с правом «Управление сервером» могут это всегда.</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>Названия каналов и сообщение статистики принимают обычные заполнители сервера, поэтому одно название может содержать несколько показателей. См. &lt;strong&gt;&lt;a href='{0}' class='info'&gt;справочник заполнителей&lt;/a&gt;&lt;/strong&gt; для полного списка.</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>Усилению нужно название.</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>Пользовательские каналы статистики</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>Голосовые каналы с названием на ваш выбор, с любым сочетанием статистики в одном названии. Бот создаёт каждый из них под категорией статистики и обновляет каждые 20 минут. До 10.</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>Шаблон названия канала</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discord допускает 100 символов для названия канала.</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>Добавить канал статистики</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>Канал будет создан в течение 20 минут.</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>Создаётся в течение 20 минут</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>Шаблон названия канала может содержать не более 100 символов.</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>Этот пользовательский канал статистики больше не существует.</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>Добавлен пользовательский канал статистики.</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>Удалён пользовательский канал статистики.</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>Сообщение статистики</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>Вместо каналов публикуется одно сообщение, которое бот редактирует каждые 20 минут с актуальными цифрами.</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>Оставьте пустым для значения по умолчанию. Здесь работают коды эмодзи Discord, включая собственные эмодзи Cakey. Изменение канала публикует новое сообщение там; удалите старое самостоятельно, если оно больше не нужно.</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>Выберите канал, в котором публикуется сообщение статистики.</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>Закреплённые таблицы лидеров</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>Сообщение с таблицей лидеров, которое бот публикует в канале и обновляет каждые 15 минут, чтобы никому не нужно было запускать /leaderboard. До 5 на сервер.</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>Период</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>За всё время</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>На этой неделе</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>В этом месяце</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>Показываемые участники</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>Топ {0}</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>Публикуется в течение 15 минут</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>Добавить таблицу лидеров</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>Таблица лидеров будет опубликована в течение 15 минут.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>Таблица лидеров показывает от 3 до 15 участников.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>Выберите «за всё время», «на этой неделе» или «в этом месяце».</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>Эта закреплённая таблица лидеров больше не существует.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>Добавлена закреплённая таблица лидеров.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>Удалена закреплённая таблица лидеров.</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>Роли за вехи</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>Тот, кто напишет одно из этих чисел, получает соответствующую роль. До 25 вех.</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>Достигнутое число</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>Роль для присуждения</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>Добавить веху</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>Число вехи должно быть не менее 1.</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>Веха для этого числа уже существует.</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>Роли с правами «Администратор», «Управление сервером» или «Управление ролями» не могут выдаваться игрой в счёт.</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>Эта веха больше не существует.</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>Добавлена веха счёта.</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>Удалена веха счёта.</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>Как сообщение должно соотноситься с текстом команды. Параметры «Содержит файлы», «От webhook» и параметры упоминания игнорируют текст и срабатывают на любом сообщении с этим свойством. Шаблон принимает * и ?; Regex автоматически отключается, если шаблон недействителен.</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>Ровно в час, в часовом поясе сервера, установленном в настройках бота.</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>Каждый день или только в один день недели.</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>«Уникальная» работает как радиокнопки: выбор роли в группе заменяет ту, что была ранее. «Множественный выбор» позволяет участнику иметь несколько ролей из группы одновременно.</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>Получение ещё одной сверх этого лимита снимает роль, полученную раньше всех.</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>Умножает выигрыши от экономических игр, пока усиление активно. Несколько активных усилений умножаются друг на друга.</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>Сколько часов длится усиление с момента покупки.</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>Сколько единиц этого усиления может иметь участник одновременно. 0 означает отсутствие лимита.</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>Роль, выдаваемая при покупке. Она должна находиться ниже самой высокой роли Cakey и не должна иметь прав «Администратор», «Управление сервером» или «Управление ролями».</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>Опыт уровня, добавляемый покупателю при покупке, до 1 000 000.</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>Роль, выдаваемая при покупке и снова снимаемая по истечении числа часов, указанного ниже.</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>Сколько спасений счёта даёт покупка, от 1 до 100. Спасение используется вместо сброса счёта, когда покупатель совершает ошибку.</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>Сколько единиц этого предмета может иметь участник одновременно. 0 означает отсутствие лимита.</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>Показывается в магазине и доступен для покупки. Отключите, чтобы сохранить предмет, но скрыть его, например приз, который выдаёт только персонал.</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>Спасение счёта</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>Спасений за покупку</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>Предмет-спасение счёта должен давать от 1 до 100 спасений.</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>Уведомления ЛС об угасании</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>Отправляет участникам ЛС, когда их опыт угасает. Каждое ЛС содержит кнопку, которую участники могут использовать, чтобы отказаться от этого для себя.</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>Вложение удалено</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>Удалённые сообщения, содержавшие файл или изображение, записываются здесь вместо канала «Сообщение удалено». Оставьте «нет», чтобы держать их вместе.</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>Роль упоминания для предложений</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>Упоминается каждый раз при публикации нового предложения. Роль должна быть упоминаемой, либо боту нужно разрешение упоминать любую роль.</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>Есть изображение</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>Вставить эмодзи сервера</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>Для пропуска нужны голоса более чем половины участников голосового канала, у которых не отключён звук. Диджеи, модераторы и тот, кто запросил трек, всё равно могут пропустить напрямую.</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>Опыт перестаёт накапливаться, как только участник достигает этого уровня.</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>Тот, кто забрал последний дроп, не может забрать следующий.</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>Прячет кнопку получения среди четырёх ложных на разном месте при каждом дропе, чтобы её нельзя было нажать рефлекторно.</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>Между дропами проходит случайное ожидание между этими двумя значениями.</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>Выдаётся при объявлении дня рождения и снова снимается через 24 часа.</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>Используется для дней рождения без собственного часового пояса, ежедневного контента и запланированных автоматических сообщений.</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>Создайте webhook в настройках интеграций канала и вставьте его URL сюда. Публикации отправляются через него.</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>Нужно только когда публикации должны попадать в ветку или сообщение форума под каналом webhook'а. В остальных случаях оставьте пустым.</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>Упоминается при каждой новой публикации. Оставьте пустым, чтобы никого не упоминать.</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>Цвет боковой полосы на embed'е публикации.</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>Только название сабреддита, без r/.</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>Прямая ссылка на саму ленту, а не на сайт. Обычно заканчивается на .xml, .rss или /feed.</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>Название канала, как оно отображается после twitch.tv/ в URL.</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>Ссылка на страницу канала, например URL вида youtube.com/@handle или /channel/.</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>Название, которое участники используют для вызова этого тега. Делайте его коротким и запоминающимся.</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>Чем отвечает бот при использовании тега.</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>Текст для поиска в сообщениях. Регистр букв игнорируется, а тип соответствия ниже определяет, насколько это строго.</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>Отправляется, когда сообщение совпадает. Сочетайте с embed'ом или оставьте пустым, чтобы отправить только embed.</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>Куда публикуется запланированное сообщение.</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>Публикуется в выбранное время в канале выше.</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>Можно выбрать только каналы анонсов. Каждое опубликованное там сообщение публикуется на следующих серверах.</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>Роль, которую участники могут назначить себе сами.</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>Показывается рядом с ролью в выборе, чтобы участники знали, для чего она.</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>Участники ниже этого уровня не могут выбрать роль. 0 отключает проверку.</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>Ежедневная серия, необходимая участникам перед выбором роли. 0 отключает проверку.</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>У участников уже должна быть эта роль, прежде чем они смогут выбрать новую.</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>Показывается как заголовок выбора.</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>Показывается под заголовком, чтобы объяснить назначение группы.</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>Только участники с этой ролью могут выбирать из группы.</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>Только участники на этом уровне или выше могут выбирать из группы.</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>Обновляет статус, показываемый на публикации предложения.</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>Показывается на публикации предложения вместе с решением. Необязательно.</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>Подписка на собственного бота, которую должен использовать этот сервер.</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>Токен бота из вкладки Bot вашего приложения в Discord Developer Portal. Держите его в секрете.</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>Показывается в магазине и в сообщениях о покупке.</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>Показывается под названием в магазине, чтобы покупатели знали, что они получают.</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>Цена в валюте вашего сервера. Покупателям нужна как минимум эта сумма для покупки.</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>Что получает покупатель. Поля ниже меняются в зависимости от типа.</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>Используется, чтобы позже найти этот пресет при его применении.</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>Сколько часов покупатель сохраняет роль, отсчитывая с момента покупки.</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>Каналы анонсов не найдены. Сначала создайте один в Discord.</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>Отправляет embed через этот webhook вместо бота, используя имя и аватар webhook'а.</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>Профили отправителя</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>Отправить как</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>Бот</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>Управление профилями отправителя</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>Профиль отправителя публикует сообщение через webhook под своим именем и аватаром. Боту нужно право «Управление webhook'ами» в канале.</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>Показывается как автор сообщения, до 80 символов. Discord отклоняет имена, содержащие «discord» или «clyde».</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>URL аватара</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>Прямая ссылка на PNG, JPG или GIF. Оставьте пустым, чтобы сохранить аватар бота.</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>Сохранённый URL webhook'а</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>Необязательно. Если задано, сообщения, отправленные от имени этого профиля, идут на этот webhook вместо канала, всё ещё под указанным выше именем и аватаром.</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>Новый профиль</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>Сохранить профиль</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>Пока нет профилей отправителя.</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>Удалить этот профиль отправителя?</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>Профиль отправителя сохранён.</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>Профиль отправителя удалён.</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>Введите отображаемое имя длиной до 80 символов.</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discord не разрешает имена отправителя, содержащие «discord» или «clyde».</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>Аватар должен быть ссылкой http или https длиной до 512 символов.</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>Сервер может иметь до 25 профилей отправителя.</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>Этот профиль отправителя больше не существует.</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>ПРИЛОЖЕНИЕ</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>Отправить в канал</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>Импорт / экспорт JSON</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>Текст сообщения</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>Текст, отправляемый над embed'ом</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>Используется только при отправке с этой страницы. Не сохраняется вместе с embed'ом, и функции, публикующие сохранённый embed, не включают его.</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>Сохранить как новый</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>Обновить выбранный</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>Добро пожаловать на {server.name}!</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>Это пример embed'а, показывающий возможности конструктора. Попробуйте **жирный**, *курсив*, `код`, [ссылку](https://cakey.bot) и заполнители вроде {user.mention}. Всё здесь можно редактировать или очистить, а упоминания каналов и пользовательские эмодзи тоже работают.</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>Участники сервера</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>Роли сервера</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Создано с помощью конструктора embed Cakey Bot</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>Должна быть полная ссылка, начинающаяся с http:// или https://.</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0} не является действительной ссылкой.</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>Это изображение не удалось загрузить. Проверьте ссылку.</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>Создан профиль отправителя</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>Обновлён профиль отправителя</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>Удалён профиль отправителя</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>Заполнители, такие как {user.username}, показываются здесь со значениями этого сервера и вами в качестве пользователя. Сохранённый embed сохраняет их в исходном виде, а бот заполняет их при публикации.</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

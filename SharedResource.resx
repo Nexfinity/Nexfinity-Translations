@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -1150,6 +1150,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="voice-left-color" xml:space="preserve">
     <value>Left Color</value>
   </data>
+    <data name="voice-joined-color" xml:space="preserve">
+    <value>Joined Color</value>
+  </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>Remove Roles on Level Up</value>
   </data>
@@ -1801,6 +1804,15 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>Updated ignored achievement channels.</value>
   </data>
+    <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>Updated ignored achievement roles.</value>
+  </data>
+    <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>Updated the achievement unlock message.</value>
+  </data>
+    <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>Enabled or disabled several achievements at once.</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>Self Roles</value>
   </data>
@@ -1906,6 +1918,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>Subscriptions</value>
   </data>
+    <data name="oauth-unlinked" xml:space="preserve">
+    <value>Unlinked OAuth account. ({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>Modified OAuth integration settings. ({0})</value>
   </data>
@@ -1980,6 +1995,48 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>Close</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>Member Count</value>
@@ -2152,6 +2209,24 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="initial-balance-title" xml:space="preserve">
     <value>Initial Balance</value>
   </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>Daily Min Amount</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>Daily Max Amount</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>Weekly Min Amount</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>Weekly Max Amount</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>Monthly Min Amount</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>Monthly Max Amount</value>
+  </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>Wipe User Balance on Leave</value>
   </data>
@@ -2266,11 +2341,119 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>Reach level X.</value>
   </data>
+    <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>Obtain a specific role.</value>
+  </data>
+    <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>Send X GIFs.</value>
+  </data>
+    <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>Send X stickers.</value>
+  </data>
+    <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>Be timed out X times.</value>
+  </data>
+    <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>Stream for X minutes.</value>
+  </data>
+    <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>Wear this server's tag.</value>
+  </data>
+    <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+    <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>Count only in this channel</value>
+  </data>
+    <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>Leave empty to count anywhere in the server. This cannot be changed later, because progress is stored per channel.</value>
+  </data>
+    <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>Role to obtain</value>
+  </data>
+    <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>Tier ladder</value>
+  </data>
+    <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>Give every rung of a ladder the same name, then number them below. Earning a higher rung awards the ones under it.</value>
+  </data>
+    <data name="achievements-modal-tier" xml:space="preserve">
+    <value>Rung</value>
+  </data>
+    <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>Unlock message for this achievement</value>
+  </data>
+    <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>Overrides the server's unlock message for this one achievement. Leave empty to use the server's.</value>
+  </data>
+    <data name="achievements-settings-title" xml:space="preserve">
+    <value>Achievement Settings</value>
+  </data>
+    <data name="achievements-announcement" xml:space="preserve">
+    <value>Unlock Message</value>
+  </data>
+    <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>Leave empty for the default wording. Placeholders: {achievement.name}, {achievement.description}, {user.achievement.count}, {achievement.owners.count}, and all basic placeholders.</value>
+  </data>
+    <data name="generic-placeholders-link" xml:space="preserve">
+    <value>See the placeholder list</value>
+  </data>
+    <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>Ignored Roles</value>
+  </data>
+    <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>Members with one of these roles make no progress towards achievements</value>
+  </data>
+    <data name="achievements-bulk-count" xml:space="preserve">
+    <value>Achievements changed</value>
+  </data>
+    <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>Select at least one achievement first</value>
+  </data>
+    <data name="achievements-error-role-required" xml:space="preserve">
+    <value>Choose the role this achievement is earned by obtaining</value>
+  </data>
+    <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>A rung has to be a number from 1 to 20</value>
+  </data>
+    <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>The channel or role an achievement counts in cannot be changed after creation</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>Secondary Data</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>Temporary Role</value>
+  </data>
+    <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>Temporary bans</value>
+  </data>
+    <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>Temporary roles</value>
+  </data>
+    <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>No temporary bans are active on this server.</value>
+  </data>
+    <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>No temporary roles are active on this server.</value>
+  </data>
+    <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>Bans and roles can be selected together. Ending them applies to everything you have picked, in both lists.</value>
+  </data>
+    <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>End now</value>
+  </data>
+    <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>End the {0} selected ban(s) now? The bot will lift them shortly.</value>
+  </data>
+    <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>End the {0} selected role(s) now? The bot will take the role back shortly.</value>
+  </data>
+    <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0} item(s) set to end now</value>
+  </data>
+    <data name="temporary-actions-expired" xml:space="preserve">
+    <value>Set to end now. The bot will process them shortly.</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>Send DM Reminders</value>
@@ -2424,9 +2607,6 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>Max Owned Per-User</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0 Max Owned = Unlimited</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>Fishing</value>
@@ -2824,6 +3004,24 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Purchase Lifetime Premium</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>LIFETIME Custom Bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>Get your own branded Custom Bot for a single one-time payment, no recurring subscription required, ever.</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>Note: This is a strictly limited offer - once the remaining slots are gone, this deal is gone for good.</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>Purchase Lifetime Custom Bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>{0} left</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>Sold Out</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>Plan Comparison</value>
   </data>
@@ -2910,6 +3108,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Ban Sync Pool Servers</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>Counting Milestone Roles</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>Unlimited RSS/Social Feeds</value>
@@ -4797,8 +4998,35 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>Max balance must be greater than 0</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>Max balance must be less than 1000000000</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>Max balance must be less than {0}</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>Daily min amount must be between 1 and {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>Daily max amount must be between 1 and {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Daily max amount must be greater than the daily min amount.</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>Weekly min amount must be between 1 and {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>Weekly max amount must be between 1 and {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Weekly max amount must be greater than the weekly min amount.</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>Monthly min amount must be between 1 and {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>Monthly max amount must be between 1 and {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Monthly max amount must be greater than the monthly min amount.</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>Max level must be greater than 0</value>
@@ -4898,6 +5126,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="validation-name-must-be-less-than-256-characters" xml:space="preserve">
     <value>Name must be less than 256 characters</value>
+  </data>
+  <data name="validation-name-must-be-at-most-50-characters" xml:space="preserve">
+    <value>Name must be 50 characters or fewer</value>
   </data>
   <data name="validation-response-command-must-be-less-than-2-000-characters" xml:space="preserve">
     <value>Response/command must be less than 2,000 characters</value>
@@ -5087,6 +5318,12 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>Premium activated on server successfully</value>
+  </data>
+    <data name="audit-premium-activated" xml:space="preserve">
+    <value>Activated premium on this server ({0})</value>
+  </data>
+    <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>Removed premium from this server ({0})</value>
   </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>Premium deactivated from server successfully</value>
@@ -5292,6 +5529,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>Error dismissing nagbar</value>
   </data>
+    <data name="banner-editor-design" xml:space="preserve">
+    <value>Banner design</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>Invalid banner type</value>
   </data>
@@ -5475,8 +5715,26 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>Enabled auto message {0}</value>
   </data>
+    <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>Enabled {0} auto messages</value>
+  </data>
+    <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>Disabled {0} auto messages</value>
+  </data>
+    <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>Deleted {0} auto messages</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>Enabled auto responder {0}</value>
+  </data>
+    <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>Enabled {0} auto responders</value>
+  </data>
+    <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>Disabled {0} auto responders</value>
+  </data>
+    <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>Deleted {0} auto responders</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>Imported {0} auto responders</value>
@@ -5489,6 +5747,12 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Modified Twitch feed {0}</value>
+  </data>
+    <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>Enabled feed</value>
+  </data>
+    <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>Disabled feed</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>Modified YouTube feed {0}</value>
@@ -5609,6 +5873,63 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} tag {1}</value>
+  </data>
+    <data name="audit-and-more" xml:space="preserve">
+    <value>and {0} more</value>
+  </data>
+    <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>Ended {0} temporary bans</value>
+  </data>
+    <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>Ended {0} temporary roles</value>
+  </data>
+    <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>Removed {0} auto publish channels</value>
+  </data>
+    <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>Deleted {0} warnings</value>
+  </data>
+    <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>Deleted {0} birthdays</value>
+  </data>
+    <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>Deleted {0} AFK entries</value>
+  </data>
+    <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>Deleted {0} self roles</value>
+  </data>
+    <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>Deleted {0} persistent roles</value>
+  </data>
+    <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>Deleted {0} shop items</value>
+  </data>
+    <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>Deleted {0} boosts</value>
+  </data>
+    <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>Deleted {0} feeds</value>
+  </data>
+    <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>Deleted {0} dashboard log entries</value>
+  </data>
+    <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>Deleted {0} entries</value>
+  </data>
+    <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>Enabled {0} feeds</value>
+  </data>
+    <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>Disabled {0} feeds</value>
+  </data>
+    <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>Enabled {0} tags</value>
+  </data>
+    <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>Disabled {0} tags</value>
+  </data>
+    <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>Deleted {0} tags</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>Enabled</value>
@@ -6252,9 +6573,6 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Please do not refresh the page.</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>Embed Editor</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Saved embed not found.</value>
   </data>
@@ -6279,27 +6597,6 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>Saved Embeds</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>New / unsaved</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>Save As New</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>Rename</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>Name this embed:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>Rename saved embed:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>Delete this saved embed? This cannot be undone.</value>
   </data>
@@ -6309,17 +6606,8 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>Rename Embed</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>Delete Embed</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>Send Embed</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>Send Embed</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>Channel</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>Send to a webhook URL instead</value>
@@ -6330,7 +6618,7 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+    <data name="generic-word-send" xml:space="preserve">
     <value>Send</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6347,6 +6635,21 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discord rejected the embed sent to that webhook.</value>
+  </data>
+    <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>Embed content</value>
+  </data>
+    <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>Saved an embed</value>
+  </data>
+    <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>Updated a saved embed</value>
+  </data>
+    <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>Renamed a saved embed</value>
+  </data>
+    <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>Deleted a saved embed</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>Sent an embed to a webhook.</value>
@@ -6533,6 +6836,15 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>Minefield</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>Monthly</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>Pay</value>
@@ -7133,5 +7445,3456 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>Updated ticket panel name</value>
+  </data>
+    <data name="forms-error-name-required" xml:space="preserve">
+    <value>The form needs a name.</value>
+  </data>
+    <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>That channel is not in this server.</value>
+  </data>
+    <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>That role is not in this server.</value>
+  </data>
+    <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>The form name must be {0} characters or fewer.</value>
+  </data>
+    <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>The form description must be {0} characters or fewer.</value>
+  </data>
+    <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>The success message must be {0} characters or fewer.</value>
+  </data>
+    <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>The response limit must be at least 1.</value>
+  </data>
+    <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>The minimum account age cannot be negative.</value>
+  </data>
+    <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>The closing date has to be in the future.</value>
+  </data>
+    <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>Invite uses must be between 0 and 100.</value>
+  </data>
+    <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>Invite validity must be between 0 and 7 days.</value>
+  </data>
+    <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>Every question needs some text.</value>
+  </data>
+    <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>A question must be {0} characters or fewer.</value>
+  </data>
+    <data name="forms-error-length-range" xml:space="preserve">
+    <value>The minimum length cannot be greater than the maximum length.</value>
+  </data>
+    <data name="forms-error-value-range" xml:space="preserve">
+    <value>The minimum value cannot be greater than the maximum value.</value>
+  </data>
+    <data name="forms-error-options-required" xml:space="preserve">
+    <value>This question type needs at least one option.</value>
+  </data>
+    <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>A question can have at most {0} options.</value>
+  </data>
+    <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>Every option needs a label.</value>
+  </data>
+    <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>An option label must be {0} characters or fewer.</value>
+  </data>
+    <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>Options within a question have to be unique.</value>
+  </data>
+    <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>One of the conditions is missing part of its setup.</value>
+  </data>
+    <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>A question cannot depend on its own answer.</value>
+  </data>
+    <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>A question can only depend on a question that comes before it.</value>
+  </data>
+    <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>A form can have at most {0} questions.</value>
+  </data>
+    <data name="forms-error-no-questions" xml:space="preserve">
+    <value>Add at least one question before saving.</value>
+  </data>
+    <data name="forms-error-load" xml:space="preserve">
+    <value>The forms could not be loaded. Try again in a moment.</value>
+  </data>
+    <data name="forms-error-not-found" xml:space="preserve">
+    <value>That form no longer exists.</value>
+  </data>
+    <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>Add at least one question before publishing.</value>
+  </data>
+    <data name="forms-error-not-published" xml:space="preserve">
+    <value>This form has not been published yet.</value>
+  </data>
+    <data name="forms-error-closed" xml:space="preserve">
+    <value>This form is not accepting responses.</value>
+  </data>
+    <data name="forms-error-expired" xml:space="preserve">
+    <value>This form has closed.</value>
+  </data>
+    <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>This form has reached its response limit.</value>
+  </data>
+    <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>You have already submitted this form.</value>
+  </data>
+    <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>Your Discord account has to be at least {0} days old to submit this form.</value>
+  </data>
+    <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>You have to be a member of this server to submit this form.</value>
+  </data>
+    <data name="forms-error-not-banned" xml:space="preserve">
+    <value>You are not banned from this server, so there is nothing to appeal.</value>
+  </data>
+    <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>Collapse menu</value>
+  </data>
+    <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>Expand menu</value>
+  </data>
+    <data name="bulk-selected-count" xml:space="preserve">
+    <value>{0} selected</value>
+  </data>
+    <data name="bulk-select-all" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+    <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>Select</value>
+  </data>
+    <data name="bulk-enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+    <data name="bulk-disable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+    <data name="bulk-delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+    <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>Confirm deletion</value>
+  </data>
+    <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>Delete the {0} selected item(s)? This cannot be undone.</value>
+  </data>
+    <data name="bulk-result-enabled" xml:space="preserve">
+    <value>{0} item(s) enabled</value>
+  </data>
+    <data name="bulk-result-disabled" xml:space="preserve">
+    <value>{0} item(s) disabled</value>
+  </data>
+    <data name="bulk-result-deleted" xml:space="preserve">
+    <value>{0} item(s) deleted</value>
+  </data>
+    <data name="bulk-result-failed" xml:space="preserve">
+    <value>The selected items could not be updated.</value>
+  </data>
+    <data name="bulk-hint" xml:space="preserve">
+    <value>Click items to select them</value>
+  </data>
+    <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>That saved version no longer exists.</value>
+  </data>
+    <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>That saved version could not be read and cannot be restored.</value>
+  </data>
+    <data name="forms-diff-created" xml:space="preserve">
+    <value>Form created</value>
+  </data>
+    <data name="forms-diff-question-added" xml:space="preserve">
+    <value>Question {0} added</value>
+  </data>
+    <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>Question removed</value>
+  </data>
+    <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>Question {0} removed</value>
+  </data>
+    <data name="forms-diff-question-label" xml:space="preserve">
+    <value>Question {0}: {1}</value>
+  </data>
+    <data name="forms-diff-position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+    <data name="forms-diff-conditions" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+    <data name="forms-diff-unset" xml:space="preserve">
+    <value>not set</value>
+  </data>
+    <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>Saved with no changes.</value>
+  </data>
+    <data name="forms-diff-show-more" xml:space="preserve">
+    <value>Show {0} more change(s)</value>
+  </data>
+    <data name="forms-diff-show-less" xml:space="preserve">
+    <value>Show fewer</value>
+  </data>
+    <data name="forms-diff-show" xml:space="preserve">
+    <value>What changed</value>
+  </data>
+    <data name="forms-version-history" xml:space="preserve">
+    <value>History</value>
+  </data>
+    <data name="forms-version-history-title" xml:space="preserve">
+    <value>Version history</value>
+  </data>
+    <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>The last {0} saves of this form. Restoring one is itself a save, so it can be undone.</value>
+  </data>
+    <data name="forms-version-empty" xml:space="preserve">
+    <value>No saved versions yet. The next time this form is saved, a version will be kept here.</value>
+  </data>
+    <data name="forms-version-number" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+    <data name="forms-version-questions" xml:space="preserve">
+    <value>{0} question(s)</value>
+  </data>
+    <data name="forms-version-restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+    <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>Restore this version? The form will go back to how it was at this save.</value>
+  </data>
+    <data name="forms-version-restored" xml:space="preserve">
+    <value>The form was restored to that version.</value>
+  </data>
+    <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>Removed question</value>
+  </data>
+    <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>Placeholder text cannot be longer than {0} characters.</value>
+  </data>
+    <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>Drag to reorder</value>
+  </data>
+    <data name="forms-discard-changes" xml:space="preserve">
+    <value>You have unsaved changes. Leave this page and discard them?</value>
+  </data>
+    <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>You can come back to this at any time, along with everything else you have submitted.</value>
+  </data>
+    <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>My Form Submissions</value>
+  </data>
+    <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>Every form you have submitted, and where it stands.</value>
+  </data>
+    <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>No submissions yet</value>
+  </data>
+    <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>Forms you submit will show up here so you can check on them later.</value>
+  </data>
+    <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>Submitted {0}</value>
+  </data>
+    <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>Forms that collect responses anonymously are not listed here, because they are stored without a submitter.</value>
+  </data>
+    <data name="user-customization-title" xml:space="preserve">
+    <value>User Customization</value>
+  </data>
+    <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>This feature is coming soon. Check back later!</value>
+  </data>
+    <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>Require a captcha</value>
+  </data>
+    <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>Submitters must pass a Cloudflare Turnstile challenge before the form is accepted.</value>
+  </data>
+    <data name="forms-public-login-required" xml:space="preserve">
+    <value>Sign in with Discord to fill in this form. You will come straight back here.</value>
+  </data>
+    <data name="forms-public-login-button" xml:space="preserve">
+    <value>Sign in with Discord</value>
+  </data>
+    <data name="forms-public-meta-description" xml:space="preserve">
+    <value>A form from {0}. Sign in with Discord to fill it in.</value>
+  </data>
+    <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>Responses are anonymous.</value>
+  </data>
+    <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>Please confirm you are human before submitting.</value>
+  </data>
+    <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>The captcha could not be verified. Please reload the page and try again.</value>
+  </data>
+    <data name="forms-field-allow-external" xml:space="preserve">
+    <value>Allow people outside the server</value>
+  </data>
+    <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>Anyone with the link may submit, even if they are not a member. Ban appeals and join applications always allow this.</value>
+  </data>
+    <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>Block appealing again after a rejection</value>
+  </data>
+    <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>A rejected appeal is final and the user cannot submit another one.</value>
+  </data>
+    <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>Maximum appeals</value>
+  </data>
+    <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>How many rejected appeals a user may reach before they can no longer appeal. Leave empty for no limit.</value>
+  </data>
+    <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>Wait after a rejection (days)</value>
+  </data>
+    <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>How long a user must wait after a rejected appeal before appealing again. Leave empty for no wait.</value>
+  </data>
+    <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>Wait after the ban (days)</value>
+  </data>
+    <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>How long a user must wait after being banned before their first appeal. Leave empty for no wait. Discord only keeps audit log history for so long, so this cannot be enforced on older bans.</value>
+  </data>
+    <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>Your previous appeal is still being reviewed. Please wait for a decision before appealing again.</value>
+  </data>
+    <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>Your appeal was rejected and this server does not accept further appeals.</value>
+  </data>
+    <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>You have used all {0} of your appeals for this server.</value>
+  </data>
+    <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>You can appeal again in {0} day(s).</value>
+  </data>
+    <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>This server does not accept appeals yet. You can appeal in {0} day(s).</value>
+  </data>
+    <data name="forms-error-already-member" xml:space="preserve">
+    <value>You are already a member of this server.</value>
+  </data>
+    <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>You do not have the role this form requires.</value>
+  </data>
+    <data name="forms-error-answer-required" xml:space="preserve">
+    <value>This question has to be answered.</value>
+  </data>
+    <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>This answer has to be at least {0} characters.</value>
+  </data>
+    <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>This answer has to be {0} characters or fewer.</value>
+  </data>
+    <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>This answer has to be a number.</value>
+  </data>
+    <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>This answer has to be at least {0}.</value>
+  </data>
+    <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>This answer can be at most {0}.</value>
+  </data>
+    <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>Enter a valid email address.</value>
+  </data>
+    <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>Enter a valid link starting with http or https.</value>
+  </data>
+    <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>That choice is not one of the options offered.</value>
+  </data>
+    <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>Pick at least {0} options.</value>
+  </data>
+    <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>Pick at most {0} options.</value>
+  </data>
+    <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>That response no longer exists.</value>
+  </data>
+    <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>This response is not part of a review process.</value>
+  </data>
+    <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>This response has already been decided.</value>
+  </data>
+    <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>This response has no Discord user attached to it.</value>
+  </data>
+    <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>The ban could not be lifted. Check that the bot can manage bans.</value>
+  </data>
+    <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>An invite could not be created. Check that the bot can create invites.</value>
+  </data>
+    <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0} (Copy)</value>
+  </data>
+    <data name="forms-answer-empty" xml:space="preserve">
+    <value>No answer</value>
+  </data>
+    <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>Submitted by {0}</value>
+  </data>
+    <data name="forms-embed-response-id" xml:space="preserve">
+    <value>Response #{0}</value>
+  </data>
+    <data name="forms-notify-approved" xml:space="preserve">
+    <value>Your response has been approved.</value>
+  </data>
+    <data name="forms-notify-rejected" xml:space="preserve">
+    <value>Your response has been declined.</value>
+  </data>
+    <data name="forms-csv-response-id" xml:space="preserve">
+    <value>Response ID</value>
+  </data>
+    <data name="forms-csv-user-id" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+    <data name="forms-csv-username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+    <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>Submitted at</value>
+  </data>
+    <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>Not reviewed</value>
+  </data>
+    <data name="forms-saved" xml:space="preserve">
+    <value>Form saved</value>
+  </data>
+    <data name="forms-published" xml:space="preserve">
+    <value>Form published</value>
+  </data>
+    <data name="forms-activated" xml:space="preserve">
+    <value>Form is now accepting responses</value>
+  </data>
+    <data name="forms-deactivated" xml:space="preserve">
+    <value>Form has stopped accepting responses</value>
+  </data>
+    <data name="forms-duplicated" xml:space="preserve">
+    <value>Form duplicated</value>
+  </data>
+    <data name="forms-deleted" xml:space="preserve">
+    <value>Form deleted</value>
+  </data>
+    <data name="forms-response-deleted" xml:space="preserve">
+    <value>Response deleted</value>
+  </data>
+    <data name="forms-response-approved" xml:space="preserve">
+    <value>Response approved</value>
+  </data>
+    <data name="forms-response-rejected" xml:space="preserve">
+    <value>Response rejected</value>
+  </data>
+    <data name="audit-form-created" xml:space="preserve">
+    <value>Created a form</value>
+  </data>
+    <data name="audit-form-updated" xml:space="preserve">
+    <value>Updated a form</value>
+  </data>
+    <data name="audit-form-version-restored" xml:space="preserve">
+    <value>Restored a form to an earlier version</value>
+  </data>
+    <data name="audit-form-published" xml:space="preserve">
+    <value>Published a form</value>
+  </data>
+    <data name="audit-form-activated" xml:space="preserve">
+    <value>Opened a form for responses</value>
+  </data>
+    <data name="audit-form-deactivated" xml:space="preserve">
+    <value>Closed a form to responses</value>
+  </data>
+    <data name="audit-form-duplicated" xml:space="preserve">
+    <value>Duplicated a form</value>
+  </data>
+    <data name="audit-form-deleted" xml:space="preserve">
+    <value>Deleted a form</value>
+  </data>
+    <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>Deleted a form response</value>
+  </data>
+    <data name="audit-form-response-approved" xml:space="preserve">
+    <value>Approved a form response</value>
+  </data>
+    <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>Rejected a form response</value>
+  </data>
+    <data name="forms-title" xml:space="preserve">
+    <value>Forms</value>
+  </data>
+    <data name="forms-subtitle" xml:space="preserve">
+    <value>Build forms your members fill in from a link, and collect the answers here.</value>
+  </data>
+    <data name="forms-create" xml:space="preserve">
+    <value>Create a form</value>
+  </data>
+    <data name="forms-empty-title" xml:space="preserve">
+    <value>No forms yet</value>
+  </data>
+    <data name="forms-empty-description" xml:space="preserve">
+    <value>Create your first form to start collecting answers.</value>
+  </data>
+    <data name="forms-card-responses" xml:space="preserve">
+    <value>Responses</value>
+  </data>
+    <data name="forms-card-pending" xml:space="preserve">
+    <value>To review</value>
+  </data>
+    <data name="forms-status-draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+    <data name="forms-action-edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+    <data name="forms-action-copy-link" xml:space="preserve">
+    <value>Copy link</value>
+  </data>
+    <data name="forms-action-preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+    <data name="forms-action-publish" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+    <data name="forms-action-deactivate" xml:space="preserve">
+    <value>Close</value>
+  </data>
+    <data name="forms-action-duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+    <data name="forms-action-delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+    <data name="forms-confirm-delete" xml:space="preserve">
+    <value>Delete "{0}" and every response it collected? This cannot be undone.</value>
+  </data>
+    <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>Delete this response? This cannot be undone.</value>
+  </data>
+    <data name="forms-link-copied" xml:space="preserve">
+    <value>Copied</value>
+  </data>
+    <data name="forms-builder-title" xml:space="preserve">
+    <value>Edit form</value>
+  </data>
+    <data name="forms-builder-new" xml:space="preserve">
+    <value>New form</value>
+  </data>
+    <data name="forms-settings-title" xml:space="preserve">
+    <value>Form settings</value>
+  </data>
+    <data name="forms-review-settings-title" xml:space="preserve">
+    <value>Review settings</value>
+  </data>
+    <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>Used when responses have to be approved, and for ban appeals and join applications.</value>
+  </data>
+    <data name="forms-field-name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+    <data name="forms-field-description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+    <data name="forms-field-channel" xml:space="preserve">
+    <value>Post submissions to</value>
+  </data>
+    <data name="forms-field-required-role" xml:space="preserve">
+    <value>Role required to submit</value>
+  </data>
+    <data name="forms-field-max-responses" xml:space="preserve">
+    <value>Response limit</value>
+  </data>
+    <data name="forms-field-expires-at" xml:space="preserve">
+    <value>Closes on</value>
+  </data>
+    <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>Minimum account age in days</value>
+  </data>
+    <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>Blocks new accounts. Useful on forms open to people outside the server.</value>
+  </data>
+    <data name="forms-field-success-message" xml:space="preserve">
+    <value>Message shown after submitting</value>
+  </data>
+    <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>Picked up where you left off. Your answers are saved as you move between pages.</value>
+  </data>
+    <data name="forms-page-add" xml:space="preserve">
+    <value>Add page</value>
+  </data>
+    <data name="forms-page-label" xml:space="preserve">
+    <value>Page {0}</value>
+  </data>
+    <data name="forms-page-all" xml:space="preserve">
+    <value>All pages</value>
+  </data>
+    <data name="forms-page-untitled" xml:space="preserve">
+    <value>Untitled page</value>
+  </data>
+    <data name="forms-page-title" xml:space="preserve">
+    <value>Page heading</value>
+  </data>
+    <data name="forms-page-intro" xml:space="preserve">
+    <value>Page intro</value>
+  </data>
+    <data name="forms-page-remove" xml:space="preserve">
+    <value>Remove page</value>
+  </data>
+    <data name="forms-page-add-heading" xml:space="preserve">
+    <value>Add a heading to this page</value>
+  </data>
+    <data name="forms-page-move-back" xml:space="preserve">
+    <value>Move earlier</value>
+  </data>
+    <data name="forms-page-move-forward" xml:space="preserve">
+    <value>Move later</value>
+  </data>
+    <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>Drag to reorder pages</value>
+  </data>
+    <data name="forms-dm-submitted" xml:space="preserve">
+    <value>Your response has been received.</value>
+  </data>
+    <data name="forms-dm-status-link" xml:space="preserve">
+    <value>Check on it here</value>
+  </data>
+    <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>View Submission</value>
+  </data>
+    <data name="forms-dm-updated" xml:space="preserve">
+    <value>Your changes have been saved.</value>
+  </data>
+    <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>Too long to show here</value>
+  </data>
+    <data name="embed-builder-title" xml:space="preserve">
+    <value>Embed Builder</value>
+  </data>
+    <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>Build a message with embeds and see it as Discord will show it.</value>
+  </data>
+    <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>Pick a saved embed</value>
+  </data>
+    <data name="embed-builder-load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+    <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+    <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>Apply JSON</value>
+  </data>
+    <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+    <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>Live preview</value>
+  </data>
+    <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>Name this embed</value>
+  </data>
+    <data name="embed-builder-section-author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+    <data name="embed-builder-section-body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+    <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+    <data name="embed-builder-section-media" xml:space="preserve">
+    <value>Images</value>
+  </data>
+    <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+    <data name="embed-builder-author-name" xml:space="preserve">
+    <value>Author name</value>
+  </data>
+    <data name="embed-builder-author-url" xml:space="preserve">
+    <value>Author link</value>
+  </data>
+    <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>Author icon</value>
+  </data>
+    <data name="embed-builder-title-url" xml:space="preserve">
+    <value>Title link</value>
+  </data>
+    <data name="embed-builder-description" xml:space="preserve">
+    <value>Embed description</value>
+  </data>
+    <data name="embed-builder-colour" xml:space="preserve">
+    <value>Accent colour</value>
+  </data>
+    <data name="embed-builder-image" xml:space="preserve">
+    <value>Large image</value>
+  </data>
+    <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>Thumbnail</value>
+  </data>
+    <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>Footer text</value>
+  </data>
+    <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>Footer icon</value>
+  </data>
+    <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>Show a timestamp</value>
+  </data>
+    <data name="embed-builder-field-name" xml:space="preserve">
+    <value>Field name</value>
+  </data>
+    <data name="embed-builder-field-value" xml:space="preserve">
+    <value>Field value</value>
+  </data>
+    <data name="embed-builder-inline" xml:space="preserve">
+    <value>Side by side</value>
+  </data>
+    <data name="embed-builder-add-field" xml:space="preserve">
+    <value>Add a field</value>
+  </data>
+    <data name="embed-builder-embed" xml:space="preserve">
+    <value>Embed</value>
+  </data>
+    <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>Add an embed</value>
+  </data>
+    <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>Remove this embed</value>
+  </data>
+    <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>Nothing to show yet. Start typing and it will appear here.</value>
+  </data>
+    <data name="embed-builder-loaded" xml:space="preserve">
+    <value>Embed loaded.</value>
+  </data>
+    <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>Embed saved.</value>
+  </data>
+    <data name="embed-builder-renamed" xml:space="preserve">
+    <value>Embed renamed.</value>
+  </data>
+    <data name="embed-builder-deleted" xml:space="preserve">
+    <value>Embed deleted.</value>
+  </data>
+    <data name="embed-builder-name-required" xml:space="preserve">
+    <value>Give the embed a name first.</value>
+  </data>
+    <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>Pick a saved embed first.</value>
+  </data>
+    <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>Pick a channel to send to.</value>
+  </data>
+    <data name="forms-error-answer-named" xml:space="preserve">
+    <value>"{0}" - {1}</value>
+  </data>
+    <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>Image answers cannot be accepted right now.</value>
+  </data>
+    <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG, JPEG, GIF or WebP, up to {0} MB.</value>
+  </data>
+    <data name="forms-image-uploading" xml:space="preserve">
+    <value>Uploading…</value>
+  </data>
+    <data name="forms-question-type-image" xml:space="preserve">
+    <value>Image upload</value>
+  </data>
+    <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>The person filling in the form attaches a picture.</value>
+  </data>
+    <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>Images must be smaller than {0} MB.</value>
+  </data>
+    <data name="forms-error-image-type" xml:space="preserve">
+    <value>That file could not be read as an image.</value>
+  </data>
+    <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>That image has too many pixels to process.</value>
+  </data>
+    <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>That image could not be saved. Please try again.</value>
+  </data>
+    <data name="forms-embed-truncated" xml:space="preserve">
+    <value>{0} more answers are on the dashboard.</value>
+  </data>
+    <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>Allow more than one submission per user</value>
+  </data>
+    <data name="forms-field-form-type" xml:space="preserve">
+    <value>Form type</value>
+  </data>
+    <data name="forms-field-require-approval" xml:space="preserve">
+    <value>Responses have to be approved</value>
+  </data>
+    <data name="forms-field-approval-action" xml:space="preserve">
+    <value>On approval</value>
+  </data>
+    <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>Roles to change on approval</value>
+  </data>
+    <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>Roles to add on approval</value>
+  </data>
+    <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>Roles to remove on approval</value>
+  </data>
+    <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>Roles to add on denial</value>
+  </data>
+    <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>Roles to remove on denial</value>
+  </data>
+    <data name="forms-review-decision" xml:space="preserve">
+    <value>Decision</value>
+  </data>
+    <data name="forms-review-approved-by" xml:space="preserve">
+    <value>Accepted by {0}</value>
+  </data>
+    <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>Denied by {0}</value>
+  </data>
+    <data name="forms-review-accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+    <data name="forms-review-deny" xml:space="preserve">
+    <value>Deny</value>
+  </data>
+    <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>This form is not open yet. It opens on {0}.</value>
+  </data>
+    <data name="forms-announce-default" xml:space="preserve">
+    <value>This form is now open for submissions.</value>
+  </data>
+    <data name="forms-field-opens-at" xml:space="preserve">
+    <value>Opens at (UTC)</value>
+  </data>
+    <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>The form stays closed until this time, even once it is published. Leave empty to open as soon as it is published.</value>
+  </data>
+    <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>Announce opening in</value>
+  </data>
+    <data name="forms-field-announce-role" xml:space="preserve">
+    <value>Role to ping in the announcement</value>
+  </data>
+    <data name="forms-field-announce-message" xml:space="preserve">
+    <value>What the opening announcement says</value>
+  </data>
+    <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>Posted once, when the opening time passes. Leave empty for the default wording.</value>
+  </data>
+    <data name="forms-question-image" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+    <data name="forms-question-image-hint" xml:space="preserve">
+    <value>Shown above the question. Must be an http or https address.</value>
+  </data>
+    <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>Allow resubmitting after rejection</value>
+  </data>
+    <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>A rejected submitter may send a corrected response. Approved and pending ones still count as their one submission.</value>
+  </data>
+    <data name="forms-field-notify-role" xml:space="preserve">
+    <value>Role to ping on a new response</value>
+  </data>
+    <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>Pinged in the submissions channel when a response arrives. The role has to be mentionable, or the bot needs permission to mention it.</value>
+  </data>
+    <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>Roles granted on submitting</value>
+  </data>
+    <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>Given as soon as the form is submitted, whether or not it is reviewed.</value>
+  </data>
+    <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>Could not DM</value>
+  </data>
+    <data name="forms-field-pending-role" xml:space="preserve">
+    <value>Role while awaiting a decision</value>
+  </data>
+    <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>Given when the form is submitted and taken back once the response is approved or rejected.</value>
+  </data>
+    <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Role that can decide from Discord</value>
+  </data>
+    <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>Adds accept and deny buttons to the submission message, usable by members with this role. Leave empty to review only from the dashboard.</value>
+  </data>
+    <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>On rejection</value>
+  </data>
+    <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>Roles to change on rejection</value>
+  </data>
+    <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>Invite uses</value>
+  </data>
+    <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>Invite validity in seconds</value>
+  </data>
+    <data name="forms-type-regular" xml:space="preserve">
+    <value>Regular form</value>
+  </data>
+    <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>Ban appeal</value>
+  </data>
+    <data name="forms-type-join-application" xml:space="preserve">
+    <value>Join application</value>
+  </data>
+    <data name="forms-role-action-none" xml:space="preserve">
+    <value>Do nothing</value>
+  </data>
+    <data name="forms-role-action-add" xml:space="preserve">
+    <value>Add roles</value>
+  </data>
+    <data name="forms-role-action-remove" xml:space="preserve">
+    <value>Remove roles</value>
+  </data>
+    <data name="forms-questions-title" xml:space="preserve">
+    <value>Questions</value>
+  </data>
+    <data name="forms-question-add" xml:space="preserve">
+    <value>Add a question</value>
+  </data>
+    <data name="forms-question-count" xml:space="preserve">
+    <value>{0} questions</value>
+  </data>
+    <data name="forms-question-untitled" xml:space="preserve">
+    <value>Untitled question</value>
+  </data>
+    <data name="forms-question-text" xml:space="preserve">
+    <value>Question</value>
+  </data>
+    <data name="forms-question-type" xml:space="preserve">
+    <value>Answer type</value>
+  </data>
+    <data name="forms-question-placeholder" xml:space="preserve">
+    <value>Placeholder</value>
+  </data>
+    <data name="forms-question-required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+    <data name="forms-question-min-length" xml:space="preserve">
+    <value>Minimum length</value>
+  </data>
+    <data name="forms-question-max-length" xml:space="preserve">
+    <value>Maximum length</value>
+  </data>
+    <data name="forms-question-min-value" xml:space="preserve">
+    <value>Smallest value</value>
+  </data>
+    <data name="forms-question-max-value" xml:space="preserve">
+    <value>Largest value</value>
+  </data>
+    <data name="forms-question-options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+    <data name="forms-question-option-add" xml:space="preserve">
+    <value>Add an option</value>
+  </data>
+    <data name="forms-question-duplicate" xml:space="preserve">
+    <value>Duplicate question</value>
+  </data>
+    <data name="forms-question-delete" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+    <data name="forms-question-move-up" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+    <data name="forms-question-move-down" xml:space="preserve">
+    <value>Move down</value>
+  </data>
+    <data name="forms-question-conditions" xml:space="preserve">
+    <value>Show this question only when</value>
+  </data>
+    <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>Short text</value>
+  </data>
+    <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>Paragraph</value>
+  </data>
+    <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>Multiple choice</value>
+  </data>
+    <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>Checkboxes</value>
+  </data>
+    <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>Dropdown</value>
+  </data>
+    <data name="forms-question-type-number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+    <data name="forms-question-type-email" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+    <data name="forms-question-type-url" xml:space="preserve">
+    <value>Link</value>
+  </data>
+    <data name="forms-condition-add" xml:space="preserve">
+    <value>Add a condition</value>
+  </data>
+    <data name="forms-condition-remove" xml:space="preserve">
+    <value>Remove condition</value>
+  </data>
+    <data name="forms-condition-group" xml:space="preserve">
+    <value>Rule set</value>
+  </data>
+    <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>Every condition in a rule set has to pass. The question is shown when any one rule set passes, so use a second rule set for an alternative way to qualify.</value>
+  </data>
+    <data name="forms-autosave-saving" xml:space="preserve">
+    <value>Saving your work</value>
+  </data>
+    <data name="forms-autosave-saved" xml:space="preserve">
+    <value>Your work is saved</value>
+  </data>
+    <data name="forms-autosave-failed" xml:space="preserve">
+    <value>Could not save your work</value>
+  </data>
+    <data name="forms-condition-type" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+    <data name="forms-condition-question" xml:space="preserve">
+    <value>Earlier question</value>
+  </data>
+    <data name="forms-condition-operator" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+    <data name="forms-condition-value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+    <data name="forms-condition-roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+    <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>Role match</value>
+  </data>
+    <data name="forms-condition-days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+    <data name="forms-condition-boost" xml:space="preserve">
+    <value>Boosting the server</value>
+  </data>
+    <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>Is boosting</value>
+  </data>
+    <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>Is not boosting</value>
+  </data>
+    <data name="forms-condition-permission" xml:space="preserve">
+    <value>Permission flags</value>
+  </data>
+    <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>Add a question above this one to compare its answer.</value>
+  </data>
+    <data name="forms-condition-type-question" xml:space="preserve">
+    <value>Answer to a question</value>
+  </data>
+    <data name="forms-condition-type-role" xml:space="preserve">
+    <value>Roles the user holds</value>
+  </data>
+    <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>Time in the server</value>
+  </data>
+    <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Discord account age</value>
+  </data>
+    <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>Boost status</value>
+  </data>
+    <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>Permissions the user holds</value>
+  </data>
+    <data name="forms-operator-equals" xml:space="preserve">
+    <value>is</value>
+  </data>
+    <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>is not</value>
+  </data>
+    <data name="forms-operator-contains" xml:space="preserve">
+    <value>contains</value>
+  </data>
+    <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>is greater than</value>
+  </data>
+    <data name="forms-operator-less-than" xml:space="preserve">
+    <value>is less than</value>
+  </data>
+    <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>has any answer</value>
+  </data>
+    <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>was left blank</value>
+  </data>
+    <data name="forms-role-logic-any" xml:space="preserve">
+    <value>Any of them</value>
+  </data>
+    <data name="forms-role-logic-all" xml:space="preserve">
+    <value>All of them</value>
+  </data>
+    <data name="forms-role-logic-none" xml:space="preserve">
+    <value>None of them</value>
+  </data>
+    <data name="forms-save" xml:space="preserve">
+    <value>Save form</value>
+  </data>
+    <data name="forms-back-to-list" xml:space="preserve">
+    <value>Back to forms</value>
+  </data>
+    <data name="forms-responses-count" xml:space="preserve">
+    <value>{0} responses</value>
+  </data>
+    <data name="forms-responses-empty" xml:space="preserve">
+    <value>No responses yet.</value>
+  </data>
+    <data name="forms-responses-export" xml:space="preserve">
+    <value>Export CSV</value>
+  </data>
+    <data name="forms-response-view" xml:space="preserve">
+    <value>View</value>
+  </data>
+    <data name="forms-response-delete" xml:space="preserve">
+    <value>Delete response</value>
+  </data>
+    <data name="forms-pagination-page" xml:space="preserve">
+    <value>Page {0} of {1}</value>
+  </data>
+    <data name="forms-review-approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+    <data name="forms-review-reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+    <data name="forms-review-notes" xml:space="preserve">
+    <value>Notes for the submitter</value>
+  </data>
+    <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>Optional. Sent to the submitter with the decision.</value>
+  </data>
+    <data name="forms-review-filter-all" xml:space="preserve">
+    <value>All</value>
+  </data>
+    <data name="forms-status-pending" xml:space="preserve">
+    <value>Awaiting review</value>
+  </data>
+    <data name="forms-status-under-review" xml:space="preserve">
+    <value>Being reviewed</value>
+  </data>
+    <data name="forms-status-approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+    <data name="forms-status-rejected" xml:space="preserve">
+    <value>Declined</value>
+  </data>
+    <data name="forms-public-submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+    <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>Submitting is off while previewing</value>
+  </data>
+    <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>You are previewing this form. Nothing you enter here is saved.</value>
+  </data>
+    <data name="forms-public-progress" xml:space="preserve">
+    <value>{0} of {1} answered</value>
+  </data>
+    <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>Choose an option</value>
+  </data>
+    <data name="forms-public-success-default" xml:space="preserve">
+    <value>Your response has been submitted.</value>
+  </data>
+    <data name="forms-status-page-current" xml:space="preserve">
+    <value>Status</value>
+  </data>
+    <data name="forms-status-page-received" xml:space="preserve">
+    <value>Received</value>
+  </data>
+    <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>Submitted</value>
+  </data>
+    <data name="forms-status-page-edited" xml:space="preserve">
+    <value>Last edited</value>
+  </data>
+    <data name="forms-status-page-edit" xml:space="preserve">
+    <value>Edit my answers</value>
+  </data>
+    <data name="forms-response-edited" xml:space="preserve">
+    <value>Edited</value>
+  </data>
+    <data name="forms-response-edited-note" xml:space="preserve">
+    <value>Edited {0} time(s) since it was submitted, most recently {1}.</value>
+  </data>
+    <data name="forms-status-page-notes" xml:space="preserve">
+    <value>Notes from the reviewer</value>
+  </data>
+    <data name="forms-status-page-invite" xml:space="preserve">
+    <value>Your invite</value>
+  </data>
+    <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>Keep this link to check back on your response later.</value>
+  </data>
+    <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>Submitted anonymously</value>
+  </data>
+    <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>An anonymous form cannot change roles, because it does not record who submitted it.</value>
+  </data>
+    <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>Ban appeals and join applications cannot be anonymous, because approving one has to act on the person who submitted it.</value>
+  </data>
+    <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>This response was submitted anonymously, so there is nobody to act on.</value>
+  </data>
+    <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>Record responses anonymously</value>
+  </data>
+    <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>Submitters still sign in with Discord so the form can check who may submit, but their name and address are not stored. Approval actions cannot be used.</value>
+  </data>
+    <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>Roles to grant an approved applicant</value>
+  </data>
+    <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>Held for the applicant and given to them when they join through the invite.</value>
+  </data>
+    <data name="forms-status-anonymous" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+    <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>This form is anonymous. You are signed in so the server can check that you may submit, but your name is not stored with your answers.</value>
+  </data>
+    <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+    <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Has Discord Nitro</value>
+  </data>
+    <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Has Nitro</value>
+  </data>
+    <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Does not have Nitro</value>
+  </data>
+    <data name="forms-condition-logic" xml:space="preserve">
+    <value>Combine with</value>
+  </data>
+    <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>All conditions in this group</value>
+  </data>
+    <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>Any condition in this group</value>
+  </data>
+    <data name="forms-question-piping" xml:space="preserve">
+    <value>Quote earlier answers in this question</value>
+  </data>
+    <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>Write {{Q1}} in the question to show the answer given to question 1.</value>
+  </data>
+    <data name="forms-question-required-when" xml:space="preserve">
+    <value>Required only when</value>
+  </data>
+    <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>Always use the setting above</value>
+  </data>
+    <data name="forms-public-review-title" xml:space="preserve">
+    <value>Check your answers</value>
+  </data>
+    <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>Nothing has been submitted yet. Read your answers through, then send them.</value>
+  </data>
+    <data name="forms-public-review-continue" xml:space="preserve">
+    <value>Review answers</value>
+  </data>
+    <data name="forms-public-review-back" xml:space="preserve">
+    <value>Change answers</value>
+  </data>
+    <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>Send answers</value>
+  </data>
+    <data name="forms-questions-empty" xml:space="preserve">
+    <value>No questions yet. Add one to get started.</value>
+  </data>
+    <data name="forms-question-pick-type" xml:space="preserve">
+    <value>What kind of answer do you want?</value>
+  </data>
+    <data name="forms-question-edit-details" xml:space="preserve">
+    <value>Edit details</value>
+  </data>
+    <data name="forms-question-hide-details" xml:space="preserve">
+    <value>Hide details</value>
+  </data>
+    <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>Type your question here</value>
+  </data>
+    <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>Conditional</value>
+  </data>
+    <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>Quotes an answer</value>
+  </data>
+    <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>A single line of text</value>
+  </data>
+    <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>A longer, multi-line answer</value>
+  </data>
+    <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>One option from a list</value>
+  </data>
+    <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>Any number of options</value>
+  </data>
+    <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>One option from a menu</value>
+  </data>
+    <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>A number, optionally bounded</value>
+  </data>
+    <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>An email address</value>
+  </data>
+    <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>A link starting with http</value>
+  </data>
+    <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>Question {0} quotes its own answer, which does not exist yet when the question is asked.</value>
+  </data>
+    <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>Question {1} quotes question {0}, which is asked later. A question can only quote one that comes before it.</value>
+  </data>
+    <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>A question quotes question {0}, but this form only has {1} questions.</value>
+  </data>
+    <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>For people already in the server</value>
+  </data>
+    <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>Let banned people ask to come back</value>
+  </data>
+    <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>Let people outside apply to join</value>
+  </data>
+    <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>Appeals and applications are always reviewed.</value>
+  </data>
+    <data name="audit-category-session" xml:space="preserve">
+    <value>Sign in &amp; server</value>
+  </data>
+    <data name="audit-category-protection" xml:space="preserve">
+    <value>Protection</value>
+  </data>
+    <data name="audit-category-roles" xml:space="preserve">
+    <value>Roles &amp; self roles</value>
+  </data>
+    <data name="audit-category-tickets" xml:space="preserve">
+    <value>Tickets</value>
+  </data>
+    <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>Commands &amp; responders</value>
+  </data>
+    <data name="audit-category-verification" xml:space="preserve">
+    <value>Verification</value>
+  </data>
+    <data name="audit-category-logging" xml:space="preserve">
+    <value>Logging</value>
+  </data>
+    <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>Chat Bot</value>
+  </data>
+    <data name="audit-category-other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+    <data name="audit-category-unclassified" xml:space="preserve">
+    <value>No feature recorded</value>
+  </data>
+    <data name="audit-filter-title" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+    <data name="audit-filter-feature" xml:space="preserve">
+    <value>Feature</value>
+  </data>
+    <data name="audit-filter-actor" xml:space="preserve">
+    <value>Changed by</value>
+  </data>
+    <data name="audit-filter-period" xml:space="preserve">
+    <value>Time range</value>
+  </data>
+    <data name="audit-period-any" xml:space="preserve">
+    <value>Any time</value>
+  </data>
+    <data name="audit-period-24h" xml:space="preserve">
+    <value>Last 24 hours</value>
+  </data>
+    <data name="audit-period-7d" xml:space="preserve">
+    <value>Last 7 days</value>
+  </data>
+    <data name="audit-period-30d" xml:space="preserve">
+    <value>Last 30 days</value>
+  </data>
+    <data name="audit-period-90d" xml:space="preserve">
+    <value>Last 3 months</value>
+  </data>
+    <data name="audit-period-custom" xml:space="preserve">
+    <value>Custom range</value>
+  </data>
+    <data name="audit-filter-from" xml:space="preserve">
+    <value>From</value>
+  </data>
+    <data name="audit-filter-to" xml:space="preserve">
+    <value>To</value>
+  </data>
+    <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>Only entries with change details</value>
+  </data>
+    <data name="audit-filter-search" xml:space="preserve">
+    <value>Search summaries, names and values</value>
+  </data>
+    <data name="audit-sort" xml:space="preserve">
+    <value>Order</value>
+  </data>
+    <data name="audit-sort-newest" xml:space="preserve">
+    <value>Newest first</value>
+  </data>
+    <data name="audit-sort-oldest" xml:space="preserve">
+    <value>Oldest first</value>
+  </data>
+    <data name="audit-per-page" xml:space="preserve">
+    <value>Entries per page</value>
+  </data>
+    <data name="audit-results-range" xml:space="preserve">
+    <value>Showing {0} to {1} of {2}</value>
+  </data>
+    <data name="audit-results-none" xml:space="preserve">
+    <value>No entries match these filters.</value>
+  </data>
+    <data name="audit-results-empty" xml:space="preserve">
+    <value>Nothing has been changed from the dashboard yet.</value>
+  </data>
+    <data name="audit-detail-field" xml:space="preserve">
+    <value>Field</value>
+  </data>
+    <data name="audit-detail-before" xml:space="preserve">
+    <value>Was</value>
+  </data>
+    <data name="audit-detail-after" xml:space="preserve">
+    <value>Now</value>
+  </data>
+    <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>nothing</value>
+  </data>
+    <data name="audit-detail-changes" xml:space="preserve">
+    <value>{0} field(s) changed</value>
+  </data>
+    <data name="audit-target-label" xml:space="preserve">
+    <value>Affected</value>
+  </data>
+    <data name="audit-log-type-updated" xml:space="preserve">
+    <value>Updated logging for {0}</value>
+  </data>
+    <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>AutoMod Check</value>
+  </data>
+    <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>Ban Announcement</value>
+  </data>
+    <data name="audit-target-banner" xml:space="preserve">
+    <value>Banner</value>
+  </data>
+    <data name="audit-target-birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+    <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>Boost Announcement</value>
+  </data>
+    <data name="audit-target-economyboost" xml:space="preserve">
+    <value>Economy Boost</value>
+  </data>
+    <data name="audit-target-economyitem" xml:space="preserve">
+    <value>Economy Item</value>
+  </data>
+    <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>File Extensions</value>
+  </data>
+    <data name="audit-target-formresponse" xml:space="preserve">
+    <value>Form Response</value>
+  </data>
+    <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>Join Announcement</value>
+  </data>
+    <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>Leave Announcement</value>
+  </data>
+    <data name="audit-target-levelroles" xml:space="preserve">
+    <value>Level Roles</value>
+  </data>
+    <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>Link Whitelist</value>
+  </data>
+    <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>Message Similarity</value>
+  </data>
+    <data name="audit-target-samejoin" xml:space="preserve">
+    <value>Identical Joins</value>
+  </data>
+    <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>Seasonal Drops</value>
+  </data>
+    <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>Self Role Group</value>
+  </data>
+    <data name="audit-target-statchannel" xml:space="preserve">
+    <value>Statistic Channel</value>
+  </data>
+    <data name="audit-target-streakroles" xml:space="preserve">
+    <value>Streak Roles</value>
+  </data>
+    <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>Ticket Panel</value>
+  </data>
+    <data name="audit-glance-view-all" xml:space="preserve">
+    <value>Open the full log</value>
+  </data>
+    <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>Updated dashboard change alerts</value>
+  </data>
+    <data name="audit-alert-title" xml:space="preserve">
+    <value>Dashboard Change Alerts</value>
+  </data>
+    <data name="audit-alert-channel" xml:space="preserve">
+    <value>Dashboard Alert Channel</value>
+  </data>
+    <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>Where dashboard changes are announced. Leave as none to announce nothing.</value>
+  </data>
+    <data name="audit-alert-critical" xml:space="preserve">
+    <value>Always alert on access and log changes</value>
+  </data>
+    <data name="audit-alert-features" xml:space="preserve">
+    <value>Alert on changes in these features</value>
+  </data>
+    <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>Pick none to be alerted only about the changes above. Everything is recorded in the log either way.</value>
+  </data>
+    <data name="audit-entry-permalink" xml:space="preserve">
+    <value>Link to this entry</value>
+  </data>
+    <data name="audit-showing-one" xml:space="preserve">
+    <value>Showing a single entry.</value>
+  </data>
+    <data name="audit-show-all" xml:space="preserve">
+    <value>Show the whole log</value>
+  </data>
+    <data name="audit-group-summary" xml:space="preserve">
+    <value>{0} changes in one sitting</value>
+  </data>
+    <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>Deleted {0} entries from this log</value>
+  </data>
+    <data name="audit-achievement-added" xml:space="preserve">
+    <value>Created an achievement</value>
+  </data>
+    <data name="audit-achievement-updated" xml:space="preserve">
+    <value>Updated an achievement</value>
+  </data>
+    <data name="audit-banner-updated" xml:space="preserve">
+    <value>Updated the {0} banner</value>
+  </data>
+    <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>rank card</value>
+  </data>
+    <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>welcome</value>
+  </data>
+    <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>goodbye</value>
+  </data>
+    <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>Updated the roles given on join</value>
+  </data>
+    <data name="audit-announcement-updated" xml:space="preserve">
+    <value>Updated announcement: {0}</value>
+  </data>
+    <data name="audit-automod-feature" xml:space="preserve">
+    <value>Updated automod: {0}</value>
+  </data>
+    <data name="embed-preview-title" xml:space="preserve">
+    <value>Preview this embed</value>
+  </data>
+    <data name="embed-preview-none" xml:space="preserve">
+    <value>Pick a saved embed to preview it.</value>
+  </data>
+    <data name="ticket-automation-title" xml:space="preserve">
+    <value>Automation</value>
+  </data>
+    <data name="ticket-auto-remind" xml:space="preserve">
+    <value>Auto Remind</value>
+  </data>
+    <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>Nudge the ticket opener when they have not replied for a while.</value>
+  </data>
+    <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>Remind After (Days)</value>
+  </data>
+    <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>Auto Close On No Response</value>
+  </data>
+    <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>Close a ticket the opener has stopped replying to.</value>
+  </data>
+    <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>Close After (Days)</value>
+  </data>
+    <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>Auto Close When Opener Leaves</value>
+  </data>
+    <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>Remind after must be between 1 and 365 days.</value>
+  </data>
+    <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>Close after must be between 1 and 365 days.</value>
+  </data>
+    <data name="audit-ticket-automation" xml:space="preserve">
+    <value>Updated ticket automation settings</value>
+  </data>
+    <data name="ticket-manager-title" xml:space="preserve">
+    <value>Ticket Manager</value>
+  </data>
+    <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>View and act on this server&#x27;s support tickets.</value>
+  </data>
+    <data name="ticket-manager-empty" xml:space="preserve">
+    <value>No tickets have been opened on this server yet.</value>
+  </data>
+    <data name="ticket-manager-search" xml:space="preserve">
+    <value>Search tickets...</value>
+  </data>
+    <data name="ticket-column-channel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+    <data name="ticket-column-opener" xml:space="preserve">
+    <value>Opened By</value>
+  </data>
+    <data name="ticket-column-claimer" xml:space="preserve">
+    <value>Claimed By</value>
+  </data>
+    <data name="ticket-column-status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+    <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>Last Activity</value>
+  </data>
+    <data name="ticket-column-actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+    <data name="ticket-unclaimed" xml:space="preserve">
+    <value>Unclaimed</value>
+  </data>
+    <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>Waiting on staff</value>
+  </data>
+    <data name="ticket-no-activity" xml:space="preserve">
+    <value>No messages yet</value>
+  </data>
+    <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>Some tickets point at a channel that no longer exists. Deleting them clears the leftover rows.</value>
+  </data>
+    <data name="ticket-stat-stale" xml:space="preserve">
+    <value>Awaiting Staff</value>
+  </data>
+    <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>Median First Reply</value>
+  </data>
+    <data name="ticket-stat-none" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+    <data name="ticket-categories-title" xml:space="preserve">
+    <value>Ticket Categories</value>
+  </data>
+    <data name="ticket-categories-desc" xml:space="preserve">
+    <value>Tickets fill the lowest-numbered category that still has room. Discord caps a category at 50 channels.</value>
+  </data>
+    <data name="ticket-category-primary" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+    <data name="ticket-category-overflow" xml:space="preserve">
+    <value>Overflow #{0}</value>
+  </data>
+    <data name="ticket-category-missing" xml:space="preserve">
+    <value>Deleted from Discord</value>
+  </data>
+    <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 channels</value>
+  </data>
+    <data name="ticket-categories-empty" xml:space="preserve">
+    <value>No ticket categories exist yet. One is created when the first ticket is opened.</value>
+  </data>
+    <data name="ticket-action-close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+    <data name="ticket-action-reopen" xml:space="preserve">
+    <value>Reopen</value>
+  </data>
+    <data name="ticket-action-delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+    <data name="ticket-action-claim" xml:space="preserve">
+    <value>Claim</value>
+  </data>
+    <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>Unclaim</value>
+  </data>
+    <data name="ticket-action-add-user" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+    <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>Remove User</value>
+  </data>
+    <data name="ticket-action-remind" xml:space="preserve">
+    <value>Remind</value>
+  </data>
+    <data name="ticket-action-reply" xml:space="preserve">
+    <value>Anonymous Reply</value>
+  </data>
+    <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>Delete this ticket and its channel? This cannot be undone.</value>
+  </data>
+    <data name="ticket-action-user-label" xml:space="preserve">
+    <value>User</value>
+  </data>
+    <data name="ticket-action-message-label" xml:space="preserve">
+    <value>Message</value>
+  </data>
+    <data name="ticket-success-closed" xml:space="preserve">
+    <value>Ticket closed.</value>
+  </data>
+    <data name="ticket-success-reopened" xml:space="preserve">
+    <value>Ticket reopened.</value>
+  </data>
+    <data name="ticket-success-deleted" xml:space="preserve">
+    <value>Ticket deleted.</value>
+  </data>
+    <data name="ticket-success-claimed" xml:space="preserve">
+    <value>Ticket claimed.</value>
+  </data>
+    <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>Ticket unclaimed.</value>
+  </data>
+    <data name="ticket-success-user-added" xml:space="preserve">
+    <value>User added to the ticket.</value>
+  </data>
+    <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>User removed from the ticket.</value>
+  </data>
+    <data name="ticket-success-reminded" xml:space="preserve">
+    <value>Reminder sent to the ticket opener.</value>
+  </data>
+    <data name="ticket-success-replied" xml:space="preserve">
+    <value>Reply sent to the ticket.</value>
+  </data>
+    <data name="ticket-error-not-found" xml:space="preserve">
+    <value>That ticket no longer exists.</value>
+  </data>
+    <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>That ticket is already closed.</value>
+  </data>
+    <data name="ticket-error-already-open" xml:space="preserve">
+    <value>That ticket is already open.</value>
+  </data>
+    <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>That ticket&#x27;s channel no longer exists in Discord.</value>
+  </data>
+    <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>The bot could not carry out that action. Check its permissions on the ticket channel.</value>
+  </data>
+    <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>Could not send the reminder. The opener may have direct messages closed.</value>
+  </data>
+    <data name="ticket-error-message-required" xml:space="preserve">
+    <value>Enter a message to send.</value>
+  </data>
+    <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>A reply cannot be longer than 2000 characters.</value>
+  </data>
+    <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>Pick a valid user.</value>
+  </data>
+    <data name="ticket-close-web-note" xml:space="preserve">
+    <value>Closing from the dashboard does the same as closing in Discord: it locks the channel, saves the transcript, uploads the HTML copy, and sends the close DM and rating request.</value>
+  </data>
+    <data name="audit-ticket-closed" xml:space="preserve">
+    <value>Closed a ticket</value>
+  </data>
+    <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>Reopened a ticket</value>
+  </data>
+    <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>Deleted a ticket</value>
+  </data>
+    <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>Claimed a ticket</value>
+  </data>
+    <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>Unclaimed a ticket</value>
+  </data>
+    <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>Added a user to a ticket</value>
+  </data>
+    <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>Removed a user from a ticket</value>
+  </data>
+    <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>Sent a ticket reminder</value>
+  </data>
+    <data name="audit-ticket-replied" xml:space="preserve">
+    <value>Sent an anonymous ticket reply</value>
+  </data>
+    <data name="audit-target-ticket" xml:space="preserve">
+    <value>Ticket</value>
+  </data>
+    <data name="generic-word-open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+    <data name="generic-word-closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+    <data name="ticket-ticket" xml:space="preserve">
+    <value>Ticket:</value>
+  </data>
+    <data name="ticket-opened-by" xml:space="preserve">
+    <value>Ticket Opened By:</value>
+  </data>
+    <data name="ticket-saved-by" xml:space="preserve">
+    <value>Saved By:</value>
+  </data>
+    <data name="ticket-message-count" xml:space="preserve">
+    <value>Messages Count:</value>
+  </data>
+    <data name="ticket-reply-counts" xml:space="preserve">
+    <value>Reply Counts:</value>
+  </data>
+    <data name="ticket-rating" xml:space="preserve">
+    <value>Rating:</value>
+  </data>
+    <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>Sent, Pending Rating...</value>
+  </data>
+    <data name="ticket-rating-off" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+    <data name="ticket-closed-dm" xml:space="preserve">
+    <value>Your support ticket in {0} has been closed.
+            **Closed By:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+    <data name="ticket-success-transcript" xml:space="preserve">
+    <value>Transcript saved to the transcript channel.</value>
+  </data>
+    <data name="ticket-transcript" xml:space="preserve">
+    <value>Transcript</value>
+  </data>
+    <data name="ticket-rating-request" xml:space="preserve">
+    <value>**Please rate your experience with the staff member who helped you.**</value>
+  </data>
+    <data name="ticket-column-rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+    <data name="ticket-rating-none" xml:space="preserve">
+    <value>Not requested</value>
+  </data>
+    <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>Average Rating</value>
+  </data>
+    <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>Awaiting Rating</value>
+  </data>
+    <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>Send Ticket Panel</value>
+  </data>
+    <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+    <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>Send Panel</value>
+  </data>
+    <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>Ticket panel sent.</value>
+  </data>
+    <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>Pick a channel to send the panel to.</value>
+  </data>
+    <data name="ticket-open-default-message" xml:space="preserve">
+    <value>Click the button below to create a support ticket.</value>
+  </data>
+    <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>Sent a ticket panel</value>
+  </data>
+    <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>That panel no longer exists.</value>
+  </data>
+    <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>A server must keep at least one panel.</value>
+  </data>
+    <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>Pick a valid ticket type.</value>
+  </data>
+    <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>Pick a valid channel for threads.</value>
+  </data>
+    <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>Pick a channel for threads to open on, or this panel cannot create tickets.</value>
+  </data>
+    <data name="ticket-panel-created" xml:space="preserve">
+    <value>Panel created.</value>
+  </data>
+    <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>Panel deleted.</value>
+  </data>
+    <data name="ticket-mode-label" xml:space="preserve">
+    <value>Ticket Type</value>
+  </data>
+    <data name="ticket-mode-channel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+    <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>Private Thread</value>
+  </data>
+    <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>Public Thread</value>
+  </data>
+    <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>A public thread can be read by everyone who can see the parent channel.</value>
+  </data>
+    <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>Thread Channel</value>
+  </data>
+    <data name="ticket-panels-title" xml:space="preserve">
+    <value>Panels</value>
+  </data>
+    <data name="ticket-panel-add" xml:space="preserve">
+    <value>Add Panel</value>
+  </data>
+    <data name="ticket-panel-delete" xml:space="preserve">
+    <value>Delete Panel</value>
+  </data>
+    <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>Delete this panel? Tickets already opened from it keep working.</value>
+  </data>
+    <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>Posted in {0} channel(s)</value>
+  </data>
+    <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>Not posted yet</value>
+  </data>
+    <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>Update Posted Panels</value>
+  </data>
+    <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>Rewrites the panels already posted for this panel so they match the settings above.</value>
+  </data>
+    <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>Updated {0} posted panel(s).</value>
+  </data>
+    <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>Created a ticket panel</value>
+  </data>
+    <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>Deleted a ticket panel</value>
+  </data>
+    <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>Changed a ticket panel&#x27;s type</value>
+  </data>
+    <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>Updated posted ticket panels</value>
+  </data>
+    <data name="ticket-column-panel" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+    <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>All Panels</value>
+  </data>
+    <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>No Panel</value>
+  </data>
+    <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>Median Time To Close</value>
+  </data>
+    <data name="ticket-general-title" xml:space="preserve">
+    <value>General</value>
+  </data>
+    <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>A server can have up to {0} panels.</value>
+  </data>
+    <data name="ticket-closed-by" xml:space="preserve">
+    <value>Ticket closed by {0}</value>
+  </data>
+    <data name="ticket-reopened-by" xml:space="preserve">
+    <value>Ticket re-opened by {0}</value>
+  </data>
+    <data name="ticket-user-added" xml:space="preserve">
+    <value>Successfully added {0} to the ticket.
+            Requested by {1}</value>
+  </data>
+    <data name="ticket-user-removed" xml:space="preserve">
+    <value>Successfully removed {0} from the ticket.
+            Requested by {1}</value>
+  </data>
+    <data name="ticket-remind-body" xml:space="preserve">
+    <value>This is a reminder that your ticket in `{0}` is still open. Please respond if you still need assistance.</value>
+  </data>
+    <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt; sent a reminder to &lt;@{1}&gt;.</value>
+  </data>
+    <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>Support Team Reply</value>
+  </data>
+    <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>Ticket will be deleted in a few seconds.</value>
+  </data>
+    <data name="ticket-claimed-by" xml:space="preserve">
+    <value>Ticket claimed by {0}</value>
+  </data>
+    <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>Ticket unclaimed by {0}</value>
+  </data>
+    <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>This ticket is already claimed by {0}.</value>
+  </data>
+    <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>You must set a Support Team role for this panel first.</value>
+  </data>
+    <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>You must have the {0} role to do that.</value>
+  </data>
+    <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>This panel still has {0} open ticket(s). Close them first.</value>
+  </data>
+    <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>The panel this ticket belongs to has been deleted.</value>
+  </data>
+    <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>Messages older than this are not added to the starboard. 0 means no limit.</value>
+  </data>
+    <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>Where messages reported through the Report Message context menu are posted. Reporting is unavailable until one is set.</value>
+  </data>
+    <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Where timeouts applied outside the bot, such as through Discord itself, are logged. Leave as none to skip logging them.</value>
+  </data>
+    <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>Members with this role can view and edit server and public notes. Administrators and members with Manage Server always can.</value>
+  </data>
+    <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>Channel names and the stats message accept the usual server placeholders, so one name can hold several stats. See the &lt;strong&gt;&lt;a href='{0}' class='info'&gt;Placeholder Reference&lt;/a&gt;&lt;/strong&gt; for the full list.</value>
+  </data>
+    <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>A boost needs a name.</value>
+  </data>
+    <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>Custom Stat Channels</value>
+  </data>
+    <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>Voice channels named however you like, with any mix of stats in one name. The bot creates each one under the stats category and keeps it updated every 20 minutes. Up to 10.</value>
+  </data>
+    <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>Channel name template</value>
+  </data>
+    <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discord allows 100 characters for the finished channel name, placeholders count by what they turn into.</value>
+  </data>
+  <data name="stat-channel-message-embed-hint" xml:space="preserve">
+    <value>Posted with the message, every 20 minutes. The activity placeholders work inside the embed too, and the text above may be left empty.</value>
+  </data>
+  <data name="stat-channel-preview-label" xml:space="preserve">
+    <value>Will be named:</value>
+  </data>
+  <data name="stat-channel-preview-too-long" xml:space="preserve">
+    <value>Too long to save, shorten the text until the struck-out part is gone.</value>
+  </data>
+  <data name="stat-channel-preview-too-long-placeholders" xml:space="preserve">
+    <value>Too long to save. The struck-out part is what {0} turns into, so drop that or shorten the text around it.</value>
+  </data>
+    <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>Add Stat Channel</value>
+  </data>
+    <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>The channel will be created within 20 minutes.</value>
+  </data>
+    <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>Creating within 20 minutes</value>
+  </data>
+    <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>The channel name this template produces is over Discord's 100 character limit.</value>
+  </data>
+    <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>That custom stat channel no longer exists.</value>
+  </data>
+    <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>Added a custom stat channel.</value>
+  </data>
+    <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>Removed a custom stat channel.</value>
+  </data>
+    <data name="stat-channel-message-title" xml:space="preserve">
+    <value>Stats Message</value>
+  </data>
+    <data name="stat-channel-message-description" xml:space="preserve">
+    <value>Instead of channels, post one message the bot edits every 20 minutes with the latest numbers.</value>
+  </data>
+    <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>Leave empty for the default. Discord emote codes work here, including Cakey's own. Changing the channel posts a new message there; delete the old one yourself if you no longer want it.</value>
+  </data>
+    <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>Pick the channel the stats message is posted in.</value>
+  </data>
+    <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>Pinned Leaderboards</value>
+  </data>
+    <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>A leaderboard message the bot posts in a channel and keeps up to date every 15 minutes, so nobody needs to run /leaderboard. Up to 5 per server.</value>
+  </data>
+    <data name="leveling-period-label" xml:space="preserve">
+    <value>Period</value>
+  </data>
+    <data name="leveling-period-all-time" xml:space="preserve">
+    <value>All time</value>
+  </data>
+    <data name="leveling-period-weekly" xml:space="preserve">
+    <value>This week</value>
+  </data>
+    <data name="leveling-period-monthly" xml:space="preserve">
+    <value>This month</value>
+  </data>
+    <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>Members shown</value>
+  </data>
+    <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+    <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>Posting within 15 minutes</value>
+  </data>
+    <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>Add Leaderboard</value>
+  </data>
+    <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>The leaderboard will be posted within 15 minutes.</value>
+  </data>
+    <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>A leaderboard shows between 3 and 15 members.</value>
+  </data>
+    <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>Pick all time, this week or this month.</value>
+  </data>
+    <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>That pinned leaderboard no longer exists.</value>
+  </data>
+    <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>Added a pinned leaderboard.</value>
+  </data>
+    <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>Removed a pinned leaderboard.</value>
+  </data>
+    <data name="counting-milestones-title" xml:space="preserve">
+    <value>Milestone Roles</value>
+  </data>
+    <data name="counting-milestones-description" xml:space="preserve">
+    <value>Whoever posts one of these numbers is given the matching role. Up to 25 milestones.</value>
+  </data>
+    <data name="counting-milestone-count" xml:space="preserve">
+    <value>Number reached</value>
+  </data>
+    <data name="counting-milestone-role" xml:space="preserve">
+    <value>Role to award</value>
+  </data>
+    <data name="counting-milestone-add" xml:space="preserve">
+    <value>Add Milestone</value>
+  </data>
+    <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>The milestone number has to be at least 1.</value>
+  </data>
+    <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>There is already a milestone for that number.</value>
+  </data>
+    <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>Roles with Administrator, Manage Server or Manage Roles cannot be handed out by the counting game.</value>
+  </data>
+    <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>That milestone no longer exists.</value>
+  </data>
+    <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>Added a counting milestone.</value>
+  </data>
+    <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>Removed a counting milestone.</value>
+  </data>
+    <data name="ar-flag-hint" xml:space="preserve">
+    <value>How a message has to relate to the command text. The "Contains files", "From webhook" and mention options ignore the text and fire on any message with that property. Wildcard accepts * and ?; Regex is turned off automatically if the pattern is invalid.</value>
+  </data>
+    <data name="auto-message-time-hint" xml:space="preserve">
+    <value>On the hour, in the server timezone set under Bot Settings.</value>
+  </data>
+    <data name="auto-message-day-hint" xml:space="preserve">
+    <value>Every day, or only on one weekday.</value>
+  </data>
+    <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>Unique works like radio buttons: picking a role in the group swaps out the one they had. Multi-select lets a member hold several from the group at once.</value>
+  </data>
+    <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>Claiming one more than this drops the role they claimed longest ago.</value>
+  </data>
+    <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>Multiplies winnings from economy games while the boost is active. Several active boosts multiply together.</value>
+  </data>
+    <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>How many hours the boost lasts from the moment it is bought.</value>
+  </data>
+    <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>How many of this boost one member can hold at once. 0 means no limit.</value>
+  </data>
+    <data name="economy-data-hint-role" xml:space="preserve">
+    <value>The role given on purchase. It has to sit below Cakey's highest role and must not carry Administrator, Manage Server or Manage Roles.</value>
+  </data>
+    <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>Leveling XP added to the buyer on purchase, up to 1,000,000.</value>
+  </data>
+    <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>The role given on purchase and removed again after the number of hours set below.</value>
+  </data>
+    <data name="economy-data-hint-save" xml:space="preserve">
+    <value>How many counting saves one purchase grants, 1 to 100. A save is spent instead of resetting the count when the buyer makes a mistake.</value>
+  </data>
+    <data name="economy-max-user-hint" xml:space="preserve">
+    <value>How many of this item one member can own at once. 0 means no limit.</value>
+  </data>
+    <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>Shown in the shop and buyable. Turn off to keep the item but hide it, for example a prize only staff hand out.</value>
+  </data>
+    <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>Counting Save</value>
+  </data>
+    <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+    <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+    <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+    <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+    <data name="economy-data-save-count" xml:space="preserve">
+    <value>Saves per purchase</value>
+  </data>
+    <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>A counting save item must grant between 1 and 100 saves.</value>
+  </data>
+    <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>Decay DM Notifications</value>
+  </data>
+    <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>Sends members a DM when their XP decays. Each DM carries a button members can use to opt out for themselves.</value>
+  </data>
+    <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>Attachment Deleted</value>
+  </data>
+    <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>Deleted messages that carried a file or image are logged here instead of the Message Deleted channel. Leave as none to keep them together.</value>
+  </data>
+    <data name="suggestion-ping-role" xml:space="preserve">
+    <value>Suggestion Ping Role</value>
+  </data>
+    <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>Pinged whenever a new suggestion is posted. The role has to be mentionable, or the bot needs permission to mention any role.</value>
+  </data>
+    <data name="forms-question-badge-image" xml:space="preserve">
+    <value>Has an image</value>
+  </data>
+    <data name="forms-insert-emote" xml:space="preserve">
+    <value>Insert server emote</value>
+  </data>
+    <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>Skipping needs votes from more than half of the undeafened members in the voice channel. DJs, moderators and whoever requested the song can still skip outright.</value>
+  </data>
+    <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>XP stops accumulating once a member reaches this level.</value>
+  </data>
+    <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>Whoever claimed the last drop cannot claim the next one.</value>
+  </data>
+    <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>Hides the claim button among four decoys in a different spot each drop, so it cannot be clicked on reflex.</value>
+  </data>
+    <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>A random wait between these two values passes between drops.</value>
+  </data>
+    <data name="birthday-role-hint" xml:space="preserve">
+    <value>Given when the birthday is announced and removed again after 24 hours.</value>
+  </data>
+    <data name="server-timezone-hint" xml:space="preserve">
+    <value>Used for birthdays without their own timezone, daily content and scheduled auto messages.</value>
+  </data>
+    <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>Create a webhook under the channel's Integrations settings and paste its URL here. Posts are sent through it.</value>
+  </data>
+    <data name="feeds-thread-hint" xml:space="preserve">
+    <value>Only needed when posts should land in a thread or forum post under the webhook's channel. Leave empty otherwise.</value>
+  </data>
+    <data name="feeds-role-hint" xml:space="preserve">
+    <value>Pinged with every new post. Leave empty to ping nobody.</value>
+  </data>
+    <data name="feeds-color-hint" xml:space="preserve">
+    <value>Color of the side bar on the post embed.</value>
+  </data>
+    <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>Subreddit name only, without r/.</value>
+  </data>
+    <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>Direct link to the feed itself rather than the website. It usually ends in .xml, .rss or /feed.</value>
+  </data>
+    <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>Channel name as it appears after twitch.tv/ in the URL.</value>
+  </data>
+    <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>Link to the channel page, such as a youtube.com/@handle or /channel/ URL.</value>
+  </data>
+    <data name="tags-name-hint" xml:space="preserve">
+    <value>The name members use to call this tag. Keep it short and memorable.</value>
+  </data>
+    <data name="tags-response-hint" xml:space="preserve">
+    <value>What the bot replies with when the tag is used.</value>
+  </data>
+    <data name="ar-trigger-hint" xml:space="preserve">
+    <value>The text to look for in messages. Letter case is ignored and the match type below sets how strict it is.</value>
+  </data>
+    <data name="ar-response-hint" xml:space="preserve">
+    <value>Sent when a message matches. Combine it with an embed or leave it empty to send only the embed.</value>
+  </data>
+    <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>Where the scheduled message is posted.</value>
+  </data>
+    <data name="auto-message-message-hint" xml:space="preserve">
+    <value>Posted at the chosen time in the channel above.</value>
+  </data>
+    <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>Only announcement channels can be picked. Every message posted there is published to following servers.</value>
+  </data>
+    <data name="self-role-role-hint" xml:space="preserve">
+    <value>The role members can give themselves.</value>
+  </data>
+    <data name="self-role-description-hint" xml:space="preserve">
+    <value>Shown next to the role in the picker so members know what it is for.</value>
+  </data>
+    <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>Members below this level cannot pick the role. 0 disables the check.</value>
+  </data>
+    <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>Daily streak members need before they can pick the role. 0 disables the check.</value>
+  </data>
+    <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>Members must already have this role before they can pick the new one.</value>
+  </data>
+    <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>Shown as the title of the picker.</value>
+  </data>
+    <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>Shown under the title to explain what the group is for.</value>
+  </data>
+    <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>Only members with this role can pick from the group.</value>
+  </data>
+    <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>Only members at or above this level can pick from the group.</value>
+  </data>
+    <data name="suggestion-status-hint" xml:space="preserve">
+    <value>Updates the status shown on the suggestion post.</value>
+  </data>
+    <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>Shown on the suggestion post together with the decision. Optional.</value>
+  </data>
+    <data name="wl-subscription-hint" xml:space="preserve">
+    <value>The custom bot subscription this server should use.</value>
+  </data>
+    <data name="wl-token-hint" xml:space="preserve">
+    <value>Bot token from the Bot tab of your application in the Discord Developer Portal. Keep it secret.</value>
+  </data>
+    <data name="economy-item-name-hint" xml:space="preserve">
+    <value>Shown in the shop and in purchase messages.</value>
+  </data>
+    <data name="economy-item-description-hint" xml:space="preserve">
+    <value>Shown under the name in the shop so buyers know what they get.</value>
+  </data>
+    <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>Price in your server currency. Buyers need at least this much to purchase.</value>
+  </data>
+    <data name="economy-item-type-hint" xml:space="preserve">
+    <value>What the buyer receives. The fields below change depending on the type.</value>
+  </data>
+    <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>Used to find the preset later when applying it.</value>
+  </data>
+    <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>How many hours the buyer keeps the role, counted from the purchase.</value>
+  </data>
+    <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>No announcement channels found. Create one in Discord first.</value>
+  </data>
+    <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>Sends the embed through this webhook instead of the bot, using the webhook's name and avatar.</value>
+  </data>
+    <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>Sender profiles</value>
+  </data>
+    <data name="embed-builder-send-as" xml:space="preserve">
+    <value>Send as</value>
+  </data>
+    <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>The bot</value>
+  </data>
+    <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>Manage sender profiles</value>
+  </data>
+    <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>A sender profile posts the message through a webhook under its own name and avatar. The bot needs Manage Webhooks in the channel.</value>
+  </data>
+    <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+    <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>Shown as the author of the message, up to 80 characters. Discord refuses names containing "discord" or "clyde".</value>
+  </data>
+    <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>Avatar URL</value>
+  </data>
+    <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>Direct link to a PNG, JPG or GIF. Leave empty to keep the bot's avatar.</value>
+  </data>
+    <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>Saved webhook URL</value>
+  </data>
+    <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>Optional. When set, messages sent as this profile go to this webhook instead of a channel, still under the name and avatar above.</value>
+  </data>
+    <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>New profile</value>
+  </data>
+    <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>Save profile</value>
+  </data>
+    <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>No sender profiles yet.</value>
+  </data>
+    <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>Delete this sender profile?</value>
+  </data>
+    <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>Sender profile saved.</value>
+  </data>
+    <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>Sender profile deleted.</value>
+  </data>
+    <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>Enter a display name of up to 80 characters.</value>
+  </data>
+    <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discord does not allow sender names containing "discord" or "clyde".</value>
+  </data>
+    <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>The avatar must be an http or https link of up to 512 characters.</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>A server can have up to 25 sender profiles.</value>
+  </data>
+    <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>That sender profile no longer exists.</value>
+  </data>
+    <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>APP</value>
+  </data>
+    <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>Send to channel</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>Import / export JSON</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>Message text</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>Text sent above the embed</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>Only used when sending from this page. It is not saved with the embed, and features that post the saved embed do not include it.</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>Save as new</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>Update selected</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>Welcome to {server.name}!</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>This is a sample embed to show what the builder can do. Try **bold**, *italics*, `code`, a [link](https://cakey.bot), and placeholders like {user.mention}. Everything here can be edited or cleared, and channel mentions and custom emotes work too.</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>Server members</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>Server roles</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Made with the Cakey Bot embed builder</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>Must be a full link starting with http:// or https://.</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0} is not a valid link.</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>This image could not be loaded. Check the link.</value>
+  </data>
+    <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>Created a sender profile</value>
+  </data>
+    <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>Updated a sender profile</value>
+  </data>
+    <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>Deleted a sender profile</value>
+  </data>
+    <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>Placeholders such as {user.username} are shown here with this server's values and you as the user. The saved embed keeps them as written and the bot fills them in when it posts.</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

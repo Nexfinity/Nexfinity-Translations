@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>GIFのみ</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>メディアのみ</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>ファイルのみ</value>
   </data>
@@ -1126,9 +1129,6 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-birthday-role" xml:space="preserve">
     <value>誕生日ロールの更新: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>{0}の誕生日のタイムゾーンを更新しました</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>誕生日</value>
   </data>
@@ -1141,11 +1141,17 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>任意 — この人の誕生日チェックにのみ、サーバーのタイムゾーンを上書きします。</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>{0}の誕生日のタイムゾーンを更新しました</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>スワップド・カラー</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>左の色</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>参加時の色</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>レベルアップ時の役割の削除</value>
@@ -1204,6 +1210,27 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="chat-bot-title" xml:space="preserve">
     <value>AIチャットボット</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>AIモデル</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>チャットボットが応答を生成するために使用するOpenAIモデルです。上位ティアではより高性能なモデルが利用可能になります。</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>無料</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>プレミアム</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>カスタムボット</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>APIキー</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>このモデルにはより高いサブスクリプションティアが必要です。</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>ボイスレベリング有効</value>
   </data>
@@ -1231,7 +1258,7 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="suggestion-page-title" xml:space="preserve">
     <value>提案</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>提案チャンネルが設定されていないため、メンバーはまだ提案を作成できず、ここで保存した決定もDiscordのメッセージに反映できません。両方を解決するには、以下でチャンネルを設定してください。</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>無視されたアチーブメント チャンネルを更新しました。</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>無視される実績ロールを更新しました。</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>実績解除メッセージを更新しました。</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>複数の実績を一度に有効または無効にしました。</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>セルフロール</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>下の「セルフロールを追加」ボタンを使って新しいセルフロールを作成してください。</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>セルフロールが見つかりません。上の「セルフロールを追加」ボタンから作成してください。</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>ロールグループはまだありません。グループを使うと、複数のセルフロールを排他的にできます。</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>値 ({0}) は数値である必要があります。</value>
@@ -1876,6 +1918,9 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>サブスクリプション</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>OAuthアカウントの連携を解除しました。({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>OAuth統合設定を変更しました。({0})</value>
   </data>
@@ -1950,6 +1995,48 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>閉じる</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>会員数</value>
@@ -2083,6 +2170,12 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Semicolon separated list</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>投稿後に削除</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>有効にすると、重複を防ぐためにリストから項目が削除されます。このデータは復元できないため、この機能を有効にする前にデータの保存済みコピーがあることを確認してください。</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>スレッドを作成</value>
   </data>
@@ -2115,6 +2208,24 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>初期バランス</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>デイリー最小額</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>デイリー最大額</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>ウィークリー最小額</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>ウィークリー最大額</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>マンスリー最小額</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>マンスリー最大額</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>ユーザーがサーバーを離れる時にバランスを削除</value>
@@ -2230,11 +2341,119 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>レベルXに到達する。</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>特定のロールを取得する。</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>GIFをX個送信する。</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>スタンプをX個送信する。</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>X回タイムアウトされる。</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>X分間配信する。</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>このサーバーのタグを着用する。</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>このチャンネルでのみカウントする</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>サーバー内のどこでもカウントする場合は空欄にしてください。進捗はチャンネルごとに保存されるため、これは後で変更できません。</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>取得するロール</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>ティアの階段</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>階段の各段に同じ名前を付け、下で番号を付けてください。上位の段に到達すると、その下の段もすべて授与されます。</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>段</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>この実績の解除メッセージ</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>この実績のみサーバーの解除メッセージを上書きします。サーバーのものを使用する場合は空欄にしてください。</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>実績設定</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>解除メッセージ</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>デフォルトの文言にする場合は空欄にしてください。プレースホルダー：{achievement.name}、{achievement.description}、{user.achievement.count}、{achievement.owners.count}、およびすべての基本プレースホルダー。</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>プレースホルダーの一覧を見る</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>無視されるロール</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>これらのロールのいずれかを持つメンバーは実績への進捗を得られません</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>変更された実績</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>まず少なくとも1つの実績を選択してください</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>この実績を獲得することになるロールを選択してください</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>段は1から20までの数字である必要があります</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>実績がカウントされるチャンネルまたはロールは、作成後に変更できません</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>セカンダリデータ</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>一時ロール</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>一時的なBAN</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>一時的なロール</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>このサーバーでアクティブな一時的なBANはありません。</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>このサーバーでアクティブな一時的なロールはありません。</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>BANとロールは一緒に選択できます。終了すると、両方のリストで選択したすべてに適用されます。</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>今すぐ終了</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>選択した{0}件のBANを今すぐ終了しますか？ボットはまもなくそれらを解除します。</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>選択した{0}件のロールを今すぐ終了しますか？ボットはまもなくそれらを取り消します。</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0}件の項目が今すぐ終了するよう設定されました</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>今すぐ終了するよう設定されました。ボットはまもなく処理します。</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>DMリマインダーを送信</value>
@@ -2388,9 +2607,6 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>最大所有数（ユーザーあたり）</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>最大所有数 0 = 無制限</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>釣り</value>
@@ -2788,6 +3004,24 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Lifetimeプレミアムを購入</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>LIFETIME カスタムボット</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>自分だけのブランド化されたカスタムボットを、一度きりの支払いだけで手に入れよう。継続的なサブスクリプションは一切不要です。</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>注意：これは厳密に数量限定のオファーです。残り枠がなくなり次第、このお得な機会は永久になくなります。</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>LIFETIME カスタムボットを購入</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>残り{0}個</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>売り切れ</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>プラン比較</value>
   </data>
@@ -2874,6 +3108,9 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>バン同期プールサーバー</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>カウントマイルストーンロール</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>無制限のRSS/ソーシャルフィード</value>
@@ -3279,15 +3516,6 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>おとりチャンネルを設定すれば、そこに投稿されたメッセージは自動的に選択した処罰を発動させ、レイドボットや詐欺ボットがサーバーを荒らす前に検出するのに役立ちます。</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>正確な数字のみ</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>正確な数字または数式</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>数式のみ</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>修正するカスタムボットを選択する必要があります。</value>
@@ -4390,6 +4618,39 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>セルフロールが見つからないか、このギルドに属していません</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>セルフロールは最大{0}個までです</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>そのロールはすでにセルフロールとして登録されています</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>ロールグループが見つからないか、このサーバーに属していません</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>グループ名は必須です</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>その名前のグループはすでに存在します</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>複数選択グループの最大ロール数は{0}〜{1}の範囲で指定してください</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>セルフロール {0} を追加しました</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>セルフロール {0} を更新しました</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>ロールグループ '{0}' を追加しました</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>ロールグループ '{0}' を更新しました</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>ロールグループ '{0}' を削除しました</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>ダッシュボードアクセスの追加中にエラーが発生しました</value>
   </data>
@@ -4735,8 +4996,35 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>最大残高は0より大きい必要があります</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>最大残高は1000000000未満である必要があります</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>最大残高は{0}未満である必要があります</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>デイリー最小額は1から{0}の間である必要があります。</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>デイリー最大額は1から{0}の間である必要があります。</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>デイリー最大額はデイリー最小額より大きくする必要があります。</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>ウィークリー最小額は1から{0}の間である必要があります。</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>ウィークリー最大額は1から{0}の間である必要があります。</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>ウィークリー最大額はウィークリー最小額より大きくする必要があります。</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>マンスリー最小額は1から{0}の間である必要があります。</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>マンスリー最大額は1から{0}の間である必要があります。</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>マンスリー最大額はマンスリー最小額より大きくする必要があります。</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>最大レベルは0より大きい必要があります</value>
@@ -5026,6 +5314,12 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>プレミアムがサーバーで正常に有効化されました</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>このサーバーでプレミアムが有効化されました（{0}）</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>このサーバーからプレミアムが削除されました（{0}）</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>プレミアムがサーバーから正常に無効化されました</value>
   </data>
@@ -5230,6 +5524,9 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>nagbarの却下中にエラーが発生しました</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>バナーデザイン</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>無効なバナータイプです</value>
   </data>
@@ -5413,8 +5710,26 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>自動メッセージ {0} を有効化しました</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>{0}件の自動メッセージを有効化しました</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>{0}件の自動メッセージを無効化しました</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>{0}件の自動メッセージを削除しました</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>自動応答 {0} を有効化しました</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>{0}件の自動応答を有効化しました</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>{0}件の自動応答を無効化しました</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>{0}件の自動応答を削除しました</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>{0} 個の自動応答をインポートしました</value>
@@ -5427,6 +5742,12 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Twitchフィード {0} を変更しました</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>フィードを有効化しました</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>フィードを無効化しました</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>YouTubeフィード {0} を変更しました</value>
@@ -5547,6 +5868,63 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>タグ {0} を {1} しました</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>他{0}件</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>{0}件の一時的なBANを終了しました</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>{0}件の一時的なロールを終了しました</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>{0}件の自動公開チャンネルを削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>{0}件の警告を削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>{0}件の誕生日を削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>{0}件のAFKエントリを削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>{0}件のセルフロールを削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>{0}件の永続ロールを削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>{0}件のショップアイテムを削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>{0}件のブーストを削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>{0}件のフィードを削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>{0}件のダッシュボードログエントリを削除しました</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>{0}件のエントリを削除しました</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>{0}件のフィードを有効化しました</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>{0}件のフィードを無効化しました</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>{0}件のタグを有効化しました</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>{0}件のタグを無効化しました</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>{0}件のタグを削除しました</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>有効</value>
@@ -5775,45 +6153,6 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>セルフロールを検索...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>セルフロールが見つかりません。上の「セルフロールを追加」ボタンから作成してください。</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>ロールグループはまだありません。グループを使うと、複数のセルフロールを排他的にできます。</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>セルフロールは最大{0}個までです</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>そのロールはすでにセルフロールとして登録されています</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>ロールグループが見つからないか、このサーバーに属していません</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>グループ名は必須です</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>その名前のグループはすでに存在します</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>複数選択グループの最大ロール数は{0}〜{1}の範囲で指定してください</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>セルフロール {0} を追加しました</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>セルフロール {0} を更新しました</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>ロールグループ '{0}' を追加しました</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>ロールグループ '{0}' を更新しました</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>ロールグループ '{0}' を削除しました</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>セルフロールを追加</value>
@@ -6229,9 +6568,6 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>ページを更新しないでください。</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>エンベッドエディタ</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>保存されたエンベッドが見つかりません。</value>
   </data>
@@ -6256,27 +6592,6 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>保存済みエンベッド</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>新規/未保存</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>新規として保存</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>名前変更</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>削除</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>このエンベッドに名前をつけてください:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>保存済みエンベッドの名前を変更してください:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>この保存済みエンベッドを削除しますか？取り消せません。</value>
   </data>
@@ -6286,17 +6601,8 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>エンベッドの名前変更</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>エンベッドを削除</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>エンベッドを送信</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>エンベッドを送信</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>チャンネル</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>代わりに Webhook URL に送信</value>
@@ -6307,7 +6613,7 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+  <data name="generic-word-send" xml:space="preserve">
     <value>送信</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6324,6 +6630,21 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discordはそのウェブフックに送信されたEmbedを拒否しました。</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>埋め込みの内容</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>埋め込みを保存しました</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>保存済みの埋め込みを更新しました</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>保存済みの埋め込みの名前を変更しました</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>保存済みの埋め込みを削除しました</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>ウェブフックにEmbedを送信しました。</value>
@@ -6510,6 +6831,15 @@ Amari方式 - 二次関数: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>地雷原</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>デイリー</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>ウィークリー</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>マンスリー</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>支払い</value>
@@ -6874,6 +7204,174 @@ OpenAI APIキーを取得するには、OpenAIアカウントを作成し、[こ
   <data name="rp-feature-wink" xml:space="preserve">
     <value>ウインク</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>カウントゲーム</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>キャッシュのため、変更がDiscordに反映されるまで最大30秒かかることがあります。</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>カウントチャンネル</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>正確な数字のみ</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>正確な数字または数式</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>数式のみ</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>連続カウントを禁止</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>ミス時にリセット</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>失敗時のロール</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>現在のカウント</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>現在のカウンター</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>最高カウント</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>失敗時のロールを@everyoneロールにすることはできません。</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>失敗時のロールの期間</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>永続</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>失敗時のロールを永続的に付与したままにする場合は空欄または0にしてください。最大43200分（30日）。</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>失敗時のロールの期間は0から43200分の間である必要があります。</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>無視されるロール</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>無視されるロールを@everyoneロールにすることはできません。</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>このサーバーではカウントゲームがまだ設定されていません。</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>現在のカウントをリセット</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>カウントが今失敗したかのように、現在のカウントを即座に0にリセットします。歴代最高記録には影響しません。</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>現在のカウントを0にリセットしてもよろしいですか？これは元に戻せません。</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>カウントをリセット</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>現在のカウントが0にリセットされました。</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>カスタム失敗メッセージ</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>カウントがリセットされたときに、デフォルトの失敗メッセージの代わりに送信されます。デフォルトのメッセージを使用する場合は、下の両方のフィールドを空欄にしてください。</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>メッセージ</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>デフォルトの失敗メッセージを使用する場合は空欄にしてください</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>カスタム失敗埋め込み</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>変更を保存</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>カウントゲームの設定を更新しました</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>カウントゲームの現在のカウントを強制的にリセットしました</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>カウントゲームのカスタム失敗メッセージを更新しました</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>カウントゲームの設定を読み込めませんでした。</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>カスタムメッセージ</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>通知とともに送信される任意のメッセージ...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>利用可能なプレースホルダー：{link}、{channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>利用可能なプレースホルダー：{link}、{subreddit}、{title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>利用可能なプレースホルダー：{link}、{streamer}、{title}、{game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>利用可能なプレースホルダー：{link}、{title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>フォーラムの自動アーカイブ解除</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>ボットがスレッドを自動的にアーカイブ解除するには、監視対象の各フォーラムチャンネルで「スレッドの管理」権限が必要です。</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>フォーラムチャンネル1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>フォーラムチャンネル2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>同じチャンネルを2回選択することはできません。</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>フォーラムの自動アーカイブ解除の設定を読み込めませんでした。</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>フォーラムの自動アーカイブ解除の設定を更新しました</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>{0}のBAN期間</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>永続</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>永続的なBANにする場合は空欄または0にしてください。最大720時間（30日）。</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>BAN期間は0から720時間の間である必要があります。</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>ボットステータス</value>
   </data>
@@ -6942,5 +7440,3444 @@ OpenAI APIキーを取得するには、OpenAIアカウントを作成し、[こ
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>チケットパネル名を更新しました</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>フォームには名前が必要です。</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>そのチャンネルはこのサーバーにありません。</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>そのロールはこのサーバーにありません。</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>フォーム名は{0}文字以下である必要があります。</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>フォームの説明は{0}文字以下である必要があります。</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>成功メッセージは{0}文字以下である必要があります。</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>回答数の上限は1以上である必要があります。</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>最小アカウント年齢を負の値にすることはできません。</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>締め切り日は未来である必要があります。</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>招待の使用回数は0から100の間である必要があります。</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>招待の有効期間は0から7日の間である必要があります。</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>各質問にはテキストが必要です。</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>質問は{0}文字以下である必要があります。</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>最小長は最大長より大きくすることはできません。</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>最小値は最大値より大きくすることはできません。</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>この質問タイプには少なくとも1つの選択肢が必要です。</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>1つの質問には最大{0}個の選択肢を設定できます。</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>各選択肢にはラベルが必要です。</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>選択肢のラベルは{0}文字以下である必要があります。</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>1つの質問内の選択肢は一意である必要があります。</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>条件のうち1つで設定の一部が欠けています。</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>質問は自分自身の回答に依存することはできません。</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>質問はそれより前にある質問にのみ依存できます。</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>1つのフォームには最大{0}個の質問を設定できます。</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>保存する前に少なくとも1つの質問を追加してください。</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>フォームを読み込めませんでした。しばらくしてから再試行してください。</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>そのフォームはもう存在しません。</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>公開する前に少なくとも1つの質問を追加してください。</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>このフォームはまだ公開されていません。</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>このフォームは回答を受け付けていません。</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>このフォームは終了しました。</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>このフォームは回答数の上限に達しました。</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>このフォームはすでに送信済みです。</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>このフォームを送信するには、Discordアカウントが少なくとも{0}日前に作成されている必要があります。</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>このフォームを送信するには、このサーバーのメンバーである必要があります。</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>あなたはこのサーバーからBANされていないため、異議申し立てるものがありません。</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>メニューを折りたたむ</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>メニューを展開する</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>{0}件選択中</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>有効化</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>無効化</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>削除の確認</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>選択した{0}件の項目を削除しますか？これは元に戻せません。</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>{0}件の項目を有効化しました</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>{0}件の項目を無効化しました</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>{0}件の項目を削除しました</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>選択した項目を更新できませんでした。</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>項目をクリックして選択してください</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>その保存済みバージョンはもう存在しません。</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>その保存済みバージョンを読み取れず、復元できません。</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>フォームが作成されました</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>質問{0}が追加されました</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>質問が削除されました</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>質問{0}が削除されました</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>質問{0}：{1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>変更なしで保存されました。</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>さらに{0}件の変更を表示</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>表示を減らす</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>変更内容</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>履歴</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>バージョン履歴</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>このフォームの直近{0}回の保存。バージョンの復元自体も保存であるため、元に戻すことができます。</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>まだ保存されたバージョンはありません。次回このフォームが保存されると、ここにバージョンが保持されます。</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>バージョン{0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>質問数：{0}</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>復元</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>このバージョンを復元しますか？フォームはこの保存時点の状態に戻ります。</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>フォームがそのバージョンに復元されました。</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>削除された質問</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>プレースホルダーテキストは{0}文字を超えることはできません。</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>ドラッグして並べ替え</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>保存されていない変更があります。このページを離れて破棄しますか？</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>送信した他のすべてとともに、いつでもここに戻ってくることができます。</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>マイフォーム送信履歴</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>これまでに送信したすべてのフォームと、その現在の状況です。</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>まだ送信はありません</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>送信したフォームはここに表示され、後で確認できます。</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>送信日時 {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>匿名で回答を収集するフォームは、送信者情報なしで保存されるため、ここには表示されません。</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>ユーザーカスタマイズ</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>この機能は近日公開予定です。後でもう一度確認してください！</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>キャプチャを要求する</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>フォームが受理される前に、送信者はCloudflare Turnstileチャレンジに合格する必要があります。</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>このフォームに入力するにはDiscordでログインしてください。すぐにここに戻ってきます。</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>Discordでログイン</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>{0}からのフォームです。入力するにはDiscordでログインしてください。</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>回答は匿名です。</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>送信する前に人間であることを確認してください。</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>キャプチャを検証できませんでした。ページを再読み込みして、もう一度お試しください。</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>サーバー外の人を許可する</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>メンバーでなくても、リンクを持っている人なら誰でも送信できます。BAN異議申し立てと参加申請は常にこれを許可します。</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>却下後の再申し立てをブロックする</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>却下された異議申し立ては最終であり、ユーザーは別の申し立てを送信できません。</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>最大異議申し立て回数</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>ユーザーがそれ以上異議申し立てできなくなるまでに何回却下された異議申し立てに達するか。上限なしにする場合は空欄にしてください。</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>却下後の待機時間（日）</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>却下された異議申し立ての後、再度異議申し立てするまでにユーザーが待つ必要がある時間。待機なしの場合は空欄にしてください。</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>BAN後の待機時間（日）</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>BANされてから最初の異議申し立てまでにユーザーが待つ必要がある時間。待機なしの場合は空欄にしてください。Discordは監査ログの履歴を一定期間しか保持しないため、これは古いBANには適用できません。</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>以前の異議申し立てはまだ審査中です。再度異議申し立てする前に決定をお待ちください。</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>あなたの異議申し立ては却下され、このサーバーはこれ以上の異議申し立てを受け付けていません。</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>このサーバーに対する{0}回の異議申し立てをすべて使用しました。</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>{0}日後に再度異議申し立てできます。</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>このサーバーはまだ異議申し立てを受け付けていません。{0}日後に異議申し立てできます。</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>あなたはすでにこのサーバーのメンバーです。</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>あなたはこのフォームが必要とするロールを持っていません。</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>この質問には回答が必要です。</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>この回答は少なくとも{0}文字である必要があります。</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>この回答は{0}文字以下である必要があります。</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>この回答は数値である必要があります。</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>この回答は少なくとも{0}である必要があります。</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>この回答は最大{0}にできます。</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>有効なメールアドレスを入力してください。</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>httpまたはhttpsで始まる有効なリンクを入力してください。</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>その選択は提供された選択肢の中にありません。</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>少なくとも{0}個の選択肢を選んでください。</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>最大{0}個の選択肢を選んでください。</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>その回答はもう存在しません。</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>この回答は審査プロセスの一部ではありません。</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>この回答はすでに決定済みです。</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>この回答には関連付けられたDiscordユーザーがいません。</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>BAN解除に失敗しました。ボットがBANを管理できることを確認してください。</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>招待を作成できませんでした。ボットが招待を作成できることを確認してください。</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0}（コピー）</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>回答なし</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>{0}によって送信されました</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>回答 #{0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>あなたの回答は承認されました。</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>あなたの回答は却下されました。</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>回答ID</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>ユーザーID</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>送信日時</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>未審査</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>フォームが保存されました</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>フォームが公開されました</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>フォームは現在回答を受け付けています</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>フォームは回答の受付を停止しました</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>フォームが複製されました</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>フォームが削除されました</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>回答が削除されました</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>回答が承認されました</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>回答が却下されました</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>フォームを作成しました</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>フォームを更新しました</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>フォームを以前のバージョンに復元しました</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>フォームを公開しました</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>フォームを回答受付のために開きました</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>フォームを回答受付のために閉じました</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>フォームを複製しました</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>フォームを削除しました</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>フォームの回答を削除しました</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>フォームの回答を承認しました</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>フォームの回答を却下しました</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>フォーム</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>メンバーがリンクから入力するフォームを作成し、ここで回答を収集します。</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>フォームを作成</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>まだフォームがありません</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>最初のフォームを作成して回答の収集を始めましょう。</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>回答</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>審査待ち</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>下書き</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>リンクをコピー</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>公開</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>「{0}」と、それが収集したすべての回答を削除しますか？これは元に戻せません。</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>この回答を削除しますか？これは元に戻せません。</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>コピーしました</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>フォームを編集</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>新しいフォーム</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>フォーム設定</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>審査設定</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>回答を承認する必要がある場合、およびBAN異議申し立てと参加申請に使用されます。</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>送信先チャンネル</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>送信に必要なロール</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>回答数の上限</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>締め切り</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>最小アカウント年齢（日）</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>新しいアカウントをブロックします。サーバー外の人に開放されたフォームで有用です。</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>送信後に表示されるメッセージ</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>中断した箇所から再開しました。ページ間を移動する間、回答は保存されます。</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>ページを追加</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>ページ{0}</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>すべてのページ</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>無題のページ</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>ページタイトル</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>ページの導入</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>ページを削除</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>このページに見出しを追加</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>前に移動</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>後に移動</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>ドラッグしてページを並べ替え</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>あなたの回答を受け取りました。</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>ここで確認</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>送信内容を表示</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>変更が保存されました。</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>長すぎてここに表示できません</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>埋め込みビルダー</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>埋め込みを含むメッセージを作成し、Discordでの表示を確認します。</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>保存済みの埋め込みを選択</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>読み込み</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>JSONを適用</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>ライブプレビュー</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>この埋め込みに名前を付ける</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>作成者</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>本文</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>フィールド</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>フッター</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>作成者名</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>作成者のリンク</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>作成者のアイコン</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>タイトルのリンク</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>埋め込みの説明</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>アクセントカラー</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>大きな画像</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>サムネイル</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>フッターのテキスト</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>フッターのアイコン</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>タイムスタンプを表示</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>フィールド名</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>フィールドの値</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>横並び</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>フィールドを追加</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>埋め込み</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>埋め込みを追加</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>この埋め込みを削除</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>まだ表示するものがありません。入力を始めるとここに表示されます。</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>埋め込みを読み込みました。</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>埋め込みを保存しました。</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>埋め込みの名前を変更しました。</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>埋め込みを削除しました。</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>まず埋め込みに名前を付けてください。</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>まず保存済みの埋め込みを選択してください。</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>送信先のチャンネルを選択してください。</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>「{0}」 - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>現在、画像の回答を受け付けられません。</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG、JPEG、GIF、またはWebP、最大{0}MB。</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>アップロード中…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>画像アップロード</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>フォームに入力する人が画像を添付します。</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>画像は{0}MB未満である必要があります。</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>そのファイルは画像として読み取れませんでした。</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>その画像は処理するにはピクセル数が多すぎます。</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>その画像を保存できませんでした。もう一度お試しください。</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>さらに{0}件の回答がダッシュボードにあります。</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>ユーザーごとに複数回の送信を許可する</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>フォームの種類</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>回答は承認される必要がある</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>承認時</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>承認時に変更するロール</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>承認時に追加するロール</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>承認時に削除するロール</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>却下時に追加するロール</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>却下時に削除するロール</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>決定</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>{0}によって承認</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>{0}によって却下</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>承認</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>却下</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>このフォームはまだ開いていません。{0}に開きます。</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>このフォームは現在送信を受け付けています。</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>開く日時（UTC）</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>公開後もこの時間まではフォームが閉じたままになります。公開と同時に開く場合は空欄にしてください。</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>オープンを告知するチャンネル</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>告知でメンションするロール</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>オープン告知の内容</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>オープン時刻が来たときに一度だけ投稿されます。デフォルトの文言にする場合は空欄にしてください。</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>画像URL</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>質問の上に表示されます。httpまたはhttpsのアドレスである必要があります。</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>却下後の再送信を許可する</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>却下された送信者は修正した回答を送信できます。承認済みおよび保留中の回答も、依然として唯一の送信としてカウントされます。</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>新しい回答時にメンションするロール</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>回答が届いたときに送信チャンネルでメンションされます。ロールはメンション可能である必要があるか、ボットにそれをメンションする権限が必要です。</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>送信時に付与されるロール</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>審査の有無にかかわらず、フォームが送信されるとすぐに付与されます。</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>DMを送信できませんでした</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>決定待ちの間のロール</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>フォームが送信されたときに付与され、回答が承認または却下されると取り消されます。</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Discordから決定できるロール</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>このロールを持つメンバーが使用できる承認・却下ボタンを送信メッセージに追加します。ダッシュボードからのみ審査する場合は空欄にしてください。</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>却下時</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>却下時に変更するロール</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>招待の使用回数</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>招待の有効期間（秒）</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>通常のフォーム</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>BAN異議申し立て</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>参加申請</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>何もしない</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>ロールを追加</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>ロールを削除</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>質問</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>質問を追加</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>質問数：{0}</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>無題の質問</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>質問</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>回答タイプ</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>プレースホルダー</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>必須</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>最小長</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>最大長</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>最小値</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>最大値</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>選択肢</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>選択肢を追加</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>質問を複製</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>上に移動</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>下に移動</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>この質問を表示する条件</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>短いテキスト</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>段落</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>選択式</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>チェックボックス</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>ドロップダウン</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>数値</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>メールアドレス</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>条件を追加</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>条件を削除</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>ルールセット</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>ルールセット内のすべての条件を満たす必要があります。いずれかのルールセットが満たされると質問が表示されるため、別の条件を満たす方法として2つ目のルールセットを使用してください。</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>作業内容を保存しています</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>作業内容が保存されました</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>作業内容を保存できませんでした</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>以前の質問</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>比較</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>ロール</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>ロールの一致</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>日数</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>サーバーをブーストしている</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>ブーストしている</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>ブーストしていない</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>権限フラグ</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>その回答を比較するには、この質問より前に質問を追加してください。</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>質問への回答</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>ユーザーが持つロール</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>サーバー在籍期間</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Discordアカウントの年齢</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>ブーストステータス</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>ユーザーが持つ権限</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>が次と等しい</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>が次と等しくない</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>が次を含む</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>が次より大きい</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>が次より小さい</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>に何らかの回答がある</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>が空欄のままにされた</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>いずれか</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>いずれでもない</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>フォームを保存</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>フォーム一覧に戻る</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>回答数：{0}</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>まだ回答がありません。</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>CSVをエクスポート</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>回答を削除</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>ページ {0} / {1}</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>承認</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>却下</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>送信者へのメモ</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>任意。決定とともに送信者に送られます。</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>審査待ち</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>審査中</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>承認済み</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>却下済み</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>プレビュー中は送信が無効です</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>このフォームをプレビューしています。ここに入力した内容は保存されません。</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>{1}問中{0}問回答済み</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>選択肢を選んでください</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>あなたの回答が送信されました。</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>受信済み</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>送信済み</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>最終編集</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>自分の回答を編集</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>編集済み</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>送信後{0}回編集されました。最終編集は{1}です。</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>審査者からのメモ</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>あなたの招待</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>後で回答を確認するために、このリンクを保管してください。</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>匿名で送信されました</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>匿名フォームは誰が送信したかを記録しないため、ロールを変更できません。</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>BAN異議申し立てと参加申請は、承認するために送信者に対して操作を行う必要があるため、匿名にできません。</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>この回答は匿名で送信されたため、操作対象がありません。</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>回答を匿名で記録する</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>誰が送信できるかをフォームが確認できるよう、送信者は引き続きDiscordでログインしますが、名前と住所は保存されません。承認アクションは使用できません。</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>承認された申請者に付与するロール</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>申請者のために確保され、招待を通じて参加したときに付与されます。</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>匿名</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>このフォームは匿名です。送信できるかをサーバーが確認できるようログインしていますが、あなたの名前は回答とともに保存されません。</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Discord Nitroを持っている</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Nitroを持っている</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Nitroを持っていない</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>結合方法</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>このグループ内のすべての条件</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>このグループ内のいずれかの条件</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>この質問で以前の回答を引用する</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>質問1に与えられた回答を表示するには、質問に{{Q1}}と記入してください。</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>次の場合のみ必須</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>常に上記の設定を使用する</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>回答を確認してください</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>まだ何も送信されていません。回答を読んでから送信してください。</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>回答を確認</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>回答を変更</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>回答を送信</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>まだ質問がありません。追加して始めましょう。</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>どのような種類の回答が必要ですか？</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>詳細を編集</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>詳細を非表示</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>ここに質問を入力してください</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>条件付き</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>回答を引用しています</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>1行のテキスト</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>より長い複数行の回答</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>リストから1つの選択肢</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>任意の数の選択肢</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>メニューから1つの選択肢</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>数値（任意で範囲制限あり）</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>メールアドレス</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>httpで始まるリンク</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>質問{0}は、質問が尋ねられた時点でまだ存在しない自身の回答を引用しています。</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>質問{1}は、後で尋ねられる質問{0}を引用しています。質問はそれより前にある質問のみを引用できます。</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>ある質問が質問{0}を引用していますが、このフォームには{1}個の質問しかありません。</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>すでにサーバーにいる人向け</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>BANされた人が復帰を求めることを許可します</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>外部の人が参加を申請することを許可します</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>異議申し立てと申請は常に審査されます。</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>ログインとサーバー</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>保護</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>ロールとセルフロール</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>チケット</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>コマンドと自動応答</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>認証</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>ログ記録</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>チャットボット</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>機能が記録されていません</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>フィルター</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>機能</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>変更者</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>いつでも</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>過去24時間</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>過去7日間</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>過去30日間</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>過去3か月</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>カスタム期間</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>変更詳細があるエントリのみ</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>概要、名前、値を検索</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>並び順</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>新しい順</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>古い順</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>1ページあたりのエントリ数</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>{2}件中{0}〜{1}件を表示</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>これらのフィルターに一致するエントリはありません。</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>ダッシュボードからはまだ何も変更されていません。</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>フィールド</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>変更前</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>変更後</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>{0}件のフィールドが変更されました</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>影響を受けたもの</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>{0}のログ記録を更新しました</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>AutoModチェック</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>BAN告知</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>バナー</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>誕生日</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>ブースト告知</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>経済ブースト</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>経済アイテム</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>ファイル拡張子</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>フォームの回答</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>参加告知</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>退出告知</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>レベルロール</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>リンクのホワイトリスト</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>メッセージの類似度</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>同一の参加</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>季節ドロップ</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>セルフロールグループ</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>統計チャンネル</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>連続記録ロール</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>チケットパネル</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>完全なログを開く</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>ダッシュボード変更通知を更新しました</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>ダッシュボード変更通知</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>ダッシュボード通知チャンネル</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>ダッシュボードの変更が告知される場所です。何も告知しない場合はなしのままにしてください。</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>アクセスとログの変更には常に通知する</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>これらの機能の変更を通知する</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>上記の変更についてのみ通知を受け取る場合はなしを選択してください。いずれにしてもすべてログに記録されます。</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>このエントリへのリンク</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>1件のエントリを表示しています。</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>ログ全体を表示</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>1セッションで{0}件の変更</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>このログから{0}件のエントリを削除しました</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>実績を作成しました</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>実績を更新しました</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>{0}のバナーを更新しました</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>ランクカード</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>ようこそ</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>さようなら</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>参加時に付与されるロールを更新しました</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>告知を更新しました：{0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>AutoModを更新しました：{0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>この埋め込みをプレビュー</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>プレビューするには保存済みの埋め込みを選択してください。</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>自動化</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>自動リマインド</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>しばらく返信がないチケット開設者に催促を送ります。</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>リマインドまでの日数</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>返信がない場合の自動クローズ</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>開設者が返信をやめたチケットをクローズします。</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>クローズまでの日数</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>開設者が退出した場合の自動クローズ</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>リマインドは1日から365日の間である必要があります。</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>クローズは1日から365日の間である必要があります。</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>チケット自動化の設定を更新しました</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>チケットマネージャー</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>このサーバーのサポートチケットを表示して操作します。</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>このサーバーではまだチケットが開かれていません。</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>チケットを検索...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>チャンネル</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>開設者</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>担当者</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>最終アクティビティ</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>未担当</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>スタッフ待ち</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>まだメッセージがありません</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>一部のチケットは存在しなくなったチャンネルを指しています。これらを削除すると残った行がクリーンアップされます。</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>スタッフ待ち</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>初回返信の中央値</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>該当なし</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>チケットカテゴリ</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>チケットは、まだ空きのある最も番号の低いカテゴリに追加されます。Discordはカテゴリを50チャンネルに制限しています。</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>プライマリ</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>オーバーフロー #{0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>Discordから削除済み</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 チャンネル</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>まだチケットカテゴリが存在しません。最初のチケットが開かれると1つ作成されます。</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>クローズ</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>再オープン</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>担当する</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>担当を解除</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>ユーザーを追加</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>ユーザーを削除</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>リマインド</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>匿名返信</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>このチケットとそのチャンネルを削除しますか？これは元に戻せません。</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>メッセージ</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>チケットをクローズしました。</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>チケットを再オープンしました。</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>チケットを削除しました。</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>チケットを担当しました。</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>チケットの担当を解除しました。</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>ユーザーをチケットに追加しました。</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>ユーザーをチケットから削除しました。</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>チケット開設者にリマインドを送信しました。</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>チケットに返信を送信しました。</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>そのチケットはもう存在しません。</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>そのチケットはすでにクローズされています。</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>そのチケットはすでに開いています。</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>そのチケットのチャンネルはDiscordにもう存在しません。</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>ボットはその操作を実行できませんでした。チケットチャンネルでの権限を確認してください。</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>リマインドを送信できませんでした。開設者がダイレクトメッセージを無効にしている可能性があります。</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>送信するメッセージを入力してください。</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>返信は2000文字を超えることはできません。</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>有効なユーザーを選択してください。</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>ダッシュボードからのクローズはDiscordでのクローズと同じです。チャンネルをロックし、トランスクリプトを保存し、HTMLコピーをアップロードし、クローズDMと評価リクエストを送信します。</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>チケットをクローズしました</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>チケットを再オープンしました</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>チケットを削除しました</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>チケットを担当しました</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>チケットの担当を解除しました</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>チケットにユーザーを追加しました</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>チケットからユーザーを削除しました</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>チケットのリマインドを送信しました</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>チケットへの匿名返信を送信しました</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>チケット</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>オープン</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>クローズ</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>チケット：</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>開設者：</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>保存者：</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>メッセージ数：</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>返信数：</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>評価：</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>送信済み、評価待ち...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>{0}でのサポートチケットがクローズされました。
+            **クローズ者：** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>トランスクリプトをトランスクリプトチャンネルに保存しました。</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>トランスクリプト</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**あなたを担当したスタッフメンバーとの体験を評価してください。**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>評価</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>リクエストされていません</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>平均評価</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>評価待ち</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>チケットパネルを送信</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>チャンネル</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>パネルを送信</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>チケットパネルを送信しました。</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>パネルの送信先チャンネルを選択してください。</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>サポートチケットを作成するには下のボタンをクリックしてください。</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>チケットパネルを送信しました</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>そのパネルはもう存在しません。</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>サーバーは少なくとも1つのパネルを保持する必要があります。</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>有効なチケットタイプを選択してください。</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>スレッド用の有効なチャンネルを選択してください。</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>スレッドが開かれるチャンネルを選択してください。そうしないと、このパネルはチケットを作成できません。</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>パネルを作成しました。</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>パネルを削除しました。</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>チケットタイプ</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>チャンネル</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>プライベートスレッド</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>パブリックスレッド</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>パブリックスレッドは、親チャンネルを見ることができる全員が読むことができます。</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>スレッドチャンネル</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>パネル</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>パネルを追加</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>パネルを削除</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>このパネルを削除しますか？すでにここから開かれたチケットは引き続き機能します。</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>{0}個のチャンネルに投稿済み</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>まだ投稿されていません</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>投稿済みパネルを更新</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>このパネル用にすでに投稿されたパネルを、上記の設定に一致するように書き直します。</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>{0}個の投稿済みパネルを更新しました。</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>チケットパネルを作成しました</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>チケットパネルを削除しました</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>チケットパネルのタイプを変更しました</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>投稿済みのチケットパネルを更新しました</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>パネル</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>すべてのパネル</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>パネルなし</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>クローズまでの中央値時間</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>サーバーは最大{0}個のパネルを持てます。</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>{0}がチケットをクローズしました</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>{0}がチケットを再オープンしました</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>{0}をチケットに正常に追加しました。
+            リクエスト者：{1}</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>{0}をチケットから正常に削除しました。
+            リクエスト者：{1}</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>これは`{0}`にあるあなたのチケットがまだ開いていることのリマインドです。まだサポートが必要な場合は返信してください。</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt;が&lt;@{1}&gt;にリマインドを送信しました。</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>サポートチームからの返信</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>チケットは数秒後に削除されます。</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>{0}がチケットを担当しました</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>{0}がチケットの担当を解除しました</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>このチケットはすでに{0}が担当しています。</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>まずこのパネルにサポートチームロールを設定する必要があります。</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>これを行うには{0}のロールが必要です。</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>このパネルにはまだ{0}件の開いているチケットがあります。先にそれらをクローズしてください。</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>このチケットが属するパネルは削除されています。</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>これより古いメッセージはスターボードに追加されません。0は上限なしを意味します。</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>「メッセージを報告」コンテキストメニューを通じて報告されたメッセージが投稿される場所です。1つ設定されるまで報告は利用できません。</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Discord自体などボット以外で適用されたタイムアウトが記録される場所です。記録しない場合はなしのままにしてください。</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>このロールを持つメンバーは、サーバーおよび公開のメモを表示・編集できます。管理者と「サーバー管理」権限を持つメンバーは常に可能です。</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>チャンネル名と統計メッセージは通常のサーバーのプレースホルダーを受け入れるため、1つの名前に複数の統計を含めることができます。完全なリストは&lt;strong&gt;&lt;a href='{0}' class='info'&gt;プレースホルダーリファレンス&lt;/a&gt;&lt;/strong&gt;を参照してください。</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>ブーストには名前が必要です。</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>カスタム統計チャンネル</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>好きな名前を付けたボイスチャンネルで、1つの名前に統計を任意に組み合わせられます。ボットは各チャンネルを統計カテゴリの下に作成し、20分ごとに更新します。最大10個。</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>チャンネル名テンプレート</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discordはチャンネル名に100文字まで許可しています。</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>統計チャンネルを追加</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>チャンネルは20分以内に作成されます。</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>20分以内に作成中</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>チャンネル名テンプレートは最大100文字です。</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>そのカスタム統計チャンネルはもう存在しません。</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>カスタム統計チャンネルを追加しました。</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>カスタム統計チャンネルを削除しました。</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>統計メッセージ</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>チャンネルの代わりに、ボットが20分ごとに最新の数値で編集する1つのメッセージを投稿します。</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>デフォルトの場合は空欄にしてください。Cakey独自のものを含め、Discordの絵文字コードがここで機能します。チャンネルを変更するとそこに新しいメッセージが投稿されます。不要になった古いものは自分で削除してください。</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>統計メッセージが投稿されるチャンネルを選択してください。</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>ピン留めされたリーダーボード</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>誰も/leaderboardを実行する必要がないよう、ボットがチャンネルに投稿し15分ごとに更新するリーダーボードメッセージです。サーバーごとに最大5個。</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>全期間</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>今週</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>今月</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>表示されるメンバー数</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>上位{0}名</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>15分以内に投稿されます</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>リーダーボードを追加</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>リーダーボードは15分以内に投稿されます。</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>リーダーボードは3〜15名を表示します。</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>全期間、今週、または今月を選択してください。</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>そのピン留めされたリーダーボードはもう存在しません。</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>ピン留めされたリーダーボードを追加しました。</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>ピン留めされたリーダーボードを削除しました。</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>マイルストーンロール</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>これらの数字のいずれかを投稿した人には対応するロールが与えられます。最大25個のマイルストーン。</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>到達した数字</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>付与するロール</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>マイルストーンを追加</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>マイルストーンの数字は1以上である必要があります。</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>その数字のマイルストーンはすでに存在します。</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>管理者、サーバー管理、またはロールの管理権限を持つロールはカウントゲームによって配布できません。</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>そのマイルストーンはもう存在しません。</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>カウントマイルストーンを追加しました。</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>カウントマイルストーンを削除しました。</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>メッセージがコマンドのテキストとどのように関連する必要があるか。「ファイルを含む」、「Webhookから」、メンションのオプションはテキストを無視し、その特性を持つ任意のメッセージで発動します。ワイルドカードは*と?を受け付けます。パターンが無効な場合、正規表現は自動的に無効になります。</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>ボット設定で設定されたサーバーのタイムゾーンで、正時に。</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>毎日、または特定の曜日のみ。</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>「一意」はラジオボタンのように機能します。グループ内のロールを選ぶと、すでに持っていたロールと入れ替わります。「複数選択」では、メンバーがグループから複数のロールを同時に持つことができます。</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>この上限を1つ超えて取得すると、最も古く取得したロールが外れます。</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>ブーストが有効な間、経済ゲームからの獲得量を倍増します。複数のアクティブなブーストは互いに乗算されます。</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>購入時からブーストが持続する時間（時間）。</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>メンバーが同時に保持できるこのブーストの数。0は上限なしを意味します。</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>購入時に付与されるロール。Cakeyの最高位のロールより下にあり、管理者、サーバー管理、またはロールの管理を持ってはいけません。</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>購入時に購入者に追加されるレベルXP、最大1,000,000。</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>購入時に付与され、以下で設定された時間数の後に再び削除されるロール。</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>1回の購入が付与するカウント救済の数、1〜100。購入者がミスをしたときに、カウントをリセットする代わりに救済が1つ消費されます。</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>メンバーが同時に所有できるこのアイテムの数。0は上限なしを意味します。</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>ショップに表示され購入可能です。アイテムを保持しつつ非表示にする場合はオフにしてください。例えば、スタッフのみが配布する賞品などです。</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>カウント救済</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>購入あたりの救済数</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>カウント救済アイテムは1〜100の救済を付与する必要があります。</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>減衰DM通知</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>XPが減衰したときにメンバーにDMを送信します。各DMには、メンバーが自分自身をオプトアウトするために使用できるボタンが付いています。</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>添付ファイル削除</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>ファイルや画像を含んでいた削除済みメッセージは、「メッセージ削除」チャンネルの代わりにここに記録されます。まとめておく場合はなしのままにしてください。</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>提案メンションロール</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>新しい提案が投稿されるたびにメンションされます。ロールはメンション可能である必要があるか、ボットに任意のロールをメンションする権限が必要です。</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>画像があります</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>サーバーの絵文字を挿入</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>スキップには、ボイスチャンネル内のミュートされていないメンバーの半数を超える投票が必要です。DJ、モデレーター、曲をリクエストした人は依然として直接スキップできます。</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>メンバーがこのレベルに達すると、XPの蓄積が停止します。</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>最後のドロップを獲得した人は次のドロップを獲得できません。</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>反射的にクリックされないよう、獲得ボタンをドロップごとに異なる場所にある4つのおとりの中に隠します。</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>ドロップの間に、これら2つの値の間でランダムな待機時間が経過します。</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>誕生日が告知されたときに付与され、24時間後に再び削除されます。</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>独自のタイムゾーンを持たない誕生日、デイリーコンテンツ、および予定された自動メッセージに使用されます。</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>チャンネルの連携サービス設定でWebhookを作成し、そのURLをここに貼り付けてください。投稿はそれを通じて送信されます。</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>投稿がWebhookのチャンネルの下のスレッドまたはフォーラム投稿に入る必要がある場合にのみ必要です。それ以外の場合は空欄にしてください。</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>新しい投稿ごとにメンションされます。誰もメンションしない場合は空欄にしてください。</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>投稿の埋め込みのサイドバーの色。</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>r/を除いたサブレディット名のみ。</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>ウェブサイトではなく、フィード自体への直接リンク。通常は.xml、.rss、または/feedで終わります。</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>URLのtwitch.tv/の後に表示されるチャンネル名。</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>youtube.com/@handleまたは/channel/のURLなど、チャンネルページへのリンク。</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>メンバーがこのタグを呼び出すために使用する名前です。短く覚えやすいものにしてください。</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>タグが使用されたときにボットが返信する内容。</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>メッセージ内で検索するテキスト。大文字と小文字は区別されず、下の一致タイプがその厳密さを設定します。</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>メッセージが一致したときに送信されます。埋め込みと組み合わせるか、埋め込みのみを送信する場合は空欄にしてください。</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>予定されたメッセージが投稿される場所。</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>選択した時間に上記のチャンネルに投稿されます。</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>アナウンスチャンネルのみを選択できます。そこに投稿された各メッセージはフォロー中のサーバーに公開されます。</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>メンバーが自分自身に付与できるロール。</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>メンバーがその用途を理解できるよう、セレクター内でロールの隣に表示されます。</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>このレベル未満のメンバーはロールを選択できません。0はチェックを無効にします。</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>メンバーがロールを選択できるようになる前に必要な連続日数。0はチェックを無効にします。</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>メンバーは新しいロールを選択する前にすでにこのロールを持っている必要があります。</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>セレクターのタイトルとして表示されます。</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>グループの用途を説明するためにタイトルの下に表示されます。</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>このロールを持つメンバーのみがグループから選択できます。</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>このレベル以上のメンバーのみがグループから選択できます。</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>提案の投稿に表示されるステータスを更新します。</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>決定とともに提案の投稿に表示されます。任意。</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>このサーバーが使用するべきカスタムボットのサブスクリプション。</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>Discord Developer PortalのアプリケーションのBotタブからのボットトークン。秘密にしておいてください。</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>ショップと購入メッセージに表示されます。</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>購入者が何を得られるかわかるよう、ショップの名前の下に表示されます。</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>サーバー通貨での価格。購入者は少なくともこの金額が必要です。</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>購入者が受け取るもの。以下のフィールドはタイプによって変わります。</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>適用時にプリセットを後で見つけるために使用されます。</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>購入者が購入からロールを保持する時間数。</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>アナウンスチャンネルが見つかりません。まずDiscordで1つ作成してください。</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>ボットの代わりにこのWebhookを通じて、Webhookの名前とアバターを使って埋め込みを送信します。</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>送信者プロフィール</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>送信者として</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>ボット</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>送信者プロフィールを管理</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>送信者プロフィールは、独自の名前とアバターを持つWebhookを通じてメッセージを投稿します。ボットにはチャンネルでの「Webhookの管理」権限が必要です。</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>表示名</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>メッセージの作成者として表示され、最大80文字。Discordは「discord」または「clyde」を含む名前を拒否します。</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>アバターURL</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>PNG、JPG、またはGIFへの直接リンク。ボットのアバターを保持する場合は空欄にしてください。</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>保存済みWebhook URL</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>任意。設定すると、このプロフィールとして送信されたメッセージは、上記の名前とアバターのまま、チャンネルの代わりにこのWebhookに送られます。</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>新しいプロフィール</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>プロフィールを保存</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>まだ送信者プロフィールがありません。</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>この送信者プロフィールを削除しますか？</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>送信者プロフィールを保存しました。</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>送信者プロフィールを削除しました。</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>最大80文字の表示名を入力してください。</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discordは「discord」または「clyde」を含む送信者名を許可していません。</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>アバターは最大512文字のhttpまたはhttpsリンクである必要があります。</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>サーバーは最大25個の送信者プロフィールを持てます。</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>その送信者プロフィールはもう存在しません。</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>アプリ</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>チャンネルに送信</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>JSONのインポート／エクスポート</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>メッセージテキスト</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>埋め込みの上に送信されるテキスト</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>このページから送信するときのみ使用されます。埋め込みと一緒には保存されず、保存済み埋め込みを投稿する機能にはこれが含まれません。</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>新規として保存</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>選択中のものを更新</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>{server.name}へようこそ！</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>これはビルダーが何をできるかを示すサンプル埋め込みです。**太字**、*斜体*、`コード`、[リンク](https://cakey.bot)、{user.mention}のようなプレースホルダーを試してみてください。ここのすべては編集または消去でき、チャンネルメンションとカスタム絵文字も機能します。</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>サーバーメンバー</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>サーバーロール</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Cakey Botの埋め込みビルダーで作成</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>http://またはhttps://で始まる完全なリンクである必要があります。</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0}は有効なリンクではありません。</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>この画像を読み込めませんでした。リンクを確認してください。</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>送信者プロフィールを作成しました</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>送信者プロフィールを更新しました</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>送信者プロフィールを削除しました</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>{user.username}のようなプレースホルダーは、このサーバーの値とユーザーとしてのあなたを使ってここに表示されます。保存済みの埋め込みはそれらを書かれたままに保持し、ボットが投稿時に埋め込みます。</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

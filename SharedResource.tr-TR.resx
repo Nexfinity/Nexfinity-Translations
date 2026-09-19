@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>Sadece GIF'ler</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>Yalnızca Medya</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>Yalnızca Dosyalar</value>
   </data>
@@ -1126,9 +1129,6 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-birthday-role" xml:space="preserve">
     <value>Doğum günü rolü güncellendi: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>{0} için doğum günü saat dilimi güncellendi</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>Doğum Günleri</value>
   </data>
@@ -1141,11 +1141,17 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>İsteğe bağlı — yalnızca bu kişinin doğum günü kontrolü için sunucunun saat dilimini geçersiz kılar.</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>{0} için doğum günü saat dilimi güncellendi</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>Değiştirilmiş Renk</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>Çıkış Rengi</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>Katılma Rengi</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>Seviye Yükseltmede Rolleri Kaldırma</value>
@@ -1204,6 +1210,27 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="chat-bot-title" xml:space="preserve">
     <value>Yapay Zeka Sohbet Botu</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>Yapay Zeka Modeli</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>Sohbet botunuzun yanıt üretmek için kullandığı OpenAI modeli. Daha yüksek katmanlar daha yetenekli modellerin kilidini açar.</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>Ücretsiz</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>Özel Bot</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>API Anahtarı</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>Bu model daha yüksek bir abonelik katmanı gerektirir.</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>Ses Seviyelendirme Etkin</value>
   </data>
@@ -1231,7 +1258,7 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="suggestion-page-title" xml:space="preserve">
     <value>Öneriler</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>Herhangi bir öneri kanalı yapılandırılmadığından, üyeler henüz öneri oluşturamaz ve burada kaydedilen kararlar Discord'daki mesaja yansıtılamaz. İkisini de düzeltmek için aşağıdan bir kanal ayarlayın.</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>Yoksayılan başarı kanalları güncellendi.</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>Yok sayılan başarım rolleri güncellendi.</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>Başarım açılma mesajı güncellendi.</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>Birden fazla başarım aynı anda etkinleştirildi veya devre dışı bırakıldı.</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>Kendi Rolleri</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>Yeni bir kişisel rol oluşturmak için aşağıdaki "Kişisel Rol Ekle" düğmesini kullanın.</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>Kişisel rol bulunamadı. Bir tane oluşturmak için yukarıdaki "Kişisel Rol Ekle" düğmesine tıklayın.</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>Henüz rol grubu yok. Gruplar, bir dizi kişisel rolü birbirini dışlayan hale getirmenizi sağlar.</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>{0} değeri bir sayı olmalıdır.</value>
@@ -1876,6 +1918,9 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>Abonelikler</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>OAuth hesabının bağlantısı kesildi. ({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>OAuth entegrasyonu ayarları değiştirildi. ({0})</value>
   </data>
@@ -1950,6 +1995,48 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>Kapat</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>Üye Sayısı</value>
@@ -2083,6 +2170,12 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Semicolon separated list</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>Paylaşıldıktan Sonra Kaldır</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>Bu etkinleştirildiğinde, yinelenmeyi önlemek için öğeler listeden kaldırılır. Bu veriler geri yüklenemeyeceğinden, bu özelliği etkinleştirmeden önce verilerinizin kaydedilmiş bir kopyasına sahip olduğunuzdan emin olun.</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>Konu Oluştur</value>
   </data>
@@ -2115,6 +2208,24 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>İlk Bakiye</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>Günlük Min. Tutar</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>Günlük Maks. Tutar</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>Haftalık Min. Tutar</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>Haftalık Maks. Tutar</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>Aylık Min. Tutar</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>Aylık Maks. Tutar</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>Ayrılışta Kullanıcı Bakiyesini Sil</value>
@@ -2230,11 +2341,119 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>Seviye X'e ulaş.</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>Belirli bir rol elde etmek.</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>X GIF göndermek.</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>X etiket göndermek.</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>X kez susturulmak.</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>X dakika yayın yapmak.</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>Bu sunucunun etiketini taşımak.</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>Yalnızca bu kanalda say</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>Sunucunun herhangi bir yerinde saymak için boş bırakın. İlerleme kanal bazında saklandığından bu daha sonra değiştirilemez.</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>Elde edilecek rol</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>Kademe merdiveni</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>Bir merdivenin her basamağına aynı adı ver, ardından aşağıda numaralandır. Daha yüksek bir basamağa ulaşmak altındakileri de kazandırır.</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>Basamak</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>Bu başarım için açılma mesajı</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>Sunucunun açılma mesajını yalnızca bu başarım için geçersiz kılar. Sunucununkini kullanmak için boş bırakın.</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>Başarım Ayarları</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>Açılma Mesajı</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>Varsayılan metin için boş bırakın. Yer tutucular: {achievement.name}, {achievement.description}, {user.achievement.count}, {achievement.owners.count} ve tüm temel yer tutucular.</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>Yer tutucu listesini gör</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>Yok Sayılan Roller</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>Bu rollerden birine sahip üyeler başarımlara doğru ilerleme kaydetmez</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>Değiştirilen başarımlar</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>Önce en az bir başarım seçin</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>Bu başarımın elde edilerek kazanıldığı rolü seçin</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>Bir basamak 1 ile 20 arasında bir sayı olmalıdır</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>Bir başarımın sayıldığı kanal veya rol oluşturulduktan sonra değiştirilemez</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>İkincil Veri</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>Geçici Rol</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>Geçici yasaklar</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>Geçici roller</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>Bu sunucuda etkin geçici yasak yok.</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>Bu sunucuda etkin geçici rol yok.</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>Yasaklar ve roller birlikte seçilebilir. Bunları sonlandırmak, her iki listede de seçtiğiniz her şeye uygulanır.</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>Şimdi sonlandır</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>Seçilen {0} yasak şimdi sonlandırılsın mı? Bot bunları kısa süre içinde kaldıracak.</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>Seçilen {0} rol şimdi sonlandırılsın mı? Bot bunları kısa süre içinde geri alacak.</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0} öğe şimdi sona erecek şekilde ayarlandı</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>Şimdi sona erecek şekilde ayarlandı. Bot bunları kısa süre içinde işleyecek.</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>DM Hatırlatıcıları Gönder</value>
@@ -2388,9 +2607,6 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>Kullanıcı Başına Maksimum Sahibi</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0 Maksimum Sahibi = Sınırsız</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>Balık Tutma</value>
@@ -2788,6 +3004,24 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Ömür Boyu Premium Satın Al</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>ÖMÜR BOYU Özel Bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>Kendi markalı Özel Bot'unuzu tek seferlik bir ödemeyle edinin, asla tekrarlayan abonelik yok.</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>Not: Bu kesinlikle sınırlı bir tekliftir - kalan kontenjanlar tükendiğinde bu fırsat sonsuza dek gider.</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>Ömür Boyu Özel Bot Satın Al</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>{0} kaldı</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>Tükendi</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>Plan Karşılaştırması</value>
   </data>
@@ -2874,6 +3108,9 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Ban Senkronizasyon Havuzu Sunucuları</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>Sayma Kilometre Taşı Rolleri</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>Sınırsız RSS/Sosyal Beslemeler</value>
@@ -3279,15 +3516,6 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>Oraya gönderilen her mesajın otomatik olarak seçtiğiniz cezayı tetiklediği bir tuzak kanal oluşturun; baskın (raid) ve dolandırıcılık botlarının sunucunuzu spamlamadan önce yakalanmasına yardımcı olur.</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>Yalnızca Tam Sayı</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>Tam Sayı VEYA Denklem</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>Yalnızca Denklem</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>Değiştirmek için özel bir bot seçmelisiniz.</value>
@@ -4390,6 +4618,39 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>Öz rol bulunamadı veya bu sunucuya ait değil</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>En fazla {0} kişisel role sahip olabilirsiniz</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>Bu rol zaten bir kişisel rol</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>Rol grubu bulunamadı veya bu sunucuya ait değil</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>Grup adı gereklidir</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>Bu isimde bir grup zaten mevcut</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>Çoklu seçim grubu için maksimum rol sayısı {0} ile {1} arasında olmalıdır</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>Kişisel rol {0} eklendi</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>Kişisel rol {0} güncellendi</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>'{0}' rol grubu eklendi</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>'{0}' rol grubu güncellendi</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>'{0}' rol grubu silindi</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>Pano erişimi eklenirken bir hata oluştu</value>
   </data>
@@ -4735,8 +4996,35 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>Maksimum bakiye 0'dan fazla olmalıdır</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>Maksimum bakiye 1000000000'dan az olmalıdır</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>Maksimum bakiye {0}'dan az olmalıdır</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>Günlük minimum tutar 1 ile {0} arasında olmalıdır.</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>Günlük maksimum tutar 1 ile {0} arasında olmalıdır.</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Günlük maksimum tutar, günlük minimum tutardan büyük olmalıdır.</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>Haftalık minimum tutar 1 ile {0} arasında olmalıdır.</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>Haftalık maksimum tutar 1 ile {0} arasında olmalıdır.</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Haftalık maksimum tutar, haftalık minimum tutardan büyük olmalıdır.</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>Aylık minimum tutar 1 ile {0} arasında olmalıdır.</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>Aylık maksimum tutar 1 ile {0} arasında olmalıdır.</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Aylık maksimum tutar, aylık minimum tutardan büyük olmalıdır.</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>Maksimum seviye 0'dan fazla olmalıdır</value>
@@ -5026,6 +5314,12 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>Premium sunucuda başarıyla etkinleştirildi</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>Bu sunucuda premium etkinleştirildi ({0})</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>Bu sunucudan premium kaldırıldı ({0})</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>Premium sunucudan başarıyla devre dışı bırakıldı</value>
   </data>
@@ -5230,6 +5524,9 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>Nagbar kapatılırken hata oluştu</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>Afiş tasarımı</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>Geçersiz başlık türü</value>
   </data>
@@ -5413,8 +5710,26 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>Otomatik mesaj etkinleştirildi {0}</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>{0} otomatik mesaj etkinleştirildi</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>{0} otomatik mesaj devre dışı bırakıldı</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>{0} otomatik mesaj silindi</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>Otomatik yanıtlayıcı etkinleştirildi {0}</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>{0} otomatik yanıtlayıcı etkinleştirildi</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>{0} otomatik yanıtlayıcı devre dışı bırakıldı</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>{0} otomatik yanıtlayıcı silindi</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>{0} otomatik yanıtlayıcı içe aktarıldı</value>
@@ -5427,6 +5742,12 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Twitch beslemesi değiştirildi {0}</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>Besleme etkinleştirildi</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>Besleme devre dışı bırakıldı</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>YouTube beslemesi değiştirildi {0}</value>
@@ -5547,6 +5868,63 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} etiketi {1}</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>ve {0} tane daha</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>{0} geçici yasak sonlandırıldı</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>{0} geçici rol sonlandırıldı</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>{0} otomatik yayın kanalı kaldırıldı</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>{0} uyarı silindi</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>{0} doğum günü silindi</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>{0} AFK girdisi silindi</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>{0} kendi kendine rol silindi</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>{0} kalıcı rol silindi</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>{0} mağaza öğesi silindi</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>{0} takviye silindi</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>{0} besleme silindi</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>{0} kontrol paneli günlük girdisi silindi</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>{0} girdi silindi</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>{0} besleme etkinleştirildi</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>{0} besleme devre dışı bırakıldı</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>{0} etiket etkinleştirildi</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>{0} etiket devre dışı bırakıldı</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>{0} etiket silindi</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>Etkinleştirildi</value>
@@ -5775,45 +6153,6 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>Kendi rollerini ara...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>Kişisel rol bulunamadı. Bir tane oluşturmak için yukarıdaki "Kişisel Rol Ekle" düğmesine tıklayın.</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>Henüz rol grubu yok. Gruplar, bir dizi kişisel rolü birbirini dışlayan hale getirmenizi sağlar.</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>En fazla {0} kişisel role sahip olabilirsiniz</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>Bu rol zaten bir kişisel rol</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>Rol grubu bulunamadı veya bu sunucuya ait değil</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>Grup adı gereklidir</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>Bu isimde bir grup zaten mevcut</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>Çoklu seçim grubu için maksimum rol sayısı {0} ile {1} arasında olmalıdır</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>Kişisel rol {0} eklendi</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>Kişisel rol {0} güncellendi</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>'{0}' rol grubu eklendi</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>'{0}' rol grubu güncellendi</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>'{0}' rol grubu silindi</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>Kişisel Rol Ekle</value>
@@ -6229,9 +6568,6 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Lütfen sayfayı yenilemeyin.</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>Embed Editörü</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Kaydedilen embed bulunamadı.</value>
   </data>
@@ -6256,27 +6592,6 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>Kaydedilen Embed'ler</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>Yeni / kaydedilmemiş</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>Kaydet</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>Yeni Olarak Kaydet</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>Yeniden Adlandır</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>Sil</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>Bu embed'i adlandırın:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>Kaydedilen embed'i yeniden adlandırın:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>Bu kaydedilen embed'i sil? Bu işlem geri alınamaz.</value>
   </data>
@@ -6286,17 +6601,8 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>Embed'i Yeniden Adlandır</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>Embed'i Sil</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>Embed'i Gönder</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>Embed'i Gönder</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>Kanal</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>Bunun yerine bir webhook URL'sine gönder</value>
@@ -6307,7 +6613,7 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+  <data name="generic-word-send" xml:space="preserve">
     <value>Gönder</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6324,6 +6630,21 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discord, bu webhook'a gönderilen embed'i reddetti.</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>Embed içeriği</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>Bir embed kaydedildi</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>Kaydedilmiş bir embed güncellendi</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>Kaydedilmiş bir embed yeniden adlandırıldı</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>Kaydedilmiş bir embed silindi</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>Bir webhook'a embed gönderildi.</value>
@@ -6510,6 +6831,15 @@ Amari tarzı - ikinci dereceden: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>Mayın Tarlası</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>Haftalık</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>Aylık</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>Öde</value>
@@ -6874,6 +7204,174 @@ OpenAI API Anahtarınızı almak için bir OpenAI hesabı oluşturmanız ve [bur
   <data name="rp-feature-wink" xml:space="preserve">
     <value>Göz Kırp</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>Sayma Oyunu</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>Önbellekleme nedeniyle değişikliklerin Discord'a yansıması 30 saniyeye kadar sürebilir.</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>Sayma Kanalı</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>Mod</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>Yalnızca Tam Sayı</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>Tam Sayı VEYA Denklem</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>Yalnızca Denklem</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>Ardışık Saymayı Engelle</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>Hatada Sıfırla</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>Başarısızlık Rolü</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>Mevcut Sayı</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>Mevcut Sayaç</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>En Yüksek Sayı</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>Başarısızlık rolü @everyone rolü olamaz.</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>Başarısızlık Rolü Süresi</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>Kalıcı</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>Başarısızlık rolünün kalıcı olarak atanmış kalması için boş bırakın veya 0 girin. Maksimum 43200 dakika (30 gün).</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>Başarısızlık rolü süresi 0 ile 43200 dakika arasında olmalıdır.</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>Yok Sayılan Roller</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>Yok sayılan rol @everyone rolü olamaz.</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>Sayma Oyunu bu sunucu için henüz yapılandırılmadı.</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>Mevcut Sayıyı Sıfırla</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>Mevcut sayıyı, tıpkı sayının az önce başarısız olması gibi hemen 0'a sıfırlar. Tüm zamanların en yüksek serisi etkilenmez.</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>Mevcut sayıyı 0'a sıfırlamak istediğinizden emin misiniz? Bu geri alınamaz.</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>Sayıyı Sıfırla</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>Mevcut sayı 0'a sıfırlandı.</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>Özel Başarısızlık Mesajı</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>Sayı sıfırlandığında varsayılan başarısızlık mesajı yerine gönderilir. Varsayılan mesajı kullanmak için aşağıdaki her iki alanı da boş bırakın.</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>Mesaj</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>Varsayılan başarısızlık mesajını kullanmak için boş bırakın</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>Özel Başarısızlık Embed'i</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>Değişiklikleri Kaydet</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>Sayma Oyunu ayarları güncellendi</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>Sayma Oyunu mevcut sayısı zorla sıfırlandı</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>Sayma Oyunu özel başarısızlık mesajı güncellendi</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>Sayma Oyunu ayarları yüklenemedi.</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>Özel Mesaj</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>Bildirimle birlikte gönderilen isteğe bağlı mesaj...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>Kullanılabilir yer tutucular: {link}, {channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>Kullanılabilir yer tutucular: {link}, {subreddit}, {title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>Kullanılabilir yer tutucular: {link}, {streamer}, {title}, {game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>Kullanılabilir yer tutucular: {link}, {title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>Forum Otomatik Arşivden Çıkarma</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>Botun, konuları otomatik olarak arşivden çıkarmak için izlenen her forum kanalında İş Parçacıklarını Yönet iznine ihtiyacı vardır.</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>Forum Kanalı 1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>Forum Kanalı 2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>Aynı kanalı iki kez seçemezsiniz.</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>Forum Otomatik Arşivden Çıkarma ayarları yüklenemedi.</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>Forum Otomatik Arşivden Çıkarma ayarları güncellendi</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>{0} Yasaklama Süresi</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>Kalıcı</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>Kalıcı bir yasak için boş bırakın veya 0 girin. Maksimum 720 saat (30 gün).</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>Yasaklama süresi 0 ile 720 saat arasında olmalıdır.</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>Bot Durumu</value>
   </data>
@@ -6942,5 +7440,3444 @@ OpenAI API Anahtarınızı almak için bir OpenAI hesabı oluşturmanız ve [bur
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>Bilet paneli adı güncellendi</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>Formun bir ada ihtiyacı var.</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>Bu kanal bu sunucuda değil.</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>Bu rol bu sunucuda değil.</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>Form adı en fazla {0} karakter olmalıdır.</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>Form açıklaması en fazla {0} karakter olmalıdır.</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>Başarı mesajı en fazla {0} karakter olmalıdır.</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>Yanıt sınırı en az 1 olmalıdır.</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>Minimum hesap yaşı negatif olamaz.</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>Kapanış tarihi gelecekte olmalıdır.</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>Davet kullanımları 0 ile 100 arasında olmalıdır.</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>Davet geçerliliği 0 ile 7 gün arasında olmalıdır.</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>Her sorunun bir metne ihtiyacı vardır.</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>Bir soru en fazla {0} karakter olmalıdır.</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>Minimum uzunluk maksimum uzunluktan büyük olamaz.</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>Minimum değer maksimum değerden büyük olamaz.</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>Bu soru türü en az bir seçenek gerektirir.</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>Bir soru en fazla {0} seçeneğe sahip olabilir.</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>Her seçeneğin bir etikete ihtiyacı vardır.</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>Bir seçenek etiketi en fazla {0} karakter olmalıdır.</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>Bir soru içindeki seçenekler benzersiz olmalıdır.</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>Koşullardan birinin kurulumunun bir kısmı eksik.</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>Bir soru kendi cevabına bağlı olamaz.</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>Bir soru yalnızca kendisinden önce gelen bir soruya bağlı olabilir.</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>Bir form en fazla {0} soruya sahip olabilir.</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>Kaydetmeden önce en az bir soru ekleyin.</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>Formlar yüklenemedi. Bir dakika içinde tekrar deneyin.</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>Bu form artık mevcut değil.</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>Yayınlamadan önce en az bir soru ekleyin.</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>Bu form henüz yayınlanmadı.</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>Bu form yanıt kabul etmiyor.</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>Bu form kapatıldı.</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>Bu form yanıt sınırına ulaştı.</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>Bu formu zaten gönderdiniz.</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>Bu formu göndermek için Discord hesabınızın en az {0} gün eski olması gerekir.</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>Bu formu göndermek için bu sunucunun üyesi olmanız gerekir.</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>Bu sunucudan yasaklı değilsiniz, bu yüzden itiraz edecek bir şey yok.</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>Menüyü daralt</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>Menüyü genişlet</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>{0} seçildi</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>Tümünü seç</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>Etkinleştir</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>Devre dışı bırak</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>Silmeyi onayla</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>Seçilen {0} öğe silinsin mi? Bu geri alınamaz.</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>{0} öğe etkinleştirildi</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>{0} öğe devre dışı bırakıldı</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>{0} öğe silindi</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>Seçilen öğeler güncellenemedi.</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>Seçmek için öğelere tıklayın</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>Bu kaydedilmiş sürüm artık mevcut değil.</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>Bu kaydedilmiş sürüm okunamadı ve geri yüklenemez.</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>Form oluşturuldu</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>{0}. soru eklendi</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>Soru kaldırıldı</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>{0}. soru kaldırıldı</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>Soru {0}: {1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>Koşullar</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>ayarlanmadı</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>Değişiklik yapılmadan kaydedildi.</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>{0} değişiklik daha göster</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>Daha az göster</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>Ne değişti</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>Geçmiş</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>Sürüm geçmişi</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>Bu formun son {0} kaydı. Birini geri yüklemek de bir kayıttır, dolayısıyla geri alınabilir.</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>Henüz kaydedilmiş sürüm yok. Bu form bir sonraki kaydedildiğinde burada bir sürüm tutulacak.</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>Sürüm {0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>{0} soru</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>Geri yükle</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>Bu sürüm geri yüklensin mi? Form bu kayıttaki haline geri dönecek.</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>Form o sürüme geri yüklendi.</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>Kaldırılan soru</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>Yer tutucu metni {0} karakterden uzun olamaz.</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>Yeniden sıralamak için sürükleyin</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>Kaydedilmemiş değişiklikleriniz var. Bu sayfadan çıkıp bunları göz ardı edilsin mi?</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>Gönderdiğiniz her şeyle birlikte buraya istediğiniz zaman geri dönebilirsiniz.</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>Form Gönderilerim</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>Gönderdiğiniz her form ve mevcut durumu.</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>Henüz gönderi yok</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>Gönderdiğiniz formlar burada görünecek, böylece daha sonra kontrol edebilirsiniz.</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>Gönderildi {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>Yanıtları anonim olarak toplayan formlar burada listelenmez, çünkü gönderen bilgisi olmadan saklanırlar.</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>Kullanıcı Özelleştirme</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>Bu özellik yakında geliyor. Daha sonra tekrar kontrol edin!</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>Bir captcha iste</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>Form kabul edilmeden önce gönderenlerin bir Cloudflare Turnstile testinden geçmesi gerekir.</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>Bu formu doldurmak için Discord ile giriş yapın. Doğrudan buraya geri döneceksiniz.</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>Discord ile giriş yap</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>{0} tarafından bir form. Doldurmak için Discord ile giriş yapın.</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>Yanıtlar anonimdir.</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>Göndermeden önce insan olduğunuzu onaylayın.</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>Captcha doğrulanamadı. Lütfen sayfayı yeniden yükleyin ve tekrar deneyin.</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>Sunucu dışındaki kişilere izin ver</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>Bağlantıya sahip olan herkes, üye olmasa bile gönderebilir. Yasak itirazları ve katılım başvuruları buna her zaman izin verir.</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>Reddedildikten sonra tekrar itirazı engelle</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>Reddedilen bir itiraz kesindir ve kullanıcı başka bir tane gönderemez.</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>Maksimum itiraz</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>Bir kullanıcının artık itiraz edemez hale gelmeden önce kaç reddedilmiş itiraza ulaşabileceği. Sınır olmaması için boş bırakın.</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>Reddedildikten sonra bekleme (gün)</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>Bir kullanıcının reddedilen bir itirazdan sonra tekrar itiraz etmeden önce ne kadar beklemesi gerektiği. Bekleme olmaması için boş bırakın.</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>Yasaktan sonra bekleme (gün)</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>Bir kullanıcının yasaklandıktan sonra ilk itirazından önce ne kadar beklemesi gerektiği. Bekleme olmaması için boş bırakın. Discord denetim günlüğü geçmişini yalnızca belirli bir süre saklar, bu nedenle bu, eski yasaklarda uygulanamaz.</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>Önceki itirazınız hâlâ inceleniyor. Tekrar itiraz etmeden önce lütfen bir karar bekleyin.</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>İtirazınız reddedildi ve bu sunucu başka itiraz kabul etmiyor.</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>Bu sunucu için tüm {0} itirazınızı kullandınız.</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>{0} gün içinde tekrar itiraz edebilirsiniz.</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>Bu sunucu henüz itiraz kabul etmiyor. {0} gün içinde itiraz edebilirsiniz.</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>Bu sunucunun zaten üyesisiniz.</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>Bu formun gerektirdiği role sahip değilsiniz.</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>Bu sorunun yanıtlanması gerekiyor.</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>Bu yanıt en az {0} karakter olmalıdır.</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>Bu yanıt en fazla {0} karakter olmalıdır.</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>Bu yanıt bir sayı olmalıdır.</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>Bu yanıt en az {0} olmalıdır.</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>Bu yanıt en fazla {0} olabilir.</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>Geçerli bir e-posta adresi girin.</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>http veya https ile başlayan geçerli bir bağlantı girin.</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>Bu seçim sunulan seçeneklerden biri değil.</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>En az {0} seçenek seçin.</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>En fazla {0} seçenek seçin.</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>Bu yanıt artık mevcut değil.</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>Bu yanıt bir inceleme sürecinin parçası değil.</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>Bu yanıt için zaten bir karar verildi.</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>Bu yanıta bağlı bir Discord kullanıcısı yok.</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>Yasak kaldırılamadı. Botun yasakları yönetebildiğinden emin olun.</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>Bir davet oluşturulamadı. Botun davet oluşturabildiğinden emin olun.</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0} (Kopya)</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>Yanıt yok</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>{0} tarafından gönderildi</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>Yanıt #{0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>Yanıtınız kabul edildi.</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>Yanıtınız reddedildi.</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>Yanıt Kimliği</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>Kullanıcı Kimliği</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>Gönderilme Tarihi</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>İncelenmedi</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>Form kaydedildi</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>Form yayınlandı</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>Form artık yanıt kabul ediyor</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>Form yanıt kabul etmeyi durdurdu</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>Form çoğaltıldı</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>Form silindi</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>Yanıt silindi</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>Yanıt kabul edildi</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>Yanıt reddedildi</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>Bir form oluşturuldu</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>Bir form güncellendi</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>Bir form önceki bir sürüme geri yüklendi</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>Bir form yayınlandı</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>Bir form yanıtlara açıldı</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>Bir form yanıtlara kapatıldı</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>Bir form çoğaltıldı</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>Bir form silindi</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>Bir form yanıtı silindi</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>Bir form yanıtı kabul edildi</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>Bir form yanıtı reddedildi</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>Formlar</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>Üyelerinizin bir bağlantıdan doldurduğu formlar oluşturun ve yanıtları burada toplayın.</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>Bir form oluştur</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>Henüz form yok</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>Yanıt toplamaya başlamak için ilk formunuzu oluşturun.</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>Yanıtlar</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>İncelenecek</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>Taslak</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>Bağlantıyı kopyala</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>Yayınla</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>Çoğalt</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>"{0}" ve topladığı her yanıt silinsin mi? Bu geri alınamaz.</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>Bu yanıt silinsin mi? Bu geri alınamaz.</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>Kopyalandı</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>Formu düzenle</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>Yeni form</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>Form ayarları</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>İnceleme ayarları</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>Yanıtların onaylanması gerektiğinde ve yasak itirazları ile katılım başvuruları için kullanılır.</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>Gönderimleri şuraya gönder</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>Göndermek için gereken rol</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>Yanıt sınırı</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>Şu tarihte kapanır</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>Gün cinsinden minimum hesap yaşı</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>Yeni hesapları engeller. Sunucu dışındaki kişilere açık formlarda kullanışlıdır.</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>Gönderdikten sonra gösterilen mesaj</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>Kaldığınız yerden devam edildi. Yanıtlarınız sayfalar arasında hareket ederken kaydedilir.</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>Sayfa ekle</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>Sayfa {0}</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>Tüm sayfalar</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>Başlıksız sayfa</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>Sayfa başlığı</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>Sayfa girişi</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>Sayfayı kaldır</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>Bu sayfaya bir başlık ekle</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>Daha önceye taşı</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>Daha sonraya taşı</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>Sayfaları yeniden sıralamak için sürükleyin</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>Yanıtınız alındı.</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>Burada kontrol edin</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>Gönderimi görüntüle</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>Değişiklikleriniz kaydedildi.</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>Burada göstermek için çok uzun</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>Embed Oluşturucu</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>Embed'li bir mesaj oluşturun ve Discord'un nasıl göstereceğini görün.</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>Kaydedilmiş bir embed seç</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>Yükle</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>JSON Uygula</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>Canlı önizleme</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>Bu embed'e ad ver</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>Yazar</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>Gövde</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>Görseller</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>Alt bilgi</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>Yazar adı</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>Yazar bağlantısı</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>Yazar simgesi</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>Başlık bağlantısı</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>Embed açıklaması</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>Vurgu rengi</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>Büyük görsel</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>Küçük resim</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>Alt bilgi metni</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>Alt bilgi simgesi</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>Zaman damgası göster</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>Alan adı</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>Alan değeri</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>Yan yana</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>Bir alan ekle</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>Embed</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>Bir embed ekle</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>Bu embed'i kaldır</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>Henüz gösterilecek bir şey yok. Yazmaya başlayın, burada görünecek.</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>Embed yüklendi.</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>Embed kaydedildi.</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>Embed yeniden adlandırıldı.</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>Embed silindi.</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>Önce embed'e bir ad verin.</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>Önce kaydedilmiş bir embed seçin.</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>Gönderilecek bir kanal seçin.</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>"{0}" - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>Görsel yanıtları şu anda kabul edilemiyor.</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG, JPEG, GIF veya WebP, en fazla {0} MB.</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>Yükleniyor…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>Görsel yükleme</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>Formu dolduran kişi bir görsel ekler.</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>Görseller {0} MB'dan küçük olmalıdır.</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>Bu dosya bir görsel olarak okunamadı.</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>Bu görsel işlenemeyecek kadar çok piksele sahip.</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>Bu görsel kaydedilemedi. Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>{0} yanıt daha kontrol panelinde.</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>Kullanıcı başına birden fazla gönderime izin ver</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>Form türü</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>Yanıtların onaylanması gerekir</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>Onaylandığında</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>Onaylandığında değiştirilecek roller</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>Onaylandığında eklenecek roller</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>Onaylandığında kaldırılacak roller</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>Reddedildiğinde eklenecek roller</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>Reddedildiğinde kaldırılacak roller</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>Karar</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>{0} tarafından kabul edildi</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>{0} tarafından reddedildi</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>Kabul Et</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>Reddet</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>Bu form henüz açık değil. {0} tarihinde açılıyor.</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>Bu form artık gönderimlere açık.</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>Şu saatte açılır (UTC)</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>Form, yayınlandıktan sonra bile bu saate kadar kapalı kalır. Yayınlanır yayınlanmaz açılması için boş bırakın.</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>Açılışı şurada duyur</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>Duyuruda belirtilecek rol</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>Açılış duyurusunun ne söylediği</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>Açılış zamanı geldiğinde bir kez yayınlanır. Varsayılan metin için boş bırakın.</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>Görsel URL'si</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>Sorunun üzerinde gösterilir. Bir http veya https adresi olmalıdır.</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>Reddedildikten sonra yeniden göndermeye izin ver</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>Reddedilen bir gönderici düzeltilmiş bir yanıt gönderebilir. Onaylanan ve bekleyen yanıtlar hâlâ tek gönderimleri olarak sayılır.</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>Yeni bir yanıtta belirtilecek rol</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>Bir yanıt geldiğinde gönderim kanalında belirtilir. Rolün belirtilebilir olması veya botun onu belirtmek için izne ihtiyacı olması gerekir.</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>Gönderim sırasında verilen roller</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>İncelensin ya da incelenmesin, form gönderilir gönderilmez verilir.</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>DM gönderilemedi</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>Bir karar beklenirken verilen rol</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>Form gönderildiğinde verilir ve yanıt onaylandığında veya reddedildiğinde geri alınır.</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Discord'dan karar verebilen rol</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>Bu role sahip üyelerin kullanabileceği gönderim mesajına kabul et ve reddet düğmeleri ekler. Yalnızca kontrol panelinden incelemek için boş bırakın.</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>Reddedildiğinde</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>Reddedildiğinde değiştirilecek roller</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>Davet kullanımları</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>Saniye cinsinden davet geçerliliği</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>Normal form</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>Yasak itirazı</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>Katılım başvurusu</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>Hiçbir şey yapma</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>Rol ekle</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>Rol kaldır</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>Sorular</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>Bir soru ekle</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>{0} soru</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>Başlıksız soru</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>Soru</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>Yanıt türü</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>Yer tutucu</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>Zorunlu</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>Minimum uzunluk</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>Maksimum uzunluk</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>En küçük değer</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>En büyük değer</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>Bir seçenek ekle</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>Soruyu çoğalt</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>Yukarı taşı</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>Aşağı taşı</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>Bu soruyu yalnızca şu durumda göster</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>Kısa metin</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>Çoktan seçmeli</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>Onay kutuları</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>Açılır liste</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>E-posta adresi</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>Bağlantı</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>Bir koşul ekle</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>Koşulu kaldır</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>Kural kümesi</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>Bir kural kümesindeki her koşulun sağlanması gerekir. Herhangi bir kural kümesi sağlandığında soru gösterilir, bu nedenle alternatif bir hak kazanma yolu için ikinci bir küme kullanın.</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>Çalışmanız kaydediliyor</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>Çalışmanız kaydedildi</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>Çalışmanız kaydedilemedi</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>Koşul</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>Önceki soru</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>Karşılaştırma</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>Rol eşleşmesi</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>Sunucuyu takviye ediyor</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>Takviye ediyor</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>Takviye etmiyor</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>İzin bayrakları</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>Yanıtını karşılaştırmak için bunun önüne bir soru ekleyin.</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>Bir soruya yanıt</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>Kullanıcının sahip olduğu roller</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>Sunucudaki süre</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Discord hesap yaşı</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>Takviye durumu</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>Kullanıcının sahip olduğu izinler</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>şudur</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>şu değildir</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>içerir</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>şundan büyüktür</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>şundan küçüktür</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>herhangi bir yanıta sahip</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>boş bırakıldı</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>Herhangi biri</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>Hepsi</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>Formu kaydet</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>Formlara dön</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>{0} yanıt</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>Henüz yanıt yok.</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>CSV Dışa Aktar</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>Görüntüle</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>Yanıtı sil</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>Sayfa {0} / {1}</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>Onayla</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>Reddet</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>Gönderen için notlar</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>İsteğe bağlı. Kararla birlikte gönderene iletilir.</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>Tümü</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>İnceleme bekleniyor</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>İnceleniyor</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>Onaylandı</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>Reddedildi</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>Önizleme sırasında gönderim kapalıdır</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>Bu formu önizliyorsunuz. Buraya girdiğiniz hiçbir şey kaydedilmez.</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>{1} sorudan {0} tanesi yanıtlandı</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>Bir seçenek seçin</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>Yanıtınız gönderildi.</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>Alındı</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>Gönderildi</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>Son düzenleme</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>Yanıtlarımı düzenle</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>Düzenlendi</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>Gönderildiğinden beri {0} kez düzenlendi, en son {1}.</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>İncelemeciden notlar</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>Davetiniz</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>Yanıtınızı daha sonra kontrol etmek için bu bağlantıyı saklayın.</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>Anonim olarak gönderildi</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>Anonim bir form, kimin gönderdiğini kaydetmediğinden rolleri değiştiremez.</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>Bir yasak itirazını veya katılım başvurusunu onaylamak gönderen kişi üzerinde işlem yapmayı gerektirdiğinden bunlar anonim olamaz.</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>Bu yanıt anonim olarak gönderildi, bu yüzden üzerinde işlem yapılacak kimse yok.</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>Yanıtları anonim olarak kaydet</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>Gönderenler, formun kimin gönderebileceğini kontrol edebilmesi için yine de Discord ile giriş yapar, ancak adları ve adresleri saklanmaz. Onay eylemleri kullanılamaz.</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>Onaylanan bir başvurana verilecek roller</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>Başvuran için ayrılır ve davet aracılığıyla katıldığında kendisine verilir.</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>Anonim</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>Bu form anonimdir. Sunucunun gönderebileceğinizi kontrol edebilmesi için giriş yapmış durumdasınız, ancak adınız yanıtlarınızla birlikte saklanmaz.</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Discord Nitro'ya sahip</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Nitro'ya sahip</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Nitro'ya sahip değil</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>Şununla birleştir</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>Bu gruptaki tüm koşullar</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>Bu gruptaki herhangi bir koşul</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>Bu soruda önceki yanıtları alıntıla</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>1. soruya verilen yanıtı göstermek için soruya {{Q1}} yazın.</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>Yalnızca şu durumda zorunlu</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>Her zaman yukarıdaki ayarı kullan</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>Yanıtlarınızı kontrol edin</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>Henüz hiçbir şey gönderilmedi. Yanıtlarınızı okuyun, ardından gönderin.</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>Yanıtları incele</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>Yanıtları değiştir</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>Yanıtları gönder</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>Henüz soru yok. Başlamak için bir tane ekleyin.</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>Ne tür bir yanıt istiyorsunuz?</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>Ayrıntıları düzenle</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>Ayrıntıları gizle</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>Sorunuzu buraya yazın</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>Koşullu</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>Bir yanıtı alıntılıyor</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>Tek satır metin</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>Daha uzun, çok satırlı bir yanıt</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>Bir listeden bir seçenek</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>İstediğiniz sayıda seçenek</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>Bir menüden bir seçenek</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>İsteğe bağlı sınırlı bir sayı</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>Bir e-posta adresi</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>http ile başlayan bir bağlantı</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>{0}. soru, soru sorulduğunda henüz mevcut olmayan kendi yanıtını alıntılıyor.</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>{1}. soru, daha sonra sorulan {0}. soruyu alıntılıyor. Bir soru yalnızca kendisinden önce gelen bir soruyu alıntılayabilir.</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>Bir soru {0}. soruyu alıntılıyor, ancak bu formda yalnızca {1} soru var.</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>Sunucuda zaten bulunan kişiler için</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>Yasaklı kişilerin geri dönmek için istekte bulunmasına izin verir</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>Dışarıdaki kişilerin katılmak için başvurmasına izin verir</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>İtirazlar ve başvurular her zaman incelenir.</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>Oturum açma ve sunucu</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>Koruma</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>Roller ve kendi kendine roller</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>Biletler</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>Komutlar ve yanıtlayıcılar</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>Doğrulama</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>Günlükleme</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>Sohbet Botu</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>Kayıtlı özellik yok</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>Filtreler</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>Özellik</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>Değiştiren</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>Zaman aralığı</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>Herhangi bir zaman</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>Son 24 saat</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>Son 7 gün</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>Son 30 gün</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>Son 3 ay</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>Özel aralık</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>Yalnızca değişiklik ayrıntıları olan girdiler</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>Özetlerde, adlarda ve değerlerde ara</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>Sıralama</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>Önce en yeni</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>Önce en eski</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>Sayfa başına girdi</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>{2} girdiden {0} - {1} arası gösteriliyor</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>Bu filtrelerle eşleşen girdi yok.</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>Kontrol panelinden henüz hiçbir şey değiştirilmedi.</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>Şimdi</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>hiçbiri</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>{0} alan değiştirildi</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>Etkilenen</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>{0} için günlükleme güncellendi</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>AutoMod Kontrolü</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>Yasak Duyurusu</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>Afiş</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>Doğum Günü</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>Takviye Duyurusu</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>Ekonomi Takviyesi</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>Ekonomi Öğesi</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>Dosya Uzantıları</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>Form Yanıtı</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>Katılma Duyurusu</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>Ayrılma Duyurusu</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>Seviye Rolleri</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>Bağlantı Beyaz Listesi</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>Mesaj Benzerliği</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>Aynı Katılımlar</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>Sezonluk Düşüşler</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>Kendi Kendine Rol Grubu</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>İstatistik Kanalı</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>Seri Rolleri</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>Bilet Paneli</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>Tam günlüğü aç</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>Kontrol paneli değişiklik uyarıları güncellendi</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>Kontrol Paneli Değişiklik Uyarıları</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>Kontrol Paneli Uyarı Kanalı</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>Kontrol paneli değişikliklerinin duyurulduğu yer. Hiçbir şey duyurmamak için hiçbiri olarak bırakın.</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>Erişim ve günlük değişikliklerinde her zaman uyar</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>Bu özelliklerdeki değişikliklerde uyar</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>Yalnızca yukarıdaki değişiklikler hakkında uyarılmak için hiçbirini seçin. Her durumda her şey günlüğe kaydedilir.</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>Bu girdiye bağlantı</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>Tek bir girdi gösteriliyor.</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>Tüm günlüğü göster</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>Tek bir oturumda {0} değişiklik</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>Bu günlükten {0} girdi silindi</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>Bir başarım oluşturuldu</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>Bir başarım güncellendi</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>{0} afişi güncellendi</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>sıralama kartı</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>hoş geldin</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>veda</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>Katılımda verilen roller güncellendi</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>Duyuru güncellendi: {0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>AutoMod güncellendi: {0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>Bu embed'i önizle</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>Önizlemek için kaydedilmiş bir embed seçin.</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>Otomasyon</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>Otomatik Hatırlatma</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>Bir süredir yanıt vermeyen bileti açan kişiye dürtme gönderir.</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>Şu Kadar Gün Sonra Hatırlat</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>Yanıt Alınmadığında Otomatik Kapat</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>Açıcısının yanıt vermeyi bıraktığı bir bileti kapatır.</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>Şu Kadar Gün Sonra Kapat</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>Açıcı Ayrıldığında Otomatik Kapat</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>Hatırlatma 1 ile 365 gün arasında olmalıdır.</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>Kapatma 1 ile 365 gün arasında olmalıdır.</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>Bilet otomasyon ayarları güncellendi</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>Bilet Yöneticisi</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>Bu sunucunun destek biletlerini görüntüleyin ve üzerlerinde işlem yapın.</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>Bu sunucuda henüz hiç bilet açılmadı.</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>Biletlerde ara...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>Açan</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>Üstlenen</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>Son Etkinlik</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>Üstlenilmedi</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>Ekip bekleniyor</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>Henüz mesaj yok</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>Bazı biletler artık var olmayan bir kanalı işaret ediyor. Bunları silmek geriye kalan satırları temizler.</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>Ekip Bekleniyor</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>Ortanca İlk Yanıt</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>Bilet Kategorileri</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>Biletler, hâlâ yer olan en düşük numaralı kategoriyi doldurur. Discord bir kategoriyi 50 kanalla sınırlar.</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>Birincil</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>Taşma #{0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>Discord'dan Silindi</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 kanal</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>Henüz bilet kategorisi yok. İlk bilet açıldığında bir tane oluşturulur.</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>Yeniden aç</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>Üstlen</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>Bırak</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>Kullanıcı Ekle</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>Kullanıcı Kaldır</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>Hatırlat</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>Anonim Yanıt</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>Bu bilet ve kanalı silinsin mi? Bu geri alınamaz.</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>Mesaj</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>Bilet kapatıldı.</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>Bilet yeniden açıldı.</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>Bilet silindi.</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>Bilet üstlenildi.</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>Bilet bırakıldı.</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>Kullanıcı bilete eklendi.</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>Kullanıcı biletten kaldırıldı.</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>Bileti açan kişiye hatırlatma gönderildi.</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>Bilete yanıt gönderildi.</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>Bu bilet artık mevcut değil.</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>Bu bilet zaten kapalı.</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>Bu bilet zaten açık.</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>Bu biletin kanalı artık Discord'da mevcut değil.</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>Bot bu eylemi gerçekleştiremedi. Bilet kanalındaki izinlerini kontrol edin.</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>Hatırlatma gönderilemedi. Açan kişinin doğrudan mesajları kapalı olabilir.</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>Gönderilecek bir mesaj girin.</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>Bir yanıt 2000 karakterden uzun olamaz.</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>Geçerli bir kullanıcı seçin.</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>Kontrol panelinden kapatmak, Discord'da kapatmakla aynı şeyi yapar: kanalı kilitler, dökümü kaydeder, HTML kopyasını yükler ve kapanış DM'sini ile değerlendirme talebini gönderir.</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>Bir bilet kapatıldı</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>Bir bilet yeniden açıldı</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>Bir bilet silindi</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>Bir bilet üstlenildi</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>Bir bilet bırakıldı</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>Bir bilete kullanıcı eklendi</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>Bir biletten kullanıcı kaldırıldı</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>Bir bilet hatırlatması gönderildi</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>Anonim bir bilet yanıtı gönderildi</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>Bilet</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>Bilet:</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>Bileti Açan:</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>Kaydeden:</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>Mesaj Sayısı:</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>Yanıt Sayıları:</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>Değerlendirme:</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>Gönderildi, Değerlendirme Bekleniyor...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>Devre dışı</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>{0} içindeki destek biletiniz kapatıldı.
+            **Kapatan:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>Döküm, döküm kanalına kaydedildi.</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>Döküm</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**Lütfen size yardımcı olan ekip üyesiyle deneyiminizi değerlendirin.**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>Değerlendirme</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>İstenmedi</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>Ortalama Değerlendirme</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>Değerlendirme Bekleniyor</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>Bilet Panelini Gönder</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>Paneli Gönder</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>Bilet paneli gönderildi.</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>Panelin gönderileceği bir kanal seçin.</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>Bir destek bileti oluşturmak için aşağıdaki düğmeye tıklayın.</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>Bir bilet paneli gönderildi</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>Bu panel artık mevcut değil.</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>Bir sunucu en az bir paneli korumalıdır.</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>Geçerli bir bilet türü seçin.</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>İş parçacıkları için geçerli bir kanal seçin.</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>İş parçacıklarının açılacağı bir kanal seçin, aksi takdirde bu panel bilet oluşturamaz.</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>Panel oluşturuldu.</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>Panel silindi.</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>Bilet Türü</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>Özel İş Parçacığı</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>Genel İş Parçacığı</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>Genel bir iş parçacığı, üst kanalı görebilen herkes tarafından okunabilir.</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>İş Parçacığı Kanalı</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>Paneller</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>Panel Ekle</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>Paneli Sil</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>Bu panel silinsin mi? Ondan zaten açılan biletler çalışmaya devam eder.</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>{0} kanalda paylaşıldı</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>Henüz paylaşılmadı</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>Paylaşılan Panelleri Güncelle</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>Bu panel için zaten paylaşılan panelleri yukarıdaki ayarlarla eşleşecek şekilde yeniden yazar.</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>{0} paylaşılan panel güncellendi.</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>Bir bilet paneli oluşturuldu</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>Bir bilet paneli silindi</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>Bir bilet panelinin türü değiştirildi</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>Paylaşılan bilet panelleri güncellendi</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>Tüm Paneller</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>Panel Yok</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>Kapanışa Kadar Ortanca Süre</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>Bir sunucu en fazla {0} panele sahip olabilir.</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>Bilet {0} tarafından kapatıldı</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>Bilet {0} tarafından yeniden açıldı</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>{0} bilete başarıyla eklendi.
+            {1} tarafından istendi</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>{0} biletten başarıyla kaldırıldı.
+            {1} tarafından istendi</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>Bu, `{0}` içindeki biletinizin hâlâ açık olduğuna dair bir hatırlatmadır. Hâlâ yardıma ihtiyacınız varsa lütfen yanıtlayın.</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt;, &lt;@{1}&gt; kullanıcısına bir hatırlatma gönderdi.</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>Destek Ekibi Yanıtı</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>Bilet birkaç saniye içinde silinecek.</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>Bilet {0} tarafından üstlenildi</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>Bilet {0} tarafından bırakıldı</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>Bu bilet zaten {0} tarafından üstlenildi.</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>Önce bu panel için bir Destek Ekibi rolü ayarlamalısınız.</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>Bunu yapmak için {0} rolüne sahip olmanız gerekir.</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>Bu panelde hâlâ {0} açık bilet var. Önce bunları kapatın.</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>Bu biletin ait olduğu panel silindi.</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>Bundan daha eski mesajlar yıldız panosuna eklenmez. 0 sınır olmadığı anlamına gelir.</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>Mesajı Bildir bağlam menüsü aracılığıyla bildirilen mesajların paylaşıldığı yer. Bir tane ayarlanana kadar bildirme kullanılamaz.</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Discord'un kendisi gibi bot dışında uygulanan susturmaların günlüğe kaydedildiği yer. Bunları günlüğe kaydetmemek için hiçbiri olarak bırakın.</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>Bu role sahip üyeler sunucu ve genel notları görüntüleyip düzenleyebilir. Yöneticiler ve Sunucuyu Yönet iznine sahip üyeler her zaman yapabilir.</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>Kanal adları ve istatistik mesajı olağan sunucu yer tutucularını kabul eder, bu nedenle bir ad birden fazla istatistik tutabilir. Tam liste için &lt;strong&gt;&lt;a href='{0}' class='info'&gt;Yer Tutucu Referansına&lt;/a&gt;&lt;/strong&gt; bakın.</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>Bir takviyenin bir ada ihtiyacı var.</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>Özel İstatistik Kanalları</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>İstediğiniz gibi adlandırılmış, bir isimde herhangi bir istatistik karışımına sahip ses kanalları. Bot her birini istatistik kategorisi altında oluşturur ve her 20 dakikada bir günceller. En fazla 10.</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>Kanal adı şablonu</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discord bir kanal adı için 100 karaktere izin verir.</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>İstatistik Kanalı Ekle</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>Kanal 20 dakika içinde oluşturulacak.</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>20 dakika içinde oluşturuluyor</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>Bir kanal adı şablonu en fazla 100 karakter olabilir.</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>Bu özel istatistik kanalı artık mevcut değil.</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>Özel bir istatistik kanalı eklendi.</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>Özel bir istatistik kanalı kaldırıldı.</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>İstatistik Mesajı</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>Kanallar yerine, botun en son sayılarla her 20 dakikada bir düzenlediği tek bir mesaj yayınlar.</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>Varsayılan için boş bırakın. Cakey'nin kendi emote kodları dahil Discord emote kodları burada çalışır. Kanalı değiştirmek orada yeni bir mesaj yayınlar; artık istemiyorsanız eskisini kendiniz silin.</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>İstatistik mesajının yayınlandığı kanalı seçin.</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>Sabitlenmiş Sıralamalar</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>Botun bir kanala yayınladığı ve kimsenin /leaderboard çalıştırmasına gerek kalmaması için her 15 dakikada bir güncel tuttuğu bir sıralama mesajı. Sunucu başına en fazla 5.</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>Dönem</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>Tüm zamanlar</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>Bu hafta</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>Gösterilen üyeler</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>İlk {0}</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>15 dakika içinde yayınlanıyor</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>Sıralama Ekle</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>Sıralama 15 dakika içinde yayınlanacak.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>Bir sıralama 3 ile 15 üye arasında gösterir.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>Tüm zamanları, bu haftayı veya bu ayı seçin.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>Bu sabitlenmiş sıralama artık mevcut değil.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>Sabitlenmiş bir sıralama eklendi.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>Sabitlenmiş bir sıralama kaldırıldı.</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>Kilometre Taşı Rolleri</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>Bu sayılardan birini paylaşan kişiye eşleşen rol verilir. En fazla 25 kilometre taşı.</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>Ulaşılan sayı</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>Verilecek rol</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>Kilometre Taşı Ekle</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>Kilometre taşı sayısı en az 1 olmalıdır.</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>Bu sayı için zaten bir kilometre taşı var.</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>Yönetici, Sunucuyu Yönet veya Rolleri Yönet iznine sahip roller sayma oyunu tarafından verilemez.</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>Bu kilometre taşı artık mevcut değil.</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>Bir sayma kilometre taşı eklendi.</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>Bir sayma kilometre taşı kaldırıldı.</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>Bir mesajın komut metniyle nasıl ilişkilendirilmesi gerektiği. "Dosya içerir", "Webhook'tan" ve bahsetme seçenekleri metni yok sayar ve bu özelliğe sahip herhangi bir mesajda tetiklenir. Joker karakter * ve ? kabul eder; Regex, desen geçersizse otomatik olarak kapatılır.</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>Bot Ayarları altında belirlenen sunucu saat diliminde, saat başında.</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>Her gün veya yalnızca bir hafta içi günde.</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>Benzersiz, radyo düğmeleri gibi çalışır: gruptaki bir rolü seçmek, sahip olunanı değiştirir. Çoklu seçim, bir üyenin gruptan aynı anda birden fazla role sahip olmasını sağlar.</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>Bu sınırdan bir fazlasını almak, en uzun süre önce alınan rolü düşürür.</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>Takviye etkinken ekonomi oyunlarından elde edilen kazançları çarpar. Birden fazla etkin takviye birbiriyle çarpılır.</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>Takviyenin satın alındığı andan itibaren kaç saat süreceği.</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>Bir üyenin aynı anda bu takviyeden kaç tane elinde bulundurabileceği. 0 sınır olmadığı anlamına gelir.</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>Satın almada verilen rol. Cakey'nin en yüksek rolünün altında olmalı ve Yönetici, Sunucuyu Yönet veya Rolleri Yönet iznine sahip olmamalıdır.</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>Satın alma sırasında alıcıya en fazla 1.000.000'a kadar eklenen seviye XP'si.</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>Satın almada verilen ve aşağıda belirlenen saat sayısından sonra tekrar kaldırılan rol.</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>Bir satın almanın kaç sayma kurtarması sağladığı, 1 ile 100 arası. Alıcı bir hata yaptığında, sayıyı sıfırlamak yerine bir kurtarma kullanılır.</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>Bir üyenin aynı anda bu öğeden kaç tane sahip olabileceği. 0 sınır olmadığı anlamına gelir.</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>Mağazada gösterilir ve satın alınabilir. Öğeyi korumak ama gizlemek için kapatın, örneğin yalnızca ekibin dağıttığı bir ödül.</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>Sayma Kurtarması</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>Satın alma başına kurtarma</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>Bir sayma kurtarması öğesi 1 ile 100 arasında kurtarma sağlamalıdır.</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>Bozunma DM Bildirimleri</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>XP'leri bozulduğunda üyelere bir DM gönderir. Her DM, üyelerin kendilerini vazgeçirmek için kullanabileceği bir düğme taşır.</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>Ek Silindi</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>Bir dosya veya görsel taşıyan silinmiş mesajlar, Mesaj Silindi kanalı yerine burada günlüğe kaydedilir. Bunları bir arada tutmak için hiçbiri olarak bırakın.</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>Öneri Bahsetme Rolü</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>Yeni bir öneri paylaşıldığında her seferinde belirtilir. Rolün belirtilebilir olması veya botun herhangi bir rolü belirtmek için izne ihtiyacı olması gerekir.</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>Bir görsele sahip</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>Sunucu emojisi ekle</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>Atlamak için ses kanalındaki sağırlaştırılmamış üyelerin yarısından fazlasının oyu gerekir. DJ'ler, moderatörler ve şarkıyı isteyen kişi hâlâ doğrudan atlayabilir.</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>Bir üye bu seviyeye ulaştığında XP birikmeyi durdurur.</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>Son düşüşü alan kişi bir sonrakini alamaz.</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>Her düşüşte farklı bir yerde dört sahte düğme arasında alma düğmesini gizler, böylece refleksle tıklanamaz.</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>Düşüşler arasında bu iki değer arasında rastgele bir bekleme geçer.</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>Doğum günü duyurulduğunda verilir ve 24 saat sonra tekrar kaldırılır.</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>Kendi saat dilimi olmayan doğum günleri, günlük içerik ve zamanlanmış otomatik mesajlar için kullanılır.</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>Kanalın Entegrasyonlar ayarları altında bir webhook oluşturun ve URL'sini buraya yapıştırın. Gönderiler bunun aracılığıyla gönderilir.</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>Yalnızca gönderilerin webhook'un kanalı altındaki bir iş parçacığına veya forum gönderisine gitmesi gerektiğinde gereklidir. Aksi takdirde boş bırakın.</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>Her yeni gönderiyle birlikte belirtilir. Kimseyi belirtmemek için boş bırakın.</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>Gönderi embed'inin kenar çubuğunun rengi.</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>Yalnızca subreddit adı, r/ olmadan.</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>Web sitesi yerine doğrudan beslemenin kendisine bağlantı. Genellikle .xml, .rss veya /feed ile biter.</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>URL'de twitch.tv/ sonrasında göründüğü şekliyle kanal adı.</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>Bir youtube.com/@handle veya /channel/ URL'si gibi kanal sayfasına bağlantı.</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>Üyelerin bu etiketi çağırmak için kullandığı ad. Kısa ve akılda kalıcı tutun.</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>Etiket kullanıldığında botun ne yanıtladığı.</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>Mesajlarda aranacak metin. Büyük/küçük harf yok sayılır ve aşağıdaki eşleşme türü bunun ne kadar sıkı olduğunu belirler.</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>Bir mesaj eşleştiğinde gönderilir. Bunu bir embed ile birleştirin veya yalnızca embed göndermek için boş bırakın.</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>Zamanlanmış mesajın paylaşıldığı yer.</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>Seçilen zamanda yukarıdaki kanalda paylaşılır.</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>Yalnızca duyuru kanalları seçilebilir. Orada paylaşılan her mesaj, takip eden sunuculara yayınlanır.</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>Üyelerin kendilerine verebileceği rol.</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>Üyelerin ne işe yaradığını bilmesi için seçicide rolün yanında gösterilir.</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>Bu seviyenin altındaki üyeler rolü seçemez. 0 kontrolü devre dışı bırakır.</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>Üyelerin rolü seçebilmeden önce ihtiyaç duyduğu günlük seri. 0 kontrolü devre dışı bırakır.</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>Üyelerin yenisini seçebilmeden önce zaten bu role sahip olması gerekir.</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>Seçicinin başlığı olarak gösterilir.</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>Grubun ne işe yaradığını açıklamak için başlığın altında gösterilir.</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>Yalnızca bu role sahip üyeler gruptan seçim yapabilir.</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>Yalnızca bu seviyede veya üzerinde olan üyeler gruptan seçim yapabilir.</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>Öneri gönderisinde gösterilen durumu günceller.</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>Öneri gönderisinde kararla birlikte gösterilir. İsteğe bağlı.</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>Bu sunucunun kullanması gereken özel bot aboneliği.</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>Discord Developer Portal'daki uygulamanızın Bot sekmesinden bot tokeni. Gizli tutun.</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>Mağazada ve satın alma mesajlarında gösterilir.</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>Alıcıların ne aldıklarını bilmeleri için mağazada adın altında gösterilir.</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>Sunucu para biriminizde fiyat. Alıcıların satın almak için en az bu kadara ihtiyacı vardır.</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>Alıcının aldığı şey. Aşağıdaki alanlar türe göre değişir.</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>Uygulanırken ön ayarı daha sonra bulmak için kullanılır.</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>Alıcının satın alma tarihinden itibaren rolü kaç saat elinde tutacağı.</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>Duyuru kanalı bulunamadı. Önce Discord'da bir tane oluşturun.</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>Embed'i bot yerine bu webhook aracılığıyla, webhook'un adını ve avatarını kullanarak gönderir.</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>Gönderici Profilleri</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>Şu olarak gönder</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>Gönderici Profillerini Yönet</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>Bir gönderici profili, mesajı kendi adı ve avatarıyla bir webhook aracılığıyla yayınlar. Botun kanalda Webhook'ları Yönet iznine ihtiyacı vardır.</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>Görünen Ad</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>Mesajın yazarı olarak 80 karaktere kadar gösterilir. Discord "discord" veya "clyde" içeren adları reddeder.</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>Avatar URL'si</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>Bir PNG, JPG veya GIF'e doğrudan bağlantı. Botun avatarını korumak için boş bırakın.</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>Kaydedilmiş Webhook URL'si</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>İsteğe bağlı. Ayarlandığında, bu profil olarak gönderilen mesajlar bir kanal yerine bu webhook'a gider, yine de yukarıdaki ad ve avatar altında.</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>Yeni Profil</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>Profili Kaydet</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>Henüz gönderici profili yok.</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>Bu gönderici profili silinsin mi?</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>Gönderici profili kaydedildi.</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>Gönderici profili silindi.</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>80 karaktere kadar bir görünen ad girin.</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discord "discord" veya "clyde" içeren gönderici adlarına izin vermez.</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>Avatar 512 karaktere kadar bir http veya https bağlantısı olmalıdır.</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>Bir sunucu en fazla 25 gönderici profiline sahip olabilir.</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>Bu gönderici profili artık mevcut değil.</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>UYGULAMA</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>Kanala gönder</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>JSON içe / dışa aktar</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>Mesaj Metni</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>Embed'in üzerinde gönderilen metin</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>Yalnızca bu sayfadan gönderirken kullanılır. Embed ile birlikte kaydedilmez ve kaydedilmiş embed'i paylaşan özellikler onu içermez.</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>Yeni olarak kaydet</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>Seçileni güncelle</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>{server.name} sunucusuna hoş geldiniz!</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>Bu, oluşturucunun ne yapabileceğini göstermek için örnek bir embed'dir. **kalın**, *italik*, `kod`, bir [bağlantı](https://cakey.bot) ve {user.mention} gibi yer tutucuları deneyin. Buradaki her şey düzenlenebilir veya temizlenebilir ve kanal bahsetmeleri ile özel emojiler de çalışır.</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>Sunucu üyeleri</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>Sunucu rolleri</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Cakey Bot embed oluşturucusuyla yapıldı</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>http:// veya https:// ile başlayan tam bir bağlantı olmalıdır.</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0} geçerli bir bağlantı değil.</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>Bu görsel yüklenemedi. Bağlantıyı kontrol edin.</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>Bir gönderici profili oluşturuldu</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>Bir gönderici profili güncellendi</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>Bir gönderici profili silindi</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>{user.username} gibi yer tutucular burada bu sunucunun değerleriyle ve kullanıcı olarak sizinle gösterilir. Kaydedilmiş embed bunları yazıldığı gibi korur ve bot onları paylaşırken doldurur.</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

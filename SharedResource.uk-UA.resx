@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>Лише GIF</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>Лише медіа</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>Лише файли</value>
   </data>
@@ -1126,9 +1129,6 @@
   <data name="audit-birthday-role" xml:space="preserve">
     <value>Оновлена роль дня народження: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>Оновлено часовий пояс для дня народження {0}</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>Дні народження</value>
   </data>
@@ -1141,11 +1141,17 @@
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>Необов'язково — перевизначає часовий пояс сервера лише для перевірки дня народження цієї людини.</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>Оновлено часовий пояс для дня народження {0}</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>Змінено колір</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>Лівий колір</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>Колір при вході</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>Видалення ролей на вищому рівні</value>
@@ -1204,6 +1210,27 @@
   <data name="chat-bot-title" xml:space="preserve">
     <value>Чат-бот зі штучним інтелектом</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>Модель ШІ</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>Модель OpenAI, яку ваш чат-бот використовує для створення відповідей. Вищі рівні відкривають більш потужні моделі.</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>Безкоштовно</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>Преміум</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>Власний бот</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>Ключ API</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>Ця модель вимагає вищого рівня підписки.</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>Вирівнювання голосу ввімкнено</value>
   </data>
@@ -1231,7 +1258,7 @@
   <data name="suggestion-page-title" xml:space="preserve">
     <value>Пропозиції</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>Канал для пропозицій не налаштовано, тому учасники ще не можуть створювати пропозиції, а рішення, збережені тут, не можна відобразити в повідомленні в Discord. Налаштуйте канал нижче, щоб виправити обидві проблеми.</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>Ігноровані канали досягнень оновлено.</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>Оновлено ігноровані ролі досягнень.</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>Оновлено повідомлення про розблокування досягнень.</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>Кілька досягнень увімкнено або вимкнено одночасно.</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>Самостійні ролі</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>Скористайтеся кнопкою «Додати самороль» нижче, щоб створити нову самороль.</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>Самороль не знайдено. Натисніть «Додати самороль» вище, щоб створити її.</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>Груп ролей ще немає. Групи дозволяють зробити набір саморолей взаємовиключними.</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>Значення ({0}) повинно бути числом.</value>
@@ -1876,6 +1918,9 @@
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>Підписки</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>Обліковий запис OAuth від'єднано. ({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>Змінено налаштування інтеграції OAuth. ({0})</value>
   </data>
@@ -1950,6 +1995,48 @@
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>Закрити</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>Кількість учасників</value>
@@ -2083,6 +2170,12 @@
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Semicolon separated list</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>Видаляти після публікації</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>Якщо увімкнено, елементи видаляються зі списку, щоб уникнути дублювання. Перед увімкненням цієї функції переконайтеся, що у вас є збережена копія ваших даних, оскільки ці дані не можна відновити.</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>Створити Гілку</value>
   </data>
@@ -2115,6 +2208,24 @@
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>Початковий баланс</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>Мін. щоденна сума</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>Макс. щоденна сума</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>Мін. щотижнева сума</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>Макс. щотижнева сума</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>Мін. щомісячна сума</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>Макс. щомісячна сума</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>Очистити баланс користувача при виході</value>
@@ -2230,11 +2341,119 @@
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>Досягти рівня X.</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>Отримати певну роль.</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>Надіслати X GIF.</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>Надіслати X стікерів.</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>Отримати тайм-аут X разів.</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>Транслювати протягом X хвилин.</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>Носити тег цього сервера.</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>Рахувати лише в цьому каналі</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>Залиште порожнім, щоб рахувати будь-де на сервері. Це не можна змінити пізніше, оскільки прогрес зберігається по каналах.</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>Роль для отримання</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>Драбина рівнів</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>Надайте кожній сходинці драбини однакову назву, потім пронумеруйте їх нижче. Досягнення вищої сходинки також надає ті, що під нею.</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>Сходинка</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>Повідомлення про розблокування для цього досягнення</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>Перевизначає повідомлення про розблокування сервера лише для цього досягнення. Залиште порожнім, щоб використати повідомлення сервера.</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>Налаштування досягнень</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>Повідомлення про розблокування</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>Залиште порожнім для стандартного формулювання. Заповнювачі: {achievement.name}, {achievement.description}, {user.achievement.count}, {achievement.owners.count} та всі базові заповнювачі.</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>Переглянути список заповнювачів</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>Ігноровані ролі</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>Учасники з однією з цих ролей не прогресують до досягнень</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>Змінені досягнення</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>Спочатку виберіть хоча б одне досягнення</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>Виберіть роль, отримання якої приносить це досягнення</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>Сходинка має бути числом від 1 до 20</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>Канал або роль, у якій рахується досягнення, не можна змінити після створення</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>Вторинні дані</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>Тимчасова роль</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>Тимчасові бани</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>Тимчасові ролі</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>На цьому сервері немає активних тимчасових банів.</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>На цьому сервері немає активних тимчасових ролей.</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>Бани та ролі можна вибирати разом. Їх завершення стосується всього, що ви вибрали, в обох списках.</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>Завершити зараз</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>Завершити зараз {0} вибраний(і) бан(и)? Бот зніме їх найближчим часом.</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>Завершити зараз {0} вибрану(і) роль(і)? Бот відкличе їх найближчим часом.</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0} елемент(ів) встановлено на завершення зараз</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>Встановлено на завершення зараз. Бот обробить їх найближчим часом.</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>Надіслати нагадування в ПС</value>
@@ -2388,9 +2607,6 @@
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>Максимум володіння на користувача</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0 максимуму = без обмежень</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>Риболовля</value>
@@ -2788,6 +3004,24 @@
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Придбати Lifetime Premium</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>ДОВІЧНИЙ Кастомний бот</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>Отримайте власного брендованого Кастомного бота за один одноразовий платіж, без повторюваної підписки, ніколи.</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>Примітка: Це суворо обмежена пропозиція - як тільки залишкові місця закінчаться, ця пропозиція зникне назавжди.</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>Придбати Довічний Кастомний бот</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>Залишилось {0}</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>Розпродано</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>Порівняння планів</value>
   </data>
@@ -2874,6 +3108,9 @@
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Синхронізація заборон серверів пулу</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>Ролі етапів підрахунку</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>Невмежені потоки RSS/соціальних мереж</value>
@@ -3279,15 +3516,6 @@
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>Налаштуйте канал-приманку, де будь-яке повідомлення автоматично запускає обране покарання, допомагаючи ловити рейд- і скам-ботів до того, як вони заспамлять ваш сервер.</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>Лише Точне Число</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>Точне Число АБО Рівняння</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>Лише Рівняння</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>Ви повинні вибрати кастомного бота, якого хочете змінити.</value>
@@ -4390,6 +4618,39 @@
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>Самостійна роль не знайдена або не належить цьому серверу</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>Ви можете мати не більше {0} саморолей</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>Ця роль вже є самороллю</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>Групу ролей не знайдено або вона не належить цьому серверу</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>Назва групи обов'язкова</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>Група з такою назвою вже існує</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>Максимальна кількість ролей має бути від {0} до {1} для групи з множинним вибором</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>Додано самороль {0}</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>Оновлено самороль {0}</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>Додано групу ролей '{0}'</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>Оновлено групу ролей '{0}'</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>Видалено групу ролей '{0}'</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>Під час додавання доступу до панелі управління сталася помилка</value>
   </data>
@@ -4735,8 +4996,35 @@
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>Макс. баланс повинен бути більше 0</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>Макс. баланс повинен бути менше 1000000000</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>Макс. баланс повинен бути менше {0}</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>Мінімальна щоденна сума має бути від 1 до {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>Максимальна щоденна сума має бути від 1 до {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Максимальна щоденна сума має бути більшою за мінімальну щоденну суму.</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>Мінімальна щотижнева сума має бути від 1 до {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>Максимальна щотижнева сума має бути від 1 до {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Максимальна щотижнева сума має бути більшою за мінімальну щотижневу суму.</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>Мінімальна щомісячна сума має бути від 1 до {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>Максимальна щомісячна сума має бути від 1 до {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Максимальна щомісячна сума має бути більшою за мінімальну щомісячну суму.</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>Макс. рівень повинен бути більше 0</value>
@@ -5026,6 +5314,12 @@
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>Premium активовано на сервері успішно</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>Преміум активовано на цьому сервері ({0})</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>Преміум видалено з цього сервера ({0})</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>Premium деактивовано з сервера успішно</value>
   </data>
@@ -5230,6 +5524,9 @@
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>Помилка при закритті nagbar</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>Дизайн банера</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>Невалідний тип банера</value>
   </data>
@@ -5413,8 +5710,26 @@
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>Увімкнено автоматичне повідомлення {0}</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>Увімкнено {0} автоматичних повідомлень</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>Вимкнено {0} автоматичних повідомлень</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>Видалено {0} автоматичних повідомлень</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>Увімкнено автоповідач {0}</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>Увімкнено {0} автовідповідачів</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>Вимкнено {0} автовідповідачів</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>Видалено {0} автовідповідачів</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>Імпортовано {0} автоповідачів</value>
@@ -5427,6 +5742,12 @@
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Змінено Twitch-канал {0}</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>Стрічку увімкнено</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>Стрічку вимкнено</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>Змінено YouTube-канал {0}</value>
@@ -5547,6 +5868,63 @@
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} тег {1}</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>та ще {0}</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>Завершено {0} тимчасових банів</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>Завершено {0} тимчасових ролей</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>Видалено {0} каналів автопублікації</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>Видалено {0} попереджень</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>Видалено {0} днів народження</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>Видалено {0} записів AFK</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>Видалено {0} самопризначуваних ролей</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>Видалено {0} постійних ролей</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>Видалено {0} товарів магазину</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>Видалено {0} підсилень</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>Видалено {0} стрічок</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>Видалено {0} записів журналу панелі</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>Видалено {0} записів</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>Увімкнено {0} стрічок</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>Вимкнено {0} стрічок</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>Увімкнено {0} тегів</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>Вимкнено {0} тегів</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>Видалено {0} тегів</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>Увімкнено</value>
@@ -5775,45 +6153,6 @@
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>Пошук самостійних ролей...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>Самороль не знайдено. Натисніть «Додати самороль» вище, щоб створити її.</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>Груп ролей ще немає. Групи дозволяють зробити набір саморолей взаємовиключними.</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>Ви можете мати не більше {0} саморолей</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>Ця роль вже є самороллю</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>Групу ролей не знайдено або вона не належить цьому серверу</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>Назва групи обов'язкова</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>Група з такою назвою вже існує</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>Максимальна кількість ролей має бути від {0} до {1} для групи з множинним вибором</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>Додано самороль {0}</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>Оновлено самороль {0}</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>Додано групу ролей '{0}'</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>Оновлено групу ролей '{0}'</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>Видалено групу ролей '{0}'</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>Додати самороль</value>
@@ -6229,9 +6568,6 @@
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Будь ласка, не оновлюйте сторінку.</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>Редактор Embed</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Збережений embed не знайдено.</value>
   </data>
@@ -6256,27 +6592,6 @@
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>Збережені Embeds</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>Новий / не збережений</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>Зберегти</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>Зберегти як новий</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>Перейменувати</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>Видалити</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>Назвіть цей embed:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>Перейменуйте збережений embed:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>Видалити цей збережений embed? Це не можна скасувати.</value>
   </data>
@@ -6286,17 +6601,8 @@
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>Перейменувати Embed</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>Видалити Embed</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>Надіслати Embed</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>Надіслати Embed</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>Канал</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>Надіслати на адресу webhook замість цього</value>
@@ -6307,7 +6613,7 @@
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+  <data name="generic-word-send" xml:space="preserve">
     <value>Надіслати</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6324,6 +6630,21 @@
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discord відхилив embed, надісланий на цей webhook.</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>Вміст embed</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>Збережено embed</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>Оновлено збережений embed</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>Перейменовано збережений embed</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>Видалено збережений embed</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>Надіслано embed на webhook.</value>
@@ -6510,6 +6831,15 @@
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>Мінне поле</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>Щоденно</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>Щотижнево</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>Щомісячно</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>Оплатити</value>
@@ -6874,6 +7204,174 @@ Custom Bots можна запросити максимум на 10 сервер�
   <data name="rp-feature-wink" xml:space="preserve">
     <value>Підморгнути</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>Гра в рахунок</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>Зміни можуть застосуватися в Discord із затримкою до 30 секунд через кешування.</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>Канал для рахунку</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>Лише Точне Число</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>Точне Число АБО Рівняння</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>Лише Рівняння</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>Заборонити послідовний рахунок</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>Скидати при помилці</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>Роль за помилку</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>Поточний рахунок</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>Поточний лічильник</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>Найвищий рахунок</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>Немає</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>Роль за помилку не може бути роллю @everyone.</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>Тривалість ролі за помилку</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>Постійно</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>хвилин</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>Залиште порожнім або вкажіть 0, щоб роль за помилку залишалася призначеною постійно. Максимум 43200 хвилин (30 днів).</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>Тривалість ролі за помилку має бути від 0 до 43200 хвилин.</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>Ігноровані ролі</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>Ігнорована роль не може бути роллю @everyone.</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>Гру в рахунок ще не налаштовано для цього сервера.</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>Скинути поточний рахунок</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>Негайно скидає поточний рахунок до 0, так само як якщо б рахунок щойно провалився. На найвищу серію за весь час це не впливає.</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>Ви впевнені, що хочете скинути поточний рахунок до 0? Це неможливо скасувати.</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>Скинути рахунок</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>Поточний рахунок скинуто до 0.</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>Користувацьке повідомлення про помилку</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>Надсилається замість стандартного повідомлення про помилку, коли рахунок скидається. Залиште обидва поля нижче порожніми, щоб використати стандартне повідомлення.</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>Повідомлення</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>Залиште порожнім, щоб використати стандартне повідомлення про помилку</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>Користувацький embed помилки</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>Зберегти зміни</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>Оновлено налаштування гри в рахунок</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>Поточний рахунок гри в рахунок примусово скинуто</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>Оновлено користувацьке повідомлення про помилку гри в рахунок</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>Не вдалося завантажити налаштування гри в рахунок.</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>Користувацьке повідомлення</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>Необов'язкове повідомлення, що надсилається разом зі сповіщенням...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>Доступні заповнювачі: {link}, {channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>Доступні заповнювачі: {link}, {subreddit}, {title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>Доступні заповнювачі: {link}, {streamer}, {title}, {game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>Доступні заповнювачі: {link}, {title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>Автоматичне розархівування форуму</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>Боту потрібне право «Керування гілками» в кожному відстежуваному каналі форуму для автоматичного розархівування гілок.</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>Канал форуму 1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>Канал форуму 2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>Не можна вибрати один і той самий канал двічі.</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>Не вдалося завантажити налаштування автоматичного розархівування форуму.</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>Оновлено налаштування автоматичного розархівування форуму</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>Тривалість бана {0}</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>Постійний</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>годин</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>Залиште порожнім або вкажіть 0 для постійного бана. Максимум 720 годин (30 днів).</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>Тривалість бана має бути від 0 до 720 годин.</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>Статус бота</value>
   </data>
@@ -6942,5 +7440,3444 @@ Custom Bots можна запросити максимум на 10 сервер�
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>Оновлено назву панелі тікетів</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>Формі потрібна назва.</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>Цього каналу немає на цьому сервері.</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>Цієї ролі немає на цьому сервері.</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>Назва форми має бути не довшою за {0} символів.</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>Опис форми має бути не довшим за {0} символів.</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>Повідомлення про успіх має бути не довшим за {0} символів.</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>Ліміт відповідей має бути не менше 1.</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>Мінімальний вік облікового запису не може бути від'ємним.</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>Дата закриття має бути в майбутньому.</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>Кількість використань запрошення має бути від 0 до 100.</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>Термін дії запрошення має бути від 0 до 7 днів.</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>Кожному питанню потрібен текст.</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>Питання має бути не довшим за {0} символів.</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>Мінімальна довжина не може бути більшою за максимальну.</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>Мінімальне значення не може бути більшим за максимальне.</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>Цьому типу питання потрібен хоча б один варіант.</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>Питання може мати не більше {0} варіантів.</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>Кожному варіанту потрібна мітка.</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>Мітка варіанту має бути не довшою за {0} символів.</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>Варіанти в одному питанні мають бути унікальними.</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>В одній з умов бракує частини її налаштування.</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>Питання не може залежати від власної відповіді.</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>Питання може залежати лише від питання, яке передує йому.</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>Форма може мати не більше {0} питань.</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>Додайте хоча б одне питання перед збереженням.</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>Не вдалося завантажити форми. Спробуйте ще раз за хвилину.</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>Ця форма більше не існує.</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>Додайте хоча б одне питання перед публікацією.</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>Цю форму ще не опубліковано.</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>Ця форма не приймає відповіді.</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>Цю форму закрито.</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>Ця форма досягла ліміту відповідей.</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>Ви вже надіслали цю форму.</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>Ваш обліковий запис Discord має бути не молодшим за {0} днів, щоб надіслати цю форму.</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>Ви маєте бути учасником цього сервера, щоб надіслати цю форму.</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>Вас не забанено на цьому сервері, тому оскаржувати нічого.</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>Згорнути меню</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>Розгорнути меню</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>Вибрано: {0}</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>Вибрати все</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>Вибрати</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>Увімкнути</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>Вимкнути</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>Підтвердіть видалення</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>Видалити {0} вибраний(і) елемент(и)? Це неможливо скасувати.</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>Увімкнено елементів: {0}</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>Вимкнено елементів: {0}</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>Видалено елементів: {0}</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>Не вдалося оновити вибрані елементи.</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>Натисніть на елементи, щоб вибрати їх</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>Цієї збереженої версії більше не існує.</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>Цю збережену версію не вдалося прочитати, і її не можна відновити.</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>Форму створено</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>Додано питання {0}</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>Питання видалено</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>Видалено питання {0}</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>Питання {0}: {1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>Позиція</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>Умови</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>не задано</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>Збережено без змін.</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>Показати ще {0} зміну(и)</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>Показати менше</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>Що змінилося</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>Історія</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>Історія версій</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>Останні {0} збережень цієї форми. Відновлення версії саме по собі є збереженням, тому його можна скасувати.</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>Ще немає збережених версій. Наступного разу, коли цю форму буде збережено, тут з'явиться версія.</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>Версія {0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>Питань: {0}</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>Відновити</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>Відновити цю версію? Форма повернеться до стану на момент цього збереження.</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>Форму відновлено до тієї версії.</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>Видалене питання</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>Текст заповнювача не може бути довшим за {0} символів.</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>Перетягніть для зміни порядку</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>У вас є незбережені зміни. Залишити цю сторінку та відхилити їх?</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>Ви можете повернутися сюди будь-коли, разом з усім іншим, що ви надіслали.</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>Мої Надіслані Форми</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>Кожна форма, яку ви надіслали, та її поточний статус.</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>Поки що немає надісланих форм</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>Форми, які ви надсилаєте, з'являться тут, щоб ви могли перевірити їх пізніше.</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>Надіслано {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>Форми, які збирають відповіді анонімно, тут не відображаються, оскільки вони зберігаються без відправника.</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>Налаштування користувача</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>Ця функція скоро з'явиться. Заходьте пізніше!</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>Вимагати капчу</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>Ті, хто надсилає форму, мають пройти перевірку Cloudflare Turnstile перед прийняттям форми.</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>Увійдіть через Discord, щоб заповнити цю форму. Ви одразу повернетеся сюди.</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>Увійти через Discord</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>Форма від {0}. Увійдіть через Discord, щоб заповнити її.</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>Відповіді анонімні.</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>Будь ласка, підтвердьте, що ви людина, перед надсиланням.</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>Не вдалося перевірити капчу. Перезавантажте сторінку та спробуйте ще раз.</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>Дозволити людей поза сервером</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>Будь-хто з посиланням може надіслати форму, навіть якщо не є учасником. Апеляції на бан і заявки на вступ завжди це дозволяють.</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>Блокувати повторну апеляцію після відхилення</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>Відхилена апеляція є остаточною, і користувач не може подати іншу.</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>Максимум апеляцій</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>Скільки відхилених апеляцій може досягти користувач, перш ніж він більше не зможе апелювати. Залиште порожнім для відсутності ліміту.</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>Очікування після відхилення (днів)</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>Скільки має чекати користувач після відхиленої апеляції, перш ніж апелювати знову. Залиште порожнім для відсутності очікування.</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>Очікування після бана (днів)</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>Скільки має чекати користувач після бана до своєї першої апеляції. Залиште порожнім для відсутності очікування. Discord зберігає історію журналу аудиту лише певний час, тому це не можна застосувати до старіших банів.</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>Вашу попередню апеляцію ще розглядають. Зачекайте на рішення, перш ніж апелювати знову.</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>Вашу апеляцію відхилено, і цей сервер не приймає подальші апеляції.</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>Ви використали всі свої {0} апеляції для цього сервера.</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>Ви можете апелювати знову через {0} дн.</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>Цей сервер ще не приймає апеляції. Ви можете апелювати через {0} дн.</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>Ви вже є учасником цього сервера.</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>У вас немає ролі, яку вимагає ця форма.</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>На це питання потрібно відповісти.</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>Ця відповідь має містити щонайменше {0} символів.</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>Ця відповідь має містити не більше {0} символів.</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>Ця відповідь має бути числом.</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>Ця відповідь має бути не менше {0}.</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>Ця відповідь може бути не більше {0}.</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>Введіть дійсну адресу електронної пошти.</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>Введіть дійсне посилання, яке починається з http або https.</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>Цей вибір не є одним із запропонованих варіантів.</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>Виберіть щонайменше {0} варіантів.</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>Виберіть не більше {0} варіантів.</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>Цієї відповіді більше не існує.</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>Ця відповідь не є частиною процесу розгляду.</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>Щодо цієї відповіді вже ухвалено рішення.</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>До цієї відповіді не прив'язано користувача Discord.</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>Не вдалося зняти бан. Перевірте, чи може бот керувати банами.</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>Не вдалося створити запрошення. Перевірте, чи може бот створювати запрошення.</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0} (Копія)</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>Немає відповіді</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>Надіслано {0}</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>Відповідь №{0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>Вашу відповідь схвалено.</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>Вашу відповідь відхилено.</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>ID відповіді</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>ID користувача</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>Ім'я користувача</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>Надіслано</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>Не розглянуто</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>Форму збережено</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>Форму опубліковано</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>Форма тепер приймає відповіді</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>Форма перестала приймати відповіді</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>Форму дубльовано</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>Форму видалено</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>Відповідь видалено</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>Відповідь схвалено</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>Відповідь відхилено</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>Створено форму</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>Оновлено форму</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>Форму відновлено до попередньої версії</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>Опубліковано форму</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>Відкрито форму для відповідей</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>Закрито форму для відповідей</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>Дубльовано форму</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>Видалено форму</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>Видалено відповідь форми</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>Схвалено відповідь форми</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>Відхилено відповідь форми</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>Форми</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>Створюйте форми, які ваші учасники заповнюють за посиланням, і збирайте відповіді тут.</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>Створити форму</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>Поки немає форм</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>Створіть свою першу форму, щоб почати збирати відповіді.</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>Відповіді</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>На розгляд</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>Чернетка</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>Копіювати посилання</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>Попередній перегляд</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>Опублікувати</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>Дублювати</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>Видалити «{0}» і кожну відповідь, яку зібрано? Це неможливо скасувати.</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>Видалити цю відповідь? Це неможливо скасувати.</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>Скопійовано</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>Редагувати форму</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>Нова форма</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>Налаштування форми</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>Налаштування розгляду</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>Використовується, коли відповіді потрібно схвалювати, а також для апеляцій на бан і заявок на вступ.</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>Надсилати заявки в</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>Роль, необхідна для надсилання</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>Ліміт відповідей</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>Закривається</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>Мінімальний вік облікового запису в днях</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>Блокує нові облікові записи. Корисно для форм, відкритих для людей поза сервером.</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>Повідомлення, що показується після надсилання</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>Продовжено з того місця, де ви зупинилися. Ваші відповіді зберігаються під час переходу між сторінками.</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>Додати сторінку</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>Сторінка {0}</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>Усі сторінки</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>Сторінка без назви</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>Заголовок сторінки</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>Вступ сторінки</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>Видалити сторінку</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>Додати заголовок на цю сторінку</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>Перемістити раніше</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>Перемістити пізніше</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>Перетягніть для зміни порядку сторінок</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>Вашу відповідь отримано.</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>Перевірити тут</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>Переглянути заявку</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>Ваші зміни збережено.</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>Занадто довго, щоб показати тут</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>Конструктор Embed</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>Створіть повідомлення з embed'ами та подивіться, як його покаже Discord.</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>Виберіть збережений embed</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>Завантажити</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>Застосувати JSON</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>Живий перегляд</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>Назвіть цей embed</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>Основний текст</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>Поля</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>Зображення</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>Нижній колонтитул</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>Ім'я автора</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>Посилання автора</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>Значок автора</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>Посилання заголовка</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>Опис embed</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>Акцентний колір</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>Велике зображення</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>Мініатюра</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>Текст нижнього колонтитула</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>Значок нижнього колонтитула</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>Показати позначку часу</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>Назва поля</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>Значення поля</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>Поруч одне з одним</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>Додати поле</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>Embed</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>Додати embed</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>Видалити цей embed</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>Поки нічого показувати. Почніть друкувати, і це з'явиться тут.</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>Embed завантажено.</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>Embed збережено.</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>Embed перейменовано.</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>Embed видалено.</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>Спочатку дайте embed'у назву.</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>Спочатку виберіть збережений embed.</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>Виберіть канал для надсилання.</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>«{0}» - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>Відповіді із зображеннями наразі не можуть бути прийняті.</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG, JPEG, GIF або WebP, до {0} МБ.</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>Завантаження…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>Завантаження зображення</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>Особа, яка заповнює форму, додає зображення.</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>Зображення мають бути меншими за {0} МБ.</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>Цей файл не вдалося прочитати як зображення.</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>У цього зображення забагато пікселів для обробки.</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>Це зображення не вдалося зберегти. Спробуйте ще раз.</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>Ще {0} відповідей знаходиться на панелі керування.</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>Дозволити більше однієї заявки від користувача</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>Тип форми</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>Відповіді мають бути схвалені</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>При схваленні</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>Ролі для зміни при схваленні</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>Ролі для додавання при схваленні</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>Ролі для видалення при схваленні</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>Ролі для додавання при відхиленні</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>Ролі для видалення при відхиленні</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>Рішення</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>Прийнято {0}</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>Відхилено {0}</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>Прийняти</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>Відхилити</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>Цю форму ще не відкрито. Вона відкриється {0}.</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>Цю форму тепер відкрито для заявок.</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>Відкривається о (UTC)</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>Форма залишається закритою до цього часу, навіть після публікації. Залиште порожнім, щоб відкрити одразу після публікації.</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>Оголосити відкриття в</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>Роль для згадування в оголошенні</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>Що говорить оголошення про відкриття</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>Публікується один раз, коли настає час відкриття. Залиште порожнім для стандартного формулювання.</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>URL зображення</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>Показується над питанням. Має бути адресою http або https.</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>Дозволити повторне надсилання після відхилення</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>Відхилений відправник може надіслати виправлену відповідь. Схвалені та очікувані відповіді все одно рахуються як їхня єдина заявка.</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>Роль для згадування при новій відповіді</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>Згадується в каналі заявок, коли надходить відповідь. Роль має бути згадуваною, або боту потрібен дозвіл на її згадування.</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>Ролі, що надаються при надсиланні</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>Надаються одразу після надсилання форми, незалежно від того, розглядається вона чи ні.</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>Не вдалося надіслати ОП</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>Роль на час очікування рішення</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>Надається при надсиланні форми та відкликається, як тільки відповідь схвалено або відхилено.</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Роль, яка може приймати рішення з Discord</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>Додає кнопки прийняти та відхилити до повідомлення заявки, доступні учасникам із цією роллю. Залиште порожнім, щоб розглядати лише з панелі керування.</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>При відхиленні</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>Ролі для зміни при відхиленні</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>Використання запрошення</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>Термін дії запрошення в секундах</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>Звичайна форма</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>Апеляція на бан</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>Заявка на вступ</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>Нічого не робити</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>Додати ролі</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>Видалити ролі</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>Питання</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>Додати питання</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>Питань: {0}</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>Питання без назви</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>Питання</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>Тип відповіді</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>Заповнювач</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>Обов'язкове</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>Мінімальна довжина</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>Максимальна довжина</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>Найменше значення</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>Найбільше значення</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>Варіанти</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>Додати варіант</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>Дублювати питання</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>Перемістити вгору</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>Перемістити вниз</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>Показувати це питання, лише коли</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>Короткий текст</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>Абзац</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>Множинний вибір</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>Прапорці</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>Розкривний список</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>Число</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>Адреса електронної пошти</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>Посилання</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>Додати умову</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>Видалити умову</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>Набір правил</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>Кожна умова в наборі правил має виконуватися. Питання показується, коли виконується будь-який набір правил, тому використовуйте другий набір для альтернативного способу відповідності.</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>Збереження вашої роботи</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>Вашу роботу збережено</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>Не вдалося зберегти вашу роботу</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>Умова</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>Попереднє питання</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>Порівняння</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>Значення</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>Ролі</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>Відповідність ролей</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>Дні</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>Бустить сервер</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>Бустить</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>Не бустить</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>Прапорці дозволів</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>Додайте питання перед цим, щоб порівняти його відповідь.</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>Відповідь на питання</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>Ролі, якими володіє користувач</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>Час на сервері</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Вік облікового запису Discord</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>Статус буста</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>Дозволи, якими володіє користувач</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>дорівнює</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>не дорівнює</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>містить</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>більше ніж</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>менше ніж</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>має будь-яку відповідь</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>залишено порожнім</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>Будь-яка з них</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>Усі</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>Жодна з них</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>Зберегти форму</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>Назад до форм</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>Відповідей: {0}</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>Поки немає відповідей.</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>Експорт у CSV</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>Переглянути</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>Видалити відповідь</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>Сторінка {0} з {1}</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>Схвалити</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>Відхилити</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>Нотатки для відправника</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>Необов'язково. Надсилається відправнику разом із рішенням.</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>Усі</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>Очікує розгляду</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>Розглядається</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>Схвалено</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>Відхилено</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>Надіслати</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>Надсилання вимкнено під час попереднього перегляду</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>Ви переглядаєте цю форму в режимі попереднього перегляду. Ніщо з введеного тут не зберігається.</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>Відповідано: {0} з {1}</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>Виберіть варіант</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>Вашу відповідь надіслано.</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>Отримано</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>Надіслано</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>Останнє редагування</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>Редагувати мої відповіді</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>Відредаговано</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>Відредаговано {0} раз(и) з моменту надсилання, востаннє {1}.</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>Нотатки від рецензента</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>Ваше запрошення</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>Збережіть це посилання, щоб перевірити свою відповідь пізніше.</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>Надіслано анонімно</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>Анонімна форма не може змінювати ролі, оскільки вона не записує, хто її надіслав.</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>Апеляції на бан і заявки на вступ не можуть бути анонімними, оскільки схвалення однієї з них вимагає дії щодо особи, яка її надіслала.</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>Цю відповідь надіслано анонімно, тому немає нікого, щодо кого можна діяти.</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>Записувати відповіді анонімно</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>Ті, хто надсилає, все одно входять через Discord, щоб форма могла перевірити, хто може надсилати, але їхнє ім'я та адреса не зберігаються. Дії схвалення не можна використовувати.</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>Ролі для надання схваленому заявнику</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>Резервуються для заявника та надаються, коли він приєднується за запрошенням.</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>Анонімно</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>Ця форма анонімна. Ви увійшли в систему, щоб сервер міг перевірити, що ви можете надіслати форму, але ваше ім'я не зберігається разом із вашими відповідями.</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Має Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Має Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Не має Nitro</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>Об'єднати з</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>Усі умови в цій групі</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>Будь-яка умова в цій групі</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>Цитувати попередні відповіді в цьому питанні</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>Напишіть {{Q1}} у питанні, щоб показати відповідь, надану на питання 1.</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>Обов'язкове лише коли</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>Завжди використовувати налаштування вище</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>Перевірте свої відповіді</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>Поки нічого не надіслано. Прочитайте свої відповіді, потім надішліть їх.</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>Переглянути відповіді</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>Змінити відповіді</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>Надіслати відповіді</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>Поки немає питань. Додайте одне, щоб почати.</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>Який тип відповіді вам потрібен?</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>Редагувати деталі</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>Приховати деталі</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>Введіть своє питання тут</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>Умовне</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>Цитує відповідь</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>Один рядок тексту</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>Довша, багаторядкова відповідь</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>Один варіант зі списку</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>Будь-яка кількість варіантів</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>Один варіант з меню</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>Число, опційно обмежене</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>Адреса електронної пошти</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>Посилання, що починається з http</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>Питання {0} цитує власну відповідь, якої ще не існує, коли ставиться питання.</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>Питання {1} цитує питання {0}, яке ставиться пізніше. Питання може цитувати лише те, яке передує йому.</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>Питання цитує питання {0}, але ця форма має лише {1} питань.</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>Для людей, які вже на сервері</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>Дозволяє забаненим людям просити повернутися</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>Дозволяє людям ззовні подавати заявку на вступ</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>Апеляції та заявки завжди розглядаються.</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>Вхід і сервер</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>Захист</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>Ролі та самопризначувані ролі</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>Тікети</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>Команди та автовідповідачі</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>Верифікація</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>Журналювання</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>Чат-бот</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>Інше</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>Функцію не зафіксовано</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>Фільтри</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>Функція</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>Змінено ким</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>Часовий діапазон</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>Будь-який час</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>Останні 24 години</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>Останні 7 днів</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>Останні 30 днів</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>Останні 3 місяці</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>Користувацький діапазон</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>Від</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>До</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>Лише записи з деталями змін</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>Пошук у зведеннях, назвах і значеннях</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>Порядок</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>Спочатку найновіші</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>Спочатку найстаріші</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>Записів на сторінці</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>Показано {0}–{1} з {2}</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>Немає записів, що відповідають цим фільтрам.</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>З панелі керування поки нічого не змінювалося.</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>Поле</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>Було</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>Стало</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>нічого</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>Змінено полів: {0}</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>Зачеплено</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>Оновлено журналювання для {0}</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>Перевірка AutoMod</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>Оголошення про бан</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>Банер</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>День народження</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>Оголошення про буст</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>Підсилення економіки</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>Товар економіки</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>Розширення файлів</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>Відповідь форми</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>Оголошення про вступ</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>Оголошення про вихід</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>Ролі рівнів</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>Білий список посилань</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>Схожість повідомлень</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>Ідентичні вступи</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>Сезонні дропи</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>Група самопризначуваних ролей</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>Канал статистики</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>Ролі серії</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>Панель тікетів</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>Відкрити повний журнал</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>Оновлено сповіщення про зміни панелі керування</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>Сповіщення про зміни панелі керування</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>Канал сповіщень панелі керування</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>Де оголошуються зміни панелі керування. Залиште «немає», щоб нічого не оголошувати.</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>Завжди сповіщати про зміни доступу та журналу</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>Сповіщати про зміни в цих функціях</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>Виберіть «жодна», щоб отримувати сповіщення лише про зміни вище. У будь-якому разі все записується в журнал.</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>Посилання на цей запис</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>Показано один окремий запис.</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>Показати весь журнал</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>{0} змін за одну сесію</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>Видалено {0} записів із цього журналу</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>Створено досягнення</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>Оновлено досягнення</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>Оновлено банер {0}</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>картка рангу</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>привітання</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>прощання</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>Оновлено ролі, що надаються при вступі</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>Оновлено оголошення: {0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>Оновлено AutoMod: {0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>Попередній перегляд цього embed</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>Виберіть збережений embed для попереднього перегляду.</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>Автоматизація</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>Автонагадування</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>Нагадує тому, хто відкрив тікет, коли він деякий час не відповідав.</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>Нагадати через (днів)</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>Автозакриття за відсутності відповіді</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>Закриває тікет, автор якого перестав відповідати.</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>Закрити через (днів)</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>Автозакриття, коли автор виходить</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>Нагадування має бути від 1 до 365 днів.</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>Закриття має бути від 1 до 365 днів.</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>Оновлено налаштування автоматизації тікетів</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>Менеджер тікетів</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>Переглядайте та дійте щодо тікетів підтримки цього сервера.</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>На цьому сервері ще не відкривали тікетів.</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>Пошук тікетів...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>Канал</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>Відкрив</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>Взяв у роботу</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>Остання активність</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>Дії</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>Не взято</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>Очікує персонал</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>Поки немає повідомлень</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>Деякі тікети вказують на канал, якого більше не існує. Їх видалення очищує залишкові записи.</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>Очікує персонал</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>Медіанна перша відповідь</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>Н/Д</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>Категорії тікетів</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>Тікети заповнюють категорію з найменшим номером, у якій ще є місце. Discord обмежує категорію 50 каналами.</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>Основна</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>Переповнення №{0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>Видалено з Discord</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 каналів</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>Поки не існує категорій тікетів. Одна створюється при відкритті першого тікета.</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>Повторно відкрити</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>Взяти в роботу</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>Відмовитися</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>Додати користувача</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>Видалити користувача</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>Нагадати</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>Анонімна відповідь</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>Видалити цей тікет і його канал? Це неможливо скасувати.</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>Користувач</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>Повідомлення</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>Тікет закрито.</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>Тікет повторно відкрито.</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>Тікет видалено.</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>Тікет взято в роботу.</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>Тікет звільнено.</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>Користувача додано до тікета.</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>Користувача видалено з тікета.</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>Нагадування надіслано тому, хто відкрив тікет.</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>Відповідь надіслано до тікета.</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>Цього тікета більше не існує.</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>Цей тікет уже закрито.</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>Цей тікет уже відкрито.</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>Каналу цього тікета більше не існує в Discord.</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>Бот не зміг виконати цю дію. Перевірте його права в каналі тікета.</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>Не вдалося надіслати нагадування. У того, хто відкрив тікет, можуть бути вимкнені особисті повідомлення.</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>Введіть повідомлення для надсилання.</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>Відповідь не може бути довшою за 2000 символів.</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>Виберіть дійсного користувача.</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>Закриття з панелі керування робить те саме, що й закриття в Discord: блокує канал, зберігає транскрипт, завантажує копію HTML і надсилає ОП про закриття та запит на оцінку.</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>Закрито тікет</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>Повторно відкрито тікет</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>Видалено тікет</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>Взято в роботу тікет</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>Звільнено тікет</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>Додано користувача до тікета</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>Видалено користувача з тікета</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>Надіслано нагадування про тікет</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>Надіслано анонімну відповідь на тікет</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>Тікет</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>Відкрито</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>Закрито</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>Тікет:</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>Тікет відкрив:</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>Зберіг:</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>Кількість повідомлень:</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>Кількість відповідей:</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>Оцінка:</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>Надіслано, очікування оцінки...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>Вимкнено</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>Ваш тікет підтримки в {0} закрито.
+            **Закрив:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>Транскрипт збережено в каналі транскриптів.</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>Транскрипт</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**Будь ласка, оцініть свій досвід із співробітником, який вам допоміг.**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>Оцінка</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>Не запитано</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>Середня оцінка</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>Очікує оцінки</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>Надіслати панель тікетів</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>Канал</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>Надіслати панель</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>Панель тікетів надіслано.</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>Виберіть канал для надсилання панелі.</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>Натисніть кнопку нижче, щоб створити тікет підтримки.</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>Надіслано панель тікетів</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>Цієї панелі більше не існує.</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>Сервер має зберігати хоча б одну панель.</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>Виберіть дійсний тип тікета.</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>Виберіть дійсний канал для гілок.</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>Виберіть канал, у якому відкриватимуться гілки, інакше ця панель не зможе створювати тікети.</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>Панель створено.</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>Панель видалено.</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>Тип тікета</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>Канал</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>Приватна гілка</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>Публічна гілка</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>Публічну гілку може прочитати будь-хто, хто бачить батьківський канал.</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>Канал гілок</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>Панелі</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>Додати панель</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>Видалити панель</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>Видалити цю панель? Тікети, вже відкриті з неї, продовжать працювати.</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>Опубліковано в {0} каналі(ах)</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>Ще не опубліковано</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>Оновити опубліковані панелі</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>Переписує вже опубліковані для цієї панелі повідомлення, щоб вони відповідали налаштуванням вище.</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>Оновлено опублікованих панелей: {0}.</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>Створено панель тікетів</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>Видалено панель тікетів</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>Змінено тип панелі тікетів</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>Оновлено опубліковані панелі тікетів</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>Панель</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>Усі панелі</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>Немає панелі</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>Медіанний час до закриття</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>Загальне</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>Сервер може мати до {0} панелей.</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>Тікет закрив {0}</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>Тікет повторно відкрив {0}</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>{0} успішно додано до тікета.
+            Запитав(ла) {1}</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>{0} успішно видалено з тікета.
+            Запитав(ла) {1}</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>Це нагадування про те, що ваш тікет у `{0}` все ще відкритий. Будь ласка, дайте відповідь, якщо вам все ще потрібна допомога.</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt; надіслав(ла) нагадування &lt;@{1}&gt;.</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>Відповідь команди підтримки</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>Тікет буде видалено через кілька секунд.</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>Тікет взяв у роботу {0}</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>Тікет звільнив(ла) {0}</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>Цей тікет уже взято в роботу {0}.</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>Спочатку ви маєте встановити роль команди підтримки для цієї панелі.</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>Вам потрібна роль {0}, щоб зробити це.</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>У цієї панелі ще є {0} відкритих тікетів. Спочатку закрийте їх.</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>Панель, до якої належить цей тікет, було видалено.</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>Повідомлення, старші за це, не додаються до дошки обраного. 0 означає відсутність ліміту.</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>Куди публікуються повідомлення, про які повідомлено через контекстне меню «Поскаржитися на повідомлення». Функція скарг недоступна, поки не встановлено канал.</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Куди записуються тайм-аути, застосовані поза ботом, наприклад через сам Discord. Залиште «немає», щоб не записувати їх.</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>Учасники з цією роллю можуть переглядати та редагувати нотатки сервера та публічні нотатки. Адміністратори та учасники з правом «Керування сервером» можуть це завжди.</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>Назви каналів і повідомлення статистики приймають звичайні заповнювачі сервера, тому одна назва може містити кілька показників статистики. Див. &lt;strong&gt;&lt;a href='{0}' class='info'&gt;довідник заповнювачів&lt;/a&gt;&lt;/strong&gt; для повного списку.</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>Підсиленню потрібна назва.</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>Користувацькі канали статистики</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>Голосові канали з назвою на ваш вибір, з будь-яким поєднанням статистики в одній назві. Бот створює кожен із них під категорією статистики та оновлює його кожні 20 хвилин. До 10.</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>Шаблон назви каналу</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discord дозволяє 100 символів для назви каналу.</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>Додати канал статистики</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>Канал буде створено протягом 20 хвилин.</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>Створюється протягом 20 хвилин</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>Шаблон назви каналу може містити не більше 100 символів.</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>Цього користувацького каналу статистики більше не існує.</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>Додано користувацький канал статистики.</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>Видалено користувацький канал статистики.</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>Повідомлення статистики</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>Замість каналів публікується одне повідомлення, яке бот редагує кожні 20 хвилин з актуальними цифрами.</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>Залиште порожнім для значення за замовчуванням. Коди емодзі Discord працюють тут, включно з власними емодзі Cakey. Зміна каналу публікує там нове повідомлення; видаліть старе самостійно, якщо воно більше не потрібне.</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>Виберіть канал, у якому публікується повідомлення статистики.</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>Закріплені таблиці лідерів</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>Повідомлення з таблицею лідерів, яке бот публікує в каналі та оновлює кожні 15 хвилин, щоб нікому не потрібно було запускати /leaderboard. До 5 на сервер.</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>Період</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>За весь час</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>Цього тижня</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>Цього місяця</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>Показані учасники</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>Топ {0}</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>Публікується протягом 15 хвилин</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>Додати таблицю лідерів</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>Таблицю лідерів буде опубліковано протягом 15 хвилин.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>Таблиця лідерів показує від 3 до 15 учасників.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>Виберіть «за весь час», «цього тижня» або «цього місяця».</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>Цієї закріпленої таблиці лідерів більше не існує.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>Додано закріплену таблицю лідерів.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>Видалено закріплену таблицю лідерів.</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>Ролі за віхи</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>Той, хто напише одне з цих чисел, отримує відповідну роль. До 25 віх.</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>Досягнуте число</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>Роль для присудження</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>Додати віху</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>Число віхи має бути не менше 1.</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>Віха для цього числа вже існує.</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>Ролі з правами «Адміністратор», «Керування сервером» або «Керування ролями» не можуть надаватися грою в рахунок.</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>Цієї віхи більше не існує.</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>Додано віху рахунку.</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>Видалено віху рахунку.</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>Як повідомлення має співвідноситися з текстом команди. Параметри «Містить файли», «Від webhook» і параметри згадування ігнорують текст і спрацьовують на будь-якому повідомленні з цією властивістю. Шаблон приймає * та ?; Regex автоматично вимикається, якщо шаблон недійсний.</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>Рівно о годині, у часовому поясі сервера, встановленому в налаштуваннях бота.</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>Щодня або лише в один день тижня.</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>«Унікальна» працює як радіокнопки: вибір ролі в групі замінює ту, що вже була. «Множинний вибір» дозволяє учаснику мати кілька ролей з групи одночасно.</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>Отримання ще однієї понад цей ліміт знімає роль, отриману найдавніше.</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>Множить виграші від економічних ігор, поки підсилення активне. Кілька активних підсилень множаться одне на одне.</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>Скільки годин триває підсилення з моменту покупки.</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>Скільки одиниць цього підсилення може мати учасник одночасно. 0 означає відсутність ліміту.</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>Роль, що надається при покупці. Вона має бути нижче найвищої ролі Cakey і не повинна мати «Адміністратор», «Керування сервером» або «Керування ролями».</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>Досвід рівня, доданий покупцю при покупці, до 1 000 000.</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>Роль, що надається при покупці та знову знімається через кількість годин, зазначену нижче.</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>Скільки рятівних для рахунку дає покупка, від 1 до 100. Рятівний використовується замість скидання рахунку, коли покупець робить помилку.</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>Скільки одиниць цього предмета може мати учасник одночасно. 0 означає відсутність ліміту.</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>Показується в магазині та доступний для покупки. Вимкніть, щоб зберегти предмет, але приховати його, наприклад приз, який видає лише персонал.</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>Рятівний рахунку</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>Рятівних за покупку</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>Предмет-рятівний рахунку має давати від 1 до 100 рятівних.</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>Сповіщення ОП про згасання</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>Надсилає учасникам ОП, коли їхній досвід згасає. Кожне ОП містить кнопку, яку учасники можуть використати, щоб відмовитися від цього для себе.</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>Вкладення видалено</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>Видалені повідомлення, що містили файл або зображення, записуються тут замість каналу «Повідомлення видалено». Залиште «немає», щоб тримати їх разом.</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>Роль згадування для пропозицій</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>Згадується щоразу, коли публікується нова пропозиція. Роль має бути згадуваною, або боту потрібен дозвіл на згадування будь-якої ролі.</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>Має зображення</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>Вставити емодзі сервера</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>Для пропуску потрібні голоси більш ніж половини учасників голосового каналу без вимкненого звуку. Диджеї, модератори та той, хто запросив трек, все одно можуть пропустити напряму.</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>Досвід перестає накопичуватися, як тільки учасник досягає цього рівня.</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>Той, хто отримав останній дроп, не може отримати наступний.</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>Приховує кнопку отримання серед чотирьох приманок у різному місці при кожному дропі, щоб її не можна було натиснути рефлекторно.</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>Між дропами минає випадкове очікування між цими двома значеннями.</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>Надається, коли оголошується день народження, і знову знімається через 24 години.</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>Використовується для днів народження без власного часового поясу, щоденного контенту та запланованих автоматичних повідомлень.</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>Створіть webhook у налаштуваннях інтеграцій каналу та вставте його URL сюди. Публікації надсилаються через нього.</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>Потрібно лише коли публікації мають потрапляти в гілку або повідомлення форуму під каналом webhook'а. В інших випадках залиште порожнім.</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>Згадується при кожній новій публікації. Залиште порожнім, щоб нікого не згадувати.</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>Колір бічної смуги на embed'і публікації.</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>Лише назва субредіту, без r/.</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>Пряме посилання на саму стрічку, а не на вебсайт. Зазвичай закінчується на .xml, .rss або /feed.</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>Назва каналу, як вона з'являється після twitch.tv/ в URL.</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>Посилання на сторінку каналу, наприклад URL виду youtube.com/@handle або /channel/.</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>Назва, яку учасники використовують для виклику цього тегу. Тримайте її короткою та запам'ятовуваною.</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>Чим відповідає бот при використанні тегу.</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>Текст для пошуку в повідомленнях. Регістр літер ігнорується, а тип відповідності нижче визначає, наскільки це суворо.</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>Надсилається, коли повідомлення збігається. Поєднайте з embed'ом або залиште порожнім, щоб надіслати лише embed.</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>Куди публікується заплановане повідомлення.</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>Публікується у вибраний час у каналі вище.</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>Можна вибрати лише канали анонсів. Кожне опубліковане там повідомлення публікується на серверах-підписниках.</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>Роль, яку учасники можуть призначити собі самостійно.</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>Показується поруч із роллю у виборі, щоб учасники знали, для чого вона.</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>Учасники нижче цього рівня не можуть вибрати роль. 0 вимикає перевірку.</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>Щоденна серія, необхідна учасникам перед вибором ролі. 0 вимикає перевірку.</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>У учасників уже має бути ця роль, перш ніж вони зможуть вибрати нову.</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>Показується як заголовок вибору.</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>Показується під заголовком, щоб пояснити призначення групи.</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>Лише учасники з цією роллю можуть вибирати з групи.</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>Лише учасники на цьому рівні або вище можуть вибирати з групи.</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>Оновлює статус, показаний на публікації пропозиції.</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>Показується на публікації пропозиції разом із рішенням. Необов'язково.</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>Підписка на власного бота, яку має використовувати цей сервер.</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>Токен бота з вкладки Bot вашої програми в Discord Developer Portal. Тримайте його в секреті.</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>Показується в магазині та в повідомленнях про покупку.</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>Показується під назвою в магазині, щоб покупці знали, що вони отримають.</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>Ціна у валюті вашого сервера. Покупцям потрібна щонайменше ця сума для покупки.</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>Що отримує покупець. Поля нижче змінюються залежно від типу.</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>Використовується, щоб пізніше знайти цей пресет при його застосуванні.</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>Скільки годин покупець зберігає роль, рахуючи з моменту покупки.</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>Каналів анонсів не знайдено. Спочатку створіть один у Discord.</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>Надсилає embed через цей webhook замість бота, використовуючи ім'я та аватар webhook'а.</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>Профілі відправника</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>Надіслати як</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>Бот</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>Керування профілями відправника</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>Профіль відправника публікує повідомлення через webhook під власним ім'ям і аватаром. Боту потрібне право «Керування webhook'ами» в каналі.</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>Відображуване ім'я</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>Показується як автор повідомлення, до 80 символів. Discord відхиляє імена, що містять «discord» або «clyde».</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>URL аватара</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>Пряме посилання на PNG, JPG або GIF. Залиште порожнім, щоб зберегти аватар бота.</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>Збережений URL webhook'а</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>Необов'язково. Якщо задано, повідомлення, надіслані від імені цього профілю, йдуть на цей webhook замість каналу, все ще під зазначеним вище ім'ям і аватаром.</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>Новий профіль</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>Зберегти профіль</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>Поки немає профілів відправника.</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>Видалити цей профіль відправника?</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>Профіль відправника збережено.</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>Профіль відправника видалено.</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>Введіть відображуване ім'я довжиною до 80 символів.</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discord не дозволяє імена відправника, що містять «discord» або «clyde».</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>Аватар має бути посиланням http або https довжиною до 512 символів.</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>Сервер може мати до 25 профілів відправника.</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>Цього профілю відправника більше не існує.</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>ДОДАТОК</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>Надіслати в канал</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>Імпорт / експорт JSON</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>Текст повідомлення</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>Текст, що надсилається над embed'ом</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>Використовується лише при надсиланні з цієї сторінки. Не зберігається разом із embed'ом, і функції, що публікують збережений embed, не включають його.</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>Зберегти як новий</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>Оновити вибраний</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>Ласкаво просимо на {server.name}!</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>Це приклад embed'а, який показує можливості конструктора. Спробуйте **жирний**, *курсив*, `код`, [посилання](https://cakey.bot) та заповнювачі на кшталт {user.mention}. Усе тут можна редагувати або очистити, а згадування каналів і користувацькі емодзі теж працюють.</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>Учасники сервера</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>Ролі сервера</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Створено за допомогою конструктора embed Cakey Bot</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>Має бути повне посилання, що починається з http:// або https://.</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0} не є дійсним посиланням.</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>Це зображення не вдалося завантажити. Перевірте посилання.</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>Створено профіль відправника</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>Оновлено профіль відправника</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>Видалено профіль відправника</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>Заповнювачі, такі як {user.username}, показуються тут зі значеннями цього сервера та вами як користувачем. Збережений embed зберігає їх у первісному вигляді, а бот заповнює їх при публікації.</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

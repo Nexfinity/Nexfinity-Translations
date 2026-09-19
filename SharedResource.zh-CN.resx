@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>仅限GIFs</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>仅媒体</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>只有文件</value>
   </data>
@@ -1126,9 +1129,6 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-birthday-role" xml:space="preserve">
     <value>更新的生日角色: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>已更新 {0} 生日的时区</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>生日</value>
   </data>
@@ -1141,11 +1141,17 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>可选 — 仅针对此人的生日检查覆盖服务器的时区。</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>已更新 {0} 生日的时区</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>交换的颜色</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>左边的颜色</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>加入颜色</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>级别提升时删除角色</value>
@@ -1204,6 +1210,27 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="chat-bot-title" xml:space="preserve">
     <value>人工智能聊天机器人</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>AI 模型</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>您的聊天机器人用于生成回复的 OpenAI 模型。更高的等级可解锁更强大的模型。</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>免费</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>高级版</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>自定义机器人</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>API 密钥</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>此模型需要更高的订阅等级。</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>启用了语音平移功能</value>
   </data>
@@ -1231,7 +1258,7 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="suggestion-page-title" xml:space="preserve">
     <value>建议</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>未配置建议频道,因此成员尚无法创建建议,此处保存的决定也无法反映到 Discord 中的消息上。请在下方设置一个频道以解决这两个问题。</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>更新了忽略的成就频道。</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>已更新被忽略的成就身份组。</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>已更新成就解锁消息。</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>已一次性启用或禁用多个成就。</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>自主角色</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>使用下方的"添加自定义角色"按钮创建新的自定义角色。</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>未找到自定义角色。点击上方的"添加自定义角色"按钮创建一个。</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>还没有角色组。角色组可以让一组自定义角色互斥。</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>值({0})必须是数字。</value>
@@ -1876,6 +1918,9 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>订阅</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>已取消 OAuth 账户关联。({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>修改了 OAuth 集成设置。({0})</value>
   </data>
@@ -1950,6 +1995,48 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>关闭</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>会员数</value>
@@ -2083,6 +2170,12 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Semicolon separated list</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>发布后移除</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>启用后，会从列表中移除项目以防止重复。启用此功能前，请确保已保存数据的备份，因为该数据无法恢复。</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>创建帖子</value>
   </data>
@@ -2115,6 +2208,24 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>初始余额</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>每日最小金额</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>每日最大金额</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>每周最小金额</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>每周最大金额</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>每月最小金额</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>每月最大金额</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>用户离开时清除余额</value>
@@ -2230,11 +2341,119 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>达到 X 级。</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>获得特定身份组。</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>发送 X 个 GIF。</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>发送 X 个贴纸。</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>被超时 X 次。</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>直播 X 分钟。</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>佩戴此服务器的标签。</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>仅在此频道中计数</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>留空以在服务器的任何位置计数。此项之后无法更改，因为进度是按频道保存的。</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>要获得的身份组</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>等级阶梯</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>为阶梯的每一级赋予相同的名称，然后在下方编号。达到更高一级也会同时授予其下方的等级。</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>此成就的解锁消息</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>仅覆盖此成就的服务器解锁消息。留空以使用服务器的消息。</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>成就设置</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>解锁消息</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>留空使用默认措辞。占位符：{achievement.name}、{achievement.description}、{user.achievement.count}、{achievement.owners.count} 以及所有基本占位符。</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>查看占位符列表</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>被忽略的身份组</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>拥有这些身份组之一的成员不会在成就上取得进度</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>已更改的成就</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>请先至少选择一个成就</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>选择通过获得即可赢得此成就的身份组</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>等级必须是 1 到 20 之间的数字</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>创建后无法更改成就计数所在的频道或身份组</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>次要数据</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>临时角色</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>临时封禁</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>临时身份组</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>此服务器上没有活跃的临时封禁。</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>此服务器上没有活跃的临时身份组。</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>封禁和身份组可以一起选择。结束操作会应用于您在两个列表中选择的所有内容。</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>立即结束</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>要立即结束选中的 {0} 个封禁吗？机器人将很快解除封禁。</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>要立即结束选中的 {0} 个身份组吗？机器人将很快撤销。</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>已将 {0} 个项目设置为立即结束</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>已设置为立即结束。机器人将很快处理。</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>发送DM提醒</value>
@@ -2388,9 +2607,6 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>每个用户最大拥有数</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0最大拥有数 = 无限制</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>钓鱼</value>
@@ -2788,6 +3004,24 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>购买终身高级版本</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>终身自定义机器人</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>只需一次性付款，即可获得您自己品牌的自定义机器人，永远无需重复订阅。</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>注意：这是一个严格限量的优惠 - 一旦剩余名额用完，这个优惠将永久消失。</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>购买终身自定义机器人</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>剩余{0}个</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>已售罄</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>计划比较</value>
   </data>
@@ -2874,6 +3108,9 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Ban Sync 池服务器</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>计数里程碑身份组</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>无限 RSS/社交动态源</value>
@@ -3279,15 +3516,6 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>设置一个诱饵频道,任何在此发布的消息都会自动触发你选择的惩罚,帮助在突袭和诈骗机器人刷屏服务器之前将其识破。</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>仅限精确数字</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>精确数字或方程式</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>仅限方程式</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>您必须选择一个自定义机器人进行修改。</value>
@@ -4390,6 +4618,39 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>自选身份组未找到或不属于此服务器</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>最多只能拥有 {0} 个自定义角色</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>该身份组已经是自定义角色</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>未找到角色组,或该角色组不属于此服务器</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>组名为必填项</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>已存在同名的组</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>多选组的最大角色数必须在 {0} 到 {1} 之间</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>已添加自定义角色 {0}</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>已更新自定义角色 {0}</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>已添加角色组 '{0}'</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>已更新角色组 '{0}'</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>已删除角色组 '{0}'</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>添加仪表板访问权限时出错</value>
   </data>
@@ -4735,8 +4996,35 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>最大余额必须大于 0</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>最大余额必须小于 1000000000</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>最大余额必须小于 {0}</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>每日最小金额必须介于 1 和 {0} 之间。</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>每日最大金额必须介于 1 和 {0} 之间。</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>每日最大金额必须大于每日最小金额。</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>每周最小金额必须介于 1 和 {0} 之间。</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>每周最大金额必须介于 1 和 {0} 之间。</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>每周最大金额必须大于每周最小金额。</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>每月最小金额必须介于 1 和 {0} 之间。</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>每月最大金额必须介于 1 和 {0} 之间。</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>每月最大金额必须大于每月最小金额。</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>最大等级必须大于 0</value>
@@ -5026,6 +5314,12 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>高级版已成功在服务器上激活</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>已在此服务器激活高级版（{0}）</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>已从此服务器移除高级版（{0}）</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>高级版已成功从服务器上停用</value>
   </data>
@@ -5230,6 +5524,9 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>关闭nagbar时出错</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>横幅设计</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>无效的横幅类型</value>
   </data>
@@ -5413,8 +5710,26 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>已启用自动消息 {0}</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>已启用 {0} 条自动消息</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>已禁用 {0} 条自动消息</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>已删除 {0} 条自动消息</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>已启用自动回复器 {0}</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>已启用 {0} 个自动回复</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>已禁用 {0} 个自动回复</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>已删除 {0} 个自动回复</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>已导入 {0} 个自动回复器</value>
@@ -5427,6 +5742,12 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>已修改 Twitch 源 {0}</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>已启用订阅源</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>已禁用订阅源</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>已修改 YouTube 源 {0}</value>
@@ -5547,6 +5868,63 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} 标签 {1}</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>以及另外 {0} 个</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>已结束 {0} 个临时封禁</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>已结束 {0} 个临时身份组</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>已移除 {0} 个自动发布频道</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>已删除 {0} 条警告</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>已删除 {0} 个生日</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>已删除 {0} 条 AFK 记录</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>已删除 {0} 个自助身份组</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>已删除 {0} 个持久身份组</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>已删除 {0} 个商店物品</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>已删除 {0} 个增益</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>已删除 {0} 个订阅源</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>已删除 {0} 条控制面板日志记录</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>已删除 {0} 条记录</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>已启用 {0} 个订阅源</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>已禁用 {0} 个订阅源</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>已启用 {0} 个标签</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>已禁用 {0} 个标签</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>已删除 {0} 个标签</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>已启用</value>
@@ -5775,45 +6153,6 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>搜索自分身份组...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>未找到自定义角色。点击上方的"添加自定义角色"按钮创建一个。</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>还没有角色组。角色组可以让一组自定义角色互斥。</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>最多只能拥有 {0} 个自定义角色</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>该身份组已经是自定义角色</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>未找到角色组,或该角色组不属于此服务器</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>组名为必填项</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>已存在同名的组</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>多选组的最大角色数必须在 {0} 到 {1} 之间</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>已添加自定义角色 {0}</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>已更新自定义角色 {0}</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>已添加角色组 '{0}'</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>已更新角色组 '{0}'</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>已删除角色组 '{0}'</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>添加自定义角色</value>
@@ -6229,9 +6568,6 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>请勿刷新页面。</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>嵌入编辑器</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>找不到已保存的嵌入。</value>
   </data>
@@ -6256,27 +6592,6 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>已保存的嵌入</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>新建/未保存</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>另存为新</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>重命名</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>删除</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>为此嵌入命名：</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>重命名已保存的嵌入：</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>删除此已保存的嵌入？无法撤消此操作。</value>
   </data>
@@ -6286,17 +6601,8 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>重命名嵌入</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>删除嵌入</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>发送嵌入</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>发送嵌入</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>频道</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>改为发送到webhook URL</value>
@@ -6307,7 +6613,7 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+  <data name="generic-word-send" xml:space="preserve">
     <value>发送</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6324,6 +6630,21 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discord 拒绝了发送到该 webhook 的 embed。</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>嵌入内容</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>已保存一个嵌入</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>已更新一个已保存的嵌入</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>已重命名一个已保存的嵌入</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>已删除一个已保存的嵌入</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>向 webhook 发送了 embed。</value>
@@ -6510,6 +6831,15 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>地雷区</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>每日</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>每周</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>每月</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>支付</value>
@@ -6874,6 +7204,174 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="rp-feature-wink" xml:space="preserve">
     <value>眨眼</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>数数游戏</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>由于缓存，更改可能需要长达 30 秒才能在 Discord 中生效。</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>计数频道</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>仅限精确数字</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>精确数字或方程式</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>仅限方程式</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>禁止连续计数</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>出错时重置</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>失败身份组</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>当前计数</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>当前计数者</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>最高计数</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>失败身份组不能是 @everyone 身份组。</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>失败身份组持续时间</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>永久</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>留空或填 0 可使失败身份组永久保留。最长 43200 分钟（30 天）。</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>失败身份组的持续时间必须在 0 到 43200 分钟之间。</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>被忽略的身份组</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>被忽略的身份组不能是 @everyone 身份组。</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>此服务器尚未配置数数游戏。</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>重置当前计数</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>立即将当前计数重置为 0，就像刚刚计数失败一样。历史最高连续记录不受影响。</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>确定要将当前计数重置为 0 吗？此操作无法撤销。</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>重置计数</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>当前计数已重置为 0。</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>自定义失败消息</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>计数重置时，将代替默认失败消息发送。将下方两个字段都留空以使用默认消息。</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>留空以使用默认失败消息</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>自定义失败嵌入</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>保存更改</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>已更新数数游戏设置</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>已强制重置数数游戏的当前计数</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>已更新数数游戏的自定义失败消息</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>加载数数游戏设置失败。</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>自定义消息</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>随通知一起发送的可选消息...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>可用占位符：{link}、{channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>可用占位符：{link}、{subreddit}、{title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>可用占位符：{link}、{streamer}、{title}、{game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>可用占位符：{link}、{title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>论坛自动取消归档</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>机器人需要在每个被监控的论坛频道中拥有“管理帖子”权限，才能自动取消归档帖子。</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>论坛频道 1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>论坛频道 2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>不能两次选择同一个频道。</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>加载论坛自动取消归档设置失败。</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>已更新论坛自动取消归档设置</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>{0} 封禁时长</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>永久</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>留空或填 0 表示永久封禁。最长 720 小时（30 天）。</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>封禁时长必须在 0 到 720 小时之间。</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>机器人状态</value>
   </data>
@@ -6942,5 +7440,3444 @@ Amari 风格 - 二次方: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>已更新工单面板名称</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>表单需要一个名称。</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>该频道不在此服务器中。</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>该身份组不在此服务器中。</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>表单名称最多 {0} 个字符。</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>表单描述最多 {0} 个字符。</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>成功消息最多 {0} 个字符。</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>回复上限必须至少为 1。</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>最低账号年龄不能为负数。</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>关闭日期必须在未来。</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>邀请使用次数必须在 0 到 100 之间。</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>邀请有效期必须在 0 到 7 天之间。</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>每个问题都需要一些文字。</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>问题最多 {0} 个字符。</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>最小长度不能大于最大长度。</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>最小值不能大于最大值。</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>此问题类型至少需要一个选项。</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>一个问题最多可有 {0} 个选项。</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>每个选项都需要一个标签。</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>选项标签最多 {0} 个字符。</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>同一问题内的选项必须唯一。</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>其中一个条件缺少部分设置。</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>问题不能依赖于自身的答案。</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>问题只能依赖于排在它之前的问题。</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>一个表单最多可有 {0} 个问题。</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>保存前请至少添加一个问题。</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>无法加载表单。请稍后再试。</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>该表单已不存在。</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>发布前请至少添加一个问题。</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>此表单尚未发布。</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>此表单不接受回复。</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>此表单已关闭。</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>此表单已达到回复上限。</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>您已提交过此表单。</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>您的 Discord 账号必须至少存在 {0} 天才能提交此表单。</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>您必须是此服务器的成员才能提交此表单。</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>您没有被此服务器封禁，因此没有可申诉的内容。</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>折叠菜单</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>展开菜单</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>已选择 {0} 个</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>确认删除</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>要删除选中的 {0} 个项目吗？此操作无法撤销。</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>已启用 {0} 个项目</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>已禁用 {0} 个项目</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>已删除 {0} 个项目</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>无法更新所选项目。</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>点击项目以选择它们</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>该已保存版本已不存在。</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>无法读取该已保存版本，无法恢复。</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>表单已创建</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>已添加问题 {0}</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>已移除问题</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>已移除问题 {0}</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>问题 {0}：{1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>未设置</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>已保存，无更改。</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>再显示 {0} 项更改</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>显示更少</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>更改内容</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>历史记录</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>版本历史</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>此表单最近的 {0} 次保存。恢复某个版本本身也是一次保存，因此可以撤销。</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>尚无已保存的版本。下次保存此表单时，将在此处保留一个版本。</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>版本 {0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>{0} 个问题</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>恢复</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>要恢复此版本吗？表单将恢复到此次保存时的状态。</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>表单已恢复到该版本。</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>已移除的问题</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>占位符文本不能超过 {0} 个字符。</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>拖动以重新排序</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>您有未保存的更改。要离开此页面并放弃更改吗？</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>您可以随时回到这里，查看您提交的所有其他内容。</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>我的表单提交记录</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>您提交的每一份表单及其当前状态。</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>暂无提交记录</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>您提交的表单将显示在这里，方便您稍后查看。</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>提交于 {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>匿名收集回复的表单不会在此列出，因为它们在存储时不包含提交者信息。</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>用户自定义</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>此功能即将推出，请稍后再来查看！</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>要求验证码</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>在表单被接受之前，提交者必须通过 Cloudflare Turnstile 验证。</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>使用 Discord 登录以填写此表单。您将直接返回到这里。</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>使用 Discord 登录</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>来自 {0} 的表单。使用 Discord 登录以填写。</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>回复是匿名的。</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>提交前请确认您是人类。</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>无法验证验证码。请重新加载页面并重试。</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>允许服务器外的人</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>任何拥有链接的人都可以提交，即使不是成员。封禁申诉和加入申请始终允许这样做。</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>被拒绝后禁止再次申诉</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>被拒绝的申诉是最终决定，用户无法再提交另一份申诉。</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>最大申诉次数</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>用户在无法再申诉之前，可以达到的被拒绝申诉次数。留空表示无限制。</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>被拒绝后的等待时间（天）</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>申诉被拒绝后，用户在再次申诉前必须等待的时间。留空表示无需等待。</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>封禁后的等待时间（天）</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>用户被封禁后，在首次申诉前必须等待的时间。留空表示无需等待。Discord 只保留一定时间的审核日志历史，因此这无法应用于较旧的封禁。</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>您之前的申诉仍在审核中。请等待决定后再次申诉。</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>您的申诉已被拒绝，此服务器不接受更多申诉。</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>您已用完对此服务器的全部 {0} 次申诉机会。</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>您可以在 {0} 天后再次申诉。</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>此服务器尚未接受申诉。您可以在 {0} 天后申诉。</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>您已经是此服务器的成员。</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>您没有此表单要求的身份组。</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>此问题必须回答。</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>此答案至少需要 {0} 个字符。</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>此答案最多 {0} 个字符。</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>此答案必须是数字。</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>此答案至少为 {0}。</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>此答案最多为 {0}。</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>请输入有效的电子邮件地址。</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>请输入以 http 或 https 开头的有效链接。</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>该选择不是提供的选项之一。</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>请至少选择 {0} 个选项。</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>请最多选择 {0} 个选项。</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>该回复已不存在。</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>此回复不属于审核流程的一部分。</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>此回复已经做出决定。</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>此回复没有关联的 Discord 用户。</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>无法解除封禁。请检查机器人是否可以管理封禁。</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>无法创建邀请。请检查机器人是否可以创建邀请。</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0}（副本）</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>无回答</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>由 {0} 提交</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>回复 #{0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>您的回复已被接受。</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>您的回复已被拒绝。</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>回复 ID</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>用户 ID</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>提交时间</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>未审核</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>表单已保存</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>表单已发布</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>表单现已接受回复</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>表单已停止接受回复</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>表单已复制</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>表单已删除</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>回复已删除</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>回复已接受</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>回复已拒绝</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>创建了一个表单</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>更新了一个表单</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>将一个表单恢复到早期版本</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>发布了一个表单</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>打开了一个表单以接受回复</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>关闭了一个表单的回复功能</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>复制了一个表单</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>删除了一个表单</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>删除了一个表单回复</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>接受了一个表单回复</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>拒绝了一个表单回复</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>表单</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>创建成员通过链接填写的表单，并在此处收集回复。</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>创建表单</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>还没有表单</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>创建您的第一个表单以开始收集回复。</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>回复</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>待审核</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>草稿</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>复制链接</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>发布</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>要删除“{0}”及其收集的所有回复吗？此操作无法撤销。</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>要删除此回复吗？此操作无法撤销。</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>已复制</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>编辑表单</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>新表单</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>表单设置</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>审核设置</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>当回复需要审核批准时使用，也用于封禁申诉和加入申请。</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>将提交内容发送到</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>提交所需的身份组</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>回复上限</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>关闭时间</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>最低账号年龄（天）</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>阻止新账号。适用于对服务器外人员开放的表单。</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>提交后显示的消息</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>已从上次中断处继续。在您浏览不同页面时，答案会自动保存。</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>添加页面</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>第 {0} 页</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>所有页面</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>无标题页面</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>页面标题</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>页面介绍</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>移除页面</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>为此页面添加标题</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>向前移动</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>向后移动</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>拖动以重新排序页面</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>您的回复已收到。</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>在此处查看</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>查看提交内容</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>您的更改已保存。</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>内容过长，无法在此显示</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>嵌入构建器</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>创建带有嵌入的消息，并查看 Discord 将如何显示它。</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>选择一个已保存的嵌入</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>应用 JSON</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>实时预览</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>为此嵌入命名</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>正文</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>页脚</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>作者名称</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>作者链接</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>作者图标</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>标题链接</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>嵌入描述</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>强调色</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>大图</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>缩略图</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>页脚文本</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>页脚图标</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>显示时间戳</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>字段名称</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>字段值</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>并排显示</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>添加字段</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>嵌入</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>添加嵌入</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>移除此嵌入</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>还没有内容可显示。开始输入，它就会出现在这里。</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>嵌入已加载。</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>嵌入已保存。</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>嵌入已重命名。</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>嵌入已删除。</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>请先为嵌入命名。</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>请先选择一个已保存的嵌入。</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>请选择要发送到的频道。</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>“{0}” - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>目前无法接受图片回答。</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG、JPEG、GIF 或 WebP，最大 {0} MB。</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>上传中…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>图片上传</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>填写表单的人会附上一张图片。</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>图片必须小于 {0} MB。</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>该文件无法作为图片读取。</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>该图片的像素过多，无法处理。</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>无法保存该图片。请重试。</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>另有 {0} 个回复在控制面板中。</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>允许每位用户提交多次</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>表单类型</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>回复必须经过批准</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>批准时</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>批准时要更改的身份组</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>批准时要添加的身份组</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>批准时要移除的身份组</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>拒绝时要添加的身份组</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>拒绝时要移除的身份组</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>决定</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>由 {0} 批准</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>由 {0} 拒绝</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>接受</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>此表单尚未开放。它将于 {0} 开放。</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>此表单现在开放提交。</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>开放时间（UTC）</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>即使表单已发布，在此时间之前仍保持关闭。留空表示一发布即开放。</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>在此频道宣布开放</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>在公告中提及的身份组</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>开放公告的内容</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>在开放时间到达时发布一次。留空使用默认措辞。</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>图片 URL</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>显示在问题上方。必须是 http 或 https 地址。</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>允许被拒绝后重新提交</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>被拒绝的提交者可以发送修正后的回复。已批准和待审核的回复仍然算作其唯一的一次提交。</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>新回复时要提及的身份组</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>有回复到达时，会在提交频道中被提及。该身份组必须是可提及的，或者机器人需要提及它的权限。</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>提交时授予的身份组</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>无论是否经过审核，表单一提交就会授予。</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>无法发送私信</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>等待决定期间的身份组</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>在表单提交时授予，回复被批准或拒绝后即被撤销。</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>可以从 Discord 做出决定的身份组</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>在提交消息上添加接受和拒绝按钮，供拥有此身份组的成员使用。留空表示仅从控制面板审核。</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>拒绝时</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>拒绝时要更改的身份组</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>邀请使用次数</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>邀请有效期（秒）</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>普通表单</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>封禁申诉</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>加入申请</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>不做任何操作</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>添加身份组</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>移除身份组</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>问题</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>添加问题</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>{0} 个问题</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>无标题问题</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>问题</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>回答类型</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>占位符</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>必填</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>最小长度</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>最大长度</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>添加选项</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>复制问题</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>仅在以下情况显示此问题</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>短文本</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>段落</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>多项选择</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>复选框</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>下拉菜单</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>电子邮件地址</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>链接</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>添加条件</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>移除条件</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>规则组</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>规则组中的每个条件都必须满足。任何一个规则组满足时都会显示问题，因此可使用第二个规则组作为另一种符合条件的方式。</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>正在保存您的工作</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>您的工作已保存</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>无法保存您的工作</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>之前的问题</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>比较</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>身份组</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>身份组匹配</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>正在加成服务器</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>正在加成</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>未在加成</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>权限标志</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>请在此问题之前添加一个问题以比较其答案。</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>对某个问题的回答</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>用户拥有的身份组</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>在服务器中的时间</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Discord 账号年龄</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>加成状态</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>用户拥有的权限</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>等于</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>包含</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>大于</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>小于</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>有任何回答</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>留空</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>其中任意一个</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>均不是</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>保存表单</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>返回表单列表</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>{0} 个回复</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>还没有回复。</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>导出 CSV</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>删除回复</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>第 {0} 页，共 {1} 页</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>批准</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>给提交者的备注</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>可选。将随决定一起发送给提交者。</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>等待审核</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>审核中</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>已批准</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>已拒绝</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>预览时提交功能已关闭</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>您正在预览此表单。您在此处输入的内容不会被保存。</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>已回答 {0}/{1}</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>选择一个选项</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>您的回复已提交。</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>已收到</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>已提交</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>最后编辑</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>编辑我的回答</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>已编辑</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>自提交以来已编辑 {0} 次，最近一次为 {1}。</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>审核者的备注</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>您的邀请</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>保留此链接以便日后查看您的回复。</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>已匿名提交</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>匿名表单无法更改身份组，因为它不会记录是谁提交的。</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>封禁申诉和加入申请不能匿名，因为批准需要对提交者本人采取操作。</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>此回复是匿名提交的，因此没有可操作的对象。</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>匿名记录回复</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>提交者仍需使用 Discord 登录，以便表单能够验证谁可以提交，但不会存储他们的姓名和地址。无法使用批准操作。</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>授予已批准申请人的身份组</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>为申请人预留，并在其通过邀请加入时授予。</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>匿名</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>此表单是匿名的。您已登录，以便服务器可以验证您能否提交，但您的姓名不会与您的回答一起保存。</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>拥有 Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>拥有 Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>没有 Nitro</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>组合方式</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>此组中的所有条件</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>此组中的任意条件</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>在此问题中引用之前的回答</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>在问题中写 {{Q1}} 可显示问题 1 给出的答案。</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>仅在以下情况必填</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>始终使用上方的设置</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>检查您的回答</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>尚未提交任何内容。请通读您的回答，然后发送。</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>检查回答</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>更改回答</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>发送回答</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>还没有问题。添加一个以开始。</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>您想要哪种回答方式？</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>编辑详情</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>隐藏详情</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>在此输入您的问题</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>有条件</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>引用了一个回答</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>单行文本</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>更长的多行回答</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>从列表中选择一项</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>任意数量的选项</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>从菜单中选择一项</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>数字（可选择限制范围）</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>电子邮件地址</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>以 http 开头的链接</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>问题 {0} 引用了自身的答案，而该答案在提问时尚不存在。</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>问题 {1} 引用了稍后才提出的问题 {0}。问题只能引用排在它之前的问题。</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>某个问题引用了问题 {0}，但此表单只有 {1} 个问题。</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>适用于已在服务器中的人</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>允许被封禁的人请求返回</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>允许外部人员申请加入</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>申诉和申请总是会被审核。</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>登录和服务器</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>保护</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>身份组和自助身份组</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>工单</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>命令和自动回复</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>日志记录</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>聊天机器人</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>未记录功能</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>更改者</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>时间范围</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>任何时间</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>最近 24 小时</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>最近 7 天</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>最近 30 天</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>最近 3 个月</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>自定义范围</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>从</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>仅显示有更改详情的记录</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>搜索摘要、名称和值</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>最新优先</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>最旧优先</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>每页记录数</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>显示第 {0} 到 {1} 条，共 {2} 条</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>没有符合这些筛选条件的记录。</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>尚未从控制面板进行任何更改。</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>之前</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>之后</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>已更改 {0} 个字段</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>受影响项</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>已更新 {0} 的日志记录</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>AutoMod 检查</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>封禁公告</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>横幅</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>生日</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>加成公告</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>经济加成</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>经济物品</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>文件扩展名</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>表单回复</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>加入公告</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>离开公告</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>等级身份组</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>链接白名单</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>消息相似度</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>相同加入</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>季节性掉落</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>自助身份组组</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>统计频道</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>连续记录身份组</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>工单面板</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>打开完整日志</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>已更新控制面板更改提醒</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>控制面板更改提醒</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>控制面板提醒频道</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>控制面板更改的公告位置。设为“无”表示不发布任何公告。</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>访问和日志更改时始终提醒</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>这些功能发生更改时提醒</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>选择“无”表示仅接收上方更改的提醒。无论如何，一切都会记录在日志中。</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>此记录的链接</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>正在显示单条记录。</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>显示完整日志</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>一次会话中的 {0} 项更改</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>已从此日志中删除 {0} 条记录</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>创建了一个成就</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>更新了一个成就</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>更新了 {0} 横幅</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>等级卡片</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>告别</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>更新了加入时授予的身份组</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>更新了公告：{0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>更新了 AutoMod：{0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>预览此嵌入</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>选择一个已保存的嵌入以预览。</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>自动化</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>自动提醒</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>当工单开启者一段时间未回复时提醒他们。</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>提醒时间（天）</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>无回复时自动关闭</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>关闭开启者已停止回复的工单。</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>关闭时间（天）</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>开启者离开时自动关闭</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>提醒时间必须在 1 到 365 天之间。</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>关闭时间必须在 1 到 365 天之间。</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>已更新工单自动化设置</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>工单管理器</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>查看并处理此服务器的支持工单。</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>此服务器上尚未开启任何工单。</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>搜索工单...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>开启者</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>认领者</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>最后活动</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>未认领</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>等待工作人员</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>尚无消息</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>部分工单指向已不存在的频道。删除它们可清理残留记录。</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>等待工作人员</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>首次回复中位数</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>不适用</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>工单分类</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>工单会填充仍有空间的编号最低的分类。Discord 将每个分类限制为 50 个频道。</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>主分类</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>溢出 #{0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>已从 Discord 删除</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 个频道</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>尚不存在工单分类。首次开启工单时会创建一个。</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>重新开启</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>认领</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>取消认领</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>添加用户</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>移除用户</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>匿名回复</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>要删除此工单及其频道吗？此操作无法撤销。</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>工单已关闭。</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>工单已重新开启。</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>工单已删除。</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>工单已认领。</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>工单已取消认领。</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>用户已添加到工单。</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>用户已从工单移除。</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>已向工单开启者发送提醒。</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>已向工单发送回复。</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>该工单已不存在。</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>该工单已经关闭。</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>该工单已经开启。</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>该工单的频道在 Discord 中已不存在。</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>机器人无法执行该操作。请检查其在工单频道中的权限。</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>无法发送提醒。开启者可能关闭了私信功能。</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>请输入要发送的消息。</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>回复不能超过 2000 个字符。</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>请选择一个有效的用户。</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>从控制面板关闭与在 Discord 中关闭效果相同：锁定频道、保存记录、上传 HTML 副本，并发送关闭私信和评价请求。</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>关闭了一个工单</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>重新开启了一个工单</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>删除了一个工单</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>认领了一个工单</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>取消认领了一个工单</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>向工单添加了一个用户</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>从工单移除了一个用户</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>发送了一个工单提醒</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>发送了一个匿名工单回复</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>工单</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>工单：</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>开启者：</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>保存者：</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>消息数：</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>回复数：</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>评价：</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>已发送，等待评价...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>您在 {0} 中的支持工单已关闭。
+            **关闭者：** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>记录已保存到记录频道。</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**请评价您与帮助您的工作人员的互动体验。**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>未请求</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>平均评价</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>等待评价</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>发送工单面板</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>发送面板</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>工单面板已发送。</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>请选择要发送面板的频道。</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>点击下方按钮创建支持工单。</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>发送了一个工单面板</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>该面板已不存在。</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>服务器必须至少保留一个面板。</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>请选择有效的工单类型。</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>请为帖子选择一个有效的频道。</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>请选择帖子将开启的频道，否则此面板无法创建工单。</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>面板已创建。</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>面板已删除。</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>工单类型</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>私密帖子</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>公开帖子</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>公开帖子可被能看到父频道的所有人阅读。</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>帖子频道</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>添加面板</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>删除面板</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>要删除此面板吗？已从中开启的工单将继续正常工作。</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>已发布到 {0} 个频道</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>尚未发布</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>更新已发布的面板</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>重写此面板已发布的消息，使其与上方设置匹配。</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>已更新 {0} 个已发布面板。</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>创建了一个工单面板</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>删除了一个工单面板</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>更改了一个工单面板的类型</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>更新了已发布的工单面板</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>所有面板</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>无面板</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>关闭时间中位数</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>服务器最多可有 {0} 个面板。</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>工单由 {0} 关闭</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>工单由 {0} 重新开启</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>已成功将 {0} 添加到工单。
+            请求者：{1}</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>已成功将 {0} 从工单移除。
+            请求者：{1}</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>这是提醒，您在 `{0}` 中的工单仍处于开启状态。如果您仍需要帮助，请回复。</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt; 向 &lt;@{1}&gt; 发送了提醒。</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>支持团队回复</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>工单将在几秒后删除。</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>工单由 {0} 认领</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>工单由 {0} 取消认领</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>此工单已被 {0} 认领。</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>您必须先为此面板设置一个支持团队身份组。</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>您需要拥有 {0} 身份组才能执行此操作。</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>此面板仍有 {0} 个开启的工单。请先关闭它们。</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>此工单所属的面板已被删除。</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>早于此时间的消息不会被添加到星标板。0 表示无限制。</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>通过“举报消息”上下文菜单举报的消息发布的位置。在设置之前，举报功能不可用。</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>在机器人之外（例如通过 Discord 本身）应用的超时被记录的位置。设为“无”表示不记录。</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>拥有此身份组的成员可以查看和编辑服务器备注及公开备注。管理员和拥有“管理服务器”权限的成员始终可以。</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>频道名称和统计消息接受常规的服务器占位符，因此一个名称可以包含多个统计数据。完整列表请参阅&lt;strong&gt;&lt;a href='{0}' class='info'&gt;占位符参考&lt;/a&gt;&lt;/strong&gt;。</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>增益需要一个名称。</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>自定义统计频道</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>按您喜欢的方式命名的语音频道，一个名称中可任意组合多种统计数据。机器人会在统计分类下创建每一个，并每 20 分钟更新一次。最多 10 个。</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>频道名称模板</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discord 允许频道名称最多 100 个字符。</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>添加统计频道</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>频道将在 20 分钟内创建。</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>正在 20 分钟内创建</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>频道名称模板最多 100 个字符。</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>该自定义统计频道已不存在。</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>添加了一个自定义统计频道。</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>移除了一个自定义统计频道。</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>统计消息</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>机器人会发布一条消息，每 20 分钟用最新数字进行编辑，而不是使用频道。</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>留空使用默认值。Discord 的表情代码在这里可用，包括 Cakey 自己的表情。更改频道会在那里发布一条新消息；如果不再需要旧消息，请自行删除。</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>请选择发布统计消息的频道。</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>置顶排行榜</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>机器人在频道中发布并每 15 分钟更新一次的排行榜消息，这样就没人需要运行 /leaderboard 了。每个服务器最多 5 个。</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>时间段</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>全部时间</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>本周</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>本月</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>显示的成员数</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>前 {0} 名</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>将在 15 分钟内发布</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>添加排行榜</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>排行榜将在 15 分钟内发布。</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>排行榜显示 3 到 15 名成员。</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>请选择全部时间、本周或本月。</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>该置顶排行榜已不存在。</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>添加了一个置顶排行榜。</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>移除了一个置顶排行榜。</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>里程碑身份组</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>发布这些数字之一的人将获得相应的身份组。最多 25 个里程碑。</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>达到的数字</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>要授予的身份组</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>添加里程碑</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>里程碑数字必须至少为 1。</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>该数字的里程碑已存在。</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>数数游戏无法授予拥有管理员、管理服务器或管理身份组权限的身份组。</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>该里程碑已不存在。</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>添加了一个计数里程碑。</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>移除了一个计数里程碑。</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>消息必须如何与命令文本相关联。「包含文件」、「来自 Webhook」及提及选项会忽略文本，并在具有该属性的任何消息上触发。通配符接受 * 和 ?；如果模式无效，正则表达式会自动关闭。</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>在机器人设置中设置的服务器时区的整点。</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>每天，或仅在某个工作日。</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>“唯一”的运作方式类似单选按钮：在组中选择一个身份组会替换已拥有的那个。“多选”允许成员同时拥有该组中的多个身份组。</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>超出此限制再领取一个，会取消最早领取的那个身份组。</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>在增益生效期间，将经济游戏的收益成倍增加。多个生效中的增益会相互叠乘。</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>增益从购买时刻起持续的小时数。</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>一名成员同时可持有此增益的数量。0 表示无限制。</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>购买时授予的身份组。它必须位于 Cakey 最高身份组之下，且不能拥有管理员、管理服务器或管理身份组权限。</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>购买时添加给买家的等级 XP，最多 1,000,000。</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>购买时授予的身份组，并在下方设置的小时数后再次移除。</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>一次购买授予的计数救援次数，1 到 100 次。当买家出错时，会消耗一次救援，而不是重置计数。</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>一名成员同时可拥有此物品的数量。0 表示无限制。</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>在商店中显示且可购买。关闭此项可保留该物品但将其隐藏，例如仅由工作人员发放的奖品。</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>计数救援</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>每次购买的救援次数</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>计数救援物品必须授予 1 到 100 次救援。</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>衰减私信通知</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>当成员的 XP 衰减时向其发送私信。每条私信都带有一个按钮，成员可用它为自己选择退出。</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>附件已删除</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>带有文件或图片的已删除消息会记录在此处，而不是“消息已删除”频道。设为“无”以将它们保存在一起。</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>建议提及身份组</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>每次发布新建议时都会被提及。该身份组必须是可提及的，或者机器人需要提及任何身份组的权限。</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>有图片</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>插入服务器表情</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>跳过需要语音频道中超过一半未被闭麦的成员投票。DJ、管理员及请求该歌曲的人仍可以直接跳过。</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>成员达到此等级后，XP 将停止累积。</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>领取了上一个掉落的人不能领取下一个。</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>在每次掉落时将领取按钮隐藏在四个诱饵中的不同位置，使其无法被反射性点击。</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>两次掉落之间会经过这两个值之间的随机等待时间。</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>在宣布生日时授予，并在 24 小时后再次移除。</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>用于没有自己时区的生日、每日内容和计划的自动消息。</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>在频道的“整合”设置中创建一个 Webhook 并将其 URL 粘贴到此处。帖子将通过它发送。</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>仅当帖子需要发布到 Webhook 频道下的帖子或论坛帖子时才需要。否则请留空。</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>每有新帖子时都会被提及。留空表示不提及任何人。</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>帖子嵌入侧边栏的颜色。</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>仅子版块名称，不含 r/。</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>直接指向订阅源本身而非网站的链接。通常以 .xml、.rss 或 /feed 结尾。</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>URL 中 twitch.tv/ 之后显示的频道名称。</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>指向频道页面的链接，例如 youtube.com/@handle 或 /channel/ 格式的 URL。</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>成员用来调用此标签的名称。请保持简短易记。</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>使用该标签时机器人回复的内容。</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>在消息中要查找的文本。大小写会被忽略，下方的匹配类型设置了其严格程度。</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>当消息匹配时发送。将其与嵌入结合，或留空以仅发送嵌入。</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>计划消息发布的位置。</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>在选定的时间发布到上方的频道。</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>只能选择公告频道。在那里发布的每条消息都会发布到关注的服务器。</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>成员可以自行授予自己的身份组。</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>在选择器中显示在身份组旁边，以便成员了解其用途。</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>低于此等级的成员无法选择该身份组。0 表示禁用此检查。</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>成员选择该身份组前所需的每日连续记录。0 表示禁用此检查。</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>成员在选择新身份组之前必须已拥有此身份组。</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>显示为选择器的标题。</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>显示在标题下方，以解释该组的用途。</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>只有拥有此身份组的成员才能从该组中选择。</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>只有处于此等级或更高的成员才能从该组中选择。</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>更新建议帖子上显示的状态。</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>与决定一起显示在建议帖子上。可选。</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>此服务器应使用的自定义机器人订阅。</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>来自 Discord Developer Portal 中您应用的 Bot 选项卡的机器人令牌。请保密。</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>显示在商店和购买消息中。</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>显示在商店名称下方，以便买家了解他们能获得什么。</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>以您服务器货币计的价格。买家需要至少这么多才能购买。</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>买家获得的内容。下方的字段会根据类型变化。</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>用于在应用时稍后查找该预设。</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>从购买起算，买家保留该身份组的小时数。</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>未找到公告频道。请先在 Discord 中创建一个。</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>使用该 Webhook 的名称和头像，通过此 Webhook 而非机器人发送嵌入。</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>发送者资料</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>发送身份</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>机器人</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>管理发送者资料</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>发送者资料会通过带有自己名称和头像的 Webhook 发布消息。机器人在该频道中需要“管理 Webhook”权限。</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>显示名称</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>显示为消息的作者，最多 80 个字符。Discord 会拒绝包含“discord”或“clyde”的名称。</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>头像 URL</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>指向 PNG、JPG 或 GIF 的直接链接。留空以保留机器人的头像。</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>已保存的 Webhook URL</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>可选。设置后，以此资料发送的消息将发送到此 Webhook，而不是频道，仍使用上方的名称和头像。</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>新资料</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>保存资料</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>还没有发送者资料。</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>要删除此发送者资料吗？</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>发送者资料已保存。</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>发送者资料已删除。</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>请输入最多 80 个字符的显示名称。</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discord 不允许发送者名称包含“discord”或“clyde”。</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>头像必须是最多 512 个字符的 http 或 https 链接。</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>一个服务器最多可有 25 个发送者资料。</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>该发送者资料已不存在。</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>发送到频道</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>导入 / 导出 JSON</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>消息文本</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>发送在嵌入上方的文本</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>仅在从此页面发送时使用。它不会与嵌入一起保存，发布已保存嵌入的功能不会包含它。</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>另存为新建</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>更新所选项</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>欢迎来到 {server.name}！</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>这是一个示例嵌入，用于展示构建器的功能。试试 **粗体**、*斜体*、`代码`、一个[链接](https://cakey.bot)以及像 {user.mention} 这样的占位符。这里的所有内容都可以编辑或清除，频道提及和自定义表情也同样有效。</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>服务器成员</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>服务器身份组</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>使用 Cakey Bot 嵌入构建器制作</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>必须是以 http:// 或 https:// 开头的完整链接。</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0} 不是有效的链接。</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>无法加载此图片。请检查链接。</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>创建了一个发送者资料</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>更新了一个发送者资料</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>删除了一个发送者资料</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>像 {user.username} 这样的占位符会在此处使用此服务器的值以及您（作为用户）来显示。已保存的嵌入会按原样保留它们，机器人在发布时会填充它们。</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

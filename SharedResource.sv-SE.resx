@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>Endast GIF-filer</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>Endast media</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>Endast filer</value>
   </data>
@@ -1126,9 +1129,6 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-birthday-role" xml:space="preserve">
     <value>Uppdaterad födelsedagsroll: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>Tidszon uppdaterad för {0}s födelsedag</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>Födelsedag</value>
   </data>
@@ -1141,11 +1141,17 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>Valfritt — åsidosätter serverns tidszon endast för denna persons födelsedagskontroll.</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>Tidszon uppdaterad för {0}s födelsedag</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>Utbytt färg</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>Vänster färg</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>Färg vid anslutning</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>Ta bort roller på Level Up</value>
@@ -1204,6 +1210,27 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="chat-bot-title" xml:space="preserve">
     <value>AI Chattbot</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>AI-modell</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>OpenAI-modellen som din chattbot använder för att generera svar. Högre nivåer låser upp mer kapabla modeller.</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>Anpassad bot</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>API-nyckel</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>Denna modell kräver en högre prenumerationsnivå.</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>Röstutjämning aktiverad</value>
   </data>
@@ -1231,7 +1258,7 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="suggestion-page-title" xml:space="preserve">
     <value>Förslag</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>Ingen förslagskanal är konfigurerad, så medlemmar kan inte skapa förslag än och beslut som sparas här kan inte återspeglas i meddelandet på Discord. Ställ in en nedan för att åtgärda båda.</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>Uppdaterade ignorerade prestatationskanaler.</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>Ignorerade prestationsroller uppdaterade.</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>Meddelande för upplåsning av prestationer uppdaterat.</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>Flera prestationer aktiverade eller inaktiverade samtidigt.</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>Självrroller</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>Använd knappen "Lägg till självroll" nedan för att skapa en ny självroll.</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>Inga självroller hittades. Klicka på "Lägg till självroll" ovan för att skapa en.</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>Inga rollgrupper än. Grupper låter dig göra en uppsättning självroller ömsesidigt uteslutande.</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>Värdet ({0}) måste vara ett nummer.</value>
@@ -1876,6 +1918,9 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>Prenumerationer</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>OAuth-konto frånkopplat. ({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>Ändrade OAuth-integreringsinställningar. ({0})</value>
   </data>
@@ -1950,6 +1995,48 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>Stäng</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>Medlemsantal</value>
@@ -2083,6 +2170,12 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Semicolon separated list</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>Ta bort när publicerat</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>När detta är aktiverat tas objekt bort från listan för att förhindra dubblering. Se till att du har en sparad kopia av dina data innan du aktiverar denna funktion, eftersom dessa data inte kan återställas.</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>Skapa Tråd</value>
   </data>
@@ -2115,6 +2208,24 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>Initial Balans</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>Dagligt min. belopp</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>Dagligt max. belopp</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>Veckans min. belopp</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>Veckans max. belopp</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>Månadens min. belopp</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>Månadens max. belopp</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>Rensa Användarbalans Vid Avhopp</value>
@@ -2230,11 +2341,119 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>Nå nivå X.</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>Få en specifik roll.</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>Skicka X GIF-bilder.</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>Skicka X klistermärken.</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>Bli tystad X gånger.</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>Strömma i X minuter.</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>Bära denna servers tagg.</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>Räkna endast i denna kanal</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>Lämna tomt för att räkna var som helst på servern. Detta kan inte ändras senare, eftersom framsteg lagras per kanal.</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>Roll att erhålla</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>Nivåstege</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>Ge varje steg i en stege samma namn och numrera dem nedan. Att uppnå ett högre steg tilldelar även de under det.</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>Steg</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>Upplåsningsmeddelande för denna prestation</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>Åsidosätter serverns upplåsningsmeddelande för endast denna prestation. Lämna tomt för att använda serverns.</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>Prestationsinställningar</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>Upplåsningsmeddelande</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>Lämna tomt för standardtexten. Platshållare: {achievement.name}, {achievement.description}, {user.achievement.count}, {achievement.owners.count} och alla grundläggande platshållare.</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>Se listan över platshållare</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>Ignorerade roller</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>Medlemmar med en av dessa roller gör inga framsteg mot prestationer</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>Ändrade prestationer</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>Välj minst en prestation först</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>Välj rollen som denna prestation tjänas genom att erhålla</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>Ett steg måste vara ett tal från 1 till 20</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>Kanalen eller rollen som en prestation räknas i kan inte ändras efter skapandet</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>Sekundär data</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>Tillfällig roll</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>Tillfälliga avstängningar</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>Tillfälliga roller</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>Inga tillfälliga avstängningar är aktiva på denna server.</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>Inga tillfälliga roller är aktiva på denna server.</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>Avstängningar och roller kan väljas tillsammans. Att avsluta dem gäller allt du har valt, i båda listorna.</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>Avsluta nu</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>Avsluta de {0} valda avstängningarna nu? Boten kommer att häva dem inom kort.</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>Avsluta de {0} valda rollerna nu? Boten kommer att ta bort dem inom kort.</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0} objekt inställda att avslutas nu</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>Inställt att avslutas nu. Boten kommer att behandla dem inom kort.</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>Skicka DM-påminnelser</value>
@@ -2388,9 +2607,6 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>Max Ägd Per Användare</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0 Max Ägd = Obegränsad</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>Fiske</value>
@@ -2788,6 +3004,24 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Köp livstidspremium</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>LIVSTIDS Anpassad bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>Skaffa din egen märkta Anpassade bot för en enda engångsbetalning, ingen återkommande prenumeration, någonsin.</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>Notering: Detta är ett strikt begränsat erbjudande - när de återstående platserna är slut är detta erbjudande borta för gott.</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>Köp Livstids Anpassad bot</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>{0} kvar</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>Slutsåld</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>Plannavjämning</value>
   </data>
@@ -2874,6 +3108,9 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Ban Sync-poolservrar</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>Räknemilstolpsroller</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>Obegränsade RSS/sociala flöden</value>
@@ -3279,15 +3516,6 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>Skapa en lockkanal där alla meddelanden som postas automatiskt utlöser det valda straffet, vilket hjälper till att fånga raid- och bedrägeribottar innan de spammar din server.</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>Endast Exakt Tal</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>Exakt Tal ELLER Ekvation</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>Endast Ekvation</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>Du måste välja en anpassad bot att modifiera.</value>
@@ -4390,6 +4618,39 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>Självrroll hittades inte eller tillhör inte denna guild</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>Du kan bara ha upp till {0} självroller</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>Den rollen är redan en självroll</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>Rollgruppen hittades inte eller tillhör inte denna server</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>Gruppnamn krävs</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>En grupp med det namnet finns redan</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>Max antal roller måste vara mellan {0} och {1} för en flervalsgrupp</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>Självroll {0} tillagd</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>Självroll {0} uppdaterad</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>Rollgrupp '{0}' tillagd</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>Rollgrupp '{0}' uppdaterad</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>Rollgrupp '{0}' borttagen</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>Ett fel inträffade när dashboard-åtkomst skulle läggas till</value>
   </data>
@@ -4735,8 +4996,35 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>Maxsaldo måste vara större än 0</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>Maxsaldo måste vara mindre än 1000000000</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>Maxsaldo måste vara mindre än {0}</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>Det dagliga minimibeloppet måste vara mellan 1 och {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>Det dagliga maxbeloppet måste vara mellan 1 och {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Det dagliga maxbeloppet måste vara högre än det dagliga minimibeloppet.</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>Det veckovisa minimibeloppet måste vara mellan 1 och {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>Det veckovisa maxbeloppet måste vara mellan 1 och {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Det veckovisa maxbeloppet måste vara högre än det veckovisa minimibeloppet.</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>Det månatliga minimibeloppet måste vara mellan 1 och {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>Det månatliga maxbeloppet måste vara mellan 1 och {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Det månatliga maxbeloppet måste vara högre än det månatliga minimibeloppet.</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>Maxnivå måste vara större än 0</value>
@@ -5026,6 +5314,12 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>Premium aktiverad på server framgångsrikt</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>Premium aktiverat på denna server ({0})</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>Premium borttaget från denna server ({0})</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>Premium avaktiverad från server framgångsrikt</value>
   </data>
@@ -5230,6 +5524,9 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>Fel vid avvisning av nagbar</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>Bannerdesign</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>Ogiltig bannertyp</value>
   </data>
@@ -5413,8 +5710,26 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>Aktiverade automatiskt meddelande {0}</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>{0} automatiska meddelanden aktiverade</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>{0} automatiska meddelanden inaktiverade</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>{0} automatiska meddelanden borttagna</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>Aktiverade automatisk respons {0}</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>{0} autosvar aktiverade</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>{0} autosvar inaktiverade</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>{0} autosvar borttagna</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>Importerade {0} automatiska svar</value>
@@ -5427,6 +5742,12 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Ändrade Twitch-flöde {0}</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>Flöde aktiverat</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>Flöde inaktiverat</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>Ändrade YouTube-flöde {0}</value>
@@ -5547,6 +5868,63 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} tagg {1}</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>och {0} till</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>{0} tillfälliga avstängningar avslutade</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>{0} tillfälliga roller avslutade</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>{0} kanaler för automatisk publicering borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>{0} varningar borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>{0} födelsedagar borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>{0} AFK-poster borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>{0} självtilldelningsroller borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>{0} permanenta roller borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>{0} butiksartiklar borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>{0} boostar borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>{0} flöden borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>{0} instrumentpanelsloggposter borttagna</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>{0} poster borttagna</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>{0} flöden aktiverade</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>{0} flöden inaktiverade</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>{0} taggar aktiverade</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>{0} taggar inaktiverade</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>{0} taggar borttagna</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>Aktiverad</value>
@@ -5775,45 +6153,6 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>Sök självroller...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>Inga självroller hittades. Klicka på "Lägg till självroll" ovan för att skapa en.</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>Inga rollgrupper än. Grupper låter dig göra en uppsättning självroller ömsesidigt uteslutande.</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>Du kan bara ha upp till {0} självroller</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>Den rollen är redan en självroll</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>Rollgruppen hittades inte eller tillhör inte denna server</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>Gruppnamn krävs</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>En grupp med det namnet finns redan</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>Max antal roller måste vara mellan {0} och {1} för en flervalsgrupp</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>Självroll {0} tillagd</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>Självroll {0} uppdaterad</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>Rollgrupp '{0}' tillagd</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>Rollgrupp '{0}' uppdaterad</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>Rollgrupp '{0}' borttagen</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>Lägg till självroll</value>
@@ -6229,9 +6568,6 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Uppdatera inte sidan.</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>Inbäddningsredigerare</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Sparad inbäddning hittades inte.</value>
   </data>
@@ -6256,27 +6592,6 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>Sparade inbäddningar</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>Ny / ej sparad</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>Spara</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>Spara som ny</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>Byt namn</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>Ta bort</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>Namnge denna embed:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>Byt namn på sparad embed:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>Ta bort denna sparade embed? Detta kan inte ångras.</value>
   </data>
@@ -6286,17 +6601,8 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>Byt namn på Embed</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>Ta bort Embed</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>Skicka Embed</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>Skicka Embed</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>Kanal</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>Skicka till en webhook-URL istället</value>
@@ -6307,7 +6613,7 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
+  <data name="generic-word-send" xml:space="preserve">
     <value>Skicka</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
@@ -6324,6 +6630,21 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discord avvisade embeden som skickades till den webhook.</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>Embed-innehåll</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>En embed sparades</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>En sparad embed uppdaterades</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>En sparad embed döptes om</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>En sparad embed togs bort</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>Skickade en embed till en webhook.</value>
@@ -6510,6 +6831,15 @@ Amari-stil - kvadratisk: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>Minbana</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>Dagligen</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>Veckovis</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>Månadsvis</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>Betala</value>
@@ -6874,6 +7204,174 @@ För att få din OpenAI API-nyckel måste du skapa ett OpenAI-konto och generera
   <data name="rp-feature-wink" xml:space="preserve">
     <value>Blinka</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>Räknespel</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>Ändringar kan ta upp till 30 sekunder att slå igenom i Discord på grund av cachning.</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>Räknekanal</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>Läge</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>Endast Exakt Tal</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>Exakt Tal ELLER Ekvation</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>Endast Ekvation</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>Förhindra konsekutiv räkning</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>Återställ vid misstag</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>Misslyckanderoll</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>Aktuellt antal</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>Aktuell räknare</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>Högsta antal</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>Misslyckanderollen kan inte vara @everyone-rollen.</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>Varaktighet för misslyckanderoll</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>minuter</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>Lämna tomt eller 0 för att misslyckanderollen ska förbli tilldelad permanent. Max 43200 minuter (30 dagar).</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>Varaktigheten för misslyckanderollen måste vara mellan 0 och 43200 minuter.</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>Ignorerade roller</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>Den ignorerade rollen kan inte vara @everyone-rollen.</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>Räknespelet har inte konfigurerats för denna server ännu.</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>Återställ aktuellt antal</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>Återställer omedelbart det aktuella antalet till 0, precis som om räkningen just misslyckats. Den högsta streaken genom tiderna påverkas inte.</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>Är du säker på att du vill återställa det aktuella antalet till 0? Detta kan inte ångras.</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>Återställ antal</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>Det aktuella antalet har återställts till 0.</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>Anpassat misslyckandemeddelande</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>Skickas istället för standardmeddelandet vid misslyckande när antalet återställs. Lämna båda fälten nedan tomma för att använda standardmeddelandet.</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>Meddelande</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>Lämna tomt för att använda standardmeddelandet vid misslyckande</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>Anpassad misslyckandeembed</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>Spara ändringar</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>Räknespelets inställningar uppdaterade</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>Räknespelets aktuella antal tvångsåterställt</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>Räknespelets anpassade misslyckandemeddelande uppdaterat</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>Det gick inte att läsa in räknespelets inställningar.</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>Anpassat meddelande</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>Valfritt meddelande som skickas tillsammans med aviseringen...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>Tillgängliga platshållare: {link}, {channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>Tillgängliga platshållare: {link}, {subreddit}, {title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>Tillgängliga platshållare: {link}, {streamer}, {title}, {game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>Tillgängliga platshållare: {link}, {title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>Automatisk avarkivering av forum</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>Boten behöver behörigheten Hantera trådar i varje övervakad forumkanal för att automatiskt avarkivera trådar.</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>Forumkanal 1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>Forumkanal 2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>Du kan inte välja samma kanal två gånger.</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>Det gick inte att läsa in inställningarna för automatisk avarkivering av forum.</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>Inställningar för automatisk avarkivering av forum uppdaterade</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>{0}-avstängningstid</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>timmar</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>Lämna tomt eller 0 för en permanent avstängning. Max 720 timmar (30 dagar).</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>Avstängningstiden måste vara mellan 0 och 720 timmar.</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>Botstatus</value>
   </data>
@@ -6942,5 +7440,3444 @@ För att få din OpenAI API-nyckel måste du skapa ett OpenAI-konto och generera
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>Ärendepanelens namn uppdaterat</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>Formuläret behöver ett namn.</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>Den kanalen finns inte på denna server.</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>Den rollen finns inte på denna server.</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>Formulärnamnet måste vara högst {0} tecken.</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>Formulärbeskrivningen måste vara högst {0} tecken.</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>Framgångsmeddelandet måste vara högst {0} tecken.</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>Svarsgränsen måste vara minst 1.</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>Den lägsta kontoåldern kan inte vara negativ.</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>Stängningsdatumet måste vara i framtiden.</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>Inbjudningsanvändningar måste vara mellan 0 och 100.</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>Inbjudningens giltighet måste vara mellan 0 och 7 dagar.</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>Varje fråga behöver text.</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>En fråga måste vara högst {0} tecken.</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>Minsta längd kan inte vara större än största längd.</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>Minsta värde kan inte vara större än största värde.</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>Denna frågetyp behöver minst ett alternativ.</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>En fråga kan ha högst {0} alternativ.</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>Varje alternativ behöver en etikett.</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>En alternativetikett måste vara högst {0} tecken.</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>Alternativ inom en fråga måste vara unika.</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>Ett av villkoren saknar en del av sin konfiguration.</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>En fråga kan inte bero på sitt eget svar.</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>En fråga kan bara bero på en fråga som kommer före den.</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>Ett formulär kan ha högst {0} frågor.</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>Lägg till minst en fråga innan du sparar.</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>Formulären kunde inte läsas in. Försök igen om en stund.</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>Det formuläret finns inte längre.</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>Lägg till minst en fråga innan du publicerar.</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>Detta formulär har inte publicerats ännu.</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>Detta formulär tar inte emot svar.</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>Detta formulär har stängts.</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>Detta formulär har nått sin svarsgräns.</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>Du har redan skickat in detta formulär.</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>Ditt Discord-konto måste vara minst {0} dagar gammalt för att skicka in detta formulär.</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>Du måste vara medlem på denna server för att skicka in detta formulär.</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>Du är inte avstängd från denna server, så det finns inget att överklaga.</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>Fäll ihop menyn</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>Expandera menyn</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>{0} vald(a)</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>Välj alla</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>Aktivera</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>Inaktivera</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>Bekräfta borttagning</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>Ta bort de {0} valda objekten? Detta kan inte ångras.</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>{0} objekt aktiverade</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>{0} objekt inaktiverade</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>{0} objekt borttagna</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>De valda objekten kunde inte uppdateras.</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>Klicka på objekt för att markera dem</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>Den sparade versionen finns inte längre.</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>Den sparade versionen kunde inte läsas och kan inte återställas.</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>Formulär skapat</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>Fråga {0} tillagd</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>Fråga borttagen</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>Fråga {0} borttagen</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>Fråga {0}: {1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>Villkor</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>ej angivet</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>Sparat utan ändringar.</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>Visa {0} fler ändring(ar)</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>Visa mindre</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>Vad som ändrats</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>Historik</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>Versionshistorik</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>De senaste {0} sparningarna av detta formulär. Att återställa en är i sig en sparning, så den kan ångras.</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>Inga sparade versioner ännu. Nästa gång detta formulär sparas kommer en version att bevaras här.</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>{0} fråga/frågor</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>Återställa denna version? Formuläret återgår till hur det var vid denna sparning.</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>Formuläret återställdes till den versionen.</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>Borttagen fråga</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>Platshållartexten får inte vara längre än {0} tecken.</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>Dra för att ändra ordning</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>Du har osparade ändringar. Lämna denna sida och förkasta dem?</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>Du kan komma tillbaka hit när som helst, tillsammans med allt annat du har skickat in.</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>Mina Formulärinlämningar</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>Varje formulär du har skickat in, och dess nuvarande status.</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>Inga inlämningar än</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>Formulär du skickar in visas här så att du kan kontrollera dem senare.</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>Inskickat {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>Formulär som samlar in svar anonymt listas inte här, eftersom de lagras utan avsändare.</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>Användaranpassning</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>Den här funktionen kommer snart. Kom tillbaka senare!</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>Kräv en captcha</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>De som skickar in måste klara en Cloudflare Turnstile-utmaning innan formuläret godtas.</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>Logga in med Discord för att fylla i detta formulär. Du kommer direkt tillbaka hit.</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>Logga in med Discord</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>Ett formulär från {0}. Logga in med Discord för att fylla i det.</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>Svaren är anonyma.</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>Bekräfta att du är människa innan du skickar in.</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>Captcha kunde inte verifieras. Ladda om sidan och försök igen.</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>Tillåt personer utanför servern</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>Vem som helst med länken kan skicka in, även om de inte är medlem. Avstängningsöverklaganden och ansökningar om medlemskap tillåter alltid detta.</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>Blockera nytt överklagande efter ett avslag</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>Ett avslaget överklagande är slutgiltigt och användaren kan inte skicka in ett till.</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>Max antal överklaganden</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>Hur många avslagna överklaganden en användare kan nå innan de inte längre kan överklaga. Lämna tomt för ingen gräns.</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>Väntetid efter ett avslag (dagar)</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>Hur länge en användare måste vänta efter ett avslaget överklagande innan de kan överklaga igen. Lämna tomt för ingen väntetid.</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>Väntetid efter avstängningen (dagar)</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>Hur länge en användare måste vänta efter att ha blivit avstängd innan sitt första överklagande. Lämna tomt för ingen väntetid. Discord behåller granskningsloggens historik bara en viss tid, så detta kan inte tillämpas på äldre avstängningar.</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>Ditt tidigare överklagande granskas fortfarande. Vänta på ett beslut innan du överklagar igen.</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>Ditt överklagande avslogs och denna server accepterar inga fler överklaganden.</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>Du har använt alla dina {0} överklaganden för denna server.</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>Du kan överklaga igen om {0} dag(ar).</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>Denna server accepterar inte överklaganden ännu. Du kan överklaga om {0} dag(ar).</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>Du är redan medlem på denna server.</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>Du har inte rollen som detta formulär kräver.</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>Denna fråga måste besvaras.</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>Detta svar måste vara minst {0} tecken.</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>Detta svar måste vara högst {0} tecken.</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>Detta svar måste vara ett tal.</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>Detta svar måste vara minst {0}.</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>Detta svar kan vara högst {0}.</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>Ange en giltig e-postadress.</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>Ange en giltig länk som börjar med http eller https.</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>Det valet är inte ett av de erbjudna alternativen.</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>Välj minst {0} alternativ.</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>Välj högst {0} alternativ.</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>Det svaret finns inte längre.</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>Detta svar är inte en del av en granskningsprocess.</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>Ett beslut har redan fattats för detta svar.</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>Detta svar har ingen Discord-användare kopplad till sig.</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>Avstängningen kunde inte hävas. Kontrollera att boten kan hantera avstängningar.</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>En inbjudan kunde inte skapas. Kontrollera att boten kan skapa inbjudningar.</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0} (Kopia)</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>Inget svar</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>Inskickat av {0}</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>Svar nr {0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>Ditt svar har godkänts.</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>Ditt svar har avslagits.</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>Svars-ID</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>Användar-ID</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>Inskickat den</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>Ej granskat</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>Formulär sparat</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>Formulär publicerat</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>Formuläret tar nu emot svar</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>Formuläret har slutat ta emot svar</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>Formulär duplicerat</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>Formulär borttaget</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>Svar borttaget</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>Svar godkänt</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>Svar avslaget</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>Ett formulär skapades</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>Ett formulär uppdaterades</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>Ett formulär återställdes till en tidigare version</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>Ett formulär publicerades</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>Ett formulär öppnades för svar</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>Ett formulär stängdes för svar</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>Ett formulär duplicerades</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>Ett formulär togs bort</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>Ett formulärsvar togs bort</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>Ett formulärsvar godkändes</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>Ett formulärsvar avslogs</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>Formulär</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>Skapa formulär som dina medlemmar fyller i från en länk och samla in svaren här.</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>Skapa ett formulär</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>Inga formulär ännu</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>Skapa ditt första formulär för att börja samla in svar.</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>Svar</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>Att granska</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>Utkast</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>Kopiera länk</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>Förhandsvisning</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>Publicera</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>Duplicera</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>Ta bort "{0}" och varje svar det samlade in? Detta kan inte ångras.</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>Ta bort detta svar? Detta kan inte ångras.</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>Kopierad</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>Redigera formulär</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>Nytt formulär</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>Formulärinställningar</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>Granskningsinställningar</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>Används när svar måste godkännas, samt för avstängningsöverklaganden och ansökningar om medlemskap.</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>Skicka inlämningar till</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>Roll som krävs för att skicka in</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>Svarsgräns</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>Stänger den</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>Minsta kontoålder i dagar</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>Blockerar nya konton. Användbart på formulär som är öppna för personer utanför servern.</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>Meddelande som visas efter inskickning</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>Fortsatte där du slutade. Dina svar sparas medan du rör dig mellan sidorna.</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>Lägg till sida</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>Sida {0}</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>Alla sidor</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>Namnlös sida</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>Sidrubrik</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>Sidintroduktion</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>Ta bort sida</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>Lägg till en rubrik på denna sida</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>Flytta tidigare</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>Flytta senare</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>Dra för att ändra ordning på sidor</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>Ditt svar har tagits emot.</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>Kolla här</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>Visa inlämning</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>Dina ändringar har sparats.</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>För långt för att visas här</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>Embed-byggare</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>Skapa ett meddelande med embeds och se det som Discord kommer att visa det.</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>Välj en sparad embed</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>Läs in</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>Tillämpa JSON</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>Direktförhandsvisning</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>Namnge denna embed</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>Författare</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>Fält</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>Sidfot</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>Författarnamn</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>Författarlänk</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>Författarikon</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>Titellänk</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>Embed-beskrivning</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>Accentfärg</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>Stor bild</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>Miniatyrbild</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>Sidfotstext</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>Sidfotsikon</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>Visa en tidsstämpel</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>Fältnamn</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>Fältvärde</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>Sida vid sida</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>Lägg till ett fält</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>Embed</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>Lägg till en embed</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>Ta bort denna embed</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>Inget att visa ännu. Börja skriva så visas det här.</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>Embed inläst.</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>Embed sparad.</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>Embed omdöpt.</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>Embed borttagen.</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>Ge embed ett namn först.</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>Välj en sparad embed först.</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>Välj en kanal att skicka till.</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>"{0}" - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>Bildsvar kan inte accepteras just nu.</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG, JPEG, GIF eller WebP, upp till {0} MB.</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>Laddar upp…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>Bilduppladdning</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>Personen som fyller i formuläret bifogar en bild.</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>Bilder måste vara mindre än {0} MB.</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>Den filen kunde inte läsas som en bild.</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>Den bilden har för många pixlar för att kunna bearbetas.</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>Den bilden kunde inte sparas. Försök igen.</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>{0} fler svar finns på instrumentpanelen.</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>Tillåt fler än en inskickning per användare</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>Formulärtyp</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>Svar måste godkännas</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>Vid godkännande</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>Roller att ändra vid godkännande</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>Roller att lägga till vid godkännande</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>Roller att ta bort vid godkännande</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>Roller att lägga till vid avslag</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>Roller att ta bort vid avslag</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>Beslut</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>Godkänt av {0}</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>Avslaget av {0}</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>Godkänn</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>Avslå</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>Detta formulär är inte öppet ännu. Det öppnar {0}.</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>Detta formulär är nu öppet för inskickningar.</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>Öppnar kl. (UTC)</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>Formuläret förblir stängt fram till denna tid, även efter publicering. Lämna tomt för att öppna så snart det publiceras.</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>Meddela öppning i</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>Roll att nämna i meddelandet</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>Vad öppningsmeddelandet säger</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>Publiceras en gång, när öppningstiden inträffar. Lämna tomt för standardtexten.</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>Bild-URL</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>Visas ovanför frågan. Måste vara en http- eller https-adress.</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>Tillåt omregistrering efter avslag</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>Den som fått avslag kan skicka in ett korrigerat svar. Godkända och väntande svar räknas fortfarande som deras enda inskickning.</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>Roll att nämna vid nytt svar</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>Nämns i inskickningskanalen när ett svar kommer in. Rollen måste kunna nämnas, eller så behöver boten behörighet att nämna den.</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>Roller som beviljas vid inskickning</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>Beviljas så snart formuläret skickas in, oavsett om det granskas eller inte.</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>Det gick inte att skicka DM</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>Roll medan ett beslut inväntas</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>Beviljas när formuläret skickas in och tas bort igen när svaret godkänns eller avslås.</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Roll som kan besluta från Discord</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>Lägger till knappar för godkänn och avslå på inskickningsmeddelandet, användbara av medlemmar med denna roll. Lämna tomt för att bara granska från instrumentpanelen.</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>Vid avslag</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>Roller att ändra vid avslag</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>Inbjudningsanvändningar</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>Inbjudningens giltighet i sekunder</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>Vanligt formulär</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>Avstängningsöverklagande</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>Ansökan om medlemskap</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>Gör ingenting</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>Lägg till roller</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>Ta bort roller</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>Frågor</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>Lägg till en fråga</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>{0} frågor</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>Namnlös fråga</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>Fråga</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>Svarstyp</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>Platshållare</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>Obligatorisk</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>Minsta längd</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>Största längd</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>Minsta värde</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>Största värde</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>Alternativ</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>Lägg till ett alternativ</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>Duplicera fråga</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>Flytta upp</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>Flytta ner</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>Visa denna fråga endast när</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>Kort text</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>Stycke</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>Flerval</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>Kryssrutor</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>Rullgardinsmeny</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>Tal</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>E-postadress</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>Länk</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>Lägg till ett villkor</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>Ta bort villkor</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>Regeluppsättning</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>Varje villkor i en regeluppsättning måste uppfyllas. Frågan visas när någon regeluppsättning uppfylls, så använd en andra uppsättning för ett alternativt sätt att kvalificera sig.</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>Sparar ditt arbete</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>Ditt arbete är sparat</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>Det gick inte att spara ditt arbete</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>Villkor</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>Tidigare fråga</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>Jämförelse</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>Rollmatchning</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>Dagar</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>Boostar servern</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>Boostar</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>Boostar inte</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>Behörighetsflaggor</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>Lägg till en fråga före denna för att jämföra dess svar.</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>Svar på en fråga</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>Roller som användaren har</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>Tid på servern</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Discord-kontots ålder</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>Booststatus</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>Behörigheter som användaren har</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>är</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>är inte</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>innehåller</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>är större än</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>är mindre än</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>har något svar</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>lämnades tomt</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>Någon av dem</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>Alla av dem</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>Ingen av dem</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>Spara formulär</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>Tillbaka till formulär</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>{0} svar</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>Inga svar ännu.</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>Exportera CSV</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>Ta bort svar</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>Sida {0} av {1}</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>Godkänn</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>Avslå</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>Anteckningar till den som skickade in</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>Valfritt. Skickas till den som skickade in tillsammans med beslutet.</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>Alla</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>Väntar på granskning</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>Granskas</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>Godkänt</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>Avslaget</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>Skicka in</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>Inskickning är avstängd under förhandsvisning</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>Du förhandsvisar detta formulär. Inget du anger här sparas.</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>{0} av {1} besvarade</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>Välj ett alternativ</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>Ditt svar har skickats in.</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>Mottaget</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>Inskickat</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>Senast redigerat</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>Redigera mina svar</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>Redigerat</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>Redigerat {0} gång(er) sedan det skickades in, senast {1}.</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>Anteckningar från granskaren</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>Din inbjudan</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>Behåll denna länk för att kolla ditt svar senare.</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>Inskickat anonymt</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>Ett anonymt formulär kan inte ändra roller, eftersom det inte registrerar vem som skickade in det.</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>Avstängningsöverklaganden och ansökningar om medlemskap kan inte vara anonyma, eftersom att godkänna ett kräver att man agerar på personen som skickade in det.</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>Detta svar skickades in anonymt, så det finns ingen att agera på.</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>Registrera svar anonymt</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>De som skickar in loggar fortfarande in med Discord så att formuläret kan kontrollera vem som får skicka in, men deras namn och adress lagras inte. Godkännandeåtgärder kan inte användas.</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>Roller att bevilja en godkänd sökande</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>Reserveras för sökanden och beviljas när de går med via inbjudan.</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>Anonymt</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>Detta formulär är anonymt. Du är inloggad så att servern kan kontrollera att du får skicka in, men ditt namn sparas inte med dina svar.</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Har Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Har Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Har inte Nitro</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>Kombinera med</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>Alla villkor i denna grupp</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>Något villkor i denna grupp</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>Citera tidigare svar i denna fråga</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>Skriv {{Q1}} i frågan för att visa svaret som gavs på fråga 1.</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>Obligatorisk endast när</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>Använd alltid inställningen ovan</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>Granska dina svar</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>Inget har skickats in ännu. Läs igenom dina svar och skicka dem sedan.</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>Granska svar</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>Ändra svar</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>Skicka svar</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>Inga frågor ännu. Lägg till en för att komma igång.</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>Vilken typ av svar vill du ha?</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>Redigera detaljer</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>Dölj detaljer</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>Skriv din fråga här</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>Villkorlig</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>Citerar ett svar</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>En enda rad text</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>Ett längre svar med flera rader</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>Ett alternativ från en lista</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>Valfritt antal alternativ</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>Ett alternativ från en meny</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>Ett tal, valfritt begränsat</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>En e-postadress</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>En länk som börjar med http</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>Fråga {0} citerar sitt eget svar, som ännu inte finns när frågan ställs.</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>Fråga {1} citerar fråga {0}, som ställs senare. En fråga kan bara citera en som kommer före den.</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>En fråga citerar fråga {0}, men detta formulär har bara {1} frågor.</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>För personer som redan är på servern</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>Låt avstängda personer be om att få komma tillbaka</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>Låt utomstående ansöka om att gå med</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>Överklaganden och ansökningar granskas alltid.</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>Inloggning och server</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>Skydd</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>Roller och självtilldelningsroller</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>Ärenden</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>Kommandon och autosvar</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>Verifiering</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>Loggning</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>Chattbot</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>Övrigt</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>Ingen funktion registrerad</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>Funktion</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>Ändrad av</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>Tidsintervall</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>Alla tider</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>Senaste 24 timmarna</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>Senaste 7 dagarna</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>Senaste 30 dagarna</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>Senaste 3 månaderna</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>Anpassat intervall</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>Endast poster med ändringsdetaljer</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>Sök sammanfattningar, namn och värden</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>Ordning</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>Nyaste först</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>Äldsta först</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>Poster per sida</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>Visar {0} till {1} av {2}</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>Inga poster matchar dessa filter.</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>Inget har ändrats från instrumentpanelen ännu.</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>Fält</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>inget</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>{0} fält ändrade</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>Berörd</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>Loggning uppdaterad för {0}</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>AutoMod-kontroll</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>Avstängningsmeddelande</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>Banner</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>Födelsedag</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>Boostmeddelande</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>Ekonomiboost</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>Ekonomiartikel</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>Filändelser</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>Formulärsvar</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>Anslutningsmeddelande</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>Utträdesmeddelande</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>Nivåroller</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>Länkvitlista</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>Meddelandelikhet</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>Identiska anslutningar</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>Säsongsdrop</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>Självtilldelningsrollgrupp</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>Statistikkanal</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>Streakroller</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>Ärendepanel</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>Öppna hela loggen</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>Aviseringar för instrumentpanelsändringar uppdaterade</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>Aviseringar för Instrumentpanelsändringar</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>Aviseringskanal för Instrumentpanel</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>Var instrumentpanelsändringar meddelas. Lämna som ingen för att inte meddela något.</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>Meddela alltid vid åtkomst- och loggändringar</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>Meddela vid ändringar i dessa funktioner</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>Välj ingen för att bara meddelas om ändringarna ovan. Allt registreras i loggen ändå.</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>Länk till denna post</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>Visar en enda post.</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>Visa hela loggen</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>{0} ändringar under en session</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>{0} poster borttagna från denna logg</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>En prestation skapades</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>En prestation uppdaterades</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>{0}-bannern uppdaterades</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>rangkort</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>välkommen</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>farväl</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>Rollerna som ges vid anslutning uppdaterades</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>Meddelande uppdaterat: {0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>AutoMod uppdaterad: {0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>Förhandsvisa denna embed</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>Välj en sparad embed för att förhandsvisa den.</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>Automatisering</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>Automatisk Påminnelse</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>Knuffar till ärendeöppnaren när de inte har svarat på ett tag.</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>Påminn Efter (Dagar)</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>Automatisk Stängning Vid Inget Svar</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>Stänger ett ärende vars öppnare har slutat svara.</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>Stäng Efter (Dagar)</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>Automatisk Stängning När Öppnaren Lämnar</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>Påminnelse måste vara mellan 1 och 365 dagar.</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>Stängning måste vara mellan 1 och 365 dagar.</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>Inställningar för ärendeautomatisering uppdaterade</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>Ärendehanterare</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>Visa och agera på denna servers supportärenden.</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>Inga ärenden har öppnats på denna server ännu.</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>Sök ärenden...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>Öppnat Av</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>Övertaget Av</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>Senaste Aktivitet</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>Åtgärder</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>Ej Övertaget</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>Väntar på personal</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>Inga meddelanden ännu</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>Vissa ärenden pekar på en kanal som inte längre finns. Att ta bort dem rensar de kvarvarande raderna.</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>Väntar på Personal</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>Median Första Svar</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>Ej tillgängligt</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>Ärendekategorier</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>Ärenden fyller kategorin med lägst nummer som fortfarande har plats. Discord begränsar en kategori till 50 kanaler.</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>Primär</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>Överflöde #{0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>Borttagen från Discord</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 kanaler</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>Inga ärendekategorier finns ännu. En skapas när det första ärendet öppnas.</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>Återöppna</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>Ta över</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>Släpp</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>Lägg till Användare</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>Ta bort Användare</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>Påminn</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>Anonymt Svar</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>Ta bort detta ärende och dess kanal? Detta kan inte ångras.</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>Användare</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>Meddelande</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>Ärende stängt.</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>Ärende återöppnat.</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>Ärende borttaget.</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>Ärende övertaget.</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>Ärende släppt.</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>Användare tillagd i ärendet.</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>Användare borttagen från ärendet.</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>Påminnelse skickad till ärendeöppnaren.</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>Svar skickat till ärendet.</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>Det ärendet finns inte längre.</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>Det ärendet är redan stängt.</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>Det ärendet är redan öppet.</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>Det ärendets kanal finns inte längre i Discord.</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>Boten kunde inte utföra den åtgärden. Kontrollera dess behörigheter i ärendekanalen.</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>Påminnelsen kunde inte skickas. Öppnaren kan ha stängt av direktmeddelanden.</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>Ange ett meddelande att skicka.</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>Ett svar kan inte vara längre än 2000 tecken.</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>Välj en giltig användare.</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>Att stänga från instrumentpanelen gör samma sak som att stänga i Discord: den låser kanalen, sparar transkriptionen, laddar upp HTML-kopian och skickar stängnings-DM:et och betygsförfrågan.</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>Ett ärende stängdes</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>Ett ärende återöppnades</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>Ett ärende togs bort</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>Ett ärende togs över</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>Ett ärende släpptes</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>En användare lades till i ett ärende</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>En användare togs bort från ett ärende</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>En ärendepåminnelse skickades</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>Ett anonymt ärendesvar skickades</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>Ärende</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>Öppet</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>Stängt</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>Ärende:</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>Ärende Öppnat Av:</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>Sparat Av:</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>Antal Meddelanden:</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>Antal Svar:</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>Betyg:</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>Skickat, Väntar på Betyg...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>Inaktiverat</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>Ditt supportärende i {0} har stängts.
+            **Stängt Av:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>Transkription sparad i transkriptionskanalen.</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>Transkription</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**Vänligen betygsätt din upplevelse med personalmedlemmen som hjälpte dig.**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>Betyg</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>Ej begärt</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>Genomsnittligt Betyg</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>Väntar på Betyg</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>Skicka Ärendepanel</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>Skicka Panel</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>Ärendepanel skickad.</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>Välj en kanal att skicka panelen till.</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>Klicka på knappen nedan för att skapa ett supportärende.</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>En ärendepanel skickades</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>Den panelen finns inte längre.</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>En server måste behålla minst en panel.</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>Välj en giltig ärendetyp.</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>Välj en giltig kanal för trådar.</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>Välj en kanal för trådar att öppnas i, annars kan denna panel inte skapa ärenden.</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>Panel skapad.</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>Panel borttagen.</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>Ärendetyp</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>Privat Tråd</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>Offentlig Tråd</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>En offentlig tråd kan läsas av alla som kan se den överordnade kanalen.</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>Trådkanal</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>Paneler</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>Lägg till Panel</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>Ta bort Panel</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>Ta bort denna panel? Ärenden som redan öppnats från den fortsätter att fungera.</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>Publicerad i {0} kanal(er)</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>Inte publicerad ännu</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>Uppdatera Publicerade Paneler</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>Skriver om de redan publicerade panelerna för denna panel så att de matchar inställningarna ovan.</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>{0} publicerad(e) panel(er) uppdaterade.</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>En ärendepanel skapades</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>En ärendepanel togs bort</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>Typen för en ärendepanel ändrades</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>Publicerade ärendepaneler uppdaterades</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>Alla Paneler</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>Ingen Panel</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>Medianstängningstid</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>En server kan ha upp till {0} paneler.</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>Ärende stängt av {0}</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>Ärende återöppnat av {0}</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>{0} lades till i ärendet.
+            Begärt av {1}</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>{0} togs bort från ärendet.
+            Begärt av {1}</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>Detta är en påminnelse om att ditt ärende i `{0}` fortfarande är öppet. Svara om du fortfarande behöver hjälp.</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt; skickade en påminnelse till &lt;@{1}&gt;.</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>Svar från Supportteamet</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>Ärendet kommer att tas bort om några sekunder.</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>Ärende övertaget av {0}</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>Ärende släppt av {0}</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>Detta ärende har redan övertagits av {0}.</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>Du måste först ange en Supportteam-roll för denna panel.</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>Du måste ha rollen {0} för att göra det.</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>Denna panel har fortfarande {0} öppet/öppna ärende(n). Stäng dem först.</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>Panelen som detta ärende tillhör har tagits bort.</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>Meddelanden äldre än detta läggs inte till på stjärntavlan. 0 betyder ingen gräns.</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>Var meddelanden som rapporterats via kontextmenyn Rapportera meddelande publiceras. Rapportering är inte tillgängligt förrän en har angetts.</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Var tystningar som tillämpats utanför boten, till exempel via Discord självt, loggas. Lämna som ingen för att inte logga dem.</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>Medlemmar med denna roll kan visa och redigera server- och offentliga anteckningar. Administratörer och medlemmar med Hantera Server kan alltid.</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>Kanalnamn och statistikmeddelandet accepterar de vanliga serverplatshållarna, så ett namn kan innehålla flera statistikvärden. Se &lt;strong&gt;&lt;a href='{0}' class='info'&gt;Platshållarreferensen&lt;/a&gt;&lt;/strong&gt; för hela listan.</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>En boost behöver ett namn.</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>Anpassade Statistikkanaler</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>Röstkanaler namngivna som du vill, med valfri blandning av statistik i ett namn. Boten skapar var och en under statistikkategorin och håller den uppdaterad var 20:e minut. Upp till 10.</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>Mall för kanalnamn</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discord tillåter 100 tecken för ett kanalnamn.</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>Lägg till Statistikkanal</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>Kanalen kommer att skapas inom 20 minuter.</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>Skapas inom 20 minuter</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>En mall för kanalnamn kan vara högst 100 tecken.</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>Den anpassade statistikkanalen finns inte längre.</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>En anpassad statistikkanal lades till.</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>En anpassad statistikkanal togs bort.</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>Statistikmeddelande</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>Istället för kanaler publiceras ett meddelande som boten redigerar var 20:e minut med de senaste siffrorna.</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>Lämna tomt för standard. Discords emote-koder fungerar här, inklusive Cakeys egna. Att ändra kanalen publicerar ett nytt meddelande där; ta bort det gamla själv om du inte längre vill ha det.</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>Välj kanalen där statistikmeddelandet publiceras.</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>Fästa Topplistor</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>Ett topplistmeddelande som boten publicerar i en kanal och håller uppdaterat var 15:e minut, så att ingen behöver köra /leaderboard. Upp till 5 per server.</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>Alla tider</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>Denna vecka</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>Denna månad</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>Visade medlemmar</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>Topp {0}</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>Publiceras inom 15 minuter</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>Lägg till Topplista</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>Topplistan kommer att publiceras inom 15 minuter.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>En topplista visar mellan 3 och 15 medlemmar.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>Välj alla tider, denna vecka eller denna månad.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>Den fästa topplistan finns inte längre.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>En fäst topplista lades till.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>En fäst topplista togs bort.</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>Milstolperoller</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>Den som postar ett av dessa tal får motsvarande roll. Upp till 25 milstolpar.</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>Uppnått tal</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>Roll att tilldela</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>Lägg till Milstolpe</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>Milstolpetalet måste vara minst 1.</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>Det finns redan en milstolpe för det talet.</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>Roller med Administratör, Hantera Server eller Hantera Roller kan inte delas ut av räknespelet.</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>Den milstolpen finns inte längre.</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>En räknemilstolpe lades till.</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>En räknemilstolpe togs bort.</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>Hur ett meddelande måste förhålla sig till kommandotexten. Alternativen "Innehåller filer", "Från webhook" och nämningsalternativen ignorerar texten och utlöses av alla meddelanden med den egenskapen. Jokertecken accepterar * och ?; Regex inaktiveras automatiskt om mönstret är ogiltigt.</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>Vid hel timme, i serverns tidszon inställd under Botinställningar.</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>Varje dag, eller bara en veckodag.</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>Unik fungerar som radioknappar: att välja en roll i gruppen byter ut den de redan hade. Flerval låter en medlem ha flera från gruppen samtidigt.</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>Att göra anspråk på en till över denna gräns tar bort den som gjordes anspråk på längst tillbaka.</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>Multiplicerar vinster från ekonomispel medan boosten är aktiv. Flera aktiva boostar multipliceras tillsammans.</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>Hur många timmar boosten varar från köptillfället.</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>Hur många av denna boost en medlem kan ha samtidigt. 0 betyder ingen gräns.</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>Rollen som ges vid köp. Den måste ligga under Cakeys högsta roll och får inte ha Administratör, Hantera Server eller Hantera Roller.</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>Nivå-XP tillagt till köparen vid köp, upp till 1 000 000.</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>Rollen som ges vid köp och tas bort igen efter antalet timmar som anges nedan.</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>Hur många räkneräddningar ett köp ger, 1 till 100. En räddning används istället för att återställa räkningen när köparen gör ett misstag.</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>Hur många av denna artikel en medlem kan äga samtidigt. 0 betyder ingen gräns.</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>Visas i butiken och kan köpas. Inaktivera för att behålla artikeln men dölja den, till exempel ett pris som bara personalen delar ut.</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>Räkneräddning</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>Räddningar per köp</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>En räkneräddningsartikel måste ge mellan 1 och 100 räddningar.</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>DM-aviseringar för förfall</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>Skickar medlemmar ett DM när deras XP förfaller. Varje DM har en knapp som medlemmar kan använda för att välja bort det för sig själva.</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>Bilaga Borttagen</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>Borttagna meddelanden som bar en fil eller bild loggas här istället för i kanalen Meddelande Borttaget. Lämna som ingen för att hålla dem tillsammans.</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>Förslagsnämningsroll</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>Nämns varje gång ett nytt förslag publiceras. Rollen måste kunna nämnas, eller så behöver boten behörighet att nämna någon roll.</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>Har en bild</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>Infoga serveremote</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>Att hoppa över kräver röster från mer än hälften av de icke-döva medlemmarna i röstkanalen. DJ:s, moderatorer och den som begärde låten kan fortfarande hoppa över direkt.</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>XP slutar samlas när en medlem når denna nivå.</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>Den som tog anspråk på det senaste droppet kan inte ta anspråk på nästa.</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>Döljer anspråksknappen bland fyra lockbeten på en annan plats vid varje drop, så att den inte kan klickas på reflexmässigt.</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>En slumpmässig väntetid mellan dessa två värden går mellan drops.</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>Beviljas när födelsedagen tillkännages och tas bort igen efter 24 timmar.</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>Används för födelsedagar utan egen tidszon, dagligt innehåll och schemalagda automatiska meddelanden.</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>Skapa en webhook under kanalens Integrationer-inställningar och klistra in dess URL här. Inlägg skickas genom den.</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>Behövs bara när inlägg ska hamna i en tråd eller ett foruminlägg under webhookens kanal. Lämna tomt annars.</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>Nämns vid varje nytt inlägg. Lämna tomt för att inte nämna någon.</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>Färg på sidofältet på inläggets embed.</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>Endast subreddit-namnet, utan r/.</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>Direkt länk till själva flödet snarare än webbplatsen. Det slutar vanligtvis på .xml, .rss eller /feed.</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>Kanalnamn som det visas efter twitch.tv/ i URL:en.</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>Länk till kanalsidan, till exempel en youtube.com/@handle- eller /channel/-URL.</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>Namnet som medlemmar använder för att anropa denna tagg. Håll det kort och minnesvärt.</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>Vad boten svarar med när taggen används.</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>Texten att söka efter i meddelanden. Skiftläge ignoreras och matchningstypen nedan bestämmer hur strikt det är.</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>Skickas när ett meddelande matchar. Kombinera det med en embed eller lämna det tomt för att bara skicka embeden.</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>Var det schemalagda meddelandet publiceras.</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>Publiceras vid vald tid i kanalen ovan.</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>Endast tillkännagivandekanaler kan väljas. Varje meddelande som publiceras där publiceras till följande servrar.</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>Rollen som medlemmar kan ge sig själva.</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>Visas bredvid rollen i väljaren så att medlemmar vet vad den är till för.</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>Medlemmar under denna nivå kan inte välja rollen. 0 inaktiverar kontrollen.</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>Daglig streak som medlemmar behöver innan de kan välja rollen. 0 inaktiverar kontrollen.</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>Medlemmar måste redan ha denna roll innan de kan välja den nya.</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>Visas som titeln på väljaren.</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>Visas under titeln för att förklara vad gruppen är till för.</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>Endast medlemmar med denna roll kan välja från gruppen.</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>Endast medlemmar på eller över denna nivå kan välja från gruppen.</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>Uppdaterar statusen som visas på förslagsinlägget.</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>Visas på förslagsinlägget tillsammans med beslutet. Valfritt.</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>Den anpassade botprenumeration som denna server ska använda.</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>Bot-token från Bot-fliken i din applikation i Discord Developer Portal. Håll den hemlig.</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>Visas i butiken och i köpmeddelanden.</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>Visas under namnet i butiken så att köpare vet vad de får.</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>Pris i din servers valuta. Köpare behöver minst detta belopp för att köpa.</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>Vad köparen får. Fälten nedan ändras beroende på typ.</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>Används för att hitta förinställningen senare vid tillämpning.</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>Hur många timmar köparen behåller rollen, räknat från köpet.</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>Inga tillkännagivandekanaler hittades. Skapa en i Discord först.</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>Skickar embeden via denna webhook istället för boten, med webhookens namn och avatar.</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>Avsändarprofiler</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>Skicka som</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>Boten</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>Hantera Avsändarprofiler</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>En avsändarprofil publicerar meddelandet via en webhook med sitt eget namn och avatar. Boten behöver Hantera Webhookar i kanalen.</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>Visningsnamn</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>Visas som författare av meddelandet, upp till 80 tecken. Discord avvisar namn som innehåller "discord" eller "clyde".</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>Avatar-URL</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>Direkt länk till en PNG, JPG eller GIF. Lämna tomt för att behålla botens avatar.</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>Sparad Webhook-URL</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>Valfritt. När angiven går meddelanden som skickas som denna profil till denna webhook istället för en kanal, fortfarande under namnet och avataren ovan.</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>Ny Profil</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>Spara Profil</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>Inga avsändarprofiler ännu.</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>Ta bort denna avsändarprofil?</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>Avsändarprofil sparad.</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>Avsändarprofil borttagen.</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>Ange ett visningsnamn på upp till 80 tecken.</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discord tillåter inte avsändarnamn som innehåller "discord" eller "clyde".</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>Avataren måste vara en http- eller https-länk på upp till 512 tecken.</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>En server kan ha upp till 25 avsändarprofiler.</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>Den avsändarprofilen finns inte längre.</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>APP</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>Skicka till kanal</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>Importera / exportera JSON</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>Meddelandetext</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>Text skickad ovanför embeden</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>Används bara vid skickning från denna sida. Den sparas inte med embeden, och funktioner som publicerar den sparade embeden inkluderar den inte.</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>Spara som ny</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>Uppdatera vald</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>Välkommen till {server.name}!</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>Detta är en exempelembed för att visa vad byggaren kan göra. Prova **fet**, *kursiv*, `kod`, en [länk](https://cakey.bot) och platshållare som {user.mention}. Allt här kan redigeras eller rensas, och kanalnämningar och anpassade emotes fungerar också.</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>Servermedlemmar</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>Serverroller</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Gjord med Cakey Bots embed-byggare</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>Måste vara en fullständig länk som börjar med http:// eller https://.</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0} är inte en giltig länk.</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>Denna bild kunde inte läsas in. Kontrollera länken.</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>En avsändarprofil skapades</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>En avsändarprofil uppdaterades</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>En avsändarprofil togs bort</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>Platshållare som {user.username} visas här med värdena för denna server och dig som användare. Den sparade embeden behåller dem som skrivna och boten fyller i dem när den publiceras.</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>

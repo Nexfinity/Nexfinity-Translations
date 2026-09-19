@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -991,6 +991,9 @@
   <data name="automod-category-gif" xml:space="preserve">
     <value>Doar GIF-uri</value>
   </data>
+  <data name="automod-category-media" xml:space="preserve">
+    <value>Doar media</value>
+  </data>
   <data name="automod-category-file" xml:space="preserve">
     <value>Doar fișiere</value>
   </data>
@@ -1126,9 +1129,6 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-birthday-role" xml:space="preserve">
     <value>Rolul actualizat al zilei de naștere: {0}</value>
   </data>
-  <data name="audit-birthday-timezone" xml:space="preserve">
-    <value>Fus orar actualizat pentru ziua de naștere a {0}</value>
-  </data>
   <data name="birthday-title" xml:space="preserve">
     <value>Zile de Naștere</value>
   </data>
@@ -1141,11 +1141,17 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="birthday-timezone-hint" xml:space="preserve">
     <value>Opțional — suprascrie fusul orar al serverului doar pentru verificarea zilei de naștere a acestei persoane.</value>
   </data>
+  <data name="audit-birthday-timezone" xml:space="preserve">
+    <value>Fus orar actualizat pentru ziua de naștere a {0}</value>
+  </data>
   <data name="voice-swapped-color" xml:space="preserve">
     <value>Culoare schimbată</value>
   </data>
   <data name="voice-left-color" xml:space="preserve">
     <value>Culoare stânga</value>
+  </data>
+  <data name="voice-joined-color" xml:space="preserve">
+    <value>Culoare la intrare</value>
   </data>
   <data name="leveling-setting-levelup" xml:space="preserve">
     <value>Îndepărtați rolurile la urcarea de nivel</value>
@@ -1204,6 +1210,27 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="chat-bot-title" xml:space="preserve">
     <value>Chatbot AI</value>
   </data>
+  <data name="ai-model-label" xml:space="preserve">
+    <value>Model AI</value>
+  </data>
+  <data name="ai-model-tooltip" xml:space="preserve">
+    <value>Modelul OpenAI pe care chatbot-ul tău îl folosește pentru a genera răspunsuri. Nivelurile superioare deblochează modele mai capabile.</value>
+  </data>
+  <data name="ai-model-tier-free" xml:space="preserve">
+    <value>Gratuit</value>
+  </data>
+  <data name="ai-model-tier-premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="ai-model-tier-custom-bot" xml:space="preserve">
+    <value>Bot personalizat</value>
+  </data>
+  <data name="ai-model-tier-api-key" xml:space="preserve">
+    <value>Cheie API</value>
+  </data>
+  <data name="chat-bot-error-model-tier-denied" xml:space="preserve">
+    <value>Acest model necesită un nivel de abonament superior.</value>
+  </data>
   <data name="leveling-voice-setting-enabled" xml:space="preserve">
     <value>Nivelare voce activată</value>
   </data>
@@ -1231,7 +1258,7 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="suggestion-page-title" xml:space="preserve">
     <value>Sugestii</value>
   </data>
-    <data name="suggestion-no-channel-hint" xml:space="preserve">
+  <data name="suggestion-no-channel-hint" xml:space="preserve">
     <value>Nu este configurat niciun canal de sugestii, așa că membrii nu pot încă crea sugestii, iar deciziile salvate aici nu pot fi reflectate în mesajul din Discord. Configurează unul mai jos pentru a rezolva ambele probleme.</value>
   </data>
   <data name="suggestion-settings-title" xml:space="preserve">
@@ -1777,11 +1804,26 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-achievements-ignored" xml:space="preserve">
     <value>Canale de realizări ignorate actualizate.</value>
   </data>
+  <data name="audit-achievements-ignored-roles" xml:space="preserve">
+    <value>Rolurile ignorate pentru realizări au fost actualizate.</value>
+  </data>
+  <data name="audit-achievements-announcement" xml:space="preserve">
+    <value>Mesajul de deblocare a realizărilor a fost actualizat.</value>
+  </data>
+  <data name="audit-achievements-bulk-toggled" xml:space="preserve">
+    <value>Mai multe realizări au fost activate sau dezactivate simultan.</value>
+  </data>
   <data name="dashboard-sidebar-20" xml:space="preserve">
     <value>Roluri Autoservire</value>
   </data>
   <data name="self-role-add" xml:space="preserve">
     <value>Folosește butonul „Adaugă Rol Automat" de mai jos pentru a crea un rol automat nou.</value>
+  </data>
+  <data name="self-role-empty" xml:space="preserve">
+    <value>Niciun rol automat găsit. Apasă pe „Adaugă Rol Automat" mai sus pentru a crea unul.</value>
+  </data>
+  <data name="self-role-groups-empty" xml:space="preserve">
+    <value>Încă nu există grupuri de roluri. Grupurile permit ca un set de roluri automate să fie reciproc exclusive.</value>
   </data>
   <data name="error-not-numeric" xml:space="preserve">
     <value>Valoarea ({0}) trebuie să fie un număr.</value>
@@ -1876,6 +1918,9 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="twitch-integration-subscriptions" xml:space="preserve">
     <value>Abonamente</value>
   </data>
+  <data name="oauth-unlinked" xml:space="preserve">
+    <value>Contul OAuth a fost deconectat. ({0})</value>
+  </data>
   <data name="oauth-update-settings" xml:space="preserve">
     <value>Setări integrare OAuth modificate. ({0})</value>
   </data>
@@ -1950,6 +1995,48 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="generic-close" xml:space="preserve">
     <value>Închidere</value>
+  </data>
+  <data name="whats-new-title" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="md-toolbar-bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="md-toolbar-italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="md-toolbar-underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="md-toolbar-strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="md-toolbar-code" xml:space="preserve">
+    <value>Inline code</value>
+  </data>
+  <data name="md-toolbar-codeblock" xml:space="preserve">
+    <value>Code block</value>
+  </data>
+  <data name="md-toolbar-spoiler" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="md-toolbar-quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="md-toolbar-placeholders" xml:space="preserve">
+    <value>Insert placeholder</value>
+  </data>
+  <data name="md-toolbar-search" xml:space="preserve">
+    <value>Search placeholders</value>
+  </data>
+  <data name="md-toolbar-cat-thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="md-toolbar-cat-mentions" xml:space="preserve">
+    <value>Mentions</value>
+  </data>
+  <data name="whats-new-full-changelog" xml:space="preserve">
+    <value>Full changelog</value>
   </data>
   <data name="stat-channel-title-1" xml:space="preserve">
     <value>Numărător de Membrii</value>
@@ -2083,6 +2170,12 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="daily-content-custom-placeholder" xml:space="preserve">
     <value>Semicolon separated list</value>
   </data>
+  <data name="daily-content-custom-remove-once-posted" xml:space="preserve">
+    <value>Elimină după publicare</value>
+  </data>
+  <data name="daily-content-custom-remove-once-posted-tooltip" xml:space="preserve">
+    <value>Când este activat, elementele sunt eliminate din listă pentru a preveni duplicarea. Asigură-te că ai o copie salvată a datelor tale înainte de a activa această funcție, deoarece aceste date nu pot fi restaurate.</value>
+  </data>
   <data name="daily-content-create-thread" xml:space="preserve">
     <value>Creează Fir de Discuție</value>
   </data>
@@ -2115,6 +2208,24 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="initial-balance-title" xml:space="preserve">
     <value>Echilibru Inițial</value>
+  </data>
+  <data name="daily-min-amount-title" xml:space="preserve">
+    <value>Sumă min. zilnică</value>
+  </data>
+  <data name="daily-max-amount-title" xml:space="preserve">
+    <value>Sumă max. zilnică</value>
+  </data>
+  <data name="weekly-min-amount-title" xml:space="preserve">
+    <value>Sumă min. săptămânală</value>
+  </data>
+  <data name="weekly-max-amount-title" xml:space="preserve">
+    <value>Sumă max. săptămânală</value>
+  </data>
+  <data name="monthly-min-amount-title" xml:space="preserve">
+    <value>Sumă min. lunară</value>
+  </data>
+  <data name="monthly-max-amount-title" xml:space="preserve">
+    <value>Sumă max. lunară</value>
   </data>
   <data name="wipe-balance-title" xml:space="preserve">
     <value>Șterge Echilibrul Utilizatorului la Plecare</value>
@@ -2230,11 +2341,119 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="achievements-modal-trigger-10" xml:space="preserve">
     <value>Atinge nivelul X.</value>
   </data>
+  <data name="achievements-modal-trigger-11" xml:space="preserve">
+    <value>Obținerea unui rol specific.</value>
+  </data>
+  <data name="achievements-modal-trigger-12" xml:space="preserve">
+    <value>Trimiterea a X GIF-uri.</value>
+  </data>
+  <data name="achievements-modal-trigger-13" xml:space="preserve">
+    <value>Trimiterea a X stickere.</value>
+  </data>
+  <data name="achievements-modal-trigger-14" xml:space="preserve">
+    <value>Primirea unui timeout de X ori.</value>
+  </data>
+  <data name="achievements-modal-trigger-15" xml:space="preserve">
+    <value>Transmiterea în direct timp de X minute.</value>
+  </data>
+  <data name="achievements-modal-trigger-16" xml:space="preserve">
+    <value>Purtarea tag-ului acestui server.</value>
+  </data>
+  <data name="achievements-modal-trigger-17" xml:space="preserve">
+    <value>Reach a balance of X.</value>
+  </data>
+  <data name="achievements-modal-target-channel" xml:space="preserve">
+    <value>Numără doar în acest canal</value>
+  </data>
+  <data name="achievements-modal-target-channel-hint" xml:space="preserve">
+    <value>Lasă gol pentru a număra oriunde pe server. Acest lucru nu poate fi schimbat ulterior, deoarece progresul este salvat pe canal.</value>
+  </data>
+  <data name="achievements-modal-target-role" xml:space="preserve">
+    <value>Rolul de obținut</value>
+  </data>
+  <data name="achievements-modal-tier-group" xml:space="preserve">
+    <value>Scară de niveluri</value>
+  </data>
+  <data name="achievements-modal-tier-group-hint" xml:space="preserve">
+    <value>Dă fiecărei trepte a unei scări același nume, apoi numerotează-le mai jos. Obținerea unei trepte superioare acordă și pe cele de sub ea.</value>
+  </data>
+  <data name="achievements-modal-tier" xml:space="preserve">
+    <value>Treaptă</value>
+  </data>
+  <data name="achievements-modal-unlock-message" xml:space="preserve">
+    <value>Mesaj de deblocare pentru această realizare</value>
+  </data>
+  <data name="achievements-modal-unlock-message-hint" xml:space="preserve">
+    <value>Suprascrie mesajul de deblocare al serverului doar pentru această realizare. Lasă gol pentru a folosi cel al serverului.</value>
+  </data>
+  <data name="achievements-settings-title" xml:space="preserve">
+    <value>Setări realizări</value>
+  </data>
+  <data name="achievements-announcement" xml:space="preserve">
+    <value>Mesaj de deblocare</value>
+  </data>
+  <data name="achievements-announcement-hint" xml:space="preserve">
+    <value>Lasă gol pentru textul implicit. Marcatori: {achievement.name}, {achievement.description}, {user.achievement.count}, {achievement.owners.count} și toți marcatorii de bază.</value>
+  </data>
+  <data name="generic-placeholders-link" xml:space="preserve">
+    <value>Vezi lista de marcatori</value>
+  </data>
+  <data name="achievements-ignored-roles" xml:space="preserve">
+    <value>Roluri ignorate</value>
+  </data>
+  <data name="achievements-ignored-roles-hint" xml:space="preserve">
+    <value>Membrii cu unul dintre aceste roluri nu progresează spre realizări</value>
+  </data>
+  <data name="achievements-bulk-count" xml:space="preserve">
+    <value>Realizări modificate</value>
+  </data>
+  <data name="achievements-error-none-selected" xml:space="preserve">
+    <value>Selectează mai întâi cel puțin o realizare</value>
+  </data>
+  <data name="achievements-error-role-required" xml:space="preserve">
+    <value>Alege rolul prin a cărui obținere se câștigă această realizare</value>
+  </data>
+  <data name="achievements-error-tier-range" xml:space="preserve">
+    <value>O treaptă trebuie să fie un număr de la 1 la 20</value>
+  </data>
+  <data name="achievements-error-target-immutable" xml:space="preserve">
+    <value>Canalul sau rolul în care contorizează o realizare nu poate fi schimbat după creare</value>
+  </data>
   <data name="generic-data-secondary" xml:space="preserve">
     <value>Date Secundare</value>
   </data>
   <data name="title-temp-role" xml:space="preserve">
     <value>Rol Temporar</value>
+  </data>
+  <data name="temporary-actions-bans-title" xml:space="preserve">
+    <value>Interdicții temporare</value>
+  </data>
+  <data name="temporary-actions-roles-title" xml:space="preserve">
+    <value>Roluri temporare</value>
+  </data>
+  <data name="temporary-actions-bans-empty" xml:space="preserve">
+    <value>Nu există interdicții temporare active pe acest server.</value>
+  </data>
+  <data name="temporary-actions-roles-empty" xml:space="preserve">
+    <value>Nu există roluri temporare active pe acest server.</value>
+  </data>
+  <data name="temporary-actions-select-note" xml:space="preserve">
+    <value>Interdicțiile și rolurile pot fi selectate împreună. Încheierea lor se aplică la tot ce ai selectat, în ambele liste.</value>
+  </data>
+  <data name="temporary-actions-expire-now" xml:space="preserve">
+    <value>Încheie acum</value>
+  </data>
+  <data name="temporary-actions-expire-bans-confirm" xml:space="preserve">
+    <value>Încheie acum {0} interdicție(i) selectată(e)? Botul le va ridica în curând.</value>
+  </data>
+  <data name="temporary-actions-expire-roles-confirm" xml:space="preserve">
+    <value>Încheie acum {0} rol(uri) selectat(e)? Botul le va retrage în curând.</value>
+  </data>
+  <data name="temporary-actions-expire-result" xml:space="preserve">
+    <value>{0} element(e) setat(e) să se încheie acum</value>
+  </data>
+  <data name="temporary-actions-expired" xml:space="preserve">
+    <value>Setat să se încheie acum. Botul le va procesa în curând.</value>
   </data>
   <data name="streaks-title-dm-reminder" xml:space="preserve">
     <value>Trimiteți Reamintiri prin DM</value>
@@ -2388,9 +2607,6 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-shop-max-user" xml:space="preserve">
     <value>Max Deținut Per-Utilizator</value>
-  </data>
-  <data name="eco-shop-unlimited-hint" xml:space="preserve">
-    <value>0 Max Deținut = Nelimitat</value>
   </data>
   <data name="eco-feature-fishing" xml:space="preserve">
     <value>Pescuit</value>
@@ -2788,6 +3004,24 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-purchase-lifetime" xml:space="preserve">
     <value>Cumpără Premium pe Viață</value>
   </data>
+  <data name="premium-custom-bot-lifetime-title" xml:space="preserve">
+    <value>Bot personalizat PE VIAȚĂ</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-desc" xml:space="preserve">
+    <value>Obține propriul tău Bot personalizat cu marca ta pentru o singură plată unică, fără abonament recurent, niciodată.</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-note" xml:space="preserve">
+    <value>Notă: Aceasta este o ofertă strict limitată - odată ce locurile rămase se termină, această ofertă dispare definitiv.</value>
+  </data>
+  <data name="premium-purchase-custom-bot-lifetime" xml:space="preserve">
+    <value>Cumpără Bot personalizat pe Viață</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-remaining" xml:space="preserve">
+    <value>Au mai rămas {0}</value>
+  </data>
+  <data name="premium-custom-bot-lifetime-sold-out" xml:space="preserve">
+    <value>Stoc epuizat</value>
+  </data>
   <data name="premium-plan-comparison" xml:space="preserve">
     <value>Comparație de planuri</value>
   </data>
@@ -2874,6 +3108,9 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="premium-feat-ban-sync" xml:space="preserve">
     <value>Servere Pool Sincronizare Interzicere</value>
+  </data>
+  <data name="premium-feat-milestone-roles" xml:space="preserve">
+    <value>Roluri Etapă Numărătoare</value>
   </data>
   <data name="premium-feat-rss" xml:space="preserve">
     <value>Fluxuri RSS/Social Nelimitate</value>
@@ -3279,15 +3516,6 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="home-card-honeypot-desc" xml:space="preserve">
     <value>Configurează un canal-momeală în care orice mesaj postat declanșează automat pedeapsa aleasă, ajutând la depistarea boților de raid și escrocherie înainte să-ți spameze serverul.</value>
-  </data>
-  <data name="counting-mode-exact-number-only" xml:space="preserve">
-    <value>Doar Număr Exact</value>
-  </data>
-  <data name="counting-mode-exact-or-equation" xml:space="preserve">
-    <value>Număr Exact SAU Ecuație</value>
-  </data>
-  <data name="counting-mode-equation-only" xml:space="preserve">
-    <value>Doar Ecuație</value>
   </data>
   <data name="custom-bot-select" xml:space="preserve">
     <value>Trebuie să selectați un robot personalizat pentru a-l modifica.</value>
@@ -4390,6 +4618,39 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="self-role-error-not-found" xml:space="preserve">
     <value>Rolul de sine nu a fost găsit sau nu aparține acestui server</value>
   </data>
+  <data name="self-role-error-max" xml:space="preserve">
+    <value>Poți avea maximum {0} roluri automate</value>
+  </data>
+  <data name="self-role-error-duplicate" xml:space="preserve">
+    <value>Acel rol este deja un rol automat</value>
+  </data>
+  <data name="self-role-group-error-not-found" xml:space="preserve">
+    <value>Grupul de roluri nu a fost găsit sau nu aparține acestui server</value>
+  </data>
+  <data name="self-role-group-error-name-required" xml:space="preserve">
+    <value>Numele grupului este obligatoriu</value>
+  </data>
+  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
+    <value>Există deja un grup cu acest nume</value>
+  </data>
+  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
+    <value>Numărul maxim de roluri trebuie să fie între {0} și {1} pentru un grup de selecție multiplă</value>
+  </data>
+  <data name="audit-self-role-added" xml:space="preserve">
+    <value>Rolul automat {0} a fost adăugat</value>
+  </data>
+  <data name="audit-self-role-updated" xml:space="preserve">
+    <value>Rolul automat {0} a fost actualizat</value>
+  </data>
+  <data name="audit-self-role-group-added" xml:space="preserve">
+    <value>Grupul de roluri '{0}' a fost adăugat</value>
+  </data>
+  <data name="audit-self-role-group-updated" xml:space="preserve">
+    <value>Grupul de roluri '{0}' a fost actualizat</value>
+  </data>
+  <data name="audit-self-role-group-deleted" xml:space="preserve">
+    <value>Grupul de roluri '{0}' a fost șters</value>
+  </data>
   <data name="dashboard-access-error-add" xml:space="preserve">
     <value>A apărut o eroare la adăugarea accesului la panou</value>
   </data>
@@ -4735,8 +4996,35 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="validation-max-balance-must-be-greater-than-0" xml:space="preserve">
     <value>Soldul maxim trebuie să fie mai mare de 0</value>
   </data>
-  <data name="validation-max-balance-must-be-less-than-1000000000" xml:space="preserve">
-    <value>Soldul maxim trebuie să fie mai mic de 1000000000</value>
+  <data name="validation-max-balance-must-be-less-than" xml:space="preserve">
+    <value>Soldul maxim trebuie să fie mai mic de {0}</value>
+  </data>
+  <data name="validation-daily-min-amount-range" xml:space="preserve">
+    <value>Suma minimă zilnică trebuie să fie între 1 și {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-range" xml:space="preserve">
+    <value>Suma maximă zilnică trebuie să fie între 1 și {0}.</value>
+  </data>
+  <data name="validation-daily-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Suma maximă zilnică trebuie să fie mai mare decât suma minimă zilnică.</value>
+  </data>
+  <data name="validation-weekly-min-amount-range" xml:space="preserve">
+    <value>Suma minimă săptămânală trebuie să fie între 1 și {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-range" xml:space="preserve">
+    <value>Suma maximă săptămânală trebuie să fie între 1 și {0}.</value>
+  </data>
+  <data name="validation-weekly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Suma maximă săptămânală trebuie să fie mai mare decât suma minimă săptămânală.</value>
+  </data>
+  <data name="validation-monthly-min-amount-range" xml:space="preserve">
+    <value>Suma minimă lunară trebuie să fie între 1 și {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-range" xml:space="preserve">
+    <value>Suma maximă lunară trebuie să fie între 1 și {0}.</value>
+  </data>
+  <data name="validation-monthly-max-amount-must-exceed-min" xml:space="preserve">
+    <value>Suma maximă lunară trebuie să fie mai mare decât suma minimă lunară.</value>
   </data>
   <data name="validation-max-level-must-be-greater-than-0" xml:space="preserve">
     <value>Nivelul maxim trebuie să fie mai mare de 0</value>
@@ -5026,6 +5314,12 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="premium-success-activate-server" xml:space="preserve">
     <value>Premium activat pe server cu succes</value>
   </data>
+  <data name="audit-premium-activated" xml:space="preserve">
+    <value>Premium activat pe acest server ({0})</value>
+  </data>
+  <data name="audit-premium-deactivated" xml:space="preserve">
+    <value>Premium eliminat de pe acest server ({0})</value>
+  </data>
   <data name="premium-success-deactivate-server" xml:space="preserve">
     <value>Premium dezactivat din server cu succes</value>
   </data>
@@ -5230,6 +5524,9 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="nagbar-error-dismiss" xml:space="preserve">
     <value>Eroare la respingerea nagbar-ului</value>
   </data>
+  <data name="banner-editor-design" xml:space="preserve">
+    <value>Design banner</value>
+  </data>
   <data name="banner-editor-error-invalid-type" xml:space="preserve">
     <value>Tip banner nevalid</value>
   </data>
@@ -5413,8 +5710,26 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="audit-auto-message-enabled" xml:space="preserve">
     <value>Mesaj automat activat {0}</value>
   </data>
+  <data name="audit-auto-message-bulk-enabled" xml:space="preserve">
+    <value>{0} mesaje automate activate</value>
+  </data>
+  <data name="audit-auto-message-bulk-disabled" xml:space="preserve">
+    <value>{0} mesaje automate dezactivate</value>
+  </data>
+  <data name="audit-auto-message-bulk-deleted" xml:space="preserve">
+    <value>{0} mesaje automate șterse</value>
+  </data>
   <data name="audit-auto-responder-enabled" xml:space="preserve">
     <value>Răspunzător automat activat {0}</value>
+  </data>
+  <data name="audit-auto-responder-bulk-enabled" xml:space="preserve">
+    <value>{0} răspunsuri automate activate</value>
+  </data>
+  <data name="audit-auto-responder-bulk-disabled" xml:space="preserve">
+    <value>{0} răspunsuri automate dezactivate</value>
+  </data>
+  <data name="audit-auto-responder-bulk-deleted" xml:space="preserve">
+    <value>{0} răspunsuri automate șterse</value>
   </data>
   <data name="audit-auto-responder-imported" xml:space="preserve">
     <value>Răspunzători automat importați {0}</value>
@@ -5427,6 +5742,12 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-feeds-twitch-modified" xml:space="preserve">
     <value>Feed Twitch modificat {0}</value>
+  </data>
+  <data name="audit-feeds-enabled" xml:space="preserve">
+    <value>Flux activat</value>
+  </data>
+  <data name="audit-feeds-disabled" xml:space="preserve">
+    <value>Flux dezactivat</value>
   </data>
   <data name="audit-feeds-youtube-modified" xml:space="preserve">
     <value>Feed YouTube modificat {0}</value>
@@ -5547,6 +5868,63 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-tag-toggle" xml:space="preserve">
     <value>{0} etichetă {1}</value>
+  </data>
+  <data name="audit-and-more" xml:space="preserve">
+    <value>și încă {0}</value>
+  </data>
+  <data name="audit-temp-bans-expired" xml:space="preserve">
+    <value>{0} interdicții temporare încheiate</value>
+  </data>
+  <data name="audit-temp-roles-expired" xml:space="preserve">
+    <value>{0} roluri temporare încheiate</value>
+  </data>
+  <data name="audit-bulk-deleted-autopublish" xml:space="preserve">
+    <value>{0} canale de auto-publicare eliminate</value>
+  </data>
+  <data name="audit-bulk-deleted-warnings" xml:space="preserve">
+    <value>{0} avertismente șterse</value>
+  </data>
+  <data name="audit-bulk-deleted-birthdays" xml:space="preserve">
+    <value>{0} zile de naștere șterse</value>
+  </data>
+  <data name="audit-bulk-deleted-afk" xml:space="preserve">
+    <value>{0} intrări AFK șterse</value>
+  </data>
+  <data name="audit-bulk-deleted-selfroles" xml:space="preserve">
+    <value>{0} roluri auto-atribuibile șterse</value>
+  </data>
+  <data name="audit-bulk-deleted-persistentroles" xml:space="preserve">
+    <value>{0} roluri persistente șterse</value>
+  </data>
+  <data name="audit-bulk-deleted-shopitems" xml:space="preserve">
+    <value>{0} articole din magazin șterse</value>
+  </data>
+  <data name="audit-bulk-deleted-boosts" xml:space="preserve">
+    <value>{0} boost-uri șterse</value>
+  </data>
+  <data name="audit-bulk-deleted-feeds" xml:space="preserve">
+    <value>{0} fluxuri șterse</value>
+  </data>
+  <data name="audit-bulk-deleted-dashboardlogs" xml:space="preserve">
+    <value>{0} intrări din jurnalul panoului șterse</value>
+  </data>
+  <data name="audit-bulk-deleted" xml:space="preserve">
+    <value>{0} intrări șterse</value>
+  </data>
+  <data name="audit-feeds-bulk-enabled" xml:space="preserve">
+    <value>{0} fluxuri activate</value>
+  </data>
+  <data name="audit-feeds-bulk-disabled" xml:space="preserve">
+    <value>{0} fluxuri dezactivate</value>
+  </data>
+  <data name="audit-tag-bulk-enabled" xml:space="preserve">
+    <value>{0} etichete activate</value>
+  </data>
+  <data name="audit-tag-bulk-disabled" xml:space="preserve">
+    <value>{0} etichete dezactivate</value>
+  </data>
+  <data name="audit-tag-bulk-deleted" xml:space="preserve">
+    <value>{0} etichete șterse</value>
   </data>
   <data name="generic-word-enabled-cap" xml:space="preserve">
     <value>Activat</value>
@@ -5775,45 +6153,6 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="self-roles-search" xml:space="preserve">
     <value>Cauta roluri de sine...</value>
-  </data>
-  <data name="self-role-empty" xml:space="preserve">
-    <value>Niciun rol automat găsit. Apasă pe „Adaugă Rol Automat" mai sus pentru a crea unul.</value>
-  </data>
-  <data name="self-role-groups-empty" xml:space="preserve">
-    <value>Încă nu există grupuri de roluri. Grupurile permit ca un set de roluri automate să fie reciproc exclusive.</value>
-  </data>
-  <data name="self-role-error-max" xml:space="preserve">
-    <value>Poți avea maximum {0} roluri automate</value>
-  </data>
-  <data name="self-role-error-duplicate" xml:space="preserve">
-    <value>Acel rol este deja un rol automat</value>
-  </data>
-  <data name="self-role-group-error-not-found" xml:space="preserve">
-    <value>Grupul de roluri nu a fost găsit sau nu aparține acestui server</value>
-  </data>
-  <data name="self-role-group-error-name-required" xml:space="preserve">
-    <value>Numele grupului este obligatoriu</value>
-  </data>
-  <data name="self-role-group-error-duplicate-name" xml:space="preserve">
-    <value>Există deja un grup cu acest nume</value>
-  </data>
-  <data name="self-role-group-error-max-roles-range" xml:space="preserve">
-    <value>Numărul maxim de roluri trebuie să fie între {0} și {1} pentru un grup de selecție multiplă</value>
-  </data>
-  <data name="audit-self-role-added" xml:space="preserve">
-    <value>Rolul automat {0} a fost adăugat</value>
-  </data>
-  <data name="audit-self-role-updated" xml:space="preserve">
-    <value>Rolul automat {0} a fost actualizat</value>
-  </data>
-  <data name="audit-self-role-group-added" xml:space="preserve">
-    <value>Grupul de roluri '{0}' a fost adăugat</value>
-  </data>
-  <data name="audit-self-role-group-updated" xml:space="preserve">
-    <value>Grupul de roluri '{0}' a fost actualizat</value>
-  </data>
-  <data name="audit-self-role-group-deleted" xml:space="preserve">
-    <value>Grupul de roluri '{0}' a fost șters</value>
   </data>
   <data name="self-role-button-add" xml:space="preserve">
     <value>Adaugă Rol Automat</value>
@@ -6229,9 +6568,6 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Nu reîmprospătați pagina.</value>
   </data>
-  <data name="embed-editor-iframe-title" xml:space="preserve">
-    <value>Editor Embed</value>
-  </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Embed-ul salvat nu a fost găsit.</value>
   </data>
@@ -6256,27 +6592,6 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-saved-title" xml:space="preserve">
     <value>Embed-uri Salvate</value>
   </data>
-  <data name="embed-editor-saved-new-option" xml:space="preserve">
-    <value>Nou / nesalvat</value>
-  </data>
-  <data name="embed-editor-save-btn" xml:space="preserve">
-    <value>Salvați</value>
-  </data>
-  <data name="embed-editor-save-as-new-btn" xml:space="preserve">
-    <value>Salvați ca Nou</value>
-  </data>
-  <data name="embed-editor-rename-btn" xml:space="preserve">
-    <value>Redenumiți</value>
-  </data>
-  <data name="embed-editor-delete-btn" xml:space="preserve">
-    <value>Ștergeți</value>
-  </data>
-  <data name="embed-editor-save-name-prompt" xml:space="preserve">
-    <value>Denumiți acest embed:</value>
-  </data>
-  <data name="embed-editor-rename-prompt" xml:space="preserve">
-    <value>Redenumiți embed-ul salvat:</value>
-  </data>
   <data name="embed-editor-delete-confirm" xml:space="preserve">
     <value>Ștergeți acest embed salvat? Aceasta nu poate fi anulată.</value>
   </data>
@@ -6286,17 +6601,8 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-rename-title" xml:space="preserve">
     <value>Redenumiți Embed</value>
   </data>
-  <data name="embed-editor-delete-title" xml:space="preserve">
-    <value>Ștergeți Embed</value>
-  </data>
-  <data name="embed-editor-send-btn" xml:space="preserve">
-    <value>Trimiteți Embed</value>
-  </data>
   <data name="embed-editor-send-title" xml:space="preserve">
     <value>Trimiteți Embed</value>
-  </data>
-  <data name="embed-editor-send-channel-label" xml:space="preserve">
-    <value>Canal</value>
   </data>
   <data name="embed-editor-send-webhook-toggle-label" xml:space="preserve">
     <value>Trimiteți la o URL webhook în loc</value>
@@ -6307,8 +6613,8 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="embed-editor-send-webhook-placeholder" xml:space="preserve">
     <value>https://discord.com/api/webhooks/...</value>
   </data>
-  <data name="embed-editor-send-confirm-btn" xml:space="preserve">
-    <value>Trimiteți</value>
+  <data name="generic-word-send" xml:space="preserve">
+    <value>Trimite</value>
   </data>
   <data name="embed-editor-send-success" xml:space="preserve">
     <value>Embed trimis cu succes.</value>
@@ -6324,6 +6630,21 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="embed-editor-send-error-webhook-rejected" xml:space="preserve">
     <value>Discord a respins embed-ul trimis la acel webhook.</value>
+  </data>
+  <data name="embed-editor-saved-content" xml:space="preserve">
+    <value>Conținut embed</value>
+  </data>
+  <data name="audit-saved-embed-created" xml:space="preserve">
+    <value>Un embed a fost salvat</value>
+  </data>
+  <data name="audit-saved-embed-updated" xml:space="preserve">
+    <value>Un embed salvat a fost actualizat</value>
+  </data>
+  <data name="audit-saved-embed-renamed" xml:space="preserve">
+    <value>Un embed salvat a fost redenumit</value>
+  </data>
+  <data name="audit-saved-embed-deleted" xml:space="preserve">
+    <value>Un embed salvat a fost șters</value>
   </data>
   <data name="audit-embed-editor-sent-webhook" xml:space="preserve">
     <value>A trimis un embed la un webhook.</value>
@@ -6510,6 +6831,15 @@ Stil Amari - pătratică: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="eco-feature-minefield" xml:space="preserve">
     <value>Câmp Minat</value>
+  </data>
+  <data name="eco-feature-daily" xml:space="preserve">
+    <value>Zilnic</value>
+  </data>
+  <data name="eco-feature-weekly" xml:space="preserve">
+    <value>Săptămânal</value>
+  </data>
+  <data name="eco-feature-monthly" xml:space="preserve">
+    <value>Lunar</value>
   </data>
   <data name="eco-feature-pay" xml:space="preserve">
     <value>Plată</value>
@@ -6874,6 +7204,174 @@ Pentru a obține cheia ta API OpenAI, va trebui să creezi un cont OpenAI și s�
   <data name="rp-feature-wink" xml:space="preserve">
     <value>Clipă</value>
   </data>
+  <data name="title-counting-game" xml:space="preserve">
+    <value>Jocul de Numărat</value>
+  </data>
+  <data name="counting-cache-delay-notice" xml:space="preserve">
+    <value>Modificările pot dura până la 30 de secunde pentru a fi aplicate în Discord din cauza memoriei cache.</value>
+  </data>
+  <data name="counting-channel-label" xml:space="preserve">
+    <value>Canal de numărare</value>
+  </data>
+  <data name="counting-mode-label" xml:space="preserve">
+    <value>Mod</value>
+  </data>
+  <data name="counting-mode-exact-number-only" xml:space="preserve">
+    <value>Doar Număr Exact</value>
+  </data>
+  <data name="counting-mode-exact-or-equation" xml:space="preserve">
+    <value>Număr Exact SAU Ecuație</value>
+  </data>
+  <data name="counting-mode-equation-only" xml:space="preserve">
+    <value>Doar Ecuație</value>
+  </data>
+  <data name="counting-prevent-consecutive" xml:space="preserve">
+    <value>Împiedică numărarea consecutivă</value>
+  </data>
+  <data name="counting-reset-on-mistake" xml:space="preserve">
+    <value>Resetează la greșeală</value>
+  </data>
+  <data name="counting-fail-role-label" xml:space="preserve">
+    <value>Rol de eșec</value>
+  </data>
+  <data name="counting-stat-current-count" xml:space="preserve">
+    <value>Numărătoarea curentă</value>
+  </data>
+  <data name="counting-stat-current-counter" xml:space="preserve">
+    <value>Contor curent</value>
+  </data>
+  <data name="counting-stat-highest-count" xml:space="preserve">
+    <value>Cea mai mare numărătoare</value>
+  </data>
+  <data name="counting-stat-none" xml:space="preserve">
+    <value>Niciunul</value>
+  </data>
+  <data name="counting-error-fail-role-everyone" xml:space="preserve">
+    <value>Rolul de eșec nu poate fi rolul @everyone.</value>
+  </data>
+  <data name="counting-fail-role-duration-label" xml:space="preserve">
+    <value>Durata rolului de eșec</value>
+  </data>
+  <data name="counting-fail-role-duration-placeholder" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="counting-fail-role-duration-suffix" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="counting-fail-role-duration-tooltip" xml:space="preserve">
+    <value>Lasă gol sau 0 pentru ca rolul de eșec să rămână atribuit permanent. Maximum 43200 de minute (30 de zile).</value>
+  </data>
+  <data name="counting-fail-role-duration-invalid" xml:space="preserve">
+    <value>Durata rolului de eșec trebuie să fie între 0 și 43200 de minute.</value>
+  </data>
+  <data name="counting-ignored-role-label" xml:space="preserve">
+    <value>Roluri ignorate</value>
+  </data>
+  <data name="counting-error-ignored-role-everyone" xml:space="preserve">
+    <value>Rolul ignorat nu poate fi rolul @everyone.</value>
+  </data>
+  <data name="counting-error-not-configured" xml:space="preserve">
+    <value>Jocul de Numărat nu a fost încă configurat pentru acest server.</value>
+  </data>
+  <data name="counting-reset-title" xml:space="preserve">
+    <value>Resetează numărătoarea curentă</value>
+  </data>
+  <data name="counting-reset-description" xml:space="preserve">
+    <value>Resetează imediat numărătoarea curentă la 0, la fel ca și cum numărătoarea tocmai ar fi eșuat. Cea mai mare serie de toate timpurile nu este afectată.</value>
+  </data>
+  <data name="counting-reset-confirm" xml:space="preserve">
+    <value>Ești sigur că vrei să resetezi numărătoarea curentă la 0? Această acțiune nu poate fi anulată.</value>
+  </data>
+  <data name="counting-reset-button" xml:space="preserve">
+    <value>Resetează numărătoarea</value>
+  </data>
+  <data name="counting-reset-success" xml:space="preserve">
+    <value>Numărătoarea curentă a fost resetată la 0.</value>
+  </data>
+  <data name="counting-fail-message-title" xml:space="preserve">
+    <value>Mesaj de eșec personalizat</value>
+  </data>
+  <data name="counting-fail-message-description" xml:space="preserve">
+    <value>Trimis în locul mesajului de eșec implicit atunci când numărătoarea se resetează. Lasă ambele câmpuri de mai jos goale pentru a folosi mesajul implicit.</value>
+  </data>
+  <data name="counting-fail-message-label" xml:space="preserve">
+    <value>Mesaj</value>
+  </data>
+  <data name="counting-fail-message-placeholder" xml:space="preserve">
+    <value>Lasă gol pentru a folosi mesajul de eșec implicit</value>
+  </data>
+  <data name="counting-fail-embed-label" xml:space="preserve">
+    <value>Embed de eșec personalizat</value>
+  </data>
+  <data name="counting-fail-message-save" xml:space="preserve">
+    <value>Salvează modificările</value>
+  </data>
+  <data name="audit-counting-updated" xml:space="preserve">
+    <value>Setările Jocului de Numărat au fost actualizate</value>
+  </data>
+  <data name="audit-counting-reset" xml:space="preserve">
+    <value>Numărătoarea curentă a Jocului de Numărat a fost resetată forțat</value>
+  </data>
+  <data name="audit-counting-fail-message-updated" xml:space="preserve">
+    <value>Mesajul de eșec personalizat al Jocului de Numărat a fost actualizat</value>
+  </data>
+  <data name="dashboard-error-load-counting" xml:space="preserve">
+    <value>Nu s-au putut încărca setările Jocului de Numărat.</value>
+  </data>
+  <data name="social-feed-custom-message-label" xml:space="preserve">
+    <value>Mesaj personalizat</value>
+  </data>
+  <data name="social-feed-custom-message-placeholder" xml:space="preserve">
+    <value>Mesaj opțional trimis alături de notificare...</value>
+  </data>
+  <data name="social-feed-custom-message-hint-youtube" xml:space="preserve">
+    <value>Marcatori disponibili: {link}, {channel}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-reddit" xml:space="preserve">
+    <value>Marcatori disponibili: {link}, {subreddit}, {title}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-twitch" xml:space="preserve">
+    <value>Marcatori disponibili: {link}, {streamer}, {title}, {game}</value>
+  </data>
+  <data name="social-feed-custom-message-hint-rss" xml:space="preserve">
+    <value>Marcatori disponibili: {link}, {title}</value>
+  </data>
+  <data name="forum-unarchive-title" xml:space="preserve">
+    <value>Dezarhivare automată forum</value>
+  </data>
+  <data name="forum-unarchive-permission-notice" xml:space="preserve">
+    <value>Botul are nevoie de permisiunea Gestionare fire de discuție în fiecare canal de forum monitorizat pentru a dezarhiva automat firele de discuție.</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-1" xml:space="preserve">
+    <value>Canal forum 1</value>
+  </data>
+  <data name="forum-unarchive-channel-slot-2" xml:space="preserve">
+    <value>Canal forum 2</value>
+  </data>
+  <data name="forum-unarchive-error-duplicate" xml:space="preserve">
+    <value>Nu poți selecta același canal de două ori.</value>
+  </data>
+  <data name="forum-unarchive-error-load" xml:space="preserve">
+    <value>Nu s-au putut încărca setările de dezarhivare automată a forumului.</value>
+  </data>
+  <data name="audit-forum-unarchive-updated" xml:space="preserve">
+    <value>Setările de dezarhivare automată a forumului au fost actualizate</value>
+  </data>
+  <data name="automod-ban-duration-label" xml:space="preserve">
+    <value>Durata interdicției {0}</value>
+  </data>
+  <data name="automod-ban-duration-placeholder" xml:space="preserve">
+    <value>Permanentă</value>
+  </data>
+  <data name="automod-ban-duration-suffix" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="automod-ban-duration-tooltip" xml:space="preserve">
+    <value>Lasă gol sau 0 pentru o interdicție permanentă. Maximum 720 de ore (30 de zile).</value>
+  </data>
+  <data name="automod-ban-duration-invalid" xml:space="preserve">
+    <value>Durata interdicției trebuie să fie între 0 și 720 de ore.</value>
+  </data>
   <data name="status-title" xml:space="preserve">
     <value>Starea botului</value>
   </data>
@@ -6942,5 +7440,3444 @@ Pentru a obține cheia ta API OpenAI, va trebui să creezi un cont OpenAI și s�
   </data>
   <data name="audit-ticket-panel-renamed" xml:space="preserve">
     <value>Numele panoului de tichete a fost actualizat</value>
+  </data>
+  <data name="forms-error-name-required" xml:space="preserve">
+    <value>Formularul are nevoie de un nume.</value>
+  </data>
+  <data name="forms-error-channel-not-in-guild" xml:space="preserve">
+    <value>Acel canal nu este pe acest server.</value>
+  </data>
+  <data name="forms-error-role-not-in-guild" xml:space="preserve">
+    <value>Acel rol nu este pe acest server.</value>
+  </data>
+  <data name="forms-error-name-too-long" xml:space="preserve">
+    <value>Numele formularului trebuie să aibă cel mult {0} caractere.</value>
+  </data>
+  <data name="forms-error-description-too-long" xml:space="preserve">
+    <value>Descrierea formularului trebuie să aibă cel mult {0} caractere.</value>
+  </data>
+  <data name="forms-error-success-message-too-long" xml:space="preserve">
+    <value>Mesajul de succes trebuie să aibă cel mult {0} caractere.</value>
+  </data>
+  <data name="forms-error-max-responses-invalid" xml:space="preserve">
+    <value>Limita de răspunsuri trebuie să fie cel puțin 1.</value>
+  </data>
+  <data name="forms-error-account-age-invalid" xml:space="preserve">
+    <value>Vârsta minimă a contului nu poate fi negativă.</value>
+  </data>
+  <data name="forms-error-expiry-in-past" xml:space="preserve">
+    <value>Data de închidere trebuie să fie în viitor.</value>
+  </data>
+  <data name="forms-error-invite-uses-invalid" xml:space="preserve">
+    <value>Utilizările invitației trebuie să fie între 0 și 100.</value>
+  </data>
+  <data name="forms-error-invite-age-invalid" xml:space="preserve">
+    <value>Valabilitatea invitației trebuie să fie între 0 și 7 zile.</value>
+  </data>
+  <data name="forms-error-question-text-required" xml:space="preserve">
+    <value>Fiecare întrebare are nevoie de text.</value>
+  </data>
+  <data name="forms-error-question-text-too-long" xml:space="preserve">
+    <value>O întrebare trebuie să aibă cel mult {0} caractere.</value>
+  </data>
+  <data name="forms-error-length-range" xml:space="preserve">
+    <value>Lungimea minimă nu poate fi mai mare decât lungimea maximă.</value>
+  </data>
+  <data name="forms-error-value-range" xml:space="preserve">
+    <value>Valoarea minimă nu poate fi mai mare decât valoarea maximă.</value>
+  </data>
+  <data name="forms-error-options-required" xml:space="preserve">
+    <value>Acest tip de întrebare necesită cel puțin o opțiune.</value>
+  </data>
+  <data name="forms-error-too-many-options" xml:space="preserve">
+    <value>O întrebare poate avea cel mult {0} opțiuni.</value>
+  </data>
+  <data name="forms-error-option-text-required" xml:space="preserve">
+    <value>Fiecare opțiune are nevoie de o etichetă.</value>
+  </data>
+  <data name="forms-error-option-text-too-long" xml:space="preserve">
+    <value>Eticheta unei opțiuni trebuie să aibă cel mult {0} caractere.</value>
+  </data>
+  <data name="forms-error-option-duplicate" xml:space="preserve">
+    <value>Opțiunile dintr-o întrebare trebuie să fie unice.</value>
+  </data>
+  <data name="forms-error-condition-incomplete" xml:space="preserve">
+    <value>Uneia dintre condiții îi lipsește o parte din configurare.</value>
+  </data>
+  <data name="forms-error-condition-self-reference" xml:space="preserve">
+    <value>O întrebare nu poate depinde de propriul răspuns.</value>
+  </data>
+  <data name="forms-error-condition-forward-reference" xml:space="preserve">
+    <value>O întrebare poate depinde doar de o întrebare care o precede.</value>
+  </data>
+  <data name="forms-error-too-many-questions" xml:space="preserve">
+    <value>Un formular poate avea cel mult {0} întrebări.</value>
+  </data>
+  <data name="forms-error-no-questions" xml:space="preserve">
+    <value>Adaugă cel puțin o întrebare înainte de a salva.</value>
+  </data>
+  <data name="forms-error-load" xml:space="preserve">
+    <value>Formularele nu au putut fi încărcate. Încearcă din nou peste puțin timp.</value>
+  </data>
+  <data name="forms-error-not-found" xml:space="preserve">
+    <value>Acel formular nu mai există.</value>
+  </data>
+  <data name="forms-error-publish-without-questions" xml:space="preserve">
+    <value>Adaugă cel puțin o întrebare înainte de a publica.</value>
+  </data>
+  <data name="forms-error-not-published" xml:space="preserve">
+    <value>Acest formular nu a fost încă publicat.</value>
+  </data>
+  <data name="forms-error-closed" xml:space="preserve">
+    <value>Acest formular nu acceptă răspunsuri.</value>
+  </data>
+  <data name="forms-error-expired" xml:space="preserve">
+    <value>Acest formular s-a închis.</value>
+  </data>
+  <data name="forms-error-max-responses-reached" xml:space="preserve">
+    <value>Acest formular a atins limita de răspunsuri.</value>
+  </data>
+  <data name="forms-error-already-submitted" xml:space="preserve">
+    <value>Ai trimis deja acest formular.</value>
+  </data>
+  <data name="forms-error-account-too-new" xml:space="preserve">
+    <value>Contul tău de Discord trebuie să aibă cel puțin {0} zile vechime pentru a trimite acest formular.</value>
+  </data>
+  <data name="forms-error-not-a-member" xml:space="preserve">
+    <value>Trebuie să fii membru al acestui server pentru a trimite acest formular.</value>
+  </data>
+  <data name="forms-error-not-banned" xml:space="preserve">
+    <value>Nu ești interzis pe acest server, deci nu ai ce contesta.</value>
+  </data>
+  <data name="nav-collapse-sidebar" xml:space="preserve">
+    <value>Restrânge meniul</value>
+  </data>
+  <data name="nav-expand-sidebar" xml:space="preserve">
+    <value>Extinde meniul</value>
+  </data>
+  <data name="bulk-selected-count" xml:space="preserve">
+    <value>{0} selectat(e)</value>
+  </data>
+  <data name="bulk-select-all" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="bulk-select-mode-start" xml:space="preserve">
+    <value>Selectează</value>
+  </data>
+  <data name="bulk-enable" xml:space="preserve">
+    <value>Activează</value>
+  </data>
+  <data name="bulk-disable" xml:space="preserve">
+    <value>Dezactivează</value>
+  </data>
+  <data name="bulk-delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="bulk-delete-confirm-title" xml:space="preserve">
+    <value>Confirmă ștergerea</value>
+  </data>
+  <data name="bulk-delete-confirm" xml:space="preserve">
+    <value>Ștergi {0} element(e) selectat(e)? Această acțiune nu poate fi anulată.</value>
+  </data>
+  <data name="bulk-result-enabled" xml:space="preserve">
+    <value>{0} element(e) activat(e)</value>
+  </data>
+  <data name="bulk-result-disabled" xml:space="preserve">
+    <value>{0} element(e) dezactivat(e)</value>
+  </data>
+  <data name="bulk-result-deleted" xml:space="preserve">
+    <value>{0} element(e) șters(e)</value>
+  </data>
+  <data name="bulk-result-failed" xml:space="preserve">
+    <value>Elementele selectate nu au putut fi actualizate.</value>
+  </data>
+  <data name="bulk-hint" xml:space="preserve">
+    <value>Fă clic pe elemente pentru a le selecta</value>
+  </data>
+  <data name="forms-error-version-not-found" xml:space="preserve">
+    <value>Acea versiune salvată nu mai există.</value>
+  </data>
+  <data name="forms-error-version-unreadable" xml:space="preserve">
+    <value>Acea versiune salvată nu a putut fi citită și nu poate fi restaurată.</value>
+  </data>
+  <data name="forms-diff-created" xml:space="preserve">
+    <value>Formular creat</value>
+  </data>
+  <data name="forms-diff-question-added" xml:space="preserve">
+    <value>Întrebarea {0} a fost adăugată</value>
+  </data>
+  <data name="forms-diff-question-removed" xml:space="preserve">
+    <value>Întrebare eliminată</value>
+  </data>
+  <data name="forms-diff-question-removed-at" xml:space="preserve">
+    <value>Întrebarea {0} a fost eliminată</value>
+  </data>
+  <data name="forms-diff-question-label" xml:space="preserve">
+    <value>Întrebarea {0}: {1}</value>
+  </data>
+  <data name="forms-diff-position" xml:space="preserve">
+    <value>Poziție</value>
+  </data>
+  <data name="forms-diff-conditions" xml:space="preserve">
+    <value>Condiții</value>
+  </data>
+  <data name="forms-diff-unset" xml:space="preserve">
+    <value>nesetat</value>
+  </data>
+  <data name="forms-diff-no-changes" xml:space="preserve">
+    <value>Salvat fără modificări.</value>
+  </data>
+  <data name="forms-diff-show-more" xml:space="preserve">
+    <value>Arată încă {0} modificare(i)</value>
+  </data>
+  <data name="forms-diff-show-less" xml:space="preserve">
+    <value>Arată mai puțin</value>
+  </data>
+  <data name="forms-diff-show" xml:space="preserve">
+    <value>Ce s-a schimbat</value>
+  </data>
+  <data name="forms-version-history" xml:space="preserve">
+    <value>Istoric</value>
+  </data>
+  <data name="forms-version-history-title" xml:space="preserve">
+    <value>Istoricul versiunilor</value>
+  </data>
+  <data name="forms-version-history-subtitle" xml:space="preserve">
+    <value>Ultimele {0} salvări ale acestui formular. Restaurarea uneia este ea însăși o salvare, deci poate fi anulată.</value>
+  </data>
+  <data name="forms-version-empty" xml:space="preserve">
+    <value>Nu există încă versiuni salvate. Data viitoare când acest formular va fi salvat, o versiune va fi păstrată aici.</value>
+  </data>
+  <data name="forms-version-number" xml:space="preserve">
+    <value>Versiunea {0}</value>
+  </data>
+  <data name="forms-version-questions" xml:space="preserve">
+    <value>{0} întrebare(i)</value>
+  </data>
+  <data name="forms-version-restore" xml:space="preserve">
+    <value>Restaurează</value>
+  </data>
+  <data name="forms-version-restore-confirm" xml:space="preserve">
+    <value>Restaurezi această versiune? Formularul va reveni la starea de la această salvare.</value>
+  </data>
+  <data name="forms-version-restored" xml:space="preserve">
+    <value>Formularul a fost restaurat la acea versiune.</value>
+  </data>
+  <data name="forms-answer-removed-question" xml:space="preserve">
+    <value>Întrebare eliminată</value>
+  </data>
+  <data name="forms-error-placeholder-too-long" xml:space="preserve">
+    <value>Textul marcatorului de poziție nu poate depăși {0} caractere.</value>
+  </data>
+  <data name="forms-drag-to-reorder" xml:space="preserve">
+    <value>Trage pentru a reordona</value>
+  </data>
+  <data name="forms-discard-changes" xml:space="preserve">
+    <value>Ai modificări nesalvate. Părăsești această pagină și le renunți?</value>
+  </data>
+  <data name="forms-status-page-all-submissions" xml:space="preserve">
+    <value>Te poți întoarce aici oricând, împreună cu tot ce ai mai trimis.</value>
+  </data>
+  <data name="forms-my-submissions-title" xml:space="preserve">
+    <value>Trimiterile Mele de Formulare</value>
+  </data>
+  <data name="forms-my-submissions-subtitle" xml:space="preserve">
+    <value>Fiecare formular pe care l-ai trimis și starea sa actuală.</value>
+  </data>
+  <data name="forms-my-submissions-empty-title" xml:space="preserve">
+    <value>Nicio trimitere încă</value>
+  </data>
+  <data name="forms-my-submissions-empty-description" xml:space="preserve">
+    <value>Formularele pe care le trimiți vor apărea aici pentru a le putea verifica mai târziu.</value>
+  </data>
+  <data name="forms-my-submissions-submitted-on" xml:space="preserve">
+    <value>Trimis {0}</value>
+  </data>
+  <data name="forms-my-submissions-anonymous-note" xml:space="preserve">
+    <value>Formularele care colectează răspunsuri anonim nu sunt listate aici, deoarece sunt stocate fără un expeditor.</value>
+  </data>
+  <data name="user-customization-title" xml:space="preserve">
+    <value>Personalizare Utilizator</value>
+  </data>
+  <data name="user-customization-coming-soon" xml:space="preserve">
+    <value>Această funcție va fi disponibilă în curând. Reveniți mai târziu!</value>
+  </data>
+  <data name="forms-field-require-captcha" xml:space="preserve">
+    <value>Necesită un captcha</value>
+  </data>
+  <data name="forms-field-require-captcha-hint" xml:space="preserve">
+    <value>Cei care trimit formularul trebuie să treacă o provocare Cloudflare Turnstile înainte ca formularul să fie acceptat.</value>
+  </data>
+  <data name="forms-public-login-required" xml:space="preserve">
+    <value>Autentifică-te cu Discord pentru a completa acest formular. Te vei întoarce direct aici.</value>
+  </data>
+  <data name="forms-public-login-button" xml:space="preserve">
+    <value>Autentifică-te cu Discord</value>
+  </data>
+  <data name="forms-public-meta-description" xml:space="preserve">
+    <value>Un formular de la {0}. Autentifică-te cu Discord pentru a-l completa.</value>
+  </data>
+  <data name="forms-public-meta-anonymous" xml:space="preserve">
+    <value>Răspunsurile sunt anonime.</value>
+  </data>
+  <data name="forms-public-captcha-prompt" xml:space="preserve">
+    <value>Te rugăm să confirmi că ești uman înainte de a trimite.</value>
+  </data>
+  <data name="forms-error-captcha-failed" xml:space="preserve">
+    <value>Captcha nu a putut fi verificat. Te rugăm să reîncarci pagina și să încerci din nou.</value>
+  </data>
+  <data name="forms-field-allow-external" xml:space="preserve">
+    <value>Permite persoane din afara serverului</value>
+  </data>
+  <data name="forms-field-allow-external-hint" xml:space="preserve">
+    <value>Oricine are linkul poate trimite, chiar dacă nu este membru. Contestațiile de interdicție și cererile de aderare permit întotdeauna acest lucru.</value>
+  </data>
+  <data name="forms-field-block-reappeal" xml:space="preserve">
+    <value>Blochează o nouă contestație după o respingere</value>
+  </data>
+  <data name="forms-field-block-reappeal-hint" xml:space="preserve">
+    <value>O contestație respinsă este definitivă, iar utilizatorul nu poate trimite alta.</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts" xml:space="preserve">
+    <value>Contestații maxime</value>
+  </data>
+  <data name="forms-field-max-appeal-attempts-hint" xml:space="preserve">
+    <value>Câte contestații respinse poate atinge un utilizator înainte de a nu mai putea contesta. Lasă gol pentru fără limită.</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown" xml:space="preserve">
+    <value>Așteptare după o respingere (zile)</value>
+  </data>
+  <data name="forms-field-reappeal-cooldown-hint" xml:space="preserve">
+    <value>Cât timp trebuie să aștepte un utilizator după o contestație respinsă înainte de a contesta din nou. Lasă gol pentru fără așteptare.</value>
+  </data>
+  <data name="forms-field-appeal-delay" xml:space="preserve">
+    <value>Așteptare după interdicție (zile)</value>
+  </data>
+  <data name="forms-field-appeal-delay-hint" xml:space="preserve">
+    <value>Cât timp trebuie să aștepte un utilizator după ce a fost interzis înainte de prima contestație. Lasă gol pentru fără așteptare. Discord păstrează istoricul jurnalului de audit doar pentru un timp limitat, deci acest lucru nu poate fi aplicat interdicțiilor mai vechi.</value>
+  </data>
+  <data name="forms-error-appeal-pending" xml:space="preserve">
+    <value>Contestația ta anterioară este încă în curs de analiză. Te rugăm să aștepți o decizie înainte de a contesta din nou.</value>
+  </data>
+  <data name="forms-error-appeal-rejected" xml:space="preserve">
+    <value>Contestația ta a fost respinsă și acest server nu acceptă alte contestații.</value>
+  </data>
+  <data name="forms-error-appeal-attempts-used" xml:space="preserve">
+    <value>Ai folosit toate cele {0} contestații pentru acest server.</value>
+  </data>
+  <data name="forms-error-reappeal-cooldown" xml:space="preserve">
+    <value>Poți contesta din nou în {0} zi(le).</value>
+  </data>
+  <data name="forms-error-appeal-too-soon" xml:space="preserve">
+    <value>Acest server nu acceptă încă contestații. Poți contesta în {0} zi(le).</value>
+  </data>
+  <data name="forms-error-already-member" xml:space="preserve">
+    <value>Ești deja membru al acestui server.</value>
+  </data>
+  <data name="forms-error-missing-required-role" xml:space="preserve">
+    <value>Nu ai rolul pe care îl necesită acest formular.</value>
+  </data>
+  <data name="forms-error-answer-required" xml:space="preserve">
+    <value>Această întrebare trebuie să primească un răspuns.</value>
+  </data>
+  <data name="forms-error-answer-too-short" xml:space="preserve">
+    <value>Acest răspuns trebuie să aibă cel puțin {0} caractere.</value>
+  </data>
+  <data name="forms-error-answer-too-long" xml:space="preserve">
+    <value>Acest răspuns trebuie să aibă cel mult {0} caractere.</value>
+  </data>
+  <data name="forms-error-answer-not-number" xml:space="preserve">
+    <value>Acest răspuns trebuie să fie un număr.</value>
+  </data>
+  <data name="forms-error-answer-too-small" xml:space="preserve">
+    <value>Acest răspuns trebuie să fie cel puțin {0}.</value>
+  </data>
+  <data name="forms-error-answer-too-large" xml:space="preserve">
+    <value>Acest răspuns poate fi cel mult {0}.</value>
+  </data>
+  <data name="forms-error-answer-invalid-email" xml:space="preserve">
+    <value>Introdu o adresă de e-mail validă.</value>
+  </data>
+  <data name="forms-error-answer-invalid-url" xml:space="preserve">
+    <value>Introdu un link valid care începe cu http sau https.</value>
+  </data>
+  <data name="forms-error-answer-invalid-option" xml:space="preserve">
+    <value>Acea alegere nu este una dintre opțiunile oferite.</value>
+  </data>
+  <data name="forms-error-answer-too-few-selections" xml:space="preserve">
+    <value>Alege cel puțin {0} opțiuni.</value>
+  </data>
+  <data name="forms-error-answer-too-many-selections" xml:space="preserve">
+    <value>Alege cel mult {0} opțiuni.</value>
+  </data>
+  <data name="forms-error-response-not-found" xml:space="preserve">
+    <value>Acel răspuns nu mai există.</value>
+  </data>
+  <data name="forms-error-response-not-reviewable" xml:space="preserve">
+    <value>Acest răspuns nu face parte dintr-un proces de analiză.</value>
+  </data>
+  <data name="forms-error-response-already-decided" xml:space="preserve">
+    <value>S-a luat deja o decizie pentru acest răspuns.</value>
+  </data>
+  <data name="forms-error-response-has-no-user" xml:space="preserve">
+    <value>Acest răspuns nu are niciun utilizator Discord asociat.</value>
+  </data>
+  <data name="forms-error-unban-failed" xml:space="preserve">
+    <value>Interdicția nu a putut fi ridicată. Verifică dacă botul poate gestiona interdicțiile.</value>
+  </data>
+  <data name="forms-error-invite-failed" xml:space="preserve">
+    <value>Nu s-a putut crea o invitație. Verifică dacă botul poate crea invitații.</value>
+  </data>
+  <data name="forms-duplicate-name" xml:space="preserve">
+    <value>{0} (Copie)</value>
+  </data>
+  <data name="forms-answer-empty" xml:space="preserve">
+    <value>Fără răspuns</value>
+  </data>
+  <data name="forms-embed-submitted-by" xml:space="preserve">
+    <value>Trimis de {0}</value>
+  </data>
+  <data name="forms-embed-response-id" xml:space="preserve">
+    <value>Răspuns nr. {0}</value>
+  </data>
+  <data name="forms-notify-approved" xml:space="preserve">
+    <value>Răspunsul tău a fost aprobat.</value>
+  </data>
+  <data name="forms-notify-rejected" xml:space="preserve">
+    <value>Răspunsul tău a fost respins.</value>
+  </data>
+  <data name="forms-csv-response-id" xml:space="preserve">
+    <value>ID răspuns</value>
+  </data>
+  <data name="forms-csv-user-id" xml:space="preserve">
+    <value>ID utilizator</value>
+  </data>
+  <data name="forms-csv-username" xml:space="preserve">
+    <value>Nume de utilizator</value>
+  </data>
+  <data name="forms-csv-submitted-at" xml:space="preserve">
+    <value>Trimis la</value>
+  </data>
+  <data name="forms-status-not-reviewed" xml:space="preserve">
+    <value>Neanalizat</value>
+  </data>
+  <data name="forms-saved" xml:space="preserve">
+    <value>Formular salvat</value>
+  </data>
+  <data name="forms-published" xml:space="preserve">
+    <value>Formular publicat</value>
+  </data>
+  <data name="forms-activated" xml:space="preserve">
+    <value>Formularul acceptă acum răspunsuri</value>
+  </data>
+  <data name="forms-deactivated" xml:space="preserve">
+    <value>Formularul a încetat să accepte răspunsuri</value>
+  </data>
+  <data name="forms-duplicated" xml:space="preserve">
+    <value>Formular duplicat</value>
+  </data>
+  <data name="forms-deleted" xml:space="preserve">
+    <value>Formular șters</value>
+  </data>
+  <data name="forms-response-deleted" xml:space="preserve">
+    <value>Răspuns șters</value>
+  </data>
+  <data name="forms-response-approved" xml:space="preserve">
+    <value>Răspuns aprobat</value>
+  </data>
+  <data name="forms-response-rejected" xml:space="preserve">
+    <value>Răspuns respins</value>
+  </data>
+  <data name="audit-form-created" xml:space="preserve">
+    <value>A fost creat un formular</value>
+  </data>
+  <data name="audit-form-updated" xml:space="preserve">
+    <value>A fost actualizat un formular</value>
+  </data>
+  <data name="audit-form-version-restored" xml:space="preserve">
+    <value>Un formular a fost restaurat la o versiune anterioară</value>
+  </data>
+  <data name="audit-form-published" xml:space="preserve">
+    <value>A fost publicat un formular</value>
+  </data>
+  <data name="audit-form-activated" xml:space="preserve">
+    <value>A fost deschis un formular pentru răspunsuri</value>
+  </data>
+  <data name="audit-form-deactivated" xml:space="preserve">
+    <value>A fost închis un formular pentru răspunsuri</value>
+  </data>
+  <data name="audit-form-duplicated" xml:space="preserve">
+    <value>A fost duplicat un formular</value>
+  </data>
+  <data name="audit-form-deleted" xml:space="preserve">
+    <value>A fost șters un formular</value>
+  </data>
+  <data name="audit-form-response-deleted" xml:space="preserve">
+    <value>A fost șters un răspuns de formular</value>
+  </data>
+  <data name="audit-form-response-approved" xml:space="preserve">
+    <value>A fost aprobat un răspuns de formular</value>
+  </data>
+  <data name="audit-form-response-rejected" xml:space="preserve">
+    <value>A fost respins un răspuns de formular</value>
+  </data>
+  <data name="forms-title" xml:space="preserve">
+    <value>Formulare</value>
+  </data>
+  <data name="forms-subtitle" xml:space="preserve">
+    <value>Creează formulare pe care membrii tăi le completează dintr-un link și colectează răspunsurile aici.</value>
+  </data>
+  <data name="forms-create" xml:space="preserve">
+    <value>Creează un formular</value>
+  </data>
+  <data name="forms-empty-title" xml:space="preserve">
+    <value>Încă nu există formulare</value>
+  </data>
+  <data name="forms-empty-description" xml:space="preserve">
+    <value>Creează primul tău formular pentru a începe să colectezi răspunsuri.</value>
+  </data>
+  <data name="forms-card-responses" xml:space="preserve">
+    <value>Răspunsuri</value>
+  </data>
+  <data name="forms-card-pending" xml:space="preserve">
+    <value>De analizat</value>
+  </data>
+  <data name="forms-status-draft" xml:space="preserve">
+    <value>Ciornă</value>
+  </data>
+  <data name="forms-action-edit" xml:space="preserve">
+    <value>Editează</value>
+  </data>
+  <data name="forms-action-copy-link" xml:space="preserve">
+    <value>Copiază linkul</value>
+  </data>
+  <data name="forms-action-preview" xml:space="preserve">
+    <value>Previzualizare</value>
+  </data>
+  <data name="forms-action-publish" xml:space="preserve">
+    <value>Publică</value>
+  </data>
+  <data name="forms-action-deactivate" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="forms-action-duplicate" xml:space="preserve">
+    <value>Duplică</value>
+  </data>
+  <data name="forms-action-delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="forms-confirm-delete" xml:space="preserve">
+    <value>Ștergi „{0}” și fiecare răspuns pe care l-a colectat? Această acțiune nu poate fi anulată.</value>
+  </data>
+  <data name="forms-confirm-delete-response" xml:space="preserve">
+    <value>Ștergi acest răspuns? Această acțiune nu poate fi anulată.</value>
+  </data>
+  <data name="forms-link-copied" xml:space="preserve">
+    <value>Copiat</value>
+  </data>
+  <data name="forms-builder-title" xml:space="preserve">
+    <value>Editează formular</value>
+  </data>
+  <data name="forms-builder-new" xml:space="preserve">
+    <value>Formular nou</value>
+  </data>
+  <data name="forms-settings-title" xml:space="preserve">
+    <value>Setări formular</value>
+  </data>
+  <data name="forms-review-settings-title" xml:space="preserve">
+    <value>Setări de analiză</value>
+  </data>
+  <data name="forms-review-settings-hint" xml:space="preserve">
+    <value>Folosit atunci când răspunsurile trebuie aprobate, precum și pentru contestații de interdicție și cereri de aderare.</value>
+  </data>
+  <data name="forms-field-name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="forms-field-description" xml:space="preserve">
+    <value>Descriere</value>
+  </data>
+  <data name="forms-field-channel" xml:space="preserve">
+    <value>Trimite trimiterile către</value>
+  </data>
+  <data name="forms-field-required-role" xml:space="preserve">
+    <value>Rol necesar pentru a trimite</value>
+  </data>
+  <data name="forms-field-max-responses" xml:space="preserve">
+    <value>Limită de răspunsuri</value>
+  </data>
+  <data name="forms-field-expires-at" xml:space="preserve">
+    <value>Se închide la</value>
+  </data>
+  <data name="forms-field-min-account-age" xml:space="preserve">
+    <value>Vârsta minimă a contului în zile</value>
+  </data>
+  <data name="forms-field-min-account-age-hint" xml:space="preserve">
+    <value>Blochează conturile noi. Util pentru formulare deschise persoanelor din afara serverului.</value>
+  </data>
+  <data name="forms-field-success-message" xml:space="preserve">
+    <value>Mesaj afișat după trimitere</value>
+  </data>
+  <data name="forms-public-draft-resumed" xml:space="preserve">
+    <value>Ai reluat de unde ai rămas. Răspunsurile tale sunt salvate pe măsură ce te miști între pagini.</value>
+  </data>
+  <data name="forms-page-add" xml:space="preserve">
+    <value>Adaugă pagină</value>
+  </data>
+  <data name="forms-page-label" xml:space="preserve">
+    <value>Pagina {0}</value>
+  </data>
+  <data name="forms-page-all" xml:space="preserve">
+    <value>Toate paginile</value>
+  </data>
+  <data name="forms-page-untitled" xml:space="preserve">
+    <value>Pagină fără titlu</value>
+  </data>
+  <data name="forms-page-title" xml:space="preserve">
+    <value>Titlu pagină</value>
+  </data>
+  <data name="forms-page-intro" xml:space="preserve">
+    <value>Introducere pagină</value>
+  </data>
+  <data name="forms-page-remove" xml:space="preserve">
+    <value>Elimină pagina</value>
+  </data>
+  <data name="forms-page-add-heading" xml:space="preserve">
+    <value>Adaugă un titlu la această pagină</value>
+  </data>
+  <data name="forms-page-move-back" xml:space="preserve">
+    <value>Mută mai devreme</value>
+  </data>
+  <data name="forms-page-move-forward" xml:space="preserve">
+    <value>Mută mai târziu</value>
+  </data>
+  <data name="forms-page-drag-to-reorder" xml:space="preserve">
+    <value>Trage pentru a reordona paginile</value>
+  </data>
+  <data name="forms-dm-submitted" xml:space="preserve">
+    <value>Răspunsul tău a fost primit.</value>
+  </data>
+  <data name="forms-dm-status-link" xml:space="preserve">
+    <value>Verifică aici</value>
+  </data>
+  <data name="forms-dm-view-submission" xml:space="preserve">
+    <value>Vezi trimiterea</value>
+  </data>
+  <data name="forms-dm-updated" xml:space="preserve">
+    <value>Modificările tale au fost salvate.</value>
+  </data>
+  <data name="forms-embed-truncated-title" xml:space="preserve">
+    <value>Prea lung pentru a fi afișat aici</value>
+  </data>
+  <data name="embed-builder-title" xml:space="preserve">
+    <value>Constructor de Embed</value>
+  </data>
+  <data name="embed-builder-subtitle" xml:space="preserve">
+    <value>Creează un mesaj cu embed-uri și vezi-l așa cum îl va afișa Discord.</value>
+  </data>
+  <data name="embed-builder-saved-placeholder" xml:space="preserve">
+    <value>Alege un embed salvat</value>
+  </data>
+  <data name="embed-builder-load" xml:space="preserve">
+    <value>Încarcă</value>
+  </data>
+  <data name="embed-builder-json" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="embed-builder-apply-json" xml:space="preserve">
+    <value>Aplică JSON</value>
+  </data>
+  <data name="embed-builder-pane-edit" xml:space="preserve">
+    <value>Editează</value>
+  </data>
+  <data name="embed-builder-pane-preview" xml:space="preserve">
+    <value>Previzualizare live</value>
+  </data>
+  <data name="embed-builder-name-placeholder" xml:space="preserve">
+    <value>Denumește acest embed</value>
+  </data>
+  <data name="embed-builder-section-author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="embed-builder-section-body" xml:space="preserve">
+    <value>Corp</value>
+  </data>
+  <data name="embed-builder-section-fields" xml:space="preserve">
+    <value>Câmpuri</value>
+  </data>
+  <data name="embed-builder-section-media" xml:space="preserve">
+    <value>Imagini</value>
+  </data>
+  <data name="embed-builder-section-footer" xml:space="preserve">
+    <value>Subsol</value>
+  </data>
+  <data name="embed-builder-author-name" xml:space="preserve">
+    <value>Numele autorului</value>
+  </data>
+  <data name="embed-builder-author-url" xml:space="preserve">
+    <value>Linkul autorului</value>
+  </data>
+  <data name="embed-builder-author-icon" xml:space="preserve">
+    <value>Pictograma autorului</value>
+  </data>
+  <data name="embed-builder-title-url" xml:space="preserve">
+    <value>Link titlu</value>
+  </data>
+  <data name="embed-builder-description" xml:space="preserve">
+    <value>Descrierea embed-ului</value>
+  </data>
+  <data name="embed-builder-colour" xml:space="preserve">
+    <value>Culoare accent</value>
+  </data>
+  <data name="embed-builder-image" xml:space="preserve">
+    <value>Imagine mare</value>
+  </data>
+  <data name="embed-builder-thumbnail" xml:space="preserve">
+    <value>Miniatură</value>
+  </data>
+  <data name="embed-builder-footer-text" xml:space="preserve">
+    <value>Text subsol</value>
+  </data>
+  <data name="embed-builder-footer-icon" xml:space="preserve">
+    <value>Pictogramă subsol</value>
+  </data>
+  <data name="embed-builder-timestamp" xml:space="preserve">
+    <value>Afișează marcaj temporal</value>
+  </data>
+  <data name="embed-builder-field-name" xml:space="preserve">
+    <value>Numele câmpului</value>
+  </data>
+  <data name="embed-builder-field-value" xml:space="preserve">
+    <value>Valoarea câmpului</value>
+  </data>
+  <data name="embed-builder-inline" xml:space="preserve">
+    <value>Unul lângă altul</value>
+  </data>
+  <data name="embed-builder-add-field" xml:space="preserve">
+    <value>Adaugă un câmp</value>
+  </data>
+  <data name="embed-builder-embed" xml:space="preserve">
+    <value>Embed</value>
+  </data>
+  <data name="embed-builder-add-embed" xml:space="preserve">
+    <value>Adaugă un embed</value>
+  </data>
+  <data name="embed-builder-remove-embed" xml:space="preserve">
+    <value>Elimină acest embed</value>
+  </data>
+  <data name="embed-builder-preview-empty" xml:space="preserve">
+    <value>Încă nimic de afișat. Începe să tastezi și va apărea aici.</value>
+  </data>
+  <data name="embed-builder-loaded" xml:space="preserve">
+    <value>Embed încărcat.</value>
+  </data>
+  <data name="embed-builder-saved-ok" xml:space="preserve">
+    <value>Embed salvat.</value>
+  </data>
+  <data name="embed-builder-renamed" xml:space="preserve">
+    <value>Embed redenumit.</value>
+  </data>
+  <data name="embed-builder-deleted" xml:space="preserve">
+    <value>Embed șters.</value>
+  </data>
+  <data name="embed-builder-name-required" xml:space="preserve">
+    <value>Dă mai întâi un nume embed-ului.</value>
+  </data>
+  <data name="embed-builder-pick-saved" xml:space="preserve">
+    <value>Alege mai întâi un embed salvat.</value>
+  </data>
+  <data name="embed-builder-pick-channel" xml:space="preserve">
+    <value>Alege un canal către care să trimiți.</value>
+  </data>
+  <data name="forms-error-answer-named" xml:space="preserve">
+    <value>„{0}” - {1}</value>
+  </data>
+  <data name="forms-error-image-unavailable" xml:space="preserve">
+    <value>Răspunsurile cu imagine nu pot fi acceptate momentan.</value>
+  </data>
+  <data name="forms-image-hint" xml:space="preserve">
+    <value>PNG, JPEG, GIF sau WebP, până la {0} MB.</value>
+  </data>
+  <data name="forms-image-uploading" xml:space="preserve">
+    <value>Se încarcă…</value>
+  </data>
+  <data name="forms-question-type-image" xml:space="preserve">
+    <value>Încărcare imagine</value>
+  </data>
+  <data name="forms-question-type-image-hint" xml:space="preserve">
+    <value>Persoana care completează formularul atașează o imagine.</value>
+  </data>
+  <data name="forms-error-image-too-large" xml:space="preserve">
+    <value>Imaginile trebuie să fie mai mici de {0} MB.</value>
+  </data>
+  <data name="forms-error-image-type" xml:space="preserve">
+    <value>Acel fișier nu a putut fi citit ca imagine.</value>
+  </data>
+  <data name="forms-error-image-too-large-dimensions" xml:space="preserve">
+    <value>Acea imagine are prea mulți pixeli pentru a fi procesată.</value>
+  </data>
+  <data name="forms-error-image-upload-failed" xml:space="preserve">
+    <value>Acea imagine nu a putut fi salvată. Te rugăm să încerci din nou.</value>
+  </data>
+  <data name="forms-embed-truncated" xml:space="preserve">
+    <value>Încă {0} răspunsuri sunt pe panou.</value>
+  </data>
+  <data name="forms-field-allow-multiple" xml:space="preserve">
+    <value>Permite mai mult de o trimitere per utilizator</value>
+  </data>
+  <data name="forms-field-form-type" xml:space="preserve">
+    <value>Tip formular</value>
+  </data>
+  <data name="forms-field-require-approval" xml:space="preserve">
+    <value>Răspunsurile trebuie aprobate</value>
+  </data>
+  <data name="forms-field-approval-action" xml:space="preserve">
+    <value>La aprobare</value>
+  </data>
+  <data name="forms-field-approval-roles" xml:space="preserve">
+    <value>Roluri de schimbat la aprobare</value>
+  </data>
+  <data name="forms-field-approval-add-roles" xml:space="preserve">
+    <value>Roluri de adăugat la aprobare</value>
+  </data>
+  <data name="forms-field-approval-remove-roles" xml:space="preserve">
+    <value>Roluri de eliminat la aprobare</value>
+  </data>
+  <data name="forms-field-rejection-add-roles" xml:space="preserve">
+    <value>Roluri de adăugat la respingere</value>
+  </data>
+  <data name="forms-field-rejection-remove-roles" xml:space="preserve">
+    <value>Roluri de eliminat la respingere</value>
+  </data>
+  <data name="forms-review-decision" xml:space="preserve">
+    <value>Decizie</value>
+  </data>
+  <data name="forms-review-approved-by" xml:space="preserve">
+    <value>Acceptat de {0}</value>
+  </data>
+  <data name="forms-review-rejected-by" xml:space="preserve">
+    <value>Respins de {0}</value>
+  </data>
+  <data name="forms-review-accept" xml:space="preserve">
+    <value>Acceptă</value>
+  </data>
+  <data name="forms-review-deny" xml:space="preserve">
+    <value>Respinge</value>
+  </data>
+  <data name="forms-error-not-open-yet" xml:space="preserve">
+    <value>Acest formular nu este încă deschis. Se deschide la {0}.</value>
+  </data>
+  <data name="forms-announce-default" xml:space="preserve">
+    <value>Acest formular este acum deschis pentru trimiteri.</value>
+  </data>
+  <data name="forms-field-opens-at" xml:space="preserve">
+    <value>Se deschide la (UTC)</value>
+  </data>
+  <data name="forms-field-opens-at-hint" xml:space="preserve">
+    <value>Formularul rămâne închis până la această oră, chiar și după ce este publicat. Lasă gol pentru a se deschide imediat ce este publicat.</value>
+  </data>
+  <data name="forms-field-announce-channel" xml:space="preserve">
+    <value>Anunță deschiderea în</value>
+  </data>
+  <data name="forms-field-announce-role" xml:space="preserve">
+    <value>Rol de menționat în anunț</value>
+  </data>
+  <data name="forms-field-announce-message" xml:space="preserve">
+    <value>Ce spune anunțul de deschidere</value>
+  </data>
+  <data name="forms-field-announce-message-hint" xml:space="preserve">
+    <value>Publicat o singură dată, când sosește ora deschiderii. Lasă gol pentru textul implicit.</value>
+  </data>
+  <data name="forms-question-image" xml:space="preserve">
+    <value>URL imagine</value>
+  </data>
+  <data name="forms-question-image-hint" xml:space="preserve">
+    <value>Afișată deasupra întrebării. Trebuie să fie o adresă http sau https.</value>
+  </data>
+  <data name="forms-field-allow-resubmit" xml:space="preserve">
+    <value>Permite retrimiterea după o respingere</value>
+  </data>
+  <data name="forms-field-allow-resubmit-hint" xml:space="preserve">
+    <value>Cel a cărui trimitere a fost respinsă poate trimite un răspuns corectat. Răspunsurile aprobate și în așteptare încă numără drept singura lor trimitere.</value>
+  </data>
+  <data name="forms-field-notify-role" xml:space="preserve">
+    <value>Rol de menționat la un răspuns nou</value>
+  </data>
+  <data name="forms-field-notify-role-hint" xml:space="preserve">
+    <value>Menționat în canalul de trimiteri atunci când sosește un răspuns. Rolul trebuie să fie menționabil, sau botul are nevoie de permisiune pentru a-l menționa.</value>
+  </data>
+  <data name="forms-field-submit-roles" xml:space="preserve">
+    <value>Roluri acordate la trimitere</value>
+  </data>
+  <data name="forms-field-submit-roles-hint" xml:space="preserve">
+    <value>Acordate imediat ce formularul este trimis, indiferent dacă este analizat sau nu.</value>
+  </data>
+  <data name="forms-response-dm-failed" xml:space="preserve">
+    <value>Nu s-a putut trimite DM</value>
+  </data>
+  <data name="forms-field-pending-role" xml:space="preserve">
+    <value>Rol în timp ce se așteaptă o decizie</value>
+  </data>
+  <data name="forms-field-pending-role-hint" xml:space="preserve">
+    <value>Acordat la trimiterea formularului și retras odată ce răspunsul este aprobat sau respins.</value>
+  </data>
+  <data name="forms-field-reviewer-role" xml:space="preserve">
+    <value>Rol care poate decide din Discord</value>
+  </data>
+  <data name="forms-field-reviewer-role-hint" xml:space="preserve">
+    <value>Adaugă butoane de acceptare și respingere la mesajul de trimitere, utilizabile de membrii cu acest rol. Lasă gol pentru a analiza doar din panou.</value>
+  </data>
+  <data name="forms-field-rejection-action" xml:space="preserve">
+    <value>La respingere</value>
+  </data>
+  <data name="forms-field-rejection-roles" xml:space="preserve">
+    <value>Roluri de schimbat la respingere</value>
+  </data>
+  <data name="forms-field-invite-max-uses" xml:space="preserve">
+    <value>Utilizări ale invitației</value>
+  </data>
+  <data name="forms-field-invite-max-age" xml:space="preserve">
+    <value>Valabilitatea invitației în secunde</value>
+  </data>
+  <data name="forms-type-regular" xml:space="preserve">
+    <value>Formular obișnuit</value>
+  </data>
+  <data name="forms-type-ban-appeal" xml:space="preserve">
+    <value>Contestație interdicție</value>
+  </data>
+  <data name="forms-type-join-application" xml:space="preserve">
+    <value>Cerere de aderare</value>
+  </data>
+  <data name="forms-role-action-none" xml:space="preserve">
+    <value>Nu face nimic</value>
+  </data>
+  <data name="forms-role-action-add" xml:space="preserve">
+    <value>Adaugă roluri</value>
+  </data>
+  <data name="forms-role-action-remove" xml:space="preserve">
+    <value>Elimină roluri</value>
+  </data>
+  <data name="forms-questions-title" xml:space="preserve">
+    <value>Întrebări</value>
+  </data>
+  <data name="forms-question-add" xml:space="preserve">
+    <value>Adaugă o întrebare</value>
+  </data>
+  <data name="forms-question-count" xml:space="preserve">
+    <value>{0} întrebări</value>
+  </data>
+  <data name="forms-question-untitled" xml:space="preserve">
+    <value>Întrebare fără titlu</value>
+  </data>
+  <data name="forms-question-text" xml:space="preserve">
+    <value>Întrebare</value>
+  </data>
+  <data name="forms-question-type" xml:space="preserve">
+    <value>Tip de răspuns</value>
+  </data>
+  <data name="forms-question-placeholder" xml:space="preserve">
+    <value>Marcator de poziție</value>
+  </data>
+  <data name="forms-question-required" xml:space="preserve">
+    <value>Obligatorie</value>
+  </data>
+  <data name="forms-question-min-length" xml:space="preserve">
+    <value>Lungime minimă</value>
+  </data>
+  <data name="forms-question-max-length" xml:space="preserve">
+    <value>Lungime maximă</value>
+  </data>
+  <data name="forms-question-min-value" xml:space="preserve">
+    <value>Cea mai mică valoare</value>
+  </data>
+  <data name="forms-question-max-value" xml:space="preserve">
+    <value>Cea mai mare valoare</value>
+  </data>
+  <data name="forms-question-options" xml:space="preserve">
+    <value>Opțiuni</value>
+  </data>
+  <data name="forms-question-option-add" xml:space="preserve">
+    <value>Adaugă o opțiune</value>
+  </data>
+  <data name="forms-question-duplicate" xml:space="preserve">
+    <value>Duplică întrebarea</value>
+  </data>
+  <data name="forms-question-delete" xml:space="preserve">
+    <value>Elimină</value>
+  </data>
+  <data name="forms-question-move-up" xml:space="preserve">
+    <value>Mută în sus</value>
+  </data>
+  <data name="forms-question-move-down" xml:space="preserve">
+    <value>Mută în jos</value>
+  </data>
+  <data name="forms-question-conditions" xml:space="preserve">
+    <value>Arată această întrebare doar când</value>
+  </data>
+  <data name="forms-question-type-short-text" xml:space="preserve">
+    <value>Text scurt</value>
+  </data>
+  <data name="forms-question-type-long-text" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="forms-question-type-multiple-choice" xml:space="preserve">
+    <value>Alegere multiplă</value>
+  </data>
+  <data name="forms-question-type-checkboxes" xml:space="preserve">
+    <value>Casete de bifat</value>
+  </data>
+  <data name="forms-question-type-dropdown" xml:space="preserve">
+    <value>Listă derulantă</value>
+  </data>
+  <data name="forms-question-type-number" xml:space="preserve">
+    <value>Număr</value>
+  </data>
+  <data name="forms-question-type-email" xml:space="preserve">
+    <value>Adresă de e-mail</value>
+  </data>
+  <data name="forms-question-type-url" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="forms-condition-add" xml:space="preserve">
+    <value>Adaugă o condiție</value>
+  </data>
+  <data name="forms-condition-remove" xml:space="preserve">
+    <value>Elimină condiția</value>
+  </data>
+  <data name="forms-condition-group" xml:space="preserve">
+    <value>Set de reguli</value>
+  </data>
+  <data name="forms-condition-group-hint" xml:space="preserve">
+    <value>Fiecare condiție dintr-un set de reguli trebuie să fie îndeplinită. Întrebarea este afișată atunci când orice set de reguli este îndeplinit, deci folosește un al doilea set pentru o modalitate alternativă de calificare.</value>
+  </data>
+  <data name="forms-autosave-saving" xml:space="preserve">
+    <value>Se salvează munca ta</value>
+  </data>
+  <data name="forms-autosave-saved" xml:space="preserve">
+    <value>Munca ta este salvată</value>
+  </data>
+  <data name="forms-autosave-failed" xml:space="preserve">
+    <value>Munca ta nu a putut fi salvată</value>
+  </data>
+  <data name="forms-condition-type" xml:space="preserve">
+    <value>Condiție</value>
+  </data>
+  <data name="forms-condition-question" xml:space="preserve">
+    <value>Întrebare anterioară</value>
+  </data>
+  <data name="forms-condition-operator" xml:space="preserve">
+    <value>Comparație</value>
+  </data>
+  <data name="forms-condition-value" xml:space="preserve">
+    <value>Valoare</value>
+  </data>
+  <data name="forms-condition-roles" xml:space="preserve">
+    <value>Roluri</value>
+  </data>
+  <data name="forms-condition-role-logic" xml:space="preserve">
+    <value>Potrivire rol</value>
+  </data>
+  <data name="forms-condition-days" xml:space="preserve">
+    <value>Zile</value>
+  </data>
+  <data name="forms-condition-boost" xml:space="preserve">
+    <value>Boostează serverul</value>
+  </data>
+  <data name="forms-condition-boost-yes" xml:space="preserve">
+    <value>Boostează</value>
+  </data>
+  <data name="forms-condition-boost-no" xml:space="preserve">
+    <value>Nu boostează</value>
+  </data>
+  <data name="forms-condition-permission" xml:space="preserve">
+    <value>Marcaje de permisiune</value>
+  </data>
+  <data name="forms-condition-no-earlier-questions" xml:space="preserve">
+    <value>Adaugă o întrebare înaintea acesteia pentru a-i compara răspunsul.</value>
+  </data>
+  <data name="forms-condition-type-question" xml:space="preserve">
+    <value>Răspuns la o întrebare</value>
+  </data>
+  <data name="forms-condition-type-role" xml:space="preserve">
+    <value>Roluri deținute de utilizator</value>
+  </data>
+  <data name="forms-condition-type-tenure" xml:space="preserve">
+    <value>Timp pe server</value>
+  </data>
+  <data name="forms-condition-type-account-age" xml:space="preserve">
+    <value>Vârsta contului Discord</value>
+  </data>
+  <data name="forms-condition-type-boost" xml:space="preserve">
+    <value>Stare boost</value>
+  </data>
+  <data name="forms-condition-type-permission" xml:space="preserve">
+    <value>Permisiuni deținute de utilizator</value>
+  </data>
+  <data name="forms-operator-equals" xml:space="preserve">
+    <value>este</value>
+  </data>
+  <data name="forms-operator-not-equals" xml:space="preserve">
+    <value>nu este</value>
+  </data>
+  <data name="forms-operator-contains" xml:space="preserve">
+    <value>conține</value>
+  </data>
+  <data name="forms-operator-greater-than" xml:space="preserve">
+    <value>este mai mare decât</value>
+  </data>
+  <data name="forms-operator-less-than" xml:space="preserve">
+    <value>este mai mic decât</value>
+  </data>
+  <data name="forms-operator-is-answered" xml:space="preserve">
+    <value>are orice răspuns</value>
+  </data>
+  <data name="forms-operator-is-not-answered" xml:space="preserve">
+    <value>a fost lăsat necompletat</value>
+  </data>
+  <data name="forms-role-logic-any" xml:space="preserve">
+    <value>Oricare dintre ele</value>
+  </data>
+  <data name="forms-role-logic-all" xml:space="preserve">
+    <value>Toate</value>
+  </data>
+  <data name="forms-role-logic-none" xml:space="preserve">
+    <value>Niciunul dintre ele</value>
+  </data>
+  <data name="forms-save" xml:space="preserve">
+    <value>Salvează formularul</value>
+  </data>
+  <data name="forms-back-to-list" xml:space="preserve">
+    <value>Înapoi la formulare</value>
+  </data>
+  <data name="forms-responses-count" xml:space="preserve">
+    <value>{0} răspunsuri</value>
+  </data>
+  <data name="forms-responses-empty" xml:space="preserve">
+    <value>Încă nu există răspunsuri.</value>
+  </data>
+  <data name="forms-responses-export" xml:space="preserve">
+    <value>Exportă CSV</value>
+  </data>
+  <data name="forms-response-view" xml:space="preserve">
+    <value>Vezi</value>
+  </data>
+  <data name="forms-response-delete" xml:space="preserve">
+    <value>Șterge răspunsul</value>
+  </data>
+  <data name="forms-pagination-page" xml:space="preserve">
+    <value>Pagina {0} din {1}</value>
+  </data>
+  <data name="forms-review-approve" xml:space="preserve">
+    <value>Aprobă</value>
+  </data>
+  <data name="forms-review-reject" xml:space="preserve">
+    <value>Respinge</value>
+  </data>
+  <data name="forms-review-notes" xml:space="preserve">
+    <value>Note pentru cel care a trimis</value>
+  </data>
+  <data name="forms-review-notes-placeholder" xml:space="preserve">
+    <value>Opțional. Trimis celui care a trimis odată cu decizia.</value>
+  </data>
+  <data name="forms-review-filter-all" xml:space="preserve">
+    <value>Toate</value>
+  </data>
+  <data name="forms-status-pending" xml:space="preserve">
+    <value>Așteaptă analiza</value>
+  </data>
+  <data name="forms-status-under-review" xml:space="preserve">
+    <value>În curs de analiză</value>
+  </data>
+  <data name="forms-status-approved" xml:space="preserve">
+    <value>Aprobat</value>
+  </data>
+  <data name="forms-status-rejected" xml:space="preserve">
+    <value>Respins</value>
+  </data>
+  <data name="forms-public-submit" xml:space="preserve">
+    <value>Trimite</value>
+  </data>
+  <data name="forms-public-preview-submit" xml:space="preserve">
+    <value>Trimiterea este dezactivată în timpul previzualizării</value>
+  </data>
+  <data name="forms-public-preview-banner" xml:space="preserve">
+    <value>Previzualizezi acest formular. Nimic din ce introduci aici nu este salvat.</value>
+  </data>
+  <data name="forms-public-progress" xml:space="preserve">
+    <value>{0} din {1} răspuns(e)</value>
+  </data>
+  <data name="forms-public-select-placeholder" xml:space="preserve">
+    <value>Alege o opțiune</value>
+  </data>
+  <data name="forms-public-success-default" xml:space="preserve">
+    <value>Răspunsul tău a fost trimis.</value>
+  </data>
+  <data name="forms-status-page-current" xml:space="preserve">
+    <value>Stare</value>
+  </data>
+  <data name="forms-status-page-received" xml:space="preserve">
+    <value>Primit</value>
+  </data>
+  <data name="forms-status-page-submitted" xml:space="preserve">
+    <value>Trimis</value>
+  </data>
+  <data name="forms-status-page-edited" xml:space="preserve">
+    <value>Ultima editare</value>
+  </data>
+  <data name="forms-status-page-edit" xml:space="preserve">
+    <value>Editează răspunsurile mele</value>
+  </data>
+  <data name="forms-response-edited" xml:space="preserve">
+    <value>Editat</value>
+  </data>
+  <data name="forms-response-edited-note" xml:space="preserve">
+    <value>Editat de {0} ori de când a fost trimis, cel mai recent {1}.</value>
+  </data>
+  <data name="forms-status-page-notes" xml:space="preserve">
+    <value>Note de la analizator</value>
+  </data>
+  <data name="forms-status-page-invite" xml:space="preserve">
+    <value>Invitația ta</value>
+  </data>
+  <data name="forms-status-page-keep-link" xml:space="preserve">
+    <value>Păstrează acest link pentru a-ți verifica răspunsul mai târziu.</value>
+  </data>
+  <data name="forms-embed-submitted-anonymously" xml:space="preserve">
+    <value>Trimis anonim</value>
+  </data>
+  <data name="forms-error-anonymous-with-role-actions" xml:space="preserve">
+    <value>Un formular anonim nu poate schimba roluri, deoarece nu înregistrează cine l-a trimis.</value>
+  </data>
+  <data name="forms-error-anonymous-with-workflow" xml:space="preserve">
+    <value>Contestațiile de interdicție și cererile de aderare nu pot fi anonime, deoarece aprobarea uneia necesită acțiune asupra persoanei care a trimis-o.</value>
+  </data>
+  <data name="forms-error-response-anonymous" xml:space="preserve">
+    <value>Acest răspuns a fost trimis anonim, deci nu există nimeni asupra căruia să se acționeze.</value>
+  </data>
+  <data name="forms-field-allow-anonymous" xml:space="preserve">
+    <value>Înregistrează răspunsurile anonim</value>
+  </data>
+  <data name="forms-field-allow-anonymous-hint" xml:space="preserve">
+    <value>Cei care trimit se autentifică în continuare cu Discord pentru ca formularul să poată verifica cine poate trimite, dar numele și adresa lor nu sunt stocate. Acțiunile de aprobare nu pot fi folosite.</value>
+  </data>
+  <data name="forms-field-auto-approve-roles" xml:space="preserve">
+    <value>Roluri de acordat unui solicitant aprobat</value>
+  </data>
+  <data name="forms-field-auto-approve-roles-hint" xml:space="preserve">
+    <value>Rezervate pentru solicitant și acordate atunci când se alătură prin invitație.</value>
+  </data>
+  <data name="forms-status-anonymous" xml:space="preserve">
+    <value>Anonim</value>
+  </data>
+  <data name="forms-public-anonymous-notice" xml:space="preserve">
+    <value>Acest formular este anonim. Ești autentificat pentru ca serverul să poată verifica dacă poți trimite, dar numele tău nu este salvat cu răspunsurile tale.</value>
+  </data>
+  <data name="forms-condition-type-nitro" xml:space="preserve">
+    <value>Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro" xml:space="preserve">
+    <value>Are Discord Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-yes" xml:space="preserve">
+    <value>Are Nitro</value>
+  </data>
+  <data name="forms-condition-nitro-no" xml:space="preserve">
+    <value>Nu are Nitro</value>
+  </data>
+  <data name="forms-condition-logic" xml:space="preserve">
+    <value>Combină cu</value>
+  </data>
+  <data name="forms-condition-logic-and" xml:space="preserve">
+    <value>Toate condițiile din acest grup</value>
+  </data>
+  <data name="forms-condition-logic-or" xml:space="preserve">
+    <value>Orice condiție din acest grup</value>
+  </data>
+  <data name="forms-question-piping" xml:space="preserve">
+    <value>Citează răspunsuri anterioare în această întrebare</value>
+  </data>
+  <data name="forms-question-piping-hint" xml:space="preserve">
+    <value>Scrie {{Q1}} în întrebare pentru a afișa răspunsul dat la întrebarea 1.</value>
+  </data>
+  <data name="forms-question-required-when" xml:space="preserve">
+    <value>Obligatorie doar când</value>
+  </data>
+  <data name="forms-question-required-when-none" xml:space="preserve">
+    <value>Folosește întotdeauna setarea de mai sus</value>
+  </data>
+  <data name="forms-public-review-title" xml:space="preserve">
+    <value>Verifică-ți răspunsurile</value>
+  </data>
+  <data name="forms-public-review-subtitle" xml:space="preserve">
+    <value>Nu s-a trimis încă nimic. Citește-ți răspunsurile, apoi trimite-le.</value>
+  </data>
+  <data name="forms-public-review-continue" xml:space="preserve">
+    <value>Verifică răspunsurile</value>
+  </data>
+  <data name="forms-public-review-back" xml:space="preserve">
+    <value>Schimbă răspunsurile</value>
+  </data>
+  <data name="forms-public-review-confirm" xml:space="preserve">
+    <value>Trimite răspunsurile</value>
+  </data>
+  <data name="forms-questions-empty" xml:space="preserve">
+    <value>Încă nu există întrebări. Adaugă una pentru a începe.</value>
+  </data>
+  <data name="forms-question-pick-type" xml:space="preserve">
+    <value>Ce tip de răspuns dorești?</value>
+  </data>
+  <data name="forms-question-edit-details" xml:space="preserve">
+    <value>Editează detaliile</value>
+  </data>
+  <data name="forms-question-hide-details" xml:space="preserve">
+    <value>Ascunde detaliile</value>
+  </data>
+  <data name="forms-question-text-placeholder" xml:space="preserve">
+    <value>Scrie întrebarea ta aici</value>
+  </data>
+  <data name="forms-question-badge-conditional" xml:space="preserve">
+    <value>Condiționată</value>
+  </data>
+  <data name="forms-question-badge-piping" xml:space="preserve">
+    <value>Citează un răspuns</value>
+  </data>
+  <data name="forms-question-type-short-text-hint" xml:space="preserve">
+    <value>O singură linie de text</value>
+  </data>
+  <data name="forms-question-type-long-text-hint" xml:space="preserve">
+    <value>Un răspuns mai lung, cu mai multe linii</value>
+  </data>
+  <data name="forms-question-type-multiple-choice-hint" xml:space="preserve">
+    <value>O opțiune dintr-o listă</value>
+  </data>
+  <data name="forms-question-type-checkboxes-hint" xml:space="preserve">
+    <value>Orice număr de opțiuni</value>
+  </data>
+  <data name="forms-question-type-dropdown-hint" xml:space="preserve">
+    <value>O opțiune dintr-un meniu</value>
+  </data>
+  <data name="forms-question-type-number-hint" xml:space="preserve">
+    <value>Un număr, opțional limitat</value>
+  </data>
+  <data name="forms-question-type-email-hint" xml:space="preserve">
+    <value>O adresă de e-mail</value>
+  </data>
+  <data name="forms-question-type-url-hint" xml:space="preserve">
+    <value>Un link care începe cu http</value>
+  </data>
+  <data name="forms-error-piping-self-reference" xml:space="preserve">
+    <value>Întrebarea {0} citează propriul răspuns, care nu există încă atunci când întrebarea este pusă.</value>
+  </data>
+  <data name="forms-error-piping-forward-reference" xml:space="preserve">
+    <value>Întrebarea {1} citează întrebarea {0}, care este pusă mai târziu. O întrebare poate cita doar una care o precede.</value>
+  </data>
+  <data name="forms-error-piping-unknown-question" xml:space="preserve">
+    <value>O întrebare citează întrebarea {0}, dar acest formular are doar {1} întrebări.</value>
+  </data>
+  <data name="forms-type-regular-hint" xml:space="preserve">
+    <value>Pentru persoane deja pe server</value>
+  </data>
+  <data name="forms-type-ban-appeal-hint" xml:space="preserve">
+    <value>Permite persoanelor interzise să ceară să revină</value>
+  </data>
+  <data name="forms-type-join-application-hint" xml:space="preserve">
+    <value>Permite persoanelor din exterior să solicite aderarea</value>
+  </data>
+  <data name="forms-field-require-approval-hint" xml:space="preserve">
+    <value>Contestațiile și cererile sunt întotdeauna analizate.</value>
+  </data>
+  <data name="audit-category-session" xml:space="preserve">
+    <value>Autentificare și server</value>
+  </data>
+  <data name="audit-category-protection" xml:space="preserve">
+    <value>Protecție</value>
+  </data>
+  <data name="audit-category-roles" xml:space="preserve">
+    <value>Roluri și roluri auto-atribuibile</value>
+  </data>
+  <data name="audit-category-tickets" xml:space="preserve">
+    <value>Tichete</value>
+  </data>
+  <data name="audit-category-custom-commands" xml:space="preserve">
+    <value>Comenzi și răspunsuri automate</value>
+  </data>
+  <data name="audit-category-verification" xml:space="preserve">
+    <value>Verificare</value>
+  </data>
+  <data name="audit-category-logging" xml:space="preserve">
+    <value>Jurnalizare</value>
+  </data>
+  <data name="audit-category-chat-bot" xml:space="preserve">
+    <value>Chatbot</value>
+  </data>
+  <data name="audit-category-other" xml:space="preserve">
+    <value>Altele</value>
+  </data>
+  <data name="audit-category-unclassified" xml:space="preserve">
+    <value>Nicio funcție înregistrată</value>
+  </data>
+  <data name="audit-filter-title" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="audit-filter-feature" xml:space="preserve">
+    <value>Funcție</value>
+  </data>
+  <data name="audit-filter-actor" xml:space="preserve">
+    <value>Modificat de</value>
+  </data>
+  <data name="audit-filter-period" xml:space="preserve">
+    <value>Interval de timp</value>
+  </data>
+  <data name="audit-period-any" xml:space="preserve">
+    <value>Oricând</value>
+  </data>
+  <data name="audit-period-24h" xml:space="preserve">
+    <value>Ultimele 24 de ore</value>
+  </data>
+  <data name="audit-period-7d" xml:space="preserve">
+    <value>Ultimele 7 zile</value>
+  </data>
+  <data name="audit-period-30d" xml:space="preserve">
+    <value>Ultimele 30 de zile</value>
+  </data>
+  <data name="audit-period-90d" xml:space="preserve">
+    <value>Ultimele 3 luni</value>
+  </data>
+  <data name="audit-period-custom" xml:space="preserve">
+    <value>Interval personalizat</value>
+  </data>
+  <data name="audit-filter-from" xml:space="preserve">
+    <value>De la</value>
+  </data>
+  <data name="audit-filter-to" xml:space="preserve">
+    <value>Până la</value>
+  </data>
+  <data name="audit-filter-detailed-only" xml:space="preserve">
+    <value>Doar intrări cu detalii de modificare</value>
+  </data>
+  <data name="audit-filter-search" xml:space="preserve">
+    <value>Caută rezumate, nume și valori</value>
+  </data>
+  <data name="audit-sort" xml:space="preserve">
+    <value>Ordine</value>
+  </data>
+  <data name="audit-sort-newest" xml:space="preserve">
+    <value>Cele mai noi primele</value>
+  </data>
+  <data name="audit-sort-oldest" xml:space="preserve">
+    <value>Cele mai vechi primele</value>
+  </data>
+  <data name="audit-per-page" xml:space="preserve">
+    <value>Intrări pe pagină</value>
+  </data>
+  <data name="audit-results-range" xml:space="preserve">
+    <value>Se afișează {0} până la {1} din {2}</value>
+  </data>
+  <data name="audit-results-none" xml:space="preserve">
+    <value>Nicio intrare nu corespunde acestor filtre.</value>
+  </data>
+  <data name="audit-results-empty" xml:space="preserve">
+    <value>Nimic nu a fost modificat din panou încă.</value>
+  </data>
+  <data name="audit-detail-field" xml:space="preserve">
+    <value>Câmp</value>
+  </data>
+  <data name="audit-detail-before" xml:space="preserve">
+    <value>Era</value>
+  </data>
+  <data name="audit-detail-after" xml:space="preserve">
+    <value>Acum</value>
+  </data>
+  <data name="audit-detail-empty-value" xml:space="preserve">
+    <value>nimic</value>
+  </data>
+  <data name="audit-detail-changes" xml:space="preserve">
+    <value>{0} câmp(uri) modificat(e)</value>
+  </data>
+  <data name="audit-target-label" xml:space="preserve">
+    <value>Afectat</value>
+  </data>
+  <data name="audit-log-type-updated" xml:space="preserve">
+    <value>Jurnalizare actualizată pentru {0}</value>
+  </data>
+  <data name="audit-target-automodcategory" xml:space="preserve">
+    <value>Verificare AutoMod</value>
+  </data>
+  <data name="audit-target-banannouncement" xml:space="preserve">
+    <value>Anunț interdicție</value>
+  </data>
+  <data name="audit-target-banner" xml:space="preserve">
+    <value>Banner</value>
+  </data>
+  <data name="audit-target-birthday" xml:space="preserve">
+    <value>Zi de naștere</value>
+  </data>
+  <data name="audit-target-boostannouncement" xml:space="preserve">
+    <value>Anunț boost</value>
+  </data>
+  <data name="audit-target-economyboost" xml:space="preserve">
+    <value>Boost economie</value>
+  </data>
+  <data name="audit-target-economyitem" xml:space="preserve">
+    <value>Articol economie</value>
+  </data>
+  <data name="audit-target-fileextensions" xml:space="preserve">
+    <value>Extensii de fișier</value>
+  </data>
+  <data name="audit-target-formresponse" xml:space="preserve">
+    <value>Răspuns formular</value>
+  </data>
+  <data name="audit-target-joinannouncement" xml:space="preserve">
+    <value>Anunț intrare</value>
+  </data>
+  <data name="audit-target-leaveannouncement" xml:space="preserve">
+    <value>Anunț plecare</value>
+  </data>
+  <data name="audit-target-levelroles" xml:space="preserve">
+    <value>Roluri de nivel</value>
+  </data>
+  <data name="audit-target-linkwhitelist" xml:space="preserve">
+    <value>Listă albă de linkuri</value>
+  </data>
+  <data name="audit-target-messagesimilarity" xml:space="preserve">
+    <value>Similaritate mesaje</value>
+  </data>
+  <data name="audit-target-samejoin" xml:space="preserve">
+    <value>Intrări identice</value>
+  </data>
+  <data name="audit-target-seasonaldrops" xml:space="preserve">
+    <value>Drop-uri sezoniere</value>
+  </data>
+  <data name="audit-target-selfrolegroup" xml:space="preserve">
+    <value>Grup de roluri auto-atribuibile</value>
+  </data>
+  <data name="audit-target-statchannel" xml:space="preserve">
+    <value>Canal de statistici</value>
+  </data>
+  <data name="audit-target-streakroles" xml:space="preserve">
+    <value>Roluri de serie</value>
+  </data>
+  <data name="audit-target-ticketpanel" xml:space="preserve">
+    <value>Panou de tichete</value>
+  </data>
+  <data name="audit-glance-view-all" xml:space="preserve">
+    <value>Deschide jurnalul complet</value>
+  </data>
+  <data name="audit-alert-settings-updated" xml:space="preserve">
+    <value>Alertele de modificare a panoului au fost actualizate</value>
+  </data>
+  <data name="audit-alert-title" xml:space="preserve">
+    <value>Alerte de Modificare a Panoului</value>
+  </data>
+  <data name="audit-alert-channel" xml:space="preserve">
+    <value>Canal de Alerte al Panoului</value>
+  </data>
+  <data name="audit-alert-channel-hint" xml:space="preserve">
+    <value>Unde sunt anunțate modificările panoului. Lasă pe niciunul pentru a nu anunța nimic.</value>
+  </data>
+  <data name="audit-alert-critical" xml:space="preserve">
+    <value>Alertează întotdeauna la modificări de acces și jurnal</value>
+  </data>
+  <data name="audit-alert-features" xml:space="preserve">
+    <value>Alertează la modificări în aceste funcții</value>
+  </data>
+  <data name="audit-alert-features-hint" xml:space="preserve">
+    <value>Alege niciuna pentru a fi alertat doar despre modificările de mai sus. Totul este oricum înregistrat în jurnal.</value>
+  </data>
+  <data name="audit-entry-permalink" xml:space="preserve">
+    <value>Link către această intrare</value>
+  </data>
+  <data name="audit-showing-one" xml:space="preserve">
+    <value>Se afișează o singură intrare.</value>
+  </data>
+  <data name="audit-show-all" xml:space="preserve">
+    <value>Arată tot jurnalul</value>
+  </data>
+  <data name="audit-group-summary" xml:space="preserve">
+    <value>{0} modificări într-o singură sesiune</value>
+  </data>
+  <data name="audit-log-entries-deleted" xml:space="preserve">
+    <value>{0} intrări șterse din acest jurnal</value>
+  </data>
+  <data name="audit-achievement-added" xml:space="preserve">
+    <value>A fost creată o realizare</value>
+  </data>
+  <data name="audit-achievement-updated" xml:space="preserve">
+    <value>A fost actualizată o realizare</value>
+  </data>
+  <data name="audit-banner-updated" xml:space="preserve">
+    <value>Banner-ul {0} a fost actualizat</value>
+  </data>
+  <data name="audit-banner-type-leveling" xml:space="preserve">
+    <value>carte de rang</value>
+  </data>
+  <data name="audit-banner-type-welcome" xml:space="preserve">
+    <value>bun venit</value>
+  </data>
+  <data name="audit-banner-type-goodbye" xml:space="preserve">
+    <value>la revedere</value>
+  </data>
+  <data name="audit-auto-role-updated" xml:space="preserve">
+    <value>Rolurile acordate la intrare au fost actualizate</value>
+  </data>
+  <data name="audit-announcement-updated" xml:space="preserve">
+    <value>Anunț actualizat: {0}</value>
+  </data>
+  <data name="audit-automod-feature" xml:space="preserve">
+    <value>AutoMod actualizat: {0}</value>
+  </data>
+  <data name="embed-preview-title" xml:space="preserve">
+    <value>Previzualizează acest embed</value>
+  </data>
+  <data name="embed-preview-none" xml:space="preserve">
+    <value>Alege un embed salvat pentru a-l previzualiza.</value>
+  </data>
+  <data name="ticket-automation-title" xml:space="preserve">
+    <value>Automatizare</value>
+  </data>
+  <data name="ticket-auto-remind" xml:space="preserve">
+    <value>Reamintire automată</value>
+  </data>
+  <data name="ticket-auto-remind-desc" xml:space="preserve">
+    <value>Reamintește deschizătorului tichetului atunci când nu a răspuns de ceva vreme.</value>
+  </data>
+  <data name="ticket-auto-remind-days" xml:space="preserve">
+    <value>Reamintește după (Zile)</value>
+  </data>
+  <data name="ticket-auto-close-no-response" xml:space="preserve">
+    <value>Închidere automată fără răspuns</value>
+  </data>
+  <data name="ticket-auto-close-no-response-desc" xml:space="preserve">
+    <value>Închide un tichet al cărui deschizător a încetat să răspundă.</value>
+  </data>
+  <data name="ticket-auto-close-days" xml:space="preserve">
+    <value>Închide după (Zile)</value>
+  </data>
+  <data name="ticket-auto-close-user-left" xml:space="preserve">
+    <value>Închidere automată când deschizătorul pleacă</value>
+  </data>
+  <data name="ticket-error-invalid-remind-days" xml:space="preserve">
+    <value>Reamintirea trebuie să fie între 1 și 365 de zile.</value>
+  </data>
+  <data name="ticket-error-invalid-close-days" xml:space="preserve">
+    <value>Închiderea trebuie să fie între 1 și 365 de zile.</value>
+  </data>
+  <data name="audit-ticket-automation" xml:space="preserve">
+    <value>Setările de automatizare a tichetelor au fost actualizate</value>
+  </data>
+  <data name="ticket-manager-title" xml:space="preserve">
+    <value>Manager de Tichete</value>
+  </data>
+  <data name="ticket-manager-subtitle" xml:space="preserve">
+    <value>Vezi și acționează asupra tichetelor de suport ale acestui server.</value>
+  </data>
+  <data name="ticket-manager-empty" xml:space="preserve">
+    <value>Niciun tichet nu a fost deschis încă pe acest server.</value>
+  </data>
+  <data name="ticket-manager-search" xml:space="preserve">
+    <value>Caută tichete...</value>
+  </data>
+  <data name="ticket-column-channel" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="ticket-column-opener" xml:space="preserve">
+    <value>Deschis de</value>
+  </data>
+  <data name="ticket-column-claimer" xml:space="preserve">
+    <value>Revendicat de</value>
+  </data>
+  <data name="ticket-column-status" xml:space="preserve">
+    <value>Stare</value>
+  </data>
+  <data name="ticket-column-last-activity" xml:space="preserve">
+    <value>Ultima activitate</value>
+  </data>
+  <data name="ticket-column-actions" xml:space="preserve">
+    <value>Acțiuni</value>
+  </data>
+  <data name="ticket-unclaimed" xml:space="preserve">
+    <value>Nerevendicat</value>
+  </data>
+  <data name="ticket-waiting-on-staff" xml:space="preserve">
+    <value>Așteaptă echipa</value>
+  </data>
+  <data name="ticket-no-activity" xml:space="preserve">
+    <value>Încă niciun mesaj</value>
+  </data>
+  <data name="ticket-orphaned-note" xml:space="preserve">
+    <value>Unele tichete indică spre un canal care nu mai există. Ștergerea lor curăță rândurile rămase.</value>
+  </data>
+  <data name="ticket-stat-stale" xml:space="preserve">
+    <value>Așteaptă Echipa</value>
+  </data>
+  <data name="ticket-stat-median-reply" xml:space="preserve">
+    <value>Mediana Primului Răspuns</value>
+  </data>
+  <data name="ticket-stat-none" xml:space="preserve">
+    <value>N/D</value>
+  </data>
+  <data name="ticket-categories-title" xml:space="preserve">
+    <value>Categorii de Tichete</value>
+  </data>
+  <data name="ticket-categories-desc" xml:space="preserve">
+    <value>Tichetele umplu categoria cu cel mai mic număr care mai are loc. Discord limitează o categorie la 50 de canale.</value>
+  </data>
+  <data name="ticket-category-primary" xml:space="preserve">
+    <value>Principală</value>
+  </data>
+  <data name="ticket-category-overflow" xml:space="preserve">
+    <value>Depășire nr. {0}</value>
+  </data>
+  <data name="ticket-category-missing" xml:space="preserve">
+    <value>Șters din Discord</value>
+  </data>
+  <data name="ticket-category-usage" xml:space="preserve">
+    <value>{0} / 50 de canale</value>
+  </data>
+  <data name="ticket-categories-empty" xml:space="preserve">
+    <value>Încă nu există categorii de tichete. Una este creată când este deschis primul tichet.</value>
+  </data>
+  <data name="ticket-action-close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="ticket-action-reopen" xml:space="preserve">
+    <value>Redeschide</value>
+  </data>
+  <data name="ticket-action-delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="ticket-action-claim" xml:space="preserve">
+    <value>Revendică</value>
+  </data>
+  <data name="ticket-action-unclaim" xml:space="preserve">
+    <value>Renunță</value>
+  </data>
+  <data name="ticket-action-add-user" xml:space="preserve">
+    <value>Adaugă Utilizator</value>
+  </data>
+  <data name="ticket-action-remove-user" xml:space="preserve">
+    <value>Elimină Utilizator</value>
+  </data>
+  <data name="ticket-action-remind" xml:space="preserve">
+    <value>Reamintește</value>
+  </data>
+  <data name="ticket-action-reply" xml:space="preserve">
+    <value>Răspuns Anonim</value>
+  </data>
+  <data name="ticket-action-confirm-delete" xml:space="preserve">
+    <value>Ștergi acest tichet și canalul său? Această acțiune nu poate fi anulată.</value>
+  </data>
+  <data name="ticket-action-user-label" xml:space="preserve">
+    <value>Utilizator</value>
+  </data>
+  <data name="ticket-action-message-label" xml:space="preserve">
+    <value>Mesaj</value>
+  </data>
+  <data name="ticket-success-closed" xml:space="preserve">
+    <value>Tichet închis.</value>
+  </data>
+  <data name="ticket-success-reopened" xml:space="preserve">
+    <value>Tichet redeschis.</value>
+  </data>
+  <data name="ticket-success-deleted" xml:space="preserve">
+    <value>Tichet șters.</value>
+  </data>
+  <data name="ticket-success-claimed" xml:space="preserve">
+    <value>Tichet revendicat.</value>
+  </data>
+  <data name="ticket-success-unclaimed" xml:space="preserve">
+    <value>Tichet abandonat.</value>
+  </data>
+  <data name="ticket-success-user-added" xml:space="preserve">
+    <value>Utilizator adăugat la tichet.</value>
+  </data>
+  <data name="ticket-success-user-removed" xml:space="preserve">
+    <value>Utilizator eliminat din tichet.</value>
+  </data>
+  <data name="ticket-success-reminded" xml:space="preserve">
+    <value>Reamintire trimisă deschizătorului tichetului.</value>
+  </data>
+  <data name="ticket-success-replied" xml:space="preserve">
+    <value>Răspuns trimis la tichet.</value>
+  </data>
+  <data name="ticket-error-not-found" xml:space="preserve">
+    <value>Acel tichet nu mai există.</value>
+  </data>
+  <data name="ticket-error-already-closed" xml:space="preserve">
+    <value>Acel tichet este deja închis.</value>
+  </data>
+  <data name="ticket-error-already-open" xml:space="preserve">
+    <value>Acel tichet este deja deschis.</value>
+  </data>
+  <data name="ticket-error-channel-gone" xml:space="preserve">
+    <value>Canalul acelui tichet nu mai există în Discord.</value>
+  </data>
+  <data name="ticket-error-action-failed" xml:space="preserve">
+    <value>Botul nu a putut efectua acea acțiune. Verifică permisiunile sale în canalul tichetului.</value>
+  </data>
+  <data name="ticket-error-remind-failed" xml:space="preserve">
+    <value>Reamintirea nu a putut fi trimisă. Este posibil ca deschizătorul să aibă mesajele directe dezactivate.</value>
+  </data>
+  <data name="ticket-error-message-required" xml:space="preserve">
+    <value>Introdu un mesaj de trimis.</value>
+  </data>
+  <data name="ticket-error-message-too-long" xml:space="preserve">
+    <value>Un răspuns nu poate depăși 2000 de caractere.</value>
+  </data>
+  <data name="ticket-error-invalid-user" xml:space="preserve">
+    <value>Alege un utilizator valid.</value>
+  </data>
+  <data name="ticket-close-web-note" xml:space="preserve">
+    <value>Închiderea din panou face același lucru ca închiderea în Discord: blochează canalul, salvează transcrierea, încarcă copia HTML și trimite DM-ul de închidere și cererea de evaluare.</value>
+  </data>
+  <data name="audit-ticket-closed" xml:space="preserve">
+    <value>A fost închis un tichet</value>
+  </data>
+  <data name="audit-ticket-reopened" xml:space="preserve">
+    <value>A fost redeschis un tichet</value>
+  </data>
+  <data name="audit-ticket-deleted" xml:space="preserve">
+    <value>A fost șters un tichet</value>
+  </data>
+  <data name="audit-ticket-claimed" xml:space="preserve">
+    <value>A fost revendicat un tichet</value>
+  </data>
+  <data name="audit-ticket-unclaimed" xml:space="preserve">
+    <value>A fost abandonat un tichet</value>
+  </data>
+  <data name="audit-ticket-user-added" xml:space="preserve">
+    <value>A fost adăugat un utilizator la un tichet</value>
+  </data>
+  <data name="audit-ticket-user-removed" xml:space="preserve">
+    <value>A fost eliminat un utilizator dintr-un tichet</value>
+  </data>
+  <data name="audit-ticket-reminded" xml:space="preserve">
+    <value>A fost trimisă o reamintire de tichet</value>
+  </data>
+  <data name="audit-ticket-replied" xml:space="preserve">
+    <value>A fost trimis un răspuns anonim de tichet</value>
+  </data>
+  <data name="audit-target-ticket" xml:space="preserve">
+    <value>Tichet</value>
+  </data>
+  <data name="generic-word-open" xml:space="preserve">
+    <value>Deschis</value>
+  </data>
+  <data name="generic-word-closed" xml:space="preserve">
+    <value>Închis</value>
+  </data>
+  <data name="ticket-ticket" xml:space="preserve">
+    <value>Tichet:</value>
+  </data>
+  <data name="ticket-opened-by" xml:space="preserve">
+    <value>Tichet Deschis De:</value>
+  </data>
+  <data name="ticket-saved-by" xml:space="preserve">
+    <value>Salvat De:</value>
+  </data>
+  <data name="ticket-message-count" xml:space="preserve">
+    <value>Număr de Mesaje:</value>
+  </data>
+  <data name="ticket-reply-counts" xml:space="preserve">
+    <value>Număr de Răspunsuri:</value>
+  </data>
+  <data name="ticket-rating" xml:space="preserve">
+    <value>Evaluare:</value>
+  </data>
+  <data name="ticket-rating-unavailable" xml:space="preserve">
+    <value>Trimis, Se Așteaptă Evaluarea...</value>
+  </data>
+  <data name="ticket-rating-off" xml:space="preserve">
+    <value>Dezactivată</value>
+  </data>
+  <data name="ticket-closed-dm" xml:space="preserve">
+    <value>Tichetul tău de suport din {0} a fost închis.
+            **Închis De:** {1} [{2}] ({3})
+            **{4}** {5}</value>
+  </data>
+  <data name="ticket-success-transcript" xml:space="preserve">
+    <value>Transcriere salvată în canalul de transcrieri.</value>
+  </data>
+  <data name="ticket-transcript" xml:space="preserve">
+    <value>Transcriere</value>
+  </data>
+  <data name="ticket-rating-request" xml:space="preserve">
+    <value>**Te rugăm să evaluezi experiența ta cu membrul echipei care te-a ajutat.**</value>
+  </data>
+  <data name="ticket-column-rating" xml:space="preserve">
+    <value>Evaluare</value>
+  </data>
+  <data name="ticket-rating-none" xml:space="preserve">
+    <value>Nesolicitată</value>
+  </data>
+  <data name="ticket-stat-average-rating" xml:space="preserve">
+    <value>Evaluare Medie</value>
+  </data>
+  <data name="ticket-stat-awaiting-rating" xml:space="preserve">
+    <value>Așteaptă Evaluare</value>
+  </data>
+  <data name="ticket-panel-send-title" xml:space="preserve">
+    <value>Trimite Panoul de Tichete</value>
+  </data>
+  <data name="ticket-panel-send-channel" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="ticket-panel-send-button" xml:space="preserve">
+    <value>Trimite Panoul</value>
+  </data>
+  <data name="ticket-panel-send-success" xml:space="preserve">
+    <value>Panou de tichete trimis.</value>
+  </data>
+  <data name="ticket-error-panel-channel" xml:space="preserve">
+    <value>Alege un canal către care să trimiți panoul.</value>
+  </data>
+  <data name="ticket-open-default-message" xml:space="preserve">
+    <value>Fă clic pe butonul de mai jos pentru a crea un tichet de suport.</value>
+  </data>
+  <data name="audit-ticket-panel-sent" xml:space="preserve">
+    <value>A fost trimis un panou de tichete</value>
+  </data>
+  <data name="ticket-error-panel-not-found" xml:space="preserve">
+    <value>Acel panou nu mai există.</value>
+  </data>
+  <data name="ticket-error-panel-last" xml:space="preserve">
+    <value>Un server trebuie să păstreze cel puțin un panou.</value>
+  </data>
+  <data name="ticket-error-invalid-mode" xml:space="preserve">
+    <value>Alege un tip de tichet valid.</value>
+  </data>
+  <data name="ticket-error-invalid-thread-parent" xml:space="preserve">
+    <value>Alege un canal valid pentru fire de discuție.</value>
+  </data>
+  <data name="ticket-error-thread-parent-required" xml:space="preserve">
+    <value>Alege un canal în care să se deschidă firele de discuție, altfel acest panou nu poate crea tichete.</value>
+  </data>
+  <data name="ticket-panel-created" xml:space="preserve">
+    <value>Panou creat.</value>
+  </data>
+  <data name="ticket-panel-deleted" xml:space="preserve">
+    <value>Panou șters.</value>
+  </data>
+  <data name="ticket-mode-label" xml:space="preserve">
+    <value>Tip Tichet</value>
+  </data>
+  <data name="ticket-mode-channel" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="ticket-mode-private-thread" xml:space="preserve">
+    <value>Fir de Discuție Privat</value>
+  </data>
+  <data name="ticket-mode-public-thread" xml:space="preserve">
+    <value>Fir de Discuție Public</value>
+  </data>
+  <data name="ticket-mode-public-warning" xml:space="preserve">
+    <value>Un fir de discuție public poate fi citit de oricine poate vedea canalul părinte.</value>
+  </data>
+  <data name="ticket-thread-parent-label" xml:space="preserve">
+    <value>Canal Fir de Discuție</value>
+  </data>
+  <data name="ticket-panels-title" xml:space="preserve">
+    <value>Panouri</value>
+  </data>
+  <data name="ticket-panel-add" xml:space="preserve">
+    <value>Adaugă Panou</value>
+  </data>
+  <data name="ticket-panel-delete" xml:space="preserve">
+    <value>Șterge Panoul</value>
+  </data>
+  <data name="ticket-panel-delete-confirm" xml:space="preserve">
+    <value>Ștergi acest panou? Tichetele deja deschise din el continuă să funcționeze.</value>
+  </data>
+  <data name="ticket-panel-posted-count" xml:space="preserve">
+    <value>Postat în {0} canal(e)</value>
+  </data>
+  <data name="ticket-panel-not-posted" xml:space="preserve">
+    <value>Încă nepostat</value>
+  </data>
+  <data name="ticket-panel-refresh" xml:space="preserve">
+    <value>Actualizează Panourile Postate</value>
+  </data>
+  <data name="ticket-panel-refresh-desc" xml:space="preserve">
+    <value>Rescrie panourile deja postate pentru acest panou astfel încât să corespundă setărilor de mai sus.</value>
+  </data>
+  <data name="ticket-panel-refresh-success" xml:space="preserve">
+    <value>{0} panou(ri) postat(e) actualizat(e).</value>
+  </data>
+  <data name="audit-ticket-panel-created" xml:space="preserve">
+    <value>A fost creat un panou de tichete</value>
+  </data>
+  <data name="audit-ticket-panel-deleted" xml:space="preserve">
+    <value>A fost șters un panou de tichete</value>
+  </data>
+  <data name="audit-ticket-panel-mode" xml:space="preserve">
+    <value>A fost schimbat tipul unui panou de tichete</value>
+  </data>
+  <data name="audit-ticket-panel-refreshed" xml:space="preserve">
+    <value>Panourile de tichete postate au fost actualizate</value>
+  </data>
+  <data name="ticket-column-panel" xml:space="preserve">
+    <value>Panou</value>
+  </data>
+  <data name="ticket-filter-all-panels" xml:space="preserve">
+    <value>Toate Panourile</value>
+  </data>
+  <data name="ticket-panel-unknown" xml:space="preserve">
+    <value>Niciun Panou</value>
+  </data>
+  <data name="ticket-stat-median-close" xml:space="preserve">
+    <value>Timp Median Până la Închidere</value>
+  </data>
+  <data name="ticket-general-title" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="ticket-error-panel-limit" xml:space="preserve">
+    <value>Un server poate avea până la {0} panouri.</value>
+  </data>
+  <data name="ticket-closed-by" xml:space="preserve">
+    <value>Tichet închis de {0}</value>
+  </data>
+  <data name="ticket-reopened-by" xml:space="preserve">
+    <value>Tichet redeschis de {0}</value>
+  </data>
+  <data name="ticket-user-added" xml:space="preserve">
+    <value>{0} a fost adăugat cu succes la tichet.
+            Solicitat de {1}</value>
+  </data>
+  <data name="ticket-user-removed" xml:space="preserve">
+    <value>{0} a fost eliminat cu succes din tichet.
+            Solicitat de {1}</value>
+  </data>
+  <data name="ticket-remind-body" xml:space="preserve">
+    <value>Aceasta este o reamintire că tichetul tău din `{0}` este încă deschis. Te rugăm să răspunzi dacă mai ai nevoie de asistență.</value>
+  </data>
+  <data name="ticket-remind-sent" xml:space="preserve">
+    <value>&lt;@{0}&gt; a trimis o reamintire lui &lt;@{1}&gt;.</value>
+  </data>
+  <data name="ticket-support-reply-title" xml:space="preserve">
+    <value>Răspuns al Echipei de Suport</value>
+  </data>
+  <data name="ticket-deleting-soon" xml:space="preserve">
+    <value>Tichetul va fi șters în câteva secunde.</value>
+  </data>
+  <data name="ticket-claimed-by" xml:space="preserve">
+    <value>Tichet revendicat de {0}</value>
+  </data>
+  <data name="ticket-unclaimed-by" xml:space="preserve">
+    <value>Tichet abandonat de {0}</value>
+  </data>
+  <data name="ticket-claimed-by-other" xml:space="preserve">
+    <value>Acest tichet a fost deja revendicat de {0}.</value>
+  </data>
+  <data name="ticket-error-support-role-unset" xml:space="preserve">
+    <value>Trebuie mai întâi să setezi un rol de Echipă de Suport pentru acest panou.</value>
+  </data>
+  <data name="ticket-error-support-role-needed" xml:space="preserve">
+    <value>Trebuie să ai rolul {0} pentru a face asta.</value>
+  </data>
+  <data name="ticket-error-panel-has-open" xml:space="preserve">
+    <value>Acest panou mai are încă {0} tichet(e) deschis(e). Închide-le mai întâi.</value>
+  </data>
+  <data name="ticket-error-panel-gone" xml:space="preserve">
+    <value>Panoul căruia îi aparține acest tichet a fost șters.</value>
+  </data>
+  <data name="starboard-max-message-age-hint" xml:space="preserve">
+    <value>Mesajele mai vechi de atât nu sunt adăugate la starboard. 0 înseamnă fără limită.</value>
+  </data>
+  <data name="moderation-report-channel-hint" xml:space="preserve">
+    <value>Unde sunt postate mesajele raportate prin meniul contextual Raportează Mesaj. Raportarea este indisponibilă până când este setat unul.</value>
+  </data>
+  <data name="moderation-timeout-channel-hint" xml:space="preserve">
+    <value>Unde sunt înregistrate întreruperile aplicate în afara botului, cum ar fi prin Discord însuși. Lasă pe niciunul pentru a nu le înregistra.</value>
+  </data>
+  <data name="notes-staff-role-hint" xml:space="preserve">
+    <value>Membrii cu acest rol pot vedea și edita notele serverului și cele publice. Administratorii și membrii cu Gestionare Server pot întotdeauna.</value>
+  </data>
+  <data name="stat-channel-placeholders-hint" xml:space="preserve">
+    <value>Numele canalelor și mesajul de statistici acceptă marcatorii obișnuiți ai serverului, deci un nume poate conține mai multe statistici. Vezi &lt;strong&gt;&lt;a href='{0}' class='info'&gt;Referința Marcatorilor&lt;/a&gt;&lt;/strong&gt; pentru lista completă.</value>
+  </data>
+  <data name="economy-boost-error-name-required" xml:space="preserve">
+    <value>Un boost are nevoie de un nume.</value>
+  </data>
+  <data name="stat-channel-custom-title" xml:space="preserve">
+    <value>Canale de Statistici Personalizate</value>
+  </data>
+  <data name="stat-channel-custom-description" xml:space="preserve">
+    <value>Canale vocale denumite cum dorești, cu orice combinație de statistici într-un nume. Botul creează fiecare sub categoria de statistici și îl menține actualizat la fiecare 20 de minute. Până la 10.</value>
+  </data>
+  <data name="stat-channel-custom-template" xml:space="preserve">
+    <value>Șablon nume canal</value>
+  </data>
+  <data name="stat-channel-custom-hint" xml:space="preserve">
+    <value>Discord permite 100 de caractere pentru un nume de canal.</value>
+  </data>
+  <data name="stat-channel-custom-add" xml:space="preserve">
+    <value>Adaugă Canal de Statistici</value>
+  </data>
+  <data name="stat-channel-custom-added" xml:space="preserve">
+    <value>Canalul va fi creat în decurs de 20 de minute.</value>
+  </data>
+  <data name="stat-channel-custom-pending" xml:space="preserve">
+    <value>Se creează în 20 de minute</value>
+  </data>
+  <data name="stat-channel-custom-error-length" xml:space="preserve">
+    <value>Un șablon de nume de canal poate avea cel mult 100 de caractere.</value>
+  </data>
+  <data name="stat-channel-custom-error-not-found" xml:space="preserve">
+    <value>Acel canal de statistici personalizat nu mai există.</value>
+  </data>
+  <data name="audit-stat-channel-entry-added" xml:space="preserve">
+    <value>A fost adăugat un canal de statistici personalizat.</value>
+  </data>
+  <data name="audit-stat-channel-entry-removed" xml:space="preserve">
+    <value>A fost eliminat un canal de statistici personalizat.</value>
+  </data>
+  <data name="stat-channel-message-title" xml:space="preserve">
+    <value>Mesaj de Statistici</value>
+  </data>
+  <data name="stat-channel-message-description" xml:space="preserve">
+    <value>În loc de canale, publică un mesaj pe care botul îl editează la fiecare 20 de minute cu cele mai recente numere.</value>
+  </data>
+  <data name="stat-channel-message-hint" xml:space="preserve">
+    <value>Lasă gol pentru implicit. Codurile de emote Discord funcționează aici, inclusiv cele proprii Cakey. Schimbarea canalului publică un mesaj nou acolo; șterge-l pe cel vechi tu însuți dacă nu îl mai dorești.</value>
+  </data>
+  <data name="stat-channel-error-message-channel-required" xml:space="preserve">
+    <value>Alege canalul în care este publicat mesajul de statistici.</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-title" xml:space="preserve">
+    <value>Clasamente Fixate</value>
+  </data>
+  <data name="leveling-pinned-leaderboards-hint" xml:space="preserve">
+    <value>Un mesaj de clasament pe care botul îl publică într-un canal și îl menține actualizat la fiecare 15 minute, astfel încât nimeni nu trebuie să execute /leaderboard. Până la 5 per server.</value>
+  </data>
+  <data name="leveling-period-label" xml:space="preserve">
+    <value>Perioadă</value>
+  </data>
+  <data name="leveling-period-all-time" xml:space="preserve">
+    <value>Tot timpul</value>
+  </data>
+  <data name="leveling-period-weekly" xml:space="preserve">
+    <value>Săptămâna aceasta</value>
+  </data>
+  <data name="leveling-period-monthly" xml:space="preserve">
+    <value>Luna aceasta</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size-label" xml:space="preserve">
+    <value>Membri afișați</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-size" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-pending" xml:space="preserve">
+    <value>Se publică în 15 minute</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-add" xml:space="preserve">
+    <value>Adaugă Clasament</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-added" xml:space="preserve">
+    <value>Clasamentul va fi publicat în decurs de 15 minute.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-size" xml:space="preserve">
+    <value>Un clasament afișează între 3 și 15 membri.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-period" xml:space="preserve">
+    <value>Alege tot timpul, săptămâna aceasta sau luna aceasta.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-error-not-found" xml:space="preserve">
+    <value>Acel clasament fixat nu mai există.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-added" xml:space="preserve">
+    <value>A fost adăugat un clasament fixat.</value>
+  </data>
+  <data name="audit-leveling-leaderboard-post-removed" xml:space="preserve">
+    <value>A fost eliminat un clasament fixat.</value>
+  </data>
+  <data name="counting-milestones-title" xml:space="preserve">
+    <value>Roluri de Etapă</value>
+  </data>
+  <data name="counting-milestones-description" xml:space="preserve">
+    <value>Oricine postează unul dintre aceste numere primește rolul corespunzător. Până la 25 de etape.</value>
+  </data>
+  <data name="counting-milestone-count" xml:space="preserve">
+    <value>Număr atins</value>
+  </data>
+  <data name="counting-milestone-role" xml:space="preserve">
+    <value>Rol de acordat</value>
+  </data>
+  <data name="counting-milestone-add" xml:space="preserve">
+    <value>Adaugă Etapă</value>
+  </data>
+  <data name="counting-milestone-error-count" xml:space="preserve">
+    <value>Numărul etapei trebuie să fie cel puțin 1.</value>
+  </data>
+  <data name="counting-milestone-error-exists" xml:space="preserve">
+    <value>Există deja o etapă pentru acel număr.</value>
+  </data>
+  <data name="counting-milestone-error-role-restricted" xml:space="preserve">
+    <value>Rolurile cu Administrator, Gestionare Server sau Gestionare Roluri nu pot fi acordate de jocul de numărat.</value>
+  </data>
+  <data name="counting-milestone-error-not-found" xml:space="preserve">
+    <value>Acea etapă nu mai există.</value>
+  </data>
+  <data name="audit-counting-milestone-added" xml:space="preserve">
+    <value>A fost adăugată o etapă de numărare.</value>
+  </data>
+  <data name="audit-counting-milestone-removed" xml:space="preserve">
+    <value>A fost eliminată o etapă de numărare.</value>
+  </data>
+  <data name="ar-flag-hint" xml:space="preserve">
+    <value>Cum trebuie să se raporteze un mesaj la textul comenzii. Opțiunile „Conține fișiere”, „De la webhook” și opțiunile de menționare ignoră textul și se declanșează pe orice mesaj cu acea proprietate. Wildcard acceptă * și ?; Regex este dezactivat automat dacă modelul este invalid.</value>
+  </data>
+  <data name="auto-message-time-hint" xml:space="preserve">
+    <value>La fix, în fusul orar al serverului setat în Setările Botului.</value>
+  </data>
+  <data name="auto-message-day-hint" xml:space="preserve">
+    <value>În fiecare zi, sau doar într-o zi a săptămânii.</value>
+  </data>
+  <data name="self-role-group-type-hint" xml:space="preserve">
+    <value>Unic funcționează ca butoane radio: alegerea unui rol din grup îl înlocuiește pe cel deținut deja. Selecția multiplă permite unui membru să dețină mai multe roluri din grup simultan.</value>
+  </data>
+  <data name="self-role-group-max-roles-hint" xml:space="preserve">
+    <value>Revendicarea unuia în plus față de această limită elimină rolul revendicat cel mai de mult timp.</value>
+  </data>
+  <data name="economy-boost-multiplier-hint" xml:space="preserve">
+    <value>Multiplică câștigurile din jocurile de economie atâta timp cât boost-ul este activ. Mai multe boost-uri active se multiplică între ele.</value>
+  </data>
+  <data name="economy-boost-duration-hint" xml:space="preserve">
+    <value>Câte ore durează boost-ul din momentul cumpărării.</value>
+  </data>
+  <data name="economy-boost-max-user-hint" xml:space="preserve">
+    <value>Câte din acest boost poate deține un membru simultan. 0 înseamnă fără limită.</value>
+  </data>
+  <data name="economy-data-hint-role" xml:space="preserve">
+    <value>Rolul acordat la cumpărare. Trebuie să fie sub cel mai înalt rol al Cakey și nu trebuie să aibă Administrator, Gestionare Server sau Gestionare Roluri.</value>
+  </data>
+  <data name="economy-data-hint-xp" xml:space="preserve">
+    <value>XP de nivel adăugat cumpărătorului la achiziție, până la 1.000.000.</value>
+  </data>
+  <data name="economy-data-hint-temp-role" xml:space="preserve">
+    <value>Rolul acordat la cumpărare și eliminat din nou după numărul de ore setat mai jos.</value>
+  </data>
+  <data name="economy-data-hint-save" xml:space="preserve">
+    <value>Câte salvări de numărare acordă o achiziție, de la 1 la 100. O salvare este folosită în loc să reseteze numărătoarea atunci când cumpărătorul face o greșeală.</value>
+  </data>
+  <data name="economy-max-user-hint" xml:space="preserve">
+    <value>Câte din acest articol poate deține un membru simultan. 0 înseamnă fără limită.</value>
+  </data>
+  <data name="economy-ispurchasable-hint" xml:space="preserve">
+    <value>Afișat în magazin și cumpărabil. Dezactivează pentru a păstra articolul dar a-l ascunde, de exemplu un premiu pe care doar echipa îl acordă.</value>
+  </data>
+  <data name="economy-item-type-counting-save" xml:space="preserve">
+    <value>Salvare de Numărare</value>
+  </data>
+  <data name="economy-item-type-manual" xml:space="preserve">
+    <value>Manual (handled by staff)</value>
+  </data>
+  <data name="economy-data-handler-role" xml:space="preserve">
+    <value>Handler role</value>
+  </data>
+  <data name="economy-data-hint-manual" xml:space="preserve">
+    <value>Nothing is granted automatically. Each purchase posts a notice in the notification channel pinging the handler role, with a button to mark it as handled once they have sorted it out with the buyer.</value>
+  </data>
+  <data name="economy-item-error-channel-required" xml:space="preserve">
+    <value>Pick the channel purchase notices should be posted in.</value>
+  </data>
+  <data name="economy-data-save-count" xml:space="preserve">
+    <value>Salvări per achiziție</value>
+  </data>
+  <data name="economy-item-error-save-count" xml:space="preserve">
+    <value>Un articol de salvare de numărare trebuie să acorde între 1 și 100 de salvări.</value>
+  </data>
+  <data name="leveling-decay-dm-title" xml:space="preserve">
+    <value>Notificări DM de Decădere</value>
+  </data>
+  <data name="leveling-decay-dm-hint" xml:space="preserve">
+    <value>Trimite membrilor un DM atunci când XP-ul lor decade. Fiecare DM poartă un buton pe care membrii îl pot folosi pentru a se dezabona.</value>
+  </data>
+  <data name="audit-title-attachment-deleted" xml:space="preserve">
+    <value>Atașament Șters</value>
+  </data>
+  <data name="audit-attachment-deleted-hint" xml:space="preserve">
+    <value>Mesajele șterse care conțineau un fișier sau o imagine sunt înregistrate aici în locul canalului Mesaj Șters. Lasă pe niciunul pentru a le păstra împreună.</value>
+  </data>
+  <data name="suggestion-ping-role" xml:space="preserve">
+    <value>Rol de Menționare a Sugestiilor</value>
+  </data>
+  <data name="suggestion-ping-role-hint" xml:space="preserve">
+    <value>Menționat de fiecare dată când este postată o nouă sugestie. Rolul trebuie să fie menționabil, sau botul are nevoie de permisiune pentru a menționa orice rol.</value>
+  </data>
+  <data name="forms-question-badge-image" xml:space="preserve">
+    <value>Are o imagine</value>
+  </data>
+  <data name="forms-insert-emote" xml:space="preserve">
+    <value>Inserează emote al serverului</value>
+  </data>
+  <data name="music-vote-skip-hint" xml:space="preserve">
+    <value>Sărirea necesită voturi de la mai mult de jumătate dintre membrii care nu au dezactivat sunetul din canalul vocal. DJ-ii, moderatorii și cei care au solicitat melodia pot totuși sări direct.</value>
+  </data>
+  <data name="leveling-max-level-hint" xml:space="preserve">
+    <value>XP-ul încetează să se acumuleze odată ce un membru atinge acest nivel.</value>
+  </data>
+  <data name="leveling-drops-prevent-consecutive-hint" xml:space="preserve">
+    <value>Cel care a revendicat ultimul drop nu poate revendica următorul.</value>
+  </data>
+  <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
+    <value>Ascunde butonul de revendicare printre patru momeli într-un loc diferit la fiecare drop, astfel încât să nu poată fi apăsat din reflex.</value>
+  </data>
+  <data name="leveling-drops-interval-hint" xml:space="preserve">
+    <value>O așteptare aleatorie între aceste două valori trece între drop-uri.</value>
+  </data>
+  <data name="birthday-role-hint" xml:space="preserve">
+    <value>Acordat atunci când este anunțată ziua de naștere și eliminat din nou după 24 de ore.</value>
+  </data>
+  <data name="server-timezone-hint" xml:space="preserve">
+    <value>Folosit pentru zilele de naștere fără fus orar propriu, conținutul zilnic și mesajele automate programate.</value>
+  </data>
+  <data name="feeds-webhook-hint" xml:space="preserve">
+    <value>Creează un webhook în setările de Integrări ale canalului și lipește URL-ul aici. Postările sunt trimise prin el.</value>
+  </data>
+  <data name="feeds-thread-hint" xml:space="preserve">
+    <value>Necesar doar atunci când postările trebuie să ajungă într-un fir de discuție sau o postare de forum sub canalul webhook-ului. Lasă gol altfel.</value>
+  </data>
+  <data name="feeds-role-hint" xml:space="preserve">
+    <value>Menționat la fiecare postare nouă. Lasă gol pentru a nu menționa pe nimeni.</value>
+  </data>
+  <data name="feeds-color-hint" xml:space="preserve">
+    <value>Culoarea barei laterale de pe embed-ul postării.</value>
+  </data>
+  <data name="feeds-subreddit-hint" xml:space="preserve">
+    <value>Doar numele subreddit-ului, fără r/.</value>
+  </data>
+  <data name="feeds-rss-url-hint" xml:space="preserve">
+    <value>Link direct către flux în sine, nu către site-ul web. De obicei se termină în .xml, .rss sau /feed.</value>
+  </data>
+  <data name="feeds-twitch-hint" xml:space="preserve">
+    <value>Numele canalului așa cum apare după twitch.tv/ în URL.</value>
+  </data>
+  <data name="feeds-youtube-hint" xml:space="preserve">
+    <value>Link către pagina canalului, cum ar fi un URL youtube.com/@handle sau /channel/.</value>
+  </data>
+  <data name="tags-name-hint" xml:space="preserve">
+    <value>Numele pe care membrii îl folosesc pentru a apela această etichetă. Păstrează-l scurt și memorabil.</value>
+  </data>
+  <data name="tags-response-hint" xml:space="preserve">
+    <value>Cu ce răspunde botul atunci când este folosită eticheta.</value>
+  </data>
+  <data name="ar-trigger-hint" xml:space="preserve">
+    <value>Textul de căutat în mesaje. Diferența majuscule/minuscule este ignorată, iar tipul de potrivire de mai jos setează cât de strict este acest lucru.</value>
+  </data>
+  <data name="ar-response-hint" xml:space="preserve">
+    <value>Trimis atunci când un mesaj se potrivește. Combină-l cu un embed sau lasă-l gol pentru a trimite doar embed-ul.</value>
+  </data>
+  <data name="auto-message-channel-hint" xml:space="preserve">
+    <value>Unde este postat mesajul programat.</value>
+  </data>
+  <data name="auto-message-message-hint" xml:space="preserve">
+    <value>Postat la ora aleasă în canalul de mai sus.</value>
+  </data>
+  <data name="auto-publish-channel-hint" xml:space="preserve">
+    <value>Pot fi alese doar canale de anunțuri. Fiecare mesaj postat acolo este publicat către serverele care urmăresc.</value>
+  </data>
+  <data name="self-role-role-hint" xml:space="preserve">
+    <value>Rolul pe care membrii și-l pot atribui.</value>
+  </data>
+  <data name="self-role-description-hint" xml:space="preserve">
+    <value>Afișat lângă rol în selector pentru ca membrii să știe la ce servește.</value>
+  </data>
+  <data name="self-role-required-level-hint" xml:space="preserve">
+    <value>Membrii sub acest nivel nu pot alege rolul. 0 dezactivează verificarea.</value>
+  </data>
+  <data name="self-role-required-streak-hint" xml:space="preserve">
+    <value>Seria zilnică de care membrii au nevoie înainte de a putea alege rolul. 0 dezactivează verificarea.</value>
+  </data>
+  <data name="self-role-required-role-hint" xml:space="preserve">
+    <value>Membrii trebuie să aibă deja acest rol înainte de a putea alege pe cel nou.</value>
+  </data>
+  <data name="self-role-group-name-hint" xml:space="preserve">
+    <value>Afișat ca titlu al selectorului.</value>
+  </data>
+  <data name="self-role-group-description-hint" xml:space="preserve">
+    <value>Afișat sub titlu pentru a explica la ce servește grupul.</value>
+  </data>
+  <data name="self-role-group-requirement-role-hint" xml:space="preserve">
+    <value>Doar membrii cu acest rol pot alege din grup.</value>
+  </data>
+  <data name="self-role-group-requirement-level-hint" xml:space="preserve">
+    <value>Doar membrii la acest nivel sau peste pot alege din grup.</value>
+  </data>
+  <data name="suggestion-status-hint" xml:space="preserve">
+    <value>Actualizează starea afișată pe postarea sugestiei.</value>
+  </data>
+  <data name="suggestion-reason-hint" xml:space="preserve">
+    <value>Afișat pe postarea sugestiei împreună cu decizia. Opțional.</value>
+  </data>
+  <data name="wl-subscription-hint" xml:space="preserve">
+    <value>Abonamentul de bot personalizat pe care acest server ar trebui să îl folosească.</value>
+  </data>
+  <data name="wl-token-hint" xml:space="preserve">
+    <value>Token-ul botului din fila Bot a aplicației tale din Discord Developer Portal. Păstrează-l secret.</value>
+  </data>
+  <data name="economy-item-name-hint" xml:space="preserve">
+    <value>Afișat în magazin și în mesajele de cumpărare.</value>
+  </data>
+  <data name="economy-item-description-hint" xml:space="preserve">
+    <value>Afișat sub nume în magazin pentru ca cumpărătorii să știe ce primesc.</value>
+  </data>
+  <data name="economy-item-cost-hint" xml:space="preserve">
+    <value>Preț în moneda serverului tău. Cumpărătorii au nevoie de cel puțin această sumă pentru a cumpăra.</value>
+  </data>
+  <data name="economy-item-type-hint" xml:space="preserve">
+    <value>Ce primește cumpărătorul. Câmpurile de mai jos se schimbă în funcție de tip.</value>
+  </data>
+  <data name="custom-bot-preset-name-hint" xml:space="preserve">
+    <value>Folosit pentru a găsi presetarea mai târziu la aplicarea ei.</value>
+  </data>
+  <data name="economy-item-duration-hint" xml:space="preserve">
+    <value>Câte ore păstrează cumpărătorul rolul, calculate de la cumpărare.</value>
+  </data>
+  <data name="auto-publish-no-news-channels" xml:space="preserve">
+    <value>Nu s-a găsit niciun canal de anunțuri. Creează unul în Discord mai întâi.</value>
+  </data>
+  <data name="embed-editor-send-webhook-hint" xml:space="preserve">
+    <value>Trimite embed-ul prin acest webhook în loc de bot, folosind numele și avatarul webhook-ului.</value>
+  </data>
+  <data name="embed-builder-profiles-title" xml:space="preserve">
+    <value>Profiluri de Expeditor</value>
+  </data>
+  <data name="embed-builder-send-as" xml:space="preserve">
+    <value>Trimite ca</value>
+  </data>
+  <data name="embed-builder-send-as-bot" xml:space="preserve">
+    <value>Botul</value>
+  </data>
+  <data name="embed-builder-profiles-manage" xml:space="preserve">
+    <value>Gestionează Profilurile de Expeditor</value>
+  </data>
+  <data name="embed-builder-profiles-hint" xml:space="preserve">
+    <value>Un profil de expeditor publică mesajul printr-un webhook cu propriul nume și avatar. Botul are nevoie de Gestionare Webhook-uri în canal.</value>
+  </data>
+  <data name="embed-builder-profile-name" xml:space="preserve">
+    <value>Nume de Afișare</value>
+  </data>
+  <data name="embed-builder-profile-name-hint" xml:space="preserve">
+    <value>Afișat ca autor al mesajului, până la 80 de caractere. Discord refuză numele care conțin „discord” sau „clyde”.</value>
+  </data>
+  <data name="embed-builder-profile-avatar" xml:space="preserve">
+    <value>URL Avatar</value>
+  </data>
+  <data name="embed-builder-profile-avatar-hint" xml:space="preserve">
+    <value>Link direct către un PNG, JPG sau GIF. Lasă gol pentru a păstra avatarul botului.</value>
+  </data>
+  <data name="embed-builder-profile-webhook" xml:space="preserve">
+    <value>URL Webhook Salvat</value>
+  </data>
+  <data name="embed-builder-profile-webhook-hint" xml:space="preserve">
+    <value>Opțional. Când este setat, mesajele trimise ca acest profil merg la acest webhook în loc de un canal, tot sub numele și avatarul de mai sus.</value>
+  </data>
+  <data name="embed-builder-profile-new" xml:space="preserve">
+    <value>Profil Nou</value>
+  </data>
+  <data name="embed-builder-profile-save" xml:space="preserve">
+    <value>Salvează Profilul</value>
+  </data>
+  <data name="embed-builder-profiles-empty" xml:space="preserve">
+    <value>Încă nu există profiluri de expeditor.</value>
+  </data>
+  <data name="embed-builder-profile-delete-confirm" xml:space="preserve">
+    <value>Ștergi acest profil de expeditor?</value>
+  </data>
+  <data name="embed-builder-profile-saved" xml:space="preserve">
+    <value>Profil de expeditor salvat.</value>
+  </data>
+  <data name="embed-builder-profile-deleted" xml:space="preserve">
+    <value>Profil de expeditor șters.</value>
+  </data>
+  <data name="embed-builder-profile-error-name" xml:space="preserve">
+    <value>Introdu un nume de afișare de până la 80 de caractere.</value>
+  </data>
+  <data name="embed-builder-profile-error-name-reserved" xml:space="preserve">
+    <value>Discord nu permite nume de expeditor care conțin „discord” sau „clyde”.</value>
+  </data>
+  <data name="embed-builder-profile-error-avatar" xml:space="preserve">
+    <value>Avatarul trebuie să fie un link http sau https de până la 512 caractere.</value>
+  </data>
+  <data name="embed-builder-profile-error-limit" xml:space="preserve">
+    <value>Un server poate avea până la 25 de profiluri de expeditor.</value>
+  </data>
+  <data name="embed-builder-profile-not-found" xml:space="preserve">
+    <value>Acel profil de expeditor nu mai există.</value>
+  </data>
+  <data name="embed-builder-app-badge" xml:space="preserve">
+    <value>APP</value>
+  </data>
+  <data name="embed-builder-webhook-sender" xml:space="preserve">
+    <value>Webhook</value>
+  </data>
+  <data name="embed-builder-send-to-channel" xml:space="preserve">
+    <value>Trimite către canal</value>
+  </data>
+  <data name="embed-builder-import-export" xml:space="preserve">
+    <value>Importă / exportă JSON</value>
+  </data>
+  <data name="embed-builder-content" xml:space="preserve">
+    <value>Text Mesaj</value>
+  </data>
+  <data name="embed-builder-content-placeholder" xml:space="preserve">
+    <value>Text trimis deasupra embed-ului</value>
+  </data>
+  <data name="embed-builder-content-hint" xml:space="preserve">
+    <value>Folosit doar la trimiterea din această pagină. Nu este salvat cu embed-ul, iar funcțiile care postează embed-ul salvat nu îl includ.</value>
+  </data>
+  <data name="embed-builder-save-new" xml:space="preserve">
+    <value>Salvează ca nou</value>
+  </data>
+  <data name="embed-builder-update-saved" xml:space="preserve">
+    <value>Actualizează selecția</value>
+  </data>
+  <data name="embed-builder-sample-title" xml:space="preserve">
+    <value>Bun venit la {server.name}!</value>
+  </data>
+  <data name="embed-builder-sample-description" xml:space="preserve">
+    <value>Acesta este un embed exemplu pentru a arăta ce poate face constructorul. Încearcă **aldin**, *italic*, `cod`, un [link](https://cakey.bot) și marcatori precum {user.mention}. Totul aici poate fi editat sau șters, iar mențiunile de canal și emote-urile personalizate funcționează și ele.</value>
+  </data>
+  <data name="embed-builder-sample-field-members" xml:space="preserve">
+    <value>Membrii serverului</value>
+  </data>
+  <data name="embed-builder-sample-field-roles" xml:space="preserve">
+    <value>Rolurile serverului</value>
+  </data>
+  <data name="embed-builder-sample-footer" xml:space="preserve">
+    <value>Creat cu constructorul de embed-uri al Cakey Bot</value>
+  </data>
+  <data name="embed-builder-invalid-url" xml:space="preserve">
+    <value>Trebuie să fie un link complet care începe cu http:// sau https://.</value>
+  </data>
+  <data name="embed-builder-invalid-url-field" xml:space="preserve">
+    <value>{0} nu este un link valid.</value>
+  </data>
+  <data name="embed-builder-image-failed" xml:space="preserve">
+    <value>Această imagine nu a putut fi încărcată. Verifică linkul.</value>
+  </data>
+  <data name="audit-sender-profile-created" xml:space="preserve">
+    <value>A fost creat un profil de expeditor</value>
+  </data>
+  <data name="audit-sender-profile-updated" xml:space="preserve">
+    <value>A fost actualizat un profil de expeditor</value>
+  </data>
+  <data name="audit-sender-profile-deleted" xml:space="preserve">
+    <value>A fost șters un profil de expeditor</value>
+  </data>
+  <data name="embed-builder-placeholder-hint" xml:space="preserve">
+    <value>Marcatori precum {user.username} sunt afișați aici cu valorile acestui server și tine ca utilizator. Embed-ul salvat îi păstrează așa cum au fost scriși, iar botul îi completează atunci când îl publică.</value>
+  </data>
+  <data name="feature-suggest-title" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="feature-suggest-intro" xml:space="preserve">
+    <value>Missing something on the dashboard or in the bot? Tell us. The page you are on is attached automatically.</value>
+  </data>
+  <data name="feature-suggest-field-title" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="feature-suggest-field-body" xml:space="preserve">
+    <value>What would you like, and why?</value>
+  </data>
+  <data name="feature-suggest-field-category" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="feature-suggest-category-bot" xml:space="preserve">
+    <value>Bot</value>
+  </data>
+  <data name="feature-suggest-category-other" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="feature-suggest-send" xml:space="preserve">
+    <value>Send suggestion</value>
+  </data>
+  <data name="feature-suggest-sent" xml:space="preserve">
+    <value>Thanks, your suggestion has been sent.</value>
+  </data>
+  <data name="feature-suggest-error" xml:space="preserve">
+    <value>Your suggestion could not be sent. Please try again later.</value>
+  </data>
+  <data name="feature-suggest-title-length" xml:space="preserve">
+    <value>The title must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-body-length" xml:space="preserve">
+    <value>The description must be between {0} and {1} characters.</value>
+  </data>
+  <data name="feature-suggest-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} suggestions per day.</value>
+  </data>
+  <data name="feature-suggest-mine" xml:space="preserve">
+    <value>Your suggestions</value>
+  </data>
+  <data name="feature-suggest-status-planned" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="feature-suggest-status-done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="dashboard-sidebar-invites" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="dashboard-error-load-invite-tracking" xml:space="preserve">
+    <value>Invite tracking could not be loaded.</value>
+  </data>
+  <data name="invite-tracking-title" xml:space="preserve">
+    <value>Invite Tracking</value>
+  </data>
+  <data name="invite-tracking-tab-settings" xml:space="preserve">
+    <value>Invite settings</value>
+  </data>
+  <data name="invite-tracking-tab-leaderboard" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-tab-labels" xml:space="preserve">
+    <value>Invite labels</value>
+  </data>
+  <data name="invite-tracking-tab-blacklist" xml:space="preserve">
+    <value>Invite blacklist</value>
+  </data>
+  <data name="invite-tracking-tab-adjustments" xml:space="preserve">
+    <value>Invite adjustments</value>
+  </data>
+  <data name="invite-tracking-tab-analytics" xml:space="preserve">
+    <value>Invite analytics</value>
+  </data>
+  <data name="invite-tracking-tab-reports" xml:space="preserve">
+    <value>Invite reports</value>
+  </data>
+  <data name="invite-tracking-disabled-notice" xml:space="preserve">
+    <value>Invite tracking is switched off, so no new joins are being attributed to anyone.</value>
+  </data>
+  <data name="invite-tracking-enabled" xml:space="preserve">
+    <value>Keep track of who invites each member</value>
+  </data>
+  <data name="invite-tracking-rejoin-fake" xml:space="preserve">
+    <value>Count a returning member as a fake invite</value>
+  </data>
+  <data name="invite-tracking-count-leaves" xml:space="preserve">
+    <value>Take an invite away when an invited member leaves</value>
+  </data>
+  <data name="invite-tracking-fake-delay" xml:space="preserve">
+    <value>Account age before an invite counts as real, in days</value>
+  </data>
+  <data name="invite-tracking-fake-delay-hint" xml:space="preserve">
+    <value>A member whose account is younger than this counts as a fake invite. Set it to 0 to accept every account.</value>
+  </data>
+  <data name="invite-tracking-public-title" xml:space="preserve">
+    <value>Public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-leaderboard" xml:space="preserve">
+    <value>Show the invite leaderboard to everyone</value>
+  </data>
+  <data name="invite-tracking-show-details" xml:space="preserve">
+    <value>Show the breakdown behind each total publicly</value>
+  </data>
+  <data name="invite-tracking-public-slug" xml:space="preserve">
+    <value>Address for the public invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-public-slug-hint" xml:space="preserve">
+    <value>Letters, numbers and dashes only. The leaderboard is then reachable at /leaderboard/your-address.</value>
+  </data>
+  <data name="invite-tracking-range-label" xml:space="preserve">
+    <value>Period the leaderboard covers</value>
+  </data>
+  <data name="invite-tracking-range-day" xml:space="preserve">
+    <value>Past day</value>
+  </data>
+  <data name="invite-tracking-range-week" xml:space="preserve">
+    <value>Past week</value>
+  </data>
+  <data name="invite-tracking-range-month" xml:space="preserve">
+    <value>Past month</value>
+  </data>
+  <data name="invite-tracking-range-7" xml:space="preserve">
+    <value>Past 7 days</value>
+  </data>
+  <data name="invite-tracking-range-30" xml:space="preserve">
+    <value>Past 30 days</value>
+  </data>
+  <data name="invite-tracking-range-90" xml:space="preserve">
+    <value>Past 90 days</value>
+  </data>
+  <data name="invite-tracking-range-365" xml:space="preserve">
+    <value>Past year</value>
+  </data>
+  <data name="invite-tracking-export" xml:space="preserve">
+    <value>Download invites as CSV</value>
+  </data>
+  <data name="invite-tracking-no-data" xml:space="preserve">
+    <value>No invites have been tracked yet.</value>
+  </data>
+  <data name="invite-tracking-column-rank" xml:space="preserve">
+    <value>Leaderboard position</value>
+  </data>
+  <data name="invite-tracking-column-member" xml:space="preserve">
+    <value>Inviter</value>
+  </data>
+  <data name="invite-tracking-column-total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+  <data name="invite-tracking-column-regular" xml:space="preserve">
+    <value>Regular invites</value>
+  </data>
+  <data name="invite-tracking-column-left" xml:space="preserve">
+    <value>Invited members who left</value>
+  </data>
+  <data name="invite-tracking-column-fake" xml:space="preserve">
+    <value>Fake invites</value>
+  </data>
+  <data name="invite-tracking-column-bonus" xml:space="preserve">
+    <value>Bonus invites</value>
+  </data>
+  <data name="invite-tracking-hide" xml:space="preserve">
+    <value>Hide this member from the leaderboard</value>
+  </data>
+  <data name="invite-tracking-unhide" xml:space="preserve">
+    <value>Show again</value>
+  </data>
+  <data name="invite-tracking-hidden-title" xml:space="preserve">
+    <value>Members hidden from the invite leaderboard</value>
+  </data>
+  <data name="invite-tracking-hidden-empty" xml:space="preserve">
+    <value>Nobody is hidden from the invite leaderboard.</value>
+  </data>
+  <data name="invite-tracking-labels-intro" xml:space="preserve">
+    <value>Give an invite code a name so joins through it read as a campaign, and hand out a role to everyone who arrives through it.</value>
+  </data>
+  <data name="invite-tracking-labels-code" xml:space="preserve">
+    <value>Invite code</value>
+  </data>
+  <data name="invite-tracking-labels-label" xml:space="preserve">
+    <value>What to call this code</value>
+  </data>
+  <data name="invite-tracking-labels-role" xml:space="preserve">
+    <value>Role for members who join through this code</value>
+  </data>
+  <data name="invite-tracking-labels-add" xml:space="preserve">
+    <value>Add invite label</value>
+  </data>
+  <data name="invite-tracking-labels-remove-confirm" xml:space="preserve">
+    <value>Remove the name given to this invite code?</value>
+  </data>
+  <data name="invite-tracking-blacklist-intro" xml:space="preserve">
+    <value>Invites from these members and roles are not counted towards anybody's totals.</value>
+  </data>
+  <data name="invite-tracking-blacklist-roles" xml:space="preserve">
+    <value>Roles whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-blacklist-users" xml:space="preserve">
+    <value>Members whose invites are not counted</value>
+  </data>
+  <data name="invite-tracking-adjust-user" xml:space="preserve">
+    <value>Member whose counts are changing</value>
+  </data>
+  <data name="invite-tracking-adjust-regular" xml:space="preserve">
+    <value>Change regular invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-bonus" xml:space="preserve">
+    <value>Change bonus invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-fake" xml:space="preserve">
+    <value>Change fake invites by</value>
+  </data>
+  <data name="invite-tracking-adjust-apply" xml:space="preserve">
+    <value>Apply invite adjustment</value>
+  </data>
+  <data name="invite-tracking-reset-title" xml:space="preserve">
+    <value>Resetting invite counts</value>
+  </data>
+  <data name="invite-tracking-reset-user" xml:space="preserve">
+    <value>Member to reset</value>
+  </data>
+  <data name="invite-tracking-reset-run" xml:space="preserve">
+    <value>Reset member counts</value>
+  </data>
+  <data name="invite-tracking-reset-left" xml:space="preserve">
+    <value>Reset server leave counts</value>
+  </data>
+  <data name="invite-tracking-reset-all" xml:space="preserve">
+    <value>Reset all member counts</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-user" xml:space="preserve">
+    <value>Reset this member's invite counts? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-danger-title" xml:space="preserve">
+    <value>Invite danger zone</value>
+  </data>
+  <data name="invite-tracking-danger-desc" xml:space="preserve">
+    <value>This wipes the invite counts of every member in the server. There is no way to get them back.</value>
+  </data>
+  <data name="invite-tracking-forgive-title" xml:space="preserve">
+    <value>Forgive lost invites</value>
+  </data>
+  <data name="invite-tracking-forgive-desc" xml:space="preserve">
+    <value>When members you invited leave, your total drops. This gives everyone those invites back, which is useful after a purge or a raid clean-up.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-left" xml:space="preserve">
+    <value>Reset the leave counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-reset-confirm-all" xml:space="preserve">
+    <value>Reset the invite counts of every member? This cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-stat-joins" xml:space="preserve">
+    <value>Members gained</value>
+  </data>
+  <data name="invite-tracking-stat-leaves" xml:space="preserve">
+    <value>Members lost</value>
+  </data>
+  <data name="invite-tracking-stat-net" xml:space="preserve">
+    <value>Net change</value>
+  </data>
+  <data name="invite-tracking-stat-retention" xml:space="preserve">
+    <value>Still in the server</value>
+  </data>
+  <data name="invite-tracking-chart-title" xml:space="preserve">
+    <value>Joins against leaves</value>
+  </data>
+  <data name="invite-tracking-chart-joins" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+  <data name="invite-tracking-chart-leaves" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="invite-tracking-sources-title" xml:space="preserve">
+    <value>How members arrived</value>
+  </data>
+  <data name="invite-tracking-source-invite" xml:space="preserve">
+    <value>Through an invite link</value>
+  </data>
+  <data name="invite-tracking-source-vanity" xml:space="preserve">
+    <value>Through the vanity URL</value>
+  </data>
+  <data name="invite-tracking-source-bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+  <data name="invite-tracking-source-unknown" xml:space="preserve">
+    <value>Could not be worked out</value>
+  </data>
+  <data name="invite-tracking-top-codes" xml:space="preserve">
+    <value>Most used invite codes</value>
+  </data>
+  <data name="invite-tracking-top-inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+  <data name="invite-tracking-reports-intro" xml:space="preserve">
+    <value>The bot can post a summary of the server's joins and leaves on a schedule.</value>
+  </data>
+  <data name="invite-tracking-report-channel" xml:space="preserve">
+    <value>Channel the invite report is posted in</value>
+  </data>
+  <data name="invite-tracking-report-interval" xml:space="preserve">
+    <value>How often the invite report is posted</value>
+  </data>
+  <data name="invite-tracking-report-off" xml:space="preserve">
+    <value>Never post a report</value>
+  </data>
+  <data name="invite-tracking-report-weekly" xml:space="preserve">
+    <value>Every week</value>
+  </data>
+  <data name="invite-tracking-report-monthly" xml:space="preserve">
+    <value>Every month</value>
+  </data>
+  <data name="invite-tracking-error-fake-delay" xml:space="preserve">
+    <value>The account age has to be between 0 and 365 days.</value>
+  </data>
+  <data name="invite-tracking-error-report-interval" xml:space="preserve">
+    <value>That report schedule is not one that can be set.</value>
+  </data>
+  <data name="invite-tracking-error-slug-invalid" xml:space="preserve">
+    <value>A leaderboard address may only hold letters, numbers and dashes.</value>
+  </data>
+  <data name="invite-tracking-error-slug-taken" xml:space="preserve">
+    <value>Another server already uses that leaderboard address.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-code" xml:space="preserve">
+    <value>That does not look like an invite code.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-label" xml:space="preserve">
+    <value>A label has to hold between 1 and 64 characters.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-code" xml:space="preserve">
+    <value>That invite code already has a name.</value>
+  </data>
+  <data name="invite-tracking-error-not-found" xml:space="preserve">
+    <value>That invite entry is no longer there.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-user" xml:space="preserve">
+    <value>That does not look like a Discord ID.</value>
+  </data>
+  <data name="invite-tracking-error-duplicate-blacklist" xml:space="preserve">
+    <value>That member or role is already on the invite blacklist.</value>
+  </data>
+  <data name="invite-tracking-error-no-adjustment" xml:space="preserve">
+    <value>Put in an amount to add or take away first.</value>
+  </data>
+  <data name="invite-tracking-error-invalid-scope" xml:space="preserve">
+    <value>That is not something invite counts can be reset for.</value>
+  </data>
+  <data name="invite-tracking-error-already-hidden" xml:space="preserve">
+    <value>That member is already hidden from the invite leaderboard.</value>
+  </data>
+  <data name="audit-invite-tracking-settings" xml:space="preserve">
+    <value>Updated invite tracking settings</value>
+  </data>
+  <data name="audit-invite-report-updated" xml:space="preserve">
+    <value>Updated the invite report</value>
+  </data>
+  <data name="audit-invite-public-updated" xml:space="preserve">
+    <value>Updated the public invite leaderboard</value>
+  </data>
+  <data name="audit-invite-label-added" xml:space="preserve">
+    <value>Named an invite code</value>
+  </data>
+  <data name="audit-invite-label-removed" xml:space="preserve">
+    <value>Removed the name of an invite code</value>
+  </data>
+  <data name="audit-invite-blacklist-added" xml:space="preserve">
+    <value>Added to the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-removed" xml:space="preserve">
+    <value>Removed from the invite blacklist</value>
+  </data>
+  <data name="audit-invite-blacklist-updated" xml:space="preserve">
+    <value>Updated the invite blacklist</value>
+  </data>
+  <data name="audit-invite-counts-adjusted" xml:space="preserve">
+    <value>Adjusted a member's invite counts</value>
+  </data>
+  <data name="audit-invite-counts-reset" xml:space="preserve">
+    <value>Reset invite counts</value>
+  </data>
+  <data name="audit-invite-hidden-added" xml:space="preserve">
+    <value>Hid a member from the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-hidden-removed" xml:space="preserve">
+    <value>Put a member back on the invite leaderboard</value>
+  </data>
+  <data name="audit-invite-export" xml:space="preserve">
+    <value>Downloaded the invite counts</value>
+  </data>
+  <data name="audit-target-inviteblacklist" xml:space="preserve">
+    <value>Invite blacklist entry</value>
+  </data>
+  <data name="audit-target-invitecounts" xml:space="preserve">
+    <value>Invite counts</value>
+  </data>
+  <data name="audit-target-invitehiddenuser" xml:space="preserve">
+    <value>Hidden inviter</value>
+  </data>
+  <data name="audit-target-invitelabel" xml:space="preserve">
+    <value>Invite code name</value>
+  </data>
+  <data name="audit-target-invitepublicleaderboard" xml:space="preserve">
+    <value>Public invite leaderboard settings</value>
+  </data>
+  <data name="audit-target-invitereport" xml:space="preserve">
+    <value>Invite report settings</value>
+  </data>
+  <data name="audit-target-invitesettings" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+  <data name="leaderboard-tab-invites" xml:space="preserve">
+    <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-no-invites" xml:space="preserve">
+    <value>No invites yet</value>
+  </data>
+  <data name="leaderboard-no-invites-desc" xml:space="preserve">
+    <value>Nobody has invited a member to this server yet.</value>
+  </data>
+  <data name="dashboard-sidebar-server-stats" xml:space="preserve">
+    <value>Server Stats</value>
+  </data>
+  <data name="server-stats-title" xml:space="preserve">
+    <value>Server statistics</value>
+  </data>
+  <data name="dashboard-error-load-server-stats" xml:space="preserve">
+    <value>The server statistics could not be loaded.</value>
+  </data>
+  <data name="server-stats-disabled-notice" xml:space="preserve">
+    <value>Nothing is being counted in this server yet. Switch counting on under Counting.</value>
+  </data>
+  <data name="server-stats-tab-overview" xml:space="preserve">
+    <value>At a glance</value>
+  </data>
+  <data name="server-stats-tab-messages" xml:space="preserve">
+    <value>Message activity</value>
+  </data>
+  <data name="server-stats-tab-voice" xml:space="preserve">
+    <value>Voice activity</value>
+  </data>
+  <data name="server-stats-tab-members" xml:space="preserve">
+    <value>Members and growth</value>
+  </data>
+  <data name="server-stats-tab-heatmap" xml:space="preserve">
+    <value>Busiest hours</value>
+  </data>
+  <data name="server-stats-tab-settings" xml:space="preserve">
+    <value>Tracking settings</value>
+  </data>
+  <data name="server-stats-tab-roles" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+  <data name="server-stats-tab-counters" xml:space="preserve">
+    <value>Counter channels</value>
+  </data>
+  <data name="server-stats-tile-messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+  <data name="server-stats-tile-voice" xml:space="preserve">
+    <value>Hours in voice</value>
+  </data>
+  <data name="server-stats-tile-active" xml:space="preserve">
+    <value>Members active</value>
+  </data>
+  <data name="server-stats-chart-members" xml:space="preserve">
+    <value>Member growth</value>
+  </data>
+  <data name="server-stats-chart-messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+  <data name="server-stats-chart-voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+  <data name="server-stats-chart-messages-channel" xml:space="preserve">
+    <value>Messages by channel</value>
+  </data>
+  <data name="server-stats-chart-voice-channel" xml:space="preserve">
+    <value>Voice minutes by channel</value>
+  </data>
+  <data name="server-stats-top-channels" xml:space="preserve">
+    <value>Busiest channels</value>
+  </data>
+  <data name="server-stats-top-members" xml:space="preserve">
+    <value>Busiest members</value>
+  </data>
+  <data name="server-stats-column-rank" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="server-stats-column-name" xml:space="preserve">
+    <value>Who or where</value>
+  </data>
+  <data name="server-stats-column-voice" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+  <data name="server-stats-heatmap-intro" xml:space="preserve">
+    <value>Which hours of the week this server is busiest in, counted in UTC.</value>
+  </data>
+  <data name="server-stats-heatmap-weekdays" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="server-stats-no-data" xml:space="preserve">
+    <value>Nothing counted yet</value>
+  </data>
+  <data name="server-stats-enabled" xml:space="preserve">
+    <value>Count activity in this server</value>
+  </data>
+  <data name="server-stats-count-bots" xml:space="preserve">
+    <value>Count bots as well</value>
+  </data>
+  <data name="server-stats-count-muted" xml:space="preserve">
+    <value>Count time spent muted or deafened</value>
+  </data>
+  <data name="server-stats-count-afk" xml:space="preserve">
+    <value>Count time spent in the AFK channel</value>
+  </data>
+  <data name="server-stats-lookback" xml:space="preserve">
+    <value>How far back the figures reach, in days</value>
+  </data>
+  <data name="server-stats-lookback-hint" xml:space="preserve">
+    <value>Free servers reach back up to 7 days, premium servers up to 30.</value>
+  </data>
+  <data name="server-stats-role-interval" xml:space="preserve">
+    <value>Minutes between two runs of the activity roles</value>
+  </data>
+  <data name="server-stats-role-interval-hint" xml:space="preserve">
+    <value>The roles are worked out every 30 minutes at most.</value>
+  </data>
+  <data name="server-stats-filters-title" xml:space="preserve">
+    <value>Excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-channels" xml:space="preserve">
+    <value>Channels excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-roles" xml:space="preserve">
+    <value>Roles excluded from tracking</value>
+  </data>
+  <data name="server-stats-ignored-users" xml:space="preserve">
+    <value>Members excluded from tracking</value>
+  </data>
+  <data name="server-stats-roles-intro" xml:space="preserve">
+    <value>Give a role to the members whose activity matches a rule. The bot adds the role automatically and removes it again when a member no longer matches.</value>
+  </data>
+  <data name="server-stats-role-role" xml:space="preserve">
+    <value>Role to hand out</value>
+  </data>
+  <data name="server-stats-role-metric" xml:space="preserve">
+    <value>What is counted</value>
+  </data>
+  <data name="server-stats-role-metric-messages" xml:space="preserve">
+    <value>Message count</value>
+  </data>
+  <data name="server-stats-role-metric-voice" xml:space="preserve">
+    <value>Voice time</value>
+  </data>
+  <data name="server-stats-role-mode" xml:space="preserve">
+    <value>How members are picked</value>
+  </data>
+  <data name="server-stats-role-mode-threshold" xml:space="preserve">
+    <value>Everybody past a number</value>
+  </data>
+  <data name="server-stats-role-mode-top" xml:space="preserve">
+    <value>The highest placed only</value>
+  </data>
+  <data name="server-stats-role-threshold" xml:space="preserve">
+    <value>Number to reach, or how many to pick</value>
+  </data>
+  <data name="server-stats-role-range" xml:space="preserve">
+    <value>Days of activity to look at</value>
+  </data>
+  <data name="server-stats-role-add" xml:space="preserve">
+    <value>Add the rule</value>
+  </data>
+  <data name="server-stats-role-remove-confirm" xml:space="preserve">
+    <value>Remove this activity role rule?</value>
+  </data>
+  <data name="server-stats-reset-title" xml:space="preserve">
+    <value>Delete recorded activity</value>
+  </data>
+  <data name="server-stats-reset-member-title" xml:space="preserve">
+    <value>Reset one member's activity</value>
+  </data>
+  <data name="server-stats-reset-member-desc" xml:space="preserve">
+    <value>Deletes the messages and voice time recorded for a single member. Everything else in the server stays as it is.</value>
+  </data>
+  <data name="server-stats-reset-confirm-user" xml:space="preserve">
+    <value>Delete this member's recorded activity? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-danger-title" xml:space="preserve">
+    <value>Danger zone</value>
+  </data>
+  <data name="server-stats-danger-desc" xml:space="preserve">
+    <value>This deletes the recorded activity of every member and channel in the server. There is no way to get it back.</value>
+  </data>
+  <data name="server-stats-reset-confirm-all" xml:space="preserve">
+    <value>Delete the recorded activity of the whole server? This cannot be undone.</value>
+  </data>
+  <data name="server-stats-reset-user" xml:space="preserve">
+    <value>Member whose activity to delete</value>
+  </data>
+  <data name="server-stats-reset-user-action" xml:space="preserve">
+    <value>Delete this member's activity</value>
+  </data>
+  <data name="server-stats-reset-all" xml:space="preserve">
+    <value>Delete all recorded activity</value>
+  </data>
+  <data name="server-stats-reset-done" xml:space="preserve">
+    <value>{0} activity records were deleted.</value>
+  </data>
+  <data name="server-stats-export" xml:space="preserve">
+    <value>Download the counts</value>
+  </data>
+  <data name="server-stats-counters-intro" xml:space="preserve">
+    <value>Counter channel names can include these placeholders to show live activity numbers.</value>
+  </data>
+  <data name="server-stats-counters-placeholders" xml:space="preserve">
+    <value>{messages:7d} · {voice_hours:7d} · {voice_minutes:7d} · {active_members:7d} · {top_chatter:7d} · {top_voice:7d} · {joins:7d} · {leaves:7d} · {time:HH:mm}</value>
+  </data>
+  <data name="server-stats-counters-note" xml:space="preserve">
+    <value>Replace 7d in any activity placeholder with the number of days you want it to cover.</value>
+  </data>
+  <data name="server-stats-error-lookback" xml:space="preserve">
+    <value>The history has to be between 1 and {0} days.</value>
+  </data>
+  <data name="server-stats-error-role-interval" xml:space="preserve">
+    <value>The activity roles cannot be worked out more often than every {0} minutes.</value>
+  </data>
+  <data name="server-stats-error-invalid-role" xml:space="preserve">
+    <value>Pick a role to hand out.</value>
+  </data>
+  <data name="server-stats-error-invalid-rule" xml:space="preserve">
+    <value>That rule does not add up.</value>
+  </data>
+  <data name="server-stats-error-duplicate-rule" xml:space="preserve">
+    <value>That role already has a rule for what is being counted.</value>
+  </data>
+  <data name="server-stats-error-not-found" xml:space="preserve">
+    <value>That activity role rule is gone.</value>
+  </data>
+  <data name="server-stats-error-invalid-user" xml:space="preserve">
+    <value>Pick a member first.</value>
+  </data>
+  <data name="server-stats-error-invalid-scope" xml:space="preserve">
+    <value>Nothing was selected to delete.</value>
+  </data>
+  <data name="audit-server-stats-settings" xml:space="preserve">
+    <value>Changed what is counted</value>
+  </data>
+  <data name="audit-server-stats-filters" xml:space="preserve">
+    <value>Changed the tracking exclusions</value>
+  </data>
+  <data name="audit-server-stats-role-added" xml:space="preserve">
+    <value>Added an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-removed" xml:space="preserve">
+    <value>Removed an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-role-toggled" xml:space="preserve">
+    <value>Switched an activity role rule</value>
+  </data>
+  <data name="audit-server-stats-reset" xml:space="preserve">
+    <value>Deleted recorded activity</value>
+  </data>
+  <data name="audit-target-serverstatssettings" xml:space="preserve">
+    <value>Server statistics settings</value>
+  </data>
+  <data name="audit-target-serverstatsfilters" xml:space="preserve">
+    <value>Server statistics filters</value>
+  </data>
+  <data name="audit-target-serverstatsrole" xml:space="preserve">
+    <value>Activity role rule</value>
+  </data>
+  <data name="audit-target-serverstatsdata" xml:space="preserve">
+    <value>Counted activity</value>
+  </data>
+  <data name="invite-tracking-tooltip-enabled" xml:space="preserve">
+    <value>Turns invite tracking on so the bot records which invite each new member arrived through.</value>
+  </data>
+  <data name="invite-tracking-tooltip-rejoin-fake" xml:space="preserve">
+    <value>Treats a member who leaves and comes back as a fake invite instead of a fresh one.</value>
+  </data>
+  <data name="invite-tracking-tooltip-count-leaves" xml:space="preserve">
+    <value>Takes one invite away from the inviter once the member they brought in leaves.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-left" xml:space="preserve">
+    <value>Clears only the leave counters for every inviter and keeps their remaining totals.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-all" xml:space="preserve">
+    <value>Wipes every stored invite count for this server, which cannot be undone.</value>
+  </data>
+  <data name="invite-tracking-tooltip-public-leaderboard" xml:space="preserve">
+    <value>Publishes the invite ranking on a web page anyone can open.</value>
+  </data>
+  <data name="invite-tracking-tooltip-show-details" xml:space="preserve">
+    <value>Shows the fake, left and bonus breakdown to visitors of that public page.</value>
+  </data>
+  <data name="invite-tracking-tooltip-range" xml:space="preserve">
+    <value>Picks the time window the ranking below is calculated from.</value>
+  </data>
+  <data name="invite-tracking-tooltip-export" xml:space="preserve">
+    <value>Downloads the complete invite ranking as a CSV file.</value>
+  </data>
+  <data name="invite-tracking-tooltip-leaderboard" xml:space="preserve">
+    <value>Every inviter with their totals, ordered by how many members they brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hide" xml:space="preserve">
+    <value>The eye button takes a member off the ranking without deleting their recorded invites.</value>
+  </data>
+  <data name="invite-tracking-tooltip-hidden" xml:space="preserve">
+    <value>Members listed here stay off the ranking until you bring them back.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-code" xml:space="preserve">
+    <value>The invite code you want to name, written without the discord.gg prefix.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-name" xml:space="preserve">
+    <value>The friendly name shown next to that invite code in analytics and reports.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-role" xml:space="preserve">
+    <value>An optional role given to everyone who joins through this invite code.</value>
+  </data>
+  <data name="invite-tracking-tooltip-label-add" xml:space="preserve">
+    <value>Saves the label so joins through that code are reported under its name.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-roles" xml:space="preserve">
+    <value>Members holding any of these roles never earn invite credit.</value>
+  </data>
+  <data name="invite-tracking-tooltip-blacklist-users" xml:space="preserve">
+    <value>These members never earn invite credit, no matter who they bring in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-user" xml:space="preserve">
+    <value>The member whose invite counters you want to correct by hand.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-regular" xml:space="preserve">
+    <value>How many regular invites to add, or a negative number to take some away.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-bonus" xml:space="preserve">
+    <value>How many extra invites to award on top of the ones actually brought in.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-fake" xml:space="preserve">
+    <value>How many fake invites to add to or remove from that member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-adjust-apply" xml:space="preserve">
+    <value>Writes the three corrections above onto the selected member's record.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose stored invite counters should be cleared.</value>
+  </data>
+  <data name="invite-tracking-tooltip-reset-run" xml:space="preserve">
+    <value>Deletes the invite counters of the chosen member and leaves everyone else untouched.</value>
+  </data>
+  <data name="invite-tracking-tooltip-analytics-range" xml:space="preserve">
+    <value>Chooses how far back the figures on this tab reach.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-joins" xml:space="preserve">
+    <value>How many members joined the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-leaves" xml:space="preserve">
+    <value>How many members left the server inside the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-net" xml:space="preserve">
+    <value>Joins minus leaves, so how much the member count grew over the range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-stat-retention" xml:space="preserve">
+    <value>The share of members gained in the range who are still in the server.</value>
+  </data>
+  <data name="invite-tracking-tooltip-chart" xml:space="preserve">
+    <value>Plots joins and leaves day by day so spikes and drop-offs stand out.</value>
+  </data>
+  <data name="invite-tracking-tooltip-sources" xml:space="preserve">
+    <value>Splits the joins by where they came from, such as a normal invite or the vanity URL.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-codes" xml:space="preserve">
+    <value>The invite codes that brought in the most members during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-top-inviters" xml:space="preserve">
+    <value>The members responsible for the most joins during the selected range.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-channel" xml:space="preserve">
+    <value>The channel the bot posts the recurring invite summary into.</value>
+  </data>
+  <data name="invite-tracking-tooltip-report-interval" xml:space="preserve">
+    <value>How often that summary is posted, weekly or monthly.</value>
+  </data>
+  <data name="server-stats-tooltip-range" xml:space="preserve">
+    <value>Sets the time window every chart, tile and table on this page is built from. Free servers reach back 7 days, premium servers 30.</value>
+  </data>
+  <data name="server-stats-tooltip-export" xml:space="preserve">
+    <value>Downloads the raw activity numbers for the selected range as a CSV file.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-messages" xml:space="preserve">
+    <value>All messages sent in the server across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-voice" xml:space="preserve">
+    <value>All time members spent in voice channels across the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-active" xml:space="preserve">
+    <value>How many different members wrote a message or joined voice in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-members" xml:space="preserve">
+    <value>How many members the server has right now.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-joins" xml:space="preserve">
+    <value>How many members joined inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-tile-leaves" xml:space="preserve">
+    <value>How many members left inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages" xml:space="preserve">
+    <value>Messages per day, so you can see which days the server was busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice" xml:space="preserve">
+    <value>Voice time per day across every channel in the server.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-messages-channel" xml:space="preserve">
+    <value>Messages per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-messages" xml:space="preserve">
+    <value>The channels with the most messages in the range, with their voice time beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-messages" xml:space="preserve">
+    <value>The members who wrote the most messages in the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-voice-channel" xml:space="preserve">
+    <value>Voice time per day split by channel, covering the eight busiest channels.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-channels-voice" xml:space="preserve">
+    <value>The channels with the most voice time in the range, with their message count beside them.</value>
+  </data>
+  <data name="server-stats-tooltip-table-top-members-voice" xml:space="preserve">
+    <value>The members who spent the most time in voice during the range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-members" xml:space="preserve">
+    <value>The member count over time, so growth is easy to follow.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-joins" xml:space="preserve">
+    <value>New members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-chart-leaves" xml:space="preserve">
+    <value>Departing members per day inside the selected range.</value>
+  </data>
+  <data name="server-stats-tooltip-heatmap" xml:space="preserve">
+    <value>Shows which hours of which weekdays the server is busiest.</value>
+  </data>
+  <data name="server-stats-tooltip-enabled" xml:space="preserve">
+    <value>Turns activity tracking on so the bot records messages and voice time.</value>
+  </data>
+  <data name="server-stats-tooltip-count-bots" xml:space="preserve">
+    <value>Includes messages and voice sessions of other bots in the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-count-muted" xml:space="preserve">
+    <value>Counts voice time while a member is muted or deafened.</value>
+  </data>
+  <data name="server-stats-tooltip-count-afk" xml:space="preserve">
+    <value>Counts time spent sitting in the server's AFK channel.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-select" xml:space="preserve">
+    <value>The member whose recorded messages and voice time should be deleted.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-user-action" xml:space="preserve">
+    <value>Removes the stored activity of the chosen member and leaves the rest of the server intact.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-channels" xml:space="preserve">
+    <value>Activity in these channels is never recorded or shown anywhere on this page.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-roles" xml:space="preserve">
+    <value>Members holding any of these roles are left out of the statistics.</value>
+  </data>
+  <data name="server-stats-tooltip-ignored-users" xml:space="preserve">
+    <value>These members are left out of the statistics entirely.</value>
+  </data>
+  <data name="server-stats-tooltip-reset-all" xml:space="preserve">
+    <value>Deletes every recorded message and voice statistic for this server, which cannot be undone.</value>
+  </data>
+  <data name="server-stats-tooltip-rule-actions" xml:space="preserve">
+    <value>The first button pauses or resumes a rule, the second deletes it while members keep any role it already gave them.</value>
+  </data>
+  <data name="server-stats-tooltip-role-role" xml:space="preserve">
+    <value>The role handed to members who match this rule.</value>
+  </data>
+  <data name="server-stats-tooltip-role-metric" xml:space="preserve">
+    <value>Whether the rule looks at messages written or time spent in voice.</value>
+  </data>
+  <data name="server-stats-tooltip-role-mode" xml:space="preserve">
+    <value>Threshold gives the role to everyone above the number, top gives it to the highest ranked members.</value>
+  </data>
+  <data name="server-stats-tooltip-role-threshold" xml:space="preserve">
+    <value>The number a member has to reach, or the size of the list when top mode is used.</value>
+  </data>
+  <data name="server-stats-tooltip-role-range" xml:space="preserve">
+    <value>How many days of activity the rule adds up before it checks that number.</value>
+  </data>
+  <data name="server-stats-tooltip-role-add" xml:space="preserve">
+    <value>Saves the rule so the bot starts handing that role out on its next run.</value>
+  </data>
+  <data name="server-stats-tooltip-counters" xml:space="preserve">
+    <value>Opens the statistic channel editor where those placeholders are used.</value>
+  </data>
+  <data name="feature-guide-button" xml:space="preserve">
+    <value>How does this work?</value>
+  </data>
+  <data name="feature-guide-label" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="feature-guide-read-wiki" xml:space="preserve">
+    <value>Read the full guide on the wiki</value>
+  </data>
+  <data name="feature-guide-error" xml:space="preserve">
+    <value>This guide could not be loaded. Please try again later.</value>
+  </data>
+  <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
+    <value>The website URL must be a full link such as https://example.com.</value>
   </data>
 </root>
