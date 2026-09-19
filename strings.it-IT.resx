@@ -687,6 +687,9 @@
   <data name="music_error_player" xml:space="preserve">
     <value>Il giocatore non esiste, digitare nuovamente `/play`.</value>
   </data>
+  <data name="music_error_lavalink_starting" xml:space="preserve">
+    <value>Il servizio musicale si sta ancora avviando. Riprova tra qualche istante.</value>
+  </data>
   <data name="music_error_timespan" xml:space="preserve">
     <value>La durata della coda è troppo lunga. Sei pregato di cancellare le canzoni dalla coda prima di aggiungerne altre.</value>
   </data>
@@ -1731,6 +1734,9 @@ Nota: richiede l'accesso a "Gestisci server".</value>
   <data name="random_drop_consecutive_claim_blocked" xml:space="preserve">
     <value>❌ Hai rivendicato il drop precedente! Dai una possibilità a qualcun altro.</value>
   </data>
+  <data name="random_drop_already_claimed" xml:space="preserve">
+    <value>❌ Qualcun altro ha già rivendicato questo drop!</value>
+  </data>
   <data name="birthday_error" xml:space="preserve">
     <value>L'amministratore del server deve impostare un canale di annuncio di compleanno prima di poter utilizzare questo comando.</value>
   </data>
@@ -1757,6 +1763,12 @@ Nota: richiede l'accesso a "Gestisci server".</value>
   </data>
   <data name="birthday_role" xml:space="preserve">
     <value>Aggiornato con successo il ruolo automatico del compleanno a &lt;@&amp;{0}&gt;.</value>
+  </data>
+  <data name="birthday_list_title" xml:space="preserve">
+    <value>Compleanni di {0}</value>
+  </data>
+  <data name="birthday_list_entry" xml:space="preserve">
+    <value>**{0}** - {1}</value>
   </data>
   <data name="core_purchase_premium" xml:space="preserve">
     <value>Premio di acquisto</value>
@@ -1983,6 +1995,75 @@ Nota: richiede l'accesso a "Gestisci server".</value>
   <data name="auto_ban_non_verified" xml:space="preserve">
     <value>Bot non verificato</value>
   </data>
+  <data name="achievement_showcase_empty" xml:space="preserve">
+    <value>Nessun obiettivo è stato ancora sbloccato.</value>
+  </data>
+  <data name="achievement_showcase_message" xml:space="preserve">
+    <value>{0} ha sbloccato {1} obiettivi.</value>
+  </data>
+  <data name="achievement_leaderboard_title" xml:space="preserve">
+    <value>Classifica Obiettivi</value>
+  </data>
+  <data name="achievement_leaderboard_empty" xml:space="preserve">
+    <value>Nessuno in questo server ha ancora sbloccato un obiettivo.</value>
+  </data>
+  <data name="form_review_approve" xml:space="preserve">
+    <value>Accetta</value>
+  </data>
+  <data name="form_review_deny" xml:space="preserve">
+    <value>Rifiuta</value>
+  </data>
+  <data name="form_review_approved" xml:space="preserve">
+    <value>Risposta accettata.</value>
+  </data>
+  <data name="form_review_rejected" xml:space="preserve">
+    <value>Risposta rifiutata.</value>
+  </data>
+  <data name="form_review_approved_by" xml:space="preserve">
+    <value>Accettata da {0}</value>
+  </data>
+  <data name="form_review_rejected_by" xml:space="preserve">
+    <value>Rifiutata da {0}</value>
+  </data>
+  <data name="form_review_decision" xml:space="preserve">
+    <value>Decisione</value>
+  </data>
+  <data name="form_review_no_permission" xml:space="preserve">
+    <value>Non hai il ruolo richiesto da questo modulo per esaminare le risposte.</value>
+  </data>
+  <data name="form_review_already_decided" xml:space="preserve">
+    <value>Per questa risposta è già stata presa una decisione.</value>
+  </data>
+  <data name="form_review_not_reviewable" xml:space="preserve">
+    <value>Questa risposta non è stata inviata per la revisione.</value>
+  </data>
+  <data name="form_review_anonymous" xml:space="preserve">
+    <value>Questa risposta è anonima, quindi non c'è nessuno a cui applicare una decisione.</value>
+  </data>
+  <data name="form_review_not_found" xml:space="preserve">
+    <value>Quella risposta non esiste più.</value>
+  </data>
+  <data name="form_review_unban_failed" xml:space="preserve">
+    <value>Il ricorso non ha potuto essere accettato perché la rimozione del ban è fallita.</value>
+  </data>
+  <data name="form_review_invite_failed" xml:space="preserve">
+    <value>La candidatura non ha potuto essere accettata perché non è stato possibile creare un invito.</value>
+  </data>
+  <data name="form_review_dm_approved" xml:space="preserve">
+    <value>La tua risposta è stata accettata.</value>
+  </data>
+  <data name="form_review_dm_rejected" xml:space="preserve">
+    <value>La tua risposta è stata rifiutata.</value>
+  </data>
+  <data name="form_review_reject_title" xml:space="preserve">
+    <value>Rifiuta risposta</value>
+  </data>
+  <data name="form_review_reason" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="form_review_invite" xml:space="preserve">
+    <value>Invito</value>
+  </data>
   <data name="giveaway_no_active" xml:space="preserve">
     <value>Al momento non ci sono omaggi attivi.</value>
   </data>
@@ -2083,6 +2164,12 @@ Puoi farlo premendo uno dei pulsanti numerati di questo messaggio.
   </data>
   <data name="xp_import_success" xml:space="preserve">
     <value>I dati di livellamento sono stati importati con successo. È possibile visualizzare la classifica facendo clic sul pulsante sottostante.</value>
+  </data>
+  <data name="xp_import_missing_file" xml:space="preserve">
+    <value>Questo metodo di importazione richiede che sia allegato un file di esportazione. Allega il file JSON esportato e riprova.</value>
+  </data>
+  <data name="xp_import_error_file" xml:space="preserve">
+    <value>Impossibile importare i dati di livello dal file allegato. Assicurati che sia un file di esportazione valido e non modificato.</value>
   </data>
   <data name="xp_export_success" xml:space="preserve">
     <value>Dati di livellamento di Cakey Bot esportati con successo. Puoi visualizzarli nel file di testo allegato.</value>
@@ -2292,6 +2379,24 @@ Nota: Un messaggio verrà inviato al completamento.</value>
   <data name="economy_beg_success" xml:space="preserve">
     <value>Hai mendicato con successo denaro e guadagnato {0}.</value>
   </data>
+  <data name="economy_daily_success" xml:space="preserve">
+    <value>Hai riscattato la tua ricompensa giornaliera e ricevuto {0}!</value>
+  </data>
+  <data name="economy_daily_cooldown" xml:space="preserve">
+    <value>Hai già riscattato la tua ricompensa giornaliera. Torna {0}.</value>
+  </data>
+  <data name="economy_weekly_success" xml:space="preserve">
+    <value>Hai riscattato la tua ricompensa settimanale e ricevuto {0}!</value>
+  </data>
+  <data name="economy_weekly_cooldown" xml:space="preserve">
+    <value>Hai già riscattato la tua ricompensa settimanale. Torna {0}.</value>
+  </data>
+  <data name="economy_monthly_success" xml:space="preserve">
+    <value>Hai riscattato la tua ricompensa mensile e ricevuto {0}!</value>
+  </data>
+  <data name="economy_monthly_cooldown" xml:space="preserve">
+    <value>Hai già riscattato la tua ricompensa mensile. Torna {0}.</value>
+  </data>
   <data name="economy_fishing_success_1" xml:space="preserve">
     <value>Hai catturato un {0} dal bioma {1}! Vale {2} e pesa {3}.</value>
   </data>
@@ -2336,6 +2441,165 @@ Nota: Un messaggio verrà inviato al completamento.</value>
   </data>
   <data name="economy_fishing_fail_10" xml:space="preserve">
     <value>Ti sei addormentato e hai perso l'occasione di recuperare.</value>
+  </data>
+  <data name="economy_fishing_biomes_title" xml:space="preserve">
+    <value># Biomi di pesca disponibili</value>
+  </data>
+  <data name="economy_fishing_baits_title" xml:space="preserve">
+    <value># Esche da pesca disponibili</value>
+  </data>
+  <data name="economy_fishing_rods_title" xml:space="preserve">
+    <value># Canne da pesca disponibili</value>
+  </data>
+  <data name="economy_fishing_biome_buy_more" xml:space="preserve">
+    <value>Acquista altri {0} biomi</value>
+  </data>
+  <data name="economy_fishing_biome_info" xml:space="preserve">
+    <value>**Difficoltà:** {0}x - **Numero di pesci:** {1}
+**Costo di sblocco:** {2}
+[Visualizza le probabilità dei pesci]({3})</value>
+  </data>
+  <data name="economy_fishing_bait_info" xml:space="preserve">
+    <value>**Prezzo:** {0}
+**Limite:** {1}/{2} ({3})</value>
+  </data>
+  <data name="economy_fishing_bait_maxed" xml:space="preserve">
+    <value>Massimo raggiunto</value>
+  </data>
+  <data name="economy_fishing_bait_available" xml:space="preserve">
+    <value>Disponibile</value>
+  </data>
+  <data name="economy_fishing_rod_info" xml:space="preserve">
+    <value>**Costo:** {0}
+**Descrizione:** {1}</value>
+  </data>
+  <data name="economy_fishing_rod_purchase_previous" xml:space="preserve">
+    <value>Acquista la precedente</value>
+  </data>
+  <data name="economy_fishing_inventory_no_baits" xml:space="preserve">
+    <value>Nessuna esca disponibile nel registro.</value>
+  </data>
+  <data name="economy_fishing_inventory_none" xml:space="preserve">
+    <value>L'utente selezionato non ha un inventario.</value>
+  </data>
+  <data name="economy_fishing_inventory_description" xml:space="preserve">
+    <value>Ecco gli oggetti nel tuo inventario di pesca:</value>
+  </data>
+  <data name="economy_fishing_inventory_baits" xml:space="preserve">
+    <value>Esche</value>
+  </data>
+  <data name="economy_fishing_inventory_rods" xml:space="preserve">
+    <value>Canne</value>
+  </data>
+  <data name="economy_fishing_inventory_biomes" xml:space="preserve">
+    <value>Biomi</value>
+  </data>
+  <data name="economy_fishing_inventory_stats_title" xml:space="preserve">
+    <value>Statistiche di pesca</value>
+  </data>
+  <data name="economy_fishing_inventory_stats_body" xml:space="preserve">
+    <value>**Pesci totali:** {0}
+**Rifiuti totali:** {1}
+**Valore totale dei pesci:** {2}
+
+• **Pesci mitici:** {3}
+• **Pesci leggendari:** {4}
+• **Pesci epici:** {5}
+• **Pesci rari:** {6}
+• **Pesci non comuni:** {7}
+• **Pesci comuni:** {8}</value>
+  </data>
+  <data name="economy_fishing_inventory_biome_stats_title" xml:space="preserve">
+    <value>Statistiche dei biomi</value>
+  </data>
+  <data name="economy_fishing_inventory_biome_stats_body" xml:space="preserve">
+    <value>**Biomi totali:** {0}
+**Più pescato:** {1}
+**Meno pescato:** {2}</value>
+  </data>
+  <data name="economy_fishing_inventory_biome_stats_line" xml:space="preserve">
+    <value>• **{0}**: {1} pesci</value>
+  </data>
+  <data name="economy_fishing_inventory_weight_title" xml:space="preserve">
+    <value>Statistiche di peso</value>
+  </data>
+  <data name="economy_fishing_inventory_weight_body" xml:space="preserve">
+    <value>**Pesce più grande:** {0}
+**Pesce più piccolo:** {1}
+**Peso medio:** {2}
+**Peso totale:** {3}</value>
+  </data>
+  <data name="economy_fishing_none" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="economy_fishing_leaderboard_title" xml:space="preserve">
+    <value># Classifica di pesca | {0}</value>
+  </data>
+  <data name="economy_fishing_invalid_rod" xml:space="preserve">
+    <value>Errore: opzione di canna non valida selezionata.</value>
+  </data>
+  <data name="economy_fishing_invalid_bait" xml:space="preserve">
+    <value>Errore: opzione di esca non valida selezionata.</value>
+  </data>
+  <data name="economy_fishing_invalid_biome" xml:space="preserve">
+    <value>Errore: opzione di bioma non valida selezionata.</value>
+  </data>
+  <data name="economy_fishing_no_inventory" xml:space="preserve">
+    <value>Non hai un inventario di pesca. Riprova.</value>
+  </data>
+  <data name="economy_fishing_rod_not_owned" xml:space="preserve">
+    <value>Non possiedi **{0}**. Acquistala prima.</value>
+  </data>
+  <data name="economy_fishing_bait_not_owned" xml:space="preserve">
+    <value>Non possiedi l'esca **{0}**. Acquistala prima.</value>
+  </data>
+  <data name="economy_fishing_biome_not_found" xml:space="preserve">
+    <value>Errore: bioma **{0}** non trovato.</value>
+  </data>
+  <data name="economy_fishing_biome_not_owned" xml:space="preserve">
+    <value>Non possiedi il bioma **{0}**. Acquistalo prima.</value>
+  </data>
+  <data name="economy_fishing_rarity" xml:space="preserve">
+    <value>(Rarità: {0})</value>
+  </data>
+  <data name="economy_fishing_extra_bait_found" xml:space="preserve">
+    <value>Hai trovato dell'esca extra (`{0}`) mentre pescavi!</value>
+  </data>
+  <data name="economy_fishing_extra_bait_full" xml:space="preserve">
+    <value>Hai provato a trovare dell'esca extra, ma il tuo inventario è pieno!</value>
+  </data>
+  <data name="economy_fishing_biome_does_not_exist" xml:space="preserve">
+    <value>Questo bioma non esiste. Scegli un bioma valido.</value>
+  </data>
+  <data name="economy_fishing_biome_already_owned" xml:space="preserve">
+    <value>Possiedi già il bioma **{0}**.</value>
+  </data>
+  <data name="economy_fishing_biome_requires_more" xml:space="preserve">
+    <value>Devi possedere almeno **{0}** biomi prima di acquistare questo.</value>
+  </data>
+  <data name="economy_fishing_rod_requires_prerequisite" xml:space="preserve">
+    <value>Devi possedere {0} prima di acquistare {1}.</value>
+  </data>
+  <data name="economy_fishing_previous_tier_rod" xml:space="preserve">
+    <value>canna del livello precedente</value>
+  </data>
+  <data name="economy_fishing_rarity_mythic" xml:space="preserve">
+    <value>Mitico</value>
+  </data>
+  <data name="economy_fishing_rarity_legendary" xml:space="preserve">
+    <value>Leggendario</value>
+  </data>
+  <data name="economy_fishing_rarity_epic" xml:space="preserve">
+    <value>Epico</value>
+  </data>
+  <data name="economy_fishing_rarity_rare" xml:space="preserve">
+    <value>Raro</value>
+  </data>
+  <data name="economy_fishing_rarity_uncommon" xml:space="preserve">
+    <value>Non comune</value>
+  </data>
+  <data name="economy_fishing_rarity_common" xml:space="preserve">
+    <value>Comune</value>
   </data>
   <data name="generic_confirm" xml:space="preserve">
     <value>Devi confermare questa azione usando l'opzione di conferma.</value>
@@ -2411,6 +2675,9 @@ Nota: Un messaggio verrà inviato al completamento.</value>
   </data>
   <data name="music_bot_premium_only" xml:space="preserve">
     <value>I bot musicali aggiuntivi possono essere utilizzati solo nei server premium.</value>
+  </data>
+  <data name="error_bot_not_in_guild" xml:space="preserve">
+    <value>Questo comando non è disponibile qui perché Cakey Bot non è in questo server. Prova a usarlo in un server in cui il bot è installato.</value>
   </data>
   <data name="report_finished" xml:space="preserve">
     <value>Segnato come Completato</value>
@@ -3139,6 +3406,9 @@ Se incassi ora, vincerai: **{3}**</value>
   </data>
   <data name="audit_reason_tempban" xml:space="preserve">
     <value>Rimuovi Ban Temporaneo</value>
+  </data>
+  <data name="audit_forum_auto_unarchive" xml:space="preserve">
+    <value>Disarchiviazione Automatica del Forum</value>
   </data>
   <data name="generic_anonymous" xml:space="preserve">
     <value>Anonimo</value>
@@ -4518,9 +4788,9 @@ Aggiunti `{0}` utenti mancanti al database.</value>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>Il messaggio non esiste in questo canale.</value>
   </data>
-  	<data name="daily_content_thread_name" xml:space="preserve">
-		<value>Discussione su {0}</value>
-	</data>
+  <data name="daily_content_thread_name" xml:space="preserve">
+    <value>Discussione su {0}</value>
+  </data>
 	<data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} del Giorno!</value>
   </data>
@@ -4706,6 +4976,45 @@ Questo canale è usato per catturare bot spam. Qualsiasi messaggio inviato qui c
   <data name="honeypot_log_attachments" xml:space="preserve">
     <value>Allegati:</value>
   </data>
+  <data name="honeypot_log_channel_missing_access" xml:space="preserve">
+    <value>Cakey Bot non ha più il permesso di pubblicare nel canale di log della trappola #{1} configurato in **{0}**. Gli attivamenti della trappola vengono ancora puniti, ma non vengono registrati. Permesso/i mancante/i: **{2}**. Concedi al bot quei permessi in quel canale o riconfigura il canale di log della trappola.</value>
+  </data>
+  <data name="audit_counting_fail_role" xml:space="preserve">
+    <value>Ruolo di Fallimento del Gioco del Conteggio</value>
+  </data>
+  <data name="counting_error_wrong_number" xml:space="preserve">
+    <value>❌ Numero sbagliato! Il conteggio è stato azzerato a **1**. Serie più alta mai raggiunta: **{0}**.</value>
+  </data>
+  <data name="counting_error_wrong_number_no_reset" xml:space="preserve">
+    <value>❌ Numero sbagliato! Il conteggio non è stato azzerato — il prossimo numero è ancora **{0}**. Serie più alta mai raggiunta: **{1}**.</value>
+  </data>
+  <data name="counting_error_same_user" xml:space="preserve">
+    <value>❌ Non puoi contare due volte di fila! Il conteggio è stato azzerato a **1**. Serie più alta mai raggiunta: **{0}**.</value>
+  </data>
+  <data name="counting_error_same_user_no_reset" xml:space="preserve">
+    <value>❌ Non puoi contare due volte di fila! Il conteggio non è stato azzerato — il prossimo numero è ancora **{0}**. Serie più alta mai raggiunta: **{1}**.</value>
+  </data>
+  <data name="counting_save_spent" xml:space="preserve">
+    <value>🛟 Numero sbagliato, ma è stato usato un salvataggio! Il conteggio non è stato azzerato — il prossimo numero è ancora **{0}**. Salvataggi rimasti: **{1}**.</value>
+  </data>
+  <data name="counting_saves_held" xml:space="preserve">
+    <value>🛟 Possiedi **{0}** salvataggio/i di conteggio. Un salvataggio viene usato invece di azzerare il conteggio quando commetti un errore.</value>
+  </data>
+  <data name="leveling_leaderboard_title_all_time" xml:space="preserve">
+    <value>🏆 Classifica</value>
+  </data>
+  <data name="leveling_leaderboard_title_weekly" xml:space="preserve">
+    <value>🏆 Classifica Settimanale</value>
+  </data>
+  <data name="leveling_leaderboard_title_monthly" xml:space="preserve">
+    <value>🏆 Classifica Mensile</value>
+  </data>
+  <data name="leveling_leaderboard_updated_footer" xml:space="preserve">
+    <value>Si aggiorna ogni {0} minuti</value>
+  </data>
+  <data name="leveling_top_missing_period" xml:space="preserve">
+    <value>Nessuno ha ancora guadagnato XP in questo periodo.</value>
+  </data>
   <data name="counting_game_not_configured" xml:space="preserve">
     <value>Il gioco del conteggio non è ancora stato configurato su questo server.</value>
   </data>
@@ -4764,5 +5073,380 @@ Questo canale è usato per catturare bot spam. Qualsiasi messaggio inviato qui c
   </data>
   <data name="ticket_panel_default_name" xml:space="preserve">
     <value>Pannello #{0}</value>
+  </data>
+  <data name="ticket_claim" xml:space="preserve">
+    <value>Rivendica</value>
+  </data>
+  <data name="ticket_unclaim" xml:space="preserve">
+    <value>Rilascia</value>
+  </data>
+  <data name="ticket_claimed" xml:space="preserve">
+    <value>Ticket rivendicato da {0}</value>
+  </data>
+  <data name="ticket_unclaimed" xml:space="preserve">
+    <value>Ticket rilasciato da {0}</value>
+  </data>
+  <data name="ticket_claimed_by_other" xml:space="preserve">
+    <value>Questo ticket è già stato rivendicato da {0}.</value>
+  </data>
+  <data name="ticket_error_panel_gone" xml:space="preserve">
+    <value>Il pannello a cui appartiene questo ticket è stato eliminato.</value>
+  </data>
+	<data name="economy_manual_not_configured" xml:space="preserve">
+    <value>This item cannot be bought right now: its handler role or notification channel no longer exists.</value>
+  </data>
+	<data name="economy_manual_notify_title" xml:space="preserve">
+    <value>Purchase waiting to be handled</value>
+  </data>
+	<data name="economy_manual_notify_body" xml:space="preserve">
+    <value>{0} bought **{1}** for {2}.</value>
+  </data>
+	<data name="economy_manual_button_fulfil" xml:space="preserve">
+    <value>Mark handled</value>
+  </data>
+	<data name="economy_manual_button_fulfilled" xml:space="preserve">
+    <value>Handled</value>
+  </data>
+	<data name="economy_manual_fulfilled_by" xml:space="preserve">
+    <value>Handled by</value>
+  </data>
+	<data name="economy_manual_no_permission" xml:space="preserve">
+    <value>Only the handler role or someone with Manage Server can mark this as handled.</value>
+  </data>
+	<data name="economy_manual_marked" xml:space="preserve">
+    <value>Marked as handled.</value>
+  </data>
+	<data name="economy_manual_dm" xml:space="preserve">
+    <value>Your purchase #{2} in **{0}** has been handled by {1}.</value>
+  </data>
+	<data name="invites_not_enabled" xml:space="preserve">
+    <value>Invite tracking is not enabled on this server yet.</value>
+  </data>
+	<data name="invites_view_title" xml:space="preserve">
+    <value>Invites for {0}</value>
+  </data>
+	<data name="invites_total" xml:space="preserve">
+    <value>Total invites</value>
+  </data>
+	<data name="invites_regular" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+	<data name="invites_left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+	<data name="invites_fake" xml:space="preserve">
+    <value>Fake</value>
+  </data>
+	<data name="invites_bonus" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+	<data name="invites_inviter_title" xml:space="preserve">
+    <value>Who invited them</value>
+  </data>
+	<data name="invites_inviter_none" xml:space="preserve">
+    <value>There is no recorded join for that member.</value>
+  </data>
+	<data name="invites_inviter_result" xml:space="preserve">
+    <value>{0} was invited by {1} with the code `{2}`.</value>
+  </data>
+	<data name="invites_inviter_result_source" xml:space="preserve">
+    <value>{0} joined through: {1}</value>
+  </data>
+	<data name="invites_joined_at" xml:space="preserve">
+    <value>Joined</value>
+  </data>
+	<data name="invites_list_title" xml:space="preserve">
+    <value>Members invited by {0}</value>
+  </data>
+	<data name="invites_list_empty" xml:space="preserve">
+    <value>That member has not invited anyone yet.</value>
+  </data>
+	<data name="invites_codes_title" xml:space="preserve">
+    <value>Invite codes owned by {0}</value>
+  </data>
+	<data name="invites_codes_empty" xml:space="preserve">
+    <value>That member does not own any invite codes I can see.</value>
+  </data>
+	<data name="invites_leaderboard_title" xml:space="preserve">
+    <value>Invite leaderboard</value>
+  </data>
+	<data name="invites_stats_title" xml:space="preserve">
+    <value>Invite statistics</value>
+  </data>
+	<data name="invites_settings_title" xml:space="preserve">
+    <value>Invite tracking settings</value>
+  </data>
+	<data name="invites_setting_enabled" xml:space="preserve">
+    <value>Tracking</value>
+  </data>
+	<data name="invites_setting_fake_delay" xml:space="preserve">
+    <value>Minimum account age (days)</value>
+  </data>
+	<data name="invites_setting_rejoin_fake" xml:space="preserve">
+    <value>Rejoins count as fake</value>
+  </data>
+	<data name="invites_setting_count_leaves" xml:space="preserve">
+    <value>Subtract members who left</value>
+  </data>
+	<data name="invites_setting_report_channel" xml:space="preserve">
+    <value>Report channel</value>
+  </data>
+	<data name="invites_setting_report_interval" xml:space="preserve">
+    <value>Report interval</value>
+  </data>
+	<data name="invites_state_enabled" xml:space="preserve">
+    <value>on</value>
+  </data>
+	<data name="invites_state_disabled" xml:space="preserve">
+    <value>off</value>
+  </data>
+	<data name="invites_toggled" xml:space="preserve">
+    <value>Invite tracking is now {0}.</value>
+  </data>
+	<data name="invites_fake_delay_set" xml:space="preserve">
+    <value>Joins from accounts younger than {0} days now count as fake.</value>
+  </data>
+	<data name="invites_rejoin_fake_set" xml:space="preserve">
+    <value>Counting rejoins as fake is now {0}.</value>
+  </data>
+	<data name="invites_count_leaves_set" xml:space="preserve">
+    <value>Subtracting members who left is now {0}.</value>
+  </data>
+	<data name="invites_bonus_updated" xml:space="preserve">
+    <value>{0} now has {1} bonus invites.</value>
+  </data>
+	<data name="invites_regular_updated" xml:space="preserve">
+    <value>{0} now has {1} regular invites.</value>
+  </data>
+	<data name="invites_reset_user" xml:space="preserve">
+    <value>Cleared the invite counters of {0}.</value>
+  </data>
+	<data name="invites_reset_all" xml:space="preserve">
+    <value>Cleared the invite counters of {0} members.</value>
+  </data>
+	<data name="invites_reset_left" xml:space="preserve">
+    <value>Cleared the leave counters of {0} members.</value>
+  </data>
+	<data name="invites_sync_success" xml:space="preserve">
+    <value>Reloaded this server's invites.</value>
+  </data>
+	<data name="invites_sync_failed" xml:space="preserve">
+    <value>I need the Manage Server permission to read this server's invites.</value>
+  </data>
+	<data name="invites_label_set" xml:space="preserve">
+    <value>The code `{0}` is now labelled **{1}**.</value>
+  </data>
+	<data name="invites_label_removed" xml:space="preserve">
+    <value>Removed the label from the code `{0}`.</value>
+  </data>
+	<data name="invites_label_missing" xml:space="preserve">
+    <value>That invite code does not have a label.</value>
+  </data>
+	<data name="invites_blacklist_added" xml:space="preserve">
+    <value>{0} can no longer earn invites.</value>
+  </data>
+	<data name="invites_blacklist_removed" xml:space="preserve">
+    <value>{0} can earn invites again.</value>
+  </data>
+	<data name="invites_blacklist_exists" xml:space="preserve">
+    <value>That target is already on the invite blacklist.</value>
+  </data>
+	<data name="invites_blacklist_missing" xml:space="preserve">
+    <value>That target is not on the invite blacklist.</value>
+  </data>
+	<data name="invites_report_set" xml:space="preserve">
+    <value>Invite reports will be posted in {0}.</value>
+  </data>
+	<data name="invites_report_disabled" xml:space="preserve">
+    <value>Invite reports are now turned off.</value>
+  </data>
+	<data name="invites_report_title" xml:space="preserve">
+    <value>Invite report</value>
+  </data>
+	<data name="invites_report_period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+	<data name="invites_report_period_weekly" xml:space="preserve">
+    <value>Last 7 days</value>
+  </data>
+	<data name="invites_report_period_monthly" xml:space="preserve">
+    <value>Last 30 days</value>
+  </data>
+	<data name="invites_report_joins" xml:space="preserve">
+    <value>Joins</value>
+  </data>
+	<data name="invites_report_leaves" xml:space="preserve">
+    <value>Leaves</value>
+  </data>
+	<data name="invites_report_net" xml:space="preserve">
+    <value>Net growth</value>
+  </data>
+	<data name="invites_report_retention" xml:space="preserve">
+    <value>Retention</value>
+  </data>
+	<data name="invites_report_top_inviters" xml:space="preserve">
+    <value>Top inviters</value>
+  </data>
+	<data name="invites_report_top_links" xml:space="preserve">
+    <value>Top invite links</value>
+  </data>
+	<data name="invites_source_invite" xml:space="preserve">
+    <value>An invite link</value>
+  </data>
+	<data name="invites_source_vanity" xml:space="preserve">
+    <value>The server's vanity URL</value>
+  </data>
+	<data name="invites_source_bot" xml:space="preserve">
+    <value>Added as a bot</value>
+  </data>
+	<data name="invites_source_unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+	<data name="serverstats_not_enabled" xml:space="preserve">
+    <value>Activity tracking is turned off for this server. A moderator can turn it on with /serverstats toggle.</value>
+  </data>
+	<data name="serverstats_premium_range" xml:space="preserve">
+    <value>Looking back further than 7 days needs Premium.</value>
+  </data>
+	<data name="serverstats_server_title" xml:space="preserve">
+    <value>Server activity</value>
+  </data>
+	<data name="serverstats_messages" xml:space="preserve">
+    <value>Messages sent</value>
+  </data>
+	<data name="serverstats_voice_hours" xml:space="preserve">
+    <value>Voice hours</value>
+  </data>
+	<data name="serverstats_active_members" xml:space="preserve">
+    <value>Active members</value>
+  </data>
+	<data name="serverstats_active_channels" xml:space="preserve">
+    <value>Active channels</value>
+  </data>
+	<data name="serverstats_user_title" xml:space="preserve">
+    <value>Activity of {0}</value>
+  </data>
+	<data name="serverstats_user_opted_out" xml:space="preserve">
+    <value>That member opted out of per-member statistics.</value>
+  </data>
+	<data name="serverstats_channel_title" xml:space="preserve">
+    <value>Activity in #{0}</value>
+  </data>
+	<data name="serverstats_top_title_messages" xml:space="preserve">
+    <value>Most talkative members</value>
+  </data>
+	<data name="serverstats_top_title_voice" xml:space="preserve">
+    <value>Members with the most voice time</value>
+  </data>
+	<data name="serverstats_top_title_channels_messages" xml:space="preserve">
+    <value>Busiest channels by messages</value>
+  </data>
+	<data name="serverstats_top_title_channels_voice" xml:space="preserve">
+    <value>Busiest channels by voice time</value>
+  </data>
+	<data name="serverstats_chart_title_messages" xml:space="preserve">
+    <value>Messages over time</value>
+  </data>
+	<data name="serverstats_chart_title_voice" xml:space="preserve">
+    <value>Voice minutes over time</value>
+  </data>
+	<data name="serverstats_chart_title_members" xml:space="preserve">
+    <value>Member count over time</value>
+  </data>
+	<data name="serverstats_dashboard_link" xml:space="preserve">
+    <value>Open the stats dashboard</value>
+  </data>
+	<data name="serverstats_privacy_on" xml:space="preserve">
+    <value>You are now excluded from per-member statistics. Your activity still counts towards server totals, but it is no longer stored against your account.</value>
+  </data>
+	<data name="serverstats_privacy_off" xml:space="preserve">
+    <value>Your activity is recorded against your account again.</value>
+  </data>
+	<data name="serverstats_settings_title" xml:space="preserve">
+    <value>Activity tracking settings</value>
+  </data>
+	<data name="serverstats_setting_enabled" xml:space="preserve">
+    <value>Tracking</value>
+  </data>
+	<data name="serverstats_setting_count_bots" xml:space="preserve">
+    <value>Counting bots</value>
+  </data>
+	<data name="serverstats_setting_count_muted" xml:space="preserve">
+    <value>Counting muted voice time</value>
+  </data>
+	<data name="serverstats_setting_count_afk" xml:space="preserve">
+    <value>Counting the AFK channel</value>
+  </data>
+	<data name="serverstats_setting_lookback" xml:space="preserve">
+    <value>Lookback in days</value>
+  </data>
+	<data name="serverstats_setting_role_interval" xml:space="preserve">
+    <value>Role update interval in minutes</value>
+  </data>
+	<data name="serverstats_setting_ignored_channels" xml:space="preserve">
+    <value>Ignored channels</value>
+  </data>
+	<data name="serverstats_setting_ignored_roles" xml:space="preserve">
+    <value>Ignored roles</value>
+  </data>
+	<data name="serverstats_setting_ignored_users" xml:space="preserve">
+    <value>Ignored members</value>
+  </data>
+	<data name="serverstats_state_enabled" xml:space="preserve">
+    <value>On</value>
+  </data>
+	<data name="serverstats_state_disabled" xml:space="preserve">
+    <value>Off</value>
+  </data>
+	<data name="serverstats_toggled" xml:space="preserve">
+    <value>Activity tracking is now {0}.</value>
+  </data>
+	<data name="serverstats_count_bots_set" xml:space="preserve">
+    <value>Counting bot activity is now {0}.</value>
+  </data>
+	<data name="serverstats_filter_added" xml:space="preserve">
+    <value>{0} is now excluded from activity tracking.</value>
+  </data>
+	<data name="serverstats_filter_removed" xml:space="preserve">
+    <value>{0} is tracked again.</value>
+  </data>
+	<data name="serverstats_filter_missing_target" xml:space="preserve">
+    <value>Pick what this should apply to first.</value>
+  </data>
+	<data name="serverstats_role_added" xml:space="preserve">
+    <value>{0} will now be granted from recorded activity.</value>
+  </data>
+	<data name="serverstats_role_removed" xml:space="preserve">
+    <value>{0} is no longer granted from recorded activity.</value>
+  </data>
+	<data name="serverstats_role_missing" xml:space="preserve">
+    <value>There is no activity rule on that role.</value>
+  </data>
+	<data name="serverstats_role_list_title" xml:space="preserve">
+    <value>Activity roles</value>
+  </data>
+	<data name="serverstats_role_list_empty" xml:space="preserve">
+    <value>No activity roles are set up yet.</value>
+  </data>
+	<data name="serverstats_reset_server" xml:space="preserve">
+    <value>Every recorded statistic for this server has been deleted.</value>
+  </data>
+	<data name="serverstats_reset_user" xml:space="preserve">
+    <value>The recorded statistics of {0} have been deleted.</value>
+  </data>
+	<data name="serverstats_audit_role" xml:space="preserve">
+    <value>Server statistics activity role</value>
+  </data>
+	<data name="serverstats_metric_messages" xml:space="preserve">
+    <value>messages</value>
+  </data>
+	<data name="serverstats_metric_voice" xml:space="preserve">
+    <value>voice minutes</value>
+  </data>
+	<data name="serverstats_mode_threshold" xml:space="preserve">
+    <value>threshold</value>
+  </data>
+	<data name="serverstats_mode_top" xml:space="preserve">
+    <value>top ranked</value>
   </data>
 </root>
