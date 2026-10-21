@@ -121,7 +121,7 @@
     <value>Dieser Befehl ist vorübergehend aufgrund von Updates deaktiviert.</value>
   </data>
   <data name="error_generic_2" xml:space="preserve">
-    <value>Ein unbekannter Fehler ist aufgetreten. Bitte melde dich in unserem Support-Server: &lt;https://cakey.bot/discord&gt;</value>
+    <value>Ein unbekannter Fehler ist aufgetreten. Bitte melde ihn auf unserem Support-Server: &lt;https://cakey.bot/discord&gt;</value>
   </data>
   <data name="error_limit_characters_10" xml:space="preserve">
     <value>Der Text muss weniger als 10 Zeichen enthalten.</value>
@@ -154,7 +154,7 @@
     <value>Es ist ein Fehler beim Ändern des Bildes aufgetreten.</value>
   </data>
   <data name="error_failed_image_upload" xml:space="preserve">
-    <value>Du hast keine Berechtigung, hier Dateien hochzuladen.</value>
+    <value>Keine Berechtigung, hier Dateien hochzuladen.</value>
   </data>
   <data name="error_failed_joke" xml:space="preserve">
     <value>Fehler beim Laden der Witzdaten.</value>
@@ -187,10 +187,10 @@
     <value>Du kannst diese Rolle nicht bearbeiten, da diese über deiner höchsten Rolle liegt.</value>
   </data>
   <data name="error_role_warn_1" xml:space="preserve">
-    <value>Du kannst niemanden verwarnen, dessen Rolle über deiner liegt!</value>
+    <value>Du kannst niemanden verwarnen, dessen Rolle gleich hoch oder höher als deine ist!</value>
   </data>
   <data name="error_role_warn_2" xml:space="preserve">
-    <value>Ich kann niemanden verwarnen, dessen Rolle über meiner liegt!</value>
+    <value>Ich kann niemanden verwarnen, dessen Rolle gleich hoch oder höher als meine ist!</value>
   </data>
   <data name="error_invalid_color_hex" xml:space="preserve">
     <value>Du musst einen gültigen Hex-Code verwenden!</value>
@@ -202,7 +202,7 @@
     <value>Dieser Benutzername existiert nicht!</value>
   </data>
   <data name="error_invalid_user_guild" xml:space="preserve">
-    <value>Der angegebene Benutzer ist nicht gültig (Ungültiger Serverbenutzer)</value>
+    <value>Der Benutzer ist ungültig. (Kein Mitglied dieses Servers)</value>
   </data>
   <data name="error_invalid_base64" xml:space="preserve">
     <value>Bitte gib einen gültigen Base64-String ein.</value>
@@ -220,10 +220,10 @@
     <value>Die Verifizierungsrolle wurde erfolgreich auf `{0}` festgelegt.</value>
   </data>
   <data name="success_role_added" xml:space="preserve">
-    <value>Die Rolle {1} wurde erfolgreich dem Benutzer `{0}` hinzugefügt.</value>
+    <value>Die Rolle `{0}` wurde {1} erfolgreich hinzugefügt.</value>
   </data>
   <data name="success_role_removed" xml:space="preserve">
-    <value>Die Rolle {1} wurde erfolgreich von dem Benutzer `{0}` entfernt.</value>
+    <value>Die Rolle `{0}` wurde {1} erfolgreich entfernt.</value>
   </data>
   <data name="games_suggestion_title" xml:space="preserve">
     <value>Titel:</value>
@@ -253,7 +253,7 @@
     <value>Zahl</value>
   </data>
   <data name="generic_results" xml:space="preserve">
-    <value>Ergebnis:</value>
+    <value>Ergebnisse:</value>
   </data>
   <data name="games_coin_flipped" xml:space="preserve">
     <value>Du hast geworfen:</value>
@@ -265,7 +265,7 @@
     <value>Du hast einen Würfel geworfen. Ergebnis:</value>
   </data>
   <data name="games_dice_result_multiple" xml:space="preserve">
-    <value>Ergebnisse von Wurf #{i1}:</value>
+    <value>Würfel #{i1} – Ergebnis:</value>
   </data>
   <data name="games_dice_result_rolled" xml:space="preserve">
     <value>Du hast eine {0} gewürfelt</value>
@@ -297,7 +297,7 @@
     <value>Kategorie</value>
   </data>
   <data name="games_trivia_timeout" xml:space="preserve">
-    <value>Keine Antwort wurde innerhalb von 10s gegeben. Richtige Antwort: `{0}`</value>
+    <value>Innerhalb von 10 Sekunden kam keine Antwort. Richtige Antwort: `{0}`</value>
   </data>
   <data name="games_trivia_invalid" xml:space="preserve">
     <value>Ungültige Antwort. Gib beim nächsten Mal nur den Buchstaben an. Richtige Antwort: `{0}`</value>
@@ -309,13 +309,13 @@
     <value>Du hast es richtig beantwortet! :D</value>
   </data>
   <data name="games_trivia_incorrect" xml:space="preserve">
-    <value>Oh nein, du hast es falsch beantwortet. Richtige Antwort: {0}</value>
+    <value>Oh nein, das war falsch. Richtige Antwort: `{0}`</value>
   </data>
   <data name="games_trivia_load_failed" xml:space="preserve">
     <value>Fehler beim Laden von Trivia-Fragen. Bitte versuche es später erneut.</value>
   </data>
   <data name="afk" xml:space="preserve">
-    <value>{0} ist derzeit AFK, Grund: `{1}`</value>
+    <value>{0} ist gerade AFK. Grund: `{1}`</value>
   </data>
   <data name="afk_not_active_1" xml:space="preserve">
     <value>Du bist derzeit nicht AFK.</value>
@@ -357,7 +357,7 @@
     <value>{0} wurde erfolgreich gebannt.</value>
   </data>
   <data name="mod_ban_dm" xml:space="preserve">
-    <value>Du wurdest von `{0}` durch `{1}` gebannt. Grund: `{2}`</value>
+    <value>Du wurdest von `{1}` aus `{0}` gebannt. Grund: `{2}`</value>
   </data>
   <data name="mod_ban_temp_success" xml:space="preserve">
     <value>{0} wird &lt;t:{1}:R&gt; entbannt.</value>
@@ -366,38 +366,38 @@
     <value>{0} wurde erfolgreich stummgeschaltet.</value>
   </data>
   <data name="mod_mute_dm" xml:space="preserve">
-    <value>Du wurdest durch `{1}` auf `{0}` gemutet. Grund: `{2}`</value>
+    <value>Du wurdest auf `{0}` von `{1}` stummgeschaltet. Grund: `{2}`</value>
   </data>
   <data name="mod_mute_role_error" xml:space="preserve">
-    <value>Es kann keine stumme Rolle gefunden oder erstellt werden.</value>
+    <value>Es konnte keine Mute-Rolle gefunden oder erstellt werden.</value>
   </data>
   <data name="mod_unmute_success" xml:space="preserve">
-    <value>{0} wurde erfolgreich entmutet.</value>
+    <value>Die Stummschaltung von {0} wurde erfolgreich aufgehoben.</value>
   </data>
   <data name="mod_warn_success" xml:space="preserve">
-    <value>{0} wurde erfolgreich für `{1}` verwarnt.
-**Anzahl aller Warnungen:** {2} - **Warnungs-ID**: {3} - **Moderator:** {4}</value>
+    <value>{0} wurde erfolgreich verwarnt. Grund: `{1}`.
+**Verwarnungen gesamt:** {2} - **Verwarnungs-ID:** {3} - **Moderator:** {4}</value>
   </data>
   <data name="mod_warn_dm" xml:space="preserve">
-    <value>Du wurdest in `{0}` von `{1}` gewarnt für: `{2}`</value>
+    <value>Du wurdest auf `{0}` von `{1}` verwarnt. Grund: `{2}`</value>
   </data>
   <data name="mod_unwarn_success" xml:space="preserve">
-    <value>Die Warnung wurde erfolgreich von `{0}` entfernt</value>
+    <value>Die Verwarnung wurde erfolgreich von `{0}` entfernt.</value>
   </data>
   <data name="mod_unwarn_error_invalid" xml:space="preserve">
-    <value>Die angegebene Warnungs-ID ist nicht gültig.</value>
+    <value>Die angegebene Verwarnungs-ID ist nicht gültig.</value>
   </data>
   <data name="mod_clearwarnings_success" xml:space="preserve">
-    <value>Es wurden erfolgreich alle Verwarnungen von `{0}` gelöscht</value>
+    <value>Alle Verwarnungen von `{0}` wurden erfolgreich gelöscht.</value>
   </data>
   <data name="mod_purge_none_2" xml:space="preserve">
-    <value>Es wurden keine Nachrichten gefunden , die den angegebenen Kriterien entsprechen.</value>
+    <value>Es wurden keine Nachrichten gefunden, die den angegebenen Kriterien entsprechen.</value>
   </data>
   <data name="mod_purge_success" xml:space="preserve">
-    <value>**{0} Nachrichten von {1} in &lt;#{2}&gt; gelöscht**</value>
+    <value>**{0} Nachrichten in &lt;#{2}&gt; durch {1} gelöscht**</value>
   </data>
   <data name="mod_updated_users_success" xml:space="preserve">
-    <value>Erfolgreich aktualisiert `{0}` Mitglieder.</value>
+    <value>`{0}` Mitglieder erfolgreich aktualisiert.</value>
   </data>
   <data name="mod_slowmode_success" xml:space="preserve">
     <value>Der Slow-Modus für den Kanal `{0}` wurde auf `{1}h{2}m{3}s` gesetzt.</value>
@@ -430,7 +430,7 @@
     <value>Keine Booster gefunden.</value>
   </data>
   <data name="info_string_1" xml:space="preserve">
-    <value>Mitglieder Insgesamt</value>
+    <value>Mitglieder insgesamt</value>
   </data>
   <data name="info_string_3" xml:space="preserve">
     <value>Bots</value>
@@ -457,7 +457,7 @@
     <value>AFK-Kanal</value>
   </data>
   <data name="info_string_14" xml:space="preserve">
-    <value>Kein AFK Kanal</value>
+    <value>Kein AFK-Kanal</value>
   </data>
   <data name="info_string_15" xml:space="preserve">
     <value>Anzahl Emojis</value>
@@ -508,7 +508,7 @@
     <value>Stummgeschaltet?</value>
   </data>
   <data name="info_string_32" xml:space="preserve">
-    <value>Taub gestellt?</value>
+    <value>Taubgeschaltet?</value>
   </data>
   <data name="info_string_33" xml:space="preserve">
     <value>Ja</value>
@@ -517,10 +517,10 @@
     <value>Nein</value>
   </data>
   <data name="info_string_35" xml:space="preserve">
-    <value>Anerkennungen</value>
+    <value>Rang</value>
   </data>
   <data name="info_string_36" xml:space="preserve">
-    <value>Einladender</value>
+    <value>Erstellt von</value>
   </data>
   <data name="info_string_37" xml:space="preserve">
     <value>Kanal</value>
@@ -529,7 +529,7 @@
     <value>Mitgliederanzahl</value>
   </data>
   <data name="info_string_39" xml:space="preserve">
-    <value>Verwendet</value>
+    <value>Verwendungen</value>
   </data>
   <data name="info_string_40" xml:space="preserve">
     <value>Erstellungszeit</value>
@@ -538,7 +538,7 @@
     <value>Vorübergehend?</value>
   </data>
   <data name="info_string_42" xml:space="preserve">
-    <value>Max. Alter</value>
+    <value>Gültigkeitsdauer</value>
   </data>
   <data name="info_string_43" xml:space="preserve">
     <value>Läuft nie ab</value>
@@ -550,13 +550,13 @@
     <value>Verwarnungen</value>
   </data>
   <data name="info_string_52" xml:space="preserve">
-    <value>{0} Warnungen in {1} Servern.</value>
+    <value>{0} Verwarnungen auf {1} Servern.</value>
   </data>
   <data name="info_string_54" xml:space="preserve">
     <value>Mitwirkende anzeigen</value>
   </data>
   <data name="info_string_55" xml:space="preserve">
-    <value>{0} / {1} ({2} Slots übrig)</value>
+    <value>{0} / {1} ({2} Plätze frei)</value>
   </data>
   <data name="info_string_56" xml:space="preserve">
     <value>Benutzername:</value>
@@ -565,7 +565,7 @@
     <value>Grund</value>
   </data>
   <data name="info_string_58" xml:space="preserve">
-    <value>kein Grund angegeben</value>
+    <value>Kein Grund angegeben</value>
   </data>
   <data name="info_string_59" xml:space="preserve">
     <value>Moderator:</value>
@@ -574,13 +574,13 @@
     <value>Klick mich</value>
   </data>
   <data name="info_string_64" xml:space="preserve">
-    <value>Art:</value>
+    <value>Typ:</value>
   </data>
   <data name="info_string_65" xml:space="preserve">
     <value>Zeit:</value>
   </data>
   <data name="info_string_66" xml:space="preserve">
-    <value>Warnungen insgesamt:</value>
+    <value>Verwarnungen insgesamt:</value>
   </data>
   <data name="info_string_67" xml:space="preserve">
     <value>Unbekannt</value>
@@ -589,7 +589,7 @@
     <value>Fehler</value>
   </data>
   <data name="info_string_73" xml:space="preserve">
-    <value>```Server Besitzer```</value>
+    <value>```Server-Besitzer```</value>
   </data>
   <data name="info_string_74" xml:space="preserve">
     <value>```Server-Admin```</value>
@@ -604,7 +604,7 @@
     <value>Name</value>
   </data>
   <data name="roleinfo" xml:space="preserve">
-    <value>{0} Rollen-Info</value>
+    <value>Rolleninfo: {0}</value>
   </data>
   <data name="roleinfo_color" xml:space="preserve">
     <value>Farbe</value>
@@ -655,7 +655,7 @@
     <value>Kapitel:</value>
   </data>
   <data name="misc_manga_footer" xml:space="preserve">
-    <value>Manga ID: {0} • Bewertung: {1}</value>
+    <value>Manga-ID: {0} • Bewertung: {1}</value>
   </data>
   <data name="misc_fact" xml:space="preserve">
     <value>Zufälliger Fakt:</value>
@@ -667,13 +667,13 @@
     <value>Erinnerung für `{0}` {1} erfolgreich gesetzt.</value>
   </data>
   <data name="music_error_voice_channel_1" xml:space="preserve">
-    <value>Du musst in einem Sprach-Kanal sein.</value>
+    <value>Du musst in einem Sprachkanal sein.</value>
   </data>
   <data name="music_error_voice_channel_2" xml:space="preserve">
-    <value>Ich kann diesem Sprach-Kanal nicht beitreten.</value>
+    <value>Ich kann diesem Sprachkanal nicht beitreten.</value>
   </data>
   <data name="music_error_voice_channel_3" xml:space="preserve">
-    <value>Ich kann in diesem Sprach-Kanal nicht sprechen.</value>
+    <value>Ich kann in diesem Sprachkanal nicht sprechen.</value>
   </data>
   <data name="music_error_voice_channel_4" xml:space="preserve">
     <value>Ich bin bereits in diesem Kanal.</value>
@@ -697,13 +697,13 @@
     <value>Die LavaLink-Instanz ist abgestürzt. Bitte melde das in unserem </value>
   </data>
   <data name="music_join" xml:space="preserve">
-    <value>Ich bin: `{0}` beigetreten.</value>
+    <value>Ich bin `{0}` beigetreten.</value>
   </data>
   <data name="music_disconnect" xml:space="preserve">
     <value>Erfolgreich getrennt!</value>
   </data>
   <data name="music_disconnect_error_2" xml:space="preserve">
-    <value>Du musst der einzige Benutzer im Sprachkanal sein, oder du benötigst Mod-Berechtigungen um Cakey Bot zu trennen, während ein Lied abgespielt wird.</value>
+    <value>Du musst der einzige Benutzer im Sprachkanal sein oder Mod-Berechtigungen haben, um Cakey Bot zu trennen, während ein Song läuft.</value>
   </data>
   <data name="music_move" xml:space="preserve">
     <value>Verschoben von `{0}` nach `{1}`.</value>
@@ -712,8 +712,8 @@
     <value>Du kannst Cakey Bot nicht in einen anderen Kanal verschieben, während ein Song läuft.</value>
   </data>
   <data name="music_jump" xml:space="preserve">
-    <value>Erfolgreich nach 
-[{0}]({1}) _{2}/{3}_ gesprungen</value>
+    <value>Erfolgreich gesprungen zu:
+[{0}]({1}) _{2}/{3}_</value>
   </data>
   <data name="music_duplicates" xml:space="preserve">
     <value>Erfolgreich doppelte Tracks aus der Warteschlange entfernt. Neue Warteschlange:
@@ -733,31 +733,31 @@
     <value>Bass-Boost wurde auf `{0}` gesetzt.</value>
   </data>
   <data name="music_remove" xml:space="preserve">
-    <value>`{0}` - `{1}` wurden erfolgreich aus der Warteschlange entfernt.</value>
+    <value>`{0}` - `{1}` erfolgreich aus der Warteschlange entfernt.</value>
   </data>
   <data name="music_restart_2" xml:space="preserve">
-    <value>Ich habe das Lied am Beginn des Liedes neugestartet.</value>
+    <value>Ich habe den Song von vorne gestartet.</value>
   </data>
   <data name="music_seek_3" xml:space="preserve">
-    <value>Ich habe das Lied auf Minute {0} vorgespult</value>
+    <value>Ich bin zu `{0}` gesprungen.</value>
   </data>
   <data name="music_ff_2" xml:space="preserve">
-    <value>Ich habe vorgespult zu: `{0}` ({1} voraus)</value>
+    <value>Ich habe zu `{0}` vorgespult ({1} vor).</value>
   </data>
   <data name="music_rewind_2" xml:space="preserve">
-    <value>Ich habe zu `{0}` zurückgespult ({1} zurück)</value>
+    <value>Ich habe zu `{0}` zurückgespult ({1} zurück).</value>
   </data>
   <data name="music_pause_3" xml:space="preserve">
-    <value>Das Lied wurde erfolgreich pausiert.</value>
+    <value>Der Song wurde erfolgreich pausiert.</value>
   </data>
   <data name="music_resume_1" xml:space="preserve">
-    <value>Das Lied wurde erfolgreich fortgesetzt.</value>
+    <value>Der Song wird erfolgreich fortgesetzt.</value>
   </data>
   <data name="music_resume_2" xml:space="preserve">
     <value>Der Song ist nicht pausiert. Du kannst ihn mit `/pause` anhalten.</value>
   </data>
   <data name="music_lyrics_1" xml:space="preserve">
-    <value>Du musst den Namen des Liedes angeben, oder es muss derzeit eines abgespielt werden, um nach Liedtexten zu suchen</value>
+    <value>Gib den Namen eines Songs ein, nach dem gesucht werden soll (oder es muss gerade ein Song laufen).</value>
   </data>
   <data name="music_lyrics_3" xml:space="preserve">
     <value>Keine Songtexte gefunden.</value>
@@ -772,8 +772,8 @@
     <value>[{0}]({1}) [{2}] wurde übersprungen.</value>
   </data>
   <data name="music_skip_2" xml:space="preserve">
-    <value>{0} Übersprungen [{1}]({2}) [{3}]
-{4} Jetzt wird [{5}]({6}) [{7}] gespielt</value>
+    <value>{0} Übersprungen: [{1}]({2}) [{3}]
+{4} Läuft jetzt: [{5}]({6}) [{7}]</value>
   </data>
   <data name="music_skip_3" xml:space="preserve">
     <value>Derzeit wird kein Song abgespielt.</value>
@@ -782,16 +782,16 @@
     <value>Es gibt keine weiteren Elemente in der Warteschlange.</value>
   </data>
   <data name="music_voteskip_2" xml:space="preserve">
-    <value>Du hast deine Stimme zum Überspringen abgegeben, {0} weitere Stimmen erforderlich.</value>
+    <value>Du hast für das Überspringen gestimmt. Noch {0} Stimme erforderlich.</value>
   </data>
   <data name="music_voteskip_3" xml:space="preserve">
-    <value>Du hast bereits abgestimmt, daher wurde sie entfernt. Du kannst deine Stimme erneut hinzufügen, indem du `/skip` erneut eingibst. Es sind {0} weitere Abstimmung erforderlich.</value>
+    <value>Du hattest bereits für das Überspringen gestimmt, deine Stimme wurde daher entfernt. Mit `/skip` kannst du erneut abstimmen. Noch {0} Stimme erforderlich.</value>
   </data>
   <data name="music_voteskip_4" xml:space="preserve">
     <value>Die Abstimmung ist bei {0}/{1}.</value>
   </data>
   <data name="music_url" xml:space="preserve">
-    <value>Du musst einen gültigen Namen oder eine YouTube URL eingeben.</value>
+    <value>Du musst einen Songnamen oder eine URL eingeben.</value>
   </data>
   <data name="music_no_results" xml:space="preserve">
     <value>Keine Ergebnisse gefunden.</value>
@@ -800,16 +800,16 @@
     <value>Die Track-ID liegt außerhalb des gültigen Bereichs. Nutze `/queue`, um gültige Track-IDs zu sehen.</value>
   </data>
   <data name="music_invalid_track_2" xml:space="preserve">
-    <value>ID des Tracks in der Warteschlange muss gültig sein.</value>
+    <value>Die Warteschlangen-ID des Tracks muss gültig sein.</value>
   </data>
   <data name="music_limit_queue" xml:space="preserve">
-    <value>Die Warteschlange kann nur bis zu 100 Songs enthalten. Bitte entferne einige, bevor du neue hinzufügst.</value>
+    <value>Die Warteschlange kann maximal 50 Songs enthalten. Bitte entferne einige, bevor du weitere hinzufügst, oder upgrade auf Premium.</value>
   </data>
   <data name="music_limit_playlist" xml:space="preserve">
-    <value>Playlists können nur bis zu 50 Songs enthalten. Bitte wähle eine kleinere Playlist.</value>
+    <value>Playlists können maximal 50 Songs enthalten. Bitte wähle eine kleinere Playlist oder upgrade auf Premium.</value>
   </data>
   <data name="music_add_1" xml:space="preserve">
-    <value>`{0}` Titel wurden zur Warteschlange hinzugefügt.</value>
+    <value>`{0}` Songs zur Warteschlange hinzugefügt.</value>
   </data>
   <data name="music_add_2" xml:space="preserve">
     <value>[{0}]({1}) [{2}] wurde zur Warteschlange hinzugefügt.</value>
@@ -824,11 +824,11 @@
     <value>Dieser Befehl ist während eines Livestreams deaktiviert.</value>
   </data>
   <data name="music_playlist_list" xml:space="preserve">
-    <value>Es wurden {0} Wiedergabelisten gefunden:
+    <value>{0} Playlists gefunden:
 ```{1}```</value>
   </data>
   <data name="music_playlist_success_save" xml:space="preserve">
-    <value>Erfolgreich {0} Songs zu deiner Playlist `{1}` hinzugefügt.</value>
+    <value>Erfolgreich {0} Songs in deiner Playlist `{1}` gespeichert.</value>
   </data>
   <data name="music_playlist_success_load" xml:space="preserve">
     <value>Erfolgreich {0} Songs aus deiner Playlist `{1}` geladen.</value>
@@ -843,7 +843,7 @@
     <value>Geschätzte Zeit bis zur Wiedergabe:</value>
   </data>
   <data name="music_string_3" xml:space="preserve">
-    <value>Keine Titel in der Warteschlange.</value>
+    <value>Keine Songs in der Warteschlange.</value>
   </data>
   <data name="music_string_4" xml:space="preserve">
     <value>+{0} weitere Songs.</value>
@@ -855,7 +855,7 @@
     <value>Für diesen Befehl muss gerade ein Song laufen. Versuch es stattdessen mit `/play`.</value>
   </data>
   <data name="music_string_9" xml:space="preserve">
-    <value>Derzeit wird kein Titel abgespielt.</value>
+    <value>Derzeit wird kein Song abgespielt.</value>
   </data>
   <data name="music_string_10" xml:space="preserve">
     <value>Autor</value>
@@ -870,7 +870,7 @@
     <value>Livestream?</value>
   </data>
   <data name="music_string_16" xml:space="preserve">
-    <value>Abstimmung zum Überspringen</value>
+    <value>Stimmen zum Überspringen</value>
   </data>
   <data name="music_string_17" xml:space="preserve">
     <value>Warteschlange:</value>
@@ -891,20 +891,20 @@
     <value>Unbekannter Titel</value>
   </data>
   <data name="music_embed_success_1" xml:space="preserve">
-    <value>Der Songanfragen Kanal (&lt;#{0}&gt;) wurde erstellt. Du kannst den Kanal umbenennen oder verschieben, wenn du magst.
+    <value>Der Songanfragen-Kanal (&lt;#{0}&gt;) wurde erstellt. Du kannst den Kanal umbenennen oder verschieben, wenn du magst.
 </value>
   </data>
   <data name="music_embed_success_2" xml:space="preserve">
-    <value>Bitte lösche keine Nachricht im Songanfragen Kanal. Wenn du dies machst, musst du das Setup erneut ausführen.</value>
+    <value>Bitte lösche keine Nachrichten im Songanfragen-Kanal. Sonst musst du das Setup erneut ausführen.</value>
   </data>
   <data name="music_embed_queue_1" xml:space="preserve">
     <value>Geh in einen Sprachkanal und schreib hier den Namen oder die URL eines Songs rein, um ihn abzuspielen.</value>
   </data>
   <data name="music_embed_queue_2" xml:space="preserve">
-    <value>Unterstützte Quellen: Youtube, Youtube Livestreams, Twitch, Bandcamp, Vimeo, Soundcloud, direkte URL oder Web-Datei *`(MP3 &amp; MP4 Format)`* &amp; Spotify *`(EXPERIMENTELL)`*.</value>
+    <value>Unterstützte Quellen: Twitch, Bandcamp, Vimeo, SoundCloud, direkte URL/Web-Datei *`(MP3- &amp; MP4-Format)`* &amp; Spotify *`(EXPERIMENTELL)`*.</value>
   </data>
   <data name="music_embed_react_1" xml:space="preserve">
-    <value>Pausieren/Fortsetzen eines Songs</value>
+    <value>Song pausieren/fortsetzen</value>
   </data>
   <data name="music_embed_react_2" xml:space="preserve">
     <value>Warteschlange leeren</value>
@@ -913,7 +913,7 @@
     <value>Song überspringen</value>
   </data>
   <data name="music_embed_react_4" xml:space="preserve">
-    <value>Warteschlange durchwürfeln</value>
+    <value>Warteschlange mischen</value>
   </data>
   <data name="music_embed_react_5" xml:space="preserve">
     <value>Aktuellen Song wiederholen</value>
@@ -923,7 +923,7 @@
   </data>
   <data name="music_logger_trackend" xml:space="preserve">
     <value>{0} Wiedergabe beendet: [{1}]({2}) [{3}]
-{4} Jetzt wird [{5}]({6}) [{7}] abgespielt</value>
+{4} Läuft jetzt: [{5}]({6}) [{7}]</value>
   </data>
   <data name="music_logger_error" xml:space="preserve">
     <value>Der Song ist beim Abspielen hängen geblieben.</value>
@@ -938,28 +938,28 @@
     <value>Gültige Verstärkungswerte liegen zwischen -0.25 und 1.0</value>
   </data>
   <data name="music_equalizer_success" xml:space="preserve">
-    <value>Band #{0} erfolgreich auf `{1} ` gesetzt</value>
+    <value>Band #{0} erfolgreich auf `{1}` gesetzt</value>
   </data>
   <data name="roles_persistent" xml:space="preserve">
-    <value>Die Rolle `{0}` war erfolgreich {1} {2}.</value>
+    <value>Die Rolle `{0}` wurde erfolgreich {1} {2}.</value>
   </data>
   <data name="roles_persistent_1" xml:space="preserve">
-    <value>hinzugefügt zu</value>
+    <value>vergeben an</value>
   </data>
   <data name="roles_persistent_2" xml:space="preserve">
-    <value>entfernt von</value>
+    <value>entzogen von</value>
   </data>
   <data name="gif_error_1" xml:space="preserve">
-    <value>Konnte keine Gifs finden. :frowning:</value>
+    <value>Konnte keine GIFs finden. :frowning:</value>
   </data>
   <data name="gif_error_2" xml:space="preserve">
-    <value>Konnte keine SFW-Gifs finden. :frowning:</value>
+    <value>Konnte keine SFW-GIFs finden. :frowning:</value>
   </data>
   <data name="cmd_error_param" xml:space="preserve">
-    <value>Hat eine falsche Anzahl von Parametern.</value>
+    <value>Falsche Anzahl an Parametern.</value>
   </data>
   <data name="cmd_error_number" xml:space="preserve">
-    <value>Du musst eine gültige Nummer angeben.</value>
+    <value>Du musst eine gültige Zahl angeben.</value>
   </data>
   <data name="cmd_error_input" xml:space="preserve">
     <value>Du musst eine gültige Eingabe machen.</value>
@@ -1042,7 +1042,7 @@
     <value>Erwähnbar:</value>
   </data>
   <data name="audit_string_23" xml:space="preserve">
-    <value>Erlaubt:</value>
+    <value>Berechtigungen:</value>
   </data>
   <data name="audit_string_24" xml:space="preserve">
     <value>Rolle aktualisiert:</value>
@@ -1066,7 +1066,7 @@
     <value>Thema:</value>
   </data>
   <data name="audit_string_31" xml:space="preserve">
-    <value>NSFW:</value>
+    <value>NSFW?:</value>
   </data>
   <data name="audit_string_32" xml:space="preserve">
     <value>Slow-Modus:</value>
@@ -1075,13 +1075,13 @@
     <value>Kategorie:</value>
   </data>
   <data name="audit_string_34" xml:space="preserve">
-    <value>Channel gelöscht:</value>
+    <value>Kanal gelöscht:</value>
   </data>
   <data name="audit_string_36" xml:space="preserve">
-    <value>Springe zu:</value>
+    <value>Springen zu:</value>
   </data>
   <data name="audit_string_37" xml:space="preserve">
-    <value>**{0} Nachrichten wurden in ** &lt;#{1}&gt; gelöscht</value>
+    <value>**{0} Nachrichten wurden in** &lt;#{1}&gt; **massenhaft gelöscht**</value>
   </data>
   <data name="audit_string_41" xml:space="preserve">
     <value>Verdächtiges Konto</value>
@@ -1132,7 +1132,7 @@
     <value>Kanal-ID:</value>
   </data>
   <data name="embed_footer_about" xml:space="preserve">
-    <value>Unterstützt durch Discord.Net, das Lavalink4Net implementiert</value>
+    <value>Basiert auf Discord.Net mit Lavalink4Net</value>
   </data>
   <data name="core_help_1" xml:space="preserve">
     <value>Das Präfix für diesen Server ist `{0}`
@@ -1181,7 +1181,7 @@ Wenn du eine Liste der Bot-Befehle und ihrer Funktionsweise suchst, klicke unten
     <value>Aktuelle Einstellungen:</value>
   </data>
   <data name="core_feedback_blacklisted" xml:space="preserve">
-    <value>Du wurdest von diesem Befehl blockiert. :(</value>
+    <value>Du wurdest für diesen Befehl gesperrt. :(</value>
   </data>
   <data name="core_stats_1" xml:space="preserve">
     <value>Serveranzahl</value>
@@ -1202,13 +1202,13 @@ Wenn du eine Liste der Bot-Befehle und ihrer Funktionsweise suchst, klicke unten
     <value>Die angeforderte Rolle wurde dir erfolgreich hinzugefügt.</value>
   </data>
   <data name="core_sr_removed_2" xml:space="preserve">
-    <value>Die angeforderte Rolle wurde erfolgreich von dir entfernt.</value>
+    <value>Die angeforderte Rolle wurde dir erfolgreich entfernt.</value>
   </data>
   <data name="core_sr_none" xml:space="preserve">
     <value>Keine Rollen verfügbar.</value>
   </data>
   <data name="core_sr_error_invalid" xml:space="preserve">
-    <value>Diese Rolle ist nicht als Eigenrolle gelistet.</value>
+    <value>Diese Rolle ist nicht als Selbstrolle eingetragen.</value>
   </data>
   <data name="core_sr_error_have" xml:space="preserve">
     <value>Du hast die Rolle bereits.</value>
@@ -1225,7 +1225,7 @@ Wenn du eine Liste der Bot-Befehle und ihrer Funktionsweise suchst, klicke unten
 </value>
   </data>
   <data name="core_debug_optional_misc" xml:space="preserve">
-    <value>**Optionale Berechtigungen: (Benötigt für Utilities/Misc)**
+    <value>**Optionale Berechtigungen: (Benötigt für Tools/Sonstiges)**
 </value>
   </data>
   <data name="core_debug_optional_music" xml:space="preserve">
@@ -1256,7 +1256,7 @@ Wenn du eine Liste der Bot-Befehle und ihrer Funktionsweise suchst, klicke unten
     <value>&gt;{0} Erwähnungen.</value>
   </data>
   <data name="automod_string_emote" xml:space="preserve">
-    <value>&gt;{0} Emotes.</value>
+    <value>&gt;{0} Emojis.</value>
   </data>
   <data name="automod_string_duplicate_char" xml:space="preserve">
     <value>&gt;{0}% doppelte Zeichen.</value>
@@ -1271,7 +1271,7 @@ Wenn du eine Liste der Bot-Befehle und ihrer Funktionsweise suchst, klicke unten
     <value>Blockiertes Wort</value>
   </data>
   <data name="automod_check_discord_invite" xml:space="preserve">
-    <value>Discord Einladungs-Link</value>
+    <value>Discord-Einladungslink</value>
   </data>
   <data name="automod_check_website_url" xml:space="preserve">
     <value>Website-URL/Link</value>
@@ -1298,19 +1298,19 @@ Wenn du eine Liste der Bot-Befehle und ihrer Funktionsweise suchst, klicke unten
     <value>Automatisches Dehoisting</value>
   </data>
   <data name="automod_embed_violation" xml:space="preserve">
-    <value>Zuwiderhandlung:</value>
+    <value>Verstoß:</value>
   </data>
   <data name="automod_embed_value" xml:space="preserve">
     <value>Wert:</value>
   </data>
   <data name="github_results" xml:space="preserve">
-    <value>Zeigt die Zeilen {0} - {1} von `{2}`</value>
+    <value>Zeilen {0} - {1} von `{2}`</value>
   </data>
   <data name="quoter_by_title" xml:space="preserve">
     <value>Zitiert von:</value>
   </data>
   <data name="quoter_by_value" xml:space="preserve">
-    <value>{0} von &lt;#{1}&gt; in {2}</value>
+    <value>{0} aus &lt;#{1}&gt; in {2}</value>
   </data>
   <data name="misc_no_content" xml:space="preserve">
     <value>Kein Inhalt</value>
@@ -1319,7 +1319,7 @@ Wenn du eine Liste der Bot-Befehle und ihrer Funktionsweise suchst, klicke unten
     <value>Keine gültige Ausgabe.</value>
   </data>
   <data name="info_premium" xml:space="preserve">
-    <value>:star: gefällt Cakey Bot? Du kannst jetzt für Premium spenden:</value>
+    <value>:star: Gefällt dir Cakey Bot? Du kannst jetzt für Premium spenden:</value>
   </data>
   <data name="info_uptime" xml:space="preserve">
     <value>Laufzeit: {0}</value>
@@ -1361,7 +1361,7 @@ Wenn du eine Liste der Bot-Befehle und ihrer Funktionsweise suchst, klicke unten
     <value>Die Meldung wurde erfolgreich eingereicht. Das Team prüft sie und ergreift bei Bedarf Maßnahmen.</value>
   </data>
   <data name="moderation_report_perms" xml:space="preserve">
-    <value>Ich habe keine Nachrichtenberechtigungen für den Zielkanal.</value>
+    <value>Ich habe keine Berechtigung, im Zielkanal Nachrichten zu senden.</value>
   </data>
   <data name="misc_afk_list" xml:space="preserve">
     <value>Eine Liste aller AFK-Nutzer findest du hier: {0}/afk-list
@@ -1371,7 +1371,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Sieger</value>
   </data>
   <data name="game_ttt_taken" xml:space="preserve">
-    <value>Dieser Spot ist bereits belegt.</value>
+    <value>Dieses Feld ist bereits belegt.</value>
   </data>
   <data name="game_ttt_expired" xml:space="preserve">
     <value>Dieses Spiel ist bereits abgelaufen. Du kannst ein neues Spiel mit `/tictactoe &lt;opt:user&gt;` erstellen.</value>
@@ -1383,10 +1383,10 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Zalgo-Text</value>
   </data>
   <data name="twitch_title_live" xml:space="preserve">
-    <value>Twitch | {0} - LIVE JETZT!</value>
+    <value>Twitch | {0} - JETZT LIVE!</value>
   </data>
   <data name="twitch_currently_playing" xml:space="preserve">
-    <value>Wird derzeit gespielt:</value>
+    <value>Spielt gerade:</value>
   </data>
   <data name="twitch_viewers" xml:space="preserve">
     <value>Zuschauer:</value>
@@ -1470,7 +1470,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Fehler beim Deserialisieren der Bilddaten.</value>
   </data>
   <data name="ticket_exists" xml:space="preserve">
-    <value>Du hast bereits ein Ticket hier &lt;#{0}&gt;!</value>
+    <value>Du hast bereits ein Ticket: &lt;#{0}&gt;!</value>
   </data>
   <data name="ticket_deleting" xml:space="preserve">
     <value>Ticket wird in wenigen Sekunden gelöscht.</value>
@@ -1491,7 +1491,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Ticket wieder geöffnet von {0}</value>
   </data>
   <data name="ticket_transcript_channel_missing" xml:space="preserve">
-    <value>**Fehler:** Transkript-Kanal existiert nicht. (Oder Cakey Bot kann keine Nachrichten anzeigen/senden.)</value>
+    <value>**Fehler:** Der Transkript-Kanal existiert nicht. (Oder Cakey Bot kann ihn nicht sehen bzw. dort keine Nachrichten senden.)</value>
   </data>
   <data name="ticket_transcript_saved" xml:space="preserve">
     <value>Transkript wurde erfolgreich in {0} gespeichert.</value>
@@ -1545,7 +1545,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Die Voreinstellung wurde erfolgreich angewendet: `{0}`</value>
   </data>
   <data name="filters_applied" xml:space="preserve">
-    <value>Erfolgreich angewandter Filter "{0}" mit diesen Optionen: {1}</value>
+    <value>Filter `{0}` erfolgreich mit diesen Optionen angewendet: {1}</value>
   </data>
   <data name="error_ticket_category" xml:space="preserve">
     <value>Die Ticket-Kategorie konnte nicht erstellt werden. Bitte überprüfe die Berechtigungen von Cakey Bot.</value>
@@ -1557,10 +1557,10 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Wähle ein paar Rollen aus.</value>
   </data>
   <data name="music_error_playlist_exists_save" xml:space="preserve">
-    <value>Eine Wiedergabeliste mit diesem Namen existiert bereits. Bitte lösche sie, bevor du versuchst, eine mit demselben Namen zu speichern oder umzubenennen.</value>
+    <value>Eine Playlist mit diesem Namen existiert bereits. Bitte lösche sie, bevor du versuchst, eine mit demselben Namen zu speichern oder umzubenennen.</value>
   </data>
   <data name="error_upload_file" xml:space="preserve">
-    <value>Datei kann nicht hochgeladen werden.</value>
+    <value>Die Datei konnte nicht hochgeladen werden.</value>
   </data>
   <data name="core_help_default_permission" xml:space="preserve">
     <value>Standardberechtigung:</value>
@@ -1575,7 +1575,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>YouTube | {0} - NEUER UPLOAD!</value>
   </data>
   <data name="youtube_watch" xml:space="preserve">
-    <value>Schaue dir das Video hier an: {0}</value>
+    <value>Schau dir das Video hier an: {0}</value>
   </data>
   <data name="youtube_feed" xml:space="preserve">
     <value>YouTube-Feed</value>
@@ -1596,19 +1596,19 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Dauer:</value>
   </data>
   <data name="music_loop_queue" xml:space="preserve">
-    <value>Die Warteschlange befindet sich jetzt in einer Schleife.</value>
+    <value>Die Warteschlange wird jetzt wiederholt.</value>
   </data>
   <data name="music_loop_track" xml:space="preserve">
-    <value>Der aktuelle Track wird nun in einer Schleife abgespielt.</value>
+    <value>Der aktuelle Track wird jetzt wiederholt.</value>
   </data>
   <data name="music_loop_track_error" xml:space="preserve">
-    <value>Der aktuelle Track läuft bereits in einer Schleife.</value>
+    <value>Der aktuelle Track wird bereits wiederholt.</value>
   </data>
   <data name="music_loop_queue_error" xml:space="preserve">
-    <value>Die Warteschlange ist bereits in einer Schleife.</value>
+    <value>Die Warteschlange wird bereits wiederholt.</value>
   </data>
   <data name="music_loop_disabled" xml:space="preserve">
-    <value>Deaktivierte Track- und Warteschlangenschleifen.</value>
+    <value>Wiederholung für Track und Warteschlange deaktiviert.</value>
   </data>
   <data name="audit_role_icon" xml:space="preserve">
     <value>Icon:</value>
@@ -1626,10 +1626,10 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Die Songdauer ist länger als die von den Server-Administratoren festgelegte maximale Songlänge.</value>
   </data>
   <data name="music_error_track_title" xml:space="preserve">
-    <value>Der Titel des Liedes enthält ein Wort, das von der Server-Administration auf die schwarze Liste gesetzt wurde.</value>
+    <value>Der Songtitel enthält ein Wort, das von den Server-Admins auf die Blacklist gesetzt wurde.</value>
   </data>
   <data name="music_youtube_banned" xml:space="preserve">
-    <value>YouTube ist aufgrund der Discord-Richtlinien keine unterstützte Quelle mehr. Du kannst weiterhin Rohabfragen wie "epic music" verwenden oder Musik von einer unserer vielen anderen [unterstützten Quellen](https://wiki.cakey.bot/en/music/supported-sources) abspielen.</value>
+    <value>YouTube ist aufgrund der Discord-Richtlinien keine unterstützte Quelle mehr. Du kannst weiterhin einfache Suchbegriffe wie `epic music` verwenden oder Musik aus einer unserer vielen anderen [unterstützten Quellen](https://wiki.cakey.bot/en/music/supported-sources) abspielen.</value>
   </data>
   <data name="timeout_success" xml:space="preserve">
     <value>{0} hat einen Timeout erhalten. Er endet &lt;t:{1}:R&gt;.</value>
@@ -1638,7 +1638,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Du hast auf `{0}` von `{1}` einen Timeout erhalten. Er endet &lt;t:{2}:R&gt;. Grund: `{3}`</value>
   </data>
   <data name="audit_timed_out_expired" xml:space="preserve">
-    <value>Die Auszeit ist abgelaufen/entfernt worden.</value>
+    <value>Der Timeout ist abgelaufen oder wurde aufgehoben.</value>
   </data>
   <data name="chatbot_limit_reached" xml:space="preserve">
     <value>Du hast das KI-Anfragelimit für diesen Server erreicht _({0} Anfragen pro Monat)_. Tritt unserem Support-Discord bei, wenn du ein höheres Limit brauchst.</value>
@@ -1650,7 +1650,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Dieser Befehl kann nur in einem Ticket-Kanal verwendet werden.</value>
   </data>
   <data name="ticket_add" xml:space="preserve">
-    <value>Erfolgreich {0} zum Ticket hinzugefügt.
+    <value>{0} wurde erfolgreich zum Ticket hinzugefügt.
             Angefordert von {1}</value>
   </data>
   <data name="ticket_remove" xml:space="preserve">
@@ -1681,28 +1681,28 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Du hast deinen [Vorschlag]({0}) erfolgreich gepostet!</value>
   </data>
   <data name="tags_nuke_success" xml:space="preserve">
-    <value>Erfolgreich alle Tags vom Server gelöscht.</value>
+    <value>Alle Tags des Servers wurden erfolgreich gelöscht.</value>
   </data>
   <data name="tags_prune_success" xml:space="preserve">
     <value>Alle Tags von {0} wurden erfolgreich gelöscht.</value>
   </data>
   <data name="tags_transfer_success" xml:space="preserve">
-    <value>Erfolgreich übertragen: {0} an {1}.</value>
+    <value>`{0}` erfolgreich an {1} übertragen.</value>
   </data>
   <data name="leveling_leaderboard_open" xml:space="preserve">
     <value>Rangliste öffnen</value>
   </data>
   <data name="leveling_xp_add" xml:space="preserve">
-    <value>Erfolgreich `{0}` XP zu {1} hinzugefügt.</value>
+    <value>Erfolgreich `{0}` XP an {1} vergeben.</value>
   </data>
   <data name="leveling_xp_set" xml:space="preserve">
     <value>Die XP von {0} wurden erfolgreich auf `{1}` gesetzt.</value>
   </data>
   <data name="leveling_xp_remove" xml:space="preserve">
-    <value>Erfolgreich `{0}` XP von {1} entfernt.</value>
+    <value>Erfolgreich `{0}` XP von {1} abgezogen.</value>
   </data>
   <data name="leveling_user_missing" xml:space="preserve">
-    <value>Benutzer fehlt in der Datenbank. Benutzer muss erst chatten.</value>
+    <value>Der Benutzer fehlt in der Datenbank. Er muss zuerst etwas im Chat schreiben.</value>
   </data>
   <data name="generic_feature_disabled" xml:space="preserve">
     <value>Die Funktion wurde von den Server-Administratoren deaktiviert.</value>
@@ -1732,7 +1732,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>✅ Du hast den Drop beansprucht und `{0}` XP verdient!</value>
   </data>
   <data name="random_drop_consecutive_claim_blocked" xml:space="preserve">
-    <value>❌ Du hast den vorherigen Drop beansprucht! Gib jemandem anders eine Chance.</value>
+    <value>❌ Du hast den vorherigen Drop beansprucht! Gib jemand anderem eine Chance.</value>
   </data>
   <data name="random_drop_already_claimed" xml:space="preserve">
     <value>❌ Jemand anderes hat diesen Drop bereits beansprucht!</value>
@@ -1759,10 +1759,10 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Der Geburtstag von {0} wurde erfolgreich entfernt.</value>
   </data>
   <data name="birthday_channel" xml:space="preserve">
-    <value>Erfolgreiche Aktualisierung des Geburtstagsankündigungskanals auf &lt;#{0}&gt;.</value>
+    <value>Der Kanal für Geburtstagsankündigungen wurde erfolgreich auf &lt;#{0}&gt; gesetzt.</value>
   </data>
   <data name="birthday_role" xml:space="preserve">
-    <value>Erfolgreich die automatische Geburtstagsrolle auf &lt;@&amp;{0}&gt;aktualisiert.</value>
+    <value>Die automatische Geburtstagsrolle wurde erfolgreich auf &lt;@&amp;{0}&gt; gesetzt.</value>
   </data>
   <data name="birthday_list_title" xml:space="preserve">
     <value>{0} Geburtstage</value>
@@ -1801,7 +1801,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>24h-Timeout</value>
   </data>
   <data name="report_punish_warn" xml:space="preserve">
-    <value>Benutzer warnen</value>
+    <value>Benutzer verwarnen</value>
   </data>
   <data name="report_punish_delete" xml:space="preserve">
     <value>Nachricht löschen</value>
@@ -1822,7 +1822,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Der Benutzer hat erfolgreich einen Timeout für 24 Stunden erhalten.</value>
   </data>
   <data name="autocomplete_too_short" xml:space="preserve">
-    <value>Gib mindestens {0} Zeichen ein, um Vorschläge zu erhalten. Drücke die Eingabetaste, um fortzufahren.</value>
+    <value>Gib mindestens {0} Zeichen ein, um automatische Vorschläge zu erhalten. Drücke Enter, um ohne sie fortzufahren.</value>
   </data>
   <data name="automod_vm_blacklist_triggered" xml:space="preserve">
     <value>Deine Sprachnachricht wurde gelöscht, weil sie ein blockiertes Wort enthält.</value>
@@ -1834,7 +1834,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Transkription angefordert von {0}</value>
   </data>
   <data name="automod_check_mass_markdownheaders" xml:space="preserve">
-    <value>Markdown-Kopfzeilen</value>
+    <value>Markdown-Überschriften</value>
   </data>
   <data name="punishment_title" xml:space="preserve">
     <value>Bestrafung:</value>
@@ -1849,7 +1849,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Hinzugefügt von:</value>
   </data>
   <data name="webhook_deleted" xml:space="preserve">
-    <value>Webhook Gelöscht</value>
+    <value>Webhook gelöscht</value>
   </data>
   <data name="webhook_name" xml:space="preserve">
     <value>Webhook-Name:</value>
@@ -1861,7 +1861,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Webhook-Typ:</value>
   </data>
   <data name="webhook_modified" xml:space="preserve">
-    <value>Webhook Geändert</value>
+    <value>Webhook geändert</value>
   </data>
   <data name="webhook_avatar" xml:space="preserve">
     <value>Webhook-Avatar:</value>
@@ -1888,31 +1888,31 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Geändert von:</value>
   </data>
   <data name="automod_string_file_extensions" xml:space="preserve">
-    <value>eine Datei mit der `{0}` Erweiterung.</value>
+    <value>eine Datei mit der Endung `{0}`.</value>
   </data>
   <data name="automod_check_file_extensions" xml:space="preserve">
-    <value>Schwarze Liste der Dateierweiterungen</value>
+    <value>Blockierte Dateiendung</value>
   </data>
   <data name="emote_invalid_format" xml:space="preserve">
     <value>Der Dateityp wird nicht unterstützt. Es muss ein JPEG-, PNG- oder GIF-Bild sein.</value>
   </data>
   <data name="emote_created" xml:space="preserve">
-    <value>Emote erfolgreich erstellt: &lt;{0}:{1}:{2}&gt;</value>
+    <value>Emoji erfolgreich erstellt: &lt;{0}:{1}:{2}&gt;</value>
   </data>
   <data name="emote_failed_find" xml:space="preserve">
-    <value>Es wurde kein gültiges Emote gefunden.</value>
+    <value>Es wurde kein gültiges Emoji gefunden.</value>
   </data>
   <data name="emote_rename_same" xml:space="preserve">
     <value>Der neue Name muss sich von dem aktuellen Namen unterscheiden.</value>
   </data>
   <data name="emote_deleted" xml:space="preserve">
-    <value>Das Emote `:{0}:` wurde erfolgreich gelöscht.</value>
+    <value>Das Emoji `:{0}:` wurde erfolgreich gelöscht.</value>
   </data>
   <data name="emote_rename" xml:space="preserve">
-    <value>Das Emote `:{0}:` wurde erfolgreich in `:{1}:` umbenannt.</value>
+    <value>Das Emoji `:{0}:` wurde erfolgreich in `:{1}:` umbenannt.</value>
   </data>
   <data name="emote_slots" xml:space="preserve">
-    <value>{0} Emote Slots übrig</value>
+    <value>{0} Emoji-Slots übrig</value>
   </data>
   <data name="error_alpha_numeric" xml:space="preserve">
     <value>Die angegebene Zeichenkette muss alphanumerisch sein.</value>
@@ -1927,22 +1927,22 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>{0} Sticker-Slots übrig</value>
   </data>
   <data name="expression_created_error" xml:space="preserve">
-    <value>Beim Erstellen des Stickers/Emotes ist ein Fehler aufgetreten.</value>
+    <value>Beim Erstellen des Stickers/Emojis ist ein Fehler aufgetreten.</value>
   </data>
   <data name="sticker_failed_find" xml:space="preserve">
     <value>Es wurde kein gültiger Sticker gefunden.</value>
   </data>
   <data name="sticker_deleted" xml:space="preserve">
-    <value>Der Aufkleber `{0}` wurde erfolgreich gelöscht.</value>
+    <value>Der Sticker `{0}` wurde erfolgreich gelöscht.</value>
   </data>
   <data name="sticker_rename" xml:space="preserve">
     <value>Der Sticker `{0}` wurde erfolgreich in `{1}` umbenannt.</value>
   </data>
   <data name="emote_none" xml:space="preserve">
-    <value>Es gibt keine Emotes auf diesem Server.</value>
+    <value>Es gibt keine Emojis auf diesem Server.</value>
   </data>
   <data name="emote_export" xml:space="preserve">
-    <value>Hier sind alle Emotes auf dem Server:</value>
+    <value>Hier sind alle Emojis des Servers:</value>
   </data>
   <data name="sticker_none" xml:space="preserve">
     <value>Es gibt keine Sticker auf diesem Server.</value>
@@ -1954,7 +1954,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Beim Importieren ist ein Fehler aufgetreten.</value>
   </data>
   <data name="import_emotes" xml:space="preserve">
-    <value>{0} Emotes wurden erfolgreich importiert!</value>
+    <value>{0} Emojis wurden erfolgreich importiert!</value>
   </data>
   <data name="import_stickers" xml:space="preserve">
     <value>{0} Sticker wurden erfolgreich importiert!</value>
@@ -1981,13 +1981,13 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Die Nachricht muss Textinhalt haben, um analysiert werden zu können.</value>
   </data>
   <data name="auto_ban_title" xml:space="preserve">
-    <value>Auto Ban:</value>
+    <value>Auto-Ban: </value>
   </data>
   <data name="auto_ban_invite" xml:space="preserve">
-    <value>Benutzernamen-Einladung</value>
+    <value>Einladung im Benutzernamen</value>
   </data>
   <data name="auto_ban_new" xml:space="preserve">
-    <value>Neuer Account</value>
+    <value>Neues Konto</value>
   </data>
   <data name="auto_ban_avatar" xml:space="preserve">
     <value>Kein Avatar</value>
@@ -2044,7 +2044,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Diese Antwort existiert nicht mehr.</value>
   </data>
   <data name="form_review_unban_failed" xml:space="preserve">
-    <value>Die Berufung konnte nicht angenommen werden, da die Entbannung fehlgeschlagen ist.</value>
+    <value>Der Einspruch konnte nicht angenommen werden, da die Entbannung fehlgeschlagen ist.</value>
   </data>
   <data name="form_review_invite_failed" xml:space="preserve">
     <value>Die Bewerbung konnte nicht angenommen werden, da keine Einladung erstellt werden konnte.</value>
@@ -2074,7 +2074,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Dieses Giveaway existiert nicht oder wurde bereits beendet.</value>
   </data>
   <data name="ends_at" xml:space="preserve">
-    <value>Endet um:</value>
+    <value>Endet:</value>
   </data>
   <data name="error_exists_channel" xml:space="preserve">
     <value>Dieser Kanal existiert nicht oder ich habe keinen Zugang dazu.</value>
@@ -2101,7 +2101,7 @@ Hinweis: Erfordert die Berechtigung „Server verwalten“.</value>
     <value>Die Datei ist zu groß. Maximale Größe: {0}.</value>
   </data>
   <data name="music_embed_exists" xml:space="preserve">
-    <value>Das Songrequest-Embed existiert bereits. Falls es ungültig oder veraltet ist, lösche die Nachricht und führe `/setup songrequest` erneut aus.</value>
+    <value>Das Songanfragen-Embed existiert bereits. Falls es ungültig oder veraltet ist, lösche die Nachricht und führe `/setup songrequest` erneut aus.</value>
   </data>
   <data name="error_ticket_blacklist" xml:space="preserve">
     <value>Eine deiner Rollen wurde für die Erstellung neuer Tickets auf diesem Server auf die schwarze Liste gesetzt.</value>
@@ -2118,7 +2118,7 @@ Das kannst du, indem du einen der nummerierten Buttons unter dieser Nachricht dr
 ```Wenn du keine Bewertung abgeben möchtest, kannst du diese Nachricht einfach ignorieren.```</value>
   </data>
   <data name="ticket_rating_pending_send" xml:space="preserve">
-    <value>Wird gesendet...</value>
+    <value>Senden ausstehend …</value>
   </data>
   <data name="ticket_rating_pending" xml:space="preserve">
     <value>Gesendet, Bewertung ausstehend...</value>
@@ -2136,7 +2136,7 @@ Das kannst du, indem du einen der nummerierten Buttons unter dieser Nachricht dr
     <value>Anzahl der Antworten:</value>
   </data>
   <data name="auto_ban_numbers_only" xml:space="preserve">
-    <value>Benutzername ist nur eine Zahl</value>
+    <value>Benutzername besteht nur aus Zahlen</value>
   </data>
   <data name="error_add_reactions" xml:space="preserve">
     <value>Reaktionen konnten nicht hinzugefügt werden. Überprüfe bitte, ob der Bot die richtigen Berechtigungen für diesen Kanal hat.</value>
@@ -2151,19 +2151,19 @@ Das kannst du, indem du einen der nummerierten Buttons unter dieser Nachricht dr
     <value>Man kann einen Benutzer nicht mit sich selbst shippen.</value>
   </data>
   <data name="music_voteskip_2_plural" xml:space="preserve">
-    <value>Du hast deine Stimme zum Überspringen abgegeben, {0} weitere Stimmen erforderlich.</value>
+    <value>Du hast für das Überspringen gestimmt. Noch {0} Stimmen erforderlich.</value>
   </data>
   <data name="music_voteskip_3_plural" xml:space="preserve">
-    <value>Du hast bereits abgestimmt, daher wurde sie entfernt. Du kannst deine Stimme erneut hinzufügen, indem du `/skip` erneut eingibst. Es sind {0} weitere Stimmen erforderlich.</value>
+    <value>Du hattest bereits für das Überspringen gestimmt, deine Stimme wurde daher entfernt. Mit `/skip` kannst du erneut abstimmen. Noch {0} Stimmen erforderlich.</value>
   </data>
   <data name="xp_import_start" xml:space="preserve">
     <value>Der Import der Leveling-Daten wurde gestartet, dies kann einige Minuten dauern.</value>
   </data>
   <data name="xp_import_error" xml:space="preserve">
-    <value>Der Import der Leveling-Daten ist fehlgeschlagen. Vergewissere dich, dass deine Bestenliste auf "öffentlich" eingestellt ist.</value>
+    <value>Der Import der Leveling-Daten ist fehlgeschlagen. Stelle sicher, dass deine Rangliste auf „öffentlich“ gestellt ist.</value>
   </data>
   <data name="xp_import_success" xml:space="preserve">
-    <value>Leveling-Daten erfolgreich importiert. Du kannst nun die Rangliste einsehen, indem du auf die Schaltfläche unten klickst.</value>
+    <value>Leveling-Daten erfolgreich importiert. Über den Button unten kannst du die Rangliste ansehen.</value>
   </data>
   <data name="xp_import_missing_file" xml:space="preserve">
     <value>Diese Importmethode erfordert eine angehängte Exportdatei. Bitte hänge die exportierte JSON-Datei an und versuche es erneut.</value>
@@ -2172,7 +2172,7 @@ Das kannst du, indem du einen der nummerierten Buttons unter dieser Nachricht dr
     <value>Der Import der Leveling-Daten aus der angehängten Datei ist fehlgeschlagen. Stelle sicher, dass es sich um eine gültige, unveränderte Exportdatei handelt.</value>
   </data>
   <data name="xp_export_success" xml:space="preserve">
-    <value>Cakey Bot Leveling-Daten erfolgreich exportiert. Du kannst diese in der angehängten Textdatei ansehen.</value>
+    <value>Die Leveling-Daten von Cakey Bot wurden erfolgreich exportiert. Du findest sie in der angehängten Textdatei.</value>
   </data>
   <data name="xp_export_error" xml:space="preserve">
     <value>Fehler beim Exportieren der Daten. Möglicherweise sind noch keine Benutzerdaten zum Exportieren vorhanden.</value>
@@ -2187,7 +2187,7 @@ Das kannst du, indem du einen der nummerierten Buttons unter dieser Nachricht dr
     <value>Ein Benutzer hat den Sprachkanal wieder betreten. Das Trennen der Verbindung wurde abgebrochen.</value>
   </data>
   <data name="transcription_audio_too_short" xml:space="preserve">
-    <value>Fehler: Die Audiodatei ist zu kurz für die Transkription.</value>
+    <value>Die Audiodatei ist zu kurz für eine Transkription.</value>
   </data>
   <data name="transcription_error_generic" xml:space="preserve">
     <value>Bei der Transkription ist ein unbekannter Fehler aufgetreten.</value>
@@ -2226,7 +2226,7 @@ Das kannst du, indem du einen der nummerierten Buttons unter dieser Nachricht dr
     <value>Beitrittsposition</value>
   </data>
   <data name="error_generic_permission" xml:space="preserve">
-    <value>Aktion konnte nicht ausgeführt werden. Cakey Bot hat wahrscheinlich keine Berechtigungen.</value>
+    <value>Aktion konnte nicht ausgeführt werden. Cakey Bot fehlen wahrscheinlich die nötigen Berechtigungen.</value>
   </data>
   <data name="bulk_modify_users_start" xml:space="preserve">
     <value>Benutzer werden aktualisiert, dies kann eine Weile dauern.
@@ -2251,13 +2251,13 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>&lt;@{0}&gt; ist es gelungen, zu entkommen. Du hast weder etwas gewonnen noch verloren.</value>
   </data>
   <data name="economy_rob_success_2" xml:space="preserve">
-    <value>&lt;@{0}&gt; verteidigte sich und du hast {1} verloren.</value>
+    <value>&lt;@{0}&gt; hat sich gewehrt und dir {1} abgenommen.</value>
   </data>
   <data name="economy_rob_success_3" xml:space="preserve">
     <value>Du hast &lt;@{0}&gt; ein wenig erschreckt und es geschafft, {1} zu bekommen.</value>
   </data>
   <data name="economy_rob_success_4" xml:space="preserve">
-    <value>Du hast erfolgreich &lt;@{0}&gt; für {1} beraubt.</value>
+    <value>Du hast &lt;@{0}&gt; erfolgreich ausgeraubt und {1} erbeutet.</value>
   </data>
   <data name="economy_rob_success_5" xml:space="preserve">
     <value>Du warst super erfolgreich beim Überfall auf &lt;@{0}&gt; und hast {1} gestohlen!</value>
@@ -2302,7 +2302,7 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Dein Handy ist in einen See gefallen, und die Ersatzgebühren haben dich {0} gekostet.</value>
   </data>
   <data name="economy_work_failed_lamppost_crash" xml:space="preserve">
-    <value>Du bist mit deinem Auto gegen einen Laternenmast gefahren und die Reparaturen haben {0} gekostet.</value>
+    <value>Du bist mit deinem Auto rückwärts gegen einen Laternenmast gefahren und die Reparatur hat {0} gekostet.</value>
   </data>
   <data name="economy_work_failed_prank_damage" xml:space="preserve">
     <value>Ein schiefgegangener Streich hat dich {0} an Schäden gekostet.</value>
@@ -2314,7 +2314,7 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Du hast eine Wette mit deinen Freunden verloren und hast {0} gezahlt.</value>
   </data>
   <data name="economy_work_failed_roof_leak" xml:space="preserve">
-    <value>Dein Dach hat während eines Sturms geleckt, und die Reparaturen haben {0} gekostet.</value>
+    <value>Dein Dach war bei einem Sturm undicht, und die Reparatur hat {0} gekostet.</value>
   </data>
   <data name="economy_work_failed_parking_fees" xml:space="preserve">
     <value>Du hast {0} an unerwarteten Parkgebühren bezahlt.</value>
@@ -2350,7 +2350,7 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Du hast {0} in einer alten Manteltasche gefunden!</value>
   </data>
   <data name="economy_work_success_9" xml:space="preserve">
-    <value>Du hast {0} bei einer Bürolotterie gewonnen!</value>
+    <value>Du hast {0} bei einer Tombola im Büro gewonnen!</value>
   </data>
   <data name="economy_work_success_10" xml:space="preserve">
     <value>Du hast für einen Nachbarn auf die Kinder aufgepasst und {0} verdient!</value>
@@ -2374,28 +2374,28 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Du hast einen Scheck über {0} als Rückerstattung erhalten!</value>
   </data>
   <data name="economy_beg_fail" xml:space="preserve">
-    <value>Du konntest nicht einmal um Geld betteln :(</value>
+    <value>Du konntest nicht mal erfolgreich um Geld betteln. :(</value>
   </data>
   <data name="economy_beg_success" xml:space="preserve">
     <value>Du hast erfolgreich um Geld gebettelt und hast {0} bekommen.</value>
   </data>
   <data name="economy_daily_success" xml:space="preserve">
-    <value>Du hast deine tägliche Belohnung eingefordert und {0} erhalten!</value>
+    <value>Du hast deine tägliche Belohnung abgeholt und {0} erhalten!</value>
   </data>
   <data name="economy_daily_cooldown" xml:space="preserve">
-    <value>Du hast deine tägliche Belohnung bereits eingefordert. Komm {0} wieder.</value>
+    <value>Du hast deine tägliche Belohnung bereits abgeholt. Komm {0} wieder.</value>
   </data>
   <data name="economy_weekly_success" xml:space="preserve">
-    <value>Du hast deine wöchentliche Belohnung eingefordert und {0} erhalten!</value>
+    <value>Du hast deine wöchentliche Belohnung abgeholt und {0} erhalten!</value>
   </data>
   <data name="economy_weekly_cooldown" xml:space="preserve">
-    <value>Du hast deine wöchentliche Belohnung bereits eingefordert. Komm {0} wieder.</value>
+    <value>Du hast deine wöchentliche Belohnung bereits abgeholt. Komm {0} wieder.</value>
   </data>
   <data name="economy_monthly_success" xml:space="preserve">
-    <value>Du hast deine monatliche Belohnung eingefordert und {0} erhalten!</value>
+    <value>Du hast deine monatliche Belohnung abgeholt und {0} erhalten!</value>
   </data>
   <data name="economy_monthly_cooldown" xml:space="preserve">
-    <value>Du hast deine monatliche Belohnung bereits eingefordert. Komm {0} wieder.</value>
+    <value>Du hast deine monatliche Belohnung bereits abgeholt. Komm {0} wieder.</value>
   </data>
   <data name="economy_fishing_success_1" xml:space="preserve">
     <value>Du hast einen {0} aus dem {1}-Biom geangelt! Er ist {2} wert und wiegt {3}.</value>
@@ -2407,10 +2407,10 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Du hast einen glänzenden {0} im {1}-Biom gefangen, der {2} wert ist und {3} wiegt.</value>
   </data>
   <data name="economy_fishing_success_4" xml:space="preserve">
-    <value>Das Wasser im {1}-Biom segnet dich mit einem {3} {0}, bewertet mit {2}.</value>
+    <value>Das Wasser im {1}-Biom beschert dir: {0} ({3}), Wert: {2}.</value>
   </data>
   <data name="economy_fishing_success_5" xml:space="preserve">
-    <value>Deine Leine wird straff! Es ist ein {3} {0} aus dem {1}-Biom, {2} wert.</value>
+    <value>Deine Schnur spannt sich! Es ist ein {0} ({3}) aus dem {1}-Biom, {2} wert.</value>
   </data>
   <data name="economy_fishing_fail_1" xml:space="preserve">
     <value>Deine Angelschnur ist gerissen und der Fisch ist entkommen!</value>
@@ -2434,7 +2434,7 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Die Strömung war zu stark und hat alle Fische verscheucht.</value>
   </data>
   <data name="economy_fishing_fail_8" xml:space="preserve">
-    <value>Du hast vergessen, den Haken zu bestücken. Anfängerfehler.</value>
+    <value>Du hast vergessen, einen Köder an den Haken zu machen. Anfängerfehler.</value>
   </data>
   <data name="economy_fishing_fail_9" xml:space="preserve">
     <value>Ein Quallenstich hat dich erwischt. Du bist aus dem Wasser geflüchtet.</value>
@@ -2477,13 +2477,13 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Vorherige kaufen</value>
   </data>
   <data name="economy_fishing_inventory_no_baits" xml:space="preserve">
-    <value>Keine Köder im Inventar.</value>
+    <value>Es sind keine Köder verfügbar.</value>
   </data>
   <data name="economy_fishing_inventory_none" xml:space="preserve">
     <value>Der ausgewählte Benutzer hat kein Inventar.</value>
   </data>
   <data name="economy_fishing_inventory_description" xml:space="preserve">
-    <value>Hier sind die Gegenstände in deinem Angelinventar:</value>
+    <value>Hier sind die Items in deinem Angelinventar:</value>
   </data>
   <data name="economy_fishing_inventory_baits" xml:space="preserve">
     <value>Köder</value>
@@ -2611,7 +2611,7 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Kontostand von {0} erfolgreich aktualisiert. Neuer Kontostand: {1}</value>
   </data>
   <data name="economy_bet_success" xml:space="preserve">
-    <value>Du hast erfolgreich die richtige Antwort erraten und hast {0} gewonnen. Ergebnis: {1}.</value>
+    <value>Du hast richtig geraten und {0} gewonnen. Ergebnis: {1}.</value>
   </data>
   <data name="economy_bet_fail" xml:space="preserve">
     <value>Du hast die Antwort nicht richtig erraten und deinen Einsatz von {0} verloren. Ergebnis: {1}.</value>
@@ -2626,10 +2626,10 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Du hast bereits einen Zug ausgewählt.</value>
   </data>
   <data name="eco_game_enter" xml:space="preserve">
-    <value>Du hast das Spiel als Spieler {0} betreten.</value>
+    <value>Du bist dem Spiel als Spieler {0} beigetreten.</value>
   </data>
   <data name="eco_game_play_name" xml:space="preserve">
-    <value>Klicke auf die Knöpfe unten, um {0} zu spielen.</value>
+    <value>Klicke auf die Buttons unten, um {0} zu spielen.</value>
   </data>
   <data name="eco_game_amount" xml:space="preserve">
     <value>Einsatz:</value>
@@ -2638,19 +2638,19 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Klicke zum Spielen</value>
   </data>
   <data name="news_subscribe_success" xml:space="preserve">
-    <value>Du hast die Community News erfolgreich neu abonniert!</value>
+    <value>Du hast die Community-News erfolgreich wieder abonniert!</value>
   </data>
   <data name="news_unsubscribe_failed" xml:space="preserve">
-    <value>Abmeldung fehlgeschlagen. Du kannst dich immer noch manuell abmelden, indem du Cakey Bots Webhook in den Integrationseinstellungen deines Servers löschst.</value>
+    <value>Abmeldung fehlgeschlagen. Du kannst dich trotzdem manuell abmelden, indem du den Webhook von Cakey Bot in den Integrationseinstellungen deines Servers löschst.</value>
   </data>
   <data name="news_unsubscribe_success" xml:space="preserve">
-    <value>Erfolgreich von den Community News abgemeldet!</value>
+    <value>Erfolgreich von den Community-News abgemeldet!</value>
   </data>
   <data name="news_resubscribe" xml:space="preserve">
     <value>Erneut abonnieren</value>
   </data>
   <data name="news_unsubscribe" xml:space="preserve">
-    <value>Deabonnieren</value>
+    <value>Abbestellen</value>
   </data>
   <data name="sticky_max" xml:space="preserve">
     <value>Du hast die maximale Anzahl an fixierten Nachrichten für diesen Server erreicht.</value>
@@ -2662,7 +2662,7 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Die fixierte Nachricht wurde erfolgreich gelöscht.</value>
   </data>
   <data name="sticky_embed_premium" xml:space="preserve">
-    <value>Für die Verwendung einer benutzerdefinierten Einbettungs-URL ist Premium erforderlich.</value>
+    <value>Für eine benutzerdefinierte Embed-URL ist Premium erforderlich.</value>
   </data>
   <data name="sticky_delay_premium" xml:space="preserve">
     <value>Premium ist erforderlich, um eine benutzerdefinierte Verzögerung festzulegen.</value>
@@ -2713,7 +2713,7 @@ Hinweis: Eine Nachricht wird nach Abschluss gesendet.</value>
     <value>Die Meldung wurde freigegeben.</value>
   </data>
   <data name="economy_no_items" xml:space="preserve">
-    <value>Keine Einträge gefunden.</value>
+    <value>Keine Items gefunden.</value>
   </data>
   <data name="economy_bet_success_2" xml:space="preserve">
     <value>Du warst sehr nah an der Antwort dran und hast {0} gewonnen. Das Ergebnis war: {1}.</value>
@@ -2735,7 +2735,7 @@ Wow! Die Chance, dass das passiert, liegt nur bei 0,02 %!</value>
     <value>Kanal für Songanfragen wurde entfernt.</value>
   </data>
   <data name="economy_coinflip_side" xml:space="preserve">
-    <value>Du kannst nicht "Seite" raten, bitte wähle was anderes.</value>
+    <value>Du kannst nicht auf „Kante“ setzen, bitte wähle etwas anderes.</value>
   </data>
   <data name="generic_reset_none" xml:space="preserve">
     <value>Keine gültigen Daten gefunden.</value>
@@ -2768,7 +2768,7 @@ Wow! Die Chance, dass das passiert, liegt nur bei 0,02 %!</value>
     <value>{0}! Du weißt, dass es keinen anderen gibt. Ich wähle dich!</value>
   </data>
   <data name="error_invalid_channel_generic" xml:space="preserve">
-    <value>Ungültiger Channel.</value>
+    <value>Ungültiger Kanal.</value>
   </data>
   <data name="temp_voice_none" xml:space="preserve">
     <value>Du hast derzeit keinen Sprachkanal.</value>
@@ -2780,18 +2780,18 @@ Wow! Die Chance, dass das passiert, liegt nur bei 0,02 %!</value>
     <value>Die temporäre Sprachlobby wurde zusammen mit allen vorhandenen Lobby-Kanälen gelöscht.</value>
   </data>
   <data name="temp_voice_error_not" xml:space="preserve">
-    <value>Dieser Channel ist kein temporärer Sprachchannel.</value>
+    <value>Dieser Kanal ist kein temporärer Sprachkanal.</value>
   </data>
   <data name="temp_voice_deleted" xml:space="preserve">
-    <value>Der temporäre Sprachchannel `{0}` wurde gelöscht.</value>
+    <value>Der temporäre Sprachkanal `{0}` wurde gelöscht.</value>
   </data>
   <data name="temp_voice_toggle" xml:space="preserve">
-    <value>Die Privatsphäre des Channels wurde auf {0} gesetzt.</value>
+    <value>Die Privatsphäre des Kanals wurde auf {0} gesetzt.</value>
   </data>
   <data name="temp_voice_error_clear" xml:space="preserve">
     <value>Für diesen Server existiert bereits eine temporäre Sprachlobby.
 		  Du kannst sie mit `/temp-voice admin clear-lobby` löschen.
-		  ```Hinweis: Du kannst die Kategorie und den Lobby-Channel frei umbenennen.```</value>
+		  ```Hinweis: Du kannst die Kategorie und den Lobby-Kanal frei umbenennen.```</value>
   </data>
   <data name="thread_tags" xml:space="preserve">
     <value>Thread-Tags:</value>
@@ -2813,7 +2813,7 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Es wurde kein Passwort gesetzt.</value>
   </data>
   <data name="error_verify_password" xml:space="preserve">
-    <value>Falscher Passwort/Code.</value>
+    <value>Falsches Passwort/falscher Code.</value>
   </data>
   <data name="verify_success" xml:space="preserve">
     <value>Du hast dich erfolgreich verifiziert.</value>
@@ -2846,10 +2846,10 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Der Benutzer hat den Erfolg nicht.</value>
   </data>
   <data name="games_suggestion_approve" xml:space="preserve">
-    <value>Bestätigen</value>
+    <value>Annehmen</value>
   </data>
   <data name="games_suggestion_deny" xml:space="preserve">
-    <value>Verweigern</value>
+    <value>Ablehnen</value>
   </data>
   <data name="games_suggestion_discuss" xml:space="preserve">
     <value>Diskussionsthread erstellen</value>
@@ -2864,16 +2864,16 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Ein Diskussionsthread existiert bereits.</value>
   </data>
   <data name="games_suggestion_vote_error" xml:space="preserve">
-    <value>Deine Abstimmung wurde geändert.</value>
+    <value>Deine Stimme wurde geändert.</value>
   </data>
   <data name="games_suggestion_remove" xml:space="preserve">
-    <value>Abstimmung erfolgreich entfernt.</value>
+    <value>Stimme erfolgreich entfernt.</value>
   </data>
   <data name="games_suggestion_denied_by" xml:space="preserve">
     <value>Abgelehnt von: {0}</value>
   </data>
   <data name="games_suggestion_approved_by" xml:space="preserve">
-    <value>Genehmigt von: {0}</value>
+    <value>Angenommen von: {0}</value>
   </data>
   <data name="games_suggestion_discuss_success" xml:space="preserve">
     <value>Thread wurde erfolgreich erstellt.</value>
@@ -2882,7 +2882,7 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Als Duplikat markiert von: {0}</value>
   </data>
   <data name="games_suggestion_underreview_by" xml:space="preserve">
-    <value>In Prüfung von: {0}</value>
+    <value>Wird geprüft von: {0}</value>
   </data>
   <data name="suggestion_error_not_staff" xml:space="preserve">
     <value>Du benötigst die Berechtigung „Server verwalten“ oder „Administrator“, um über Vorschläge zu entscheiden.</value>
@@ -2906,13 +2906,13 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Du hast erfolgreich `{0}` für {1} gekauft.</value>
   </data>
   <data name="eco_game_amount_final" xml:space="preserve">
-    <value>Aktueller Einsatz:</value>
+    <value>Tatsächlicher Einsatz:</value>
   </data>
   <data name="generic_modifier" xml:space="preserve">
     <value>Modifikator:</value>
   </data>
   <data name="setup_autopublish_not_news" xml:space="preserve">
-    <value>Aktueller Kanal ist kein Nachrichtenkanal.</value>
+    <value>Der aktuelle Kanal ist kein Ankündigungskanal.</value>
   </data>
   <data name="setup_autopublish_enabled" xml:space="preserve">
     <value>Auto-Veröffentlichung erfolgreich aktiviert.</value>
@@ -2924,10 +2924,10 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Dies ist eine Erinnerung, dass dein Ticket in `{0}` noch geöffnet ist. Bitte antworte, wenn du noch Hilfe benötigst.</value>
   </data>
   <data name="ticket_request_cancel" xml:space="preserve">
-    <value>Die Anfrage wurde erfolgreich storniert.</value>
+    <value>Die Anfrage wurde erfolgreich abgebrochen.</value>
   </data>
   <data name="ticket_deny_request" xml:space="preserve">
-    <value>{0} hat den Antrag auf Schließung des Tickets abgelehnt.</value>
+    <value>{0} hat die Anfrage zum Schließen des Tickets abgelehnt.</value>
   </data>
   <data name="ticket_request_close" xml:space="preserve">
     <value>{0} hat darum gebeten, dieses Ticket zu schließen. Grund:
@@ -2935,13 +2935,13 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
 ```{1}```</value>
   </data>
   <data name="ticket_request_footer" xml:space="preserve">
-    <value>Bitte akzeptiere oder lehne ab, indem du die untenstehenden Buttons verwendest.</value>
+    <value>Bitte nimm an oder lehne ab – mit den Buttons unten.</value>
   </data>
   <data name="ticket_request_accept" xml:space="preserve">
     <value>Akzeptieren &amp; schließen</value>
   </data>
   <data name="ticket_request_deny" xml:space="preserve">
-    <value>Ablehnen &amp; Offen lassen</value>
+    <value>Ablehnen &amp; offen lassen</value>
   </data>
   <data name="ticket_remind_success" xml:space="preserve">
     <value>&lt;@{0}&gt; hat eine Erinnerung an &lt;@{1}&gt; gesendet.</value>
@@ -2950,7 +2950,7 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Keine Daten in der Datenbank gefunden.</value>
   </data>
   <data name="streaks_opt_out" xml:space="preserve">
-    <value>Streak Status erfolgreich geändert. Aktuell: `{0}`.</value>
+    <value>Opt-out-Status erfolgreich umgeschaltet. Aktuell: `{0}`.</value>
   </data>
   <data name="streaks_top" xml:space="preserve">
     <value>Top-Streaks</value>
@@ -2962,7 +2962,7 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Höchster Streak</value>
   </data>
   <data name="music_playing_modify" xml:space="preserve">
-    <value>Ein Song muss abgespielt werden, um ihn zu ändern.</value>
+    <value>Es muss ein Song laufen, um ihn zu ändern.</value>
   </data>
   <data name="error_failed_modify_user" xml:space="preserve">
     <value>Fehler beim Ändern des Benutzers.</value>
@@ -2977,7 +2977,7 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Dein Streak wird {0} ({1}) auf 1 zurückgesetzt, wenn du nicht bald eine Nachricht in `{2}` ({3}) schreibst.</value>
   </data>
   <data name="streaks_reset" xml:space="preserve">
-    <value>Streak Zurückgesetzt</value>
+    <value>Streak zurückgesetzt</value>
   </data>
   <data name="streaks_reminder_reset" xml:space="preserve">
     <value>Dein Streak wurde auf 1 zurückgesetzt, da du innerhalb des erforderlichen Zeitrahmens keine Nachricht gesendet hast. Betroffener Server: `{0}` ({1})</value>
@@ -3004,7 +3004,7 @@ Bitte klicke auf den Button unten, um dein Konto zu verifizieren und Zugriff auf
     <value>Keine gültigen Benutzer zum Verschieben.</value>
   </data>
   <data name="voice_move_summon_success" xml:space="preserve">
-    <value>{0} Benutzer(n) wurde(n) nach &lt;#{1}&gt; verschoben. Das Verschieben von {2} Benutzern ist fehlgeschlagen.</value>
+    <value>`{0}` Benutzer nach &lt;#{1}&gt; verschoben. `{2}` Benutzer konnten nicht verschoben werden.</value>
   </data>
   <data name="voice_move_move_same_channel" xml:space="preserve">
     <value>Benutzer können nicht zwischen denselben beiden Kanälen verschoben werden.</value>
@@ -3052,11 +3052,11 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
   </value>
   </data>
   <data name="requires_level" xml:space="preserve">
-    <value>`{0}` ({1}) erfordert Stufe `{2}`.
+    <value>`{0}` ({1}) erfordert Level `{2}`.
   </value>
   </data>
   <data name="requires_streak" xml:space="preserve">
-    <value>`{0}` ({1}) erfordert eine Serie von `{2}`.
+    <value>`{0}` ({1}) erfordert einen Streak von `{2}`.
   </value>
   </data>
   <data name="required_role_missing" xml:space="preserve">
@@ -3072,7 +3072,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
   </value>
   </data>
   <data name="auto_kick_title" xml:space="preserve">
-    <value>Auto Kicken:</value>
+    <value>Auto-Kick:</value>
   </data>
   <data name="minefield_error_other" xml:space="preserve">
     <value>Das ist nicht dein Spiel.</value>
@@ -3111,10 +3111,10 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Warnung: Streak-Reset</value>
   </data>
   <data name="leveling_decay_title" xml:space="preserve">
-    <value>XP ist verfallen.</value>
+    <value>XP verfallen</value>
   </data>
   <data name="leveling_decay_description" xml:space="preserve">
-    <value>Dein XP ist um `{0}` XP gesunken aufgrund von {1} Tagen Inaktivität. Dein neues XP beträgt `{2}`. Betroffener Server: `{3}` ({4})</value>
+    <value>Deine XP sind wegen {1} Tagen Inaktivität um `{0}` XP gesunken. Du hast jetzt `{2}` XP. Betroffener Server: `{3}` ({4})</value>
   </data>
   <data name="minefield_try" xml:space="preserve">
     <value>Klicke auf ein Feld und versuche dein Glück!</value>
@@ -3144,11 +3144,11 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Schließungsanfrage</value>
   </data>
   <data name="transcript_error_analyze" xml:space="preserve">
-    <value>** Nachrichtenanalyse fehlgeschlagen.**
+    <value>**Nachrichtenanalyse fehlgeschlagen.**
 </value>
   </data>
   <data name="transcript_error_null" xml:space="preserve">
-    <value>** Nachricht ist null. Inhalt konnte nicht von Discord abgerufen werden.**
+    <value>**Nachricht ist null. Inhalt konnte nicht von Discord abgerufen werden.**
 </value>
   </data>
   <data name="transcript_unknown_content" xml:space="preserve">
@@ -3163,7 +3163,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
 </value>
   </data>
   <data name="bansync_reason" xml:space="preserve">
-    <value>Unban synchronisiert mit {0}</value>
+    <value>Entbannung synchronisiert mit {0}</value>
   </data>
   <data name="status_opted_out" xml:space="preserve">
     <value>Deaktiviert</value>
@@ -3215,19 +3215,19 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Einladung widerrufen</value>
   </data>
   <data name="generic_timeout_hour" xml:space="preserve">
-    <value>Timeout von 1 Stunde</value>
+    <value>Timeout 1 Stunde</value>
   </data>
   <data name="audit_kick_user" xml:space="preserve">
     <value>Benutzer kicken</value>
   </data>
   <data name="audit_target_error" xml:space="preserve">
-    <value>Du kannst niemanden anvisieren, dessen Rollen höher sind als deine.</value>
+    <value>Du kannst niemanden auswählen, dessen Rollen höher sind als deine.</value>
   </data>
   <data name="audit_bot_role_target" xml:space="preserve">
     <value>Die Rolle des Bots ist niedriger als die des Ziels.</value>
   </data>
   <data name="audit_log_button_reason" xml:space="preserve">
-    <value>Audit-Protokoll-Button / Mod: {0}</value>
+    <value>Audit-Log-Button / Mod: {0}</value>
   </data>
   <data name="error_generic_target_channel" xml:space="preserve">
     <value>Du hast nicht die erforderlichen Berechtigungen, um den Zielkanal zu verwalten.</value>
@@ -3242,7 +3242,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Kanal löschen</value>
   </data>
   <data name="error_generic_target_role" xml:space="preserve">
-    <value>Du kannst keine Rollen anvisieren, die höher sind als deine.</value>
+    <value>Du kannst keine Rollen auswählen, die höher sind als deine.</value>
   </data>
   <data name="audit_delete_role" xml:space="preserve">
     <value>Rolle erfolgreich gelöscht.</value>
@@ -3257,7 +3257,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Webhook löschen</value>
   </data>
   <data name="audit_button_revoke_ban" xml:space="preserve">
-    <value>Bann Aufheben</value>
+    <value>Bann aufheben</value>
   </data>
   <data name="generic_audit_mod" xml:space="preserve">
     <value> / Mod: {0}</value>
@@ -3272,10 +3272,10 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Bitte gib weniger als {0} Zeichen ein.</value>
   </data>
   <data name="audit_antiraid_reason" xml:space="preserve">
-    <value>Anti-Raid Bann: {0}</value>
+    <value>Anti-Raid-Bann: {0}</value>
   </data>
   <data name="mod_warnings_view" xml:space="preserve">
-    <value>Warnungen anzeigen</value>
+    <value>Verwarnungen anzeigen</value>
   </data>
   <data name="warn_user" xml:space="preserve">
     <value>Nutzer verwarnt:</value>
@@ -3293,16 +3293,16 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Pausiert von {0}</value>
   </data>
   <data name="music_history_skip" xml:space="preserve">
-    <value>`1` Titel(n) übersprungen</value>
+    <value>hat `1` Track übersprungen</value>
   </data>
   <data name="music_footer_loop" xml:space="preserve">
-    <value>Wiedergabeschleife von {0} umgeschaltet</value>
+    <value>Wiederholung umgeschaltet von {0}</value>
   </data>
   <data name="music_history_loop" xml:space="preserve">
-    <value>Wiedergabeschleife auf `{0}` gesetzt</value>
+    <value>hat die Wiederholung auf `{0}` gesetzt</value>
   </data>
   <data name="music_history_shuffle" xml:space="preserve">
-    <value>Die Wiedergabeliste wurde gemischt.</value>
+    <value>hat die Warteschlange gemischt</value>
   </data>
   <data name="error_time_valid_format" xml:space="preserve">
     <value>Du musst ein gültiges Format eingeben (z. B. `1h5m30s` oder `32s`).</value>
@@ -3314,22 +3314,22 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Zurückspulen angefordert von {0}</value>
   </data>
   <data name="music_history_rewind" xml:space="preserve">
-    <value>Track um `10` Sekunden zurückgespult.</value>
+    <value>hat den Track um `10` Sekunden zurückgespult</value>
   </data>
   <data name="music_error_time_long" xml:space="preserve">
     <value>Die angegebene Zeit ist länger als die Dauer des Songs. Gib eine kürzere Zeit ein.</value>
   </data>
   <data name="music_footer_ff" xml:space="preserve">
-    <value>Schnellvorlauf angefordert von {0}.</value>
+    <value>Vorspulen angefordert von {0}</value>
   </data>
   <data name="music_footer_volume" xml:space="preserve">
     <value>Eingestellt von {0}</value>
   </data>
   <data name="music_history_volume" xml:space="preserve">
-    <value>Lautstärke auf `{0}` gesetzt</value>
+    <value>hat die Lautstärke auf `{0}` gesetzt</value>
   </data>
   <data name="suggestion_thread_name" xml:space="preserve">
-    <value>Vorschlag-Diskussionsthread</value>
+    <value>Diskussionsthread zum Vorschlag</value>
   </data>
   <data name="suggestion_denied" xml:space="preserve">
     <value>Abgelehnt von </value>
@@ -3365,13 +3365,13 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Raid erkannt | Gleiches Erstellungsdatum</value>
   </data>
   <data name="antiraid_join_creation" xml:space="preserve">
-    <value>&gt;{0}% der Benutzer, die beigetreten sind ({1}%), wurden innerhalb von `{2}` Minuten mit demselben Erstellungsdatum erstellt.</value>
+    <value>&gt;{0}% der Benutzer, die innerhalb von `{2}` Minuten beigetreten sind ({1}%), wurden am selben Tag erstellt.</value>
   </data>
   <data name="antiraid_title_repeat" xml:space="preserve">
     <value>Raid erkannt | Wiederholte Nachrichten</value>
   </data>
   <data name="antiraid_timeout" xml:space="preserve">
-    <value>Benutzer(n) wurden für `{0}` Stunden in den Timeout versetzt.</value>
+    <value>Benutzer wurden für `{0}` Stunden in den Timeout versetzt.</value>
   </data>
   <data name="antiraid_spam" xml:space="preserve">
     <value>`{0}` wurde `{1}`-mal gesendet.</value>
@@ -3407,28 +3407,28 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>`{0}` Nachrichten wurden innerhalb von `{1}` Sekunden gesendet.</value>
   </data>
   <data name="bansync_sync" xml:space="preserve">
-    <value>Ban synchronisiert von {0} | {1}</value>
+    <value>Bann synchronisiert von {0} | {1}</value>
   </data>
   <data name="bansync_title" xml:space="preserve">
-    <value>Ban-Synchronisierung | Benutzer entbannt</value>
+    <value>Bann-Synchronisierung | Benutzer entbannt</value>
   </data>
   <data name="auditlog_leveling" xml:space="preserve">
     <value>Levelsystem</value>
   </data>
   <data name="leveling_title" xml:space="preserve">
-    <value>Level aufgestiegen!</value>
+    <value>Level-Up!</value>
   </data>
   <data name="audit_reason_tempban" xml:space="preserve">
     <value>Temporären Bann entfernen</value>
   </data>
   <data name="audit_forum_auto_unarchive" xml:space="preserve">
-    <value>Forum-Auto-Entarchivierung</value>
+    <value>Automatisches Entarchivieren (Forum)</value>
   </data>
   <data name="generic_anonymous" xml:space="preserve">
     <value>Anonym</value>
   </data>
   <data name="twitch_cheer_title" xml:space="preserve">
-    <value>Neue Anfeuerung!</value>
+    <value>Neuer Cheer!</value>
   </data>
   <data name="twitch_feed_title" xml:space="preserve">
     <value>{0} | Twitch-Benachrichtigungen</value>
@@ -3446,7 +3446,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Neue Vorhersage | </value>
   </data>
   <data name="twitch_prediction_locks" xml:space="preserve">
-    <value>Gesperrt bei:</value>
+    <value>Wird gesperrt um:</value>
   </data>
   <data name="twitch_predictions_outcomes" xml:space="preserve">
     <value>Ergebnisse:</value>
@@ -3491,25 +3491,25 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>**{0}** hat **{1}** eingelöst!</value>
   </data>
   <data name="twitch_reward_title" xml:space="preserve">
-    <value>Neue Belohnung eingelöst!</value>
+    <value>Neue Belohnung eingelöst</value>
   </data>
   <data name="twitch_unlocked_emote" xml:space="preserve">
     <value>Freigeschaltetes Emote:</value>
   </data>
   <data name="twitch_sub_end_title" xml:space="preserve">
-    <value>Abonnement beendet</value>
+    <value>Abo beendet</value>
   </data>
   <data name="twitch_sub_end_text" xml:space="preserve">
-    <value>**{0}** hat das Abonnement gekündigt. :(</value>
+    <value>**{0}** hat das Abo beendet. :(</value>
   </data>
   <data name="twitch_sub_tier" xml:space="preserve">
     <value>Stufe:</value>
   </data>
   <data name="twitch_sub_gift" xml:space="preserve">
-    <value>Ist ein Gift?</value>
+    <value>Geschenkt?</value>
   </data>
   <data name="twitch_sub_title" xml:space="preserve">
-    <value>Neue Subscription</value>
+    <value>Neues Abo</value>
   </data>
   <data name="twitch_sub_cum_months" xml:space="preserve">
     <value>Kumulative Monate:</value>
@@ -3524,13 +3524,13 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>**{0}** hat abonniert!</value>
   </data>
   <data name="twitch_sub_gift_title" xml:space="preserve">
-    <value>Neues Geschenk-Abonnement</value>
+    <value>Neues Geschenk-Abo</value>
   </data>
   <data name="twitch_sub_gift_text" xml:space="preserve">
     <value>**{0}** hat **{1}** Abo(s) verschenkt</value>
   </data>
   <data name="twitch_sub_alltime" xml:space="preserve">
-    <value>Gesamtzahl aller Abos</value>
+    <value>Insgesamt (gesamter Zeitraum):</value>
   </data>
   <data name="twitch_goal_title" xml:space="preserve">
     <value>Neues Ziel | </value>
@@ -3578,7 +3578,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Letzter Beitragstyp:</value>
   </data>
   <data name="twitch_hype_last_con_total" xml:space="preserve">
-    <value>Letzter Beitrag insgesamt:</value>
+    <value>Summe des letzten Beitrags:</value>
   </data>
   <data name="twitch_hype_end_title" xml:space="preserve">
     <value>HypeTrain beendet</value>
@@ -3626,7 +3626,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Ursprüngliche Nachricht</value>
   </data>
   <data name="audit_streaks" xml:space="preserve">
-    <value>Serien</value>
+    <value>Streaks</value>
   </data>
   <data name="audit_achievements" xml:space="preserve">
     <value>Erfolge</value>
@@ -3674,7 +3674,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Befehl zum massenhaften Hinzufügen von Rollen</value>
   </data>
   <data name="audit_unmute" xml:space="preserve">
-    <value>Befehl zum Entmuten</value>
+    <value>Befehl zum Aufheben der Stummschaltung</value>
   </data>
   <data name="audit_add_persistent" xml:space="preserve">
     <value>Dauerhafte Rolle hinzufügen</value>
@@ -3695,7 +3695,7 @@ Wenn du jetzt auszahlst, gewinnst du: **{3}**.</value>
     <value>Fehler: Ungültiger API-Schlüssel. Du kannst deinen API-Schlüssel unter https://platform.openai.com/account/api-keys finden.</value>
   </data>
   <data name="automod_title" xml:space="preserve">
-    <value>Auto Mod | Verstoß</value>
+    <value>AutoMod | Verstoß</value>
   </data>
   <data name="auto_responder_cooldown_server" xml:space="preserve">
     <value>Diese automatische Antwort ist für diesen Server im Cooldown. Verfügbar in {0} Sekunden.</value>
@@ -3732,7 +3732,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Du darfst nur {0} in diesem Kanal posten.</value>
   </data>
   <data name="github_issue" xml:space="preserve">
-    <value>Problem #{0} | {1}</value>
+    <value>Issue #{0} | {1}</value>
   </data>
   <data name="github_state" xml:space="preserve">
     <value>Status:</value>
@@ -3744,7 +3744,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Ist gesperrt:</value>
   </data>
   <data name="github_labels" xml:space="preserve">
-    <value>Bezeichnungen:</value>
+    <value>Labels:</value>
   </data>
   <data name="github_author" xml:space="preserve">
     <value>Autor: {0}</value>
@@ -3759,10 +3759,10 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Auf GitHub öffnen</value>
   </data>
   <data name="github_review" xml:space="preserve">
-    <value>Überprüfungskommentare:</value>
+    <value>Review-Kommentare:</value>
   </data>
   <data name="github_pr" xml:space="preserve">
-    <value>Pull-Anfrage #{0} | {1}</value>
+    <value>Pull Request #{0} | {1}</value>
   </data>
   <data name="github_commits" xml:space="preserve">
     <value>Commits:</value>
@@ -3780,7 +3780,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Kann zusammengeführt werden:</value>
   </data>
   <data name="github_merge_state" xml:space="preserve">
-    <value>Zusammenführbarer Zustand:</value>
+    <value>Merge-Status:</value>
   </data>
   <data name="github_modifications" xml:space="preserve">
     <value>Änderungen:</value>
@@ -3853,13 +3853,13 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>**Hinweis:** Musik-Bots benötigen einen Premium-Server, um beizutreten.</value>
   </data>
   <data name="emote_unlock" xml:space="preserve">
-    <value>Emote (&lt;:{0}:{1}&gt;) erfolgreich für alle Benutzer entsperrt.</value>
+    <value>Emoji (&lt;:{0}:{1}&gt;) erfolgreich für alle Benutzer entsperrt.</value>
   </data>
   <data name="emote_invalid_roles" xml:space="preserve">
     <value>Ungültige Rollenliste. Beispiel für die Formatierung: `1002169977710858310;1192061843049558036`</value>
   </data>
   <data name="emote_locked" xml:space="preserve">
-    <value>Emote (&lt;:{0}:{1}&gt;) erfolgreich auf diese Rollen beschränkt: ```
+    <value>Emoji (&lt;:{0}:{1}&gt;) erfolgreich auf diese Rollen beschränkt: ```
 {2}```</value>
   </data>
   <data name="footer_perspective" xml:space="preserve">
@@ -3890,7 +3890,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Musik | Mischen</value>
   </data>
   <data name="title_seek" xml:space="preserve">
-    <value>Musik | Suchen</value>
+    <value>Musik | Springen</value>
   </data>
   <data name="title_play" xml:space="preserve">
     <value>Musik | Abspielen</value>
@@ -3926,7 +3926,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Unbegrenzt</value>
   </data>
   <data name="music_title_playlist" xml:space="preserve">
-    <value>Musik | Wiedergabeliste</value>
+    <value>Musik | Playlist</value>
   </data>
   <data name="core_title_error" xml:space="preserve">
     <value>Core | Fehler</value>
@@ -3950,19 +3950,19 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Gesamte Emoji-Verwendungen:</value>
   </data>
   <data name="emote_stats_unique" xml:space="preserve">
-    <value>Eindeutige Emoji-Anzahl:</value>
+    <value>Anzahl verschiedener Emojis:</value>
   </data>
   <data name="emote_stats_average" xml:space="preserve">
     <value>Durchschnittliche Emoji-Verwendung:</value>
   </data>
   <data name="emote_stats_overall" xml:space="preserve">
-    <value>Top Emoji insgesamt:</value>
+    <value>Top-Emoji insgesamt:</value>
   </data>
   <data name="emote_stats_unicode" xml:space="preserve">
-    <value>Top Unicode-Emoji:</value>
+    <value>Top-Unicode-Emoji:</value>
   </data>
   <data name="emote_stats_custom" xml:space="preserve">
-    <value>Top Custom-Emoji:</value>
+    <value>Top-Custom-Emoji:</value>
   </data>
   <data name="emote_stats_uses" xml:space="preserve">
     <value>```{0} Verwendungen```</value>
@@ -3983,7 +3983,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Folgende Rolle(n) wurden aufgrund eines Rollengruppenlimits entfernt: {0}</value>
   </data>
   <data name="selfrole_list_group_unique" xml:space="preserve">
-    <value>Eindeutig</value>
+    <value>Einzelauswahl</value>
   </data>
   <data name="selfrole_list_group_multi" xml:space="preserve">
     <value>Mehrfachauswahl, bis zu {0}</value>
@@ -3995,13 +3995,13 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>benötigt Level {0}+</value>
   </data>
   <data name="selfrole_group_requirement_not_met_role" xml:space="preserve">
-    <value>Du benötigst die Rolle {0} ({1}), um eine Rolle aus der Gruppe '{2}' zu beanspruchen.</value>
+    <value>Du benötigst die Rolle {0} ({1}), um eine Rolle aus der Gruppe „{2}“ zu erhalten.</value>
   </data>
   <data name="selfrole_group_requirement_role_missing" xml:space="preserve">
-    <value>Die erforderliche Rolle der Gruppe '{0}' existiert nicht mehr. Ein Administrator muss eine neue erforderliche Rolle festlegen (oder die Voraussetzung entfernen), bevor jemand eine Rolle aus dieser Gruppe beanspruchen kann.</value>
+    <value>Die erforderliche Rolle der Gruppe „{0}“ existiert nicht mehr. Ein Admin muss eine neue erforderliche Rolle festlegen (oder die Voraussetzung entfernen), bevor jemand eine Rolle aus dieser Gruppe erhalten kann.</value>
   </data>
   <data name="selfrole_group_requirement_not_met_level" xml:space="preserve">
-    <value>Du musst mindestens Level {0} sein, um eine Rolle aus der Gruppe '{1}' zu beanspruchen.</value>
+    <value>Du musst mindestens Level {0} sein, um eine Rolle aus der Gruppe „{1}“ zu erhalten.</value>
   </data>
   <data name="music_title_queue" xml:space="preserve">
     <value>Musik | Warteschlange</value>
@@ -4010,7 +4010,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Info | Ping</value>
   </data>
   <data name="music_title_lyrics" xml:space="preserve">
-    <value>Musik | Lyrics | Gesamt: {0}</value>
+    <value>Musik | Songtexte | Gesamt: {0}</value>
   </data>
   <data name="filter_distortion_text" xml:space="preserve">
     <value>Der Filter `Distortion` wurde erfolgreich gelöscht.</value>
@@ -4019,7 +4019,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Timeout-Befehl: {0}</value>
   </data>
   <data name="purge_reactions" xml:space="preserve">
-    <value>**Reaktionen von {0} in &lt;#{1}&gt; bei {2} Nachrichten gelöscht**</value>
+    <value>**Reaktionen durch {0} in &lt;#{1}&gt; bei {2} Nachrichten gelöscht**</value>
   </data>
   <data name="purge_specified" xml:space="preserve">
     <value>Angegebene Menge:</value>
@@ -4028,13 +4028,13 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Der Filter `Low Pass` wurde erfolgreich gelöscht.</value>
   </data>
   <data name="filter_history_lowpass_disable" xml:space="preserve">
-    <value>deaktivierte `Low Pass`-Filter</value>
+    <value>hat den `Low Pass`-Filter deaktiviert</value>
   </data>
   <data name="filter_lowpass" xml:space="preserve">
     <value>Tiefpass</value>
   </data>
   <data name="filter_history_lowpass_enable" xml:space="preserve">
-    <value>aktivierte benutzerdefinierten `Low Pass`-Filter</value>
+    <value>hat den benutzerdefinierten `Low Pass`-Filter aktiviert</value>
   </data>
   <data name="filter_text_karaoke" xml:space="preserve">
     <value>Der Filter `Karaoke` wurde erfolgreich gelöscht.</value>
@@ -4049,7 +4049,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Audit-Log-Einrichtung</value>
   </data>
   <data name="help_select_title_3" xml:space="preserve">
-    <value>Auto-Mod-Einrichtung</value>
+    <value>AutoMod-Einrichtung</value>
   </data>
   <data name="help_select_title_4" xml:space="preserve">
     <value>Auto-Rollen-Einrichtung</value>
@@ -4058,7 +4058,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Befehle</value>
   </data>
   <data name="CoreCommands_HelpAsync_Custom_Command_Setup" xml:space="preserve">
-    <value>Benutzerdefinierte Befehls-Einrichtung</value>
+    <value>Einrichtung benutzerdefinierter Befehle</value>
   </data>
   <data name="CoreCommands_HelpAsync_Documentation" xml:space="preserve">
     <value>Dokumentation</value>
@@ -4070,7 +4070,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Musikverwendung</value>
   </data>
   <data name="CoreCommands_HelpAsync_Persistent_Role_Setup" xml:space="preserve">
-    <value>Persistente Rollen-Einrichtung</value>
+    <value>Einrichtung persistenter Rollen</value>
   </data>
   <data name="CoreCommands_HelpAsync_Report_a_Bug" xml:space="preserve">
     <value>Fehler melden</value>
@@ -4094,7 +4094,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Erhalte einen Link zu unserer Auto-Rollen-Anleitung.</value>
   </data>
   <data name="help_select_description_3" xml:space="preserve">
-    <value>Erhalte einen Link zu unserer Auto-Mod-Anleitung.</value>
+    <value>Erhalte einen Link zu unserer AutoMod-Anleitung.</value>
   </data>
   <data name="help_select_description_2" xml:space="preserve">
     <value>Erhalte einen Link zu unserer Audit-Log-Anleitung.</value>
@@ -4142,22 +4142,22 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>{0} Ereignisse</value>
   </data>
   <data name="core_stats_stickers" xml:space="preserve">
-    <value>{0} Aufkleber</value>
+    <value>{0} Sticker</value>
   </data>
   <data name="core_stats_core_channels" xml:space="preserve">
-    <value>{0} Gesamtkanäle</value>
+    <value>{0} Kanäle insgesamt</value>
   </data>
   <data name="core_stats_thread_channels" xml:space="preserve">
     <value>{0} Thread-Kanäle</value>
   </data>
   <data name="core_stats_stage_channels" xml:space="preserve">
-    <value>{0} Bühnenkanäle</value>
+    <value>{0} Stage-Kanäle</value>
   </data>
   <data name="core_title_commands" xml:space="preserve">
     <value>Core | Bot-Befehle</value>
   </data>
   <data name="misc_title_google" xml:space="preserve">
-    <value>Sonstiges | Google |</value>
+    <value>Sonstiges | Google | </value>
   </data>
   <data name="misc_title_wiki" xml:space="preserve">
     <value>Sonstiges | Wiki</value>
@@ -4166,7 +4166,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Sonstiges | Bild | </value>
   </data>
   <data name="music_footer_jumpto" xml:space="preserve">
-    <value>Zum angeforderten Lied von {0} springen</value>
+    <value>Sprung zum Song angefordert von {0}</value>
   </data>
   <data name="music_footer_preset" xml:space="preserve">
     <value>Voreinstellung angewendet von {0}</value>
@@ -4181,13 +4181,13 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Gespult von {0}</value>
   </data>
   <data name="music_footer_added" xml:space="preserve">
-    <value>Lied hinzugefügt von {0}</value>
+    <value>Song hinzugefügt von {0}</value>
   </data>
   <data name="info_title_contributors" xml:space="preserve">
     <value>Info | Mitwirkende</value>
   </data>
   <data name="achievement_title" xml:space="preserve">
-    <value>Errungenschaft | </value>
+    <value>Erfolg | </value>
   </data>
   <data name="ContributorButton_Contributors_Developers_" xml:space="preserve">
     <value>Entwickler:</value>
@@ -4226,10 +4226,10 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Statistiken</value>
   </data>
   <data name="SearchCommand_Search_Misc___XKCD___" xml:space="preserve">
-    <value>Sonstiges | XKCD |</value>
+    <value>Sonstiges | XKCD | </value>
   </data>
   <data name="SearchCommand_Search_ID__" xml:space="preserve">
-    <value>ID:</value>
+    <value>ID: </value>
   </data>
   <data name="SearchCommand_Search_Episodes" xml:space="preserve">
     <value>Folgen</value>
@@ -4280,10 +4280,10 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Economy | Teilen oder Stehlen</value>
   </data>
   <data name="SongRequestButtons_SongRequestLoop_Music___Loop" xml:space="preserve">
-    <value>Musik | Schleife</value>
+    <value>Musik | Wiederholen</value>
   </data>
   <data name="EconomyCommand_Items_Economy___Owned_Items" xml:space="preserve">
-    <value>Economy | Deine Gegenstände</value>
+    <value>Economy | Deine Items</value>
   </data>
   <data name="SongRequestButtons_SongRequestRewind_Music___Rewind" xml:space="preserve">
     <value>Musik | Zurückspulen</value>
@@ -4298,10 +4298,10 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Info | Über</value>
   </data>
   <data name="MinecraftCommands_ServerQuery_Utilities___Server" xml:space="preserve">
-    <value>Dienstprogramme | Server</value>
+    <value>Tools | Server</value>
   </data>
   <data name="InfoGuildCommands_ServerInfoAsync_Info____0__Server_Info" xml:space="preserve">
-    <value>Info | {0} Server-Info</value>
+    <value>Info | Server-Info: {0}</value>
   </data>
   <data name="ReminderCommand_List_Reminder___List" xml:space="preserve">
     <value>Erinnerung | Liste</value>
@@ -4313,16 +4313,16 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Sticker | {0}</value>
   </data>
   <data name="FilterCommand_DistortionAsync_" xml:space="preserve">
-    <value>`distortion`-Filter deaktiviert</value>
+    <value>hat den `distortion`-Filter deaktiviert</value>
   </data>
   <data name="FilterCommand_DistortionAsync_enable" xml:space="preserve">
-    <value>aktivierter benutzerdefinierter `distortion`-Filter</value>
+    <value>hat den benutzerdefinierten `distortion`-Filter aktiviert</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_disable" xml:space="preserve">
-    <value>deaktivierter `karaoke`-Filter</value>
+    <value>hat den `karaoke`-Filter deaktiviert</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_enable" xml:space="preserve">
-    <value>aktivierter benutzerdefinierter `karaoke`-Filter</value>
+    <value>hat den benutzerdefinierten `karaoke`-Filter aktiviert</value>
   </data>
   <data name="FilterCommand_KaraokeAsync_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
@@ -4331,79 +4331,79 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Der `Rotation`-Filter wurde erfolgreich gelöscht.</value>
   </data>
   <data name="FilterCommand_RotationAsync_disable" xml:space="preserve">
-    <value>deaktivierter `rotation`-Filter</value>
+    <value>hat den `rotation`-Filter deaktiviert</value>
   </data>
   <data name="FilterCommand_RotationAsync_Rotation" xml:space="preserve">
     <value>Rotation</value>
   </data>
   <data name="FilterCommand_RotationAsync_enable" xml:space="preserve">
-    <value>aktivierter benutzerdefinierter `rotation`-Filter</value>
+    <value>hat den benutzerdefinierten `rotation`-Filter aktiviert</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_clear" xml:space="preserve">
     <value>Der `Timescale`-Filter wurde erfolgreich gelöscht.</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_disable" xml:space="preserve">
-    <value>deaktivierter `timescale`-Filter</value>
+    <value>hat den `timescale`-Filter deaktiviert</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_Timescale" xml:space="preserve">
     <value>Zeitskala</value>
   </data>
   <data name="FilterCommand_TimescaleAsync_enable" xml:space="preserve">
-    <value>aktivierter benutzerdefinierter `timescale`-Filter</value>
+    <value>hat den benutzerdefinierten `timescale`-Filter aktiviert</value>
   </data>
   <data name="FilterCommand_TremoloAsync_clear" xml:space="preserve">
     <value>Der `Tremolo`-Filter wurde erfolgreich gelöscht.</value>
   </data>
   <data name="FilterCommand_TremoloAsync_disable" xml:space="preserve">
-    <value>deaktivierter `tremolo`-Filter</value>
+    <value>hat den `tremolo`-Filter deaktiviert</value>
   </data>
   <data name="FilterCommand_TremoloAsync_Tremolo" xml:space="preserve">
     <value>Tremolo</value>
   </data>
   <data name="FilterCommand_TremoloAsync_enable" xml:space="preserve">
-    <value>aktivierter benutzerdefinierter `tremolo`-Filter</value>
+    <value>hat den benutzerdefinierten `tremolo`-Filter aktiviert</value>
   </data>
   <data name="FilterCommand_VibratoAsync_clear" xml:space="preserve">
     <value>Der `Vibrato`-Filter wurde erfolgreich gelöscht.</value>
   </data>
   <data name="FilterCommand_VibratoAsync_disable" xml:space="preserve">
-    <value>deaktivierter `vibrato`-Filter</value>
+    <value>hat den `vibrato`-Filter deaktiviert</value>
   </data>
   <data name="FilterCommand_VibratoAsync_Vibrato" xml:space="preserve">
     <value>Vibrato</value>
   </data>
   <data name="FilterCommand_VibratoAsync_enable" xml:space="preserve">
-    <value>aktivierter benutzerdefinierter `vibrato`-Filter</value>
+    <value>hat den benutzerdefinierten `vibrato`-Filter aktiviert</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_clear" xml:space="preserve">
     <value>Der `channel mix`-Filter wurde erfolgreich gelöscht.</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_disable" xml:space="preserve">
-    <value>deaktivierter `channel mix`-Filter</value>
+    <value>hat den `channel mix`-Filter deaktiviert</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_Channel_Mix" xml:space="preserve">
     <value>Kanalmischung</value>
   </data>
   <data name="FilterCommand_ChannelMixAsync_enable" xml:space="preserve">
-    <value>aktivierter benutzerdefinierter `channel mix`-Filter</value>
+    <value>hat den benutzerdefinierten `channel mix`-Filter aktiviert</value>
   </data>
   <data name="FilterCommand_EchoAsync_clear" xml:space="preserve">
     <value>Der `Echo`-Filter wurde erfolgreich gelöscht.</value>
   </data>
   <data name="FilterCommand_EchoAsync_disable" xml:space="preserve">
-    <value>deaktivierter `echo`-Filter</value>
+    <value>hat den `echo`-Filter deaktiviert</value>
   </data>
   <data name="FilterCommand_EchoAsync_Echo" xml:space="preserve">
     <value>Echo</value>
   </data>
   <data name="FilterCommand_EchoAsync_enable" xml:space="preserve">
-    <value>benutzerdefinierten `echo`-Filter aktiviert</value>
+    <value>hat den benutzerdefinierten `echo`-Filter aktiviert</value>
   </data>
   <data name="FilterCommand_NoneAsync_Successfully_cleared_all_filters_" xml:space="preserve">
     <value>Alle Filter erfolgreich gelöscht.</value>
   </data>
   <data name="FilterCommand_NoneAsync_disabled_all_filters" xml:space="preserve">
-    <value>alle Filter deaktiviert</value>
+    <value>hat alle Filter deaktiviert</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Phishing" xml:space="preserve">
     <value>AutoMod - Phishing</value>
@@ -4427,7 +4427,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>AutoMod - Doppelte Wörter</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Mentions" xml:space="preserve">
-    <value>AutoMod - Massenmeldungen</value>
+    <value>AutoMod - Massen-Erwähnungen</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Mass_Emoji" xml:space="preserve">
     <value>AutoMod - Massen-Emojis</value>
@@ -4445,7 +4445,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>AutoMod - Markdown-Überschriften</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Blacklisted_File_Extension" xml:space="preserve">
-    <value>AutoMod - Verbotene Dateityp-Endung</value>
+    <value>AutoMod - Blockierte Dateiendung</value>
   </data>
   <data name="AutoModService_GetPunishmentReason_AutoMod___Unknown_Reason" xml:space="preserve">
     <value>AutoMod - Unbekannter Grund</value>
@@ -4460,103 +4460,103 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Löschen &amp; Benutzer verwarnen</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick_User" xml:space="preserve">
-    <value>Nachricht löschen &amp; Benutzer rauswerfen</value>
+    <value>Nachricht löschen &amp; Benutzer kicken</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete_Message___Kick___Warn_User" xml:space="preserve">
-    <value>Nachricht löschen &amp; Rauswerfen + Verwarnung</value>
+    <value>Nachricht löschen &amp; Benutzer kicken + verwarnen</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Ban_User__Delete_24h_" xml:space="preserve">
-    <value>Benutzer sperren (24h löschen)</value>
+    <value>Benutzer bannen (Nachrichten der letzten 24h löschen)</value>
   </data>
   <data name="AutoModService_GetPunishmentType_Delete___Timeout_User__1h_" xml:space="preserve">
-    <value>Löschen &amp; Benutzer stummschalten (1h)</value>
+    <value>Löschen &amp; Timeout (1h)</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_" xml:space="preserve">
-    <value>habe `{0}` Titel in die Warteschlange hinzugefügt</value>
+    <value>hat `{0}` Tracks zur Warteschlange hinzugefügt</value>
   </data>
   <data name="CakeyAudioService_EnqueueAsync_one" xml:space="preserve">
-    <value>habe `1` Titel in die Warteschlange hinzugefügt</value>
+    <value>hat `1` Track zur Warteschlange hinzugefügt</value>
   </data>
   <data name="music_ff_time" xml:space="preserve">
-    <value>Titel um `{0}` Sekunden vorgespult</value>
+    <value>hat den Track um `{0}` Sekunden vorgespult</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_" xml:space="preserve">
-    <value>habe `{0}` Titel zur Warteschlange hinzugefügt</value>
+    <value>hat `{0}` Tracks zur Warteschlange hinzugefügt</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_swapped_track__0__and__1_" xml:space="preserve">
-    <value>Titel {0} und {1} getauscht</value>
+    <value>hat Track {0} und {1} getauscht</value>
   </data>
   <data name="SortQueueCommand_TitleAsync_" xml:space="preserve">
-    <value>Warteschlange sortiert nach `Titel - {0}`</value>
+    <value>hat die Warteschlange nach `Titel - {0}` sortiert</value>
   </data>
   <data name="SortQueueCommand_AuthorAsync_" xml:space="preserve">
-    <value>Warteschlange sortiert nach `Künstler - {0}`</value>
+    <value>hat die Warteschlange nach `Künstler - {0}` sortiert</value>
   </data>
   <data name="SortQueueCommand_LengthAsync_" xml:space="preserve">
-    <value>Warteschlange sortiert nach `Länge - {0}`</value>
+    <value>hat die Warteschlange nach `Länge - {0}` sortiert</value>
   </data>
   <data name="SortQueueCommand_ReverseAsync_" xml:space="preserve">
-    <value>Warteschlange sortiert nach `Umgekehrt`</value>
+    <value>hat die Reihenfolge der Warteschlange `umgekehrt`</value>
   </data>
   <data name="SortQueueCommand_SwapAsync_Invalid_index_" xml:space="preserve">
     <value>Ungültiger Index.</value>
   </data>
   <data name="RemoveCommand_FirstAsync_" xml:space="preserve">
-    <value>habe den `ersten` Titel aus der Warteschlange entfernt</value>
+    <value>hat den `ersten` Track aus der Warteschlange entfernt</value>
   </data>
   <data name="RemoveCommand_LastAsync_" xml:space="preserve">
-    <value>habe den `letzten` Titel aus der Warteschlange entfernt</value>
+    <value>hat den `letzten` Track aus der Warteschlange entfernt</value>
   </data>
   <data name="RemoveCommand_SingleAsync_" xml:space="preserve">
-    <value>habe Titel `{0}` aus der Warteschlange entfernt</value>
+    <value>hat Track `{0}` aus der Warteschlange entfernt</value>
   </data>
   <data name="RemoveCommand_RangeAsync_" xml:space="preserve">
-    <value>habe `{0}`-`{1}` aus der Warteschlange entfernt</value>
+    <value>hat `{0}`-`{1}` aus der Warteschlange entfernt</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_" xml:space="preserve">
-    <value>habe `Duplikate` Titel aus der Warteschlange entfernt</value>
+    <value>hat `doppelte` Tracks aus der Warteschlange entfernt</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_" xml:space="preserve">
-    <value>habe `Benutzer weg` Titel aus der Warteschlange entfernt</value>
+    <value>hat Tracks von `gegangenen Benutzern` aus der Warteschlange entfernt</value>
   </data>
   <data name="RemoveCommand_UserAsync_" xml:space="preserve">
-    <value>habe Titel von `{0}` aus der Warteschlange entfernt</value>
+    <value>hat die Tracks von `{0}` aus der Warteschlange entfernt</value>
   </data>
   <data name="RemoveCommand_KeywordAsync_" xml:space="preserve">
-    <value>habe `Stichwort: {0}` Titel aus der Warteschlange entfernt</value>
+    <value>hat Tracks mit `Stichwort: {0}` aus der Warteschlange entfernt</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_" xml:space="preserve">
-    <value>habe Filter `{0}` aktiviert</value>
+    <value>hat den Filter `{0}` aktiviert</value>
   </data>
   <data name="MusicCommands_ResumeAsync_resumed_playback" xml:space="preserve">
-    <value>Wiedergabe fortgesetzt</value>
+    <value>hat die Wiedergabe fortgesetzt</value>
   </data>
   <data name="MusicCommands_PauseAsync_paused_playback" xml:space="preserve">
-    <value>Wiedergabe angehalten</value>
+    <value>hat die Wiedergabe pausiert</value>
   </data>
   <data name="MusicCommands_SkipAsync_" xml:space="preserve">
-    <value>habe `{0}` Titel übersprungen</value>
+    <value>hat `{0}` Tracks übersprungen</value>
   </data>
   <data name="MusicCommands_JumpTo_" xml:space="preserve">
-    <value>bin zu Position `{0}` in der Warteschlange gesprungen</value>
+    <value>ist zu Position `{0}` in der Warteschlange gesprungen</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_" xml:space="preserve">
-    <value>habe EQ-Voreinstellung auf `{0}` gesetzt</value>
+    <value>hat die EQ-Voreinstellung auf `{0}` gesetzt</value>
   </data>
   <data name="MusicCommands_ClearQueueAsync_cleared_the_queue" xml:space="preserve">
-    <value>Warteschlange geleert</value>
+    <value>hat die Warteschlange geleert</value>
   </data>
   <data name="MusicCommands_RestartAsync_restarted_current_track" xml:space="preserve">
-    <value>Aktuellen Track neu gestartet</value>
+    <value>hat den aktuellen Track neu gestartet</value>
   </data>
   <data name="MusicCommands_SeekAsync_" xml:space="preserve">
-    <value>Track zu `{0}` vorgespult</value>
+    <value>ist im Track zu `{0}` gesprungen</value>
   </data>
   <data name="MusicCommands_RewindAsync_" xml:space="preserve">
-    <value>Track um `{0}` zurückgespult</value>
+    <value>hat den Track um `{0}` zurückgespult</value>
   </data>
   <data name="MusicCommands_EqualizerAsync_updated_custom_equalizer" xml:space="preserve">
-    <value>Benutzerdefinierten Equalizer aktualisiert</value>
+    <value>hat den benutzerdefinierten Equalizer aktualisiert</value>
   </data>
   <data name="UtilityCommands_Math_Misc___Math" xml:space="preserve">
     <value>Sonstiges | Mathematik</value>
@@ -4583,25 +4583,25 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Geladen von {0}</value>
   </data>
   <data name="PlaylistCommand_DeleteAsync_Music___Playlist_Delete" xml:space="preserve">
-    <value>Musik | Playlist Löschen</value>
+    <value>Musik | Playlist löschen</value>
   </data>
   <data name="PlaylistCommand_RenameAsync_Music___Playlist_Rename" xml:space="preserve">
-    <value>Musik | Playlist Umbenennen</value>
+    <value>Musik | Playlist umbenennen</value>
   </data>
   <data name="PlaylistCommand_LoadAsync_Music___Playlist_Load" xml:space="preserve">
-    <value>Musik | Playlist Laden</value>
+    <value>Musik | Playlist laden</value>
   </data>
   <data name="PlaylistCommand_CreateAsync_Music___Playlist_Create" xml:space="preserve">
-    <value>Musik | Playlist Erstellen</value>
+    <value>Musik | Playlist erstellen</value>
   </data>
   <data name="PlaylistCommand_AddAsync_Music___Playlist_Add" xml:space="preserve">
-    <value>Musik | Playlist Hinzufügen</value>
+    <value>Musik | Zur Playlist hinzufügen</value>
   </data>
   <data name="SongRequestButtons_SongRequestFF_Music___Fast_Forward" xml:space="preserve">
     <value>Musik | Schnellvorlauf</value>
   </data>
   <data name="EconomyCommand_ItemInfo_Economy___Item_Information" xml:space="preserve">
-    <value>Economy | Gegenstand-Info</value>
+    <value>Economy | Item-Info</value>
   </data>
   <data name="TagsCommand_InfoTag_Tags___Info" xml:space="preserve">
     <value>Tags | Info</value>
@@ -4635,10 +4635,10 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Sonstiges | Manga</value>
   </data>
   <data name="RemoveCommand_DuplicateAsync_Music___Remove_Duplicates" xml:space="preserve">
-    <value>Musik | Duplikate Entfernen</value>
+    <value>Musik | Duplikate entfernen</value>
   </data>
   <data name="RemoveCommand_LeaveCleanupAsync_Music___Leave_Cleanup" xml:space="preserve">
-    <value>Musik | Verlassen Bereinigung</value>
+    <value>Musik | Aufräumen nach Verlassen</value>
   </data>
   <data name="StreakCommands_View_Streak_for_" xml:space="preserve">
     <value>Streak für </value>
@@ -4665,13 +4665,13 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Geschwindigkeits-Filtereffekte deaktiviert.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Disabled_slow_mo_filter_effects_" xml:space="preserve">
-    <value>Zeitlupe-Filtereffekte deaktiviert.</value>
+    <value>Zeitlupen-Filtereffekte deaktiviert.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_slow_mo_filter_effects_" xml:space="preserve">
-    <value>Zeitlupe-Filtereffekte angewendet.</value>
+    <value>Zeitlupen-Filtereffekte angewendet.</value>
   </data>
   <data name="MusicCommands_FilterPresetAsync_Applied_darth_vader_filter_effects_" xml:space="preserve">
-    <value>Darth Vader-Filtereffekte angewendet.</value>
+    <value>Darth-Vader-Filtereffekte angewendet.</value>
   </data>
   <data name="MusicCommands_PlayFileAsync_An_issue_occured_while_trying_to_join_that_channel_" xml:space="preserve">
     <value>Es ist ein Problem beim Versuch aufgetreten, diesem Kanal beizutreten.</value>
@@ -4716,7 +4716,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>`{0}` wurde zur Musikwarteschlange hinzugefügt.</value>
   </data>
   <data name="MusicCommands_JumpTo_Music___Jump_To" xml:space="preserve">
-    <value>Musik | Springe zu</value>
+    <value>Musik | Springen zu</value>
   </data>
   <data name="MusicCommands_EqPresetAsync_Music___Equalizer" xml:space="preserve">
     <value>Musik | Equalizer</value>
@@ -4749,7 +4749,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Überprüfungen:</value>
   </data>
   <data name="SelectionMenuHandler_SelfRoles_Cleared_selection_menu__No_roles_were_modified_" xml:space="preserve">
-    <value>Auswahlmenü gelöscht. Keine Rollen wurden geändert.</value>
+    <value>Auswahl zurückgesetzt. Es wurden keine Rollen geändert.</value>
   </data>
   <data name="ImagineCommand_Imagine_Imagine_Error___Missing_Base64___Failed_to_generate_image_" xml:space="preserve">
     <value>Imagine-Fehler | Fehlende Base64 - Bild konnte nicht generiert werden.</value>
@@ -4801,13 +4801,13 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Nachrichten-ID ist ungültig.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Channel_does_not_exist_in_this_guild_" xml:space="preserve">
-    <value>Kanal existiert nicht in diesem Server.</value>
+    <value>Der Kanal existiert nicht auf diesem Server.</value>
   </data>
   <data name="ModeratorCommands_MoveAsync_Message_does_not_exist_in_this_channel_" xml:space="preserve">
     <value>Nachricht existiert nicht in diesem Kanal.</value>
   </data>
   <data name="daily_content_thread_name" xml:space="preserve">
-    <value>{0} Diskussion</value>
+    <value>Diskussion: {0}</value>
   </data>
 	<data name="daily_content_of_the_day" xml:space="preserve">
     <value>{0} des Tages!</value>
@@ -4816,7 +4816,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Zeit im Kanal:</value>
   </data>
   <data name="minefield_cashout_perfect" xml:space="preserve">
-    <value>Perfekt! 🎯 Du hast das Minenfeld gelöscht und einen verdoppelten Gewinn von {1} von {0} sicheren Feldern verdient!</value>
+    <value>Perfekt! 🎯 Du hast das Minenfeld geräumt und für {0} sichere Felder einen verdoppelten Gewinn von {1} erhalten!</value>
   </data>
   <data name="user_monitored_roles_modified_title" xml:space="preserve">
     <value>Überwachte Benutzerrollen geändert</value>
@@ -4846,7 +4846,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Ungültige Bild-URL.</value>
   </data>
   <data name="giveaways_entries" xml:space="preserve">
-    <value>Einträge:</value>
+    <value>Teilnahmen:</value>
   </data>
   <data name="giveaway_winners_2" xml:space="preserve">
     <value>Gewinner:</value>
@@ -4907,7 +4907,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Custom Bot kaufen</value>
   </data>
   <data name="FishingGroup_Inventory_Fishing_Inventory___Stats" xml:space="preserve">
-    <value>Fischen Inventar &amp; Statistiken</value>
+    <value>Angelinventar &amp; Statistiken</value>
   </data>
   <data name="BiomeAutocompleteHandler_GenerateSuggestionsAsync_Buy_additional_biomes_with__fishing_list_biomes" xml:space="preserve">
     <value>Kaufe zusätzliche Biome mit /fishing list-biomes</value>
@@ -4931,7 +4931,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Verwarnungen anzeigen</value>
   </data>
   <data name="ModeratorCommands_Timeout__0___Less_than_28_days_" xml:space="preserve">
-    <value>{0} (Weniger als 28 Tage)</value>
+    <value>{0} (weniger als 28 Tage)</value>
   </data>
   <data name="reminder_create_time_invalid" xml:space="preserve">
     <value>Erinnerungen müssen mehr als {0} Minuten in der Zukunft liegen.</value>
@@ -4967,7 +4967,7 @@ Läuft ab: &lt;t:{0}:R&gt;</value>
     <value>Reaktions-Emoji:</value>
   </data>
   <data name="honeypot_log_title" xml:space="preserve">
-    <value>Honey Pot ausgelöst</value>
+    <value>Honeypot ausgelöst</value>
   </data>
   <data name="honeypot_embed_warning" xml:space="preserve">
     <value>## SENDE KEINE NACHRICHTEN IN DIESEM KANAL
@@ -4977,7 +4977,7 @@ Dieser Kanal wird verwendet, um Spam-Bots zu fangen. Alle hier gesendeten Nachri
     <value>Auslöser: {0}</value>
   </data>
   <data name="honeypot_punishment_reason" xml:space="preserve">
-    <value>AutoMod - Honey-Pot-Kanal ausgelöst</value>
+    <value>AutoMod: Honeypot-Kanal ausgelöst</value>
   </data>
   <data name="honeypot_punishment_timeout" xml:space="preserve">
     <value>Timeout (1 Stunde)</value>
@@ -4989,7 +4989,7 @@ Dieser Kanal wird verwendet, um Spam-Bots zu fangen. Alle hier gesendeten Nachri
     <value>Softban</value>
   </data>
   <data name="honeypot_punishment_ban" xml:space="preserve">
-    <value>Ban</value>
+    <value>Bann</value>
   </data>
   <data name="honeypot_log_attachments" xml:space="preserve">
     <value>Anhänge:</value>
@@ -5001,16 +5001,16 @@ Dieser Kanal wird verwendet, um Spam-Bots zu fangen. Alle hier gesendeten Nachri
     <value>Fehlerrolle für das Zählspiel</value>
   </data>
   <data name="counting_error_wrong_number" xml:space="preserve">
-    <value>❌ Falsche Zahl! Die Zählung wurde auf **1** zurückgesetzt. Höchste je erreichte Serie: **{0}**.</value>
+    <value>❌ Falsche Zahl! Die Zählung wurde auf **1** zurückgesetzt. Höchster je erreichter Streak: **{0}**.</value>
   </data>
   <data name="counting_error_wrong_number_no_reset" xml:space="preserve">
-    <value>❌ Falsche Zahl! Die Zählung wurde nicht zurückgesetzt — die nächste Zahl ist weiterhin **{0}**. Höchste je erreichte Serie: **{1}**.</value>
+    <value>❌ Falsche Zahl! Die Zählung wurde nicht zurückgesetzt — die nächste Zahl ist weiterhin **{0}**. Höchster je erreichter Streak: **{1}**.</value>
   </data>
   <data name="counting_error_same_user" xml:space="preserve">
-    <value>❌ Du kannst nicht zweimal hintereinander zählen! Die Zählung wurde auf **1** zurückgesetzt. Höchste je erreichte Serie: **{0}**.</value>
+    <value>❌ Du kannst nicht zweimal hintereinander zählen! Die Zählung wurde auf **1** zurückgesetzt. Höchster je erreichter Streak: **{0}**.</value>
   </data>
   <data name="counting_error_same_user_no_reset" xml:space="preserve">
-    <value>❌ Du kannst nicht zweimal hintereinander zählen! Die Zählung wurde nicht zurückgesetzt — die nächste Zahl ist weiterhin **{0}**. Höchste je erreichte Serie: **{1}**.</value>
+    <value>❌ Du kannst nicht zweimal hintereinander zählen! Die Zählung wurde nicht zurückgesetzt — die nächste Zahl ist weiterhin **{0}**. Höchster je erreichter Streak: **{1}**.</value>
   </data>
   <data name="counting_save_spent" xml:space="preserve">
     <value>🛟 Falsche Zahl, aber eine Rettung wurde eingesetzt! Die Zählung wurde nicht zurückgesetzt — die nächste Zahl ist weiterhin **{0}**. Verbleibende Rettungen: **{1}**.</value>
@@ -5159,7 +5159,7 @@ Dieser Kanal wird verwendet, um Spam-Bots zu fangen. Alle hier gesendeten Nachri
     <value>Bonus</value>
   </data>
   <data name="invites_inviter_title" xml:space="preserve">
-    <value>Wer hat eingeladen?</value>
+    <value>Eingeladen von</value>
   </data>
   <data name="invites_inviter_none" xml:space="preserve">
     <value>Für dieses Mitglied ist kein Beitritt gespeichert.</value>
@@ -5210,10 +5210,10 @@ Dieser Kanal wird verwendet, um Spam-Bots zu fangen. Alle hier gesendeten Nachri
     <value>Ausgetretene Mitglieder abziehen</value>
   </data>
   <data name="invites_setting_report_channel" xml:space="preserve">
-    <value>Bericht-Kanal</value>
+    <value>Berichtskanal</value>
   </data>
   <data name="invites_setting_report_interval" xml:space="preserve">
-    <value>Bericht-Intervall</value>
+    <value>Berichtsintervall</value>
   </data>
   <data name="invites_state_enabled" xml:space="preserve">
     <value>an</value>
