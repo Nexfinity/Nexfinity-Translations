@@ -903,6 +903,18 @@
 	<data name="music_embed_queue_2" xml:space="preserve">
     <value>Supported sources: Twitch, Bandcamp, Vimeo, Soundcloud, Direct URL/Web File *`(MP3 &amp; MP4 Formats)`* &amp; Spotify *`(EXPERIMENTAL)`*.</value>
   </data>
+	<data name="music_embed_queue_button" xml:space="preserve">
+    <value>Join a Voice Channel and press Add Song to search a song by name or URL.</value>
+  </data>
+	<data name="music_add_song_button" xml:space="preserve">
+    <value>Add Song</value>
+  </data>
+	<data name="music_add_song_modal_title" xml:space="preserve">
+    <value>Add a Song</value>
+  </data>
+	<data name="music_add_song_modal_label" xml:space="preserve">
+    <value>Song name or URL</value>
+  </data>
 	<data name="music_embed_react_1" xml:space="preserve">
     <value>Pause/Resume a song</value>
   </data>
@@ -1737,6 +1749,21 @@ Note: Requires \"Manage Server\" access.</value>
 	<data name="random_drop_already_claimed" xml:space="preserve">
     <value>❌ Someone else already claimed this drop!</value>
   </data>
+	<data name="random_drop_role_blocked" xml:space="preserve">
+    <value>❌ One of your roles is not allowed to claim drops.</value>
+  </data>
+	<data name="random_drop_captcha_title" xml:space="preserve">
+    <value>Claim the drop</value>
+  </data>
+	<data name="random_drop_captcha_prompt" xml:space="preserve">
+    <value>Type the code in the image to claim the drop. You have 3 minutes, and only the first correct answer gets it.</value>
+  </data>
+	<data name="random_drop_captcha_button" xml:space="preserve">
+    <value>Enter code</value>
+  </data>
+	<data name="random_drop_captcha_wrong" xml:space="preserve">
+    <value>❌ That code is wrong or has expired. Click the drop again for a new one.</value>
+  </data>
 	<data name="birthday_error" xml:space="preserve">
     <value>A server admin must set a birthday announcement channel before this command can be used.</value>
   </data>
@@ -2185,6 +2212,33 @@ You can do this by pressing one of the numbered buttons on this message.
   </data>
 	<data name="music_player_active" xml:space="preserve">
     <value>A user has rejoined the voice channel. Auto-disconnect has been cancelled.</value>
+  </data>
+	<data name="music_player_restored" xml:space="preserve">
+    <value>I was restarted and have picked the music back up: **{0}** from {1}.</value>
+  </data>
+	<data name="music_autoplay_title" xml:space="preserve">
+    <value>Music | Autoplay</value>
+  </data>
+	<data name="music_autoplay_button" xml:space="preserve">
+    <value>Autoplay</value>
+  </data>
+	<data name="music_autoplay_enabled" xml:space="preserve">
+    <value>Autoplay is on. When the queue runs out, similar songs are added for you.</value>
+  </data>
+	<data name="music_autoplay_disabled" xml:space="preserve">
+    <value>Autoplay is off. The music stops when the queue runs out.</value>
+  </data>
+	<data name="music_autoplay_unavailable" xml:space="preserve">
+    <value>Autoplay is not set up on this bot.</value>
+  </data>
+	<data name="music_autoplay_error_permission" xml:space="preserve">
+    <value>You need the DJ role or mod permissions to turn autoplay on or off.</value>
+  </data>
+	<data name="music_history_autoplay_on" xml:space="preserve">
+    <value>turned autoplay on</value>
+  </data>
+	<data name="music_history_autoplay_off" xml:space="preserve">
+    <value>turned autoplay off</value>
   </data>
 	<data name="transcription_audio_too_short" xml:space="preserve">
     <value>The audio file is too short to be transcribed.</value>
@@ -2836,6 +2890,12 @@ Please click the button below to verify your account before you can access the s
 	<data name="starboard_force_success" xml:space="preserve">
 	  <value>Successfully force starred message.</value>
   </data>
+	<data name="starboard_select_board" xml:space="preserve">
+	  <value>Choose which starboard this message should be posted to.</value>
+  </data>
+	<data name="starboard_select_placeholder" xml:space="preserve">
+	  <value>Select a starboard</value>
+  </data>
 	<data name="achievement_revoked" xml:space="preserve">
 	  <value>Achievement Revoked!</value>
   </data>
@@ -2853,6 +2913,9 @@ Please click the button below to verify your account before you can access the s
   </data>
 	<data name="games_suggestion_discuss" xml:space="preserve">
 	  <value>Create Discussion Thread</value>
+  </data>
+	<data name="games_suggestion_thread_fallback" xml:space="preserve">
+	  <value>Suggestion</value>
   </data>
 	<data name="games_suggestion_success" xml:space="preserve">
 	  <value>Successfully voted.</value>
@@ -2883,6 +2946,9 @@ Please click the button below to verify your account before you can access the s
   </data>
 	<data name="games_suggestion_underreview_by" xml:space="preserve">
 	  <value>Under review by: {0}</value>
+  </data>
+	<data name="games_suggestion_paused_by" xml:space="preserve">
+	  <value>Paused by: {0}</value>
   </data>
 	<data name="suggestion_error_not_staff" xml:space="preserve">
 	  <value>You need Manage Server or Administrator permission to decide on suggestions.</value>
@@ -2951,6 +3017,12 @@ Please click the button below to verify your account before you can access the s
   </data>
 	<data name="streaks_opt_out" xml:space="preserve">
 	  <value>Successfully toggled opt-out status. Currently: `{0}`.</value>
+  </data>
+	<data name="streaks_nickname_hidden" xml:space="preserve">
+	  <value>Your streak is now hidden from your nickname, and it still counts toward streak roles.</value>
+  </data>
+	<data name="streaks_nickname_shown" xml:space="preserve">
+	  <value>Your streak will show in your nickname again after your next counted message.</value>
   </data>
 	<data name="streaks_top" xml:space="preserve">
 	  <value>Top Streaks</value>
@@ -5056,6 +5128,18 @@ This channel is used to catch spam bots. Any messages sent here will result in a
 	<data name="counting_stats_title" xml:space="preserve">
 		<value>Counting Game Stats</value>
 	</data>
+	<data name="counting_leaderboard_title_correct" xml:space="preserve">
+		<value>Counting Leaderboard | Correct Counts</value>
+	</data>
+	<data name="counting_leaderboard_title_fails" xml:space="preserve">
+		<value>Counting Leaderboard | Mistakes</value>
+	</data>
+	<data name="counting_leaderboard_title_saves" xml:space="preserve">
+		<value>Counting Leaderboard | Saves Used</value>
+	</data>
+	<data name="counting_leaderboard_empty" xml:space="preserve">
+		<value>Nobody is on this board yet. Stats are counted from the day the board was added.</value>
+	</data>
 	<data name="counting_stats_description" xml:space="preserve">
 		<value>**Highest Count Ever Reached:** {0}</value>
 	</data>
@@ -5487,5 +5571,131 @@ This channel is used to catch spam bots. Any messages sent here will result in a
   </data>
 	<data name="serverstats_mode_top" xml:space="preserve">
     <value>top ranked</value>
+  </data>
+	<data name="personal_rod_included_label" xml:space="preserve">
+		<value>Included with Cakey Personal</value>
+	</data>
+	<data name="personal_rod_already_included" xml:space="preserve">
+		<value>The Legendary Rod is already included with your Cakey Personal subscription, so there is nothing to buy.</value>
+	</data>
+	<data name="personal_ai_quota_exhausted" xml:space="preserve">
+		<value>This server's AI limit for the month and your Cakey Personal allowance ({0} per month) are both used up. Your personal allowance resets on the 1st (UTC).</value>
+	</data>
+	<data name="personal_ai_using_quota" xml:space="preserve">
+		<value>Cakey Personal allowance: {0} left this month</value>
+	</data>
+	<data name="music_limit_queue_max" xml:space="preserve">
+		<value>The queue is full: even with unlimited queues, 5,000 tracks is the maximum.</value>
+	</data>
+	<data name="upsell_personal_button" xml:space="preserve">
+		<value>Get Cakey Personal</value>
+	</data>
+	<data name="personal_expired_dm" xml:space="preserve">
+		<value>Your Cakey Personal plan has ended, so your Personal perks are no longer active. Your settings and rank card are saved and come straight back if you subscribe again: {0}</value>
+	</data>
+	<data name="claim_reminder_title" xml:space="preserve">
+		<value>Your rewards are ready to claim again:</value>
+	</data>
+	<data name="claim_reminder_daily" xml:space="preserve">
+		<value>Your **daily** reward in **{0}** is ready - use `/eco daily` there.</value>
+	</data>
+	<data name="claim_reminder_weekly" xml:space="preserve">
+		<value>Your **weekly** reward in **{0}** is ready - use `/eco weekly` there.</value>
+	</data>
+	<data name="claim_reminder_monthly" xml:space="preserve">
+		<value>Your **monthly** reward in **{0}** is ready - use `/eco monthly` there.</value>
+	</data>
+	<data name="claim_reminder_turn_off" xml:space="preserve">
+		<value>Turn off for {0}</value>
+	</data>
+	<data name="claim_reminder_settings" xml:space="preserve">
+		<value>Reminder settings</value>
+	</data>
+	<data name="claim_reminder_turned_off" xml:space="preserve">
+		<value>Claim reminders are switched off for that server. You can turn them back on with `/eco reminders`.</value>
+	</data>
+	<data name="claim_reminder_cmd_status" xml:space="preserve">
+		<value>**Claim reminders in this server**
+Daily: {0}
+Weekly: {1}
+Monthly: {2}</value>
+	</data>
+	<data name="claim_reminder_cmd_saved" xml:space="preserve">
+		<value>Saved.
+Daily: {0}
+Weekly: {1}
+Monthly: {2}</value>
+	</data>
+	<data name="claim_reminder_cmd_hint" xml:space="preserve">
+		<value>Use the options of `/eco reminders` to change them. You will get one DM when a reward is ready again.</value>
+	</data>
+	<data name="claim_reminder_cmd_master_off" xml:space="preserve">
+		<value>Note: you have switched claim reminders off for all servers on your User Customization page, so no DMs will be sent until you turn that back on.</value>
+	</data>
+	<data name="claim_reminder_on" xml:space="preserve">
+		<value>on</value>
+	</data>
+	<data name="claim_reminder_off" xml:space="preserve">
+		<value>off</value>
+	</data>
+	<data name="claim_reminder_cmd_dm_warning" xml:space="preserve">
+		<value>Make sure your DMs are open, otherwise Cakey Bot cannot reach you and will switch reminders off.</value>
+	</data>
+	<data name="user_preferences_manage" xml:space="preserve">
+		<value>Manage User Preferences</value>
+	</data>
+	<data name="economy_claim_reminder_nudge" xml:space="preserve">
+		<value>-# Want to get reminders for your claims? Manage your user preferences [here](&lt;{0}&gt;)</value>
+	</data>
+	<data name="economy_fishing_legendary_rod_personal_note" xml:space="preserve">
+		<value>-# [Cakey Personal](&lt;https://cakey.bot/personal&gt;) users get access to all rods while subscribed.</value>
+	</data>
+	<data name="counting_error_edited" xml:space="preserve">
+		<value>❌ A counted message was edited! The count has been reset to **1**. Highest streak ever reached: **{0}**.</value>
+	</data>
+	<data name="counting_error_edited_no_reset" xml:space="preserve">
+		<value>❌ A counted message was edited! That message no longer counts, the next number is still **{0}**. Highest streak ever reached: **{1}**.</value>
+	</data>
+	<data name="achievement_owners_title" xml:space="preserve">
+		<value>Members holding {0}</value>
+	</data>
+	<data name="achievement_owners_empty" xml:space="preserve">
+		<value>Nobody has unlocked this achievement yet.</value>
+	</data>
+	<data name="achievement_owners_footer" xml:space="preserve">
+		<value>{0} members • Page {1}/{2}</value>
+	</data>
+	<data name="selfrole_panel_missing" xml:space="preserve">
+		<value>This self role panel no longer exists. Ask a server admin to post a new one from the dashboard.</value>
+	</data>
+	<data name="leveling_rank_self_only" xml:space="preserve">
+		<value>Looking up other members' ranks is disabled on this server. You can still check your own rank.</value>
+	</data>
+	<data name="ticket_business_hours_format" xml:space="preserve">
+		<value>{0} to {1} ({2}) on {3}</value>
+	</data>
+	<data name="ticket_business_hours_closed" xml:space="preserve">
+		<value>Tickets on this panel can only be opened during business hours, {0}. Please try again then.</value>
+	</data>
+	<data name="ticket_business_hours_notice_default" xml:space="preserve">
+		<value>This ticket was opened outside business hours ({0}), so a reply may take longer than usual.</value>
+	</data>
+	<data name="music_history_stop" xml:space="preserve">
+		<value>stopped the music and disconnected the bot</value>
+	</data>
+	<data name="music_log_queued" xml:space="preserve">
+		<value>added **{0}** to the queue</value>
+	</data>
+	<data name="music_log_started" xml:space="preserve">
+		<value>Now playing **{0}**, requested by {1}</value>
+	</data>
+	<data name="music_log_started_autoplay" xml:space="preserve">
+		<value>Now playing **{0}** from autoplay</value>
+	</data>
+	<data name="music_log_autoplay_pick" xml:space="preserve">
+		<value>Autoplay added **{0}** to the queue</value>
+	</data>
+  <data name="error_giveaway_channel_perms" xml:space="preserve">
+    <value>Cakey Bot needs View Channel, Send Messages, Embed Links and Read Message History in {0} to post the giveaway there.</value>
   </data>
 </root>

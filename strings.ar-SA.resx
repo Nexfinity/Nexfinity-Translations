@@ -5171,6 +5171,9 @@ Note: A message will be sent upon completion.</value>
   <data name="invites_stats_title" xml:space="preserve">
     <value>Invite statistics</value>
   </data>
+  <data name="invites_public_leaderboard_link" xml:space="preserve">
+    <value>Open the public leaderboard</value>
+  </data>
   <data name="invites_settings_title" xml:space="preserve">
     <value>Invite tracking settings</value>
   </data>
@@ -5351,6 +5354,18 @@ Note: A message will be sent upon completion.</value>
   <data name="serverstats_chart_title_members" xml:space="preserve">
     <value>Member count over time</value>
   </data>
+  <data name="chart_axis_messages" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="chart_axis_voice_minutes" xml:space="preserve">
+    <value>Voice minutes</value>
+  </data>
+  <data name="chart_axis_members" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="chart_no_activity" xml:space="preserve">
+    <value>No activity in this range</value>
+  </data>
   <data name="serverstats_dashboard_link" xml:space="preserve">
     <value>Open the stats dashboard</value>
   </data>
@@ -5446,5 +5461,107 @@ Note: A message will be sent upon completion.</value>
   </data>
   <data name="serverstats_mode_top" xml:space="preserve">
     <value>top ranked</value>
+  </data>
+  <data name="personal_rod_included_label" xml:space="preserve">
+    <value>Included with Cakey Personal</value>
+  </data>
+  <data name="personal_rod_already_included" xml:space="preserve">
+    <value>The Legendary Rod is already included with your Cakey Personal subscription, so there is nothing to buy.</value>
+  </data>
+  <data name="personal_ai_quota_exhausted" xml:space="preserve">
+    <value>This server's AI limit for the month and your Cakey Personal allowance ({0} per month) are both used up. Your personal allowance resets on the 1st (UTC).</value>
+  </data>
+  <data name="personal_ai_using_quota" xml:space="preserve">
+    <value>Cakey Personal allowance: {0} left this month</value>
+  </data>
+  <data name="music_limit_queue_max" xml:space="preserve">
+    <value>The queue is full: even with unlimited queues, 5,000 tracks is the maximum.</value>
+  </data>
+  <data name="upsell_personal_button" xml:space="preserve">
+    <value>Get Cakey Personal</value>
+  </data>
+  <data name="upsell_personal_dismiss" xml:space="preserve">
+    <value>Don't show again</value>
+  </data>
+  <data name="upsell_personal_dismissed" xml:space="preserve">
+    <value>Okay - you won't see Cakey Personal suggestions for the next 90 days.</value>
+  </data>
+  <data name="personal_expired_dm" xml:space="preserve">
+    <value>Your Cakey Personal plan has ended, so your Personal perks are no longer active. Your settings and rank card are saved and come straight back if you subscribe again: {0}</value>
+  </data>
+  <data name="claim_reminder_title" xml:space="preserve">
+    <value>Your rewards are ready to claim again:</value>
+  </data>
+  <data name="claim_reminder_daily" xml:space="preserve">
+    <value>Your **daily** reward in **{0}** is ready - use `/eco daily` there.</value>
+  </data>
+  <data name="claim_reminder_weekly" xml:space="preserve">
+    <value>Your **weekly** reward in **{0}** is ready - use `/eco weekly` there.</value>
+  </data>
+  <data name="claim_reminder_monthly" xml:space="preserve">
+    <value>Your **monthly** reward in **{0}** is ready - use `/eco monthly` there.</value>
+  </data>
+  <data name="claim_reminder_turn_off" xml:space="preserve">
+    <value>Turn off for {0}</value>
+  </data>
+  <data name="claim_reminder_settings" xml:space="preserve">
+    <value>Reminder settings</value>
+  </data>
+  <data name="claim_reminder_turned_off" xml:space="preserve">
+    <value>Claim reminders are switched off for that server. You can turn them back on with `/eco reminders`.</value>
+  </data>
+  <data name="claim_reminder_cmd_status" xml:space="preserve">
+    <value>**Claim reminders in this server**
+Daily: {0}
+Weekly: {1}
+Monthly: {2}</value>
+  </data>
+  <data name="claim_reminder_cmd_saved" xml:space="preserve">
+    <value>Saved.
+Daily: {0}
+Weekly: {1}
+Monthly: {2}</value>
+  </data>
+  <data name="claim_reminder_cmd_hint" xml:space="preserve">
+    <value>Use the options of `/eco reminders` to change them. You will get one DM when a reward is ready again.</value>
+  </data>
+  <data name="claim_reminder_cmd_master_off" xml:space="preserve">
+    <value>Note: you have switched claim reminders off for all servers on your User Customization page, so no DMs will be sent until you turn that back on.</value>
+  </data>
+  <data name="claim_reminder_on" xml:space="preserve">
+    <value>on</value>
+  </data>
+  <data name="claim_reminder_off" xml:space="preserve">
+    <value>off</value>
+  </data>
+  <data name="claim_reminder_cmd_dm_warning" xml:space="preserve">
+    <value>Make sure your DMs are open, otherwise Cakey Bot cannot reach you and will switch reminders off.</value>
+  </data>
+  <data name="user_preferences_manage" xml:space="preserve">
+    <value>Manage User Preferences</value>
+  </data>
+  <data name="economy_claim_reminder_nudge" xml:space="preserve">
+    <value>-# هل تريد تلقي تذكيرات لمكافآتك؟ يمكنك إدارة تفضيلات المستخدم من [هنا](&lt;{0}&gt;)</value>
+  </data>
+  <data name="economy_fishing_legendary_rod_personal_note" xml:space="preserve">
+    <value>-# مستخدمو [Cakey Personal](&lt;https://cakey.bot/personal&gt;) يحصلون على جميع قصبات الصيد أثناء الاشتراك.</value>
+  </data>
+  <data name="counting_error_edited" xml:space="preserve">
+    <value>❌ A counted message was edited! The count has been reset to **1**. Highest streak ever reached: **{0}**.</value>
+  </data>
+  <data name="counting_error_edited_no_reset" xml:space="preserve">
+    <value>❌ A counted message was edited! That message no longer counts, the next number is still **{0}**. Highest streak ever reached: **{1}**.</value>
+  </data>
+  <data name="achievement_owners_title" xml:space="preserve">
+    <value>Members holding {0}</value>
+  </data>
+  <data name="achievement_owners_empty" xml:space="preserve">
+    <value>Nobody has unlocked this achievement yet.</value>
+  </data>
+  <data name="achievement_owners_footer" xml:space="preserve">
+    <value>{0} members • Page {1}/{2}</value>
+  </data>
+  <data name="selfrole_panel_missing" xml:space="preserve">
+    <value>This self role panel no longer exists. Ask a server admin to post a new one from the dashboard.</value>
   </data>
 </root>
