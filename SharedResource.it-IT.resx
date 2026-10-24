@@ -5125,6 +5125,9 @@ Stile Amari - quadratica: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="validation-name-must-be-less-than-256-characters" xml:space="preserve">
     <value>Il nome deve contenere meno di 256 caratteri</value>
   </data>
+  <data name="validation-name-must-be-at-most-50-characters" xml:space="preserve">
+    <value>Name must be 50 characters or fewer</value>
+  </data>
   <data name="validation-response-command-must-be-less-than-2-000-characters" xml:space="preserve">
     <value>Risposta/comando deve contenere meno di 2.000 caratteri</value>
   </data>
@@ -6223,6 +6226,159 @@ Stile Amari - quadratica: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="self-role-group-delete-title" xml:space="preserve">
     <value>Elimina Gruppo di Ruoli</value>
   </data>
+  <data name="self-role-panels-title" xml:space="preserve">
+    <value>Role Panels</value>
+  </data>
+  <data name="self-role-panels-hint" xml:space="preserve">
+    <value>A panel is a message in a channel where members pick roles with a select menu or buttons, no commands needed. Post it once and edit it here; the message updates itself.</value>
+  </data>
+  <data name="self-role-panels-empty" xml:space="preserve">
+    <value>No role panels yet. Create one to let members pick roles with a click.</value>
+  </data>
+  <data name="self-role-panel-limit" xml:space="preserve">
+    <value>{0} of {1} panels used.</value>
+  </data>
+  <data name="self-role-panel-title-add" xml:space="preserve">
+    <value>Create Role Panel</value>
+  </data>
+  <data name="self-role-panel-title-edit" xml:space="preserve">
+    <value>Edit Role Panel</value>
+  </data>
+  <data name="self-role-panel-delete-title" xml:space="preserve">
+    <value>Delete Role Panel</value>
+  </data>
+  <data name="self-role-panel-delete-hint" xml:space="preserve">
+    <value>The posted message is removed from Discord as well. Members keep the roles they already have.</value>
+  </data>
+  <data name="self-role-panel-name-hint" xml:space="preserve">
+    <value>Only shown here, to tell your panels apart.</value>
+  </data>
+  <data name="self-role-panel-label-channel" xml:space="preserve">
+    <value>Post in channel</value>
+  </data>
+  <data name="self-role-panel-label-style" xml:space="preserve">
+    <value>Picker style</value>
+  </data>
+  <data name="self-role-panel-style-select" xml:space="preserve">
+    <value>Select menu</value>
+  </data>
+  <data name="self-role-panel-style-select-hint" xml:space="preserve">
+    <value>One dropdown; what a member has selected is what they hold.</value>
+  </data>
+  <data name="self-role-panel-style-buttons" xml:space="preserve">
+    <value>Buttons</value>
+  </data>
+  <data name="self-role-panel-style-buttons-hint" xml:space="preserve">
+    <value>One button per role; pressing it adds or removes that role.</value>
+  </data>
+  <data name="self-role-panel-label-description" xml:space="preserve">
+    <value>Embed text</value>
+  </data>
+  <data name="self-role-panel-label-embed" xml:space="preserve">
+    <value>Saved embed</value>
+  </data>
+  <data name="self-role-panel-embed-hint" xml:space="preserve">
+    <value>Replaces the title, text and colour above with an embed from the Embed Builder, for full control over the look.</value>
+  </data>
+  <data name="self-role-panel-label-placeholder" xml:space="preserve">
+    <value>Select menu placeholder</value>
+  </data>
+  <data name="self-role-panel-label-roles" xml:space="preserve">
+    <value>Roles on this panel</value>
+  </data>
+  <data name="self-role-panel-roles-hint" xml:space="preserve">
+    <value>Up to 25 self roles. Each can have its own label and emoji; with buttons, a colour too. Only roles added under Self Roles can be picked.</value>
+  </data>
+  <data name="self-role-panel-col-role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="self-role-panel-col-label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="self-role-panel-col-emoji" xml:space="preserve">
+    <value>Emoji</value>
+  </data>
+  <data name="self-role-panel-col-button-style" xml:space="preserve">
+    <value>Button colour</value>
+  </data>
+  <data name="self-role-panel-button-style-primary" xml:space="preserve">
+    <value>Blurple</value>
+  </data>
+  <data name="self-role-panel-button-style-secondary" xml:space="preserve">
+    <value>Grey</value>
+  </data>
+  <data name="self-role-panel-button-style-success" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="self-role-panel-button-style-danger" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="self-role-panel-preview-hint" xml:space="preserve">
+    <value>Roughly what members will see in Discord.</value>
+  </data>
+  <data name="self-role-panel-content-hint" xml:space="preserve">
+    <value>Posted above the saved embed. Leave it empty to use the text saved with the embed.</value>
+  </data>
+  <data name="self-role-panel-post" xml:space="preserve">
+    <value>Post to Discord</value>
+  </data>
+  <data name="self-role-panel-repost" xml:space="preserve">
+    <value>Update message</value>
+  </data>
+  <data name="self-role-panel-posted-in" xml:space="preserve">
+    <value>Posted in {0}</value>
+  </data>
+  <data name="self-role-panel-roles-count" xml:space="preserve">
+    <value>{0} roles</value>
+  </data>
+  <data name="self-role-panel-default-title" xml:space="preserve">
+    <value>Pick your roles</value>
+  </data>
+  <data name="self-role-panel-default-description" xml:space="preserve">
+    <value>Use the menu below to give yourself roles.</value>
+  </data>
+  <data name="self-role-panel-default-placeholder" xml:space="preserve">
+    <value>Choose your roles...</value>
+  </data>
+  <data name="self-role-panel-error-limit" xml:space="preserve">
+    <value>You have reached the number of role panels your plan allows.</value>
+  </data>
+  <data name="self-role-panel-error-name-required" xml:space="preserve">
+    <value>Give the panel a name.</value>
+  </data>
+  <data name="self-role-panel-error-roles-required" xml:space="preserve">
+    <value>Pick at least one self role for the panel.</value>
+  </data>
+  <data name="self-role-panel-error-too-many-roles" xml:space="preserve">
+    <value>A panel can offer at most 25 roles.</value>
+  </data>
+  <data name="self-role-panel-error-emoji" xml:space="preserve">
+    <value>One of the emojis is not a valid emoji or custom emote.</value>
+  </data>
+  <data name="self-role-panel-error-not-found" xml:space="preserve">
+    <value>That role panel does not exist.</value>
+  </data>
+  <data name="self-role-panel-error-channel" xml:space="preserve">
+    <value>Pick a channel to post the panel in.</value>
+  </data>
+  <data name="self-role-panel-post-success" xml:space="preserve">
+    <value>The panel was posted to Discord.</value>
+  </data>
+  <data name="self-role-panel-update-success" xml:space="preserve">
+    <value>The panel message was updated.</value>
+  </data>
+  <data name="audit-self-role-panel-added" xml:space="preserve">
+    <value>Role panel created</value>
+  </data>
+  <data name="audit-self-role-panel-updated" xml:space="preserve">
+    <value>Role panel updated</value>
+  </data>
+  <data name="audit-self-role-panel-deleted" xml:space="preserve">
+    <value>Role panel deleted</value>
+  </data>
+  <data name="audit-self-role-panel-posted" xml:space="preserve">
+    <value>Role panel posted</value>
+  </data>
   <data name="self-role-group-delete-confirm" xml:space="preserve">
     <value>Eliminando questo gruppo i ruoli in esso contenuti NON verranno eliminati. Diventeranno semplicemente non raggruppati e non saranno più mutuamente esclusivi.</value>
   </data>
@@ -6553,11 +6709,20 @@ Stile Amari - quadratica: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-preview-non-branded-lb" xml:space="preserve">
     <value>Classifiche Non Marchiate</value>
   </data>
+  <data name="custom-bot-preview-personal-flair" xml:space="preserve">
+    <value>Stile Personal</value>
+  </data>
+  <data name="custom-bot-preview-disable-user-prefs" xml:space="preserve">
+    <value>Disabilita Pulsante Preferenze</value>
+  </data>
   <data name="custom-bot-preview-embed-colors" xml:space="preserve">
     <value>Colori Embed</value>
   </data>
   <data name="generic-yes" xml:space="preserve">
     <value>Sì</value>
+  </data>
+  <data name="generic-no-data" xml:space="preserve">
+    <value>Nessun dato ancora</value>
   </data>
   <data name="generic-no" xml:space="preserve">
     <value>No</value>
@@ -8950,6 +9115,9 @@ Per ottenere la tua chiave API OpenAI, dovrai creare un account OpenAI e generar
   <data name="audit-target-selfrolegroup" xml:space="preserve">
     <value>Gruppo di ruoli autoassegnabili</value>
   </data>
+  <data name="audit-target-selfrolepanel" xml:space="preserve">
+    <value>Self Role Panel</value>
+  </data>
   <data name="audit-target-statchannel" xml:space="preserve">
     <value>Canale statistiche</value>
   </data>
@@ -9503,11 +9671,26 @@ Per ottenere la tua chiave API OpenAI, dovrai creare un account OpenAI e generar
   <data name="stat-channel-custom-description" xml:space="preserve">
     <value>Canali vocali chiamati come preferisci, con qualsiasi mix di statistiche in un nome. Il bot ne crea uno sotto la categoria statistiche e lo mantiene aggiornato ogni 20 minuti. Fino a 10.</value>
   </data>
+  <data name="premium-feat-self-role-panels" xml:space="preserve">
+    <value>Pannelli Ruoli Personali</value>
+  </data>
   <data name="stat-channel-custom-template" xml:space="preserve">
     <value>Modello nome canale</value>
   </data>
   <data name="stat-channel-custom-hint" xml:space="preserve">
     <value>Discord consente 100 caratteri per un nome di canale.</value>
+  </data>
+  <data name="stat-channel-message-embed-hint" xml:space="preserve">
+    <value>Posted with the message, every 20 minutes. The activity placeholders work inside the embed too, and the text above may be left empty.</value>
+  </data>
+  <data name="stat-channel-preview-label" xml:space="preserve">
+    <value>Will be named:</value>
+  </data>
+  <data name="stat-channel-preview-too-long" xml:space="preserve">
+    <value>Too long to save, shorten the text until the struck-out part is gone.</value>
+  </data>
+  <data name="stat-channel-preview-too-long-placeholders" xml:space="preserve">
+    <value>Too long to save. The struck-out part is what {0} turns into, so drop that or shorten the text around it.</value>
   </data>
   <data name="stat-channel-custom-add" xml:space="preserve">
     <value>Aggiungi canale statistiche</value>
@@ -9631,6 +9814,30 @@ Per ottenere la tua chiave API OpenAI, dovrai creare un account OpenAI e generar
   </data>
   <data name="auto-message-day-hint" xml:space="preserve">
     <value>Ogni giorno, o solo in un giorno della settimana.</value>
+  </data>
+  <data name="auto-message-frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="auto-message-frequency-biweekly" xml:space="preserve">
+    <value>Every other week</value>
+  </data>
+  <data name="auto-message-frequency-hint" xml:space="preserve">
+    <value>Every other week counts from the first time the message is posted.</value>
+  </data>
+  <data name="auto-message-day-of-month" xml:space="preserve">
+    <value>Day of the Month</value>
+  </data>
+  <data name="auto-message-day-of-month-hint" xml:space="preserve">
+    <value>A day the month does not have posts on its last day instead.</value>
+  </data>
+  <data name="validation-day-of-month-range" xml:space="preserve">
+    <value>Day of the month must be between 1 and 31.</value>
+  </data>
+  <data name="validation-frequency-invalid" xml:space="preserve">
+    <value>Pick a valid frequency.</value>
+  </data>
+  <data name="validation-biweekly-needs-weekday" xml:space="preserve">
+    <value>Every other week needs a weekday, not every day.</value>
   </data>
   <data name="self-role-group-type-hint" xml:space="preserve">
     <value>Unico funziona come i pulsanti radio: scegliere un ruolo nel gruppo sostituisce quello già posseduto. Multi-selezione permette a un membro di possedere più ruoli del gruppo contemporaneamente.</value>
@@ -10015,6 +10222,45 @@ Per ottenere la tua chiave API OpenAI, dovrai creare un account OpenAI e generar
   </data>
   <data name="feature-suggest-status-done" xml:space="preserve">
     <value>Done</value>
+  </data>
+  <data name="bug-report-title" xml:space="preserve">
+    <value>Report a bug</value>
+  </data>
+  <data name="bug-report-intro" xml:space="preserve">
+    <value>Something broken on the dashboard or in the bot? Tell us what happened and how to make it happen again. The page you are on is attached automatically.</value>
+  </data>
+  <data name="bug-report-field-description" xml:space="preserve">
+    <value>What happened?</value>
+  </data>
+  <data name="bug-report-field-steps" xml:space="preserve">
+    <value>Steps to reproduce</value>
+  </data>
+  <data name="bug-report-field-category" xml:space="preserve">
+    <value>Where did it happen?</value>
+  </data>
+  <data name="bug-report-send" xml:space="preserve">
+    <value>Send report</value>
+  </data>
+  <data name="bug-report-sent" xml:space="preserve">
+    <value>Thanks, your bug report has been sent.</value>
+  </data>
+  <data name="bug-report-error" xml:space="preserve">
+    <value>Your bug report could not be sent. Please try again later.</value>
+  </data>
+  <data name="bug-report-steps-length" xml:space="preserve">
+    <value>The steps to reproduce must be between {0} and {1} characters.</value>
+  </data>
+  <data name="bug-report-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} bug reports per day.</value>
+  </data>
+  <data name="bug-report-mine" xml:space="preserve">
+    <value>Your bug reports</value>
+  </data>
+  <data name="bug-report-status-confirmed" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="bug-report-status-fixed" xml:space="preserve">
+    <value>Fixed</value>
   </data>
   <data name="dashboard-sidebar-invites" xml:space="preserve">
     <value>Invites</value>
@@ -10879,5 +11125,686 @@ Per ottenere la tua chiave API OpenAI, dovrai creare un account OpenAI e generar
   </data>
   <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
     <value>The website URL must be a full link such as https://example.com.</value>
+  </data>
+  <data name="list-filter-label" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="list-filter-everything" xml:space="preserve">
+    <value>Everything</value>
+  </data>
+  <data name="list-filter-with-embed" xml:space="preserve">
+    <value>With an embed</value>
+  </data>
+  <data name="list-filter-without-embed" xml:space="preserve">
+    <value>Without an embed</value>
+  </data>
+  <data name="list-sort-command-az" xml:space="preserve">
+    <value>Command (A-Z)</value>
+  </data>
+  <data name="list-sort-command-za" xml:space="preserve">
+    <value>Command (Z-A)</value>
+  </data>
+  <data name="list-sort-xp-high" xml:space="preserve">
+    <value>Highest XP reward first</value>
+  </data>
+  <data name="list-sort-tier-group" xml:space="preserve">
+    <value>Tier group</value>
+  </data>
+  <data name="list-entries-per-page" xml:space="preserve">
+    <value>Per page</value>
+  </data>
+  <data name="list-show-everything" xml:space="preserve">
+    <value>Show everything</value>
+  </data>
+  <data name="list-stats-shown" xml:space="preserve">
+    <value>Shown</value>
+  </data>
+  <data name="list-sort-owners-most" xml:space="preserve">
+    <value>Most owners first</value>
+  </data>
+  <data name="achievements-owners" xml:space="preserve">
+    <value>Members holding this achievement</value>
+  </data>
+  <data name="achievements-owners-title" xml:space="preserve">
+    <value>Members holding {0}</value>
+  </data>
+  <data name="achievements-owners-loading" xml:space="preserve">
+    <value>Loading members...</value>
+  </data>
+  <data name="achievements-owners-empty" xml:space="preserve">
+    <value>Nobody has unlocked this achievement yet.</value>
+  </data>
+  <data name="achievements-owners-count" xml:space="preserve">
+    <value>{0} members hold this achievement.</value>
+  </data>
+  <data name="achievements-owners-more" xml:space="preserve">
+    <value>...and {0} more</value>
+  </data>
+  <data name="achievements-search" xml:space="preserve">
+    <value>Search achievements...</value>
+  </data>
+  <data name="leaderboard-error-invites-not-found" xml:space="preserve">
+    <value>Invite tracking settings not found</value>
+  </data>
+  <data name="usercustomization-subtitle" xml:space="preserve">
+    <value>Choose how Cakey Bot notifies you and, with Cakey Personal, how you show up in every server.</value>
+  </data>
+  <data name="usercustomization-saved" xml:space="preserve">
+    <value>Your changes were saved.</value>
+  </data>
+  <data name="usercustomization-saving" xml:space="preserve">
+    <value>Saving...</value>
+  </data>
+  <data name="usercustomization-error-generic" xml:space="preserve">
+    <value>Your changes could not be saved. Please try again.</value>
+  </data>
+  <data name="usercustomization-error-guild" xml:space="preserve">
+    <value>You do not share that server with Cakey Bot.</value>
+  </data>
+  <data name="usercustomization-error-not-subscribed" xml:space="preserve">
+    <value>This needs an active Cakey Personal plan.</value>
+  </data>
+  <data name="usercustomization-error-icon" xml:space="preserve">
+    <value>That icon is not available.</value>
+  </data>
+  <data name="usercustomization-error-session" xml:space="preserve">
+    <value>Your session has expired. Please sign in again.</value>
+  </data>
+  <data name="usercustomization-notifications-title" xml:space="preserve">
+    <value>Notification preferences (all servers)</value>
+  </data>
+  <data name="usercustomization-notifications-help" xml:space="preserve">
+    <value>These apply in every server. A server can still turn a notification off for everyone, and you can opt out of a single server below, but nothing here can switch on something a server has disabled.</value>
+  </data>
+  <data name="usercustomization-notif-levelup" xml:space="preserve">
+    <value>Level-up DMs</value>
+  </data>
+  <data name="usercustomization-notif-levelup-help" xml:space="preserve">
+    <value>Only matters in servers that send level-up messages by DM. Level-up messages posted in a channel are public and are not affected.</value>
+  </data>
+  <data name="usercustomization-notif-streak" xml:space="preserve">
+    <value>Streak reminder DMs</value>
+  </data>
+  <data name="usercustomization-notif-streak-help" xml:space="preserve">
+    <value>A DM shortly before your streak would run out.</value>
+  </data>
+  <data name="usercustomization-notif-decay" xml:space="preserve">
+    <value>XP decay DMs</value>
+  </data>
+  <data name="usercustomization-notif-decay-help" xml:space="preserve">
+    <value>A DM when you lose XP because of inactivity.</value>
+  </data>
+  <data name="usercustomization-notif-achievement" xml:space="preserve">
+    <value>Ping me for achievement unlocks</value>
+  </data>
+  <data name="usercustomization-notif-achievement-help" xml:space="preserve">
+    <value>Achievement announcements are still posted in the server, just without notifying you.</value>
+  </data>
+  <data name="usercustomization-notif-claims" xml:space="preserve">
+    <value>Claim reminders</value>
+  </data>
+  <data name="usercustomization-notif-claims-help" xml:space="preserve">
+    <value>A DM when your daily, weekly or monthly reward is ready again. You choose the servers and reward types below or in Discord with /eco reminders; this switch turns all of them off at once.</value>
+  </data>
+  <data name="usercustomization-servers-title" xml:space="preserve">
+    <value>Server-specific preferences</value>
+  </data>
+  <data name="usercustomization-servers-help" xml:space="preserve">
+    <value>Override the settings above for a single server. Pick a server to see and change your current choices there.</value>
+  </data>
+  <data name="usercustomization-server-label" xml:space="preserve">
+    <value>Choose a server</value>
+  </data>
+  <data name="usercustomization-server-placeholder" xml:space="preserve">
+    <value>Pick a server...</value>
+  </data>
+  <data name="usercustomization-server-none" xml:space="preserve">
+    <value>No servers found with Cakey Bot in them.</value>
+  </data>
+  <data name="usercustomization-server-pick" xml:space="preserve">
+    <value>Select a server above to see your preferences there.</value>
+  </data>
+  <data name="usercustomization-server-showing" xml:space="preserve">
+    <value>Showing your current settings for {0}.</value>
+  </data>
+  <data name="usercustomization-server-streak-dms" xml:space="preserve">
+    <value>Streak reminder DMs in this server</value>
+  </data>
+  <data name="usercustomization-server-decay-dms" xml:space="preserve">
+    <value>XP decay DMs in this server</value>
+  </data>
+  <data name="usercustomization-server-streak-participate" xml:space="preserve">
+    <value>Take part in streaks in this server</value>
+  </data>
+  <data name="usercustomization-server-off" xml:space="preserve">
+    <value>This server has turned these DMs off for everyone.</value>
+  </data>
+  <data name="usercustomization-server-no-activity" xml:space="preserve">
+    <value>No activity here yet. Your all-servers setting above applies until you have some.</value>
+  </data>
+  <data name="usercustomization-server-dm-hint" xml:space="preserve">
+    <value>If your DMs are closed, Cakey Bot switches these reminders off for you automatically.</value>
+  </data>
+  <data name="usercustomization-plan-title" xml:space="preserve">
+    <value>Your Cakey Personal plan</value>
+  </data>
+  <data name="usercustomization-plan-active" xml:space="preserve">
+    <value>Membership</value>
+  </data>
+  <data name="usercustomization-plan-period" xml:space="preserve">
+    <value>Billing</value>
+  </data>
+  <data name="usercustomization-plan-since" xml:space="preserve">
+    <value>Member since {0}</value>
+  </data>
+  <data name="usercustomization-plan-lifetime" xml:space="preserve">
+    <value>Lifetime - this plan never expires.</value>
+  </data>
+  <data name="usercustomization-plan-renews" xml:space="preserve">
+    <value>Renews automatically until you cancel.</value>
+  </data>
+  <data name="usercustomization-plan-ends" xml:space="preserve">
+    <value>Ends on {0}. Your settings are kept if you come back.</value>
+  </data>
+  <data name="personal-period-monthly" xml:space="preserve">
+    <value>Monthly billing</value>
+  </data>
+  <data name="personal-period-yearly" xml:space="preserve">
+    <value>Yearly billing</value>
+  </data>
+  <data name="personal-period-lifetime" xml:space="preserve">
+    <value>Lifetime (one-time payment)</value>
+  </data>
+  <data name="usercustomization-upsell-price" xml:space="preserve">
+    <value>From $3.99 per month</value>
+  </data>
+  <data name="usercustomization-upsell-lead" xml:space="preserve">
+    <value>Perks that follow you into every server you share with Cakey Bot.</value>
+  </data>
+  <data name="usercustomization-upsell-button" xml:space="preserve">
+    <value>See Cakey Personal</value>
+  </data>
+  <data name="usercustomization-rankcard-title" xml:space="preserve">
+    <value>Your rank card</value>
+  </data>
+  <data name="usercustomization-rankcard-help" xml:space="preserve">
+    <value>Design one rank card banner that is shown instead of the server's card everywhere it is allowed. Servers can switch personal rank cards off.</value>
+  </data>
+  <data name="usercustomization-rankcard-editor-title" xml:space="preserve">
+    <value>Personal rank card editor</value>
+  </data>
+  <data name="usercustomization-rankcard-reset" xml:space="preserve">
+    <value>Use the server's card again</value>
+  </data>
+  <data name="usercustomization-rankcard-edit" xml:space="preserve">
+    <value>Open the full editor</value>
+  </data>
+  <data name="usercustomization-rankcard-reset-done" xml:space="preserve">
+    <value>Your personal rank card was removed. Servers' own cards are used again.</value>
+  </data>
+  <data name="usercustomization-leaderboard-title" xml:space="preserve">
+    <value>Leaderboard appearance</value>
+  </data>
+  <data name="usercustomization-leaderboard-highlight" xml:space="preserve">
+    <value>Lime highlight on leaderboards</value>
+  </data>
+  <data name="usercustomization-leaderboard-icon" xml:space="preserve">
+    <value>Show my icon on leaderboards</value>
+  </data>
+  <data name="usercustomization-leaderboard-icon-pick" xml:space="preserve">
+    <value>Pick an icon</value>
+  </data>
+  <data name="usercustomization-leaderboard-public" xml:space="preserve">
+    <value>Show my Personal status on public leaderboard pages</value>
+  </data>
+  <data name="usercustomization-leaderboard-public-help" xml:space="preserve">
+    <value>Public leaderboards can be opened by anyone. Turn this off to look like everyone else there.</value>
+  </data>
+  <data name="usercustomization-leaderboard-badge" xml:space="preserve">
+    <value>Show the Personal tier badge on my rank card</value>
+  </data>
+  <data name="usercustomization-leaderboard-save" xml:space="preserve">
+    <value>Save appearance</value>
+  </data>
+  <data name="usercustomization-icon-leaf" xml:space="preserve">
+    <value>Leaf</value>
+  </data>
+  <data name="usercustomization-icon-star" xml:space="preserve">
+    <value>Shining star</value>
+  </data>
+  <data name="usercustomization-icon-crown" xml:space="preserve">
+    <value>Crown</value>
+  </data>
+  <data name="usercustomization-icon-bolt" xml:space="preserve">
+    <value>Bolt</value>
+  </data>
+  <data name="usercustomization-icon-gem" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="usercustomization-icon-heart" xml:space="preserve">
+    <value>Heart</value>
+  </data>
+  <data name="usercustomization-icon-fire" xml:space="preserve">
+    <value>Flame</value>
+  </data>
+  <data name="usercustomization-icon-sparkles" xml:space="preserve">
+    <value>Sparkles</value>
+  </data>
+  <data name="usercustomization-ai-title" xml:space="preserve">
+    <value>Your Personal AI allowance</value>
+  </data>
+  <data name="usercustomization-ai-help" xml:space="preserve">
+    <value>Used only after your server's own monthly AI limit runs out.</value>
+  </data>
+  <data name="usercustomization-ai-chat" xml:space="preserve">
+    <value>AI chat messages</value>
+  </data>
+  <data name="usercustomization-ai-imagine" xml:space="preserve">
+    <value>Image generations</value>
+  </data>
+  <data name="usercustomization-ai-voice" xml:space="preserve">
+    <value>Voice message transcriptions</value>
+  </data>
+  <data name="usercustomization-ai-resets" xml:space="preserve">
+    <value>Resets on {0} (UTC).</value>
+  </data>
+  <data name="usercustomization-fishing-title" xml:space="preserve">
+    <value>Fishing perk</value>
+  </data>
+  <data name="usercustomization-fishing-text" xml:space="preserve">
+    <value>The Legendary rod is included while you are subscribed, in every server.</value>
+  </data>
+  <data name="personal-perk-xp-title" xml:space="preserve">
+    <value>+50% XP</value>
+  </data>
+  <data name="personal-perk-xp-desc" xml:space="preserve">
+    <value>Level up faster in every server that allows it.</value>
+  </data>
+  <data name="personal-perk-economy-title" xml:space="preserve">
+    <value>+25% coins</value>
+  </data>
+  <data name="personal-perk-economy-desc" xml:space="preserve">
+    <value>Extra money from games, work, begging, robbing and fishing.</value>
+  </data>
+  <data name="personal-perk-claims-title" xml:space="preserve">
+    <value>Double claims</value>
+  </data>
+  <data name="personal-perk-claims-desc" xml:space="preserve">
+    <value>Daily, weekly and monthly rewards are exactly doubled.</value>
+  </data>
+  <data name="personal-perk-rankcard-title" xml:space="preserve">
+    <value>Your own rank card</value>
+  </data>
+  <data name="personal-perk-rankcard-desc" xml:space="preserve">
+    <value>One banner you design that follows you into every server.</value>
+  </data>
+  <data name="personal-perk-leaderboard-title" xml:space="preserve">
+    <value>Lime leaderboard highlight</value>
+  </data>
+  <data name="personal-perk-leaderboard-desc" xml:space="preserve">
+    <value>A lime slot and an icon of your choice on bot and website leaderboards.</value>
+  </data>
+  <data name="personal-perk-badge-title" xml:space="preserve">
+    <value>Rank card badge</value>
+  </data>
+  <data name="personal-perk-badge-desc" xml:space="preserve">
+    <value>A tier badge that grows with every month you stay subscribed.</value>
+  </data>
+  <data name="personal-perk-music-title" xml:space="preserve">
+    <value>Unlimited music</value>
+  </data>
+  <data name="personal-perk-music-desc" xml:space="preserve">
+    <value>No queue or playlist limits and every filter, in any server.</value>
+  </data>
+  <data name="personal-perk-ai-title" xml:space="preserve">
+    <value>Bigger AI allowance</value>
+  </data>
+  <data name="personal-perk-ai-desc" xml:space="preserve">
+    <value>Extra monthly chat, image and voice AI requests on top of your server's.</value>
+  </data>
+  <data name="personal-perk-fishing-title" xml:space="preserve">
+    <value>Legendary fishing rod</value>
+  </data>
+  <data name="personal-perk-fishing-desc" xml:space="preserve">
+    <value>Fish with the best rod for as long as you are subscribed.</value>
+  </data>
+  <data name="personal-page-title" xml:space="preserve">
+    <value>Cakey Personal - perks that follow you across every server | Cakey Bot</value>
+  </data>
+  <data name="personal-page-description" xml:space="preserve">
+    <value>Cakey Personal is a plan for you, not a server: bonus XP and coins, your own rank card, a lime leaderboard highlight, unlimited music, extra AI requests and more in every server.</value>
+  </data>
+  <data name="personal-hero-title" xml:space="preserve">
+    <value>Cakey Personal</value>
+  </data>
+  <data name="personal-hero-subtitle" xml:space="preserve">
+    <value>Perks that follow you across every server.</value>
+  </data>
+  <data name="personal-hero-lead" xml:space="preserve">
+    <value>Server Premium upgrades a server. Cakey Personal upgrades you - wherever you chat, play and listen with Cakey Bot.</value>
+  </data>
+  <data name="personal-hero-cta" xml:space="preserve">
+    <value>See pricing</value>
+  </data>
+  <data name="personal-perks-title" xml:space="preserve">
+    <value>What you get</value>
+  </data>
+  <data name="personal-compare-title" xml:space="preserve">
+    <value>Personal, Server Premium and Custom Bot</value>
+  </data>
+  <data name="personal-compare-note" xml:space="preserve">
+    <value>They stack. Cakey Personal is an add-on for you, not a replacement for a server plan.</value>
+  </data>
+  <data name="personal-compare-col-feature" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="personal-compare-col-custom" xml:space="preserve">
+    <value>Custom Bot</value>
+  </data>
+  <data name="personal-compare-row-belongs" xml:space="preserve">
+    <value>Belongs to</value>
+  </data>
+  <data name="personal-compare-belongs-personal" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="personal-compare-belongs-premium" xml:space="preserve">
+    <value>One server</value>
+  </data>
+  <data name="personal-compare-belongs-custom" xml:space="preserve">
+    <value>One server's own branded bot</value>
+  </data>
+  <data name="personal-compare-row-works" xml:space="preserve">
+    <value>Perks work in</value>
+  </data>
+  <data name="personal-compare-works-personal" xml:space="preserve">
+    <value>Every server you share with Cakey Bot</value>
+  </data>
+  <data name="personal-compare-works-premium" xml:space="preserve">
+    <value>That server only</value>
+  </data>
+  <data name="personal-compare-works-custom" xml:space="preserve">
+    <value>That bot only</value>
+  </data>
+  <data name="personal-compare-row-colour" xml:space="preserve">
+    <value>Leaderboard colour</value>
+  </data>
+  <data name="personal-compare-colour-personal" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="personal-compare-colour-premium" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="personal-compare-colour-custom" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="personal-compare-row-ai" xml:space="preserve">
+    <value>AI requests</value>
+  </data>
+  <data name="personal-compare-ai-personal" xml:space="preserve">
+    <value>Your own monthly allowance, used after the server's</value>
+  </data>
+  <data name="personal-compare-ai-premium" xml:space="preserve">
+    <value>Higher limits for the whole server</value>
+  </data>
+  <data name="personal-compare-ai-custom" xml:space="preserve">
+    <value>The highest limits, or bring your own key</value>
+  </data>
+  <data name="personal-fair-title" xml:space="preserve">
+    <value>Fair to everyone in your server</value>
+  </data>
+  <data name="personal-fair-1" xml:space="preserve">
+    <value>Server admins can switch off the XP bonus, the coin bonus and personal rank cards for their server.</value>
+  </data>
+  <data name="personal-fair-2" xml:space="preserve">
+    <value>Bonuses multiply with the server's own role, channel and boost multipliers. They never replace them.</value>
+  </data>
+  <data name="personal-fair-4" xml:space="preserve">
+    <value>You decide whether your paid status is visible on leaderboards, including the public ones.</value>
+  </data>
+  <data name="personal-pricing-title" xml:space="preserve">
+    <value>Pricing</value>
+  </data>
+  <data name="personal-price-monthly-label" xml:space="preserve">
+    <value>Monthly plan</value>
+  </data>
+  <data name="personal-price-monthly-amount" xml:space="preserve">
+    <value>$3.99</value>
+  </data>
+  <data name="personal-price-yearly-label" xml:space="preserve">
+    <value>Yearly plan</value>
+  </data>
+  <data name="personal-price-yearly-amount" xml:space="preserve">
+    <value>$39.99</value>
+  </data>
+  <data name="personal-price-yearly-note" xml:space="preserve">
+    <value>About two months free</value>
+  </data>
+  <data name="personal-price-lifetime-label" xml:space="preserve">
+    <value>Lifetime plan</value>
+  </data>
+  <data name="personal-price-lifetime-amount" xml:space="preserve">
+    <value>$79.99</value>
+  </data>
+  <data name="personal-price-once" xml:space="preserve">
+    <value>one payment</value>
+  </data>
+  <data name="personal-price-lifetime-note" xml:space="preserve">
+    <value>Yours for good. Limited to the first 20 supporters.</value>
+  </data>
+  <data name="personal-lifetime-left" xml:space="preserve">
+    <value>{0} of 20 left</value>
+  </data>
+  <data name="personal-cta-login" xml:space="preserve">
+    <value>Sign in to subscribe</value>
+  </data>
+  <data name="personal-cta-owned" xml:space="preserve">
+    <value>You already have Cakey Personal</value>
+  </data>
+  <data name="personal-cta-manage" xml:space="preserve">
+    <value>Manage your settings</value>
+  </data>
+  <data name="personal-pricing-note" xml:space="preserve">
+    <value>Cancel any time and your perks keep running until the end of the period you paid for. Full refunds are available in the first week.</value>
+  </data>
+  <data name="personal-faq-title" xml:space="preserve">
+    <value>Questions about Cakey Personal</value>
+  </data>
+  <data name="personal-footer-cta" xml:space="preserve">
+    <value>Ready to make Cakey Bot yours?</value>
+  </data>
+  <data name="personal-footer-link" xml:space="preserve">
+    <value>Customize your experience</value>
+  </data>
+  <data name="faq-q-personal-what-is" xml:space="preserve">
+    <value>What is Cakey Personal?</value>
+  </data>
+  <data name="faq-a-personal-what-is" xml:space="preserve">
+    <value>Cakey Personal is a plan for you rather than for a server. Its perks - bonus XP and coins, your own rank card, a lime leaderboard highlight, unlimited music, extra AI requests and more - follow you into every server you share with Cakey Bot. It is separate from Server Premium and Custom Bot, and it stacks with them. See [Cakey Personal](/personal).</value>
+  </data>
+  <data name="faq-q-personal-cancel" xml:space="preserve">
+    <value>What happens if I cancel Cakey Personal?</value>
+  </data>
+  <data name="faq-a-personal-cancel" xml:space="preserve">
+    <value>Your perks keep working until the end of the period you already paid for, then they stop. Nothing is deleted: your rank card and appearance settings are kept and come back the moment you subscribe again.</value>
+  </data>
+  <data name="faq-q-personal-server-admins" xml:space="preserve">
+    <value>Can server admins turn Cakey Personal perks off?</value>
+  </data>
+  <data name="faq-a-personal-server-admins" xml:space="preserve">
+    <value>Yes. Server admins can switch off the XP bonus, the coin bonus (including doubled claims) and personal rank cards for their own server from the dashboard. Custom Bot owners can also hide Personal leaderboard styling on their bot.</value>
+  </data>
+  <data name="faq-q-personal-refund" xml:space="preserve">
+    <value>Can I get a refund for Cakey Personal?</value>
+  </data>
+  <data name="faq-a-personal-refund" xml:space="preserve">
+    <value>Yes, the same refund policy as our other plans applies. Contact us with a support ticket on the [Support Discord](https://cakey.bot/discord) within the first week for a full refund. We do not provide refunds after the first week has passed.</value>
+  </data>
+  <data name="faq-q-personal-lifetime" xml:space="preserve">
+    <value>What does Cakey Personal Lifetime mean, and why only 20?</value>
+  </data>
+  <data name="faq-a-personal-lifetime" xml:space="preserve">
+    <value>Lifetime is a single payment that keeps Cakey Personal for as long as it exists, with no renewals. It is limited to the first 20 supporters, and the pricing section shows how many are still available.</value>
+  </data>
+  <data name="faq-q-personal-visibility" xml:space="preserve">
+    <value>Is my Cakey Personal status shown publicly?</value>
+  </data>
+  <data name="faq-a-personal-visibility" xml:space="preserve">
+    <value>Your lime highlight and icon appear on leaderboards. You can switch the highlight, the icon, the rank card badge and your presence on public leaderboard pages on or off from the [User Customization](/user-customization) page.</value>
+  </data>
+  <data name="faq-q-personal-music-bot" xml:space="preserve">
+    <value>Does Cakey Personal work with the Music Bot?</value>
+  </data>
+  <data name="faq-a-personal-music-bot" xml:space="preserve">
+    <value>Yes. You can use the Music Bot in any server with your own commands. Other members of a server without Premium still need the server to have Premium for theirs. Personal does not unlock 24/7 mode, which stays a server setting.</value>
+  </data>
+  <data name="leveling-personal-xp-bonus-title" xml:space="preserve">
+    <value>Cakey Personal XP bonus</value>
+  </data>
+  <data name="leveling-personal-xp-bonus-help" xml:space="preserve">
+    <value>Members with Cakey Personal earn +50% XP in this server.</value>
+  </data>
+  <data name="leveling-personal-rank-cards-title" xml:space="preserve">
+    <value>Personal rank cards</value>
+  </data>
+  <data name="leveling-personal-rank-cards-help" xml:space="preserve">
+    <value>Show a Cakey Personal member's own rank card banner instead of this server's card.</value>
+  </data>
+  <data name="economy-personal-bonus-title" xml:space="preserve">
+    <value>Cakey Personal coin bonus</value>
+  </data>
+  <data name="economy-personal-bonus-help" xml:space="preserve">
+    <value>Members with Cakey Personal earn +25% coins and doubled daily, weekly and monthly rewards in this server.</value>
+  </data>
+  <data name="custom-bot-show-personal-flair" xml:space="preserve">
+    <value>Show Cakey Personal styling on leaderboards</value>
+  </data>
+  <data name="custom-bot-disable-user-preferences-button" xml:space="preserve">
+    <value>Disabilita il Pulsante Gestisci Preferenze Utente</value>
+  </data>
+  <data name="personal-success-note" xml:space="preserve">
+    <value>Thank you! Your Cakey Personal perks activate within a minute.</value>
+  </data>
+  <data name="usercustomization-claims-title" xml:space="preserve">
+    <value>Claim reminders in this server</value>
+  </data>
+  <data name="usercustomization-claims-help" xml:space="preserve">
+    <value>Get one DM when a reward you already claimed is ready to claim again here. Subscribing never sends a DM for a reward that is already available.</value>
+  </data>
+  <data name="usercustomization-claims-daily" xml:space="preserve">
+    <value>Remind me about the daily reward</value>
+  </data>
+  <data name="usercustomization-claims-weekly" xml:space="preserve">
+    <value>Remind me about the weekly reward</value>
+  </data>
+  <data name="usercustomization-claims-monthly" xml:space="preserve">
+    <value>Remind me about the monthly reward</value>
+  </data>
+  <data name="usercustomization-rankcard-locked-title" xml:space="preserve">
+    <value>Design your own rank card</value>
+  </data>
+  <data name="usercustomization-rankcard-locked-help" xml:space="preserve">
+    <value>Cakey Personal subscribers pick their own colours, layout and background for the rank card shown in every server. Everyone else sees the standard card.</value>
+  </data>
+  <data name="usercustomization-rankcard-locked-button" xml:space="preserve">
+    <value>Unlock the rank card editor</value>
+  </data>
+  <data name="automod-counting-deprecated" xml:space="preserve">
+    <value>This is deprecated and has been replaced with {0}</value>
+  </data>
+  <data name="automod-counting-deprecated-link" xml:space="preserve">
+    <value>an improved counting channel system</value>
+  </data>
+  <data name="custom-bot-token-rejected-title" xml:space="preserve">
+    <value>Discord rejected your custom bot's token.</value>
+  </data>
+  <data name="custom-bot-token-rejected-body" xml:space="preserve">
+    <value>Channels, roles and emotes cannot be loaded and messages cannot be sent until it is fixed. Update the token in {0}.</value>
+  </data>
+  <data name="custom-bot-token-rejected-link" xml:space="preserve">
+    <value>Custom Bot settings</value>
+  </data>
+  <data name="forms-field-allow-editing" xml:space="preserve">
+    <value>Allow editing after submitting</value>
+  </data>
+  <data name="forms-field-allow-editing-hint" xml:space="preserve">
+    <value>Let members edit their answers after submitting.</value>
+  </data>
+  <data name="forms-error-editing-disabled" xml:space="preserve">
+    <value>This form does not allow changing a submission after it has been sent.</value>
+  </data>
+  <data name="forms-my-submissions-submit-again" xml:space="preserve">
+    <value>Submit again</value>
+  </data>
+  <data name="forms-placeholders-title" xml:space="preserve">
+    <value>Placeholders you can use</value>
+  </data>
+  <data name="forms-placeholders-standard-hint" xml:space="preserve">
+    <value>The standard user and server placeholders work here too.</value>
+  </data>
+  <data name="forms-placeholder-form-name" xml:space="preserve">
+    <value>The name of this form</value>
+  </data>
+  <data name="forms-placeholder-form-link" xml:space="preserve">
+    <value>The link people use to open this form</value>
+  </data>
+  <data name="forms-placeholder-form-role" xml:space="preserve">
+    <value>The role required to submit this form</value>
+  </data>
+  <data name="forms-placeholder-form-submissions" xml:space="preserve">
+    <value>How many submissions this form accepts</value>
+  </data>
+  <data name="forms-placeholder-form-opensat" xml:space="preserve">
+    <value>When this form opens</value>
+  </data>
+  <data name="forms-placeholder-form-expiresat" xml:space="preserve">
+    <value>When this form closes</value>
+  </data>
+  <data name="forms-rule-set-label" xml:space="preserve">
+    <value>Rule set {0}</value>
+  </data>
+  <data name="forms-rule-set-logic" xml:space="preserve">
+    <value>When this rule set passes</value>
+  </data>
+  <data name="forms-rule-set-all" xml:space="preserve">
+    <value>All conditions must pass</value>
+  </data>
+  <data name="forms-rule-set-any" xml:space="preserve">
+    <value>Any condition can pass</value>
+  </data>
+  <data name="forms-rule-set-add" xml:space="preserve">
+    <value>Add rule set</value>
+  </data>
+  <data name="forms-rule-set-hint" xml:space="preserve">
+    <value>This question shows when any rule set passes.</value>
+  </data>
+  <data name="forms-question-move-to-page" xml:space="preserve">
+    <value>Move to page</value>
+  </data>
+  <data name="forms-page-move-title" xml:space="preserve">
+    <value>Send to another page</value>
+  </data>
+  <data name="forms-page-move-action-move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="forms-page-move-action-copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="forms-page-move-pick" xml:space="preserve">
+    <value>Choose the page the question should go to.</value>
+  </data>
+  <data name="wl-error-bot-on-other-slot" xml:space="preserve">
+    <value>This bot already belongs to your other custom bot slot. Select that slot and update the token there.</value>
+  </data>
+  <data name="usercustomization-locked-hint" xml:space="preserve">
+    <value>Included with Cakey Personal</value>
+  </data>
+  <data name="nav-upgrade" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="nav-premium-help" xml:space="preserve">
+    <value>Unlock features for a server</value>
+  </data>
+  <data name="nav-your-plan" xml:space="preserve">
+    <value>Your plan</value>
   </data>
 </root>

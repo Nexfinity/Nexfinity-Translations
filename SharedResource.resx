@@ -775,6 +775,12 @@
   <data name="feeds-webhook-add" xml:space="preserve">
     <value>Add New Feed</value>
   </data>
+  <data name="feeds-card-url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="feeds-premium-required" xml:space="preserve">
+    <value>(Premium Required)</value>
+  </data>
   <data name="feeds-webhook-update" xml:space="preserve">
     <value>Update Feed</value>
   </data>
@@ -1116,6 +1122,33 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="leveling-alert-migrate" xml:space="preserve">
     <value>Migrating from MEE6 or another bot? You can automatically import your leveling/xp data with the `/setup import-levels` command!</value>
+  </data>
+  <data name="leveling-location-current-channel" xml:space="preserve">
+    <value>Current Channel</value>
+  </data>
+  <data name="leveling-location-custom-channel" xml:space="preserve">
+    <value>Custom Channel</value>
+  </data>
+  <data name="leveling-location-dm" xml:space="preserve">
+    <value>Private Message/DM</value>
+  </data>
+  <data name="leveling-message-placeholder" xml:space="preserve">
+    <value>Congratulations {user}! You have advanced to level {level}!</value>
+  </data>
+  <data name="leveling-message-reward-placeholder" xml:space="preserve">
+    <value>Congratulations {user}! You have advanced to level {level}! You have the {reward} role!</value>
+  </data>
+  <data name="server-stats-other-more" xml:space="preserve">
+    <value>Other ({0} more)</value>
+  </data>
+  <data name="server-stats-other-series" xml:space="preserve">
+    <value>Other = {0}</value>
+  </data>
+  <data name="server-stats-show-all-series" xml:space="preserve">
+    <value>Show all {0} series</value>
+  </data>
+  <data name="server-stats-top-only" xml:space="preserve">
+    <value>Top {0} only</value>
   </data>
   <data name="birthday-channel" xml:space="preserve">
     <value>Birthday Channel</value>
@@ -1837,6 +1870,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="imagine-usage" xml:space="preserve">
     <value>Imagine Usage</value>
   </data>
+  <data name="ai-usage-reset-hint" xml:space="preserve">
+    <value>These counts go back to zero at 18:00 UTC on the last day of each month.</value>
+  </data>
   <data name="transcript-usage" xml:space="preserve">
     <value>Voice Transcript Usage</value>
   </data>
@@ -2362,6 +2398,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
     <data name="achievements-modal-trigger-17" xml:space="preserve">
     <value>Reach a balance of X.</value>
   </data>
+    <data name="achievements-modal-trigger-18" xml:space="preserve">
+    <value>Count correctly X times in the counting game.</value>
+  </data>
     <data name="achievements-modal-target-channel" xml:space="preserve">
     <value>Count only in this channel</value>
   </data>
@@ -2376,6 +2415,12 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
     <data name="achievements-modal-tier-group-hint" xml:space="preserve">
     <value>Give every rung of a ladder the same name, then number them below. Earning a higher rung awards the ones under it.</value>
+  </data>
+    <data name="achievements-modal-tag-revoke" xml:space="preserve">
+    <value>Take it back when the tag comes off</value>
+  </data>
+    <data name="achievements-modal-tag-revoke-hint" xml:space="preserve">
+    <value>A member who stops wearing the server tag loses this achievement, along with the XP, currency and roles it gave them. Their XP and balance never go below zero.</value>
   </data>
     <data name="achievements-modal-tier" xml:space="preserve">
     <value>Rung</value>
@@ -2409,6 +2454,66 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
     <data name="achievements-error-none-selected" xml:space="preserve">
     <value>Select at least one achievement first</value>
+  </data>
+    <data name="achievements-folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+    <data name="achievements-folder-all" xml:space="preserve">
+    <value>All achievements</value>
+  </data>
+    <data name="achievements-folder-none" xml:space="preserve">
+    <value>No folder</value>
+  </data>
+    <data name="achievements-folder-new" xml:space="preserve">
+    <value>New folder</value>
+  </data>
+    <data name="achievements-folder-name" xml:space="preserve">
+    <value>Folder name</value>
+  </data>
+    <data name="achievements-folder-rename" xml:space="preserve">
+    <value>Rename folder</value>
+  </data>
+    <data name="achievements-folder-delete" xml:space="preserve">
+    <value>Delete folder</value>
+  </data>
+    <data name="achievements-folder-delete-confirm" xml:space="preserve">
+    <value>Delete the folder {0}? The achievements in it are kept and end up in no folder.</value>
+  </data>
+    <data name="achievements-folder-move-selected" xml:space="preserve">
+    <value>Move to folder</value>
+  </data>
+    <data name="achievements-folder-move-hint" xml:space="preserve">
+    <value>Press Select at the bottom right, click the achievements, then pick where they go.</value>
+  </data>
+    <data name="achievements-folder-error-missing" xml:space="preserve">
+    <value>That folder no longer exists.</value>
+  </data>
+    <data name="achievements-folder-error-name" xml:space="preserve">
+    <value>A folder name needs 1 to {0} characters.</value>
+  </data>
+    <data name="achievements-folder-error-taken" xml:space="preserve">
+    <value>There is already a folder with that name.</value>
+  </data>
+    <data name="list-sort-custom" xml:space="preserve">
+    <value>Custom order</value>
+  </data>
+    <data name="achievements-order-hint" xml:space="preserve">
+    <value>Drag an achievement, or use its arrows, to move it. The order is saved as you go.</value>
+  </data>
+    <data name="audit-achievements-reordered" xml:space="preserve">
+    <value>Changed the custom order of the achievements.</value>
+  </data>
+    <data name="audit-achievements-moved" xml:space="preserve">
+    <value>Moved achievements to another folder.</value>
+  </data>
+    <data name="audit-achievement-folder-added" xml:space="preserve">
+    <value>Created an achievement folder.</value>
+  </data>
+    <data name="audit-achievement-folder-renamed" xml:space="preserve">
+    <value>Renamed an achievement folder.</value>
+  </data>
+    <data name="audit-achievement-folder-deleted" xml:space="preserve">
+    <value>Deleted an achievement folder.</value>
   </data>
     <data name="achievements-error-role-required" xml:space="preserve">
     <value>Choose the role this achievement is earned by obtaining</value>
@@ -2523,6 +2628,87 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="anti-raid-percentage-trigger" xml:space="preserve">
     <value>Percentage Trigger</value>
+  </data>
+  <data name="anti-raid-ban-hint" xml:space="preserve">
+    <value>Bans the members involved, which needs the Ban Members permission.</value>
+  </data>
+  <data name="anti-raid-pause-hint" xml:space="preserve">
+    <value>Invites are paused for this long after a raid, which needs the Manage Server permission, and 0 hours leaves invites open.</value>
+  </data>
+  <data name="anti-raid-timeout-hint" xml:space="preserve">
+    <value>Members who trigger this are timed out for this long, which needs the Moderate Members permission, and 0 hours skips the timeout.</value>
+  </data>
+  <data name="anti-raid-mass-join-time-hint" xml:space="preserve">
+    <value>Triggers when at least the minimum user limit of members join within this many seconds.</value>
+  </data>
+  <data name="anti-raid-same-join-time-hint" xml:space="preserve">
+    <value>Members who joined within this many minutes are checked for accounts created on the same day.</value>
+  </data>
+  <data name="anti-raid-same-join-users-hint" xml:space="preserve">
+    <value>The check only runs once more than this many members have joined in that time.</value>
+  </data>
+  <data name="anti-raid-percentage-hint" xml:space="preserve">
+    <value>Triggers when more than this percentage of those members have accounts created on the same day.</value>
+  </data>
+  <data name="anti-raid-message-time-hint" xml:space="preserve">
+    <value>Triggers when one member sends at least the minimum message limit within this many seconds, and the other message checks use the same window.</value>
+  </data>
+  <data name="anti-raid-mention-hint" xml:space="preserve">
+    <value>Triggers when a single message mentions at least this many members.</value>
+  </data>
+  <data name="anti-raid-similarity-hint" xml:space="preserve">
+    <value>Triggers when this many messages with the same text, ignoring case, are sent in the message time window.</value>
+  </data>
+  <data name="anti-raid-fuzzy-hint" xml:space="preserve">
+    <value>Triggers when two messages in the message time window score above this, where a near copy scores about 5 points per character, so 200 roughly matches a 40 character message.</value>
+  </data>
+  <data name="announcement-banner-hint" xml:space="preserve">
+    <value>Also posts the image banner you design with the change banner button.</value>
+  </data>
+  <data name="announcement-dm-hint" xml:space="preserve">
+    <value>Also sends this to the member by DM, and with no channel picked it is only sent by DM.</value>
+  </data>
+  <data name="audit-ignored-roles-hint" xml:space="preserve">
+    <value>Message and voice channel activity from members with these roles is not logged.</value>
+  </data>
+  <data name="audit-ignored-channels-hint" xml:space="preserve">
+    <value>Activity in these channels, such as edited or deleted messages, is not logged.</value>
+  </data>
+  <data name="audit-monitored-roles-hint" xml:space="preserve">
+    <value>Logs each time one of these roles is given to or taken from a member.</value>
+  </data>
+  <data name="birthday-messages-hint" xml:space="preserve">
+    <value>One of these messages is picked at random for each birthday, and nothing is posted unless a birthday channel is set. {age} shows the age for members who saved their birth year.</value>
+  </data>
+  <data name="auto-mod-file-whitelist-hint" xml:space="preserve">
+    <value>Only the selected extensions are allowed and every other file type is punished.</value>
+  </data>
+  <data name="auto-mod-exclude-mods-hint" xml:space="preserve">
+    <value>Skips members with a moderation permission such as Manage Messages, Kick Members or Ban Members.</value>
+  </data>
+  <data name="auto-mod-dehoist-hint" xml:space="preserve">
+    <value>Removes symbols from the start of member names so they do not sort above everyone else, which needs the Manage Nicknames permission.</value>
+  </data>
+  <data name="auto-mod-url-whitelist-hint" xml:space="preserve">
+    <value>Messages containing any of these are not punished by the invite link or website URL checks.</value>
+  </data>
+  <data name="auto-mod-category-hint" xml:space="preserve">
+    <value>Messages in these channels that do not match this type are deleted, which needs the Manage Messages permission.</value>
+  </data>
+  <data name="auto-mod-ban-timeframe-hint" xml:space="preserve">
+    <value>With new accounts turned on, members whose account is younger than this when they join are banned, which needs the Ban Members permission.</value>
+  </data>
+  <data name="auto-mod-kick-timeframe-hint" xml:space="preserve">
+    <value>With new accounts turned on, members whose account is younger than this when they join are kicked, which needs the Kick Members permission.</value>
+  </data>
+  <data name="ban-sync-policy-hint" xml:space="preserve">
+    <value>Share sends this server's bans or unbans to the other servers in the pool, receive applies theirs here, and two-way does both.</value>
+  </data>
+  <data name="achievements-modal-limit-hint" xml:space="preserve">
+    <value>How much of the chosen trigger a member needs to reach to unlock this achievement.</value>
+  </data>
+  <data name="achievements-modal-roles-hint" xml:space="preserve">
+    <value>These roles are given or taken when a member unlocks this achievement, which needs the Manage Roles permission with the bot's role above them.</value>
   </data>
   <data name="data-missing-refresh" xml:space="preserve">
     <value>REFRESH PAGE</value>
@@ -3883,6 +4069,21 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="discovery-apply-button" xml:space="preserve">
     <value>Apply for Discovery</value>
   </data>
+  <data name="discovery-reapply-button" xml:space="preserve">
+    <value>Reapply for Discovery</value>
+  </data>
+  <data name="discovery-visibility-visible" xml:space="preserve">
+    <value>Visible in Discovery</value>
+  </data>
+  <data name="discovery-visibility-hidden" xml:space="preserve">
+    <value>Hidden from Discovery</value>
+  </data>
+  <data name="discovery-visibility-visible-desc" xml:space="preserve">
+    <value>Anyone browsing server discovery can find and join your server.</value>
+  </data>
+  <data name="discovery-visibility-hidden-desc" xml:space="preserve">
+    <value>Your listing is approved but not shown to anyone until you make it visible.</value>
+  </data>
   <data name="discovery-pending-title" xml:space="preserve">
     <value>Application Pending</value>
   </data>
@@ -4115,6 +4316,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="nagbar-not-found" xml:space="preserve">
     <value>Notification bar not found.</value>
   </data>
+  <data name="nagbar-countdown-ends-in" xml:space="preserve">
+    <value>Ends in {0}</value>
+  </data>
   <data name="nagbar-enabled" xml:space="preserve">
     <value>Notification bar enabled.</value>
   </data>
@@ -4265,6 +4469,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="perm-manage-threads" xml:space="preserve">
     <value>Manage Threads</value>
+  </data>
+  <data name="perm-manage-webhooks" xml:space="preserve">
+    <value>Manage Webhooks</value>
   </data>
   <data name="auto-message-search" xml:space="preserve">
     <value>Search auto messages...</value>
@@ -5550,6 +5757,207 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="discovery-success-saved" xml:space="preserve">
     <value>Saved</value>
   </data>
+  <data name="discovery-report-invalid" xml:space="preserve">
+    <value>That report could not be sent. Pick a reason and keep the note under 500 characters.</value>
+  </data>
+  <data name="discovery-report-limit" xml:space="preserve">
+    <value>You already reported this listing or sent several reports recently. Please try again later.</value>
+  </data>
+  <data name="discovery-report-sent" xml:space="preserve">
+    <value>Thanks, your report was sent to the Cakey Bot team.</value>
+  </data>
+  <data name="discovery-category-invalid" xml:space="preserve">
+    <value>Pick a category from the list.</value>
+  </data>
+  <data name="discovery-language-invalid" xml:space="preserve">
+    <value>Pick a language from the list.</value>
+  </data>
+  <data name="discovery-category-gaming" xml:space="preserve">
+    <value>Gaming</value>
+  </data>
+  <data name="discovery-category-community" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="discovery-category-anime" xml:space="preserve">
+    <value>Anime &amp; Manga</value>
+  </data>
+  <data name="discovery-category-art" xml:space="preserve">
+    <value>Art &amp; Creative</value>
+  </data>
+  <data name="discovery-category-tech" xml:space="preserve">
+    <value>Tech &amp; Programming</value>
+  </data>
+  <data name="discovery-category-education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="discovery-category-roleplay" xml:space="preserve">
+    <value>Roleplay</value>
+  </data>
+  <data name="discovery-category-memes" xml:space="preserve">
+    <value>Memes &amp; Fun</value>
+  </data>
+  <data name="discovery-category-streaming" xml:space="preserve">
+    <value>Streaming</value>
+  </data>
+  <data name="discovery-category-sports" xml:space="preserve">
+    <value>Sports</value>
+  </data>
+  <data name="discovery-category-lgbtq" xml:space="preserve">
+    <value>LGBTQ+</value>
+  </data>
+  <data name="discovery-report-reason-spam" xml:space="preserve">
+    <value>Spam or advertising</value>
+  </data>
+  <data name="discovery-report-reason-nsfw" xml:space="preserve">
+    <value>NSFW content</value>
+  </data>
+  <data name="discovery-report-reason-scam" xml:space="preserve">
+    <value>Scam or phishing</value>
+  </data>
+  <data name="discovery-report-reason-hate" xml:space="preserve">
+    <value>Hate or harassment</value>
+  </data>
+  <data name="discovery-report-reason-impersonation" xml:space="preserve">
+    <value>Impersonation</value>
+  </data>
+  <data name="discovery-report-reason-misleading" xml:space="preserve">
+    <value>Misleading listing</value>
+  </data>
+  <data name="discovery-filter-category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="discovery-filter-any-category" xml:space="preserve">
+    <value>All categories</value>
+  </data>
+  <data name="discovery-filter-any-language" xml:space="preserve">
+    <value>All languages</value>
+  </data>
+  <data name="discovery-popular-tags" xml:space="preserve">
+    <value>Popular tags</value>
+  </data>
+  <data name="discovery-tag-filter-active" xml:space="preserve">
+    <value>Showing servers tagged {0}</value>
+  </data>
+  <data name="discovery-sort-active" xml:space="preserve">
+    <value>Most active</value>
+  </data>
+  <data name="discovery-sort-online" xml:space="preserve">
+    <value>Most online</value>
+  </data>
+  <data name="discovery-sort-newest" xml:space="preserve">
+    <value>Newest listings</value>
+  </data>
+  <data name="discovery-sort-updated" xml:space="preserve">
+    <value>Recently updated</value>
+  </data>
+  <data name="discovery-online-count" xml:space="preserve">
+    <value>{0} online</value>
+  </data>
+  <data name="discovery-badge-active-tooltip" xml:space="preserve">
+    <value>Over {0} messages this week</value>
+  </data>
+  <data name="discovery-report-button" xml:space="preserve">
+    <value>Report listing</value>
+  </data>
+  <data name="discovery-report-title" xml:space="preserve">
+    <value>Report this listing</value>
+  </data>
+  <data name="discovery-report-note" xml:space="preserve">
+    <value>Anything the team should know? (optional)</value>
+  </data>
+  <data name="discovery-listed-on" xml:space="preserve">
+    <value>Listed {0}</value>
+  </data>
+  <data name="discovery-messages-week" xml:space="preserve">
+    <value>{0} messages this week</value>
+  </data>
+  <data name="discovery-category-none" xml:space="preserve">
+    <value>No category</value>
+  </data>
+  <data name="discovery-tags-hint" xml:space="preserve">
+    <value>Up to {0} tags, separated by commas. Visitors can browse servers by tag.</value>
+  </data>
+  <data name="discovery-language-label" xml:space="preserve">
+    <value>Primary language</value>
+  </data>
+  <data name="discovery-preview-card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="discovery-preview-detail" xml:space="preserve">
+    <value>Detail page</value>
+  </data>
+  <data name="discovery-review-pending" xml:space="preserve">
+    <value>Your description changed a lot since it was approved, so the Cakey Bot team will look at it again. The listing stays visible in the meantime.</value>
+  </data>
+  <data name="discovery-analytics-title" xml:space="preserve">
+    <value>Listing analytics</value>
+  </data>
+  <data name="discovery-analytics-views" xml:space="preserve">
+    <value>Visitors</value>
+  </data>
+  <data name="discovery-analytics-clicks" xml:space="preserve">
+    <value>Join clicks</value>
+  </data>
+  <data name="discovery-analytics-joins" xml:space="preserve">
+    <value>Joins</value>
+  </data>
+  <data name="discovery-analytics-hint" xml:space="preserve">
+    <value>Last 30 days. Visitors and clicks count each person once a day. Joins come from invite tracking.</value>
+  </data>
+  <data name="discovery-analytics-empty" xml:space="preserve">
+    <value>No visitors in the last 30 days yet.</value>
+  </data>
+  <data name="discovery-show-member-count" xml:space="preserve">
+    <value>Show Member Count</value>
+  </data>
+  <data name="discovery-show-activity" xml:space="preserve">
+    <value>Show Activity (online members, messages this week)</value>
+  </data>
+  <data name="discovery-clear-filters" xml:space="preserve">
+    <value>Clear all filters</value>
+  </data>
+  <data name="discovery-show-results" xml:space="preserve">
+    <value>Show results</value>
+  </data>
+  <data name="discovery-trending-title" xml:space="preserve">
+    <value>Trending this week</value>
+  </data>
+  <data name="discovery-hero-title" xml:space="preserve">
+    <value>Find your next community</value>
+  </data>
+  <data name="perm-administrator" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="perm-manage-server" xml:space="preserve">
+    <value>Manage Server</value>
+  </data>
+  <data name="perm-manage-events" xml:space="preserve">
+    <value>Manage Events</value>
+  </data>
+  <data name="perm-moderate-members" xml:space="preserve">
+    <value>Timeout Members</value>
+  </data>
+  <data name="commands-user-app" xml:space="preserve">
+    <value>Works as a user app</value>
+  </data>
+  <data name="commands-filter-anyone" xml:space="preserve">
+    <value>Usable by everyone</value>
+  </data>
+  <data name="commands-subcommand-count" xml:space="preserve">
+    <value>{0} subcommands</value>
+  </data>
+  <data name="commands-search-hint" xml:space="preserve">
+    <value>Search commands and descriptions</value>
+  </data>
+  <data name="commands-all-categories" xml:space="preserve">
+    <value>All commands</value>
+  </data>
+  <data name="faq-search-placeholder" xml:space="preserve">
+    <value>Search the FAQ</value>
+  </data>
+  <data name="faq-no-results" xml:space="preserve">
+    <value>No questions match your search.</value>
+  </data>
   <data name="leaderboard-success-settings-updated" xml:space="preserve">
     <value>Settings updated</value>
   </data>
@@ -5777,6 +6185,15 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="audit-music-vote-skip" xml:space="preserve">
     <value>Updated vote skip to {0}</value>
+  </data>
+  <data name="audit-music-autoplay" xml:space="preserve">
+    <value>Updated autoplay to {0}</value>
+  </data>
+  <data name="music-title-autoplay" xml:space="preserve">
+    <value>Autoplay</value>
+  </data>
+  <data name="music-autoplay-hint" xml:space="preserve">
+    <value>When the queue runs out, songs similar to the last one are added so the music keeps going. It only does this while somebody is listening.</value>
   </data>
   <data name="audit-stat-channel-updated" xml:space="preserve">
     <value>Updated {0} stat channel</value>
@@ -6147,6 +6564,21 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="auto-publish-search" xml:space="preserve">
     <value>Search auto publish channels...</value>
   </data>
+  <data name="auto-publish-empty" xml:space="preserve">
+    <value>No auto publish channels configured. Click the button below to add one.</value>
+  </data>
+  <data name="auto-message-midnight" xml:space="preserve">
+    <value>Midnight</value>
+  </data>
+  <data name="auto-message-everyday" xml:space="preserve">
+    <value>Everyday</value>
+  </data>
+  <data name="auto-message-card-day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="announcement-banner-change" xml:space="preserve">
+    <value>CHANGE</value>
+  </data>
   <data name="auto-responder-search" xml:space="preserve">
     <value>Search auto responders...</value>
   </data>
@@ -6227,6 +6659,159 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="self-role-group-delete-title" xml:space="preserve">
     <value>Delete Role Group</value>
+  </data>
+  <data name="self-role-panels-title" xml:space="preserve">
+    <value>Role Panels</value>
+  </data>
+  <data name="self-role-panels-hint" xml:space="preserve">
+    <value>A panel is a message in a channel where members pick roles with a select menu or buttons, no commands needed. Post it once and edit it here; the message updates itself.</value>
+  </data>
+  <data name="self-role-panels-empty" xml:space="preserve">
+    <value>No role panels yet. Create one to let members pick roles with a click.</value>
+  </data>
+  <data name="self-role-panel-limit" xml:space="preserve">
+    <value>{0} of {1} panels used.</value>
+  </data>
+  <data name="self-role-panel-title-add" xml:space="preserve">
+    <value>Create Role Panel</value>
+  </data>
+  <data name="self-role-panel-title-edit" xml:space="preserve">
+    <value>Edit Role Panel</value>
+  </data>
+  <data name="self-role-panel-delete-title" xml:space="preserve">
+    <value>Delete Role Panel</value>
+  </data>
+  <data name="self-role-panel-delete-hint" xml:space="preserve">
+    <value>The posted message is removed from Discord as well. Members keep the roles they already have.</value>
+  </data>
+  <data name="self-role-panel-name-hint" xml:space="preserve">
+    <value>Only shown here, to tell your panels apart.</value>
+  </data>
+  <data name="self-role-panel-label-channel" xml:space="preserve">
+    <value>Post in channel</value>
+  </data>
+  <data name="self-role-panel-label-style" xml:space="preserve">
+    <value>Picker style</value>
+  </data>
+  <data name="self-role-panel-style-select" xml:space="preserve">
+    <value>Select menu</value>
+  </data>
+  <data name="self-role-panel-style-select-hint" xml:space="preserve">
+    <value>One dropdown; what a member has selected is what they hold.</value>
+  </data>
+  <data name="self-role-panel-style-buttons" xml:space="preserve">
+    <value>Buttons</value>
+  </data>
+  <data name="self-role-panel-style-buttons-hint" xml:space="preserve">
+    <value>One button per role; pressing it adds or removes that role.</value>
+  </data>
+  <data name="self-role-panel-label-description" xml:space="preserve">
+    <value>Embed text</value>
+  </data>
+  <data name="self-role-panel-label-embed" xml:space="preserve">
+    <value>Saved embed</value>
+  </data>
+  <data name="self-role-panel-embed-hint" xml:space="preserve">
+    <value>Replaces the title, text and colour above with an embed from the Embed Builder, for full control over the look.</value>
+  </data>
+  <data name="self-role-panel-label-placeholder" xml:space="preserve">
+    <value>Select menu placeholder</value>
+  </data>
+  <data name="self-role-panel-label-roles" xml:space="preserve">
+    <value>Roles on this panel</value>
+  </data>
+  <data name="self-role-panel-roles-hint" xml:space="preserve">
+    <value>Up to 25 roles. Each can have its own label and emoji; with buttons, a colour too. A role that is not a self role yet is added to the list above for you.</value>
+  </data>
+  <data name="self-role-panel-col-role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="self-role-panel-col-label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="self-role-panel-col-emoji" xml:space="preserve">
+    <value>Emoji</value>
+  </data>
+  <data name="self-role-panel-col-button-style" xml:space="preserve">
+    <value>Button colour</value>
+  </data>
+  <data name="self-role-panel-button-style-primary" xml:space="preserve">
+    <value>Blurple</value>
+  </data>
+  <data name="self-role-panel-button-style-secondary" xml:space="preserve">
+    <value>Grey</value>
+  </data>
+  <data name="self-role-panel-button-style-success" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="self-role-panel-button-style-danger" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="self-role-panel-preview-hint" xml:space="preserve">
+    <value>Roughly what members will see in Discord.</value>
+  </data>
+  <data name="self-role-panel-content-hint" xml:space="preserve">
+    <value>Posted above the saved embed. Leave it empty to use the text saved with the embed.</value>
+  </data>
+  <data name="self-role-panel-post" xml:space="preserve">
+    <value>Post to Discord</value>
+  </data>
+  <data name="self-role-panel-repost" xml:space="preserve">
+    <value>Update message</value>
+  </data>
+  <data name="self-role-panel-posted-in" xml:space="preserve">
+    <value>Posted in {0}</value>
+  </data>
+  <data name="self-role-panel-roles-count" xml:space="preserve">
+    <value>{0} roles</value>
+  </data>
+  <data name="self-role-panel-default-title" xml:space="preserve">
+    <value>Pick your roles</value>
+  </data>
+  <data name="self-role-panel-default-description" xml:space="preserve">
+    <value>Use the menu below to give yourself roles.</value>
+  </data>
+  <data name="self-role-panel-default-placeholder" xml:space="preserve">
+    <value>Choose your roles...</value>
+  </data>
+  <data name="self-role-panel-error-limit" xml:space="preserve">
+    <value>You have reached the number of role panels your plan allows.</value>
+  </data>
+  <data name="self-role-panel-error-name-required" xml:space="preserve">
+    <value>Give the panel a name.</value>
+  </data>
+  <data name="self-role-panel-error-roles-required" xml:space="preserve">
+    <value>Pick at least one role for the panel.</value>
+  </data>
+  <data name="self-role-panel-error-too-many-roles" xml:space="preserve">
+    <value>A panel can offer at most 25 roles.</value>
+  </data>
+  <data name="self-role-panel-error-emoji" xml:space="preserve">
+    <value>One of the emojis is not a valid emoji or custom emote.</value>
+  </data>
+  <data name="self-role-panel-error-not-found" xml:space="preserve">
+    <value>That role panel does not exist.</value>
+  </data>
+  <data name="self-role-panel-error-channel" xml:space="preserve">
+    <value>Pick a channel to post the panel in.</value>
+  </data>
+  <data name="self-role-panel-post-success" xml:space="preserve">
+    <value>The panel was posted to Discord.</value>
+  </data>
+  <data name="self-role-panel-update-success" xml:space="preserve">
+    <value>The panel message was updated.</value>
+  </data>
+  <data name="audit-self-role-panel-added" xml:space="preserve">
+    <value>Role panel created</value>
+  </data>
+  <data name="audit-self-role-panel-updated" xml:space="preserve">
+    <value>Role panel updated</value>
+  </data>
+  <data name="audit-self-role-panel-deleted" xml:space="preserve">
+    <value>Role panel deleted</value>
+  </data>
+  <data name="audit-self-role-panel-posted" xml:space="preserve">
+    <value>Role panel posted</value>
   </data>
   <data name="self-role-group-delete-confirm" xml:space="preserve">
     <value>Deleting this group will NOT delete the roles in it. They will simply become ungrouped and will no longer be mutually exclusive.</value>
@@ -6345,6 +6930,51 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="ban-sync-duplicate-server" xml:space="preserve">
     <value>Duplicate Server</value>
   </data>
+  <data name="ban-sync-new-max-reached" xml:space="preserve">
+    <value>{0} (Max Reached)</value>
+  </data>
+  <data name="ban-sync-pool-id" xml:space="preserve">
+    <value>Pool ID: #{0}</value>
+  </data>
+  <data name="ban-sync-member" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="ban-sync-server-count-of" xml:space="preserve">
+    <value>{0} / {1} servers</value>
+  </data>
+  <data name="ban-sync-server-count" xml:space="preserve">
+    <value>{0} servers</value>
+  </data>
+  <data name="ban-sync-primary-server" xml:space="preserve">
+    <value>Primary Server (Owner)</value>
+  </data>
+  <data name="ban-sync-pool-members" xml:space="preserve">
+    <value>Pool Members</value>
+  </data>
+  <data name="ban-sync-pool-members-readonly" xml:space="preserve">
+    <value>Pool Members (Read-only)</value>
+  </data>
+  <data name="ban-sync-ban-policy" xml:space="preserve">
+    <value>Ban Policy</value>
+  </data>
+  <data name="ban-sync-unban-policy" xml:space="preserve">
+    <value>Unban Policy</value>
+  </data>
+  <data name="ban-sync-delete-pool" xml:space="preserve">
+    <value>Delete Pool</value>
+  </data>
+  <data name="ban-sync-leave-pool" xml:space="preserve">
+    <value>Leave Pool</value>
+  </data>
+  <data name="ban-sync-unknown-server" xml:space="preserve">
+    <value>Unknown Server</value>
+  </data>
+  <data name="ban-sync-no-eligible-servers" xml:space="preserve">
+    <value>No eligible servers available (servers must have Ban Sync enabled)</value>
+  </data>
+  <data name="ban-sync-max-servers-reached" xml:space="preserve">
+    <value>Maximum servers reached</value>
+  </data>
   <data name="achievements-placeholder-name" xml:space="preserve">
     <value>Stay Awhile and Listen</value>
   </data>
@@ -6384,6 +7014,18 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="honeypot-how-it-works" xml:space="preserve">
     <value>How Honeypot works</value>
   </data>
+  <data name="honeypot-how-it-works-description" xml:space="preserve">
+    <value>Designate a channel as a trap. Cakey Bot will post a visible warning in it. Any user who sends a message there will be automatically punished with the action you choose. When you set or change the channel, Cakey Bot will send the warning embed immediately.</value>
+  </data>
+  <data name="automod-timeframe-2-days" xml:space="preserve">
+    <value>2 Days</value>
+  </data>
+  <data name="automod-timeframe-1-week" xml:space="preserve">
+    <value>1 Week</value>
+  </data>
+  <data name="automod-timeframe-2-weeks" xml:space="preserve">
+    <value>2 Weeks</value>
+  </data>
   <data name="twitch-linked-channel" xml:space="preserve">
     <value>Linked Channel</value>
   </data>
@@ -6392,6 +7034,9 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="twitch-partner" xml:space="preserve">
     <value>Partner</value>
+  </data>
+  <data name="twitch-followers" xml:space="preserve">
+    <value>Followers</value>
   </data>
   <data name="temporary-actions-tempban-badge" xml:space="preserve">
     <value>TempBan</value>
@@ -6558,11 +7203,20 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   <data name="custom-bot-preview-non-branded-lb" xml:space="preserve">
     <value>Non-Branded Leaderboards</value>
   </data>
+  <data name="custom-bot-preview-personal-flair" xml:space="preserve">
+    <value>Personal Styling</value>
+  </data>
+  <data name="custom-bot-preview-disable-user-prefs" xml:space="preserve">
+    <value>Disable Prefs Button</value>
+  </data>
   <data name="custom-bot-preview-embed-colors" xml:space="preserve">
     <value>Embed Colors</value>
   </data>
   <data name="generic-yes" xml:space="preserve">
     <value>Yes</value>
+  </data>
+  <data name="generic-no-data" xml:space="preserve">
+    <value>No data yet</value>
   </data>
   <data name="generic-no" xml:space="preserve">
     <value>No</value>
@@ -6572,6 +7226,36 @@ Amari Style - quadratic: 20*(lvl^2) - 40*lvl + 55</value>
   </data>
   <data name="custom-bot-restarting-desc" xml:space="preserve">
     <value>Please do not refresh the page.</value>
+  </data>
+  <data name="custom-bot-subscription-option" xml:space="preserve">
+    <value>Subscription ID: {0} - Bot ID: {1}</value>
+  </data>
+  <data name="custom-bot-not-configured" xml:space="preserve">
+    <value>NOT CONFIGURED</value>
+  </data>
+  <data name="custom-bot-color-primary" xml:space="preserve">
+    <value>Default/Primary Color</value>
+  </data>
+  <data name="custom-bot-setup-issue-title" xml:space="preserve">
+    <value>An issue occurred during setup. Your bot likely has incorrectly configured permission intents.</value>
+  </data>
+  <data name="custom-bot-setup-issue-wiki" xml:space="preserve">
+    <value>Check out {0} of our wiki to fix your bot's intents then restart the bot with the button below.</value>
+  </data>
+  <data name="custom-bot-setup-issue-wiki-link" xml:space="preserve">
+    <value>this section</value>
+  </data>
+  <data name="custom-bot-setup-issue-support" xml:space="preserve">
+    <value>If you are still having issues you can join our support server for further assistance.</value>
+  </data>
+  <data name="custom-bot-restart-button" xml:space="preserve">
+    <value>Restart Bot</value>
+  </data>
+  <data name="custom-bot-restart-button-detail" xml:space="preserve">
+    <value>Restart Bot [Subscription ID: {0} - Bot ID: {1}]</value>
+  </data>
+  <data name="custom-bot-token-set" xml:space="preserve">
+    <value>Token set successfully!</value>
   </data>
   <data name="embed-editor-saved-not-found" xml:space="preserve">
     <value>Saved embed not found.</value>
@@ -7272,6 +7956,54 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   <data name="counting-ignored-role-label" xml:space="preserve">
     <value>Ignored Roles</value>
   </data>
+  <data name="counting-ignored-roles-hint" xml:space="preserve">
+    <value>The bot deletes messages from members with these roles in the counting channel, which needs the Manage Messages permission.</value>
+  </data>
+  <data name="counting-mode-hint" xml:space="preserve">
+    <value>The equation modes accept a sum such as 4+6 that works out to the next number, and equation only does not accept plain numbers.</value>
+  </data>
+  <data name="counting-fail-role-hint" xml:space="preserve">
+    <value>Given to members who make a counting mistake, which needs the Manage Roles permission with the bot's role above this role.</value>
+  </data>
+  <data name="counting-prevent-consecutive-tooltip" xml:space="preserve">
+    <value>A member cannot count twice in a row, and trying to counts as a mistake.</value>
+  </data>
+  <data name="counting-reset-on-mistake-tooltip" xml:space="preserve">
+    <value>A mistake sends the count back to 0 unless the member has a save, and with this off the same number is still expected.</value>
+  </data>
+  <data name="voice-transcribe-hint" xml:space="preserve">
+    <value>Manual adds a 🗒️ reaction to voice messages that members can click for a transcript, and automatic transcribes every voice message but works like manual without premium.</value>
+  </data>
+  <data name="daily-content-schedule-hint" xml:space="preserve">
+    <value>Each enabled type posts once a day around noon in the server timezone set on the bot settings page.</value>
+  </data>
+  <data name="economy-max-balance-hint" xml:space="preserve">
+    <value>Balances are capped at this amount, which can be up to 1,000,000,000,000.</value>
+  </data>
+  <data name="economy-separator-hint" xml:space="preserve">
+    <value>Comma writes amounts as 1,000.00 and decimal writes them as 1.000,00.</value>
+  </data>
+  <data name="social-feed-default-data-hint" xml:space="preserve">
+    <value>Posts use the webhook's own name and avatar instead of the feed's name and icon, which is only available on custom bots.</value>
+  </data>
+  <data name="custom-bot-website-url-hint" xml:space="preserve">
+    <value>Replaces the cakey.bot link in the bot's embeds and must start with http:// or https://.</value>
+  </data>
+  <data name="custom-bot-chatbot-api-hint" xml:space="preserve">
+    <value>With your own key the chat bot has no request limit and its usage is billed to your OpenAI account.</value>
+  </data>
+  <data name="custom-bot-chatbot-personality-hint" xml:space="preserve">
+    <value>The chat bot follows this text as its personality in place of the default one.</value>
+  </data>
+  <data name="custom-bot-disable-leaderboard-buttons-hint" xml:space="preserve">
+    <value>Removes the button that opens the web leaderboard from leaderboard command replies.</value>
+  </data>
+  <data name="custom-bot-use-non-branded-leaderboards-hint" xml:space="preserve">
+    <value>Leaderboard buttons open leaderboards.site instead of cakey.bot.</value>
+  </data>
+  <data name="custom-bot-disable-user-preferences-button-hint" xml:space="preserve">
+    <value>Hides the link to the user preferences page in level-up DMs and on the /rank command.</value>
+  </data>
   <data name="counting-error-ignored-role-everyone" xml:space="preserve">
     <value>Ignored role cannot be the @everyone role.</value>
   </data>
@@ -7416,6 +8148,63 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   <data name="status-auto-refresh-note" xml:space="preserve">
     <value>This page refreshes automatically every 30 seconds.</value>
   </data>
+  <data name="status-all-operational" xml:space="preserve">
+    <value>All systems operational</value>
+  </data>
+  <data name="status-partial-outage" xml:space="preserve">
+    <value>Some shards are having problems</value>
+  </data>
+  <data name="status-major-outage" xml:space="preserve">
+    <value>Major outage</value>
+  </data>
+  <data name="status-shards-online-of" xml:space="preserve">
+    <value>{0} of {1} shards are online and connected to Discord.</value>
+  </data>
+  <data name="status-shards-online" xml:space="preserve">
+    <value>Shards Online</value>
+  </data>
+  <data name="status-average-ping" xml:space="preserve">
+    <value>Average Ping</value>
+  </data>
+  <data name="status-find-title" xml:space="preserve">
+    <value>Find your server's shard</value>
+  </data>
+  <data name="status-find-desc" xml:space="preserve">
+    <value>Paste your server ID to see which shard runs it and how that shard is doing.</value>
+  </data>
+  <data name="status-find-result" xml:space="preserve">
+    <value>Your server is on shard #{0}</value>
+  </data>
+  <data name="status-find-invalid" xml:space="preserve">
+    <value>That doesn't look like a server ID. It should be 17 to 20 digits.</value>
+  </data>
+  <data name="status-ping-fast" xml:space="preserve">
+    <value>Fast ping</value>
+  </data>
+  <data name="status-ping-slow" xml:space="preserve">
+    <value>Slow ping</value>
+  </data>
+  <data name="status-ping-very-slow" xml:space="preserve">
+    <value>Very slow ping</value>
+  </data>
+  <data name="status-your-bots" xml:space="preserve">
+    <value>Your custom bots</value>
+  </data>
+  <data name="status-bot-starting" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="status-bot-crashed" xml:space="preserve">
+    <value>Crashed</value>
+  </data>
+  <data name="status-bot-not-running" xml:space="preserve">
+    <value>Not running</value>
+  </data>
+  <data name="status-bot-running-since" xml:space="preserve">
+    <value>Running since {0}</value>
+  </data>
+  <data name="status-bot-manage" xml:space="preserve">
+    <value>Manage bot</value>
+  </data>
   <data name="ticket-panel-name-label" xml:space="preserve">
     <value>Panel Name</value>
   </data>
@@ -7559,6 +8348,12 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
     <data name="nav-expand-sidebar" xml:space="preserve">
     <value>Expand menu</value>
+  </data>
+    <data name="nav-theme-menu" xml:space="preserve">
+    <value>Change theme</value>
+  </data>
+    <data name="nav-fullscreen" xml:space="preserve">
+    <value>Toggle fullscreen</value>
   </data>
     <data name="bulk-selected-count" xml:space="preserve">
     <value>{0} selected</value>
@@ -8280,6 +9075,42 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
     <data name="forms-field-opens-at-hint" xml:space="preserve">
     <value>The form stays closed until this time, even once it is published. Leave empty to open as soon as it is published.</value>
   </data>
+  <data name="forms-field-required-role-hint" xml:space="preserve">
+    <value>Only members who have this role can submit the form.</value>
+  </data>
+  <data name="forms-field-max-responses-hint" xml:space="preserve">
+    <value>The form stops taking responses once it has this many in total, and leaving it empty means no limit.</value>
+  </data>
+  <data name="forms-field-expires-at-hint" xml:space="preserve">
+    <value>The form closes at this time, and leaving it empty keeps it open until you close it.</value>
+  </data>
+  <data name="forms-field-announce-channel-hint" xml:space="preserve">
+    <value>The bot posts the form here when the opening time passes, so this only works when an opening time is set.</value>
+  </data>
+  <data name="forms-field-success-message-hint" xml:space="preserve">
+    <value>Shown to the person after they submit and used in their confirmation DM, and leaving it empty uses the default wording.</value>
+  </data>
+  <data name="forms-field-allow-multiple-hint" xml:space="preserve">
+    <value>Lets the same person send more than one response to this form.</value>
+  </data>
+  <data name="forms-field-invite-max-uses-hint" xml:space="preserve">
+    <value>How many times the invite sent to an approved applicant can be used, where 0 means no limit, and the bot needs the Create Invite permission.</value>
+  </data>
+  <data name="forms-field-invite-max-age-hint" xml:space="preserve">
+    <value>How many seconds the invite stays valid, up to 604800 (7 days), where 0 means it never expires.</value>
+  </data>
+  <data name="forms-condition-days-hint" xml:space="preserve">
+    <value>Passes when the member joined the server or created their account at least this many days ago, depending on the condition type.</value>
+  </data>
+  <data name="forms-condition-permission-hint" xml:space="preserve">
+    <value>A Discord permission number, and the member passes when they have every permission in it or are an administrator.</value>
+  </data>
+  <data name="mention-cooldown-minutes-hint" xml:space="preserve">
+    <value>When a member mentions one of these roles, the bot makes it unmentionable for this many minutes, which needs the Manage Roles permission.</value>
+  </data>
+  <data name="music-247-hint" xml:space="preserve">
+    <value>The bot stays in the voice channel when nobody else is in it, instead of leaving after 30 seconds.</value>
+  </data>
     <data name="forms-field-announce-channel" xml:space="preserve">
     <value>Announce opening in</value>
   </data>
@@ -8733,6 +9564,12 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
     <data name="forms-question-edit-details" xml:space="preserve">
     <value>Edit details</value>
   </data>
+    <data name="forms-questions-compact" xml:space="preserve">
+    <value>Compact list</value>
+  </data>
+    <data name="forms-questions-compact-hint" xml:space="preserve">
+    <value>Shows each question as a single line so a long form is easier to get around. Click a question to open it.</value>
+  </data>
     <data name="forms-question-hide-details" xml:space="preserve">
     <value>Hide details</value>
   </data>
@@ -8954,6 +9791,9 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
     <data name="audit-target-selfrolegroup" xml:space="preserve">
     <value>Self Role Group</value>
+  </data>
+  <data name="audit-target-selfrolepanel" xml:space="preserve">
+    <value>Self Role Panel</value>
   </data>
     <data name="audit-target-statchannel" xml:space="preserve">
     <value>Statistic Channel</value>
@@ -9472,6 +10312,12 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
     <data name="ticket-claimed-by-other" xml:space="preserve">
     <value>This ticket is already claimed by {0}.</value>
   </data>
+    <data name="ticket-error-support-roles-unset" xml:space="preserve">
+    <value>You must set at least one support staff role for this panel first.</value>
+  </data>
+    <data name="ticket-error-support-roles-needed" xml:space="preserve">
+    <value>You must have one of these roles to do that: {0}</value>
+  </data>
     <data name="ticket-error-support-role-unset" xml:space="preserve">
     <value>You must set a Support Team role for this panel first.</value>
   </data>
@@ -9507,6 +10353,9 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
     <data name="stat-channel-custom-description" xml:space="preserve">
     <value>Voice channels named however you like, with any mix of stats in one name. The bot creates each one under the stats category and keeps it updated every 20 minutes. Up to 10.</value>
+  </data>
+    <data name="premium-feat-self-role-panels" xml:space="preserve">
+    <value>Self Role Panels</value>
   </data>
     <data name="stat-channel-custom-template" xml:space="preserve">
     <value>Channel name template</value>
@@ -9640,6 +10489,24 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
     <data name="audit-counting-milestone-removed" xml:space="preserve">
     <value>Removed a counting milestone.</value>
   </data>
+    <data name="counting-rewards-title" xml:space="preserve">
+    <value>Rewards for Counting</value>
+  </data>
+    <data name="counting-rewards-description" xml:space="preserve">
+    <value>Pay members in your server's currency for every correct count. The amount is picked at random between the two values, up to {0} per count. Set the most to 0 to pay nothing.</value>
+  </data>
+    <data name="counting-reward-min" xml:space="preserve">
+    <value>Least per count</value>
+  </data>
+    <data name="counting-reward-max" xml:space="preserve">
+    <value>Most per count</value>
+  </data>
+    <data name="counting-rewards-error-range" xml:space="preserve">
+    <value>Both amounts must be between 0 and {0}, and the least cannot be more than the most.</value>
+  </data>
+    <data name="audit-counting-rewards-updated" xml:space="preserve">
+    <value>Updated the counting rewards.</value>
+  </data>
     <data name="ar-flag-hint" xml:space="preserve">
     <value>How a message has to relate to the command text. The "Contains files", "From webhook" and mention options ignore the text and fire on any message with that property. Wildcard accepts * and ?; Regex is turned off automatically if the pattern is invalid.</value>
   </data>
@@ -9648,6 +10515,30 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
     <data name="auto-message-day-hint" xml:space="preserve">
     <value>Every day, or only on one weekday.</value>
+  </data>
+    <data name="auto-message-frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+    <data name="auto-message-frequency-biweekly" xml:space="preserve">
+    <value>Every other week</value>
+  </data>
+    <data name="auto-message-frequency-hint" xml:space="preserve">
+    <value>Every other week counts from the first time the message is posted.</value>
+  </data>
+    <data name="auto-message-day-of-month" xml:space="preserve">
+    <value>Day of the Month</value>
+  </data>
+    <data name="auto-message-day-of-month-hint" xml:space="preserve">
+    <value>A day the month does not have posts on its last day instead.</value>
+  </data>
+    <data name="validation-day-of-month-range" xml:space="preserve">
+    <value>Day of the month must be between 1 and 31.</value>
+  </data>
+    <data name="validation-frequency-invalid" xml:space="preserve">
+    <value>Pick a valid frequency.</value>
+  </data>
+    <data name="validation-biweekly-needs-weekday" xml:space="preserve">
+    <value>Every other week needs a weekday, not every day.</value>
   </data>
     <data name="self-role-group-type-hint" xml:space="preserve">
     <value>Unique works like radio buttons: picking a role in the group swaps out the one they had. Multi-select lets a member hold several from the group at once.</value>
@@ -9739,6 +10630,33 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
     <data name="leveling-drops-randomize-button-hint" xml:space="preserve">
     <value>Hides the claim button among four decoys in a different spot each drop, so it cannot be clicked on reflex.</value>
   </data>
+    <data name="leveling-drops-require-captcha" xml:space="preserve">
+    <value>Captcha before claiming</value>
+  </data>
+    <data name="leveling-drops-require-captcha-hint" xml:space="preserve">
+    <value>Clicking the drop sends the member a code image to type in. The first correct answer gets the drop.</value>
+  </data>
+    <data name="leveling-drops-blacklist-roles" xml:space="preserve">
+    <value>Roles that cannot claim</value>
+  </data>
+    <data name="leveling-drops-blacklist-roles-hint" xml:space="preserve">
+    <value>Members with any of these roles are told the drop is not for them.</value>
+  </data>
+    <data name="leveling-min-message-length" xml:space="preserve">
+    <value>Minimum message length</value>
+  </data>
+    <data name="leveling-min-message-length-hint" xml:space="preserve">
+    <value>Messages with fewer characters earn no text XP. 0 turns this off.</value>
+  </data>
+    <data name="leveling-length-bias-title" xml:space="preserve">
+    <value>Favour longer messages</value>
+  </data>
+    <data name="leveling-length-bias-hint" xml:space="preserve">
+    <value>Long messages tend towards the maximum XP and short ones towards the minimum. Every message still rolls, so a long one is not guaranteed the maximum.</value>
+  </data>
+    <data name="leveling-error-min-message-length-range" xml:space="preserve">
+    <value>The minimum message length must be between 0 and 2000.</value>
+  </data>
     <data name="leveling-drops-interval-hint" xml:space="preserve">
     <value>A random wait between these two values passes between drops.</value>
   </data>
@@ -9750,6 +10668,78 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
     <data name="feeds-webhook-hint" xml:space="preserve">
     <value>Create a webhook under the channel's Integrations settings and paste its URL here. Posts are sent through it.</value>
+  </data>
+  <data name="streaks-enabled-hint" xml:space="preserve">
+    <value>A member's streak goes up by one when they send a message 24 to 48 hours after their last counted one, and resets after 48 hours without a message.</value>
+  </data>
+  <data name="streaks-dm-reminder-hint" xml:space="preserve">
+    <value>Members get a DM when their streak has about 12 hours left, unless they have opted out of streak DMs.</value>
+  </data>
+  <data name="streaks-nickname-hint" xml:space="preserve">
+    <value>When this is off, the bot adds the streak count and emote to member nicknames, which needs the Manage Nicknames permission.</value>
+  </data>
+  <data name="streaks-remove-reset-hint" xml:space="preserve">
+    <value>When a streak resets, members lose the streak roles that need a longer streak than they now have.</value>
+  </data>
+  <data name="streaks-remove-new-hint" xml:space="preserve">
+    <value>Members keep only their highest streak role and lose the lower ones they earned before.</value>
+  </data>
+  <data name="streaks-roles-hint" xml:space="preserve">
+    <value>Members get each role once their streak reaches that many days, and the bot needs the Manage Roles permission with its role above these roles.</value>
+  </data>
+  <data name="verification-role-hint" xml:space="preserve">
+    <value>Members get this role when they verify, and the bot will not give a role that has Administrator, Manage Server or Manage Roles.</value>
+  </data>
+  <data name="verification-type-hint" xml:space="preserve">
+    <value>Post the verification panel with /setup createverifyembed, and members verify the way chosen here.</value>
+  </data>
+  <data name="verification-message-hint" xml:space="preserve">
+    <value>This text is shown on the panel posted by /setup createverifyembed, and the default text is used when it is empty.</value>
+  </data>
+  <data name="warning-channel-hint" xml:space="preserve">
+    <value>The bot posts each new warning in this channel and mentions the warned member.</value>
+  </data>
+  <data name="warning-auto-punish-hint" xml:space="preserve">
+    <value>A punishment runs once when a new warning brings a member up to its number of active warnings, and it can run again only if expired warnings drop them below that number first, and the bot needs the Timeout, Kick or Ban Members permission for it.</value>
+  </data>
+  <data name="tags-permission-tier-hint" xml:space="preserve">
+    <value>Manage Own is who can create tags and edit their own, Manage All is who can edit anyone's, and mods are members with a moderation permission such as Manage Messages.</value>
+  </data>
+  <data name="ticket-transcript-channel-hint" xml:space="preserve">
+    <value>Closed tickets get a Transcript button that saves the conversation to this channel as a file.</value>
+  </data>
+  <data name="ticket-auto-save-hint" xml:space="preserve">
+    <value>Saves the transcript to the transcript channel as soon as a ticket closes.</value>
+  </data>
+  <data name="ticket-transcript-mentions-hint" xml:space="preserve">
+    <value>Members named in a saved transcript are not pinged.</value>
+  </data>
+  <data name="ticket-close-dm-hint" xml:space="preserve">
+    <value>The ticket opener gets a DM when their ticket is closed.</value>
+  </data>
+  <data name="ticket-auto-delete-hint" xml:space="preserve">
+    <value>Deletes the ticket channel a few seconds after it closes, once any automatic transcript is saved.</value>
+  </data>
+  <data name="ticket-ratings-hint" xml:space="preserve">
+    <value>When a transcript is saved, the bot DMs the ticket opener asking for a rating from 1 to 5 stars.</value>
+  </data>
+  <data name="ticket-blacklist-hint" xml:space="preserve">
+    <value>Members with any of these roles cannot open tickets from this panel.</value>
+  </data>
+  <data name="ticket-support-roles-hint" xml:space="preserve">
+    <value>Members with any of these roles are added to every new ticket and can use the staff-only ticket actions, and in thread mode they also need to be able to see the parent channel. Up to {0} roles.</value>
+  </data>
+  <data name="ticket-error-too-many-support-roles" xml:space="preserve">
+    <value>A panel can have at most {0} support staff roles.</value>
+  </data>
+  <data name="ticket-open-embed-hint" xml:space="preserve">
+    <value>This is the panel message with the button members click to open a ticket.</value>
+  </data>
+  <data name="ticket-initial-embed-hint" xml:space="preserve">
+    <value>This message is posted at the top of each new ticket.</value>
+  </data>
+  <data name="twitch-default-data-hint" xml:space="preserve">
+    <value>When on, alerts are posted under the webhook's own name instead of the bot's Twitch Alerts name.</value>
   </data>
     <data name="feeds-thread-hint" xml:space="preserve">
     <value>Only needed when posts should land in a thread or forum post under the webhook's channel. Leave empty otherwise.</value>
@@ -9777,6 +10767,18 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
     <data name="tags-response-hint" xml:space="preserve">
     <value>What the bot replies with when the tag is used.</value>
+  </data>
+    <data name="tags-embed-hint" xml:space="preserve">
+    <value>Sends an embed from the Embed Builder with the tag. The text above goes over it, and can be left empty for a tag that is only an embed.</value>
+  </data>
+  <data name="tags-card-content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="tags-card-uses" xml:space="preserve">
+    <value>Uses</value>
+  </data>
+    <data name="tags-error-empty" xml:space="preserve">
+    <value>A tag needs some text or a saved embed.</value>
   </data>
     <data name="ar-trigger-hint" xml:space="preserve">
     <value>The text to look for in messages. Letter case is ignored and the match type below sets how strict it is.</value>
@@ -10032,6 +11034,45 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
   <data name="feature-suggest-status-done" xml:space="preserve">
     <value>Done</value>
+  </data>
+  <data name="bug-report-title" xml:space="preserve">
+    <value>Report a bug</value>
+  </data>
+  <data name="bug-report-intro" xml:space="preserve">
+    <value>Something broken on the dashboard or in the bot? Tell us what happened and how to make it happen again. The page you are on, your device and your browser are attached automatically.</value>
+  </data>
+  <data name="bug-report-field-description" xml:space="preserve">
+    <value>What happened?</value>
+  </data>
+  <data name="bug-report-field-steps" xml:space="preserve">
+    <value>Steps to reproduce</value>
+  </data>
+  <data name="bug-report-field-category" xml:space="preserve">
+    <value>Where did it happen?</value>
+  </data>
+  <data name="bug-report-send" xml:space="preserve">
+    <value>Send report</value>
+  </data>
+  <data name="bug-report-sent" xml:space="preserve">
+    <value>Thanks, your bug report has been sent.</value>
+  </data>
+  <data name="bug-report-error" xml:space="preserve">
+    <value>Your bug report could not be sent. Please try again later.</value>
+  </data>
+  <data name="bug-report-steps-length" xml:space="preserve">
+    <value>The steps to reproduce must be between {0} and {1} characters.</value>
+  </data>
+  <data name="bug-report-rate-limited" xml:space="preserve">
+    <value>You can send up to {0} bug reports per day.</value>
+  </data>
+  <data name="bug-report-mine" xml:space="preserve">
+    <value>Your bug reports</value>
+  </data>
+  <data name="bug-report-status-confirmed" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="bug-report-status-fixed" xml:space="preserve">
+    <value>Fixed</value>
   </data>
   <data name="dashboard-sidebar-invites" xml:space="preserve">
     <value>Invites</value>
@@ -10398,6 +11439,63 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
   <data name="leaderboard-tab-invites" xml:space="preserve">
     <value>Invites leaderboard</value>
+  </data>
+  <data name="leaderboard-xp-messages" xml:space="preserve">
+    <value>XP Messages</value>
+  </data>
+  <data name="leaderboard-xp-messages-hint" xml:space="preserve">
+    <value>Messages that earned XP, at most one per text cooldown.</value>
+  </data>
+  <data name="leaderboard-xp-voice" xml:space="preserve">
+    <value>XP Voice Minutes</value>
+  </data>
+  <data name="leaderboard-xp-voice-hint" xml:space="preserve">
+    <value>Voice minutes that earned XP.</value>
+  </data>
+  <data name="leaderboard-counting-correct" xml:space="preserve">
+    <value>Correct Counts</value>
+  </data>
+  <data name="leaderboard-counting-fails" xml:space="preserve">
+    <value>Mistakes</value>
+  </data>
+  <data name="leaderboard-counting-saves" xml:space="preserve">
+    <value>Saves Used</value>
+  </data>
+  <data name="leaderboard-counting-highest" xml:space="preserve">
+    <value>Highest count reached: {0}</value>
+  </data>
+  <data name="leaderboard-achievements-note" xml:space="preserve">
+    <value>The numbers achievements are judged on. They count every message and every minute in voice, not only the ones that earned XP.</value>
+  </data>
+  <data name="leaderboard-achievement-messages" xml:space="preserve">
+    <value>Messages Posted</value>
+  </data>
+  <data name="leaderboard-achievement-voice" xml:space="preserve">
+    <value>Minutes in Voice</value>
+  </data>
+  <data name="leaderboard-achievement-streamed" xml:space="preserve">
+    <value>Minutes Streamed</value>
+  </data>
+  <data name="leaderboard-achievement-reactions" xml:space="preserve">
+    <value>Reactions Added</value>
+  </data>
+  <data name="leaderboard-achievement-stickers" xml:space="preserve">
+    <value>Stickers Sent</value>
+  </data>
+  <data name="leaderboard-achievement-gifs" xml:space="preserve">
+    <value>GIFs Sent</value>
+  </data>
+  <data name="leaderboard-achievement-threads-created" xml:space="preserve">
+    <value>Threads Created</value>
+  </data>
+  <data name="leaderboard-achievement-threads-joined" xml:space="preserve">
+    <value>Threads Joined</value>
+  </data>
+  <data name="leaderboard-achievement-giveaways" xml:space="preserve">
+    <value>Giveaways Joined</value>
+  </data>
+  <data name="leaderboard-achievement-counting" xml:space="preserve">
+    <value>Correct Counts in the Counting Game</value>
   </data>
   <data name="leaderboard-no-invites" xml:space="preserve">
     <value>No invites yet</value>
@@ -10896,5 +11994,2051 @@ To get your OpenAI API Key you will need to create an OpenAI account and generat
   </data>
   <data name="custom-bot-error-invalid-website-url" xml:space="preserve">
     <value>The website URL must be a full link such as https://example.com.</value>
+  </data>
+  <data name="list-filter-label" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="list-filter-everything" xml:space="preserve">
+    <value>Everything</value>
+  </data>
+  <data name="list-filter-with-embed" xml:space="preserve">
+    <value>With an embed</value>
+  </data>
+  <data name="list-filter-without-embed" xml:space="preserve">
+    <value>Without an embed</value>
+  </data>
+  <data name="list-sort-command-az" xml:space="preserve">
+    <value>Command (A-Z)</value>
+  </data>
+  <data name="list-sort-command-za" xml:space="preserve">
+    <value>Command (Z-A)</value>
+  </data>
+  <data name="list-sort-xp-high" xml:space="preserve">
+    <value>Highest XP reward first</value>
+  </data>
+  <data name="list-sort-tier-group" xml:space="preserve">
+    <value>Tier group</value>
+  </data>
+  <data name="list-entries-per-page" xml:space="preserve">
+    <value>Per page</value>
+  </data>
+  <data name="list-show-everything" xml:space="preserve">
+    <value>Show everything</value>
+  </data>
+  <data name="list-stats-shown" xml:space="preserve">
+    <value>Shown</value>
+  </data>
+  <data name="list-sort-owners-most" xml:space="preserve">
+    <value>Most owners first</value>
+  </data>
+  <data name="achievements-owners" xml:space="preserve">
+    <value>Members holding this achievement</value>
+  </data>
+  <data name="achievements-owners-title" xml:space="preserve">
+    <value>Members holding {0}</value>
+  </data>
+  <data name="achievements-owners-loading" xml:space="preserve">
+    <value>Loading members...</value>
+  </data>
+  <data name="achievements-owners-empty" xml:space="preserve">
+    <value>Nobody has unlocked this achievement yet.</value>
+  </data>
+  <data name="achievements-owners-count" xml:space="preserve">
+    <value>{0} members hold this achievement.</value>
+  </data>
+  <data name="achievements-owners-more" xml:space="preserve">
+    <value>...and {0} more</value>
+  </data>
+  <data name="achievements-search" xml:space="preserve">
+    <value>Search achievements...</value>
+  </data>
+  <data name="leaderboard-error-invites-not-found" xml:space="preserve">
+    <value>Invite tracking settings not found</value>
+  </data>
+  <data name="usercustomization-subtitle" xml:space="preserve">
+    <value>Choose how Cakey Bot notifies you and, with Cakey Personal, how you show up in every server.</value>
+  </data>
+  <data name="usercustomization-saved" xml:space="preserve">
+    <value>Your changes were saved.</value>
+  </data>
+  <data name="usercustomization-saving" xml:space="preserve">
+    <value>Saving...</value>
+  </data>
+  <data name="usercustomization-error-generic" xml:space="preserve">
+    <value>Your changes could not be saved. Please try again.</value>
+  </data>
+  <data name="usercustomization-error-guild" xml:space="preserve">
+    <value>You do not share that server with Cakey Bot.</value>
+  </data>
+  <data name="usercustomization-error-not-subscribed" xml:space="preserve">
+    <value>This needs an active Cakey Personal plan.</value>
+  </data>
+  <data name="usercustomization-error-icon" xml:space="preserve">
+    <value>That icon is not available.</value>
+  </data>
+  <data name="usercustomization-error-session" xml:space="preserve">
+    <value>Your session has expired. Please sign in again.</value>
+  </data>
+  <data name="usercustomization-notifications-title" xml:space="preserve">
+    <value>Notification preferences (all servers)</value>
+  </data>
+  <data name="usercustomization-notifications-help" xml:space="preserve">
+    <value>These apply in every server. A server can still turn a notification off for everyone, and you can opt out of a single server below, but nothing here can switch on something a server has disabled.</value>
+  </data>
+  <data name="usercustomization-notif-levelup" xml:space="preserve">
+    <value>Level-up DMs</value>
+  </data>
+  <data name="usercustomization-notif-levelup-help" xml:space="preserve">
+    <value>Only matters in servers that send level-up messages by DM. Level-up messages posted in a channel are public and are not affected.</value>
+  </data>
+  <data name="usercustomization-notif-streak" xml:space="preserve">
+    <value>Streak reminder DMs</value>
+  </data>
+  <data name="usercustomization-notif-streak-help" xml:space="preserve">
+    <value>A DM shortly before your streak would run out.</value>
+  </data>
+  <data name="usercustomization-notif-decay" xml:space="preserve">
+    <value>XP decay DMs</value>
+  </data>
+  <data name="usercustomization-notif-decay-help" xml:space="preserve">
+    <value>A DM when you lose XP because of inactivity.</value>
+  </data>
+  <data name="usercustomization-notif-achievement" xml:space="preserve">
+    <value>Ping me for achievement unlocks</value>
+  </data>
+  <data name="usercustomization-notif-achievement-help" xml:space="preserve">
+    <value>Achievement announcements are still posted in the server, just without notifying you.</value>
+  </data>
+  <data name="usercustomization-notif-claims" xml:space="preserve">
+    <value>Claim reminders</value>
+  </data>
+  <data name="usercustomization-notif-claims-help" xml:space="preserve">
+    <value>A DM when your daily, weekly or monthly reward is ready again. You choose the servers and reward types below or in Discord with /eco reminders; this switch turns all of them off at once.</value>
+  </data>
+  <data name="usercustomization-servers-title" xml:space="preserve">
+    <value>Server-specific preferences</value>
+  </data>
+  <data name="usercustomization-servers-help" xml:space="preserve">
+    <value>Override the settings above for a single server. Pick a server to see and change your current choices there.</value>
+  </data>
+  <data name="usercustomization-server-label" xml:space="preserve">
+    <value>Choose a server</value>
+  </data>
+  <data name="usercustomization-server-placeholder" xml:space="preserve">
+    <value>Pick a server...</value>
+  </data>
+  <data name="usercustomization-server-none" xml:space="preserve">
+    <value>No servers found with Cakey Bot in them.</value>
+  </data>
+  <data name="usercustomization-server-pick" xml:space="preserve">
+    <value>Select a server above to see your preferences there.</value>
+  </data>
+  <data name="usercustomization-server-showing" xml:space="preserve">
+    <value>Showing your current settings for {0}.</value>
+  </data>
+  <data name="usercustomization-server-streak-dms" xml:space="preserve">
+    <value>Streak reminder DMs in this server</value>
+  </data>
+  <data name="usercustomization-server-decay-dms" xml:space="preserve">
+    <value>XP decay DMs in this server</value>
+  </data>
+  <data name="usercustomization-server-streak-participate" xml:space="preserve">
+    <value>Take part in streaks in this server</value>
+  </data>
+  <data name="usercustomization-server-streak-nickname" xml:space="preserve">
+    <value>Show my streak in my nickname</value>
+  </data>
+  <data name="usercustomization-server-streak-nickname-help" xml:space="preserve">
+    <value>When this is off, your streak still counts and you keep its roles, but the count and emote stay out of your nickname.</value>
+  </data>
+  <data name="usercustomization-server-off" xml:space="preserve">
+    <value>This server has turned these DMs off for everyone.</value>
+  </data>
+  <data name="usercustomization-server-no-activity" xml:space="preserve">
+    <value>No activity here yet. Your all-servers setting above applies until you have some.</value>
+  </data>
+  <data name="usercustomization-server-dm-hint" xml:space="preserve">
+    <value>If your DMs are closed, Cakey Bot switches these reminders off for you automatically.</value>
+  </data>
+  <data name="usercustomization-plan-title" xml:space="preserve">
+    <value>Your Cakey Personal plan</value>
+  </data>
+  <data name="usercustomization-plan-active" xml:space="preserve">
+    <value>Membership</value>
+  </data>
+  <data name="usercustomization-plan-period" xml:space="preserve">
+    <value>Billing</value>
+  </data>
+  <data name="usercustomization-plan-since" xml:space="preserve">
+    <value>Member since {0}</value>
+  </data>
+  <data name="usercustomization-plan-lifetime" xml:space="preserve">
+    <value>Lifetime - this plan never expires.</value>
+  </data>
+  <data name="usercustomization-plan-renews" xml:space="preserve">
+    <value>Renews automatically until you cancel.</value>
+  </data>
+  <data name="usercustomization-plan-ends" xml:space="preserve">
+    <value>Ends on {0}. Your settings are kept if you come back.</value>
+  </data>
+  <data name="personal-period-monthly" xml:space="preserve">
+    <value>Monthly billing</value>
+  </data>
+  <data name="personal-period-yearly" xml:space="preserve">
+    <value>Yearly billing</value>
+  </data>
+  <data name="personal-period-lifetime" xml:space="preserve">
+    <value>Lifetime (one-time payment)</value>
+  </data>
+  <data name="usercustomization-upsell-price" xml:space="preserve">
+    <value>From $3.99 per month</value>
+  </data>
+  <data name="usercustomization-upsell-lead" xml:space="preserve">
+    <value>Perks that follow you into every server you share with Cakey Bot.</value>
+  </data>
+  <data name="usercustomization-upsell-button" xml:space="preserve">
+    <value>See Cakey Personal</value>
+  </data>
+  <data name="usercustomization-rankcard-title" xml:space="preserve">
+    <value>Your rank card</value>
+  </data>
+  <data name="usercustomization-rankcard-help" xml:space="preserve">
+    <value>Design one rank card banner that is shown instead of the server's card everywhere it is allowed. Servers can switch personal rank cards off.</value>
+  </data>
+  <data name="usercustomization-rankcard-editor-title" xml:space="preserve">
+    <value>Personal rank card editor</value>
+  </data>
+  <data name="usercustomization-rankcard-reset" xml:space="preserve">
+    <value>Use the server's card again</value>
+  </data>
+  <data name="usercustomization-rankcard-edit" xml:space="preserve">
+    <value>Open the full editor</value>
+  </data>
+  <data name="usercustomization-rankcard-reset-done" xml:space="preserve">
+    <value>Your personal rank card was removed. Servers' own cards are used again.</value>
+  </data>
+  <data name="usercustomization-leaderboard-title" xml:space="preserve">
+    <value>Leaderboard appearance</value>
+  </data>
+  <data name="usercustomization-leaderboard-highlight" xml:space="preserve">
+    <value>Lime highlight on leaderboards</value>
+  </data>
+  <data name="usercustomization-leaderboard-icon" xml:space="preserve">
+    <value>Show my icon on leaderboards</value>
+  </data>
+  <data name="usercustomization-leaderboard-icon-pick" xml:space="preserve">
+    <value>Pick an icon</value>
+  </data>
+  <data name="usercustomization-leaderboard-public" xml:space="preserve">
+    <value>Show my Personal status on public leaderboard pages</value>
+  </data>
+  <data name="usercustomization-leaderboard-public-help" xml:space="preserve">
+    <value>Public leaderboards can be opened by anyone. Turn this off to look like everyone else there.</value>
+  </data>
+  <data name="usercustomization-leaderboard-badge" xml:space="preserve">
+    <value>Show the Personal tier badge on my rank card</value>
+  </data>
+  <data name="usercustomization-leaderboard-save" xml:space="preserve">
+    <value>Save appearance</value>
+  </data>
+  <data name="usercustomization-icon-leaf" xml:space="preserve">
+    <value>Leaf</value>
+  </data>
+  <data name="usercustomization-icon-star" xml:space="preserve">
+    <value>Shining star</value>
+  </data>
+  <data name="usercustomization-icon-crown" xml:space="preserve">
+    <value>Crown</value>
+  </data>
+  <data name="usercustomization-icon-bolt" xml:space="preserve">
+    <value>Bolt</value>
+  </data>
+  <data name="usercustomization-icon-gem" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="usercustomization-icon-heart" xml:space="preserve">
+    <value>Heart</value>
+  </data>
+  <data name="usercustomization-icon-fire" xml:space="preserve">
+    <value>Flame</value>
+  </data>
+  <data name="usercustomization-icon-sparkles" xml:space="preserve">
+    <value>Sparkles</value>
+  </data>
+  <data name="usercustomization-ai-title" xml:space="preserve">
+    <value>Your Personal AI allowance</value>
+  </data>
+  <data name="usercustomization-ai-help" xml:space="preserve">
+    <value>Used only after your server's own monthly AI limit runs out.</value>
+  </data>
+  <data name="usercustomization-ai-chat" xml:space="preserve">
+    <value>AI chat messages</value>
+  </data>
+  <data name="usercustomization-ai-imagine" xml:space="preserve">
+    <value>Image generations</value>
+  </data>
+  <data name="usercustomization-ai-voice" xml:space="preserve">
+    <value>Voice message transcriptions</value>
+  </data>
+  <data name="usercustomization-ai-resets" xml:space="preserve">
+    <value>Resets on {0} (UTC).</value>
+  </data>
+  <data name="usercustomization-fishing-title" xml:space="preserve">
+    <value>Fishing perk</value>
+  </data>
+  <data name="usercustomization-fishing-text" xml:space="preserve">
+    <value>The Legendary rod is included while you are subscribed, in every server.</value>
+  </data>
+  <data name="personal-perk-xp-title" xml:space="preserve">
+    <value>+50% XP</value>
+  </data>
+  <data name="personal-perk-xp-desc" xml:space="preserve">
+    <value>Level up faster in every server that allows it.</value>
+  </data>
+  <data name="personal-perk-economy-title" xml:space="preserve">
+    <value>+25% coins</value>
+  </data>
+  <data name="personal-perk-economy-desc" xml:space="preserve">
+    <value>Extra money from games, work, begging, robbing and fishing.</value>
+  </data>
+  <data name="personal-perk-claims-title" xml:space="preserve">
+    <value>Double claims</value>
+  </data>
+  <data name="personal-perk-claims-desc" xml:space="preserve">
+    <value>Daily, weekly and monthly rewards are exactly doubled.</value>
+  </data>
+  <data name="personal-perk-rankcard-title" xml:space="preserve">
+    <value>Your own rank card</value>
+  </data>
+  <data name="personal-perk-rankcard-desc" xml:space="preserve">
+    <value>One banner you design that follows you into every server.</value>
+  </data>
+  <data name="personal-perk-leaderboard-title" xml:space="preserve">
+    <value>Lime leaderboard highlight</value>
+  </data>
+  <data name="personal-perk-leaderboard-desc" xml:space="preserve">
+    <value>A lime slot and an icon of your choice on bot and website leaderboards.</value>
+  </data>
+  <data name="personal-perk-badge-title" xml:space="preserve">
+    <value>Rank card badge</value>
+  </data>
+  <data name="personal-perk-badge-desc" xml:space="preserve">
+    <value>A tier badge that grows with every month you stay subscribed.</value>
+  </data>
+  <data name="personal-perk-music-title" xml:space="preserve">
+    <value>Unlimited music</value>
+  </data>
+  <data name="personal-perk-music-desc" xml:space="preserve">
+    <value>No queue or playlist limits and every filter, in any server.</value>
+  </data>
+  <data name="personal-perk-ai-title" xml:space="preserve">
+    <value>Bigger AI allowance</value>
+  </data>
+  <data name="personal-perk-ai-desc" xml:space="preserve">
+    <value>Extra monthly chat, image and voice AI requests on top of your server's.</value>
+  </data>
+  <data name="personal-perk-fishing-title" xml:space="preserve">
+    <value>Legendary fishing rod</value>
+  </data>
+  <data name="personal-perk-fishing-desc" xml:space="preserve">
+    <value>Fish with the best rod for as long as you are subscribed.</value>
+  </data>
+  <data name="personal-page-title" xml:space="preserve">
+    <value>Cakey Personal - perks that follow you across every server | Cakey Bot</value>
+  </data>
+  <data name="personal-page-description" xml:space="preserve">
+    <value>Cakey Personal is a plan for you, not a server: bonus XP and coins, your own rank card, a lime leaderboard highlight, unlimited music, extra AI requests and more in every server.</value>
+  </data>
+  <data name="personal-hero-title" xml:space="preserve">
+    <value>Cakey Personal</value>
+  </data>
+  <data name="personal-hero-subtitle" xml:space="preserve">
+    <value>Perks that follow you across every server.</value>
+  </data>
+  <data name="personal-hero-lead" xml:space="preserve">
+    <value>Server Premium upgrades a server. Cakey Personal upgrades you - wherever you chat, play and listen with Cakey Bot.</value>
+  </data>
+  <data name="personal-hero-cta" xml:space="preserve">
+    <value>See pricing</value>
+  </data>
+  <data name="personal-perks-title" xml:space="preserve">
+    <value>What you get</value>
+  </data>
+  <data name="personal-compare-title" xml:space="preserve">
+    <value>Personal, Server Premium and Custom Bot</value>
+  </data>
+  <data name="personal-compare-note" xml:space="preserve">
+    <value>They stack. Cakey Personal is an add-on for you, not a replacement for a server plan.</value>
+  </data>
+  <data name="personal-compare-col-feature" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="personal-compare-col-custom" xml:space="preserve">
+    <value>Custom Bot</value>
+  </data>
+  <data name="personal-compare-row-belongs" xml:space="preserve">
+    <value>Belongs to</value>
+  </data>
+  <data name="personal-compare-belongs-personal" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="personal-compare-belongs-premium" xml:space="preserve">
+    <value>One server</value>
+  </data>
+  <data name="personal-compare-belongs-custom" xml:space="preserve">
+    <value>One server's own branded bot</value>
+  </data>
+  <data name="personal-compare-row-works" xml:space="preserve">
+    <value>Perks work in</value>
+  </data>
+  <data name="personal-compare-works-personal" xml:space="preserve">
+    <value>Every server you share with Cakey Bot</value>
+  </data>
+  <data name="personal-compare-works-premium" xml:space="preserve">
+    <value>That server only</value>
+  </data>
+  <data name="personal-compare-works-custom" xml:space="preserve">
+    <value>That bot only</value>
+  </data>
+  <data name="personal-compare-row-colour" xml:space="preserve">
+    <value>Leaderboard colour</value>
+  </data>
+  <data name="personal-compare-colour-personal" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="personal-compare-colour-premium" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="personal-compare-colour-custom" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="personal-compare-row-ai" xml:space="preserve">
+    <value>AI requests</value>
+  </data>
+  <data name="personal-compare-ai-personal" xml:space="preserve">
+    <value>Your own monthly allowance, used after the server's</value>
+  </data>
+  <data name="personal-compare-ai-premium" xml:space="preserve">
+    <value>Higher limits for the whole server</value>
+  </data>
+  <data name="personal-compare-ai-custom" xml:space="preserve">
+    <value>The highest limits, or bring your own key</value>
+  </data>
+  <data name="personal-fair-title" xml:space="preserve">
+    <value>Fair to everyone in your server</value>
+  </data>
+  <data name="personal-fair-1" xml:space="preserve">
+    <value>Server admins can switch off the XP bonus, the coin bonus and personal rank cards for their server.</value>
+  </data>
+  <data name="personal-fair-2" xml:space="preserve">
+    <value>Bonuses multiply with the server's own role, channel and boost multipliers. They never replace them.</value>
+  </data>
+  <data name="personal-fair-4" xml:space="preserve">
+    <value>You decide whether your paid status is visible on leaderboards, including the public ones.</value>
+  </data>
+  <data name="personal-pricing-title" xml:space="preserve">
+    <value>Pricing</value>
+  </data>
+  <data name="personal-price-monthly-label" xml:space="preserve">
+    <value>Monthly plan</value>
+  </data>
+  <data name="personal-price-monthly-amount" xml:space="preserve">
+    <value>$3.99</value>
+  </data>
+  <data name="personal-price-yearly-label" xml:space="preserve">
+    <value>Yearly plan</value>
+  </data>
+  <data name="personal-price-yearly-amount" xml:space="preserve">
+    <value>$39.99</value>
+  </data>
+  <data name="personal-price-yearly-note" xml:space="preserve">
+    <value>About two months free</value>
+  </data>
+  <data name="personal-price-lifetime-label" xml:space="preserve">
+    <value>Lifetime plan</value>
+  </data>
+  <data name="personal-price-lifetime-amount" xml:space="preserve">
+    <value>$79.99</value>
+  </data>
+  <data name="personal-price-once" xml:space="preserve">
+    <value>one payment</value>
+  </data>
+  <data name="personal-price-lifetime-note" xml:space="preserve">
+    <value>Yours for good. Limited to the first 20 supporters.</value>
+  </data>
+  <data name="personal-lifetime-left" xml:space="preserve">
+    <value>{0} of 20 left</value>
+  </data>
+  <data name="personal-cta-login" xml:space="preserve">
+    <value>Sign in to subscribe</value>
+  </data>
+  <data name="personal-cta-owned" xml:space="preserve">
+    <value>You already have Cakey Personal</value>
+  </data>
+  <data name="personal-cta-manage" xml:space="preserve">
+    <value>Manage your settings</value>
+  </data>
+  <data name="personal-pricing-note" xml:space="preserve">
+    <value>Cancel any time and your perks keep running until the end of the period you paid for. Full refunds are available in the first week.</value>
+  </data>
+  <data name="personal-faq-title" xml:space="preserve">
+    <value>Questions about Cakey Personal</value>
+  </data>
+  <data name="personal-footer-cta" xml:space="preserve">
+    <value>Ready to make Cakey Bot yours?</value>
+  </data>
+  <data name="personal-footer-link" xml:space="preserve">
+    <value>Customize your experience</value>
+  </data>
+  <data name="faq-q-personal-what-is" xml:space="preserve">
+    <value>What is Cakey Personal?</value>
+  </data>
+  <data name="faq-a-personal-what-is" xml:space="preserve">
+    <value>Cakey Personal is a plan for you rather than for a server. Its perks - bonus XP and coins, your own rank card, a lime leaderboard highlight, unlimited music, extra AI requests and more - follow you into every server you share with Cakey Bot. It is separate from Server Premium and Custom Bot, and it stacks with them. See [Cakey Personal](/personal).</value>
+  </data>
+  <data name="faq-q-personal-cancel" xml:space="preserve">
+    <value>What happens if I cancel Cakey Personal?</value>
+  </data>
+  <data name="faq-a-personal-cancel" xml:space="preserve">
+    <value>Your perks keep working until the end of the period you already paid for, then they stop. Nothing is deleted: your rank card and appearance settings are kept and come back the moment you subscribe again.</value>
+  </data>
+  <data name="faq-q-personal-server-admins" xml:space="preserve">
+    <value>Can server admins turn Cakey Personal perks off?</value>
+  </data>
+  <data name="faq-a-personal-server-admins" xml:space="preserve">
+    <value>Yes. Server admins can switch off the XP bonus, the coin bonus (including doubled claims) and personal rank cards for their own server from the dashboard. Custom Bot owners can also hide Personal leaderboard styling on their bot.</value>
+  </data>
+  <data name="faq-q-personal-refund" xml:space="preserve">
+    <value>Can I get a refund for Cakey Personal?</value>
+  </data>
+  <data name="faq-a-personal-refund" xml:space="preserve">
+    <value>Yes, the same refund policy as our other plans applies. Contact us with a support ticket on the [Support Discord](https://cakey.bot/discord) within the first week for a full refund. We do not provide refunds after the first week has passed.</value>
+  </data>
+  <data name="faq-q-personal-lifetime" xml:space="preserve">
+    <value>What does Cakey Personal Lifetime mean, and why only 20?</value>
+  </data>
+  <data name="faq-a-personal-lifetime" xml:space="preserve">
+    <value>Lifetime is a single payment that keeps Cakey Personal for as long as it exists, with no renewals. It is limited to the first 20 supporters, and the pricing section shows how many are still available.</value>
+  </data>
+  <data name="faq-q-personal-visibility" xml:space="preserve">
+    <value>Is my Cakey Personal status shown publicly?</value>
+  </data>
+  <data name="faq-a-personal-visibility" xml:space="preserve">
+    <value>Your lime highlight and icon appear on leaderboards. You can switch the highlight, the icon, the rank card badge and your presence on public leaderboard pages on or off from the [User Customization](/user-customization) page.</value>
+  </data>
+  <data name="faq-q-personal-music-bot" xml:space="preserve">
+    <value>Does Cakey Personal work with the Music Bot?</value>
+  </data>
+  <data name="faq-a-personal-music-bot" xml:space="preserve">
+    <value>Yes. You can use the Music Bot in any server with your own commands. Other members of a server without Premium still need the server to have Premium for theirs. Personal does not unlock 24/7 mode, which stays a server setting.</value>
+  </data>
+  <data name="leveling-personal-xp-bonus-title" xml:space="preserve">
+    <value>Cakey Personal XP bonus</value>
+  </data>
+  <data name="leveling-personal-xp-bonus-help" xml:space="preserve">
+    <value>Members with Cakey Personal earn +50% XP in this server.</value>
+  </data>
+  <data name="leveling-personal-rank-cards-title" xml:space="preserve">
+    <value>Personal rank cards</value>
+  </data>
+  <data name="leveling-personal-rank-cards-help" xml:space="preserve">
+    <value>Show a Cakey Personal member's own rank card banner instead of this server's card.</value>
+  </data>
+  <data name="economy-personal-bonus-title" xml:space="preserve">
+    <value>Cakey Personal coin bonus</value>
+  </data>
+  <data name="economy-personal-bonus-help" xml:space="preserve">
+    <value>Members with Cakey Personal earn +25% coins and doubled daily, weekly and monthly rewards in this server.</value>
+  </data>
+  <data name="custom-bot-show-personal-flair" xml:space="preserve">
+    <value>Show Cakey Personal styling on leaderboards</value>
+  </data>
+  <data name="custom-bot-disable-user-preferences-button" xml:space="preserve">
+    <value>Disable Manage User Preferences Button</value>
+  </data>
+  <data name="personal-success-note" xml:space="preserve">
+    <value>Thank you! Your Cakey Personal perks activate within a minute.</value>
+  </data>
+  <data name="usercustomization-claims-title" xml:space="preserve">
+    <value>Claim reminders in this server</value>
+  </data>
+  <data name="usercustomization-claims-help" xml:space="preserve">
+    <value>Get one DM when a reward you already claimed is ready to claim again here. Subscribing never sends a DM for a reward that is already available.</value>
+  </data>
+  <data name="usercustomization-claims-daily" xml:space="preserve">
+    <value>Remind me about the daily reward</value>
+  </data>
+  <data name="usercustomization-claims-weekly" xml:space="preserve">
+    <value>Remind me about the weekly reward</value>
+  </data>
+  <data name="usercustomization-claims-monthly" xml:space="preserve">
+    <value>Remind me about the monthly reward</value>
+  </data>
+  <data name="usercustomization-rankcard-locked-title" xml:space="preserve">
+    <value>Design your own rank card</value>
+  </data>
+  <data name="usercustomization-rankcard-locked-help" xml:space="preserve">
+    <value>Cakey Personal subscribers pick their own colours, layout and background for the rank card shown in every server. Everyone else sees the standard card.</value>
+  </data>
+  <data name="usercustomization-rankcard-locked-button" xml:space="preserve">
+    <value>Unlock the rank card editor</value>
+  </data>
+  <data name="automod-counting-deprecated" xml:space="preserve">
+    <value>This is deprecated and has been replaced with {0}</value>
+  </data>
+  <data name="automod-counting-deprecated-link" xml:space="preserve">
+    <value>an improved counting channel system</value>
+  </data>
+  <data name="custom-bot-token-rejected-title" xml:space="preserve">
+    <value>Discord rejected your custom bot's token.</value>
+  </data>
+  <data name="custom-bot-token-rejected-body" xml:space="preserve">
+    <value>Channels, roles and emotes cannot be loaded and messages cannot be sent until it is fixed. Update the token in {0}.</value>
+  </data>
+  <data name="custom-bot-token-rejected-link" xml:space="preserve">
+    <value>Custom Bot settings</value>
+  </data>
+  <data name="forms-field-allow-editing" xml:space="preserve">
+    <value>Allow editing after submitting</value>
+  </data>
+  <data name="forms-field-allow-editing-hint" xml:space="preserve">
+    <value>Let members edit their answers after submitting.</value>
+  </data>
+  <data name="forms-error-editing-disabled" xml:space="preserve">
+    <value>This form does not allow changing a submission after it has been sent.</value>
+  </data>
+  <data name="forms-my-submissions-submit-again" xml:space="preserve">
+    <value>Submit again</value>
+  </data>
+  <data name="forms-placeholders-title" xml:space="preserve">
+    <value>Placeholders you can use</value>
+  </data>
+  <data name="forms-placeholders-standard-hint" xml:space="preserve">
+    <value>The standard user and server placeholders work here too.</value>
+  </data>
+  <data name="forms-placeholder-form-name" xml:space="preserve">
+    <value>The name of this form</value>
+  </data>
+  <data name="forms-placeholder-form-link" xml:space="preserve">
+    <value>The link people use to open this form</value>
+  </data>
+  <data name="forms-placeholder-form-role" xml:space="preserve">
+    <value>The role required to submit this form</value>
+  </data>
+  <data name="forms-placeholder-form-submissions" xml:space="preserve">
+    <value>How many submissions this form accepts</value>
+  </data>
+  <data name="forms-placeholder-form-opensat" xml:space="preserve">
+    <value>When this form opens</value>
+  </data>
+  <data name="forms-placeholder-form-expiresat" xml:space="preserve">
+    <value>When this form closes</value>
+  </data>
+  <data name="forms-rule-set-label" xml:space="preserve">
+    <value>Rule set {0}</value>
+  </data>
+  <data name="forms-rule-set-logic" xml:space="preserve">
+    <value>When this rule set passes</value>
+  </data>
+  <data name="forms-rule-set-all" xml:space="preserve">
+    <value>All conditions must pass</value>
+  </data>
+  <data name="forms-rule-set-any" xml:space="preserve">
+    <value>Any condition can pass</value>
+  </data>
+  <data name="forms-rule-set-add" xml:space="preserve">
+    <value>Add rule set</value>
+  </data>
+  <data name="forms-rule-set-hint" xml:space="preserve">
+    <value>This question shows when any rule set passes.</value>
+  </data>
+  <data name="forms-question-move-to-page" xml:space="preserve">
+    <value>Move to page</value>
+  </data>
+  <data name="forms-page-move-title" xml:space="preserve">
+    <value>Send to another page</value>
+  </data>
+  <data name="forms-page-move-action-move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="forms-page-move-action-copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="forms-page-move-pick" xml:space="preserve">
+    <value>Choose the page the question should go to.</value>
+  </data>
+  <data name="wl-error-bot-on-other-slot" xml:space="preserve">
+    <value>This bot already belongs to your other custom bot slot. Select that slot and update the token there.</value>
+  </data>
+  <data name="usercustomization-locked-hint" xml:space="preserve">
+    <value>Included with Cakey Personal</value>
+  </data>
+  <data name="nav-upgrade" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="nav-premium-help" xml:space="preserve">
+    <value>Unlock features for a server</value>
+  </data>
+  <data name="nav-your-plan" xml:space="preserve">
+    <value>Your plan</value>
+  </data>
+  <data name="table-show-entries" xml:space="preserve">
+    <value>Show {0} entries</value>
+  </data>
+  <data name="dashboard-no-servers-found" xml:space="preserve">
+    <value>No servers found. Make sure you have Owner, Administrator or Manage Server permission.</value>
+  </data>
+  <data name="premium-paypal-subscription" xml:space="preserve">
+    <value>PayPal Subscription</value>
+  </data>
+  <data name="ar-empty" xml:space="preserve">
+    <value>No auto responders found. Click the button below to create one.</value>
+  </data>
+  <data name="economy-balances-empty" xml:space="preserve">
+    <value>No user balances found.</value>
+  </data>
+  <data name="bulk-import-step" xml:space="preserve">
+    <value>Step {0}:</value>
+  </data>
+  <data name="generic-retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="preview-open-leaderboard" xml:space="preserve">
+    <value>Open leaderboard</value>
+  </data>
+  <data name="preview-empty" xml:space="preserve">
+    <value>Nothing to show here yet.</value>
+  </data>
+  <data name="preview-open-form" xml:space="preserve">
+    <value>Open form</value>
+  </data>
+  <data name="preview-view-status" xml:space="preserve">
+    <value>View status page</value>
+  </data>
+  <data name="discovery-preview-view-listing" xml:space="preserve">
+    <value>View listing</value>
+  </data>
+  <data name="preview-view-commands" xml:space="preserve">
+    <value>View all commands</value>
+  </data>
+  <data name="preview-view-plans" xml:space="preserve">
+    <value>View plans</value>
+  </data>
+  <data name="preview-premium-title" xml:space="preserve">
+    <value>Cakey Bot Premium</value>
+  </data>
+  <data name="preview-browse-servers" xml:space="preserve">
+    <value>Browse servers</value>
+  </data>
+  <data name="preview-command-count" xml:space="preserve">
+    <value>{0} commands</value>
+  </data>
+  <data name="preview-category-count" xml:space="preserve">
+    <value>{0} categories</value>
+  </data>
+  <data name="starboard-add" xml:space="preserve">
+    <value>Add starboard</value>
+  </data>
+  <data name="starboard-name" xml:space="preserve">
+    <value>Starboard name</value>
+  </data>
+  <data name="starboard-empty" xml:space="preserve">
+    <value>This server has no starboards yet.</value>
+  </data>
+  <data name="starboard-count" xml:space="preserve">
+    <value>{0} of {1} starboards used</value>
+  </data>
+  <data name="starboard-limit-free" xml:space="preserve">
+    <value>Free servers can have 1 starboard, and server premium raises the limit to 5.</value>
+  </data>
+  <data name="starboard-limit-max" xml:space="preserve">
+    <value>This server has reached the limit of {0} starboards.</value>
+  </data>
+  <data name="starboard-error-name-too-long" xml:space="preserve">
+    <value>Starboard names can be at most 50 characters long.</value>
+  </data>
+  <data name="starboard-delete-confirm" xml:space="preserve">
+    <value>Delete the starboard "{0}"? Messages it already posted stay in the channel.</value>
+  </data>
+  <data name="audit-starboard-created" xml:space="preserve">
+    <value>Created a starboard</value>
+  </data>
+  <data name="audit-starboard-deleted" xml:space="preserve">
+    <value>Deleted a starboard</value>
+  </data>
+  <data name="starboard-error-emote-in-use" xml:space="preserve">
+    <value>Another starboard on this server already uses this emote.</value>
+  </data>
+  <data name="starboard-error-any-channel-in-use" xml:space="preserve">
+    <value>Another any reaction starboard already posts to this channel.</value>
+  </data>
+  <data name="leveling-rank-self-only" xml:space="preserve">
+    <value>Members can only check their own rank</value>
+  </data>
+  <data name="starboard-mode" xml:space="preserve">
+    <value>Counting mode</value>
+  </data>
+  <data name="starboard-mode-emote" xml:space="preserve">
+    <value>Specific emote</value>
+  </data>
+  <data name="starboard-mode-any" xml:space="preserve">
+    <value>Any reaction</value>
+  </data>
+  <data name="starboard-mode-any-hint" xml:space="preserve">
+    <value>Each member counts once, whichever emotes they react with.</value>
+  </data>
+  <data name="starboard-channel-mode" xml:space="preserve">
+    <value>Channel filter</value>
+  </data>
+  <data name="starboard-channel-mode-ignore" xml:space="preserve">
+    <value>Ignore these channels</value>
+  </data>
+  <data name="starboard-channel-mode-only" xml:space="preserve">
+    <value>Only these channels</value>
+  </data>
+  <data name="starboard-watched-channels" xml:space="preserve">
+    <value>Watched channels</value>
+  </data>
+  <data name="starboard-channel-mode-hint" xml:space="preserve">
+    <value>Choose whether the channel list below blocks those channels or is the only place messages are picked from.</value>
+  </data>
+  <data name="starboard-name-hint" xml:space="preserve">
+    <value>Only shown on the dashboard and when forcing a message to a starboard.</value>
+  </data>
+  <data name="starboard-enabled-hint" xml:space="preserve">
+    <value>When off, this board stops posting but keeps its settings.</value>
+  </data>
+  <data name="starboard-ignore-self-hint" xml:space="preserve">
+    <value>The author's own reaction on their message does not count toward the threshold.</value>
+  </data>
+  <data name="starboard-min-count-hint" xml:space="preserve">
+    <value>How many reactions a message needs before it is posted to the board.</value>
+  </data>
+  <data name="starboard-channel-hint" xml:space="preserve">
+    <value>The channel the bot posts starred messages in.</value>
+  </data>
+  <data name="starboard-mode-emote-hint" xml:space="preserve">
+    <value>Only reactions with the emote below count.</value>
+  </data>
+  <data name="starboard-ignored-channels-hint" xml:space="preserve">
+    <value>Messages in these channels, or in channels inside these categories, are never posted.</value>
+  </data>
+  <data name="starboard-watched-channels-hint" xml:space="preserve">
+    <value>Only messages in these channels, or in channels inside these categories, are posted, and leaving this empty watches every channel.</value>
+  </data>
+  <data name="starboard-embed-color" xml:space="preserve">
+    <value>Post color</value>
+  </data>
+  <data name="starboard-custom-color" xml:space="preserve">
+    <value>Use a custom post color</value>
+  </data>
+  <data name="starboard-embed-color-hint" xml:space="preserve">
+    <value>Posts on this board use this color, and turning it off uses the default starboard color.</value>
+  </data>
+  <data name="starboard-any-marker" xml:space="preserve">
+    <value>Post marker emote</value>
+  </data>
+  <data name="starboard-any-marker-hint" xml:space="preserve">
+    <value>This emote starts each post on the board, and leaving it empty uses ✨.</value>
+  </data>
+  <data name="starboard-error-marker-in-use" xml:space="preserve">
+    <value>Another starboard posting to this channel already uses this emote, so the bot could not tell their posts apart.</value>
+  </data>
+  <data name="starboard-min-members" xml:space="preserve">
+    <value>Min. members reacting</value>
+  </data>
+  <data name="starboard-min-members-hint" xml:space="preserve">
+    <value>How many members must react before a message is posted, and each member counts once however many emotes they add.</value>
+  </data>
+  <data name="ticket-hours-title" xml:space="preserve">
+    <value>Business hours</value>
+  </data>
+  <data name="ticket-hours-enabled" xml:space="preserve">
+    <value>Limit tickets to business hours</value>
+  </data>
+  <data name="ticket-hours-desc" xml:space="preserve">
+    <value>Outside these hours a new ticket is either refused or opened with a notice that a reply may take longer.</value>
+  </data>
+  <data name="ticket-hours-start" xml:space="preserve">
+    <value>Opens at</value>
+  </data>
+  <data name="ticket-hours-end" xml:space="preserve">
+    <value>Closes at</value>
+  </data>
+  <data name="ticket-hours-end-hint" xml:space="preserve">
+    <value>A closing time earlier than the opening time runs past midnight into the next day.</value>
+  </data>
+  <data name="ticket-hours-timezone" xml:space="preserve">
+    <value>Time zone</value>
+  </data>
+  <data name="ticket-hours-mode" xml:space="preserve">
+    <value>Outside business hours</value>
+  </data>
+  <data name="ticket-hours-mode-block" xml:space="preserve">
+    <value>Refuse new tickets</value>
+  </data>
+  <data name="ticket-hours-mode-notify" xml:space="preserve">
+    <value>Open the ticket and post a notice in it</value>
+  </data>
+  <data name="ticket-hours-notice" xml:space="preserve">
+    <value>Notice message</value>
+  </data>
+  <data name="ticket-hours-notice-hint" xml:space="preserve">
+    <value>Use {hours} to show the business hours, or leave this empty for the default message.</value>
+  </data>
+  <data name="ticket-hours-notice-default" xml:space="preserve">
+    <value>This ticket was opened outside business hours ({hours}), so a reply may take longer than usual.</value>
+  </data>
+  <data name="ticket-error-hours-invalid" xml:space="preserve">
+    <value>Enter a valid opening and closing time.</value>
+  </data>
+  <data name="ticket-error-hours-timezone" xml:space="preserve">
+    <value>Pick a valid time zone.</value>
+  </data>
+  <data name="ticket-error-hours-days" xml:space="preserve">
+    <value>Pick at least one day for the business hours.</value>
+  </data>
+  <data name="audit-ticket-business-hours" xml:space="preserve">
+    <value>Updated ticket business hours</value>
+  </data>
+  <data name="audit-target-ticketpanelgroup" xml:space="preserve">
+    <value>Ticket multipanel</value>
+  </data>
+  <data name="ticket-groups-title" xml:space="preserve">
+    <value>Multipanels</value>
+  </data>
+  <data name="ticket-groups-desc" xml:space="preserve">
+    <value>A multipanel posts one message with a button for each panel you pick, so members can choose the type of ticket.</value>
+  </data>
+  <data name="ticket-group-add" xml:space="preserve">
+    <value>Add multipanel</value>
+  </data>
+  <data name="ticket-group-default-name" xml:space="preserve">
+    <value>Multipanel {0}</value>
+  </data>
+  <data name="ticket-group-name-label" xml:space="preserve">
+    <value>Multipanel name</value>
+  </data>
+  <data name="ticket-group-panels" xml:space="preserve">
+    <value>Panels to offer</value>
+  </data>
+  <data name="ticket-group-panels-hint" xml:space="preserve">
+    <value>Each panel gets its own button, using that panel's button label.</value>
+  </data>
+  <data name="ticket-group-posted" xml:space="preserve">
+    <value>This multipanel is posted, and saving it updates the posted message.</value>
+  </data>
+  <data name="ticket-group-saved-posted" xml:space="preserve">
+    <value>Multipanel saved and its posted message updated.</value>
+  </data>
+  <data name="ticket-group-send-success" xml:space="preserve">
+    <value>Multipanel posted.</value>
+  </data>
+  <data name="ticket-group-delete" xml:space="preserve">
+    <value>Delete multipanel</value>
+  </data>
+  <data name="ticket-group-delete-confirm" xml:space="preserve">
+    <value>Delete this multipanel? A message already posted stays in its channel.</value>
+  </data>
+  <data name="ticket-group-deleted" xml:space="preserve">
+    <value>Multipanel deleted.</value>
+  </data>
+  <data name="ticket-error-group-not-found" xml:space="preserve">
+    <value>That multipanel no longer exists.</value>
+  </data>
+  <data name="ticket-error-group-no-panels" xml:space="preserve">
+    <value>Pick at least one panel for the multipanel.</value>
+  </data>
+  <data name="ticket-error-group-limit" xml:space="preserve">
+    <value>A server can have up to {0} multipanels.</value>
+  </data>
+  <data name="audit-ticket-group-created" xml:space="preserve">
+    <value>Created a ticket multipanel</value>
+  </data>
+  <data name="audit-ticket-group-updated" xml:space="preserve">
+    <value>Updated a ticket multipanel</value>
+  </data>
+  <data name="audit-ticket-group-sent" xml:space="preserve">
+    <value>Posted a ticket multipanel</value>
+  </data>
+  <data name="audit-ticket-group-deleted" xml:space="preserve">
+    <value>Deleted a ticket multipanel</value>
+  </data>
+  <data name="suggestion-threads" xml:space="preserve">
+    <value>Create a thread for each suggestion</value>
+  </data>
+  <data name="suggestion-threads-hint" xml:space="preserve">
+    <value>Cakey Bot opens a public thread under every new suggestion for discussion, which needs the Create Public Threads permission in the suggestion channel.</value>
+  </data>
+  <data name="suggestion-thread-action" xml:space="preserve">
+    <value>Thread after a decision</value>
+  </data>
+  <data name="suggestion-thread-action-hint" xml:space="preserve">
+    <value>Applies when a suggestion is accepted, denied or marked a duplicate, and needs the Manage Threads permission.</value>
+  </data>
+  <data name="suggestion-thread-action-none" xml:space="preserve">
+    <value>Leave it open</value>
+  </data>
+  <data name="suggestion-thread-action-lock" xml:space="preserve">
+    <value>Lock and archive it</value>
+  </data>
+  <data name="suggestion-thread-action-archive" xml:space="preserve">
+    <value>Archive it</value>
+  </data>
+  <data name="suggestion-thread-action-delete" xml:space="preserve">
+    <value>Delete it</value>
+  </data>
+  <data name="server-stats-role-excluded-roles" xml:space="preserve">
+    <value>Roles that never get this role</value>
+  </data>
+  <data name="server-stats-tooltip-role-excluded-roles" xml:space="preserve">
+    <value>Members with any of these roles are not given this role, and lose it at the next update if they already have it.</value>
+  </data>
+  <data name="audit-server-stats-role-exclusions" xml:space="preserve">
+    <value>Changed the excluded roles of a statistics role rule</value>
+  </data>
+  <data name="audit-music-private-responses" xml:space="preserve">
+    <value>Updated private music responses to {0}</value>
+  </data>
+  <data name="music-title-private-responses" xml:space="preserve">
+    <value>Private Responses</value>
+  </data>
+  <data name="music-private-responses-hint" xml:space="preserve">
+    <value>Music command replies are only shown to the member who used the command.</value>
+  </data>
+  <data name="audit-music-log-channel" xml:space="preserve">
+    <value>Updated the music log channel</value>
+  </data>
+  <data name="music-title-log-channel" xml:space="preserve">
+    <value>Music Log Channel</value>
+  </data>
+  <data name="music-log-channel-hint" xml:space="preserve">
+    <value>The bot posts a short line here for each song played and each change made to the player.</value>
+  </data>
+  <data name="leveling-enabled-hint" xml:space="preserve">
+    <value>Members earn XP for the messages they send while this is on.</value>
+  </data>
+  <data name="leveling-voice-enabled-hint" xml:space="preserve">
+    <value>Members earn XP for the time they spend in voice channels while this is on.</value>
+  </data>
+  <data name="leveling-demotion-hint" xml:space="preserve">
+    <value>Takes away reward roles above a member's new level when they lose levels, which needs the Manage Roles permission.</value>
+  </data>
+  <data name="leveling-levelup-hint" xml:space="preserve">
+    <value>Keeps only the highest reward role a member has reached and removes the lower ones, which needs the Manage Roles permission.</value>
+  </data>
+  <data name="leveling-wipe-xp-hint" xml:space="preserve">
+    <value>Deletes a member's XP and level when they leave the server.</value>
+  </data>
+  <data name="leveling-ignore-muted-hint" xml:space="preserve">
+    <value>Members who are muted or sitting in the AFK channel earn no voice XP.</value>
+  </data>
+  <data name="leveling-rank-self-only-hint" xml:space="preserve">
+    <value>Members can only open their own rank card with the rank command.</value>
+  </data>
+  <data name="leveling-embed-hint" xml:space="preserve">
+    <value>Level-up messages are posted as an embed instead of plain text.</value>
+  </data>
+  <data name="leveling-ignore-solo-hint" xml:space="preserve">
+    <value>Members earn no voice XP while they are the only person in the voice channel, not counting bots.</value>
+  </data>
+  <data name="leveling-disable-mentions-hint" xml:space="preserve">
+    <value>Level-up messages still show the member's name but no longer ping them.</value>
+  </data>
+  <data name="leveling-text-xp-hint" xml:space="preserve">
+    <value>Each message that earns XP gives a random amount between the minimum and maximum, multiplied by the XP rate.</value>
+  </data>
+  <data name="leveling-text-cooldown-hint" xml:space="preserve">
+    <value>Minutes a member has to wait after earning message XP before their next message earns XP again.</value>
+  </data>
+  <data name="leveling-voice-xp-hint" xml:space="preserve">
+    <value>Members get a random amount between these two values for every minute in a voice channel, multiplied by the XP rate.</value>
+  </data>
+  <data name="leveling-voice-cooldown-hint" xml:space="preserve">
+    <value>How often in minutes the voice XP earned so far is added to a member's total.</value>
+  </data>
+  <data name="leveling-image-cooldown-hint" xml:space="preserve">
+    <value>Minutes a member has to wait before another image earns the image bonus.</value>
+  </data>
+  <data name="leveling-video-cooldown-hint" xml:space="preserve">
+    <value>Minutes a member has to wait before another video earns the video bonus.</value>
+  </data>
+  <data name="leveling-vanity-hint" xml:space="preserve">
+    <value>A custom name for your server's leaderboard link, using only letters and numbers.</value>
+  </data>
+  <data name="leveling-xp-rate-hint" xml:space="preserve">
+    <value>Multiplies all the XP members earn from messages, images, videos and voice.</value>
+  </data>
+  <data name="leveling-message-hint" xml:space="preserve">
+    <value>You can use {user}, {level}, {rank} and the usual server placeholders, wrap text in {#level.5}...{/level.5} to show it only at level 5, or write {#choose}one{or}two{/choose} to pick a random option.</value>
+  </data>
+  <data name="leveling-message-reward-hint" xml:space="preserve">
+    <value>This message replaces the level-up message when a member gets a reward role, and it also accepts {reward} for that role.</value>
+  </data>
+  <data name="leveling-drops-max-hint" xml:space="preserve">
+    <value>This has to be higher than the minimum time and can be at most 24 hours.</value>
+  </data>
+  <data name="leveling-double-xp-hint" xml:space="preserve">
+    <value>All XP earned from messages and voice is doubled on the days you tick.</value>
+  </data>
+  <data name="leveling-decay-enabled-hint" xml:space="preserve">
+    <value>Members slowly lose XP when they stop earning it for a while.</value>
+  </data>
+  <data name="leveling-decay-rate-hint" xml:space="preserve">
+    <value>The share of a member's XP that is removed over each inactivity period, where 0.1 means 10%.</value>
+  </data>
+  <data name="leveling-decay-days-hint" xml:space="preserve">
+    <value>Days a member has to go without earning XP before decay starts.</value>
+  </data>
+  <data name="leveling-decay-min-level-hint" xml:space="preserve">
+    <value>Members below this level never lose XP to decay.</value>
+  </data>
+  <data name="leveling-roles-hint" xml:space="preserve">
+    <value>Members get each role once they reach its level, and the bot needs the Manage Roles permission with its role above these roles.</value>
+  </data>
+  <data name="leveling-pinned-leaderboard-form-hint" xml:space="preserve">
+    <value>The bot posts the leaderboard in the chosen channel and refreshes it every 15 minutes, showing between 3 and 15 members.</value>
+  </data>
+  <data name="leveling-drops-enabled-hint" xml:space="preserve">
+    <value>The bot posts XP drops in the chosen channels that the first member to click the button can claim.</value>
+  </data>
+  <data name="leveling-drops-xp-hint" xml:space="preserve">
+    <value>The member who claims a drop gets a random amount of XP between these two values.</value>
+  </data>
+  <data name="ticket-group-button-emote" xml:space="preserve">
+    <value>Button emote</value>
+  </data>
+  <data name="ticket-group-buttons-hint" xml:space="preserve">
+    <value>Buttons show in this order, and a panel without an emote uses the envelope emote.</value>
+  </data>
+  <data name="ticket-group-no-panels" xml:space="preserve">
+    <value>No panels picked yet.</value>
+  </data>
+  <data name="ticket-group-appearance" xml:space="preserve">
+    <value>Message appearance</value>
+  </data>
+  <data name="ticket-group-posted-badge" xml:space="preserve">
+    <value>Posted</value>
+  </data>
+  <data name="ticket-groups-tab-hint" xml:space="preserve">
+    <value>To offer several panels on one message, open the Multipanels tab.</value>
+  </data>
+  <data name="ticket-groups-empty" xml:space="preserve">
+    <value>You have no multipanels yet.</value>
+  </data>
+  <data name="import-error-source-failed" xml:space="preserve">
+    <value>The other bot sent back something we could not read, please try again later.</value>
+  </data>
+  <data name="import-error-leaderboard-private" xml:space="preserve">
+    <value>The MEE6 leaderboard for this server is private or has never been used, so make it public in the MEE6 dashboard and try again.</value>
+  </data>
+  <data name="import-error-not-found" xml:space="preserve">
+    <value>The other bot has no data for this server.</value>
+  </data>
+  <data name="import-error-bad-key" xml:space="preserve">
+    <value>The API key or token was rejected, so check that it is correct and allowed on this server.</value>
+  </data>
+  <data name="import-error-key-required" xml:space="preserve">
+    <value>This source needs an API key or token.</value>
+  </data>
+  <data name="import-error-file-required" xml:space="preserve">
+    <value>This source needs a file, and the file you chose is empty.</value>
+  </data>
+  <data name="import-error-rate-limited" xml:space="preserve">
+    <value>The other bot kept limiting our requests, please try again in a few minutes.</value>
+  </data>
+  <data name="import-error-unreadable-file" xml:space="preserve">
+    <value>The file could not be read as any format we know.</value>
+  </data>
+  <data name="import-error-too-large" xml:space="preserve">
+    <value>The file is larger than the 25 MB upload limit.</value>
+  </data>
+  <data name="import-error-empty" xml:space="preserve">
+    <value>No members were found in the data.</value>
+  </data>
+  <data name="import-error-unsupported" xml:space="preserve">
+    <value>This source cannot be imported here.</value>
+  </data>
+  <data name="import-error-invalid" xml:space="preserve">
+    <value>Something in the request was missing or not allowed.</value>
+  </data>
+  <data name="import-error-busy" xml:space="preserve">
+    <value>Another import is already running on this server, so wait for it to finish first.</value>
+  </data>
+  <data name="import-error-job-missing" xml:space="preserve">
+    <value>This import has expired, please start it again.</value>
+  </data>
+  <data name="import-error-not-ready" xml:space="preserve">
+    <value>This import is not ready to be applied yet.</value>
+  </data>
+  <data name="import-error-wrong-kind" xml:space="preserve">
+    <value>The data holds a different kind of information than this import expects.</value>
+  </data>
+  <data name="import-error-wrong-server" xml:space="preserve">
+    <value>The file was exported from a different server.</value>
+  </data>
+  <data name="import-error-timed-out" xml:space="preserve">
+    <value>Reading the data took too long and was stopped.</value>
+  </data>
+  <data name="import-error-undo-expired" xml:space="preserve">
+    <value>This import can no longer be undone.</value>
+  </data>
+  <data name="import-error-undo-not-latest" xml:space="preserve">
+    <value>A newer import of the same kind has to be undone first.</value>
+  </data>
+  <data name="import-line-xp-written" xml:space="preserve">
+    <value>{0} members were given their imported XP.</value>
+  </data>
+  <data name="import-line-xp-skipped" xml:space="preserve">
+    <value>{0} members were skipped because they were below the minimum level or had no XP.</value>
+  </data>
+  <data name="import-line-rewards-written" xml:space="preserve">
+    <value>{0} level role rewards were added.</value>
+  </data>
+  <data name="import-line-curve-switched" xml:space="preserve">
+    <value>The server's level curve was switched to match the other bot.</value>
+  </data>
+  <data name="import-line-balances-written" xml:space="preserve">
+    <value>{0} members were given their imported balance.</value>
+  </data>
+  <data name="import-line-balances-capped" xml:space="preserve">
+    <value>{0} balances were lowered to the server's maximum balance.</value>
+  </data>
+  <data name="import-line-xp-restored" xml:space="preserve">
+    <value>XP was put back for {0} members.</value>
+  </data>
+  <data name="import-line-balances-restored" xml:space="preserve">
+    <value>Balances were put back for {0} members.</value>
+  </data>
+  <data name="import-msg-applying" xml:space="preserve">
+    <value>The import is being applied.</value>
+  </data>
+  <data name="import-msg-undone" xml:space="preserve">
+    <value>The import was undone.</value>
+  </data>
+  <data name="import-msg-load-failed" xml:space="preserve">
+    <value>The import page could not be loaded, please try again.</value>
+  </data>
+  <data name="import-script-open-dashboard" xml:space="preserve">
+    <value>Open your server's MEE6 dashboard first, then run this again.</value>
+  </data>
+  <data name="import-script-log-in" xml:space="preserve">
+    <value>Log in to the MEE6 dashboard first.</value>
+  </data>
+  <data name="import-script-sent" xml:space="preserve">
+    <value>Your settings were sent to Cakey Bot, so go back to the import page.</value>
+  </data>
+  <data name="import-script-fallback" xml:space="preserve">
+    <value>Sending to Cakey Bot did not work, so the file is downloaded instead and you can upload it on the import page.</value>
+  </data>
+  <data name="audit-import-applied" xml:space="preserve">
+    <value>Started an import from {0}</value>
+  </data>
+  <data name="audit-import-undone" xml:space="preserve">
+    <value>Undid an import from {0}</value>
+  </data>
+  <data name="import-set-name-auto-mod" xml:space="preserve">
+    <value>Auto-moderation</value>
+  </data>
+  <data name="import-set-result-ok" xml:space="preserve">
+    <value>{0}: {1} imported, {2} skipped.</value>
+  </data>
+  <data name="import-set-result-failed" xml:space="preserve">
+    <value>{0} could not be imported because of an error.</value>
+  </data>
+  <data name="import-set-undo-done" xml:space="preserve">
+    <value>{0} was put back to how it was before the import.</value>
+  </data>
+  <data name="import-set-undo-failed" xml:space="preserve">
+    <value>{0} could not be put back because of an error.</value>
+  </data>
+  <data name="import-set-deleted-channel" xml:space="preserve">
+    <value>a deleted channel</value>
+  </data>
+  <data name="import-set-deleted-role" xml:space="preserve">
+    <value>a deleted role</value>
+  </data>
+  <data name="import-set-missing-channels" xml:space="preserve">
+    <value>{0} channels no longer exist, so the settings that use them are left out.</value>
+  </data>
+  <data name="import-set-missing-roles" xml:space="preserve">
+    <value>{0} roles no longer exist, so they are left out.</value>
+  </data>
+  <data name="import-set-embed-premium" xml:space="preserve">
+    <value>Embeds only send on premium servers, so the embed is saved and used once the server has premium.</value>
+  </data>
+  <data name="import-set-embed-name-welcome" xml:space="preserve">
+    <value>MEE6 welcome message</value>
+  </data>
+  <data name="import-set-embed-name-command" xml:space="preserve">
+    <value>MEE6 command !{0}</value>
+  </data>
+  <data name="import-set-embed-name-panel" xml:space="preserve">
+    <value>MEE6 role menu {0}</value>
+  </data>
+  <data name="import-set-welcome-channel" xml:space="preserve">
+    <value>Welcome message in {0}.</value>
+  </data>
+  <data name="import-set-welcome-dm" xml:space="preserve">
+    <value>Welcome message sent by DM.</value>
+  </data>
+  <data name="import-set-welcome-embed" xml:space="preserve">
+    <value>The welcome embed, saved as one of your embeds.</value>
+  </data>
+  <data name="import-set-welcome-dm-dropped" xml:space="preserve">
+    <value>Cakey sends one welcome message, so the channel message is kept and the DM message is not.</value>
+  </data>
+  <data name="import-set-bye-channel" xml:space="preserve">
+    <value>Goodbye message in {0}.</value>
+  </data>
+  <data name="import-set-join-roles" xml:space="preserve">
+    <value>Join roles: {0}.</value>
+  </data>
+  <data name="import-set-levels-off" xml:space="preserve">
+    <value>Level-up messages turned off.</value>
+  </data>
+  <data name="import-set-levels-here" xml:space="preserve">
+    <value>Level-up messages in the channel the member spoke in.</value>
+  </data>
+  <data name="import-set-levels-dm" xml:space="preserve">
+    <value>Level-up messages sent by DM.</value>
+  </data>
+  <data name="import-set-levels-channel" xml:space="preserve">
+    <value>Level-up messages in {0}.</value>
+  </data>
+  <data name="import-set-levels-message" xml:space="preserve">
+    <value>The level-up message.</value>
+  </data>
+  <data name="import-set-levels-rate" xml:space="preserve">
+    <value>XP rate x{0}.</value>
+  </data>
+  <data name="import-set-levels-rewards" xml:space="preserve">
+    <value>{0} level roles.</value>
+  </data>
+  <data name="import-set-levels-rewards-replace" xml:space="preserve">
+    <value>Each level role replaces the one before it.</value>
+  </data>
+  <data name="import-set-levels-rewards-replaced" xml:space="preserve">
+    <value>{0} level roles you already have at the same levels are replaced.</value>
+  </data>
+  <data name="import-set-levels-no-xp-channels" xml:space="preserve">
+    <value>{0} channels that earn no XP.</value>
+  </data>
+  <data name="import-set-levels-no-xp-roles" xml:space="preserve">
+    <value>{0} roles that earn no XP.</value>
+  </data>
+  <data name="import-set-levels-curve" xml:space="preserve">
+    <value>The level curve is set to the one MEE6 uses, since no member has XP here yet.</value>
+  </data>
+  <data name="import-set-levels-curve-kept" xml:space="preserve">
+    <value>Members already have XP here, so the level curve stays as it is and levels may not match MEE6.</value>
+  </data>
+  <data name="import-set-birthday-channel" xml:space="preserve">
+    <value>Birthday wishes in {0}.</value>
+  </data>
+  <data name="import-set-birthday-role" xml:space="preserve">
+    <value>Birthday role {0}.</value>
+  </data>
+  <data name="import-set-birthday-message" xml:space="preserve">
+    <value>The birthday message.</value>
+  </data>
+  <data name="import-set-birthday-semicolons" xml:space="preserve">
+    <value>Semicolons in the birthday message become commas, since Cakey uses semicolons to separate random messages.</value>
+  </data>
+  <data name="import-set-command" xml:space="preserve">
+    <value>!{0}</value>
+  </data>
+  <data name="import-set-command-off" xml:space="preserve">
+    <value>!{0}, turned off in MEE6</value>
+  </data>
+  <data name="import-set-commands-exist" xml:space="preserve">
+    <value>{0} commands already exist here or have nothing to send, so they are skipped.</value>
+  </data>
+  <data name="import-set-commands-limit" xml:space="preserve">
+    <value>Free servers can have 100 auto responders, so {0} commands come in turned off.</value>
+  </data>
+  <data name="import-set-commands-embeds" xml:space="preserve">
+    <value>{0} commands use embeds, which only send on premium servers.</value>
+  </data>
+  <data name="import-set-commands-dropped-embeds" xml:space="preserve">
+    <value>An auto responder keeps one embed, so {0} embeds from other responses are not kept.</value>
+  </data>
+  <data name="import-set-panel" xml:space="preserve">
+    <value>{0} in {1}, with {2} roles as buttons.</value>
+  </data>
+  <data name="import-set-panels-reaction" xml:space="preserve">
+    <value>{0} in {1} used reactions, so it becomes a button menu posted as a new message and you can delete the MEE6 message.</value>
+  </data>
+  <data name="import-set-panels-limit" xml:space="preserve">
+    <value>Your plan allows {0} role menus, so {1} are created without being posted.</value>
+  </data>
+  <data name="import-set-panels-first-role" xml:space="preserve">
+    <value>Some options gave more than one role, so only the first role of each is kept.</value>
+  </data>
+  <data name="import-set-panels-too-many" xml:space="preserve">
+    <value>{0} has more than 25 options, so only the first 25 are kept.</value>
+  </data>
+  <data name="import-set-panels-self-role-limit" xml:space="preserve">
+    <value>A server can have 250 self roles, so {0} roles are left out.</value>
+  </data>
+  <data name="import-set-panels-post-failed" xml:space="preserve">
+    <value>{0} was created but could not be posted: {1}</value>
+  </data>
+  <data name="import-set-panels-missing-channel" xml:space="preserve">
+    <value>{0} is in a channel that no longer exists, so it is skipped.</value>
+  </data>
+  <data name="import-set-words" xml:space="preserve">
+    <value>{0} filtered words.</value>
+  </data>
+  <data name="import-set-words-warn" xml:space="preserve">
+    <value>{0} filtered words, with a warning.</value>
+  </data>
+  <data name="import-set-invites" xml:space="preserve">
+    <value>Invite filter.</value>
+  </data>
+  <data name="import-set-invites-warn" xml:space="preserve">
+    <value>Invite filter, with a warning.</value>
+  </data>
+  <data name="import-set-links" xml:space="preserve">
+    <value>Link filter.</value>
+  </data>
+  <data name="import-set-links-warn" xml:space="preserve">
+    <value>Link filter, with a warning.</value>
+  </data>
+  <data name="import-set-mentions" xml:space="preserve">
+    <value>Mention limit of {0} per message.</value>
+  </data>
+  <data name="import-set-mentions-warn" xml:space="preserve">
+    <value>Mention limit of {0} per message, with a warning.</value>
+  </data>
+  <data name="import-set-spam" xml:space="preserve">
+    <value>Spam limit of {0} messages.</value>
+  </data>
+  <data name="import-set-spam-window" xml:space="preserve">
+    <value>The spam limit uses a 5 second window and a 1 hour timeout unless message spam protection was already on, and you can change both on the anti-raid page.</value>
+  </data>
+  <data name="import-set-punishment" xml:space="preserve">
+    <value>{0} warnings: {1}.</value>
+  </data>
+  <data name="import-set-punish-0" xml:space="preserve">
+    <value>1 hour timeout</value>
+  </data>
+  <data name="import-set-punish-1" xml:space="preserve">
+    <value>6 hour timeout</value>
+  </data>
+  <data name="import-set-punish-2" xml:space="preserve">
+    <value>12 hour timeout</value>
+  </data>
+  <data name="import-set-punish-3" xml:space="preserve">
+    <value>1 day timeout</value>
+  </data>
+  <data name="import-set-punish-4" xml:space="preserve">
+    <value>3 day timeout</value>
+  </data>
+  <data name="import-set-punish-5" xml:space="preserve">
+    <value>7 day timeout</value>
+  </data>
+  <data name="import-set-punish-6" xml:space="preserve">
+    <value>14 day timeout</value>
+  </data>
+  <data name="import-set-punish-7" xml:space="preserve">
+    <value>30 day timeout</value>
+  </data>
+  <data name="import-set-punish-tempban" xml:space="preserve">
+    <value>The temporary ban at {0} warnings becomes a permanent ban, since Cakey has no temporary ban punishment.</value>
+  </data>
+  <data name="import-set-punish-rounded" xml:space="preserve">
+    <value>The mute at {0} warnings becomes a {1}, the closest length Cakey offers.</value>
+  </data>
+  <data name="import-set-punish-replaced" xml:space="preserve">
+    <value>{0} warning punishments you already have at the same counts are replaced.</value>
+  </data>
+  <data name="import-set-stream" xml:space="preserve">
+    <value>{0} announced in {1}.</value>
+  </data>
+  <data name="import-set-streams-exist" xml:space="preserve">
+    <value>{0} is already followed here, so it is skipped if it posts to the same channel.</value>
+  </data>
+  <data name="import-set-streams-invalid" xml:space="preserve">
+    <value>{0} is not a valid Twitch name, so it is skipped.</value>
+  </data>
+  <data name="import-set-streams-webhook" xml:space="preserve">
+    <value>{0} is skipped because a webhook could not be set up in {1}: {2}</value>
+  </data>
+  <data name="import-set-streams-limit" xml:space="preserve">
+    <value>Free servers can have one Twitch feed turned on, so {0} come in turned off.</value>
+  </data>
+  <data name="import-set-prefix" xml:space="preserve">
+    <value>Currency symbol {0}.</value>
+  </data>
+  <data name="import-set-prefix-custom" xml:space="preserve">
+    <value>The currency uses a custom emoji, which does not fit in the 3 character currency symbol, so it is not kept.</value>
+  </data>
+  <data name="import-set-prefix-long" xml:space="preserve">
+    <value>{0} is longer than 3 characters, so it is not kept as the currency symbol.</value>
+  </data>
+  <data name="import-set-shop-item" xml:space="preserve">
+    <value>Shop item {0} for {1}.</value>
+  </data>
+  <data name="import-set-shop-no-role" xml:space="preserve">
+    <value>{0} gives no role that still exists, so it is skipped.</value>
+  </data>
+  <data name="import-set-shop-exists" xml:space="preserve">
+    <value>{0} is already in the shop, so it is skipped.</value>
+  </data>
+  <data name="import-set-shop-limit" xml:space="preserve">
+    <value>Your plan allows {0} shop items, so {1} come in with buying turned off.</value>
+  </data>
+  <data name="import-title" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="import-subtitle" xml:space="preserve">
+    <value>Move your server's data over from another bot.</value>
+  </data>
+  <data name="import-intro" xml:space="preserve">
+    <value>You can check everything before it is written and undo an import for 24 hours.</value>
+  </data>
+  <data name="import-tab-history" xml:space="preserve">
+    <value>Past imports</value>
+  </data>
+  <data name="import-choose-source" xml:space="preserve">
+    <value>Choose where the data comes from.</value>
+  </data>
+  <data name="import-source-mee6-settings" xml:space="preserve">
+    <value>MEE6 settings</value>
+  </data>
+  <data name="import-source-file" xml:space="preserve">
+    <value>Other file</value>
+  </data>
+  <data name="import-brings" xml:space="preserve">
+    <value>Brings over: {0}</value>
+  </data>
+  <data name="import-brings-mee6" xml:space="preserve">
+    <value>XP, levels and level roles</value>
+  </data>
+  <data name="import-how-mee6" xml:space="preserve">
+    <value>Make the leaderboard public in MEE6's dashboard under Leveling, then read it here.</value>
+  </data>
+  <data name="import-brings-mee6-settings" xml:space="preserve">
+    <value>Welcome messages, level and birthday settings, custom commands and automations, reaction roles, saved embeds, moderation and audit logs, Twitch and social feeds, timers, the shop and achievements</value>
+  </data>
+  <data name="import-how-mee6-settings" xml:space="preserve">
+    <value>On a computer, run the export below on your server's MEE6 dashboard to send its settings straight here.</value>
+  </data>
+  <data name="import-brings-xp-levels" xml:space="preserve">
+    <value>XP and levels</value>
+  </data>
+  <data name="import-how-lurkr" xml:space="preserve">
+    <value>Export your levels from Lurkr and upload the JSON file it gives you.</value>
+  </data>
+  <data name="import-brings-polaris" xml:space="preserve">
+    <value>XP, plus level roles and your curve with the Everything export</value>
+  </data>
+  <data name="import-how-polaris" xml:space="preserve">
+    <value>On Polaris' website, open your server and download your XP in any format, picking Everything to bring level roles too.</value>
+  </data>
+  <data name="import-brings-arcane" xml:space="preserve">
+    <value>Member levels</value>
+  </data>
+  <data name="import-how-arcane" xml:space="preserve">
+    <value>Arcane has no export, so open your server's leaderboard on arcane.bot, scroll until every member is loaded, run the export script in the browser console and upload the JSON it saves.</value>
+  </data>
+  <data name="import-link-arcane" xml:space="preserve">
+    <value>Export script</value>
+  </data>
+  <data name="import-how-amari" xml:space="preserve">
+    <value>Apply for an Amari API key, which Amari sends you in a DM, usually within a day, and paste it below.</value>
+  </data>
+  <data name="import-link-amari" xml:space="preserve">
+    <value>Get a key</value>
+  </data>
+  <data name="import-brings-tatsu" xml:space="preserve">
+    <value>XP only</value>
+  </data>
+  <data name="import-how-tatsu" xml:space="preserve">
+    <value>Run t!apikey create in any channel and paste the key Tatsu sends you in a DM below.</value>
+  </data>
+  <data name="import-brings-unbelievaboat" xml:space="preserve">
+    <value>Cash and bank balances</value>
+  </data>
+  <data name="import-how-unbelievaboat" xml:space="preserve">
+    <value>Create an application on UnbelievaBoat's site, authorize it on this server from the application's page, then paste its token below.</value>
+  </data>
+  <data name="import-link-unbelievaboat" xml:space="preserve">
+    <value>UnbelievaBoat applications</value>
+  </data>
+  <data name="import-brings-file" xml:space="preserve">
+    <value>XP, levels or balances</value>
+  </data>
+  <data name="import-how-file" xml:space="preserve">
+    <value>Any JSON or CSV file with a user ID and an XP, level, cash or bank value for each member works.</value>
+  </data>
+  <data name="import-key-placeholder" xml:space="preserve">
+    <value>Paste the key</value>
+  </data>
+  <data name="import-key-label" xml:space="preserve">
+    <value>{0} key</value>
+  </data>
+  <data name="import-file-drop" xml:space="preserve">
+    <value>Drop the file here or click to choose one.</value>
+  </data>
+  <data name="import-file-chosen" xml:space="preserve">
+    <value>{0} ({1} MB)</value>
+  </data>
+  <data name="import-file-remove" xml:space="preserve">
+    <value>Remove the file</value>
+  </data>
+  <data name="import-file-too-large" xml:space="preserve">
+    <value>That file is larger than the 25 MB limit.</value>
+  </data>
+  <data name="import-mee6-bookmarklet" xml:space="preserve">
+    <value>Export from MEE6</value>
+  </data>
+  <data name="import-mee6-bookmarklet-title" xml:space="preserve">
+    <value>Drag this onto your bookmarks bar, or right-click it and bookmark the link.</value>
+  </data>
+  <data name="import-mee6-copy-script" xml:space="preserve">
+    <value>Copy console script</value>
+  </data>
+  <data name="import-mee6-step-bookmark" xml:space="preserve">
+    <value>Drag Export from MEE6 onto your bookmarks bar, or right-click it and bookmark the link.</value>
+  </data>
+  <data name="import-mee6-step-run" xml:space="preserve">
+    <value>Open your server's dashboard on mee6.xyz and click the bookmark to download a file with your settings.</value>
+  </data>
+  <data name="import-mee6-step-console" xml:space="preserve">
+    <value>You can also copy the script and paste it into the browser console on mee6.xyz, opened with Ctrl+Shift+J or Cmd+Option+J on a Mac.</value>
+  </data>
+  <data name="import-mee6-step-upload" xml:space="preserve">
+    <value>Upload the downloaded file below.</value>
+  </data>
+  <data name="import-mee6-privacy" xml:space="preserve">
+    <value>Your MEE6 login stays in your browser and is not part of the file.</value>
+  </data>
+  <data name="import-mee6-show-script" xml:space="preserve">
+    <value>Show the script</value>
+  </data>
+  <data name="import-mee6-step-click" xml:space="preserve">
+    <value>Open your server's dashboard on mee6.xyz and click the bookmark, or paste the script into the browser console there with Ctrl+Shift+J or Cmd+Option+J on a Mac.</value>
+  </data>
+  <data name="import-mee6-step-wait" xml:space="preserve">
+    <value>This page continues on its own once the settings arrive, and if it does not, upload the downloaded file below.</value>
+  </data>
+  <data name="import-mee6-link-lifetime" xml:space="preserve">
+    <value>The link works for 10 minutes, so drag a fresh copy onto your bookmarks bar each time you import.</value>
+  </data>
+  <data name="import-mee6-desktop-only" xml:space="preserve">
+    <value>This step needs a desktop browser, since phones and tablets cannot run bookmarks or the console on the MEE6 dashboard.</value>
+  </data>
+  <data name="import-mee6-waiting" xml:space="preserve">
+    <value>Waiting for your MEE6 settings to arrive.</value>
+  </data>
+  <data name="import-mee6-link-expired" xml:space="preserve">
+    <value>The export link expired before any settings arrived.</value>
+  </data>
+  <data name="import-mee6-new-link" xml:space="preserve">
+    <value>Get a new link</value>
+  </data>
+  <data name="import-start" xml:space="preserve">
+    <value>Read data</value>
+  </data>
+  <data name="import-cancel" xml:space="preserve">
+    <value>Cancel import</value>
+  </data>
+  <data name="import-start-over" xml:space="preserve">
+    <value>Start over</value>
+  </data>
+  <data name="import-reading" xml:space="preserve">
+    <value>Reading the data, which can take a few minutes on large servers.</value>
+  </data>
+  <data name="import-progress" xml:space="preserve">
+    <value>{0} members read from {1} pages so far.</value>
+  </data>
+  <data name="import-applying" xml:space="preserve">
+    <value>Writing the import to this server.</value>
+  </data>
+  <data name="import-failed" xml:space="preserve">
+    <value>The import failed, so try again in a few minutes.</value>
+  </data>
+  <data name="import-job-expired" xml:space="preserve">
+    <value>That import expired, so read the data again.</value>
+  </data>
+  <data name="import-preview-title" xml:space="preserve">
+    <value>Found in {0}</value>
+  </data>
+  <data name="import-members-found" xml:space="preserve">
+    <value>Members found</value>
+  </data>
+  <data name="import-already-have-xp" xml:space="preserve">
+    <value>Already have XP here</value>
+  </data>
+  <data name="import-already-have-balance" xml:space="preserve">
+    <value>Already have a balance here</value>
+  </data>
+  <data name="import-top-members" xml:space="preserve">
+    <value>Top members</value>
+  </data>
+  <data name="import-member-level-xp" xml:space="preserve">
+    <value>Level {0}, {1} XP</value>
+  </data>
+  <data name="import-member-balance" xml:space="preserve">
+    <value>{0} cash, {1} bank</value>
+  </data>
+  <data name="import-role-level" xml:space="preserve">
+    <value>Level {0}: {1}</value>
+  </data>
+  <data name="import-role-missing" xml:space="preserve">
+    <value>Level {0}: the role no longer exists and is skipped</value>
+  </data>
+  <data name="import-merge-label-xp" xml:space="preserve">
+    <value>XP members already have</value>
+  </data>
+  <data name="import-merge-label-currency" xml:space="preserve">
+    <value>Balances members already have</value>
+  </data>
+  <data name="import-merge-replace" xml:space="preserve">
+    <value>Replace what members have</value>
+  </data>
+  <data name="import-merge-keep-higher" xml:space="preserve">
+    <value>Keep whichever is higher</value>
+  </data>
+  <data name="import-merge-add" xml:space="preserve">
+    <value>Add on top of what members have</value>
+  </data>
+  <data name="import-currency-hint" xml:space="preserve">
+    <value>Each member's cash and bank are added together and capped at this server's maximum balance.</value>
+  </data>
+  <data name="import-use-source-curve" xml:space="preserve">
+    <value>Switch this server to the {0} curve</value>
+  </data>
+  <data name="import-use-source-curve-on" xml:space="preserve">
+    <value>Every member keeps the same level and XP, and this server stops using the {0} curve.</value>
+  </data>
+  <data name="import-use-source-curve-off" xml:space="preserve">
+    <value>Members keep their level and progress on the {0} curve, so their XP numbers change.</value>
+  </data>
+  <data name="import-curve-convert" xml:space="preserve">
+    <value>XP is converted from the {0} curve to this server's {1} curve, keeping each member's level and progress.</value>
+  </data>
+  <data name="import-curve-custom" xml:space="preserve">
+    <value>Custom curve</value>
+  </data>
+  <data name="import-curve-unknown" xml:space="preserve">
+    <value>Unknown curve</value>
+  </data>
+  <data name="import-role-rewards-toggle" xml:space="preserve">
+    <value>Import level roles</value>
+  </data>
+  <data name="import-role-rewards-hint" xml:space="preserve">
+    <value>Sets the same role for each level here and replaces any role already set on those levels.</value>
+  </data>
+  <data name="import-minimum-level" xml:space="preserve">
+    <value>Skip members below level</value>
+  </data>
+  <data name="import-minimum-level-hint" xml:space="preserve">
+    <value>Members below this level are left out, and 0 keeps everyone.</value>
+  </data>
+  <data name="import-apply-members" xml:space="preserve">
+    <value>Import {0} members</value>
+  </data>
+  <data name="import-undo-note" xml:space="preserve">
+    <value>You can undo this for 24 hours.</value>
+  </data>
+  <data name="import-settings-pick" xml:space="preserve">
+    <value>Pick the sections to bring over.</value>
+  </data>
+  <data name="import-settings-skips" xml:space="preserve">
+    <value>Names already in use and deleted channels or roles are skipped.</value>
+  </data>
+  <data name="import-settings-limits" xml:space="preserve">
+    <value>Anything past your plan's limits is imported switched off.</value>
+  </data>
+  <data name="import-section-welcome" xml:space="preserve">
+    <value>Welcome and goodbye</value>
+  </data>
+  <data name="import-section-commands" xml:space="preserve">
+    <value>Custom commands</value>
+  </data>
+  <data name="import-section-reaction-roles" xml:space="preserve">
+    <value>Reaction roles</value>
+  </data>
+  <data name="import-section-twitch" xml:space="preserve">
+    <value>Twitch alerts</value>
+  </data>
+  <data name="import-section-automations" xml:space="preserve">
+    <value>Automations</value>
+  </data>
+  <data name="import-section-empty" xml:space="preserve">
+    <value>The export has nothing for this section.</value>
+  </data>
+  <data name="import-show-more" xml:space="preserve">
+    <value>Show {0} more</value>
+  </data>
+  <data name="import-apply-settings" xml:space="preserve">
+    <value>Import settings</value>
+  </data>
+  <data name="import-result-done" xml:space="preserve">
+    <value>The import is finished.</value>
+  </data>
+  <data name="import-result-partial" xml:space="preserve">
+    <value>The import is finished, but some sections could not be written.</value>
+  </data>
+  <data name="import-another" xml:space="preserve">
+    <value>Import something else</value>
+  </data>
+  <data name="import-history-empty" xml:space="preserve">
+    <value>Nothing has been imported into this server yet.</value>
+  </data>
+  <data name="import-history-xp" xml:space="preserve">
+    <value>{0}: XP for {1} members</value>
+  </data>
+  <data name="import-history-currency" xml:space="preserve">
+    <value>{0}: balances for {1} members</value>
+  </data>
+  <data name="import-history-settings" xml:space="preserve">
+    <value>{0}: server settings</value>
+  </data>
+  <data name="import-history-details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="import-status-applied" xml:space="preserve">
+    <value>Imported</value>
+  </data>
+  <data name="import-status-undone" xml:space="preserve">
+    <value>Undone</value>
+  </data>
+  <data name="import-status-undone-at" xml:space="preserve">
+    <value>Undone {0}</value>
+  </data>
+  <data name="import-status-failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="import-undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="import-undo-confirm" xml:space="preserve">
+    <value>Everything this import changed goes back to how it was before, and anything earned since is lost.</value>
+  </data>
+  <data name="import-undo-accept" xml:space="preserve">
+    <value>Undo import</value>
+  </data>
+  <data name="import-set-timezone" xml:space="preserve">
+    <value>Time zone {0}.</value>
+  </data>
+  <data name="import-set-timezone-unknown" xml:space="preserve">
+    <value>{0} is not a time zone Cakey recognizes, so the time zone stays as it is.</value>
+  </data>
+  <data name="import-set-levels-demotion" xml:space="preserve">
+    <value>Level roles are taken away when a member drops below their level.</value>
+  </data>
+  <data name="import-set-birthday-age-dropped" xml:space="preserve">
+    <value>Cakey sends one birthday message, so the MEE6 message for members who shared their age is not kept.</value>
+  </data>
+  <data name="import-set-check" xml:space="preserve">
+    <value>{0}, which deletes the message.</value>
+  </data>
+  <data name="import-set-check-warn" xml:space="preserve">
+    <value>{0}, which deletes the message and warns the member.</value>
+  </data>
+  <data name="import-set-check-dupes" xml:space="preserve">
+    <value>Repeated text filter</value>
+  </data>
+  <data name="import-set-check-caps" xml:space="preserve">
+    <value>Capital letters filter</value>
+  </data>
+  <data name="import-set-check-emojis" xml:space="preserve">
+    <value>Emoji limit of {0} per message</value>
+  </data>
+  <data name="import-set-check-spoilers" xml:space="preserve">
+    <value>Spoiler filter</value>
+  </data>
+  <data name="import-set-check-zalgo" xml:space="preserve">
+    <value>Zalgo text filter</value>
+  </data>
+  <data name="import-set-checks-defaults" xml:space="preserve">
+    <value>These checks use Cakey's own limits, which you can change on the auto-moderation page: {0}.</value>
+  </data>
+  <data name="import-set-url-whitelist" xml:space="preserve">
+    <value>{0} websites the link filter lets through.</value>
+  </data>
+  <data name="import-set-links-discord" xml:space="preserve">
+    <value>The invite filter is turned on as well, since the MEE6 link filter also blocked Discord links.</value>
+  </data>
+  <data name="import-set-links-discord-allowed" xml:space="preserve">
+    <value>The Cakey link filter also removes Discord links, which MEE6 let through.</value>
+  </data>
+  <data name="import-set-automod-ignored-roles" xml:space="preserve">
+    <value>{0} roles that auto-moderation leaves alone.</value>
+  </data>
+  <data name="import-set-automod-ignored-channels" xml:space="preserve">
+    <value>{0} channels that auto-moderation leaves alone.</value>
+  </data>
+  <data name="import-set-automod-ignored-merged" xml:space="preserve">
+    <value>MEE6 left some roles and channels out of single checks, and Cakey leaves them out of every check.</value>
+  </data>
+  <data name="import-set-automod-bots" xml:space="preserve">
+    <value>Messages from bots are left alone.</value>
+  </data>
+  <data name="import-set-audit-events" xml:space="preserve">
+    <value>{0} log types turned on: {1}.</value>
+  </data>
+  <data name="import-set-audit-channel" xml:space="preserve">
+    <value>Events are logged in {0}.</value>
+  </data>
+  <data name="import-set-audit-no-channel" xml:space="preserve">
+    <value>MEE6 does not share its log channel, so choose a channel for each log type on the audit log page.</value>
+  </data>
+  <data name="import-set-audit-unknown" xml:space="preserve">
+    <value>Cakey has no log for these MEE6 events, so they are left out: {0}.</value>
+  </data>
+  <data name="import-set-audit-ignored" xml:space="preserve">
+    <value>{0} channels whose events are not logged.</value>
+  </data>
+  <data name="import-set-embed" xml:space="preserve">
+    <value>Saved embed {0}.</value>
+  </data>
+  <data name="import-set-embeds-exist" xml:space="preserve">
+    <value>{0} embeds are empty or share a name with an embed you already saved, so they are skipped.</value>
+  </data>
+  <data name="import-set-embeds-buttons" xml:space="preserve">
+    <value>Saved embeds cannot hold buttons, so the buttons on {0} embeds are not kept.</value>
+  </data>
+  <data name="import-set-embeds-dropped" xml:space="preserve">
+    <value>A message holds up to 10 embeds, so {0} embeds past that are not kept.</value>
+  </data>
+  <data name="import-set-embeds-over" xml:space="preserve">
+    <value>This takes the server past 100 saved embeds, so delete some before saving new ones in the embed editor.</value>
+  </data>
+  <data name="import-set-embed-name-automation" xml:space="preserve">
+    <value>MEE6 automation {0}</value>
+  </data>
+  <data name="import-set-embed-name-timer" xml:space="preserve">
+    <value>MEE6 timer in {0}</value>
+  </data>
+  <data name="import-set-automation" xml:space="preserve">
+    <value>{0}, an auto responder for messages containing {1}.</value>
+  </data>
+  <data name="import-set-automation-off" xml:space="preserve">
+    <value>{0}, an auto responder for messages containing {1}, turned off in MEE6.</value>
+  </data>
+  <data name="import-set-automations-skipped" xml:space="preserve">
+    <value>Only automations started by a message containing some text can be brought over, so these are left out: {0}.</value>
+  </data>
+  <data name="import-set-automation-first-match" xml:space="preserve">
+    <value>{0} matches more than one text, so only {1} is kept.</value>
+  </data>
+  <data name="import-set-automation-other-channel" xml:space="preserve">
+    <value>{0} posted its message in another channel, and the auto responder replies in the channel the message came from.</value>
+  </data>
+  <data name="import-set-automation-unsupported" xml:space="preserve">
+    <value>{0} has steps Cakey cannot do, so they are left out: {1}.</value>
+  </data>
+  <data name="import-set-automations-limit" xml:space="preserve">
+    <value>Free servers can have 100 auto responders, so {0} automations come in turned off.</value>
+  </data>
+  <data name="import-set-automations-exist" xml:space="preserve">
+    <value>{0} automations match text an auto responder already uses, so they are skipped.</value>
+  </data>
+  <data name="import-set-automations-buttons" xml:space="preserve">
+    <value>Auto responders cannot send buttons, so the buttons on {0} automations are not kept.</value>
+  </data>
+  <data name="import-set-missing-emojis" xml:space="preserve">
+    <value>{0} emojis are not on this server, so they are left out.</value>
+  </data>
+  <data name="import-set-achievement" xml:space="preserve">
+    <value>Achievement {0}: {1}</value>
+  </data>
+  <data name="import-set-achievement-off" xml:space="preserve">
+    <value>Achievement {0}, turned off in MEE6: {1}</value>
+  </data>
+  <data name="import-set-achievements-skipped" xml:space="preserve">
+    <value>Cakey has no matching way to unlock these achievements, so they are left out: {0}.</value>
+  </data>
+  <data name="import-set-achievements-renamed" xml:space="preserve">
+    <value>Achievement names can be up to 20 characters long, so these are shortened: {0}.</value>
+  </data>
+  <data name="import-set-achievements-exist" xml:space="preserve">
+    <value>{0} achievements already exist here, so they are skipped.</value>
+  </data>
+  <data name="import-set-achievements-limit" xml:space="preserve">
+    <value>Your plan allows {0} achievements, so {1} come in turned off.</value>
+  </data>
+  <data name="import-set-achievement-channel" xml:space="preserve">
+    <value>Achievement unlocks announced in {0}.</value>
+  </data>
+  <data name="import-set-achievement-message" xml:space="preserve">
+    <value>The achievement unlock message.</value>
+  </data>
+  <data name="import-set-achievement-announce-type" xml:space="preserve">
+    <value>MEE6 announced unlocks without a set channel, so choose one on the achievements page.</value>
+  </data>
+  <data name="import-set-achievement-embeds" xml:space="preserve">
+    <value>Achievement messages are plain text on Cakey, so their embeds are not kept.</value>
+  </data>
+  <data name="import-set-feed" xml:space="preserve">
+    <value>{0} feed for {1} in {2}.</value>
+  </data>
+  <data name="import-set-feed-invalid" xml:space="preserve">
+    <value>{0} is not a feed Cakey can follow, so it is skipped.</value>
+  </data>
+  <data name="import-set-feeds-limit" xml:space="preserve">
+    <value>Free servers can have one {0} feed turned on, so {1} come in turned off.</value>
+  </data>
+  <data name="import-set-feeds-reddit-premium" xml:space="preserve">
+    <value>Reddit feeds need premium, so {0} come in turned off.</value>
+  </data>
+  <data name="import-set-timer-daily" xml:space="preserve">
+    <value>Timed message in {0}, posted every day at 12:00.</value>
+  </data>
+  <data name="import-set-timer-weekly" xml:space="preserve">
+    <value>Timed message in {0}, posted every {1} at 12:00.</value>
+  </data>
+  <data name="import-set-timer-biweekly" xml:space="preserve">
+    <value>Timed message in {0}, posted every other {1} at 12:00.</value>
+  </data>
+  <data name="import-set-timer-monthly" xml:space="preserve">
+    <value>Timed message in {0}, posted on day {1} of every month at 12:00.</value>
+  </data>
+  <data name="import-set-timer-rounded" xml:space="preserve">
+    <value>The timer in {0} ran every {1} minutes, so it now posts on the closest schedule Cakey offers.</value>
+  </data>
+  <data name="import-set-timer-time" xml:space="preserve">
+    <value>Timed messages post at 12:00 in the server's time zone, and you can change the time on the auto message page.</value>
+  </data>
+  <data name="import-set-timers-limit" xml:space="preserve">
+    <value>Your plan allows {0} auto messages, so {1} come in turned off.</value>
+  </data>
+  <data name="import-set-boost" xml:space="preserve">
+    <value>Boost of {0}% for {1} hours.</value>
+  </data>
+  <data name="import-set-boost-name" xml:space="preserve">
+    <value>MEE6 boost {0}%</value>
+  </data>
+  <data name="import-set-boosts-not-buyable" xml:space="preserve">
+    <value>Members buy boosts on Cakey, so the boosts come in with buying turned off until you turn it on.</value>
+  </data>
+  <data name="import-set-boosts-ended" xml:space="preserve">
+    <value>{0} boosts have already ended, so they are skipped.</value>
+  </data>
+  <data name="import-set-boosts-limit" xml:space="preserve">
+    <value>Your plan allows {0} boosts, so {1} come in turned off.</value>
+  </data>
+  <data name="import-section-levels" xml:space="preserve">
+    <value>Level settings</value>
+  </data>
+  <data name="import-set-nothing-matches" xml:space="preserve">
+    <value>None of the channels or roles in this file exist on this server, so most settings would be skipped. Check that the file was exported from this server.</value>
+  </data>
+  <data name="import-set-requests-failed" xml:space="preserve">
+    <value>MEE6 did not answer {0} of the requests in this export, so some settings may be missing. If a section looks empty, wait a few minutes and export again.</value>
+  </data>
+  <data name="import-set-roles-above" xml:space="preserve">
+    <value>The bot's highest role is below {0}, so it cannot give or take those roles. Move the bot's role above them before importing.</value>
+  </data>
+  <data name="import-set-channels-unpostable" xml:space="preserve">
+    <value>The bot cannot post in {0}. Give it View Channel, Send Messages and Embed Links there, or those messages will never be sent.</value>
+  </data>
+  <data name="import-set-and-more" xml:space="preserve">
+    <value>{0} and {1} more</value>
   </data>
 </root>
